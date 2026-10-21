@@ -91,6 +91,8 @@ const state = {
   order: 'top' as 'top' | 'bottom',
   satellite: false,
   transport: false,
+  condos: false,
+  by: 'value' as By,
   selected: null as string | null,
   hovered: null as string | null,
 };
@@ -104,6 +106,105 @@ interface StreetIndex { [city: string]: { file: string; bbox: [number, number, n
 let streetIndex: StreetIndex = {};
 const streetFeatures: Collection<StreetProps>['features'] = [];
 const streetLoaded = new Set<string>();
+// ---- colour by other factors (pipeline/factors.py; vacancy from data/vacancy_submarkets.csv) ----
+type By = 'value' | 'elev' | 'heat' | 'flood' | 'rail' | 'xway' | 'vaco' | 'vacc';
+interface Factor { prop: string; label: string; breaks: number[]; colors: string[]; fmt: (v: number) => string; source: string }
+const km = (v: number) => `${v < 10 ? v.toFixed(1) : v.toFixed(0)} km`;
+const FACTORS: Record<Exclude<By, 'value'>, Factor> = {
+  elev: { prop: 'f_elev', label: 'Average elevation', breaks: [2, 5, 10, 20, 50, 150],
+    colors: ['#084594', '#4292c6', '#9ecae1', '#d9f0a3', '#78c679', '#31a354', '#8c6d31'], fmt: v => `${v.toFixed(0)} m`,
+    source: 'Copernicus GLO-30 surface model (includes buildings and trees)' },
+  heat: { prop: 'f_heat', label: 'Surface heat, dry season', breaks: [36, 40, 44, 48, 52],
+    colors: ['#ffffb2', '#fed976', '#feb24c', '#fd8d3c', '#f03b20', '#bd0026'], fmt: v => `${v.toFixed(1)} °C`,
+    source: 'Landsat 8/9 land surface temperature, March–May 2023–25 (USGS)' },
+  flood: { prop: 'f_flood', label: 'Flood hazard, 100-year rain', breaks: [0.05, 0.15, 0.3, 0.5, 0.7],
+    colors: ['#f7fbff', '#c6dbef', '#6baed6', '#3182bd', '#08519c', '#08306b'], fmt: v => `${Math.round(v * 100)}% of area`,
+    source: 'UP NOAH / DREAM flood hazard maps (share of area in medium or high hazard)' },
+  rail: { prop: 'f_rail', label: 'Distance to rail station', breaks: [0.5, 1, 2, 5, 10],
+    colors: ['#005a32', '#238443', '#41ab5d', '#addd8e', '#e5e5c4', '#d9d9d9'], fmt: km, source: 'OpenStreetMap stations' },
+  xway: { prop: 'f_xway', label: 'Distance to expressway', breaks: [0.5, 1, 2, 5, 10],
+    colors: ['#7f2704', '#d94801', '#fd8d3c', '#fdd0a2', '#f0ebd8', '#d9d9d9'], fmt: km, source: 'OpenStreetMap expressways' },
+  vaco: { prop: 'f_vaco', label: 'Office vacancy', breaks: [5, 10, 15, 20, 30],
+    colors: ['#1a9850', '#91cf60', '#d9ef8b', '#fee08b', '#fc8d59', '#d73027'], fmt: v => `${v}%`,
+    source: 'Broker reports by submarket (see data/vacancy_submarkets.csv)' },
+  vacc: { prop: 'f_vacc', label: 'Condo vacancy', breaks: [5, 10, 15, 20, 30],
+    colors: ['#1a9850', '#91cf60', '#d9ef8b', '#fee08b', '#fc8d59', '#d73027'], fmt: v => `${v}%`,
+    source: 'Broker reports by submarket (see data/vacancy_submarkets.csv)' },
+};
+const factor = () => state.by === 'value' ? null : FACTORS[state.by];
+
+function factorColor(f: Factor): ExpressionSpecification {
+  const steps = f.colors.flatMap((c, i) => i === 0 ? [c] : [f.breaks[i - 1], c]);
+  return ['case', ['!=', ['typeof', ['get', f.prop]], 'number'], cssVar('--nodata'),
+    ['step', ['get', f.prop], ...steps] as unknown as ExpressionSpecification];
+}
+
+// ---- condominiums (pipeline/condos.py): one file per Metro Manila city, loaded on zoom when the toggle is on ----
+interface CondoProps { n: string; osm: string; v: number; v_a?: number; u: 'r' | 'c'; b: string; c: string; do: string; eff?: string; g?: number }
+let condoIndex: StreetIndex = {};
+const condoFeatures: Collection<CondoProps>['features'] = [];
+const condoLoaded = new Set<string>();
+const CONDO_MINZOOM = 12.5;
+
+async function loadCondosInView() {
+  if (!state.condos || map.getZoom() < CONDO_MINZOOM - 0.5) return;
+  const b = map.getBounds();
+  const todo = Object.entries(condoIndex).filter(([c, v]) => !condoLoaded.has(c)
+    && v.bbox[0] < b.getEast() && v.bbox[2] > b.getWest() && v.bbox[1] < b.getNorth() && v.bbox[3] > b.getSouth());
+  if (!todo.length) return;
+  todo.forEach(([c]) => condoLoaded.add(c));
+  const got = await Promise.all(todo.map(([, v]) => fetch(`/data/condos/${v.file}`, { cache: 'no-cache' }).then(r => r.json()).catch(() => null)));
+  for (const g of got) if (g) condoFeatures.push(...g.features);
+  (map.getSource('condos') as GeoJSONSource | undefined)?.setData({ type: 'FeatureCollection', features: condoFeatures } as never);
+}
+
+function addCondoLayers() {
+  if (map.getSource('condos')) return;
+  const dark = theme() === 'dark';
+  const vis = state.condos ? 'visible' : 'none';
+  map.addSource('condos', { type: 'geojson', data: { type: 'FeatureCollection', features: condoFeatures } as never });
+  map.addLayer({ id: 'cd-dot', type: 'circle', source: 'condos', minzoom: CONDO_MINZOOM, filter: useFilter(['has', 'v']),
+    layout: { visibility: vis },
+    paint: { 'circle-color': streetColor(), 'circle-radius': ['interpolate', ['linear'], ['zoom'], 12.5, 3, 16, 8],
+      'circle-stroke-color': dark ? '#0b100f' : '#ffffff', 'circle-stroke-width': 1.5 } });
+  const fontLayer = map.getStyle().layers.find(l => l.type === 'symbol' && Array.isArray(l.layout?.['text-font']));
+  const font = (fontLayer?.type === 'symbol' ? fontLayer.layout!['text-font'] as string[] : undefined) ?? ['Noto Sans Regular'];
+  map.addLayer({ id: 'cd-label', type: 'symbol', source: 'condos', minzoom: 15.5, filter: useFilter(['has', 'v']),
+    layout: { visibility: vis, 'text-field': ['concat', ['get', 'osm'], '\n', streetLabel()], 'text-font': font, 'text-size': 11,
+      'text-offset': [0, 1.2], 'text-anchor': 'top', 'text-optional': true },
+    paint: { 'text-color': dark ? '#e4ecea' : '#17201f', 'text-halo-color': dark ? 'rgba(16,22,21,.9)' : 'rgba(255,255,255,.9)', 'text-halo-width': 1.4 } });
+}
+
+async function setCondos(on: boolean) {
+  state.condos = on;
+  $('cd').setAttribute('aria-pressed', String(on));
+  for (const id of ['cd-dot', 'cd-label']) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', on ? 'visible' : 'none');
+  if (on) await loadCondosInView();
+  renderLegend();
+  writeHash();
+}
+
+function renderCondoCard(p: CondoProps) {
+  const card = $('card');
+  const year = meta?.current_year ?? new Date().getFullYear();
+  card.innerHTML = `
+    <div class="head"><div class="nm">${esc(p.osm)}</div><button class="close" type="button" aria-label="Close">×</button></div>
+    <div class="loc">${esc(p.b)}, ${esc(p.c)}</div>
+    <div class="big">${fmt(state.basis === 'adj' && p.v_a != null ? p.v_a : p.v)}<small> /sqm of floor area${state.basis === 'adj' ? `, adjusted to ${year}` : ''}</small></div>
+    <span class="pill good">${p.u === 'c' ? 'commercial' : 'residential'} condominium</span>
+    <dl>
+      <dt></dt><dd class="na">as scheduled${p.v_a != null ? ` → ${year}` : ''}</dd>
+      <dt>Per sqm of unit</dt><dd>${fmt(p.v)}${p.v_a != null ? ` → ${fmt(p.v_a)}` : ''}</dd>
+      ${p.g != null ? `<dt>Growth rate used</dt><dd>${(p.g * 100).toFixed(1)}% a year</dd>` : ''}
+      <dt>Schedule effective</dt><dd>${esc(p.eff || '')}</dd>
+      <dt>Department Order</dt><dd>${esc(p.do.replace('DO ', ''))}</dd>
+    </dl>
+    <p class="q">BIR's zonal value for units in "${esc(p.n)}", per square metre of floor area, not land. Placed on the
+    OpenStreetMap building of that name; a tax floor, not a market price.</p>`;
+  card.hidden = false;
+  card.querySelector<HTMLButtonElement>('.close')!.onclick = () => { card.hidden = true; };
+}
+
 // Roads & rail overlay (pipeline/transport.py): loaded on first use
 let transport: object | null = null;
 const TR_COLORS = { expressway: '#d9480f', road: '#868e96', rail: '#7048e8' };
@@ -265,6 +366,8 @@ function colorOf(k: string): ExpressionSpecification {
 // Up close, a barangay in "typical" view shifts to its interior-lot value: what BIR charges on streets it does not
 // list, so the village and street values drawn on top read against the right background.
 function fillColor(): ExpressionSpecification {
+  const f = factor();
+  if (f) return factorColor(f);
   if (state.mode !== 'typ') return colorOf(key());
   return ['interpolate', ['linear'], ['zoom'], STREET_FADE[0], colorOf(key()), STREET_FADE[1], colorOf(key('lo'))];
 }
@@ -376,11 +479,13 @@ function addLayers() {
   });
   if (state.selected) map.setFeatureState({ source: 'zonal', id: state.selected }, { sel: true });
   addTransportLayers();
+  addCondoLayers();
 }
 
 // with imagery on, the colours fade so roofs and greenery show through
 // and at street zoom the barangay colours fade further, so village and street values stand out
 const fillOpacity = (): ExpressionSpecification => {
+  if (factor()) return ['literal', state.satellite ? 0.55 : 0.85] as unknown as ExpressionSpecification;
   const q: ExpressionSpecification = ['coalesce', ['get', qKey()], 'no_data'];
   const base: ExpressionSpecification = state.satellite
     ? ['match', q, 'barangay_data', 0.5, 'no_data', 0.25, 0.3]
@@ -421,6 +526,10 @@ function streetLabel(): ExpressionSpecification {
 /** Re-apply everything that depends on residential/commercial or as-scheduled/adjusted. */
 function applyUseAndBasis() {
   if (!map.getLayer('z-fill')) return;
+  const showValues = state.by === 'value' ? 'visible' : 'none';
+  for (const id of ['z-hatch', 'st-fill', 'st-outline', 'st-casing', 'st-line', 'st-label']) {
+    if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', showValues);
+  }
   map.setFilter('z-hatch', hatchFilter());
   map.setPaintProperty('z-fill', 'fill-opacity', fillOpacity());
   if (map.getLayer('st-fill')) {
@@ -430,6 +539,12 @@ function applyUseAndBasis() {
     map.setFilter('st-line', useFilter(['!=', ['get', 'k'], 'village']));
     map.setFilter('st-label', useFilter(['==', ['get', 'k'], 'village']));
     map.setLayoutProperty('st-label', 'text-field', streetLabel());
+  }
+  if (map.getLayer('cd-dot')) {
+    map.setFilter('cd-dot', useFilter(['has', 'v']));
+    map.setFilter('cd-label', useFilter(['has', 'v']));
+    map.setPaintProperty('cd-dot', 'circle-color', streetColor());
+    map.setLayoutProperty('cd-label', 'text-field', ['concat', ['get', 'osm'], '\n', streetLabel()]);
   }
 }
 
@@ -470,6 +585,11 @@ map.on('mouseleave', 'z-fill', () => {
   map.getCanvas().style.cursor = '';
 });
 map.on('click', (e) => {
+  if (state.condos && map.getLayer('cd-dot')) {
+    const box: [[number, number], [number, number]] = [[e.point.x - 6, e.point.y - 6], [e.point.x + 6, e.point.y + 6]];
+    const cf = map.queryRenderedFeatures(box, { layers: ['cd-dot'] })[0];
+    if (cf) { renderCondoCard(cf.properties as unknown as CondoProps); return; }
+  }
   if (state.transport && map.getLayer('tr-line')) {
     const box: [[number, number], [number, number]] = [[e.point.x - 6, e.point.y - 6], [e.point.x + 6, e.point.y + 6]];
     const tf = map.queryRenderedFeatures(box, { layers: ['tr-station', 'tr-line'] })[0];
@@ -483,7 +603,7 @@ map.on('click', (e) => {
   const f = map.queryRenderedFeatures(e.point, { layers: ['z-fill'] })[0];
   select(f ? String(f.id) : null);
 });
-map.on('moveend', () => { renderRank(); void loadStreetsInView(); renderLegend(); });
+map.on('moveend', () => { renderRank(); void loadStreetsInView(); void loadCondosInView(); renderLegend(); });
 
 // ---- selection + card ----
 function select(id: string | null, fly = false) {
@@ -570,6 +690,10 @@ function renderCard(id: string) {
       ${other != null ? row(`${state.use === 'com' ? 'Residential' : 'Commercial'} typical`, fmt(other), '') : ''}
       ${p.since ? row('Values set in', p.since, '') : ''}
       ${p.do ? row('Department Order', `${p.do.replace('DO ', '')}${rdo ? ` · ${rdo}` : ''}`, '') : ''}
+      ${Object.values(FACTORS).map(f => {
+        const v = (raw as unknown as Record<string, unknown>)[f.prop];
+        return typeof v === 'number' ? row(f.label, f.fmt(v), '') : '';
+      }).join('')}
     </dl>
     <p class="q">${p.nores ? `BIR's current schedule (${esc(p.nores)}) lists no residential land here, only commercial or industrial values, so older residential values are not used. ` : ''}${esc(q.text(p))}${p.since ? ` The ${p.do} schedule repeats the values of ${p.since.split(',')[0]}, so the adjustment starts from ${p.since.split(', ')[1]}.` : ''}${
       p.yrs != null ? ` Adjusted values grow the schedule ${p.yrs.toFixed(0)} ${p.yrs < 1.5 ? 'year' : 'years'} at the rate BIR raised the same streets between its last two revisions${rough ? '. That is a long projection; treat it as rough' : ''}.` : ''}</p>`;
@@ -579,6 +703,18 @@ function renderCard(id: string) {
 
 // ---- legend ----
 function renderLegend() {
+  const f = factor();
+  if (f) {
+    const labels = f.colors.map((_, i) => i === 0 ? `under ${f.fmt(f.breaks[0])}` : i === f.colors.length - 1
+      ? `${f.fmt(f.breaks[i - 1])} +` : `${f.fmt(f.breaks[i - 1])} – ${f.fmt(f.breaks[i])}`);
+    $('legend').innerHTML = `
+      <div>${f.label}</div>
+      <div class="keys" style="display:grid;gap:3px">${f.colors.map((c, i) => `<span><i class="sw" style="background:${c}"></i>${labels[i]}</span>`).join('')}
+        <span><i class="sw" style="background:var(--nodata)"></i>no data</span></div>
+      <div class="imagery">${f.source}</div>
+      ${state.transport ? `<div class="imagery"><span style="color:${TR_COLORS.expressway}">━</span> expressway <span style="color:${TR_COLORS.rail}">━</span> rail</div>` : ''}`;
+    return;
+  }
   const grad = STOPS.map((c, i) => `${c} ${(i / (STOPS.length - 1) * 100).toFixed(0)}%`).join(',');
   $('legend').innerHTML = `
     <div>${MODE_LABEL[state.mode]} ${useWord()} value, ₱/sqm${state.basis === 'adj' ? `, adjusted to ${meta?.current_year ?? ''}` : ''}</div>
@@ -590,6 +726,7 @@ function renderLegend() {
     }).join('')}</div>
     <div class="keys"><span><i class="sw hatch"></i>city median or estimate</span><span><i class="sw" style="background:var(--nodata)"></i>no data</span></div>
     ${Object.keys(streetIndex).length ? `<div class="imagery">${map.getZoom() < STREET_FADE[0] ? 'Zoom in on Metro Manila for village and street values' : `Villages filled, streets as lines (dashed: whole street shown)${state.mode === 'typ' ? '; barangays show their interior-lot value' : ''}`}</div>` : ''}
+    ${state.condos ? `<div class="imagery">● condominiums: BIR value per sqm of floor area${map.getZoom() < CONDO_MINZOOM ? ' (zoom in on Metro Manila)' : ''}</div>` : ''}
     ${state.transport ? `<div class="imagery"><span style="color:${TR_COLORS.expressway}">━</span> expressway <span style="color:${TR_COLORS.rail}">━</span> rail · dashed: under construction · dotted: proposed</div>` : ''}
     ${state.satellite ? `<div class="imagery">Imagery: ${SATELLITE.name} (credit at bottom right)</div>` : ''}`;
 }
@@ -598,6 +735,29 @@ function renderLegend() {
 function renderRank() {
   if (!zonal) return;
   const b = map.getBounds();
+  const fac = factor();
+  if (fac) {
+    const inView = zonal.features.filter(f => {
+      const v = (f.properties as unknown as Record<string, unknown>)[fac.prop];
+      const bb = bboxes.get(f.properties.id)!;
+      return typeof v === 'number' && b.contains([(bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2]);
+    });
+    const val = (f: Feature) => (f.properties as unknown as Record<string, number>)[fac.prop];
+    inView.sort((a, z) => val(z) - val(a));
+    const pick = state.order === 'top' ? inView.slice(0, 10) : inView.slice(-10).reverse();
+    $('rank-h').textContent = `${state.order === 'top' ? 'Highest' : 'Lowest'} ${fac.label.toLowerCase()} in view`;
+    $('rank-note').textContent = `${inView.length.toLocaleString()} barangays with data in the current map view. Source: ${fac.source}.`;
+    const ol = $('rank');
+    ol.innerHTML = '';
+    pick.forEach((f, i) => {
+      const li = document.createElement('li');
+      li.tabIndex = 0;
+      li.innerHTML = `<span class="n">${String(state.order === 'top' ? i + 1 : inView.length - i).padStart(2, '0')}</span><span>${esc(f.properties.n)} <span class="c">${esc(f.properties.c)}</span></span><span class="v">${fac.fmt(val(f))}</span>`;
+      li.onclick = () => select(f.properties.id, true);
+      ol.appendChild(li);
+    });
+    return;
+  }
   const k = key();
   const rows = zonal.features.filter(f => {
     const p = view(f.properties);
@@ -719,6 +879,8 @@ function wireControls() {
   });
   $('sat').onclick = () => { state.satellite = !state.satellite; applySatellite(); };
   $('tr').onclick = () => { void setTransport(!state.transport); };
+  $('cd').onclick = () => { void setCondos(!state.condos); };
+  $<HTMLSelectElement>('by').onchange = e => { state.by = (e.target as HTMLSelectElement).value as By; repaint(); };
   $('theme').onclick = () => {
     const next = theme() === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = next;
@@ -749,6 +911,8 @@ function writeHash() {
   if (state.satellite) h.set('sat', '1');
   if (state.use === 'com') h.set('use', 'com');
   if (state.transport) h.set('tr', '1');
+  if (state.condos) h.set('cd', '1');
+  if (state.by !== 'value') h.set('by', state.by);
   const s = h.toString();
   history.replaceState(null, '', s ? `#${s}` : location.pathname + location.search);
 }
@@ -760,7 +924,11 @@ function readHash() {
   pressed('[data-mode]', document.querySelector(`[data-mode="${state.mode}"]`)!);
   state.satellite = h.get('sat') === '1';
   state.use = h.get('use') === 'com' ? 'com' : 'res';
+  const by = h.get('by') as By | null;
+  state.by = by && by in FACTORS ? by : 'value';
+  $<HTMLSelectElement>('by').value = state.by;
   if ((h.get('tr') === '1') !== state.transport) void setTransport(h.get('tr') === '1');
+  if ((h.get('cd') === '1') !== state.condos) void setCondos(h.get('cd') === '1');
   pressed('[data-use]', document.querySelector(`[data-use="${state.use}"]`)!);
   $('sat').setAttribute('aria-pressed', String(state.satellite));
   if (h.get('adj') === '1' && meta.adjusted_available) { state.basis = 'adj'; pressed('[data-basis]', document.querySelector('[data-basis="adj"]')!); }
@@ -777,6 +945,12 @@ async function boot() {
   const [z, c, m, si] = await Promise.all([get('/data/zonal.geojson'), get('/data/cities.geojson'), get('/data/meta.json'),
     get('/data/streets/index.json').catch(() => ({}))]);
   streetIndex = si;
+  condoIndex = await get('/data/condos/index.json').catch(() => ({}));
+  for (const k of ['vaco', 'vacc'] as const) {
+    if (!(z as Collection<Props>).features.some(f => typeof (f.properties as unknown as Record<string, unknown>)[FACTORS[k].prop] === 'number')) {
+      document.querySelector(`#by option[value="${k}"]`)?.remove();
+    }
+  }
   zonal = z; cities = c; meta = m;
   for (const f of zonal.features as Feature[]) { byId.set(f.properties.id, f); bboxes.set(f.properties.id, bboxOf(f.geometry)); }
   buildIndex();

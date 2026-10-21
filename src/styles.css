@@ -45,6 +45,7 @@ h1 { font-family: var(--f-display); font-weight: 800; font-size: clamp(24px, 4.4
 button:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .btn { font: 500 13px var(--f-body); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; cursor: pointer; }
 .btn.toggle { min-height: 40px; }
+select.btn { min-height: 40px; font: 500 13px var(--f-body); padding-right: 28px; }
 .btn.toggle[aria-pressed="true"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
 .legend .imagery { font-size: 10.5px; color: var(--muted); max-width: 240px; }
 .legend .imagery a { color: inherit; }

@@ -68,6 +68,20 @@ rows place. One cached OSM request per city (`cache/osm/`); one GeoJSON per city
 loaded only when you zoom in. Review files: `pipeline/review/streets_<city>.csv`. Method and limits:
 [docs/pilot-muntinlupa-streets.md](docs/pilot-muntinlupa-streets.md).
 
+## Other layers
+
+| Layer | Source | Pipeline |
+|---|---|---|
+| Roads & rail (current, under construction, proposed) | OpenStreetMap | `pipeline/transport.py` |
+| Condominium values per building | BIR RC/CC rows on named OSM buildings (31% of rows place) | `pipeline/condos.py`, review `pipeline/review/condos.csv` |
+| Flood hazard (share of barangay in medium/high hazard, 100-year rain) | UP NOAH / DREAM via LiPAD WFS (ODbL); NCR and Bulacan fully, Cavite/Laguna/Rizal partly | `pipeline/factors.py flood` |
+| Elevation | Copernicus GLO-30 (surface model) | `pipeline/factors.py elevation` |
+| Surface heat (dry-season afternoon land surface temperature) | Landsat 8/9 C2 L2 via Planetary Computer | `pipeline/factors.py heat` |
+| Distance to rail station / expressway | OpenStreetMap | `pipeline/factors.py access` |
+| Vacancy by submarket | hand-entered from broker reports: fill `data/vacancy_submarkets.csv` (with source and period); barangays per submarket in `data/vacancy_submarket_barangays.csv`. The option appears once a row has a number. | `pipeline/build.py` |
+
+`python -m pipeline.factors all` refreshes the factors (slow; downloads are cached in `cache/factors/`).
+
 ## Satellite imagery
 
 The **Satellite** button puts imagery under the colours. With no configuration it uses

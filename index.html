@@ -58,6 +58,18 @@
         <button type="button" data-basis="raw" aria-pressed="true">As scheduled</button>
         <button type="button" data-basis="adj" aria-pressed="false">Adjusted to today</button>
       </div>
+      <label class="by"><span class="sr">Colour by</span>
+        <select id="by" class="btn" aria-label="Colour the map by">
+          <option value="value">Colour: land value</option>
+          <option value="flood">Colour: flood hazard</option>
+          <option value="elev">Colour: elevation</option>
+          <option value="heat">Colour: surface heat</option>
+          <option value="rail">Colour: distance to rail</option>
+          <option value="xway">Colour: distance to expressway</option>
+          <option value="vaco">Colour: office vacancy</option>
+          <option value="vacc">Colour: condo vacancy</option>
+        </select></label>
+      <button type="button" class="btn toggle" id="cd" aria-pressed="false" title="Show condominium buildings with BIR values per sqm of floor area">Condos</button>
       <button type="button" class="btn toggle" id="tr" aria-pressed="false" title="Show expressways and rail, current and future">Roads &amp; rail</button>
       <button type="button" class="btn toggle" id="sat" aria-pressed="false" title="Show satellite imagery under the colours">Satellite</button>
       <p class="hint" id="basis-note" hidden></p>
@@ -90,11 +102,16 @@
         <p><b>Zooming in</b> on Metro Manila shows BIR's values for individual villages and streets, matched to OpenStreetMap shapes. Up close, a barangay's colour becomes its interior-lot value, what BIR charges on streets it does not list.</p>
         <p><b>Solid colour</b> means the barangay has its own BIR values. <b>Hatched and faded</b> means it does not: it shows an estimate (the median of neighbouring barangays) or, where no neighbour has values, the city median. <b>Grey</b> means no data yet.</p>
         <p><b>Schedules are stale, unevenly.</b> BIR revises each Revenue District Office on its own timetable, so most schedules in force date from 2018 to 2024, and a 2018 value is not comparable with a 2024 one. <b>Adjusted to today</b> grows each value from its schedule's effectivity date at its district's own pace: the median yearly increase BIR gave the same streets between consecutive revisions. It is a projection of BIR's own trend, not a market estimate; the card shows both numbers and the rate used.</p>
+        <p><b>Colour by</b> swaps land value for another factor: share of the barangay in medium or high flood hazard (100-year rain), average elevation (a surface model, so towers add height), dry-season afternoon surface temperature (roofs and roads, not air temperature), and distance to the nearest rail station or expressway. <b>Condos</b> marks buildings with BIR's condominium value, per square metre of floor area. <b>Roads &amp; rail</b> shows expressways and rail, dashed where under construction and dotted where proposed.</p>
         <p class="disclaimer"><b>Before any transaction, verify the zonal value with the BIR Revenue District Office</b> that covers the property. This site can be wrong or out of date.</p>
         <h2>Sources</h2>
         <ul class="src">
           <li>Zonal values: <a href="https://www.bir.gov.ph" target="_blank" rel="noopener">Bureau of Internal Revenue</a> schedules (Department Orders), one workbook per Revenue District Office. A few barangays fall back to <a href="https://ren.ph/tools/zonal-value" target="_blank" rel="noopener">REN.PH</a>'s index of the same schedules.</li>
           <li>Boundaries: <a href="https://psa.gov.ph/classification/psgc" target="_blank" rel="noopener">PSA</a> / NAMRIA, PSGC December 2023 (Manila: 2019 release), via <a href="https://github.com/faeldon/philippines-json-maps" target="_blank" rel="noopener">faeldon/philippines-json-maps</a>.</li>
+          <li>Flood hazard: UP NOAH / DREAM 100-year flood hazard maps via <a href="https://lipad-fmc.dream.upd.edu.ph" target="_blank" rel="noopener">LiPAD</a> (ODbL).</li>
+          <li>Elevation: Copernicus GLO-30 (© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA).</li>
+          <li>Surface heat: Landsat 8/9 Collection 2 surface temperature (USGS), via <a href="https://planetarycomputer.microsoft.com" target="_blank" rel="noopener">Microsoft Planetary Computer</a>.</li>
+          <li>Roads, rail, villages, streets and buildings: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors (ODbL).</li>
           <li>Basemap: <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>, © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</li>
           <li>Code and data pipeline: <a href="https://github.com/AndrewConcejero/ph-zonal-map" target="_blank" rel="noopener">github.com/AndrewConcejero/ph-zonal-map</a>.</li>
         </ul>
