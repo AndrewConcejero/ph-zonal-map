@@ -4,10 +4,96 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Metro Manila Zonal Map</title>
-  <meta name="description" content="BIR residential zonal values per square meter, barangay by barangay, across Metro Manila, Cavite, Laguna, Rizal and Bulacan.">
+  <meta name="description" content="BIR residential zonal values per square meter, barangay by barangay, across Metro Manila, Cavite, Laguna, Rizal and Bulacan. Free, with data quality marked on every area.">
+  <meta name="theme-color" content="#f4f6f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#101615" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://ph-zonal-map.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PH Zonal Map">
+  <meta property="og:title" content="What the taxman thinks Metro Manila land is worth">
+  <meta property="og:description" content="BIR zonal values per sqm for 3,900 barangays in Metro Manila, Cavite, Laguna, Rizal and Bulacan. Tap any barangay for its values.">
+  <meta property="og:url" content="https://ph-zonal-map.vercel.app/">
+  <meta property="og:image" content="https://ph-zonal-map.vercel.app/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Map of Metro Manila barangays shaded by BIR zonal value, darkest in Makati and BGC">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <script>
+    // apply a saved theme before first paint
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
+  </script>
 </head>
 <body>
-  <div id="map" style="position:fixed;inset:0"></div>
+  <div class="wrap">
+    <header>
+      <div class="topline">
+        <div class="eyebrow">BIR zonal values · residential · ₱ per sqm of land</div>
+        <button class="btn icon" id="theme" type="button" aria-label="Switch colour theme" title="Switch colour theme"></button>
+      </div>
+      <h1>What the taxman thinks Metro Manila land is worth</h1>
+      <p class="lede">Barangay by barangay across Metro Manila, Cavite, Laguna, Rizal and Bulacan. These are BIR tax floors, not market prices, so read the map as a ranking.</p>
+    </header>
+
+    <div class="controls">
+      <div class="search" role="search">
+        <label for="q" class="sr">Search barangay or city</label>
+        <input id="q" type="search" placeholder="Search barangay or city" autocomplete="off" spellcheck="false"
+               role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
+        <ul id="results" role="listbox" hidden></ul>
+      </div>
+      <div class="seg" role="group" aria-label="Value shown">
+        <button type="button" data-mode="typ" aria-pressed="true">Typical</button>
+        <button type="button" data-mode="lo" aria-pressed="false">Interior lot</button>
+        <button type="button" data-mode="hi" aria-pressed="false">Prime</button>
+      </div>
+      <div class="seg" role="group" aria-label="Raw or adjusted for schedule age">
+        <button type="button" data-basis="raw" aria-pressed="true">As scheduled</button>
+        <button type="button" data-basis="adj" aria-pressed="false">Adjusted to today</button>
+      </div>
+      <p class="hint" id="basis-note" hidden></p>
+    </div>
+
+    <div class="mapbox">
+      <div id="map" aria-label="Map of residential zonal values by barangay"></div>
+      <div class="legend" id="legend"></div>
+      <div class="card" id="card" hidden aria-live="polite"></div>
+    </div>
+
+    <div class="grid2">
+      <section>
+        <div class="rank-head">
+          <h2 id="rank-h">Barangays in view</h2>
+          <div class="seg small" role="group" aria-label="Ranking order">
+            <button type="button" data-order="top" aria-pressed="true">Highest</button>
+            <button type="button" data-order="bottom" aria-pressed="false">Lowest</button>
+          </div>
+        </div>
+        <p class="hint" id="rank-note"></p>
+        <ol class="rank" id="rank"></ol>
+      </section>
+
+      <section class="notes" id="about">
+        <h2>How to read this</h2>
+        <p><b>Zonal values are BIR tax floors, not market prices.</b> BIR uses them to compute taxes on property sales. Market prices usually run higher, sometimes by a lot. Use the map to see which places are valued above others.</p>
+        <p><b>Interior lot</b> is the lowest residential value BIR sets in the barangay, usually for "all other streets". <b>Prime</b> is the highest, usually a main road or a named subdivision. <b>Typical</b> is the median of the barangay's street values. Where only the lowest and highest are known, it is their geometric mean.</p>
+        <p><b>Solid colour</b> means the barangay has its own BIR values. <b>Hatched and faded</b> means it does not: it shows the city median, or an estimate from neighbouring barangays. <b>Grey</b> means no data yet.</p>
+        <p><b>Schedules are stale, unevenly.</b> BIR revises each district on its own timetable, so effectivity dates run from 2018 to 2024. A 2018 value and a 2024 value are not comparable; Bulacan looks cheaper partly because its schedule is older. "Adjusted to today" will project values forward using each district's own growth between revisions, once those revisions are loaded.</p>
+        <p class="disclaimer"><b>Before any transaction, verify the zonal value with the BIR Revenue District Office</b> that covers the property. This site can be wrong or out of date.</p>
+        <h2>Sources</h2>
+        <ul class="src">
+          <li>Zonal values: <a href="https://www.bir.gov.ph" target="_blank" rel="noopener">Bureau of Internal Revenue</a> schedules (Department Orders), as indexed by <a href="https://ren.ph/tools/zonal-value" target="_blank" rel="noopener">REN.PH</a>.</li>
+          <li>Boundaries: <a href="https://psa.gov.ph/classification/psgc" target="_blank" rel="noopener">PSA</a> / NAMRIA, PSGC December 2023 (Manila: 2019 release), via <a href="https://github.com/faeldon/philippines-json-maps" target="_blank" rel="noopener">faeldon/philippines-json-maps</a>.</li>
+          <li>Basemap: <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>, © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</li>
+          <li>Code and data pipeline: <a href="https://github.com/AndrewConcejero/ph-zonal-map" target="_blank" rel="noopener">github.com/AndrewConcejero/ph-zonal-map</a>.</li>
+        </ul>
+        <p class="hint" id="coverage"></p>
+      </section>
+    </div>
+  </div>
   <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
