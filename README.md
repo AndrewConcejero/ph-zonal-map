@@ -64,3 +64,7 @@ npm run dev  # local site at http://localhost:5173
 
 Pushing to `main` deploys to Vercel.
 
+
+## License
+
+Code: [MIT](LICENSE). Data: BIR schedules are public records; boundary data is under the terms of its upstream repo.
