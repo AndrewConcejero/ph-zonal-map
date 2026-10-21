@@ -9,7 +9,8 @@ Each residential land (RR) row of a barangay's current schedule is placed as:
 Only OSM shapes inside (or touching) the row's own barangay are considered, so common names like
 "Rizal St" cannot match in the wrong place.
 
-Usage: python -m pipeline.streets Muntinlupa
+Usage: python -m pipeline.streets Muntinlupa      one city
+       python -m pipeline.streets --ncr           every Metro Manila city, plus public/data/streets/index.json
 Writes public/data/streets/<city>.geojson and pipeline/review/streets_<city>.csv.
 """
 from __future__ import annotations
@@ -114,7 +115,7 @@ def place_segment(line, cross_lines: list) -> object | None:
     return unary_union(segs) if segs else None
 
 
-def run(city: str) -> None:
+def run(city: str) -> dict:
     zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
     bgys = {f['properties']['id']: f for f in zonal if f['properties']['c'] == city}
     bgeom = {k: shape(f['geometry']) for k, f in bgys.items()}
@@ -179,7 +180,7 @@ def run(city: str) -> None:
                 report.append(rec)
                 continue
             def as_village():
-                cands = sorted(((max(name_score(alt, a['name']) for alt in alternatives(street)), a) for a in near_areas),
+                cands = sorted(((max((name_score(alt, a['name']) for alt in alternatives(street)), default=0), a) for a in near_areas),
                                key=lambda x: -x[0])
                 if not cands:
                     return None, ''
@@ -260,6 +261,7 @@ def run(city: str) -> None:
                 if k in p:
                     p[f'{k}_a'] = round(p[k] * (1 + bp['g']) ** bp['yrs'])
         p['eff'] = bp.get('eff', '')
+        p['c'] = city
 
     OUT.mkdir(parents=True, exist_ok=True)
     slug = city.lower().replace(' ', '-')
@@ -277,10 +279,22 @@ def run(city: str) -> None:
     kinds = Counter(x['kind'] for x in report)
     placed = sum(n for k, n in kinds.items() if k in ('village', 'segment', 'street'))
     priced = sum(n for k, n in kinds.items() if k != 'background')
-    print(f'{city}: {len(report)} RR rows in current schedules; {dict(kinds)}')
-    print(f'placed {placed}/{priced} priced rows ({placed / priced:.0%}); '
-          f'{(OUT / f"{slug}.geojson").stat().st_size / 1e3:.0f} KB')
+    size = (OUT / f'{slug}.geojson').stat().st_size
+    print(f'{city}: placed {placed}/{priced} priced RR rows ({placed / max(priced, 1):.0%}); {dict(kinds)}; {size / 1e3:.0f} KB')
+    return {'file': f'{slug}.geojson', 'bbox': [round(x, 4) for x in unary_union(list(bgeom.values())).bounds],
+            'features': len(out), 'placed': placed, 'priced': priced, 'kb': round(size / 1e3)}
+
+
+def run_ncr() -> None:
+    zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
+    cities = sorted({f['properties']['c'] for f in zonal if f['properties']['p'] == 'Metro Manila'})
+    index = {}
+    for c in cities:
+        index[c] = run(c)
+    (OUT / 'index.json').write_text(json.dumps(index, indent=1, ensure_ascii=False), encoding='utf-8')
+    placed, priced = sum(v['placed'] for v in index.values()), sum(v['priced'] for v in index.values())
+    print(f'Metro Manila: placed {placed}/{priced} ({placed / priced:.0%}); {sum(v["kb"] for v in index.values()) / 1e3:.1f} MB total')
 
 
 if __name__ == '__main__':
-    run(sys.argv[1] if len(sys.argv) > 1 else 'Muntinlupa')
+    run_ncr() if sys.argv[1:] == ['--ncr'] else run(sys.argv[1] if len(sys.argv) > 1 else 'Muntinlupa')

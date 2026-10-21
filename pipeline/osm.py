@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -47,8 +48,16 @@ def fetch(city: str) -> dict:
     q = QUERY.format(bbox=f'{s:.5f},{w:.5f},{n:.5f},{e:.5f}')
     req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({'data': q}).encode(), headers={'User-Agent': UA})
     t = time.time()
-    with urllib.request.urlopen(req, timeout=240) as r:
-        body = r.read()
+    for attempt in range(4):  # Overpass answers 429/504 when busy: back off and retry
+        try:
+            with urllib.request.urlopen(req, timeout=300) as r:
+                body = r.read()
+            break
+        except urllib.error.HTTPError as e:
+            if e.code not in (429, 502, 503, 504) or attempt == 3:
+                raise
+            time.sleep(30 * (attempt + 1))
+    time.sleep(5)  # be polite between cities
     data = json.loads(body)
     path.write_bytes(body)
     print(f'fetched {len(body) / 1e6:.1f} MB for {city} in {time.time() - t:.0f}s')
