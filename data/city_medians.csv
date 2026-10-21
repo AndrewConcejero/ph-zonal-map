@@ -1,0 +1,44 @@
+psgc,city,province,median_res,schedule_effective
+1380100000,Caloocan,Metro Manila,13700,2023-09-17
+1380200000,Las Piñas,Metro Manila,15000,2021-04-09
+1380300000,Makati,Metro Manila,120000,
+1380400000,Malabon,Metro Manila,9500,
+1380500000,Mandaluyong,Metro Manila,40000,
+1380600000,Manila,Metro Manila,44000,
+1380700000,Marikina,Metro Manila,9000,
+1380800000,Muntinlupa,Metro Manila,20000,
+1380900000,Navotas,Metro Manila,10000,
+1381000000,Parañaque,Metro Manila,33000,
+1381100000,Pasay,Metro Manila,44000,
+1381200000,Pasig,Metro Manila,43500,
+1381300000,Quezon City,Metro Manila,50000,2024-05-01
+1381400000,San Juan,Metro Manila,55000,
+1381500000,Taguig,Metro Manila,47000,
+1381600000,Valenzuela,Metro Manila,6600,2021-06-04
+1381701000,Pateros,Metro Manila,12000,
+402103000,Bacoor,Cavite,7500,2022-07-10
+402104000,Carmona,Cavite,10600,2021-10-23
+402105000,Cavite City,Cavite,7000,2022-07-10
+402106000,Dasmariñas,Cavite,5000,2021-10-23
+402108000,General Trias,Cavite,7000,2022-07-10
+402109000,Imus,Cavite,7500,2021-10-23
+402111000,Kawit,Cavite,7000,2022-07-10
+402118000,Silang,Cavite,6000,2021-10-23
+402119000,Tagaytay,Cavite,7050,2021-10-23
+403428000,Santa Rosa,Laguna,9500,2024-07-04
+403403000,Biñan,Laguna,8375,2024-07-04
+403425000,San Pedro,Laguna,7200,2024-07-04
+403404000,Cabuyao,Laguna,6850,2024-07-04
+403405000,Calamba,Laguna,6000,2023-10-13
+301410000,Meycauayan,Bulacan,5800,2018-05-09
+301411000,Marilao,Bulacan,3600,2018-05-09
+301420000,San Jose del Monte,Bulacan,6800,2018-05-09
+301404000,Bocaue,Bulacan,4000,2020-03-07
+301413000,Obando,Bulacan,2565,2018-05-09
+405802000,Antipolo,Rizal,6000,2023-02-16
+405805000,Cainta,Rizal,4250,2020-09-15
+405820000,Taytay,Rizal,3000,2020-09-15
+405812000,San Mateo,Rizal,7250,2023-02-16
+405810000,Rodriguez,Rizal,7000,2023-02-16
+405801000,Angono,Rizal,2500,2020-09-15
+405804000,Binangonan,Rizal,2300,2020-09-15

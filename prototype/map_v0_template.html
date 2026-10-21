@@ -1,0 +1,207 @@
+<title>Metro Manila Zonal Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: survey-sheet header, full-bleed map with a floating legend, ranked list and data notes beneath */
+:root{
+  --bg:#f4f6f4; --panel:#ffffff; --fg:#17201f; --muted:#5c6a68; --line:#d5ddda;
+  --nodata:#dfe3e1; --accent:#0f6b6b; --hatch:#7c8a87;
+  --f-display:"Archivo",system-ui,sans-serif; --f-body:"IBM Plex Sans",system-ui,sans-serif; --f-data:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#101615; --panel:#18201f; --fg:#e4ecea; --muted:#94a3a0; --line:#2a3634; --nodata:#26302e; --accent:#5cc4bf; --hatch:#7d8c89; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101615; --panel:#18201f; --fg:#e4ecea; --muted:#94a3a0; --line:#2a3634; --nodata:#26302e; --accent:#5cc4bf; --hatch:#7d8c89; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px;display:grid;gap:18px}
+header{display:grid;gap:6px}
+.eyebrow{font-family:var(--f-data);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(26px,4.4vw,40px);line-height:1.05;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.lede{color:var(--muted);max-width:68ch;margin:0}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--panel)}
+.seg button{font:500 13px var(--f-body);color:var(--fg);background:transparent;border:0;padding:8px 12px;cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--bg)}
+.seg button:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{font:500 13px var(--f-body);color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 12px;cursor:pointer}
+.hint{font-size:13px;color:var(--muted)}
+.mapbox{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;height:min(78vh,760px);min-height:440px}
+svg#map{width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+path.f{stroke:var(--bg);stroke-width:.35;vector-effect:non-scaling-stroke}
+path.f.city{stroke-width:.9}
+path.f:hover,path.f.sel{stroke:var(--fg);stroke-width:1.6}
+.legend{position:absolute;left:12px;bottom:12px;background:color-mix(in srgb,var(--panel) 92%,transparent);border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:grid;gap:6px;font-size:12px;max-width:calc(100% - 24px)}
+.legend .bar{height:10px;border-radius:2px;width:240px;max-width:100%}
+.legend .ticks{display:flex;justify-content:space-between;font-family:var(--f-data);font-size:11px;color:var(--muted);width:240px;max-width:100%}
+.legend .keys{display:flex;flex-wrap:wrap;gap:10px;color:var(--muted)}
+.sw{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-2px;margin-right:4px;border:1px solid var(--line)}
+.card{position:absolute;right:12px;top:12px;width:min(300px,calc(100% - 24px));background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:4px;box-shadow:0 6px 24px rgb(0 0 0 / .12)}
+.card .nm{font-family:var(--f-display);font-weight:700;font-size:18px;line-height:1.2}
+.card .loc{font-size:12px;color:var(--muted)}
+.card .big{font-family:var(--f-data);font-size:22px;font-weight:500;font-variant-numeric:tabular-nums}
+.card .row{display:flex;justify-content:space-between;gap:10px;font-family:var(--f-data);font-size:12.5px;font-variant-numeric:tabular-nums}
+.pill{justify-self:start;font-size:11px;font-family:var(--f-data);padding:2px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.pill.good{border-color:var(--accent);color:var(--accent)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+section{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;min-width:0}
+h2{font-family:var(--f-display);font-weight:700;font-size:18px;margin:0 0 10px}
+ol.rank{margin:0;padding:0;list-style:none;display:grid;gap:2px}
+ol.rank li{display:grid;grid-template-columns:26px 1fr auto;gap:8px;align-items:baseline;padding:5px 0;border-bottom:1px solid var(--line);cursor:pointer}
+ol.rank li:last-child{border-bottom:0}
+ol.rank .n{font-family:var(--f-data);font-size:12px;color:var(--muted)}
+ol.rank .v{font-family:var(--f-data);font-variant-numeric:tabular-nums}
+ol.rank .c{font-size:12px;color:var(--muted)}
+.notes p{margin:0 0 10px;max-width:68ch}
+.notes p:last-child{margin:0}
+.src{font-size:12.5px;color:var(--muted)}
+.src a{color:var(--accent)}
+@media (max-width:560px){.card{top:auto;bottom:12px;right:12px}.legend{top:12px;bottom:auto}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">BIR zonal values · residential · ₱ per sqm of land</div>
+    <h1>What the taxman thinks Metro Manila land is worth</h1>
+    <p class="lede">Metro Manila is mapped barangay by barangay; Cavite, Laguna, Rizal and Bulacan at city level. Tap any area for its values. These are BIR tax floors, not market prices, so read the map as a ranking.</p>
+  </header>
+
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Value shown">
+      <button id="m-typ" data-m="typ" aria-pressed="true">Typical</button>
+      <button id="m-lo" data-m="lo" aria-pressed="false">Interior lots</button>
+      <button id="m-hi" data-m="hi" aria-pressed="false">Prime frontage</button>
+    </div>
+    <button class="btn" id="reset">Reset view</button>
+    <span class="hint">Pinch or scroll to zoom, drag to pan.</span>
+  </div>
+
+  <div class="mapbox">
+    <svg id="map" aria-label="Choropleth map of residential zonal values"></svg>
+    <div class="legend" id="legend"></div>
+    <div class="card" id="card" hidden></div>
+  </div>
+
+  <div class="grid2">
+    <section>
+      <h2 id="rank-h">Top 15 barangays</h2>
+      <ol class="rank" id="rank"></ol>
+    </section>
+    <section class="notes">
+      <h2>How to read this</h2>
+      <p><b>Interior lots</b> is the lowest value BIR sets in the barangay, usually "all other streets". <b>Prime frontage</b> is the highest, usually a main road or a named condo. <b>Typical</b> is the geometric midpoint of the two, a rough stand-in for a median lot.</p>
+      <p><b>Hatched areas</b> have no barangay detail yet and show the city median instead: all of Caloocan, plus a handful of barangays elsewhere. Manila and every city outside NCR are shown at city level for now. Grey means not pulled yet.</p>
+      <p><b>Schedules are stale.</b> Effectivity dates run from 2018 (Bulacan) to 2024 (QC, south Laguna). A 2018 value and a 2024 value are not comparable, which is why Bulacan looks cheaper than it trades.</p>
+      <p class="src">Data: BIR zonal value schedules as indexed by <a href="https://ren.ph/tools/zonal-value" target="_blank" rel="noopener">REN.PH</a>, pulled Oct 2026. Boundaries: PSA/NAMRIA via <a href="https://github.com/faeldon/philippines-json-maps" target="_blank" rel="noopener">faeldon/philippines-json-maps</a> (PSGC Dec 2023). Verify with the BIR RDO before any transaction.</p>
+    </section>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const GEO = __GEOJSON__;
+const STOPS = ["#e9f2e1","#b5dcb4","#63b39d","#2d8590","#265a8a","#2c2f6e"];
+const interp = d3.piecewise(d3.interpolateLab, STOPS);
+const color = d3.scaleSequentialLog(interp).domain([2500, 400000]).clamp(true);
+const fmt = v => v==null ? "n/a" : "₱" + d3.format(",")(Math.round(v));
+const short = v => v>=1000 ? "₱"+d3.format("~s")(v).replace("k","K") : "₱"+v;
+let mode = "typ", selected = null;
+
+const svg = d3.select("#map");
+const defs = svg.append("defs");
+const pat = defs.append("pattern").attr("id","hatch").attr("patternUnits","userSpaceOnUse").attr("width",5).attr("height",5).attr("patternTransform","rotate(45)");
+pat.append("rect").attr("width",5).attr("height",5).attr("fill","transparent");
+pat.append("line").attr("x1",0).attr("y1",0).attr("x2",0).attr("y2",5).attr("style","stroke:var(--hatch);stroke-width:1.2;stroke-opacity:.85");
+const g = svg.append("g");
+const proj = d3.geoMercator();
+const path = d3.geoPath(proj);
+
+function size(){
+  const box = svg.node().getBoundingClientRect();
+  const w = box.width, h = box.height;
+  // fit to NCR plus a ring, not the whole of four provinces
+  const focus = {type:"FeatureCollection",features:GEO.features.filter(f=>f.properties.prov==="Metro Manila")};
+  proj.fitExtent([[w*.08,h*.06],[w*.92,h*.94]], focus);
+  proj.scale(proj.scale()*0.62);
+  const c = path.centroid(focus); const t = proj.translate();
+  proj.translate([t[0] + (w/2 - c[0]), t[1] + (h/2 - c[1])]);
+  g.selectAll("path.f").attr("d", path);
+  g.selectAll("path.h").attr("d", path);
+}
+
+const feats = g.selectAll("path.f").data(GEO.features).join("path")
+  .attr("class", d => "f " + d.properties.level)
+  .on("click", (e,d) => { e.stopPropagation(); select(d); });
+const hatch = g.selectAll("path.h").data(GEO.features.filter(d=>d.properties.q==="city median" && d.properties.level==="barangay")).join("path")
+  .attr("class","h").attr("fill","url(#hatch)").attr("pointer-events","none");
+
+function paint(){
+  feats.attr("fill", d => d.properties[mode]==null ? "var(--nodata)" : color(d.properties[mode]));
+  renderRank();
+}
+
+const zoom = d3.zoom().scaleExtent([0.6, 40]).on("zoom", e => g.attr("transform", e.transform));
+svg.call(zoom).on("click", () => select(null));
+document.getElementById("reset").onclick = () => svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
+
+function select(d){
+  selected = d;
+  feats.classed("sel", x => x === d);
+  const card = document.getElementById("card");
+  if(!d){ card.hidden = true; return; }
+  const p = d.properties;
+  const lvl = p.level === "barangay" ? `Barangay, ${p.city}` : `${p.prov}`;
+  const qual = p.q === "barangay" ? `<span class="pill good">barangay data</span>` : p.q === "city median" ? `<span class="pill">city median only</span>` : `<span class="pill">not pulled yet</span>`;
+  card.innerHTML = `<div class="nm">${p.name}</div><div class="loc">${lvl}</div>
+    <div class="big">${fmt(p[mode])}<span class="loc"> /sqm</span></div>
+    ${p.q==="barangay" ? `<div class="row"><span>Interior lots</span><span>${fmt(p.lo)}</span></div><div class="row"><span>Prime frontage</span><span>${fmt(p.hi)}</span></div>` : ""}
+    ${p.eff ? `<div class="row"><span>Schedule effective</span><span>${p.eff}</span></div>` : ""}
+    ${qual}`;
+  card.hidden = false;
+}
+
+function legend(){
+  const L = document.getElementById("legend");
+  const grad = d3.range(0,1.0001,.1).map(t=>interp(t)).join(",");
+  const ticks = [2500,10000,40000,150000,400000];
+  L.innerHTML = `<div class="bar" style="background:linear-gradient(90deg,${grad})"></div>
+   <div class="ticks">${ticks.map(t=>`<span>${short(t)}</span>`).join("")}</div>
+   <div class="keys"><span><i class="sw" style="background:var(--nodata)"></i>not pulled</span><span><i class="sw" style="background:repeating-linear-gradient(45deg,var(--hatch) 0 2px,transparent 2px 5px)"></i>city median only</span></div>`;
+}
+
+function renderRank(){
+  const label = {typ:"typical", lo:"interior-lot", hi:"prime-frontage"}[mode];
+  document.getElementById("rank-h").textContent = `Top 15 barangays by ${label} value`;
+  const rows = GEO.features.filter(f=>f.properties.q==="barangay").sort((a,b)=>b.properties[mode]-a.properties[mode]).slice(0,15);
+  const ol = document.getElementById("rank");
+  ol.innerHTML = "";
+  rows.forEach((f,i)=>{
+    const li = document.createElement("li");
+    li.innerHTML = `<span class="n">${String(i+1).padStart(2,"0")}</span><span>${f.properties.name} <span class="c">${f.properties.city}</span></span><span class="v">${short(f.properties[mode])}</span>`;
+    li.tabIndex = 0;
+    li.onclick = () => focusOn(f);
+    li.onkeydown = e => { if(e.key==="Enter") focusOn(f); };
+    ol.appendChild(li);
+  });
+}
+
+function focusOn(f){
+  const box = svg.node().getBoundingClientRect();
+  const [[x0,y0],[x1,y1]] = path.bounds(f);
+  const k = Math.min(30, 0.35/Math.max((x1-x0)/box.width,(y1-y0)/box.height));
+  const t = d3.zoomIdentity.translate(box.width/2, box.height/2).scale(k).translate(-(x0+x1)/2, -(y0+y1)/2);
+  svg.transition().duration(600).call(zoom.transform, t);
+  select(f);
+  document.querySelector(".mapbox").scrollIntoView({behavior:"smooth", block:"center"});
+}
+
+document.querySelectorAll(".seg button").forEach(b => b.onclick = () => {
+  mode = b.dataset.m;
+  document.querySelectorAll(".seg button").forEach(x => x.setAttribute("aria-pressed", x===b));
+  paint(); if(selected) select(selected);
+});
+
+size(); legend(); paint();
+window.addEventListener("resize", size);
+</script>

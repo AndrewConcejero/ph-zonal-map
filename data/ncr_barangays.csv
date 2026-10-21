@@ -1,0 +1,419 @@
+city,barangay,res_min,res_max
+Makati,Urdaneta,127000,550000
+Makati,Poblacion,100000,350000
+Makati,Forbes Park,220000,338000
+Makati,San Lorenzo,75000,310000
+Makati,Bel-Air,74000,300000
+Makati,Dasmariñas,275000,300000
+Makati,Guadalupe Viejo,60000,300000
+Makati,Carmona,100000,250000
+Makati,Olympia,60000,250000
+Makati,San Antonio,60000,250000
+Makati,La Paz,60000,245000
+Makati,Pio del Pilar,43000,220000
+Makati,Bangkal,48000,200000
+Makati,Magallanes,100000,200000
+Makati,Santa Cruz,40000,200000
+Makati,Tejeros,70000,200000
+Makati,Valenzuela,45000,200000
+Makati,Palanan,70000,195000
+Makati,Pinagkaisahan,118000,163000
+Makati,Singkamas,70000,150000
+Makati,Guadalupe Nuevo,83000,140000
+Makati,San Isidro,105000,135000
+Makati,Kasilawan,80000,100000
+Taguig,Fort Bonifacio,78000,523000
+Taguig,Post Proper Northside,200000,350000
+Taguig,Post Proper Southside,98000,300000
+Taguig,Pinagsama,16000,280000
+Taguig,Western Bicutan,12000,278000
+Taguig,Bambang,13000,165000
+Taguig,South Cembo,103000,153000
+Taguig,Pitogo,101000,150000
+Taguig,Ususan,8000,150000
+Taguig,San Miguel,13000,143000
+Taguig,Cembo,80000,128000
+Taguig,West Rembo,83000,115000
+Taguig,Comembo,65000,100000
+Taguig,East Rembo,75000,100000
+Taguig,Pembo,59000,100000
+Taguig,Ligid-Tipas,9000,85000
+Taguig,Calzada,9000,84000
+Taguig,Palingon,9000,83000
+Taguig,Tuktukan,9000,81000
+Taguig,Rizal,47000,79000
+Taguig,Napindan,8000,42000
+Taguig,Central Signal Village,14000,40000
+Taguig,Hagonoy,9000,40000
+Taguig,Katuparan,11000,40000
+Taguig,New Lower Bicutan,10000,40000
+Taguig,North Signal Village,9000,40000
+Taguig,Ibayo-Tipas,9000,39000
+Taguig,Lower Bicutan,10000,39000
+Taguig,Santa Ana,8000,39000
+Taguig,Wawa,8000,37000
+Taguig,North Daang Hari,7000,34000
+Taguig,Central Bicutan,12000,32000
+Taguig,Tanyag,9000,30000
+Taguig,Bagumbayan,10000,28000
+Taguig,South Signal Village,14000,22000
+Taguig,Upper Bicutan,10000,22000
+Taguig,Maharlika Village,10000,15000
+Taguig,South Daang Hari,11000,12000
+Quezon City,E. Rodriguez,81000,268000
+Quezon City,Ugong Norte,107000,258000
+Quezon City,San Martin de Porres,54000,250000
+Quezon City,Bagong Pag-Asa,35000,220000
+Quezon City,Pansol,63000,209000
+Quezon City,Balingasa,29000,200000
+Quezon City,Ramon Magsaysay,36000,200000
+Quezon City,Bagumbayan,99000,195000
+Quezon City,Libis,57000,190000
+Quezon City,Matandang Balara,20000,186000
+Quezon City,Culiat,30000,180000
+Quezon City,Phil-Am,75000,180000
+Quezon City,Santa Teresita,45000,180000
+Quezon City,White Plains,120000,180000
+Quezon City,San Roque,74000,175000
+Quezon City,Bagong Lipunan ng Crame,53000,170000
+Quezon City,Pag-Ibig sa Nayon,26000,170000
+Quezon City,West Triangle,75000,169000
+Quezon City,Lourdes,63000,162000
+Quezon City,Santa Cruz,47000,162000
+Quezon City,Santo Domingo,54000,162000
+Quezon City,Katipunan,44000,160000
+Quezon City,Marilag,49000,160000
+Quezon City,Project 6,36000,160000
+Quezon City,Socorro,80000,160000
+Quezon City,Kaunlaran,83000,150000
+Quezon City,Bayanihan,30000,148000
+Quezon City,Blue Ridge A,54000,148000
+Quezon City,Milagrosa,49000,148000
+Quezon City,Saint Ignatius,74000,148000
+Quezon City,Mariblo,34000,146000
+Quezon City,Santo Cristo,36000,143000
+Quezon City,Bungad,35000,140000
+Quezon City,Immaculate Concepcion,81000,140000
+Quezon City,Nayong Kanluran,48000,140000
+Quezon City,Paltok,40000,140000
+Quezon City,Pinagkaisahan,70000,140000
+Quezon City,Sangandaan,32000,140000
+Quezon City,Talipapa,12000,140000
+Quezon City,Bagumbuhay,48000,135000
+Quezon City,Paligsahan,66000,135000
+Quezon City,South Triangle,85000,135000
+Quezon City,Tagumpay,49000,135000
+Quezon City,Apolonio Samson,28000,132000
+Quezon City,Fairview,24000,132000
+Quezon City,Laging Handa,70000,132000
+Quezon City,Talayan,50000,130000
+Quezon City,Bahay Toro,34000,127000
+Quezon City,Blue Ridge B,59000,126000
+Quezon City,Holy Spirit,15000,126000
+Quezon City,Pasong Putik Proper,17000,126000
+Quezon City,Valencia,54000,126000
+Quezon City,Manresa,60000,124000
+Quezon City,Saint Peter,64000,124000
+Quezon City,Sienna,51000,124000
+Quezon City,Sikatuna Village,61000,123000
+Quezon City,Vasra,35000,122000
+Quezon City,Botocan,65000,120000
+Quezon City,East Kamias,59000,120000
+Quezon City,Veterans Village,36000,120000
+Quezon City,West Kamias,59000,120000
+Quezon City,Batasan Hills,18000,116000
+Quezon City,Duyan-Duyan,59000,115000
+Quezon City,Kalusugan,41000,115000
+Quezon City,Loyola Heights,60000,115000
+Quezon City,Quirino 3-A,59000,115000
+Quezon City,Malaya,69000,114000
+Quezon City,N.S. Amoranto,44000,114000
+Quezon City,Paang Bundok,44000,114000
+Quezon City,San Jose,44000,114000
+Quezon City,Central,45000,110000
+Quezon City,Horseshoe,79000,110000
+Quezon City,Mariana,85000,110000
+Quezon City,Pinyahan,36000,110000
+Quezon City,Teachers Village West,47000,110000
+Quezon City,Obrero,52000,109000
+Quezon City,San Bartolome,11000,106000
+Quezon City,Commonwealth,13000,105000
+Quezon City,Doña Imelda,35000,105000
+Quezon City,Damayan,32000,102000
+Quezon City,Del Monte,32000,102000
+Quezon City,Greater Lagro,18000,102000
+Quezon City,Paraiso,40000,102000
+Quezon City,San Antonio,34000,102000
+Quezon City,Gulod,19000,101000
+Quezon City,Don Manuel,42000,100000
+Quezon City,Doña Josefa,50000,100000
+Quezon City,Old Capitol Site,63000,100000
+Quezon City,Sacred Heart,61000,100000
+Quezon City,San Isidro Labrador,40000,100000
+Quezon City,Teachers Village East,48000,100000
+Quezon City,U.P. Village,42000,100000
+Quezon City,Tandang Sora,20000,99000
+Quezon City,Masambong,32000,98000
+Quezon City,Alicia,28000,96000
+Quezon City,Maharlika,54000,96000
+Quezon City,Dioquino Zobel,49000,95000
+Quezon City,Mangga,64000,95000
+Quezon City,Salvacion,40000,94000
+Quezon City,Tatalon,46000,93000
+Quezon City,Baesa,28000,92000
+Quezon City,New Era,42000,92000
+Quezon City,Amihan,58000,90000
+Quezon City,Balong Bato,32000,90000
+Quezon City,Camp Aguinaldo,80000,90000
+Quezon City,Damar,60000,90000
+Quezon City,Pasong Tamo,23000,90000
+Quezon City,Silangan,79000,90000
+Quezon City,Kristong Hari,44000,88000
+Quezon City,Unang Sigaw,35000,86000
+Quezon City,San Isidro,36000,85000
+Quezon City,Santa Monica,9000,85000
+Quezon City,Damayang Lagi,58000,84000
+Quezon City,Payatas,15000,82000
+Quezon City,Quirino 2-A,54000,82000
+Quezon City,Quirino 2-B,54000,82000
+Quezon City,Masagana,49000,80000
+Quezon City,Novaliches Proper,13000,80000
+Quezon City,Roxas,54000,80000
+Quezon City,San Agustin,9000,80000
+Quezon City,Santol,40000,80000
+Quezon City,Villa Maria Clara,49000,80000
+Quezon City,U.P. Campus,40000,79000
+Quezon City,San Vicente,37000,73000
+Quezon City,North Fairview,25000,71000
+Quezon City,Santo Niño,37000,71000
+Quezon City,Aurora,34000,70000
+Quezon City,Claro,55000,70000
+Quezon City,Kamuning,45000,70000
+Quezon City,Sauyo,15000,69000
+Quezon City,Krus na Ligas,45000,68000
+Quezon City,Quirino 2-C,54000,64000
+Quezon City,Kaligayahan,9000,60000
+Quezon City,Santa Lucia,15000,60000
+Quezon City,Bagong Silangan,11000,58000
+Quezon City,Escopa I,30000,58000
+Quezon City,Bagbag,12000,55000
+Quezon City,Nagkaisang Nayon,13000,50000
+Quezon City,Capri,8000,40000
+Pasig,Bagong Ilog,10000,135000
+Pasig,Bagong Katipunan,14000,23000
+Pasig,Bambang,10000,80000
+Pasig,Buting,9000,65000
+Pasig,Caniogan,8000,80000
+Pasig,Dela Paz,11000,97000
+Pasig,Kalawaan,9000,70000
+Pasig,Kapasigan,13000,95000
+Pasig,Kapitolyo,39000,150000
+Pasig,Malinao,11000,30000
+Pasig,Manggahan,12000,93000
+Pasig,Maybunga,12000,120000
+Pasig,Oranbo,35000,260000
+Pasig,Palatiw,9000,73000
+Pasig,Pinagbuhatan,10000,95000
+Pasig,Pineda,12000,130000
+Pasig,Rosario,11000,205000
+Pasig,Sagad,12000,40000
+Pasig,San Antonio,95000,275000
+Pasig,San Joaquin,11000,90000
+Pasig,San Jose,16000,20000
+Pasig,San Miguel,9000,98000
+Pasig,San Nicolas,11000,65000
+Pasig,Santa Cruz,11000,20000
+Pasig,Santa Lucia,11000,88000
+Pasig,Santa Rosa,13000,19000
+Pasig,Santo Tomas,12000,30000
+Pasig,Santolan,9000,120000
+Pasig,Sumilang,11000,30000
+Pasig,Ugong,16000,275000
+Mandaluyong,Wack-Wack Greenhills,64000,200000
+Mandaluyong,Vergara,23000,160000
+Mandaluyong,Highway Hills,34000,158000
+Mandaluyong,Hulo,27000,153000
+Mandaluyong,Addition Hills,40000,145000
+Mandaluyong,Barangka Ilaya,32000,127000
+Mandaluyong,New Zaniga,22000,125000
+Mandaluyong,Bagong Silang,28000,120000
+Mandaluyong,Hagdang Bato Libis,28000,120000
+Mandaluyong,Pleasant Hills,25000,120000
+Mandaluyong,Buayang Bato,26000,115000
+Mandaluyong,Malamig,30000,115000
+Mandaluyong,Mauway,28000,105000
+Mandaluyong,Barangka Itaas,22000,100000
+Mandaluyong,Namayan,18000,99000
+Mandaluyong,Plainview,28000,84000
+Mandaluyong,Barangka Drive,27000,80000
+Mandaluyong,Hagdang Bato Itaas,30000,70000
+Mandaluyong,Poblacion,20000,68000
+Mandaluyong,Daang Bakal,25000,67000
+Mandaluyong,Mabini-J. Rizal,19000,58000
+Mandaluyong,Harapin Ang Bukas,21000,55000
+Mandaluyong,Pag-Asa,27000,53000
+Mandaluyong,Old Zaniga,23000,46000
+Mandaluyong,Barangka Ibaba,20000,35000
+Mandaluyong,San Jose,24000,28000
+Mandaluyong,Burol,25000,26000
+Muntinlupa,Alabang,10000,200000
+Muntinlupa,Bayanan,7000,87000
+Muntinlupa,Buli,7000,120000
+Muntinlupa,Cupang,7000,120000
+Muntinlupa,Poblacion,7000,30000
+Muntinlupa,Putatan,7000,50000
+Muntinlupa,Sucat,7000,120000
+Muntinlupa,Tunasan,7000,150000
+San Juan,Addition Hills,61000,140000
+San Juan,Balong-Bato,27000,110000
+San Juan,Batis,43000,130000
+San Juan,Corazon de Jesus,34000,105000
+San Juan,Ermitaño,30000,170000
+San Juan,Greenhills,63000,219000
+San Juan,Halo-Halo,39000,70000
+San Juan,Isabelita,30000,79000
+San Juan,Kabayanan,39000,79000
+San Juan,Little Baguio,52000,105000
+San Juan,Maytunas,33000,146000
+San Juan,Onse,24000,80000
+San Juan,Pasadeña,52000,114000
+San Juan,Pedro Cruz,28000,158000
+San Juan,Progreso,18000,49000
+San Juan,Rivera,15000,61000
+San Juan,Salapan,14000,70000
+San Juan,San Perfecto,24000,59000
+San Juan,Santa Lucia,36000,215000
+San Juan,Tibagan,27000,83000
+San Juan,West Crame,15000,71000
+Parañaque,Tambo,23000,380000
+Parañaque,Baclaran,24000,265000
+Parañaque,Don Galo,18000,253000
+Parañaque,Merville,24000,195000
+Parañaque,San Dionisio,19000,173000
+Parañaque,Marcelo Green Village,24000,158000
+Parañaque,San Antonio,23000,154000
+Parañaque,Sun Valley,27000,140000
+Parañaque,Don Bosco,27000,125000
+Parañaque,Moonwalk,24000,120000
+Parañaque,B. F. Homes,26000,113000
+Parañaque,San Isidro,19000,100000
+Parañaque,Santo Niño,17000,100000
+Parañaque,San Martin de Porres,19000,95000
+Parañaque,La Huerta,19000,85000
+Parañaque,Vitalez,24000,25000
+Las Piñas,Almanza Dos,13000,78000
+Las Piñas,Almanza Uno,11000,95000
+Las Piñas,B. F. International Village,13000,82000
+Las Piñas,Daniel Fajardo,7000,25000
+Las Piñas,Elias Aldana,7000,76000
+Las Piñas,Ilaya,6000,25000
+Las Piñas,Manuyo Dos,14000,26000
+Las Piñas,Manuyo Uno,7000,100000
+Las Piñas,Pamplona Dos,16000,30000
+Las Piñas,Pamplona Tres,10000,100000
+Las Piñas,Pamplona Uno,8000,18000
+Las Piñas,Pilar Village,16000,38000
+Las Piñas,Pulang Lupa Dos,11000,45000
+Las Piñas,Pulang Lupa Uno,11000,75000
+Las Piñas,Talon Dos,11000,93000
+Las Piñas,Talon Kuatro,9000,18000
+Las Piñas,Talon Singko,9000,32000
+Las Piñas,Talon Tres,9000,100000
+Las Piñas,Talon Uno,11000,90000
+Las Piñas,Zapote,9000,60000
+Navotas,Bagumbayan North,10000,45000
+Navotas,Bagumbayan South,10500,45000
+Navotas,Bangculasi,9000,45000
+Navotas,Navotas East,9000,45000
+Navotas,North Bay Boulevard North,8500,45000
+Navotas,San Jose,8500,45000
+Navotas,San Rafael Village,14000,45000
+Navotas,Daanghari,7500,40000
+Navotas,North Bay Blvd. South - Dagat-Dagatan,6500,40000
+Navotas,North Bay Blvd. South - Kaunlaran,8000,40000
+Navotas,San Roque,7500,40000
+Navotas,Sipac-Almacen,7000,40000
+Navotas,Navotas West,7500,30000
+Navotas,Tangos North,6500,30000
+Navotas,Tangos South,7000,30000
+Navotas,Tanza 1,6500,30000
+Navotas,Tanza 2,6500,30000
+Pateros,Santo Rosario-Silangan,7000,32000
+Pateros,Poblacion,14000,31000
+Pateros,San Roque,9000,31000
+Pateros,Santa Ana,9000,31000
+Pateros,Martires del 96,7000,21000
+Pateros,San Pedro,10000,19000
+Pateros,Magtanggol,10000,18000
+Pateros,Aguho,8000,16000
+Pateros,Tabacalera,10000,16000
+Pateros,Santo Rosario-Kanluran,13000,14000
+Marikina,Barangka,5000,36500
+Marikina,Calumpang,6500,36500
+Marikina,Concepcion Uno,6500,36500
+Marikina,Fortune,6500,31000
+Marikina,Industrial Valley,6000,37500
+Marikina,Jesus de La Peña,7000,32000
+Marikina,Malanday,4500,32000
+Marikina,Marikina Heights,9000,71000
+Marikina,Nangka,6000,36500
+Marikina,Parang,5500,36000
+Marikina,San Roque,7500,37500
+Marikina,Santa Elena,11000,36500
+Marikina,Santo Niño,7000,52500
+Marikina,Tañong,7000,36500
+Marikina,Tumana,7000,42500
+Malabon,Acacia,9000,40000
+Malabon,Baritan,7000,40000
+Malabon,Bayan-Bayanan,7000,40000
+Malabon,Catmon,6000,40000
+Malabon,Concepcion,8000,45000
+Malabon,Dampalit,5500,30000
+Malabon,Flores,8500,45000
+Malabon,Hulong Duhat,7500,40000
+Malabon,Ibaba,6500,40000
+Malabon,Longos,7500,45000
+Malabon,Maysilo,6000,40000
+Malabon,Muzon,6000,30000
+Malabon,Niugan,6500,40000
+Malabon,Panghulo,6500,40000
+Malabon,Potrero,9000,50000
+Malabon,San Agustin,10000,45000
+Malabon,Santolan,7000,40000
+Malabon,Tañong,7500,45000
+Malabon,Tinajeros,5500,40000
+Malabon,Tonsuya,7000,40000
+Malabon,Tugatog,7000,40000
+Valenzuela,Arkong Bato,4300,9400
+Valenzuela,Bagbaguin,8000,36000
+Valenzuela,Balangkas,4000,5000
+Valenzuela,Bignay,4800,27000
+Valenzuela,Bisig,3000,3000
+Valenzuela,Canumay East,7800,30600
+Valenzuela,Canumay West,8000,36000
+Valenzuela,Coloong,1500,3800
+Valenzuela,Dalandanan,6600,31200
+Valenzuela,Gen. T. de Leon,5500,36000
+Valenzuela,Isla,2500,4300
+Valenzuela,Karuhatan,5000,30600
+Valenzuela,Lawang Bato,6800,27000
+Valenzuela,Lingunan,4400,27000
+Valenzuela,Mabolo,3000,9400
+Valenzuela,Malanday,4300,31200
+Valenzuela,Malinta,6500,36000
+Valenzuela,Mapulang Lupa,6500,36000
+Valenzuela,Marulas,2800,23800
+Valenzuela,Maysan,5600,27000
+Valenzuela,Palasan,3200,9400
+Valenzuela,Parada,4900,28800
+Valenzuela,Pariancillo Villa,3000,3700
+Valenzuela,Paso de Blas,8000,36000
+Valenzuela,Pasolo,3500,7700
+Valenzuela,Poblacion,5600,9400
+Valenzuela,Pulo,3100,4700
+Valenzuela,Punturin,5000,27000
+Valenzuela,Rincon,6300,33000
+Valenzuela,Tagalag,2100,4000
+Valenzuela,Ugong,7600,36000
+Valenzuela,Viente Reales,5000,31200
+Valenzuela,Wawang Pulo,1800,2400
