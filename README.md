@@ -59,6 +59,18 @@ npm run dev  # local site at http://localhost:5173
 
 `make data` writes review files to `pipeline/review/`. If a barangay lands in `unmatched.csv`, add a row to `pipeline/aliases.csv` and run `make data` again.
 
+## Satellite imagery
+
+The **Satellite** button puts imagery under the colours. With no configuration it uses
+[Sentinel-2 cloudless 2016](https://s2maps.eu) by EOX (CC BY 4.0, 10 m per pixel: good for context, too coarse
+to see individual villages). For sharp imagery, add an Esri World Imagery key:
+
+1. Create a free account at [ArcGIS Location Platform](https://location.arcgis.com) (free tier: 2,000,000 basemap tiles a month; service stops rather than bills if exceeded, unless you enable pay-as-you-go).
+2. Create an API key with the **basemaps** privilege only, and set its allowed referrers to `https://ph-zonal-map.vercel.app` (and `http://localhost:5173` for development).
+3. In Vercel: Project → Settings → Environment Variables, add `VITE_ESRI_KEY` with the key, then redeploy. Locally, put it in `.env.local` (see `.env.example`).
+
+The key ends up in the browser by design; the referrer restriction is what keeps others from using it.
+
 ## Adding new BIR schedules
 
 1. Download the RDO's zonal value workbook from the BIR site and drop it, as is, into `raw/bir/_inbox/` (subfolders and odd file names are fine).

@@ -34,7 +34,23 @@ const STYLES = {
 };
 const NCR_BOUNDS: [[number, number], [number, number]] = [[120.93, 14.38], [121.13, 14.78]];
 const MODE_LABEL: Record<Mode, string> = { typ: 'Typical', lo: 'Interior lot', hi: 'Prime' };
-const ROUGH_YEARS = 10;  // projections longer than this are marked rough (same as pipeline/report_staleness.py)
+const ROUGH_YEARS = 10;
+// Satellite imagery: Esri World Imagery when a key is configured (VITE_ESRI_KEY, see README), otherwise the
+// openly licensed (CC BY 4.0) Sentinel-2 cloudless 2016 mosaic by EOX, which is 10 m per pixel.
+const ESRI_KEY = import.meta.env.VITE_ESRI_KEY as string | undefined;
+const SATELLITE = ESRI_KEY
+  ? {
+    name: 'Esri World Imagery',
+    tiles: [`https://ibasemaps-api.arcgis.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}?token=${encodeURIComponent(ESRI_KEY)}`],
+    maxzoom: 19,
+    attribution: 'Imagery powered by <a href="https://www.esri.com" target="_blank" rel="noopener">Esri</a>: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
+  }
+  : {
+    name: 'Sentinel-2 cloudless 2016 (10 m)',
+    tiles: ['https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/g/{z}/{y}/{x}.jpg'],
+    maxzoom: 15,
+    attribution: '<a href="https://s2maps.eu" target="_blank" rel="noopener">Sentinel-2 cloudless - https://s2maps.eu</a> by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016 &amp; 2017)',
+  };  // projections longer than this are marked rough (same as pipeline/report_staleness.py)
 const QUALITY: Record<Quality, { label: string; cls: string; text: (p: Props) => string }> = {
   barangay_data: {
     label: 'barangay data', cls: 'good',
@@ -72,6 +88,7 @@ const state = {
   mode: 'typ' as Mode,
   basis: 'raw' as Basis,
   order: 'top' as 'top' | 'bottom',
+  satellite: false,
   selected: null as string | null,
   hovered: null as string | null,
 };
@@ -167,17 +184,18 @@ function addLayers() {
   const h = hatchImage();
   map.addImage('hatch', h.image, { pixelRatio: h.pixelRatio });
 
+  // imagery sits above the basemap's geometry and below the zonal colours and the basemap's labels
+  map.addSource('sat', { type: 'raster', tiles: SATELLITE.tiles, tileSize: 256, maxzoom: SATELLITE.maxzoom,
+    attribution: SATELLITE.attribution });
+  map.addLayer({ id: 'sat', type: 'raster', source: 'sat', layout: { visibility: state.satellite ? 'visible' : 'none' } }, before);
   // the upstream barangay polygons are simplified and leave slivers; city polygons underneath hide them
   map.addLayer({
     id: 'c-fill', type: 'fill', source: 'cities',
-    paint: { 'fill-color': cssVar('--nodata'), 'fill-opacity': 0.7 },
+    paint: { 'fill-color': cssVar('--nodata'), 'fill-opacity': state.satellite ? 0 : 0.7 },
   }, before);
   map.addLayer({
     id: 'z-fill', type: 'fill', source: 'zonal',
-    paint: {
-      'fill-color': fillColor(),
-      'fill-opacity': ['match', ['get', 'q'], 'barangay_data', 0.84, 'no_data', 0.7, 0.5],
-    },
+    paint: { 'fill-color': fillColor(), 'fill-opacity': fillOpacity() },
   }, before);
   map.addLayer({
     id: 'z-hatch', type: 'fill', source: 'zonal',
@@ -217,6 +235,22 @@ function addLayers() {
     },
   });
   if (state.selected) map.setFeatureState({ source: 'zonal', id: state.selected }, { sel: true });
+}
+
+// with imagery on, the colours fade so roofs and greenery show through
+const fillOpacity = (): ExpressionSpecification => state.satellite
+  ? ['match', ['get', 'q'], 'barangay_data', 0.5, 'no_data', 0.25, 0.3]
+  : ['match', ['get', 'q'], 'barangay_data', 0.84, 'no_data', 0.7, 0.5];
+
+function applySatellite() {
+  $('sat').setAttribute('aria-pressed', String(state.satellite));
+  if (map.getLayer('sat')) {
+    map.setLayoutProperty('sat', 'visibility', state.satellite ? 'visible' : 'none');
+    map.setPaintProperty('c-fill', 'fill-opacity', state.satellite ? 0 : 0.7);
+    map.setPaintProperty('z-fill', 'fill-opacity', fillOpacity());
+  }
+  renderLegend();
+  writeHash();
 }
 
 function repaint() {
@@ -324,7 +358,8 @@ function renderLegend() {
       const align = i === 0 ? 'left:0' : i === TICKS.length - 1 ? 'right:0' : `left:${x}%;transform:translateX(-50%)`;
       return `<span style="position:absolute;${align}">${short(t)}</span>`;
     }).join('')}</div>
-    <div class="keys"><span><i class="sw hatch"></i>city median or estimate</span><span><i class="sw" style="background:var(--nodata)"></i>no data</span></div>`;
+    <div class="keys"><span><i class="sw hatch"></i>city median or estimate</span><span><i class="sw" style="background:var(--nodata)"></i>no data</span></div>
+    ${state.satellite ? `<div class="imagery">Imagery: ${SATELLITE.name} (credit at bottom right)</div>` : ''}`;
 }
 
 // ---- ranking (barangays with their own data, inside the current map view) ----
@@ -447,6 +482,7 @@ function wireControls() {
   document.querySelectorAll<HTMLButtonElement>('[data-order]').forEach(b => b.onclick = () => {
     state.order = b.dataset.order as 'top' | 'bottom'; pressed('[data-order]', b); renderRank();
   });
+  $('sat').onclick = () => { state.satellite = !state.satellite; applySatellite(); };
   $('theme').onclick = () => {
     const next = theme() === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = next;
@@ -474,6 +510,7 @@ function writeHash() {
   if (state.selected) h.set('b', state.selected);
   if (state.mode !== 'typ') h.set('v', state.mode);
   if (state.basis !== 'raw') h.set('adj', '1');
+  if (state.satellite) h.set('sat', '1');
   const s = h.toString();
   history.replaceState(null, '', s ? `#${s}` : location.pathname + location.search);
 }
@@ -483,6 +520,8 @@ function readHash() {
   const v = h.get('v');
   state.mode = v === 'lo' || v === 'hi' ? v : 'typ';
   pressed('[data-mode]', document.querySelector(`[data-mode="${state.mode}"]`)!);
+  state.satellite = h.get('sat') === '1';
+  $('sat').setAttribute('aria-pressed', String(state.satellite));
   if (h.get('adj') === '1' && meta.adjusted_available) { state.basis = 'adj'; pressed('[data-basis]', document.querySelector('[data-basis="adj"]')!); }
   return h.get('b');
 }
@@ -520,6 +559,7 @@ async function boot() {
   map.once('idle', () => renderRank());
   addEventListener('hashchange', () => {
     const id = readHash();
+    applySatellite();
     repaint();
     if (id !== state.selected) select(id, true);
   });
