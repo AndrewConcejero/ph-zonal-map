@@ -1,0 +1,9 @@
+# Python 3.11+. Versions pinned; bump deliberately.
+pandas==2.2.3
+openpyxl==3.1.5
+xlrd==2.0.1          # BIR still publishes some schedules as legacy .xls
+geopandas==1.0.1
+shapely==2.0.6
+pyogrio==0.10.0
+rapidfuzz==3.10.1
+pytest==8.3.4
