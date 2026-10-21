@@ -6,4 +6,5 @@ geopandas==1.0.1
 shapely==2.0.6
 pyogrio==0.10.0
 rapidfuzz==3.10.1
+matplotlib==3.9.2    # social preview image
 pytest==8.3.4
