@@ -7,6 +7,7 @@ fields are left out of the output until they exist, never filled with placeholde
 import csv
 import json
 import math
+import re
 from collections import Counter, defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -33,6 +34,12 @@ def display_city(name: str) -> str:
     return {'Cavite': 'Cavite City', 'San Jose Del Monte': 'San Jose del Monte', 'Pasay City': 'Pasay'}.get(name, name)
 
 
+def district_name(s: str) -> str:
+    """'TONDO I / II' -> 'Tondo I/II'; 'SAN MIGUEL' -> 'San Miguel'."""
+    words = [w if re.fullmatch(r'[IVX]+', w) else w.capitalize() for w in s.replace(' / ', '/').split(' ')]
+    return re.sub(r'(?<=/)([a-z]+)', lambda m: m.group(1).upper() if re.fullmatch(r'[ivx]+', m.group(1)) else m.group(1), ' '.join(words))
+
+
 def load_boundaries():
     """-> (barangays, cities, barangays_without_geometry). Each barangay: psgc, name, city, city_psgc, prov, geometry."""
     bgys, cities, no_geom = [], [], []
@@ -52,7 +59,7 @@ def load_boundaries():
                             code = bp['ADM4_PCODE'] or f"{bp['ADM3_PCODE']}-{norm_barangay(bp['ADM4_EN'])[:12]}"
                             bgys.append({'psgc': code.removeprefix('PH'), 'name': bp['ADM4_EN'],
                                          'city': city, 'city_psgc': cpsgc, 'prov': prov,
-                                         'district': bp['ADM3_EN'].title(), 'geometry': b['geometry']})
+                                         'district': district_name(bp['ADM3_EN']), 'geometry': b['geometry']})
                 continue
             for b in json.loads(municity_path(cpsgc).read_text())['features']:
                 if not b.get('geometry'):
