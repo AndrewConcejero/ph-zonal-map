@@ -1,56 +1,3 @@
-# inventory run 2026-10-21T20:56:53
-MOVED      RDO No. 24 - Valenzuela City.xls  -> RDO-024/RDO No. 24 - Valenzuela City.xls
-MOVED      RDO No. 25A - Plaridel, Bulacan.xlsx  -> RDO-25A/RDO No. 25A - Plaridel, Bulacan.xlsx
-MOVED      RDO No. 25B - Sta. Maria, Bulacan.xlsx  -> RDO-25B/RDO No. 25B - Sta. Maria, Bulacan.xlsx
-MOVED      RDO No. 26 - Malabon-Navotas.xls  -> RDO-026/RDO No. 26 - Malabon-Navotas.xls
-MOVED      RDO No. 27 - Caloocan City.xls  -> RDO-027/RDO No. 27 - Caloocan City.xls
-MOVED      RDO No. 28 - Novaliches, Quezon City.xls  -> RDO-028/RDO No. 28 - Novaliches, Quezon City.xls
-MOVED      RDO No. 29 - Tondo-San Nicolas.xls  -> RDO-029/RDO No. 29 - Tondo-San Nicolas.xls
-MOVED      RDO No. 30 - Binondo.xls  -> RDO-030/RDO No. 30 - Binondo.xls
-MOVED      RDO No. 31 - Sta. Cruz, Manila.xls  -> RDO-031/RDO No. 31 - Sta. Cruz, Manila.xls
-MOVED      RDO No. 32 - Quiapo-Sampaloc-San Miguel-Sta Mesa.xls  -> RDO-032/RDO No. 32 - Quiapo-Sampaloc-San Miguel-Sta Mesa.xls
-MOVED      RDO No. 33 - Intramuros-Ermita-Malate.xls  -> RDO-033/RDO No. 33 - Intramuros-Ermita-Malate.xls
-MOVED      RDO No. 34 - Paco-Pandacan-Sta. Ana-San Andres.xls  -> RDO-034/RDO No. 34 - Paco-Pandacan-Sta. Ana-San Andres.xls
-MOVED      RDO No. 35 - Odiongan, Romblon.xls  -> RDO-035/RDO No. 35 - Odiongan, Romblon.xls
-MOVED      RDO No. 36 - Puerto Princesa City, Palawan.xls  -> RDO-036/RDO No. 36 - Puerto Princesa City, Palawan.xls
-MOVED      RDO No. 37 - SanJose, Occidental Mindoro.xls  -> RDO-037/RDO No. 37 - SanJose, Occidental Mindoro.xls
-MOVED      RDO No. 38 - North Quezon City.xls  -> RDO-038/RDO No. 38 - North Quezon City.xls
-MOVED      RDO No. 39 - South Quezon City.xls  -> RDO-039/RDO No. 39 - South Quezon City.xls
-MOVED      RDO No. 40 - Cubao.xls  -> RDO-040/RDO No. 40 - Cubao.xls
-MOVED      RDO No. 41 - Mandaluyong City.xls  -> RDO-041/RDO No. 41 - Mandaluyong City.xls
-MOVED      RDO No. 42 - San Juan City.xls  -> RDO-042/RDO No. 42 - San Juan City.xls
-MOVED      RDO No. 43 - Pasig City.xls  -> RDO-043/RDO No. 43 - Pasig City.xls
-MOVED      RDO No. 44 - Taguig-Pateros.xlsx  -> RDO-044/RDO No. 44 - Taguig-Pateros.xlsx
-MOVED      RDO No. 45 - Marikina City.xls  -> RDO-045/RDO No. 45 - Marikina City.xls
-MOVED      RDO No. 46 - Cainta-Taytay.xls  -> RDO-046/RDO No. 46 - Cainta-Taytay.xls
-MOVED      RDO No. 47 - East Makati.xls  -> RDO-047/RDO No. 47 - East Makati.xls
-MOVED      RDO No. 48 - West Makati.xls  -> RDO-048/RDO No. 48 - West Makati.xls
-MOVED      RDO No. 49 - North Makati City.xls  -> RDO-049/RDO No. 49 - North Makati City.xls
-MOVED      RDO No. 50 - South Makati.xls  -> RDO-050/RDO No. 50 - South Makati.xls
-MOVED      RDO No. 51 - Pasay City.xls  -> RDO-051/RDO No. 51 - Pasay City.xls
-MOVED      RDO No. 52 - Paranaque City.xls  -> RDO-052/RDO No. 52 - Paranaque City.xls
-MOVED      RDO No. 53A - Las Pinas City.xls  -> RDO-53A/RDO No. 53A - Las Pinas City.xls
-MOVED      RDO No. 53B - Muntinlupa City.xls  -> RDO-53B/RDO No. 53B - Muntinlupa City.xls
-MOVED      RDO No. 54A - Trece Martirez City, East Cavite.xls  -> RDO-54A/RDO No. 54A - Trece Martirez City, East Cavite.xls
-MOVED      RDO No. 54B - Bacoor City, West Cavite.xls  -> RDO-54B/RDO No. 54B - Bacoor City, West Cavite.xls
-MOVED      RDO No. 55 - San Pablo City, East Laguna.xls  -> RDO-055/RDO No. 55 - San Pablo City, East Laguna.xls
-MOVED      RDO No. 56 - Calamba City, Central Laguna.xls  -> RDO-056/RDO No. 56 - Calamba City, Central Laguna.xls
-MOVED      RDO No. 57 - Biคan City, West Laguna.xls  -> RDO-057/RDO No. 57 - Biคan City, West Laguna.xls
-MOVED      RDO No. 58 - Batangas City, West Batangas.xlsx  -> RDO-058/RDO No. 58 - Batangas City, West Batangas.xlsx
-MOVED      RDO No. 59 - Lipa City, East Batangas.xls  -> RDO-059/RDO No. 59 - Lipa City, East Batangas.xls
-MOVED      RDO No. 60 - Lucena City, North Quezon.xls  -> RDO-060/RDO No. 60 - Lucena City, North Quezon.xls
-MOVED      RDO No. 61 - Gumaca, South Quezon.xls  -> RDO-061/RDO No. 61 - Gumaca, South Quezon.xls
-MOVED      RDO No. 62 - Boac, Marinduque.xls  -> RDO-062/RDO No. 62 - Boac, Marinduque.xls
-MOVED      RDO No. 63 - Calapan City,  Oriental Mindoro.XLS  -> RDO-063/RDO No. 63 - Calapan City,  Oriental Mindoro.XLS
-MOVED      RDO No. 71 - Kalibo, Aklan.xls  -> RDO-071/RDO No. 71 - Kalibo, Aklan.xls
-MOVED      RDO No. 72 - Roxas City, Capiz.xls  -> RDO-072/RDO No. 72 - Roxas City, Capiz.xls
-MOVED      RDO No. 73 - San Jose, Antique.xls  -> RDO-073/RDO No. 73 - San Jose, Antique.xls
-MOVED      RDO No. 74 - Iloilo City, Iloilo.xls  -> RDO-074/RDO No. 74 - Iloilo City, Iloilo.xls
-MOVED      RDO No. 75 - Zarraga, Iloilo.xls  -> RDO-075/RDO No. 75 - Zarraga, Iloilo.xls
-MOVED      RDO No. 76 - Victorias City, Negros Occidental.xls  -> RDO-076/RDO No. 76 - Victorias City, Negros Occidental.xls
-MOVED      RDO No. 77 - Bacolod City Negros Occidental.xls  -> RDO-077/RDO No. 77 - Bacolod City Negros Occidental.xls
-MOVED      RDO No. 78 - Binalbagan, Negros Occidental.xls  -> RDO-078/RDO No. 78 - Binalbagan, Negros Occidental.xls
-MOVED      RDO No. 79 - Dumaguete City, Negros Oriental.xls  -> RDO-079/RDO No. 79 - Dumaguete City, Negros Oriental.xls
 NOTE       RDO-027 RDO No. 27 - Caloocan City.xls: sheet 'Sheet1' is empty; ignored
 NOTE       RDO-030 RDO No. 30 - Binondo.xls: sheet 'Sheet1' is empty; ignored
 NOTE       RDO-033 RDO No. 33 - Intramuros-Ermita-Malate.xls: NOTICE says RDO 033 but DO 75-2017 subject says RDO 030
@@ -58,4 +5,3 @@ NOTE       RDO-046 RDO No. 46 - Cainta-Taytay.xls: DO 44-2003: NOTICE gives no e
 NOTE       RDO-073 RDO No. 73 - San Jose, Antique.xls: sheet 'Recovered_Sheet1' is empty; ignored
 NOTE       RDO-54A RDO No. 54A - Trece Martirez City, East Cavite.xls: sheet 'Recovered_Sheet1' is empty; ignored
 NOTE       RDO-54B RDO No. 54B - Bacoor City, West Cavite.xls: sheet 'Recovered_Sheet1' is empty; ignored
-

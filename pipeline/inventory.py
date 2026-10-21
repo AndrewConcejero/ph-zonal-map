@@ -11,7 +11,8 @@ Usage:
   python -m pipeline.inventory            # file new inbox files, then rebuild the inventory from all RDO-* folders
 Outputs:
   raw/bir/inventory.csv                   one row per (file, Department Order)
-  raw/bir/inventory_log.txt               moves, duplicates, unreadable files, and anything that needed judgment
+  raw/bir/filing_log.txt                  every move, duplicate and unreadable file, appended run after run
+  raw/bir/inventory_log.txt               notes on the current files: anything that needed judgment
   pipeline/review/bir_sheets.csv          one row per DO sheet: which sheet holds which DO, revision per LGU
 """
 from __future__ import annotations
@@ -50,6 +51,7 @@ LGU_ALIASES = {
     'generalmarianoalvarez': 'Gen. Mariano Alvarez', 'genmarianoalvarez': 'Gen. Mariano Alvarez',
     'genemilioaguinaldo': 'General Emilio Aguinaldo', 'baliuag': 'Baliwag', 'obandoo': 'Obando',
     'stamaria': 'Santa Maria', 'starosa': 'Santa Rosa', 'stacruz': 'Santa Cruz', 'gentrias': 'General Trias',
+    'generaleaguinaldo': 'General Emilio Aguinaldo', 'geneaguinaldo': 'General Emilio Aguinaldo', 'bulakan': 'Bulacan',
 }
 
 
@@ -156,11 +158,13 @@ def parse_date(v) -> date | None:
     m = re.match(r'^(\d{1,2})[-\s/]([A-Za-z]{3,9})\.?[-\s/,]*(\d{2}|\d{4})$', s)
     if m and m.group(2)[:3].lower() in MONTHS:
         return date(year4(m.group(3)), MONTHS[m.group(2)[:3].lower()], int(m.group(1)))
-    m = re.match(r'^(\d{1,2})[-/](\d{1,2})[-/](\d{4})$', s)
+    m = re.match(r'^(\d{1,2})([-/])(\d{1,2})[-/](\d{4})$', s)
     if m:
-        d, mo, y = map(int, m.groups())
+        # slashes come from Excel's US export (9/17/2023 = Sept 17); dashes are written day first (15-10-2017)
+        a, sep, b, y = int(m.group(1)), m.group(2), int(m.group(3)), int(m.group(4))
+        mo, d = (a, b) if sep == '/' else (b, a)
         if mo > 12:
-            d, mo = mo, d
+            mo, d = d, mo
         return date(y, mo, d)
     m = re.match(r'^([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s+(\d{4})$', s)
     if m and m.group(1)[:3].lower() in MONTHS:
@@ -184,11 +188,12 @@ def split_lgus(s: str) -> list[str]:
 class Gazetteer:
     def __init__(self):
         feats = json.loads(CITIES.read_text(encoding='utf-8'))['features']
+        # several LGUs share a name across provinces (Santa Maria: Bulacan and Laguna), so keep them all
+        self.entries: list[tuple[str, str]] = [(f['properties']['n'], f['properties']['p']) for f in feats]
         self.by_key: dict[str, tuple[str, str]] = {}
-        for f in feats:
-            name, prov = f['properties']['n'], f['properties']['p']
-            self.by_key[self.key(name)] = (name, prov)
-        self.ncr = {k: v for k, v in self.by_key.items() if v[1] == 'Metro Manila'}
+        for name, prov in self.entries:
+            self.by_key.setdefault(self.key(name), (name, prov))
+        self.ncr = {self.key(n): (n, p) for n, p in self.entries if p == 'Metro Manila'}
 
     @staticmethod
     def key(name: str) -> str:
@@ -357,8 +362,8 @@ def read_file(path: Path, gaz: Gazetteer) -> FileInfo:
             ms = RDO_SUBJECT_RE.search(subject) or RDO_SUBJECT_RE.search(joined)
             subj_rdo = rdo_code(ms.group(1), ms.group(2)) if ms else None
             info = dos.setdefault(do, DOInfo(do))
-            info.sheets.append(sname.strip())
-            sheet_rows.append({'do': do, 'sheet': sname.strip(), 'do_from_header': do_hdr or '',
+            info.sheets.append(sname)
+            sheet_rows.append({'do': do, 'sheet': sname, 'do_from_header': do_hdr or '',
                                'do_from_tab': do_name or '', 'rdo_in_subject': subj_rdo or '',
                                'subject': re.sub(r'\s+', ' ', subject).strip()[:300]})
             subject_rdos.append((do, subj_rdo, subject))
@@ -519,8 +524,12 @@ def main() -> None:
         w = csv.DictWriter(f, fieldnames=list(sheets[0]))
         w.writeheader()
         w.writerows(sheets)
-    with open(BIR / 'inventory_log.txt', 'a', encoding='utf-8') as f:
-        f.write('\n'.join(log) + '\n\n')
+    # moves, duplicates and unreadable files are history, appended; notes describe the current files, rewritten
+    filed = [l for l in log[1:] if not l.startswith('NOTE')]
+    if filed:
+        with open(BIR / 'filing_log.txt', 'a', encoding='utf-8') as f:
+            f.write('\n'.join([log[0]] + filed) + '\n\n')
+    (BIR / 'inventory_log.txt').write_text('\n'.join(l for l in log if l.startswith('NOTE')) + '\n', encoding='utf-8')
 
     rdos = defaultdict(set)
     for r in rows:
