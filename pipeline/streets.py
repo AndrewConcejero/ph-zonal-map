@@ -119,8 +119,7 @@ def run(city: str) -> dict:
     zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
     bgys = {f['properties']['id']: f for f in zonal if f['properties']['c'] == city}
     bgeom = {k: shape(f['geometry']) for k, f in bgys.items()}
-    current_do = {k: f['properties'].get('do') for k, f in bgys.items()}
-
+    
     # which BIR block names map to which barangay (same mapping the build used)
     psgc_of = {}
     for m in csv.DictReader(open(REVIEW / 'bir_match_report.csv', encoding='utf-8')):
@@ -128,13 +127,21 @@ def run(city: str) -> dict:
             psgc_of[m['bir_name']] = ({'before': m['valid_before'], 'alias': m['psgc'], 'else': m['otherwise'] or None}
                                       if m['valid_before'] else m['psgc'])
 
-    rows = defaultdict(dict)  # psgc -> {(street, vicinity): row}
+    # residential (RR) and commercial (CR) land rows of each barangay's newest schedule, of either class: a barangay
+    # BIR reclassified as commercial-only has no residential schedule but still has commercial streets
+    cand = defaultdict(list)
     for r in read_rows():
-        if r['city'] != city or r['class_code'] != 'RR':
+        if r['city'] != city or r['class_code'] not in ('RR', 'CR'):
             continue
         for p in (resolve_target(psgc_of.get(r['barangay']), r['effective_date']) or '').split(';'):
-            if p in bgys and r['do_number'] == current_do[p]:
-                k = (r['street_or_building'].strip('* '), r['vicinity'].strip('* '))
+            if p in bgys:
+                cand[p].append(r)
+    rows = defaultdict(dict)  # psgc -> {(class, street, vicinity): row}
+    for p, rs in cand.items():
+        newest = max((r['effective_date'], r['do_number']) for r in rs)[1]
+        for r in rs:
+            if r['do_number'] == newest:
+                k = (r['class_code'], r['street_or_building'].strip('* '), r['vicinity'].strip('* '))
                 if k not in rows[p] or float(r['value_per_sqm']) > float(rows[p][k]['value_per_sqm']):
                     rows[p][k] = r
 
@@ -171,9 +178,10 @@ def run(city: str) -> dict:
                     best = cand
             return best if best[1] >= 90 else (None, best[1])
 
-        for (street, vicinity), r in items.items():
+        for (cls, street, vicinity), r in items.items():
+            use = 'c' if cls == 'CR' else 'r'
             value = float(r['value_per_sqm'])
-            rec = {'barangay': bname, 'bir_street': street, 'bir_vicinity': vicinity, 'value': value, 'do': r['do_number'],
+            rec = {'use': cls, 'barangay': bname, 'bir_street': street, 'bir_vicinity': vicinity, 'value': value, 'do': r['do_number'],
                    'kind': '', 'osm_name': '', 'score': 0}
             if BACKGROUND_RE.search(street):
                 rec['kind'] = 'background'
@@ -192,7 +200,7 @@ def run(city: str) -> dict:
                 geom = unary_union([a['geom'] for a in same]).intersection(zone)
                 rec.update(kind='village', osm_name=cands[0][1]['name'], score=cands[0][0])
                 return {'type': 'Feature', 'geometry': mapping(geom), 'properties': {
-                    'n': street.title(), 'osm': cands[0][1]['name'], 'v': value, 'k': 'village', 'b': bname,
+                    'n': street.title(), 'osm': cands[0][1]['name'], 'v': value, 'k': 'village', 'u': use, 'b': bname,
                     'do': r['do_number']}}, hint
 
             def as_street():
@@ -214,7 +222,7 @@ def run(city: str) -> dict:
                 rec.update(kind=kind, osm_name=by_street[sn][0]['name'], score=score)
                 return {'type': 'Feature', 'geometry': mapping(line), 'properties': {
                     'n': street.title(), 'osm': by_street[sn][0]['name'], 'vic': vicinity.title(), 'v': value,
-                    'k': kind, 'b': bname, 'do': r['do_number']}}
+                    'k': kind, 'u': use, 'b': bname, 'do': r['do_number']}}
 
             hint = ''
             if ROADLIKE_RE.search(street):
@@ -240,7 +248,7 @@ def run(city: str) -> dict:
         if p['k'] != 'street':
             merged.append(f)
             continue
-        k = (p['b'], p['osm'])
+        k = (p['b'], p['osm'], p['u'])
         if k in seen:
             q = seen[k]['properties']
             q['vmin'] = min(q.get('vmin', q['v']), p['v'])
@@ -255,12 +263,13 @@ def run(city: str) -> dict:
     by_name = {f['properties']['n']: f['properties'] for f in bgys.values()}
     for f in out:
         p, bp = f['properties'], by_name[f['properties']['b']]
-        if bp.get('g') is not None and bp.get('yrs') is not None:
-            p['g'] = bp['g']
+        pre = 'c_' if p['u'] == 'c' else ''  # commercial rows use the barangay's commercial growth (build.py)
+        if bp.get(f'{pre}g') is not None and bp.get(f'{pre}yrs') is not None:
+            p['g'] = bp[f'{pre}g']
             for k in ('v', 'vmin'):
                 if k in p:
-                    p[f'{k}_a'] = round(p[k] * (1 + bp['g']) ** bp['yrs'])
-        p['eff'] = bp.get('eff', '')
+                    p[f'{k}_a'] = round(p[k] * (1 + bp[f'{pre}g']) ** bp[f'{pre}yrs'])
+        p['eff'] = bp.get(f'{pre}eff') or bp.get('eff', '')
         p['c'] = city
 
     OUT.mkdir(parents=True, exist_ok=True)
@@ -280,7 +289,7 @@ def run(city: str) -> dict:
     placed = sum(n for k, n in kinds.items() if k in ('village', 'segment', 'street'))
     priced = sum(n for k, n in kinds.items() if k != 'background')
     size = (OUT / f'{slug}.geojson').stat().st_size
-    print(f'{city}: placed {placed}/{priced} priced RR rows ({placed / max(priced, 1):.0%}); {dict(kinds)}; {size / 1e3:.0f} KB')
+    print(f'{city}: placed {placed}/{priced} priced RR+CR rows ({placed / max(priced, 1):.0%}); {dict(kinds)}; {size / 1e3:.0f} KB')
     return {'file': f'{slug}.geojson', 'bbox': [round(x, 4) for x in unary_union(list(bgeom.values())).bounds],
             'features': len(out), 'placed': placed, 'priced': priced, 'kb': round(size / 1e3)}
 
