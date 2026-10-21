@@ -88,3 +88,35 @@ def test_department_order_and_rdo_codes():
     assert canon_do('8', '97') == 'DO 8-1997'
     assert rdo_code('27', None) == '027'
     assert rdo_code('53', 'a') == '53A'
+
+
+def test_ranges_ordinals_codes_and_pob_suffix():
+    from pipeline.bir_values import expand_range
+    assert expand_range('ESCOPA I TO IV') == ['ESCOPA I', 'ESCOPA II', 'ESCOPA III', 'ESCOPA IV']
+    assert expand_range('195 to 198 ZONE 20') == ['195 ZONE 20', '196 ZONE 20', '197 ZONE 20', '198 ZONE 20']
+    assert expand_range('LIGTONG 1 TO 4')[-1] == 'LIGTONG 4'
+    assert expand_range('Zone 88 / Brgy 818-A') == []
+    assert expand_range('BARANGAY 10-A') == []
+    idx = CityIndex({'1': 'Look 1st', '2': 'Arnaldo Pob.', '3': 'Quinale', '4': 'Dampol II-A', '5': 'Dampol II-B'})
+    assert idx.exact('LOOK I') == '1'                      # I = 1st
+    assert idx.exact('ARNALDO') == '2'                     # "Pob." suffix optional
+    assert idx.exact(clean_bir_barangay('0004 - QUINALE (POBLACION)', 'Paete')) == '3'  # numeric code stripped
+    assert idx.group('DAMPOL 2ND A & B') == ['4', '5']
+
+
+def test_dated_alias_resolution():
+    from pipeline.bir_values import resolve_target
+    t = {'before': '2023-07-29', 'alias': 'old-area', 'else': 'same-name'}
+    assert resolve_target(t, '2022-07-10') == 'old-area'   # a pre-merger schedule uses the old mapping
+    assert resolve_target(t, '2024-01-01') == 'same-name'  # a later schedule uses the new names as written
+    assert resolve_target('a;b', '2024-01-01') == 'a;b'
+
+
+def test_aliases_file_parses_ignore_dated_and_other_city():
+    from pipeline.bir_values import load_bir_aliases
+    al = load_bir_aliases()
+    z = al[(norm_city('Bacoor'), norm_barangay('ZAPOTE 2'))]
+    assert z.names == ['Zapote 1'] and z.valid_before == '2023-07-29'
+    assert al[(norm_city('Pasig'), norm_barangay('ALL BARANGAYS (continuation)'))].ignore
+    assert al[(norm_city('San Pedro'), norm_barangay('MALITLIT'))].city == 'Santa Rosa'
+    assert al[(norm_city('Kawit'), norm_barangay('BINAKAYAN'))].names == ['Binakayan-Aplaya', 'Binakayan-Kanluran']
