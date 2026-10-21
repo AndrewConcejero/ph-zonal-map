@@ -11,3 +11,4 @@ __pycache__/
 cache/
 .claude/
 raw/bir/_duplicates/
+pipeline/review/parse_errors.csv.gz
