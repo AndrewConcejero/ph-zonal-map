@@ -90,6 +90,7 @@ const state = {
   use: 'res' as 'res' | 'com',
   order: 'top' as 'top' | 'bottom',
   satellite: false,
+  transport: false,
   selected: null as string | null,
   hovered: null as string | null,
 };
@@ -103,6 +104,75 @@ interface StreetIndex { [city: string]: { file: string; bbox: [number, number, n
 let streetIndex: StreetIndex = {};
 const streetFeatures: Collection<StreetProps>['features'] = [];
 const streetLoaded = new Set<string>();
+// Roads & rail overlay (pipeline/transport.py): loaded on first use
+let transport: object | null = null;
+const TR_COLORS = { expressway: '#d9480f', road: '#868e96', rail: '#7048e8' };
+
+async function setTransport(on: boolean) {
+  state.transport = on;
+  $('tr').setAttribute('aria-pressed', String(on));
+  if (on && !transport) {
+    transport = await fetch('/data/transport.geojson', { cache: 'no-cache' }).then(r => r.json()).catch(() => null);
+    if (transport && map.getLayer('z-fill') && !map.getSource('transport')) addTransportLayers();
+  }
+  for (const id of ['tr-casing', 'tr-line', 'tr-station', 'tr-label', 'tr-label-st']) {
+    if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', on ? 'visible' : 'none');
+  }
+  renderLegend();
+  writeHash();
+}
+
+function addTransportLayers() {
+  if (!transport || map.getSource('transport')) return;
+  const dark = theme() === 'dark';
+  const vis = state.transport ? 'visible' : 'none';
+  const lines: ExpressionSpecification = ['!=', ['get', 'k'], 'station'];
+  const width: ExpressionSpecification = ['interpolate', ['linear'], ['zoom'], 9,
+    ['match', ['get', 'k'], 'road', 0.6, 1.4], 15, ['match', ['get', 'k'], 'road', 2.5, 5]];
+  const before = map.getStyle().layers.find(l => l.id === 'z-focus')?.id;
+  map.addSource('transport', { type: 'geojson', data: transport as never });
+  map.addLayer({ id: 'tr-casing', type: 'line', source: 'transport', filter: ['all', lines, ['==', ['get', 's'], 'open']],
+    layout: { visibility: vis, 'line-cap': 'round', 'line-join': 'round' },
+    paint: { 'line-color': dark ? '#0b100f' : '#ffffff', 'line-opacity': 0.8,
+      'line-width': ['interpolate', ['linear'], ['zoom'], 9, 2.5, 15, 8] } }, before);
+  map.addLayer({ id: 'tr-line', type: 'line', source: 'transport', filter: lines,
+    layout: { visibility: vis, 'line-join': 'round' },
+    paint: {
+      'line-color': ['match', ['get', 'k'], 'expressway', TR_COLORS.expressway, 'rail', TR_COLORS.rail, TR_COLORS.road],
+      'line-opacity': ['match', ['get', 's'], 'open', 0.9, 0.75],
+      'line-width': width,
+      'line-dasharray': ['match', ['get', 's'], 'construction', ['literal', [2, 1.5]], 'proposed', ['literal', [0.6, 1.6]], ['literal', [1, 0]]],
+    } }, before);
+  map.addLayer({ id: 'tr-station', type: 'circle', source: 'transport', minzoom: 11, filter: ['==', ['get', 'k'], 'station'],
+    layout: { visibility: vis },
+    paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 3, 15, 6], 'circle-color': '#ffffff',
+      'circle-stroke-color': TR_COLORS.rail, 'circle-stroke-width': 2 } });
+  const fontLayer = map.getStyle().layers.find(l => l.type === 'symbol' && Array.isArray(l.layout?.['text-font']));
+  const font = (fontLayer?.type === 'symbol' ? fontLayer.layout!['text-font'] as string[] : undefined) ?? ['Noto Sans Regular'];
+  const text = { 'text-color': dark ? '#e4ecea' : '#17201f', 'text-halo-color': dark ? 'rgba(16,22,21,.9)' : 'rgba(255,255,255,.9)', 'text-halo-width': 1.4 };
+  map.addLayer({ id: 'tr-label', type: 'symbol', source: 'transport', minzoom: 12,
+    filter: ['all', ['!=', ['get', 'n'], ''], ['in', ['get', 'k'], ['literal', ['expressway', 'rail']]]],
+    layout: { visibility: vis, 'text-field': ['get', 'n'], 'text-font': font, 'text-size': 11, 'symbol-placement': 'line' },
+    paint: text });
+  map.addLayer({ id: 'tr-label-st', type: 'symbol', source: 'transport', minzoom: 13, filter: ['==', ['get', 'k'], 'station'],
+    layout: { visibility: vis, 'text-field': ['get', 'n'], 'text-font': font, 'text-size': 11, 'text-offset': [0, 1.1] },
+    paint: text });
+}
+
+function renderTransportCard(p: { k: string; s: string; n: string; ref?: string; open?: string }) {
+  const card = $('card');
+  const what = { expressway: 'Expressway', road: 'Major road', rail: 'Rail line', station: 'Rail station' }[p.k] ?? p.k;
+  const status = { open: 'open', construction: 'under construction', proposed: 'proposed' }[p.s] ?? p.s;
+  card.innerHTML = `
+    <div class="head"><div class="nm">${esc(p.n || p.ref || what)}</div><button class="close" type="button" aria-label="Close">×</button></div>
+    <div class="loc">${what}${p.ref && p.n ? ` · ${esc(p.ref)}` : ''}</div>
+    <span class="pill ${p.s === 'open' ? 'good' : 'warn'}">${status}${p.open ? `, opening ${esc(p.open)}` : ''}</span>
+    <p class="q">From OpenStreetMap. Future alignments are mappers' best information and can change; check the
+    implementing agency (DPWH, DOTr or the concessionaire) for dates.</p>`;
+  card.hidden = false;
+  card.querySelector<HTMLButtonElement>('.close')!.onclick = () => { card.hidden = true; };
+}
+
 const STREET_MINZOOM = 11.5;           // street/village layers exist from here, fully transparent...
 const STREET_FADE: [number, number] = [12.5, 14];  // ...and cross-fade with the barangay colours over this range
 const STREET_PREFETCH = 11;           // city files load a little before they show, so nothing pops in
@@ -305,6 +375,7 @@ function addLayers() {
     },
   });
   if (state.selected) map.setFeatureState({ source: 'zonal', id: state.selected }, { sel: true });
+  addTransportLayers();
 }
 
 // with imagery on, the colours fade so roofs and greenery show through
@@ -399,6 +470,11 @@ map.on('mouseleave', 'z-fill', () => {
   map.getCanvas().style.cursor = '';
 });
 map.on('click', (e) => {
+  if (state.transport && map.getLayer('tr-line')) {
+    const box: [[number, number], [number, number]] = [[e.point.x - 6, e.point.y - 6], [e.point.x + 6, e.point.y + 6]];
+    const tf = map.queryRenderedFeatures(box, { layers: ['tr-station', 'tr-line'] })[0];
+    if (tf) { renderTransportCard(tf.properties as never); return; }
+  }
   if (map.getLayer('st-line')) {
     const box: [[number, number], [number, number]] = [[e.point.x - 6, e.point.y - 6], [e.point.x + 6, e.point.y + 6]];
     const sf = map.queryRenderedFeatures(box, { layers: ['st-line'] })[0] ?? map.queryRenderedFeatures(e.point, { layers: ['st-fill'] })[0];
@@ -514,6 +590,7 @@ function renderLegend() {
     }).join('')}</div>
     <div class="keys"><span><i class="sw hatch"></i>city median or estimate</span><span><i class="sw" style="background:var(--nodata)"></i>no data</span></div>
     ${Object.keys(streetIndex).length ? `<div class="imagery">${map.getZoom() < STREET_FADE[0] ? 'Zoom in on Metro Manila for village and street values' : `Villages filled, streets as lines (dashed: whole street shown)${state.mode === 'typ' ? '; barangays show their interior-lot value' : ''}`}</div>` : ''}
+    ${state.transport ? `<div class="imagery"><span style="color:${TR_COLORS.expressway}">━</span> expressway <span style="color:${TR_COLORS.rail}">━</span> rail · dashed: under construction · dotted: proposed</div>` : ''}
     ${state.satellite ? `<div class="imagery">Imagery: ${SATELLITE.name} (credit at bottom right)</div>` : ''}`;
 }
 
@@ -641,6 +718,7 @@ function wireControls() {
     state.order = b.dataset.order as 'top' | 'bottom'; pressed('[data-order]', b); renderRank();
   });
   $('sat').onclick = () => { state.satellite = !state.satellite; applySatellite(); };
+  $('tr').onclick = () => { void setTransport(!state.transport); };
   $('theme').onclick = () => {
     const next = theme() === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = next;
@@ -670,6 +748,7 @@ function writeHash() {
   if (state.basis !== 'raw') h.set('adj', '1');
   if (state.satellite) h.set('sat', '1');
   if (state.use === 'com') h.set('use', 'com');
+  if (state.transport) h.set('tr', '1');
   const s = h.toString();
   history.replaceState(null, '', s ? `#${s}` : location.pathname + location.search);
 }
@@ -681,6 +760,7 @@ function readHash() {
   pressed('[data-mode]', document.querySelector(`[data-mode="${state.mode}"]`)!);
   state.satellite = h.get('sat') === '1';
   state.use = h.get('use') === 'com' ? 'com' : 'res';
+  if ((h.get('tr') === '1') !== state.transport) void setTransport(h.get('tr') === '1');
   pressed('[data-use]', document.querySelector(`[data-use="${state.use}"]`)!);
   $('sat').setAttribute('aria-pressed', String(state.satellite));
   if (h.get('adj') === '1' && meta.adjusted_available) { state.basis = 'adj'; pressed('[data-basis]', document.querySelector('[data-basis="adj"]')!); }
