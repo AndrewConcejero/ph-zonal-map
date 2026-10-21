@@ -1,0 +1,60 @@
+{
+  "built_at": "2026-10-21T12:36:49+00:00",
+  "current_year": 2026,
+  "value_basis": "BIR residential zonal value, PHP per sqm of land",
+  "adjusted_available": false,
+  "adjusted_note": "Staleness adjustment needs two or more schedule revisions per RDO; none ingested yet.",
+  "schedule_range": [
+    "2018-05-09",
+    "2024-07-04"
+  ],
+  "coverage": {
+    "features": 3936,
+    "by_flag": {
+      "city_median": 1947,
+      "barangay_data": 601,
+      "no_data": 1388
+    },
+    "by_province": {
+      "Metro Manila": {
+        "city_median": 1102,
+        "barangay_data": 601
+      },
+      "Bulacan": {
+        "no_data": 437,
+        "city_median": 133
+      },
+      "Cavite": {
+        "no_data": 331,
+        "city_median": 470
+      },
+      "Laguna": {
+        "no_data": 537,
+        "city_median": 141
+      },
+      "Rizal": {
+        "city_median": 101,
+        "no_data": 83
+      }
+    }
+  },
+  "sources": [
+    {
+      "name": "BIR zonal value schedules as indexed by REN.PH",
+      "url": "https://ren.ph/tools/zonal-value",
+      "files": [
+        "data/ncr_barangays.csv",
+        "data/pasay_barangays.txt",
+        "data/city_medians.csv"
+      ]
+    },
+    {
+      "name": "Bureau of Internal Revenue zonal values",
+      "url": "https://www.bir.gov.ph"
+    },
+    {
+      "name": "PSA/NAMRIA boundaries (PSGC Dec 2023; Manila from 2019 release) via faeldon/philippines-json-maps",
+      "url": "https://github.com/faeldon/philippines-json-maps"
+    }
+  ]
+}

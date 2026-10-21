@@ -1,0 +1,21 @@
+city,barangay,lo,hi,typ,city_median,reasons
+Pasig,Rosario,11000,205000,47487,43500,max is 19x min; prime value probably one road or condo
+Pasig,Ugong,16000,275000,66332,43500,max is 17x min; prime value probably one road or condo
+Valenzuela,Bisig,3000,3000,3000,6600,min equals max
+Muntinlupa,Alabang,10000,200000,44721,20000,max is 20x min; prime value probably one road or condo
+Muntinlupa,Buli,7000,120000,28983,20000,max is 17x min; prime value probably one road or condo
+Muntinlupa,Cupang,7000,120000,28983,20000,max is 17x min; prime value probably one road or condo
+Muntinlupa,Sucat,7000,120000,28983,20000,max is 17x min; prime value probably one road or condo
+Muntinlupa,Tunasan,7000,150000,32404,20000,max is 21x min; prime value probably one road or condo
+Parañaque,Tambo,23000,380000,93488,33000,max is 17x min; prime value probably one road or condo
+Pasay,Barangay 122,35000,35000,35000,44000,min equals max
+Pasay,Barangay 187,25000,25000,25000,44000,min equals max
+Pasay,Barangay 188,25000,25000,25000,44000,min equals max
+Pasay,Barangay 189,20000,20000,20000,44000,min equals max
+Pasay,Barangay 190,25000,25000,25000,44000,min equals max
+Taguig,Ususan,8000,150000,34641,47000,max is 19x min; prime value probably one road or condo
+Taguig,Western Bicutan,12000,278000,57758,47000,max is 23x min; prime value probably one road or condo
+Taguig,Fort Bonifacio,78000,523000,201975,47000,typical is 4.3x the city median
+Taguig,Pinagsama,16000,280000,66933,47000,max is 18x min; prime value probably one road or condo
+Taguig,South Daang Hari,11000,12000,11489,47000,typical is 1/4 of the city median
+Taguig,Post Proper Northside,200000,350000,264575,47000,typical is 5.6x the city median
