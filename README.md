@@ -1,0 +1,66 @@
+# Philippine Zonal Value Map
+
+A free, public map of BIR residential zonal values (₱ per square meter of land) for Metro Manila and its outskirts: Cavite, Laguna, Rizal and Bulacan. Values are shown per barangay where the data allows. Every area carries a flag saying how good its number is.
+
+> **Zonal values are BIR tax floors, not market prices.** Read the map as a ranking. Check with the BIR Revenue District Office (RDO) before any transaction.
+
+## Data sources
+
+| What | Source | Where in repo |
+|---|---|---|
+| Zonal value schedules (primary) | BIR Department Orders, published per RDO at [bir.gov.ph](https://www.bir.gov.ph) | `raw/bir/<RDO>/*.xls(x)` |
+| Zonal values (fallback, until raw files exist) | BIR schedules as indexed by [REN.PH](https://ren.ph/tools/zonal-value) | `data/ncr_barangays.csv`, `data/pasay_barangays.txt`, `data/city_medians.csv` |
+| Barangay and city boundaries | PSA / NAMRIA, PSGC Dec 2023 release, via [faeldon/philippines-json-maps](https://github.com/faeldon/philippines-json-maps) | fetched into `cache/` (not committed) |
+
+### Quality flags
+
+Every map feature has one of these flags:
+
+- `barangay_data`: computed from that barangay's own schedule rows
+- `city_median`: no barangay detail, so it shows the city's median residential value (hatched on the map)
+- `estimated`: no data, so it shows the median of the neighbouring barangays it shares a border with (hatched and muted on the map)
+- `no_data`: nothing usable (grey)
+
+### Values per barangay
+
+- **Interior lot**: the lowest residential value in the barangay
+- **Prime**: the highest residential value
+- **Typical**: the median of street-level residential values. Where only a min and max exist, the geometric mean of the two is used instead.
+- **Adjusted**: the value projected to the current year using the RDO's median growth between schedule revisions. Both the raw and adjusted values are always shown.
+
+## Repo layout
+
+```
+raw/bir/<RDO>/      BIR Excel files you add, several revisions per RDO is fine
+data/               fallback CSVs (REN.PH-indexed)
+pipeline/           Python 3.11+ data pipeline
+  aliases.csv       hand fixes: source barangay name -> PSGC name
+  review/           generated: unmatched.csv, match report, parse errors
+  tests/            pytest; fixtures/ holds sample BIR layouts
+public/data/        pipeline output served by the site (zonal.geojson, meta.json)
+src/                Vite + TypeScript + MapLibre frontend
+prototype/          v0 d3 prototype, kept for reference only
+```
+
+## Rebuilding
+
+Needs Node 20+ and Python 3.11+.
+
+```bash
+make venv    # one-time: creates .venv and installs pipeline/requirements.txt
+make data    # fetches boundaries (cached), parses raw/ + data/, writes public/data/
+make test    # pytest on the parser and name normalizer
+npm install
+npm run dev  # local site at http://localhost:5173
+```
+
+`make data` writes review files to `pipeline/review/`. If a barangay lands in `unmatched.csv`, add a row to `pipeline/aliases.csv` and run `make data` again.
+
+## Adding new BIR schedules
+
+1. Download the RDO's zonal value Excel file from the BIR site.
+2. Save it as `raw/bir/<RDO number>/<DO number>.xlsx`, for example `raw/bir/47/DO-021-2023.xlsx`. Keep the older revisions: the staleness adjustment uses them.
+3. Run `make data`, check `pipeline/review/parse_errors.csv` and `unmatched.csv`, then commit.
+
+Pushing to `main` deploys to Vercel.
+
