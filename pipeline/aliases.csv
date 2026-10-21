@@ -1,4 +1,92 @@
-city,source_name,psgc_name,note
-Las Piñas,Pilar Village,Pilar,PSGC drops "Village"
-Navotas,North Bay Blvd. South - Kaunlaran,NBBS Kaunlaran,PSGC abbreviates North Bay Boulevard South
-Navotas,North Bay Blvd. South - Dagat-Dagatan,NBBS Dagat-dagatan,PSGC abbreviates North Bay Boulevard South
+city,source_name,psgc_name,psgc_city,valid_before,note
+Las Piñas,Pilar Village,Pilar,,,"PSGC drops ""Village"""
+Navotas,North Bay Blvd. South - Kaunlaran,NBBS Kaunlaran,,,PSGC abbreviates North Bay Boulevard South
+Navotas,North Bay Blvd. South - Dagat-Dagatan,NBBS Dagat-dagatan,,,PSGC abbreviates North Bay Boulevard South
+Bacoor,ALIMA,Sinbanali,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,BANALO,Sinbanali,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,SINEGUELASAN,Sinbanali,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,CAMPOSANTO,Poblacion,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,DAANG BUKID,Poblacion,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,TABING DAGAT / POBLACION,Poblacion,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,KAINGEN,Kaingin Digman,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,DIGMAN,Kaingin Digman,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,MABOLO 1,Mabolo,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,MABOLO 2,Mabolo,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,MABOLO 3,Mabolo,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,SALINAS 2,Salinas 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,SALINAS 3,Salinas 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,SALINAS 4,Salinas 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,MALIKSI 2,Maliksi 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,MALIKSI 3,Maliksi 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,ZAPOTE 1,Zapote 1,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,ZAPOTE 2,Zapote 1,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,ZAPOTE 3,Zapote 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,ZAPOTE 4,Zapote 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,ZAPOTE 5,Zapote 3,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,TALABA 1,Talaba 1,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,TALABA 3,Talaba 1,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,TALABA 7,Talaba 1,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,TALABA 4,Talaba 3,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,TALABA 5,Talaba 3,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,TALABA 6,Talaba 3,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,ANIBAN I,Aniban 1,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,ANIBAN III,Aniban 1,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,ANIBAN V,Aniban 1,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,ANIBAN II,Aniban 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,ANIBAN IV,Aniban 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,MAMBOG 2,Mambog 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,MAMBOG 5,Mambog 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,NIOG 1,Niog,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,NIOG 2,Niog,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,NIOG 3,Niog,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,LIGAS 1,Ligas 1,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,LIGAS 2,Ligas 1,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,LIGAS 3,Ligas 2,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,REAL 1,Real,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,REAL 2,Real,,2023-07-29,[high] Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+Bacoor,PANAPAAN 1,P.F. Espiritu 1,,2023-07-29,"[medium] RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+Bacoor,PANAPAAN 2,P.F. Espiritu 2,,2023-07-29,"[medium] RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+Bacoor,PANAPAAN 3,P.F. Espiritu 2,,2023-07-29,"[medium] RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+Bacoor,PANAPAAN 4,P.F. Espiritu 3,,2023-07-29,"[medium] RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+Bacoor,PANAPAAN 5,P.F. Espiritu 4,,2023-07-29,"[medium] RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+Bacoor,PANAPAAN 6,P.F. Espiritu 4,,2023-07-29,"[medium] RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+Bacoor,PANAPAAN 7,P.F. Espiritu 5,,2023-07-29,"[medium] RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+Bacoor,PANAPAAN 8,P.F. Espiritu 6,,2023-07-29,"[medium] RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+Malabon,SANTULAN,Santolan,,,[high] Spelling variant; Santolan is otherwise missing from Malabon DO 46-2022
+Parañaque,VITALEZ COMPOUND,Vitalez,,,"[high] Same barangay; BIR 2023 adds ""Compound"""
+Quezon City,DOÑA AURORA,Aurora,,,"[medium] The only PSGC ""Aurora"" polygon sits at Doña Aurora (14.616N 121.009E, RDO 39 area); no separate Doña Aurora polygon exists"
+Dasmariñas,BUROL MAIN*,Burol,,,"[high] PSGC has Burol plus Burol I-III; ""Burol Main"" is the original"
+Dasmariñas,SAN MIGUEL I*,San Miguel,,,[medium] PSGC has San Miguel and San Miguel II; BIR has San Miguel I and II
+Dasmariñas,SULTAN ESMAEL*,Datu Esmael,,,[medium] Same person (Sultan/Datu Esmael); no other PSGC candidate
+General Trias,1896*,Ninety Sixth Pob.,,,[medium] Barangay 1896 (Pob.); PSGC file spells the number out
+Tagaytay,MENDEZ JUNCTION (CROSSING EAST),Mendez Crossing East,,,"[high] Same name, BIR adds ""Junction"""
+Tagaytay,MENDEZ JUNCTION (CROSSING WEST),Mendez Crossing West,,,"[high] Same name, BIR adds ""Junction"""
+Tagaytay,IRUHIN CENTRAL,Iruhin South,,,[medium] By elimination: BIR Central/East/West vs PSGC East/West/South
+Tagaytay,KAYBAGAL CENTRAL,Kaybagal East,,,[medium] By elimination: BIR Central/North/South vs PSGC North/East/South
+Muntinlupa,AYALA ALABANG,New Alabang Village,,,[high] BIR's 9 Muntinlupa barangays and PSGC's 9 match except this pair; Ayala Alabang Village was developed as New Alabang Village
+San Pedro,MALITLIT,Malitlit,Santa Rosa,,[medium] Malitlit is a Santa Rosa barangay; both towns are RDO 57
+San Pedro,TAGAPO,Tagapo,Santa Rosa,,[medium] Tagapo is a Santa Rosa barangay; both towns are RDO 57
+San Miguel,MANDILI,Mandile,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+San Miguel,TIBAGON,Tibagan,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+San Miguel,LABRE,Labne,,,[medium] Spelling or naming variant; the only plausible PSGC candidate in the city
+Pulilan,TENEJERO,Tinejero,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+San Rafael,PASONG INCHIC,Pasong Intsik,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+San Rafael,TAMBOBONG,Tambubong,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+San Rafael,MAASIN,Maasim,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+Navotas,NORTH BAY BLVD NORTH,North Bay Boulevard North,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+Quezon City,EULOGIO RODRIGUEZ,E. Rodriguez,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+Mandaluyong,WACK-WACK SUBDIVISION,Wack-wack Greenhills,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+Mandaluyong,WACK-WACK,Wack-wack Greenhills,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+Gen. Mariano Alvarez,DELAS ALAS,Severino De Las Alas,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+Calauan,KANLURAN POBLACION,Kanluran,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+Indang,CALUMPANG LEJOS,Calumpang Lejos I,,,[medium] Spelling or naming variant; the only plausible PSGC candidate in the city
+Amadeo,MAITIM,Maitim I,,,[medium] Spelling or naming variant; the only plausible PSGC candidate in the city
+Rosario,TEJERO,Tejeros Convention,,,[medium] Spelling or naming variant; the only plausible PSGC candidate in the city
+Jala-Jala,"POBLACION, 2ND DISTRICT",Second District,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+Jala-Jala,"POBLACION, 3RD DISTRICT",Third District,,,[high] Spelling or naming variant; the only plausible PSGC candidate in the city
+Kawit,BINAKAYAN,Binakayan-Aplaya; Binakayan-Kanluran,,,[high] Binakayan was split into these two
+Dasmariñas,LANGCAAN,Langkaan I; Langkaan II,,,[high] Langcaan/Langkaan was split into I and II
+Pasig,ALL BARANGAYS (continuation),(ignore),,,"[high] City-wide or condominium section, not a barangay; mark as ignored so it leaves unmatched.csv"
+Mandaluyong,CONDOMINIUMS/TOWNHOUSES,(ignore),,,"[high] City-wide or condominium section, not a barangay; mark as ignored so it leaves unmatched.csv"
+Mandaluyong,CONDOMINIUMS/TOWNHOUSES (CONTINUATION),(ignore),,,"[high] City-wide or condominium section, not a barangay; mark as ignored so it leaves unmatched.csv"
+Manila,CONDOMINIUMS AND TOWNHOUSES,(ignore),,,"[high] City-wide or condominium section, not a barangay; mark as ignored so it leaves unmatched.csv"
