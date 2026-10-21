@@ -9,3 +9,4 @@ __pycache__/
 .env*
 # downloaded PSGC boundary files; re-fetched by `make boundaries`
 cache/
+.claude/
