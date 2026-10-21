@@ -18,7 +18,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from .bir_values import CityIndex, barangay_values, match_bir_names, newest_listing, write_matches
-from .gapfill import fill as gap_fill
+from .gapfill import fill as gap_fill, fill_prefixed as gap_fill_prefixed
 from .staleness import matched_pairs, project, rdo_rates, value_since, years_between
 from .fetch_boundaries import MANILA_PSGC, MANILA_SUBMUNS_2019, PROVDISTS, manila_path, municity_path, provdist_path
 from .match import load_aliases, match_city
@@ -100,14 +100,16 @@ def load_fallback():
     return medians, rows
 
 
-def adjust(p: dict, rate, base_date: str, today: date) -> None:
-    """Add today's projected values (lo_a, hi_a, typ_a) and the growth rate used."""
+def adjust(p: dict, rate, base_date: str, today: date, prefix: str = '') -> None:
+    """Add today's projected values (lo_a, hi_a, typ_a) and the growth rate used; prefix 'c_' for commercial."""
     if rate is None or rate.rate is None or not base_date:
         return
     for k in ('lo', 'hi', 'typ'):
-        p[f'{k}_a'] = round(project(p[k], base_date, rate.rate, today))
-    p['g'] = round(rate.rate, 4)
-    p['yrs'] = round(years_between(base_date, today.isoformat()), 1)  # projection horizon; long ones are rough
+        p[f'{prefix}{k}_a'] = round(project(p[f'{prefix}{k}'], base_date, rate.rate, today))
+    p[f'{prefix}g'] = round(rate.rate, 4)
+    p[f'{prefix}yrs'] = round(years_between(base_date, today.isoformat()), 1)  # projection horizon; long ones are rough
+    if prefix:
+        return
     if rate.source != 'rdo':
         p['gs'] = rate.source
 
@@ -347,6 +349,22 @@ def main() -> None:
             p['typ_a'] = round(statistics.median(adj_by_city[(p['p'], p['c'])]))
     n_estimated = gap_fill(feats)
 
+    # commercial land (class CR): the same method, stored as c_* fields next to the residential values
+    com_vals = barangay_values(bir_rows, psgc_of, classes={'CR'})
+    com_rates = rdo_rates(matched_pairs(com_vals, city_of), province_of_rdo)
+    write_csv(REVIEW / 'growth_by_rdo_commercial.csv', [
+        {'rdo': r.rdo, 'annual_rate': '' if r.rate is None else round(r.rate, 4), 'source': r.source,
+         'pairs': r.pairs, 'share_rising': round(r.share_up, 3), 'transitions': r.transitions, 'flags': r.flags}
+        for r in sorted(com_rates.values(), key=lambda r: r.rdo)])
+    for f in feats:
+        p = f['properties']
+        if p['id'] in com_vals:
+            v = com_vals[p['id']][-1]
+            p.update(c_q='barangay_data', c_lo=round(v.lo), c_hi=round(v.hi), c_typ=round(v.typ), c_ns=v.n_streets,
+                     c_do=v.do_number, c_eff=v.effective_date)
+            adjust(p, com_rates.get(v.rdo), value_since(com_vals[p['id']]).effective_date, today, prefix='c_')
+    n_com_estimated = gap_fill_prefixed(feats, 'c_')
+
     city_feats = [{'type': 'Feature', 'properties': {'id': c['psgc'], 'n': c['name'], 'p': c['prov']},
                    'geometry': {'type': c['geometry']['type'], 'coordinates': rnd(c['geometry']['coordinates'])}}
                   for c in cities]
@@ -414,6 +432,9 @@ def main() -> None:
     same = sum(c['same_as_latest'] for c in cross)
     some = sum(bool(c['same_as_do']) for c in cross)
     print(f'REN.PH vs BIR on {len(cross)} barangays: {same} equal latest DO, {some} equal some DO')
+    print(f"commercial: {sum(f['properties'].get('c_q') == 'barangay_data' for f in feats)} barangays with CR values, "
+          f"{n_com_estimated} estimated; growth {min(r.rate for r in com_rates.values() if r.rate is not None):.1%}"
+          f" to {max(r.rate for r in com_rates.values() if r.rate is not None):.1%}")
     print(f'growth: {len(pairs):,} street pairs; RDO rates {min(r.rate for r in rates.values() if r.rate is not None):.1%}'
           f' to {max(r.rate for r in rates.values() if r.rate is not None):.1%}; estimated barangays: {n_estimated}')
     print(f'zonal.geojson: {size:.1f} MB; city psgc issues: {len(psgc_issues)}; plausibility flags: {len(flagged)}; '

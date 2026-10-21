@@ -326,11 +326,12 @@ def newest_listing(rows: list[dict], psgc_of: dict) -> dict[str, tuple[str, str]
     return out
 
 
-def barangay_values(rows: list[dict], psgc_of: dict[tuple[str, str, str], str]) -> dict[str, list[DoValue]]:
+def barangay_values(rows: list[dict], psgc_of: dict[tuple[str, str, str], str],
+                    classes: set[str] = RESIDENTIAL_LAND) -> dict[str, list[DoValue]]:
     """psgc -> [DoValue per DO], oldest first. psgc_of: (province, city, BIR name) -> see resolve_target."""
     acc: dict[tuple[str, str], dict] = defaultdict(lambda: {'streets': {}, 'meta': None})
     for r in rows:
-        if r['class_code'] not in RESIDENTIAL_LAND:
+        if r['class_code'] not in classes:
             continue
         psgcs = resolve_target(psgc_of.get((r['province'], r['city'], r['barangay'])), r['effective_date'])
         if not psgcs:

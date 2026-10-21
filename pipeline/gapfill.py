@@ -49,3 +49,25 @@ def fill(features: list[dict]) -> int:
         p['nbn'] = ', '.join(sorted(r['n'] for r in real))[:200]
         filled += 1
     return filled
+
+
+def fill_prefixed(features: list[dict], prefix: str) -> int:
+    """The same estimate for a second set of values stored as <prefix>lo, <prefix>typ, ... with <prefix>q
+    (commercial values use 'c_'). Barangays without them get their real neighbours' medians, flagged estimated."""
+    by_id = {f['properties']['id']: f['properties'] for f in features}
+    nb = neighbours(features)
+    filled = 0
+    for p in by_id.values():
+        if p.get(f'{prefix}q') == 'barangay_data':
+            continue
+        real = [by_id[n] for n in nb.get(p['id'], []) if by_id[n].get(f'{prefix}q') == 'barangay_data']
+        if not real:
+            continue
+        for k in FIELDS:
+            vals = [r[f'{prefix}{k}'] for r in real if r.get(f'{prefix}{k}') is not None]
+            if vals:
+                p[f'{prefix}{k}'] = round(statistics.median(vals))
+        p[f'{prefix}q'] = 'estimated'
+        p[f'{prefix}nb'] = len(real)
+        filled += 1
+    return filled
