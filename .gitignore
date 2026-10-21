@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vercel/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env*
+# downloaded PSGC boundary files; re-fetched by `make boundaries`
+cache/
