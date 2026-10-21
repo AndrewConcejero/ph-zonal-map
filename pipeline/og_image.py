@@ -31,7 +31,7 @@ def rings(geom):
 def main() -> None:
     feats = json.loads(SRC.read_text())['features']
     cmap = LinearSegmentedColormap.from_list('zonal', STOPS)
-    norm = LogNorm(2500, 1000000, clip=True)  # same domain as src/main.ts
+    norm = LogNorm(2500, 2000000, clip=True)  # same domain as src/main.ts
 
     fig = plt.figure(figsize=(12, 6.3), dpi=100, facecolor=BG)
     # map on the right; keep lon/lat aspect roughly true at 14.5 N
@@ -75,8 +75,8 @@ def main() -> None:
     lax.set_yticks([])
     for s in lax.spines.values():
         s.set_visible(False)
-    for v, label in [(2500, '₱2.5K'), (1000000, '₱1M')]:
-        x = 0.05 + 0.36 * (math.log(v / 2500) / math.log(1000000 / 2500))
+    for v, label in [(2500, '₱2.5K'), (2000000, '₱2M')]:
+        x = 0.05 + 0.36 * (math.log(v / 2500) / math.log(2000000 / 2500))
         t(x, 0.125, label, fontsize=11, color=MUTED, family='monospace', ha='left' if v == 2500 else 'right')
 
     fig.savefig(OUT, dpi=100, facecolor=BG)
