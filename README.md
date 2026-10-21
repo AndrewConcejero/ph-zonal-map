@@ -59,6 +59,15 @@ npm run dev  # local site at http://localhost:5173
 
 `make data` writes review files to `pipeline/review/`. If a barangay lands in `unmatched.csv`, add a row to `pipeline/aliases.csv` and run `make data` again.
 
+## Street and village values (Metro Manila)
+
+Zoom in on any Metro Manila city to see BIR's street and subdivision values on the map: villages filled, streets as
+lines (dashed where BIR's stretch could not be pinned down, so the whole street is drawn). `pipeline/streets.py`
+matches each residential row of the current schedule to OpenStreetMap shapes in its own barangay; 62% of priced
+rows place. One cached OSM request per city (`cache/osm/`); one GeoJSON per city in `public/data/streets/`,
+loaded only when you zoom in. Review files: `pipeline/review/streets_<city>.csv`. Method and limits:
+[docs/pilot-muntinlupa-streets.md](docs/pilot-muntinlupa-streets.md).
+
 ## Satellite imagery
 
 The **Satellite** button puts imagery under the colours. With no configuration it uses

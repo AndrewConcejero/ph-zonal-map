@@ -1,5 +1,5 @@
 import maplibregl from 'maplibre-gl';
-import type { ExpressionSpecification, MapGeoJSONFeature } from 'maplibre-gl';
+import type { ExpressionSpecification, GeoJSONSource, MapGeoJSONFeature } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './styles.css';
 
@@ -95,11 +95,13 @@ const state = {
 let zonal: Collection<Props>;
 let cities: Collection<CityProps>;
 let meta: Meta;
-// Pilot: street- and village-level values for one city (pipeline/streets.py), shown only with ?pilot=1
-const PILOT = new URLSearchParams(location.search).has('pilot');
+// Street- and village-level values (pipeline/streets.py), one file per Metro Manila city, loaded when zoomed in
 interface StreetProps { n: string; osm: string; v: number; v_a?: number; vmin?: number; vmin_a?: number; rows?: number;
-  k: 'village' | 'segment' | 'street'; b: string; do: string; eff?: string; vic?: string; g?: number }
-let streets: Collection<StreetProps> | null = null;
+  k: 'village' | 'segment' | 'street'; b: string; c: string; do: string; eff?: string; vic?: string; g?: number }
+interface StreetIndex { [city: string]: { file: string; bbox: [number, number, number, number]; features: number } }
+let streetIndex: StreetIndex = {};
+const streetFeatures: Collection<StreetProps>['features'] = [];
+const streetLoaded = new Set<string>();
 const STREET_MINZOOM = 12.5;
 const byId = new Map<string, Feature>();
 const bboxes = new Map<string, BBox>();
@@ -224,15 +226,21 @@ function addLayers() {
       'line-width': ['interpolate', ['linear'], ['zoom'], 8, 0.5, 13, 1.6],
     },
   }, before);
-  if (streets) {
-    map.addSource('streets', { type: 'geojson', data: streets as never });
+  {
+    map.addSource('streets', { type: 'geojson', data: { type: 'FeatureCollection', features: streetFeatures } as never });
     map.addLayer({
       id: 'st-fill', type: 'fill', source: 'streets', minzoom: STREET_MINZOOM, filter: ['==', ['get', 'k'], 'village'],
       paint: { 'fill-color': streetColor(), 'fill-opacity': state.satellite ? 0.6 : 0.9 },
     }, before);
     map.addLayer({
       id: 'st-outline', type: 'line', source: 'streets', minzoom: STREET_MINZOOM, filter: ['==', ['get', 'k'], 'village'],
-      paint: { 'line-color': dark ? '#e4ecea' : '#17201f', 'line-opacity': 0.6, 'line-width': 0.8 },
+      paint: { 'line-color': dark ? '#e4ecea' : '#17201f', 'line-opacity': 0.85, 'line-width': ['interpolate', ['linear'], ['zoom'], 13, 1, 16, 2] },
+    }, before);
+    map.addLayer({  // dark edge under street lines so pale (cheap) streets still read against the map
+      id: 'st-casing', type: 'line', source: 'streets', minzoom: STREET_MINZOOM, filter: ['!=', ['get', 'k'], 'village'],
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
+      paint: { 'line-color': dark ? '#0b100f' : '#17201f', 'line-opacity': 0.8,
+        'line-width': ['interpolate', ['linear'], ['zoom'], 13, 5, 16, 10] },
     }, before);
     map.addLayer({
       id: 'st-line', type: 'line', source: 'streets', minzoom: STREET_MINZOOM, filter: ['!=', ['get', 'k'], 'village'],
@@ -264,9 +272,13 @@ function addLayers() {
 }
 
 // with imagery on, the colours fade so roofs and greenery show through
-const fillOpacity = (): ExpressionSpecification => state.satellite
-  ? ['match', ['get', 'q'], 'barangay_data', 0.5, 'no_data', 0.25, 0.3]
-  : ['match', ['get', 'q'], 'barangay_data', 0.84, 'no_data', 0.7, 0.5];
+// and at street zoom the barangay colours fade further, so village and street values stand out
+const fillOpacity = (): ExpressionSpecification => {
+  const base: ExpressionSpecification = state.satellite
+    ? ['match', ['get', 'q'], 'barangay_data', 0.5, 'no_data', 0.25, 0.3]
+    : ['match', ['get', 'q'], 'barangay_data', 0.84, 'no_data', 0.7, 0.5];
+  return ['interpolate', ['linear'], ['zoom'], STREET_MINZOOM, base, STREET_MINZOOM + 1.5, state.satellite ? 0.15 : 0.3];
+};
 
 function applySatellite() {
   $('sat').setAttribute('aria-pressed', String(state.satellite));
@@ -278,6 +290,19 @@ function applySatellite() {
   }
   renderLegend();
   writeHash();
+}
+
+async function loadStreetsInView() {
+  if (map.getZoom() < STREET_MINZOOM) return;
+  const b = map.getBounds();
+  const todo = Object.entries(streetIndex).filter(([c, v]) => !streetLoaded.has(c)
+    && v.bbox[0] < b.getEast() && v.bbox[2] > b.getWest() && v.bbox[1] < b.getNorth() && v.bbox[3] > b.getSouth());
+  if (!todo.length) return;
+  todo.forEach(([c]) => streetLoaded.add(c));
+  const got = await Promise.all(todo.map(([, v]) => fetch(`/data/streets/${v.file}`, { cache: 'no-cache' })
+    .then(r => r.json()).catch(() => null)));
+  for (const g of got) if (g) streetFeatures.push(...g.features);
+  (map.getSource('streets') as GeoJSONSource | undefined)?.setData({ type: 'FeatureCollection', features: streetFeatures } as never);
 }
 
 function streetColor(): ExpressionSpecification {
@@ -324,7 +349,7 @@ map.on('click', (e) => {
   const f = map.queryRenderedFeatures(e.point, { layers: ['z-fill'] })[0];
   select(f ? String(f.id) : null);
 });
-map.on('moveend', () => renderRank());
+map.on('moveend', () => { renderRank(); void loadStreetsInView(); renderLegend(); });
 
 // ---- selection + card ----
 function select(id: string | null, fly = false) {
@@ -360,7 +385,7 @@ function renderStreetCard(p: StreetProps) {
     street: `BIR's value for lots along ${p.osm}${p.vic ? ` (BIR: "${p.vic}")` : ''}. BIR's stretch could not be pinned down, so the whole street inside the barangay is drawn, dashed.` }[p.k];
   card.innerHTML = `
     <div class="head"><div class="nm">${esc(p.n)}</div><button class="close" type="button" aria-label="Close">×</button></div>
-    <div class="loc">${esc(p.b)}, Muntinlupa · pilot</div>
+    <div class="loc">${esc(p.b)}, ${esc(p.c)}</div>
     <div class="big">${fmt(v)}<small> /sqm${adj ? `, adjusted to ${year}` : ''}</small></div>
     <span class="pill good">${kind}</span>
     <dl>
@@ -370,7 +395,7 @@ function renderStreetCard(p: StreetProps) {
       <dt>Schedule effective</dt><dd>${esc(p.eff || '')}</dd>
       <dt>Department Order</dt><dd>${esc(p.do.replace('DO ', ''))}</dd>
     </dl>
-    <p class="q">${esc(where)}${p.rows ? ` BIR lists ${p.rows} values for this street with different vicinities; the range is shown.` : ''} Street-level placement is a pilot for Muntinlupa only; it can be wrong where names differ.</p>`;
+    <p class="q">${esc(where)}${p.rows ? ` BIR lists ${p.rows} values for this street with different vicinities; the range is shown.` : ''} Placed by matching BIR's names to OpenStreetMap, so it can be wrong where names differ; the barangay value stays the reference.</p>`;
   card.hidden = false;
   card.querySelector<HTMLButtonElement>('.close')!.onclick = () => { card.hidden = true; };
 }
@@ -427,6 +452,7 @@ function renderLegend() {
       return `<span style="position:absolute;${align}">${short(t)}</span>`;
     }).join('')}</div>
     <div class="keys"><span><i class="sw hatch"></i>city median or estimate</span><span><i class="sw" style="background:var(--nodata)"></i>no data</span></div>
+    ${Object.keys(streetIndex).length ? `<div class="imagery">${map.getZoom() < STREET_MINZOOM ? 'Zoom in on Metro Manila for village and street values' : 'Villages filled, streets as lines (dashed: whole street shown)'}</div>` : ''}
     ${state.satellite ? `<div class="imagery">Imagery: ${SATELLITE.name} (credit at bottom right)</div>` : ''}`;
 }
 
@@ -601,9 +627,9 @@ async function boot() {
   wireSearch();
   // revalidate on every load (a cheap 304 when unchanged) so a deploy never pairs new code with cached old data
   const get = (u: string) => fetch(u, { cache: 'no-cache' }).then(r => r.json());
-  const [z, c, m, st] = await Promise.all([get('/data/zonal.geojson'), get('/data/cities.geojson'), get('/data/meta.json'),
-    PILOT ? get('/data/streets/muntinlupa.geojson').catch(() => null) : Promise.resolve(null)]);
-  streets = st;  // before zonal: addLayers (possibly fired by style.load) starts once zonal is set
+  const [z, c, m, si] = await Promise.all([get('/data/zonal.geojson'), get('/data/cities.geojson'), get('/data/meta.json'),
+    get('/data/streets/index.json').catch(() => ({}))]);
+  streetIndex = si;
   zonal = z; cities = c; meta = m;
   for (const f of zonal.features as Feature[]) { byId.set(f.properties.id, f); bboxes.set(f.properties.id, bboxOf(f.geometry)); }
   buildIndex();
