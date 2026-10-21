@@ -8,7 +8,7 @@ A free, public map of BIR residential zonal values (₱ per square meter of land
 
 | What | Source | Where in repo |
 |---|---|---|
-| Zonal value schedules (primary) | BIR Department Orders, published per RDO at [bir.gov.ph](https://www.bir.gov.ph) | `raw/bir/<RDO>/*.xls(x)` |
+| Zonal value schedules (primary) | BIR Department Orders, published per RDO at [bir.gov.ph](https://www.bir.gov.ph) | `raw/bir/RDO-<code>/*.xls(x)` |
 | Zonal values (fallback, until raw files exist) | BIR schedules as indexed by [REN.PH](https://ren.ph/tools/zonal-value) | `data/ncr_barangays.csv`, `data/pasay_barangays.txt`, `data/city_medians.csv` |
 | Barangay and city boundaries | PSA / NAMRIA, PSGC Dec 2023 release, via [faeldon/philippines-json-maps](https://github.com/faeldon/philippines-json-maps) | fetched into `cache/` (not committed) |
 
@@ -31,7 +31,9 @@ Every map feature has one of these flags:
 ## Repo layout
 
 ```
-raw/bir/<RDO>/      BIR Excel files you add, several revisions per RDO is fine
+raw/bir/_inbox/     drop new BIR workbooks here; make data files them
+raw/bir/RDO-<code>/ BIR workbooks filed by RDO, each holding every revision for that RDO
+raw/bir/inventory.csv  one row per Department Order found in the workbooks
 data/               fallback CSVs (REN.PH-indexed)
 pipeline/           Python 3.11+ data pipeline
   aliases.csv       hand fixes: source barangay name -> PSGC name
@@ -59,12 +61,20 @@ npm run dev  # local site at http://localhost:5173
 
 ## Adding new BIR schedules
 
-1. Download the RDO's zonal value Excel file from the BIR site.
-2. Save it as `raw/bir/<RDO number>/<DO number>.xlsx`, for example `raw/bir/47/DO-021-2023.xlsx`. Keep the older revisions: the staleness adjustment uses them.
-3. Run `make data`, check `pipeline/review/parse_errors.csv` and `unmatched.csv`, then commit.
+1. Download the RDO's zonal value workbook from the BIR site and drop it, as is, into `raw/bir/_inbox/` (subfolders and odd file names are fine).
+2. Run `make data`. It reads each workbook's NOTICE sheet and Department Order headers, files it under `raw/bir/RDO-<code>/` (for example `RDO-027`, `RDO-53A`), skips exact duplicates, and rewrites `raw/bir/inventory.csv`: one row per Department Order with its effectivity date and the cities it covers.
+3. Check what needs a human:
+   - `raw/bir/inventory_log.txt`: anything that needed judgment while reading the workbooks
+   - `pipeline/review/unmatched.csv`: BIR barangay names that matched no PSGC barangay. Add a row to `pipeline/aliases.csv` and run `make data` again.
+   - `pipeline/review/plausibility.csv`: values worth a second look
+   - `pipeline/review/parse_errors.csv.gz`: every sheet row the parser could not use, with the reason (local only)
+4. Commit and push; Vercel deploys `main`.
 
-Pushing to `main` deploys to Vercel.
+### How values are computed
 
+- Only residential land rows (class `RR`) count. Condominium rows (`RC`) are priced per sqm of floor area, not land, so they are left out.
+- Each barangay uses the newest Department Order that covers it. Typical is the median of its street values, each street counted once; interior lot is the minimum, prime the maximum.
+- Where no BIR schedule matched a barangay, the REN.PH index fills in (min/max only), then the city median (flagged `city_median`, hatched on the map).
 
 ## License
 
