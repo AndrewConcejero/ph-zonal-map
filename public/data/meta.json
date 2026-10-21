@@ -1,9 +1,177 @@
 {
-  "built_at": "2026-10-21T13:17:39+00:00",
+  "built_at": "2026-10-21T14:04:17+00:00",
   "current_year": 2026,
   "value_basis": "BIR residential zonal value (class RR, land), PHP per sqm",
-  "adjusted_available": false,
-  "adjusted_note": "Staleness adjustment arrives in the next release.",
+  "adjusted_available": true,
+  "adjusted_to": "2026-10-21",
+  "adjusted_note": "Projected from each schedule's effectivity date with its RDO's median annual growth between consecutive revisions, measured on the same streets.",
+  "growth": {
+    "RDO-024": {
+      "rate": 0.1019,
+      "source": "rdo",
+      "pairs": 884
+    },
+    "RDO-026": {
+      "rate": 0.1612,
+      "source": "rdo",
+      "pairs": 683
+    },
+    "RDO-027": {
+      "rate": 0.0716,
+      "source": "rdo",
+      "pairs": 1930
+    },
+    "RDO-028": {
+      "rate": 0.1271,
+      "source": "rdo",
+      "pairs": 747
+    },
+    "RDO-029": {
+      "rate": 0.1495,
+      "source": "rdo",
+      "pairs": 1125
+    },
+    "RDO-031": {
+      "rate": 0.1264,
+      "source": "rdo",
+      "pairs": 461
+    },
+    "RDO-032": {
+      "rate": 0.1423,
+      "source": "rdo",
+      "pairs": 889
+    },
+    "RDO-033": {
+      "rate": 0.0898,
+      "source": "rdo",
+      "pairs": 87
+    },
+    "RDO-034": {
+      "rate": 0.1756,
+      "source": "rdo",
+      "pairs": 414
+    },
+    "RDO-038": {
+      "rate": 0.1839,
+      "source": "rdo",
+      "pairs": 1163
+    },
+    "RDO-039": {
+      "rate": 0.1178,
+      "source": "rdo",
+      "pairs": 521
+    },
+    "RDO-040": {
+      "rate": 0.1832,
+      "source": "rdo",
+      "pairs": 475
+    },
+    "RDO-041": {
+      "rate": 0.1023,
+      "source": "rdo",
+      "pairs": 414
+    },
+    "RDO-042": {
+      "rate": 0.1065,
+      "source": "rdo",
+      "pairs": 347
+    },
+    "RDO-043": {
+      "rate": 0.1416,
+      "source": "rdo",
+      "pairs": 646
+    },
+    "RDO-044": {
+      "rate": 0.1033,
+      "source": "rdo",
+      "pairs": 531
+    },
+    "RDO-045": {
+      "rate": 0.1162,
+      "source": "rdo",
+      "pairs": 1518
+    },
+    "RDO-046": {
+      "rate": 0.1634,
+      "source": "rdo",
+      "pairs": 1400
+    },
+    "RDO-047": {
+      "rate": 0.0505,
+      "source": "rdo",
+      "pairs": 23
+    },
+    "RDO-048": {
+      "rate": 0.1263,
+      "source": "rdo",
+      "pairs": 158
+    },
+    "RDO-049": {
+      "rate": 0.1181,
+      "source": "rdo",
+      "pairs": 373
+    },
+    "RDO-050": {
+      "rate": 0.1561,
+      "source": "rdo",
+      "pairs": 795
+    },
+    "RDO-051": {
+      "rate": 0.1062,
+      "source": "rdo",
+      "pairs": 752
+    },
+    "RDO-052": {
+      "rate": 0.1566,
+      "source": "rdo",
+      "pairs": 277
+    },
+    "RDO-055": {
+      "rate": 0.0647,
+      "source": "rdo",
+      "pairs": 389
+    },
+    "RDO-056": {
+      "rate": 0.0783,
+      "source": "rdo",
+      "pairs": 738
+    },
+    "RDO-057": {
+      "rate": 0.1538,
+      "source": "rdo",
+      "pairs": 615
+    },
+    "RDO-25A": {
+      "rate": 0.0817,
+      "source": "rdo",
+      "pairs": 571
+    },
+    "RDO-25B": {
+      "rate": 0.1027,
+      "source": "rdo",
+      "pairs": 1214
+    },
+    "RDO-53A": {
+      "rate": 0.0954,
+      "source": "rdo",
+      "pairs": 322
+    },
+    "RDO-53B": {
+      "rate": 0.0534,
+      "source": "rdo",
+      "pairs": 173
+    },
+    "RDO-54A": {
+      "rate": 0.0956,
+      "source": "rdo",
+      "pairs": 1186
+    },
+    "RDO-54B": {
+      "rate": 0.1232,
+      "source": "rdo",
+      "pairs": 1593
+    }
+  },
   "schedule_range": [
     "2002-12-28",
     "2024-07-04"
@@ -12,33 +180,38 @@
     "features": 3936,
     "by_flag": {
       "barangay_data": 3764,
-      "city_median": 172
+      "estimated": 149,
+      "city_median": 23
     },
     "by_source": {
       "barangay_data/bir": 3762,
-      "city_median/bir": 172,
+      "estimated": 149,
+      "city_median/bir": 23,
       "barangay_data/renph": 2
     },
     "by_province": {
       "Metro Manila": {
         "barangay_data": 1635,
-        "city_median": 68
+        "estimated": 48,
+        "city_median": 20
       },
       "Bulacan": {
         "barangay_data": 556,
-        "city_median": 14
+        "estimated": 14
       },
       "Cavite": {
         "barangay_data": 774,
-        "city_median": 27
+        "estimated": 27
       },
       "Laguna": {
         "barangay_data": 628,
-        "city_median": 50
+        "estimated": 49,
+        "city_median": 1
       },
       "Rizal": {
         "barangay_data": 171,
-        "city_median": 13
+        "estimated": 11,
+        "city_median": 2
       }
     }
   },

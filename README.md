@@ -74,7 +74,8 @@ npm run dev  # local site at http://localhost:5173
 
 - Only residential land rows (class `RR`) count. Condominium rows (`RC`) are priced per sqm of floor area, not land, so they are left out.
 - Each barangay uses the newest Department Order that covers it. Typical is the median of its street values, each street counted once; interior lot is the minimum, prime the maximum.
-- Where no BIR schedule matched a barangay, the REN.PH index fills in (min/max only), then the city median (flagged `city_median`, hatched on the map).
+- Where no BIR schedule matched a barangay, it is estimated as the median of the neighbouring barangays that have their own values (flagged `estimated`, hatched on the map). Only real values are used, never other estimates. With no such neighbour, it shows the city median (flagged `city_median`).
+- **Adjusted to today.** For each RDO, every street that appears in two consecutive revisions of the same barangay gives one annual growth rate; the RDO's rate is their median, taken from the transition into its current schedules. An RDO with fewer than 20 such pairs uses earlier transitions, then its province's median. Each value is then grown from the date it was actually set (a schedule that only repeats an older one's values does not count as a new date). Department Order averages are never compared. Rates per RDO are in `pipeline/review/growth_by_rdo.csv`; the summary is in [docs/staleness-report.md](docs/staleness-report.md).
 
 ## License
 
