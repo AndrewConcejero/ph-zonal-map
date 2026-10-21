@@ -117,3 +117,62 @@ def _rings(parts: list[list[tuple]]) -> list[list[tuple]]:
         if ring[0] == ring[-1] and len(ring) >= 4:
             rings.append(ring)
     return rings
+
+
+BUILDINGS_QUERY = """[out:json][timeout:180];
+nwr["building"]["name"]({bbox});
+out center tags;"""
+
+
+def fetch_buildings(city: str) -> list[dict]:
+    """Named buildings (condominiums, towers) in a city as points: name, osm id, tags, lon, lat. Cached."""
+    CACHE.mkdir(parents=True, exist_ok=True)
+    path = CACHE / f"{city.lower().replace(' ', '-')}-buildings.json"
+    if not path.exists():
+        w, s, e, n = city_polygon(city).buffer(0.005).bounds
+        _overpass(BUILDINGS_QUERY.format(bbox=f'{s:.5f},{w:.5f},{n:.5f},{e:.5f}'), path)
+    out = []
+    for el in json.loads(path.read_text(encoding='utf-8'))['elements']:
+        c = el.get('center') or ({'lon': el['lon'], 'lat': el['lat']} if 'lon' in el else None)
+        if c and el.get('tags', {}).get('name'):
+            out.append({'name': el['tags']['name'], 'id': f"{el['type']}/{el['id']}", 'tags': el['tags'],
+                        'lon': c['lon'], 'lat': c['lat']})
+    return out
+
+
+def _overpass(query: str, path: Path) -> None:
+    req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({'data': query}).encode(), headers={'User-Agent': UA})
+    for attempt in range(4):  # Overpass answers 429/504 when busy: back off and retry
+        try:
+            with urllib.request.urlopen(req, timeout=300) as r:
+                body = r.read()
+            break
+        except urllib.error.HTTPError as e:
+            if e.code not in (429, 502, 503, 504) or attempt == 3:
+                raise
+            time.sleep(30 * (attempt + 1))
+    json.loads(body)  # fail loudly rather than cache a broken response
+    path.write_bytes(body)
+    time.sleep(5)  # be polite between requests
+
+
+TRANSPORT_QUERY = """[out:json][timeout:300];
+(
+  way["highway"~"^(motorway|trunk)$"]({bbox});
+  way["highway"="construction"]["construction"~"^(motorway|trunk)$"]({bbox});
+  way["highway"="proposed"]["proposed"~"^(motorway|trunk)$"]({bbox});
+  way["railway"~"^(rail|light_rail|subway|monorail)$"]({bbox});
+  way["railway"~"^(construction|proposed)$"]({bbox});
+  node["railway"="station"]({bbox});
+);
+out geom tags;"""
+
+
+def fetch_transport(bbox: tuple[float, float, float, float]) -> dict:
+    """Expressways, trunk roads, rail lines and stations, current and under construction or proposed. Cached."""
+    CACHE.mkdir(parents=True, exist_ok=True)
+    path = CACHE / 'transport.json'
+    if not path.exists():
+        w, s, e, n = bbox
+        _overpass(TRANSPORT_QUERY.format(bbox=f'{s:.4f},{w:.4f},{n:.4f},{e:.4f}'), path)
+    return json.loads(path.read_text(encoding='utf-8'))
