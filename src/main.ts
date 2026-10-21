@@ -95,6 +95,12 @@ const state = {
 let zonal: Collection<Props>;
 let cities: Collection<CityProps>;
 let meta: Meta;
+// Pilot: street- and village-level values for one city (pipeline/streets.py), shown only with ?pilot=1
+const PILOT = new URLSearchParams(location.search).has('pilot');
+interface StreetProps { n: string; osm: string; v: number; v_a?: number; vmin?: number; vmin_a?: number; rows?: number;
+  k: 'village' | 'segment' | 'street'; b: string; do: string; eff?: string; vic?: string; g?: number }
+let streets: Collection<StreetProps> | null = null;
+const STREET_MINZOOM = 12.5;
 const byId = new Map<string, Feature>();
 const bboxes = new Map<string, BBox>();
 
@@ -218,6 +224,26 @@ function addLayers() {
       'line-width': ['interpolate', ['linear'], ['zoom'], 8, 0.5, 13, 1.6],
     },
   }, before);
+  if (streets) {
+    map.addSource('streets', { type: 'geojson', data: streets as never });
+    map.addLayer({
+      id: 'st-fill', type: 'fill', source: 'streets', minzoom: STREET_MINZOOM, filter: ['==', ['get', 'k'], 'village'],
+      paint: { 'fill-color': streetColor(), 'fill-opacity': state.satellite ? 0.6 : 0.9 },
+    }, before);
+    map.addLayer({
+      id: 'st-outline', type: 'line', source: 'streets', minzoom: STREET_MINZOOM, filter: ['==', ['get', 'k'], 'village'],
+      paint: { 'line-color': dark ? '#e4ecea' : '#17201f', 'line-opacity': 0.6, 'line-width': 0.8 },
+    }, before);
+    map.addLayer({
+      id: 'st-line', type: 'line', source: 'streets', minzoom: STREET_MINZOOM, filter: ['!=', ['get', 'k'], 'village'],
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
+      paint: {
+        'line-color': streetColor(),
+        'line-width': ['interpolate', ['linear'], ['zoom'], 13, 3, 16, 7],
+        'line-dasharray': ['case', ['==', ['get', 'k'], 'street'], ['literal', [2, 1]], ['literal', [1, 0]]],
+      },
+    }, before);
+  }
   map.addLayer({
     id: 'z-focus', type: 'line', source: 'zonal',
     paint: {
@@ -248,13 +274,23 @@ function applySatellite() {
     map.setLayoutProperty('sat', 'visibility', state.satellite ? 'visible' : 'none');
     map.setPaintProperty('c-fill', 'fill-opacity', state.satellite ? 0 : 0.7);
     map.setPaintProperty('z-fill', 'fill-opacity', fillOpacity());
+    if (map.getLayer('st-fill')) map.setPaintProperty('st-fill', 'fill-opacity', state.satellite ? 0.6 : 0.9);
   }
   renderLegend();
   writeHash();
 }
 
+function streetColor(): ExpressionSpecification {
+  const v: ExpressionSpecification = ['coalesce', ['get', state.basis === 'adj' ? 'v_a' : 'v'], ['get', 'v']];
+  return ['interpolate-lab', ['linear'], ['ln', v], ...lnStops] as unknown as ExpressionSpecification;
+}
+
 function repaint() {
   if (map.getLayer('z-fill')) map.setPaintProperty('z-fill', 'fill-color', fillColor());
+  if (map.getLayer('st-fill')) {
+    map.setPaintProperty('st-fill', 'fill-color', streetColor());
+    map.setPaintProperty('st-line', 'line-color', streetColor());
+  }
   renderLegend();
   renderRank();
   if (state.selected) renderCard(state.selected);
@@ -280,6 +316,11 @@ map.on('mouseleave', 'z-fill', () => {
   map.getCanvas().style.cursor = '';
 });
 map.on('click', (e) => {
+  if (map.getLayer('st-line')) {
+    const box: [[number, number], [number, number]] = [[e.point.x - 6, e.point.y - 6], [e.point.x + 6, e.point.y + 6]];
+    const sf = map.queryRenderedFeatures(box, { layers: ['st-line'] })[0] ?? map.queryRenderedFeatures(e.point, { layers: ['st-fill'] })[0];
+    if (sf) { renderStreetCard(sf.properties as unknown as StreetProps); return; }
+  }
   const f = map.queryRenderedFeatures(e.point, { layers: ['z-fill'] })[0];
   select(f ? String(f.id) : null);
 });
@@ -305,6 +346,33 @@ function flyTo(b: BBox) {
     padding: mobile ? { top: 40, bottom: Math.round(map.getContainer().clientHeight * 0.5), left: 30, right: 30 } : { top: 60, bottom: 60, left: 60, right: 360 },
     maxZoom: 15, duration: matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 700,
   });
+}
+
+function renderStreetCard(p: StreetProps) {
+  const card = $('card');
+  const year = meta?.current_year ?? new Date().getFullYear();
+  const adj = state.basis === 'adj';
+  const v = adj && p.v_a != null ? p.v_a : p.v;
+  const range = (lo?: number, hi?: number) => lo != null && lo !== hi ? `${fmt(lo)} – ${fmt(hi)}` : fmt(hi);
+  const kind = { village: 'village / subdivision', segment: 'street, placed stretch', street: 'street, whole length shown' }[p.k];
+  const where = { village: `BIR's value for lots in this subdivision, placed on the OpenStreetMap outline named "${p.osm}".`,
+    segment: `BIR's value for lots along this stretch of ${p.osm} (${p.vic}).`,
+    street: `BIR's value for lots along ${p.osm}${p.vic ? ` (BIR: "${p.vic}")` : ''}. BIR's stretch could not be pinned down, so the whole street inside the barangay is drawn, dashed.` }[p.k];
+  card.innerHTML = `
+    <div class="head"><div class="nm">${esc(p.n)}</div><button class="close" type="button" aria-label="Close">×</button></div>
+    <div class="loc">${esc(p.b)}, Muntinlupa · pilot</div>
+    <div class="big">${fmt(v)}<small> /sqm${adj ? `, adjusted to ${year}` : ''}</small></div>
+    <span class="pill good">${kind}</span>
+    <dl>
+      <dt></dt><dd class="na">as scheduled${p.v_a != null ? ` → ${year}` : ''}</dd>
+      <dt>Residential land</dt><dd>${range(p.vmin, p.v)}${p.v_a != null ? ` → ${range(p.vmin_a, p.v_a)}` : ''}</dd>
+      ${p.g != null ? `<dt>Growth rate used</dt><dd>${(p.g * 100).toFixed(1)}% a year</dd>` : ''}
+      <dt>Schedule effective</dt><dd>${esc(p.eff || '')}</dd>
+      <dt>Department Order</dt><dd>${esc(p.do.replace('DO ', ''))}</dd>
+    </dl>
+    <p class="q">${esc(where)}${p.rows ? ` BIR lists ${p.rows} values for this street with different vicinities; the range is shown.` : ''} Street-level placement is a pilot for Muntinlupa only; it can be wrong where names differ.</p>`;
+  card.hidden = false;
+  card.querySelector<HTMLButtonElement>('.close')!.onclick = () => { card.hidden = true; };
 }
 
 function renderCard(id: string) {
@@ -533,7 +601,9 @@ async function boot() {
   wireSearch();
   // revalidate on every load (a cheap 304 when unchanged) so a deploy never pairs new code with cached old data
   const get = (u: string) => fetch(u, { cache: 'no-cache' }).then(r => r.json());
-  const [z, c, m] = await Promise.all([get('/data/zonal.geojson'), get('/data/cities.geojson'), get('/data/meta.json')]);
+  const [z, c, m, st] = await Promise.all([get('/data/zonal.geojson'), get('/data/cities.geojson'), get('/data/meta.json'),
+    PILOT ? get('/data/streets/muntinlupa.geojson').catch(() => null) : Promise.resolve(null)]);
+  streets = st;  // before zonal: addLayers (possibly fired by style.load) starts once zonal is set
   zonal = z; cities = c; meta = m;
   for (const f of zonal.features as Feature[]) { byId.set(f.properties.id, f); bboxes.set(f.properties.id, bboxOf(f.geometry)); }
   buildIndex();
