@@ -1,0 +1,388 @@
+rdo,rdo_name,cities_covered,department_order,effective_date,file_name,file_type,in_scope
+RDO-024,Valenzuela City,Valenzuela,DO 37-1989,1990-01-11,RDO No. 24 - Valenzuela City.xls,xls,yes
+RDO-024,Valenzuela City,Valenzuela,DO 84-1994,1994-09-28,RDO No. 24 - Valenzuela City.xls,xls,yes
+RDO-024,Valenzuela City,Valenzuela,DO 83-1996,1996-12-18,RDO No. 24 - Valenzuela City.xls,xls,yes
+RDO-024,Valenzuela City,Valenzuela,DO 22-2003,2003-11-16,RDO No. 24 - Valenzuela City.xls,xls,yes
+RDO-024,Valenzuela City,Valenzuela,DO 81-2015,2015-10-04,RDO No. 24 - Valenzuela City.xls,xls,yes
+RDO-024,Valenzuela City,Valenzuela,DO 9-2021,2021-06-04,RDO No. 24 - Valenzuela City.xls,xls,yes
+RDO-026,Malabon/Navotas,Malabon; Navotas,DO 24-1989,1989-08-19,RDO No. 26 - Malabon-Navotas.xls,xls,yes
+RDO-026,Malabon/Navotas,Malabon; Navotas,DO 9-1995,1995-04-01,RDO No. 26 - Malabon-Navotas.xls,xls,yes
+RDO-026,Malabon/Navotas,Malabon; Navotas,DO 59-1996,1996-08-09,RDO No. 26 - Malabon-Navotas.xls,xls,yes
+RDO-026,Malabon/Navotas,Malabon; Navotas,DO 42-1998,1998-09-29,RDO No. 26 - Malabon-Navotas.xls,xls,yes
+RDO-026,Malabon/Navotas,Malabon; Navotas,DO 59-2002,2002-12-28,RDO No. 26 - Malabon-Navotas.xls,xls,yes
+RDO-026,Malabon/Navotas,Malabon; Navotas,DO 32-2009,2009-10-17,RDO No. 26 - Malabon-Navotas.xls,xls,yes
+RDO-026,Malabon/Navotas,Malabon; Navotas,DO 94-2015,2015-11-07,RDO No. 26 - Malabon-Navotas.xls,xls,yes
+RDO-026,Malabon/Navotas,Malabon; Navotas,DO 46-2022,2022-08-03,RDO No. 26 - Malabon-Navotas.xls,xls,yes
+RDO-027,Caloocan City,Caloocan,DO 17-1989,1989-08-19,RDO No. 27 - Caloocan City.xls,xls,yes
+RDO-027,Caloocan City,Caloocan,DO 6-1991,1991-10-16,RDO No. 27 - Caloocan City.xls,xls,yes
+RDO-027,Caloocan City,Caloocan,DO 32-1995,1995-05-31,RDO No. 27 - Caloocan City.xls,xls,yes
+RDO-027,Caloocan City,Caloocan,DO 8-1997,1997-03-24,RDO No. 27 - Caloocan City.xls,xls,yes
+RDO-027,Caloocan City,Caloocan,DO 29-2005,2006-02-26,RDO No. 27 - Caloocan City.xls,xls,yes
+RDO-027,Caloocan City,Caloocan,DO 86-2014,2014-12-28,RDO No. 27 - Caloocan City.xls,xls,yes
+RDO-027,Caloocan City,Caloocan,DO 41-2019,2019-07-20,RDO No. 27 - Caloocan City.xls,xls,yes
+RDO-027,Caloocan City,Caloocan,DO 46-2023,2023-09-17,RDO No. 27 - Caloocan City.xls,xls,yes
+RDO-028,"Novaliches, Quezon City",Quezon City,DO 138-1987,1988-05-04,"RDO No. 28 - Novaliches, Quezon City.xls",xls,yes
+RDO-028,"Novaliches, Quezon City",Quezon City,DO 43-1990,1990-09-21,"RDO No. 28 - Novaliches, Quezon City.xls",xls,yes
+RDO-028,"Novaliches, Quezon City",Quezon City,DO 29-1993,1993-06-23,"RDO No. 28 - Novaliches, Quezon City.xls",xls,yes
+RDO-028,"Novaliches, Quezon City",Quezon City,DO 67-1996,1996-08-24,"RDO No. 28 - Novaliches, Quezon City.xls",xls,yes
+RDO-028,"Novaliches, Quezon City",Quezon City,DO 43-1998,1998-09-29,"RDO No. 28 - Novaliches, Quezon City.xls",xls,yes
+RDO-028,"Novaliches, Quezon City",Quezon City,DO 99-2014,2015-02-07,"RDO No. 28 - Novaliches, Quezon City.xls",xls,yes
+RDO-028,"Novaliches, Quezon City",Quezon City,DO 26-2019,2019-05-03,"RDO No. 28 - Novaliches, Quezon City.xls",xls,yes
+RDO-028,"Novaliches, Quezon City",Quezon City,DO 37-2024,2024-05-01,"RDO No. 28 - Novaliches, Quezon City.xls",xls,yes
+RDO-029,Tondo-San Nicolas,Manila,DO 94-1988,1989-01-31,RDO No. 29 - Tondo-San Nicolas.xls,xls,yes
+RDO-029,Tondo-San Nicolas,Manila,DO 41-1990,1990-09-20,RDO No. 29 - Tondo-San Nicolas.xls,xls,yes
+RDO-029,Tondo-San Nicolas,Manila,DO 15-1993,1993-05-13,RDO No. 29 - Tondo-San Nicolas.xls,xls,yes
+RDO-029,Tondo-San Nicolas,Manila,DO 93-1996,1996-12-24,RDO No. 29 - Tondo-San Nicolas.xls,xls,yes
+RDO-029,Tondo-San Nicolas,Manila,DO 33-2003,2004-03-01,RDO No. 29 - Tondo-San Nicolas.xls,xls,yes
+RDO-029,Tondo-San Nicolas,Manila,DO 14-2011,2011-04-07,RDO No. 29 - Tondo-San Nicolas.xls,xls,yes
+RDO-029,Tondo-San Nicolas,Manila,DO 27-2019,2019-05-09,RDO No. 29 - Tondo-San Nicolas.xls,xls,yes
+RDO-030,"Binondo, Manila",Manila,DO 113-1988,1989-06-20,RDO No. 30 - Binondo.xls,xls,yes
+RDO-030,"Binondo, Manila",Manila,DO 39-1990,1990-09-22,RDO No. 30 - Binondo.xls,xls,yes
+RDO-030,"Binondo, Manila",Manila,DO 33-1993,1993-07-07,RDO No. 30 - Binondo.xls,xls,yes
+RDO-030,"Binondo, Manila",Manila,DO 75-1996,1996-09-22,RDO No. 30 - Binondo.xls,xls,yes
+RDO-030,"Binondo, Manila",Manila,DO 21-2003,2003-11-16,RDO No. 30 - Binondo.xls,xls,yes
+RDO-030,"Binondo, Manila",Manila,DO 62-2017,2017-11-27,RDO No. 30 - Binondo.xls,xls,yes
+RDO-031,"Sta. Cruz, Manila",Manila,DO 113-1988,1989-06-20,"RDO No. 31 - Sta. Cruz, Manila.xls",xls,yes
+RDO-031,"Sta. Cruz, Manila",Manila,DO 39-1990,1990-09-22,"RDO No. 31 - Sta. Cruz, Manila.xls",xls,yes
+RDO-031,"Sta. Cruz, Manila",Manila,DO 33-1993,1993-07-07,"RDO No. 31 - Sta. Cruz, Manila.xls",xls,yes
+RDO-031,"Sta. Cruz, Manila",Manila,DO 41-1996,1996-06-20,"RDO No. 31 - Sta. Cruz, Manila.xls",xls,yes
+RDO-031,"Sta. Cruz, Manila",Manila,DO 34-2003,2004-03-01,"RDO No. 31 - Sta. Cruz, Manila.xls",xls,yes
+RDO-031,"Sta. Cruz, Manila",Manila,DO 77-2018,2019-02-06,"RDO No. 31 - Sta. Cruz, Manila.xls",xls,yes
+RDO-032,Quiapo-Sampaloc-San Miguel-Sta. Mesa,Manila,DO 114-1988,1989-06-20,RDO No. 32 - Quiapo-Sampaloc-San Miguel-Sta Mesa.xls,xls,yes
+RDO-032,Quiapo-Sampaloc-San Miguel-Sta. Mesa,Manila,DO 46-1990,1990-09-21,RDO No. 32 - Quiapo-Sampaloc-San Miguel-Sta Mesa.xls,xls,yes
+RDO-032,Quiapo-Sampaloc-San Miguel-Sta. Mesa,Manila,DO 18-1993,1993-05-13,RDO No. 32 - Quiapo-Sampaloc-San Miguel-Sta Mesa.xls,xls,yes
+RDO-032,Quiapo-Sampaloc-San Miguel-Sta. Mesa,Manila,DO 40-1996,1996-06-20,RDO No. 32 - Quiapo-Sampaloc-San Miguel-Sta Mesa.xls,xls,yes
+RDO-032,Quiapo-Sampaloc-San Miguel-Sta. Mesa,Manila,DO 35-2003,2004-03-01,RDO No. 32 - Quiapo-Sampaloc-San Miguel-Sta Mesa.xls,xls,yes
+RDO-032,Quiapo-Sampaloc-San Miguel-Sta. Mesa,Manila,DO 21-2019,2019-04-24,RDO No. 32 - Quiapo-Sampaloc-San Miguel-Sta Mesa.xls,xls,yes
+RDO-033,"Intramuros-Ermita-Malate-Port Area, Manila",Manila,DO 10-1989,1989-06-20,RDO No. 33 - Intramuros-Ermita-Malate.xls,xls,yes
+RDO-033,"Intramuros-Ermita-Malate-Port Area, Manila",Manila,DO 1-1991,1991-03-15,RDO No. 33 - Intramuros-Ermita-Malate.xls,xls,yes
+RDO-033,"Intramuros-Ermita-Malate-Port Area, Manila",Manila,DO 16-1993,1993-05-13,RDO No. 33 - Intramuros-Ermita-Malate.xls,xls,yes
+RDO-033,"Intramuros-Ermita-Malate-Port Area, Manila",Manila,DO 77-1996,1996-10-20,RDO No. 33 - Intramuros-Ermita-Malate.xls,xls,yes
+RDO-033,"Intramuros-Ermita-Malate-Port Area, Manila",Manila,DO 36-2003,2004-03-01,RDO No. 33 - Intramuros-Ermita-Malate.xls,xls,yes
+RDO-033,"Intramuros-Ermita-Malate-Port Area, Manila",Manila,DO 75-2017,2018-01-26,RDO No. 33 - Intramuros-Ermita-Malate.xls,xls,yes
+RDO-034,Paco-Pandacan-Sta. Ana-San Andres,Manila,DO 10-1989,1989-06-20,RDO No. 34 - Paco-Pandacan-Sta. Ana-San Andres.xls,xls,yes
+RDO-034,Paco-Pandacan-Sta. Ana-San Andres,Manila,DO 1-1991,1991-03-15,RDO No. 34 - Paco-Pandacan-Sta. Ana-San Andres.xls,xls,yes
+RDO-034,Paco-Pandacan-Sta. Ana-San Andres,Manila,DO 16-1993,1993-05-13,RDO No. 34 - Paco-Pandacan-Sta. Ana-San Andres.xls,xls,yes
+RDO-034,Paco-Pandacan-Sta. Ana-San Andres,Manila,DO 57-1996,1996-07-25,RDO No. 34 - Paco-Pandacan-Sta. Ana-San Andres.xls,xls,yes
+RDO-034,Paco-Pandacan-Sta. Ana-San Andres,Manila,DO 37-2003,2004-03-01,RDO No. 34 - Paco-Pandacan-Sta. Ana-San Andres.xls,xls,yes
+RDO-034,Paco-Pandacan-Sta. Ana-San Andres,Manila,DO 78-2019,2019-11-29,RDO No. 34 - Paco-Pandacan-Sta. Ana-San Andres.xls,xls,yes
+RDO-035,"Odiongan, Romblon",Alcantara; Banton; Cajidiocan; Calatrava; Concepcion; Corcuera; Ferrol; Looc; Magdiwang; Odiongan; Romblon; San Agustin; San Andres; San Fernando; San Jose; Santa Fe; Santa Maria,DO 144-1995,1995-12-15,"RDO No. 35 - Odiongan, Romblon.xls",xls,no
+RDO-035,"Odiongan, Romblon",Alcantara; Banton; Cajidiocan; Calatrava; Concepcion; Corcuera; Ferrol; Looc; Magdiwang; Odiongan; Romblon; San Agustin; San Andres; San Fernando; San Jose; Sta Fe; Santa Maria,DO 58-2002,2002-12-28,"RDO No. 35 - Odiongan, Romblon.xls",xls,no
+RDO-035,"Odiongan, Romblon",Alcantara; Banton; Cajidiocan; Calatrava; Concepcion; Corcuera; Ferrol; Looc; Magdiwang; Odiongan; Romblon; San Agustin; San Andres; San Fernando; San Jose; Sta Fe; Santa Maria,DO 26-2021,2021-11-07,"RDO No. 35 - Odiongan, Romblon.xls",xls,no
+RDO-036,"Puerto Princesa City, Palawan",Aborlan; Agutaya; Araceli; Balabac; Bataraza; Brooke's Point; Busuanga; Coron; Cuyo; Dumaran; El Nido; Espanola (Esperanza); Kalayaan; Linapacan; Magsaysay; Narra; Puerto Princesa City; Quezon City; Rizal; Roxas; San Vicente; Taytay,DO 54-1992,1992-11-12,"RDO No. 36 - Puerto Princesa City, Palawan.xls",xls,no
+RDO-036,"Puerto Princesa City, Palawan",Aborlan; Agutaya; Araceli; Balabac; Bataraza; Brooke's Point; Busuanga; Coron; Cuyo; Dumaran; El Nido; Espanola (Esperanza); Kalayaan; Linapacan; Magsaysay; Narra; Puerto Princesa City; Quezon City; Rizal; Roxas; San Vicente; Taytay,DO 23-1997,1997-05-12,"RDO No. 36 - Puerto Princesa City, Palawan.xls",xls,no
+RDO-036,"Puerto Princesa City, Palawan",Aborlan; Agutaya; Araceli; Balabac; Bataraza; Brooke's Point; Busuanga; Cagayancillo; Coron; Culion; Cuyo; Dumaran; El Nido; Jose P. Rizal; Linapacan; Magsaysay; Narra; Puerto Princesa City; Quezon City; Roxas; San Vicente; Sofronio Española; Taytay,DO 72-2017,2017-12-23,"RDO No. 36 - Puerto Princesa City, Palawan.xls",xls,no
+RDO-037,"San Jose, Occidental Mindoro",Abra de Ilog; Calintaan; Looc; Lubang; Magsaysay; Mamburao; Paluan; Rizal; Sablayan; San Jose; Santa Cruz,DO 3-1997,1997-03-08,"RDO No. 37 - SanJose, Occidental Mindoro.xls",xls,no
+RDO-037,"San Jose, Occidental Mindoro",Abra de Ilog; Calintaan; Looc; Lubang; Magsaysay; Mamburao; Paluan; Rizal; Sablayan; San Jose; Santa Cruz,DO 57-2002,2002-12-28,"RDO No. 37 - SanJose, Occidental Mindoro.xls",xls,no
+RDO-037,"San Jose, Occidental Mindoro",Abra de Ilog; Calintaan; Looc; Lubang; Magsaysay; Mamburao; Paluan; Rizal; Sablayan; San Jose; Santa Cruz,DO 59-2018,2018-12-24,"RDO No. 37 - SanJose, Occidental Mindoro.xls",xls,no
+RDO-037,"San Jose, Occidental Mindoro",Abra de Ilog; Calintaan; Looc; Lubang; Magsaysay; Mamburao; Paluan; Rizal; Sablayan; San Jose; Santa Cruz,DO 45-2022,2022-08-05,"RDO No. 37 - SanJose, Occidental Mindoro.xls",xls,no
+RDO-038,North Quezon City,Quezon City,DO 138-1987,1988-05-04,RDO No. 38 - North Quezon City.xls,xls,yes
+RDO-038,North Quezon City,Quezon City,DO 43-1990,1990-09-21,RDO No. 38 - North Quezon City.xls,xls,yes
+RDO-038,North Quezon City,Quezon City,DO 29-1993,1993-06-23,RDO No. 38 - North Quezon City.xls,xls,yes
+RDO-038,North Quezon City,Quezon City,DO 66-1996,1996-08-24,RDO No. 38 - North Quezon City.xls,xls,yes
+RDO-038,North Quezon City,Quezon City,DO 6-2000,2000-03-21,RDO No. 38 - North Quezon City.xls,xls,yes
+RDO-038,North Quezon City,Quezon City,DO 21-2015,2015-05-14,RDO No. 38 - North Quezon City.xls,xls,yes
+RDO-038,North Quezon City,Quezon City,DO 8-2020,2020-03-03,RDO No. 38 - North Quezon City.xls,xls,yes
+RDO-038,North Quezon City,Quezon City,DO 33-2024,2024-04-11,RDO No. 38 - North Quezon City.xls,xls,yes
+RDO-039,South Quezon City,Quezon City,DO 138-1987,1988-05-04,RDO No. 39 - South Quezon City.xls,xls,yes
+RDO-039,South Quezon City,Quezon City,DO 44-1990,1990-09-21,RDO No. 39 - South Quezon City.xls,xls,yes
+RDO-039,South Quezon City,Quezon City,DO 28-1993,1993-06-23,RDO No. 39 - South Quezon City.xls,xls,yes
+RDO-039,South Quezon City,Quezon City,DO 58-1996,1996-08-07,RDO No. 39 - South Quezon City.xls,xls,yes
+RDO-039,South Quezon City,Quezon City,DO 38-2003,2004-03-01,RDO No. 39 - South Quezon City.xls,xls,yes
+RDO-039,South Quezon City,Quezon City,DO 4-2016,2016-04-01,RDO No. 39 - South Quezon City.xls,xls,yes
+RDO-039,South Quezon City,Quezon City,DO 89-2019,2020-01-07,RDO No. 39 - South Quezon City.xls,xls,yes
+RDO-039,South Quezon City,Quezon City,DO 7-2024,2024-02-17,RDO No. 39 - South Quezon City.xls,xls,yes
+RDO-040,"Cubao, Quezon City",Quezon City,DO 138-1987,1988-05-04,RDO No. 40 - Cubao.xls,xls,yes
+RDO-040,"Cubao, Quezon City",Quezon City,DO 44-1990,1990-09-21,RDO No. 40 - Cubao.xls,xls,yes
+RDO-040,"Cubao, Quezon City",Quezon City,DO 28-1993,1993-06-23,RDO No. 40 - Cubao.xls,xls,yes
+RDO-040,"Cubao, Quezon City",Quezon City,DO 14-1997,1997-05-02,RDO No. 40 - Cubao.xls,xls,yes
+RDO-040,"Cubao, Quezon City",Quezon City,DO 39-2003,2004-03-01,RDO No. 40 - Cubao.xls,xls,yes
+RDO-040,"Cubao, Quezon City",Quezon City,DO 23-2015,2015-05-08,RDO No. 40 - Cubao.xls,xls,yes
+RDO-040,"Cubao, Quezon City",Quezon City,DO 21-2020,2020-08-20,RDO No. 40 - Cubao.xls,xls,yes
+RDO-040,"Cubao, Quezon City",Quezon City,DO 35-2024,2024-04-19,RDO No. 40 - Cubao.xls,xls,yes
+RDO-041,Mandaluyong City,Mandaluyong,DO 90-1988,1988-11-23,RDO No. 41 - Mandaluyong City.xls,xls,yes
+RDO-041,Mandaluyong City,Mandaluyong,DO 20-1990,1990-04-26,RDO No. 41 - Mandaluyong City.xls,xls,yes
+RDO-041,Mandaluyong City,Mandaluyong,DO 31-1993,1993-06-23,RDO No. 41 - Mandaluyong City.xls,xls,yes
+RDO-041,Mandaluyong City,Mandaluyong,DO 109-1995,1995-10-14,RDO No. 41 - Mandaluyong City.xls,xls,yes
+RDO-041,Mandaluyong City,Mandaluyong,DO 71-1996,1996-09-16,RDO No. 41 - Mandaluyong City.xls,xls,yes
+RDO-041,Mandaluyong City,Mandaluyong,DO 40-2003,2004-03-01,RDO No. 41 - Mandaluyong City.xls,xls,yes
+RDO-041,Mandaluyong City,Mandaluyong,DO 100-2014,2015-02-12,RDO No. 41 - Mandaluyong City.xls,xls,yes
+RDO-041,Mandaluyong City,Mandaluyong,DO 28-2019,2019-05-03,RDO No. 41 - Mandaluyong City.xls,xls,yes
+RDO-041,Mandaluyong City,Mandaluyong,DO 59-2022,2022-09-22,RDO No. 41 - Mandaluyong City.xls,xls,yes
+RDO-042,San Juan City,San Juan,DO 90-1988,1988-11-23,RDO No. 42 - San Juan City.xls,xls,yes
+RDO-042,San Juan City,San Juan,DO 20-1990,1990-04-26,RDO No. 42 - San Juan City.xls,xls,yes
+RDO-042,San Juan City,San Juan,DO 31-1993,1993-06-23,RDO No. 42 - San Juan City.xls,xls,yes
+RDO-042,San Juan City,San Juan,DO 76-1996,1996-09-16,RDO No. 42 - San Juan City.xls,xls,yes
+RDO-042,San Juan City,San Juan,DO 41-2003,2004-03-01,RDO No. 42 - San Juan City.xls,xls,yes
+RDO-042,San Juan City,San Juan,DO 22-2015,2015-05-08,RDO No. 42 - San Juan City.xls,xls,yes
+RDO-042,San Juan City,San Juan,DO 30-2019,2019-05-24,RDO No. 42 - San Juan City.xls,xls,yes
+RDO-042,San Juan City,San Juan,DO 22-2023,2023-05-26,RDO No. 42 - San Juan City.xls,xls,yes
+RDO-043,Pasig City,Pasig,DO 86-1987,1987-10-12,RDO No. 43 - Pasig City.xls,xls,yes
+RDO-043,Pasig City,Pasig,DO 34-1990,1990-08-23,RDO No. 43 - Pasig City.xls,xls,yes
+RDO-043,Pasig City,Pasig,DO 30-1993,1993-06-23,RDO No. 43 - Pasig City.xls,xls,yes
+RDO-043,Pasig City,Pasig,DO 54-1996,1996-07-12,RDO No. 43 - Pasig City.xls,xls,yes
+RDO-043,Pasig City,Pasig,DO 10-2000,2000-03-22,RDO No. 43 - Pasig City.xls,xls,yes
+RDO-043,Pasig City,Pasig,DO 49-2012,2013-04-24,RDO No. 43 - Pasig City.xls,xls,yes
+RDO-043,Pasig City,Pasig,DO 94-2014,2015-02-07,RDO No. 43 - Pasig City.xls,xls,yes
+RDO-043,Pasig City,Pasig,DO 67-2018,2018-12-28,RDO No. 43 - Pasig City.xls,xls,yes
+RDO-043,Pasig City,Pasig,DO 24-2023,2023-06-06,RDO No. 43 - Pasig City.xls,xls,yes
+RDO-044,Taguig City/Pateros,Taguig; Pateros,DO 86-1987,1987-10-12,RDO No. 44 - Taguig-Pateros.xlsx,xlsx,yes
+RDO-044,Taguig City/Pateros,Taguig; Pateros,DO 34-1990,1990-08-23,RDO No. 44 - Taguig-Pateros.xlsx,xlsx,yes
+RDO-044,Taguig City/Pateros,Taguig; Pateros,DO 30-1993,1993-06-23,RDO No. 44 - Taguig-Pateros.xlsx,xlsx,yes
+RDO-044,Taguig City/Pateros,Pateros; Taguig,DO 113-1995,1995-10-15,RDO No. 44 - Taguig-Pateros.xlsx,xlsx,yes
+RDO-044,Taguig City/Pateros,Taguig,DO 70-1996,1996-09-22,RDO No. 44 - Taguig-Pateros.xlsx,xlsx,yes
+RDO-044,Taguig City/Pateros,Taguig; Pateros,DO 54-1997,1997-12-15,RDO No. 44 - Taguig-Pateros.xlsx,xlsx,yes
+RDO-044,Taguig City/Pateros,Taguig; Pateros,DO 35-2012,2012-11-09,RDO No. 44 - Taguig-Pateros.xlsx,xlsx,yes
+RDO-044,Taguig City/Pateros,Taguig; Pateros,DO 40-2019,2019-07-11,RDO No. 44 - Taguig-Pateros.xlsx,xlsx,yes
+RDO-044,Taguig City/Pateros,Taguig; Pateros,DO 5-2024,2024-02-15,RDO No. 44 - Taguig-Pateros.xlsx,xlsx,yes
+RDO-045,Marikina City,Marikina,DO 18-1989,1989-08-19,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-045,Marikina City,Antipolo,DO 5-1991,1991-09-16,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-045,Marikina City,Marikina,DO 12-1991,1992-04-16,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-045,Marikina City,Rodriguez; San Mateo; Teresa,DO 55-1995,1995-09-06,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-045,Marikina City,Marikina,DO 110-1995,1995-10-14,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-045,Marikina City,Marikina,DO 60-1996,1996-08-07,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-045,Marikina City,Antipolo; Rodriguez; San Mateo; Teresa,DO 87-1996,1996-12-16,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-045,Marikina City,Antipolo; Rodriguez; San Mateo; Teresa,DO 9-2000,2000-03-22,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-045,Marikina City,Marikina,DO 42-2003,2004-03-01,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-045,Marikina City,Marikina; Antipolo; Rodriguez; San Mateo; Teresa,DO 28-2017,2017-06-12,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-045,Marikina City,Marikina; Antipolo; Rodriguez; San Mateo; Teresa,DO 6-2023,2023-02-16,RDO No. 45 - Marikina City.xls,xls,yes
+RDO-046,Cainta-Taytay,Angono; Cainta; Taytay,DO 5-1991,1991-09-16,RDO No. 46 - Cainta-Taytay.xls,xls,yes
+RDO-046,Cainta-Taytay,Angono; Cainta; Taytay,DO 25-1996,1996-05-15,RDO No. 46 - Cainta-Taytay.xls,xls,yes
+RDO-046,Cainta-Taytay,Baras; Binangonan; Cardona; Jala-Jala; Morong; Pililla; Tanay,DO 24-1996,1996-05-15,RDO No. 46 - Cainta-Taytay.xls,xls,yes
+RDO-046,Cainta-Taytay,Angono; Cainta; Taytay,DO 43-2003,2004-03-01,RDO No. 46 - Cainta-Taytay.xls,xls,yes
+RDO-046,Cainta-Taytay,Angono; Cainta; Taytay; Baras; Binangonan; Cardona; Jala-Jala; Morong; Pililla; Tanay,DO 20-2015,2015-05-08,RDO No. 46 - Cainta-Taytay.xls,xls,yes
+RDO-046,Cainta-Taytay,Angono; Cainta; Taytay; Baras; Binangonan; Cardona; Jala-Jala; Morong; Pililla; Tanay,DO 22-2020,2020-09-15,RDO No. 46 - Cainta-Taytay.xls,xls,yes
+RDO-046,Cainta-Taytay,Baras; Binangonan; Cardona; Jala-Jala; Morong; Pililla; Tanay,DO 44-2003,,RDO No. 46 - Cainta-Taytay.xls,xls,yes
+RDO-047,East Makati City,Makati,DO 51-1987,1987-06-09,RDO No. 47 - East Makati.xls,xls,yes
+RDO-047,East Makati City,Makati,DO 19-1990,1990-04-25,RDO No. 47 - East Makati.xls,xls,yes
+RDO-047,East Makati City,Makati,DO 135-1991,1992-07-31,RDO No. 47 - East Makati.xls,xls,yes
+RDO-047,East Makati City,Makati,DO 55-1996,1996-07-12,RDO No. 47 - East Makati.xls,xls,yes
+RDO-047,East Makati City,Makati,DO 65-1997,1998-01-13,RDO No. 47 - East Makati.xls,xls,yes
+RDO-047,East Makati City,Makati,DO 23-2012,2012-10-17,RDO No. 47 - East Makati.xls,xls,yes
+RDO-047,East Makati City,Makati,DO 22-2017,2017-06-11,RDO No. 47 - East Makati.xls,xls,yes
+RDO-047,East Makati City,Makati,DO 37-2021,2021-12-22,RDO No. 47 - East Makati.xls,xls,yes
+RDO-048,West Makati City,Makati,DO 51-1987,1987-06-09,RDO No. 48 - West Makati.xls,xls,yes
+RDO-048,West Makati City,Makati,DO 19-1990,1990-04-25,RDO No. 48 - West Makati.xls,xls,yes
+RDO-048,West Makati City,Makati,DO 135-1991,1992-07-31,RDO No. 48 - West Makati.xls,xls,yes
+RDO-048,West Makati City,Makati,DO 142-1995,1995-12-15,RDO No. 48 - West Makati.xls,xls,yes
+RDO-048,West Makati City,Makati,DO 94-1996,1996-12-24,RDO No. 48 - West Makati.xls,xls,yes
+RDO-048,West Makati City,Makati,DO 62-1997,1998-01-13,RDO No. 48 - West Makati.xls,xls,yes
+RDO-048,West Makati City,Makati,DO 11-2010,2010-08-04,RDO No. 48 - West Makati.xls,xls,yes
+RDO-048,West Makati City,Makati,DO 25-2017,2017-06-11,RDO No. 48 - West Makati.xls,xls,yes
+RDO-048,West Makati City,Makati,DO 36-2021,2021-12-22,RDO No. 48 - West Makati.xls,xls,yes
+RDO-049,North Makati City,Makati,DO 51-1987,1987-06-09,RDO No. 49 - North Makati City.xls,xls,yes
+RDO-049,North Makati City,Makati,DO 19-1990,1990-04-25,RDO No. 49 - North Makati City.xls,xls,yes
+RDO-049,North Makati City,Makati,DO 135-1991,1992-07-31,RDO No. 49 - North Makati City.xls,xls,yes
+RDO-049,North Makati City,Makati,DO 46-1996,1996-06-20,RDO No. 49 - North Makati City.xls,xls,yes
+RDO-049,North Makati City,Makati,DO 63-1997,1998-01-13,RDO No. 49 - North Makati City.xls,xls,yes
+RDO-049,North Makati City,Makati,DO 24-2017,2017-06-11,RDO No. 49 - North Makati City.xls,xls,yes
+RDO-049,North Makati City,Makati,DO 35-2021,2022-01-08,RDO No. 49 - North Makati City.xls,xls,yes
+RDO-050,South Makati City,Makati,DO 51-1987,1987-06-09,RDO No. 50 - South Makati.xls,xls,yes
+RDO-050,South Makati City,Makati,DO 19-1990,1990-04-25,RDO No. 50 - South Makati.xls,xls,yes
+RDO-050,South Makati City,Makati,DO 135-1991,1992-07-31,RDO No. 50 - South Makati.xls,xls,yes
+RDO-050,South Makati City,Makati,DO 143-1995,1995-12-15,RDO No. 50 - South Makati.xls,xls,yes
+RDO-050,South Makati City,Makati,DO 79-1996,1996-10-17,RDO No. 50 - South Makati.xls,xls,yes
+RDO-050,South Makati City,Makati,DO 64-1997,1998-01-13,RDO No. 50 - South Makati.xls,xls,yes
+RDO-050,South Makati City,Makati,DO 1-2012,2012-03-09,RDO No. 50 - South Makati.xls,xls,yes
+RDO-050,South Makati City,Makati,DO 62-2016,2016-12-28,RDO No. 50 - South Makati.xls,xls,yes
+RDO-050,South Makati City,Makati,DO 38-2021,2021-12-22,RDO No. 50 - South Makati.xls,xls,yes
+RDO-051,PASAY CITY,Pasay,DO 9-1989,1989-06-20,RDO No. 51 - Pasay City.xls,xls,yes
+RDO-051,PASAY CITY,Pasay,DO 45-1990,1990-09-22,RDO No. 51 - Pasay City.xls,xls,yes
+RDO-051,PASAY CITY,Pasay,DO 19-1993,1993-05-30,RDO No. 51 - Pasay City.xls,xls,yes
+RDO-051,PASAY CITY,Pasay,DO 62-1996,1996-08-03,RDO No. 51 - Pasay City.xls,xls,yes
+RDO-051,PASAY CITY,Pasay,DO 38-2009,2009-12-11,RDO No. 51 - Pasay City.xls,xls,yes
+RDO-051,PASAY CITY,Pasay,DO 36-2018,2018-08-11,RDO No. 51 - Pasay City.xls,xls,yes
+RDO-051,PASAY CITY,Pasay,DO 43-2023,2023-09-02,RDO No. 51 - Pasay City.xls,xls,yes
+RDO-052,Parañaque City,Parañaque,DO 85-1987,1987-10-01,RDO No. 52 - Paranaque City.xls,xls,yes
+RDO-052,Parañaque City,Parañaque,DO 1-1989,1989-03-10,RDO No. 52 - Paranaque City.xls,xls,yes
+RDO-052,Parañaque City,Parañaque,DO 53-1990,1990-11-18,RDO No. 52 - Paranaque City.xls,xls,yes
+RDO-052,Parañaque City,Parañaque,DO 22-1993,1993-05-30,RDO No. 52 - Paranaque City.xls,xls,yes
+RDO-052,Parañaque City,Parañaque,DO 111-1995,1995-10-14,RDO No. 52 - Paranaque City.xls,xls,yes
+RDO-052,Parañaque City,Parañaque,DO 39-1996,1996-06-20,RDO No. 52 - Paranaque City.xls,xls,yes
+RDO-052,Parañaque City,Parañaque,DO 16-1998,1998-04-14,RDO No. 52 - Paranaque City.xls,xls,yes
+RDO-052,Parañaque City,Parañaque,DO 4-2008,2008-04-14,RDO No. 52 - Paranaque City.xls,xls,yes
+RDO-052,Parañaque City,Parañaque,DO 9-2018,2018-03-04,RDO No. 52 - Paranaque City.xls,xls,yes
+RDO-052,Parañaque City,Parañaque,DO 49-2023,2023-09-30,RDO No. 52 - Paranaque City.xls,xls,yes
+RDO-055,"San Pablo City, East Laguna",San Pablo,DO 46-1989,1990-03-08,"RDO No. 55 - San Pablo City, East Laguna.xls",xls,yes
+RDO-055,"San Pablo City, East Laguna",Alaminos; Cavinti,DO 2-1991,1991-09-16,"RDO No. 55 - San Pablo City, East Laguna.xls",xls,yes
+RDO-055,"San Pablo City, East Laguna",Nagcarlan; Pagsanjan,DO 128-1991,1992-07-31,"RDO No. 55 - San Pablo City, East Laguna.xls",xls,yes
+RDO-055,"San Pablo City, East Laguna",Kalayaan; Santa Maria,DO 123-1993,1994-02-05,"RDO No. 55 - San Pablo City, East Laguna.xls",xls,yes
+RDO-055,"San Pablo City, East Laguna",Famy; Liliw; Luisiana; Lumban; Mabitac; Magdalena; Majayjay; Paete; Pakil; Pangil; Rizal; Siniloan,DO 10-1996,1996-03-22,"RDO No. 55 - San Pablo City, East Laguna.xls",xls,yes
+RDO-055,"San Pablo City, East Laguna",Alaminos; Cavinti; Kalayaan; Nagcarlan; Pagsanjan; Santa Maria; San Pablo,DO 38-1996,1996-06-26,"RDO No. 55 - San Pablo City, East Laguna.xls",xls,yes
+RDO-055,"San Pablo City, East Laguna",Famy; Liliw; Luisiana; Lumban; Mabitac; Magdalena; Majayjay; Paete; Pakil; Pangil; Rizal; Siniloan,DO 55-2002,2002-12-28,"RDO No. 55 - San Pablo City, East Laguna.xls",xls,yes
+RDO-055,"San Pablo City, East Laguna",Alaminos; Cavinti; Kalayaan; Nagcarlan; Pagsanjan; Santa Maria; San Pablo,DO 33-2002,2002-12-28,"RDO No. 55 - San Pablo City, East Laguna.xls",xls,yes
+RDO-055,"San Pablo City, East Laguna",Famy; Liliw; Luisiana; Lumban; Mabitac; Magdalena; Majayjay; Paete; Pakil; Pangil; Rizal; Siniloan; Alaminos; Cavinti; Kalayaan; Nagcarlan; Pagsanjan; Santa Maria; San Pablo,DO 18-2020,2020-07-04,"RDO No. 55 - San Pablo City, East Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Calamba,DO 47-1989,1990-03-08,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Santa Cruz,DO 2-1991,1991-09-16,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Bay,DO 11-1991,1991-11-16,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Los Baños,DO 8-1991,1991-11-16,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Calauan,DO 128-1991,1992-07-31,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Calamba,DO 127-1991,1992-07-31,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Pila; Victoria,DO 4-1996,1996-03-03,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Bay; Calauan; Los Baños; Santa Cruz,DO 19-1997,1997-05-03,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Calamba,DO 16-1997,1997-05-03,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Calamba,DO 50-2000,2000-12-28,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Los Baños; Santa Cruz,DO 69-2002,2002-12-28,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Pila; Victoria,DO 48-2002,2002-12-28,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Bay; Calauan,DO 45-2003,2004-03-01,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Los Baños; Santa Cruz; Pila; Victoria,DO 24-2010,2010-09-12,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Calamba,DO 39-2010,2010-11-07,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Calamba; Los Baños; Santa Cruz; Pila; Victoria; Bay; Calauan,DO 56-2017,2017-10-15,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-056,"Calamba City, Central Laguna",Calamba; Los Baños; Santa Cruz; Pila; Victoria; Bay; Calauan,DO 59-2023,2023-10-13,"RDO No. 56 - Calamba City, Central Laguna.xls",xls,yes
+RDO-057,"Biñan City, West Laguna",Biñan; Cabuyao; Santa Rosa,DO 8-1991,1991-11-16,"RDO No. 57 - Biคan City, West Laguna.xls",xls,yes
+RDO-057,"Biñan City, West Laguna",San Pedro,DO 125-1991,1992-07-31,"RDO No. 57 - Biคan City, West Laguna.xls",xls,yes
+RDO-057,"Biñan City, West Laguna",Biñan; Cabuyao; San Pedro; Santa Rosa,DO 18-1996,1996-04-25,"RDO No. 57 - Biคan City, West Laguna.xls",xls,yes
+RDO-057,"Biñan City, West Laguna",Biñan; Cabuyao; San Pedro; Santa Rosa,DO 22-1997,1997-05-05,"RDO No. 57 - Biคan City, West Laguna.xls",xls,yes
+RDO-057,"Biñan City, West Laguna",Biñan; Cabuyao; San Pedro; Santa Rosa,DO 33-2005,2006-03-17,"RDO No. 57 - Biคan City, West Laguna.xls",xls,yes
+RDO-057,"Biñan City, West Laguna",San Pedro; Biñan; Cabuyao; Santa Rosa,DO 11-2015,2015-04-10,"RDO No. 57 - Biคan City, West Laguna.xls",xls,yes
+RDO-057,"Biñan City, West Laguna",Biñan; Cabuyao; Santa Rosa,DO 32-2019,2019-06-13,"RDO No. 57 - Biคan City, West Laguna.xls",xls,yes
+RDO-057,"Biñan City, West Laguna",San Pedro,DO 88-2019,2020-01-03,"RDO No. 57 - Biคan City, West Laguna.xls",xls,yes
+RDO-057,"Biñan City, West Laguna",Biñan; Cabuyao; San Pedro; Santa Rosa,DO 55-2024,2024-07-04,"RDO No. 57 - Biคan City, West Laguna.xls",xls,yes
+RDO-058,"Batangas City, West Batangas",Batangas City,DO 17-1993,1993-05-14,"RDO No. 58 - Batangas City, West Batangas.xlsx",xlsx,no
+RDO-058,"Batangas City, West Batangas",Balayan; Bauan; Calaca; Calatagan; Lemery; Lian; Lobo; Mabini; Nasugbu; San Luis; San Pascual; Taal; Tingloy; Tuy,DO 12-1997,1997-05-03,"RDO No. 58 - Batangas City, West Batangas.xlsx",xlsx,no
+RDO-058,"Batangas City, West Batangas",Batangas City,DO 31-1997,1997-07-14,"RDO No. 58 - Batangas City, West Batangas.xlsx",xlsx,no
+RDO-058,"Batangas City, West Batangas",Balayan; Bauan; Calaca; Calatagan; Lemery; Lian; Lobo; Mabini; Nasugbu; San Luis; San Pascual; Taal; Tingloy; Tuy,DO 12-2000,2000-03-22,"RDO No. 58 - Batangas City, West Batangas.xlsx",xlsx,no
+RDO-058,"Batangas City, West Batangas",Batangas City; Balayan; Bauan; Calaca; Calatagan; Lemery; Lian; Lobo; Mabini; Nasugbu; San Luis; San Pascual; Taal; Tingloy; Tuy,DO 32-2010,2010-10-20,"RDO No. 58 - Batangas City, West Batangas.xlsx",xlsx,no
+RDO-058,"Batangas City, West Batangas",Batangas City; Balayan; Bauan; Calaca; Calatagan; Lemery; Lian; Lobo; Mabini; Nasugbu; San Luis; San Pascual; Taal Tingloy; Tuy,DO 60-2018,2018-12-21,"RDO No. 58 - Batangas City, West Batangas.xlsx",xlsx,no
+RDO-058,"Batangas City, West Batangas",Batangas City; Balayan; Bauan; Calaca; Calatagan; Lemery; Lian; Lobo; Mabini; Nasugbu; San Luis; San Pascual; Taal Tingloy; Tuy,DO 35-2022,2022-07-23,"RDO No. 58 - Batangas City, West Batangas.xlsx",xlsx,no
+RDO-059,"Lipa City, East Batangas",Agoncillo; Alitagtag; Balete; Cuenca; Laurel; Mataas na Kahoy; San Jose; San Nicolas; Santa Teresita; Talisay; Ibaan; Malvar; Padre Garcia; Rosario; San Juan; Santo Tomas; Tanauan; Taysan,DO 76-1994,1994-10-05,"RDO No. 59 - Lipa City, East Batangas.xls",xls,no
+RDO-059,"Lipa City, East Batangas",Lipa City,DO 122-1993,1994-10-05,"RDO No. 59 - Lipa City, East Batangas.xls",xls,no
+RDO-059,"Lipa City, East Batangas",Lipa City; Ibaan; Malvar; Padre Garcia; Rosario; San Juan; Santo Tomas; Tanauan; Taysan,DO 49-1997,1997-10-08,"RDO No. 59 - Lipa City, East Batangas.xls",xls,no
+RDO-059,"Lipa City, East Batangas",Agoncillo; Alitagtag; Balete; Cuenca; Laurel; Mataas na Kahoy; San Jose; San Nicolas; Santa Teresita; Talisay,DO 68-2002,2002-12-28,"RDO No. 59 - Lipa City, East Batangas.xls",xls,no
+RDO-059,"Lipa City, East Batangas",Agoncillo; Alitagtag; Balete; Cuenca; Ibaan; Laurel; Malvar; Mataas na Kahoy; Padre Garcia; Rosario; San Jose; San Juan; San Nicolas; Santa Teresita; Santo Tomas; Talisay; Tanauan; Taysan; Lipa City,DO 22-2006,2006-09-16,"RDO No. 59 - Lipa City, East Batangas.xls",xls,no
+RDO-059,"Lipa City, East Batangas",Agoncillo; Alitagtag; Balete; Cuenca; Ibaan; Laurel; Malvar; Mataas na Kahoy; Padre Garcia; Rosario; San Jose; San Juan; San Nicolas; Santa Teresita; Santo Tomas; Talisay; Tanauan; Taysan; Lipa City,DO 60-2014,2014-10-26,"RDO No. 59 - Lipa City, East Batangas.xls",xls,no
+RDO-059,"Lipa City, East Batangas",Agoncillo; Alitagtag; Balete; Cuenca; Ibaan; Laurel; Malvar; Mataas na Kahoy; Padre Garcia; Rosario; San Jose; San Juan; San Nicolas; Santa Teresita; Santo Tomas; Talisay; Tanauan; Taysan; Lipa City,DO 58-2018,2018-12-14,"RDO No. 59 - Lipa City, East Batangas.xls",xls,no
+RDO-059,"Lipa City, East Batangas",Agoncillo; Alitagtag; Balete; Cuenca; Ibaan; Laurel; Malvar; Mataas na Kahoy; Padre Garcia; Rosario; San Jose; San Juan; San Nicolas; Santa Teresita; Santo Tomas; Talisay; Tanauan; Taysan; Lipa City,DO 34-2022,2022-07-10,"RDO No. 59 - Lipa City, East Batangas.xls",xls,no
+RDO-060,"Lucena City, North Quezon",Lucena City,DO 40-1990,1990-09-20,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
+RDO-060,"Lucena City, North Quezon",Lucena City,DO 21-1996,1996-05-11,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
+RDO-060,"Lucena City, North Quezon",Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas; Tiaong,DO 50-1996,1996-06-26,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
+RDO-060,"Lucena City, North Quezon",Lucena City,DO 67-2002,2002-12-28,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
+RDO-060,"Lucena City, North Quezon",Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas; Tiaong,DO 66-2002,2002-12-28,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
+RDO-060,"Lucena City, North Quezon",Lucena City; Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas; Tiaong,DO 16-2010,2010-08-08,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
+RDO-060,"Lucena City, North Quezon",Lucena City; Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas City; Tiaong,DO 13-2020,2020-03-21,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
+RDO-061,"Gumaca, South Quezon",Lopez; Padre Burgos; Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Pitogo; Plaridel; Tagkawayan,DO 86-1996,1996-11-21,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
+RDO-061,"Gumaca, South Quezon",Agdangan; Alabat; Calauag; Quezon City; Gen. Luna; San Andres; San Francisco (Aurora); San Narciso; Unisan,DO 31-1999,2000-02-21,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
+RDO-061,"Gumaca, South Quezon",Padre Burgos,DO 72-2002,2002-12-28,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
+RDO-061,"Gumaca, South Quezon",Perez,DO 38-2002,2002-12-28,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
+RDO-061,"Gumaca, South Quezon",Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Pitogo; Plaridel; Tagkawayan,DO 19-2004,2004-07-24,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
+RDO-061,"Gumaca, South Quezon",Agdangan; Alabat; Calauag; Gen. Luna; Lopez; Quezon City; San; Andres; San Francisco (Aurora); San Narciso; Unisan,DO 47-2007,2008-02-16,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
+RDO-061,"Gumaca, South Quezon",Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Padre Burgos; Pitogo; Plaridel; Tagkawayan; Perez,DO 31-2010,2010-10-20,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
+RDO-061,"Gumaca, South Quezon",Agdangan; Alabat; Calauag; Gen. Luna; Lopez; Quezon City; San; Andres; San Francisco (Aurora); San Narciso; Unisan,DO 33-2019,2019-06-13,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
+RDO-061,"Gumaca, South Quezon",Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Padre Burgos; Pitogo; Plaridel; Tagkawayan,DO 37-2022,2022-07-23,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
+RDO-062,"Boac, Marinduque",Boac; Buenavista; Gasan; Mogpog; Santa Cruz; Torrijos,DO 21-1994,1994-06-08,"RDO No. 62 - Boac, Marinduque.xls",xls,no
+RDO-062,"Boac, Marinduque",Boac; Buenavista; Gasan; Mogpog; Santa Cruz; Torrijos,DO 6-1997,1997-03-17,"RDO No. 62 - Boac, Marinduque.xls",xls,no
+RDO-062,"Boac, Marinduque",Boac; Buenavista; Gasan; Mogpog; Santa Cruz; Torrijos,DO 7-2009,2009-02-25,"RDO No. 62 - Boac, Marinduque.xls",xls,no
+RDO-062,"Boac, Marinduque",Boac; Buenavista; Gasan; Mogpog; Santa Cruz; Torrijos,DO 40-2022,2022-07-30,"RDO No. 62 - Boac, Marinduque.xls",xls,no
+RDO-063,"Calapan City, Oriental Mindoro",Baco; Bansud; Bongabong; Mansalay; Pola; Puerto Galera; Roxas; San Teodoro; Socorro; Victoria,DO 45-1997,1997-09-08,"RDO No. 63 - Calapan City,  Oriental Mindoro.XLS",xls,no
+RDO-063,"Calapan City, Oriental Mindoro",San Teodoro; Bulalacao. Gloria; Naujan; Pinamalayan,DO 29-1999,2000-01-31,"RDO No. 63 - Calapan City,  Oriental Mindoro.XLS",xls,no
+RDO-063,"Calapan City, Oriental Mindoro",Calapan City; Baco; Bansud; Bongabong; Bulalacao; Gloria; Mansalay; Naujan; Pinamalayan; Pola; Puerta Galera; Roxas; Socorro; Victoria,DO 30-2006,2006-11-04,"RDO No. 63 - Calapan City,  Oriental Mindoro.XLS",xls,no
+RDO-063,"Calapan City, Oriental Mindoro",San Teodoro,DO 29-2006,2006-11-04,"RDO No. 63 - Calapan City,  Oriental Mindoro.XLS",xls,no
+RDO-063,"Calapan City, Oriental Mindoro",Calapan City; Baco; Bansud; Bongabong; Bulalacao; Gloria; Mansalay; Naujan; Pinamalayan; Pola; Puerta Galera; Roxas; Socorro; Victoria; San Teodoro,DO 62-2018,2018-12-23,"RDO No. 63 - Calapan City,  Oriental Mindoro.XLS",xls,no
+RDO-063,"Calapan City, Oriental Mindoro",Calapan City; Baco; Bansud; Bongabong; Bulalacao; Gloria; Mansalay; Naujan; Pinamalayan; Pola; Puerta Galera; Roxas; Socorro; Victoria; San Teodoro,DO 43-2022,2022-08-11,"RDO No. 63 - Calapan City,  Oriental Mindoro.XLS",xls,no
+RDO-071,"Kalibo, Aklan",Kalibo; Libacao; Malay; Altavas; Balete; Banga; Batan; Buruanga; Ibajay; Lezo; Madalag; Makato; Malinao; Nabas; New Washington; Numancia; Tangalan,DO 126-1991,1992-01-19,"RDO No. 71 - Kalibo, Aklan.xls",xls,no
+RDO-071,"Kalibo, Aklan",Kalibo; Libacao; Malay; Altavas; Balete; Banga; Batan; Buruanga; Ibajay; Lezo; Madalag; Makato; Malinao; Nabas; New Washington; Numancia; Tangalan,DO 20-1995,1995-04-21,"RDO No. 71 - Kalibo, Aklan.xls",xls,no
+RDO-071,"Kalibo, Aklan",Kalibo; Libacao; Malay,DO 27-1998,1998-07-20,"RDO No. 71 - Kalibo, Aklan.xls",xls,no
+RDO-071,"Kalibo, Aklan",Altavas; Balete; Banga; Batan; Buruanga; Ibajay; Lezo; Madalag; Makato; Malinao; Nabas; New Washington; Numancia; Tangalan,DO 13-2002,2002-12-28,"RDO No. 71 - Kalibo, Aklan.xls",xls,no
+RDO-071,"Kalibo, Aklan",Kalibo; Libacao; Malay; Altavas; Balete; Banga; Batan; Buruanga; Ibajay; Lezo; Madalag; Makato; Malinao; Nabas; New Washington; Numancia; Tangalan,DO 27-2014,2014-06-14,"RDO No. 71 - Kalibo, Aklan.xls",xls,no
+RDO-071,"Kalibo, Aklan",Kalibo; Libacao; Malay; Altavas; Balete; Banga; Batan; Buruanga; Ibajay; Lezo; Madalag; Makato; Malinao; Nabas; New Washington; Numancia; Tangalan,DO 10-2021,2021-07-02,"RDO No. 71 - Kalibo, Aklan.xls",xls,no
+RDO-072,"Roxas City, Capiz",Roxas City,DO 9-1991,1991-11-16,"RDO No. 72 - Roxas City, Capiz.xls",xls,no
+RDO-072,"Roxas City, Capiz",Roxas City,DO 12-1995,1995-04-21,"RDO No. 72 - Roxas City, Capiz.xls",xls,no
+RDO-072,"Roxas City, Capiz",Cuarteo; Dao; Dumalag; Dumarao; Ivisan; Jamindan; Ma-ayon; Mambusao; Panay; Panitan Pilar; Pontevedra; Pres. Roxas; Sapian; Sigma; Tapas,DO 11-1995,1995-04-21,"RDO No. 72 - Roxas City, Capiz.xls",xls,no
+RDO-072,"Roxas City, Capiz",Cuarteo; Dao; Dumalag; Dumarao; Ivisan; Jamindan; Ma-ayon; Mambusao; Panay; Panitan Pilar; Pontevedra; Pres. Roxas; Sapian; Sigma; Tapas,DO 70-2002,2002-12-28,"RDO No. 72 - Roxas City, Capiz.xls",xls,no
+RDO-072,"Roxas City, Capiz",Roxas City; Cuarteo; Dao; Dumalag; Dumarao; Ivisan; Jamindan; Ma-ayon; Mambusao; Panay; Panitan Pilar; Pontevedra; Pres. Roxas; Sapian; Sigma; Tapas,DO 41-2014,2014-08-01,"RDO No. 72 - Roxas City, Capiz.xls",xls,no
+RDO-072,"Roxas City, Capiz",Roxas City; Cuarteo; Dao; Dumalag; Dumarao; Ivisan; Jamindan; Ma-ayon; Mambusao; Panay; Panitan Pilar; Pontevedra; Pres. Roxas; Sapian; Sigma; Tapas,DO 25-2021,2021-10-31,"RDO No. 72 - Roxas City, Capiz.xls",xls,no
+RDO-073,"San Jose, Antique",Anini-y; Barbaza; Belison; Bugasong; Caluya; Culasi; Hamtic; Laua-an; Libertad; Pandan; Patnongon; San Jose; San Remigio; Sebaste; Sibalom; Tibiao; Tobias Fornier (Dao); Valderrama,DO 33-1994,1994-06-29,"RDO No. 73 - San Jose, Antique.xls",xls,no
+RDO-073,"San Jose, Antique",Anini-y; Barbaza; Belison; Bugasong; Caluya; Culasi; Hamtic; Laua-an; Libertad; Pandan; Patnongon; San Jose; San Remigio; Sebaste; Sibalom; Tibiao; Tobias Fornier (Dao); Valderrama,DO 7-1998,1998-02-17,"RDO No. 73 - San Jose, Antique.xls",xls,no
+RDO-073,"San Jose, Antique",Anini-y; Barbaza; Belison; Bugasong; Caluya; Culasi; Hamtic; Laua-an; Libertad; Pandan; Patnongon; San Jose; San Remigio; Sebaste; Sibalom; Tibiao; Tobias Fornier (Dao); Valderrama,DO 21-2012,2012-09-30,"RDO No. 73 - San Jose, Antique.xls",xls,no
+RDO-073,"San Jose, Antique",Anini-y; Barbaza; Belison; Bugasong; Caluya; Culasi; Hamtic; Laua-an; Libertad; Pandan; Patnongon; San Jose; San Remigio; Sebaste; Sibalom; Tibiao; Tobias Fornier (Dao); Valderrama,DO 14-2021,2021-08-24,"RDO No. 73 - San Jose, Antique.xls",xls,no
+RDO-074,"Iloilo City, Iloilo",Iloilo City,DO 25-1990,1990-06-16,"RDO No. 74 - Iloilo City, Iloilo.xls",xls,no
+RDO-074,"Iloilo City, Iloilo",Iloilo City,DO 19-1995,1995-04-20,"RDO No. 74 - Iloilo City, Iloilo.xls",xls,no
+RDO-074,"Iloilo City, Iloilo",Leganes; Oton; Pavia; San Miguel,DO 17-1995,1995-04-20,"RDO No. 74 - Iloilo City, Iloilo.xls",xls,no
+RDO-074,"Iloilo City, Iloilo",Leganes; Oton; Pavia; San Miguel,DO 14-1998,1998-04-14,"RDO No. 74 - Iloilo City, Iloilo.xls",xls,no
+RDO-074,"Iloilo City, Iloilo",Iloilo City,DO 26-1998,1998-07-20,"RDO No. 74 - Iloilo City, Iloilo.xls",xls,no
+RDO-074,"Iloilo City, Iloilo",Alimodian; Buenavista; Cabatuan; Guimbal; Igbaras; Jordan; Leon; Ma-asin; Miag-ao; Nueva Valencia; San Joaquin; San Lorenzo; Sta. Barbara; Sibunag; Tigbauan; Tubungan,DO 25-1998,1998-07-20,"RDO No. 74 - Iloilo City, Iloilo.xls",xls,no
+RDO-074,"Iloilo City, Iloilo",Affected by The New Iloilo Airport Development Project within the; Sta. Barbara; Cabatuan; San Miguel,DO 28-2001,2002-02-06,"RDO No. 74 - Iloilo City, Iloilo.xls",xls,no
+RDO-074,"Iloilo City, Iloilo",Iloilo City; Leganes; Oton; Pavia; San Miguel; Alimodian; Cabatuan; Guimbal; Igbaras; Leon; Maasin; Miagao; San Joaquin; Santa Barbara; Tigbauan; Tubungan; Province of Guimaras: Buenavista; Jordan; Nueva Valencia; San Lorenzo; Sibunag,DO 26-2012,2012-10-17,"RDO No. 74 - Iloilo City, Iloilo.xls",xls,no
+RDO-074,"Iloilo City, Iloilo",Iloilo City; Leganes; Oton; Pavia; San Miguel; Alimodian; Cabatuan; Guimbal; Igbaras; Leon; Maasin; Miagao; San Joaquin; Santa Barbara; Tigbauan; Tubungan; Buenavista; Jordan; Nueva Valencia; San Lorenzo; Sibunag,DO 17-2021,2021-09-09,"RDO No. 74 - Iloilo City, Iloilo.xls",xls,no
+RDO-075,"Zarraga, Iloilo",Passi City; Ajuy; Anilao; Badiangan; Balasan; Banate; Barotac Nuevo; Barotac Viejo; Batad; Bingawan; Calinog; Carles; Concepcion; Dingle; Duenas; Dumangas; Estancia; Janiuay; Lambunao; Lemery; Mina; New Lucena; Pototan; San Dionision; San Enrique; San Rafael; Sara; Zarraga,DO 85-1996,1996-11-17,"RDO No. 75 - Zarraga, Iloilo.xls",xls,no
+RDO-075,"Zarraga, Iloilo",Passi City; Ajuy; Anilao; Badiangan; Balasan; Banate; Barotac Nuevo; Barotac Viejo; Batad; Bingawan; Calinog; Carles; Concepcion; Dingle; Duenas; Dumangas; Estancia; Janiuay; Lambunao; Lemery; Mina; New Lucena; Pototan; San Dionision; San Enrique; San Rafael; Sara; Zarraga,DO 7-2000,2002-07-24,"RDO No. 75 - Zarraga, Iloilo.xls",xls,no
+RDO-075,"Zarraga, Iloilo",Passi City; Ajuy; Anilao; Badiangan; Balasan; Banate; Barotac Nuevo; Barotac Viejo; Batad; Bingawan; Calinog; Carles; Concepcion; Dingle; Duenas; Dumangas; Estancia; Janiuay; Lambunao; Lemery; Mina; New Lucena; Pototan; San Dionision; San Enrique; San Rafael; Sara; Zarraga,DO 82-2014,2014-12-28,"RDO No. 75 - Zarraga, Iloilo.xls",xls,no
+RDO-075,"Zarraga, Iloilo",Passi City; Ajuy; Anilao; Badiangan; Balasan; Banate; Barotac Nuevo; Barotac Viejo; Batad; Bingawan; Calinog; Carles; Concepcion; Dingle; Duenas; Dumangas; Estancia; Janiuay; Lambunao; Lemery; Mina; New Lucena; Pototan; San Dionision; San Enrique; San Rafael; Sara; Zarraga,DO 13-2021,2021-08-24,"RDO No. 75 - Zarraga, Iloilo.xls",xls,no
+RDO-076,"Victorias City, Negros Occidental",Cadiz City; San Carlos City; Calatrava; E.B. Magalona; Escalante; Manapla; Sagay; Toboso; Victoria,DO 22-1995,1995-04-01,"RDO No. 76 - Victorias City, Negros Occidental.xls",xls,no
+RDO-076,"Victorias City, Negros Occidental",Cadiz City; San Carlos City; Calatrava; E.B. Magalona; Escalante City; Manapla; Sagay City; Toboso; Victoria,DO 30-2002,2002-12-28,"RDO No. 76 - Victorias City, Negros Occidental.xls",xls,no
+RDO-076,"Victorias City, Negros Occidental",Cadiz City; San Carlos City; Calatrava; E.B. Magalona; Escalante City; Manapla; Sagay City; Toboso; Victoria,DO 11-2019,2019-03-30,"RDO No. 76 - Victorias City, Negros Occidental.xls",xls,no
+RDO-076,"Victorias City, Negros Occidental",Cadiz City; San Carlos City; Calatrava; E.B. Magalona; Escalante City; Manapla; Sagay City; Toboso; Victoria,DO 75-2023,2023-12-15,"RDO No. 76 - Victorias City, Negros Occidental.xls",xls,no
+RDO-077,"Bacolod City, Negros Occidental",Bacolod City,DO 12-1990,1990-03-28,RDO No. 77 - Bacolod City Negros Occidental.xls,xls,no
+RDO-077,"Bacolod City, Negros Occidental",Bacolod City,DO 8-1995,1995-04-01,RDO No. 77 - Bacolod City Negros Occidental.xls,xls,no
+RDO-077,"Bacolod City, Negros Occidental",Bacolod City,DO 46-1997,1997-11-24,RDO No. 77 - Bacolod City Negros Occidental.xls,xls,no
+RDO-077,"Bacolod City, Negros Occidental",Murcia; Salvador Benedicto; Silay City; Talisay,DO 45-1998,1998-09-29,RDO No. 77 - Bacolod City Negros Occidental.xls,xls,no
+RDO-077,"Bacolod City, Negros Occidental",Bacolod City,DO 65-2002,2002-12-28,RDO No. 77 - Bacolod City Negros Occidental.xls,xls,no
+RDO-077,"Bacolod City, Negros Occidental",Bacolod City; Murcia; Salvador Benedicto; Silay City; Talisay,DO 41-2017,2017-08-07,RDO No. 77 - Bacolod City Negros Occidental.xls,xls,no
+RDO-077,"Bacolod City, Negros Occidental",Bacolod City; Silay City; Talisay City; Don Salvador Benedicto; Murcia,DO 58-2023,2023-11-01,RDO No. 77 - Bacolod City Negros Occidental.xls,xls,no
+RDO-078,"Binalbagan, Negros Occidental",Binalbagan,DO 18-1992,1992-04-16,"RDO No. 78 - Binalbagan, Negros Occidental.xls",xls,no
+RDO-078,"Binalbagan, Negros Occidental",Bago City,DO 16-1995,1995-04-01,"RDO No. 78 - Binalbagan, Negros Occidental.xls",xls,no
+RDO-078,"Binalbagan, Negros Occidental",La Carlota City,DO 30-1995,1995-05-31,"RDO No. 78 - Binalbagan, Negros Occidental.xls",xls,no
+RDO-078,"Binalbagan, Negros Occidental",Pontevedra; Pulupandan; San Enrique; Valladolid,DO 1-1996,1996-02-07,"RDO No. 78 - Binalbagan, Negros Occidental.xls",xls,no
+RDO-078,"Binalbagan, Negros Occidental",Candoni; Cauayan; Himamaylan; Hinigaran; Ilog; Sipalay,DO 61-1997,1998-01-13,"RDO No. 78 - Binalbagan, Negros Occidental.xls",xls,no
+RDO-078,"Binalbagan, Negros Occidental",Hinoba-An,DO 64-2002,2002-12-28,"RDO No. 78 - Binalbagan, Negros Occidental.xls",xls,no
+RDO-078,"Binalbagan, Negros Occidental",Isabela; La Castellena; Moises Padilla,DO 32-2002,2002-12-28,"RDO No. 78 - Binalbagan, Negros Occidental.xls",xls,no
+RDO-078,"Binalbagan, Negros Occidental",Kabankalan City,DO 31-2002,2002-12-28,"RDO No. 78 - Binalbagan, Negros Occidental.xls",xls,no
+RDO-078,"Binalbagan, Negros Occidental",Bago City; Himamaylan City; Kabankalan City; La Carlota City; Sipalay City; Binalbagan; Candoni; Cauayan; Hinigaran; Hinoba-an; Ilog; Isabela; La Castellana; Moises Padilla; Pontevedra; Pulupandan; San Enrique; Valladolid,DO 105-2014,2015-03-01,"RDO No. 78 - Binalbagan, Negros Occidental.xls",xls,no
+RDO-078,"Binalbagan, Negros Occidental",Bago City; Himamaylan City; Kabankalan City; La Carlota City; Sipalay City; Binalbagan; Candoni; Cauayan; Hinigaran; Hinoba-an; Ilog; Isabela; La Castellana; Moises Padilla; Pontevedra; Pulupandan; San Enrique; Valladolid,DO 77-2023,2023-12-19,"RDO No. 78 - Binalbagan, Negros Occidental.xls",xls,no
+RDO-079,"Dumaguete City, Negros Oriental",Bais City; Canlaon City; Dumaguete City; Amlan (Ayuquitan); Ayungon; Bacong; Basay; Bayawan City (Tulong); Bindoy (Payabon); Dauin; Guihulngan City; Jimalalud; La Libertad; Mabinay; Manjuyod; Pamplona; San Jose; Santa Catalina; Siaton; Sibulan; Tanay; Tayasan; Valencia (Luzurriaga); Vallehermoso; Zamboanguita; Siquijor Provinces; Enrique Villanueva; Larena; Lazi; Maria; San Juan; Siquijor,DO 4-1997,1997-03-17,"RDO No. 79 - Dumaguete City, Negros Oriental.xls",xls,no
+RDO-079,"Dumaguete City, Negros Oriental",Bais City; Canlaon City; Dumaguete City; Amlan (Ayuquitan); Ayungon; Bacong; Basay; Bayawan City (Tulong); Bindoy (Payabon); Dauin; Guihulngan City; Jimalalud; La Libertad; Mabinay; Manjuyod; Pamplona; San Jose; Santa Catalina; Siaton; Sibulan; Tanay; Tayasan; Valencia (Luzurriaga); Vallehermoso; Zamboanguita; Siquijor Provinces; Enrique Villanueva; Larena; Lazi; Maria; San Juan; Siquijor,DO 17-2010,2010-08-25,"RDO No. 79 - Dumaguete City, Negros Oriental.xls",xls,no
+RDO-079,"Dumaguete City, Negros Oriental",Bais City; Canlaon City; Dumaguete City; Amlan (Ayuquitan); Ayungon; Bacong; Basay; Bayawan City (Tulong); Bindoy (Payabon); Dauin; Guihulngan City; Jimalalud; La Libertad; Mabinay; Manjuyod; Pamplona; San Jose; Santa Catalina; Siaton; Sibulan; Tanay; Tayasan; Valencia (Luzurriaga); Vallehermoso; Zamboanguita; Siquijor Provinces; Enrique Villanueva; Larena; Lazi; Maria; San Juan; Siquijor,DO 78-2018,2019-02-27,"RDO No. 79 - Dumaguete City, Negros Oriental.xls",xls,no
+RDO-25A,"Plaridel, Bulacan",Bocaue,DO 134-1991,1992-07-31,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes
+RDO-25A,"Plaridel, Bulacan",Malolos; Balagtas; Baliwag; Bulacan; Bustos; Calumpit; Guiguinto; Hagonoy; Pandi; Paombong; Plaridel; Pulilan,DO 83-1994,1994-09-25,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes
+RDO-25A,"Plaridel, Bulacan",Bocaue,DO 84-1994,1994-09-28,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes
+RDO-25A,"Plaridel, Bulacan",Bocaue,DO 72-1996,1996-09-16,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes
+RDO-25A,"Plaridel, Bulacan",Malolos; Balagtas; Baliwag; Bulacan; Bustos; Calumpit; Guiguinto; Hagonoy; Pandi; Paombong; Plaridel; Pulilan,DO 7-1997,1997-03-23,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes
+RDO-25A,"Plaridel, Bulacan",Bocaue,DO 2-2000,2000-03-21,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes
+RDO-25A,"Plaridel, Bulacan",Bocaue; Malolos; Balagtas; Baliwag; Bulacan; Bustos; Calumpit; Guiguinto; Hagonoy; Pandi; Paombong; Plaridel; Pulilan,DO 29-2009,2009-07-15,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes
+RDO-25A,"Plaridel, Bulacan",Bocaue; Malolos; Balagtas; Baliwag; Bulacan; Bustos; Calumpit; Guiguinto; Hagonoy; Pandi; Paombong; Plaridel; Pulilan,DO 9-2020,2020-03-07,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes
+RDO-25B,"Santa Maria, Bulacan",Marilao; Meycauayan; San Jose del Monte; Santa Maria,DO 134-1991,1992-07-31,"RDO No. 25B - Sta. Maria, Bulacan.xlsx",xlsx,yes
+RDO-25B,"Santa Maria, Bulacan",Angat; Norzagaray; Obando; San Ildefonso; San Miguel; San Rafael; Doña Remedios Trinidad,DO 83-1994,1994-09-25,"RDO No. 25B - Sta. Maria, Bulacan.xlsx",xlsx,yes
+RDO-25B,"Santa Maria, Bulacan",Marilao; Meycauayan; San Jose del Monte; Santa Maria,DO 84-1994,1994-09-28,"RDO No. 25B - Sta. Maria, Bulacan.xlsx",xlsx,yes
+RDO-25B,"Santa Maria, Bulacan",Marilao; Meycauayan; San Jose del Monte; Santa Maria,DO 72-1996,1996-09-16,"RDO No. 25B - Sta. Maria, Bulacan.xlsx",xlsx,yes
+RDO-25B,"Santa Maria, Bulacan",Angat; Norzagaray; Obando; San Ildefonso; San Miguel; San Rafael; Doña Remedios Trinidad,DO 7-1997,1997-03-23,"RDO No. 25B - Sta. Maria, Bulacan.xlsx",xlsx,yes
+RDO-25B,"Santa Maria, Bulacan",Marilao; Meycauayan; San Jose del Monte; Santa Maria,DO 2-2000,2000-03-21,"RDO No. 25B - Sta. Maria, Bulacan.xlsx",xlsx,yes
+RDO-25B,"Santa Maria, Bulacan",Marilao; Meycauayan; San Jose del Monte; Santa Maria; Angat; Norzagaray; Obando; San Ildefonso; San Miguel; San Rafael; Doña Remedios Trinidad,DO 29-2009,2009-07-15,"RDO No. 25B - Sta. Maria, Bulacan.xlsx",xlsx,yes
+RDO-25B,"Santa Maria, Bulacan",Marilao; Meycauayan; San Jose del Monte; Santa Maria; Angat; Doña Remedios Trinidad; Norzagaray; Obando; San Ildefonso; San Miguel; San Rafael,DO 14-2018,2018-05-09,"RDO No. 25B - Sta. Maria, Bulacan.xlsx",xlsx,yes
+RDO-53A,Las Piñas City,Las Piñas,DO 85-1987,1987-10-01,RDO No. 53A - Las Pinas City.xls,xls,yes
+RDO-53A,Las Piñas City,Las Piñas,DO 1-1989,1989-03-10,RDO No. 53A - Las Pinas City.xls,xls,yes
+RDO-53A,Las Piñas City,Las Piñas,DO 53-1990,1990-11-18,RDO No. 53A - Las Pinas City.xls,xls,yes
+RDO-53A,Las Piñas City,Las Piñas,DO 22-1993,1993-05-30,RDO No. 53A - Las Pinas City.xls,xls,yes
+RDO-53A,Las Piñas City,Las Piñas,DO 114-1995,1995-10-15,RDO No. 53A - Las Pinas City.xls,xls,yes
+RDO-53A,Las Piñas City,Las Piñas,DO 26-1996,1996-05-09,RDO No. 53A - Las Pinas City.xls,xls,yes
+RDO-53A,Las Piñas City,Las Piñas,DO 10-1997,1997-05-02,RDO No. 53A - Las Pinas City.xls,xls,yes
+RDO-53A,Las Piñas City,Las Piñas,DO 68-2017,2017-12-23,RDO No. 53A - Las Pinas City.xls,xls,yes
+RDO-53A,Las Piñas City,Las Piñas,DO 4-2021,2021-04-09,RDO No. 53A - Las Pinas City.xls,xls,yes
+RDO-53B,Muntinlupa City,Muntinlupa,DO 85-1987,1987-10-01,RDO No. 53B - Muntinlupa City.xls,xls,yes
+RDO-53B,Muntinlupa City,Muntinlupa,DO 1-1989,1989-03-10,RDO No. 53B - Muntinlupa City.xls,xls,yes
+RDO-53B,Muntinlupa City,Muntinlupa,DO 53-1990,1990-11-18,RDO No. 53B - Muntinlupa City.xls,xls,yes
+RDO-53B,Muntinlupa City,Muntinlupa,DO 22-1993,1993-05-30,RDO No. 53B - Muntinlupa City.xls,xls,yes
+RDO-53B,Muntinlupa City,Muntinlupa,DO 114-1995,1995-10-15,RDO No. 53B - Muntinlupa City.xls,xls,yes
+RDO-53B,Muntinlupa City,Muntinlupa,DO 26-1996,1996-05-09,RDO No. 53B - Muntinlupa City.xls,xls,yes
+RDO-53B,Muntinlupa City,Muntinlupa,DO 10-1997,1997-05-02,RDO No. 53B - Muntinlupa City.xls,xls,yes
+RDO-53B,Muntinlupa City,Muntinlupa,DO 26-2014,2014-06-14,RDO No. 53B - Muntinlupa City.xls,xls,yes
+RDO-53B,Muntinlupa City,Muntinlupa,DO 39-2019,2019-07-11,RDO No. 53B - Muntinlupa City.xls,xls,yes
+RDO-53B,Muntinlupa City,Muntinlupa,DO 89-2023,2024-01-27,RDO No. 53B - Muntinlupa City.xls,xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Tagaytay,DO 48-1989,1990-03-08,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Tagaytay,DO 85-1994,1994-09-25,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Dasmariñas; Imus; Indang; Mendez; Trece Martires; Amadeo; Silang,DO 82-1994,1994-09-25,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Carmona; Gen. Mariano Alvarez; Alfonso; General Emilio Aguinaldo,DO 112-1995,1995-10-14,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Alfonso; Amadeo; General Emilio Aguinaldo; Silang,DO 9-1998,1998-02-17,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Tagaytay,DO 8-1998,1998-02-17,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Carmona; Dasmariñas; Gen. Mariano Alvarez; Imus; Indang; Mendez; Trece Martires,DO 56-2002,2002-12-28,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Tagaytay,DO 38-2007,2007-10-22,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Trece Martires; Alfonso; Amadeo; Carmona; Dasmariñas; General Emilio Aguinaldo; Gen. Mariano Alvarez; Imus; Indang; Mendez; Silang,DO 39-2007,2007-11-05,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Tagaytay; Dasmariñas; Imus; Trece Martires; Alfonso; Amadeo; Carmona; General Emilio Aguinaldo; Gen. Mariano Alvarez; Indang; Mendez; Silang,DO 40-2017,2017-08-13,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54A,"Trece Martirez City, East Cavite",Tagaytay; Dasmariñas; Imus; Trece Martires; Alfonso; Amadeo; Carmona; General Emilio Aguinaldo; Gen. Mariano Alvarez; Indang; Mendez; Silang,DO 20-2021,2021-10-23,"RDO No. 54A - Trece Martirez City, East Cavite.xls",xls,yes
+RDO-54B,"Bacoor City, West Cavite",General Trias; Tanza; Bacoor,DO 82-1994,1994-09-25,"RDO No. 54B - Bacoor City, West Cavite.xls",xls,yes
+RDO-54B,"Bacoor City, West Cavite",Kawit; Maragondon; Naic; Ternate; Cavite City; Magallanes; Noveleta; Rosario,DO 112-1995,1995-10-14,"RDO No. 54B - Bacoor City, West Cavite.xls",xls,yes
+RDO-54B,"Bacoor City, West Cavite",Cavite City; Bacoor; Magallanes; Noveleta; Rosario; Silang,DO 9-1998,1998-02-17,"RDO No. 54B - Bacoor City, West Cavite.xls",xls,yes
+RDO-54B,"Bacoor City, West Cavite",General Trias; Kawit; Maragondon; Naic; Tanza; Ternate,DO 56-2002,2002-12-28,"RDO No. 54B - Bacoor City, West Cavite.xls",xls,yes
+RDO-54B,"Bacoor City, West Cavite",Bacoor; General Trias; Kawit; Magallanes; Maragondon; Naic; Noveleta; Rosario; Tanza; Ternate,DO 39-2007,2007-11-05,"RDO No. 54B - Bacoor City, West Cavite.xls",xls,yes
+RDO-54B,"Bacoor City, West Cavite",Cavite City,DO 13-2010,2010-08-08,"RDO No. 54B - Bacoor City, West Cavite.xls",xls,yes
+RDO-54B,"Bacoor City, West Cavite",Cavite City; Bacoor; General Trias; Kawit; Magallanes; Maragondon; Naic; Noveleta; Rosario; Tanza; Ternate,DO 72-2018,2019-01-12,"RDO No. 54B - Bacoor City, West Cavite.xls",xls,yes
+RDO-54B,"Bacoor City, West Cavite",Bacoor; Cavite City; General Trias; Kawit; Magallanes; Maragondon; Naic; Noveleta; Rosario; Tanza; Ternate,DO 33-2022,2022-07-10,"RDO No. 54B - Bacoor City, West Cavite.xls",xls,yes
