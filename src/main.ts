@@ -495,7 +495,9 @@ async function boot() {
   const initial = readHash();
   renderLegend();
   if (styleReady) addLayers();
-  map.once('idle', () => { renderRank(); if (initial) select(initial, true); });
+  // don't wait for 'idle': it never fires while the tab is in the background
+  if (initial) select(initial, true);
+  map.once('idle', () => renderRank());
   addEventListener('hashchange', () => {
     const id = readHash();
     repaint();
