@@ -1,0 +1,77 @@
+id,type,city,bir_names,proposed_psgc,psgc_city,confidence,rows,matched_now,evidence
+1,alias_before_2023-07-29,Bacoor,ALIMA | BANALO | SINEGUELASAN,Sinbanali,,high,170,unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+2,alias_before_2023-07-29,Bacoor,CAMPOSANTO | DAANG BUKID | TABING DAGAT / POBLACION,Poblacion,,high,163,group -> Poblacion; unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+3,alias_before_2023-07-29,Bacoor,KAINGEN | DIGMAN,Kaingin Digman,,high,92,partial -> Kaingin Digman; unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+4,alias_before_2023-07-29,Bacoor,MABOLO 1 | MABOLO 2 | MABOLO 3,Mabolo,,high,94,unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+5,alias_before_2023-07-29,Bacoor,SALINAS 2 | SALINAS 3 | SALINAS 4,Salinas 2,,high,72,exact -> Salinas 2; unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+6,alias_before_2023-07-29,Bacoor,MALIKSI 2 | MALIKSI 3,Maliksi 2,,high,42,exact -> Maliksi 2; unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+7,alias_before_2023-07-29,Bacoor,ZAPOTE 1 | ZAPOTE 2,Zapote 1,,high,38,exact -> Zapote 1; exact -> Zapote 2,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+8,alias_before_2023-07-29,Bacoor,ZAPOTE 3 | ZAPOTE 4,Zapote 2,,high,38,exact -> Zapote 3; unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+9,alias_before_2023-07-29,Bacoor,ZAPOTE 5,Zapote 3,,high,48,unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+10,alias_before_2023-07-29,Bacoor,TALABA 1 | TALABA 3 | TALABA 7,Talaba 1,,high,60,exact -> Talaba 1; exact -> Talaba 3; unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+11,alias_before_2023-07-29,Bacoor,TALABA 4 | TALABA 5 | TALABA 6,Talaba 3,,high,50,unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+12,alias_before_2023-07-29,Bacoor,ANIBAN I | ANIBAN III | ANIBAN V,Aniban 1,,high,85,exact -> Aniban 1; unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+13,alias_before_2023-07-29,Bacoor,ANIBAN II | ANIBAN IV,Aniban 2,,high,48,exact -> Aniban 2; unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+14,alias_before_2023-07-29,Bacoor,MAMBOG 2 | MAMBOG 5,Mambog 2,,high,84,exact -> Mambog 2; unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+15,alias_before_2023-07-29,Bacoor,NIOG 1 | NIOG 2 | NIOG 3,Niog,,high,144,unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+16,alias_before_2023-07-29,Bacoor,LIGAS 1 | LIGAS 2,Ligas 1,,high,64,exact -> Ligas 1; exact -> Ligas 2,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+17,alias_before_2023-07-29,Bacoor,LIGAS 3,Ligas 2,,high,53,unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+18,alias_before_2023-07-29,Bacoor,REAL 1 | REAL 2,Real,,high,92,unmatched,Bacoor certification of Ordinance 275-2023 (plebiscite 29 Jul 2023): https://bacoor.gov.ph/wp-content/uploads/2023/09/Certification-Barangay-Merger_Signed.pdf
+19,alias_before_2023-07-29,Bacoor,PANAPAAN 1,P.F. Espiritu 1,,medium,42,unmatched,"RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+20,alias_before_2023-07-29,Bacoor,PANAPAAN 2 | PANAPAAN 3,P.F. Espiritu 2,,medium,74,unmatched,"RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+21,alias_before_2023-07-29,Bacoor,PANAPAAN 4,P.F. Espiritu 3,,medium,32,unmatched,"RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+22,alias_before_2023-07-29,Bacoor,PANAPAAN 5 | PANAPAAN 6,P.F. Espiritu 4,,medium,92,unmatched,"RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+23,alias_before_2023-07-29,Bacoor,PANAPAAN 7,P.F. Espiritu 5,,medium,34,unmatched,"RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+24,alias_before_2023-07-29,Bacoor,PANAPAAN 8,P.F. Espiritu 6,,medium,38,unmatched,"RA 5597 (1969) renamed Panapaan to Pedro Espiritu; BIR still says Panapaan. Assumes Panapaan N = pre-merger P.F. Espiritu N, then the 2023 certification renumbering."
+25,alias,Malabon,SANTULAN,Santolan,,high,28,unmatched,Spelling variant; Santolan is otherwise missing from Malabon DO 46-2022
+26,alias,Parañaque,VITALEZ COMPOUND,Vitalez,,high,18,unmatched,"Same barangay; BIR 2023 adds ""Compound"""
+27,alias,Quezon City,DOÑA AURORA,Aurora,,medium,86,unmatched,"The only PSGC ""Aurora"" polygon sits at Doña Aurora (14.616N 121.009E, RDO 39 area); no separate Doña Aurora polygon exists"
+28,alias,Dasmariñas,BUROL MAIN*,Burol,,high,37,unmatched,"PSGC has Burol plus Burol I-III; ""Burol Main"" is the original"
+29,alias,Dasmariñas,SAN MIGUEL I*,San Miguel,,medium,8,unmatched,PSGC has San Miguel and San Miguel II; BIR has San Miguel I and II
+30,alias,Dasmariñas,SULTAN ESMAEL*,Datu Esmael,,medium,8,unmatched,Same person (Sultan/Datu Esmael); no other PSGC candidate
+31,alias,General Trias,1896*,Ninety Sixth Pob.,,medium,14,unmatched,Barangay 1896 (Pob.); PSGC file spells the number out
+32,rule,General Trias,ARNALDO* | BAGUMBAYAN* | CORREGIDOR* | DULONG BAYAN* | GOV. FERRER* | PRINZA* | SAMPALUCAN* | SAN GABRIEL* | VIBORA*,"the same names with ""Pob.""",,high,158,unmatched,"Matcher rule: a PSGC name ending in ""Pob."" also matches without it"
+33,alias,Tagaytay,MENDEZ JUNCTION (CROSSING EAST),Mendez Crossing East,,high,23,unmatched,"Same name, BIR adds ""Junction"""
+34,alias,Tagaytay,MENDEZ JUNCTION (CROSSING WEST),Mendez Crossing West,,high,33,unmatched,"Same name, BIR adds ""Junction"""
+35,alias,Tagaytay,IRUHIN CENTRAL,Iruhin South,,medium,47,unmatched,By elimination: BIR Central/East/West vs PSGC East/West/South
+36,alias,Tagaytay,KAYBAGAL CENTRAL,Kaybagal East,,medium,52,unmatched,By elimination: BIR Central/North/South vs PSGC North/East/South
+37,leave,Tagaytay,SILANG JUNCTION EAST | SILANG JUNCTION WEST,Silang Junction North / South (which is which?),,low,96,unmatched,PSGC North and South polygons have almost the same longitude; no source maps East/West to North/South
+38,leave,Tagaytay,SUNGAY EAST | SUNGAY WEST,Sungay North / South (which is which?),,low,79,unmatched,"Sungay North lies west of Sungay South, which hints West=North, East=South; no source confirms"
+39,alias,Muntinlupa,AYALA ALABANG,New Alabang Village,,high,118,unmatched,BIR's 9 Muntinlupa barangays and PSGC's 9 match except this pair; Ayala Alabang Village was developed as New Alabang Village
+40,alias_other_city,San Pedro,MALITLIT,Malitlit,Santa Rosa,medium,35,unmatched,Malitlit is a Santa Rosa barangay; both towns are RDO 57
+41,alias_other_city,San Pedro,TAGAPO,Tagapo,Santa Rosa,medium,34,unmatched,Tagapo is a Santa Rosa barangay; both towns are RDO 57
+42,alias,San Miguel,MANDILI,Mandile,,high,58,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+43,alias,San Miguel,TIBAGON,Tibagan,,high,44,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+44,alias,San Miguel,LABRE,Labne,,medium,40,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+45,alias,Pulilan,TENEJERO,Tinejero,,high,55,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+46,alias,San Rafael,PASONG INCHIC,Pasong Intsik,,high,50,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+47,alias,San Rafael,TAMBOBONG,Tambubong,,high,48,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+48,alias,San Rafael,MAASIN,Maasim,,high,32,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+49,alias,Navotas,NORTH BAY BLVD NORTH,North Bay Boulevard North,,high,49,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+50,alias,Quezon City,EULOGIO RODRIGUEZ,E. Rodriguez,,high,30,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+51,alias,Mandaluyong,WACK-WACK SUBDIVISION,Wack-wack Greenhills,,high,82,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+52,alias,Mandaluyong,WACK-WACK,Wack-wack Greenhills,,high,63,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+53,alias,Gen. Mariano Alvarez,DELAS ALAS,Severino De Las Alas,,high,44,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+54,alias,Calauan,KANLURAN POBLACION,Kanluran,,high,28,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+55,alias,Indang,CALUMPANG LEJOS,Calumpang Lejos I,,medium,41,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+56,alias,Amadeo,MAITIM,Maitim I,,medium,29,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+57,alias,Rosario,TEJERO,Tejeros Convention,,medium,30,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+58,alias,Jala-Jala,"POBLACION, 2ND DISTRICT",Second District,,high,42,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+59,alias,Jala-Jala,"POBLACION, 3RD DISTRICT",Third District,,high,38,unmatched,Spelling or naming variant; the only plausible PSGC candidate in the city
+60,alias,Kawit,BINAKAYAN,Binakayan-Aplaya; Binakayan-Kanluran,,high,126,unmatched,Binakayan was split into these two
+61,alias,Dasmariñas,LANGCAAN,Langkaan I; Langkaan II,,high,58,unmatched,Langcaan/Langkaan was split into I and II
+62,rule,several,ESCOPA I TO IV (QC) | LIGTONG 1 TO 4 (Rosario) | DAMPOL 2ND A & B (Pulilan) | 192 TO 194 / 195 TO 198 / 199 TO 200 ZONE 20 (Pasay),every barangay in the range,,high,0,?,"Matcher rule: expand ""N to M"" and ""A & B"" ranges into a group. Pasay 193, 194, 196-198, 200 currently get no current value"
+63,rule,several,LOOK I / LOOK II (Malolos),Look 1st / Look 2nd,,high,0,?,Matcher rule: I/II = 1st/2nd
+64,rule,Paete,0004 - QUINALE (POBLACION) | 0001- IBABA DEL SUR ( POBLACION) | ...,the name without the numeric code,,high,99,?; unmatched,Matcher rule: strip leading barangay codes
+65,ignore,Pasig,ALL BARANGAYS (continuation),(not a barangay),,high,622,unmatched,"City-wide or condominium section, not a barangay; mark as ignored so it leaves unmatched.csv"
+66,ignore,Mandaluyong,CONDOMINIUMS/TOWNHOUSES | CONDOMINIUMS/TOWNHOUSES (CONTINUATION),(not a barangay),,high,137,unmatched,"City-wide or condominium section, not a barangay; mark as ignored so it leaves unmatched.csv"
+67,ignore,Manila,CONDOMINIUMS AND TOWNHOUSES,(not a barangay),,high,32,unmatched,"City-wide or condominium section, not a barangay; mark as ignored so it leaves unmatched.csv"
+68,leave,Trece Martires,HUGO PEREZ,,,low,70,unmatched,"PSGC ""Perez"" may be it, but Hugo Perez is also a separate locality; needs local knowledge"
+69,leave,Cainta,BALANTI,,,low,36,unmatched,No PSGC Cainta barangay of that name (a sitio?)
+70,leave,Ternate,OSORIO,,,low,40,unmatched,No PSGC Ternate barangay of that name
+71,leave,Ternate,CONCHU,,,low,30,unmatched,No PSGC Ternate barangay of that name
+72,leave,Calamba,TULO,,,low,39,unmatched,No PSGC Calamba barangay of that name
+73,leave,San Ildefonso,SITIO BUSITIK,,,low,54,unmatched,"A sitio, not a barangay"
+74,leave,Malolos,SANTA ISABEL,,,low,32,unmatched,No PSGC Malolos barangay of that name
+75,leave,Kawit,KANLURAN LOLA NENENG,,,low,38,unmatched,Unclear; possibly part of Binakayan-Kanluran
+76,rule,Manila; Caloocan; Pangil,"Manila Barangays 1-3, 7, 217, 218, 268, 269, 271, 281-286 (RDO 29); Caloocan Barangays 39-136 (20, RDO 27); Pangil Balian",estimate from neighbours instead of an old residential value,,decision,,"matched; newest DO has no RR row, so an older DO (2003-2014) is shown",BIR now classes these barangays commercial/industrial only. Showing a 2003-2014 residential value as current (and projecting it 12-23 years) is misleading.

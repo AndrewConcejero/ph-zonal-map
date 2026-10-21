@@ -1,54 +1,16 @@
 province,city,barangay,lo,hi,typ,city_median,source,do,reasons
-Metro Manila,Manila,Barangay 1,12600,12600,12600,44000,bir,DO 14-2011,value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 2,12600,12600,12600,44000,bir,DO 14-2011,value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 3,12600,12600,12600,44000,bir,DO 14-2011,value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 7,15120,15120,15120,44000,bir,DO 14-2011,value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 217,3934,3934,3934,44000,bir,DO 14-2011,typical is 1/11 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 218,3934,3934,3934,44000,bir,DO 14-2011,typical is 1/11 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 268,7560,7560,7560,44000,bir,DO 14-2011,typical is 1/6 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 269,7560,7560,7560,44000,bir,DO 14-2011,typical is 1/6 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 271,7875,7875,7875,44000,bir,DO 14-2011,typical is 1/6 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 281,5544,5544,5544,44000,bir,DO 14-2011,typical is 1/8 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 282,5544,5544,5544,44000,bir,DO 14-2011,typical is 1/8 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 283,5544,5544,5544,44000,bir,DO 14-2011,typical is 1/8 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 284,5544,5544,5544,44000,bir,DO 14-2011,typical is 1/8 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 285,5544,5544,5544,44000,bir,DO 14-2011,typical is 1/8 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Manila,Barangay 286,5544,5544,5544,44000,bir,DO 14-2011,typical is 1/8 of the city median; value is from DO 14-2011 (2011) but Manila has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
 Metro Manila,Mandaluyong,Wack-wack Greenhills,65000,200000,147000,29000,bir,DO 59-2022,"typical is 5.1x the city median; typical exceeds Fort Bonifacio (BGC, 135,000)"
 Metro Manila,Pasig,Oranbo,35000,93000,78000,19000,bir,DO 24-2023,typical is 4.1x the city median
 Metro Manila,Pasig,San Antonio,100000,100000,100000,19000,bir,DO 24-2023,typical is 5.3x the city median
-Metro Manila,Quezon City,Aurora,4500,20300,6200,50000,bir,DO 38-2003,typical is 1/8 of the city median; value is from DO 38-2003 (2004) but Quezon City has a 2024 schedule; its block in the newer DO did not match (renamed barangay?)
 Metro Manila,Quezon City,San Agustin,9000,50000,12000,50000,bir,DO 37-2024,typical is 1/4 of the city median
 Metro Manila,Quezon City,Ugong Norte,107000,258000,148000,50000,bir,DO 35-2024,"typical exceeds Fort Bonifacio (BGC, 135,000)"
-Metro Manila,Caloocan,Barangay 39,11380,17270,13450,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 41,9070,14200,10860,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 42,12700,15150,13410,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 44,9110,12000,9560,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 45,10170,15290,12240,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 47,9300,10990,10170,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 48,9740,12580,10840,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 51,9420,14540,10075,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 54,11530,14090,13440,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 55,9740,16250,12690,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 58,10920,16140,12200,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 61,5510,10840,5880,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 62,6410,14920,8090,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 72,7600,7600,7600,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 104,5480,5480,5480,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 106,16600,21160,17795,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 107,12340,17640,14380,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 108,8340,14380,11010,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 109,7860,12540,8720,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Caloocan,Barangay 136,8570,14840,13570,15600,bir,DO 86-2014,value is from DO 86-2014 (2014) but Caloocan has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Malabon,Santolan,1385,3490,1935,8500,bir,DO 32-2009,typical is 1/4 of the city median; value is from DO 32-2009 (2009) but Malabon has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
 Metro Manila,Muntinlupa,Alabang,10000,150000,19000,15000,bir,DO 89-2023,max is 15x min; prime value is probably one road or development
-Metro Manila,Parañaque,Vitalez,13000,15000,13000,30000,bir,DO 9-2018,value is from DO 9-2018 (2018) but Parañaque has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
-Metro Manila,Pasay,Barangay 9,43000,325000,220000,39500,bir,DO 43-2023,"typical is 5.6x the city median; typical exceeds Fort Bonifacio (BGC, 135,000)"
-Metro Manila,Pasay,Barangay 10,44000,325000,165000,39500,bir,DO 43-2023,"typical is 4.2x the city median; typical exceeds Fort Bonifacio (BGC, 135,000)"
-Metro Manila,Pasay,Barangay 79,50000,260000,152500,39500,bir,DO 43-2023,"typical exceeds Fort Bonifacio (BGC, 135,000)"
-Metro Manila,Pasay,Barangay 93,49000,190000,175000,39500,bir,DO 43-2023,"typical is 4.4x the city median; typical exceeds Fort Bonifacio (BGC, 135,000)"
-Metro Manila,Pasay,Barangay 146,25000,260000,175000,39500,bir,DO 43-2023,"typical is 4.4x the city median; typical exceeds Fort Bonifacio (BGC, 135,000)"
-Metro Manila,Pasay,Barangay 197,12000,50000,50000,39500,bir,DO 36-2018,value is from DO 36-2018 (2018) but Pasay has a 2023 schedule; its block in the newer DO did not match (renamed barangay?)
+Metro Manila,Muntinlupa,New Alabang Village,98000,180000,135000,15000,bir,DO 89-2023,typical is 9.0x the city median
+Metro Manila,Pasay,Barangay 9,43000,325000,220000,39000,bir,DO 43-2023,"typical is 5.6x the city median; typical exceeds Fort Bonifacio (BGC, 135,000)"
+Metro Manila,Pasay,Barangay 10,44000,325000,165000,39000,bir,DO 43-2023,"typical is 4.2x the city median; typical exceeds Fort Bonifacio (BGC, 135,000)"
+Metro Manila,Pasay,Barangay 79,50000,260000,152500,39000,bir,DO 43-2023,"typical exceeds Fort Bonifacio (BGC, 135,000)"
+Metro Manila,Pasay,Barangay 93,49000,190000,175000,39000,bir,DO 43-2023,"typical is 4.5x the city median; typical exceeds Fort Bonifacio (BGC, 135,000)"
+Metro Manila,Pasay,Barangay 146,25000,260000,175000,39000,bir,DO 43-2023,"typical is 4.5x the city median; typical exceeds Fort Bonifacio (BGC, 135,000)"
 Metro Manila,Taguig,Ususan,8000,143000,22000,14000,bir,DO 5-2024,max is 18x min; prime value is probably one road or development
 Metro Manila,Taguig,Western Bicutan,12000,160000,63000,14000,bir,DO 5-2024,typical is 4.5x the city median
 Metro Manila,Taguig,Fort Bonifacio,78000,338000,135000,14000,bir,DO 5-2024,typical is 9.6x the city median
@@ -65,25 +27,12 @@ Metro Manila,Taguig,West Rembo,83000,115000,83000,14000,bir,DO 5-2024,typical is
 Bulacan,Baliwag,Calantipay,700,800,750,3500,bir,DO 9-2020,typical is 1/5 of the city median
 Bulacan,Baliwag,Catulinan,700,800,750,3500,bir,DO 9-2020,typical is 1/5 of the city median
 Cavite,Cavite City,Barangay 10,1400,1950,1500,7000,bir,DO 13-2010,typical is 1/5 of the city median; value is from DO 13-2010 (2010) but Cavite City has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,Dasmariñas,Burol,2000,8000,4000,2650,bir,DO 40-2017,value is from DO 40-2017 (2017) but Dasmariñas has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,Dasmariñas,San Miguel,1025,1025,1025,2650,bir,DO 39-2007,value is from DO 39-2007 (2007) but Dasmariñas has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,General Trias,Gov. Ferrer Pob.,3500,6000,4500,6000,bir,DO 72-2018,value is from DO 72-2018 (2019) but General Trias has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,General Trias,Sampalucan Pob.,3500,6000,4500,6000,bir,DO 72-2018,value is from DO 72-2018 (2019) but General Trias has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,General Trias,Dulong Bayan Pob.,3500,6000,4500,6000,bir,DO 72-2018,value is from DO 72-2018 (2019) but General Trias has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,General Trias,San Gabriel Pob.,3500,6000,4500,6000,bir,DO 72-2018,value is from DO 72-2018 (2019) but General Trias has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,General Trias,Bagumbayan Pob.,3500,6000,4500,6000,bir,DO 72-2018,value is from DO 72-2018 (2019) but General Trias has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,General Trias,Vibora Pob.,3500,6000,4500,6000,bir,DO 72-2018,value is from DO 72-2018 (2019) but General Trias has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,General Trias,Ninety Sixth Pob.,3500,6000,4500,6000,bir,DO 72-2018,value is from DO 72-2018 (2019) but General Trias has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,General Trias,Prinza Pob.,3500,6000,4500,6000,bir,DO 72-2018,value is from DO 72-2018 (2019) but General Trias has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,General Trias,Corregidor Pob.,3500,6000,4500,6000,bir,DO 72-2018,value is from DO 72-2018 (2019) but General Trias has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,General Trias,Arnaldo Pob.,3500,6000,4500,6000,bir,DO 72-2018,value is from DO 72-2018 (2019) but General Trias has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
+Cavite,Kawit,Binakayan-Kanluran,1560,2475,1715,7000,bir,DO 39-2007,typical is 1/4 of the city median; value is from DO 39-2007 (2007) but Kawit has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
 Cavite,Silang,Inchican,5500,24500,24250,5625,bir,DO 20-2021,typical is 4.3x the city median
-Cavite,Tagaytay,Silang Junction South,645,4000,1645,5350,bir,DO 38-2007,value is from DO 38-2007 (2007) but Tagaytay has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,Tagaytay,Sungay South,750,5125,1100,5350,bir,DO 38-2007,typical is 1/5 of the city median; value is from DO 38-2007 (2007) but Tagaytay has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,Tagaytay,Iruhin South,645,8000,1500,5350,bir,DO 38-2007,value is from DO 38-2007 (2007) but Tagaytay has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,Tagaytay,Kaybagal East,825,5000,2750,5350,bir,DO 38-2007,value is from DO 38-2007 (2007) but Tagaytay has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,Tagaytay,Silang Junction North,645,4000,1645,5350,bir,DO 38-2007,value is from DO 38-2007 (2007) but Tagaytay has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
-Cavite,Tagaytay,Sungay North,750,5125,1100,5350,bir,DO 38-2007,typical is 1/5 of the city median; value is from DO 38-2007 (2007) but Tagaytay has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
+Cavite,Tagaytay,Silang Junction South,645,4000,1645,6000,bir,DO 38-2007,value is from DO 38-2007 (2007) but Tagaytay has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
+Cavite,Tagaytay,Sungay South,750,5125,1100,6000,bir,DO 38-2007,typical is 1/5 of the city median; value is from DO 38-2007 (2007) but Tagaytay has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
+Cavite,Tagaytay,Silang Junction North,645,4000,1645,6000,bir,DO 38-2007,value is from DO 38-2007 (2007) but Tagaytay has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
+Cavite,Tagaytay,Sungay North,750,5125,1100,6000,bir,DO 38-2007,typical is 1/5 of the city median; value is from DO 38-2007 (2007) but Tagaytay has a 2021 schedule; its block in the newer DO did not match (renamed barangay?)
 Laguna,Biñan,Santo Niño,5150,97100,10700,9475,bir,DO 55-2024,max is 19x min; prime value is probably one road or development
 Laguna,Calamba,Canlubang,2000,51000,21000,6000,bir,DO 59-2023,max is 26x min; prime value is probably one road or development
 Laguna,Calamba,Puting Lupa,2000,30000,13000,6000,bir,DO 59-2023,max is 15x min; prime value is probably one road or development
@@ -94,7 +43,6 @@ Laguna,Mabitac,Bayanihan,300,400,350,1200,bir,DO 55-2002,value is from DO 55-200
 Laguna,Pagsanjan,Anibong,310,310,310,1250,bir,DO 18-2020,typical is 1/4 of the city median
 Laguna,Pakil,Dorado,260,260,260,1350,bir,DO 18-2020,typical is 1/5 of the city median
 Laguna,Pakil,Saray,240,240,240,1350,bir,DO 18-2020,typical is 1/6 of the city median
-Laguna,Pangil,Balian,75,500,412,910,bir,DO 55-2002,value is from DO 55-2002 (2002) but Pangil has a 2020 schedule; its block in the newer DO did not match (renamed barangay?)
 Laguna,San Pablo,Barangay II-D,9000,22500,16900,3600,bir,DO 18-2020,typical is 4.7x the city median
 Laguna,San Pablo,Barangay II-E,14100,23400,18350,3600,bir,DO 18-2020,typical is 5.1x the city median
 Laguna,San Pablo,Barangay III-A,11800,19200,18300,3600,bir,DO 18-2020,typical is 5.1x the city median

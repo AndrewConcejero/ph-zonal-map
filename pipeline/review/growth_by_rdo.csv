@@ -1,34 +1,34 @@
 rdo,annual_rate,source,pairs,share_rising,transitions,flags
 RDO-024,0.1019,rdo,884,0.993,"DO 81-2015 -> DO 9-2021 (5.7 yrs, 882 pairs); DO 22-2003 -> DO 9-2021 (17.5 yrs, 2 pairs)",
-RDO-026,0.1612,rdo,683,1.0,"DO 94-2015 -> DO 46-2022 (6.7 yrs, 655 pairs); DO 32-2009 -> DO 46-2022 (12.8 yrs, 20 pairs); DO 59-2002 -> DO 32-2009 (6.8 yrs, 8 pairs)",above 15% a year
-RDO-027,0.0716,rdo,1930,1.0,"DO 41-2019 -> DO 46-2023 (4.2 yrs, 1793 pairs); DO 29-2005 -> DO 86-2014 (8.8 yrs, 137 pairs)",
+RDO-026,0.1637,rdo,685,1.0,"DO 94-2015 -> DO 46-2022 (6.7 yrs, 655 pairs); DO 32-2009 -> DO 46-2022 (12.8 yrs, 30 pairs)",above 15% a year
+RDO-027,0.0716,rdo,1793,1.0,"DO 41-2019 -> DO 46-2023 (4.2 yrs, 1793 pairs)",
 RDO-028,0.1271,rdo,747,0.999,"DO 26-2019 -> DO 37-2024 (5.0 yrs, 409 pairs); DO 89-2019 -> DO 37-2024 (4.3 yrs, 191 pairs); DO 8-2020 -> DO 37-2024 (4.2 yrs, 147 pairs)",
-RDO-029,0.1495,rdo,1125,1.0,"DO 14-2011 -> DO 27-2019 (8.1 yrs, 1125 pairs)",
+RDO-029,0.1495,rdo,1124,1.0,"DO 14-2011 -> DO 27-2019 (8.1 yrs, 1124 pairs)",
 RDO-031,0.1264,rdo,461,1.0,"DO 34-2003 -> DO 77-2018 (14.9 yrs, 461 pairs)",
 RDO-032,0.1423,rdo,889,1.0,"DO 35-2003 -> DO 21-2019 (15.1 yrs, 889 pairs)",
 RDO-033,0.0898,rdo,87,1.0,"DO 36-2003 -> DO 75-2017 (13.9 yrs, 87 pairs)",
 RDO-034,0.1756,rdo,414,1.0,"DO 37-2003 -> DO 78-2019 (15.7 yrs, 411 pairs); DO 36-2003 -> DO 78-2019 (15.7 yrs, 3 pairs)",above 15% a year
 RDO-038,0.1839,rdo,1163,1.0,"DO 8-2020 -> DO 33-2024 (4.1 yrs, 1163 pairs)",above 15% a year
-RDO-039,0.1178,rdo,521,1.0,"DO 89-2019 -> DO 7-2024 (4.1 yrs, 500 pairs); DO 21-2020 -> DO 7-2024 (3.5 yrs, 20 pairs); DO 8-2020 -> DO 7-2024 (4.0 yrs, 1 pairs)",
-RDO-040,0.1832,rdo,475,1.0,"DO 21-2020 -> DO 35-2024 (3.7 yrs, 475 pairs)",above 15% a year
+RDO-039,0.1178,rdo,535,1.0,"DO 89-2019 -> DO 7-2024 (4.1 yrs, 514 pairs); DO 21-2020 -> DO 7-2024 (3.5 yrs, 20 pairs); DO 8-2020 -> DO 7-2024 (4.0 yrs, 1 pairs)",
+RDO-040,0.1832,rdo,480,1.0,"DO 21-2020 -> DO 35-2024 (3.7 yrs, 480 pairs)",above 15% a year
 RDO-041,0.1023,rdo,414,1.0,"DO 28-2019 -> DO 59-2022 (3.4 yrs, 414 pairs)",
 RDO-042,0.1065,rdo,347,0.997,"DO 30-2019 -> DO 22-2023 (4.0 yrs, 347 pairs)",
 RDO-043,0.1416,rdo,646,1.0,"DO 67-2018 -> DO 24-2023 (4.4 yrs, 646 pairs)",
 RDO-044,0.1033,rdo,531,0.996,"DO 40-2019 -> DO 5-2024 (4.6 yrs, 531 pairs)",
 RDO-045,0.1162,rdo,1518,1.0,"DO 28-2017 -> DO 6-2023 (5.7 yrs, 1510 pairs); DO 9-2000 -> DO 6-2023 (22.9 yrs, 8 pairs)",
-RDO-046,0.1634,rdo,1400,1.0,"DO 20-2015 -> DO 22-2020 (5.4 yrs, 1400 pairs)",above 15% a year
+RDO-046,0.1634,rdo,1412,1.0,"DO 20-2015 -> DO 22-2020 (5.4 yrs, 1412 pairs)",above 15% a year
 RDO-047,0.0505,rdo,23,1.0,"DO 22-2017 -> DO 37-2021 (4.5 yrs, 23 pairs)",
-RDO-048,0.1263,rdo,158,1.0,"DO 25-2017 -> DO 36-2021 (4.5 yrs, 158 pairs)",
+RDO-048,0.1265,rdo,126,1.0,"DO 25-2017 -> DO 36-2021 (4.5 yrs, 126 pairs)",
 RDO-049,0.1181,rdo,373,0.976,"DO 24-2017 -> DO 35-2021 (4.6 yrs, 373 pairs)",
 RDO-050,0.1561,rdo,795,0.999,"DO 62-2016 -> DO 38-2021 (5.0 yrs, 795 pairs)",above 15% a year
-RDO-051,0.1062,rdo,752,0.999,"DO 36-2018 -> DO 43-2023 (5.1 yrs, 736 pairs); DO 38-2009 -> DO 43-2023 (13.7 yrs, 13 pairs); DO 38-2009 -> DO 36-2018 (8.7 yrs, 3 pairs)",
-RDO-052,0.1566,rdo,277,1.0,"DO 9-2018 -> DO 49-2023 (5.6 yrs, 268 pairs); DO 4-2008 -> DO 9-2018 (9.9 yrs, 9 pairs)",above 15% a year
+RDO-051,0.1062,rdo,751,0.999,"DO 36-2018 -> DO 43-2023 (5.1 yrs, 738 pairs); DO 38-2009 -> DO 43-2023 (13.7 yrs, 13 pairs)",
+RDO-052,0.1587,rdo,273,1.0,"DO 9-2018 -> DO 49-2023 (5.6 yrs, 273 pairs)",above 15% a year
 RDO-055,0.0647,rdo,389,1.0,"DO 33-2002 -> DO 18-2020 (17.5 yrs, 221 pairs); DO 55-2002 -> DO 18-2020 (17.5 yrs, 168 pairs)",
-RDO-056,0.0783,rdo,738,0.999,"DO 56-2017 -> DO 59-2023 (6.0 yrs, 738 pairs)",
+RDO-056,0.0782,rdo,746,0.999,"DO 56-2017 -> DO 59-2023 (6.0 yrs, 746 pairs)",
 RDO-057,0.1538,rdo,615,1.0,"DO 32-2019 -> DO 55-2024 (5.1 yrs, 468 pairs); DO 88-2019 -> DO 55-2024 (4.5 yrs, 147 pairs)",above 15% a year
-RDO-25A,0.0817,rdo,571,1.0,"DO 29-2009 -> DO 9-2020 (10.6 yrs, 571 pairs)",
-RDO-25B,0.1027,rdo,1214,1.0,"DO 29-2009 -> DO 14-2018 (8.8 yrs, 1214 pairs)",
+RDO-25A,0.0817,rdo,573,1.0,"DO 29-2009 -> DO 9-2020 (10.6 yrs, 573 pairs)",
+RDO-25B,0.1027,rdo,1238,1.0,"DO 29-2009 -> DO 14-2018 (8.8 yrs, 1238 pairs)",
 RDO-53A,0.0954,rdo,322,1.0,"DO 68-2017 -> DO 4-2021 (3.3 yrs, 322 pairs)",
-RDO-53B,0.0534,rdo,173,0.977,"DO 39-2019 -> DO 89-2023 (4.5 yrs, 173 pairs)",
-RDO-54A,0.0956,rdo,1186,1.0,"DO 40-2017 -> DO 20-2021 (4.2 yrs, 1071 pairs); DO 39-2007 -> DO 20-2021 (14.0 yrs, 79 pairs); DO 56-2002 -> DO 20-2021 (18.8 yrs, 19 pairs); DO 39-2007 -> DO 40-2017 (9.8 yrs, 11 pairs)",
-RDO-54B,0.1232,rdo,1593,0.999,"DO 72-2018 -> DO 33-2022 (3.5 yrs, 1573 pairs); DO 39-2007 -> DO 33-2022 (14.7 yrs, 19 pairs); DO 39-2007 -> DO 72-2018 (11.2 yrs, 1 pairs)",
+RDO-53B,0.0503,rdo,182,0.978,"DO 39-2019 -> DO 89-2023 (4.5 yrs, 182 pairs)",
+RDO-54A,0.1,rdo,1197,1.0,"DO 40-2017 -> DO 20-2021 (4.2 yrs, 1093 pairs); DO 39-2007 -> DO 20-2021 (14.0 yrs, 83 pairs); DO 38-2007 -> DO 20-2021 (14.0 yrs, 20 pairs); DO 56-2002 -> DO 20-2021 (18.8 yrs, 1 pairs)",
+RDO-54B,0.1232,rdo,1737,0.999,"DO 72-2018 -> DO 33-2022 (3.5 yrs, 1718 pairs); DO 39-2007 -> DO 33-2022 (14.7 yrs, 19 pairs)",

@@ -65,7 +65,7 @@ npm run dev  # local site at http://localhost:5173
 2. Run `make data`. It reads each workbook's NOTICE sheet and Department Order headers, files it under `raw/bir/RDO-<code>/` (for example `RDO-027`, `RDO-53A`), skips exact duplicates, and rewrites `raw/bir/inventory.csv`: one row per Department Order with its effectivity date and the cities it covers.
 3. Check what needs a human:
    - `raw/bir/inventory_log.txt`: anything that needed judgment while reading the workbooks
-   - `pipeline/review/unmatched.csv`: BIR barangay names that matched no PSGC barangay. Add a row to `pipeline/aliases.csv` and run `make data` again.
+   - `pipeline/review/unmatched.csv`: BIR barangay names that matched no PSGC barangay. Add a row to `pipeline/aliases.csv` and run `make data` again. Columns: `city`, `source_name` (as BIR writes it), `psgc_name` (`a; b` when one BIR block covers several barangays, `(ignore)` for sections that are not barangays), `psgc_city` (only when BIR filed it under another city), `valid_before` (only apply to schedules effective before this date, e.g. Bacoor's pre-merger names before 2023-07-29), `note` (evidence).
    - `pipeline/review/plausibility.csv`: values worth a second look
    - `pipeline/review/parse_errors.csv.gz`: every sheet row the parser could not use, with the reason (local only)
 4. Commit and push; Vercel deploys `main`.
@@ -74,6 +74,7 @@ npm run dev  # local site at http://localhost:5173
 
 - Only residential land rows (class `RR`) count. Condominium rows (`RC`) are priced per sqm of floor area, not land, so they are left out.
 - Each barangay uses the newest Department Order that covers it. Typical is the median of its street values, each street counted once; interior lot is the minimum, prime the maximum.
+- If the newest schedule listing a barangay has no residential land row (BIR now classes it commercial or industrial only), older residential values are not used; it is treated as having no value.
 - Where no BIR schedule matched a barangay, it is estimated as the median of the neighbouring barangays that have their own values (flagged `estimated`, hatched on the map). Only real values are used, never other estimates. With no such neighbour, it shows the city median (flagged `city_median`).
 - **Adjusted to today.** For each RDO, every street that appears in two consecutive revisions of the same barangay gives one annual growth rate; the RDO's rate is their median, taken from the transition into its current schedules. An RDO with fewer than 20 such pairs uses earlier transitions, then its province's median. Each value is then grown from the date it was actually set (a schedule that only repeats an older one's values does not count as a new date). Department Order averages are never compared. Rates per RDO are in `pipeline/review/growth_by_rdo.csv`; the summary is in [docs/staleness-report.md](docs/staleness-report.md).
 

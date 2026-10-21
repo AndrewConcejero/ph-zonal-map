@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-21T14:04:17+00:00",
+  "built_at": "2026-10-21T15:47:20+00:00",
   "current_year": 2026,
   "value_basis": "BIR residential zonal value (class RR, land), PHP per sqm",
   "adjusted_available": true,
@@ -12,14 +12,14 @@
       "pairs": 884
     },
     "RDO-026": {
-      "rate": 0.1612,
+      "rate": 0.1637,
       "source": "rdo",
-      "pairs": 683
+      "pairs": 685
     },
     "RDO-027": {
       "rate": 0.0716,
       "source": "rdo",
-      "pairs": 1930
+      "pairs": 1793
     },
     "RDO-028": {
       "rate": 0.1271,
@@ -29,7 +29,7 @@
     "RDO-029": {
       "rate": 0.1495,
       "source": "rdo",
-      "pairs": 1125
+      "pairs": 1124
     },
     "RDO-031": {
       "rate": 0.1264,
@@ -59,12 +59,12 @@
     "RDO-039": {
       "rate": 0.1178,
       "source": "rdo",
-      "pairs": 521
+      "pairs": 535
     },
     "RDO-040": {
       "rate": 0.1832,
       "source": "rdo",
-      "pairs": 475
+      "pairs": 480
     },
     "RDO-041": {
       "rate": 0.1023,
@@ -94,7 +94,7 @@
     "RDO-046": {
       "rate": 0.1634,
       "source": "rdo",
-      "pairs": 1400
+      "pairs": 1412
     },
     "RDO-047": {
       "rate": 0.0505,
@@ -102,9 +102,9 @@
       "pairs": 23
     },
     "RDO-048": {
-      "rate": 0.1263,
+      "rate": 0.1265,
       "source": "rdo",
-      "pairs": 158
+      "pairs": 126
     },
     "RDO-049": {
       "rate": 0.1181,
@@ -119,12 +119,12 @@
     "RDO-051": {
       "rate": 0.1062,
       "source": "rdo",
-      "pairs": 752
+      "pairs": 751
     },
     "RDO-052": {
-      "rate": 0.1566,
+      "rate": 0.1587,
       "source": "rdo",
-      "pairs": 277
+      "pairs": 273
     },
     "RDO-055": {
       "rate": 0.0647,
@@ -132,9 +132,9 @@
       "pairs": 389
     },
     "RDO-056": {
-      "rate": 0.0783,
+      "rate": 0.0782,
       "source": "rdo",
-      "pairs": 738
+      "pairs": 746
     },
     "RDO-057": {
       "rate": 0.1538,
@@ -144,12 +144,12 @@
     "RDO-25A": {
       "rate": 0.0817,
       "source": "rdo",
-      "pairs": 571
+      "pairs": 573
     },
     "RDO-25B": {
       "rate": 0.1027,
       "source": "rdo",
-      "pairs": 1214
+      "pairs": 1238
     },
     "RDO-53A": {
       "rate": 0.0954,
@@ -157,19 +157,19 @@
       "pairs": 322
     },
     "RDO-53B": {
-      "rate": 0.0534,
+      "rate": 0.0503,
       "source": "rdo",
-      "pairs": 173
+      "pairs": 182
     },
     "RDO-54A": {
-      "rate": 0.0956,
+      "rate": 0.1,
       "source": "rdo",
-      "pairs": 1186
+      "pairs": 1197
     },
     "RDO-54B": {
       "rate": 0.1232,
       "source": "rdo",
-      "pairs": 1593
+      "pairs": 1737
     }
   },
   "schedule_range": [
@@ -179,29 +179,28 @@
   "coverage": {
     "features": 3936,
     "by_flag": {
-      "barangay_data": 3764,
-      "estimated": 149,
-      "city_median": 23
+      "barangay_data": 3763,
+      "estimated": 148,
+      "city_median": 25
     },
     "by_source": {
-      "barangay_data/bir": 3762,
-      "estimated": 149,
-      "city_median/bir": 23,
-      "barangay_data/renph": 2
+      "barangay_data/bir": 3763,
+      "estimated": 148,
+      "city_median/bir": 25
     },
     "by_province": {
       "Metro Manila": {
-        "barangay_data": 1635,
-        "estimated": 48,
-        "city_median": 20
+        "barangay_data": 1609,
+        "estimated": 71,
+        "city_median": 23
       },
       "Bulacan": {
-        "barangay_data": 556,
-        "estimated": 14
+        "barangay_data": 562,
+        "estimated": 8
       },
       "Cavite": {
-        "barangay_data": 774,
-        "estimated": 27
+        "barangay_data": 791,
+        "estimated": 10
       },
       "Laguna": {
         "barangay_data": 628,
@@ -209,14 +208,14 @@
         "city_median": 1
       },
       "Rizal": {
-        "barangay_data": 171,
-        "estimated": 11,
-        "city_median": 2
+        "barangay_data": 173,
+        "estimated": 10,
+        "city_median": 1
       }
     }
   },
   "bir": {
-    "department_orders_used": 46,
+    "department_orders_used": 38,
     "rdos": [
       "RDO-024",
       "RDO-026",

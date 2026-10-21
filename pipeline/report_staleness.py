@@ -79,10 +79,10 @@ def main() -> None:
         '',
         *table(moves[:5]),
         '',
-        f'All five take their value from an old schedule because their block in the newer DO did not match a PSGC '
-        f'name (see `pipeline/review/plausibility.csv`), so a recent growth rate is applied over many years. '
-        f'{len(long)} barangays are projected over more than {LONG_YEARS} years; the map marks them as rough. '
-        f'Adding aliases for them moves them onto their current schedule.',
+        f'All five take their value from an old schedule: their RDO\'s newer schedule either lists them under a name '
+        f'not yet aliased or does not list them at all (see `pipeline/review/plausibility.csv`), so a recent growth '
+        f'rate is applied over many years. {len(long)} barangays are projected over more than {LONG_YEARS} years; '
+        f'the map marks them as rough.',
         '',
         f'## Five biggest changes among barangays projected {LONG_YEARS} years or less',
         '',
