@@ -8,8 +8,10 @@ venv:            ## create the Python env (uses uv; any python 3.11+ works)
 boundaries:      ## fetch PSGC barangay/city boundaries into cache/ (slow, cached)
 	$(PY) -m pipeline.fetch_boundaries
 
-data: boundaries ## rebuild public/data/ (zonal.geojson, cities.geojson, meta.json) and public/og.png
-	$(PY) -m pipeline.build
+data: boundaries ## file raw/bir/_inbox, parse BIR schedules, rebuild public/data/ and public/og.png
+	$(PY) -W ignore -m pipeline.inventory
+	$(PY) -W ignore -m pipeline.parse_bir
+	$(PY) -W ignore -m pipeline.build
 	$(PY) -m pipeline.og_image
 
 test:
