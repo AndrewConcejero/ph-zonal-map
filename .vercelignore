@@ -1,6 +1,7 @@
-raw/
-pipeline/
-cache/
-prototype/
-data/
-.venv/
+# anchored to the repo root: a bare "data/" would also drop public/data/
+/raw/
+/pipeline/
+/cache/
+/prototype/
+/data/
+/.venv/
