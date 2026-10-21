@@ -17,7 +17,7 @@ from collections import Counter, defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .bir_values import barangay_values, match_bir_names, write_matches, CityIndex
+from .bir_values import CityIndex, barangay_values, match_bir_names, newest_listing, write_matches
 from .gapfill import fill as gap_fill
 from .staleness import matched_pairs, project, rdo_rates, value_since, years_between
 from .fetch_boundaries import MANILA_PSGC, MANILA_SUBMUNS_2019, PROVDISTS, manila_path, municity_path, provdist_path
@@ -213,14 +213,28 @@ def main() -> None:
             names[(r['province'], r['city'])][r['barangay']] += 1
     bir_matches = match_bir_names(names, feats_by_city)
     psgc_of = {}
+    drawable = lambda codes: ';'.join(c for c in (codes or '').split(';') if c in has_geom) or None
     for m in bir_matches:
         if m.psgc:
-            codes = [c for c in m.psgc.split(';') if c in has_geom]
+            codes = drawable(m.psgc)
             if not codes and any(c in no_geom_ids for c in m.psgc.split(';')):
                 m.method += ' (no geometry)'
-            if codes:
-                psgc_of[(m.province, m.city, m.bir_name)] = ';'.join(codes)
+            if codes and m.valid_before:  # e.g. Bacoor's pre-merger names, only for schedules before the merger
+                psgc_of[(m.province, m.city, m.bir_name)] = {'before': m.valid_before, 'alias': codes,
+                                                             'else': drawable(m.otherwise)}
+            elif codes:
+                psgc_of[(m.province, m.city, m.bir_name)] = codes
     bir_vals = barangay_values(bir_rows, psgc_of)  # psgc -> [DoValue], oldest first
+
+    # reclassified: the newest schedule listing a barangay gives it no residential land row (BIR now classes it
+    # commercial/industrial only). An older residential value would pose as current, so it is not used.
+    listed = newest_listing(bir_rows, psgc_of)
+    reclassified = {}
+    for psgc, vs in list(bir_vals.items()):
+        newest = listed.get(psgc)
+        if newest and newest[0] > vs[-1].effective_date:
+            reclassified[psgc] = newest[1]
+            del bir_vals[psgc]
     with open(CACHE_DIR / 'barangay_do_values.csv', 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f)
         w.writerow(['psgc', 'rdo', 'do_number', 'effective_date', 'lo', 'hi', 'typ', 'n_streets'])
@@ -299,7 +313,7 @@ def main() -> None:
             if base.do_number != v.do_number:
                 p['since'] = f'{base.do_number}, {base.effective_date}'  # values carried over unchanged
             adjust(p, rates.get(v.rdo), base.effective_date, today)
-        elif b['psgc'] in fallback:
+        elif b['psgc'] in fallback and b['psgc'] not in reclassified:
             lo, hi = fallback[b['psgc']]
             p.update(q='barangay_data', lo=lo, hi=hi, typ=round(math.sqrt(lo * hi)), typ_m='geomean', src='renph')
             cm = medians_csv.get((b['prov'], norm_city(b['city'])))
@@ -311,6 +325,8 @@ def main() -> None:
                     adjust(p, rates.get(main_rdo[0][0]), cm['eff'], today)
         elif key in city_median:
             med, eff, src = city_median[key]
+            if b['psgc'] in reclassified:
+                p['nores'] = reclassified[b['psgc']]
             p.update(q='city_median', typ=med, src=src)
             if eff:
                 p['eff'] = eff
@@ -392,7 +408,8 @@ def main() -> None:
     for m in bir_matches:
         bm[m.method.split(' ')[0]] += m.rows
     print(f'features: {len(feats)}  {dict(srcs)}')
-    print(f'BIR rows by match method: {dict(bm)}; blank-city rows unresolved: {blank_left}')
+    print(f'BIR rows by match method: {dict(bm)}; blank-city rows unresolved: {blank_left}; '
+          f'reclassified (no residential row in newest schedule): {len(reclassified)}')
     print(f'REN.PH matches: {Counter(m.method for m in matches)}')
     same = sum(c['same_as_latest'] for c in cross)
     some = sum(bool(c['same_as_do']) for c in cross)

@@ -10,7 +10,7 @@ interface Props {
   lo?: number; hi?: number; typ?: number; typ_m?: 'median' | 'geomean';
   lo_a?: number; hi_a?: number; typ_a?: number; g?: number;
   eff?: string; do?: string; rdo?: string; ns?: number; src?: 'bir' | 'renph';
-  yrs?: number; gs?: string; since?: string; nb?: number; nbn?: string;
+  yrs?: number; gs?: string; since?: string; nb?: number; nbn?: string; nores?: string;
 }
 type Geometry = { type: 'Polygon'; coordinates: number[][][] } | { type: 'MultiPolygon'; coordinates: number[][][][] };
 interface Feature { type: 'Feature'; properties: Props; geometry: Geometry }
@@ -307,7 +307,7 @@ function renderCard(id: string) {
       ${p.since ? row('Values set in', p.since, '') : ''}
       ${p.do ? row('Department Order', `${p.do.replace('DO ', '')}${rdo ? ` · ${rdo}` : ''}`, '') : ''}
     </dl>
-    <p class="q">${esc(q.text(p))}${p.since ? ` The ${p.do} schedule repeats the values of ${p.since.split(',')[0]}, so the adjustment starts from ${p.since.split(', ')[1]}.` : ''}${
+    <p class="q">${p.nores ? `BIR's current schedule (${esc(p.nores)}) lists no residential land here, only commercial or industrial values, so older residential values are not used. ` : ''}${esc(q.text(p))}${p.since ? ` The ${p.do} schedule repeats the values of ${p.since.split(',')[0]}, so the adjustment starts from ${p.since.split(', ')[1]}.` : ''}${
       p.yrs != null ? ` Adjusted values grow the schedule ${p.yrs.toFixed(0)} ${p.yrs < 1.5 ? 'year' : 'years'} at the rate BIR raised the same streets between its last two revisions${rough ? '. That is a long projection; treat it as rough' : ''}.` : ''}</p>`;
   card.hidden = false;
   card.querySelector<HTMLButtonElement>('.close')!.onclick = () => select(null);
