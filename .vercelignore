@@ -1,0 +1,6 @@
+raw/
+pipeline/
+cache/
+prototype/
+data/
+.venv/

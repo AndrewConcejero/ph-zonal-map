@@ -10,3 +10,4 @@ __pycache__/
 # downloaded PSGC boundary files; re-fetched by `make boundaries`
 cache/
 .claude/
+raw/bir/_duplicates/
