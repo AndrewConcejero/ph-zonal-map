@@ -9,7 +9,7 @@ interface Props {
   id: string; n: string; c: string; p: string; d?: string; q: Quality;
   lo?: number; hi?: number; typ?: number; typ_m?: 'median' | 'geomean';
   lo_a?: number; hi_a?: number; typ_a?: number; g?: number;
-  eff?: string;
+  eff?: string; do?: string; rdo?: string; ns?: number; src?: 'bir' | 'renph';
 }
 type Geometry = { type: 'Polygon'; coordinates: number[][][] } | { type: 'MultiPolygon'; coordinates: number[][][][] };
 interface Feature { type: 'Feature'; properties: Props; geometry: Geometry }
@@ -34,8 +34,13 @@ const STYLES = {
 const NCR_BOUNDS: [[number, number], [number, number]] = [[120.93, 14.38], [121.13, 14.78]];
 const MODE_LABEL: Record<Mode, string> = { typ: 'Typical', lo: 'Interior lot', hi: 'Prime' };
 const QUALITY: Record<Quality, { label: string; cls: string; text: (p: Props) => string }> = {
-  barangay_data: { label: 'barangay data', cls: 'good', text: () => "From this barangay's own BIR schedule rows." },
-  city_median: { label: 'city median only', cls: 'warn', text: p => `No barangay detail yet. This is the median residential value for all of ${p.c}, not this barangay's own value.` },
+  barangay_data: {
+    label: 'barangay data', cls: 'good',
+    text: p => p.src === 'bir'
+      ? `From BIR ${p.do} (${p.rdo?.replace(/^RDO-0*/, 'RDO ')}): ${p.ns} residential land ${p.ns === 1 ? 'value' : 'values'} for this barangay. Typical is their median.`
+      : "From REN.PH's index of the BIR schedule. Typical is the geometric mean of interior and prime, because street-level rows are not available.",
+  },
+  city_median: { label: 'city median only', cls: 'warn', text: p => `No BIR schedule matched this barangay. This is the median of ${p.c}'s barangays, not this barangay's own value.` },
   estimated: { label: 'estimated', cls: 'warn', text: () => 'No BIR value for this barangay. Estimated as the median of the barangays that share its border.' },
   no_data: { label: 'no data', cls: '', text: p => `No zonal values loaded for ${p.c} yet.` },
 };
@@ -285,8 +290,9 @@ function renderCard(id: string) {
       ${p.typ_a != null ? row(`Typical, adjusted to ${year}`, fmt(p.typ_a), '') : ''}
       ${p.g != null ? row('Growth rate used', `${(p.g * 100).toFixed(1)}% a year`, '') : ''}
       ${row('Schedule effective', p.eff, 'not recorded')}
+      ${p.do ? row('Department Order', `${p.do.replace('DO ', '')}${p.rdo ? ` · ${p.rdo.replace(/^RDO-0*/, 'RDO ')}` : ''}`, '') : ''}
     </dl>
-    <p class="q">${esc(q.text(p))}${own && p.typ_m === 'geomean' ? ' Typical is the geometric mean of interior and prime; street-level rows are not loaded yet.' : ''}${p.typ_a == null ? ` No ${year}-adjusted value or growth rate yet: that needs two or more BIR revisions for this district.` : ''}</p>`;
+    <p class="q">${esc(q.text(p))}${p.typ_a == null ? ` Adjusted-to-${year} values arrive in the next release.` : ''}</p>`;
   card.hidden = false;
   card.querySelector<HTMLButtonElement>('.close')!.onclick = () => select(null);
 }

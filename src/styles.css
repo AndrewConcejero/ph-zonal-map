@@ -84,6 +84,7 @@ button:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline: 2
   background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px 14px;
   display: grid; gap: 4px; box-shadow: 0 6px 24px rgb(0 0 0 / .18);
 }
+.card[hidden] { display: none; }  /* display:grid above would otherwise override the hidden attribute */
 .card .head { display: flex; justify-content: space-between; gap: 8px; align-items: start; }
 .card .nm { font-family: var(--f-display); font-weight: 700; font-size: 18px; line-height: 1.2; }
 .card .close { background: none; border: 0; color: var(--muted); font-size: 22px; line-height: 1; padding: 0 2px 4px; cursor: pointer; min-width: 32px; min-height: 32px; }
