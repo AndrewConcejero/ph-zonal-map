@@ -476,11 +476,9 @@ async function boot() {
   renderThemeButton();
   wireControls();
   wireSearch();
-  const [z, c, m] = await Promise.all([
-    fetch('/data/zonal.geojson').then(r => r.json()),
-    fetch('/data/cities.geojson').then(r => r.json()),
-    fetch('/data/meta.json').then(r => r.json()),
-  ]);
+  // revalidate on every load (a cheap 304 when unchanged) so a deploy never pairs new code with cached old data
+  const get = (u: string) => fetch(u, { cache: 'no-cache' }).then(r => r.json());
+  const [z, c, m] = await Promise.all([get('/data/zonal.geojson'), get('/data/cities.geojson'), get('/data/meta.json')]);
   zonal = z; cities = c; meta = m;
   for (const f of zonal.features as Feature[]) { byId.set(f.properties.id, f); bboxes.set(f.properties.id, bboxOf(f.geometry)); }
   buildIndex();
