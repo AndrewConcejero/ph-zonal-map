@@ -1,56 +1,102 @@
 {
-  "built_at": "2026-10-21T12:45:49+00:00",
+  "built_at": "2026-10-21T13:17:39+00:00",
   "current_year": 2026,
-  "value_basis": "BIR residential zonal value, PHP per sqm of land",
+  "value_basis": "BIR residential zonal value (class RR, land), PHP per sqm",
   "adjusted_available": false,
-  "adjusted_note": "Staleness adjustment needs two or more schedule revisions per RDO; none ingested yet.",
+  "adjusted_note": "Staleness adjustment arrives in the next release.",
   "schedule_range": [
-    "2018-05-09",
+    "2002-12-28",
     "2024-07-04"
   ],
   "coverage": {
     "features": 3936,
     "by_flag": {
-      "city_median": 1947,
-      "barangay_data": 601,
-      "no_data": 1388
+      "barangay_data": 3764,
+      "city_median": 172
+    },
+    "by_source": {
+      "barangay_data/bir": 3762,
+      "city_median/bir": 172,
+      "barangay_data/renph": 2
     },
     "by_province": {
       "Metro Manila": {
-        "city_median": 1102,
-        "barangay_data": 601
+        "barangay_data": 1635,
+        "city_median": 68
       },
       "Bulacan": {
-        "no_data": 437,
-        "city_median": 133
+        "barangay_data": 556,
+        "city_median": 14
       },
       "Cavite": {
-        "no_data": 331,
-        "city_median": 470
+        "barangay_data": 774,
+        "city_median": 27
       },
       "Laguna": {
-        "no_data": 537,
-        "city_median": 141
+        "barangay_data": 628,
+        "city_median": 50
       },
       "Rizal": {
-        "city_median": 101,
-        "no_data": 83
+        "barangay_data": 171,
+        "city_median": 13
       }
     }
   },
+  "bir": {
+    "department_orders_used": 46,
+    "rdos": [
+      "RDO-024",
+      "RDO-026",
+      "RDO-027",
+      "RDO-028",
+      "RDO-029",
+      "RDO-031",
+      "RDO-032",
+      "RDO-033",
+      "RDO-034",
+      "RDO-038",
+      "RDO-039",
+      "RDO-040",
+      "RDO-041",
+      "RDO-042",
+      "RDO-043",
+      "RDO-044",
+      "RDO-045",
+      "RDO-046",
+      "RDO-047",
+      "RDO-048",
+      "RDO-049",
+      "RDO-050",
+      "RDO-051",
+      "RDO-052",
+      "RDO-055",
+      "RDO-056",
+      "RDO-057",
+      "RDO-25A",
+      "RDO-25B",
+      "RDO-53A",
+      "RDO-53B",
+      "RDO-54A",
+      "RDO-54B"
+    ],
+    "rows_parsed": 243413
+  },
   "sources": [
     {
-      "name": "BIR zonal value schedules as indexed by REN.PH",
+      "name": "Bureau of Internal Revenue zonal value schedules (Department Orders), per Revenue District Office",
+      "url": "https://www.bir.gov.ph",
+      "files": [
+        "raw/bir/"
+      ]
+    },
+    {
+      "name": "BIR zonal value schedules as indexed by REN.PH (fallback where no raw schedule matched)",
       "url": "https://ren.ph/tools/zonal-value",
       "files": [
         "data/ncr_barangays.csv",
         "data/pasay_barangays.txt",
         "data/city_medians.csv"
       ]
-    },
-    {
-      "name": "Bureau of Internal Revenue zonal values",
-      "url": "https://www.bir.gov.ph"
     },
     {
       "name": "PSA/NAMRIA boundaries (PSGC Dec 2023; Manila from 2019 release) via faeldon/philippines-json-maps",
