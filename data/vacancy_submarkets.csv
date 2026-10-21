@@ -1,0 +1,15 @@
+submarket,kind,vacancy_pct,period,source_url,note
+Metro Manila,office,19.7,2025-Q1,https://businessmirror.com.ph/2025/05/06/colliers-sees-22-metro-office-vacancy-in-2025/,Colliers Q1 2025 as reported by BusinessMirror; whole-region figure
+Makati CBD,office,,,,fill from a broker report (Colliers / Leechiu / Santos Knight Frank / CBRE)
+Makati Fringe,office,,,,
+Fort Bonifacio,office,,,,
+Ortigas Center,office,,,,
+Quezon City,office,,,,
+Alabang,office,,,,
+Manila Bay Area,office,,,,
+Makati CBD,condo,,,,
+Fort Bonifacio,condo,,,,
+Ortigas Center,condo,,,,
+Quezon City,condo,,,,
+Alabang,condo,,,,
+Manila Bay Area,condo,,,,

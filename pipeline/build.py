@@ -114,6 +114,45 @@ def adjust(p: dict, rate, base_date: str, today: date, prefix: str = '') -> None
         p['gs'] = rate.source
 
 
+FACTOR_FIELDS = {'elev': 'f_elev', 'elev_min': 'f_elevmin', 'heat': 'f_heat', 'flood': 'f_flood',
+                 'flood_high': 'f_floodh', 'rail_km': 'f_rail', 'xway_km': 'f_xway'}
+
+
+def add_factors(feats: list[dict]) -> None:
+    """Merge cache/factors.json (pipeline/factors.py) and the hand-entered vacancy table into the features.
+    Vacancy: data/vacancy_submarkets.csv (one row per submarket and kind, with source) mapped to barangays by
+    data/vacancy_submarket_barangays.csv ('*' = every barangay of the city not claimed by a named submarket)."""
+    fpath = ROOT / 'cache' / 'factors.json'
+    factors = json.loads(fpath.read_text()) if fpath.exists() else {}
+    for f in feats:
+        p = f['properties']
+        for k, out in FACTOR_FIELDS.items():
+            if factors.get(p['id'], {}).get(k) is not None:
+                p[out] = factors[p['id']][k]
+    rates = {}
+    with open(DATA / 'vacancy_submarkets.csv', encoding='utf-8') as fh:
+        for r in csv.DictReader(fh):
+            if r['vacancy_pct'].strip():
+                rates[(r['submarket'], r['kind'])] = (float(r['vacancy_pct']), r['period'], r['source_url'])
+    members, wildcard = {}, {}
+    with open(DATA / 'vacancy_submarket_barangays.csv', encoding='utf-8') as fh:
+        for r in csv.DictReader(fh):
+            if r['barangay'] == '*':
+                wildcard[r['city']] = r['submarket']
+            else:
+                members[(r['city'], norm_barangay(r['barangay']))] = r['submarket']
+    for f in feats:
+        p = f['properties']
+        if p['p'] != 'Metro Manila':
+            continue
+        sm = members.get((p['c'], norm_barangay(p['n']))) or wildcard.get(p['c'])
+        for kind, out in (('office', 'f_vaco'), ('condo', 'f_vacc')):
+            if sm and (sm, kind) in rates:
+                pct, period, src = rates[(sm, kind)]
+                p[out] = pct
+                p[f'{out}_s'] = f'{sm}, {period}'
+
+
 def resolve_blank_cities(rows: list[dict], index: dict) -> int:
     """Blocks with no city label (multi-city RDOs): take the one city, among those the RDO's other rows name,
     that has a barangay of that name. Returns rows still unresolved."""
@@ -364,6 +403,8 @@ def main() -> None:
                      c_do=v.do_number, c_eff=v.effective_date)
             adjust(p, com_rates.get(v.rdo), value_since(com_vals[p['id']]).effective_date, today, prefix='c_')
     n_com_estimated = gap_fill_prefixed(feats, 'c_')
+
+    add_factors(feats)
 
     city_feats = [{'type': 'Feature', 'properties': {'id': c['psgc'], 'n': c['name'], 'p': c['prov']},
                    'geometry': {'type': c['geometry']['type'], 'coordinates': rnd(c['geometry']['coordinates'])}}
