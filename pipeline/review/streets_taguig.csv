@@ -1,0 +1,1529 @@
+barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+Bagumbayan,ALL OTHER STREETS,,10000.0,DO 5-2024,background,,0
+Bagumbayan,ALL OTHER VILLAGES/SUBDIVISIONS,,10000.0,DO 5-2024,background,,0
+Bagumbayan,M. L QUEZON ST.(DIR A. BUNYE),BAGUMBAYAN BRDY - END,19000.0,DO 5-2024,street,M. L. Quezon Street,100
+Bagumbayan,DAAN CALABAO,CONNECTING TERESITA DRIVE,11000.0,DO 5-2024,street,Daang Calabao,96.0
+Bagumbayan,PASO ST.,CONNECTING DAAN CALABAO,11000.0,DO 5-2024,street,Paso Street,100
+Bagumbayan,ROCKY HILL,,11000.0,DO 5-2024,street,Rocky Hill Street,97
+Bagumbayan,ST. MARTIN AVENUE,OUTSIDE MAHOGANY HOMES,11000.0,DO 5-2024,street,Saint Martin Avenue,100
+Bagumbayan,E.LAURA DRIVE,,28000.0,DO 5-2024,unmatched,Presidio Lakefront (40),0
+Bagumbayan,BAYWATCH HOMES,,22000.0,DO 5-2024,unmatched,Holy Family Village (32),0
+Bagumbayan,ADRIANO HOMES,,14000.0,DO 5-2024,unmatched,Severina (40),0
+Bagumbayan,SAGRADA FAMILIA VILLAGE,,14000.0,DO 5-2024,unmatched,Holy Family Village (46),0
+Bagumbayan,VILLA FER FLOR SUBDIVISION,,14000.0,DO 5-2024,unmatched,Presidio Lakefront (38),0
+Bagumbayan,BATISAN,M.L. QUEZON-DEAD END,11000.0,DO 5-2024,unmatched,Sta. Teresa Compound (47),0
+Bagumbayan,SANTIAGO,M. QUEZON-DEAD END,11000.0,DO 5-2024,unmatched,Sta. Teresa Compound (44),0
+Bagumbayan,AGUAHAN VILLAGE,,11000.0,DO 5-2024,unmatched,Mahogany Homes (53),0
+Bagumbayan,COCO VILLAGE,,11000.0,DO 5-2024,unmatched,Presidio Lakefront (18),0
+Bagumbayan,DOMINI VILLAGE,,11000.0,DO 5-2024,unmatched,Holy Family Village (35),0
+Bagumbayan,GUTIERREZ COMPOUND,PASONG KALABAW,11000.0,DO 5-2024,unmatched,Sta. Teresa Compound (42),0
+Bagumbayan,MANTALA SUBDIVISION,,11000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (48),0
+Bagumbayan,MARCELO I & 2,,11000.0,DO 5-2024,unmatched,Presidio Lakefront (0),0
+Bagumbayan,ROCKYSIDE VILLAGE,,11000.0,DO 5-2024,unmatched,Presidio Lakefront (37),0
+Bagumbayan,ST. MARTIN SUBD.,,11000.0,DO 5-2024,unmatched,Severina (43),0
+Bagumbayan,ST JOSEPH SIIT COMPOUND,ROAD 1 TO 10,11000.0,DO 5-2024,unmatched,Presidio Lakefront (34),0
+Bagumbayan,HOLY FAMILY SUBDIVISION,M. L. QUEZON,14000.0,DO 5-2024,village,Holy Family Village,100
+Bagumbayan,MAHOGANY HOMES,,14000.0,DO 5-2024,village,Mahogany Homes,100
+Bagumbayan,SEVERINA SUBDIVISION,,11000.0,DO 5-2024,village,Severina,100
+Bambang,ALL OTHER STREETS,BAMBANG PROPER,13000.0,DO 5-2024,background,,0
+Bambang,ALL OTHER VILLAGES/SUBDIVISIONS:,,13000.0,DO 5-2024,background,,0
+Bambang,ACACIA AVENUE,ACACIA ESTATES,25000.0,DO 5-2024,street,Acacia Avenue,100
+Bambang,DULONG BAYAN ST.,,14000.0,DO 5-2024,street,Dulong Bayan Street,100
+Bambang,KATIPUNAN ST.,M. QUEZON-WAWA,14000.0,DO 5-2024,street,Katipunan Street,100
+Bambang,KENTUCKY ST.,M. QUEZON- DEAD END,14000.0,DO 5-2024,street,Kentucky Street,100
+Bambang,LIWAYWAY,,14000.0,DO 5-2024,street,Liwayway Street,97
+Bambang,M RESIDENCES,ACACIA ESTATES,165000.0,DO 5-2024,unmatched,Royal Palm Residences (71),0
+Bambang,MAHOGANY PLACE SUBD.,ACACIA ESTATES,143000.0,DO 5-2024,unmatched,Maple Place (64),0
+Bambang,M. L. QUEZON ST.,BRIDGE-QUEZON WAWA,19000.0,DO 5-2024,unmatched,Maple Place (38),0
+Bambang,C. MASTRILLI ST.,,14000.0,DO 5-2024,unmatched,P. Cruz Villa (43),0
+Bambang,LT. RR CRUZ,,14000.0,DO 5-2024,unmatched,P. Cruz Villa (55),0
+Bambang,PASEO SAN JUAN BAUTISTA,,14000.0,DO 5-2024,unmatched,Dulong Bayan (40),0
+Bambang,YASON STREET,,14000.0,DO 5-2024,unmatched,Dulong Bayan (47),0
+Bambang,MAHOGANY PLACE II,ACACIA ESTATES,143000.0,DO 5-2024,village,Mahogany Place II,100
+Bambang,MAHOGANY PLACE III,ACACIA ESTATES,143000.0,DO 5-2024,village,Mahogany Place III,100
+Bambang,P.CRUZ VILLA,P.CRUZ STREET,14000.0,DO 5-2024,village,P. Cruz Villa,100
+Bambang,DULONG BAYAN,DULONG BAYAN ST,14000.0,DO 5-2024,village,Dulong Bayan,100
+Calzada,ALL OTHER STREETS,,9000.0,DO 5-2024,background,,0
+Calzada,ALL OTHER VILLAGES/SUBDIVISIONS,,9000.0,DO 5-2024,background,,0
+Calzada,RUHALE ROAD,BRIDGE-LAGUNA DE BAY,30000.0,DO 5-2024,street,Ruhale Street,97
+Calzada,BERNABE CPD.,,26000.0,DO 5-2024,street,Bernabe Compound,97
+Calzada,GOLDEN LAND,,19000.0,DO 5-2024,street,Golden Land,100
+Calzada,ARTURO SANTOS SUBD,,15000.0,DO 5-2024,street,Arturo Santos Street,97
+Calzada,CARITAS RD.,,14000.0,DO 5-2024,street,Caritas Road,100
+Calzada,ANTERO VIRATA HOMES,,12000.0,DO 5-2024,street,Antero Virata Street,97
+Calzada,P. SANTOS ST.,,10000.0,DO 5-2024,street,P. Santos Street,100
+Calzada,R. REYES ST.,,10000.0,DO 5-2024,street,G. Reyes Street,90.0
+Calzada,P. SANTOS COMPOUND,RUHALE-VICE VERSA,10000.0,DO 5-2024,street,P. Santos Street,97
+Calzada,CAYETANO BLVD.,,84000.0,DO 5-2024,unmatched,Camella Ellisande (40),0
+Calzada,C-6,,37000.0,DO 5-2024,unmatched,Munting Pamayanan ng Calzada (0),0
+Calzada,C6 SERVICE ROAD,BDRY OF PALINGON TO BRDY STA ANA,36000.0,DO 5-2024,unmatched,Munting Pamayanan ng Calzada (0),0
+Calzada,F. MANALO ST. (P. BURGOS),STA.ANA TO PALINGON BRIDGE,35000.0,DO 5-2024,unmatched,Parco Homes (50),0
+Calzada,BAMBANG NI FELIX,DM CRUZ TO M. NATIVIDAD,19000.0,DO 5-2024,unmatched,Camella Ellisande (48),0
+Calzada,M. NATIVIDAD ST.,,19000.0,DO 5-2024,unmatched,Vista de Lago (42),0
+Calzada,PADIL PITOGO RESIDENCES,,19000.0,DO 5-2024,unmatched,Pacific Residences (72),0
+Calzada,PAULINA VILLE,,15000.0,DO 5-2024,unmatched,Villa Juliana Subdivision (77),0
+Calzada,SAMACA II HOA,F. MANALO-DEAD END,15000.0,DO 5-2024,unmatched,Munting Pamayanan ng Calzada (0),0
+Calzada,SUNRISE VILLAGE SUBD,,13000.0,DO 5-2024,unmatched,Qville Homes (31),0
+Calzada,CRUZ VILLE,,12000.0,DO 5-2024,unmatched,Qville Homes (62),0
+Calzada,A. VIRATA STREET,,11000.0,DO 5-2024,unmatched,Vista de Lago (57),0
+Calzada,VALDEZ,,11000.0,DO 5-2024,unmatched,Qville Homes (50),0
+Calzada,C.M. GREGORIO ST.,ACCESS TO COCO VILLAGE,10000.0,DO 5-2024,unmatched,Camella Ellisande (34),0
+Calzada,DUMAGUILA ST.,,10000.0,DO 5-2024,unmatched,Vista de Lago (45),0
+Calzada,GENARO,,10000.0,DO 5-2024,unmatched,Parco Homes (55),0
+Calzada,M. PASCUAL ST.,,10000.0,DO 5-2024,unmatched,Parco Homes (43),0
+Calzada,MUNCAL,RUHALE-DEAD END,10000.0,DO 5-2024,unmatched,Villa Juliana Subdivision (42),0
+Calzada,STA BARBARA ST.,,10000.0,DO 5-2024,unmatched,Alta Tierra Ville (43),0
+Calzada,COCO VILLAGE,,10000.0,DO 5-2024,unmatched,Eco Village (57),0
+Calzada,CAMELLA ELLISANDE SUBDIVISION,,35000.0,DO 5-2024,village,Camella Ellisande,100
+Calzada,BAGONG PAG-ASA NG TAGUIG,,19000.0,DO 5-2024,village,Bagong Pag-asa ng Taguig,100
+Calzada,VILLA JULIANA SUBDIVISION,,19000.0,DO 5-2024,village,Villa Juliana Subdivision,100
+Calzada,MAHOGANY FOREST,,18000.0,DO 5-2024,village,Mahogany Forest,100
+Calzada,ECO VILLAGE SUBDIVISION,,17000.0,DO 5-2024,village,Eco Village,100
+Calzada,PARCO HOMES,,15000.0,DO 5-2024,village,Parco Homes,100
+Calzada,Q VILLE HOMES,,13000.0,DO 5-2024,village,Qville Homes,100
+Calzada,MUNTING PAMAYANAN NG CALZADA,,11000.0,DO 5-2024,village,Munting Pamayanan ng Calzada,100
+Cembo,ALL OTHER STREETS,,80000.0,DO 5-2024,background,,0
+Cembo,KALAYAAN AVENUE,Brgy. Guadalupe Nuevo Bdry to Brgy. West Rembo Bdry,128000.0,DO 5-2024,unmatched,Pasig (15),0
+Cembo,IPIL,,100000.0,DO 5-2024,unmatched,Pasig (44),0
+Cembo,ACACIA,,90000.0,DO 5-2024,unmatched,Pasig (36),0
+Cembo,J. P. RIZAL ST.,Brgy. Guadalupe Nuevo Bdry to Brgy. West Rembo Bdry,90000.0,DO 5-2024,unmatched,Pasig (29),0
+Cembo,NARRA,cor. Kalayaan Ave.,90000.0,DO 5-2024,unmatched,Pasig (20),0
+Cembo,BANABA,,80000.0,DO 5-2024,unmatched,Pasig (18),0
+Cembo,BAYABAS,,80000.0,DO 5-2024,unmatched,Pasig (18),0
+Cembo,CACAO,,80000.0,DO 5-2024,unmatched,Pasig (20),0
+Cembo,CAIMITO,,80000.0,DO 5-2024,unmatched,Pasig (33),0
+Cembo,CAMIAS,,80000.0,DO 5-2024,unmatched,Pasig (40),0
+Cembo,CHICO,,80000.0,DO 5-2024,unmatched,Pasig (20),0
+Cembo,GUIHO EXTN. (MACDA),,80000.0,DO 5-2024,unmatched,Pasig (20),0
+Cembo,ILANG-ILANG,,80000.0,DO 5-2024,unmatched,Pasig (38),0
+Cembo,JASMIN,,80000.0,DO 5-2024,unmatched,Pasig (55),0
+Cembo,KALAMANSI,,80000.0,DO 5-2024,unmatched,Pasig (43),0
+Cembo,KAMIAS,,80000.0,DO 5-2024,unmatched,Pasig (40),0
+Cembo,MABOLO,,80000.0,DO 5-2024,unmatched,Pasig (18),0
+Cembo,MANGGA,,80000.0,DO 5-2024,unmatched,Pasig (36),0
+Cembo,MOLAVE,,80000.0,DO 5-2024,unmatched,Pasig (18),0
+Cembo,SAMPAGUITA,,80000.0,DO 5-2024,unmatched,Pasig (40),0
+Cembo,SAMPALOC,,80000.0,DO 5-2024,unmatched,Pasig (31),0
+Cembo,SANTOL,,80000.0,DO 5-2024,unmatched,Pasig (18),0
+Cembo,TANGUILE,,80000.0,DO 5-2024,unmatched,Pasig (31),0
+Central Bicutan,ALL OTHER STREETS,,12000.0,DO 5-2024,background,,0
+Central Bicutan,A. BONIFACIO AVENUE,MAIN ROAD,20000.0,DO 5-2024,street,A. Bonifacio Avenue,100
+Central Bicutan,ANICETE ST. (ANICETA),ZONE 1,16000.0,DO 5-2024,street,Aniceta,100
+Central Bicutan,MERALCO,,16000.0,DO 5-2024,street,Meralco Road,97
+Central Bicutan,PARAISO ST.,,16000.0,DO 5-2024,street,Paraiso Street,100
+Central Bicutan,AQUINO ST.,,13000.0,DO 5-2024,street,Aquino Street,100
+Central Bicutan,CHAVEZ ST.,ZONE 3,13000.0,DO 5-2024,street,Chavez Street,100
+Central Bicutan,CONTRERAS,ZONE 5 & 7,13000.0,DO 5-2024,street,Contreras Street,97
+Central Bicutan,CRISTOBAL,,13000.0,DO 5-2024,street,Cristobal Street,97
+Central Bicutan,DEANO ST.,ZONE 3,13000.0,DO 5-2024,street,Deano Street,100
+Central Bicutan,DELVO,ZONE 7,13000.0,DO 5-2024,street,Delvo Street,97
+Central Bicutan,ESTANTE,ZONE 3,13000.0,DO 5-2024,street,Estante Street,97
+Central Bicutan,FERNANDEZ,ZONE 7,13000.0,DO 5-2024,street,Fernandez Street,97
+Central Bicutan,FERRER,ZONE 5,13000.0,DO 5-2024,street,Ferrer Street,97
+Central Bicutan,GANCHERO,ZONE 3,13000.0,DO 5-2024,street,Ganchero Street,97
+Central Bicutan,HOLGANZA,ZONE 7,13000.0,DO 5-2024,street,Holganza Street,97
+Central Bicutan,HUERTAS,,13000.0,DO 5-2024,street,Huertas,100
+Central Bicutan,LAPU LAPU,,13000.0,DO 5-2024,street,Lapu-Lapu Street,97
+Central Bicutan,LOZANES,ZONE 4 & 5,13000.0,DO 5-2024,street,Lozanes Street,97
+Central Bicutan,MANALILI,ZONE 3,13000.0,DO 5-2024,street,Manalili Street,97
+Central Bicutan,MARTIZANO,ZONE 4,13000.0,DO 5-2024,street,Martizano Street,97
+Central Bicutan,OSANO ST.,ZONE 2,13000.0,DO 5-2024,street,Osano Street,100
+Central Bicutan,PISADO,,13000.0,DO 5-2024,street,Pisado Street,97
+Central Bicutan,RAFINAN,ZONE 5,13000.0,DO 5-2024,street,Rafiñan Street,97
+Central Bicutan,ROAD 1,,13000.0,DO 5-2024,street,Road 1,100
+Central Bicutan,ROAD 2,,13000.0,DO 5-2024,street,Road 2,100
+Central Bicutan,ROAD 4,,13000.0,DO 5-2024,street,Road 4,100
+Central Bicutan,SAMPALOCAN,,13000.0,DO 5-2024,street,Sampalocan,100
+Central Bicutan,SAN DIEGO,ZONE 2,13000.0,DO 5-2024,street,San Diego Street,97
+Central Bicutan,SAN FELIPE,ZONE 2,13000.0,DO 5-2024,street,San Felipe Street,97
+Central Bicutan,SAN JUAN,ZONE 2,13000.0,DO 5-2024,street,San Juan Street,97
+Central Bicutan,SOLOMON,,13000.0,DO 5-2024,street,Solomon Street,97
+Central Bicutan,TANGPUZ ST.,ZONE 2,13000.0,DO 5-2024,street,Tangpuz Street,100
+Central Bicutan,VILLA,,13000.0,DO 5-2024,street,Villa Street,97
+Central Bicutan,GEN. SANTOS AVENUE,,32000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (30),0
+Central Bicutan,BARRAMEDA,,16000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (30),0
+Central Bicutan,ALIT,,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (36),0
+Central Bicutan,ANDRE ST.,,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (35),0
+Central Bicutan,APAGO,ZONE 1,13000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (18),0
+Central Bicutan,ATIENZA,ZONE 1,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (32),0
+Central Bicutan,BABAS,ZONE 4,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (18),0
+Central Bicutan,BAÑAREZ,ZONE 4,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (32),0
+Central Bicutan,DIAZ,,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (27),0
+Central Bicutan,EDURINA,ZONE 5,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (48),0
+Central Bicutan,JAYLON,,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (25),0
+Central Bicutan,MANGA,,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (35),0
+Central Bicutan,MANGONDATU,ZONE 7,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (43),0
+Central Bicutan,MCENTYRE,ZONE 1,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (38),0
+Central Bicutan,NAPOCOR,ZONE 6 & 7,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (32),0
+Central Bicutan,OPAO,ZONE 1,13000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (12),0
+Central Bicutan,REYES,ZONE 1,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (9),0
+Central Bicutan,TAGO,,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (18),0
+Central Bicutan,ZUNIEGA,ZONE 4,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (24),0
+Central Signal Village,ALL OTHER STREETS,,14000.0,DO 5-2024,background,,0
+Central Signal Village,BALLECER ST,,21000.0,DO 5-2024,street,Ballecer Street,100
+Central Signal Village,GEN. ESPINO ST. (ESPINO ST.),,21000.0,DO 5-2024,street,General Espino Street,100
+Central Signal Village,CAIMITO,,18000.0,DO 5-2024,street,Caimito Street,97
+Central Signal Village,CASTANAS ST,,18000.0,DO 5-2024,street,Castañas Street,100
+Central Signal Village,UBAS ST.,,18000.0,DO 5-2024,street,Ubas Street,100
+Central Signal Village,ARMY RD,,15000.0,DO 5-2024,street,Army Road,100
+Central Signal Village,BRAVO ST,,15000.0,DO 5-2024,street,Bravo Street,100
+Central Signal Village,CUASAY ST.,,15000.0,DO 5-2024,street,Cuasay Street,100
+Central Signal Village,DALUPANG ST.,,15000.0,DO 5-2024,street,Dalupang Street,100
+Central Signal Village,FIGURACION ST.,,15000.0,DO 5-2024,street,Figuracion Street,100
+Central Signal Village,HORSESHOE,,15000.0,DO 5-2024,street,Horseshoe Street,97
+Central Signal Village,ILANG-ILANG,,15000.0,DO 5-2024,street,Ilang-ilang Street,97
+Central Signal Village,IPIL IPIL,,15000.0,DO 5-2024,street,Ipil-ipil Street,97
+Central Signal Village,LAKBAYAN,,15000.0,DO 5-2024,street,Lakbayan,100
+Central Signal Village,LANGKA ROAD (LANGKA ST.),,15000.0,DO 5-2024,street,Langka Road,100
+Central Signal Village,LIBIS EXT.,,15000.0,DO 5-2024,street,Libis Extension,100
+Central Signal Village,LT CARDONES ST (CARDONEZ ST.),,15000.0,DO 5-2024,street,Cardones Street,90.9090909090909
+Central Signal Village,LUZON ST.,,15000.0,DO 5-2024,street,Luzon Street,100
+Central Signal Village,MAJOR VITA ST.,,15000.0,DO 5-2024,street,Major Vita Street,100
+Central Signal Village,MANALILI ST.,,15000.0,DO 5-2024,street,Manalili Street,100
+Central Signal Village,MEDEL ST.,,15000.0,DO 5-2024,street,Medel Street,100
+Central Signal Village,MINDANAO,,15000.0,DO 5-2024,street,Mindanao Street,97
+Central Signal Village,MOLAVE,,15000.0,DO 5-2024,street,Molave Street,97
+Central Signal Village,PINEDA ST.,,15000.0,DO 5-2024,street,Pineda Street,100
+Central Signal Village,PROVIDENCIA (PRUDENCE ST.),,15000.0,DO 5-2024,street,Providencia Street,97
+Central Signal Village,SAMPALOC ST.,,15000.0,DO 5-2024,street,Sampaloc Street,100
+Central Signal Village,SANTOL,,15000.0,DO 5-2024,street,Santol Street,97
+Central Signal Village,VISAYAS ST.,,15000.0,DO 5-2024,street,Visayas Street,100
+Central Signal Village,MRT AVE.,,40000.0,DO 5-2024,unmatched,Arca South (31),0
+Central Signal Village,COL. RONGO,,18000.0,DO 5-2024,unmatched,Arca South (32),0
+Central Signal Village,25th DE ENERO ST. (DE ENERO ST.),,15000.0,DO 5-2024,unmatched,Dreamland Village (35),0
+Central Signal Village,ARROYO,,15000.0,DO 5-2024,unmatched,Arca South (38),0
+Central Signal Village,ATIS,,15000.0,DO 5-2024,unmatched,AFPEPVHAI (31),0
+Central Signal Village,BERNARDO RD.,,15000.0,DO 5-2024,unmatched,SS Brigade (44),0
+Central Signal Village,CHICO,,15000.0,DO 5-2024,unmatched,AFPEPVHAI (29),0
+Central Signal Village,COL. MARTINEZ (MARTINEZ ST.),,15000.0,DO 5-2024,unmatched,SS Brigade (36),0
+Central Signal Village,COL. SALAZAR (SALAZAR ST.),,15000.0,DO 5-2024,unmatched,Dreamland Village (38),0
+Central Signal Village,DOMINGO ST,,15000.0,DO 5-2024,unmatched,Dreamland Village (38),0
+Central Signal Village,DURIAN,,15000.0,DO 5-2024,unmatched,Dreamland Village (53),0
+Central Signal Village,GARCIA,,15000.0,DO 5-2024,unmatched,Arca South (50),0
+Central Signal Village,GOV. RODRIGUEZ,,15000.0,DO 5-2024,unmatched,SS Brigade (43),0
+Central Signal Village,J. P. LAUREL ST. (LAUREL ST.),,15000.0,DO 5-2024,unmatched,Dreamland Village (40),0
+Central Signal Village,KABASAAN,,15000.0,DO 5-2024,unmatched,Dreamland Village (35),0
+Central Signal Village,LABASAN,,15000.0,DO 5-2024,unmatched,Dreamland Village (38),0
+Central Signal Village,LANZONES,,15000.0,DO 5-2024,unmatched,Dreamland Village (38),0
+Central Signal Village,LIBIS,,15000.0,DO 5-2024,unmatched,SS Brigade (29),0
+Central Signal Village,LT. DUQUE,,15000.0,DO 5-2024,unmatched,Dreamland Village (35),0
+Central Signal Village,LT. P. AQUINO,,15000.0,DO 5-2024,unmatched,Dreamland Village (30),0
+Central Signal Village,MALUNGGAY ROAD,,15000.0,DO 5-2024,unmatched,Dreamland Village (33),0
+Central Signal Village,MANSANAS,,15000.0,DO 5-2024,unmatched,Dreamland Village (38),0
+Central Signal Village,MIRANDA,,15000.0,DO 5-2024,unmatched,Dreamland Village (50),0
+Central Signal Village,SALAMAT,,15000.0,DO 5-2024,unmatched,Dreamland Village (38),0
+Central Signal Village,SALAVANTES,,15000.0,DO 5-2024,unmatched,Dreamland Village (44),0
+Central Signal Village,SECO,,15000.0,DO 5-2024,unmatched,Arca South (29),0
+Central Signal Village,SYQUIA ST.,,15000.0,DO 5-2024,unmatched,SS Brigade (38),0
+Comembo,ALL OTHER STREETS,,65000.0,DO 5-2024,background,,0
+Comembo,SAMPAGUITA,Santol St. to JP Rizal Ext.,65000.0,DO 5-2024,segment,Sampaguita Street,97
+Comembo,J. P. RIZAL EXTENSION,Pateros to Brgy. East Rembo Bdry,83000.0,DO 5-2024,street,J. P. Rizal Extension,100
+Comembo,ACACIA,,65000.0,DO 5-2024,street,Acacia Street,97
+Comembo,AGUHO,,65000.0,DO 5-2024,street,Aguho Street,97
+Comembo,ANAHAW,,65000.0,DO 5-2024,street,Anahaw Street,97
+Comembo,APITONG,,65000.0,DO 5-2024,street,Apitong Street,97
+Comembo,AVOCADO,,65000.0,DO 5-2024,street,Avocado Street,97
+Comembo,BALIMBING,,65000.0,DO 5-2024,street,Balimbing Street,97
+Comembo,BAYABAS,,65000.0,DO 5-2024,street,Bayabas Street,97
+Comembo,CHICO,,65000.0,DO 5-2024,street,Chico Street,97
+Comembo,KAMAGONG,,65000.0,DO 5-2024,street,Kamagong Street,97
+Comembo,MABOLO,,65000.0,DO 5-2024,street,Mabolo Street,97
+Comembo,MACOPA,,65000.0,DO 5-2024,street,Macopa Street,97
+Comembo,MANGGA,,65000.0,DO 5-2024,street,Mangga Street,97
+Comembo,NARRA,,65000.0,DO 5-2024,street,Narra Street,97
+Comembo,SAMPALOC ST.,,65000.0,DO 5-2024,street,Sampaloc Street,100
+Comembo,SANTOL,,65000.0,DO 5-2024,street,Santol Street,97
+Comembo,TANGUILE,,65000.0,DO 5-2024,street,Tanguile Street,97
+Comembo,ALAGAO,,65000.0,DO 5-2024,unmatched,Pasig (36),0
+Comembo,BANABA,,65000.0,DO 5-2024,unmatched,Pasig (18),0
+Comembo,CAIMITO,,65000.0,DO 5-2024,unmatched,Pasig (33),0
+Comembo,DUHAT,,65000.0,DO 5-2024,unmatched,Pasig (20),0
+Comembo,KASOY,,65000.0,DO 5-2024,unmatched,Pasig (40),0
+Comembo,LANGKA I,,65000.0,DO 5-2024,unmatched,Pasig (0),0
+Comembo,LANGKA II,,65000.0,DO 5-2024,unmatched,Pasig (0),0
+Comembo,LANZONES,,65000.0,DO 5-2024,unmatched,Pasig (17),0
+Comembo,TALISAY,,65000.0,DO 5-2024,unmatched,Pasig (33),0
+Comembo,YAKAL,,65000.0,DO 5-2024,unmatched,Pasig (20),0
+East Rembo,ALL OTHERS STREETS,,75000.0,DO 5-2024,background,,0
+East Rembo,13TH,WEST OF C5,100000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,14TH,WEST OF C5,100000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,16TH,WEST OF C5,100000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,17TH,WEST OF C5,100000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,18TH,WEST OF C5,100000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,19TH,WEST OF C5,100000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,2OTH,WEST OF C5,100000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,2IST,WEST OF C5,100000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,22ND,WEST OF C5,100000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,5TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,6TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,7TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,8TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,9TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,10TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,11TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,12TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,13TH,EAST OF C5,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,14TH,EAST OF C5,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,16TH,EAST OF C5,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,17TH,EAST OF C5,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,18TH,EAST OF C5,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,19TH,EAST OF C5,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,2OTH,EAST OF C5,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,2IST,EAST OF C5,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,22ND,EAST OF C5,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,23RD,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,24TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,25TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,26TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,27TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,28TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,29TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,30TH,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+East Rembo,31ST,,75000.0,DO 5-2024,unmatched,Pasig (0),0
+Fort Bonifacio,ALL OTHER STREETS,,109000.0,DO 5-2024,background,,0
+Fort Bonifacio,ALL OTHERS VILLAGES/SUBDIVISIONS,,78000.0,DO 5-2024,background,,0
+Fort Bonifacio,LAWTON AVENUE,OLD LAWTON ROAD TO PNR,240000.0,DO 5-2024,street,Lawton Avenue,100
+Fort Bonifacio,ZONE 6 - CONSULAR ROAD,CONSULAR AREA,250000.0,DO 5-2024,unmatched,AFPOVAI Phase Ⅵ (33),0
+Fort Bonifacio,ZONE 8 - BACK ALLEY,BACK ALLEY (MCARTHUR DRIVE),200000.0,DO 5-2024,unmatched,AFP Officers' Village (0),0
+Fort Bonifacio,ZONE 7 - MINIPARK VILLAGE,MCKINLEY PRWY TO LFV - MARKET MARKET ROAD,195000.0,DO 5-2024,unmatched,AFP Officers' Village (0),0
+Fort Bonifacio,VILLA KALAYAAN,KALAYAAN AVENUE,170000.0,DO 5-2024,unmatched,Magallanes Village (43),0
+Fort Bonifacio,STREETS OUTSIDE GLOBAL CITY,ADJACENT AREA TO,135000.0,DO 5-2024,unmatched,Ecology Village Lumbang Sector (44),0
+Fort Bonifacio,CHINO ROCES EXTENSION,MARICABAN CREEK TO LAWTON AVENUE,133000.0,DO 5-2024,unmatched,McKinley West (42),0
+Fort Bonifacio,ZONE 1 - SITIO UNO,CHINO ROCES TO PHILIPPINE RAILWAY,79000.0,DO 5-2024,unmatched,AFP Officers' Village (0),0
+Fort Bonifacio,ZONE 2 - SITIO DOS,CHINO ROCES TO PHILIPPINE RAILWAY,79000.0,DO 5-2024,unmatched,AFP Officers' Village (0),0
+Fort Bonifacio,ZONE 3 - SITIO TRES,CHINO ROCES TO PHILIPPINE RAILWAY,79000.0,DO 5-2024,unmatched,AFPOVAI Phase Ⅲ (23),0
+Fort Bonifacio,ZONE 4 - SITIO QUATRO,MILITARY BASE TO CHINO ROCES EXT,79000.0,DO 5-2024,unmatched,AFP Officers' Village (0),0
+Fort Bonifacio,MCKINLEY WEST,ALL LOTS WITHIN MCKINLEY WEST,338000.0,DO 5-2024,village,McKinley West,100
+Fort Bonifacio,MCKINLEY WEST VILLAGE,MCKINLEY WEST,338000.0,DO 5-2024,village,McKinley West,100
+Hagonoy,ALL OTHER STREETS,,13000.0,DO 5-2024,background,,0
+Hagonoy,ALL OTHER VILLAGES/SUBDIVISIONS,,9000.0,DO 5-2024,background,,0
+Hagonoy,SEAGULL AVE.,,30000.0,DO 5-2024,street,Seagull Drive,97
+Hagonoy,MANUEL L. QUEZON ST,WAWA-BICUTAN BRIDGE,17000.0,DO 5-2024,street,Manuel L. Quezon Avenue,97
+Hagonoy,CADENA DE AMOR ST.,,14000.0,DO 5-2024,street,Cadena de Amor Extension,91.42857142857143
+Hagonoy,DIMASALANG ROAD,M. QUEZON-DEAD END,14000.0,DO 5-2024,street,Dimasalang Street,97
+Hagonoy,KAMIAS ST.,,14000.0,DO 5-2024,street,Kamias Street,100
+Hagonoy,KARAMAY ST.,,14000.0,DO 5-2024,street,Karamay Street,100
+Hagonoy,M. DE LEON ST.,,14000.0,DO 5-2024,street,De Leon Street,90.9090909090909
+Hagonoy,MANGOSTEEN,,14000.0,DO 5-2024,street,Mangosteen Street,97
+Hagonoy,PAG-ASA ST.,,14000.0,DO 5-2024,street,Pag-asa Avenue,97
+Hagonoy,C-6,,40000.0,DO 5-2024,unmatched,Block 45 Lot 10 Dreamland Subdivision (0),0
+Hagonoy,MRT AVE.,,39000.0,DO 5-2024,unmatched,Saint Michael (25),0
+Hagonoy,BALTAZAR CAPISTRANO,DAANG KALABAO,14000.0,DO 5-2024,unmatched,Acacia Estates (40),0
+Hagonoy,C.P. TINGA,,14000.0,DO 5-2024,unmatched,Acacia Estates (40),0
+Hagonoy,MANGA ST.,,14000.0,DO 5-2024,unmatched,Dreamland Village (43),0
+Hagonoy,BAY BREEZE SUBDIVISION,M. QUEZON-BACK,20000.0,DO 5-2024,village,Bay Breeze Executive Village,95
+Hagonoy,DREAM LAND SUBDIVISION,,20000.0,DO 5-2024,village,Dreamland Village,100
+Hagonoy,CREEKLAND,,10000.0,DO 5-2024,village,Creekland,100
+Ibayo-Tipas,ALL OTHER VILLAGES/SUBDIVISIONS,,10000.0,DO 5-2024,background,,0
+Ibayo-Tipas,ALL OTHER STREETS,,9000.0,DO 5-2024,background,,0
+Ibayo-Tipas,ELISCO ROAD,DR. NATIVIDAD,21000.0,DO 5-2024,street,Elisco Road,100
+Ibayo-Tipas,ESTANISLAO ST,PUROK 6,12000.0,DO 5-2024,street,Estanislao Street,100
+Ibayo-Tipas,M. SANGA,,12000.0,DO 5-2024,street,M. Sañga Street,97
+Ibayo-Tipas,MAMERTA ST,PUROK 6,12000.0,DO 5-2024,street,Mamerta Street,100
+Ibayo-Tipas,BPTHAI I,PUROK 6,12000.0,DO 5-2024,street,Bpthai 1,97
+Ibayo-Tipas,DIMAGUILA COMPOUND,PUROK 6,12000.0,DO 5-2024,street,Dimaguila Street,97
+Ibayo-Tipas,SAN PEDRO COMPOUND,,12000.0,DO 5-2024,street,San Pedro Street,97
+Ibayo-Tipas,SEPVHOAI,ELISCO ROAD,12000.0,DO 5-2024,street,Sepvhoai Street,97
+Ibayo-Tipas,CAPISTRANO COMPOUND,,11000.0,DO 5-2024,street,Capistrano Street,97
+Ibayo-Tipas,LABAO MENDOZA CMPD (LABAO COMPOUND),,11000.0,DO 5-2024,street,Lagao Compound,92.85714285714286
+Ibayo-Tipas,ARANETA ST.,PUROK 4 - J. RAMOS ST,10000.0,DO 5-2024,street,Araneta Street,100
+Ibayo-Tipas,CAPITAN CIANO ST.,COL. ESTACIO - J. RAMOS,10000.0,DO 5-2024,street,Capitan Ciano Street,100
+Ibayo-Tipas,DAANG KALABAW,,10000.0,DO 5-2024,street,Daang Kalabaw Street,97
+Ibayo-Tipas,DAANG MANUNUSO,ELISCO ROAD - DEAD END,10000.0,DO 5-2024,street,Daang Manunuso Street,97
+Ibayo-Tipas,J. RAMOS,CAPT. CIANO - DEAD END,10000.0,DO 5-2024,street,J. Ramos Street,97
+Ibayo-Tipas,C-6,,39000.0,DO 5-2024,unmatched,Samama 1 Compound (0),0
+Ibayo-Tipas,A B CRUZ EXTENSION,MAIN ROAD,26000.0,DO 5-2024,unmatched,Dolmar Golden Heights (32),0
+Ibayo-Tipas,KATUWIRAN,MABATO - NAPINDAN,19000.0,DO 5-2024,unmatched,Pasig (29),0
+Ibayo-Tipas,MABATO CREEK ROAD,DR. NATIVIDAD - DEAD END,16000.0,DO 5-2024,unmatched,Dolmar Golden Heights (31),0
+Ibayo-Tipas,DR. R. NATIVIDAD (FORMERLY MEASTRANG PINANG),CAPT. CIANO - LABAO,14000.0,DO 5-2024,unmatched,Villa Angelina (47),0
+Ibayo-Tipas,ULILANG KAWAYAN,,14000.0,DO 5-2024,unmatched,Villa Angelina (41),0
+Ibayo-Tipas,CENTENNIAL,TO NAPINDAN,12000.0,DO 5-2024,unmatched,Villa Angelina (42),0
+Ibayo-Tipas,E ANTONIO PAGKALINAWAN EXTN,TO NAPINDAN,12000.0,DO 5-2024,unmatched,Villa Angelina (39),0
+Ibayo-Tipas,LABASAN,TO C6,12000.0,DO 5-2024,unmatched,Villa Angelina (38),0
+Ibayo-Tipas,MARIANO,PUROK 5 - J. RAMOS EXTENSION,12000.0,DO 5-2024,unmatched,Pasig (33),0
+Ibayo-Tipas,PILAR ST.,PUROK 4 - J. RAMOS ST,12000.0,DO 5-2024,unmatched,Pasig (40),0
+Ibayo-Tipas,REMEDIOS ST.,PUROK 4 - J. RAMOS ST,12000.0,DO 5-2024,unmatched,Dreamville (47),0
+Ibayo-Tipas,AYO COMPOUND,H. R. CAPISTRANO ST. - PUROK 4,12000.0,DO 5-2024,unmatched,Pasig (25),0
+Ibayo-Tipas,BPTHAI II,PUROK 7,12000.0,DO 5-2024,unmatched,Samama 1 Compound (0),0
+Ibayo-Tipas,DAMAHAI,PUROK 7,12000.0,DO 5-2024,unmatched,Dreamville (47),0
+Ibayo-Tipas,DCCLAMP (BLK 1-8),PUROK 6,12000.0,DO 5-2024,unmatched,Dreamville (35),0
+Ibayo-Tipas,EARTHVILLE,,12000.0,DO 5-2024,unmatched,Dreamville (70),0
+Ibayo-Tipas,ESTACIO COMPOUND,,12000.0,DO 5-2024,unmatched,Dreamville (35),0
+Ibayo-Tipas,FLORES COMPOUND,,12000.0,DO 5-2024,unmatched,Dreamville (27),0
+Ibayo-Tipas,JACOBO RAMOS PAGKALINAWAN NEIGHBORHOOD,PUROK 5 - J. RAMOS EXTENSION,12000.0,DO 5-2024,unmatched,Dolmar Golden Heights (39),0
+Ibayo-Tipas,JDL 1&2 SUBD. (JDL COMPOUND),ELISCO ROAD & BACK,12000.0,DO 5-2024,unmatched,Dreamville (31),0
+Ibayo-Tipas,LONTOC COMPOUND,,12000.0,DO 5-2024,unmatched,Dolmar Golden Heights (31),0
+Ibayo-Tipas,"NEW BEGINNING ""CBGT""",,12000.0,DO 5-2024,unmatched,Dolmar Golden Heights (32),0
+Ibayo-Tipas,NEW MABATO CREEK ROAD NEIGHBORHOOD,,12000.0,DO 5-2024,unmatched,Dolmar Golden Heights (37),0
+Ibayo-Tipas,NICOLAS CRUZ,PUROK 2,12000.0,DO 5-2024,unmatched,Villa Angelina (32),0
+Ibayo-Tipas,QUEENIVILLE,PUROK 5 - J. RAMOS EXTENSION,12000.0,DO 5-2024,unmatched,Dreamville (57),0
+Ibayo-Tipas,QUILATAN COMPOUND,,12000.0,DO 5-2024,unmatched,Villa Angelina (45),0
+Ibayo-Tipas,SAMAMA II,,12000.0,DO 5-2024,unmatched,Samama 1 Compound (0),0
+Ibayo-Tipas,SAN BERNARDO NEIGHBORHOOD,,12000.0,DO 5-2024,unmatched,Dolmar Golden Heights (40),0
+Ibayo-Tipas,SKUPAI,,12000.0,DO 5-2024,unmatched,Pasig (55),0
+Ibayo-Tipas,SOUTHERN VALLEY EXT,,12000.0,DO 5-2024,unmatched,Dolmar Golden Heights (41),0
+Ibayo-Tipas,VILLA ANITA COMPOUND,,12000.0,DO 5-2024,unmatched,Villa Angelina (80),0
+Ibayo-Tipas,VILLA CRISANTA,,12000.0,DO 5-2024,unmatched,Villa Angelina (64),0
+Ibayo-Tipas,PINAMANA,C6 - SERVICE ROAD,12000.0,DO 5-2024,unmatched,Villa Angelina (45),0
+Ibayo-Tipas,CRUZ COMPOUND,,11000.0,DO 5-2024,unmatched,Dreamville (14),0
+Ibayo-Tipas,ANTONIA ST.,PUROK 4 - J. RAMOS ST,10000.0,DO 5-2024,unmatched,Villa Angelina (48),0
+Ibayo-Tipas,BAMBANG ST.(CALLEJON),DINGUINBAYAN - CIANO,10000.0,DO 5-2024,unmatched,Dreamville (44),0
+Ibayo-Tipas,BARANGAY ROAD,,10000.0,DO 5-2024,unmatched,Villa Angelina (45),0
+Ibayo-Tipas,DAAN PAA,SITIO - DAANG PAA,10000.0,DO 5-2024,unmatched,Villa Angelina (36),0
+Ibayo-Tipas,DAANG KALABAW CREEK,,10000.0,DO 5-2024,unmatched,Villa Angelina (36),0
+Ibayo-Tipas,F. DINGUINBAYAN,DR. NATIVIDAD - BAMBANG,10000.0,DO 5-2024,unmatched,Villa Angelina (43),0
+Ibayo-Tipas,M. ESGUERRA,PUROK 2,10000.0,DO 5-2024,unmatched,Villa Angelina (33),0
+Ibayo-Tipas,MAGNO PIGTAIN,,10000.0,DO 5-2024,unmatched,Dolmar Golden Heights (48),0
+Ibayo-Tipas,MAGNO PIGTAIN COMPOUND,,10000.0,DO 5-2024,unmatched,Dolmar Golden Heights (48),0
+Ibayo-Tipas,NAGKAWIT,ELISCO ROAD - DAANG PAA,10000.0,DO 5-2024,unmatched,Villa Angelina (36),0
+Ibayo-Tipas,TUNGIS,,10000.0,DO 5-2024,unmatched,Villa Angelina (32),0
+Katuparan,ALL OTHER STREETS,,11000.0,DO 5-2024,background,,0
+Katuparan,8TH STREET,MAIN ROAD,14000.0,DO 5-2024,street,8th Street,100
+Katuparan,DURIAN,,13000.0,DO 5-2024,street,Durian Street,97
+Katuparan,GUYABANO,,13000.0,DO 5-2024,street,Guyabano Street,97
+Katuparan,KASOY,,13000.0,DO 5-2024,street,Kasoy Street,97
+Katuparan,LANGKA,,13000.0,DO 5-2024,street,Langka Street,97
+Katuparan,MABOLO,,13000.0,DO 5-2024,street,Mabolo Street,97
+Katuparan,MANGOSTEEN,,13000.0,DO 5-2024,street,Mangosteen Street,97
+Katuparan,PAG ASA STREET,,13000.0,DO 5-2024,street,Pag-Asa Street,100
+Katuparan,SAMPALOC STREET EXT,,13000.0,DO 5-2024,street,Sampaloc Extension,97
+Katuparan,SANTOL ST.,,13000.0,DO 5-2024,street,Santol Street,100
+Katuparan,SANTOL EXT.,,13000.0,DO 5-2024,street,Santol Extension Road,97
+Katuparan,STICRA,,13000.0,DO 5-2024,street,Sticra,100
+Katuparan,ANONAS,,12000.0,DO 5-2024,street,Anonas Street,97
+Katuparan,BALIMBING,,12000.0,DO 5-2024,street,Balimbing Street,97
+Katuparan,KAMIAS,,12000.0,DO 5-2024,street,Kamias Street,97
+Katuparan,MRT AVENUE,,40000.0,DO 5-2024,unmatched,Dreamland Village (17),0
+Katuparan,LANSONES,,13000.0,DO 5-2024,unmatched,Dreamland Village (38),0
+Katuparan,MANGGA,,13000.0,DO 5-2024,unmatched,Dreamland Village (40),0
+Katuparan,SINIGUELAS,,13000.0,DO 5-2024,unmatched,Dreamland Village (33),0
+Katuparan,1ST TO 7TH & 9TH TO 11TH STREETS,,12000.0,DO 5-2024,unmatched,Dreamland Village (0),0
+Katuparan,CAMACHILE,,12000.0,DO 5-2024,unmatched,Acacia Estates (53),0
+Ligid-Tipas,ALL OTHER STREETS,,9000.0,DO 5-2024,background,,0
+Ligid-Tipas,ALL OTHER VILLAGES/SUBDIVISIONS,,9000.0,DO 5-2024,background,,0
+Ligid-Tipas,L. LABAO ST.,BARANGAY HALL,14000.0,DO 5-2024,street,L. Labao Street,100
+Ligid-Tipas,GEN NATIVIDAD,,12000.0,DO 5-2024,street,General Natividad Street,97
+Ligid-Tipas,CAPCO COMPOUND,,12000.0,DO 5-2024,street,Capco Compound,100
+Ligid-Tipas,LABAO COMPOUND,,12000.0,DO 5-2024,street,Lagao Compound,92.85714285714286
+Ligid-Tipas,C. RAMOS ST. (UMBOY),,10000.0,DO 5-2024,street,C. Ramos Street,100
+Ligid-Tipas,CAPCO ST.,GEN. NATIVIDAD ST. (formerly,10000.0,DO 5-2024,street,Capco Compound,97
+Ligid-Tipas,O. MARIANO ST.,,10000.0,DO 5-2024,street,C. Mariano Street,91.66666666666666
+Ligid-Tipas,ORDONEZ ST.(NOLI ME TANGERE),M. PINANG EXT.,10000.0,DO 5-2024,street,Ordoñez Street,100
+Ligid-Tipas,SAPANG VIEJO,OLD CREEK,10000.0,DO 5-2024,street,Sapang Viejo Road,97
+Ligid-Tipas,UMALI ST. (IBABA),,10000.0,DO 5-2024,street,Umali Street,100
+Ligid-Tipas,P. CAYETANO BOULEVARD (f.k.a LEVI MARIANO),,85000.0,DO 5-2024,unmatched,G. K. - Philippine Bar (50),0
+Ligid-Tipas,F. MANALO ST.,BARANGAY HALL,34000.0,DO 5-2024,unmatched,Villa Angelina (36),0
+Ligid-Tipas,Dr. R. NATIVIDAD AVE.,,14000.0,DO 5-2024,unmatched,Villa Angelina (40),0
+Ligid-Tipas,CALLEJON 5,,10000.0,DO 5-2024,unmatched,G. K. - Philippine Bar (0),0
+Ligid-Tipas,CALLEJON 7,,10000.0,DO 5-2024,unmatched,G. K. - Philippine Bar (0),0
+Ligid-Tipas,CAPT. M. TANYAG ST.,E. JACINTO,10000.0,DO 5-2024,unmatched,Villa Angelina (37),0
+Ligid-Tipas,PANDAY ST.,M. PINANG-STA. ANA,10000.0,DO 5-2024,unmatched,Pasig (36),0
+Ligid-Tipas,RODRIGUEZ ST.,M. PINANG-STA. ANA,10000.0,DO 5-2024,unmatched,Dreamville (42),0
+Ligid-Tipas,T. RAYOS ST.,,10000.0,DO 5-2024,unmatched,Dreamville (25),0
+Ligid-Tipas,VILLA ANGELINA COMPOUND,,12000.0,DO 5-2024,village,Villa Angelina,100
+Ligid-Tipas,DREAMVILLE SUBD,,10000.0,DO 5-2024,village,Dreamville,100
+Ligid-Tipas,SAMAMA 1,,10000.0,DO 5-2024,village,Samama 1 Compound,100
+Lower Bicutan,ALL OTHER STREETS,,10000.0,DO 5-2024,background,,0
+Lower Bicutan,13th STREET,,12000.0,DO 5-2024,street,13th Street,100
+Lower Bicutan,14th STREET,,12000.0,DO 5-2024,street,14th Street,100
+Lower Bicutan,16th STREET,,12000.0,DO 5-2024,street,16th Street,100
+Lower Bicutan,17th STREET,,12000.0,DO 5-2024,street,17th Street,100
+Lower Bicutan,18th STREET,,12000.0,DO 5-2024,street,18th Street,100
+Lower Bicutan,ALVARADO ST.,,12000.0,DO 5-2024,street,Alvarado Street,100
+Lower Bicutan,BALAGTAS,,12000.0,DO 5-2024,street,Balagtas Street,97
+Lower Bicutan,BARANGAY ST,PUROK 6,12000.0,DO 5-2024,street,Barangay Street,100
+Lower Bicutan,BAUTISTA,,12000.0,DO 5-2024,street,Bautista Street,97
+Lower Bicutan,BOUGAINVILLA ST.,,12000.0,DO 5-2024,street,Bougainvilla Street,100
+Lower Bicutan,CABALLERO,,12000.0,DO 5-2024,street,Caballero Street,97
+Lower Bicutan,CALDOZO ST,,12000.0,DO 5-2024,street,Caldozo Street,100
+Lower Bicutan,CAMACHILE,,12000.0,DO 5-2024,street,Camachile Street,97
+Lower Bicutan,DAISY,,12000.0,DO 5-2024,street,Daisy Street,97
+Lower Bicutan,DE LIMOS ST.,,12000.0,DO 5-2024,street,De Limos Street,100
+Lower Bicutan,EDER ST.,,12000.0,DO 5-2024,street,Eder Street,100
+Lower Bicutan,EVERLASTING ST,,12000.0,DO 5-2024,street,Everlasting Street,100
+Lower Bicutan,F. DE LEON ST.,,12000.0,DO 5-2024,street,F. De Leon Street,100
+Lower Bicutan,FELICIANO,,12000.0,DO 5-2024,street,Feliciano Street,97
+Lower Bicutan,FRANCIS ST,,12000.0,DO 5-2024,street,Francis Street,100
+Lower Bicutan,ILANG ILANG,,12000.0,DO 5-2024,street,Ilang-Ilang Street,97
+Lower Bicutan,IPIL-IPIL ST,,12000.0,DO 5-2024,street,Ipil-Ipil Street,100
+Lower Bicutan,JASMIN,,12000.0,DO 5-2024,street,Jasmin Street,97
+Lower Bicutan,JOSEPH ST,,12000.0,DO 5-2024,street,Joseph Street,100
+Lower Bicutan,K-9 ST.,,12000.0,DO 5-2024,street,K9 Street,90.9090909090909
+Lower Bicutan,KATURAY,,12000.0,DO 5-2024,street,Katuray Street,97
+Lower Bicutan,MERALCO ROAD,,12000.0,DO 5-2024,street,Meralco Road,100
+Lower Bicutan,MILLARES,,12000.0,DO 5-2024,street,Millares Street,97
+Lower Bicutan,PAGKAKAISA ST.,PUROK 6,12000.0,DO 5-2024,street,Pagkakaisa Street,100
+Lower Bicutan,PADILLA ST.,,12000.0,DO 5-2024,street,Padilla Street,100
+Lower Bicutan,PARAISO ST.,,12000.0,DO 5-2024,street,Paraiso Street,100
+Lower Bicutan,R. ADRIANO ST.,,12000.0,DO 5-2024,street,R. Adriano Street,100
+Lower Bicutan,ROAD 2,,12000.0,DO 5-2024,street,Road 2,100
+Lower Bicutan,ROAD 3,,12000.0,DO 5-2024,street,Road 3,100
+Lower Bicutan,ROLDAN,,12000.0,DO 5-2024,street,Roldan Street,97
+Lower Bicutan,SAMPALOC ST.,QUEZON-CTRL-BICUTAN,12000.0,DO 5-2024,street,Sampaloc Street,100
+Lower Bicutan,SALIVIO,,12000.0,DO 5-2024,street,Salivio Street,97
+Lower Bicutan,BANAI ST,,11000.0,DO 5-2024,street,Banai Street,100
+Lower Bicutan,CONTRERAS,,11000.0,DO 5-2024,street,Contreras Street,97
+Lower Bicutan,C-6,,39000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (0),0
+Lower Bicutan,GEN. SANTOS AVE.,QUEZON-SS HIGHWAY,36000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (30),0
+Lower Bicutan,M.L. QUEZON ST(Dir. A. Bunye),NEW LOWER-BAGUMBAYAN,18000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (29),0
+Lower Bicutan,A. CRUZ,,13000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (25),0
+Lower Bicutan,BARRAMEDA ST,,12000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (30),0
+Lower Bicutan,KAKAWATE,,12000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (31),0
+Lower Bicutan,KAMIAS,,12000.0,DO 5-2024,unmatched,Holy Family Village (38),0
+Lower Bicutan,LIGAYA,,12000.0,DO 5-2024,unmatched,Holy Family Village (35),0
+Lower Bicutan,MALUNGAY,,12000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (38),0
+Lower Bicutan,MAULING CREEK,,12000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (39),0
+Lower Bicutan,ORPILLA,,12000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (40),0
+Lower Bicutan,PATRICIO,,12000.0,DO 5-2024,unmatched,Holy Family Village (32),0
+Lower Bicutan,PLACEDES ST.,,12000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (32),0
+Lower Bicutan,REYES ST.,,12000.0,DO 5-2024,unmatched,Holy Family Village (13),0
+Lower Bicutan,T. SANTOS ST.,,12000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (24),0
+Lower Bicutan,V. P. CRUZ,QUEZON-CTRL BICUTAN,12000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (0),0
+Maharlika Village,ALL OTHER STREETS,,10000.0,DO 5-2024,background,,0
+Maharlika Village,MAHARLIKA ROAD,,15000.0,DO 5-2024,street,Maharlika Road,100
+Maharlika Village,MINDANAO ROAD,,15000.0,DO 5-2024,street,Mindanao Avenue,97
+Maharlika Village,MAYOR TANYAG AVENUE,,13000.0,DO 5-2024,street,Mayor Tanyag,97
+Maharlika Village,BASILAN,,11000.0,DO 5-2024,street,Basilan Street,97
+Maharlika Village,BUKIDNON,,11000.0,DO 5-2024,street,Bukidnon Street,97
+Maharlika Village,CONTRERAS,,11000.0,DO 5-2024,street,Contreras Street,97
+Maharlika Village,DAVAO,,11000.0,DO 5-2024,street,Davao Street,97
+Maharlika Village,FERNANDEZ,,11000.0,DO 5-2024,street,Fernandez Street,97
+Maharlika Village,LANAO DEL NORTE,,11000.0,DO 5-2024,street,Lanao del Norte Street,97
+Maharlika Village,LANAO DEL SUR,,11000.0,DO 5-2024,street,Lanao del Sur Street,97
+Maharlika Village,MARAWI,,11000.0,DO 5-2024,street,Marawi Avenue,97
+Maharlika Village,MARIANO,,11000.0,DO 5-2024,street,Mariano Street,97
+Maharlika Village,SALIVIO,,11000.0,DO 5-2024,street,Salivio Street,97
+Maharlika Village,SULTAN KUDARAT,,11000.0,DO 5-2024,street,Sultan Kudarat Street,97
+Maharlika Village,TAWI TAWI,,11000.0,DO 5-2024,street,Tawi-Tawi Street,97
+Maharlika Village,ZAMBOANGA,,11000.0,DO 5-2024,street,Zamboanga Street,97
+Maharlika Village,GEN. PENDATUN,,15000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (20),0
+Maharlika Village,BANARES,,11000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (17),0
+Maharlika Village,BARANGAY ROAD,,11000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (22),0
+Maharlika Village,BARRANEDA,,11000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (26),0
+Maharlika Village,HOLCANZO,,11000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (27),0
+Maharlika Village,JOLO,,11000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (12),0
+Maharlika Village,MAGUINDANAO,,11000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (30),0
+Maharlika Village,PRES. GARCIA,,11000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (25),0
+Maharlika Village,ROAD 2,,11000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (0),0
+Maharlika Village,T. SANTOS ST.,,11000.0,DO 5-2024,unmatched,Maharlika Islamic Condominium (28),0
+Napindan,ALL OTHER VILLAGES/SUBDIVISIONS,,9000.0,DO 5-2024,background,,0
+Napindan,ALL OTHER STREETS,,8000.0,DO 5-2024,background,,0
+Napindan,MAGUINDANAO AVE,,15000.0,DO 5-2024,street,Maguindanao Avenue,100
+Napindan,ITALIT RD,LABAO,11000.0,DO 5-2024,street,Italit Road,100
+Napindan,M. LUCAS ST,,10000.0,DO 5-2024,street,P. Lucas Street,90.0
+Napindan,M.H. DEL PILAR ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,street,MH Del Pilar Street,96.7741935483871
+Napindan,MABINI ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,street,Mabini Street,100
+Napindan,P. LUCAS,,10000.0,DO 5-2024,street,P. Lucas Street,97
+Napindan,SAN LORENZO ST,,10000.0,DO 5-2024,street,San Lorenzo Street,100
+Napindan,C-6,,42000.0,DO 5-2024,unmatched,Pasig (0),0
+Napindan,ROSALES ST,,19000.0,DO 5-2024,unmatched,Pasig (18),0
+Napindan,UMC VILLAGE,ALONG C6,16000.0,DO 5-2024,unmatched,Pasig (0),0
+Napindan,MABAHAW ST,,15000.0,DO 5-2024,unmatched,Pasig (17),0
+Napindan,L. LABAO,,14000.0,DO 5-2024,unmatched,Pasig (17),0
+Napindan,UNITYVILLE,ALONG C6,14000.0,DO 5-2024,unmatched,Pasig (13),0
+Napindan,ACCESS RD,LABAO,13000.0,DO 5-2024,unmatched,Pasig (36),0
+Napindan,CAIMITO ST,,13000.0,DO 5-2024,unmatched,Pasig (33),0
+Napindan,SAMAMA SUBD EXT II,,13000.0,DO 5-2024,unmatched,Pasig (0),0
+Napindan,BONIFACIO ST.,IBAYO NAPINDAN MAIN ROAD,12000.0,DO 5-2024,unmatched,Pasig (29),0
+Napindan,DR. R. NATIVIDAD,MABATO ROAD TO C-6,12000.0,DO 5-2024,unmatched,Pasig (25),0
+Napindan,GARETA,,12000.0,DO 5-2024,unmatched,Pasig (18),0
+Napindan,VENUS ST,,12000.0,DO 5-2024,unmatched,Pasig (0),0
+Napindan,VILLA BALDERAMA,IBAYO NAPINDAN,12000.0,DO 5-2024,unmatched,Pasig (20),0
+Napindan,VILLA CRESENCIA,IBAYO NAPINDAN,12000.0,DO 5-2024,unmatched,Pasig (30),0
+Napindan,VILLA MAGLENTE,IBAYO NAPINDAN,12000.0,DO 5-2024,unmatched,Pasig (21),0
+Napindan,ZENADEL COMPOUND,IBAYO NAPINDAN,12000.0,DO 5-2024,unmatched,Pasig (17),0
+Napindan,ESTACIO ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,unmatched,Pasig (33),0
+Napindan,EUSEBIO AVE.,IBAYO NAPINDAN (MAIN ROAD),10000.0,DO 5-2024,unmatched,Pasig (33),0
+Napindan,GUAVA ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,unmatched,Pasig (20),0
+Napindan,IPIL-IPIL ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,unmatched,Pasig (29),0
+Napindan,J.P. RIZAL ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,unmatched,Pasig (29),0
+Napindan,KALAYAAN AVE.,IBAYO NAPINDAN,10000.0,DO 5-2024,unmatched,Pasig (15),0
+Napindan,M. LUCAS ST EXT.,,10000.0,DO 5-2024,unmatched,Pasig (13),0
+Napindan,MAHOGANY ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,unmatched,Pasig (31),0
+Napindan,N. CAPISTRANO,,10000.0,DO 5-2024,unmatched,Pasig (24),0
+Napindan,NARRA ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,unmatched,Pasig (20),0
+Napindan,OCARISA ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,unmatched,Pasig (33),0
+Napindan,OSMENA ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,unmatched,Pasig (18),0
+Napindan,PULO,,10000.0,DO 5-2024,unmatched,Pasig (22),0
+Napindan,SAMPALOC ST,,10000.0,DO 5-2024,unmatched,Pasig (31),0
+Napindan,SANDOVAL ST.,,10000.0,DO 5-2024,unmatched,Pasig (15),0
+Napindan,YAKAL ST.,IBAYO NAPINDAN,10000.0,DO 5-2024,unmatched,Pasig (20),0
+Napindan,CSA VILLAGE GK,,10000.0,DO 5-2024,unmatched,Pasig (36),0
+Napindan,F. BALAGTAS,LABAO NAPINDAN RIVER,9000.0,DO 5-2024,unmatched,Pasig (29),0
+Napindan,LUPANG ARRENDA / LUPANG SUERTE,,9000.0,DO 5-2024,unmatched,Pasig (33),0
+New Lower Bicutan,ALL OTHER VILLAGES/SUBDIVISIONS,,12000.0,DO 5-2024,background,,0
+New Lower Bicutan,ALL OTHER STREETS,,10000.0,DO 5-2024,background,,0
+New Lower Bicutan,MRT AVENUE (PIO FELIPE),MERALCO RD. - M.L. QUEZON,39000.0,DO 5-2024,street,Pio Felipe Street,97
+New Lower Bicutan,PINEDA ST,,14000.0,DO 5-2024,street,Pineda Street,100
+New Lower Bicutan,A. REYES ST.,,13000.0,DO 5-2024,street,A. Reyes Street,100
+New Lower Bicutan,A. REYES EXT.,,13000.0,DO 5-2024,street,A. Reyes Street Extension,97
+New Lower Bicutan,APPLE,,13000.0,DO 5-2024,street,Apple Street,97
+New Lower Bicutan,BANANA,,13000.0,DO 5-2024,street,Banana Street,97
+New Lower Bicutan,MAGSAYSAY ST.,DOTC,13000.0,DO 5-2024,street,Magsaysay Road,97
+New Lower Bicutan,MERALCO RD.,,13000.0,DO 5-2024,street,Meralco Road,100
+New Lower Bicutan,MULAWIN,,13000.0,DO 5-2024,street,Mulawin Street,97
+New Lower Bicutan,PAGKALINAWAN ST.,M.L QUEZON,13000.0,DO 5-2024,street,Pagkalinawan Street,100
+New Lower Bicutan,PANGILINAN,,13000.0,DO 5-2024,street,Pangilinan Street,97
+New Lower Bicutan,ROLDAN ST.,,13000.0,DO 5-2024,street,Roldan Street,100
+New Lower Bicutan,VILLA - VILLA,,13000.0,DO 5-2024,street,Villa-villa Street,97
+New Lower Bicutan,MARAWI ST.,,12000.0,DO 5-2024,street,Marawi Avenue,97
+New Lower Bicutan,MARIANO ST.,,12000.0,DO 5-2024,street,Mariano Street,100
+New Lower Bicutan,RANGER,,12000.0,DO 5-2024,street,Rangers Street,97
+New Lower Bicutan,MAGUINDANAO ST.,,11000.0,DO 5-2024,street,Maguindanao Street,100
+New Lower Bicutan,C-6,,40000.0,DO 5-2024,unmatched,Block 45 Lot 10 Dreamland Subdivision (0),0
+New Lower Bicutan,COL. BALLECER,,22000.0,DO 5-2024,unmatched,Acacia Estates (33),0
+New Lower Bicutan,M.L. QUEZON ST,MRT AVE. - T. SANTOS ST.,18000.0,DO 5-2024,unmatched,Dreamland Village (32),0
+New Lower Bicutan,BERNARDO RD.,,15000.0,DO 5-2024,unmatched,Dreamland Village (35),0
+New Lower Bicutan,ABAD ST.,,14000.0,DO 5-2024,unmatched,Dreamland Village (46),0
+New Lower Bicutan,A. CRUZ,,13000.0,DO 5-2024,unmatched,Acacia Estates (33),0
+New Lower Bicutan,MARIANO EXT.,,13000.0,DO 5-2024,unmatched,Dreamland Village (40),0
+New Lower Bicutan,PADILLA,,13000.0,DO 5-2024,unmatched,Acacia Estates (46),0
+New Lower Bicutan,ROAD 1 - ROAD 10,,13000.0,DO 5-2024,unmatched,Block 45 Lot 10 Dreamland Subdivision (0),0
+New Lower Bicutan,STO DOMINGO STREET,,13000.0,DO 5-2024,unmatched,Dreamland Village (30),0
+New Lower Bicutan,STO NINO,,13000.0,DO 5-2024,unmatched,Acacia Estates (14),0
+New Lower Bicutan,T. SANTOS,,13000.0,DO 5-2024,unmatched,Dreamland Village (25),0
+New Lower Bicutan,VIZCARA,,13000.0,DO 5-2024,unmatched,Acacia Estates (46),0
+New Lower Bicutan,SANALUGTA HOA,,13000.0,DO 5-2024,unmatched,Acacia Estates (32),0
+New Lower Bicutan,BARRAMEDA,,12000.0,DO 5-2024,unmatched,Dreamland Village (44),0
+North Daang Hari,ALL OTHER VILLAGES/SUBDIVISIONS:,,9000.0,DO 5-2024,background,,0
+North Daang Hari,ALL OTHER STREETS,,7000.0,DO 5-2024,background,,0
+North Daang Hari,TANYAG,,14000.0,DO 5-2024,street,Tanyag,100
+North Daang Hari,MANALAC AVENUE,,12000.0,DO 5-2024,street,Mañalac Avenue,100
+North Daang Hari,ACACIA (ROAD 5),,8000.0,DO 5-2024,street,Road 5,100
+North Daang Hari,ANAHAW (ROAD 4),,8000.0,DO 5-2024,street,Road 4,100
+North Daang Hari,NARRA (ROAD 1),,8000.0,DO 5-2024,street,Road 1,100
+North Daang Hari,MAHOGANY (ROAD 2),,8000.0,DO 5-2024,street,Road 2,100
+North Daang Hari,MOLAVE (ROAD 3),,8000.0,DO 5-2024,street,Road 3,100
+North Daang Hari,MANGGA (ROAD 6),,8000.0,DO 5-2024,street,Road 6,100
+North Daang Hari,GENERAL SANTOS AVENUE,PTRI-BICUTAN EXT.,34000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (45),0
+North Daang Hari,SITIO DE ASIS,,17000.0,DO 5-2024,unmatched,Sta. Teresa Compound (43),0
+North Daang Hari,PUROK 1-11,,10000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (0),0
+North Daang Hari,STA. MARIA AVE.,,10000.0,DO 5-2024,unmatched,Sta. Teresa Compound (63),0
+North Daang Hari,DAANG HARI,SITIO DE ASIS ST.,9000.0,DO 5-2024,unmatched,Mañalac Industrial Estate (36),0
+North Daang Hari,STA.TERESA COMPOUND,,10000.0,DO 5-2024,village,Sta. Teresa Compound,100
+North Signal Village,ALL OTHER VILLAGES/SUBDIVISIONS:,,14000.0,DO 5-2024,background,,0
+North Signal Village,ALL OTHER STREETS,,9000.0,DO 5-2024,background,,0
+North Signal Village,MRT (CUASAY),,40000.0,DO 5-2024,street,Cuasay Street,97
+North Signal Village,BRAVO,,15000.0,DO 5-2024,street,Bravo Street,97
+North Signal Village,KAWAYAN,,15000.0,DO 5-2024,street,Kawayan Street,97
+North Signal Village,TERUEL,,15000.0,DO 5-2024,street,Teruel Street,97
+North Signal Village,8TH STREET,,14000.0,DO 5-2024,street,8th Street,100
+North Signal Village,ANONAS,MANGGA,14000.0,DO 5-2024,street,Anonas Street,97
+North Signal Village,AGUHO,,13000.0,DO 5-2024,street,Aguho Street,97
+North Signal Village,APITONG,,13000.0,DO 5-2024,street,Apitong Street,97
+North Signal Village,BALIMBING ST.,,13000.0,DO 5-2024,street,Balimbing Street,100
+North Signal Village,CAIMITO,,13000.0,DO 5-2024,street,Caimito Street,97
+North Signal Village,CHESA,,13000.0,DO 5-2024,street,Chesa Street,97
+North Signal Village,CHICO,,13000.0,DO 5-2024,street,Chico Street,97
+North Signal Village,DURIAN,,13000.0,DO 5-2024,street,Durian Street,97
+North Signal Village,GUIHO,,13000.0,DO 5-2024,street,Guiho Street,97
+North Signal Village,GUYABANO,,13000.0,DO 5-2024,street,Guyabano Street,97
+North Signal Village,ILANG-ILANG,,13000.0,DO 5-2024,street,Ilang-ilang Street,97
+North Signal Village,IPIL IPIL,,13000.0,DO 5-2024,street,Ipil-ipil Street,97
+North Signal Village,KAMAGONG,,13000.0,DO 5-2024,street,Kamagong Street,97
+North Signal Village,KARAMAY,,13000.0,DO 5-2024,street,Karamay Street,97
+North Signal Village,KASOY,,13000.0,DO 5-2024,street,Kasoy Street,97
+North Signal Village,LANGKA,,13000.0,DO 5-2024,street,Langka Street,97
+North Signal Village,LANZONES,,13000.0,DO 5-2024,street,Lanzones Street,97
+North Signal Village,MABOLO,,13000.0,DO 5-2024,street,Mabolo Street,97
+North Signal Village,MABOLO EXT,,13000.0,DO 5-2024,street,Mabolo Extension,100
+North Signal Village,MACOPA,,13000.0,DO 5-2024,street,Macopa Street,97
+North Signal Village,MANSANAS,,13000.0,DO 5-2024,street,Mansanas Street,97
+North Signal Village,MANSANITAS,,13000.0,DO 5-2024,street,Mansanitas,100
+North Signal Village,MANGOSTEEN,,13000.0,DO 5-2024,street,Mangosteen Street,97
+North Signal Village,MOLAVE,,13000.0,DO 5-2024,street,Molave Street,97
+North Signal Village,NARRA,,13000.0,DO 5-2024,street,Narra Street,97
+North Signal Village,PAG ASA STREET,,13000.0,DO 5-2024,street,Pag-asa Avenue,97
+North Signal Village,PAPAYA,,13000.0,DO 5-2024,street,Papaya Street,97
+North Signal Village,RAMBUTAN,,13000.0,DO 5-2024,street,Rambutan Street,97
+North Signal Village,SALAMAT,,13000.0,DO 5-2024,street,Salamat Street,97
+North Signal Village,SANTOL ST.,,13000.0,DO 5-2024,street,Santol Street,100
+North Signal Village,YAKAL,,13000.0,DO 5-2024,street,Yakal Street,97
+North Signal Village,KALAMANSI,KAMIAS,12000.0,DO 5-2024,street,Kalamansi Street,97
+North Signal Village,TINDALO,,12000.0,DO 5-2024,street,Tindalo Street,97
+North Signal Village,KAMIAS,,10000.0,DO 5-2024,street,Kamias Street,97
+North Signal Village,SAMPALOK EXT,,10000.0,DO 5-2024,street,Sampaloc Extension,91.66666666666666
+North Signal Village,SANTOL EXT,,10000.0,DO 5-2024,street,Santol Extension Road,97
+North Signal Village,1st STREET - 7TH & 9TH - 11th STREET,MRT,15000.0,DO 5-2024,unmatched,Dreamland Village (0),0
+North Signal Village,STO NIÑO,,15000.0,DO 5-2024,unmatched,Dreamland Village (12),0
+North Signal Village,ENGINEER'S HILLS VILLAGE,,15000.0,DO 5-2024,unmatched,AFPEPVHAI (27),0
+North Signal Village,LUKBAN,,14000.0,DO 5-2024,unmatched,Dreamland Village (40),0
+North Signal Village,1st AVENUE - 11th AVENUE,IN BETWEEN PINAGSAMA AND KATUPARAN,13000.0,DO 5-2024,unmatched,Dreamland Village (0),0
+North Signal Village,ATIS,,13000.0,DO 5-2024,unmatched,AFPEPVHAI (31),0
+North Signal Village,GUIHO EXT,,13000.0,DO 5-2024,unmatched,AFPEPVHAI (22),0
+North Signal Village,MANGGA,,13000.0,DO 5-2024,unmatched,Dreamland Village (40),0
+North Signal Village,MANGGA EXT,,13000.0,DO 5-2024,unmatched,Dreamland Village (42),0
+North Signal Village,PAJO,,13000.0,DO 5-2024,unmatched,AFPEPVHAI (31),0
+North Signal Village,PILI,,13000.0,DO 5-2024,unmatched,AFPEPVHAI (31),0
+North Signal Village,SAMPALOK,,13000.0,DO 5-2024,unmatched,Dreamland Village (35),0
+North Signal Village,SINIGUELAS,,13000.0,DO 5-2024,unmatched,Dreamland Village (33),0
+North Signal Village,APITONG EXT,,10000.0,DO 5-2024,unmatched,AFPEPVHAI (30),0
+North Signal Village,CHICO EXT,,10000.0,DO 5-2024,unmatched,AFPEPVHAI (22),0
+North Signal Village,KAMACHILE,,10000.0,DO 5-2024,unmatched,Dreamland Village (33),0
+North Signal Village,LANGKA EXT,,10000.0,DO 5-2024,unmatched,Dreamland Village (42),0
+North Signal Village,MOLAVE EXT,,10000.0,DO 5-2024,unmatched,Dreamland Village (42),0
+North Signal Village,SAAVEDRA,,10000.0,DO 5-2024,unmatched,Dreamland Village (35),0
+North Signal Village,SINIGUELAS EXT,,10000.0,DO 5-2024,unmatched,Dreamland Village (27),0
+North Signal Village,TINDALO EXT,,10000.0,DO 5-2024,unmatched,Dreamland Village (30),0
+North Signal Village,YAKAL EXT,,10000.0,DO 5-2024,unmatched,Dreamland Village (33),0
+Palingon,ALL OTHER STREETS,,9000.0,DO 5-2024,background,,0
+Palingon,ALL OTHER VILLAGES/SUBDIVISION:,,9000.0,DO 5-2024,background,,0
+Palingon,BANTAYAN ROAD,,12000.0,DO 5-2024,street,Bantayan Road,100
+Palingon,SAN PEDRO COMPOUND,NATIVIDAD,12000.0,DO 5-2024,street,San Pedro Street,97
+Palingon,CAPISTRANO ST.,,10000.0,DO 5-2024,street,Capistrano Street,100
+Palingon,MAGSALIN,,10000.0,DO 5-2024,street,Magsalin,100
+Palingon,SANGA STREET (BARANGAY ROAD),,10000.0,DO 5-2024,street,Sanga Street,100
+Palingon,CAYETANO BLVD FRMLY: LEVI MARIANO,,83000.0,DO 5-2024,unmatched,Alta Tierra Ville (36),0
+Palingon,C-6,,40000.0,DO 5-2024,unmatched,Taleboville (0),0
+Palingon,F. MANALO(P. BURGOS ST.),,36000.0,DO 5-2024,unmatched,G. K. - Philippine Bar (40),0
+Palingon,BARCELONA TOWNHOMES,,33000.0,DO 5-2024,unmatched,Alta Tierra Ville (34),0
+Palingon,GEN. A NATIVIDAD,P. BURGOS STREET,17000.0,DO 5-2024,unmatched,Bagong Pag-asa ng Taguig (46),0
+Palingon,VILLA MIRANDA,,15000.0,DO 5-2024,unmatched,Villa Juliana Subdivision (77),0
+Palingon,VILLA POLINTAN,,15000.0,DO 5-2024,unmatched,Villa Juliana Subdivision (74),0
+Palingon,MENVILLE SUBDIVISION,,12000.0,DO 5-2024,unmatched,Taleboville (63),0
+Palingon,SCHOOL ROAD (TES),SCHOOL IBABA (LIGID),11000.0,DO 5-2024,unmatched,Taleboville (29),0
+Palingon,CALLEJON 1 - 10,,10000.0,DO 5-2024,unmatched,Taleboville (0),0
+Palingon,COL. ESTACIO,IBAYO - PALINGON,10000.0,DO 5-2024,unmatched,Doña Esperanza (40),0
+Palingon,J. RAMOS,,10000.0,DO 5-2024,unmatched,Villa Juliana Subdivision (32),0
+Palingon,LICOD PALINGON,INTERIOR OF GEN. NATIVIDAD,10000.0,DO 5-2024,unmatched,Villa Juliana Subdivision (37),0
+Palingon,PANDAY PALINGON,,10000.0,DO 5-2024,unmatched,Doña Esperanza (48),0
+Palingon,TARTARIA,CAPT. CIANO,10000.0,DO 5-2024,unmatched,Alta Tierra Ville (40),0
+Palingon,MENDOZA COMPOUND,,10000.0,DO 5-2024,unmatched,Doña Esperanza (38),0
+Palingon,NATIVIDAD COMPOUND,BANTAYAN,10000.0,DO 5-2024,unmatched,Villa Juliana Subdivision (45),0
+Pembo,ALL OTHER STREETS,,59000.0,DO 5-2024,background,,0
+Pembo,SAMPAGUITA,Brgy. Rizal Bdry. To Brgy. Comembo Bdry.,80000.0,DO 5-2024,street,Sampaguita Street,97
+Pembo,ADELFA,,60000.0,DO 5-2024,street,Adelfa Street,97
+Pembo,AFRICAN DAISY,,60000.0,DO 5-2024,street,African Daisy Street,97
+Pembo,AGUILA,,60000.0,DO 5-2024,street,Aguila Street,97
+Pembo,AMAPOLA,,60000.0,DO 5-2024,street,Amapola Street,97
+Pembo,ASTER,,60000.0,DO 5-2024,street,Aster Street,97
+Pembo,AVOCADO,,60000.0,DO 5-2024,street,Avocado Street,97
+Pembo,AZALEA,,60000.0,DO 5-2024,street,Azalea Street,97
+Pembo,BEGONIA,,60000.0,DO 5-2024,street,Begonia Street,97
+Pembo,BIGNAY,,60000.0,DO 5-2024,street,Bignay Street,97
+Pembo,BOUGAINVILLA,,60000.0,DO 5-2024,street,Bougainvilla Street,97
+Pembo,CACTUS,,60000.0,DO 5-2024,street,Cactus,100
+Pembo,CADENA DE AMOR,,60000.0,DO 5-2024,street,Cadena de Amor Street,97
+Pembo,CALACHUCHI,,60000.0,DO 5-2024,street,Calachuchi Street,97
+Pembo,DAFFODIL,,60000.0,DO 5-2024,street,Daffodil Street,97
+Pembo,DAHLIA,,60000.0,DO 5-2024,street,Dahlia Street,97
+Pembo,DAMA DE NOCHE,,60000.0,DO 5-2024,street,Dama de Noche Street,97
+Pembo,DUHAT,,60000.0,DO 5-2024,street,Duhat Street,97
+Pembo,EMERALD,,60000.0,DO 5-2024,street,Emerald,100
+Pembo,ESCARLATA,,60000.0,DO 5-2024,street,Escarlata Street,97
+Pembo,ESCUELA,,60000.0,DO 5-2024,street,Escuela Street,97
+Pembo,GEMINI,,60000.0,DO 5-2024,street,Gemini Street,97
+Pembo,GUMAMELA,,60000.0,DO 5-2024,street,Gumamela Street,97
+Pembo,HUDYAT,,60000.0,DO 5-2024,street,Hudyat Street,97
+Pembo,ILANG - ILANG,,60000.0,DO 5-2024,street,Ilang-Ilang Street,97
+Pembo,JASMIN,,60000.0,DO 5-2024,street,Jasmin Street,97
+Pembo,JUPITER,,60000.0,DO 5-2024,street,Jupiter Street,97
+Pembo,KALAMANSI,,60000.0,DO 5-2024,street,Kalamansi Street,97
+Pembo,KAMPUPOT,,60000.0,DO 5-2024,street,Kampupot Street,97
+Pembo,KASOY,,60000.0,DO 5-2024,street,Kasoy Street,97
+Pembo,LAS MARIAS,,60000.0,DO 5-2024,street,Las Marias Street,97
+Pembo,LILAC,,60000.0,DO 5-2024,street,Lilac Street,97
+Pembo,LIRIO,,60000.0,DO 5-2024,street,Lirio Street,97
+Pembo,LOWER AZUCENA,,60000.0,DO 5-2024,street,Lower Azucena Street,97
+Pembo,MANSANAS,,60000.0,DO 5-2024,street,Mansanas Street,97
+Pembo,MARICEL,,60000.0,DO 5-2024,street,Maricel Street,97
+Pembo,MERCURY,,60000.0,DO 5-2024,street,Mercury Street,97
+Pembo,MIRASOL,,60000.0,DO 5-2024,street,Mirasol Street,97
+Pembo,MORNING GLORY,,60000.0,DO 5-2024,street,Morning Glory Street,97
+Pembo,MULLIEN,,60000.0,DO 5-2024,street,Mullien Street,97
+Pembo,NEPTUNE,,60000.0,DO 5-2024,street,Neptune Street,97
+Pembo,ORKIDIA,,60000.0,DO 5-2024,street,Orkidia Street,97
+Pembo,PAPAYA,,60000.0,DO 5-2024,street,Papaya Street,97
+Pembo,PARAISO,,60000.0,DO 5-2024,street,Paraiso Street,97
+Pembo,PIONEER,,60000.0,DO 5-2024,street,Pioneer Street,97
+Pembo,PITIMINI,,60000.0,DO 5-2024,street,Pitimini Street,97
+Pembo,ROSAL,,60000.0,DO 5-2024,street,Rosal Street,97
+Pembo,SAMPALOC,,60000.0,DO 5-2024,street,Sampaloc Street,97
+Pembo,SAN JOSE,,60000.0,DO 5-2024,street,San Jose Street,97
+Pembo,SAN PEDRO,,60000.0,DO 5-2024,street,San Pedro,100
+Pembo,SANTAN,,60000.0,DO 5-2024,street,Santan Street,97
+Pembo,SATURN,,60000.0,DO 5-2024,street,Saturn Street,97
+Pembo,SUNFLOWER,,60000.0,DO 5-2024,street,Sunflower Street,97
+Pembo,TAMBULI,,60000.0,DO 5-2024,street,Tambuli Street,97
+Pembo,TARGET RANGE BLVD.,,60000.0,DO 5-2024,street,Target Range Street,97
+Pembo,TARHATA,,60000.0,DO 5-2024,street,Tarhata Street,97
+Pembo,TAURUS,,60000.0,DO 5-2024,street,Taurus Street,97
+Pembo,TULIP (ROAD LOT 278),,60000.0,DO 5-2024,street,Tulip Street,97
+Pembo,UMBEL,,60000.0,DO 5-2024,street,Umbel Street,97
+Pembo,UNIVERSE,,60000.0,DO 5-2024,street,Universe Street,97
+Pembo,UPPER AZUCENA,,60000.0,DO 5-2024,street,Upper Azucena Street,97
+Pembo,VIOLETA,,60000.0,DO 5-2024,street,Violeta Street,97
+Pembo,WALING - WALING,,60000.0,DO 5-2024,street,Waling-Waling Street,97
+Pembo,ZENIA (same as Senia),,60000.0,DO 5-2024,street,Zenia Street,97
+Pembo,BOUGAINVILLA EXT,,59000.0,DO 5-2024,street,Bougainvilla Street,90.32258064516128
+Pembo,CADENA DE AMOR EXT.,,59000.0,DO 5-2024,street,Cadena de Amor Street,91.42857142857143
+Pembo,LOTUS EXT,,59000.0,DO 5-2024,street,Lotus Extension,100
+Pembo,ORKIDIA EXT.,,59000.0,DO 5-2024,street,Orkidia Extension,100
+Pembo,SAMPAGUITA EXT.,,59000.0,DO 5-2024,street,Sampaguita Street Extension,97
+Pembo,TARGET RANGE BLVD. EXT.,,59000.0,DO 5-2024,street,Target Range Extension,97
+Pembo,ACACIA,,60000.0,DO 5-2024,unmatched,Minipark (29),0
+Pembo,AQUARIUS,,60000.0,DO 5-2024,unmatched,Minipark (27),0
+Pembo,ARIES,,60000.0,DO 5-2024,unmatched,Minipark (33),0
+Pembo,BRIDAL BOUQUET,,60000.0,DO 5-2024,unmatched,Ridgewood Towers Condominiums (29),0
+Pembo,CAMIA,,60000.0,DO 5-2024,unmatched,Minipark (46),0
+Pembo,CARIAGA,,60000.0,DO 5-2024,unmatched,Minipark (27),0
+Pembo,CAPRICORN,,60000.0,DO 5-2024,unmatched,Ridgewood Towers Condominiums (28),0
+Pembo,CARNATION,,60000.0,DO 5-2024,unmatched,McKinley Hill Village (27),0
+Pembo,CHARLIE,,60000.0,DO 5-2024,unmatched,McKinley Hill Village (40),0
+Pembo,DIAMOND,,60000.0,DO 5-2024,unmatched,McKinley Hill Village (30),0
+Pembo,DUNHILL,,60000.0,DO 5-2024,unmatched,McKinley Hill Village (50),0
+Pembo,DURIAN,,60000.0,DO 5-2024,unmatched,Minipark (29),0
+Pembo,EARTH,,60000.0,DO 5-2024,unmatched,Minipark (31),0
+Pembo,JADE(same as Jade Extension),,60000.0,DO 5-2024,unmatched,Ridgewood Towers Condominiums (33),0
+Pembo,JADE EXTENSION,,60000.0,DO 5-2024,unmatched,Ridgewood Towers Condominiums (39),0
+Pembo,LARIAGA,,60000.0,DO 5-2024,unmatched,LOGCOM Village (31),0
+Pembo,LOTUS,,60000.0,DO 5-2024,unmatched,LOGCOM Village (40),0
+Pembo,LUCBAN,,60000.0,DO 5-2024,unmatched,LOGCOM Village (33),0
+Pembo,MARANG,,60000.0,DO 5-2024,unmatched,Minipark (43),0
+Pembo,MARS,,60000.0,DO 5-2024,unmatched,Minipark (50),0
+Pembo,MAYA,,60000.0,DO 5-2024,unmatched,Minipark (33),0
+Pembo,PANAY,,60000.0,DO 5-2024,unmatched,Minipark (31),0
+Pembo,UPPER PARAISO,,60000.0,DO 5-2024,unmatched,Ridgewood Towers Condominiums (30),0
+Pembo,LOWER PARAISO,,60000.0,DO 5-2024,unmatched,LOGCOM Village (32),0
+Pembo,PISCES,,60000.0,DO 5-2024,unmatched,McKinley Hill Village (33),0
+Pembo,PLUTO,,60000.0,DO 5-2024,unmatched,LOGCOM Village (36),0
+Pembo,ROSAS,,60000.0,DO 5-2024,unmatched,JL's Compound (29),0
+Pembo,RUBY,,60000.0,DO 5-2024,unmatched,Minipark (17),0
+Pembo,SENIA (same as Zenia),,60000.0,DO 5-2024,unmatched,Minipark (46),0
+Pembo,STA MARIA,,60000.0,DO 5-2024,unmatched,Minipark (35),0
+Pembo,TAÑAQUIN,,60000.0,DO 5-2024,unmatched,Minipark (25),0
+Pembo,TOPAZ,,60000.0,DO 5-2024,unmatched,Minipark (31),0
+Pembo,URANUS,,60000.0,DO 5-2024,unmatched,Ridgewood Towers Condominiums (19),0
+Pembo,VENUS,,60000.0,DO 5-2024,unmatched,Ridgewood Towers Condominiums (19),0
+Pembo,WATERLILY,,60000.0,DO 5-2024,unmatched,McKinley Hill Village (36),0
+Pembo,XYRIS,,60000.0,DO 5-2024,unmatched,McKinley Hill Village (24),0
+Pembo,YELLOW BELL,,60000.0,DO 5-2024,unmatched,McKinley Hill Village (33),0
+Pembo,ALLEY 1,,59000.0,DO 5-2024,unmatched,McKinley Hill Village (0),0
+Pembo,ALLEY 2,,59000.0,DO 5-2024,unmatched,McKinley Hill Village (0),0
+Pembo,ALLEY A,,59000.0,DO 5-2024,unmatched,McKinley Hill Village (40),0
+Pembo,ALLEY C,,59000.0,DO 5-2024,unmatched,McKinley Hill Village (40),0
+Pembo,CACTUS EXT,,59000.0,DO 5-2024,unmatched,Ridgewood Towers Condominiums (28),0
+Pembo,ROAD I - CALACHUCHI,,59000.0,DO 5-2024,unmatched,McKinley Hill Village (0),0
+Pembo,DAHLIA EXTENSION,,59000.0,DO 5-2024,unmatched,McKinley Hill Village (34),0
+Pembo,GUMAMELA EXT.,,59000.0,DO 5-2024,unmatched,McKinley Hill Village (24),0
+Pembo,JASMIN EXT.,cor. Sampaguita St.,59000.0,DO 5-2024,unmatched,McKinley Hill Village (35),0
+Pembo,JUPITER INT.,,59000.0,DO 5-2024,unmatched,Minipark (42),0
+Pembo,ROAD LOT 275,,59000.0,DO 5-2024,unmatched,McKinley Hill Village (0),0
+Pembo,ROAD LOT 276,,59000.0,DO 5-2024,unmatched,McKinley Hill Village (0),0
+Pembo,ROAD LOT 277,,59000.0,DO 5-2024,unmatched,McKinley Hill Village (0),0
+Pinagsama,ALL OTHERS STREETS,,90000.0,DO 5-2024,background,,0
+Pinagsama,ALL OTHER VILLAGE/SUBDIVISIONS,,16000.0,DO 5-2024,background,,0
+Pinagsama,MRT AVE.,,92000.0,DO 5-2024,unmatched,Minipark (36),0
+Pinagsama,C-5 SERVICE ROAD,,91000.0,DO 5-2024,unmatched,AFPOVAI Phase V-A (45),0
+Pinagsama,PINAGSAMA VILLAGE,PHASE I,26000.0,DO 5-2024,unmatched,Tuscany Private Estate (42),0
+Pinagsama,PINAGSAMA VILLAGE,PHASE II,26000.0,DO 5-2024,unmatched,Tuscany Private Estate (42),0
+Pinagsama,PINAGSAMA VILLAGE,PHASE III,26000.0,DO 5-2024,unmatched,Tuscany Private Estate (42),0
+Pinagsama,RELOCATION SITE: C-5 & BCDA,,25000.0,DO 5-2024,unmatched,AFPOVAI Phase V-A (40),0
+Pinagsama,PALAR VILLAGE,,25000.0,DO 5-2024,unmatched,Minipark (46),0
+Pinagsama,STO NINO VILLAGE,,25000.0,DO 5-2024,unmatched,Ridgewood Towers Condominiums (40),0
+Pinagsama,WILDCAT VILLAGE,,25000.0,DO 5-2024,unmatched,LOGCOM Village (31),0
+Pinagsama,E P HOUSING PHASE 1,ZONE 1,17000.0,DO 5-2024,unmatched,Enlisted Personnel Village Phase 1 (42),0
+Pinagsama,E P HOUSING PHASE 1,ZONE 2,17000.0,DO 5-2024,unmatched,Enlisted Personnel Village Phase 1 (42),0
+Pinagsama,MCKINLEY HILL VILLAGE,,280000.0,DO 5-2024,village,McKinley Hill Village,100
+Pitogo,ALL OTHER STREETS,,101000.0,DO 5-2024,background,,0
+Pitogo,KALAYAAN AVENUE,Brgy. Pinagkaisahan Bdry. to Guadalupe Nuevo Bdry.,133000.0,DO 5-2024,unmatched,Manila Golf and Country Club (25),0
+Pitogo,PALAWAN,Kalayaan Ave. to Panay St.,133000.0,DO 5-2024,unmatched,Manila Golf and Country Club (26),0
+Pitogo,PALAWAN EXT.,,133000.0,DO 5-2024,unmatched,Manila Golf and Country Club (29),0
+Pitogo,CEBU,,118000.0,DO 5-2024,unmatched,Manila Golf and Country Club (21),0
+Pitogo,AKLAN,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (28),0
+Pitogo,D.V.LAURILLA,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (0),0
+Pitogo,GUIMARAS,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (26),0
+Pitogo,HOMONHON,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (25),0
+Pitogo,HUNDRED ISLAND,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (37),0
+Pitogo,ISLA VERDE,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (29),0
+Pitogo,LEYTE,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (14),0
+Pitogo,LUZON,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (28),0
+Pitogo,MACTAN,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (27),0
+Pitogo,MASBATE,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (26),0
+Pitogo,MINDORO,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (26),0
+Pitogo,NEGROS,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (21),0
+Pitogo,PANAY,Brgy. Pinagkaisahan bdry. to Palawan St.,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (28),0
+Pitogo,ROMBLON,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (26),0
+Pitogo,SAMAR,,108000.0,DO 5-2024,unmatched,Manila Golf and Country Club (21),0
+Pitogo,BOHOL,,103000.0,DO 5-2024,unmatched,Manila Golf and Country Club (28),0
+Pitogo,CATANDUANES,,103000.0,DO 5-2024,unmatched,Manila Golf and Country Club (29),0
+Pitogo,CORREGIDOR,,103000.0,DO 5-2024,unmatched,Manila Golf and Country Club (29),0
+Pitogo,LIMASAWA,,103000.0,DO 5-2024,unmatched,Manila Golf and Country Club (25),0
+Pitogo,MARINDUQUE,,103000.0,DO 5-2024,unmatched,Manila Golf and Country Club (29),0
+Pitogo,SIQUIJOR,,103000.0,DO 5-2024,unmatched,Manila Golf and Country Club (19),0
+Pitogo,SURIGAO,,103000.0,DO 5-2024,unmatched,Manila Golf and Country Club (26),0
+Pitogo,BASILAN,,101000.0,DO 5-2024,unmatched,Manila Golf and Country Club (32),0
+Pitogo,BATANES (fmly. Batangas),,101000.0,DO 5-2024,unmatched,Manila Golf and Country Club (33),0
+Pitogo,BILIRAN,,101000.0,DO 5-2024,unmatched,Manila Golf and Country Club (26),0
+Pitogo,SARANGANI,,101000.0,DO 5-2024,unmatched,Manila Golf and Country Club (30),0
+Pitogo,SECOGON,,101000.0,DO 5-2024,unmatched,Manila Golf and Country Club (32),0
+Pitogo,SULU,,101000.0,DO 5-2024,unmatched,Manila Golf and Country Club (21),0
+Pitogo,TABLAS,,101000.0,DO 5-2024,unmatched,Manila Golf and Country Club (28),0
+Pitogo,TAWI-TAWI,,101000.0,DO 5-2024,unmatched,Manila Golf and Country Club (24),0
+Post Proper Northside,ALL OTHER STREETS,,200000.0,DO 5-2024,background,,0
+Post Proper Northside,24TH AVENUE,,350000.0,DO 5-2024,street,24th Avenue,100
+Post Proper Northside,38TH ST. (UNIVERSITY PARKWAY),,350000.0,DO 5-2024,street,University Parkway,100
+Post Proper Northside,C-5 ROAD (CARLOS P. GARCIA AVE.),,350000.0,DO 5-2024,street,Carlos P. Garcia Avenue,100
+Post Proper Northside,FEDERACION DRIVE,,350000.0,DO 5-2024,street,Federacion Drive,100
+Post Proper Northside,FORBES TOWN ROAD,,350000.0,DO 5-2024,street,Forbes Town Road,100
+Post Proper Northside,LANE C,,350000.0,DO 5-2024,street,Lane C,100
+Post Proper Northside,LANE D,,350000.0,DO 5-2024,street,Lane D,100
+Post Proper Northside,LANE O,,350000.0,DO 5-2024,street,Lane O,100
+Post Proper Northside,LANE P,,350000.0,DO 5-2024,street,Lane P,100
+Post Proper Northside,MCKINLEY PARKWAY,,350000.0,DO 5-2024,street,McKinley Parkway,100
+Post Proper Northside,MCKINLEY ROAD,,350000.0,DO 5-2024,street,McKinley Road,100
+Post Proper Northside,MORNING GLORY ST,,350000.0,DO 5-2024,street,Morning Glory Street,100
+Post Proper Northside,RIZAL DRIVE,,350000.0,DO 5-2024,street,Rizal Drive,100
+Post Proper Northside,JAIL SIDE,,350000.0,DO 5-2024,unmatched,Pasig (43),0
+Post Proper Northside,J.P. RIZAL,Lawton Ave. to Brgy. West Rembo Bdry.(UMAK),350000.0,DO 5-2024,unmatched,Regent Parkway (35),0
+Post Proper Northside,LAWTON AVE.,Kalayaan Ave. to JP Rizal St.,350000.0,DO 5-2024,unmatched,Fairways Tower (42),0
+Post Proper Northside,KALAYAAN AVE.,Lawton Ave. to Brgy. West Rembo Bdry.,350000.0,DO 5-2024,unmatched,Regent Parkway (36),0
+Post Proper Northside,TEACHERS COMPOUND,,350000.0,DO 5-2024,unmatched,Two Serendra (42),0
+Post Proper Northside,10TH ST.,,350000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Northside,11TH ST.,,350000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Northside,38TH DRIVE N.,,350000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Northside,BACK ALLEY,,350000.0,DO 5-2024,unmatched,East Gallery Place (57),0
+Post Proper Northside,BONIFACIO AVENUE,,350000.0,DO 5-2024,unmatched,The Icon (46),0
+Post Proper Northside,BURGOS CIRCLE,,350000.0,DO 5-2024,unmatched,Manila Golf and Country Club (44),0
+Post Proper Northside,CAVALRY HILL ST.,,350000.0,DO 5-2024,unmatched,East Gallery Place (47),0
+Post Proper Northside,J.P. RIZAL EXTENSION,,350000.0,DO 5-2024,unmatched,Essensa East Forbes (38),0
+Post Proper Northside,JUSTICIA DRIVE,,350000.0,DO 5-2024,unmatched,Minipark (38),0
+Post Proper Northside,KALAYAAN AVENUE,,350000.0,DO 5-2024,unmatched,Regent Parkway (36),0
+Post Proper Northside,KATIPUNAN CIRCLE,,350000.0,DO 5-2024,unmatched,One McKinley Place (41),0
+Post Proper Northside,LANE A,,350000.0,DO 5-2024,unmatched,East Gallery Place (42),0
+Post Proper Northside,LANE B,,350000.0,DO 5-2024,unmatched,Forbeswood Parklane (48),0
+Post Proper Northside,LANE Q,,350000.0,DO 5-2024,unmatched,One McKinley Place (33),0
+Post Proper Northside,LANE R,,350000.0,DO 5-2024,unmatched,Avant Apartments at The Fort (34),0
+Post Proper Northside,LANE S,,350000.0,DO 5-2024,unmatched,Pasig (36),0
+Post Proper Northside,MABOLO ST.,,350000.0,DO 5-2024,unmatched,Manila Golf and Country Club (33),0
+Post Proper Northside,NARRA EXTENSION,,350000.0,DO 5-2024,unmatched,Serendra (43),0
+Post Proper Northside,PILI AVENUE,,350000.0,DO 5-2024,unmatched,Pasig (44),0
+Post Proper Southside,ALL OTHER STREETS,,300000.0,DO 5-2024,background,,0
+Post Proper Southside,AGUILA,,300000.0,DO 5-2024,street,Aguila Street,97
+Post Proper Southside,C-5 ROAD (CARLOS P/ GARCIA AVE.),,300000.0,DO 5-2024,street,Carlos P. Garcia Avenue,100
+Post Proper Southside,CAMPUS AVE.,,300000.0,DO 5-2024,street,Campus Avenue,100
+Post Proper Southside,CHAMPAGNE,,300000.0,DO 5-2024,street,Champagne Street,97
+Post Proper Southside,COUNTRY CLUB RD.,,300000.0,DO 5-2024,street,Country Club,97
+Post Proper Southside,FLORENCE WAY,,300000.0,DO 5-2024,street,Florence Way,100
+Post Proper Southside,HERMITAGE,,300000.0,DO 5-2024,street,Hermitage Street,97
+Post Proper Southside,HIGHLAND,,300000.0,DO 5-2024,street,Highland,100
+Post Proper Southside,HILLSIDE,,300000.0,DO 5-2024,street,Hillside,100
+Post Proper Southside,LAWTON AVE.,,300000.0,DO 5-2024,street,Lawton Avenue,100
+Post Proper Southside,MAPLE RD.,,300000.0,DO 5-2024,street,Maple,97
+Post Proper Southside,MCKINLEY DR.,,300000.0,DO 5-2024,street,McKinley Road,97
+Post Proper Southside,MCKINLEY PARK RD.,,300000.0,DO 5-2024,street,McKinley Park Road,100
+Post Proper Southside,MCKINLEY RD.,,300000.0,DO 5-2024,street,McKinley Road,100
+Post Proper Southside,NAPLES DR.,,300000.0,DO 5-2024,street,Naples Drive,100
+Post Proper Southside,OLD LAWTON AVE.,,300000.0,DO 5-2024,street,Old Lawton Avenue,100
+Post Proper Southside,PARK AVENUE,,300000.0,DO 5-2024,street,Park Avenue,100
+Post Proper Southside,PINETREE RD.,,300000.0,DO 5-2024,street,Pinetree,97
+Post Proper Southside,PRINCETON,,300000.0,DO 5-2024,street,Princeton,100
+Post Proper Southside,SAVOY,,300000.0,DO 5-2024,street,Savoy Street,97
+Post Proper Southside,ST. TROPEZ,,300000.0,DO 5-2024,street,Saint Tropez Avenue,97
+Post Proper Southside,UPPER MCKINLEY RD.,,300000.0,DO 5-2024,street,Upper McKinley Road,100
+Post Proper Southside,VENEZIA DR.,,300000.0,DO 5-2024,street,Venezia Drive,100
+Post Proper Southside,ALL LOTS,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (38),0
+Post Proper Southside,ABRAMS,,300000.0,DO 5-2024,unmatched,Fairways Tower (33),0
+Post Proper Southside,BULUSAN,,300000.0,DO 5-2024,unmatched,Consular Subdivision (40),0
+Post Proper Southside,ISAROG,,300000.0,DO 5-2024,unmatched,Consular Subdivision (43),0
+Post Proper Southside,KANLAON,,300000.0,DO 5-2024,unmatched,Consular Subdivision (40),0
+Post Proper Southside,MAKILING,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (48),0
+Post Proper Southside,MARSHALL,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (38),0
+Post Proper Southside,MAYON,,300000.0,DO 5-2024,unmatched,St. Moritz (36),0
+Post Proper Southside,MT. APO,,300000.0,DO 5-2024,unmatched,Fifth Avenue Place (35),0
+Post Proper Southside,PERSHING,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (35),0
+Post Proper Southside,PINATUBO,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (43),0
+Post Proper Southside,SCORPION,,300000.0,DO 5-2024,unmatched,St. Moritz (43),0
+Post Proper Southside,TAAL,,300000.0,DO 5-2024,unmatched,Regent Parkway (33),0
+Post Proper Southside,VULCAN,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (48),0
+Post Proper Southside,ABBOT,,300000.0,DO 5-2024,unmatched,St. Moritz (36),0
+Post Proper Southside,ARCHER,,300000.0,DO 5-2024,unmatched,Fairways Tower (42),0
+Post Proper Southside,BERRET,,300000.0,DO 5-2024,unmatched,Regent Parkway (40),0
+Post Proper Southside,CENTURION,,300000.0,DO 5-2024,unmatched,Consular Subdivision (47),0
+Post Proper Southside,CHIEFTAIN,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (42),0
+Post Proper Southside,CHURCHILL,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (45),0
+Post Proper Southside,CRUZADER A & B,,300000.0,DO 5-2024,unmatched,Consular Subdivision (40),0
+Post Proper Southside,FOX,,300000.0,DO 5-2024,unmatched,Fairways Tower (25),0
+Post Proper Southside,GARDEN LLOYD,,300000.0,DO 5-2024,unmatched,McKinley Hill Garden Villas (53),0
+Post Proper Southside,HARRY HOPPING,,300000.0,DO 5-2024,unmatched,Fairways Tower (38),0
+Post Proper Southside,HORNET,,300000.0,DO 5-2024,unmatched,St. Moritz (50),0
+Post Proper Southside,SEA LION,,300000.0,DO 5-2024,unmatched,Consular Subdivision (50),0
+Post Proper Southside,STRIKER,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (36),0
+Post Proper Southside,SWINGFIRE,,300000.0,DO 5-2024,unmatched,Minipark (47),0
+Post Proper Southside,VALENTINE,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (42),0
+Post Proper Southside,BARON,,300000.0,DO 5-2024,unmatched,Forbes Park South (38),0
+Post Proper Southside,CENTUAR,,300000.0,DO 5-2024,unmatched,Consular Subdivision (67),0
+Post Proper Southside,CHALLENGER,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (43),0
+Post Proper Southside,COMET,,300000.0,DO 5-2024,unmatched,LOGCOM Village (55),0
+Post Proper Southside,CRUISER,,300000.0,DO 5-2024,unmatched,Consular Subdivision (40),0
+Post Proper Southside,FIREFLY,,300000.0,DO 5-2024,unmatched,Fifth Avenue Place (44),0
+Post Proper Southside,INFANTRY,,300000.0,DO 5-2024,unmatched,Minipark (50),0
+Post Proper Southside,MADER,,300000.0,DO 5-2024,unmatched,Minipark (46),0
+Post Proper Southside,MATILDA,,300000.0,DO 5-2024,unmatched,Minipark (40),0
+Post Proper Southside,TODPOLE,,300000.0,DO 5-2024,unmatched,Fifth Avenue Place (44),0
+Post Proper Southside,VICKER,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (42),0
+Post Proper Southside,WHIPPER,,300000.0,DO 5-2024,unmatched,Minipark (40),0
+Post Proper Southside,ALLIGATOR,,300000.0,DO 5-2024,unmatched,Fairways Tower (55),0
+Post Proper Southside,AMPARO TIGER,,300000.0,DO 5-2024,unmatched,Fairways Tower (48),0
+Post Proper Southside,BOBCAT,,300000.0,DO 5-2024,unmatched,Forbes Park South (36),0
+Post Proper Southside,EAGLE,,300000.0,DO 5-2024,unmatched,Regent Parkway (32),0
+Post Proper Southside,EASTWIND,,300000.0,DO 5-2024,unmatched,Essensa East Forbes (38),0
+Post Proper Southside,ELEPHANT,,300000.0,DO 5-2024,unmatched,Regent Parkway (36),0
+Post Proper Southside,GRASSHOPPER,,300000.0,DO 5-2024,unmatched,Fairways Tower (42),0
+Post Proper Southside,GRILLE,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (42),0
+Post Proper Southside,JAGUAR,,300000.0,DO 5-2024,unmatched,Consular Subdivision (43),0
+Post Proper Southside,PANTHER,,300000.0,DO 5-2024,unmatched,Minipark (40),0
+Post Proper Southside,PIRATE,,300000.0,DO 5-2024,unmatched,Fairways Tower (53),0
+Post Proper Southside,PUMA,,300000.0,DO 5-2024,unmatched,Consular Subdivision (33),0
+Post Proper Southside,SARACEN,,300000.0,DO 5-2024,unmatched,Regent Parkway (48),0
+Post Proper Southside,STAGHAUNT,,300000.0,DO 5-2024,unmatched,Regent Parkway (35),0
+Post Proper Southside,TIGER MOUSE,,300000.0,DO 5-2024,unmatched,Fairways Tower (42),0
+Post Proper Southside,APAG,,300000.0,DO 5-2024,unmatched,Minipark (33),0
+Post Proper Southside,APITONG,,300000.0,DO 5-2024,unmatched,Fairways Tower (40),0
+Post Proper Southside,ATIS,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (32),0
+Post Proper Southside,BARTOLOME,,300000.0,DO 5-2024,unmatched,Fairways Tower (45),0
+Post Proper Southside,BAKAWAN,,300000.0,DO 5-2024,unmatched,Regent Parkway (48),0
+Post Proper Southside,CHICOS,,300000.0,DO 5-2024,unmatched,LOGCOM Village (36),0
+Post Proper Southside,DADO,,300000.0,DO 5-2024,unmatched,Fairways Tower (24),0
+Post Proper Southside,DURIAN,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (38),0
+Post Proper Southside,FERN,,300000.0,DO 5-2024,unmatched,Fairways Tower (35),0
+Post Proper Southside,GUAVA,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (40),0
+Post Proper Southside,MABINI,,300000.0,DO 5-2024,unmatched,Minipark (57),0
+Post Proper Southside,TIAGA,,300000.0,DO 5-2024,unmatched,Regent Parkway (32),0
+Post Proper Southside,DOVE,,300000.0,DO 5-2024,unmatched,Fairways Tower (24),0
+Post Proper Southside,HERON,,300000.0,DO 5-2024,unmatched,Consular Subdivision (31),0
+Post Proper Southside,KINGFISHER,,300000.0,DO 5-2024,unmatched,Minipark (44),0
+Post Proper Southside,LAWIN,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (33),0
+Post Proper Southside,MARTINEZ,,300000.0,DO 5-2024,unmatched,St. Moritz (57),0
+Post Proper Southside,MAYA,,300000.0,DO 5-2024,unmatched,Minipark (33),0
+Post Proper Southside,ORIOLE,,300000.0,DO 5-2024,unmatched,St. Moritz (50),0
+Post Proper Southside,OWL,,300000.0,DO 5-2024,unmatched,Consular Subdivision (36),0
+Post Proper Southside,PIGEON,,300000.0,DO 5-2024,unmatched,Regent Parkway (40),0
+Post Proper Southside,WOODPECKER,,300000.0,DO 5-2024,unmatched,Fairways Tower (35),0
+Post Proper Southside,CAMIA,,300000.0,DO 5-2024,unmatched,Minipark (46),0
+Post Proper Southside,CARNATION,,300000.0,DO 5-2024,unmatched,Fairways Tower (45),0
+Post Proper Southside,DAHLIA,,300000.0,DO 5-2024,unmatched,Fifth Avenue Place (35),0
+Post Proper Southside,DAISY,,300000.0,DO 5-2024,unmatched,Fairways Tower (33),0
+Post Proper Southside,GUMAMELA,,300000.0,DO 5-2024,unmatched,Consular Subdivision (38),0
+Post Proper Southside,LOTUS,,300000.0,DO 5-2024,unmatched,St. Moritz (40),0
+Post Proper Southside,MAGNOLIA,,300000.0,DO 5-2024,unmatched,Minipark (50),0
+Post Proper Southside,ORCHID,,300000.0,DO 5-2024,unmatched,St. Moritz (50),0
+Post Proper Southside,SANTAN,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (38),0
+Post Proper Southside,SUNFLOWER,,300000.0,DO 5-2024,unmatched,Consular Subdivision (47),0
+Post Proper Southside,WALING-WALING,,300000.0,DO 5-2024,unmatched,Manila Golf and Country Club (32),0
+Post Proper Southside,JUAN LUNA,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (42),0
+Post Proper Southside,PADRE ZAMORA,,300000.0,DO 5-2024,unmatched,Regent Parkway (46),0
+Post Proper Southside,AGUINALDO,,300000.0,DO 5-2024,unmatched,Fairways Tower (36),0
+Post Proper Southside,TANDANG SORA,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (44),0
+Post Proper Southside,PADRE FAURA,,300000.0,DO 5-2024,unmatched,Fairways Tower (50),0
+Post Proper Southside,P. BURGOS,,300000.0,DO 5-2024,unmatched,Manila Golf and Country Club (39),0
+Post Proper Southside,T.M. KALAW,,300000.0,DO 5-2024,unmatched,Fifth Avenue Place (40),0
+Post Proper Southside,M.H. DEL PILAR,,300000.0,DO 5-2024,unmatched,McKinley Hill Garden Villas (51),0
+Post Proper Southside,JACINTO,,300000.0,DO 5-2024,unmatched,McKinley West (40),0
+Post Proper Southside,PALKATA,,300000.0,DO 5-2024,unmatched,Regent Parkway (48),0
+Post Proper Southside,IPIL IPIL,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (45),0
+Post Proper Southside,TALISAY,,300000.0,DO 5-2024,unmatched,Fairways Tower (40),0
+Post Proper Southside,BALETE,,300000.0,DO 5-2024,unmatched,Essensa East Forbes (33),0
+Post Proper Southside,MOLAVE,,300000.0,DO 5-2024,unmatched,Consular Subdivision (43),0
+Post Proper Southside,DAPDAP,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (29),0
+Post Proper Southside,NARRA,,300000.0,DO 5-2024,unmatched,Consular Subdivision (46),0
+Post Proper Southside,BAYABAS,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (29),0
+Post Proper Southside,CHEZZA,,300000.0,DO 5-2024,unmatched,Consular Subdivision (29),0
+Post Proper Southside,CHICO,,300000.0,DO 5-2024,unmatched,LOGCOM Village (36),0
+Post Proper Southside,DALANDAN,,300000.0,DO 5-2024,unmatched,Regent Parkway (27),0
+Post Proper Southside,DALANGHITA,,300000.0,DO 5-2024,unmatched,Minipark (33),0
+Post Proper Southside,DUHAT,,300000.0,DO 5-2024,unmatched,Consular Subdivision (31),0
+Post Proper Southside,GUYABANO,,300000.0,DO 5-2024,unmatched,LOGCOM Village (29),0
+Post Proper Southside,LANSONES,,300000.0,DO 5-2024,unmatched,Essensa East Forbes (40),0
+Post Proper Southside,MABOLO,,300000.0,DO 5-2024,unmatched,St. Moritz (33),0
+Post Proper Southside,MACOPA,,300000.0,DO 5-2024,unmatched,Consular Subdivision (43),0
+Post Proper Southside,MANGGA,,300000.0,DO 5-2024,unmatched,Minipark (43),0
+Post Proper Southside,POMELO,,300000.0,DO 5-2024,unmatched,St. Moritz (33),0
+Post Proper Southside,SANTOL,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (38),0
+Post Proper Southside,ALMOND,,300000.0,DO 5-2024,unmatched,St. Moritz (33),0
+Post Proper Southside,AVOCADO,,300000.0,DO 5-2024,unmatched,LOGCOM Village (46),0
+Post Proper Southside,EVERLASTING,,300000.0,DO 5-2024,unmatched,Stamford Executive Residences (36),0
+Post Proper Southside,GUIJO,,300000.0,DO 5-2024,unmatched,LOGCOM Village (36),0
+Post Proper Southside,ILANG-ILANG,,300000.0,DO 5-2024,unmatched,McKinley Hill Garden Villas (43),0
+Post Proper Southside,JASMINE,,300000.0,DO 5-2024,unmatched,McKinley West (40),0
+Post Proper Southside,KARANGALAN,,300000.0,DO 5-2024,unmatched,Regent Parkway (42),0
+Post Proper Southside,ROSAL,,300000.0,DO 5-2024,unmatched,Consular Subdivision (46),0
+Post Proper Southside,SAMPAGUITA,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (40),0
+Post Proper Southside,JADE,,300000.0,DO 5-2024,unmatched,Fifth Avenue Place (27),0
+Post Proper Southside,OPAL,,300000.0,DO 5-2024,unmatched,Consular Subdivision (33),0
+Post Proper Southside,RUBY,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (32),0
+Post Proper Southside,601,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,602,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,603,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,604,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,605,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,606,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,607,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,608,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,609,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,610,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,611,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,612,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,613,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,614,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,615,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,616,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,617,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,619,,300000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Post Proper Southside,BAYANI ROAD,,300000.0,DO 5-2024,unmatched,Manila Golf and Country Club (33),0
+Post Proper Southside,ACACIA DR.,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (38),0
+Post Proper Southside,ARANAI,,300000.0,DO 5-2024,unmatched,Regent Parkway (40),0
+Post Proper Southside,AVIGNON,,300000.0,DO 5-2024,unmatched,Manila Golf and Country Club (32),0
+Post Proper Southside,BAYANI RD.,,300000.0,DO 5-2024,unmatched,Manila Golf and Country Club (33),0
+Post Proper Southside,BLUE MARLIN,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (42),0
+Post Proper Southside,BLUEBERRY ST.,,300000.0,DO 5-2024,unmatched,Regent Parkway (35),0
+Post Proper Southside,BLUEBOZ ST.,,300000.0,DO 5-2024,unmatched,St. Moritz (31),0
+Post Proper Southside,BONIFACIO AVE.,,300000.0,DO 5-2024,unmatched,Fifth Avenue Place (40),0
+Post Proper Southside,COMMANSO ST,,300000.0,DO 5-2024,unmatched,Consular Subdivision (50),0
+Post Proper Southside,COMMANDO RD.CONSULAR RD.,,300000.0,DO 5-2024,unmatched,Consular Subdivision (64),0
+Post Proper Southside,COUNTRY CLUB CIR,,300000.0,DO 5-2024,unmatched,Manila Golf and Country Club (60),0
+Post Proper Southside,DON CHINO ROCES EXT. (PASONG TAMO),,300000.0,DO 5-2024,unmatched,McKinley West (45),0
+Post Proper Southside,FAIRGREEN,,300000.0,DO 5-2024,unmatched,Regent Parkway (52),0
+Post Proper Southside,FAIRWOOD,,300000.0,DO 5-2024,unmatched,Fairways Tower (57),0
+Post Proper Southside,GRANT ST.,,300000.0,DO 5-2024,unmatched,Regent Parkway (42),0
+Post Proper Southside,HPA RD.,,300000.0,DO 5-2024,unmatched,Fifth Avenue Place (43),0
+Post Proper Southside,ILANG ILANG,,300000.0,DO 5-2024,unmatched,McKinley Hill Garden Villas (43),0
+Post Proper Southside,LATOUR,,300000.0,DO 5-2024,unmatched,Consular Subdivision (43),0
+Post Proper Southside,LAWIN ST.,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (33),0
+Post Proper Southside,LOCUST ST.,,300000.0,DO 5-2024,unmatched,LOGCOM Village (50),0
+Post Proper Southside,LT. GEN. ALFONSO ARELLANO,,300000.0,DO 5-2024,unmatched,McKinley Hill Garden Villas (45),0
+Post Proper Southside,LYON,,300000.0,DO 5-2024,unmatched,LOGCOM Village (40),0
+Post Proper Southside,MARGAUX,,300000.0,DO 5-2024,unmatched,Minipark (40),0
+Post Proper Southside,MAUTON,,300000.0,DO 5-2024,unmatched,St. Moritz (33),0
+Post Proper Southside,MC ANDREW RD.,,300000.0,DO 5-2024,unmatched,McKinley West (45),0
+Post Proper Southside,MGEN. M. MADALEM,,300000.0,DO 5-2024,unmatched,Regent Parkway (43),0
+Post Proper Southside,N RD.,,300000.0,DO 5-2024,unmatched,Consular Subdivision (22),0
+Post Proper Southside,NEW CASTLE,,300000.0,DO 5-2024,unmatched,McKinley West (43),0
+Post Proper Southside,ORANGE GROVE DR.,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (44),0
+Post Proper Southside,PARKVIEW RD.,,300000.0,DO 5-2024,unmatched,Minipark (50),0
+Post Proper Southside,PEBBLEWOOD,,300000.0,DO 5-2024,unmatched,LOGCOM Village (38),0
+Post Proper Southside,PENGUIN ST.,,300000.0,DO 5-2024,unmatched,Regent Parkway (38),0
+Post Proper Southside,PINECREST,,300000.0,DO 5-2024,unmatched,McKinley West (55),0
+Post Proper Southside,R. PAPA ST.,,300000.0,DO 5-2024,unmatched,Regent Parkway (50),0
+Post Proper Southside,RICHMORE,,300000.0,DO 5-2024,unmatched,St. Moritz (43),0
+Post Proper Southside,ROSAL ST.,,300000.0,DO 5-2024,unmatched,Consular Subdivision (46),0
+Post Proper Southside,SAMPAGUITA ST.,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (40),0
+Post Proper Southside,SARACEN ST.,,300000.0,DO 5-2024,unmatched,Regent Parkway (48),0
+Post Proper Southside,SERVICE RD.,,300000.0,DO 5-2024,unmatched,The Venice Luxury Residences (40),0
+Post Proper Southside,SOMERSET,,300000.0,DO 5-2024,unmatched,St. Moritz (43),0
+Post Proper Southside,ST. JULIEN,,300000.0,DO 5-2024,unmatched,McKinley Hill Village (32),0
+Post Proper Southside,TIGER MOUSE ST.,,300000.0,DO 5-2024,unmatched,Fairways Tower (42),0
+Post Proper Southside,TURIN,,300000.0,DO 5-2024,unmatched,Tuscany Private Estate (40),0
+Post Proper Southside,VIIPER,,300000.0,DO 5-2024,unmatched,Minipark (57),0
+Post Proper Southside,WOODLAND,,300000.0,DO 5-2024,unmatched,Consular Subdivision (38),0
+Post Proper Southside,WOODPECKER ST.,,300000.0,DO 5-2024,unmatched,Fairways Tower (35),0
+Post Proper Southside,WOODRIDGE,,300000.0,DO 5-2024,unmatched,St. Moritz (40),0
+Post Proper Southside,26TH ST.,,100000.0,DO 5-2024,unmatched,Forbes Park South (0),0
+Rizal,ALL OTHER STREETS,,47000.0,DO 5-2024,background,,0
+Rizal,IVORY,Sampaguita Ext. to Blueboz St.,47000.0,DO 5-2024,segment,Ivory Street,97
+Rizal,A. BONIFACIO,,47000.0,DO 5-2024,street,A. Bonifacio Street,97
+Rizal,A. MABINI,,47000.0,DO 5-2024,street,A. Mabini Street,97
+Rizal,ADARNA,,47000.0,DO 5-2024,street,Adarna Street,97
+Rizal,ADELA,,47000.0,DO 5-2024,street,Adela Street,97
+Rizal,AGUILA,,47000.0,DO 5-2024,street,Aguila Street,97
+Rizal,AMARILLO,,47000.0,DO 5-2024,street,Amarillo Street,97
+Rizal,AMORSECO,,47000.0,DO 5-2024,street,Amorseco Street,97
+Rizal,BAYABAS,,47000.0,DO 5-2024,street,Bayabas Street,97
+Rizal,BEGONIA,,47000.0,DO 5-2024,street,Begonia Street,97
+Rizal,BLUEBOZ,,47000.0,DO 5-2024,street,Blueboz Street,97
+Rizal,BLUEBERRY,,47000.0,DO 5-2024,street,Blueberry Street,97
+Rizal,CATTLEYA,,47000.0,DO 5-2024,street,Cattleya Street,97
+Rizal,CHICO,,47000.0,DO 5-2024,street,Chico Street,97
+Rizal,DAFFODIL,,47000.0,DO 5-2024,street,Daffodil Street,97
+Rizal,DAISY,,47000.0,DO 5-2024,street,Daisy Street,97
+Rizal,DOÑA AURORA,,47000.0,DO 5-2024,street,Doña Aurora Street,97
+Rizal,DOÑA LUZ,,47000.0,DO 5-2024,street,Doña Luz Street,97
+Rizal,DUHAT,,47000.0,DO 5-2024,street,Duhat Street,97
+Rizal,EVERLASTING,,47000.0,DO 5-2024,street,Everlasting Street,97
+Rizal,FLAMINGO,,47000.0,DO 5-2024,street,Flamingo Street,97
+Rizal,FLORAVILLE,,47000.0,DO 5-2024,street,Floraville Road,97
+Rizal,GLADIOLA,,47000.0,DO 5-2024,street,Gladiola Street,97
+Rizal,GUYABANO,,47000.0,DO 5-2024,street,Guyabano Street,97
+Rizal,J. P. RIZAL,,47000.0,DO 5-2024,street,J. P. Rizal Street,97
+Rizal,JACINTO,,47000.0,DO 5-2024,street,Jacinto Street,97
+Rizal,KILYAWAN,,47000.0,DO 5-2024,street,Kilyawan Street,97
+Rizal,LANZONES,,47000.0,DO 5-2024,street,Lanzones Street,97
+Rizal,LAWIN,,47000.0,DO 5-2024,street,Lawin Street,97
+Rizal,LILAC,,47000.0,DO 5-2024,street,Lilac Street,97
+Rizal,M. L. QUEZON,,47000.0,DO 5-2024,street,M. L. Quezon Street,97
+Rizal,MAGNOLIA,Floraville St. to Southsea St.,47000.0,DO 5-2024,street,Magnolia Street,97
+Rizal,MALVAR,,47000.0,DO 5-2024,street,Malvar Street,97
+Rizal,MANGGA,,47000.0,DO 5-2024,street,Mangga Street,97
+Rizal,MANSANAS,,47000.0,DO 5-2024,street,Mansanas Street,97
+Rizal,M. H. DEL PILAR,,47000.0,DO 5-2024,street,M. H. del Pilar Street,97
+Rizal,MILFLORES,,47000.0,DO 5-2024,street,Milflores Street,97
+Rizal,MILKWEED,,47000.0,DO 5-2024,street,Milkweed Street,97
+Rizal,N. AQUINO,,47000.0,DO 5-2024,street,N. Aquino Street,97
+Rizal,P. HERRERA,,47000.0,DO 5-2024,street,P. Herrera Street,97
+Rizal,PASCUA (same as Pascual),,47000.0,DO 5-2024,street,Pascua Street,97
+Rizal,PETUNIA,,47000.0,DO 5-2024,street,Petunia Street,97
+Rizal,PIPIT,,47000.0,DO 5-2024,street,Pipit Street,97
+Rizal,QUIRINO,,47000.0,DO 5-2024,street,Quirino Street,97
+Rizal,R. MAGSAYSAY,,47000.0,DO 5-2024,street,R. Magsaysay Street,97
+Rizal,ROMA AMOR,,47000.0,DO 5-2024,street,Roma Amor Street,97
+Rizal,SAMPAGUITA EXTENSION,,47000.0,DO 5-2024,street,Sampaguita Street Extension,90.32258064516128
+Rizal,SAN FRANCISCO,,47000.0,DO 5-2024,street,San Francisco Street,97
+Rizal,SOUTH SEA,,47000.0,DO 5-2024,street,South Sea Avenue,97
+Rizal,SPRING BEAUTY,,47000.0,DO 5-2024,street,Spring Beauty Street,97
+Rizal,SWEET ORANGE,,47000.0,DO 5-2024,street,Sweet Orange Street,97
+Rizal,TIFFANY,,47000.0,DO 5-2024,street,Tiffany Street,97
+Rizal,WATER LILY,,47000.0,DO 5-2024,street,Water Lily Street,97
+Rizal,YABUT,,47000.0,DO 5-2024,street,Yabut Street,97
+Rizal,ABAD SANTOS,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (35),0
+Rizal,AGLIPAY,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (30),0
+Rizal,AGUINALDO,Aquino St. to bdry. of Post Proper Southside,47000.0,DO 5-2024,unmatched,Estacio Subdivision (38),0
+Rizal,ATIS,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (36),0
+Rizal,AVOCADO,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (43),0
+Rizal,BLUEBIRD,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (29),0
+Rizal,C. AQUINO,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (40),0
+Rizal,C. M. RECTO,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (38),0
+Rizal,CASOY,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (33),0
+Rizal,COL. RESMA (same as Col. Regina),,47000.0,DO 5-2024,unmatched,Estacio Subdivision (38),0
+Rizal,D. SILANG,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (29),0
+Rizal,DALANDAN,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (19),0
+Rizal,DOVE,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (18),0
+Rizal,FORTUNE PLANT,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (31),0
+Rizal,GARCIA,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (46),0
+Rizal,GOLD FINCH (same as Goldpin),,47000.0,DO 5-2024,unmatched,McKinley Hill Village (29),0
+Rizal,J. VARGAS,,47000.0,DO 5-2024,unmatched,JL's Compound (20),0
+Rizal,JAENA,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (33),0
+Rizal,KING FISHER,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (42),0
+Rizal,LAUREL,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (32),0
+Rizal,LORO,,47000.0,DO 5-2024,unmatched,JL's Compound (29),0
+Rizal,LOVEBIRD,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (29),0
+Rizal,LUNA,,47000.0,DO 5-2024,unmatched,JL's Compound (29),0
+Rizal,MACOPA,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (46),0
+Rizal,MARCOS,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (50),0
+Rizal,MARTINEZ,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (38),0
+Rizal,MAYA,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (24),0
+Rizal,MAYA EXTENSION,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (38),0
+Rizal,ORIOLE,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (32),0
+Rizal,OWL,,47000.0,DO 5-2024,unmatched,JL's Compound (33),0
+Rizal,PABLO REAL (same as Paguria),,47000.0,DO 5-2024,unmatched,Estacio Subdivision (36),0
+Rizal,PALOMA CIRCLE,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (38),0
+Rizal,PENGUIN,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (29),0
+Rizal,PERFECTO,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (40),0
+Rizal,PUNAY (same as Pony),,47000.0,DO 5-2024,unmatched,Estacio Subdivision (32),0
+Rizal,PUGO,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (18),0
+Rizal,QUAIL,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (33),0
+Rizal,RDLOT360,,47000.0,DO 5-2024,unmatched,Makati Homes 2 (0),0
+Rizal,RDLOT366,,47000.0,DO 5-2024,unmatched,Makati Homes 2 (0),0
+Rizal,RICARTE,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (30),0
+Rizal,ROSE,,47000.0,DO 5-2024,unmatched,JL's Compound (29),0
+Rizal,ROXAS,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (18),0
+Rizal,T. M. KALAW,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (27),0
+Rizal,TAGAK,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (33),0
+Rizal,TOLENTINO,,47000.0,DO 5-2024,unmatched,Estacio Subdivision (50),0
+Rizal,UBAS,,47000.0,DO 5-2024,unmatched,JL's Compound (29),0
+Rizal,WATER BIRD,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (26),0
+Rizal,WOODPECKER,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (26),0
+Rizal,XYRIS,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (24),0
+Rizal,YELLOW BIRD,,47000.0,DO 5-2024,unmatched,McKinley Hill Village (25),0
+Rizal,371,,47000.0,DO 5-2024,unmatched,Makati Homes 2 (0),0
+San Miguel,ALL OTHER STREETS,,13000.0,DO 5-2024,background,,0
+San Miguel,ALL OTHER VILLAGES/SUBDIVISIONS:,,13000.0,DO 5-2024,background,,0
+San Miguel,SEAGULL AVENUE,,32000.0,DO 5-2024,street,Seagull Drive,97
+San Miguel,ACACIA AVENUE,,25000.0,DO 5-2024,street,Acacia Avenue,100
+San Miguel,R. FRANCO DRIVE,,14000.0,DO 5-2024,street,R. Franco Street,97
+San Miguel,CADENA DE AMOR,,24000.0,DO 5-2024,unmatched,Narragreen Homes (42),0
+San Miguel,M.L. QUEZON,FISHER VALLEY - R. FRANCO ST.,18000.0,DO 5-2024,unmatched,Morning Sun (38),0
+San Miguel,BAGONG BUHAY ST.,,14000.0,DO 5-2024,unmatched,Morning Sun (43),0
+San Miguel,BAUTISTA ST.,,14000.0,DO 5-2024,unmatched,Acacia Estates (43),0
+San Miguel,DIMASALANG,,14000.0,DO 5-2024,unmatched,Saint Michael (43),0
+San Miguel,J. BAUTISTA,,14000.0,DO 5-2024,unmatched,Acacia Estates (38),0
+San Miguel,PAG-ASA,,14000.0,DO 5-2024,unmatched,Acacia Estates (46),0
+San Miguel,DEVA VILLAGE,M. QUEZON - DEAD END,14000.0,DO 5-2024,unmatched,Verawood Residences (36),0
+San Miguel,SPRING LANE HOMES I,M. QUEZON - DEAD END,14000.0,DO 5-2024,unmatched,Mahogany Place I (48),0
+San Miguel,ST. MICHAEL SUBDIVISION,ST. ANDREW,14000.0,DO 5-2024,unmatched,Saint Michael (70),0
+San Miguel,MAHOGANY PLACE III,ACACIA ESTATES,143000.0,DO 5-2024,village,Mahogany Place III,100
+San Miguel,MORNING SUN VILLAGE,M. QUEZON - DEAD END,14000.0,DO 5-2024,village,Morning Sun,100
+San Miguel,VICTORIA COMPOUND,ST. ANDREW,14000.0,DO 5-2024,village,Victoria Ville,95
+Santa Ana,ALL OTHER VILLAGES/SUBDIVISION,,10000.0,DO 5-2024,background,,0
+Santa Ana,ALL OTHER STREETS,,8000.0,DO 5-2024,background,,0
+Santa Ana,A. BONIFACIO STREET,LIWAYWAY- PINAGSALUBUNGAN,12000.0,DO 5-2024,segment,A. Bonifacio Street,100
+Santa Ana,LIWAYWAY ST.,J. P. RIZAL - D. M. CRUZ,11000.0,DO 5-2024,segment,Liwayway Street,100
+Santa Ana,J. P. RIZAL STREET,,20000.0,DO 5-2024,street,J. P. Rizal Street,100
+Santa Ana,D. M. CRUZ EXTENSION,D. D. M. CRUZ - F. MANALO,15000.0,DO 5-2024,street,D. M. Cruz Extension,100
+Santa Ana,D. M. CRUZ STREET,F. MANALO - LIWAYWAY,15000.0,DO 5-2024,street,D. M. Cruz Street,100
+Santa Ana,PINAGBUKLOD VILLAGE,,15000.0,DO 5-2024,street,PInagbuklod Street,97
+Santa Ana,PINAGPALA VILLAGE,,15000.0,DO 5-2024,street,Pinagpala Street,97
+Santa Ana,PRUDENCE ROAD,J. P. RIZAL-STA ANA RIVER,14000.0,DO 5-2024,street,Prudence Street,97
+Santa Ana,MASAYA ST.,PULONG KENDI,11000.0,DO 5-2024,street,Masaya Street,100
+Santa Ana,PINAGSALUBUNGAN ST.,F. MANALO - D. M. CRUZ,11000.0,DO 5-2024,street,Pinagsalubungan Street,100
+Santa Ana,ROMANTIC,D. M. CRUZ EXTENTION,11000.0,DO 5-2024,street,Romantic Street,97
+Santa Ana,TAHIMIK ST.,INT. PULONG KENDI,11000.0,DO 5-2024,street,Tahimik Street,100
+Santa Ana,POLINTAN COMPOUND,F.MANALO-DEAD END,11000.0,DO 5-2024,street,Polintan Compound,100
+Santa Ana,C-6,,39000.0,DO 5-2024,unmatched,Bay Breeze Executive Village (0),0
+Santa Ana,F. MANALO ST. (P. Burgos),J.P. RIZAL-F. MANALO,34000.0,DO 5-2024,unmatched,Parco Homes (50),0
+Santa Ana,A. SANTOS,COL. HERRERA,15000.0,DO 5-2024,unmatched,Camella Ellisande (42),0
+Santa Ana,COL. HERRERA,A. SANTOS - D.M. CRUZ,15000.0,DO 5-2024,unmatched,Camella Ellisande (36),0
+Santa Ana,BAGONG SIKAT HOA,,15000.0,DO 5-2024,unmatched,Mahogany Forest (39),0
+Santa Ana,F. MASTRILLI HOA,,15000.0,DO 5-2024,unmatched,Camella Ellisande (38),0
+Santa Ana,SANGAVILLE ST.,,15000.0,DO 5-2024,unmatched,Camella Azadia (42),0
+Santa Ana,VILLA FILOMENA,,15000.0,DO 5-2024,unmatched,Camella Ellisande (45),0
+Santa Ana,BAMBANG NI FELIX,,14000.0,DO 5-2024,unmatched,Camella Ellisande (48),0
+Santa Ana,PULONG KENDI,J. P. RIZAL -ANNIE,13000.0,DO 5-2024,unmatched,Prudence Village (40),0
+Santa Ana,F. CLAUDIO,D. D. M. CRUZ - MANALO,11000.0,DO 5-2024,unmatched,Camella Azadia (43),0
+Santa Ana,J. CABRERA,D. M. CRUZ EXTENTION,11000.0,DO 5-2024,unmatched,Camella Ellisande (38),0
+Santa Ana,LIZARDO,,11000.0,DO 5-2024,unmatched,Parco Homes (50),0
+Santa Ana,PASEO DE SAN JUAN DE SAHAGUN,,11000.0,DO 5-2024,unmatched,Munting Pamayanan ng Calzada (43),0
+Santa Ana,ESPIRITU CMPD,,11000.0,DO 5-2024,unmatched,Prudence Village (38),0
+Santa Ana,DAANG KALABAW,,10000.0,DO 5-2024,unmatched,Camella Azadia (44),0
+Santa Ana,VALDEZ,,9000.0,DO 5-2024,unmatched,Camella Ellisande (35),0
+Santa Ana,PRUDENCE SUBDIVISION,,13000.0,DO 5-2024,village,Prudence Village,100
+South Cembo,ALL OTHER STREETS,,103000.0,DO 5-2024,background,,0
+South Cembo,KALAYAAN AVENUE,,153000.0,DO 5-2024,unmatched,,0
+South Cembo,8TH AVENUE,,150000.0,DO 5-2024,unmatched,,0
+South Cembo,AGLIPAY,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,AGUINALDO,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,BADAS,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,BURGOS,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,CAPINPIN,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,COL SANTOS,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,ESCODA,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,GABRIELA SILANG,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,GARCIA,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,GEN. DEL PILAR,Pitogo Boundary to Gomez St.,103000.0,DO 5-2024,unmatched,,0
+South Cembo,GEN. LUNA,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,GEN. MALVAR,Luzon St. to Gomez St.,103000.0,DO 5-2024,unmatched,,0
+South Cembo,GEN. RICARTE,Pitogo Boundary to Post Proper Northside,103000.0,DO 5-2024,unmatched,,0
+South Cembo,GOMEZ,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,J.P. RIZAL,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,JACINTO,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,KARINGAL,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,LAUREL,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,LUZON,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,MABINI,Gen. Del Pilar St. to Gen. Malvar St.,103000.0,DO 5-2024,unmatched,,0
+South Cembo,MAGSAYSAY,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,QUEZON,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,QUIJADA,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,QUIRINO,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,ROMULO,,103000.0,DO 5-2024,unmatched,,0
+South Cembo,ZAMORA,,103000.0,DO 5-2024,unmatched,,0
+South Daang Hari,ALL OTHER STREETS,,11000.0,DO 5-2024,background,,0
+South Daang Hari,DAANG HARI,MANALAC - CHARITY,12000.0,DO 5-2024,unmatched,Presidio Lakefront (36),0
+South Signal Village,ALL OTHER STREETS,,14000.0,DO 5-2024,background,,0
+South Signal Village,GEN ESPINO ST.,,22000.0,DO 5-2024,street,General Espino Street,100
+South Signal Village,AGUIRRE,,15000.0,DO 5-2024,street,Aguirre Street,97
+South Signal Village,AIR FORCE ROAD,,15000.0,DO 5-2024,street,Air Force Road,100
+South Signal Village,ARMY ROAD,,15000.0,DO 5-2024,street,Army Road,100
+South Signal Village,BANABA,,15000.0,DO 5-2024,street,Banaba Street,97
+South Signal Village,BONIFACIO,,15000.0,DO 5-2024,street,A. Bonifacio,90.0
+South Signal Village,CAMIA,,15000.0,DO 5-2024,street,Camia Street,97
+South Signal Village,DAISY,,15000.0,DO 5-2024,street,Daisy Street,97
+South Signal Village,DEL PILAR,,15000.0,DO 5-2024,street,Del Pilar,100
+South Signal Village,EVERLASTING,,15000.0,DO 5-2024,street,Everlasting Street,97
+South Signal Village,FRIENDSHIP,,15000.0,DO 5-2024,street,Friendship Street,97
+South Signal Village,GEN. AGUINALDO,,15000.0,DO 5-2024,street,General Aguinaldo,100
+South Signal Village,GEN. MALVAR,,15000.0,DO 5-2024,street,General Malvar,100
+South Signal Village,GEN MC ARTHUR,,15000.0,DO 5-2024,street,General MacArthur,92.3076923076923
+South Signal Village,GUMAMELA,,15000.0,DO 5-2024,street,Gumamela Street,97
+South Signal Village,LANGKA,,15000.0,DO 5-2024,street,Langka Road,97
+South Signal Village,LUZON,,15000.0,DO 5-2024,street,Luzon Street,97
+South Signal Village,MANGGAHAN ROAD,,15000.0,DO 5-2024,street,Manggahan Street,97
+South Signal Village,MAYOR TANYAG,,15000.0,DO 5-2024,street,Mayor Tanyag,100
+South Signal Village,NAVY ROAD,,15000.0,DO 5-2024,street,Navy Road,100
+South Signal Village,PARDINAS ST.,,15000.0,DO 5-2024,street,Pardiñas Street,100
+South Signal Village,PAMELA,,15000.0,DO 5-2024,street,Pamela Street,97
+South Signal Village,PC ROAD,,15000.0,DO 5-2024,street,PC Road,100
+South Signal Village,RANGER,,15000.0,DO 5-2024,street,Rangers Street,97
+South Signal Village,VISAYAS,,15000.0,DO 5-2024,street,Visayas Street,97
+South Signal Village,BALLESER,,22000.0,DO 5-2024,unmatched,Arbor Lanes (33),0
+South Signal Village,ABAD,,15000.0,DO 5-2024,unmatched,Arbor Lanes (43),0
+South Signal Village,ATIS,,15000.0,DO 5-2024,unmatched,Arca South (29),0
+South Signal Village,COL ESPEDILLA,,15000.0,DO 5-2024,unmatched,Arbor Lanes (35),0
+South Signal Village,COL. MARTINEZ,,15000.0,DO 5-2024,unmatched,Arbor Lanes (45),0
+South Signal Village,ESPEDILLA,,15000.0,DO 5-2024,unmatched,Arbor Lanes (21),0
+South Signal Village,FAMELA,,15000.0,DO 5-2024,unmatched,Arbor Lanes (38),0
+South Signal Village,J. P. RIZAL (LAUREL),,15000.0,DO 5-2024,unmatched,Arbor Lanes (38),0
+South Signal Village,KABASAAN,,15000.0,DO 5-2024,unmatched,Arbor Lanes (44),0
+South Signal Village,MALVAR,,15000.0,DO 5-2024,unmatched,Arbor Lanes (38),0
+South Signal Village,PRES. GARCIA ST.,,15000.0,DO 5-2024,unmatched,Arca South (57),0
+South Signal Village,PRES. MAGSAYSAY ROAD,,15000.0,DO 5-2024,unmatched,Arca South (33),0
+South Signal Village,PRES. OSMENA ST.,,15000.0,DO 5-2024,unmatched,Arbor Lanes (29),0
+South Signal Village,PRES QUEZON,,15000.0,DO 5-2024,unmatched,Arbor Lanes (29),0
+South Signal Village,PRES. QUIRINO ST.,,15000.0,DO 5-2024,unmatched,Arbor Lanes (27),0
+South Signal Village,GOV. RODRIGUEZ,,15000.0,DO 5-2024,unmatched,Arbor Lanes (35),0
+South Signal Village,STO. NIÑO,,15000.0,DO 5-2024,unmatched,Arbor Lanes (33),0
+South Signal Village,SYQUIO,,15000.0,DO 5-2024,unmatched,Arca South (25),0
+Tanyag,ALL OTHER STREETS,,9000.0,DO 5-2024,background,,0
+Tanyag,ALL OTHER VILLAGES/SUBDIVISIONS,,9000.0,DO 5-2024,background,,0
+Tanyag,MANALAC AVENUE,SITIO DE ASIS ST. TO PNR,30000.0,DO 5-2024,street,Mañalac Avenue,100
+Tanyag,DAANG HARI,SITIO DE ASIS ST.,9000.0,DO 5-2024,street,Daang Hari,100
+Tanyag,SITIO DE ASIS,,11000.0,DO 5-2024,unmatched,Sta. Teresa Compound (43),0
+Tanyag,SITIO ROBLE,,11000.0,DO 5-2024,unmatched,Sta. Teresa Compound (48),0
+Tanyag,TANYAG PROPER,MANALAC AVENUE - DEAD END,11000.0,DO 5-2024,unmatched,Sta. Teresa Compound (43),0
+Tanyag,PERPETUAL VILLAGE,ZODIAC STREETS,11000.0,DO 5-2024,unmatched,Sta. Teresa Compound (42),0
+Tanyag,PERPETUAL VILLAGE,SAINT STREETS,11000.0,DO 5-2024,unmatched,Sta. Teresa Compound (42),0
+Tanyag,GOCO ST.,,10000.0,DO 5-2024,unmatched,Azure Urban Resort Residences (12),0
+Tanyag,PUROK 7,SITIO ROBLE,10000.0,DO 5-2024,unmatched,Perpetual Village Ⅹ (0),0
+Tanyag,PERPETUAL VILLAGE,FLOWER STREETS,10000.0,DO 5-2024,unmatched,Sta. Teresa Compound (42),0
+Tuktukan,ALL OTHER VILLAGES/SUBDIVISIONS:,,14000.0,DO 5-2024,background,,0
+Tuktukan,ALL OTHER STREETS,,9000.0,DO 5-2024,background,,0
+Tuktukan,GEN LUNA ST.,,50000.0,DO 5-2024,street,General A. Luna Street,91.66666666666666
+Tuktukan,A. MABINI ST.,BRIDGE - VERZOSA,17000.0,DO 5-2024,street,A. Mabini Street,100
+Tuktukan,J. P. RIZAL ST. (BAGONG CALZADA),BAMBANG BR-PAT ALMEDA,17000.0,DO 5-2024,street,J. P. Rizal Street,100
+Tuktukan,P. CRUZ ST.,,15000.0,DO 5-2024,street,P. Cruz Street,100
+Tuktukan,AMBAGAN ST.,,10000.0,DO 5-2024,street,Ambagan,97
+Tuktukan,CARLOS ST.,,10000.0,DO 5-2024,street,C. Carlos Street,90.0
+Tuktukan,M. SANTOS ST.,,10000.0,DO 5-2024,street,M. Santos Street,100
+Tuktukan,YAMSON CPD,,74000.0,DO 5-2024,unmatched,Dulong Bayan (44),0
+Tuktukan,CAMELLA GRENVILLE RESIDENCES,B. CALZADA-J.P. RIZAL,43000.0,DO 5-2024,unmatched,Camella Greenville Subdivision (76),0
+Tuktukan,PRES. MANUEL L. QUEZON,,19000.0,DO 5-2024,unmatched,Camella Greenville Subdivision (42),0
+Tuktukan,T & D VILLAGE,ONE ROAD (LOOP),15000.0,DO 5-2024,unmatched,Vista de Lago (38),0
+Tuktukan,B.B. FLORES ST.,,10000.0,DO 5-2024,unmatched,Dulong Bayan (38),0
+Tuktukan,BAGONG SILANG,,10000.0,DO 5-2024,unmatched,Dulong Bayan (56),0
+Tuktukan,CALLEJON ST.,,10000.0,DO 5-2024,unmatched,Camella Greenville Subdivision (46),0
+Tuktukan,CANDAZA ST.,,10000.0,DO 5-2024,unmatched,Camella Azadia (48),0
+Tuktukan,DAANG HARI ST.,,10000.0,DO 5-2024,unmatched,Dulong Bayan (45),0
+Tuktukan,DOMINGO ST.,,10000.0,DO 5-2024,unmatched,Dulong Bayan (42),0
+Tuktukan,ESTAQUIO ST.,,10000.0,DO 5-2024,unmatched,Vista de Lago (38),0
+Tuktukan,F. DE GUZMAN ST.,,10000.0,DO 5-2024,unmatched,Vista de Lago (42),0
+Tuktukan,VERSOSA ST.,GEN LUNA - MABINI,10000.0,DO 5-2024,unmatched,Vista de Lago (40),0
+Tuktukan,CAMELLA AZADIA SUBDIVISION,PAGADLING,48000.0,DO 5-2024,village,Camella Azadia,100
+Upper Bicutan,ALL OTHER STREETS,,10000.0,DO 5-2024,background,,0
+Upper Bicutan,A. BONIFACIO AVENUE,MAIN ROAD,22000.0,DO 5-2024,street,A. Bonifacio Avenue,100
+Upper Bicutan,GEN. AGUINALDO,,15000.0,DO 5-2024,street,General Aguinaldo,100
+Upper Bicutan,ANICETA,,14000.0,DO 5-2024,street,Aniceta,100
+Upper Bicutan,GOYENA ST.,,14000.0,DO 5-2024,street,Goyena Street,100
+Upper Bicutan,MAHARLIKA RD/DOMATAY,,14000.0,DO 5-2024,street,Maharlika Road,100
+Upper Bicutan,LAPU LAPU,,13000.0,DO 5-2024,street,Lapu-Lapu Street,97
+Upper Bicutan,AQUINO,,11000.0,DO 5-2024,street,Aquino Street,97
+Upper Bicutan,CUCUMBER ROAD,,11000.0,DO 5-2024,street,Cucumber Road,100
+Upper Bicutan,GALVEZ,,11000.0,DO 5-2024,street,Galvez Street,97
+Upper Bicutan,GEN. VALDEZ ST,,11000.0,DO 5-2024,street,General Valdez Street,100
+Upper Bicutan,J. P. RIZAL(LAUREL),,11000.0,DO 5-2024,street,J. P. Rizal Street,97
+Upper Bicutan,LEGASPI ST,,11000.0,DO 5-2024,street,Legaspi Street,100
+Upper Bicutan,MANALO,,11000.0,DO 5-2024,street,Manalo Street,97
+Upper Bicutan,MODOMO,,11000.0,DO 5-2024,street,Modomo Street,97
+Upper Bicutan,ORTEGA,,11000.0,DO 5-2024,street,Ortega Street,97
+Upper Bicutan,REPOSAR ST.,,11000.0,DO 5-2024,street,Reposar Street,100
+Upper Bicutan,SONALAN,,11000.0,DO 5-2024,street,Sonalan Street,97
+Upper Bicutan,TAGUM,,11000.0,DO 5-2024,street,Tagum Street,97
+Upper Bicutan,TANGPUZ,,11000.0,DO 5-2024,street,Tangpuz Street,97
+Upper Bicutan,TRINANES,,11000.0,DO 5-2024,street,Triñanes Street,97
+Upper Bicutan,YANSON,,11000.0,DO 5-2024,street,Yanson Street,97
+Upper Bicutan,BABAS,,11000.0,DO 5-2024,unmatched,Arca South (29),0
+Upper Bicutan,CHAVEZ,,11000.0,DO 5-2024,unmatched,Arca South (25),0
+Upper Bicutan,DEANO,,11000.0,DO 5-2024,unmatched,Arca South (27),0
+Upper Bicutan,SITIO IMELDA,,11000.0,DO 5-2024,unmatched,United Hills Village (43),0
+Upper Bicutan,JAYLON,,11000.0,DO 5-2024,unmatched,Arca South (25),0
+Upper Bicutan,JOSE RIZAL,,11000.0,DO 5-2024,unmatched,United Hills Village (38),0
+Upper Bicutan,MANGA,,11000.0,DO 5-2024,unmatched,Marian Lakeview Park (32),0
+Upper Bicutan,MC INTURE,,11000.0,DO 5-2024,unmatched,United Hills Village (40),0
+Upper Bicutan,PIGAY,,11000.0,DO 5-2024,unmatched,Marian Lakeview Park (16),0
+Upper Bicutan,RAJA SUMAKWEL,,11000.0,DO 5-2024,unmatched,Arca South (43),0
+Upper Bicutan,REYES,,11000.0,DO 5-2024,unmatched,Marian Lakeview Park (25),0
+Upper Bicutan,RICA JUERTA,,11000.0,DO 5-2024,unmatched,Arca South (57),0
+Upper Bicutan,SUNGA,,11000.0,DO 5-2024,unmatched,Arca South (27),0
+Upper Bicutan,TIBI,,11000.0,DO 5-2024,unmatched,United Hills Village (27),0
+Upper Bicutan,VILLARVA,,11000.0,DO 5-2024,unmatched,Marian Lakeview Park (36),0
+Ususan,ALL OTHER VILLAGES/SUBDIVISIONS:,,23000.0,DO 5-2024,background,,0
+Ususan,ALL OTHER STREETS,,8000.0,DO 5-2024,background,,0
+Ususan,DIEGO SILANG AVENUE,LEVI MARIANO AVENUE,80000.0,DO 5-2024,street,Diego Silang Street,97
+Ususan,GEN. LUNA ST.,GEN. LUNA-M. ALMEDA,40000.0,DO 5-2024,street,General Luna Street,100
+Ususan,TOMASA ESTATE SUBDIVISION,GEN LUNA,24000.0,DO 5-2024,street,Tomasa Avenue,97
+Ususan,ACACIA AVENUE,,22000.0,DO 5-2024,street,Acacia Avenue,100
+Ususan,BAGONG CALZADA (JP RIZAL ST.),TAGUIG-PATEROS,22000.0,DO 5-2024,street,Bagong Calzada,100
+Ususan,AMIHAN ST.,PULO,15000.0,DO 5-2024,street,Amihan Street,100
+Ususan,TOMASA AVENUE,,15000.0,DO 5-2024,street,Tomasa Avenue,100
+Ususan,ILANG-ILANG ST.,,14000.0,DO 5-2024,street,Ilang-Ilang Street,100
+Ususan,KALAYAAN ST.(EL FILIB'MO),,14000.0,DO 5-2024,street,Kalayaan Street,100
+Ususan,N.P. CRUZ ST. (P. GOMEZ),LOOP,14000.0,DO 5-2024,street,N. P. Cruz Street,100
+Ususan,PABLO MARIANO ST.(M.H. Del Pilar),LOOP,14000.0,DO 5-2024,street,M. H. del Pilar Street,97
+Ususan,SAN IGNACIO ST.,LOOP DEL PILAR - DEAD END,9000.0,DO 5-2024,street,San Ignacio Street,100
+Ususan,MAHOGANY PLACE SUBD.,ACACIA ESTATES,143000.0,DO 5-2024,unmatched,Maple Place (64),0
+Ususan,SERVICE ROAD,C-5 (C.P. GARCIA),89000.0,DO 5-2024,unmatched,Grace Residences (45),0
+Ususan,P. CAYETANO BLVD.,,81000.0,DO 5-2024,unmatched,Lake View Manors (48),0
+Ususan,PACIFIC RESIDENCES SUBD PH2 (AVENTINE SUBD),,53000.0,DO 5-2024,unmatched,Sanz Vil Residences (46),0
+Ususan,CAMELLA GRENVILLE RESIDENCES,CAYETANO BLVD,43000.0,DO 5-2024,unmatched,Camella Greenville Subdivision (76),0
+Ususan,CALLEJON (BANAL ST.),DEL PILAR - DEAD END,9000.0,DO 5-2024,unmatched,Dulong Bayan (47),0
+Ususan,M.Q. TENGCO,,9000.0,DO 5-2024,unmatched,Royal Palm Residences (40),0
+Ususan,PULO,PROPER,9000.0,DO 5-2024,unmatched,LOGCOM Village (40),0
+Ususan,PACIFIC RESIDENCES SUBD,CAYETANO BLVD,48000.0,DO 5-2024,village,Pacific Residences,100
+Wawa,ALL OTHER VILLAGES/SUBDIVISIONS,,10000.0,DO 5-2024,background,,0
+Wawa,ALL OTHER STREETS**/,,8000.0,DO 5-2024,background,,0
+Wawa,GUERRERO ST.,QUEZON-JONES,14000.0,DO 5-2024,street,Guerrero Street,100
+Wawa,CADENA DE AMOR,,12000.0,DO 5-2024,street,Cadena de Amor Street,97
+Wawa,KENTUCKY,,12000.0,DO 5-2024,street,Kentucky Street,97
+Wawa,R. FRANCO ST.,,12000.0,DO 5-2024,street,R. Franco Street,100
+Wawa,GUMAMELA,,9000.0,DO 5-2024,street,Gumamela Street,97
+Wawa,JONES ST.,QUEZON-PUWANG,9000.0,DO 5-2024,street,Jones Street,100
+Wawa,ORCHIDS,,9000.0,DO 5-2024,street,Orchid Street,97
+Wawa,WALING WALING,,9000.0,DO 5-2024,street,Waling-waling Street,97
+Wawa,C-6,,37000.0,DO 5-2024,unmatched,Bay Breeze Executive Village (0),0
+Wawa,BARTOLAZO SUBD.,"MAHOGANY FOREST, BRGY. CALZADA",24000.0,DO 5-2024,unmatched,Cedar Crest (30),0
+Wawa,RBPI TOWNHOUSE WAWA,,17000.0,DO 5-2024,unmatched,Morning Sun (30),0
+Wawa,M. L. QUEZON ST.,BAMBANG-HAGONOY,15000.0,DO 5-2024,unmatched,Morning Sun (38),0
+Wawa,ROSAL,GUERRERO,14000.0,DO 5-2024,unmatched,Morning Sun (25),0
+Wawa,SPRING LANE HOMES,,13000.0,DO 5-2024,unmatched,Morning Sun (55),0
+Wawa,YASON,,12000.0,DO 5-2024,unmatched,Morning Sun (25),0
+Wawa,GREEN VILLAGE,,11000.0,DO 5-2024,unmatched,Prudence Village (46),0
+Wawa,PUWANG,JONES-RICEFIELD,9000.0,DO 5-2024,unmatched,Prudence Village (43),0
+Wawa,SAMPAGUITA,,9000.0,DO 5-2024,unmatched,Acacia Estates (50),0
+Wawa,TAMBAK,WAWA-SAN MIGUEL,9000.0,DO 5-2024,unmatched,Acacia Estates (33),0
+Wawa,VONGANVILLA,,9000.0,DO 5-2024,unmatched,Cipriano's Green Ville (45),0
+Wawa,BAY BREEZE SUBD.(E.P SANTOS SUBDIVISION),SEAGUL AVENUE,19000.0,DO 5-2024,village,Bay Breeze Executive Village,95
+Wawa,PATEROS HEIGHTS SUBDIVISION,,15000.0,DO 5-2024,village,Pateros Heights,100
+Wawa,CIPRIANO SUBDIVISION,M.L. QUEZON,11000.0,DO 5-2024,village,Cipriano's Green Ville,95
+West Rembo,ALL OTHER STREETS,,83000.0,DO 5-2024,background,,0
+West Rembo,KALAYAAN AVENUE,,115000.0,DO 5-2024,unmatched,Pasig (15),0
+West Rembo,C5-ROAD,JP Rizal Ext. to Kalayaan Ave.,100000.0,DO 5-2024,unmatched,Pasig (0),0
+West Rembo,JP RIZAL EXT.,Brgy. Cembo bdry to Brgy. East Rembo bdry.,93000.0,DO 5-2024,unmatched,Pasig (24),0
+West Rembo,A. BONIFACIO EXT.,,83000.0,DO 5-2024,unmatched,Pasig (20),0
+West Rembo,A. LUNA,,83000.0,DO 5-2024,unmatched,Pasig (18),0
+West Rembo,A. LUNA EXT.,,83000.0,DO 5-2024,unmatched,Pasig (13),0
+West Rembo,A. MABINI,,83000.0,DO 5-2024,unmatched,Pasig (31),0
+West Rembo,A. RICARTE,,83000.0,DO 5-2024,unmatched,Pasig (29),0
+West Rembo,AGULAN (same as Aguilar),,83000.0,DO 5-2024,unmatched,Pasig (36),0
+West Rembo,B. SERRANO,,83000.0,DO 5-2024,unmatched,Pasig (14),0
+West Rembo,BAYABAS,,83000.0,DO 5-2024,unmatched,Pasig (18),0
+West Rembo,CRISOLOGO,,83000.0,DO 5-2024,unmatched,Pasig (29),0
+West Rembo,DAGOHOY,,83000.0,DO 5-2024,unmatched,Pasig (33),0
+West Rembo,DALANDAN,,83000.0,DO 5-2024,unmatched,Pasig (15),0
+West Rembo,E. AGUINALDO,,83000.0,DO 5-2024,unmatched,Pasig (25),0
+West Rembo,E. JACINTO,,83000.0,DO 5-2024,unmatched,Pasig (29),0
+West Rembo,F. BALAGTAS,,83000.0,DO 5-2024,unmatched,Pasig (29),0
+West Rembo,G. ARELLANO,,83000.0,DO 5-2024,unmatched,Pasig (27),0
+West Rembo,G.L. JAENA,,83000.0,DO 5-2024,unmatched,Pasig (14),0
+West Rembo,G.L. JAENA EXT.,,83000.0,DO 5-2024,unmatched,Pasig (11),0
+West Rembo,J. BURGOS,,83000.0,DO 5-2024,unmatched,Pasig (17),0
+West Rembo,KABUTE,,83000.0,DO 5-2024,unmatched,Pasig (18),0
+West Rembo,KAIMITO,,83000.0,DO 5-2024,unmatched,Pasig (33),0
+West Rembo,LAPU-LAPU,,83000.0,DO 5-2024,unmatched,Pasig (29),0
+West Rembo,LARIOSA,,83000.0,DO 5-2024,unmatched,Pasig (33),0
+West Rembo,M. CORPUZ,,83000.0,DO 5-2024,unmatched,Pasig (15),0
+West Rembo,MALVAR,,83000.0,DO 5-2024,unmatched,Pasig (18),0
+West Rembo,MANGGA,,83000.0,DO 5-2024,unmatched,Pasig (36),0
+West Rembo,MANSANAS,,83000.0,DO 5-2024,unmatched,Pasig (33),0
+West Rembo,MATABUENA,,83000.0,DO 5-2024,unmatched,Pasig (14),0
+West Rembo,MATATAG,,83000.0,DO 5-2024,unmatched,Pasig (33),0
+West Rembo,P. BANEZ,,83000.0,DO 5-2024,unmatched,Pasig (33),0
+West Rembo,P. GOMEZ,,83000.0,DO 5-2024,unmatched,Pasig (33),0
+West Rembo,PANDAY PIRA,,83000.0,DO 5-2024,unmatched,Pasig (38),0
+West Rembo,PAPAYA,,83000.0,DO 5-2024,unmatched,Pasig (36),0
+West Rembo,PILI AVENUE,,83000.0,DO 5-2024,unmatched,Pasig (44),0
+West Rembo,PIO DEL PILAR,,83000.0,DO 5-2024,unmatched,Pasig (33),0
+West Rembo,SIR BADEN POWELL,,83000.0,DO 5-2024,unmatched,Pasig (29),0
+West Rembo,SUHA,,83000.0,DO 5-2024,unmatched,Pasig (22),0
+West Rembo,T. ALONZO,,83000.0,DO 5-2024,unmatched,Pasig (15),0
+West Rembo,TEACHER'S CMPD,,83000.0,DO 5-2024,unmatched,Pasig (17),0
+West Rembo,UPPER PLAZA EXT.,,83000.0,DO 5-2024,unmatched,Pasig (20),0
+West Rembo,UPPER PLAZA ROAD.3,,83000.0,DO 5-2024,unmatched,Pasig (0),0
+West Rembo,UPPER PLAZA,,83000.0,DO 5-2024,unmatched,Pasig (25),0
+Western Bicutan,ALL OTHER STREETS,,30000.0,DO 5-2024,background,,0
+Western Bicutan,ALL OTHER VILLAGES/SUBDIVISIONS,,12000.0,DO 5-2024,background,,0
+Western Bicutan,LAWTON AVE.,,141000.0,DO 5-2024,street,Lawton Avenue,100
+Western Bicutan,BAYANI ROAD,FROM LAWTON AVE. TO C5,123000.0,DO 5-2024,street,Bayani Road,100
+Western Bicutan,G. JULIANO,,63000.0,DO 5-2024,street,G. Juliano Avenue,97
+Western Bicutan,EAST SERVICE ROAD,TESDA,31000.0,DO 5-2024,street,East Service Road,100
+Western Bicutan,SANTO NIÑO,EP HOUSING TO TAGUIG PATEROS DISTRICT HOSPITAL,13000.0,DO 5-2024,street,Santo Niño Avenue,97
+Western Bicutan,C5,FROM HERITAGE TO E SERVICE ROAD,160000.0,DO 5-2024,unmatched,AFPOVAI Phase V-A (15),0
+Western Bicutan,AFPOVAI,PHASE 5,125000.0,DO 5-2024,unmatched,AFPEPVHAI (75),0
+Western Bicutan,AFPOVAI,"PHASE 1,2,3,4,6,7 & 8",105000.0,DO 5-2024,unmatched,AFPEPVHAI (75),0
+Western Bicutan,CENTENNIAL VILLAGE,,22000.0,DO 5-2024,village,Centennial Village,100

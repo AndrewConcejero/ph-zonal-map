@@ -1,0 +1,223 @@
+{
+ "Caloocan": {
+  "file": "caloocan.geojson",
+  "bbox": [
+   120.9618,
+   14.6352,
+   121.0998,
+   14.785
+  ],
+  "features": 887,
+  "placed": 919,
+  "priced": 1756,
+  "kb": 477
+ },
+ "Las Piñas": {
+  "file": "las-piñas.geojson",
+  "bbox": [
+   120.9674,
+   14.3914,
+   121.0243,
+   14.4875
+  ],
+  "features": 265,
+  "placed": 271,
+  "priced": 507,
+  "kb": 184
+ },
+ "Makati": {
+  "file": "makati.geojson",
+  "bbox": [
+   120.999,
+   14.5302,
+   121.05,
+   14.5792
+  ],
+  "features": 539,
+  "placed": 543,
+  "priced": 682,
+  "kb": 302
+ },
+ "Malabon": {
+  "file": "malabon.geojson",
+  "bbox": [
+   120.9235,
+   14.6482,
+   121.0004,
+   14.7027
+  ],
+  "features": 308,
+  "placed": 353,
+  "priced": 593,
+  "kb": 173
+ },
+ "Mandaluyong": {
+  "file": "mandaluyong.geojson",
+  "bbox": [
+   121.017,
+   14.5674,
+   121.0599,
+   14.6016
+  ],
+  "features": 258,
+  "placed": 265,
+  "priced": 485,
+  "kb": 168
+ },
+ "Manila": {
+  "file": "manila.geojson",
+  "bbox": [
+   120.9414,
+   14.5586,
+   121.0262,
+   14.6398
+  ],
+  "features": 3130,
+  "placed": 3137,
+  "priced": 4728,
+  "kb": 1594
+ },
+ "Marikina": {
+  "file": "marikina.geojson",
+  "bbox": [
+   121.0744,
+   14.6197,
+   121.1349,
+   14.6755
+  ],
+  "features": 441,
+  "placed": 453,
+  "priced": 652,
+  "kb": 326
+ },
+ "Muntinlupa": {
+  "file": "muntinlupa.geojson",
+  "bbox": [
+   121.0069,
+   14.353,
+   121.058,
+   14.4669
+  ],
+  "features": 107,
+  "placed": 116,
+  "priced": 203,
+  "kb": 103
+ },
+ "Navotas": {
+  "file": "navotas.geojson",
+  "bbox": [
+   120.9066,
+   14.634,
+   120.9691,
+   14.713
+  ],
+  "features": 135,
+  "placed": 146,
+  "priced": 240,
+  "kb": 70
+ },
+ "Parañaque": {
+  "file": "parañaque.geojson",
+  "bbox": [
+   120.9742,
+   14.4354,
+   121.0481,
+   14.5327
+  ],
+  "features": 297,
+  "placed": 304,
+  "priced": 491,
+  "kb": 237
+ },
+ "Pasay": {
+  "file": "pasay.geojson",
+  "bbox": [
+   120.9785,
+   14.5024,
+   121.0353,
+   14.5616
+  ],
+  "features": 661,
+  "placed": 661,
+  "priced": 933,
+  "kb": 376
+ },
+ "Pasig": {
+  "file": "pasig.geojson",
+  "bbox": [
+   121.0514,
+   14.5349,
+   121.1105,
+   14.624
+  ],
+  "features": 425,
+  "placed": 441,
+  "priced": 827,
+  "kb": 309
+ },
+ "Pateros": {
+  "file": "pateros.geojson",
+  "bbox": [
+   121.0623,
+   14.5378,
+   121.0773,
+   14.5514
+  ],
+  "features": 56,
+  "placed": 56,
+  "priced": 105,
+  "kb": 35
+ },
+ "Quezon City": {
+  "file": "quezon-city.geojson",
+  "bbox": [
+   120.9905,
+   14.5896,
+   121.1321,
+   14.7776
+  ],
+  "features": 2409,
+  "placed": 2449,
+  "priced": 3618,
+  "kb": 1611
+ },
+ "San Juan": {
+  "file": "san-juan.geojson",
+  "bbox": [
+   121.0203,
+   14.5907,
+   121.0592,
+   14.6135
+  ],
+  "features": 260,
+  "placed": 264,
+  "priced": 353,
+  "kb": 156
+ },
+ "Taguig": {
+  "file": "taguig.geojson",
+  "bbox": [
+   121.0222,
+   14.4668,
+   121.1038,
+   14.5658
+  ],
+  "features": 565,
+  "placed": 572,
+  "priced": 1470,
+  "kb": 329
+ },
+ "Valenzuela": {
+  "file": "valenzuela.geojson",
+  "bbox": [
+   120.926,
+   14.6688,
+   121.0246,
+   14.7571
+  ],
+  "features": 542,
+  "placed": 557,
+  "priced": 967,
+  "kb": 365
+ }
+}

@@ -1,0 +1,122 @@
+barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+Aguho,ALL OTHER VILLAGES/ SUBDIVISIONS,,9000.0,DO 5-2024,background,,0
+Aguho,ALL OTHER STREETS,,8000.0,DO 5-2024,background,,0
+Aguho,P. HERRERA ST.,B. MORCILLA - G DE BORJA,16000.0,DO 5-2024,segment,P. Herrera Street,100
+Aguho,G. DE BORJA ST.,M. ALMEDA ST. - T SULIT,13000.0,DO 5-2024,segment,G. de Borja Street,100
+Aguho,T. SULIT ST.,G DE BORJA AGUHO,12000.0,DO 5-2024,street,T. Sulit Street,100
+Aguho,M. MENGUITO ST.,G. DE BORJA ST. - N.V. PONCE,10000.0,DO 5-2024,street,M. Menguito Street,100
+Aguho,E. QUIOGUE ST,G. DE BORJA ST. (PAT RIVER)-DEAD END,9000.0,DO 5-2024,street,E. Quiogue Street,100
+Aguho,"NESTOR V. PONCE ST,",G. DE BORJA ST.- AGUHO &,15000.0,DO 5-2024,unmatched,Estacio Subdivision (0),0
+Aguho,SAMAHANG DAMAYAN NG PANTINDIG ARAW,G. DE BORJA ST.,10000.0,DO 5-2024,unmatched,Estacio Subdivision (15),0
+Magtanggol,ALL OTHER STREETS,,10000.0,DO 5-2024,background,,0
+Magtanggol,M. ALMEDA ST.,S. CASTILLO - TULAY NA BATO,18000.0,DO 5-2024,street,M. Almeda Street,100
+Magtanggol,S. CASTILLO ST,M. ALMEDA - D SALONGA,16000.0,DO 5-2024,street,S. Castillo Street,100
+Magtanggol,FC CRUZ ST.,M. ALMEDA - D SALONGA,12000.0,DO 5-2024,street,F. C. Cruz Street,95.23809523809523
+Magtanggol,D. SALONGA ST.,FC CRUZ - S CASTILLO ST.,11000.0,DO 5-2024,street,D. C. Salonga Street,92.3076923076923
+Martires Del 96,ALL OTHER VILLAGES/ SUBDIVISIONS,,8000.0,DO 5-2024,background,,0
+Martires Del 96,ALL OTHER STREETS,,7000.0,DO 5-2024,background,,0
+Martires Del 96,MARTIREZ DEL 96 ST.,T. SULIT - M. ALMEDA ST.,12000.0,DO 5-2024,segment,Martirez del '96 Street,100
+Martires Del 96,G. MANALO ST.,T. SULIT - M. ALMEDA ST.,10000.0,DO 5-2024,segment,G. Manalo Street,100
+Martires Del 96,M. ALMEDA ST.,MARTIREZ DEL 96 - PATEROS BDRY,20000.0,DO 5-2024,street,M. Almeda Street,100
+Martires Del 96,T. SULIT ST.,AGUHO BDRY- MARTIREZ BDY,11000.0,DO 5-2024,street,T. Sulit Street,100
+Martires Del 96,BAGONG CALSADA ST.,M. ALMEDA - PATEROS,21000.0,DO 5-2024,unmatched,Sanz Vil Residences (38),0
+Martires Del 96,NESTOR V. PONCE ST.,AGUHO BOUNDARY-MARTIREZ DEL 96,15000.0,DO 5-2024,unmatched,Lake View Manors (0),0
+Martires Del 96,A. TUAZON ST.,INT. BAGONG KALSADA ST,8000.0,DO 5-2024,unmatched,Estacio Subdivision (40),0
+Martires Del 96,ESTACIO SUBD,,9000.0,DO 5-2024,village,Estacio Subdivision,100
+Poblacion,ALL OTHER STREETS,,14000.0,DO 5-2024,background,,0
+Poblacion,P. HERRERA ST.,B MORCILLA - C ALMEDA ST.,21000.0,DO 5-2024,segment,P. Herrera Street,100
+Poblacion,C. ALMEDA ST.,P. HERRERA ST. - A. MABINI ST.,16000.0,DO 5-2024,segment,C. Almeda Street,100
+Poblacion,A. MABINI ST.,B. MORCILLA - C. ALMEDA ST.,15000.0,DO 5-2024,segment,A. Mabini Street,100
+Poblacion,G. FLORES ST.,B MORCILLA - C ALMEDA ST.,15000.0,DO 5-2024,segment,G. Flores Street,100
+Poblacion,A. BONIFACIO ST.,G FLORES - J.P. RIZAL,15000.0,DO 5-2024,street,A. Bonifacio Street,100
+Poblacion,S. TUASON ST.,S. TUASON - G DE BORJA,15000.0,DO 5-2024,street,S. Tuazon Street,90.9090909090909
+Poblacion,GEN. B. MORCILLA ST.,P. HERRERA - M. ALMEDA ST.,31000.0,DO 5-2024,unmatched,,0
+Poblacion,COL. P. TANGCO ST.,B MORCILLA - C ALMEDA ST.,15000.0,DO 5-2024,unmatched,,0
+Poblacion,JP RIZAL ST.,B MORCILLA - C ALMEDA ST.,15000.0,DO 5-2024,unmatched,,0
+Poblacion,LT CRUZ,A. MABINI ST. - C. ALMEDA ST.,15000.0,DO 5-2024,unmatched,,0
+San Pedro,ALL OTHER STREETS,,10000.0,DO 5-2024,background,,0
+San Pedro,P. HERRERA ST.,S. CASTILLO - C ALMEDA,19000.0,DO 5-2024,segment,P. Herrera Street,100
+San Pedro,C. ALMEDA ST.,M. ALMEDA - P. HERRERA,16000.0,DO 5-2024,segment,C. Almeda Street,100
+San Pedro,F. IMSON ST.,S. CASTILLO - C ALMEDA,12000.0,DO 5-2024,segment,F. Imson Street,100
+San Pedro,S. CASTILLO ST.(f.k.a. P. CASTILLO),D. SALONGA - P. HERRERA,16000.0,DO 5-2024,street,S. Castillo Street,100
+San Pedro,C. ALMEDA EXT.,P. HERRES - PATEROS RIVER,15000.0,DO 5-2024,unmatched,,0
+San Pedro,PITONG GATANG,(ALLEY) INT. OF C. ALMEDA ST.,11000.0,DO 5-2024,unmatched,,0
+San Roque,ALL OTHER STREETS,,9000.0,DO 5-2024,background,,0
+San Roque,ALL OTHER VILLAGES/SUBDIVISIONS,,9000.0,DO 5-2024,background,,0
+San Roque,DE JESUS ST,E HERMOSA ST - P ROSALES,10000.0,DO 5-2024,segment,J. de Jesus Street,91.66666666666666
+San Roque,M. ALMEDA ST.,S CASTILLO - PATEROS BDRY,19000.0,DO 5-2024,street,M. Almeda Street,100
+San Roque,G. DE BORJA ST.,,13000.0,DO 5-2024,street,G. de Borja Street,100
+San Roque,E HERMOSA ST,M ALMEDA - GREM VILLAGE,11000.0,DO 5-2024,street,E. Hermosa Street,100
+San Roque,GEN. B MORCILLA ST,BRGY. POBLACION,31000.0,DO 5-2024,unmatched,Lake View Manors (41),0
+San Roque,GEN. B. MORCILLA EXT,M. ALMEDA ST. - STA. ANA RIVER,31000.0,DO 5-2024,unmatched,Teodora Residences (40),0
+San Roque,C. ALMEDA EXT,M. ALMEDA ST. - STA. ANA CREEK,15000.0,DO 5-2024,unmatched,Lake View Manors (37),0
+San Roque,ALIW - SAN ROQUE NEIGHBORHOOD,E. HERMOSA ST.,11000.0,DO 5-2024,unmatched,Lake View Manors (38),0
+San Roque,CRUZ COMPOUND,E. HERMOSA ST,10000.0,DO 5-2024,unmatched,Doña Esperanza (22),0
+San Roque,GREM VILLAGE,,10000.0,DO 5-2024,unmatched,Lake View Manors (21),0
+Santa Ana,ALL OTHER STREETS,,9000.0,DO 5-2024,background,,0
+Santa Ana,ALL OTHER VILLAGES/SUBDIVISIONS,,9000.0,DO 5-2024,background,,0
+Santa Ana,J. DE JESUS,E. HERMOSA - P. ROSALES,10000.0,DO 5-2024,segment,J. de Jesus Street,97
+Santa Ana,GEN. B MORCILLA EXT. (B. MORCILLA ST),BRIDGE - P ROSALES,31000.0,DO 5-2024,street,B. Morcilla Street,100
+Santa Ana,P. ROSALES ST.,MAESTRANG PINANG - PANDAY BRIDGE,15000.0,DO 5-2024,street,P. Rosales Street,100
+Santa Ana,C.M. BORJA ST.,P. ROSALES ST. - DE BORJA COMPOUND,10000.0,DO 5-2024,street,C. Borja Street,90.9090909090909
+Santa Ana,J.R. SANCHEZ ST.,P. ROSALES - A. PONCE,10000.0,DO 5-2024,street,J. R. Sanchez Street,100
+Santa Ana,MASAGANA ST.,P ROSALES - SOLEDAD SANTOS,10000.0,DO 5-2024,street,Masagana Street,100
+Santa Ana,E. RAGAS ST.,ROSALES ST.- END,10000.0,DO 5-2024,street,E. Ragas Street,100
+Santa Ana,LUNAS COMPOUND,INT. P. ROSALES ST.,10000.0,DO 5-2024,street,Luna Compound,96.2962962962963
+Santa Ana,C. ALMEDA EXT.,P. ROSALES ST- STA. ANA CREEK,15000.0,DO 5-2024,unmatched,Lexington Garden Village (43),0
+Santa Ana,CAPT. MUSNI SUBD.,INT. P. ROSALES,13000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (43),0
+Santa Ana,JOSE T. CAPCO ST.,P. ROSALES - COL. FLORES,12000.0,DO 5-2024,unmatched,Estacio Subdivision (53),0
+Santa Ana,A. PONCE ST.,MASAGANA,10000.0,DO 5-2024,unmatched,Saint Anne Subdivision (47),0
+Santa Ana,ALLEY 1 - ALLEY 22,INT. P. ROSALES ST.,10000.0,DO 5-2024,unmatched,Estacio Subdivision (0),0
+Santa Ana,COL. FLORES,J.T. CAPCO ST. - DE BORJA COMPOUND,10000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (36),0
+Santa Ana,MAESTRANG PINANG,P. ROSALES - BRIDGE,10000.0,DO 5-2024,unmatched,Doña Esperanza (47),0
+Santa Ana,NYUGAN,INT. MASAGANA,10000.0,DO 5-2024,unmatched,Saint Anne Subdivision (38),0
+Santa Ana,SANTOS ST.,P. ROSALES - TULAY NA BATO,10000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (56),0
+Santa Ana,STA. ANA BUKID,P. ROSALES - SOLEDAD SAN,10000.0,DO 5-2024,unmatched,Saint Anne Subdivision (43),0
+Santa Ana,TANGLAW NG PAGKAKAISA,INT. A. PONCE,10000.0,DO 5-2024,unmatched,Doña Esperanza (34),0
+Santa Ana,BISIG NG KOMUNIDAD,INT. COL. FLORES,10000.0,DO 5-2024,unmatched,Lexington Garden Village (41),0
+Santa Ana,DE BORJA CMPD. (f.k.a. KAWAYANAN),INT. C.M. BORJA,10000.0,DO 5-2024,unmatched,Saint Anne Subdivision (40),0
+Santa Ana,ESPIRITU COMPOUND,INT. C.M. BORJA,10000.0,DO 5-2024,unmatched,Saint Anne Subdivision (44),0
+Santa Ana,KINSI,ALLEY 7,10000.0,DO 5-2024,unmatched,Saint Anne Subdivision (40),0
+Santa Ana,PANDAY PALTOK,PANDAY CREEK,10000.0,DO 5-2024,unmatched,Doña Esperanza (44),0
+Santa Ana,POBLETE SUBD.,INT. MASAGANA,10000.0,DO 5-2024,unmatched,Lexington Garden Village (35),0
+Santa Ana,DONA ESPERANZA,E. HERMOSA - END,10000.0,DO 5-2024,village,Doña Esperanza,100
+Santa Ana,MASIKAP COMMUNITY COMPLEX,INT. C.M. BORJA,10000.0,DO 5-2024,village,Masikap Community Complex,100
+Santa Ana,TANGCO SUBDIVISION,E. RAGAS - COL. FLORES,10000.0,DO 5-2024,village,Tangco Subdivision,100
+Santa Ana,TIBAY SUBD.,INT. P. ROSALES,10000.0,DO 5-2024,village,Tibay Subdivision,100
+Santo Rosario-Kanluran,ALL OTHER STREETS,,13000.0,DO 5-2024,background,,0
+Santo Rosario-Kanluran,ALL OTHER VILLAGES / SUBDIVISIONS,,13000.0,DO 5-2024,background,,0
+Santo Rosario-Kanluran,ARMADA ST.,MR. FLORES - COLLEGE ST.,14000.0,DO 5-2024,street,M. Armada Street,90.0
+Santo Rosario-Kanluran,CORTEZ DRIVE,C. LORENZO - SANTANA SUBD.,14000.0,DO 5-2024,street,F. Cortez Drive,90.0
+Santo Rosario-Kanluran,F.T. ANGELES,C. LORENZO - SANTANA SUBD.,14000.0,DO 5-2024,street,F. T. Angeles Street,97
+Santo Rosario-Kanluran,M LOZADA ST.,STO. ROSARIO SILANGAN - M.R. FLORES,14000.0,DO 5-2024,street,M. Lozada Street,100
+Santo Rosario-Kanluran,MR. FLORES ST.,STO. ROSARIO SILANGAN - BDRY,14000.0,DO 5-2024,street,M. R. Flores Street,96.0
+Santo Rosario-Kanluran,EMERALD SUBD.(STA. LUCIA),ENTIRE AREA,14000.0,DO 5-2024,street,Emerald Avenue,97
+Santo Rosario-Kanluran,A. MARIANO,INT. C. LORENZO,14000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (55),0
+Santo Rosario-Kanluran,COLLEGE ST,SANTANA SUBD.,14000.0,DO 5-2024,unmatched,Emerald Court Subdivision (40),0
+Santo Rosario-Kanluran,C. LORENZO ST.,MR. FLORES - STO. ROSARIO PASIG BDRY,14000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (36),0
+Santo Rosario-Kanluran,TALIBONG,INT. C. LORENZO,14000.0,DO 5-2024,unmatched,Pasig (46),0
+Santo Rosario-Kanluran,SANTANA SUBD.,ENTIRE AREA,14000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (50),0
+Santo Rosario-Silangan,ALL OTHER STREETS*******/,,10000.0,DO 5-2024,background,,0
+Santo Rosario-Silangan,ALL OTHER VILLAGES / SUBDIVISIONS,,7000.0,DO 5-2024,background,,0
+Santo Rosario-Silangan,M ALMEDA ST.,PASIG BDRY - M LOZADA,31000.0,DO 5-2024,street,M. Almeda Street,100
+Santo Rosario-Silangan,M. FLORES ST.,M. ALMEDA TO BOUNDERY OF LEXINGTON GARDEN,15000.0,DO 5-2024,street,M. R. Flores Street,91.66666666666666
+Santo Rosario-Silangan,M. LOZADA ST.,STO. ROSARIO K & M. ALMEDA,14000.0,DO 5-2024,street,M. Lozada Street,100
+Santo Rosario-Silangan,ELISCO ROAD,M. ALMEDA - LEXINGTON,32000.0,DO 5-2024,unmatched,Emerald Court Subdivision (42),0
+Santo Rosario-Silangan,F. MENDOZA,INT. M. ALMEDA,14000.0,DO 5-2024,unmatched,Emerald Court Subdivision (36),0
+Santo Rosario-Silangan,IKMUHAN,TATCO- M. LOZADA,14000.0,DO 5-2024,unmatched,Tibay Subdivision (33),0
+Santo Rosario-Silangan,SEBASTIANA LANE,INT. CONCEPCION,14000.0,DO 5-2024,unmatched,The East Mansion Townhomes (50),0
+Santo Rosario-Silangan,TULAY NA BATO,INT. M. ALMEDA,14000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (38),0
+Santo Rosario-Silangan,TATCO - STO. ROSARIO SUBD.,M. ALMEDA,14000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (80),0
+Santo Rosario-Silangan,AVILA ST.,FROM F. CRUZ TO M. LOZADA ST.,11000.0,DO 5-2024,unmatched,Tibay Subdivision (40),0
+Santo Rosario-Silangan,DREAM LAND,INT. M LOZADA,8000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (43),0
+Santo Rosario-Silangan,LEXINGTON SUBD.,INT. ELISCO RD.,26000.0,DO 5-2024,village,Lexington Garden Village,95
+Tabacalera,ALL OTHER STREETS,,10000.0,DO 5-2024,background,,0
+Tabacalera,S. CASTILLO ST.,C. SEXON - D. SALONGA ST.,16000.0,DO 5-2024,segment,S. Castillo Street,100
+Tabacalera,C. SEXON ST.,S. CASTILLO - S. ALQUILLERA,13000.0,DO 5-2024,segment,C. Sexon Street,100
+Tabacalera,S. ALQUILLERA ST.,F.C. TUAZON - C. SEXON ST.,13000.0,DO 5-2024,segment,S. Alquillera Street,100
+Tabacalera,D. SALONGA ST.,S. CASTILLO - FC CRUZ ST.,11000.0,DO 5-2024,segment,D. C. Salonga Street,92.3076923076923
+Tabacalera,FC CRUZ ST.,D. SALONGA - S. ALQUILLERA,12000.0,DO 5-2024,street,F. C. Cruz Street,95.23809523809523
+Tabacalera,FC TUAZON ST.,S. ALQUILLERA - STO. ROSARIO K.,12000.0,DO 5-2024,street,F. C. Tuazon Street,96.0
+Tabacalera,LT. TIAMSIC ST.,INT. F.C. TUAZON - C. SEXON ST.,11000.0,DO 5-2024,unmatched,Pasig (40),0
+Tabacalera,SULUKAN,INT. F.C. TUAZON - END,11000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (30),0

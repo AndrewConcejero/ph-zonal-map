@@ -1,0 +1,688 @@
+barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+Bangkal,EVANGELISTA ST.,DALLAS ST. - EDSA,148000.0,DO 36-2021,segment,Evangelista Street,100
+Bangkal,J. CLIMACO ST.,GEN. J. BELARMINO ST. - EDSA,140000.0,DO 36-2021,segment,J. Climaco Street,100
+Bangkal,SABIO ST.,CHINO ROCES AVE.- AMORSOLO ST.,140000.0,DO 36-2021,segment,Sabio Street,100
+Bangkal,RODRIGUEZ AVE.,GEN. ESTRELLA ST. - EDSA,108000.0,DO 36-2021,segment,Rodriguez Street,97
+Bangkal,GEN P. SANTOS ST. (SANTOS),GEN. LIM ST. - EVANGELISTA,103000.0,DO 36-2021,segment,General P. Santos Street,100
+Bangkal,GEN. V. ZAMORA ST.(ZAMORA),GEN. J. LUNA ST. - GEN. DEL PILAR ST.,103000.0,DO 36-2021,segment,Zamora Street,97
+Bangkal,LA GUARDIA ST.,A. BONIFACIO ST. - HEN. J. CAILLES ST.,93000.0,DO 36-2021,segment,La Guardia Street,100
+Bangkal,GEN. NATIVIDAD ST. (NATIVIDAD),GEN. J. BELARMINO- EDSA,140000.0,DO 36-2021,street,General Natividad Street,100
+Bangkal,DON BOSCO ST.,PRES. SERGIO OSMEÑA SR. HIGHWAY - CHINO ROCES AVE.,128000.0,DO 36-2021,street,Don Bosco Street,100
+Bangkal,DALLAS ST.,P. BINAY ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,108000.0,DO 36-2021,street,Dallas Street,100
+Bangkal,GEN M. CAPINPIN ST. (GEN N. CAPINPIN),GEN. P SANTOS ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General M. Capinpin Street,100
+Bangkal,GEN V. LIM ST. (GEN A. LIM),M. REYES ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General V. Lim Street,100
+Bangkal,GEN V. LUKBAN ST. (U. LUKBAN),P. BINAY ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General V. Lucban Street,93.33333333333333
+Bangkal,GEN. ALEJANDRINO ST.,EVANGELISTA-A.APOLINARIO,103000.0,DO 36-2021,street,General Alejandrino Street,100
+Bangkal,GEN. E. MACABULOS ST.,P. BINAY ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General F. Macabulos Street,94.44444444444444
+Bangkal,GEN. G. DEL PILAR ST. (GEN. DEL PILAR),P. BINAY ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General G. del Pilar Street,100
+Bangkal,GEN. J. BELARMINO ST.(GEN. A.BELARMINO),M. REYES ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General V. Belarmino Street,94.44444444444444
+Bangkal,GEN. J. CAILLES ST.(GEN CAILLES),A. BONIFACIO ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General J. Cailles Street,100
+Bangkal,GEN. J. LACUNA ST.,P. BINAY ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General J. Lacuña Street,100
+Bangkal,GEN. M. HIZON ST.,P. BINAY ST. - A. APOLINARIO,103000.0,DO 36-2021,street,General M. Hizon Street,100
+Bangkal,GEN. M. TINIO ST.,P. BINAY ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General M. Tinio Street,100
+Bangkal,GEN. O MOJICA ST.,P. BINAY ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General O. Mojica Street,100
+Bangkal,GEN P. GARCIA ST.,P. BINAY ST. - A. APOLINARIO,103000.0,DO 36-2021,street,General P. Garcia Street,100
+Bangkal,GEN S. ESTRELLA ST.,P. BINAY ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,street,General S. Estrella Street,100
+Bangkal,P. BINAY ST.(formerly Gen. Ricarte St.),A. ARNAIZ AVE. - GEN. J. CAILLES,93000.0,DO 36-2021,street,P. Binay Street,100
+Bangkal,M. LLANERA ST.,GEN. J. BELARMINO ST. - EDSA,140000.0,DO 36-2021,unmatched,Magallanes Village (67),0
+Bangkal,PRES. SERGIO OSMEÑA SR. HIGHWAY (FRMLY: SOUTH SUPERHIGHWAY),DON BOSCO- EDSA,120000.0,DO 36-2021,unmatched,Ecology Village EDSA Sector (42),0
+Bangkal,CAPT. M. REYES (M. Reyes),DALLAS ST. - EDSA,110000.0,DO 36-2021,unmatched,San Lorenzo Village (36),0
+Bangkal,GEN. A. LUNA ST.,P. BINAY ST. - RODRIGUEZ ST.,105000.0,DO 36-2021,unmatched,Magallanes Village (42),0
+Bangkal,GEN M. MALVAR ST.(GEN MALVAR),P. BINAY ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,unmatched,Central Park Towers (43),0
+Bangkal,GEN A. BONIFACIO ST.,GEN. CAILLES - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,unmatched,Cityland Pasong Tamo (40),0
+Bangkal,GEN. MASCARDO ST.,P. BINAY ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,103000.0,DO 36-2021,unmatched,San Lorenzo Village (43),0
+Bangkal,WALLACE ST.,J. BELARMINO-EDSA,93000.0,DO 36-2021,unmatched,Magallanes Village (62),0
+Bangkal,A. APOLINARIO ST.,DALLAS ST. - EDSA,83000.0,DO 36-2021,unmatched,Dasmariñas Village (48),0
+Bel-Air,AMAPOLA,Estrella - Mercedes,250000.0,DO 35-2021,segment,Amapola Street,97
+Bel-Air,ANTARES,Jupiter - Mercedes,250000.0,DO 35-2021,segment,Antares Street,97
+Bel-Air,AQUARIUS,Hydra - Solar,250000.0,DO 35-2021,segment,Aquarius Street,97
+Bel-Air,ASTEROID,Jupiter - Mercedes,250000.0,DO 35-2021,segment,Asteroid Street,97
+Bel-Air,CANOPUS,Jupiter - Mercedes,250000.0,DO 35-2021,segment,Canopus Street,97
+Bel-Air,COMET,Jupiter - Constellation,250000.0,DO 35-2021,segment,Comet Street,97
+Bel-Air,GALAXY,Jupiter - Mercedes,250000.0,DO 35-2021,segment,Galaxy Street,97
+Bel-Air,HERCULES,Orbit - Makati Ave.,250000.0,DO 35-2021,segment,Hercules Street,97
+Bel-Air,HYDRA,Mercedes - Taurus,250000.0,DO 35-2021,segment,Hydra Street,97
+Bel-Air,LIBRA,Solar - Taurus,250000.0,DO 35-2021,segment,Libra Street,97
+Bel-Air,ORBIT,Jupiter - Neptune,250000.0,DO 35-2021,segment,Orbit Street,97
+Bel-Air,ORION,Polaris - Mercedes,250000.0,DO 35-2021,segment,Orion Street,97
+Bel-Air,PLANET,Jupiter - Mercedes,250000.0,DO 35-2021,segment,Planet Street,97
+Bel-Air,SOLAR,Hydra - Zodiac,250000.0,DO 35-2021,segment,Solar Street,97
+Bel-Air,STELLA,Hydra - Solar,250000.0,DO 35-2021,segment,Stella Street,97
+Bel-Air,TAURUS,Amapola - Zodiac,250000.0,DO 35-2021,segment,Taurus Street,97
+Bel-Air,ZODIAC,Jupiter - Taurus (Lots Backing Edsa),250000.0,DO 35-2021,segment,Zodiac Street,97
+Bel-Air,ZODIAC,Jupiter - Taurus (Inner Lots),250000.0,DO 35-2021,segment,Zodiac Street,97
+Bel-Air,SATURN,Constellation - Jupiter,200000.0,DO 35-2021,segment,Saturn Street,97
+Bel-Air,CONSTELLATION,Makati Ave. - Reposo,250000.0,DO 35-2021,street,Constellation Street,97
+Bel-Air,ESTRELLA,J. Rizal - EDSA,250000.0,DO 35-2021,street,Estrella Street,97
+Bel-Air,MERCEDES,P. Burgos - Zodiac,250000.0,DO 35-2021,street,Mercedes Street,97
+Bel-Air,MERCURY,Jupiter - Mars,250000.0,DO 35-2021,street,Mercury Street,97
+Bel-Air,NEPTUNE,N. Garcia - Durban,250000.0,DO 35-2021,street,Neptune Street,97
+Bel-Air,POLARIS,Jupiter - Mars,250000.0,DO 35-2021,street,Polaris Street,97
+Bel-Air,ARIES,Mercedes - Taurus,250000.0,DO 35-2021,unmatched,The Rise Makati (53),0
+Bel-Air,ASTRA I,Jupiter - Mercedes,250000.0,DO 35-2021,unmatched,Bel-Air 1 (50),0
+Bel-Air,JUNO,Makati Ave. - Orbit,250000.0,DO 35-2021,unmatched,The Columns (40),0
+Bel-Air,LEO,Solar - Taurus,250000.0,DO 35-2021,unmatched,The Lerato (67),0
+Bel-Air,MARS,Jupiter - Mercedes,250000.0,DO 35-2021,unmatched,The Rise Makati (53),0
+Bel-Air,N. GARCIA (REPOSO),Sen. Gil Puyat - Kalayaan Ave.,250000.0,DO 35-2021,unmatched,One Central (42),0
+Carmona,CRYSTAL,Rodil - H. Santos,100000.0,DO 35-2021,segment,Crystal Street,97
+Carmona,P. DOMINGO,A. Mendoza - H. Santos,100000.0,DO 35-2021,segment,P. Domingo Street,97
+Carmona,RODIL,Estrella - Crystal,100000.0,DO 35-2021,segment,Rodil Street,97
+Carmona,D. BENITO,Arpilleda - M. Roxas,100000.0,DO 35-2021,street,D. Benito Street,97
+Carmona,E. PASCUA,Mendoza - A.P. Reyes,100000.0,DO 35-2021,street,E. Pascua Street,97
+Carmona,ESTRELLA,H. Santos,100000.0,DO 35-2021,street,Estrella Street,97
+Carmona,H. SANTOS,A. Reyes Ave. - Estrella,100000.0,DO 35-2021,street,H. Santos Street,97
+Carmona,P. NUNEZ,A. Mendoza - Guizon,100000.0,DO 35-2021,street,P. Nuñez Street,97
+Carmona,J. MAGSAYSAY,H. Santos,100000.0,DO 35-2021,street,J. Magsaysay Street,97
+Carmona,A. P. REYES,P. Domingo - Hippodrimo,150000.0,DO 35-2021,unmatched,Sunny Ridge Residences (34),0
+Carmona,HIPODROMO,A. Reyes Ave. - Taliba,120000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (21),0
+Carmona,ARPILLEDA,Guizon - A.P Reyes,100000.0,DO 35-2021,unmatched,Sunny Ridge Residences (27),0
+Carmona,DIZON,H. Santos,100000.0,DO 35-2021,unmatched,Sunny Ridge Residences (23),0
+Carmona,GUIZON / F. GUIZON,Arpilleda - Esperanza,100000.0,DO 35-2021,unmatched,Sunny Ridge Residences (33),0
+Carmona,MENDOZA,Pasong Tamo,100000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (28),0
+Carmona,PERRY,H. Santos,100000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (24),0
+Carmona,RODRIGUEZ,E. Pascua,100000.0,DO 35-2021,unmatched,Sunny Ridge Residences (40),0
+Dasmariñas,ALL OTHER STREETS,,275000.0,DO 38-2021,background,,0
+Dasmariñas,ACACIA,,300000.0,DO 38-2021,street,Acacia Avenue,97
+Dasmariñas,AMORSOLO,,300000.0,DO 38-2021,street,Amorsolo Street,97
+Dasmariñas,ANTONIO ARNAIZ AVENUE (PASAY ROAD),,300000.0,DO 38-2021,street,Pasay Road,100
+Dasmariñas,AVOCADO,,300000.0,DO 38-2021,street,Avocado Street,97
+Dasmariñas,CABALLERO,,300000.0,DO 38-2021,street,Caballero Street,97
+Dasmariñas,CALUMPANG,,300000.0,DO 38-2021,street,Calumpang Street,97
+Dasmariñas,CAMPANILLA,,300000.0,DO 38-2021,street,Campanilla Street,97
+Dasmariñas,CARISSA,,300000.0,DO 38-2021,street,Carissa Street,97
+Dasmariñas,CYPRESS,,300000.0,DO 38-2021,street,Cypress Street,97
+Dasmariñas,DASMARIÑAS AVENUE,,300000.0,DO 38-2021,street,Dasmariñas Street,97
+Dasmariñas,GLADIOLA,,300000.0,DO 38-2021,street,Gladiola Street,97
+Dasmariñas,GLORIOSA,,300000.0,DO 38-2021,street,Gloriosa Street,97
+Dasmariñas,GRANADA,,300000.0,DO 38-2021,street,Granada Street,97
+Dasmariñas,KALACHUCHI,,300000.0,DO 38-2021,street,Kalachuchi Street,97
+Dasmariñas,KALAMANSI,,300000.0,DO 38-2021,street,Kalamansi Street,97
+Dasmariñas,KAMIAS,,300000.0,DO 38-2021,street,Kamias Street,97
+Dasmariñas,KASOY,,300000.0,DO 38-2021,street,Kasoy Street,97
+Dasmariñas,LUMBANG,,300000.0,DO 38-2021,street,Lumbang Street,97
+Dasmariñas,MABOLO,,300000.0,DO 38-2021,street,Mabolo Street,97
+Dasmariñas,MAGNOLIA,,300000.0,DO 38-2021,street,Magnolia Street,97
+Dasmariñas,MAHOGANY ROAD,,300000.0,DO 38-2021,street,Mahogany Road,100
+Dasmariñas,MILFLORES,,300000.0,DO 38-2021,street,Milflores Street,97
+Dasmariñas,MORADO AVENUE,,300000.0,DO 38-2021,street,Morado Street,97
+Dasmariñas,PALM AVENUE,,300000.0,DO 38-2021,street,Palm Avenue,100
+Dasmariñas,PALOMARIA,,300000.0,DO 38-2021,street,Palomaria Street,97
+Dasmariñas,PARAISO,,300000.0,DO 38-2021,street,Paraiso Street,97
+Dasmariñas,POMELO,,300000.0,DO 38-2021,street,Pomelo Street,97
+Dasmariñas,SAMPAGUITA,,300000.0,DO 38-2021,street,Sampaguita Street,97
+Dasmariñas,SANTAN,,300000.0,DO 38-2021,street,Santan Street,97
+Dasmariñas,TAMARIND,,300000.0,DO 38-2021,street,Tamarind Road,97
+Dasmariñas,PARAISO(BACKING EDSA),backing EDSA,275000.0,DO 38-2021,street,Paraiso Street,97
+Dasmariñas,BANYAN ST.,,300000.0,DO 38-2021,unmatched,SSBNAI Village (50),0
+Dasmariñas,BOUGANVILLA,,300000.0,DO 38-2021,unmatched,Urdaneta Village (42),0
+Dasmariñas,MACOPA,,300000.0,DO 38-2021,unmatched,Dasmariñas Village (40),0
+Dasmariñas,SAGU,,300000.0,DO 38-2021,unmatched,SSBNAI Village (40),0
+Dasmariñas,SINIGUELAS,,300000.0,DO 38-2021,unmatched,Dasmariñas Village (44),0
+Forbes Park,ALL OTHER STREETS,,338000.0,DO 38-2021,background,,0
+Forbes Park,ANAHAW,,338000.0,DO 38-2021,street,Anahaw Road,97
+Forbes Park,BALETE,,338000.0,DO 38-2021,street,Balete Street,97
+Forbes Park,BANABA CIRCLE,,338000.0,DO 38-2021,street,Banaba Circle,100
+Forbes Park,BANABA ROAD,,338000.0,DO 38-2021,street,Banaba Road,100
+Forbes Park,BANYAN,,338000.0,DO 38-2021,street,Banyan Road,97
+Forbes Park,BAUHINIA,,338000.0,DO 38-2021,street,Bauhinia Road,97
+Forbes Park,CAMBRIDGE CIRCLE,,338000.0,DO 38-2021,street,Cambridge Circle,100
+Forbes Park,DAPDAP,,338000.0,DO 38-2021,street,Dapdap Road,97
+Forbes Park,FLAME TREE,,338000.0,DO 38-2021,street,Flame Tree Road,97
+Forbes Park,INSTIA,,338000.0,DO 38-2021,street,Instia Road,97
+Forbes Park,IPIL ROAD,,338000.0,DO 38-2021,street,Ipil Road,100
+Forbes Park,IPIL PLACE,,338000.0,DO 38-2021,street,Ipil Place,100
+Forbes Park,JACARANDA,,338000.0,DO 38-2021,street,Jacaranda Road,97
+Forbes Park,KAWAYAN,,338000.0,DO 38-2021,street,Kawayan Road,97
+Forbes Park,MAHOGANY,,338000.0,DO 38-2021,street,Mahogany Road,97
+Forbes Park,MOLAVE,,338000.0,DO 38-2021,street,Molave Street,97
+Forbes Park,NARRA AVENUE,,338000.0,DO 38-2021,street,Narra Avenue,100
+Forbes Park,PALM AVENUE,,338000.0,DO 38-2021,street,Palm Avenue,100
+Forbes Park,PANDAN,,338000.0,DO 38-2021,street,Pandan Road,97
+Forbes Park,PARK ROAD,,338000.0,DO 38-2021,street,Park Road,100
+Forbes Park,PILI AVENUE,,338000.0,DO 38-2021,street,Pili Avenue,100
+Forbes Park,TALISAY,,338000.0,DO 38-2021,street,Talisay Road,97
+Forbes Park,TAMARIND,,338000.0,DO 38-2021,street,Tamarind Road,97
+Forbes Park,AGUHO,,338000.0,DO 38-2021,unmatched,Bonifacio Heights (29),0
+Forbes Park,CAIMITO,,338000.0,DO 38-2021,unmatched,Fairways Tower (40),0
+Forbes Park,HARVARD,,338000.0,DO 38-2021,unmatched,Fairways Tower (40),0
+Forbes Park,MC KINLEY,,338000.0,DO 38-2021,unmatched,McKinley West (73),0
+Forbes Park,SEN. GIL PUYAT EXT.,,338000.0,DO 38-2021,unmatched,Essensa East Forbes (46),0
+Forbes Park,TANGUILE,,338000.0,DO 38-2021,unmatched,Consular Subdivision (38),0
+Guadalupe Nuevo,ALL OTHERS STREETS,,120000.0,DO 38-2021,background,,0
+Guadalupe Nuevo,REPOSO,P. Burgos St. to Manggahan St.,120000.0,DO 38-2021,segment,Reposo Street,97
+Guadalupe Nuevo,ESCUELA,EDSA to Gov. Noble St.,135000.0,DO 38-2021,street,Escuela Street,97
+Guadalupe Nuevo,KALAYAAN AVE.,Brgy. Pitogo Bdry. To South Cembo,135000.0,DO 38-2021,street,Kalayaan Avenue,100
+Guadalupe Nuevo,ANASTACIO,,120000.0,DO 38-2021,street,Anastacio Street,97
+Guadalupe Nuevo,BALAGTAS,,120000.0,DO 38-2021,street,Balagtas Street,97
+Guadalupe Nuevo,BATAAN,Jacinto to Corregidor St.,120000.0,DO 38-2021,street,Bataan Street,97
+Guadalupe Nuevo,BUENCONSEJO (fmly. Buencamino),,120000.0,DO 38-2021,street,Buenconsejo Street,97
+Guadalupe Nuevo,CAMINO DELA FE,,120000.0,DO 38-2021,street,Camino Dela Fe Street,97
+Guadalupe Nuevo,CORREGIDOR,,120000.0,DO 38-2021,street,Corregidor Street,97
+Guadalupe Nuevo,DAPITAN,,120000.0,DO 38-2021,street,Dapitan Street,97
+Guadalupe Nuevo,E. JACINTO,,120000.0,DO 38-2021,street,E. Jacinto Street,97
+Guadalupe Nuevo,E. JACINTO EXT.,,120000.0,DO 38-2021,street,E. Jacinto Street Extension,97
+Guadalupe Nuevo,FELIPE,,120000.0,DO 38-2021,street,Felipe Street,97
+Guadalupe Nuevo,LA CONSOLACION,,120000.0,DO 38-2021,street,La Consolacion Street,97
+Guadalupe Nuevo,MACTAN,,120000.0,DO 38-2021,street,Mactan Street,97
+Guadalupe Nuevo,MAGALLANES,,120000.0,DO 38-2021,street,Magallanes Street,97
+Guadalupe Nuevo,MANGGAHAN,Sra. De Guadalupe to Victor St.,120000.0,DO 38-2021,street,Manggahan Street,97
+Guadalupe Nuevo,ORENSE,Sra. De Guadalupe to Victor St.,120000.0,DO 38-2021,street,Orense Street,97
+Guadalupe Nuevo,P. BURGOS,Reposo St. to R. Magsaysay St.,120000.0,DO 38-2021,street,P. Burgos Street,97
+Guadalupe Nuevo,P. URDANETA,,120000.0,DO 38-2021,street,P. Urdaneta Street,97
+Guadalupe Nuevo,P. VICTOR,,120000.0,DO 38-2021,street,P. Victor Street,97
+Guadalupe Nuevo,RETIRO,,120000.0,DO 38-2021,street,Retiro Street,97
+Guadalupe Nuevo,SAMPAGUITA,,120000.0,DO 38-2021,street,Sampaguita Street,97
+Guadalupe Nuevo,SAN NICOLAS,,120000.0,DO 38-2021,street,San Nicolas Street,97
+Guadalupe Nuevo,F. YABUT,Kalayaan to Burgos St.,135000.0,DO 38-2021,unmatched,DJ Place (27),0
+Guadalupe Nuevo,SGT. YABUT CIRCLE,Dapitan Ext. to Kalayaan Ave.,135000.0,DO 38-2021,unmatched,Cloverleaf Place (38),0
+Guadalupe Nuevo,ANTIPOLO,Sra. De Guadalupe to Victor St.,120000.0,DO 38-2021,unmatched,Palm Village (33),0
+Guadalupe Nuevo,BO. VISAYA,,120000.0,DO 38-2021,unmatched,Cloverleaf Place (32),0
+Guadalupe Nuevo,CAPAS,,120000.0,DO 38-2021,unmatched,Palm Village (50),0
+Guadalupe Nuevo,DAPITAN EXT.,,120000.0,DO 38-2021,unmatched,DJ Place (42),0
+Guadalupe Nuevo,DEL CARMEN,,120000.0,DO 38-2021,unmatched,DJ Place (44),0
+Guadalupe Nuevo,GOV. NOBLE,,120000.0,DO 38-2021,unmatched,Brio Tower (42),0
+Guadalupe Nuevo,LA BANDA,,120000.0,DO 38-2021,unmatched,DJ Place (50),0
+Guadalupe Nuevo,NSTRA. SRA. DE GUADALUPE,,120000.0,DO 38-2021,unmatched,Victor Residences (37),0
+Guadalupe Nuevo,R. MAGSAYSAY,P. Burgos St. to Orense St.,120000.0,DO 38-2021,unmatched,Victor Residences (22),0
+Guadalupe Nuevo,STA. RITA,Orense St. to Escuela St.,120000.0,DO 38-2021,unmatched,Brio Tower (44),0
+Guadalupe Viejo,AMAPOLA,Adalla - Estrella,120000.0,DO 35-2021,segment,Amapola Street,97
+Guadalupe Viejo,AMAPOLA,Camia - Zodiac,120000.0,DO 35-2021,segment,Amapola Street,97
+Guadalupe Viejo,BERNARDINO,Progreso - Edsa,120000.0,DO 35-2021,segment,Bernardino Street,97
+Guadalupe Viejo,CARBALLO,J.P. Rizal - Progreso,120000.0,DO 35-2021,segment,Carballo Street,97
+Guadalupe Viejo,CORONADO,Gumamela - J.P. Rizal,120000.0,DO 35-2021,segment,Coronado Street,97
+Guadalupe Viejo,GONZALES,J.P. Rizal - Bernardino,120000.0,DO 35-2021,segment,Gonzales Street,97
+Guadalupe Viejo,GUMAMELA,Estrella - Coronado,120000.0,DO 35-2021,segment,Gumamela Street,97
+Guadalupe Viejo,LIRIO,Amapola - Zodiac,120000.0,DO 35-2021,segment,Lirio Street,97
+Guadalupe Viejo,MILEGUAS,Camia - Adalla,120000.0,DO 35-2021,segment,Mileguas Street,97
+Guadalupe Viejo,TRINIDAD,J.P. Rizal - Gonzales,120000.0,DO 35-2021,segment,Trinidad Street,97
+Guadalupe Viejo,ESTRELLA,J.P. Rizal - EDSA,300000.0,DO 35-2021,street,Estrella Street,97
+Guadalupe Viejo,J. P. RIZAL,Edsa (Guadalupe Bridge) - Estrella,150000.0,DO 35-2021,street,J. P. Rizal Street,97
+Guadalupe Viejo,ADALLA,Mileguas - Amapola / Zodiac,120000.0,DO 35-2021,street,Adalla Street,97
+Guadalupe Viejo,ADALLA PLACE / EXTENSION,Adalla,120000.0,DO 35-2021,street,Adalla Place,100
+Guadalupe Viejo,AZUCENA,Camia,120000.0,DO 35-2021,street,Azucena Street,97
+Guadalupe Viejo,CAMIA,J.P. Rizal - Amapola / Zodiac,120000.0,DO 35-2021,street,Camia Street,97
+Guadalupe Viejo,CHAMPACA,Jasmin - Adalla,120000.0,DO 35-2021,street,Champaca Street,97
+Guadalupe Viejo,ILANG-ILANG,Adalla - Jasmin,120000.0,DO 35-2021,street,Ilang-Ilang Street,97
+Guadalupe Viejo,ROSAL,Jasmin - Camia,120000.0,DO 35-2021,street,Rosal Street,97
+Guadalupe Viejo,JASMIN,Adalla - Gumamela,120000.0,DO 35-2021,unmatched,Palm Village (40),0
+Guadalupe Viejo,"PROGRESO I , II",J.P. Rizal,120000.0,DO 35-2021,unmatched,Cloverleaf Place (0),0
+Kasilawan,ESPERANZA,D. Benito - H. Santos,80000.0,DO 35-2021,segment,Esperanza Street,97
+Kasilawan,E. PASCUA,M. Roxas,100000.0,DO 35-2021,street,E. Pascua Street,97
+Kasilawan,D. BENITO,M. Roxas - Esperanza cor. Cagayan,80000.0,DO 35-2021,street,D. Benito Street,97
+Kasilawan,H. SANTOS,M. Roxas - Esperanza,80000.0,DO 35-2021,street,H. Santos Street,97
+Kasilawan,P. DOMINGO,Del Pan - Mendoza,80000.0,DO 35-2021,street,P. Domingo Street,97
+Kasilawan,P. NUNEZ,Mendoza - Del Pan,80000.0,DO 35-2021,street,P. Nuñez Street,97
+Kasilawan,PAGKAKAISA,P. Domingo - Estero De Sta Clara,80000.0,DO 35-2021,street,Pagkakaisa Street,97
+Kasilawan,DEL PAN,P. Domingo - Callejon 11,100000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (39),0
+Kasilawan,BENITEZ,D. Benito,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (28),0
+Kasilawan,C - 8,Del Pan,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (0),0
+Kasilawan,C - 9,Del Pan,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (0),0
+Kasilawan,C - 10,Del Pan,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (0),0
+Kasilawan,CAGAYAN,Del Pan - D. Benito Cor. Esperanza,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (22),0
+Kasilawan,CARIDAD,H. Santos - E. Pascua,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (28),0
+Kasilawan,E. GUIZON,Esperanza - M. Roxas,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (27),0
+Kasilawan,EVANGELISTA,P. Domingo - Pasig River,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (35),0
+Kasilawan,FRANCISCO,P. Domingo - Esperanza,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (26),0
+Kasilawan,MENDOZA,P. Domingo - Estero De Sta Clara,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (28),0
+Kasilawan,RODRIGUEZ,H. Santos - M. Roxas,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (26),0
+La Paz,ARCHIMEDES,Balagtas - Flordeliz,100000.0,DO 35-2021,segment,Archimedes Street,97
+La Paz,METROPOLITAN AVENUE,Davila - P. Ocampo Sr. Ext,245000.0,DO 35-2021,street,Metropolitan Avenue,100
+La Paz,PABLO OCAMPO (VITO CRUZ) EXTENSION,,200000.0,DO 35-2021,street,Pablo Ocampo Street,90.32258064516128
+La Paz,CHINO ROCES AVE (P.TAMO),Vito Cruz Ext-Davilla,150000.0,DO 35-2021,street,Chino Roces Avenue,100
+La Paz,BALAGTAS,Z. Roxas - P. Ocampo Sr. Ext,100000.0,DO 35-2021,street,Balagtas Street,97
+La Paz,CABANILLAS,Mola - P. Ocampo Sr. Ext,100000.0,DO 35-2021,street,Cabanillas Street,97
+La Paz,CATON,Z. Roxas - P. Ocampo Sr. Ext,100000.0,DO 35-2021,street,Caton Street,97
+La Paz,CERVERA,Mola - P. Ocampo Sr. Ext,100000.0,DO 35-2021,street,Cervera Street,97
+La Paz,DAVILA,Z. Roxas - Chino Roces Ave.,100000.0,DO 35-2021,street,Davila Street,97
+La Paz,EUREKA,P. Ocampo Sr. Ext,100000.0,DO 35-2021,street,Eureka Street,97
+La Paz,GODET,Mola - Onyx,100000.0,DO 35-2021,street,Godet Street,97
+La Paz,HAWAII,Onyx - Flordeliz,100000.0,DO 35-2021,street,Hawaii Street,97
+La Paz,PASONG TIRAD,Davila - Onyx,100000.0,DO 35-2021,street,Pasong Tirad Street,97
+La Paz,SUNRISE,Z. Roxas,100000.0,DO 35-2021,street,Sunrise Street,97
+La Paz,MOLA,Sunrise - Chino Roces Ave.,150000.0,DO 35-2021,unmatched,Makati BLISS Garden Apartments (18),0
+La Paz,Z. ROXAS,P. Ocampo Sr. Ext - Onyx,130000.0,DO 35-2021,unmatched,Makati BLISS Garden Apartments (17),0
+La Paz,A. SORIANO,Cabanillas - Metropolitan Ave.,100000.0,DO 35-2021,unmatched,Kingswood Makati Condo (32),0
+La Paz,ABC,Abcd - P. Ocampo Sr. Ext,100000.0,DO 35-2021,unmatched,Kingswood Makati Condo (16),0
+La Paz,ABCD,Z. Roxas - Balagtas,100000.0,DO 35-2021,unmatched,Kingswood Makati Condo (23),0
+La Paz,DUMAS,P. Ocampo Sr. Ext,100000.0,DO 35-2021,unmatched,Kingswood Makati Condo (23),0
+La Paz,FLOR DE LIZ,Archimedes - P. Ocampo Sr. Ext,100000.0,DO 35-2021,unmatched,Kingswood Makati Condo (30),0
+La Paz,GUAM,Archimedes - Mola,100000.0,DO 35-2021,unmatched,Makati BLISS Garden Apartments (18),0
+La Paz,ONYX,Sunrise - Chino Roces Ave.,100000.0,DO 35-2021,unmatched,Kingswood Makati Condo (15),0
+La Paz,PRIMO DE RIVERA,Davila - P. Ocampo Sr. Ext,100000.0,DO 35-2021,unmatched,Kingswood Makati Condo (32),0
+Magallanes,LAPU-LAPU ST. (AVE),EDSA - HUMABON ST.,168000.0,DO 36-2021,segment,Lapu-Lapu Avenue,97
+Magallanes,BEGONIA ST.,TRINIDAD ST. - HOMONHON ST.,163000.0,DO 36-2021,segment,Begonia Street,100
+Magallanes,MAGDALENA ST.,TRINIDAD-MAGALLANES AVE.,163000.0,DO 36-2021,segment,Magdalena Street,100
+Magallanes,ROSARIO ST.,TRINIDAD ST. - HOMONHON ST.,163000.0,DO 36-2021,segment,Rosario Street,100
+Magallanes,SAN CARLOS ST.,VICTORIA ST. - MAGALLANES AVE.,163000.0,DO 36-2021,segment,San Carlos Street,100
+Magallanes,SAN FELIPE ST.,VICTORIA ST. - MAGALLANES AVE.,163000.0,DO 36-2021,segment,San Felipe Street,100
+Magallanes,SAN GERONIMO ST.,VICTORIA ST. - MAGALLANES AVE.,163000.0,DO 36-2021,segment,San Geronimo Street,100
+Magallanes,SAN MARTIN ST.,VICTORIA ST. - MAGALLANES AVE.,163000.0,DO 36-2021,segment,San Martin Street,100
+Magallanes,SAN PABLO ST.,VICTORIA ST. - MAGALLANES AVE.,163000.0,DO 36-2021,segment,San Pablo Street,100
+Magallanes,SOCORRO ST.,TRINIDAD ST. - HOMONHON ST.,163000.0,DO 36-2021,segment,Socorro Street,100
+Magallanes,TRINIDAD ST.,VICTORIA ST. - MAGALLANES AVE.,163000.0,DO 36-2021,segment,Trinidad Street,100
+Magallanes,MACTAN ST.,VICTORIA ST. - MAGDALENA ST.,135000.0,DO 36-2021,segment,Mactan Street,100
+Magallanes,MAGALLANES AVENUE,EDSA - PRES. SERGIO OSMEÑA SR. HIGHWAY,188000.0,DO 36-2021,street,Magallanes Avenue,100
+Magallanes,LIMASAWA ST.,SAN GREGORIO ST.,168000.0,DO 36-2021,street,Limasawa Street,100
+Magallanes,SAN ANTONIO ST.,PASEO DE MAGALLANES,168000.0,DO 36-2021,street,San Antonio Street,100
+Magallanes,ENCARNACION ST.,LAPU-LAPU ST,163000.0,DO 36-2021,street,Encarnacion Street,100
+Magallanes,HOMONHON ST.,VICTORIA ST. LAPU-LAPU ST.,163000.0,DO 36-2021,street,Homonhon Street,100
+Magallanes,HUMABON ST.,MAGALLANES AVE.,163000.0,DO 36-2021,street,Humabon Street,100
+Magallanes,MAGDALENA CIRCLE ( MAGALLANES CIRCLE),MAGDALENA ST.,163000.0,DO 36-2021,street,Magdalena Circle,100
+Magallanes,MARGARITA ST.,LAPU-LAPU ST.,163000.0,DO 36-2021,street,Margarita Street,100
+Magallanes,SAN ANTONIO ST.,MAGALLANES VILLAGE,163000.0,DO 36-2021,street,San Antonio Street,100
+Magallanes,SAN GREGORIO ST.,VICTORIA ST.- PRES. SERGIO OSMEÑA SR. HIGHWAY,163000.0,DO 36-2021,street,San Gregorio Street,100
+Magallanes,VICTORIA ST.,LAPU-LAPU ST.- MACTAN,135000.0,DO 36-2021,street,Victoria Street,100
+Magallanes,FERNANDO ST.,PASEO DE MAGALLANES,168000.0,DO 36-2021,unmatched,San Lorenzo Village (42),0
+Magallanes,STA. ANA ST.,VICTORIA ST. - MAGALLANES AVE.,163000.0,DO 36-2021,unmatched,Dasmariñas Village (50),0
+Magallanes,STA. ROSA ST.,VICTORIA ST. - MAGALLANES AVE.,163000.0,DO 36-2021,unmatched,San Lorenzo Village (53),0
+Magallanes,DON CHINO ROCES EXTN.(formerly Pasong Tamo Ext),DPC BLDG TO LAWTON AVE.,100000.0,DO 36-2021,unmatched,Ecology Village Lumbang Sector (43),0
+Magallanes,GALLERIA DE MAGALLANES VILLAGE,PRES. SERGIO OSMEÑA SR. HIGHWAY,130000.0,DO 36-2021,village,Galeria de Magallanes,97.5609756097561
+Olympia,CHINO ROCES AVE (P. TAMO),Kalayaan Ave. - J. P. Rizal,250000.0,DO 35-2021,segment,Chino Roces Avenue,100
+Olympia,A. P. REYES,J. P. Rizal - Hippodromo,150000.0,DO 35-2021,segment,A. P. Reyes Avenue,97
+Olympia,J. P. RIZAL,A. Reyes Ave. - Legaspi,150000.0,DO 35-2021,segment,J. P. Rizal Street,97
+Olympia,SOUTH AVENUE,J. P. Rizal - Kalayaan Ave.,150000.0,DO 35-2021,segment,South Avenue,100
+Olympia,SAN RAFAEL,South Ave. - Sacramento,120000.0,DO 35-2021,segment,San Rafael Street,97
+Olympia,TALIBA,J. P. Rizal - Hippodromo,120000.0,DO 35-2021,segment,Taliba Street,97
+Olympia,YUNQUE (YAGUE),Fortuna - Trabajo,120000.0,DO 35-2021,segment,Yunque Street,97
+Olympia,ZAPOTE,Kalayaan Ave. - Hippodromo,120000.0,DO 35-2021,segment,Zapote Street,97
+Olympia,ABEJA,Fortuna - Trabajo,100000.0,DO 35-2021,segment,Abeja Street,97
+Olympia,BANAHAW,Makiling - Samat,100000.0,DO 35-2021,segment,Banahaw Street,97
+Olympia,BARASAOIN / BARASOAIN,Chino Roces Ave. - South Ave.,100000.0,DO 35-2021,segment,Barasoain Street,97
+Olympia,BIAK NA BATO,Kalayaan Ave. - South Ave.,100000.0,DO 35-2021,segment,Biak-na-Bato Street,97
+Olympia,BINAKOD,J. P. Rizal - Kalayaan Ave.,100000.0,DO 35-2021,segment,Binakod Street,97
+Olympia,COLMENA,Fortuna - Trabajo,100000.0,DO 35-2021,segment,Colmena Street,97
+Olympia,CORDILLERA,Makiling - Samat,100000.0,DO 35-2021,segment,Cordillera Street,97
+Olympia,ECONOMIA,J. P. Rizal - Hippodromo,100000.0,DO 35-2021,segment,Economia Street,97
+Olympia,FORTUNA,La Campana (S. Osmena) - Trabajo,100000.0,DO 35-2021,segment,Fortuna Street,97
+Olympia,HIWAGA,J. P. Rizal - Hippodromo,100000.0,DO 35-2021,segment,Hiwaga Street,97
+Olympia,HORMIGA,Fortuna - Pateros,100000.0,DO 35-2021,segment,Hormiga Street,97
+Olympia,INFANTA,J. B. Roxas - Pililia,100000.0,DO 35-2021,segment,Infanta Street,97
+Olympia,J. B. ROXAS,Kalayaan Ave. - S. Osmena,100000.0,DO 35-2021,segment,J. B. Roxas Street,97
+Olympia,KAKARONG,Kalayaan Ave. - Hippodromo,100000.0,DO 35-2021,segment,Kakarong Street,97
+Olympia,KALAYAAN AVE.,Pililia - South Ave.,100000.0,DO 35-2021,segment,Kalayaan Avenue,100
+Olympia,KAWIT,Kalayaan Ave. - Biak Na Bato,100000.0,DO 35-2021,segment,Kawit Street,97
+Olympia,LEGASPI,J. P. Rizal - J. B. Roxas,100000.0,DO 35-2021,segment,Legaspi Street,97
+Olympia,LIWAYWAY,J. P. Rizal - Hippodromo,100000.0,DO 35-2021,segment,Liwayway Street,97
+Olympia,MAKILING,Cordillera - Kalayaan Ave.,100000.0,DO 35-2021,segment,Makiling Street,97
+Olympia,MALOLOS,Chino Roces Ave. - South Ave.,100000.0,DO 35-2021,segment,Malolos Street,97
+Olympia,MAYON,Cordillera - Samat,100000.0,DO 35-2021,segment,Mayon Street,97
+Olympia,NOVALICHES,Chino Roces Ave. - South Ave.,100000.0,DO 35-2021,segment,Novaliches Street,97
+Olympia,OBRERO,Trabajo - Pateros,100000.0,DO 35-2021,segment,Obrero Street,97
+Olympia,PATEROS,J. P. Rizal - S. Osmena,100000.0,DO 35-2021,segment,Pateros Street,97
+Olympia,PILILIA,Kalayaan Ave. - Infanta,100000.0,DO 35-2021,segment,Pililia Street,97
+Olympia,SACRAMENTO,J. P. Rizal - San Anselmo,100000.0,DO 35-2021,segment,Sacramento Street,97
+Olympia,SAMAT,Banahaw - Mayon,100000.0,DO 35-2021,segment,Samat Street,97
+Olympia,SAMPAGUITA,J. P. Rizal - Hippodromo,100000.0,DO 35-2021,segment,Sampaguita Street,97
+Olympia,SAN ANSELMO,Sacramento - J. B. Roxas,100000.0,DO 35-2021,segment,San Anselmo Street,97
+Olympia,SAN BERNARDINO,Sacramento - J. B. Roxas,100000.0,DO 35-2021,segment,San Bernardino Street,97
+Olympia,SAN DIEGO,South Ave. - Sacramento,100000.0,DO 35-2021,segment,San Diego Street,97
+Olympia,SAN FRANCISCO,South Ave. - Sacramento,100000.0,DO 35-2021,segment,San Francisco Street,97
+Olympia,SAN JACINTO,Sacramento - J. B. Roxas,100000.0,DO 35-2021,segment,San Jacinto Street,97
+Olympia,SAN JOAQUIN,South Ave. - Sacramento,100000.0,DO 35-2021,segment,San Joaquin Street,97
+Olympia,SAN JOSE,Sacramento - J. B. Roxas,100000.0,DO 35-2021,segment,San Jose Street,97
+Olympia,SAN MATEO,Sacramento - J. B. Roxas,100000.0,DO 35-2021,segment,San Mateo Street,97
+Olympia,TRABAJO,J. P. Rizal - S. Osmena (Lacampana),120000.0,DO 35-2021,street,Trabajo Street,97
+Olympia,SAN MAXIMO,San Anselmo,108000.0,DO 35-2021,street,San Maximo Street,97
+Olympia,SAN ANSELMO (ANSELMO),San Anselmo,100000.0,DO 35-2021,street,San Anselmo Street,97
+Olympia,CONSTANCIA,J. P. Rizal - S. Osmena,100000.0,DO 35-2021,street,Constancia Street,97
+Olympia,KALAYAAN AVE.,C. Roces - South Ave.,100000.0,DO 35-2021,street,Kalayaan Avenue,100
+Olympia,HIPODROMO,A. Reyes Ave. - Trabajo,120000.0,DO 35-2021,unmatched,Santiago Village (24),0
+Olympia,SANTA BARBARA,J. P. Rizal - San Mateo,120000.0,DO 35-2021,unmatched,Santiago Village (48),0
+Olympia,SANTA LUCIA,J. P. Rizal - San Mateo,120000.0,DO 35-2021,unmatched,Santiago Village (63),0
+Olympia,SULTANA,Fortuna - Pateros,120000.0,DO 35-2021,unmatched,Santiago Village (53),0
+Olympia,CALASAN,J. P. Rizal - Mayon,100000.0,DO 35-2021,unmatched,San Miguel Village (47),0
+Olympia,EMIN,,100000.0,DO 35-2021,unmatched,San Miguel Village (43),0
+Olympia,HERADURA,Hippordrimo - Trabajo,100000.0,DO 35-2021,unmatched,Buenaventure Garden Homes (37),0
+Olympia,HONRADEZ,J. P. Rizal - S. Osmena,100000.0,DO 35-2021,unmatched,Harbour Park Residences (40),0
+Olympia,IMUS,Kalayaan Ave. - Biak Na Bato,100000.0,DO 35-2021,unmatched,San Miguel Village (43),0
+Palanan,INCA ST.,FAHRENHEIT ST. - ENRIQUE ST.,128000.0,DO 36-2021,segment,Inca Street,100
+Palanan,DAYAP ST.,MARCONI ST - FILMORE ST.,120000.0,DO 36-2021,segment,Dayap Street,100
+Palanan,ZOBEL ROXAS AVENUE,ARELLANO AVE.- PRES. SERGIO OSMEÑA SR. HIGHWAY,195000.0,DO 36-2021,street,Zobel Roxas Street,97
+Palanan,BAUTISTA ST.,ZOBEL ROXAS ST. - SEN. GIL PUYAT AVE.,145000.0,DO 36-2021,street,Bautista Street,100
+Palanan,EMILIA ST.,MARCONI ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,135000.0,DO 36-2021,street,Emilia Street,100
+Palanan,FILMORE ST.,ZOBEL ROXAS ST. - SEN. GIL PUYAT AVE.,135000.0,DO 36-2021,street,Filmore Street,100
+Palanan,JAVA ST.,FILMORE ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,128000.0,DO 36-2021,street,Java Street,100
+Palanan,MAKILING ST.,FILMORE ST.- PRES. SERGIO OSMEÑA SR. HIGHWAY,128000.0,DO 36-2021,street,Makiling Street,100
+Palanan,DIAN ST.,ZOBEL ROXAS ST. - SEN. GIL PUYAT AVE.,125000.0,DO 36-2021,street,Dian Street,100
+Palanan,ARELLANO AVE.,ZOBEL ROXAS ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,123000.0,DO 36-2021,street,Arellano Avenue,100
+Palanan,ARARO ST.,DELA CRUZ ST. - EMILIA ST.,120000.0,DO 36-2021,street,Araro Street,100
+Palanan,BERMEO ST.,CALATAGAN ST. EMILIA ST.,120000.0,DO 36-2021,street,Bermeo Street,100
+Palanan,BIGASAN ST.,ARELLANO AVE. - CASINO ST.,120000.0,DO 36-2021,street,Bigasan Street,100
+Palanan,BOYLE ST.,BAUTISTA ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,120000.0,DO 36-2021,street,Boyle Street,100
+Palanan,CALATAGAN ST.,ARARO ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,120000.0,DO 36-2021,street,Calatagan Street,100
+Palanan,CAMALIG ST.,ARELLANO AVE. - CASINO ST.,120000.0,DO 36-2021,street,Camalig Street,100
+Palanan,CASINO ST.,J DELA CRUZ ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,120000.0,DO 36-2021,street,Casino Street,100
+Palanan,CUENCA ST.,CALATAGAN ST. EMILIA ST.,120000.0,DO 36-2021,street,Cuenca Street,100
+Palanan,CURIE ST. (CURRIE),ENRIQUE ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,120000.0,DO 36-2021,street,Curie Street,100
+Palanan,ENRIQUE ST.,ZOBEL ROXAS ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,120000.0,DO 36-2021,street,Enrique Street,100
+Palanan,FLORIDA ST.,CALATAGAN ST. EMILIA ST.,120000.0,DO 36-2021,street,Florida Street,100
+Palanan,GUERNICA ST.,CALATAGAN ST. EMILIA ST.,120000.0,DO 36-2021,street,Guernica Street,100
+Palanan,HILARIO ST.,CALATAGAN ST. EMILIA ST.,120000.0,DO 36-2021,street,Hilario Street,100
+Palanan,IBARRA ST.,CALATAGAN ST. EMILIA ST.,120000.0,DO 36-2021,street,Ibarra Street,100
+Palanan,LOREDO ST. ( LAREDO ST.),ARELLANO AVE. - CASINO ST.,120000.0,DO 36-2021,street,Laredo Street,100
+Palanan,MARCONI ST.,DAYAP ST. - SEN GIL PUYAT AVE.,120000.0,DO 36-2021,street,Marconi Street,100
+Palanan,MATANZAS ST.,CALATAGAN ST. EMILIA ST.,120000.0,DO 36-2021,street,Matanzas Street,100
+Palanan,NEGROS ST.,ARELLANO AVE. - CASINO ST.,120000.0,DO 36-2021,street,Negros Street,100
+Palanan,OLIVARES ST.,ARELLANO AVE. - CASINO ST.,120000.0,DO 36-2021,street,Olivares Street,100
+Palanan,PUERTO RICO ST.,ARELLANO AVE. - CASINO ST.,120000.0,DO 36-2021,street,Puerto Rico Street,100
+Palanan,QUIRINAL ST.,ARELLANO AVE. - CASINO ST.,120000.0,DO 36-2021,street,Quirinal Street,100
+Palanan,AMPERE ST.,BAUTISTA ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,118000.0,DO 36-2021,street,Ampere Street,100
+Palanan,DIESEL ST.,ENRIQUE ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,118000.0,DO 36-2021,street,Diesel Street,100
+Palanan,DURANGO ST.,CALATAGAN ST. EMILIA ST.,118000.0,DO 36-2021,street,Durango Street,100
+Palanan,EINTHOVEN ST.,ENRIQUE ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,118000.0,DO 36-2021,street,Einthoven Street,100
+Palanan,FAHRENHEIT ST.,ENRIQUE ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,118000.0,DO 36-2021,street,Fahrenheit Street,100
+Palanan,MADRAS ST. (MANDRAS),ARELLANO AVE. - CASINO ST.,108000.0,DO 36-2021,street,Madras Street,100
+Palanan,J. DELA CRUZ ST.,ARELLANO AVE. - CASINO ST.,120000.0,DO 36-2021,unmatched,Mayapis Apartments (22),0
+Palanan,HAITI ST.,FAHRENHEIT ST. - ENRIQUE ST.,120000.0,DO 36-2021,unmatched,Mayapis Apartments (29),0
+Pinagkaisahan,ALL OTHER STREETS,,123000.0,DO 38-2021,background,,0
+Pinagkaisahan,LIMBO (LIMAS),KALAYAAN AVENUE TO GRACIA ST,123000.0,DO 38-2021,segment,Limbo Street,97
+Pinagkaisahan,KALAYAAN AVENUE,EDSA to Brgy Pitogo Bdry & BGC,162000.0,DO 38-2021,street,Kalayaan Avenue,100
+Pinagkaisahan,AGUTAYA,EDSA cor AGUTAYA,123000.0,DO 38-2021,street,Agutaya Street,97
+Pinagkaisahan,BALABAC,,123000.0,DO 38-2021,street,Balabac Street,97
+Pinagkaisahan,BELLEZA,,123000.0,DO 38-2021,street,Belleza Street,97
+Pinagkaisahan,CANIGARAN (CALIGIRAN),,123000.0,DO 38-2021,street,Canigaran Street,97
+Pinagkaisahan,DANLIG,Near EDSA corner DANLIG,123000.0,DO 38-2021,street,Danlig Street,97
+Pinagkaisahan,ENSUENO,,123000.0,DO 38-2021,street,Ensueño Street,97
+Pinagkaisahan,GABONG,,123000.0,DO 38-2021,street,Gabong Street,97
+Pinagkaisahan,GRACIA,,123000.0,DO 38-2021,street,Gracia Street,97
+Pinagkaisahan,HARVARD,,123000.0,DO 38-2021,street,Harvard Street,97
+Pinagkaisahan,HONDA,,123000.0,DO 38-2021,street,Honda Street,97
+Pinagkaisahan,JERVOIS,,123000.0,DO 38-2021,street,Jervois Street,97
+Pinagkaisahan,NATIVE,KALAYAAN cor NATIVE STREET,123000.0,DO 38-2021,street,Native Street,97
+Pinagkaisahan,QUINGUA,EDSA cor. Quingua,123000.0,DO 38-2021,street,Quingua Street,97
+Pinagkaisahan,TABLAS,,123000.0,DO 38-2021,street,Tablas Street,97
+Pinagkaisahan,TOLENTINO,KALAYAAN cor TOLENTINO ST,123000.0,DO 38-2021,street,Tolentino Street,97
+Pinagkaisahan,CUYU,,123000.0,DO 38-2021,unmatched,Manila Golf and Country Club (29),0
+Pinagkaisahan,IRAN (ERAN),,123000.0,DO 38-2021,unmatched,Forbes Park North (30),0
+Pinagkaisahan,HONDA EXT.,,123000.0,DO 38-2021,unmatched,Forbes Park North (32),0
+Pinagkaisahan,OTON,,123000.0,DO 38-2021,unmatched,Manila Golf and Country Club (29),0
+Pinagkaisahan,P.CORTEZ,KALAYAAN cor P. CORTEZ,123000.0,DO 38-2021,unmatched,Forbes Park North (42),0
+Pinagkaisahan,PINOS,,123000.0,DO 38-2021,unmatched,Forbes Park North (30),0
+Poblacion,SALAMANCA,B. Valdez - Kalayaan Ave.,250000.0,DO 35-2021,segment,Salamanca Street,97
+Poblacion,B. VALDEZ,E. Zobel - P. Burgos,200000.0,DO 35-2021,segment,B. Valdez Street,97
+Poblacion,BADAJOS,P. Burgos - Polaris,200000.0,DO 35-2021,segment,Badajos Street,97
+Poblacion,ABACA / MARIANO,Gen Luna - Kalayaan Ave.,180000.0,DO 35-2021,segment,Mariano Street,97
+Poblacion,CACERES,P. Burgos - Polaris,180000.0,DO 35-2021,segment,Caceres Street,97
+Poblacion,FATIMA,Candelaria - D. Oliman,180000.0,DO 35-2021,segment,Fatima Street,97
+Poblacion,CALDERON,P Burgos - Mercado,160000.0,DO 35-2021,segment,Calderon Street,97
+Poblacion,DURBAN,Makati Ave. - Polaris,160000.0,DO 35-2021,segment,Durban Street,97
+Poblacion,EDUQUE,Makati Ave. - Salamanca,160000.0,DO 35-2021,segment,Eduque Street,97
+Poblacion,FELIPE,Mercedes - Polaris,160000.0,DO 35-2021,segment,Felipe Street,97
+Poblacion,FERMINA,Kalayaan Ave. - Gen. Luna,160000.0,DO 35-2021,segment,Fermina Street,97
+Poblacion,GLORIA,Kalayaan Ave. - Gen. Luna,160000.0,DO 35-2021,segment,Gloria Street,97
+Poblacion,MATILDE,Kalayaan Ave. - Gen Luna,160000.0,DO 35-2021,segment,Matilde Street,97
+Poblacion,QUINTOS,E. Zobel - Singian,160000.0,DO 35-2021,segment,Quintos Street,97
+Poblacion,SINGIAN,Makati Ave. - Molina,160000.0,DO 35-2021,segment,Singian Street,97
+Poblacion,ANTIPOLO,J. P. Rizal - S. Osmena,150000.0,DO 35-2021,segment,Antipolo Street,97
+Poblacion,CARMEL,Candelaria - D. Oliman,150000.0,DO 35-2021,segment,Carmel Street,97
+Poblacion,CAYCO,Don Pedro - J. D. Villena,150000.0,DO 35-2021,segment,Cayco Street,97
+Poblacion,DON PEDRO,Kalayaan Ave. - A. Mabini,150000.0,DO 35-2021,segment,Don Pedro Street,97
+Poblacion,DONA CARMEN,Kalayaan Ave. - Gen. Luna,150000.0,DO 35-2021,segment,Doña Carmen Street,97
+Poblacion,E. ZOBEL,B. Valdez - A. Bonifacio,150000.0,DO 35-2021,segment,E. Zobel Street,97
+Poblacion,ENRIQUEZ,Don Pedro - Gloria,150000.0,DO 35-2021,segment,Enriquez Street,97
+Poblacion,F. ZOBEL,Kalayaan Ave.-J P Rizal,150000.0,DO 35-2021,segment,F. Zobel Street,97
+Poblacion,GABALDON,D. M. Rivera - R. Palma,150000.0,DO 35-2021,segment,Gabaldon Street,97
+Poblacion,GEN. LUNA,Algier - Salamanca,150000.0,DO 35-2021,segment,General Luna Street,97
+Poblacion,J. P. RIZAL,Antipolo - Makati Ave,150000.0,DO 35-2021,segment,J. P. Rizal Street,97
+Poblacion,J.D. VILLENA (ESCUELA),J. P. Rizal - Gen. Luna,150000.0,DO 35-2021,segment,J. D. Villena Street,97
+Poblacion,JACOBO,Don Pedro - Algier,150000.0,DO 35-2021,segment,Jacobo Street,97
+Poblacion,LOURDES,Candelaria - D. Oliman,150000.0,DO 35-2021,segment,Lourdes Street,97
+Poblacion,M. L. QUEZON,J. P. Rizal - S. Osmena,150000.0,DO 35-2021,segment,M. L. Quezon Street,97
+Poblacion,MANALAC,Don Pedro - R. Palma,150000.0,DO 35-2021,segment,Mañalac Street,97
+Poblacion,MOLINA,B. Valdez - J. P. Rizal,150000.0,DO 35-2021,segment,Molina Street,97
+Poblacion,MORETA,B. Valdez - Quintos,150000.0,DO 35-2021,segment,Moreta Street,97
+Poblacion,MORONG,Angono - F. Zobel,150000.0,DO 35-2021,segment,Morong Street,97
+Poblacion,ORION,Polaris - Mercedes,150000.0,DO 35-2021,segment,Orion Street,97
+Poblacion,P. GOMEZ,A. Mabini - San Mateo,150000.0,DO 35-2021,segment,P. Gomez Street,97
+Poblacion,P. GUANZON,Makati Ave. - P. Burgos,150000.0,DO 35-2021,segment,P. Guanzon Street,97
+Poblacion,PAGULAYAN,Gen Luna - Gabaldon,150000.0,DO 35-2021,segment,Pagulayan Street,97
+Poblacion,SAN AGUSTIN,P. Burgos - P. Gomez,150000.0,DO 35-2021,segment,San Agustin Street,97
+Poblacion,SAN JUAN,P. Burgos - Pagulayan,150000.0,DO 35-2021,segment,San Juan Street,97
+Poblacion,SAN LUCAS,P. Burgos - Pagulayan,150000.0,DO 35-2021,segment,San Lucas Street,97
+Poblacion,SAN MARCOS,P. Burgos - Pagulayan,150000.0,DO 35-2021,segment,San Marcos Street,97
+Poblacion,SAN MATEO,D. M. Rivera - P. Burgos,150000.0,DO 35-2021,segment,San Mateo Street,97
+Poblacion,SAN PABLO,J. P. Rizal - San Mateo,150000.0,DO 35-2021,segment,San Pablo Street,97
+Poblacion,A. BONIFACIO,J. P. Rizal - E. Zobel,120000.0,DO 35-2021,segment,A. Bonifacio Street,97
+Poblacion,ALFONSO,Don Pedro - Gloria,120000.0,DO 35-2021,segment,Alfonso Street,97
+Poblacion,ALGIER,Gen Luna - Kalayaan Ave.,120000.0,DO 35-2021,segment,Algier Street,97
+Poblacion,ANGONO,J. P. Rizal - S. Osmena,120000.0,DO 35-2021,segment,Angono Street,97
+Poblacion,BUENCAMINO,E. Zobel - F. Zobel,120000.0,DO 35-2021,segment,Buencamino Street,97
+Poblacion,CARDONA,J. P. Rizal - S. Osmena,120000.0,DO 35-2021,segment,Cardona Street,97
+Poblacion,HORMIGA,Antipolo - Angono,120000.0,DO 35-2021,segment,Hormiga Street,97
+Poblacion,D.M. RIVERA (ILAYA),A. Mabini - Gabaldon,120000.0,DO 35-2021,segment,D. M. Rivera Street,97
+Poblacion,M. LAYUG,Candelaria - J. P. Rizal,120000.0,DO 35-2021,segment,M. Layug Street,97
+Poblacion,PERTIERRA,J. P. Rizal - A. Mabini,120000.0,DO 35-2021,segment,Pertierra Street,97
+Poblacion,ZENAIDA,E. Zobel - F Zobel,120000.0,DO 35-2021,segment,Zenaida Street,97
+Poblacion,BAGONG DIWA,M. L. Quezon - Pertierra,100000.0,DO 35-2021,segment,Bagong Diwa Street,97
+Poblacion,POLARIS,Anza - Orion,300000.0,DO 35-2021,street,Polaris Street,97
+Poblacion,ESTRELLA,J. P. Rizal - Kalayaan Ave.,250000.0,DO 35-2021,street,Estrella Street,97
+Poblacion,P. BURGOS,Makati Ave. - Anza,250000.0,DO 35-2021,street,P. Burgos Street,97
+Poblacion,BUNTAL / MERCADO,Durban - Kalayaan Ave. ( Kalayaan Ave. - Gen Luna),160000.0,DO 35-2021,street,Mercado Street,97
+Poblacion,R. PALMA,Kalayaan Ave. - Mabini,160000.0,DO 35-2021,street,R. Palma Street,97
+Poblacion,CANDELARIA,A. Spring - Salamanca,150000.0,DO 35-2021,street,Candelaria Street,97
+Poblacion,CANDELARIA,A. Spring - Reposo/N. Garcia,150000.0,DO 35-2021,street,Candelaria Street,97
+Poblacion,D. OLIMAN,F. Zobel - Reposo,150000.0,DO 35-2021,street,D. Oliman Street,97
+Poblacion,DONA EPIFANIA,A. Mabini - Agno,150000.0,DO 35-2021,street,Doña Epifania Street,97
+Poblacion,J. P. RIZAL,Makati Ave-Estrella,150000.0,DO 35-2021,street,J. P. Rizal Street,97
+Poblacion,A. MABINI,E. Zobel - Villena,120000.0,DO 35-2021,street,A. Mabini Street,97
+Poblacion,ALBERT,Don Pedro - R. Palma,120000.0,DO 35-2021,street,Albert Street,97
+Poblacion,F. ZOBEL,J P Rizal - A. Bonifacio,120000.0,DO 35-2021,street,F. Zobel Street,97
+Poblacion,S. OSMENA,P. Gomez - Antipolo,120000.0,DO 35-2021,street,S. Osmeña Street,97
+Poblacion,REPOSO,Kalayaan Ave. -J. P. Rizal,300000.0,DO 35-2021,unmatched,West Block (38),0
+Poblacion,N. GARCIA,Kalayaan Ave. -J. P. Rizal,250000.0,DO 35-2021,unmatched,Rizal Village (46),0
+Poblacion,DAPO,Makati Ave. - P. Burgos,200000.0,DO 35-2021,unmatched,Santiago Village (33),0
+Poblacion,A. SPRING,Candelaria - J. P. Rizal,150000.0,DO 35-2021,unmatched,San Miguel Village (44),0
+Poblacion,EBREO,Durban - Mercedes,150000.0,DO 35-2021,unmatched,West Block (40),0
+Poblacion,L. M. GUERRERO,Salamanca - P. Burgos,150000.0,DO 35-2021,unmatched,San Miguel Village (45),0
+Poblacion,OSIAS,Don Pedro - R. Palma,150000.0,DO 35-2021,unmatched,Santiago Village (50),0
+Poblacion,P. ZAMORA,A. Bonifacio - Makati Ave.,150000.0,DO 35-2021,unmatched,Palm Village (50),0
+Poblacion,AGNO,Ilaya - San Pablo,120000.0,DO 35-2021,unmatched,Santiago Village (50),0
+Poblacion,BARAS,Morong - S. Osmena,120000.0,DO 35-2021,unmatched,Rizal Village (44),0
+Poblacion,MA. AURORA,F. Zobel - M.L. Quezon,120000.0,DO 35-2021,unmatched,The Manansala (44),0
+Poblacion,SANTIAGO,B. Valdez - J. P. Rizal,160000.0,DO 35-2021,village,Santiago Village,100
+San Antonio,METROPOLITAN AVENUE,Chino Roces Ave. - South Ave.,250000.0,DO 35-2021,segment,Metropolitan Avenue,100
+San Antonio,PABLO OCAMPO (VITO CRUZ) EXTENSION,Chino Roces - Zobel Roxas,200000.0,DO 35-2021,segment,Pablo Ocampo Street,90.32258064516128
+San Antonio,BAGTIKAN,Kamagong - St. Paul Road,140000.0,DO 35-2021,segment,Bagtikan Street,97
+San Antonio,MAYAPIS,Malugay - St. Paul Road,140000.0,DO 35-2021,segment,Mayapis Street,97
+San Antonio,GUIJO,Bagtikan - Kamagong,120000.0,DO 35-2021,segment,Guijo Street,97
+San Antonio,LUMBAYAO,Malugay - Sampaloc,120000.0,DO 35-2021,segment,Lumbayao Street,97
+San Antonio,LAWAAN,Estrella - Kamagong,110000.0,DO 35-2021,segment,Lawaan Street,97
+San Antonio,BANUYO,Mayapis - Kamagong,100000.0,DO 35-2021,segment,Banuyo Street,97
+San Antonio,BATICULIN,Mayapis - Kamagong,100000.0,DO 35-2021,segment,Baticulin Street,97
+San Antonio,CALANTAS,Mayapis - Kamagong,100000.0,DO 35-2021,segment,Calantas Street,97
+San Antonio,CAMACHILE,Mayapis - Lumbayao,100000.0,DO 35-2021,segment,Camachile Street,97
+San Antonio,CAONG,Mayapis - Lumbayao,100000.0,DO 35-2021,segment,Caong Street,97
+San Antonio,CATMON,Mayapis - Kamagong,100000.0,DO 35-2021,segment,Catmon Street,97
+San Antonio,MAYAPIS,St Paul Road - Zobel Roxas,100000.0,DO 35-2021,segment,Mayapis Street,97
+San Antonio,SANTOL,Baticulin - Sampaloc,100000.0,DO 35-2021,segment,Santol Street,97
+San Antonio,TALISAY,Malugay - Yakal,100000.0,DO 35-2021,segment,Talisay Street,97
+San Antonio,TANGUILE,Estrella - Kamagong,100000.0,DO 35-2021,segment,Tanguile Street,97
+San Antonio,ESTRELLA,Chino Roces Ave. - Sampaloc,90000.0,DO 35-2021,segment,Estrella Avenue,97
+San Antonio,ARANGA,Mayapis - Kamagong,80000.0,DO 35-2021,segment,Aranga Street,97
+San Antonio,DUNGON,Mayapis - Kamagong,80000.0,DO 35-2021,segment,Dungon Street,97
+San Antonio,ZOBEL ROXAS AVE.,South Super Hway - Kamagong,180000.0,DO 35-2021,street,Zobel Roxas Street,97
+San Antonio,SACRED HEART,,180000.0,DO 35-2021,street,Sacred Heart Street,97
+San Antonio,BAKAWAN,Mayapis,140000.0,DO 35-2021,street,Bakawan Street,97
+San Antonio,KAMAGONG,Ayala Ave. - Pablo Ocampo Sr. Ext.,140000.0,DO 35-2021,street,Kamagong Street,97
+San Antonio,SAMPALOC,Mayapis - Pablo Ocampo Sr. Ext.,120000.0,DO 35-2021,street,Sampaloc Street,97
+San Antonio,ST. PAUL,Mayapis - Kamagong,120000.0,DO 35-2021,unmatched,Alphaland Makati Place (23),0
+San Antonio,TEKA,Estrella - Kamagong,100000.0,DO 35-2021,unmatched,The Rise Makati (40),0
+San Antonio,AKLE,Mayapis - Kamagong,80000.0,DO 35-2021,unmatched,The Rise Makati (40),0
+San Antonio,ANUBBING,Mayapis - Kamagong,80000.0,DO 35-2021,unmatched,One Antonio (42),0
+San Antonio,DAO,Bagtikan - Sacred Heart,80000.0,DO 35-2021,unmatched,The Lerato (44),0
+San Antonio,DITA,Mayapis - Kamagong,80000.0,DO 35-2021,unmatched,Oriental Garden Makati (31),0
+San Isidro,BELL ST.,MARCONI ST. - EDISON ST.,120000.0,DO 36-2021,segment,Bell Street,100
+San Isidro,BOBCOCK ST.,MARCONI ST. - EDISON ST.,120000.0,DO 36-2021,segment,Bobcock Street,100
+San Isidro,COPERNICUS ST.( COPERNICO ST.),FINLANDIA ST. - EDISON ST.,120000.0,DO 36-2021,segment,Copernico Street,100
+San Isidro,DALTON ST.,MARCONI ST. - EDISON ST.,120000.0,DO 36-2021,segment,Dalton Street,100
+San Isidro,EINSTEIN ST.,FINLANDIA ST. - EDISON ST.,120000.0,DO 36-2021,segment,Einstein Street,100
+San Isidro,FORD ST.,MARCONI ST. - EDISON ST.,120000.0,DO 36-2021,segment,Ford Street,100
+San Isidro,GALVANI ST.,FINLANDIA ST. - EDISON ST.,120000.0,DO 36-2021,segment,Galvani Street,100
+San Isidro,GRANDUER ST. (GRANDEL),MARCONI ST. - EDISON ST.,120000.0,DO 36-2021,segment,Grandeur Street,90.9090909090909
+San Isidro,NEWTON ST.,FINLANDIA ST. - EDISON ST.,120000.0,DO 36-2021,segment,Newton Street,100
+San Isidro,NOBEL ST.,MARCONI ST. - EDISON ST.,120000.0,DO 36-2021,segment,Nobel Street,100
+San Isidro,P. BINAY ST.,HONDURAS ST. - ZANZIBAR ST,120000.0,DO 36-2021,segment,P. Binay Street,100
+San Isidro,PASTEUR ST.,MARCONI ST. - EDISON ST.,120000.0,DO 36-2021,segment,Pasteur Street,100
+San Isidro,VOLTA ST.,FINLANDIA ST. - FARADAY ST.,120000.0,DO 36-2021,segment,Volta Street,100
+San Isidro,ZANZIBAR ST.,BATANGAS - ROCKEFELLER ST.,120000.0,DO 36-2021,segment,Zanzibar Street,100
+San Isidro,MORSE ST.,MARCONI ST. - EDISON ST.,118000.0,DO 36-2021,segment,Morse Street,100
+San Isidro,ALEXANDER ST.,MARCONI ST. - EDISON ST.,115000.0,DO 36-2021,segment,Alexander Street,100
+San Isidro,ARAGON ST.,FINLANDIA ST. - EDISON ST.,115000.0,DO 36-2021,segment,Aragon Street,100
+San Isidro,ARSONVEL ST.,MARCONI ST. - EDISON ST.,115000.0,DO 36-2021,segment,Arsonbel Street,90.9090909090909
+San Isidro,BAUTISTA ST.,SEN GIL PUYAT - EDISON ST.,135000.0,DO 36-2021,street,Bautista Street,100
+San Isidro,BATANGAS ST.,SEN GIL PUYAT AVE. - A. ARNAIZ AVE.,125000.0,DO 36-2021,street,Batangas Street,100
+San Isidro,BOLIVIA ST.,BATANGAS ST. - ARTHUR ST.,120000.0,DO 36-2021,street,Bolivia Street,100
+San Isidro,BORNEO ST.,BATANGAS ST.- ARTHUR ST.,120000.0,DO 36-2021,street,Borneo Street,100
+San Isidro,DIAN ST.,SEN GIL PUYAT - MARCONI,120000.0,DO 36-2021,street,Dian Street,100
+San Isidro,EDISON ST.,SEN GIL PUYAT - ARNAIZ AVE.,120000.0,DO 36-2021,street,Edison Street,100
+San Isidro,FARADAY ST.,MARCONI ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,120000.0,DO 36-2021,street,Faraday Street,100
+San Isidro,FINLANDIA ST.,MARCONI ST - PRES. SERGIO OSMEÑA SR. HIGHWAY,120000.0,DO 36-2021,street,Finlandia Street,100
+San Isidro,GUATEMALA ST.,BATANGAS - ARTHUR ST.,120000.0,DO 36-2021,street,Guatemala Street,100
+San Isidro,HONDURAS ST.,BATANGAS - PRES. SERGIO OSMEÑA SR. HIGHWAY,120000.0,DO 36-2021,street,Honduras Street,100
+San Isidro,ROCKEFELLER ST.,EDISON ST. - PRES. SERGIO OSMEÑA SR. HIGHWAY,120000.0,DO 36-2021,street,Rockefeller Street,100
+San Isidro,URUGUAY ST.,BATANGAS - ARTHUR ST.,120000.0,DO 36-2021,street,Uruguay Street,100
+San Isidro,MARCONI ST.,GIL PUYAT AVE. - A. ARNAIZ AVE.,118000.0,DO 36-2021,street,Marconi Street,100
+San Isidro,ARTHUR ST.,FINLANDIA ST. - HONDURAS ST.,128000.0,DO 36-2021,unmatched,,0
+San Lorenzo,SAN LORENZO DRIVE,SAN LORENZO VILLAGE,245000.0,DO 37-2021,street,San Lorenzo Drive,100
+San Lorenzo,ABELARDO,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Abelardo Street,97
+San Lorenzo,AMORSOLO,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Amorsolo Street,97
+San Lorenzo,APOSTOL,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Apostol Street,97
+San Lorenzo,ARGUILLA,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Arguilla Street,97
+San Lorenzo,BALMORI,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Balmori Street,97
+San Lorenzo,BRIONES,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Briones Street,97
+San Lorenzo,EDADES,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Edades Street,97
+San Lorenzo,HERNANDEZ,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Hernandez Street,97
+San Lorenzo,HIDALGO,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Hidalgo Street,97
+San Lorenzo,JOAQUIN,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Joaquin Street,97
+San Lorenzo,JUAN LUNA,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Juan Luna Street,97
+San Lorenzo,MELANTIC,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Melantic Street,97
+San Lorenzo,PONCE,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Ponce Street,97
+San Lorenzo,ROCHA,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Rocha Street,97
+San Lorenzo,TAMPINGCO,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Tampingco Street,97
+San Lorenzo,TOLENTINO,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Tolentino Street,97
+San Lorenzo,ZARAGOZA,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Zaragoza Street,97
+San Lorenzo,ZIPPER,SAN LORENZO VILLAGE,200000.0,DO 37-2021,street,Zipper Street,97
+San Lorenzo,ESTELA,SAN LORENZO VILLAGE,200000.0,DO 37-2021,unmatched,Urdaneta Village (43),0
+San Lorenzo,LIPPAY,SAN LORENZO VILLAGE,200000.0,DO 37-2021,unmatched,Ecology Village (31),0
+San Lorenzo,NACPIL,SAN LORENZO VILLAGE,200000.0,DO 37-2021,unmatched,One Central (35),0
+San Lorenzo,ZULUETA,SAN LORENZO VILLAGE,200000.0,DO 37-2021,unmatched,Urdaneta Village (53),0
+Santa Cruz,CHINO ROCES AVE. (P. TAMO),Kalayaan Ave. - Metropolitan Ave.,200000.0,DO 35-2021,segment,Chino Roces Avenue,100
+Santa Cruz,METROPOLITAN AVENUE,Chino Roces (P. Tamo) - South Ave.,160000.0,DO 35-2021,segment,Metropolitan Avenue,100
+Santa Cruz,SOUTH AVENUE,Kalayaan Ave. - Metropolitan Ave.,140000.0,DO 35-2021,segment,South Avenue,100
+Santa Cruz,KALAYAAN AVENUE,South Ave. - Chino Roces,120000.0,DO 35-2021,segment,Kalayaan Avenue,100
+Santa Cruz,VITO CRUZ EXTENSION/PABLO OCAMPO SR.,Chino Roces - South Avenue,120000.0,DO 35-2021,segment,Pablo Ocampo Street,93.33333333333333
+Santa Cruz,ZAPOTE,Kalayaan Ave. - Metropolitan Ave.,120000.0,DO 35-2021,segment,Zapote Street,97
+Santa Cruz,DAVILA,Chino Roces - Zapote,100000.0,DO 35-2021,segment,Davila Street,97
+Santa Cruz,KAKARONG,Kalayaan Ave. - Metropolitan Ave.,100000.0,DO 35-2021,segment,Kakarong Street,97
+Santa Cruz,MANCHAS,Zapote - Venecia,100000.0,DO 35-2021,segment,Manchas Street,97
+Santa Cruz,MASCARDO,Chino Roces - Zapote,100000.0,DO 35-2021,segment,Mascardo Street,97
+Santa Cruz,MONTOJO,Chino Roces - South Avenue,100000.0,DO 35-2021,segment,Montojo Street,97
+Santa Cruz,PANAMA,Kakarong - Zapote,100000.0,DO 35-2021,segment,Panama Street,97
+Santa Cruz,PONTE,Chino Roces - Zapote,100000.0,DO 35-2021,segment,Ponte Street,97
+Santa Cruz,YAGUE,Chino Roces - South Avenue,100000.0,DO 35-2021,segment,Yague Street,97
+Santa Cruz,METROPOLITAN AVENUE,South Cem.-Manila South Cemetery,120000.0,DO 35-2021,street,Metropolitan Avenue,100
+Santa Cruz,MARTINEZ UNIDOS,Pablo Ocampo Sr. Ext. - Yague St.,100000.0,DO 35-2021,street,Martinez Unidos Street,97
+Santa Cruz,SOLCHUAGA,Chino Roces,100000.0,DO 35-2021,street,Solchuaga Street,97
+Santa Cruz,VENECIA,Metropolitan Ave. - Pablo Ocampo Sr. Ext,100000.0,DO 35-2021,street,Venecia Street,97
+Santa Cruz,VISITA,Montojo - Pablo Ocampo Sr. Ext.,100000.0,DO 35-2021,street,Visita Street,97
+Santa Cruz,JORDAN,Davila - Pablo Ocampo Extension,100000.0,DO 35-2021,unmatched,SM Jazz Residences (35),0
+Santa Cruz,JURADO,,100000.0,DO 35-2021,unmatched,The Lerato (50),0
+Santa Cruz,MANDA,,100000.0,DO 35-2021,unmatched,Santiago Village (46),0
+Santa Cruz,MANGAHAS,,100000.0,DO 35-2021,unmatched,Santiago Village (40),0
+Santa Cruz,SAN JUNIO,,100000.0,DO 35-2021,unmatched,Santiago Village (59),0
+Santa Cruz,SUEZ,Kakarong - Zapote,100000.0,DO 35-2021,unmatched,San Miguel Village (43),0
+Singkamas,H. SANTOS,J. P. Rizal - Kalayaan Ave.,70000.0,DO 35-2021,segment,H. Santos Street,97
+Singkamas,SUNRISE,Ponte - Davila,70000.0,DO 35-2021,segment,Sunrise Street,97
+Singkamas,J.P. RIZAL,Z. Roxas - Nazario,150000.0,DO 35-2021,street,J. P. Rizal Street,97
+Singkamas,KALAYAAN AVE.,Z. Roxas - Nazario,100000.0,DO 35-2021,street,Kalayaan Avenue,100
+Singkamas,ARANDA,Moonlit - P. Riveria,70000.0,DO 35-2021,street,Aranda Street,97
+Singkamas,DAVILA,P. Riveria - Sunrise,70000.0,DO 35-2021,street,Davila Street,97
+Singkamas,F. NAZARIO,J. P. Rizal - Kalayaan Ave.,70000.0,DO 35-2021,street,F. Nazario Street,97
+Singkamas,MASCARDO,Sunrise,70000.0,DO 35-2021,street,Mascardo Street,97
+Singkamas,MONTOJO,Moonlit - P. Riveria,70000.0,DO 35-2021,street,Montojo Street,97
+Singkamas,PONTE,P. Riveria,70000.0,DO 35-2021,street,Ponte Street,97
+Singkamas,SOLCHUAGA,P. Riveria - F. Nazario,70000.0,DO 35-2021,street,Solchuaga Street,97
+Singkamas,YAGUE,P. Riveria,70000.0,DO 35-2021,street,Yague Street,97
+Singkamas,Z. ROXAS,J. P. Rizal,120000.0,DO 35-2021,unmatched,,0
+Singkamas,MOONLIT,Aranda - Ponte,70000.0,DO 35-2021,unmatched,,0
+Singkamas,PRIMO DE RIVERA,Davila - Solchuaga,70000.0,DO 35-2021,unmatched,,0
+Singkamas,PANDANAN,A. Roxas St.,70000.0,DO 35-2021,unmatched,,0
+Singkamas,SINGKAMAS,Ponte - Solchuaga,70000.0,DO 35-2021,unmatched,,0
+Tejeros,CHINO ROCES,Davila - J. P. Rizal,200000.0,DO 35-2021,segment,Chino Roces Avenue,97
+Tejeros,IMELDA AVE (KALAYAAN),Chino Roces - Nazario,100000.0,DO 35-2021,segment,Kalayaan Avenue,97
+Tejeros,METROPOLITAN AVENUE,Davila - Ponte,100000.0,DO 35-2021,segment,Metropolitan Avenue,100
+Tejeros,PASONG TIRAD,Davila - J. P. Rizal,100000.0,DO 35-2021,segment,Pasong Tirad Street,97
+Tejeros,ALMAZAR,Evangelista - Varona,80000.0,DO 35-2021,segment,Almazar Street,97
+Tejeros,BARON,Montojo - Solchuaga,80000.0,DO 35-2021,segment,Baron Street,97
+Tejeros,EVANGELISTA,A. Reyes Ave. - J. P. Rizal,80000.0,DO 35-2021,segment,Evangelista Street,97
+Tejeros,MALOLOS,Masukol - Pasong Tirad,80000.0,DO 35-2021,segment,Malolos Street,97
+Tejeros,MASUKOL,J. P. Rizal - Kalayaan Ave.,80000.0,DO 35-2021,segment,Masukol Street,97
+Tejeros,SANDICO,Adora - A. Reyes Ave.,80000.0,DO 35-2021,segment,Sandico Street,97
+Tejeros,SOLITA,Sandico - Varona,80000.0,DO 35-2021,segment,Solita Street,97
+Tejeros,TELLA,Montojo - Solchuaga,80000.0,DO 35-2021,segment,Tella Street,97
+Tejeros,J. P. RIZAL,A. Reyes Ave. - Z. Roxas,150000.0,DO 35-2021,street,J. P. Rizal Street,97
+Tejeros,DAVILA,Chino Roces - Primo De Riveria,100000.0,DO 35-2021,street,Davila Street,97
+Tejeros,YAGUE,Chino Roces - Primo De Riveria,100000.0,DO 35-2021,street,Yague Street,97
+Tejeros,ADORA,N. Evangelista - Varona,80000.0,DO 35-2021,street,Adora Street,97
+Tejeros,ALMARIO,H. Santos - O. Gomez,80000.0,DO 35-2021,street,Almario Street,97
+Tejeros,ARANDA,Pasong Tirad - Primo De Riveria,80000.0,DO 35-2021,street,Aranda Street,97
+Tejeros,BATUTE,A. Reyes Ave. - Gomez,80000.0,DO 35-2021,street,Batute Street,97
+Tejeros,CRISTOBAL,A. Reyes Ave. - Gomez,80000.0,DO 35-2021,street,Cristobal Street,97
+Tejeros,F. NAZARIO,J. P. Rizal - Kalayaan Ave.,80000.0,DO 35-2021,street,F. Nazario Street,97
+Tejeros,H. CRUZ,Masankay - Adora,80000.0,DO 35-2021,street,H. Cruz Street,97
+Tejeros,H. SANTOS,J. P. Rizal - M. Roxas,80000.0,DO 35-2021,street,H. Santos Street,97
+Tejeros,MASANGKAY,Adora - H. Santos,80000.0,DO 35-2021,street,Masangkay Street,97
+Tejeros,MASCARDO,Chino Roces - Primo De Riveria,80000.0,DO 35-2021,street,Mascardo Street,97
+Tejeros,MONTOJO,Chino Roces - Primo De Riveria,80000.0,DO 35-2021,street,Montojo Street,97
+Tejeros,PONTE,Chino Roces - Primo De Riveria,80000.0,DO 35-2021,street,Ponte Street,97
+Tejeros,SOLCHUAGA,Chino Roces - Primo De Riveria,80000.0,DO 35-2021,street,Solchuaga Street,97
+Tejeros,A. P. REYES,J. P. Rizal - M. Roxas,150000.0,DO 35-2021,unmatched,Makati BLISS Garden Apartments (32),0
+Tejeros,AGUILAR,H. Santos - O. Gomez,80000.0,DO 35-2021,unmatched,Makati BLISS Garden Apartments (28),0
+Tejeros,AURORA,,80000.0,DO 35-2021,unmatched,Makati BLISS Garden Apartments (23),0
+Tejeros,C. SOTELO,Aranda - Solchuaga,80000.0,DO 35-2021,unmatched,Kingswood Makati Condo (33),0
+Tejeros,O. GOMEZ,A. Reyes Ave.,80000.0,DO 35-2021,unmatched,Tejeros Garden BLISS Apartments (28),0
+Tejeros,P. AGUILAR,,80000.0,DO 35-2021,unmatched,Makati BLISS Garden Apartments (26),0
+Tejeros,P. RIVERA,Davila - Solchuaga,70000.0,DO 35-2021,unmatched,Makati BLISS Garden Apartments (27),0
+Tejeros,P. VARONA,J. P. Rizal - H. Santos,70000.0,DO 35-2021,unmatched,Makati BLISS Garden Apartments (32),0
+Urdaneta,ALL OTHER STREETS,,220000.0,DO 38-2021,background,,0
+Urdaneta,PASEO DE ROXAS (One Roxas Side),Makati Ave. to Sen. Gil Puyat (Mandarin Site),250000.0,DO 38-2021,street,Paseo de Roxas,100
+Urdaneta,PASEO DE ROXAS (Urdaneta Village Side),Makati Ave. to Sen. Gil Puyat (Urdaneta Site),250000.0,DO 38-2021,street,Paseo de Roxas,100
+Urdaneta,BEATERIO,,222000.0,DO 38-2021,street,Beaterio Street,97
+Urdaneta,CABILDO,,222000.0,DO 38-2021,street,Cabildo Street,97
+Urdaneta,CERRADA,,222000.0,DO 38-2021,street,Cerrada Street,97
+Urdaneta,CRUZADA,,222000.0,DO 38-2021,street,Cruzada Street,97
+Urdaneta,EDSA,,222000.0,DO 38-2021,street,EDSA,100
+Urdaneta,FAROL,,222000.0,DO 38-2021,street,Farol Street,97
+Urdaneta,FONDA,,222000.0,DO 38-2021,street,Fonda Street,97
+Urdaneta,RECOLETOS,,222000.0,DO 38-2021,street,Recoletos Street,97
+Urdaneta,RECOLETOS CIRCLE,,222000.0,DO 38-2021,street,Recoletos Circle,100
+Urdaneta,SAN IGNACIO,,222000.0,DO 38-2021,street,San Ignacio Street,97
+Urdaneta,URDANETA AVENUE,,222000.0,DO 38-2021,street,Urdaneta Avenue,100
+Urdaneta,APT RIDGE,,250000.0,DO 38-2021,unmatched,Roxas Triangle Towers (50),0
+Urdaneta,REAL(OUTER),Sta. Potenciana to Recoletos,250000.0,DO 38-2021,unmatched,Urdaneta Village (50),0
+Urdaneta,STA. POTENCIANA,,222000.0,DO 38-2021,unmatched,Dasmariñas Village (43),0
+Urdaneta,STO. DOMINGO,,222000.0,DO 38-2021,unmatched,Somerset Olympia (44),0
+Urdaneta,STO. TOMAS,,222000.0,DO 38-2021,unmatched,Somerset Olympia (50),0
+Urdaneta,REAL(INNER),,220000.0,DO 38-2021,unmatched,Twin Towers (53),0
+Valenzuela,ANTIPOLO,J. P. Rizal - S. Osmena,150000.0,DO 35-2021,segment,Antipolo Street,97
+Valenzuela,HORMIGA,Antipolo - Pateros,120000.0,DO 35-2021,segment,Hormiga Street,97
+Valenzuela,IRIGA,Baler - D. Oliman,120000.0,DO 35-2021,segment,Iriga Street,97
+Valenzuela,OBRERO,Antipolo - Pateros,120000.0,DO 35-2021,segment,Obrero Street,97
+Valenzuela,PATEROS,J. P. Rizal - S. Osmena,120000.0,DO 35-2021,segment,Pateros Street,97
+Valenzuela,PENAFRANCIA,Baler - D. Oliman,120000.0,DO 35-2021,segment,Peñafrancia Street,97
+Valenzuela,PILILIA,Kalayaan Ave. - S. Osmena,120000.0,DO 35-2021,segment,Pililia Street,97
+Valenzuela,S. OSMENA,Antipolo - J. B. Roxas,120000.0,DO 35-2021,segment,S. Osmeña Street,97
+Valenzuela,TAGUIG,D. Oliman - S. Osmena,120000.0,DO 35-2021,segment,Taguig Street,97
+Valenzuela,TANAY,Obrero - S. Osmena,120000.0,DO 35-2021,segment,Tanay Street,97
+Valenzuela,TERESA,Obrero - S. Osmena,120000.0,DO 35-2021,segment,Teresa Street,97
+Valenzuela,J. P. RIZAL,Legaspi - Reposo,150000.0,DO 35-2021,street,J. P. Rizal Street,97
+Valenzuela,ASUNCION,Pililia - Reposo,130000.0,DO 35-2021,street,Asuncion Street,97
+Valenzuela,CANDELARIA,Pililia - Reposo,130000.0,DO 35-2021,street,Candelaria Street,97
+Valenzuela,CONCEPCION,Pililia - Reposo,130000.0,DO 35-2021,street,Concepcion Street,97
+Valenzuela,D. OLIMAN,Legaspi - Reposo,130000.0,DO 35-2021,street,D. Oliman Street,97
+Valenzuela,MILAGROS,Pililia - Reposo,130000.0,DO 35-2021,street,Milagros Street,97
+Valenzuela,A. BONIFACIO,S. Osmena,120000.0,DO 35-2021,street,A. Bonifacio Street,97
+Valenzuela,BALER,Iriga - Reposo,120000.0,DO 35-2021,street,Baler Street,97
+Valenzuela,KALAYAAN AVENUE,Pililia - Reposo,120000.0,DO 35-2021,street,Kalayaan Avenue,100
+Valenzuela,LEGASPI,J. P. Rizal,120000.0,DO 35-2021,street,Legaspi Street,97
+Valenzuela,N. GARCIA (REPOSO),J. P. Rizal - Kalayaan Ave.,200000.0,DO 35-2021,unmatched,Rizal Village (46),0

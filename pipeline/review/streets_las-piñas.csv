@@ -1,0 +1,555 @@
+barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+Almanza Dos,ALL OTHER STREETS,,16000.0,DO 4-2021,background,,0
+Almanza Dos,ALL OTHER VILLAGES/SUBDIVISIONS:,,13000.0,DO 4-2021,background,,0
+Almanza Dos,CRM AVENUE,within BF Almanza,27000.0,DO 4-2021,street,CRM Avenue,100
+Almanza Dos,LOTUS STREET,,17000.0,DO 4-2021,street,Lotus Street,100
+Almanza Dos,SONERA AYALA SOUTHVALE (AYALA SOUTHVALE VILLAGE),ALL STREETS,65000.0,DO 4-2021,unmatched,Ayala Southvale Sonera (95),0
+Almanza Dos,ALABANG WEST - MEGAWORLD (Parklane),ALL STREETS,63000.0,DO 4-2021,unmatched,Alabang West (71),0
+Almanza Dos,PORTOFINO COURTYARD,ALL STREETS,63000.0,DO 4-2021,unmatched,Cityland One Premier (46),0
+Almanza Dos,ENCLAVE SUBDIVISION,ALL STREETS,57000.0,DO 4-2021,unmatched,The Enclave Alabang (64),0
+Almanza Dos,PORTOFINO HEIGHTS,ALL STREETS,55000.0,DO 4-2021,unmatched,Great Plains (44),0
+Almanza Dos,PORTOFINO SOUTH,ALL STREETS,55000.0,DO 4-2021,unmatched,Ayala Southvale Primera (47),0
+Almanza Dos,AMORE @ ALMANZA,ALL STREETS,50000.0,DO 4-2021,unmatched,BF Homes Almanza (70),0
+Almanza Dos,PAG-ASA COMPOUND,ALL STREETS,14000.0,DO 4-2021,unmatched,Ohana Place (56),0
+Almanza Dos,VERSAILLES SUBDIVISION,,60000.0,DO 4-2021,village,Versailles,100
+Almanza Dos,BF HOMES ALMANZA,ALL STREETS,21000.0,DO 4-2021,village,BF Homes Almanza,100
+Almanza Dos,DBP VILLAGE,ALL STREETS,19000.0,DO 4-2021,village,DBP Village,100
+Almanza Dos,TS CRUZ SUBDIVISION,ALL STREETS,17000.0,DO 4-2021,village,T.S. Cruz Subdivision,100
+Almanza Dos,CAMELLA (HOMES) CLASSIC,ALL STREETS,15000.0,DO 4-2021,village,Camella Homes Classic,100
+Almanza Dos,GLORIA COMPOUND,ALL STREETS,14000.0,DO 4-2021,village,Gloria Compound,100
+Almanza Uno,ALL OTHER STREETS,,13000.0,DO 4-2021,background,,0
+Almanza Uno,ALL OTHER VILLAGES/SUBDIVISIONS,,11000.0,DO 4-2021,background,,0
+Almanza Uno,VICTOR BUENCAMINO DRIVE,,30000.0,DO 4-2021,street,Victor Buencamino Street,97
+Almanza Uno,ZODIAC AVENUE,VERAVILLE HOMES 1,18000.0,DO 4-2021,street,Zodiac Avenue,100
+Almanza Uno,DR. JOSE P. LAUREL ST.,BF EXEC VILL VI,16000.0,DO 4-2021,street,Doctor Jose P. Laurel Street,90.47619047619048
+Almanza Uno,PILAR ROAD,,15000.0,DO 4-2021,street,Pilar Road,100
+Almanza Uno,CRM AVENUE,GOODYEAR PARK,14000.0,DO 4-2021,street,CRM Avenue,100
+Almanza Uno,BF EXEC. VILLAGE VI,,19000.0,DO 4-2021,unmatched,East Phase 6 (40),0
+Almanza Uno,BF HOMES HERNANDEZ PORTION,,17000.0,DO 4-2021,unmatched,BF HEVA (Homes Executive Village) (49),0
+Almanza Uno,EXECUTIVE AVENUE,BF EXEC VILL VI,16000.0,DO 4-2021,unmatched,BF Executive Triangle (95),0
+Almanza Uno,ST. JOSEPH PARK SUBDIVISION,,14000.0,DO 4-2021,unmatched,Saint Joseph Homes (70),0
+Almanza Uno,VILLANUEVA COMPOUND,,14000.0,DO 4-2021,unmatched,Joaquim Villanueva - Mariano Villanueva Compound (95),0
+Almanza Uno,FRANCEL SUBDIVISION,,12000.0,DO 4-2021,unmatched,BF Manresa (47),0
+Almanza Uno,VICTORIA PARK RESIDENCES,,30000.0,DO 4-2021,village,Victoria Park Residences,100
+Almanza Uno,VERAVILLE HOMES 1,,18000.0,DO 4-2021,village,Veraville Homes 1,100
+Almanza Uno,MANILA DOCTORS VILLAGE,,17000.0,DO 4-2021,village,Manila Doctors' Village,100
+Almanza Uno,DONA JOSEFA VILLAGE,,14000.0,DO 4-2021,village,Doña Josefa Village,100
+Almanza Uno,GOODYEAR PARK SUBDIVISION,,14000.0,DO 4-2021,village,Goodyear Park Subdivision,100
+Almanza Uno,GREAT PLAIN SUBDIVISION,,14000.0,DO 4-2021,village,Great Plains,100
+Almanza Uno,METROCOR SOUTHGATE HOMES,,14000.0,DO 4-2021,village,Metrocor Southgate Homes,100
+Almanza Uno,CASTILLO PARK SUBD.,,12000.0,DO 4-2021,village,Castillo Park Subdivision,100
+Almanza Uno,MAYUGA COMPOUND(GREGORIO MAYUGA HOMES),,12000.0,DO 4-2021,village,Mayuga's Compound,100
+Almanza Uno,SAN FRANCISCO DEL MONTE SUBDIVISION,,12000.0,DO 4-2021,village,San Francisco del Monte Subdivision,100
+B. F. International Village,ALL OTHER STREETS,,13000.0,DO 4-2021,background,,0
+B. F. International Village,ALL OTHER VILLAGES/SUBDIVISIONS,,13000.0,DO 4-2021,background,,0
+B. F. International Village,TROPICAL AVENUE,BF INT'L VILLAGE,40000.0,DO 4-2021,street,Tropical Avenue,100
+B. F. International Village,J. ELIZALDE ST.,,31000.0,DO 4-2021,street,J. Elizalde Street,100
+B. F. International Village,EL GRANDE AVENUE,,27000.0,DO 4-2021,street,El Grande Avenue,100
+B. F. International Village,LIMA ST.,BF INT'L VILLAGE,27000.0,DO 4-2021,street,Lima Street,100
+B. F. International Village,LUXEMBURG ST.,BF INT'L VILLAGE,27000.0,DO 4-2021,street,Luxembourg Street,96.0
+B. F. International Village,YOKOHAMA ST,BF INT'L VILLAGE,27000.0,DO 4-2021,street,Yokohama Street,100
+B. F. International Village,VERAVILLE TOWNHOMES (MONTREAL),,20000.0,DO 4-2021,street,Montreal Street,97
+B. F. International Village,SAGING ST.,CAA COMPOUND,14000.0,DO 4-2021,street,Saging Street,100
+B. F. International Village,JORGE AGUILAR (ST) AVE ( FORMERLY CAA ROAD),ALL STRETCH,40000.0,DO 4-2021,unmatched,Garden Homes (42),0
+B. F. International Village,BF INTERNATIONAL VILLAGE,PHASE IV AND PHASE V,27000.0,DO 4-2021,unmatched,BF Executive Villagers Association (45),0
+B. F. International Village,CHARLESTOWN TERRACE,,25000.0,DO 4-2021,unmatched,North Concha Cruz Circle (42),0
+B. F. International Village,GILENA SUBDIVISION,,25000.0,DO 4-2021,unmatched,Golden Gate Subdivision (59),0
+B. F. International Village,LEGACY SOUTH,,25000.0,DO 4-2021,unmatched,New South (67),0
+B. F. International Village,CAA COMPOUND,,14000.0,DO 4-2021,unmatched,The Enclave (40),0
+B. F. International Village,VAA HOMES,,14000.0,DO 4-2021,unmatched,G. Villanueva Compound (40),0
+B. F. International Village,CASIMIRO VILLAGE PHASE III,,14000.0,DO 4-2021,village,Casimiro Village Phase 3,100
+Daniel Fajardo,ALL OTHER STREETS,,7000.0,DO 4-2021,background,,0
+Daniel Fajardo,ALL OTHER VILLAGES,,7000.0,DO 4-2021,background,,0
+Daniel Fajardo,SAN FRANCISCO ST.,,9000.0,DO 4-2021,street,San Francisco Street,100
+Daniel Fajardo,SAN JOSE ST.,,9000.0,DO 4-2021,street,San Jose Street,100
+Daniel Fajardo,SULTANA ST.,,9000.0,DO 4-2021,street,Sultana Road,97
+Daniel Fajardo,BALITE ST.,,8000.0,DO 4-2021,street,Balite Street,100
+Daniel Fajardo,PADRE DIEGO CERA AVE.,,25000.0,DO 4-2021,unmatched,Casimiro Townhomes (36),0
+Daniel Fajardo,TRAMO LINES,,14000.0,DO 4-2021,unmatched,Casimiro Townhomes (44),0
+Daniel Fajardo,LOPEZ COMPOUND ( FORMERLY TABON 1),,8000.0,DO 4-2021,unmatched,Luzon (40),0
+Daniel Fajardo,MADRIGAL COMPOUND ( FORMERLY TABON 1),,8000.0,DO 4-2021,unmatched,Las Piñas BLISS (36),0
+Daniel Fajardo,VELASQUEZ COMPOUND ( FORMERLY TABON 2),,8000.0,DO 4-2021,unmatched,Luzon (43),0
+Daniel Fajardo,VILLA COASTAL ( FORMERLY TABON 1),,8000.0,DO 4-2021,unmatched,Las Piñas BLISS (37),0
+Daniel Fajardo,CASIMIRO TOWNHOMES,,23000.0,DO 4-2021,village,Casimiro Townhomes,100
+Elias Aldana,ALL OTHER TOWNHOMES,,19000.0,DO 4-2021,background,,0
+Elias Aldana,ALL OTHER STREETS,,7000.0,DO 4-2021,background,,0
+Elias Aldana,ALL OTHER VILLAGES,,7000.0,DO 4-2021,background,,0
+Elias Aldana,SAN FRANCISCO ST.,,9000.0,DO 4-2021,street,San Francisco Street,100
+Elias Aldana,SAN JOSE ST.,,9000.0,DO 4-2021,street,San Jose Street,100
+Elias Aldana,BALITE,,8000.0,DO 4-2021,street,Balite Street,97
+Elias Aldana,VILLA EUSEBIA,,8000.0,DO 4-2021,street,Villa Eusebia,100
+Elias Aldana,PADRE DIEGO CERA AVE(real st.),,25000.0,DO 4-2021,unmatched,Paso Verde at Real (47),0
+Elias Aldana,CAMELLA TOWNHOMES,,20000.0,DO 4-2021,unmatched,Camella Town Homes Las Piñas (65),0
+Elias Aldana,TRAMO LINES,,14000.0,DO 4-2021,unmatched,Camella Town Homes Las Piñas (45),0
+Elias Aldana,DAANG KARITON ST.,,8000.0,DO 4-2021,unmatched,Camella Town Homes Las Piñas (47),0
+Elias Aldana,MADRIGAL COMPOUND,,8000.0,DO 4-2021,unmatched,Paso Verde at Real (38),0
+Elias Aldana,PANALIGAN COMPOUND,,8000.0,DO 4-2021,unmatched,Camella Town Homes Las Piñas (40),0
+Elias Aldana,SAMSON COMPOUND,,8000.0,DO 4-2021,unmatched,Casa de Sequoia (38),0
+Elias Aldana,ST. DOMINIC COMPOUND,,8000.0,DO 4-2021,unmatched,Luzon (33),0
+Elias Aldana,TABON III (IBAYO),,8000.0,DO 4-2021,unmatched,Villa Fidela Subdivision (24),0
+Elias Aldana,VELASQUEZ COMPOUND,,8000.0,DO 4-2021,unmatched,Luzon (43),0
+Elias Aldana,VILLA FIDELA SUBDIVISION,,10000.0,DO 4-2021,village,Villa Fidela Subdivision,100
+Ilaya,ALL OTHER STREETS,,7000.0,DO 4-2021,background,,0
+Ilaya,ALL OTHER VILLAGES/SUBDIVISIONS,,6000.0,DO 4-2021,background,,0
+Ilaya,BALITE ST.,,8000.0,DO 4-2021,street,Balite Street,100
+Ilaya,SAN FRANCISCO ST.,,8000.0,DO 4-2021,street,San Francisco Street,100
+Ilaya,SAN JOSE ST.,,8000.0,DO 4-2021,street,San Jose Street,100
+Ilaya,PADRE DIEGO CERA AVE. (QUIRINO AVENUE),,25000.0,DO 4-2021,unmatched,Casa de Sequoia (45),0
+Ilaya,FRUTO SANTOS AVE. (TRAMO LINES),,15000.0,DO 4-2021,unmatched,Camella Town Homes Las Piñas (45),0
+Ilaya,CAMELLA HOMES TRAMO,,15000.0,DO 4-2021,unmatched,Camella Town Homes Las Piñas (59),0
+Ilaya,BALON COMPOUND,,7000.0,DO 4-2021,unmatched,Luzon (60),0
+Ilaya,PRECIOUSVILLE SUBDIVISION,,7000.0,DO 4-2021,unmatched,Villa Fidela Subdivision (40),0
+Manuyo Dos,ALL OTHER TOWNHOMES,,25000.0,DO 4-2021,background,,0
+Manuyo Dos,ALL OTHER STREETS,,19000.0,DO 4-2021,background,,0
+Manuyo Dos,ALL OTHER VILLAGES/SUBDIVISIONS,,14000.0,DO 4-2021,background,,0
+Manuyo Dos,J. TIONQUIAO AVENUE,,20000.0,DO 4-2021,street,J. Tionquiao Street,97
+Manuyo Dos,VERAVILLE TOWNHOMES REGENCY PH II,,26000.0,DO 4-2021,unmatched,Veraville Regency 2 (81),0
+Manuyo Dos,VERAVILLE TOWNHOMES RICHMOND,,26000.0,DO 4-2021,unmatched,Meritville Townhomes (70),0
+Manuyo Dos,CH WOODS-ROW,,20000.0,DO 4-2021,unmatched,Richmond Subdivision (42),0
+Manuyo Dos,GATCHALIAN SUBDIVISION,,18000.0,DO 4-2021,unmatched,Martinville (38),0
+Manuyo Dos,OLIVAREZ AND GUEVARRA COMPOUNDS,,18000.0,DO 4-2021,unmatched,Las Piñas Royale Estates (43),0
+Manuyo Dos,CANAYNAY COURT SUBDIVISION,,17000.0,DO 4-2021,unmatched,Nazareth (45),0
+Manuyo Dos,DONA MATILDE SUBDIVISION,,15000.0,DO 4-2021,unmatched,Martinville (52),0
+Manuyo Dos,ASHBERRY ESTATES,,23000.0,DO 4-2021,village,Ashberry Estates,100
+Manuyo Dos,BF HOMES MARTINVILLE (PORTION),,20000.0,DO 4-2021,village,Martinville,88.0
+Manuyo Uno,ALL OTHER TOWNHOMES,,22000.0,DO 4-2021,background,,0
+Manuyo Uno,ALL OTHER VILLAGES/SUBDIVISIONS,,8000.0,DO 4-2021,background,,0
+Manuyo Uno,ALL OTHER STREETS,,7000.0,DO 4-2021,background,,0
+Manuyo Uno,PADRE DIEGO CERA AVE./QUIRINO AVE.,,25000.0,DO 4-2021,street,Quirino Avenue,100
+Manuyo Uno,VILLAREAL STREET,,15000.0,DO 4-2021,street,Villareal Street,100
+Manuyo Uno,SAN JOSE ST.,,9000.0,DO 4-2021,street,San Jose Street,100
+Manuyo Uno,SULTANA STREET,,9000.0,DO 4-2021,street,Sultana Road,97
+Manuyo Uno,SAN FRANCISCO ST.,,8000.0,DO 4-2021,street,San Francisco Street,100
+Manuyo Uno,CITIHOMES SUBDIVISION,,21500.0,DO 4-2021,unmatched,Casimiro Townhomes (56),0
+Manuyo Uno,TRAMO LINES (FORMERLY FRUTO SANTOS AVE.),,15000.0,DO 4-2021,unmatched,Las Piñas Royale Estates (48),0
+Manuyo Uno,SANTOS COMPOUND,,12000.0,DO 4-2021,unmatched,Las Piñas BLISS (32),0
+Manuyo Uno,BORACAY COMPOUND,,9000.0,DO 4-2021,unmatched,Las Piñas BLISS (29),0
+Manuyo Uno,CLEANVILLE COMPOUND,,9000.0,DO 4-2021,unmatched,Jaleville (74),0
+Manuyo Uno,DE LOS REYES COMPOUND,,9000.0,DO 4-2021,unmatched,Las Piñas Royale Estates (46),0
+Manuyo Uno,HOLY FAMILY COMPOUND,,9000.0,DO 4-2021,unmatched,Casimiro Townhomes (43),0
+Manuyo Uno,JIMENEZ COMPOUND,,9000.0,DO 4-2021,unmatched,Jaleville (38),0
+Manuyo Uno,LOMBUS COMPOUND,,9000.0,DO 4-2021,unmatched,Luzon (40),0
+Manuyo Uno,LOPEZ COMPOUND,,9000.0,DO 4-2021,unmatched,Luzon (40),0
+Manuyo Uno,MEDINA COMPOUND,,9000.0,DO 4-2021,unmatched,Field Residences (38),0
+Manuyo Uno,SITIO BANGIAS,,9000.0,DO 4-2021,unmatched,Casimiro Townhomes (41),0
+Manuyo Uno,VILLA CONSUELO (NOW COLIS COMP.),,9000.0,DO 4-2021,unmatched,Jaleville (43),0
+Manuyo Uno,CASIMIRO TOWNHOMES (TRAMO II),,23000.0,DO 4-2021,village,Casimiro Townhomes,100
+Pamplona Dos,ALL OTHER STREETS,,18000.0,DO 4-2021,background,,0
+Pamplona Dos,ALL OTHER VILLAGES/SUBDIVISIONS,,16000.0,DO 4-2021,background,,0
+Pamplona Dos,CVSTARR AVENUE,PHILAM GATE-F. CABICO ST.,29000.0,DO 4-2021,street,C. V. Starr Avenue,91.66666666666666
+Pamplona Dos,PHILAMLIFE AVENUE,,26000.0,DO 4-2021,street,Philamlife Avenue,100
+Pamplona Dos,PHILAMLIFE SUBDIVISION PHASE 2,,30000.0,DO 4-2021,unmatched,Sta. Cecilia Village (0),0
+Pamplona Dos,PHILAMLIFE SUBDIVISION PHASE 1,,25000.0,DO 4-2021,unmatched,Sta. Cecilia Village (0),0
+Pamplona Dos,REMARVILLE 2,,17000.0,DO 4-2021,unmatched,Sta. Cecilia Village (0),0
+Pamplona Dos,STERLING HOMES SUBDIVISION,,17000.0,DO 4-2021,unmatched,Sta. Cecilia Village (53),0
+Pamplona Dos,PAMPLONA PARK SUBD,,19000.0,DO 4-2021,village,Pamplona Park Subdivision,100
+Pamplona Tres,ALL OTHER TOWNHOMES,,22000.0,DO 4-2021,background,,0
+Pamplona Tres,ALL OTHER STREETS,,14000.0,DO 4-2021,background,,0
+Pamplona Tres,ALL OTHER VILLAGES/SUBDIVISIONS,,10000.0,DO 4-2021,background,,0
+Pamplona Tres,DOÑA MANUELA SUBD,PHASE I,33000.0,DO 4-2021,street,Doña Manuela Avenue,97
+Pamplona Tres,F. OCAMPO AVE.,,17000.0,DO 4-2021,street,F. Ocampo Avenue,100
+Pamplona Tres,DONA MANUELA IV,PHASE - A/B/C/D/E/F/G,17000.0,DO 4-2021,street,Doña Manuela Avenue,90.32258064516128
+Pamplona Tres,DOÑA MANUELA SUBD,PHASE II,17000.0,DO 4-2021,street,Doña Manuela Avenue,97
+Pamplona Tres,DOÑA MANUELA V,PHASE V,17000.0,DO 4-2021,street,Doña Manuela Avenue,93.33333333333333
+Pamplona Tres,CRISPINA AVENUE,,15000.0,DO 4-2021,street,Crispina Avenue,100
+Pamplona Tres,VILLA CRISTINA SUBDIVISION,,15000.0,DO 4-2021,street,Villa Cristina Avenue,97
+Pamplona Tres,ET TOWNHOMES,,23000.0,DO 4-2021,unmatched,URCI Townhomes (75),0
+Pamplona Tres,VERAVILLE GREENLANE,,20000.0,DO 4-2021,unmatched,Veraville Belcrest (70),0
+Pamplona Tres,VERAVILLE TOWNHOMES III,,20000.0,DO 4-2021,unmatched,Casimiro Village Phase 3 (33),0
+Pamplona Tres,VERAVILLE TOWNHOMES IIIA,,20000.0,DO 4-2021,unmatched,URCI Townhomes (61),0
+Pamplona Tres,DONA MANUELA III,,18000.0,DO 4-2021,unmatched,Casimiro Village Phase 3 (33),0
+Pamplona Tres,CAMELLA HOMES,,15000.0,DO 4-2021,unmatched,Pamplona Village (53),0
+Pamplona Tres,CAMELLA HOMES III-A,,15000.0,DO 4-2021,unmatched,Casimiro Village Phase 3 (48),0
+Pamplona Tres,CAMELLA HOMES III-B,,15000.0,DO 4-2021,unmatched,Casimiro Village Phase 3 (48),0
+Pamplona Tres,CAMELLA HOMES III-C,,15000.0,DO 4-2021,unmatched,Casimiro Village Phase 3 (48),0
+Pamplona Tres,LAS PIÑAS VILLAGE,,15000.0,DO 4-2021,unmatched,Pamplona Village (50),0
+Pamplona Tres,VERDANT ACRES SUBDIVISION,,15000.0,DO 4-2021,unmatched,Veraville Belcrest (53),0
+Pamplona Tres,BUENCAMINO COMPOUND,,14000.0,DO 4-2021,unmatched,Casimiro Village (56),0
+Pamplona Tres,2ND REYVILLE SUBDIVISION,,13000.0,DO 4-2021,unmatched,Casimiro Townhomes Phase 2 (26),0
+Pamplona Tres,DELA CRUZ COMPOUND/BERAGO COMPOUND,,11000.0,DO 4-2021,unmatched,Fesan Court (50),0
+Pamplona Tres,TOLENTINO COMPOUND,,11000.0,DO 4-2021,unmatched,Metropolitan Classic and Townhomes (37),0
+Pamplona Tres,URCI TOWNHOMES,,38000.0,DO 4-2021,village,URCI Townhomes,100
+Pamplona Tres,MANILA TIMES VILLAGE,,20000.0,DO 4-2021,village,Manila Times Village,100
+Pamplona Tres,GREENVIEW VILLAGE,,17000.0,DO 4-2021,village,Greenview Village,100
+Pamplona Tres,CASIMIRO VILLAGE,,14000.0,DO 4-2021,village,Casimiro Village,100
+Pamplona Tres,METROPOLITAN TOWN & CLASSIC HOMES,,14000.0,DO 4-2021,village,Metropolitan Classic and Townhomes,92.5925925925926
+Pamplona Tres,VILLANUEVA COMPOUND,,11000.0,DO 4-2021,village,G. Villanueva Compound,95
+Pamplona Uno,ALL OTHER STREETS,,9000.0,DO 4-2021,background,,0
+Pamplona Uno,ALL OTHER VILLAGES/SUBDIVISIONS,,8000.0,DO 4-2021,background,,0
+Pamplona Uno,A BONIFACIO STREET,,10000.0,DO 4-2021,street,A. Bonifacio Street,100
+Pamplona Uno,FACOMA STREET,,10000.0,DO 4-2021,street,Facoma,97
+Pamplona Uno,P. BURGOS STREET,,10000.0,DO 4-2021,street,P. Burgos Street,100
+Pamplona Uno,ZAMORA STREET(Hilabel st.),,10000.0,DO 4-2021,street,P. Zamora Street,90.0
+Pamplona Uno,CHARLESTON TERRACE,,18000.0,DO 4-2021,unmatched,Veraville Belcrest (56),0
+Pamplona Uno,GOMEZ STREET,,10000.0,DO 4-2021,unmatched,Greenview Village (29),0
+Pamplona Uno,PHILIPS PARK SUBDIVISION,,10000.0,DO 4-2021,unmatched,Pamplona Park Subdivision (58),0
+Pamplona Uno,A.BUENCAMINO COMPOUND,,9000.0,DO 4-2021,unmatched,San Isidro Village (36),0
+Pamplona Uno,C.NOBLEZA COMPOUND,,9000.0,DO 4-2021,unmatched,Balagtas Subdivision (38),0
+Pamplona Uno,CENTRAZA VILLAGE,,9000.0,DO 4-2021,unmatched,Doña Cristeta Subdivision (48),0
+Pamplona Uno,INANG MARIA(FORMERLY BONDOC COMPOUND),,9000.0,DO 4-2021,unmatched,Vista Riva (57),0
+Pamplona Uno,KAUNLARAN,,9000.0,DO 4-2021,unmatched,Balagtas Subdivision (50),0
+Pamplona Uno,MANGGAHAN 1,,9000.0,DO 4-2021,unmatched,San Isidro Village (0),0
+Pamplona Uno,MANGGAHAN 2,,9000.0,DO 4-2021,unmatched,San Isidro Village (0),0
+Pamplona Uno,PATRICIA HOMES,,9000.0,DO 4-2021,unmatched,Vista Riva (44),0
+Pamplona Uno,RM COMPOUND,,9000.0,DO 4-2021,unmatched,Monark Subdivision (25),0
+Pamplona Uno,SAINT JOSEPH COMPOUND,,9000.0,DO 4-2021,unmatched,San Isidro Village (45),0
+Pamplona Uno,SIGNATURE HOMES,,9000.0,DO 4-2021,unmatched,Monark Subdivision (40),0
+Pamplona Uno,MONARK SUBDIVISION,,13000.0,DO 4-2021,village,Monark Subdivision,100
+Pamplona Uno,BALAGTAS SUBDIVISION,,9000.0,DO 4-2021,village,Balagtas Subdivision,100
+Pamplona Uno,DONA CRISTETA SUBDIVISION,,9000.0,DO 4-2021,village,Doña Cristeta Subdivision,100
+Pamplona Uno,SAN ISIDRO SUBDIVISION,,9000.0,DO 4-2021,village,San Isidro Village,100
+Pamplona Uno,TUAZON SUBDIVISION,,9000.0,DO 4-2021,village,Tuazon Subdivision,100
+Pilar,ALL OTHER STREETS,,16000.0,DO 4-2021,background,,0
+Pilar,ROSE AVENUE,"PHASE 1, 2, 3, 4",19000.0,DO 4-2021,street,Rose Avenue,100
+Pilar,CAMINO REAL ROAD,"PHASE 1, 2, 3, 4",17000.0,DO 4-2021,street,Camino Real Street,97
+Pilar,DIAMOND ROAD,PHASE 5,17000.0,DO 4-2021,street,Diamond Street,97
+Pilar,MAHOGANY ROAD,"PHASE 1, 2, 3, 4",17000.0,DO 4-2021,street,Mahogany Street,97
+Pilar,MERCURY ROAD,"PHASE 1, 2, 3, 4",17000.0,DO 4-2021,street,Mercury Street,97
+Pilar,PILAR VILLAGE V,PHASE 5,19000.0,DO 4-2021,unmatched,Alabang West (0),0
+Pilar,GEM ROAD,"PHASE 1, 2, 3, 4",17000.0,DO 4-2021,unmatched,Great Plains (29),0
+Pilar,PILAR VILLAGE I - IV,"PHASE 1, 2, 3, 4",17000.0,DO 4-2021,unmatched,Alabang West (0),0
+Pilar,BF PILAR SOUTHVALE,,21000.0,DO 4-2021,village,BF Pilar Southville,91.89189189189189
+Pulang Lupa Dos,ALL OTHER TOWNHOMES,,24000.0,DO 4-2021,background,,0
+Pulang Lupa Dos,ALL OTHER STREETS,,19000.0,DO 4-2021,background,,0
+Pulang Lupa Dos,ALL OTHER VILLAGES/SUBDIVISIONS,,11000.0,DO 4-2021,background,,0
+Pulang Lupa Dos,J. AGUILAR AVENUE (formerly CAA RD),,39000.0,DO 4-2021,street,J. Aguilar Avenue,100
+Pulang Lupa Dos,NAGA ROAD (Also A. Asuncion Ave.),,20000.0,DO 4-2021,street,Naga Road,100
+Pulang Lupa Dos,WOODRIDGE SUBDIVISION,,20000.0,DO 4-2021,street,Woodridge,97
+Pulang Lupa Dos,VERGONVILLE SUBDIVISION,,17000.0,DO 4-2021,street,Vergonville Road,97
+Pulang Lupa Dos,TOPSVILLE SUBDIVISION,,12000.0,DO 4-2021,street,Topsville,97
+Pulang Lupa Dos,AIRMENS TOWNHOMES,,45000.0,DO 4-2021,unmatched,Rhonaville Townhomes (71),0
+Pulang Lupa Dos,"ET HOMES I, II AND III (TOWNHOMES)",,42000.0,DO 4-2021,unmatched,Rhonaville Townhomes (95),0
+Pulang Lupa Dos,VILLA CELINA TOWNHOMES,,42000.0,DO 4-2021,unmatched,Rhonaville Townhomes (70),0
+Pulang Lupa Dos,LAS PIÑAS ROYALE ESTATE I & II (Also in PULANG LUPA I),,25000.0,DO 4-2021,unmatched,Santos Homes Ⅰ (36),0
+Pulang Lupa Dos,GUINTO SUBDIVISION,,18000.0,DO 4-2021,unmatched,Country Homes (46),0
+Pulang Lupa Dos,VERAVILLE HOMES III (SD),,18000.0,DO 4-2021,unmatched,VAA Homes 3 (50),0
+Pulang Lupa Dos,DON ANGELO KING SUBDIVISION,,17000.0,DO 4-2021,unmatched,Doña Julita Subdivision (46),0
+Pulang Lupa Dos,CAMELLA HOMES VI,,16000.0,DO 4-2021,unmatched,Veraville Belcrest (0),0
+Pulang Lupa Dos,BELISARIO SUBDIVISION,,15000.0,DO 4-2021,unmatched,Villa Isabelita Subdivision (50),0
+Pulang Lupa Dos,DBP SUBDIVISION - NAGA ROAD,,15000.0,DO 4-2021,unmatched,Doña Paz Subdivision (50),0
+Pulang Lupa Dos,JOHN MERIVILLE SUBD,,15000.0,DO 4-2021,unmatched,Johnmary Ville (79),0
+Pulang Lupa Dos,MOUNT CREST SUBDIVISION,,15000.0,DO 4-2021,unmatched,Velmont Residences (57),0
+Pulang Lupa Dos,SAN ANTONIO VALLEY 7,,15000.0,DO 4-2021,unmatched,Veraville Belcrest (0),0
+Pulang Lupa Dos,SILVER CREST SUBDIVISION,,15000.0,DO 4-2021,unmatched,Veraville Belcrest (60),0
+Pulang Lupa Dos,ST JOSEPH PARK (SUBDIVISION) NAGA,,15000.0,DO 4-2021,unmatched,St Joseph Kaliwa (69),0
+Pulang Lupa Dos,CITADELA EXECUTIVE VILLAGE,,27000.0,DO 4-2021,village,Cittadella Executive Village,94.73684210526316
+Pulang Lupa Dos,CASIMIRO TOWNHOMES I AND II,,25000.0,DO 4-2021,village,Casimiro Townhomes Phase 1,100
+Pulang Lupa Dos,DOÑA JULITA SUBDIVISION,,19000.0,DO 4-2021,village,Doña Julita Subdivision,100
+Pulang Lupa Dos,MARTINVILLE SUBDIVISION,,18000.0,DO 4-2021,village,Martinville,100
+Pulang Lupa Dos,DOÑA PAZ SUBDIVISION,,17000.0,DO 4-2021,village,Doña Paz Subdivision,100
+Pulang Lupa Dos,FR. DIEGO CERA HOMES,,17000.0,DO 4-2021,village,P. Diego Cera Homes,88.0
+Pulang Lupa Dos,AIRMENS VILLAGE,,15000.0,DO 4-2021,village,Airmen's Village,100
+Pulang Lupa Dos,CAMELLA HOMES V,,15000.0,DO 4-2021,village,Camella Homes Phase 5,100
+Pulang Lupa Dos,COUNTRY HOMES SUBDIVISION,,15000.0,DO 4-2021,village,Country Homes,100
+Pulang Lupa Dos,VILLA ISABELITA SUBDIVISION,,15000.0,DO 4-2021,village,Villa Isabelita Subdivision,100
+Pulang Lupa Uno,ALL OTHER STREETS,,14000.0,DO 4-2021,background,,0
+Pulang Lupa Uno,ALL OTHER TOWNHOMES,,14000.0,DO 4-2021,background,,0
+Pulang Lupa Uno,ALL OTHER VILLAGES/SUBDIVISIONS,,11000.0,DO 4-2021,background,,0
+Pulang Lupa Uno,FR. DIEGO CERA AVE. (ALSO QUIRINO AVE.) (REAL ST),,25000.0,DO 4-2021,street,Real Street,100
+Pulang Lupa Uno,NAGA ROAD (Also A. Asuncion Ave.),,20000.0,DO 4-2021,street,Naga Road,100
+Pulang Lupa Uno,SANTOS COMPOUND,,12000.0,DO 4-2021,street,Santos Compound Road,90.9090909090909
+Pulang Lupa Uno,BENEDETTO TOWNHOMES,,35000.0,DO 4-2021,unmatched,Benedetto Residences (65),0
+Pulang Lupa Uno,CASIMIRO TOWNHOMES IV,,25000.0,DO 4-2021,unmatched,Casimiro Townhomes (0),0
+Pulang Lupa Uno,CASIMIRO TOWNHOMES PHASE 1&2,,25000.0,DO 4-2021,unmatched,Casimiro Townhomes (0),0
+Pulang Lupa Uno,VISTA RIVA TOWNHOMES,,25000.0,DO 4-2021,unmatched,Vista Riva (69),0
+Pulang Lupa Uno,JEANETTE GARDENS II,NAGA RD,20000.0,DO 4-2021,unmatched,Perpetual Village 2 (43),0
+Pulang Lupa Uno,KALIKASAN HOUSING PROJ/ANITO,,20000.0,DO 4-2021,unmatched,Kalikasan Homes (58),0
+Pulang Lupa Uno,PERPETUAL VILLAGE,,18000.0,DO 4-2021,unmatched,Paso Verde at Real (52),0
+Pulang Lupa Uno,VERAVILLE TOWNHOMES II,,18000.0,DO 4-2021,unmatched,Veraville Homes 2 (71),0
+Pulang Lupa Uno,FRUTO SANTOS (TRAMO LINES),,15000.0,DO 4-2021,unmatched,T.S. Sarino Village (57),0
+Pulang Lupa Uno,PULANGLUPA PROPER,,15000.0,DO 4-2021,unmatched,Las Piñas Royale Estates (50),0
+Pulang Lupa Uno,SANTOS HOMES,,15000.0,DO 4-2021,unmatched,T.S. Sarino Village (53),0
+Pulang Lupa Uno,GABRIEL COMPOUND,,14000.0,DO 4-2021,unmatched,Bernice Homes (57),0
+Pulang Lupa Uno,AZALEA HOMES,,12000.0,DO 4-2021,unmatched,Mapayapa Village (43),0
+Pulang Lupa Uno,LUCKY HOMES,,12000.0,DO 4-2021,unmatched,Luzon (40),0
+Pulang Lupa Uno,EVERGREEN HOMES (TAMBAKAN),SOCIALIZE HOUSING,12000.0,DO 4-2021,unmatched,Green Archers Compound (67),0
+Pulang Lupa Uno,JULIO'S COMPOUND 1 & 2,SOCIALIZE HOUSING,12000.0,DO 4-2021,unmatched,Casimiro Townhomes (0),0
+Pulang Lupa Uno,LAS PINAS ROYALE,BESIDE GOLDEN HAVEN,25000.0,DO 4-2021,village,Las Piñas Royale Estates,100
+Pulang Lupa Uno,JEANETTE'S GARDEN HOMES,BESIDES BERNABE COMPOUND,20000.0,DO 4-2021,village,Jeanette's Garden Subdivision,100
+Pulang Lupa Uno,VENEZIA HOMES,,20000.0,DO 4-2021,village,Venezia Subdivision,100
+Pulang Lupa Uno,MANILA GARDEN VILLAGE,,15000.0,DO 4-2021,village,Manila Garden Village,100
+Pulang Lupa Uno,MAPAYAPA VILLAGE,,15000.0,DO 4-2021,village,Mapayapa Village,100
+Pulang Lupa Uno,ORCHARD HOMES,,15000.0,DO 4-2021,village,Orchard Homes,100
+Pulang Lupa Uno,T.S. SARINO SUBDIVISION,,15000.0,DO 4-2021,village,T.S. Sarino Village,100
+Pulang Lupa Uno,MERITVILLE TOWHOMES,,15000.0,DO 4-2021,village,Meritville Townhomes,97.2972972972973
+Pulang Lupa Uno,BERNABE COMPOUND,,12000.0,DO 4-2021,village,Bernabe Compound,100
+Pulang Lupa Uno,GREEN ARCHER HOA,SOCIALIZE HOUSING,12000.0,DO 4-2021,village,Green Archers Compound,85.71428571428572
+Talon Dos,ALL OTHER TOWNHOMES,,40000.0,DO 4-2021,background,,0
+Talon Dos,ALL OTHER STREETS,,20000.0,DO 4-2021,background,,0
+Talon Dos,ALL OTHER VILLAGES/SUBDIVISIONS,,11000.0,DO 4-2021,background,,0
+Talon Dos,BF RESORT AVENUE,Phase II,25000.0,DO 4-2021,street,BF Resort Drive,97
+Talon Dos,GLORIA DIAZ AVE,"Phase I, II, III",25000.0,DO 4-2021,street,Gloria Diaz Street,97
+Talon Dos,ABEL NOSCE ST.,,24000.0,DO 4-2021,street,Abel Nosce Street,100
+Talon Dos,AVENTINE HILLS AVENUE,Phase IV,23000.0,DO 4-2021,street,Aventine Hills Street,97
+Talon Dos,CAPITOLINE HILL ST. (Formerly ANSELMO TRINIDAD ST.),Phase IV,23000.0,DO 4-2021,street,Capitoline Hill Street,100
+Talon Dos,CARNIVAL PARK AVE.,Phase III,23000.0,DO 4-2021,street,Carnival Park Street,97
+Talon Dos,LALAINE BENNET ST.,Phase I / Phase III,23000.0,DO 4-2021,street,Lalaine Bennett Street,97.14285714285714
+Talon Dos,ONELIA JOSE ST.,Phase III,23000.0,DO 4-2021,street,Onelia Jose Street,100
+Talon Dos,VATICAN CITY DRIVE,Phase IV,23000.0,DO 4-2021,street,Vatican City Drive,100
+Talon Dos,CAMELLA HOMES,,22000.0,DO 4-2021,street,Camella Street,97
+Talon Dos,PEDRO SABIDO ST.,Phase IV,21000.0,DO 4-2021,street,Pedro Sabido Street,100
+Talon Dos,BF RESORT VILLAGE,,21000.0,DO 4-2021,street,BF Resort Drive,97
+Talon Dos,BERKLEY SUBDIVISION,,20000.0,DO 4-2021,street,Berkley Drive,97
+Talon Dos,SATIMA COMPOUND,,12000.0,DO 4-2021,street,Satima Avenue,97
+Talon Dos,CASTILLAN CLASSIC (TOWNHOMES),,47000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (95),0
+Talon Dos,CAMELLA MERIDA (TOWNHOMES),,47000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (95),0
+Talon Dos,VERAVILLE EXECUTIVE HOMES II,,47000.0,DO 4-2021,unmatched,Agro Homes 2 (22),0
+Talon Dos,VILLA FELISA TOWNHOMES,,47000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (68),0
+Talon Dos,MERIDA HOMES,,45000.0,DO 4-2021,unmatched,Heritage Homes (57),0
+Talon Dos,VERAVILLE VISTA GRANDE TOWNHOMES,,44000.0,DO 4-2021,unmatched,Veraville Vista Grande (83),0
+Talon Dos,CAMELLA DEL RIO,,43000.0,DO 4-2021,unmatched,Camella Fronterra (62),0
+Talon Dos,BF VISTA GRANDE (TOWNHOMES),,43000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (95),0
+Talon Dos,VERAVILLE VILLA GRANDE CLASSIC,,42000.0,DO 4-2021,unmatched,Veraville Villa Grande (85),0
+Talon Dos,IMPERIAL ROYALE HOMES (TOWNHOMES),,42000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (95),0
+Talon Dos,KENSINGTON GARDEN (TOWNHOMES),,42000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (95),0
+Talon Dos,VERAVILLE TOWNHOMES PHILAM,,42000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (82),0
+Talon Dos,LIT Townhomes (FLOODED),,41000.0,DO 4-2021,unmatched,URCI Townhomes (80),0
+Talon Dos,ITALIA 500 SUBDIVISION,,30000.0,DO 4-2021,unmatched,Castilian Classics (0),0
+Talon Dos,JUDGE BIENVENIDO TAN SR. AVENUE,Phase IV,25000.0,DO 4-2021,unmatched,San Beda Homes (45),0
+Talon Dos,FRIENDSHIP ROAD ( DE VENECIA),Phase IV,23000.0,DO 4-2021,unmatched,field (53),0
+Talon Dos,PIAZZA DE VENECIA ST.,Phase IV,23000.0,DO 4-2021,unmatched,Villa Feliza Homes (55),0
+Talon Dos,DONNA VILLE BF HOMES,,22000.0,DO 4-2021,unmatched,Villa Feliza Homes (54),0
+Talon Dos,PONTE VERDE (VERDE ST.),Phase II / Phase III,21000.0,DO 4-2021,unmatched,Veraville Homes (57),0
+Talon Dos,PHASE I,,21000.0,DO 4-2021,unmatched,I.S. (50),0
+Talon Dos,PHASE II,,21000.0,DO 4-2021,unmatched,Agro Homes 2 (29),0
+Talon Dos,PHASE III,,21000.0,DO 4-2021,unmatched,Castilian Classics (0),0
+Talon Dos,PHASE IV,,21000.0,DO 4-2021,unmatched,Castilian Classics (0),0
+Talon Dos,ST. MICHAEL,,17000.0,DO 4-2021,unmatched,Saint Michael Subdivision (70),0
+Talon Dos,GLORYVILLE SUBD,,15000.0,DO 4-2021,unmatched,Veraville Homes (63),0
+Talon Dos,MANGGAHAN COMPOUND,,15000.0,DO 4-2021,unmatched,Talon Garden (48),0
+Talon Dos,VAA HOMES II,,15000.0,DO 4-2021,unmatched,Agro Homes 2 (55),0
+Talon Dos,VENEZIA HOMES,,15000.0,DO 4-2021,unmatched,Villa Feliza Homes (42),0
+Talon Dos,CAMELLA FRONTERRA (Formerly FONTERA SUBDIVISION TOWNHOMES),,45000.0,DO 4-2021,village,Camella Fronterra,100
+Talon Dos,VERAVILLE VILLA GRANDE,,42000.0,DO 4-2021,village,Veraville Villa Grande,100
+Talon Dos,VERAVILLE VILLA GRANDE ROYALE,,42000.0,DO 4-2021,village,Veraville Villa Grande,86.27450980392157
+Talon Dos,SAN BEDA HOMES,,19000.0,DO 4-2021,village,San Beda Homes,100
+Talon Dos,STA CECILIA VILLAGE,,18000.0,DO 4-2021,village,Sta. Cecilia Village,100
+Talon Dos,AGUILAR COMPOUND,,15000.0,DO 4-2021,village,Aguilar Compound,100
+Talon Dos,MOTHER EARTH,,15000.0,DO 4-2021,village,Mother Earth Subdivision,100
+Talon Dos,PNB HOMES,,15000.0,DO 4-2021,village,PNB Homes,100
+Talon Kuatro,ALL OTHER TOWNHOMES,,16000.0,DO 4-2021,background,,0
+Talon Kuatro,ALL OTHER STREETS,,9000.0,DO 4-2021,background,,0
+Talon Kuatro,ANGELA VILLAGE,,18000.0,DO 4-2021,street,Angela Drive,97
+Talon Kuatro,ANGELA,,18000.0,DO 4-2021,street,Angela Drive,97
+Talon Kuatro,EAST 1ST,,18000.0,DO 4-2021,street,East 1st,100
+Talon Kuatro,EAST 3RD,,18000.0,DO 4-2021,street,East 3rd,100
+Talon Kuatro,EAST 4TH,,18000.0,DO 4-2021,street,East 4th,100
+Talon Kuatro,EAST 5TH,,18000.0,DO 4-2021,street,East 5th,100
+Talon Kuatro,NORTH 1ST,,18000.0,DO 4-2021,street,North 1st,100
+Talon Kuatro,NORTH 2ND,,18000.0,DO 4-2021,street,North 2nd,100
+Talon Kuatro,NORTH 3RD,,18000.0,DO 4-2021,street,North 3rd,100
+Talon Kuatro,NORTH 4TH,,18000.0,DO 4-2021,street,North 4th,100
+Talon Kuatro,NORTH 5TH,,18000.0,DO 4-2021,street,North 5th,100
+Talon Kuatro,NORTH 6TH,,18000.0,DO 4-2021,street,North 6th,100
+Talon Kuatro,NORTH 7TH,,18000.0,DO 4-2021,street,North 7th,100
+Talon Kuatro,NORTH 8TH,,18000.0,DO 4-2021,street,North 8th,100
+Talon Kuatro,AUGUSTUS ST.,,17000.0,DO 4-2021,street,Augustus Street,100
+Talon Kuatro,CAMARA AVE,,17000.0,DO 4-2021,street,Camara Avenue,100
+Talon Kuatro,CHEERFUL ST.,,17000.0,DO 4-2021,street,Cheerful Street,100
+Talon Kuatro,FELICITY ST.,,17000.0,DO 4-2021,street,Felicity Street,100
+Talon Kuatro,HAPPINESS ST.,,17000.0,DO 4-2021,street,Happiness Street,100
+Talon Kuatro,JOY ST.,,17000.0,DO 4-2021,street,Joy Street,100
+Talon Kuatro,PARADISE ST.,,17000.0,DO 4-2021,street,Paradise Street,100
+Talon Kuatro,SUNSHINE ST.,,17000.0,DO 4-2021,street,Sunshine Street,100
+Talon Kuatro,BIRDS OF PARADISE,,16000.0,DO 4-2021,street,Birds of Paradise Street,97
+Talon Kuatro,ROSAL ST.,,16000.0,DO 4-2021,street,Rosal Street,100
+Talon Kuatro,MARIGOLD ST.,,15000.0,DO 4-2021,street,Marigold Street,100
+Talon Kuatro,PARAISO DRIVE,,15000.0,DO 4-2021,street,Paraiso Drive,100
+Talon Kuatro,SETH ST.,,15000.0,DO 4-2021,street,Seth Street,100
+Talon Kuatro,ADELFA ST.,,15000.0,DO 4-2021,street,Adelfa Street,100
+Talon Kuatro,CAMELLA ST.,,15000.0,DO 4-2021,street,Camella Street,100
+Talon Kuatro,CAMIA ST.,,15000.0,DO 4-2021,street,Camia Street,100
+Talon Kuatro,CARNATION ST.,,15000.0,DO 4-2021,street,Carnation Street,100
+Talon Kuatro,CHAMPACA ST.,,15000.0,DO 4-2021,street,Champaca Street,100
+Talon Kuatro,DAHLIA ST.,,15000.0,DO 4-2021,street,Dahlia Street,100
+Talon Kuatro,DAMA DE NOCHE,,15000.0,DO 4-2021,street,Dama de Noche Street,97
+Talon Kuatro,EVERLASTING ST.,,15000.0,DO 4-2021,street,Everlasting Street,100
+Talon Kuatro,ILANG-ILANG ST.,,15000.0,DO 4-2021,street,Ilang-ilang Street,100
+Talon Kuatro,JASMIN ST.,,15000.0,DO 4-2021,street,Jasmin Street,100
+Talon Kuatro,LILY ST.,,15000.0,DO 4-2021,street,Lily Street,100
+Talon Kuatro,LIRIO ST.,,15000.0,DO 4-2021,street,Lirio Street,100
+Talon Kuatro,SAMPAGUITA ST.,,15000.0,DO 4-2021,street,Sampaguita Street,100
+Talon Kuatro,WALING-WALING,,15000.0,DO 4-2021,street,Waling Waling Street,97
+Talon Kuatro,CORAL BELLS ST.,,15000.0,DO 4-2021,street,Coral Bells Street,100
+Talon Kuatro,TULIPS ST.,,15000.0,DO 4-2021,street,Tulips Street,100
+Talon Kuatro,CANDY TUFF ST.,,15000.0,DO 4-2021,street,Candy Tuff Street,100
+Talon Kuatro,CHERRY BLOSSOM ST.,,15000.0,DO 4-2021,street,Cherry Blossom Street,100
+Talon Kuatro,CHINA ASTER,,15000.0,DO 4-2021,street,China Aster Street,97
+Talon Kuatro,CHINESE LANTERN ST.,,15000.0,DO 4-2021,street,Chinese Lantern Street,100
+Talon Kuatro,CHRYSANTEMUM ST.,,15000.0,DO 4-2021,street,Chrysanthemum Street,96.7741935483871
+Talon Kuatro,COSMOS ST.,,15000.0,DO 4-2021,street,Cosmos Street,100
+Talon Kuatro,PERIWINKLE ST.,,15000.0,DO 4-2021,street,Periwinkle Street,100
+Talon Kuatro,POINSETTIA,,15000.0,DO 4-2021,street,Poinsettia Street,97
+Talon Kuatro,PRIME ROSE ST.,,15000.0,DO 4-2021,street,Prime Rose Street,100
+Talon Kuatro,ROSE OF HEAVEN,,15000.0,DO 4-2021,street,Rose of Heaven Drive,97
+Talon Kuatro,SUMMER CYPRESS,,15000.0,DO 4-2021,street,Summer Cypress Street,97
+Talon Kuatro,SUNFLOWER ST.,,15000.0,DO 4-2021,street,Sunflower Street,100
+Talon Kuatro,TIDY TIPS ST.,,15000.0,DO 4-2021,street,Tidy Tips Street,100
+Talon Kuatro,TORCH LILY,,15000.0,DO 4-2021,street,Torch Lily Street,97
+Talon Kuatro,EVERLASTING HOMES ( fmr: MEDINA COMPOUND),,10000.0,DO 4-2021,street,Everlasting Street,97
+Talon Kuatro,NORTH 12TH,,18000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (0),0
+Talon Kuatro,NORTH 13TH,,18000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (0),0
+Talon Kuatro,NORTH 14TH,,18000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (0),0
+Talon Kuatro,VERAVILLE ALEGRIA,,17000.0,DO 4-2021,unmatched,Veraville Homes (69),0
+Talon Kuatro,CHRYSANTEMUM,,16000.0,DO 4-2021,unmatched,Saint Michael Subdivision (48),0
+Talon Kuatro,1ST ST.,,15000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (0),0
+Talon Kuatro,2ND ST.,,15000.0,DO 4-2021,unmatched,Agro Homes 2 (22),0
+Talon Kuatro,3RD ST.,,15000.0,DO 4-2021,unmatched,Veraville Homes 3 (29),0
+Talon Kuatro,4TH ST.,,15000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (0),0
+Talon Kuatro,5TH ST.,,15000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (0),0
+Talon Kuatro,6TH ST.,,15000.0,DO 4-2021,unmatched,Veraville Townhomes Classic (0),0
+Talon Kuatro,PAG-IBIG SA LAS PINAS,,15000.0,DO 4-2021,unmatched,Pag-Ibig Homes (57),0
+Talon Kuatro,ADAM ST.,,15000.0,DO 4-2021,unmatched,Paraiso Subdivision (36),0
+Talon Kuatro,ENOZ ST.,,15000.0,DO 4-2021,unmatched,Sihanouk Village (33),0
+Talon Kuatro,EVE ST.,,15000.0,DO 4-2021,unmatched,Veraville Homes (50),0
+Talon Kuatro,ROSAS,,15000.0,DO 4-2021,unmatched,Paraiso Subdivision (36),0
+Talon Kuatro,ROSE OF SHARON,,15000.0,DO 4-2021,unmatched,Mother Earth Subdivision (43),0
+Talon Kuatro,LILY CHECKER ST.,,15000.0,DO 4-2021,unmatched,Christ the King (43),0
+Talon Kuatro,PRINCESS PLUME,,15000.0,DO 4-2021,unmatched,Berkley Place (44),0
+Talon Kuatro,SULTAN ST.,,15000.0,DO 4-2021,unmatched,Talon Village (55),0
+Talon Kuatro,HAPPYVILLE SUBDIVISION,,17000.0,DO 4-2021,village,Happyville Subdivision,100
+Talon Kuatro,HANSUYIN SUBDIVISION,,16000.0,DO 4-2021,village,Hansuyin Village,100
+Talon Kuatro,EQUITABLE VILLAGE,,15000.0,DO 4-2021,village,Equitable Bank Village,95
+Talon Kuatro,HOLY FAMILY,,15000.0,DO 4-2021,village,Holy Family Subdivision,100
+Talon Kuatro,PARAISO SUBDIVISION,,15000.0,DO 4-2021,village,Paraiso Subdivision,100
+Talon Kuatro,SAN ANTONIO 17 VILLAGE (Formerly San Antonio Village),,15000.0,DO 4-2021,village,San Antonio Valley 17,95
+Talon Kuatro,SIHANOUK SUBDIVISION,,15000.0,DO 4-2021,village,Sihanouk Village,100
+Talon Kuatro,TALON VILLAGE (FORMERLY TALON SUBDIVISION),,15000.0,DO 4-2021,village,Talon Village,100
+Talon Singko,ALL OTHER 'TOWNHOMES,,26000.0,DO 4-2021,background,,0
+Talon Singko,ALL OTHER VILLAGES/SUBDIVISIONS,,9000.0,DO 4-2021,background,,0
+Talon Singko,VERAVILLE HOMES V / 5A,,30000.0,DO 4-2021,unmatched,Fruitville (0),0
+Talon Singko,"MOONWALK VILLAGE (formerly named MOONWALK VILLAGE-APOLLO 1,2,3 & 3)",,19000.0,DO 4-2021,unmatched,Pamplona Metrocor Homes (40),0
+Talon Singko,VAA HOMES,,18000.0,DO 4-2021,unmatched,Villa Pangarap (35),0
+Talon Singko,RAINBOW VILLAGE,,15000.0,DO 4-2021,unmatched,Hansuyin Village (40),0
+Talon Singko,VAA - TH MARCOS ALVAREZ,,15000.0,DO 4-2021,unmatched,Beacon Place (44),0
+Talon Singko,MANUELA HOMES (Formerly MANUELAVILLE in 7th Revision),,14000.0,DO 4-2021,unmatched,Emmaus Subdivision (50),0
+Talon Singko,METROCOR HOMES,,14000.0,DO 4-2021,unmatched,Metrocor B-Homes (95),0
+Talon Singko,AGRO HOMES PH 1 & 2,,12000.0,DO 4-2021,unmatched,Fruitville (0),0
+Talon Singko,GREENVALLEY HOMES,,12000.0,DO 4-2021,unmatched,Veraville Homes (50),0
+Talon Singko,JARN COMPOUND,,10000.0,DO 4-2021,unmatched,Agro Homes (50),0
+Talon Singko,STO. NIÑO VILLAGE (A Socialized Housing Area),,10000.0,DO 4-2021,unmatched,Christ the King (53),0
+Talon Singko,VERAVILLE TOWNHOMES,,30000.0,DO 4-2021,village,Veraville Townhomes Classic,95
+Talon Singko,VERAVILLE HOMES IV,,30000.0,DO 4-2021,village,Veraville Homes 4,100
+Talon Singko,VERAVILLE III,,27000.0,DO 4-2021,village,Veraville Homes 3,100
+Talon Singko,VERAVILLE III-A,,27000.0,DO 4-2021,village,Veraville Homes 3,91.66666666666666
+Talon Singko,VILLA LUNINGNING SUBDIVISION,,18000.0,DO 4-2021,village,Villa Luningning,100
+Talon Singko,TERESA PARK,,17000.0,DO 4-2021,village,Teresa Park,100
+Talon Singko,ROYAL SOUTH SUBDIVISION,,15000.0,DO 4-2021,village,Royal South Village,100
+Talon Singko,DOÑA LEONCIA SUBDIVISION,,14000.0,DO 4-2021,village,Doña Leoncia Subdivision,100
+Talon Singko,HAMILTON HEIGHTS,,14000.0,DO 4-2021,village,Hamilton Heights,100
+Talon Singko,MIKESELL SUBDIVISION,,14000.0,DO 4-2021,village,Mikesell Subdivision,100
+Talon Singko,SOLDIER'S HILLS II\SOLDIERS HILLS SUBD.,,14000.0,DO 4-2021,village,Soldiers Hills 2,95
+Talon Singko,CHRISTIANVILLE (SUBD./CHRISTIAN VILLAGE),,12000.0,DO 4-2021,village,Christian Womens' Village,95
+Talon Singko,DEL NOR SUBDIVISION,,12000.0,DO 4-2021,village,Delnor Subdivision,100
+Talon Singko,GOLDEN ACRES SUBDIVISION,,12000.0,DO 4-2021,village,Golden Acres Subdivision,100
+Talon Singko,ST SCHOLASTICA SUBDIVISION,,12000.0,DO 4-2021,village,Saint Scholastica Subdivision,95
+Talon Singko,CHRIST THE KING SUBDIVISION,,10000.0,DO 4-2021,village,Christ the King,100
+Talon Singko,VILLA PANGARAP (A Low Cost Housing Area),,10000.0,DO 4-2021,village,Villa Pangarap,100
+Talon Tres,ALL OTHER STREETS,,9000.0,DO 4-2021,background,,0
+Talon Tres,CARTAGENA,,25000.0,DO 4-2021,street,Cartagena Street,97
+Talon Tres,PALACE ST.,,25000.0,DO 4-2021,street,Palace Street,100
+Talon Tres,RIO DE JANERO ST,,25000.0,DO 4-2021,street,Rio de Janeiro Street,96.96969696969697
+Talon Tres,ROTTERDAM ST.,,25000.0,DO 4-2021,street,Rotterdam Street,100
+Talon Tres,SEVILLE ST.,,25000.0,DO 4-2021,street,Seville Street,100
+Talon Tres,STUTTGART ST.,,25000.0,DO 4-2021,street,Stuttgart Street,100
+Talon Tres,GUIJO ST.,,21000.0,DO 4-2021,street,Guijo Street,100
+Talon Tres,IPIL ST.,,21000.0,DO 4-2021,street,Ipil Street,100
+Talon Tres,MOLAVE ST.,,21000.0,DO 4-2021,street,Molave Street,100
+Talon Tres,NARRA ST.,,21000.0,DO 4-2021,street,Narra Street,100
+Talon Tres,YAKAL ST.,,21000.0,DO 4-2021,street,Yakal Street,100
+Talon Tres,GEORGIA ST.,,19000.0,DO 4-2021,street,Georgia,97
+Talon Tres,MONARCH ST.,,19000.0,DO 4-2021,street,Monarch,97
+Talon Tres,AQUAMARINE ST.,,17000.0,DO 4-2021,street,Aquamarine,97
+Talon Tres,DIAMOND ST.,,17000.0,DO 4-2021,street,Diamond,97
+Talon Tres,EMERALD ST.,,17000.0,DO 4-2021,street,Emerald,97
+Talon Tres,TOPAZ ST.,,17000.0,DO 4-2021,street,Topaz,97
+Talon Tres,ARIES ST.,,14000.0,DO 4-2021,street,Aries Street,100
+Talon Tres,LEO ST.,,14000.0,DO 4-2021,street,Leo Street,100
+Talon Tres,5TH ST.,,14000.0,DO 4-2021,street,5th Street,100
+Talon Tres,6TH ST.,,14000.0,DO 4-2021,street,6th Street,100
+Talon Tres,8TH ST.,,14000.0,DO 4-2021,street,8th Street,100
+Talon Tres,9TH ST.,,14000.0,DO 4-2021,street,9th Street,100
+Talon Tres,10TH ST.,,14000.0,DO 4-2021,street,10th Street,100
+Talon Tres,11TH ST.,,14000.0,DO 4-2021,street,11th Street,100
+Talon Tres,15TH ST.,,14000.0,DO 4-2021,street,15th Street,100
+Talon Tres,19TH ST,,14000.0,DO 4-2021,street,19th Street,100
+Talon Tres,1ST ST.,,14000.0,DO 4-2021,street,1st Street,100
+Talon Tres,20TH ST.,,14000.0,DO 4-2021,street,20th Street,100
+Talon Tres,21ST ST.,,14000.0,DO 4-2021,street,21st Street,100
+Talon Tres,22ND ST.,,14000.0,DO 4-2021,street,22nd Street,100
+Talon Tres,CASIMIRO TOWNHOUSE ALTEA,,30000.0,DO 4-2021,unmatched,Casimiro Village (73),0
+Talon Tres,CASIMIRO TOWNHOUSE II,,27000.0,DO 4-2021,unmatched,Ramos Compound 2 (62),0
+Talon Tres,LAPAZ,,25000.0,DO 4-2021,unmatched,Emapalico Subdivision (43),0
+Talon Tres,STA FE,,25000.0,DO 4-2021,unmatched,Saint Louie Village (47),0
+Talon Tres,ADMIRAL PARK SUBDVISION,,21000.0,DO 4-2021,unmatched,Admiral Park (69),0
+Talon Tres,BF MARIPOSA(FORMER DONA PURISIMA VILLAGE),,19000.0,DO 4-2021,unmatched,BF Garden Homes Rio (58),0
+Talon Tres,RUBY ST.,,17000.0,DO 4-2021,unmatched,Paramount Village (31),0
+Talon Tres,TURQUOISE ST.,,17000.0,DO 4-2021,unmatched,Urbanville (42),0
+Talon Tres,CARMENCITA VILLAGE,,14000.0,DO 4-2021,unmatched,Talon Garden (55),0
+Talon Tres,SAN PEDRO ST.,,14000.0,DO 4-2021,unmatched,Saint Louie Village (50),0
+Talon Tres,STO. TOMAS ST.,,14000.0,DO 4-2021,unmatched,Top Man Village (67),0
+Talon Tres,CHARDALE HOMES,,14000.0,DO 4-2021,unmatched,Talon Garden (50),0
+Talon Tres,BAYANI SUBDIVISION,,12000.0,DO 4-2021,unmatched,Urbanville (50),0
+Talon Tres,RAMOS COMPOUND,,11000.0,DO 4-2021,unmatched,Paramount Village (62),0
+Talon Tres,ST. LOUIE VILLAGE,,11000.0,DO 4-2021,unmatched,Saint Louie Village (62),0
+Talon Tres,BAUTISTA COMPOUND,,10000.0,DO 4-2021,unmatched,Aristocrat Village (56),0
+Talon Tres,DELA CRUZ COMPOUND,GOLDEN GATE SUBDIVISION,10000.0,DO 4-2021,unmatched,Luzon (43),0
+Talon Tres,GONZALES COMPOUND,,10000.0,DO 4-2021,unmatched,Golden Gate Subdivision (56),0
+Talon Tres,SOUTHLAND ESTATE PH,GOLDEN GATE PORTION,35000.0,DO 4-2021,village,Southland Estate,100
+Talon Tres,AUBURN PLACE,,25000.0,DO 4-2021,village,Auburn Place Residences,95
+Talon Tres,BF HOMES GOLDEN GATE,,25000.0,DO 4-2021,village,Golden Gate Subdivision,88.0
+Talon Tres,CAMELLA TOWNHOMES CLASSIC,,25000.0,DO 4-2021,village,Camella Townhomes Classic,100
+Talon Tres,TOPMAN VILLAGE,,25000.0,DO 4-2021,village,Top Man Village,100
+Talon Tres,EMAPALICO HOMES,,17000.0,DO 4-2021,village,Emapalico Subdivision,100
+Talon Tres,RIO GARDEN HOMES(also Garden Homes Rio),POPE JOHN PAUL HOSPITAL,17000.0,DO 4-2021,village,BF Garden Homes Rio,95
+Talon Tres,ARISTOCRAT VILLAGE,,14000.0,DO 4-2021,village,Aristocrat Village,100
+Talon Tres,CENTERVILLE SUBDIVISION,,14000.0,DO 4-2021,village,Centerville Subdivision,100
+Talon Tres,PARAMOUNT VILLAGE,,14000.0,DO 4-2021,village,Paramount Village,100
+Talon Tres,PELAYO SUBDIVISION,,11000.0,DO 4-2021,village,Pelayo Village,100
+Talon Uno,ALL OTHER STREETS,,19000.0,DO 4-2021,background,,0
+Talon Uno,ALL OTHER VILLAGES/SUBDIVISIONS,,11000.0,DO 4-2021,background,,0
+Talon Uno,ALL OTHER TOWNHOMES,,11000.0,DO 4-2021,background,,0
+Talon Uno,TOPLAND AVENUE,,20000.0,DO 4-2021,street,Topland Avenue,100
+Talon Uno,E. RODRIGUEZ COMPOUND/JIMENEZ COMPOUND,,15000.0,DO 4-2021,street,Jimenez Avenue,97
+Talon Uno,COUNTRY WOODSROW TOWN HOMES,,40000.0,DO 4-2021,unmatched,Southland Estates Townhomes (46),0
+Talon Uno,ET HOMES GREYMARVILLE,,35000.0,DO 4-2021,unmatched,Veraville Homes (67),0
+Talon Uno,CRISMARCEL SUBDIVISION,,18000.0,DO 4-2021,unmatched,Christian Womens' Village (48),0
+Talon Uno,FESAN COURT,,18000.0,DO 4-2021,unmatched,Santa Rita Compound (57),0
+Talon Uno,TALON PROPER,,18000.0,DO 4-2021,unmatched,Talon Garden (67),0
+Talon Uno,CASIMIRO I C,,18000.0,DO 4-2021,unmatched,Camella Homes Classic (0),0
+Talon Uno,ARANDA COMPOUND,,15000.0,DO 4-2021,unmatched,Miranda Compound (77),0
+Talon Uno,GREYMARVILLE SUBDIVISION,,15000.0,DO 4-2021,unmatched,Veraville Homes (67),0
+Talon Uno,ST. MARY'S VILLAGE,,15000.0,DO 4-2021,unmatched,Pelayo Village (40),0
+Talon Uno,HOLY FAMILY 1-6,,13000.0,DO 4-2021,unmatched,Camella Homes Classic (0),0
+Talon Uno,MA. JUSTO COMPOUND,,12000.0,DO 4-2021,unmatched,Royal South Village (42),0
+Talon Uno,PILAR JIMENEZ BAUTISTA COMPOUND,,12000.0,DO 4-2021,unmatched,Christian Womens' Village (43),0
+Talon Uno,QUIJANO/SERAFICO COMPOUND,,12000.0,DO 4-2021,unmatched,Emapalico Subdivision (59),0
+Talon Uno,RAMIREZ COMPOUND,,12000.0,DO 4-2021,unmatched,Veraville Homes (50),0
+Talon Uno,RAMOS COMPOUND 2-6,,12000.0,DO 4-2021,unmatched,Camella Homes Classic (0),0
+Talon Uno,RAMOS-GONZALES COMPOUND 2,,12000.0,DO 4-2021,unmatched,Moonwalk Village Phase 2 (67),0
+Talon Uno,REYES COMPOUND,,12000.0,DO 4-2021,unmatched,Teresa Park (40),0
+Talon Uno,SAINT MARK'S VILLE HOMES,,12000.0,DO 4-2021,unmatched,Saint Michael Subdivision (62),0
+Talon Uno,TORRENO COMPOUND,,12000.0,DO 4-2021,unmatched,Talon Garden (53),0
+Talon Uno,WONDERLAND HOMES,,12000.0,DO 4-2021,unmatched,Miranda Compound (47),0
+Talon Uno,SOUTHLAND ESTATE TOWNHOMES,,35000.0,DO 4-2021,village,Southland Estates Townhomes,100
+Talon Uno,STA. RITA COMPOUND,,12000.0,DO 4-2021,village,Santa Rita Compound,88.88888888888889
+Talon Uno,TATANG EZEQUIEL COMPOUND,,12000.0,DO 4-2021,village,Tatang Exequiel Compound,93.33333333333333
+Zapote,ALL OTHER TOWNHOMES,,21000.0,DO 4-2021,background,,0
+Zapote,ALL OTHER STREETS,,11000.0,DO 4-2021,background,,0
+Zapote,ALL OTHER VILLAGES/SUBDIVISION,,9000.0,DO 4-2021,background,,0
+Zapote,F. SANTOS AVENUE,,15000.0,DO 4-2021,street,F. Santos Avenue,100
+Zapote,JOSEFINA COMPOUND (FORMERLY SANTOS HOMES JOSEFINA COMPOUND ),,15000.0,DO 4-2021,street,Josefina Street,97
+Zapote,CASIMIRO AVENUE,,12000.0,DO 4-2021,street,Casimiro Avenue,100
+Zapote,ZAPOTE PROPER,,60000.0,DO 4-2021,unmatched,Jeanette's Garden Subdivision (43),0
+Zapote,VISTA RIVA TOWNHOMES,,35000.0,DO 4-2021,unmatched,Vista Riva (69),0
+Zapote,E.A. HOMES (ALSO E.A. TOWNHOMES),,32000.0,DO 4-2021,unmatched,Casimiro Townhomes (71),0
+Zapote,PADRE DIEGO CERA AVENUE (Quirino Ave./ Real St. ),,25000.0,DO 4-2021,unmatched,Green Archers Compound (50),0
+Zapote,SANTOS HOMES I ZAPOTE,,16000.0,DO 4-2021,unmatched,Santos Homes Ⅰ (67),0
+Zapote,SANTOS VILLAGE,,15000.0,DO 4-2021,unmatched,San Isidro Village (53),0
+Zapote,FATIMA SUBDIVISION,,12000.0,DO 4-2021,unmatched,Balagtas Subdivision (46),0
+Zapote,CULASI compound,,10000.0,DO 4-2021,unmatched,San Isidro Village (38),0
+Zapote,INFINITE EXECUTIVE HOMES,,10000.0,DO 4-2021,unmatched,Veraville Belcrest (39),0
+Zapote,VILLA TEODORA HOMES,,10000.0,DO 4-2021,unmatched,Ecotrend Villas (67),0
+Zapote,ECOTREND VILLAS (TOWNHOMES),,32000.0,DO 4-2021,village,Ecotrend Villas,100
+Zapote,CASIMIRO TOWNHOMES,,25000.0,DO 4-2021,village,Casimiro Townhomes,100
+Zapote,RHONAVILLE TOWNHOMES,,22000.0,DO 4-2021,village,Rhonaville Townhomes,100

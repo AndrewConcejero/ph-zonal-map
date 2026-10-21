@@ -1,0 +1,536 @@
+barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+Addition Hills,ALL OTHER STREETS,,40000.0,DO 59-2022,background,,0
+Addition Hills,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Addition Hills,PILAR,SHAW BLVD-ARAULLO,75000.0,DO 59-2022,segment,Pilar Street,97
+Addition Hills,SCHUYLER,A.MABINI-IDEAL,65000.0,DO 59-2022,segment,Schuyler Street,97
+Addition Hills,BALAGTAS,SHAW BLVD-ARAULLO,60000.0,DO 59-2022,segment,Balagtas Street,97
+Addition Hills,GOMEZVILLE,SHAW BLVD-ARAULLO,60000.0,DO 59-2022,segment,Gomezville Street,97
+Addition Hills,TINIO,PILAR-TORRES,60000.0,DO 59-2022,segment,Tinio Street,97
+Addition Hills,TORRES,SHAW BLVD-ARAULLO,60000.0,DO 59-2022,segment,Torres Street,97
+Addition Hills,FABELLA ROAD,F. ORTIGAS-F. MARTINEZ,43000.0,DO 59-2022,segment,Fabella Road,100
+Addition Hills,SHAW BLVD,LEE-MAYTUNAS CREEK,120000.0,DO 59-2022,street,Shaw Boulevard,100
+Addition Hills,WACK-WACK ST,WACK-WACK-DEAD END,90000.0,DO 59-2022,street,Wack-Wack Street,100
+Addition Hills,CALDERON,SHAW BLVD-WACK WACK CREEK,68000.0,DO 59-2022,street,Calderon Street,97
+Addition Hills,IDEAL,SHAW BLVD-WACKWACK CREEK-SCHUYLER BOUNDARY,65000.0,DO 59-2022,street,Ideal Street,97
+Addition Hills,GRACE,E. RODRIGUEZ-MAY,60000.0,DO 59-2022,street,Grace Street,97
+Addition Hills,MARTINEZ A. (ACACIA LANE),SHAW BLVD-FREEDOM PARK,60000.0,DO 59-2022,street,Acacia Lane,100
+Addition Hills,ANTONIO I,LUNA MENCIAS - DEAD END (INTERIOR),58000.0,DO 59-2022,street,Antonio Ⅰ Street,97
+Addition Hills,ARAULLO,A.MABINI - MAYTUNAS CREEK,58000.0,DO 59-2022,street,Araullo Street,97
+Addition Hills,GUERRERO,BALAGTAS-MAYTUNAS CREEK,58000.0,DO 59-2022,street,Guerrero Street,97
+Addition Hills,GOLDPARK TOWNHOMES,A. MABINI,70000.0,DO 59-2022,unmatched,Mahogany Townhomes (65),0
+Addition Hills,IDEAL TOWNHOMES,IDEAL SUBD.,70000.0,DO 59-2022,unmatched,Sunrise Townhomes (73),0
+Addition Hills,MABINI A.,SHAW BLVD-WACK WACK,68000.0,DO 59-2022,unmatched,Classica Manor (45),0
+Addition Hills,PILAR TOWNHOMES,CALDERON,68000.0,DO 59-2022,unmatched,Sunrise Townhomes (67),0
+Addition Hills,EAST,WACK-WACK- LAUREL-DEAD END,65000.0,DO 59-2022,unmatched,Vista Shaw (43),0
+Addition Hills,LEE,CALDERON-WACK WACK CREEK-SHAW BLVD,65000.0,DO 59-2022,unmatched,Lee Gardens (46),0
+Addition Hills,MAY,INT MAY-GRACE-DEAD END,65000.0,DO 59-2022,unmatched,VM Townhouse (40),0
+Addition Hills,MCCULLOUGH,A.MABINI - S. LAUREL,65000.0,DO 59-2022,unmatched,Wack Wack Heights (31),0
+Addition Hills,RODRIGUEZ,WACK-WACK-IDEAL,65000.0,DO 59-2022,unmatched,One Dover View (43),0
+Addition Hills,422-A GOMEZVILLE SUITES,GOMEZVILLE,63000.0,DO 59-2022,unmatched,The Paladium (0),0
+Addition Hills,FERNANDEZ S. (FORMERLY REYES),LUNA MENCIAS-INT FERNANDEZ-AUROLLO,60000.0,DO 59-2022,unmatched,Bernardo (53),0
+Addition Hills,JOHNSTON,INT JOHNSTON-CITY BOUNDARY,58000.0,DO 59-2022,unmatched,Sunrise Townhomes (42),0
+Addition Hills,J.R. YULO,IDEAL-INT J.R. YULO,58000.0,DO 59-2022,unmatched,Lee Gardens (33),0
+Addition Hills,MARTINEZ F. (NEW C-3 ROAD),NUEVE DE PEBRERO-DR JOSE FABELLA RD,48000.0,DO 59-2022,unmatched,Fortune Hill (45),0
+Addition Hills,1st STREET,ACACIA LANE - DEAD END,43000.0,DO 59-2022,unmatched,Clairmont Townhomes 1 (17),0
+Addition Hills,FABELLA ROAD DR. JOSE,F. ORTIGAS-F. MARTINEZ,43000.0,DO 59-2022,unmatched,Bernardo (40),0
+Addition Hills,MARTINEZ F. (NEW C-3 ROAD),INTERIOR ADDITION HILLS BROOKSIDE,43000.0,DO 59-2022,unmatched,Fortune Hill (45),0
+Addition Hills,ORTIGAS JR. F,A. MARTINEZ-DR. JOSE FABELLA ROAD,43000.0,DO 59-2022,unmatched,Fortune Hill (43),0
+Addition Hills,WACK-WACK TOWNHOMES,LEE ST.,85000.0,DO 59-2022,village,Wack Wack Gardenville Townhomes,95
+Addition Hills,WACK WACK GARDENVILLE TOWNHOMES,S. LAUREL ST.,80000.0,DO 59-2022,village,Wack Wack Gardenville Townhomes,100
+Addition Hills,LAUREL S.,SHAW BLVD-J.R. YULO,73000.0,DO 59-2022,village,Laurel Townhouse,85.71428571428572
+Addition Hills,LUNA MENCIAS,SHAW BLVD-ARAULLO,70000.0,DO 59-2022,village,Luna Mencias Townhomes,95
+Bagong Silang,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Bagong Silang,ALL OTHER STREETS,,28000.0,DO 59-2022,background,,0
+Bagong Silang,PINAGTIPUNAN,SHAW BLVD - 29 DE AGOSTO,38000.0,DO 59-2022,segment,Pinagtipunan Street,97
+Bagong Silang,SHAW BLVD,A. V. FABELLA - M. YULO,120000.0,DO 59-2022,street,Shaw Boulevard,100
+Bagong Silang,SHAW BLVD,INT ACACIA-YULO,120000.0,DO 59-2022,street,Shaw Boulevard,100
+Bagong Silang,LAWSON,SHAW BLVD - HAIG,45000.0,DO 59-2022,street,Lawson Street,97
+Bagong Silang,29 DE AGOSTO,SHAW BLVD-SEN. NEPTALI GONZALES,34000.0,DO 59-2022,street,29 de Agosto Street,97
+Bagong Silang,VARGAS J. B.,SHAW BLVD-CITY BOUNDARY-MAYTUNAS CREEK,67000.0,DO 59-2022,unmatched,Bernardo (35),0
+Bagong Silang,YULO M.,SHAW BLVD-C MAYTUNAS CREEK,67000.0,DO 59-2022,unmatched,Ochoa Apartments (29),0
+Bagong Silang,ROWLAND,J. B. VARGAS - END,58000.0,DO 59-2022,unmatched,Bernardo (40),0
+Bagong Silang,MAGALONA E.,P MARTINEZ-MAYTUNAS CREEK,42000.0,DO 59-2022,unmatched,San Juan Executive Townhouse (36),0
+Bagong Silang,MARTINEZ P.,A. V. FABELLA- PINAGTIPUNAN,42000.0,DO 59-2022,unmatched,Ochoa Apartments (40),0
+Bagong Silang,HAIG,MAGALONA-LAWSON,41000.0,DO 59-2022,unmatched,Ochoa Apartments (21),0
+Bagong Silang,CLEMENTE,SHAW BLVD - END,34000.0,DO 59-2022,unmatched,Lyric Residences (43),0
+Bagong Silang,FABELLA A.V.,SHAW BLVD-SEN. NEPTALI GONZALES,34000.0,DO 59-2022,unmatched,Bernardo (0),0
+Bagong Silang,LUNA J.,SHAW BLVD-PINAGTIPUNAN,32000.0,DO 59-2022,unmatched,San Juan Executive Townhouse (33),0
+Bagong Silang,QUIETA P.,J. LUNA-SEN. NEPTALI GONZALES,32000.0,DO 59-2022,unmatched,Ochoa Apartments (35),0
+Bagong Silang,JACINTO E,SHAW BLVD - END,29000.0,DO 59-2022,unmatched,San Juan Executive Townhouse (37),0
+Bagong Silang,SEN. NEPTALI GONZALES ST (Formerly: Daang Bakal),A. LUNA -29 DE AGOSTO,29000.0,DO 59-2022,unmatched,San Juan Executive Townhouse (43),0
+Barangka Drive,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Barangka Drive,ALL OTHER STREETS,,27000.0,DO 59-2022,background,,0
+Barangka Drive,HILAGA,GUINHAWA ST. -AGUDO ST.,32000.0,DO 59-2022,segment,Hilaga Street,97
+Barangka Drive,KAYUMANGGI,GUINHAWA ST. -AGUDO ST.,32000.0,DO 59-2022,segment,Kayumanggi Street,97
+Barangka Drive,BARANGKA DRIVE,SGT. BUMATAY - HALCON ST.,44000.0,DO 59-2022,street,Barangka Drive,100
+Barangka Drive,BUSILAK,SGT. BUMATAY-KAYUMANGGI,42000.0,DO 59-2022,street,Busilak Street,97
+Barangka Drive,TIMOG,DEAD END-BUSILAK-AGUDO,42000.0,DO 59-2022,street,Timog Street,97
+Barangka Drive,DAMA DE NOCHE,AYALA HOMES,40000.0,DO 59-2022,street,Dama de Noche Street,97
+Barangka Drive,SAMPAGUITA,AYALA HOMES,40000.0,DO 59-2022,street,Sampaguita Street,97
+Barangka Drive,CAMIA,AYALA HOMES,40000.0,DO 59-2022,street,Camia Street,97
+Barangka Drive,ILANG-ILANG,AYALA HOMES,40000.0,DO 59-2022,street,Ilang-Ilang Street,97
+Barangka Drive,GUMAMELA,AYALA HOMES,40000.0,DO 59-2022,street,Gumamela Street,97
+Barangka Drive,TANGLAW,SIKAP ST. -HALCON ST.,33000.0,DO 59-2022,street,Tanglaw Street,97
+Barangka Drive,HALCON,TANGLAW ST.,32000.0,DO 59-2022,street,Halcon Street,97
+Barangka Drive,HINAHON,AGUDO ST.,32000.0,DO 59-2022,street,Hinahon Street,97
+Barangka Drive,AGUDO,SILANGAN ST. - KAYUMANGGI ST.,29000.0,DO 59-2022,street,Agudo Street,97
+Barangka Drive,KAPALARAN,TIMOG ST. -HALCON ST.,29000.0,DO 59-2022,street,Kapalaran Street,97
+Barangka Drive,SILANGAN,AGUDO ST.,29000.0,DO 59-2022,street,Silangan Street,97
+Barangka Drive,CHANTILLY VILLAS TOWNHOMES,BUSILAK ST.,58000.0,DO 59-2022,unmatched,Chantilly Villas (77),0
+Barangka Drive,SGT. BUMATAY,BARANGKA DRIVE-TIAGA,44000.0,DO 59-2022,unmatched,Countryside (36),0
+Barangka Drive,JASMIN,AYALA HOMES,40000.0,DO 59-2022,unmatched,Plainview Subdivision (40),0
+Barangka Drive,GUINHAWA,HILAGA ST. - TANGLAW,32000.0,DO 59-2022,unmatched,Plainview Subdivision (35),0
+Barangka Drive,MA CLARA,AGUDO ST.,32000.0,DO 59-2022,unmatched,Ayala Homes (46),0
+Barangka Ibaba,ALL OTHER STREETS,,20000.0,DO 59-2022,background,,0
+Barangka Ibaba,BARANGKA DRIVE,E. PANTALEON-TIMOG,35000.0,DO 59-2022,segment,Barangka Drive,100
+Barangka Ibaba,KAPALARAN,TIMOG-HILAGA,25000.0,DO 59-2022,segment,Kapalaran Street,97
+Barangka Ibaba,HILAGA,AGUDO- BARANCA DRIVE,29000.0,DO 59-2022,street,Hilaga Street,97
+Barangka Ibaba,HINAHON,AGUDO,29000.0,DO 59-2022,street,Hinahon Street,97
+Barangka Ibaba,SACREPANTE,IRID-AGUDO-RTU GATE,27000.0,DO 59-2022,street,Sacrepante Street,97
+Barangka Ibaba,P OLIVEROS,INTERIOR - ROAD I & II(CORONADO SUBD.),26000.0,DO 59-2022,street,P. Oliveros Street,97
+Barangka Ibaba,AGUDO,IRID - SACREPANTE - END,25000.0,DO 59-2022,street,Agudo Street,97
+Barangka Ibaba,P OLIVEROS,E. PANTALEON,25000.0,DO 59-2022,street,P. Oliveros Street,97
+Barangka Ibaba,SILANGAN,E. PANTALEON-BARANCA DRIVE,25000.0,DO 59-2022,street,Silangan Street,97
+Barangka Ibaba,TIMOG,E. PANTALEON-BARANCA DRIVE,25000.0,DO 59-2022,street,Timog Street,97
+Barangka Ibaba,DEDICAS,P. OLIVEROS - BARANGAY HALL,21000.0,DO 59-2022,street,Dedicas Street,97
+Barangka Ibaba,E PANTALEON,ALONG P. OLIVEROS,21000.0,DO 59-2022,street,E. Pantaleon Street,97
+Barangka Ibaba,PVT P. CRUZ,COUNTRY SIDE - SILANGAN,28000.0,DO 59-2022,unmatched,Acqua Private Residences (36),0
+Barangka Ibaba,IRID,SACREPANTE-AGUDO,25000.0,DO 59-2022,unmatched,Countryside (40),0
+Barangka Ibaba,PNR ROAD (now MRR TRACK),E. PANTALEON - P. CRUZ,25000.0,DO 59-2022,unmatched,One Premiere Place (45),0
+Barangka Ibaba,COUNTRYSIDE SUBD,AGUDO - P CRUZ,32000.0,DO 59-2022,village,Countryside,100
+Barangka Ibaba,CORONADO (HEIGHTS) SUBD,BARANGAY HALL - DEDICAS,23000.0,DO 59-2022,village,Coronado Heights Subdivision,95
+Barangka Ilaya,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Barangka Ilaya,ALL OTHER STREETS,,32000.0,DO 59-2022,background,,0
+Barangka Ilaya,MADISON,EDSA - PIONEER,63000.0,DO 59-2022,segment,Madison Street,97
+Barangka Ilaya,LIONS ROAD,BONI AVE - PINATUBO,40000.0,DO 59-2022,segment,Lion's Road,94.11764705882352
+Barangka Ilaya,BONI AVENUE,EDSA -M.R.VICENTE(FORMERLY DANSALAN ST),91000.0,DO 59-2022,street,Boni Avenue,100
+Barangka Ilaya,MAYON,EDSA - PINATUBO,45000.0,DO 59-2022,street,Mayon Street,97
+Barangka Ilaya,PINATUBO,BONI-LIONS ROAD-PINATUBO EXT,45000.0,DO 59-2022,street,Pinatubo Street,97
+Barangka Ilaya,BATAAN,BONI AVE-SAN ROQUE,35000.0,DO 59-2022,street,Bataan Street,97
+Barangka Ilaya,M.R. VICENTE ST. (FORMERLY DANSALAN),BONI AVE-SAN ROQUE-PALALI,35000.0,DO 59-2022,street,M. Vicente Street,92.3076923076923
+Barangka Ilaya,SAN ROQUE,BONI AVE-M.R. VICENTE,35000.0,DO 59-2022,street,San Roque Street,97
+Barangka Ilaya,APO,EDSA-LION'S ROAD-PINATUBO,45000.0,DO 59-2022,unmatched,GA Towers (36),0
+Barangka Itaas,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Barangka Itaas,ALL OTHER STREETS,,22000.0,DO 59-2022,background,,0
+Barangka Itaas,PALALI,MALAPANTAO-WAYAN,25000.0,DO 59-2022,segment,Palali Street,97
+Barangka Itaas,ALCHAN,PALALI-SIMEON CRUZ,23000.0,DO 59-2022,segment,Alchan Street,97
+Barangka Itaas,DEDICAS,P. OLIVEROS - J. SALINGA,23000.0,DO 59-2022,segment,Dedicas Street,97
+Barangka Itaas,WAYAN,P. VICTORINO-PALALI,23000.0,DO 59-2022,segment,Wayan Street,97
+Barangka Itaas,BONI AVENUE,SACREPANTE - M.R. VICENTE (DANSALAN),78000.0,DO 59-2022,street,Boni Avenue,100
+Barangka Itaas,MALAPANTAO,M.R. VICENTE - WAYAN,28000.0,DO 59-2022,street,Malapantao Street,97
+Barangka Itaas,SACREPANTE,BONI AVE - IRID,27000.0,DO 59-2022,street,Sacrepante Street,97
+Barangka Itaas,NATIB,PALALI TO END,25000.0,DO 59-2022,street,Natib Street,97
+Barangka Itaas,LIMAY,M.R. VICENTE TO END,24000.0,DO 59-2022,street,Limay Street,97
+Barangka Itaas,PANTALEON E.,ALCHAN - P. OLIVEROS,40000.0,DO 59-2022,unmatched,Villas de Guadalupe (41),0
+Barangka Itaas,MALIBATO,J. SALINGA-PNR (MRR TRUCK),26000.0,DO 59-2022,unmatched,Villas de Guadalupe (31),0
+Barangka Itaas,OLIVEROS P.,E. PANTALEON- J. SALINGA,25000.0,DO 59-2022,unmatched,Coronado Heights Subdivision (33),0
+Barangka Itaas,SANTOS E.,P. VICTORINO - ESCALON ST.,25000.0,DO 59-2022,unmatched,San Francisco Gardens (44),0
+Barangka Itaas,JOSE C. SALINGA (formerly KAPOK ST.),E. PANTALEON-MAKATURING,23000.0,DO 59-2022,unmatched,Dansalan Gardens Condominiums (44),0
+Barangka Itaas,VICTORINO P.,WAYAN - S. CRUZ,23000.0,DO 59-2022,unmatched,Coronado Heights Subdivision (46),0
+Barangka Itaas,M.R. VICENTE (formerly DANSALAN),BONI AVE - MALAPANTAO,35000.0,DO 59-2022,village,Dansalan Gardens Condominiums,95
+Barangka Itaas,MAKATURING,M.R. VICENTE - J. SALINGA,28000.0,DO 59-2022,village,New Makaturing Housing Project,95
+Buayang Bato,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Buayang Bato,ALL OTHER STREETS,,26000.0,DO 59-2022,background,,0
+Buayang Bato,SHERIDAN,ALONG PASIG RIVER,28000.0,DO 59-2022,village,Sheridan Towers,95
+Burol,ALL OTHER STREETS,,25000.0,DO 59-2022,background,,0
+Burol,LUNA A.,A.T. REYES - PAG-ASA,26000.0,DO 59-2022,unmatched,Tuesday Manor Condo (32),0
+Burol,REYES A T,PAG-ASA - A. LUNA,26000.0,DO 59-2022,unmatched,Tuesday Manor Condo (37),0
+Burol,PAG-ASA (Formerly Harapin Ang Bukas),A.T. REYES - A. LUNA,26000.0,DO 59-2022,village,Pag-asa Townhomes,95
+Daang Bakal,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Daang Bakal,ALL OTHER STREETS,,25000.0,DO 59-2022,background,,0
+Daang Bakal,NEW PANADEROS EXT (FORMERLY GEN KALENTONG),SEN. NEPTALI GONZALES - ROMUALDEZ,40000.0,DO 59-2022,street,General Kalentong Street,97
+Daang Bakal,GEN KALENTONG,ROMUALDEZ-MAYTUNAS CREEK,40000.0,DO 59-2022,street,General Kalentong Street,97
+Daang Bakal,FELMAN'S PLACE,GEN. KALENTONG,55000.0,DO 59-2022,unmatched,Ochoa Apartments (37),0
+Daang Bakal,OVATION REALTY TOWNHOUSE,HAIG ST.,55000.0,DO 59-2022,unmatched,Ochoa Apartments (36),0
+Daang Bakal,MARTINEZ P.,NEW PANADEROS EXT. - J. FABELLA ST.,48000.0,DO 59-2022,unmatched,Ochoa Apartments (40),0
+Daang Bakal,LANDVILLE TOWNHOUSE,ROMUALDEZ ST.,48000.0,DO 59-2022,unmatched,Gomega Condominiums (30),0
+Daang Bakal,FAR EAST TOWNHOUSE,ROMUALDEZ ST.,46000.0,DO 59-2022,unmatched,Pag-asa Townhomes (42),0
+Daang Bakal,MAGALONA E.,SHAW BLVD. - HAIG,38000.0,DO 59-2022,unmatched,Pag-asa Townhomes (46),0
+Daang Bakal,ROMUALDEZ N.,MAGALONA - HAIG,38000.0,DO 59-2022,unmatched,Gomega Condominiums (34),0
+Daang Bakal,TIOSEJO JR,SHAW BLVD. - P. MARTINEZ,38000.0,DO 59-2022,unmatched,Lyric Residences (32),0
+Daang Bakal,HAIG,SHAW BLVD. - E. MAGALONA,32000.0,DO 59-2022,unmatched,Ochoa Apartments (21),0
+Daang Bakal,BERNARDO F.,SHAW BLVD - END,30000.0,DO 59-2022,unmatched,Gomega Condominiums (29),0
+Daang Bakal,SEN. NEPTALI A. GONZALES,NEW PANADEROS EXT.-A. LUNA,26000.0,DO 59-2022,unmatched,Pag-asa Townhomes (43),0
+Hagdang Bato Itaas,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Hagdang Bato Itaas,ALL OTHER STREETS,,30000.0,DO 59-2022,background,,0
+Hagdang Bato Itaas,A. LUNA,P. GOMEZ- SEN. NEPTALI A. GONZALES ST.,31000.0,DO 59-2022,street,A. Luna Street,97
+Hagdang Bato Itaas,P. LOPEZ VILLAS,P. LOPEZ,70000.0,DO 59-2022,unmatched,"Coast Guard Weapons, Electronics and Information System Service Command (23)",0
+Hagdang Bato Itaas,T. BERNARDO TOWNHOMES,T. BERNARDO,64000.0,DO 59-2022,unmatched,Hagdang Bato Townhomes (65),0
+Hagdang Bato Itaas,ZAPPYS TOWNHOMES,P. GOMEZ,52000.0,DO 59-2022,unmatched,Hagdang Bato Townhomes (57),0
+Hagdang Bato Itaas,ORTIGAS F.,T.BERNARDO-SEN. NEPTALI A. GONZALES ST.,34000.0,DO 59-2022,unmatched,Bernardo (25),0
+Hagdang Bato Itaas,BONIFACIO A.,A. LUNA - SENATOR NEPTALI A. GONZALES ST.,31000.0,DO 59-2022,unmatched,Bernardo (42),0
+Hagdang Bato Itaas,BURGOS,P.GOMEZ - A. BONIFACIO,31000.0,DO 59-2022,unmatched,Bernardo (46),0
+Hagdang Bato Itaas,GOMEZ P.,A.LUNA - I LOPEZ ST.,31000.0,DO 59-2022,unmatched,Hagdang Bato Townhomes (29),0
+Hagdang Bato Itaas,GONZAGA M. (formerly 4 DE JULIO),A. BONIFACIO - END,31000.0,DO 59-2022,unmatched,Hagdang Bato Townhomes (40),0
+Hagdang Bato Itaas,LOPEZ I,T. BERNARDO - END,31000.0,DO 59-2022,unmatched,Block 34 (0),0
+Hagdang Bato Itaas,M DELOS SANTOS,,31000.0,DO 59-2022,unmatched,Hagdang Bato Townhomes (36),0
+Hagdang Bato Itaas,SANCHEZ C.F.,PADRE BURGOS ST- A. BONIFACIO,31000.0,DO 59-2022,unmatched,Hagdang Bato Townhomes (31),0
+Hagdang Bato Itaas,SEN. NEPTALI GONZALES,A. LUNA - F. ORTIGAS,31000.0,DO 59-2022,unmatched,Hagdang Bato Townhomes (35),0
+Hagdang Bato Itaas,HAGDANG BATO TOWNHOMES,HAGDANG BATO ITAAS,46000.0,DO 59-2022,village,Hagdang Bato Townhomes,100
+Hagdang Bato Itaas,BERNARDO,I. LOPEZ - F. ORTIGAS,34000.0,DO 59-2022,village,Bernardo,100
+Hagdang Bato Libis,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Hagdang Bato Libis,ALL OTHER STREETS,,28000.0,DO 59-2022,background,,0
+Hagdang Bato Libis,29 DE AGOSTO,SHAW BLVD - PINAGTIPUNAN,35000.0,DO 59-2022,segment,29 de Agosto Street,97
+Hagdang Bato Libis,ANO 96,L.GONZALES - PINAGTIPUNAN,35000.0,DO 59-2022,segment,Año '96 Street,97
+Hagdang Bato Libis,PINAGTIPUNAN,29 DE AGOSTO - ACACIA LANE,35000.0,DO 59-2022,segment,Pinagtipunan Street,97
+Hagdang Bato Libis,SHAW BLVD,M. YULO-MAYUNTAS CREEK,120000.0,DO 59-2022,street,Shaw Boulevard,100
+Hagdang Bato Libis,ACACIA LANE,SHAW BLVD - 1ST ST,65000.0,DO 59-2022,street,Acacia Lane,100
+Hagdang Bato Libis,ARAULLO,SHAW BLVD- MAYTUNAS CREEK,38000.0,DO 59-2022,street,Araullo Street,97
+Hagdang Bato Libis,GUERRERO,SHAW BLVD - MAYTUNAS CREEK,36000.0,DO 59-2022,street,Guerrero Street,97
+Hagdang Bato Libis,CLAIRMONT TOWNHOMES,ACACIA LANE,72000.0,DO 59-2022,unmatched,Hagdang Bato Townhomes (62),0
+Hagdang Bato Libis,VICENCIO R.,SHAW BLVD - PINAGTIPUNAN,47000.0,DO 59-2022,unmatched,Hoover Residences (46),0
+Hagdang Bato Libis,BONIFACIO A.,SHAW BLVD - SEN. NEPTALI GONZALES,38000.0,DO 59-2022,unmatched,Bernardo (42),0
+Hagdang Bato Libis,AQUINO R.,H. POBLADOR - SEN. NEPTALI A. GONZALES,36000.0,DO 59-2022,unmatched,San Juan Executive Townhouse (31),0
+Hagdang Bato Libis,CRUZ L.,SHAW BLVD - MAYTUNAS CREEK,36000.0,DO 59-2022,unmatched,Charisse Villes (40),0
+Hagdang Bato Libis,GONZALEZ L.,SHAW BLVD - PINAGTIPUNAN,36000.0,DO 59-2022,unmatched,Charisse Villes (33),0
+Hagdang Bato Libis,ORTIGAS JR. F,ACACIA LANE - SEN. NEPTALI A. GONZALES,36000.0,DO 59-2022,unmatched,Bernardo (32),0
+Hagdang Bato Libis,POBLADOR N,ACACIA LANE-PINAGTIPUNAN,36000.0,DO 59-2022,unmatched,Bernardo (44),0
+Hagdang Bato Libis,SEN. NEPTALI GONZALES,F. ORTIGAS EXT.- 29 DE AGOSTO,36000.0,DO 59-2022,unmatched,San Juan Executive Townhouse (43),0
+Hagdang Bato Libis,YULO M.,SHAW BLVD - CREEK,30000.0,DO 59-2022,unmatched,Hagdang Bato Townhomes (22),0
+Harapin Ang Bukas,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Harapin Ang Bukas,ALL OTHER STREETS,,21000.0,DO 59-2022,background,,0
+Harapin Ang Bukas,A LUNA ST,SEN NEPTALI GONZALES - PAG-ASA,28000.0,DO 59-2022,street,A. Luna Street,100
+Harapin Ang Bukas,EVANGELISTA,INTERIOR STREET GOING TO BRGY. PAG-ASA,28000.0,DO 59-2022,street,Evangelista Street,97
+Harapin Ang Bukas,NEW PANADEROS EXT.,SEN NEPTALI GONZALES - PAG-ASA,45000.0,DO 59-2022,unmatched,Pag-asa Townhomes (31),0
+Harapin Ang Bukas,SEN. NEPTALI GONZALES ST (Frmrly Daang Bakal),A.T. REYES - A. LUNA,28000.0,DO 59-2022,unmatched,Pag-asa Townhomes (41),0
+Harapin Ang Bukas,REYES A.T.,PAG-ASA - REYES INTERIOR,25000.0,DO 59-2022,unmatched,Pag-asa Townhomes (33),0
+Harapin Ang Bukas,VASQUEZ M 1 & 2,PAG-ASA ST. - DAANG BAKAL,22000.0,DO 59-2022,unmatched,Pag-asa Townhomes (0),0
+Harapin Ang Bukas,V. FABELLA ST,BETWEEN AGLIPAY & FATIMA CHURCHES,22000.0,DO 59-2022,unmatched,Pag-asa Townhomes (0),0
+Harapin Ang Bukas,PAG-ASA TOWNHOMES,PAG-ASA (NEAR ST. DOMINIC SAVIO CHURCH),55000.0,DO 59-2022,village,Pag-asa Townhomes,100
+Harapin Ang Bukas,PAG-ASA (HARAPIN ANG BUKAS),GEN KALENTONG - A. LUNA ST.,28000.0,DO 59-2022,village,Pag-asa Townhomes,95
+Highway Hills,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,50000.0,DO 59-2022,background,,0
+Highway Hills,ALL OTHER STREETS,,34000.0,DO 59-2022,background,,0
+Highway Hills,SAMAT,SHAW BLVD-CALBAYOG,60000.0,DO 59-2022,segment,Samat Street,97
+Highway Hills,OLD WACK-WACK ROAD,NUEVE DE PEBRERO-SHAW BLVD,50000.0,DO 59-2022,segment,Old Wack Wack Road,100
+Highway Hills,LOPEZ RIZAL,JOSE FERNANDEZ-SAMAT,44000.0,DO 59-2022,segment,Lopez Rizal Street,97
+Highway Hills,SULTAN,EDSA - MARIVELES,40000.0,DO 59-2022,segment,Sultan Street,97
+Highway Hills,ARAYAT,BULUSAN - EDSA,39000.0,DO 59-2022,segment,Arayat Street,97
+Highway Hills,MALINAO,SIERRA MADRE-CALBAYOG,39000.0,DO 59-2022,segment,Malinao Street,97
+Highway Hills,BANAHAW,SAMAT-MARIVELES,38000.0,DO 59-2022,segment,Banahaw Street,97
+Highway Hills,CORDILLERA,ARAYAT-SIERRA MADRE,38000.0,DO 59-2022,segment,Cordillera Street,97
+Highway Hills,SAMAT,CALBAYOG-J FERNANDEZ,60000.0,DO 59-2022,street,Samat Street,97
+Highway Hills,MARIVELES,SIERRA MADRE-KANLAUN,41000.0,DO 59-2022,street,Mariveles Street,97
+Highway Hills,KANLAON,DM GUEVARRA-SIERRA MADRE,40000.0,DO 59-2022,street,Kanlaon Street,97
+Highway Hills,LIKO ST,,40000.0,DO 59-2022,street,Liko Street,100
+Highway Hills,ONG AI GUI (formerly QUEENS ROAD),SAMAT - END,40000.0,DO 59-2022,street,Ong Ai Gui Street,97
+Highway Hills,CALBAYOG,DOMINGO M. GUEVARRA-DR JOSE FERNANDEZ,39000.0,DO 59-2022,street,Calbayog Street,97
+Highway Hills,KINGS ROAD,COR SAMAT PARALLEL TO SHAW BLVD,39000.0,DO 59-2022,street,King's Road,94.11764705882352
+Highway Hills,SINAG,D.M. GUEVARRA-DR J. FERNANDEZ,35000.0,DO 59-2022,street,Sinag Street,97
+Highway Hills,MAGARA TOWNHOMES,SIERRA MADRE/ESTEBAN,53000.0,DO 59-2022,unmatched,RSS Townhomes (74),0
+Highway Hills,J. FERNANDEZ TOWNHOMES,J. FERNANDEZ ST.,52000.0,DO 59-2022,unmatched,RSS Townhomes (62),0
+Highway Hills,SIERRA MADRE N EASTSIDE,DOMINGO M. GUEVARRA-SULTAN,50000.0,DO 59-2022,unmatched,Sierra Heights Place (57),0
+Highway Hills,SIERRA MADRE N WEST SIDE,DOMINGO M. GUEVARRA-ARAYAT,50000.0,DO 59-2022,unmatched,Kai Garden Residences (55),0
+Highway Hills,RSG TOWNHOMES 1,CALBAYOG - LIBERTAD,50000.0,DO 59-2022,unmatched,Pioneer Heights I (47),0
+Highway Hills,ESTEBAN,MOLINAO-SIERRA MADRE,48000.0,DO 59-2022,unmatched,Zitan (50),0
+Highway Hills,ROAD I,ARAYAT-CORDILLERA,48000.0,DO 59-2022,unmatched,Pioneer Heights I (12),0
+Highway Hills,ROAD II,ROAD I-CORDILLERA,48000.0,DO 59-2022,unmatched,Gueventville II (13),0
+Highway Hills,DM GUEVARRA (FORMERLY LIBERTAD),EDSA-CALBAYOG EXIT,42000.0,DO 59-2022,unmatched,Zitan (46),0
+Highway Hills,FERNANDEZ J,NUEVE DE PEBRERO-MARIVELES,38000.0,DO 59-2022,unmatched,The St. Francis Towers (43),0
+Highway Hills,SILAY,MARIVELES - J. FERNANDEZ,35000.0,DO 59-2022,unmatched,Kapitolyo (43),0
+Highway Hills,PALLADIUM SUBD,ALONG SHAW BLVD,78000.0,DO 59-2022,village,The Paladium,94.11764705882352
+Hulo,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Hulo,ALL OTHER STREETS,,27000.0,DO 59-2022,background,,0
+Hulo,TIMOG,INT. - BGY BOUNDARY,33000.0,DO 59-2022,street,Timog Street,97
+Hulo,SAN FRANCISCO,CORONADO - SEN. NEPTALI GONZALES,29000.0,DO 59-2022,street,San Francisco Avenue,97
+Hulo,CHUAQUICO,E. PANTALEON - PRIVATE RD,28000.0,DO 59-2022,street,Chuaquico Street,97
+Hulo,CORONADO,SANIBOY ST. - END,28000.0,DO 59-2022,street,Coronado Street,97
+Hulo,KASIPAGAN,INT. - BGY BOUNDARY,28000.0,DO 59-2022,street,Kasipagan Street,97
+Hulo,MATAMIS,SGT.F. SANTOS - END,28000.0,DO 59-2022,street,Matamis Street,97
+Hulo,PRIVATE ROAD,REV. AGLIPAY G. - END,28000.0,DO 59-2022,street,Private Road,100
+Hulo,REV. AGLIPAY G. (Formerly F. Blumentritt),CORONADO - BRGY BOUNDARY,28000.0,DO 59-2022,street,F. Blumentritt Street,97
+Hulo,SAN JOSE,E. PANTALEON - HULO BLISS TOWNHOMES,28000.0,DO 59-2022,street,San Jose Street,97
+Hulo,SANIBOY,CORONADO - F. BLUMENTRITT,28000.0,DO 59-2022,street,Saniboy Street,97
+Hulo,SGT. BUMATAY,INT. - BGY BOUNDARY,33000.0,DO 59-2022,unmatched,Buenaventure Garden Homes (40),0
+Hulo,PANTALEON E.,CORONADO - PRIVATE ROAD,29000.0,DO 59-2022,unmatched,Buenaventure Garden Homes (47),0
+Hulo,GRIARTE,CORONADO - PRIVATE ROAD,28000.0,DO 59-2022,unmatched,Rizal Village (50),0
+Hulo,NEPTALI GONZALES (Frmrly. Daang Bakal),BGY. BOUNDARY - TIYAGA,28000.0,DO 59-2022,unmatched,Tivoli Garden Residences (47),0
+Hulo,SGT. F. SANTOS,CORONADO - SAN JOSE,28000.0,DO 59-2022,unmatched,Citihomes Apartments (34),0
+Hulo,HULO BLISS TOWNHOMES,CORONADO,47000.0,DO 59-2022,village,Hulo Bliss Townhomes,100
+Mabini-J. Rizal,ALL OTHER CONDOMINIUMS/TOWNHOUSES,,45000.0,DO 59-2022,background,,0
+Mabini-J. Rizal,ALL OTHER STREETS,,19000.0,DO 59-2022,background,,0
+Mabini-J. Rizal,PANANALIG,VILLARICA - NANIRAHAN,27000.0,DO 59-2022,segment,Pananalig Street,97
+Mabini-J. Rizal,VILLARICA ST,A. MABINI - J.P. RIZAL,26000.0,DO 59-2022,segment,Villarica Street,100
+Mabini-J. Rizal,MARTINEZ,A. MABINI - F. ROXAS,26000.0,DO 59-2022,street,Martinez Street,97
+Mabini-J. Rizal,NANIRAHAN,BUHANGIN CREEK-VILLARICA - END,26000.0,DO 59-2022,street,Nanirahan Street,97
+Mabini-J. Rizal,CASTANEDA,F. ROXAS - A. MABINI,24000.0,DO 59-2022,street,Castañeda Street,97
+Mabini-J. Rizal,MENDOZA,F ROXAS-A. MABINI,20000.0,DO 59-2022,street,Mendoza Street,97
+Mabini-J. Rizal,RIZAL J.P.,A. MABINI - ACROPOLIS SUBD.,33000.0,DO 59-2022,unmatched,Dreamland Subdivision (33),0
+Mabini-J. Rizal,ROXAS F.,MENDOZA - BUHANGIN CREEK,26000.0,DO 59-2022,unmatched,Eurovilla Towhomes (35),0
+Mabini-J. Rizal,MABINI A.,J.P. RIZAL - BUHANGIN CREEK,26000.0,DO 59-2022,unmatched,Dreamland Subdivision (47),0
+Mabini-J. Rizal,FRANCISCO V.,F. ROXAS - END,25000.0,DO 59-2022,unmatched,Sunny Ridge Residences (0),0
+Mabini-J. Rizal,ABELLA'S COMPOUND,J.P. RIZAL,24000.0,DO 59-2022,unmatched,Bellamaja Townhouse (67),0
+Mabini-J. Rizal,ACROPOLIS SUBDIVISION,J.P. RIZAL,48000.0,DO 59-2022,village,Acropolis,100
+Malamig,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Malamig,ALL OTHER STREETS,,30000.0,DO 59-2022,background,,0
+Malamig,BONI AVENUE,EDSA - PINATUBO,80000.0,DO 59-2022,segment,Boni Avenue,100
+Malamig,BARANGKA DRIVE,HALCON - DR. JOSE FABELLA RD,41000.0,DO 59-2022,segment,Barangka Drive,100
+Malamig,SIERRA MADRE,ARAYAT-PINATUBO,40000.0,DO 59-2022,segment,Sierra Madre Street,97
+Malamig,CORDILLERA,ARAYAT - PINATUBO,38000.0,DO 59-2022,segment,Cordillera Street,97
+Malamig,SULATAN,BARANGKA DRIVE-HALCON,36000.0,DO 59-2022,segment,Sulatan Street,97
+Malamig,BULUSAN,ARAYAT - MAKILING,32000.0,DO 59-2022,segment,Bulusan Street,97
+Malamig,CAMIGUIN,BARANGKA DRIVE-TABAYOG,31000.0,DO 59-2022,segment,Camiguin Street,97
+Malamig,MAKILING,PULOG - MAYON,31000.0,DO 59-2022,segment,Makiling Street,97
+Malamig,TALAYAN,BARANGKA DRIVE-HALCON,31000.0,DO 59-2022,segment,Talayan Street,97
+Malamig,BONI AVENUE,PINATUBO - DANSALAN,90000.0,DO 59-2022,street,Boni Avenue,100
+Malamig,BONI AVENUE,BARANGKA DRIVE - DANSALAN,80000.0,DO 59-2022,street,Boni Avenue,100
+Malamig,MAYON,BONI - CORDILLERA,40000.0,DO 59-2022,street,Mayon Street,97
+Malamig,PINATUBO,EPIFANIO DE LOS SANTOS AVE- BONI AVE,40000.0,DO 59-2022,street,Pinatubo Street,97
+Malamig,ARAYAT,DR. JOSE FABELLA RD - SIERRA MADRE,37000.0,DO 59-2022,street,Arayat Street,97
+Malamig,BASILAN,TALAYAAN-BONI AVENUE,31000.0,DO 59-2022,street,Basilan Street,97
+Malamig,CRESTA,MAKILING,31000.0,DO 59-2022,street,Cresta Street,97
+Malamig,HALCON,BARANGKA DRIVE,31000.0,DO 59-2022,street,Halcon Street,97
+Malamig,PULOG,DANSALAN - BONI,31000.0,DO 59-2022,street,Pulog Street,97
+Malamig,TABAYOG,TALAYAAN-SULATAN,31000.0,DO 59-2022,street,Tabayog Street,97
+Malamig,TALUMPONG,DR. JOSE FABELLA RD - BASILAN,31000.0,DO 59-2022,street,Talumpong Street,97
+Malamig,LUNAS,PULOG - MAKILING,31000.0,DO 59-2022,unmatched,Pines Peak (31),0
+Malamig,M.R. VICENTE* (FORMERLY DANSALAN),ARAYAT-BONI AVENUE,37000.0,DO 59-2022,village,Dansalan Gardens Condominiums,95
+Mauway,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Mauway,ALL OTHER STREETS,,28000.0,DO 59-2022,background,,0
+Mauway,ANTIPOLO,MONTALBAN - BULUSAN ST.,44000.0,DO 59-2022,segment,Antipolo Street,97
+Mauway,PAETE,SAN JOSE - DR. J. FERNANDEZ AVE.,33000.0,DO 59-2022,segment,Paete Street,97
+Mauway,SAN JOSE,SINAG - AMARILLO,33000.0,DO 59-2022,segment,San Jose Street,97
+Mauway,MONTALBAN,ARAYAT ST. - BULUSAN ST.,32000.0,DO 59-2022,segment,Montalban Street,97
+Mauway,CALBAYOG,D. M. GUEVARA - ANTIPOLO ST.,38000.0,DO 59-2022,street,Calbayog Street,97
+Mauway,ARAYAT,D. M. GUEVARA - BULUSAN ST.,36000.0,DO 59-2022,street,Arayat Street,97
+Mauway,BULUSAN,D. M. GUEVARA - ARAYAT ST.,36000.0,DO 59-2022,street,Bulusan Street,97
+Mauway,DR. JOSE FABELLA RD,9 DE FEBRERO - BRGY. ADDITION HILLS,35000.0,DO 59-2022,street,Doctor Jose Fabella Road,90.0
+Mauway,AMARILLO,9 DE PEBRERO - DR. J. FERNANDEZ AVE.,34000.0,DO 59-2022,street,Amarillo Street,97
+Mauway,DR. J. FERNANDEZ AVE,9 DE FEBRERO - SINAG ST.,34000.0,DO 59-2022,street,Dr. Jose Fernandez Avenue,92.3076923076923
+Mauway,SINAG,DR. J. FERNANDEZ AVE. - D.M. GUEVARA,33000.0,DO 59-2022,street,Sinag Street,97
+Mauway,M. CRUZ,9 DE FEBRERO - CALBAYOG EXT.,29000.0,DO 59-2022,street,M. Cruz Street,97
+Mauway,D.M. GUEVARA (FORMERLY LIBERTAD),9 DE FEBRERO - SINAG ST.,45000.0,DO 59-2022,unmatched,The Paladium (38),0
+Mauway,9 DE FEBRERO,CORRECTIONAL RD. - DR. JOSE FABELLA RD.,37000.0,DO 59-2022,unmatched,Kai Garden Residences (0),0
+Namayan,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Namayan,ALL OTHER STREETS,,18000.0,DO 59-2022,background,,0
+Namayan,JUPITER,AFTER MERRYLAND,33000.0,DO 59-2022,street,Jupiter Street,97
+Namayan,SATURN,AFTER MERRYLAND,29000.0,DO 59-2022,street,Saturn Street,97
+Namayan,NEPTUNE,AFTER MERRYLAND,29000.0,DO 59-2022,street,Neptune Street,97
+Namayan,URANUS,AFTER MERRYLAND,29000.0,DO 59-2022,street,Uranus Street,97
+Namayan,WONDERLAND AVENUE,WONDERLAND TOWNHOMES,29000.0,DO 59-2022,street,Wonderland Avenue,100
+Namayan,SAMPAGUITA,ALONG J. RIZAL ST.,29000.0,DO 59-2022,street,Sampaguita Street,97
+Namayan,ORCHIDS,ALONG J. RIZAL ST.,29000.0,DO 59-2022,street,Orchids Street,97
+Namayan,SUNFLOWER,ALONG J. RIZAL ST.,29000.0,DO 59-2022,street,Sunflower Street,97
+Namayan,CIRCLE,WONDERLAND TOWNHOMES,27000.0,DO 59-2022,street,Circle Street,97
+Namayan,FIRST STREET,CASTAÑEDA,27000.0,DO 59-2022,street,First Street,100
+Namayan,SECOND STREET,CASTAÑEDA,27000.0,DO 59-2022,street,Second Street,100
+Namayan,THIRD STREET,CASTAÑEDA,27000.0,DO 59-2022,street,Third Street,100
+Namayan,FOURTH STREET,CASTAÑEDA,27000.0,DO 59-2022,street,Fourth Street,100
+Namayan,DONA BASILISA YANGCO,MERRYLAND,26000.0,DO 59-2022,street,Doña Basilisa Yangco Street,97
+Namayan,ALLEY 2,CASTAÑEDA,19000.0,DO 59-2022,street,Alley 2,100
+Namayan,ALLEY 3,CASTAÑEDA,19000.0,DO 59-2022,street,Alley 3,100
+Namayan,ALLEY 5,CASTAÑEDA,19000.0,DO 59-2022,street,Alley 5,100
+Namayan,ALLEY 6,CASTAÑEDA,19000.0,DO 59-2022,street,Alley 6,100
+Namayan,ALLEY 7,CASTAÑEDA,19000.0,DO 59-2022,street,Alley 7,100
+Namayan,ALLEY 8,CASTAÑEDA,19000.0,DO 59-2022,street,Alley 8,100
+Namayan,MARS,AFTER MERRYLAND,29000.0,DO 59-2022,unmatched,Acropolis (33),0
+Namayan,MERCURY,AFTER MERRYLAND,29000.0,DO 59-2022,unmatched,Merryland Village (62),0
+Namayan,VENUS,AFTER MERRYLAND,29000.0,DO 59-2022,unmatched,Dreamland Subdivision (31),0
+Namayan,YELLOWBELL,ALONG J. RIZAL ST.,29000.0,DO 59-2022,unmatched,Eurovilla Towhomes (44),0
+Namayan,J. RIZAL,SYTENGCO - RED CROSS,29000.0,DO 59-2022,unmatched,Dreamland Subdivision (38),0
+Namayan,FIFTH STREET,CASTAÑEDA,27000.0,DO 59-2022,unmatched,Citihub (50),0
+Namayan,J RIZAL (INTERIOR),ALONG J. RIZAL ST.,25000.0,DO 59-2022,unmatched,Citihub (40),0
+Namayan,CASTANEDA,DOÑA YANGCO E. S.,22000.0,DO 59-2022,unmatched,Dreamland Subdivision (44),0
+Namayan,ALLEY 1,CASTAÑEDA,19000.0,DO 59-2022,unmatched,Harbour Park Residences (0),0
+Namayan,ALLEY 4,CASTAÑEDA,19000.0,DO 59-2022,unmatched,Harbour Park Residences (0),0
+Namayan,MERRYLAND VILLAGE,ALONG J. RIZAL ST.,29000.0,DO 59-2022,village,Merryland Village,100
+New Zañiga,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+New Zañiga,ALL OTHER STREETS,,22000.0,DO 59-2022,background,,0
+New Zañiga,D DE LEON,I.LOPEZ ST.-P.LOPEZ,29000.0,DO 59-2022,segment,D. de Leon Street,97
+New Zañiga,BONI AVE,A. MARTINEZ - PRIMO CRUZ,50000.0,DO 59-2022,street,Boni Avenue,100
+New Zañiga,REMVILLE TOWNHOUSE,R. O. SANTOS,58000.0,DO 59-2022,unmatched,Zontaville (56),0
+New Zañiga,BALLESTEROS N,B. FRANCISCO-PRIMO CRUZ,31000.0,DO 59-2022,unmatched,Zontaville (36),0
+New Zañiga,BERNARDO T,I.LOPEZ ST.-F. ORTIGAS,31000.0,DO 59-2022,unmatched,Nando's Compound (53),0
+New Zañiga,FRANCISCO B,F. ORTIGAS-PRIMO CRUZ,31000.0,DO 59-2022,unmatched,Nando's Compound (38),0
+New Zañiga,ORTIGAS F,B. FRANCISCO-PRIMO CRUZ,30000.0,DO 59-2022,unmatched,Zontaville (33),0
+New Zañiga,SANTOS R.O.,I. LOPEZ - PRIMO CRUZ,30000.0,DO 59-2022,unmatched,Nando's Compound (43),0
+New Zañiga,CRUZ P,B. FRANCISO- F. ORTIGAS,29000.0,DO 59-2022,unmatched,Mandaluyong Aglipay Neighbourhood (15),0
+New Zañiga,LOPEZ I,T.BERNARDO-PRIMO CRUZ,29000.0,DO 59-2022,unmatched,Nando's Compound (0),0
+New Zañiga,LOPEZ P,I. LOPEZ - T. BERNARDO,29000.0,DO 59-2022,unmatched,Zontaville (24),0
+New Zañiga,MARTINEZ A,BONI AVENUE - I.LOPEZ,29000.0,DO 59-2022,unmatched,Hagdang Bato Townhomes (39),0
+New Zañiga,PEDRO G.,M. LERMA - B. FRANCISCO,29000.0,DO 59-2022,unmatched,Nando's Compound (33),0
+New Zañiga,POLICARPIO,I. LOPEZ - PRIMO CRUZ,29000.0,DO 59-2022,unmatched,Zontaville (30),0
+New Zañiga,CANTERAS G,M. LERMA - PRIMO CRUZ,25000.0,DO 59-2022,unmatched,Zontaville (32),0
+New Zañiga,CRUZ L,I. LOPEZ - P. LOPEZ,25000.0,DO 59-2022,unmatched,Zontaville (25),0
+New Zañiga,LERMA M,F. ORTIGAS - PRIMO CRUZ,25000.0,DO 59-2022,unmatched,Bellamaja Townhouse (38),0
+New Zañiga,LUNA A,ALONG F. ROXAS,25000.0,DO 59-2022,unmatched,Bellamaja Townhouse (40),0
+New Zañiga,REYES E,LERMA - B. FRANCISCO,25000.0,DO 59-2022,unmatched,Mahogany Townhomes (26),0
+New Zañiga,TAMAYO B,I. LOPEZ -P. LOPEZ,25000.0,DO 59-2022,unmatched,Bellamaja Townhouse (47),0
+New Zañiga,ALVARAN,I. LOPEZ - P. LOPEZ,23000.0,DO 59-2022,unmatched,Bellamaja Townhouse (38),0
+Old Zañiga,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Old Zañiga,ALL OTHER STREETS,,23000.0,DO 59-2022,background,,0
+Old Zañiga,BALLESTEROS,M. LERMA - B. FRANCISCO,29000.0,DO 59-2022,segment,Ballesteros Street,97
+Old Zañiga,REV. AGLIPAY G. (Formerly F. Blumentritt),P. CRUZ - M. LEYVA,33000.0,DO 59-2022,street,F. Blumentritt Street,97
+Old Zañiga,CANTERAS,M. LERMA - P. CRUZ,29000.0,DO 59-2022,street,Canteras Street,97
+Old Zañiga,CRUZ P.,REV.AGLIPAY- B. FRANCISCO,29000.0,DO 59-2022,unmatched,Acropolis (43),0
+Old Zañiga,DELA CRUZ J,J. VICENCIO - CAPT. GABRIEL,29000.0,DO 59-2022,unmatched,Dreamland Subdivision (40),0
+Old Zañiga,HERNANDEZ T.,L. PARADA - P. CRUZ,29000.0,DO 59-2022,unmatched,Merryland Village (50),0
+Old Zañiga,LERMA M.,F. ORTIGAS - P. CRUZ,29000.0,DO 59-2022,unmatched,Dreamland Subdivision (38),0
+Old Zañiga,PARADA L.,REV. AGLIPAY - P. CRUZ,29000.0,DO 59-2022,unmatched,Bellamaja Townhouse (47),0
+Old Zañiga,PEDRO G.,M. LERMA - B. FRANCISCO,29000.0,DO 59-2022,unmatched,Nando's Compound (33),0
+Old Zañiga,REYES E.,M. LERMA - B. FRANCISCO,29000.0,DO 59-2022,unmatched,Merryland Village (40),0
+Old Zañiga,LEYVA M.,REV. AGLIPAY - BUHANGIN CREEK,28000.0,DO 59-2022,unmatched,Dreamland Subdivision (38),0
+Old Zañiga,CAPT. GABRIEL,REV. AGLIPAY G.- J. DELA CRUZ,26000.0,DO 59-2022,unmatched,Sunny Ridge Residences (30),0
+Old Zañiga,CAPT. MAGTOTO,REV. AGLIPAY G.- J. DELA CRUZ,26000.0,DO 59-2022,unmatched,Centennial Townhomes (39),0
+Old Zañiga,VICENCIO J.,REV. AGLIPAY - M. LERMA,24000.0,DO 59-2022,unmatched,Centennial Townhomes (34),0
+Old Zañiga,DE VENECIA C.,REV. AGLIPAY(DEAD END),24000.0,DO 59-2022,unmatched,Centennial Townhomes (39),0
+Old Zañiga,BELLAMAJA TOWNHOUSE,REV. AGLIPAY,46000.0,DO 59-2022,village,Bellamaja Townhouse,100
+Pag-asa,ALL OTHER STREETS,,27000.0,DO 59-2022,background,,0
+Pag-asa,MODESTA MATEO STREET,INOCENTES-A.T. REYES,28000.0,DO 59-2022,segment,Modesta Mateo Street,100
+Pag-asa,GEN KALENTONG,RT. REV. G. AGLIPAY-NEW PANADEROS EXT,53000.0,DO 59-2022,street,General Kalentong Street,97
+Pag-asa,NEW PANADEROS,BUHANGIN CREEK - PAG ASA,48000.0,DO 59-2022,unmatched,Tuesday Manor Condo (39),0
+Pag-asa,LUNA A,RT. REV. G. AGLIPAY-A.T. REYES,29000.0,DO 59-2022,unmatched,Tuesday Manor Condo (32),0
+Pag-asa,REV. AGLIPAY G. (Formerly F. Blumentritt),NEW PANADEROS EXT - A. LUNA,28000.0,DO 59-2022,unmatched,Pag-asa Townhomes (41),0
+Pag-asa,HARAPIN ANG BUKAS,NEW PANADEROS EXT.-A.T. REYES,28000.0,DO 59-2022,unmatched,Pag-asa Townhomes (31),0
+Pag-asa,HARAPIN ANG BUKAS,DON BOSCO - INOCENTES,28000.0,DO 59-2022,unmatched,Pag-asa Townhomes (31),0
+Pag-asa,INOCENTES STREET,GEN KALENTONG - A. LUNA,28000.0,DO 59-2022,unmatched,Tuesday Manor Condo (37),0
+Pag-asa,REYES AT,PAG-ASA-A.LUNA,28000.0,DO 59-2022,unmatched,Tuesday Manor Condo (31),0
+Pag-asa,ROXAS,RT. REV. G. AGLIPAY-BUHANGIN CREEK,28000.0,DO 59-2022,unmatched,Gomega Condominiums (18),0
+Pag-asa,PAG-ASA,NEW PANADEROS EXT.-A.T. REYES,28000.0,DO 59-2022,village,Pag-asa Townhomes,95
+Plainview,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Plainview,ALL OTHER STREETS,,28000.0,DO 59-2022,background,,0
+Plainview,SAN MARCELINO,SAN IGNACIO - SAN CARLOS,43000.0,DO 59-2022,segment,San Marcelino Street,97
+Plainview,BULALAKAW,KATARUNGAN - FLORANTE,40000.0,DO 59-2022,segment,Bulalakaw Street,97
+Plainview,SAN RAFAEL EXT.,SAN RAFAEL - SAN MIGUEL,35000.0,DO 59-2022,segment,San Rafael Street Extension,97
+Plainview,LIGAYA,BUENCONSEJO - BONI AVE,32000.0,DO 59-2022,segment,Ligaya Street,97
+Plainview,SANGGUMAY,F. MARTINEZ - MALAYA,32000.0,DO 59-2022,segment,Sanggumay Street,97
+Plainview,KAYUMANGGI,KATARUNGAN - GINHAWA,31000.0,DO 59-2022,segment,Kayumanggi Street,97
+Plainview,KISLAP,KATARUNGAN - BULALAKAW,31000.0,DO 59-2022,segment,Kislap Street,97
+Plainview,PAYAPA,TIYAGA - FLORANTE,31000.0,DO 59-2022,segment,Payapa Street,97
+Plainview,SAN CARLOS,SAN RAFAEL - SAN JOAQUIN,31000.0,DO 59-2022,segment,San Carlos Street,97
+Plainview,KASIPAGAN,TIYAGA - FLORANTE,30000.0,DO 59-2022,segment,Kasipagan Street,97
+Plainview,TANGLAW,BARANGKA DRIVE - KATARUNGAN,30000.0,DO 59-2022,segment,Tanglaw Street,97
+Plainview,BONI AVENUE,BARANGKA DRIVE - SEN. NEPTALI GONZALES,55000.0,DO 59-2022,street,Boni Avenue,100
+Plainview,MAYSILO CIRCLE,MANDALUYONG CITY HALL,55000.0,DO 59-2022,street,Maysilo Circle,100
+Plainview,MALAYA TOWNHOUSES,MALAYA,51000.0,DO 59-2022,street,Malaya Street,97
+Plainview,SAN IGNACIO,SAN RAFAEL-STO ROSARIO,44000.0,DO 59-2022,street,San Ignacio Street,97
+Plainview,SAN JOAQUIN,BONI AVE. - SAN IGNACIO - SAN RAFAEL,44000.0,DO 59-2022,street,San Joaquin Street,97
+Plainview,SAN PABLO,SAN JOAQUIN - STO ROSARIO,44000.0,DO 59-2022,street,San Pablo Street,97
+Plainview,BARANGKA DRIVE,TANGLAW-BONI AVE-DR FABELLA,42000.0,DO 59-2022,street,Barangka Drive,100
+Plainview,BUENCONSEJO,DR FABELLA-SIKAP,41000.0,DO 59-2022,street,Buenconsejo Street,97
+Plainview,SAN FRANCISCO,MAYSILO CIRCLE - SEN. NEPTALI GONZALES,41000.0,DO 59-2022,street,San Francisco Avenue,97
+Plainview,BUENVIAJE,SAN RAFAEL-SIKAP,40000.0,DO 59-2022,street,Buenviaje Street,97
+Plainview,DR. JOSE FABELLA RD,CAMIGUIN - SEN. NEPTALI A. GONZALES,40000.0,DO 59-2022,street,Doctor Jose Fabella Road,90.0
+Plainview,F. MARTINEZ AVE.,MAYSILO CIRCLE - DR FABELLA,40000.0,DO 59-2022,street,F. Martinez Avenue,100
+Plainview,FATIMA,STA LUCIA - STO. ROSARIO,39000.0,DO 59-2022,street,Fatima Street,97
+Plainview,KATARUNGAN,BULALAKAW - MARAI CLARA,39000.0,DO 59-2022,street,Katarungan Street,97
+Plainview,BUSILAK,TANGLAW - TIYAGA,37000.0,DO 59-2022,street,Busilak Street,97
+Plainview,MALAYA,ALIW - SIKAP - STO ROSARIO,37000.0,DO 59-2022,street,Malaya Street,97
+Plainview,SAN RAFAEL,BARANGKA DRIVE,37000.0,DO 59-2022,street,San Rafael Street,97
+Plainview,CELIA,SAN RAFAEL-DR FABELLA,33000.0,DO 59-2022,street,Celia Street,97
+Plainview,FLORANTE,SGT. BUMATAY - KALINISAN,32000.0,DO 59-2022,street,Florante Street,97
+Plainview,LOURDES,SAN RAFAEL,32000.0,DO 59-2022,street,Lourdes Street,97
+Plainview,MAHARLIKA,SIKAP - LIGAYA,32000.0,DO 59-2022,street,Maharlika Street,97
+Plainview,SAN PEDRO,SAN JOAQUIN - STO ROSARIO,32000.0,DO 59-2022,street,San Pedro Street,97
+Plainview,SAN RAFAEL,S CARLOS-S MIGUEL,32000.0,DO 59-2022,street,San Rafael Street,97
+Plainview,CONCEPCION,SAN RAFAEL,31000.0,DO 59-2022,street,Concepcion Street,97
+Plainview,LAURA,SGT. BUMATAY - FLORANTE,31000.0,DO 59-2022,street,Laura Street,97
+Plainview,KALINISAN,TIYAGA - FLORANTE - END,30000.0,DO 59-2022,street,Kalinisan Street,97
+Plainview,TIMOG,SGT. BUMATAY,30000.0,DO 59-2022,street,Timog Street,97
+Plainview,ORLANDO TOWNHOMES,BUENCONSEJO,70000.0,DO 59-2022,unmatched,Mahogany Townhomes (73),0
+Plainview,FLORANTE TOWNHOMES,FLORANTE,61000.0,DO 59-2022,unmatched,Mahogany Townhomes (71),0
+Plainview,BUMATAY SGT,MAYSILO CIRCLE-MA. CLARA - ROSAL,53000.0,DO 59-2022,unmatched,Mahogany Townhomes (43),0
+Plainview,RESIDENCIA LA VIDA,KATARUNGAN,52000.0,DO 59-2022,unmatched,Tivoli Garden Residences (63),0
+Plainview,ALIW,SAN RAFAEL-BONI AVENUE,34000.0,DO 59-2022,unmatched,Plainview Subdivision (46),0
+Plainview,STO ROSARIO,BONI AVE. - SAN PABLO,34000.0,DO 59-2022,unmatched,Suntrust Treetop Villas (36),0
+Plainview,STO ROSARIO,S PABLO - S MIGUEL,34000.0,DO 59-2022,unmatched,Suntrust Treetop Villas (36),0
+Plainview,MA CLARA,GINHAWA - SGT. BUMATAY,32000.0,DO 59-2022,unmatched,Ayala Homes (46),0
+Plainview,SIKAP,SAN RAFAEL - BONI AVE. - MARIA CLARA,32000.0,DO 59-2022,unmatched,Citihomes Apartments (26),0
+Plainview,SIKAP,TANGLAW-GUINHAWA (Same Values),32000.0,DO 59-2022,unmatched,Citihomes Apartments (26),0
+Plainview,STA ANA,STO NINO - SAN RAFAEL,32000.0,DO 59-2022,unmatched,Ayala Homes (50),0
+Plainview,STA LUCIA,STA ANA - FATIMA,32000.0,DO 59-2022,unmatched,Ayala Homes (43),0
+Plainview,DALISAY,SAN FRANCISCO,31000.0,DO 59-2022,unmatched,Ayala Homes (50),0
+Plainview,SAN ANTONIO,SAN RAFAEL - STO. NINO,31000.0,DO 59-2022,unmatched,Mahogany Townhomes (50),0
+Plainview,STO NINO,SAN JOAQUIN - STO ROSARIO,31000.0,DO 59-2022,unmatched,Tivoli Garden Residences (39),0
+Plainview,GUINHAWA,TANGLAW - HILAGA,30000.0,DO 59-2022,unmatched,Plainview Subdivision (35),0
+Plainview,TIAGA,SEN. NEPTALI GONZALES - SGT. BUMATAY,30000.0,DO 59-2022,unmatched,Ayala Homes (40),0
+Plainview,SAN MIGUEL,SAN RAFAEL - SAN IGNACIO,43000.0,DO 59-2022,village,San Miguel Condominium,95
+Pleasant Hills,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Pleasant Hills,ALL OTHER STREETS,,25000.0,DO 59-2022,background,,0
+Pleasant Hills,SHAW BLVD,9 DE FEBRERO - OLD WACK WACK RD,120000.0,DO 59-2022,street,Shaw Boulevard,100
+Pleasant Hills,OLD WACK-WACK ROAD,SHAW BLVD - 9 DE FEBRERO,72000.0,DO 59-2022,street,Old Wack Wack Road,100
+Pleasant Hills,PASCUAL R.,9 DE FEBRERO - END,73000.0,DO 59-2022,unmatched,The Paladium (35),0
+Pleasant Hills,PASCUAL R.,JAIME CARDNAL SIN - END,71000.0,DO 59-2022,unmatched,The Paladium (35),0
+Pleasant Hills,JAIME CARDINAL SIN (formerly RODRIGUEZ E),SHAW BLVD - 9 DE FEBRERO,64000.0,DO 59-2022,unmatched,Lee Gardens (43),0
+Pleasant Hills,PRINCEVILLE EXECUTIVE TOWNHOMES,S. LAUREL - PLEASANT HILLS,63000.0,DO 59-2022,unmatched,Princeville (54),0
+Pleasant Hills,9 DE FEBRERO,SHAW BLVD - F. MARTINEZ AVE.,58000.0,DO 59-2022,unmatched,The Paladium (0),0
+Pleasant Hills,LAUREL S.,SHAW BLVD - 9 DE FEBRERO,57000.0,DO 59-2022,unmatched,Lee Gardens (44),0
+Pleasant Hills,V M TOWNHOMES,9 DE FEBRERO - PLEASANT HILLS,56000.0,DO 59-2022,unmatched,The Paladium (0),0
+Pleasant Hills,CASTANEDA D. R.,9 DE FEBRERO - END,45000.0,DO 59-2022,unmatched,One Dover View (37),0
+Pleasant Hills,9 DE FEBRERO,OLD WACK-WACK RD - F. MARTINEZ AVE.,37000.0,DO 59-2022,unmatched,The Paladium (0),0
+Pleasant Hills,EVANGELISTA T.,9 DE FEBRERO - R. PASCUAL,35000.0,DO 59-2022,unmatched,Vista Shaw (52),0
+Pleasant Hills,DELA PAZ E.,9 DE FEBRERO - JAIME CARDNAL SIN,34000.0,DO 59-2022,unmatched,One Dover View (42),0
+Pleasant Hills,VICTORINO V.,JAIME CARDNAL SIN - C. FERNANDO,30000.0,DO 59-2022,unmatched,The Paladium (0),0
+Pleasant Hills,FERNANDO C.,9 DE FEBRERO - V. VICTORINO,26000.0,DO 59-2022,unmatched,One Dover View (33),0
+Poblacion,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Poblacion,ALL OTHER STREETS,,20000.0,DO 59-2022,background,,0
+Poblacion,BONI AVENUE,RT. REV. AGLIPAY- I. LOPEZ - F. ORTIGAS,55000.0,DO 59-2022,street,Boni Avenue,100
+Poblacion,PARAISO,STAR - BONI AVE.,22000.0,DO 59-2022,street,Paraiso Street,97
+Poblacion,"ORTIGAS JR., F.",BONI AVE (rightside) - M. LERMA EXT.,29000.0,DO 59-2022,unmatched,Tuesday Manor Condo (33),0
+Poblacion,REV. AGLIPAY G. (Formerly F. Blumentritt),A. LUNA-LEYVA ST.,28000.0,DO 59-2022,unmatched,Mandaluyong Aglipay Neighbourhood (48),0
+Poblacion,AT REYES,RT. REV. AGLIPAY-A. LUNA,22000.0,DO 59-2022,unmatched,Tuesday Manor Condo (31),0
+Poblacion,BURGOS P,STAR - P. GOMEZ,22000.0,DO 59-2022,unmatched,Tuesday Manor Condo (23),0
+Poblacion,GOMEZ P,A. LUNA (rightside) - I. LOPEZ,22000.0,DO 59-2022,unmatched,Centennial Townhomes (23),0
+Poblacion,LERMA M,CREEK(leftside) - SAN FELIPE CEMETERY,22000.0,DO 59-2022,unmatched,Bellamaja Townhouse (38),0
+Poblacion,LOPEZ I,P. GOMEZ (rightside) - MARTINEZ (rightside),22000.0,DO 59-2022,unmatched,Nando's Compound (0),0
+Poblacion,LUNA A.,REV. AGLIPAY - P. GOMEZ,22000.0,DO 59-2022,unmatched,Bellamaja Townhouse (40),0
+Poblacion,STAR,AT REYES - SATURDAY,22000.0,DO 59-2022,unmatched,Tuesday Manor Condo (26),0
+Poblacion,MARTINEZ A.,BONI AVE - I. LOPEZ,22000.0,DO 59-2022,unmatched,Tuesday Manor Condo (41),0
+Poblacion,SUNDAY CALLEJON,STAR - SATURDAY,21000.0,DO 59-2022,unmatched,Tuesday Manor Condo (47),0
+Poblacion,MONDAY CALLEJON,AT REYES - PARAISO,21000.0,DO 59-2022,unmatched,Tuesday Manor Condo (53),0
+Poblacion,TUESDAY CALLEJON,AT REYES - STAR,21000.0,DO 59-2022,unmatched,Tuesday Manor Condo (63),0
+Poblacion,WEDNESDAY CALLEJON,STAR - PARAISO,21000.0,DO 59-2022,unmatched,Tuesday Manor Condo (54),0
+Poblacion,THURSDAY CALLEJON,STAR - END,21000.0,DO 59-2022,unmatched,Tuesday Manor Condo (56),0
+Poblacion,FRIDAY CALLEJON,STAR - SATURDAY,21000.0,DO 59-2022,unmatched,Tuesday Manor Condo (47),0
+Poblacion,SATURDAY CALLEJON,"PARAISO ST., -P. GOMEZ",21000.0,DO 59-2022,unmatched,Tuesday Manor Condo (56),0
+San Jose,ALL OTHER STREETS,,24000.0,DO 59-2022,background,,0
+San Jose,CRUZ P.,F. BLUMENTRIT - F. ORTIGAS,28000.0,DO 59-2022,unmatched,Suntrust Treetop Villas (29),0
+San Jose,SEN. NEPTALI A. GONZALES,ALONG MRR ROAD,25000.0,DO 59-2022,unmatched,Zontaville (39),0
+Vergara,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,40000.0,DO 59-2022,background,,0
+Vergara,ALL OTHER STREETS,,23000.0,DO 59-2022,background,,0
+Vergara,CATACUTAN,G. ENRIQUEZ - J. RIZAL ST.,25000.0,DO 59-2022,segment,Catacutan Street,97
+Vergara,J. RIZAL,PASIG RIVER,31000.0,DO 59-2022,unmatched,Rizal Village (83),0
+Vergara,AGLIPAY G,ELINO CRUZ - HULO,26000.0,DO 59-2022,unmatched,Dreamland Subdivision (33),0
+Vergara,ELINO CRUZ,J. RIZAL ST. - R.T. REV. G. AGLIPAY,26000.0,DO 59-2022,unmatched,Dreamland Subdivision (42),0
+Vergara,ALCARAZ M,J. RIZAL ST. - END,25000.0,DO 59-2022,unmatched,Dreamland Subdivision (33),0
+Vergara,BILOG A,ELINO CRUZ - J. CATACUTAN,25000.0,DO 59-2022,unmatched,Rizal Village (33),0
+Vergara,DELA CRUZ C,ELINO CRUZ - J. CATACUTAN - END,25000.0,DO 59-2022,unmatched,Dreamland Subdivision (40),0
+Vergara,ENRIQUEZ G,ELINO CRUZ - END,25000.0,DO 59-2022,unmatched,Buenaventure Garden Homes (41),0
+Vergara,TRINIDAD I,ELINO CRUZ - END,25000.0,DO 59-2022,unmatched,Suntrust Treetop Villas (0),0
+Vergara,ELINO CRUZ INT.,ELINO CRUZ,24000.0,DO 59-2022,unmatched,Sunny Ridge Residences (40),0
+Vergara,J. RIZAL INTERIOR,J.P. RIZAL,24000.0,DO 59-2022,unmatched,Rizal Village (48),0
+Wack-wack Greenhills,ALL OTHER STREETS,,120000.0,DO 59-2022,background,,0
+Wack-wack Greenhills,ALL OTHER CONDOMINIUMS / TOWNHOUSES,,65000.0,DO 59-2022,background,,0
+Wack-wack Greenhills,CONNECTICUT,EDSA / ORTIGAS AVE.,147000.0,DO 59-2022,segment,Connecticut Street,97
+Wack-wack Greenhills,FLORIDA,EDSA - CONNECTICUT,147000.0,DO 59-2022,segment,Florida Street,97
+Wack-wack Greenhills,KANSAS,HOLY CROSS - COLUMBIA,147000.0,DO 59-2022,segment,Kansas Street,97
+Wack-wack Greenhills,LAFAYETTE,KANSAS - COLUMBIA,147000.0,DO 59-2022,segment,Lafayette Street,97
+Wack-wack Greenhills,MARYLAND,LA SALLE - HOLY CROSS,147000.0,DO 59-2022,segment,Maryland Street,97
+Wack-wack Greenhills,NORTHWESTERN,CONNECTICUT - LA SALLE,147000.0,DO 59-2022,segment,Northwestern Street,97
+Wack-wack Greenhills,ORTIGAS AVENUE,EDSA - CONNECTICUT,147000.0,DO 59-2022,segment,Ortigas Avenue,100
+Wack-wack Greenhills,BERKELEY,HARVARD - EDSA,147000.0,DO 59-2022,segment,Berkeley Street,97
+Wack-wack Greenhills,CORNELL,EDSA - HARVARD,147000.0,DO 59-2022,segment,Cornell Street,97
+Wack-wack Greenhills,CROMWELL,STANFORD - PRINCETON,147000.0,DO 59-2022,segment,Cromwell Street,97
+Wack-wack Greenhills,MAGNOLIA,WACK WACK RD - HARVARD,147000.0,DO 59-2022,segment,Magnolia Street,97
+Wack-wack Greenhills,NOTRE DAME,ORTIGAS AVE - HARVARD,147000.0,DO 59-2022,segment,Notre Dame Street,97
+Wack-wack Greenhills,WACK-WACK ROAD,SHAW BLVD - HARVARD,126000.0,DO 59-2022,segment,Wack-wack Road,100
+Wack-wack Greenhills,EDSA,CONNECTICUT - ORTIGAS AVE.,200000.0,DO 59-2022,street,EDSA,100
+Wack-wack Greenhills,ORTIGAS,CONNECTICUT - EDSA,150000.0,DO 59-2022,street,Ortigas,100
+Wack-wack Greenhills,BUFFALO,DUKE - MICHIGAN,147000.0,DO 59-2022,street,Buffalo Street,97
+Wack-wack Greenhills,COLGATE,MARYLAND - DUKE,147000.0,DO 59-2022,street,Colgate Street,97
+Wack-wack Greenhills,COLUMBIA,ORTIGAS - CONNECTICUT,147000.0,DO 59-2022,street,Columbia Street,97
+Wack-wack Greenhills,HOLY CROSS,ORTIGAS - DUKE,147000.0,DO 59-2022,street,Holy Cross Street,97
+Wack-wack Greenhills,LA SALLE,ORTIGAS - CONNECTICUT,147000.0,DO 59-2022,street,La Salle Street,97
+Wack-wack Greenhills,MICHIGAN,WYOMING - DUKE,147000.0,DO 59-2022,street,Michigan Street,97
+Wack-wack Greenhills,MISSOURI,DUKE - CONNECTICUT,147000.0,DO 59-2022,street,Missouri Street,97
+Wack-wack Greenhills,RICHMOND,WYOMING - DUKE,147000.0,DO 59-2022,street,Richmond Street,97
+Wack-wack Greenhills,ROCHESTER,HOLY CROSS - EDSA,147000.0,DO 59-2022,street,Rochester Street,97
+Wack-wack Greenhills,WYOMING,DUKE - LA SALLE,147000.0,DO 59-2022,street,Wyoming Street,97
+Wack-wack Greenhills,COLUMBIA,ORTIGAS AVE - HARVARD,147000.0,DO 59-2022,street,Columbia Street,97
+Wack-wack Greenhills,FORDHAM,HARVARD - END,147000.0,DO 59-2022,street,Fordham Street,97
+Wack-wack Greenhills,HARVARD,SHAW - NOTRE DAME,147000.0,DO 59-2022,street,Harvard Street,97
+Wack-wack Greenhills,PRINCETON,SHAW - WACK WACK CREEK,147000.0,DO 59-2022,street,Princeton Street,97
+Wack-wack Greenhills,STANFORD,SHAW - WACK WACK CREEK,147000.0,DO 59-2022,street,Stanford Street,97
+Wack-wack Greenhills,WACK-WACK ROAD,SHAW - HARVARD,147000.0,DO 59-2022,street,Wack-wack Road,100
+Wack-wack Greenhills,DUKE,NORTHWESTERN - COLUMBIA,147000.0,DO 59-2022,unmatched,Laurel Townhouse (40),0
+Wack-wack Greenhills,WINCONSIN,WYOMING - DUKE,147000.0,DO 59-2022,unmatched,Twin Oaks (56),0
+Wack-wack Greenhills,YALE,SHAW - STANFORD,147000.0,DO 59-2022,unmatched,Lee Gardens (43),0
