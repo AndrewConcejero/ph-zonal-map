@@ -5,7 +5,8 @@ Value sources, best first, per barangay:
      the latest DO covering the barangay; typical = median of its residential street values.
   2. The REN.PH-indexed CSVs in data/ (min and max only; typical = geometric mean).
   3. The city median (flag city_median).
-Staleness adjustment and gap filling plug in later; their fields are left out until they exist.
+Then (staleness.py) every value is also projected to today with its RDO's growth between revisions, and
+(gapfill.py) barangays with no value of their own take the median of their neighbours, flagged estimated.
 """
 import csv
 import json
@@ -17,6 +18,8 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from .bir_values import barangay_values, match_bir_names, write_matches, CityIndex
+from .gapfill import fill as gap_fill
+from .staleness import matched_pairs, project, rdo_rates, value_since, years_between
 from .fetch_boundaries import MANILA_PSGC, MANILA_SUBMUNS_2019, PROVDISTS, manila_path, municity_path, provdist_path
 from .match import load_aliases, match_city
 from .normalize import norm_barangay, norm_city
@@ -95,6 +98,18 @@ def load_fallback():
             n, lo, hi = line.strip().split(',')
             rows[('Metro Manila', 'pasay')].append((f'Barangay {n}', int(lo), int(hi)))
     return medians, rows
+
+
+def adjust(p: dict, rate, base_date: str, today: date) -> None:
+    """Add today's projected values (lo_a, hi_a, typ_a) and the growth rate used."""
+    if rate is None or rate.rate is None or not base_date:
+        return
+    for k in ('lo', 'hi', 'typ'):
+        p[f'{k}_a'] = round(project(p[k], base_date, rate.rate, today))
+    p['g'] = round(rate.rate, 4)
+    p['yrs'] = round(years_between(base_date, today.isoformat()), 1)  # projection horizon; long ones are rough
+    if rate.source != 'rdo':
+        p['gs'] = rate.source
 
 
 def resolve_blank_cities(rows: list[dict], index: dict) -> int:
@@ -237,6 +252,22 @@ def main() -> None:
                           'same_as_latest': latest.lo == lo and latest.hi == hi,
                           'same_as_do': any_rev.do_number if any_rev else ''})
 
+    # growth between revisions, per RDO, from like-for-like street pairs
+    today = date.today()
+    bmeta = {b['psgc']: b for b in bgys}
+    city_of = {p: b['city'] for p, b in bmeta.items()}
+    province_of_rdo = {vs[-1].rdo: bmeta[p]['prov'] for p, vs in bir_vals.items() if p in bmeta}
+    pairs = matched_pairs(bir_vals, city_of)
+    rates = rdo_rates(pairs, province_of_rdo)
+    write_csv(REVIEW / 'growth_by_rdo.csv', [
+        {'rdo': r.rdo, 'annual_rate': '' if r.rate is None else round(r.rate, 4), 'source': r.source,
+         'pairs': r.pairs, 'share_rising': round(r.share_up, 3), 'transitions': r.transitions, 'flags': r.flags}
+        for r in sorted(rates.values(), key=lambda r: r.rdo)])
+    rdo_of_city = defaultdict(Counter)
+    for p, vs in bir_vals.items():
+        if p in bmeta:
+            rdo_of_city[(bmeta[p]['prov'], bmeta[p]['city'])][vs[-1].rdo] += 1
+
     # city medians: from BIR barangay values where at least 3 barangays have them, else the CSV
     by_city_typ = defaultdict(list)
     city_eff = defaultdict(list)
@@ -264,12 +295,20 @@ def main() -> None:
             v = bir_vals[b['psgc']][-1]
             p.update(q='barangay_data', lo=round(v.lo), hi=round(v.hi), typ=round(v.typ), typ_m='median',
                      ns=v.n_streets, eff=v.effective_date, do=v.do_number, rdo=v.rdo, src='bir')
+            base = value_since(bir_vals[b['psgc']])
+            if base.do_number != v.do_number:
+                p['since'] = f'{base.do_number}, {base.effective_date}'  # values carried over unchanged
+            adjust(p, rates.get(v.rdo), base.effective_date, today)
         elif b['psgc'] in fallback:
             lo, hi = fallback[b['psgc']]
             p.update(q='barangay_data', lo=lo, hi=hi, typ=round(math.sqrt(lo * hi)), typ_m='geomean', src='renph')
             cm = medians_csv.get((b['prov'], norm_city(b['city'])))
             if cm and cm['eff']:
                 p['eff'] = cm['eff']
+                main_rdo = rdo_of_city[key].most_common(1)
+                if main_rdo:
+                    p['rdo'] = main_rdo[0][0]
+                    adjust(p, rates.get(main_rdo[0][0]), cm['eff'], today)
         elif key in city_median:
             med, eff, src = city_median[key]
             p.update(q='city_median', typ=med, src=src)
@@ -279,6 +318,18 @@ def main() -> None:
             p['q'] = 'no_data'
         feats.append({'type': 'Feature', 'properties': p,
                       'geometry': {'type': b['geometry']['type'], 'coordinates': rnd(b['geometry']['coordinates'])}})
+
+    # city-median areas: adjusted value is the median of the city's own adjusted barangay values
+    adj_by_city = defaultdict(list)
+    for f in feats:
+        p = f['properties']
+        if p['q'] == 'barangay_data' and p.get('typ_a'):
+            adj_by_city[(p['p'], p['c'])].append(p['typ_a'])
+    for f in feats:
+        p = f['properties']
+        if p['q'] == 'city_median' and len(adj_by_city[(p['p'], p['c'])]) >= 3:
+            p['typ_a'] = round(statistics.median(adj_by_city[(p['p'], p['c'])]))
+    n_estimated = gap_fill(feats)
 
     city_feats = [{'type': 'Feature', 'properties': {'id': c['psgc'], 'n': c['name'], 'p': c['prov']},
                    'geometry': {'type': c['geometry']['type'], 'coordinates': rnd(c['geometry']['coordinates'])}}
@@ -300,8 +351,12 @@ def main() -> None:
         'built_at': datetime.now(timezone.utc).isoformat(timespec='seconds'),
         'current_year': date.today().year,
         'value_basis': 'BIR residential zonal value (class RR, land), PHP per sqm',
-        'adjusted_available': False,
-        'adjusted_note': 'Staleness adjustment arrives in the next release.',
+        'adjusted_available': True,
+        'adjusted_to': today.isoformat(),
+        'adjusted_note': "Projected from each schedule's effectivity date with its RDO's median annual growth "
+                         'between consecutive revisions, measured on the same streets.',
+        'growth': {r.rdo: {'rate': None if r.rate is None else round(r.rate, 4), 'source': r.source, 'pairs': r.pairs}
+                   for r in sorted(rates.values(), key=lambda r: r.rdo)},
         'schedule_range': [effs[0], effs[-1]] if effs else None,
         'coverage': {'features': len(feats), 'by_flag': dict(flags),
                      'by_source': {f'{q}/{s}' if s else q: n for (q, s), n in srcs.items()},
@@ -342,6 +397,8 @@ def main() -> None:
     same = sum(c['same_as_latest'] for c in cross)
     some = sum(bool(c['same_as_do']) for c in cross)
     print(f'REN.PH vs BIR on {len(cross)} barangays: {same} equal latest DO, {some} equal some DO')
+    print(f'growth: {len(pairs):,} street pairs; RDO rates {min(r.rate for r in rates.values() if r.rate is not None):.1%}'
+          f' to {max(r.rate for r in rates.values() if r.rate is not None):.1%}; estimated barangays: {n_estimated}')
     print(f'zonal.geojson: {size:.1f} MB; city psgc issues: {len(psgc_issues)}; plausibility flags: {len(flagged)}; '
           f'unmatched names: {len(unmatched)}')
 

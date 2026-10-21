@@ -12,6 +12,7 @@ data: boundaries ## file raw/bir/_inbox, parse BIR schedules, rebuild public/dat
 	$(PY) -W ignore -m pipeline.inventory
 	$(PY) -W ignore -m pipeline.parse_bir
 	$(PY) -W ignore -m pipeline.build
+	$(PY) -m pipeline.report_staleness
 	$(PY) -m pipeline.og_image
 
 test:
