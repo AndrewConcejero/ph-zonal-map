@@ -7,10 +7,10 @@
    121.0998,
    14.785
   ],
-  "features": 887,
-  "placed": 919,
-  "priced": 1756,
-  "kb": 477
+  "features": 1853,
+  "placed": 1923,
+  "priced": 3735,
+  "kb": 1022
  },
  "Las Piñas": {
   "file": "las-piñas.geojson",
@@ -20,10 +20,10 @@
    121.0243,
    14.4875
   ],
-  "features": 265,
-  "placed": 271,
-  "priced": 507,
-  "kb": 184
+  "features": 325,
+  "placed": 331,
+  "priced": 603,
+  "kb": 251
  },
  "Makati": {
   "file": "makati.geojson",
@@ -33,10 +33,10 @@
    121.05,
    14.5792
   ],
-  "features": 539,
-  "placed": 543,
-  "priced": 682,
-  "kb": 302
+  "features": 920,
+  "placed": 934,
+  "priced": 1157,
+  "kb": 590
  },
  "Malabon": {
   "file": "malabon.geojson",
@@ -46,10 +46,10 @@
    121.0004,
    14.7027
   ],
-  "features": 308,
-  "placed": 353,
-  "priced": 593,
-  "kb": 173
+  "features": 420,
+  "placed": 470,
+  "priced": 769,
+  "kb": 250
  },
  "Mandaluyong": {
   "file": "mandaluyong.geojson",
@@ -59,10 +59,10 @@
    121.0599,
    14.6016
   ],
-  "features": 258,
-  "placed": 265,
-  "priced": 485,
-  "kb": 168
+  "features": 357,
+  "placed": 368,
+  "priced": 636,
+  "kb": 278
  },
  "Manila": {
   "file": "manila.geojson",
@@ -72,10 +72,10 @@
    121.0262,
    14.6398
   ],
-  "features": 3130,
-  "placed": 3137,
-  "priced": 4728,
-  "kb": 1594
+  "features": 6552,
+  "placed": 6568,
+  "priced": 9919,
+  "kb": 3524
  },
  "Marikina": {
   "file": "marikina.geojson",
@@ -85,10 +85,10 @@
    121.1349,
    14.6755
   ],
-  "features": 441,
-  "placed": 453,
-  "priced": 652,
-  "kb": 326
+  "features": 593,
+  "placed": 623,
+  "priced": 898,
+  "kb": 483
  },
  "Muntinlupa": {
   "file": "muntinlupa.geojson",
@@ -98,10 +98,10 @@
    121.058,
    14.4669
   ],
-  "features": 107,
-  "placed": 116,
-  "priced": 203,
-  "kb": 103
+  "features": 144,
+  "placed": 157,
+  "priced": 265,
+  "kb": 164
  },
  "Navotas": {
   "file": "navotas.geojson",
@@ -111,10 +111,10 @@
    120.9691,
    14.713
   ],
-  "features": 135,
-  "placed": 146,
-  "priced": 240,
-  "kb": 70
+  "features": 189,
+  "placed": 201,
+  "priced": 320,
+  "kb": 112
  },
  "Parañaque": {
   "file": "parañaque.geojson",
@@ -124,10 +124,10 @@
    121.0481,
    14.5327
   ],
-  "features": 297,
-  "placed": 304,
-  "priced": 491,
-  "kb": 237
+  "features": 432,
+  "placed": 443,
+  "priced": 710,
+  "kb": 390
  },
  "Pasay": {
   "file": "pasay.geojson",
@@ -137,10 +137,10 @@
    121.0353,
    14.5616
   ],
-  "features": 661,
-  "placed": 661,
-  "priced": 933,
-  "kb": 376
+  "features": 1328,
+  "placed": 1328,
+  "priced": 1863,
+  "kb": 779
  },
  "Pasig": {
   "file": "pasig.geojson",
@@ -150,10 +150,10 @@
    121.1105,
    14.624
   ],
-  "features": 425,
-  "placed": 441,
-  "priced": 827,
-  "kb": 309
+  "features": 625,
+  "placed": 649,
+  "priced": 1142,
+  "kb": 531
  },
  "Pateros": {
   "file": "pateros.geojson",
@@ -163,10 +163,10 @@
    121.0773,
    14.5514
   ],
-  "features": 56,
-  "placed": 56,
-  "priced": 105,
-  "kb": 35
+  "features": 112,
+  "placed": 112,
+  "priced": 210,
+  "kb": 71
  },
  "Quezon City": {
   "file": "quezon-city.geojson",
@@ -176,10 +176,10 @@
    121.1321,
    14.7776
   ],
-  "features": 2409,
-  "placed": 2449,
-  "priced": 3618,
-  "kb": 1611
+  "features": 3816,
+  "placed": 3870,
+  "priced": 5601,
+  "kb": 2859
  },
  "San Juan": {
   "file": "san-juan.geojson",
@@ -189,10 +189,10 @@
    121.0592,
    14.6135
   ],
-  "features": 260,
-  "placed": 264,
-  "priced": 353,
-  "kb": 156
+  "features": 324,
+  "placed": 329,
+  "priced": 430,
+  "kb": 225
  },
  "Taguig": {
   "file": "taguig.geojson",
@@ -202,10 +202,10 @@
    121.1038,
    14.5658
   ],
-  "features": 565,
-  "placed": 572,
-  "priced": 1470,
-  "kb": 329
+  "features": 1037,
+  "placed": 1155,
+  "priced": 2937,
+  "kb": 655
  },
  "Valenzuela": {
   "file": "valenzuela.geojson",
@@ -215,9 +215,9 @@
    121.0246,
    14.7571
   ],
-  "features": 542,
-  "placed": 557,
-  "priced": 967,
-  "kb": 365
+  "features": 1081,
+  "placed": 1110,
+  "priced": 1924,
+  "kb": 736
  }
 }

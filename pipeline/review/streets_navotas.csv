@@ -1,259 +1,356 @@
-barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
-Bagumbayan North,ALL OTHER STREETS,,10000.0,DO 46-2022,background,,0
-Bagumbayan North,M. NAVAL,C BAUZA ST to BRGY BOUNDARY,19500.0,DO 46-2022,street,M. Naval Street,97
-Bagumbayan North,P. CADORNIGA,C BAUZA to BRGY BOUNDARY,12000.0,DO 46-2022,street,P. Cadorniga Street,97
-Bagumbayan North,SAN MARCOS,C BAUZA to BRGY BOUNDARY,12000.0,DO 46-2022,street,San Marcos Street,97
-Bagumbayan North,DR C. BAUZA,M NAVAL - END,11000.0,DO 46-2022,street,C. Bauza Street,97
-Bagumbayan North,ALONG C-4 R0AD,NAVOTAS-MALABON RIVER to MLA BAY,19000.0,DO 46-2022,unmatched,Tanong Bliss Housing (0),0
-Bagumbayan North,H. IGNACIO,M. NAVAL-SAN MARCOS,11000.0,DO 46-2022,unmatched,Tanong Bliss Housing (34),0
-Bagumbayan South,ALL OTHER STREETS,,10500.0,DO 46-2022,background,,0
-Bagumbayan South,TAGANAHAN ST,M NAVAL - SAN MARCOS,14000.0,DO 46-2022,segment,Taganahan Street,100
-Bagumbayan South,DR C BAUZA ST,M NAVAL - SAN MARCOS,11000.0,DO 46-2022,segment,C. Bauza Street,97
-Bagumbayan South,TAGANAHAN ST,M NAVAL - MAL-NAV RIVER,21000.0,DO 46-2022,street,Taganahan Street,100
-Bagumbayan South,SAN MARCOS,TAGANAHAN ST - BAUZA,16500.0,DO 46-2022,street,San Marcos Street,97
-Bagumbayan South,M. NAVAL,TAGANAHAN ST - BAUZA,16000.0,DO 46-2022,street,M. Naval Street,97
-Bagumbayan South,TAGANAHAN ST,SAN MARCOS - MLA BAY,13000.0,DO 46-2022,street,Taganahan Street,100
-Bagumbayan South,DR C BAUZA ST,SAN MARCOS - MLA BAY,11000.0,DO 46-2022,street,C. Bauza Street,97
-Bagumbayan South,P CADORNIGA,TAGANAHAN ST - BAUZA,11000.0,DO 46-2022,street,P. Cadorniga Street,97
-Bangculasi,ALL OTHER STREETS,,9000.0,DO 46-2022,background,,0
-Bangculasi,ESPINA ST,ALPHA TO LACSON,9000.0,DO 46-2022,segment,Espina Street,100
-Bangculasi,JOSE ST. (DE GUZMAN),ALPHA TO LACSON,9000.0,DO 46-2022,segment,De Guzman Streets,97
-Bangculasi,M NAVAL,LACSON - TIOCO,18500.0,DO 46-2022,street,M. Naval Street,97
-Bangculasi,ALPHA,M NAVAL - GALICIA,11000.0,DO 46-2022,street,Alpha Street,97
-Bangculasi,LACSON,M NAVAL - END,11000.0,DO 46-2022,street,Lacson Street,97
-Bangculasi,SIOSON,LUNA TO ALPHA,11000.0,DO 46-2022,street,Sioson Street,97
-Bangculasi,SIOSON,ALPHA TO END,11000.0,DO 46-2022,street,Sioson Street,97
-Bangculasi,TECSON ST.,GALICIA - REYES,11000.0,DO 46-2022,street,Tecson Street,100
-Bangculasi,LUNA,M NAVAL - END,13500.0,DO 46-2022,unmatched,Luzon (67),0
-Bangculasi,TIOCO - LEAÑO,NAVAL - MALABON RIVER,11000.0,DO 46-2022,unmatched,Tanong Bliss Housing (32),0
-Bangculasi,CONSUELO ST,,9000.0,DO 46-2022,unmatched,Luzon (31),0
-Bangculasi,PESCADOR ST,,9000.0,DO 46-2022,unmatched,Tanong Bliss Housing (21),0
-Bangculasi,SAN LAZARO (REYES),ALPHA - TECSON,9000.0,DO 46-2022,unmatched,Luzon (53),0
-Bangculasi,SANTIAGO DE GALICIA,ALPHA - END,9000.0,DO 46-2022,unmatched,Tanong Bliss Housing (41),0
-Daanghari,ALL OTHER COMPOUNDS,,10000.0,DO 46-2022,background,,0
-Daanghari,ALL OTHER STREETS,(NEW),7500.0,DO 46-2022,background,,0
-Daanghari,E. ALONZO,DAANGHARI ST. - F PASCUAL,14000.0,DO 46-2022,segment,E. Alonzo Street,97
-Daanghari,J. ALONZO (CALLEJON),M. NAVAL - E. ALONZO,8500.0,DO 46-2022,segment,J. Alonzo Street,97
-Daanghari,M NAVAL,F PASCUAL - BRGY BDRY,15500.0,DO 46-2022,street,M. Naval Street,97
-Daanghari,DAANGHARI ST.,M NAVAL - G PASCUAL,9000.0,DO 46-2022,street,Daang Hari Street,96.0
-Daanghari,LOLA MARTA(RAJAH MATANDA),M NAVAL - END (RIVER),9000.0,DO 46-2022,street,Lola Marta Street,97
-Daanghari,RAJAH MAGAT SALAMAT,G. PASCUAL - E. ALONZO ST.,9000.0,DO 46-2022,street,Raja Magat Salamat Street,90.0
-Daanghari,DAANGHARI ST.,G PASCUAL - MLA BAY,8500.0,DO 46-2022,street,Daang Hari Street,96.0
-Daanghari,F. PASCUAL,M. NAVAL - G PASCUAL,8500.0,DO 46-2022,street,F. Pascual Street,97
-Daanghari,F. PASCUAL,GOV.PASCUAL- MANILA BAY,8500.0,DO 46-2022,street,F. Pascual Street,97
-Daanghari,J. ALONZO (CALLEJON),G PASCUAL-E. ALONZO,8500.0,DO 46-2022,street,J. Alonzo Street,97
-Daanghari,J. ALONZO,F PASCUAL - P. SOLIMAN,8500.0,DO 46-2022,street,J. Alonzo Street,97
-Daanghari,A IGNACIO,M NAVAL - G PASCUAL,11000.0,DO 46-2022,unmatched,Navotas Residences (40),0
-Daanghari,FERRY NO. 3,M NAVAL - NAV. MAL RIVER,10000.0,DO 46-2022,unmatched,Lourdes Subdivision (0),0
-Daanghari,GOV PASCUAL,F PASCUAL - BRGY BDRY,10000.0,DO 46-2022,unmatched,Navotas Residences (30),0
-Daanghari,RAJAH BAGUINDA,G PASCUAL - E. ALONZO,9000.0,DO 46-2022,unmatched,Navotas Residences (33),0
-Daanghari,RAJAH BAGUINDA,M NAVAL - E. ALONZO,9000.0,DO 46-2022,unmatched,Navotas Residences (33),0
-Daanghari,RAJAH BAGO (SUAREZ ST),M NAVAL - NAV-MAL RIVER,9000.0,DO 46-2022,unmatched,Lourdes Subdivision (50),0
-Daanghari,RAJAH HUMABON,M. NAVAL ST - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Fisherman's Village (36),0
-Daanghari,RAJAH HUMABON,G. PASCUAL - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Fisherman's Village (36),0
-Daanghari,RAJAH KALANTIAO,M NAVAL - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Navotas Residences (32),0
-Daanghari,RAJAH KALANTIAO,G. PASCUAL - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Navotas Residences (32),0
-Daanghari,RAJAH LAPU-LAPU,G PASCUAL - MLA BAY,9000.0,DO 46-2022,unmatched,Lourdes Subdivision (29),0
-Daanghari,RAJAH SIKATUNA,M NAVAL - END,9000.0,DO 46-2022,unmatched,Navotas Residences (40),0
-Daanghari,RAJAH SOLIMAN,DAANGHARI-RAJAH LAPU-LAPU,9000.0,DO 46-2022,unmatched,Navotas Residences (41),0
-Daanghari,RAJAH TUPAS,G PASCUAL - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Navotas Residences (23),0
-Daanghari,RAJAH TUPAS,M. NAVAL - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Navotas Residences (23),0
-Daanghari,A IGNACIO,G PASCUAL - MLA BAY,8500.0,DO 46-2022,unmatched,Navotas Residences (40),0
-Daanghari,LACHENAL CMPD.,M. NAVAL - END(RIVER),8500.0,DO 46-2022,unmatched,Fisherman's Village (35),0
-Daanghari,LAPU-LAPU ST,GOV. PASCUAL - E. ALONZO,8500.0,DO 46-2022,unmatched,Luzon (29),0
-Daanghari,LOURDES SUBD.,DAANGHARI ST - MLA BAY,9000.0,DO 46-2022,village,Lourdes Subdivision,100
-NBBS Dagat-dagatan,ALL OTHER STREETS,,6500.0,DO 46-2022,background,,0
-NBBS Dagat-dagatan,DALAG ST.,LAPU-LAPU AVE. -KITANG,9000.0,DO 46-2022,segment,Dalag Street,100
-NBBS Dagat-dagatan,KITANG ST.,KANDULI-DALAGANG BUKID,9000.0,DO 46-2022,segment,Kitang Street,100
-NBBS Dagat-dagatan,LANGARAY ST.,KANDULI-DALAGANG BUKID,9000.0,DO 46-2022,segment,Langaray Street,100
-NBBS Dagat-dagatan,MAYA-MAYA,MANDARAGAT-MARTINIKO,9000.0,DO 46-2022,segment,Maya-maya Street,97
-NBBS Dagat-dagatan,DALAGANG BUKID,C-3 - LAPU-LAPU AVE.,22500.0,DO 46-2022,street,Dalagang Bukid Street,97
-NBBS Dagat-dagatan,C-3 ROAD,DALAGANG BUKID - NAVOTAS RIVER (R-10),21000.0,DO 46-2022,street,C-3 Road,100
-NBBS Dagat-dagatan,LAPU-LAPU AVE.,MARTINIKO - NAVOTAS RIVER,19500.0,DO 46-2022,street,Lapu-Lapu Avenue,100
-NBBS Dagat-dagatan,MALIPUTO,LAPU-LAPU AVE.-END,16500.0,DO 46-2022,street,Maliputo Street,97
-NBBS Dagat-dagatan,KANDULI ST.,LAPU-LAPU AVE. - C3 ROAD,9000.0,DO 46-2022,street,Kanduli Street,100
-NBBS Dagat-dagatan,MAMALE,MARTINIKO-NAVOTAS RIVER,9000.0,DO 46-2022,street,Mamale Street,97
-NBBS Dagat-dagatan,MARTINIKO,LAPU-LAPU AVE.-END,9000.0,DO 46-2022,street,Martiniko Street,97
-NBBS Dagat-dagatan,TANIGUE ST.,TANIGUE-DALAGANG BUKID,9000.0,DO 46-2022,street,Tanigue Street,100
-NBBS Dagat-dagatan,HALAAN ST.,KANDULI-DALAGANG BUKID NEW,9000.0,DO 46-2022,unmatched,Luzon (36),0
-NBBS Dagat-dagatan,KARPA ST.,KANDULI-DALAGANG BUKID,9000.0,DO 46-2022,unmatched,Tanong Bliss Housing (8),0
-NBBS Dagat-dagatan,MAGDARAGAT,LAPU-LAPU AVE.-END,9000.0,DO 46-2022,unmatched,Tanong Bliss Housing (20),0
-NBBS Dagat-dagatan,MATANG BAKA,LAPU-LAPU AVE.-END,9000.0,DO 46-2022,unmatched,Tanong Bliss Housing (39),0
-NBBS Kaunlaran,ALL OTHER STREETS,,8000.0,DO 46-2022,background,,0
-NBBS Kaunlaran,DILAT ST.,BIDBID- BARILES,9000.0,DO 46-2022,segment,Dilat Street,100
-NBBS Kaunlaran,ESPADA ST.,BUWAN BUWAN-BONITO,9000.0,DO 46-2022,segment,Espada Street,100
-NBBS Kaunlaran,GURAMI ST.,GALUNGGONG-BUWAN BUWAN,9000.0,DO 46-2022,segment,Gurami Street,100
-NBBS Kaunlaran,C-3 ROAD,NAVOTAS RIVER - NORTH BAY BLVD,21000.0,DO 46-2022,street,C-3 Road,100
-NBBS Kaunlaran,ALUMAHAN,BANGUS-AGORA,15500.0,DO 46-2022,street,Alumahan Street,97
-NBBS Kaunlaran,APAHAP ST,NORTH BAY BLVD N- NAV RIVER,15500.0,DO 46-2022,street,Apahap Street,100
-NBBS Kaunlaran,DULONG,,15500.0,DO 46-2022,street,Dulong Street,97
-NBBS Kaunlaran,ALAKAAK ST.,BANGUS-END,9000.0,DO 46-2022,street,Alakaak Street,100
-NBBS Kaunlaran,AYUNGIN ST.,BANGUS-NAVOTAS RIVER,9000.0,DO 46-2022,street,Ayungin Street,100
-NBBS Kaunlaran,BABANSE ST.,LAPU-LAPU AVE-C3,9000.0,DO 46-2022,street,Babanse Street,100
-NBBS Kaunlaran,BAKOKO ST.,BANGUS-END,9000.0,DO 46-2022,street,Bakoko Street,100
-NBBS Kaunlaran,BANAK ST.,BANGUS-END,9000.0,DO 46-2022,street,Banak Street,100
-NBBS Kaunlaran,BARILES ST.,BANGUS-END,9000.0,DO 46-2022,street,Bariles Street,100
-NBBS Kaunlaran,BIDBID ST.,BANGUS-END,9000.0,DO 46-2022,street,Bidbid Street,100
-NBBS Kaunlaran,BISUGO ST.,NAVOTAS RIVER-END,9000.0,DO 46-2022,street,Bisugo Street,100
-NBBS Kaunlaran,BONITO ST.,NAVOTAS RIVER-END,9000.0,DO 46-2022,street,Bonito Street,100
-NBBS Kaunlaran,BUWAN-BUWAN ST.,NAVOTAS RIVER-END,9000.0,DO 46-2022,street,Buwan-Buwan Street,100
-NBBS Kaunlaran,GALUNGGONG,NAVOTAS RIVER - END,9000.0,DO 46-2022,street,Galunggong Street,97
-NBBS Kaunlaran,DILIS,,15500.0,DO 46-2022,unmatched,Luzon (22),0
-NBBS Kaunlaran,DAPA,BARILLES ST - BANAK ST,12500.0,DO 46-2022,unmatched,Navotas Fishport Complex (15),0
-NBBS Kaunlaran,KAPITBAHAYAN,AYUNGIN - APAHAP,12500.0,DO 46-2022,unmatched,Navotas Fishport Complex (29),0
-NBBS Kaunlaran,BIYA ST.,ALAKAAK-BAKOKO,9000.0,DO 46-2022,unmatched,Navotas Fishport Complex (15),0
-Navotas East,ALL OTHER STREETS,,9000.0,DO 46-2022,background,,0
-Navotas East,ESTRELLA,M. NAVAL ST - SAN MARCOS,13500.0,DO 46-2022,segment,Estrella Street,97
-Navotas East,M. NAVAL,IGNACIO - VARADERO,12500.0,DO 46-2022,segment,M. Naval Street,97
-Navotas East,ESTRELLA,M. NAVAL ST - L.R. YANGCO ST.,13500.0,DO 46-2022,street,Estrella Street,97
-Navotas East,ESTRELLA,L.R. YANGCO - NAV-MAL RIVER,12500.0,DO 46-2022,street,Estrella Street,97
-Navotas East,SAN MARCOS,VARADERO- BRGY. BOUNDARY,12500.0,DO 46-2022,street,San Marcos Street,97
-Navotas East,VARADERO,SAN MARCOS - L.R. YANGCO,12500.0,DO 46-2022,street,Varadero Street,97
-Navotas East,DAVILLA ST.,SAN MARCOS - L. R. YANGCO,10000.0,DO 46-2022,street,Davila Street,94.73684210526316
-Navotas East,L.R. YANGCO,ESTRELLA - VARADERO,13500.0,DO 46-2022,unmatched,Tanong Bliss Housing (40),0
-Navotas East,H. IGNACIO,M NAVAL - L.R. YANGCO,11000.0,DO 46-2022,unmatched,Tanong Bliss Housing (34),0
-Navotas East,H. MONROY,SAN MARCOS - YANGCO,11000.0,DO 46-2022,unmatched,Luzon (31),0
-Navotas East,L.R. YANGCO,H. IGNACIO ST- ESTRELLA ST,10000.0,DO 46-2022,unmatched,Tanong Bliss Housing (40),0
-Navotas West,ALL OTHER STREETS,,7500.0,DO 46-2022,background,,0
-Navotas West,ESTRELLA,SAN MARCOS - P. CADORNIGA,9000.0,DO 46-2022,segment,Estrella Street,97
-Navotas West,P CADORNIGA,VARADERO - M DE VERA,9000.0,DO 46-2022,segment,P. Cadorniga Street,97
-Navotas West,ESTRELLA,P. CADORNIGA - MLA BAY,9000.0,DO 46-2022,street,Estrella Street,97
-Navotas West,M. DE VERA,P CADORNIGA - PASCUAL,9000.0,DO 46-2022,street,M. de Vera Street,97
-Navotas West,P CADORNIGA,M DE VERA-BRGY BOUNDARY,9000.0,DO 46-2022,street,P. Cadorniga Street,97
-Navotas West,SAN MARCOS,VARADERO-BRGY BOUNDARY,9000.0,DO 46-2022,street,San Marcos Street,97
-Navotas West,DAVILLA,SAN MARCOS - MLA BAY,9000.0,DO 46-2022,unmatched,Luzon (17),0
-Navotas West,H. MONROY (CJN),SAN MARCOS - MLA BAY,9000.0,DO 46-2022,unmatched,Luzon (31),0
-Navotas West,ALONG GOV. PASCUAL STY.,,9000.0,DO 46-2022,unmatched,Luzon (23),0
-North Bay Boulevard North,ALL OTHER STREETS,,8500.0,DO 46-2022,background,,0
-North Bay Boulevard North,NORTH BAY BLVD,LACSON - LAPU-LAPU,11500.0,DO 46-2022,segment,North Bay Boulevard,100
-North Bay Boulevard North,DE GUZMAN ST.,LACSON ST - MIGUEL ST.,10000.0,DO 46-2022,segment,De Guzman Streets,97
-North Bay Boulevard North,ESPINA ST.,LACSON ST - MIGUEL ST.,10000.0,DO 46-2022,segment,Espina Street,100
-North Bay Boulevard North,MIGUEL ST.,NORTH BLVD - END,12500.0,DO 46-2022,street,Miguel Street,100
-North Bay Boulevard North,SIOSON ST,LACSON ST- END,10000.0,DO 46-2022,street,Sioson Street,100
-North Bay Boulevard North,LACSON,NORTH BAY BLVD - END,10000.0,DO 46-2022,street,Lacson Street,97
-North Bay Boulevard North,REYES ST.,,10000.0,DO 46-2022,street,Reyes Street,100
-North Bay Boulevard North,R-10,PESCADOR- LAPU LAPU,12500.0,DO 46-2022,unmatched,Navotas Fishport Complex (0),0
-North Bay Boulevard North,MEDINA ST.,NORTH BLVD - END,10000.0,DO 46-2022,unmatched,Navotas Fishport Complex (34),0
-North Bay Boulevard North,PESCADOR CALLEJON,NORTH BLVD - END,10000.0,DO 46-2022,unmatched,Navotas Fishport Complex (35),0
-North Bay Boulevard North,PESCADOR2,NORTH BLVD - END,10000.0,DO 46-2022,unmatched,Navotas Fishport Complex (0),0
-San Jose,ALL OTHER STREETS,,8500.0,DO 46-2022,background,,0
-San Jose,M. NAVAL,P GABRIEL - F. PASCUAL,16500.0,DO 46-2022,segment,M. Naval Street,97
-San Jose,ALING NENA,M. NAVAL-END,13500.0,DO 46-2022,street,Aling Nena Road,97
-San Jose,P. GABRIEL,M NAVAL - G. PASCUAL,13000.0,DO 46-2022,street,P. Gabriel Street,97
-San Jose,BAGONG SILANG,GOV A. PASCUAL- MANILA BAY,12000.0,DO 46-2022,street,Bagong Silang Street,97
-San Jose,E ALONZO,INT. T. GONZALES - F PASCUAL,12000.0,DO 46-2022,street,E. Alonzo Street,97
-San Jose,F. PASCUAL,M. NAVAL - MLA BAY,12000.0,DO 46-2022,street,F. Pascual Street,97
-San Jose,JEWELS,G.PASCUAL-END,12000.0,DO 46-2022,street,Jewels Street,97
-San Jose,LOS MARTIRES,M NAVAL - G. PASCUAL,12000.0,DO 46-2022,street,Los Martires Street,97
-San Jose,P. GABRIEL,G.PASCUAL-MANILA BAY,12000.0,DO 46-2022,street,P. Gabriel Street,97
-San Jose,UNION,G. PASCUAL-END,12000.0,DO 46-2022,street,Union Street,97
-San Jose,DAVID COMPOUND,G. PASCUAL-END,12000.0,DO 46-2022,street,David Compound Road,97
-San Jose,HERNANDEZ COMPOUND,G. PASCUAL-END,12000.0,DO 46-2022,street,Hernandez Compound Road,97
-San Jose,ST. JOSEPH COMPOUND,G. PASCUAL-END,12000.0,DO 46-2022,street,Saint Joseph Compound Road,97
-San Jose,E. TUAZON (CJN),M. NAVAL- MLA. BAY,10000.0,DO 46-2022,street,E. Tuazon Street,97
-San Jose,LITTLE SAMAR,GOV. A. PASCUAL - END,10000.0,DO 46-2022,street,Little Samar Street,97
-San Jose,LOS MARTIRES,G. PASCUAL - MLA BAY,10000.0,DO 46-2022,street,Los Martires Street,97
-San Jose,QUINTOS,M.NAVAL-G.PASCUAL,10000.0,DO 46-2022,street,Quintos Street,97
-San Jose,R.PADILLA,G.PASCUAL-M.NAVAL,10000.0,DO 46-2022,street,R. Padilla Street,97
-San Jose,S.ANDRES,M.NAVAL-END,10000.0,DO 46-2022,street,S. Andres Street,97
-San Jose,SANTILLAN,M.NAVAL-G.PASCUAL,10000.0,DO 46-2022,street,Santillan Street,97
-San Jose,T.GONZALES,M.NAVAL-G.PASCUAL,10000.0,DO 46-2022,street,T. Gonzales Street,97
-San Jose,T.POLICARPIO,M.NAVAL-G.PASCUAL,10000.0,DO 46-2022,street,T. Policarpio Street,97
-San Jose,DOBLE 9,GOV A. PASCUAL-MANILA BAY,12000.0,DO 46-2022,unmatched,Luzon (0),0
-San Jose,E. NAVAL (FERRY 2),M. NAVAL - MAL - NAV RIVER,12000.0,DO 46-2022,unmatched,Luzon (17),0
-San Jose,FERRY NO. 3,NAVAL - MAL - NAV RIVER,12000.0,DO 46-2022,unmatched,Luzon (0),0
-San Jose,G. PASCUAL,P. GABRIEL - F. PASCUAL,12000.0,DO 46-2022,unmatched,Luzon (14),0
-San Jose,CELESTINO,M. NAVAL-END,10000.0,DO 46-2022,unmatched,Luzon (29),0
-San Jose,KAHUNARI,M NAVAL - END,10000.0,DO 46-2022,unmatched,Luzon (31),0
-San Jose,M. POLICARPIO (BAGONG BARRIO),(BAGONG G PASCUAL - MLA BAY,10000.0,DO 46-2022,unmatched,Luzon (24),0
-San Jose,MELCHORA NAVAL,N NAVAL - END,10000.0,DO 46-2022,unmatched,Luzon (32),0
-San Jose,S.POLICARPIO,M.NAVAL,10000.0,DO 46-2022,unmatched,Luzon (24),0
-San Jose,INT.T.GONZALES,GOV.A PASCUAL-END,10000.0,DO 46-2022,unmatched,Luzon (22),0
-San Rafael Village,ALL OTHER STREETS,,14000.0,DO 46-2022,background,,0
-San Rafael Village,KALAKAL,CATALINA-TALIBA,16000.0,DO 46-2022,segment,Kalakal Street,97
-San Rafael Village,RIVERSIDE,FEDERICO-BENJAMIN,16000.0,DO 46-2022,segment,Riverside Street,97
-San Rafael Village,BERNARDO,FRANCISCO-ENCARNACION,15000.0,DO 46-2022,segment,Bernardo Street,97
-San Rafael Village,CAPULONG,TALIBA-KALAKAL,15000.0,DO 46-2022,segment,Capulong Street,97
-San Rafael Village,ENCARNACION,TALIBA-SIMEON DE JESUS,15000.0,DO 46-2022,segment,Encarnacion Street,97
-San Rafael Village,SIMEON DE JESUS,LLANES ESCODA-NAV MLA BDRY,16000.0,DO 46-2022,street,Simeon de Jesus Street,97
-San Rafael Village,TALIBA,J.L. ESCODA-KALAKAL,16000.0,DO 46-2022,street,Taliba Street,97
-San Rafael Village,BENJAMIN,ST.LLANES ESCODA ST.-RIVERSIDE,15000.0,DO 46-2022,street,Benjamin Street,97
-San Rafael Village,FEDERICO,ESCODA-Benjamin Street,15000.0,DO 46-2022,street,Federico Street,97
-San Rafael Village,FRANCISCO,Encarnacion St-Nav Mla Bay,15000.0,DO 46-2022,street,Francisco Street,97
-San Rafael Village,GEN. VICENTE LIM,ENCARNACION-NAV MLA BDRY,15000.0,DO 46-2022,street,General Vicente Lim Street,97
-San Rafael Village,MULING PAGSILANG,TALIBA-NAV MLA BDRY,16000.0,DO 46-2022,unmatched,Paradise Heights (39),0
-San Rafael Village,ROAD 2,TALIBA - KALAKAL,16000.0,DO 46-2022,unmatched,Paradise Heights (0),0
-San Rafael Village,VICENTE,GUILLERMO - ENCARNACION,16000.0,DO 46-2022,unmatched,Paradise Heights (27),0
-San Rafael Village,ESCODA,TALIBA-ROSARIO NICASIO ST.,15000.0,DO 46-2022,unmatched,Paradise Heights (19),0
-San Rafael Village,ESCODA BEND,J.L. ESCODA - J. L. ESCODA,15000.0,DO 46-2022,unmatched,Luzon (25),0
-San Roque,ALL OTHER STREETS,,7500.0,DO 46-2022,background,,0
-San Roque,M NAVAL,SAN ROQUE - DAANGHARI BD,14000.0,DO 46-2022,street,M. Naval Street,97
-San Roque,A DELA CRUZ,M NAVAL - G. PASCUAL,11000.0,DO 46-2022,street,A. Dela Cruz Street,97
-San Roque,A LEONGSON,M NAVAL - G. PASCUAL,11000.0,DO 46-2022,street,A. Leongson Street,97
-San Roque,CHAMPACA,J ROLDAN - END,9000.0,DO 46-2022,street,Champaca Street,97
-San Roque,GUMAMELA,J ROLDAN - END,9000.0,DO 46-2022,street,Gumamela Street,97
-San Roque,MANALAYSAY,M NAVAL - G PASCUAL,9000.0,DO 46-2022,street,Manalaysay Street,97
-San Roque,ROSAL,J ROLDAN - END,9000.0,DO 46-2022,street,Rosal Street,97
-San Roque,SAMPAGUITA,J ROLDAN - END,9000.0,DO 46-2022,street,Sampaguita Street,97
-San Roque,SAMPAGUITA,G.PASCUAL-END,9000.0,DO 46-2022,street,Sampaguita Street,97
-San Roque,FERRY NO. 4,M NAVAL - END,11000.0,DO 46-2022,unmatched,Lourdes Subdivision (0),0
-San Roque,G. A PASCUAL,SAN ROQUE BDRY - DAANGHARI BDRY,11000.0,DO 46-2022,unmatched,Navotas Residences (30),0
-San Roque,JUDGE ROLDAN,M NAVAL - G. PASCUAL,11000.0,DO 46-2022,unmatched,Fisherman's Village (38),0
-San Roque,A ANGELES,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Navotas Residences (33),0
-San Roque,(A LEONGSON EXTENSION),G.PASCUAL- MANILA BAY (NEW),9000.0,DO 46-2022,unmatched,Navotas Residences (39),0
-San Roque,B. DE ASIS,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Navotas Residences (40),0
-San Roque,CAMIA,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Fisherman's Village (29),0
-San Roque,CAMPUPOT ST,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Luzon (31),0
-San Roque,DAMA DE NOCHE,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Navotas Residences (55),0
-San Roque,EVERLASTING,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Fisherman's Village (40),0
-San Roque,FERRY NO. 5,M NAVAL - END,9000.0,DO 46-2022,unmatched,Lourdes Subdivision (0),0
-San Roque,JUDGE ROLDAN,G.PASCUAL-MLA.BAY,9000.0,DO 46-2022,unmatched,Fisherman's Village (38),0
-San Roque,KAPALARAN,G. PASCUAL - END,9000.0,DO 46-2022,unmatched,Fisherman's Village (33),0
-San Roque,M. CABRERA,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Fisherman's Village (33),0
-San Roque,MONTE LOYOLA,R.LEONGSON-END,9000.0,DO 46-2022,unmatched,Navotas Residences (36),0
-San Roque,P. BUNTAN,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Navotas Residences (33),0
-San Roque,T. GOMEZ,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Lourdes Subdivision (31),0
-Sipac-Almacen,ALL OTHER STREETS,,7000.0,DO 46-2022,background,,0
-Sipac-Almacen,M NAVAL,VARADERO - P GABRIEL,15000.0,DO 46-2022,segment,M. Naval Street,97
-Sipac-Almacen,P CADORNIGA,VARADERO - M DE VERA (NEW),11000.0,DO 46-2022,segment,P. Cadorniga Street,97
-Sipac-Almacen,A SANTIAGO,M NAVAL - G. PASCUAL,12000.0,DO 46-2022,street,A. Santiago Street,97
-Sipac-Almacen,P. GABRIEL,G.PASCUAL-MLA BAY,12000.0,DO 46-2022,street,P. Gabriel Street,97
-Sipac-Almacen,VARADERO,L.R. YANGCO - P. CADORNIGA (NEW),12000.0,DO 46-2022,street,Varadero Street,97
-Sipac-Almacen,A SANTIAGO,G.PASCUAL-MLA BAY,11000.0,DO 46-2022,street,A. Santiago Street,97
-Sipac-Almacen,M DE VERA,CADORNIGA - A PASCUAL,11000.0,DO 46-2022,street,M. de Vera Street,97
-Sipac-Almacen,P. GABRIEL,M NAVAL - MLA BAY,11000.0,DO 46-2022,street,P. Gabriel Street,97
-Sipac-Almacen,GOV. PASCUAL,M DE VERA - P GABRIEL,11000.0,DO 46-2022,unmatched,Luzon (12),0
-Sipac-Almacen,ALL INNER ALLEY AND FOOT PATHS,,8500.0,DO 46-2022,unmatched,Luzon (20),0
-Tangos North,ALL OTHER STREETS,,6500.0,DO 46-2022,background,,0
-Tangos North,M. NAVAL,FERRY NO. 5 - F PASCUAL,13500.0,DO 46-2022,street,M. Naval Street,97
-Tangos North,OLIVEROS,M. NAVAL - END,10000.0,DO 46-2022,street,Oliveros Street,97
-Tangos North,B. CRUZ,DR A CRUZ - END,7500.0,DO 46-2022,street,B. Cruz Street,97
-Tangos North,BUENAVENTURA,OLIVEROS - END,7500.0,DO 46-2022,street,Buenaventura Street,97
-Tangos North,DR A CRUZ,M NAVAL - END,7500.0,DO 46-2022,street,A. Cruz Street,97
-Tangos North,J. PASCUAL,M NAVAL - END,7500.0,DO 46-2022,street,J. Pascual Street,97
-Tangos North,FERRY NO. 5,M. NAVAL - END,8000.0,DO 46-2022,unmatched,Luzon (0),0
-Tangos North,CASEÑAS,M NAVAL - END,7500.0,DO 46-2022,unmatched,Luzon (18),0
-Tangos North,F. ABLOLA,M NAVAL - END,7500.0,DO 46-2022,unmatched,Luzon (31),0
-Tangos North,M. JOSE,J. PASCUAL - END,7500.0,DO 46-2022,unmatched,Luzon (18),0
-Tangos South,ALL OTHER STREETS,,7000.0,DO 46-2022,background,,0
-Tangos South,M. NAVAL,MANALAYSAY ST - F. PASCUAL ST. (NEW),13500.0,DO 46-2022,segment,M. Naval Street,97
-Tangos South,L SANTOS,MANALAYSAY - F PASCUAL,8500.0,DO 46-2022,segment,L. Santos Street,97
-Tangos South,MANALAYSAY ST.,M NAVAL - L SANTOS,8500.0,DO 46-2022,segment,Manalaysay Street,100
-Tangos South,S. ANTONIO,M NAVAL - L SANTOS,8500.0,DO 46-2022,segment,S. Antonio Street,97
-Tangos South,DR A CRUZ,M NAVAL - END,8500.0,DO 46-2022,street,A. Cruz Street,97
-Tangos South,F PASCUAL,L. SANTOS - END,7500.0,DO 46-2022,street,F. Pascual Street,97
-Tangos South,BAGONG KALSADA ST.,DR. A. CRUZ - END (NEW),8500.0,DO 46-2022,unmatched,Luzon (21),0
-Tanza 1,ALL OTHER STREETS,,6500.0,DO 46-2022,background,,0
-Tanza 1,TAGUMPAY ST.,TUNAY-END,7500.0,DO 46-2022,street,Tagumpay Street,100
-Tanza 1,TANZA KALIWA,TANZA KALIWA,7500.0,DO 46-2022,street,Tanza Kaliwa Street,97
-Tanza 1,GABRIEL ST (CAPT.CRUZ),BRIDGE TO FERRY NO. 5,8000.0,DO 46-2022,unmatched,Tanza Homes (29),0
-Tanza 1,MERVILLE SUBD,MERVILLE,8000.0,DO 46-2022,unmatched,Luzon (15),0
-Tanza 1,RODRIGUEZ,FERRY 5 - END,8000.0,DO 46-2022,unmatched,Luzon (29),0
-Tanza 1,CAPT. TICLAO ST.,TAGUMPAY-END,7500.0,DO 46-2022,unmatched,Baytown Homes (33),0
-Tanza 1,CARVILE SUBD.,CARVILLE SUBD.,7500.0,DO 46-2022,unmatched,Tanza Homes (17),0
-Tanza 1,RODRIGUEZ,NEAR NAVOTAS RIVER INNER PORTION (ALLEY&INT.),7500.0,DO 46-2022,unmatched,Luzon (29),0
-Tanza 1,TAHIMIK ST.,TAGUMPAY-END,7500.0,DO 46-2022,unmatched,Tanza Homes (33),0
-Tanza 2,ALL OTHER STREETS,,6500.0,DO 46-2022,background,,0
-Tanza 2,GABRIEL ST (CAPT.CRUZ),BRIDGE TO TANZA 1 BOUNDARY (NEW),8000.0,DO 46-2022,unmatched,Tanza Homes (29),0
-Tanza 2,MERVILLE SUBD,MERVILLE,8000.0,DO 46-2022,unmatched,Luzon (15),0
-Tanza 2,CARVILE SUBD.,CARVILLE SUBD.,7500.0,DO 46-2022,unmatched,Tanza Homes (17),0
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Bagumbayan North,ALL OTHER STREETS,,16500.0,DO 46-2022,background,,0
+RR,Bagumbayan North,ALL OTHER STREETS,,10000.0,DO 46-2022,background,,0
+CR,Bagumbayan North,M. NAVAL,C BAUZA ST to BRGY BOUNDARY,27500.0,DO 46-2022,street,M. Naval Street,97
+RR,Bagumbayan North,M. NAVAL,C BAUZA ST to BRGY BOUNDARY,19500.0,DO 46-2022,street,M. Naval Street,97
+CR,Bagumbayan North,P. CADORNIGA,C BAUZA to BRGY BOUNDARY,17500.0,DO 46-2022,street,P. Cadorniga Street,97
+RR,Bagumbayan North,P. CADORNIGA,C BAUZA to BRGY BOUNDARY,12000.0,DO 46-2022,street,P. Cadorniga Street,97
+RR,Bagumbayan North,SAN MARCOS,C BAUZA to BRGY BOUNDARY,12000.0,DO 46-2022,street,San Marcos Street,97
+RR,Bagumbayan North,DR C. BAUZA,M NAVAL - END,11000.0,DO 46-2022,street,C. Bauza Street,97
+CR,Bagumbayan North,H. IGNACIO,SAN MARCOS-CARDONIGA,20000.0,DO 46-2022,unmatched,Tanong Bliss Housing (34),0
+CR,Bagumbayan North,H. IGNACIO,CARDONIGA -MANILA BAY,20000.0,DO 46-2022,unmatched,Tanong Bliss Housing (34),0
+RR,Bagumbayan North,ALONG C-4 R0AD,NAVOTAS-MALABON RIVER to MLA BAY,19000.0,DO 46-2022,unmatched,Tanong Bliss Housing (0),0
+RR,Bagumbayan North,H. IGNACIO,M. NAVAL-SAN MARCOS,11000.0,DO 46-2022,unmatched,Tanong Bliss Housing (34),0
+CR,Bagumbayan South,ALL OTHER STREETS,,13000.0,DO 46-2022,background,,0
+RR,Bagumbayan South,ALL OTHER STREETS,,10500.0,DO 46-2022,background,,0
+RR,Bagumbayan South,TAGANAHAN ST,M NAVAL - SAN MARCOS,14000.0,DO 46-2022,segment,Taganahan Street,100
+RR,Bagumbayan South,DR C BAUZA ST,M NAVAL - SAN MARCOS,11000.0,DO 46-2022,segment,C. Bauza Street,97
+CR,Bagumbayan South,M. NAVAL,TAGANAHAN ST - BAUZA,25000.0,DO 46-2022,street,M. Naval Street,97
+CR,Bagumbayan South,SAN MARCOS,TAGANAHAN ST - BAUZA,22500.0,DO 46-2022,street,San Marcos Street,97
+RR,Bagumbayan South,TAGANAHAN ST,M NAVAL - MAL-NAV RIVER,21000.0,DO 46-2022,street,Taganahan Street,100
+RR,Bagumbayan South,SAN MARCOS,TAGANAHAN ST - BAUZA,16500.0,DO 46-2022,street,San Marcos Street,97
+RR,Bagumbayan South,M. NAVAL,TAGANAHAN ST - BAUZA,16000.0,DO 46-2022,street,M. Naval Street,97
+CR,Bagumbayan South,P CADORNIGA,NEW,13500.0,DO 46-2022,street,P. Cadorniga Street,97
+RR,Bagumbayan South,TAGANAHAN ST,SAN MARCOS - MLA BAY,13000.0,DO 46-2022,street,Taganahan Street,100
+RR,Bagumbayan South,DR C BAUZA ST,SAN MARCOS - MLA BAY,11000.0,DO 46-2022,street,C. Bauza Street,97
+RR,Bagumbayan South,P CADORNIGA,TAGANAHAN ST - BAUZA,11000.0,DO 46-2022,street,P. Cadorniga Street,97
+CR,Bangculasi,ALL OTHER STREETS,,19000.0,DO 46-2022,background,,0
+RR,Bangculasi,ALL OTHER STREETS,,9000.0,DO 46-2022,background,,0
+RR,Bangculasi,ESPINA ST,ALPHA TO LACSON,9000.0,DO 46-2022,segment,Espina Street,100
+RR,Bangculasi,JOSE ST. (DE GUZMAN),ALPHA TO LACSON,9000.0,DO 46-2022,segment,De Guzman Streets,97
+CR,Bangculasi,M NAVAL,LACSON - TIOCO,25000.0,DO 46-2022,street,M. Naval Street,97
+CR,Bangculasi,ALPHA,M NAVAL - GALICIA,20000.0,DO 46-2022,street,Alpha Street,97
+CR,Bangculasi,LAPU LAPU AVE.,NORTH BAY BLVD - NAVOTAS-MALABON RIVER (NEW),20000.0,DO 46-2022,street,Lapu-Lapu Avenue,100
+CR,Bangculasi,SIOSON,ALPHA TO END,20000.0,DO 46-2022,street,Sioson Street,97
+RR,Bangculasi,M NAVAL,LACSON - TIOCO,18500.0,DO 46-2022,street,M. Naval Street,97
+RR,Bangculasi,ALPHA,M NAVAL - GALICIA,11000.0,DO 46-2022,street,Alpha Street,97
+RR,Bangculasi,LACSON,M NAVAL - END,11000.0,DO 46-2022,street,Lacson Street,97
+RR,Bangculasi,SIOSON,LUNA TO ALPHA,11000.0,DO 46-2022,street,Sioson Street,97
+RR,Bangculasi,SIOSON,ALPHA TO END,11000.0,DO 46-2022,street,Sioson Street,97
+RR,Bangculasi,TECSON ST.,GALICIA - REYES,11000.0,DO 46-2022,street,Tecson Street,100
+CR,Bangculasi,SANTIAGO DE GALICIA,ALPHA - END,20000.0,DO 46-2022,unmatched,Tanong Bliss Housing (41),0
+RR,Bangculasi,LUNA,M NAVAL - END,13500.0,DO 46-2022,unmatched,Luzon (67),0
+RR,Bangculasi,TIOCO - LEAÑO,NAVAL - MALABON RIVER,11000.0,DO 46-2022,unmatched,Tanong Bliss Housing (32),0
+RR,Bangculasi,CONSUELO ST,,9000.0,DO 46-2022,unmatched,Luzon (31),0
+RR,Bangculasi,PESCADOR ST,,9000.0,DO 46-2022,unmatched,Tanong Bliss Housing (21),0
+RR,Bangculasi,SAN LAZARO (REYES),ALPHA - TECSON,9000.0,DO 46-2022,unmatched,Luzon (53),0
+RR,Bangculasi,SANTIAGO DE GALICIA,ALPHA - END,9000.0,DO 46-2022,unmatched,Tanong Bliss Housing (41),0
+RR,Daanghari,ALL OTHER COMPOUNDS,,10000.0,DO 46-2022,background,,0
+CR,Daanghari,ALL OTHER STREETS,(NEW),10000.0,DO 46-2022,background,,0
+RR,Daanghari,ALL OTHER STREETS,(NEW),7500.0,DO 46-2022,background,,0
+RR,Daanghari,E. ALONZO,DAANGHARI ST. - F PASCUAL,14000.0,DO 46-2022,segment,E. Alonzo Street,97
+CR,Daanghari,RAJAH MAGAT SALAMAT,M. NAVAL ST - E. ALONZO ST.,13500.0,DO 46-2022,segment,Raja Magat Salamat Street,90.0
+RR,Daanghari,J. ALONZO (CALLEJON),M. NAVAL - E. ALONZO,8500.0,DO 46-2022,segment,J. Alonzo Street,97
+CR,Daanghari,M NAVAL,F PASCUAL - BRGY BDRY,20000.0,DO 46-2022,street,M. Naval Street,97
+RR,Daanghari,M NAVAL,F PASCUAL - BRGY BDRY,15500.0,DO 46-2022,street,M. Naval Street,97
+CR,Daanghari,J. ALONZO,F PASCUAL - P. SOLIMAN,13500.0,DO 46-2022,street,J. Alonzo Street,97
+RR,Daanghari,DAANGHARI ST.,M NAVAL - G PASCUAL,9000.0,DO 46-2022,street,Daang Hari Street,96.0
+RR,Daanghari,LOLA MARTA(RAJAH MATANDA),M NAVAL - END (RIVER),9000.0,DO 46-2022,street,Lola Marta Street,97
+RR,Daanghari,RAJAH MAGAT SALAMAT,G. PASCUAL - E. ALONZO ST.,9000.0,DO 46-2022,street,Raja Magat Salamat Street,90.0
+RR,Daanghari,DAANGHARI ST.,G PASCUAL - MLA BAY,8500.0,DO 46-2022,street,Daang Hari Street,96.0
+RR,Daanghari,F. PASCUAL,M. NAVAL - G PASCUAL,8500.0,DO 46-2022,street,F. Pascual Street,97
+RR,Daanghari,F. PASCUAL,GOV.PASCUAL- MANILA BAY,8500.0,DO 46-2022,street,F. Pascual Street,97
+RR,Daanghari,J. ALONZO (CALLEJON),G PASCUAL-E. ALONZO,8500.0,DO 46-2022,street,J. Alonzo Street,97
+RR,Daanghari,J. ALONZO,F PASCUAL - P. SOLIMAN,8500.0,DO 46-2022,street,J. Alonzo Street,97
+CR,Daanghari,GOV PASCUAL,F PASCUAL - BRGY BDRY,16500.0,DO 46-2022,unmatched,Navotas Residences (30),0
+CR,Daanghari,RAJAH LAPU-LAPU,G PASCUAL - MLA BAY,13500.0,DO 46-2022,unmatched,Lourdes Subdivision (29),0
+RR,Daanghari,A IGNACIO,M NAVAL - G PASCUAL,11000.0,DO 46-2022,unmatched,Navotas Residences (40),0
+RR,Daanghari,FERRY NO. 3,M NAVAL - NAV. MAL RIVER,10000.0,DO 46-2022,unmatched,Lourdes Subdivision (0),0
+RR,Daanghari,GOV PASCUAL,F PASCUAL - BRGY BDRY,10000.0,DO 46-2022,unmatched,Navotas Residences (30),0
+RR,Daanghari,RAJAH BAGUINDA,G PASCUAL - E. ALONZO,9000.0,DO 46-2022,unmatched,Navotas Residences (33),0
+RR,Daanghari,RAJAH BAGUINDA,M NAVAL - E. ALONZO,9000.0,DO 46-2022,unmatched,Navotas Residences (33),0
+RR,Daanghari,RAJAH BAGO (SUAREZ ST),M NAVAL - NAV-MAL RIVER,9000.0,DO 46-2022,unmatched,Lourdes Subdivision (50),0
+RR,Daanghari,RAJAH HUMABON,M. NAVAL ST - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Fisherman's Village (36),0
+RR,Daanghari,RAJAH HUMABON,G. PASCUAL - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Fisherman's Village (36),0
+RR,Daanghari,RAJAH KALANTIAO,M NAVAL - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Navotas Residences (32),0
+RR,Daanghari,RAJAH KALANTIAO,G. PASCUAL - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Navotas Residences (32),0
+RR,Daanghari,RAJAH LAPU-LAPU,G PASCUAL - MLA BAY,9000.0,DO 46-2022,unmatched,Lourdes Subdivision (29),0
+RR,Daanghari,RAJAH SIKATUNA,M NAVAL - END,9000.0,DO 46-2022,unmatched,Navotas Residences (40),0
+RR,Daanghari,RAJAH SOLIMAN,DAANGHARI-RAJAH LAPU-LAPU,9000.0,DO 46-2022,unmatched,Navotas Residences (41),0
+RR,Daanghari,RAJAH TUPAS,G PASCUAL - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Navotas Residences (23),0
+RR,Daanghari,RAJAH TUPAS,M. NAVAL - E. ALONZO ST.,9000.0,DO 46-2022,unmatched,Navotas Residences (23),0
+RR,Daanghari,A IGNACIO,G PASCUAL - MLA BAY,8500.0,DO 46-2022,unmatched,Navotas Residences (40),0
+RR,Daanghari,LACHENAL CMPD.,M. NAVAL - END(RIVER),8500.0,DO 46-2022,unmatched,Fisherman's Village (35),0
+RR,Daanghari,LAPU-LAPU ST,GOV. PASCUAL - E. ALONZO,8500.0,DO 46-2022,unmatched,Luzon (29),0
+RR,Daanghari,LOURDES SUBD.,DAANGHARI ST - MLA BAY,9000.0,DO 46-2022,village,Lourdes Subdivision,100
+CR,NBBS Dagat-dagatan,ALL OTHER STREETS,,15000.0,DO 46-2022,background,,0
+RR,NBBS Dagat-dagatan,ALL OTHER STREETS,,6500.0,DO 46-2022,background,,0
+RR,NBBS Dagat-dagatan,DALAG ST.,LAPU-LAPU AVE. -KITANG,9000.0,DO 46-2022,segment,Dalag Street,100
+RR,NBBS Dagat-dagatan,KITANG ST.,KANDULI-DALAGANG BUKID,9000.0,DO 46-2022,segment,Kitang Street,100
+RR,NBBS Dagat-dagatan,LANGARAY ST.,KANDULI-DALAGANG BUKID,9000.0,DO 46-2022,segment,Langaray Street,100
+RR,NBBS Dagat-dagatan,MAYA-MAYA,MANDARAGAT-MARTINIKO,9000.0,DO 46-2022,segment,Maya-maya Street,97
+CR,NBBS Dagat-dagatan,C-3 ROAD,DALAGANG BUKID - NAVOTAS RIVER (R-10),35500.0,DO 46-2022,street,C-3 Road,100
+CR,NBBS Dagat-dagatan,DALAGANG BUKID,C-3 - LAPU-LAPU AVE.,34500.0,DO 46-2022,street,Dalagang Bukid Street,97
+CR,NBBS Dagat-dagatan,LAPU-LAPU AVE.,MARTINIKO - NAVOTAS RIVER,33500.0,DO 46-2022,street,Lapu-Lapu Avenue,100
+CR,NBBS Dagat-dagatan,MALIPUTO,LAPU-LAPU AVE.-END,24500.0,DO 46-2022,street,Maliputo Street,97
+RR,NBBS Dagat-dagatan,DALAGANG BUKID,C-3 - LAPU-LAPU AVE.,22500.0,DO 46-2022,street,Dalagang Bukid Street,97
+RR,NBBS Dagat-dagatan,C-3 ROAD,DALAGANG BUKID - NAVOTAS RIVER (R-10),21000.0,DO 46-2022,street,C-3 Road,100
+RR,NBBS Dagat-dagatan,LAPU-LAPU AVE.,MARTINIKO - NAVOTAS RIVER,19500.0,DO 46-2022,street,Lapu-Lapu Avenue,100
+RR,NBBS Dagat-dagatan,MALIPUTO,LAPU-LAPU AVE.-END,16500.0,DO 46-2022,street,Maliputo Street,97
+RR,NBBS Dagat-dagatan,KANDULI ST.,LAPU-LAPU AVE. - C3 ROAD,9000.0,DO 46-2022,street,Kanduli Street,100
+RR,NBBS Dagat-dagatan,MAMALE,MARTINIKO-NAVOTAS RIVER,9000.0,DO 46-2022,street,Mamale Street,97
+RR,NBBS Dagat-dagatan,MARTINIKO,LAPU-LAPU AVE.-END,9000.0,DO 46-2022,street,Martiniko Street,97
+RR,NBBS Dagat-dagatan,TANIGUE ST.,TANIGUE-DALAGANG BUKID,9000.0,DO 46-2022,street,Tanigue Street,100
+RR,NBBS Dagat-dagatan,HALAAN ST.,KANDULI-DALAGANG BUKID NEW,9000.0,DO 46-2022,unmatched,Luzon (36),0
+RR,NBBS Dagat-dagatan,KARPA ST.,KANDULI-DALAGANG BUKID,9000.0,DO 46-2022,unmatched,Tanong Bliss Housing (8),0
+RR,NBBS Dagat-dagatan,MAGDARAGAT,LAPU-LAPU AVE.-END,9000.0,DO 46-2022,unmatched,Tanong Bliss Housing (20),0
+RR,NBBS Dagat-dagatan,MATANG BAKA,LAPU-LAPU AVE.-END,9000.0,DO 46-2022,unmatched,Tanong Bliss Housing (39),0
+CR,NBBS Kaunlaran,ALL OTHER STREETS,,15000.0,DO 46-2022,background,,0
+RR,NBBS Kaunlaran,ALL OTHER STREETS,,8000.0,DO 46-2022,background,,0
+RR,NBBS Kaunlaran,DILAT ST.,BIDBID- BARILES,9000.0,DO 46-2022,segment,Dilat Street,100
+RR,NBBS Kaunlaran,ESPADA ST.,BUWAN BUWAN-BONITO,9000.0,DO 46-2022,segment,Espada Street,100
+RR,NBBS Kaunlaran,GURAMI ST.,GALUNGGONG-BUWAN BUWAN,9000.0,DO 46-2022,segment,Gurami Street,100
+CR,NBBS Kaunlaran,C-3 ROAD,NAVOTAS RIVER - NORTH BAY BLVD,35500.0,DO 46-2022,street,C-3 Road,100
+CR,NBBS Kaunlaran,LAPU-LAPU AVE.,NAVOTAS RIVER - NORTH BAY BLVD (NEW),25500.0,DO 46-2022,street,Lapu-Lapu Avenue,100
+CR,NBBS Kaunlaran,NORTH BAY BLVD,MURALLA BR - C3 FISHERY PORT,25500.0,DO 46-2022,street,North Bay Boulevard,100
+CR,NBBS Kaunlaran,ALUMAHAN,BANGUS-AGORA,22500.0,DO 46-2022,street,Alumahan Street,97
+CR,NBBS Kaunlaran,APAHAP ST,(NEW),21000.0,DO 46-2022,street,Apahap Street,100
+RR,NBBS Kaunlaran,C-3 ROAD,NAVOTAS RIVER - NORTH BAY BLVD,21000.0,DO 46-2022,street,C-3 Road,100
+RR,NBBS Kaunlaran,ALUMAHAN,BANGUS-AGORA,15500.0,DO 46-2022,street,Alumahan Street,97
+RR,NBBS Kaunlaran,APAHAP ST,NORTH BAY BLVD N- NAV RIVER,15500.0,DO 46-2022,street,Apahap Street,100
+RR,NBBS Kaunlaran,DULONG,,15500.0,DO 46-2022,street,Dulong Street,97
+CR,NBBS Kaunlaran,BANGUS ST.,LAPU-LAPU ST - C3,15000.0,DO 46-2022,street,Bangus Street,100
+RR,NBBS Kaunlaran,ALAKAAK ST.,BANGUS-END,9000.0,DO 46-2022,street,Alakaak Street,100
+RR,NBBS Kaunlaran,AYUNGIN ST.,BANGUS-NAVOTAS RIVER,9000.0,DO 46-2022,street,Ayungin Street,100
+RR,NBBS Kaunlaran,BABANSE ST.,LAPU-LAPU AVE-C3,9000.0,DO 46-2022,street,Babanse Street,100
+RR,NBBS Kaunlaran,BAKOKO ST.,BANGUS-END,9000.0,DO 46-2022,street,Bakoko Street,100
+RR,NBBS Kaunlaran,BANAK ST.,BANGUS-END,9000.0,DO 46-2022,street,Banak Street,100
+RR,NBBS Kaunlaran,BARILES ST.,BANGUS-END,9000.0,DO 46-2022,street,Bariles Street,100
+RR,NBBS Kaunlaran,BIDBID ST.,BANGUS-END,9000.0,DO 46-2022,street,Bidbid Street,100
+RR,NBBS Kaunlaran,BISUGO ST.,NAVOTAS RIVER-END,9000.0,DO 46-2022,street,Bisugo Street,100
+RR,NBBS Kaunlaran,BONITO ST.,NAVOTAS RIVER-END,9000.0,DO 46-2022,street,Bonito Street,100
+RR,NBBS Kaunlaran,BUWAN-BUWAN ST.,NAVOTAS RIVER-END,9000.0,DO 46-2022,street,Buwan-Buwan Street,100
+RR,NBBS Kaunlaran,GALUNGGONG,NAVOTAS RIVER - END,9000.0,DO 46-2022,street,Galunggong Street,97
+CR,NBBS Kaunlaran,DAPA,(NEW),22500.0,DO 46-2022,unmatched,Navotas Fishport Complex (15),0
+CR,NBBS Kaunlaran,KAPITBAHAYAN,AYUNGIN - APAHAP,19000.0,DO 46-2022,unmatched,Navotas Fishport Complex (29),0
+RR,NBBS Kaunlaran,DILIS,,15500.0,DO 46-2022,unmatched,Luzon (22),0
+RR,NBBS Kaunlaran,DAPA,BARILLES ST - BANAK ST,12500.0,DO 46-2022,unmatched,Navotas Fishport Complex (15),0
+RR,NBBS Kaunlaran,KAPITBAHAYAN,AYUNGIN - APAHAP,12500.0,DO 46-2022,unmatched,Navotas Fishport Complex (29),0
+RR,NBBS Kaunlaran,BIYA ST.,ALAKAAK-BAKOKO,9000.0,DO 46-2022,unmatched,Navotas Fishport Complex (15),0
+CR,Navotas East,ALL OTHER STREETS,,16000.0,DO 46-2022,background,,0
+RR,Navotas East,ALL OTHER STREETS,,9000.0,DO 46-2022,background,,0
+CR,Navotas East,M. NAVAL,IGNACIO - VARADERO,17500.0,DO 46-2022,segment,M. Naval Street,97
+RR,Navotas East,ESTRELLA,M. NAVAL ST - SAN MARCOS,13500.0,DO 46-2022,segment,Estrella Street,97
+RR,Navotas East,M. NAVAL,IGNACIO - VARADERO,12500.0,DO 46-2022,segment,M. Naval Street,97
+CR,Navotas East,ESTRELLA,M. NAVAL ST - L.R. YANGCO ST.,17500.0,DO 46-2022,street,Estrella Street,97
+CR,Navotas East,ESTRELLA,L.R. YANGCO - NAV-MAL RIVER,17500.0,DO 46-2022,street,Estrella Street,97
+CR,Navotas East,VARADERO,SAN MARCOS - L.R. YANGCO,17500.0,DO 46-2022,street,Varadero Street,97
+RR,Navotas East,ESTRELLA,M. NAVAL ST - L.R. YANGCO ST.,13500.0,DO 46-2022,street,Estrella Street,97
+RR,Navotas East,ESTRELLA,L.R. YANGCO - NAV-MAL RIVER,12500.0,DO 46-2022,street,Estrella Street,97
+RR,Navotas East,SAN MARCOS,VARADERO- BRGY. BOUNDARY,12500.0,DO 46-2022,street,San Marcos Street,97
+RR,Navotas East,VARADERO,SAN MARCOS - L.R. YANGCO,12500.0,DO 46-2022,street,Varadero Street,97
+RR,Navotas East,DAVILLA ST.,SAN MARCOS - L. R. YANGCO,10000.0,DO 46-2022,street,Davila Street,94.73684210526316
+RR,Navotas East,L.R. YANGCO,ESTRELLA - VARADERO,13500.0,DO 46-2022,unmatched,Tanong Bliss Housing (40),0
+RR,Navotas East,H. IGNACIO,M NAVAL - L.R. YANGCO,11000.0,DO 46-2022,unmatched,Tanong Bliss Housing (34),0
+RR,Navotas East,H. MONROY,SAN MARCOS - YANGCO,11000.0,DO 46-2022,unmatched,Luzon (31),0
+RR,Navotas East,L.R. YANGCO,H. IGNACIO ST- ESTRELLA ST,10000.0,DO 46-2022,unmatched,Tanong Bliss Housing (40),0
+CR,Navotas West,ALL OTHER TOWNHOUSES (CCT),(NEW),20000.0,DO 46-2022,background,,0
+RR,Navotas West,ALL OTHER STREETS,,7500.0,DO 46-2022,background,,0
+RR,Navotas West,ESTRELLA,SAN MARCOS - P. CADORNIGA,9000.0,DO 46-2022,segment,Estrella Street,97
+RR,Navotas West,P CADORNIGA,VARADERO - M DE VERA,9000.0,DO 46-2022,segment,P. Cadorniga Street,97
+RR,Navotas West,ESTRELLA,P. CADORNIGA - MLA BAY,9000.0,DO 46-2022,street,Estrella Street,97
+RR,Navotas West,M. DE VERA,P CADORNIGA - PASCUAL,9000.0,DO 46-2022,street,M. de Vera Street,97
+RR,Navotas West,P CADORNIGA,M DE VERA-BRGY BOUNDARY,9000.0,DO 46-2022,street,P. Cadorniga Street,97
+RR,Navotas West,SAN MARCOS,VARADERO-BRGY BOUNDARY,9000.0,DO 46-2022,street,San Marcos Street,97
+RR,Navotas West,DAVILLA,SAN MARCOS - MLA BAY,9000.0,DO 46-2022,unmatched,Luzon (17),0
+RR,Navotas West,H. MONROY (CJN),SAN MARCOS - MLA BAY,9000.0,DO 46-2022,unmatched,Luzon (31),0
+RR,Navotas West,ALONG GOV. PASCUAL STY.,,9000.0,DO 46-2022,unmatched,Luzon (23),0
+CR,North Bay Boulevard North,ALL OTHER STREETS,,12500.0,DO 46-2022,background,,0
+RR,North Bay Boulevard North,ALL OTHER STREETS,,8500.0,DO 46-2022,background,,0
+CR,North Bay Boulevard North,NORTH BAY BLVD,LACSON - LAPU-LAPU,18500.0,DO 46-2022,segment,North Bay Boulevard,100
+RR,North Bay Boulevard North,NORTH BAY BLVD,LACSON - LAPU-LAPU,11500.0,DO 46-2022,segment,North Bay Boulevard,100
+RR,North Bay Boulevard North,DE GUZMAN ST.,LACSON ST - MIGUEL ST.,10000.0,DO 46-2022,segment,De Guzman Streets,97
+RR,North Bay Boulevard North,ESPINA ST.,LACSON ST - MIGUEL ST.,10000.0,DO 46-2022,segment,Espina Street,100
+CR,North Bay Boulevard North,OLD FISHPORT RD.,NORTH BLVD - END,18500.0,DO 46-2022,street,Old Fish Port Road,96.7741935483871
+CR,North Bay Boulevard North,LAPU-LAPU AVE,NORTH BLVD-GATE FISHPORT,17000.0,DO 46-2022,street,Lapu-Lapu Avenue,100
+RR,North Bay Boulevard North,MIGUEL ST.,NORTH BLVD - END,12500.0,DO 46-2022,street,Miguel Street,100
+RR,North Bay Boulevard North,SIOSON ST,LACSON ST- END,10000.0,DO 46-2022,street,Sioson Street,100
+RR,North Bay Boulevard North,LACSON,NORTH BAY BLVD - END,10000.0,DO 46-2022,street,Lacson Street,97
+RR,North Bay Boulevard North,REYES ST.,,10000.0,DO 46-2022,street,Reyes Street,100
+CR,North Bay Boulevard North,PESCADOR2,NORTH BLVD - END,17500.0,DO 46-2022,unmatched,Navotas Fishport Complex (0),0
+RR,North Bay Boulevard North,R-10,PESCADOR- LAPU LAPU,12500.0,DO 46-2022,unmatched,Navotas Fishport Complex (0),0
+RR,North Bay Boulevard North,MEDINA ST.,NORTH BLVD - END,10000.0,DO 46-2022,unmatched,Navotas Fishport Complex (34),0
+RR,North Bay Boulevard North,PESCADOR CALLEJON,NORTH BLVD - END,10000.0,DO 46-2022,unmatched,Navotas Fishport Complex (35),0
+RR,North Bay Boulevard North,PESCADOR2,NORTH BLVD - END,10000.0,DO 46-2022,unmatched,Navotas Fishport Complex (0),0
+CR,San Jose,ALL OTHER STREETS,,17500.0,DO 46-2022,background,,0
+RR,San Jose,ALL OTHER STREETS,,8500.0,DO 46-2022,background,,0
+CR,San Jose,M. NAVAL,P GABRIEL - F. PASCUAL,23000.0,DO 46-2022,segment,M. Naval Street,97
+RR,San Jose,M. NAVAL,P GABRIEL - F. PASCUAL,16500.0,DO 46-2022,segment,M. Naval Street,97
+RR,San Jose,ALING NENA,M. NAVAL-END,13500.0,DO 46-2022,street,Aling Nena Road,97
+RR,San Jose,P. GABRIEL,M NAVAL - G. PASCUAL,13000.0,DO 46-2022,street,P. Gabriel Street,97
+RR,San Jose,BAGONG SILANG,GOV A. PASCUAL- MANILA BAY,12000.0,DO 46-2022,street,Bagong Silang Street,97
+RR,San Jose,E ALONZO,INT. T. GONZALES - F PASCUAL,12000.0,DO 46-2022,street,E. Alonzo Street,97
+RR,San Jose,F. PASCUAL,M. NAVAL - MLA BAY,12000.0,DO 46-2022,street,F. Pascual Street,97
+RR,San Jose,JEWELS,G.PASCUAL-END,12000.0,DO 46-2022,street,Jewels Street,97
+RR,San Jose,LOS MARTIRES,M NAVAL - G. PASCUAL,12000.0,DO 46-2022,street,Los Martires Street,97
+RR,San Jose,P. GABRIEL,G.PASCUAL-MANILA BAY,12000.0,DO 46-2022,street,P. Gabriel Street,97
+RR,San Jose,UNION,G. PASCUAL-END,12000.0,DO 46-2022,street,Union Street,97
+RR,San Jose,DAVID COMPOUND,G. PASCUAL-END,12000.0,DO 46-2022,street,David Compound Road,97
+RR,San Jose,HERNANDEZ COMPOUND,G. PASCUAL-END,12000.0,DO 46-2022,street,Hernandez Compound Road,97
+RR,San Jose,ST. JOSEPH COMPOUND,G. PASCUAL-END,12000.0,DO 46-2022,street,Saint Joseph Compound Road,97
+RR,San Jose,E. TUAZON (CJN),M. NAVAL- MLA. BAY,10000.0,DO 46-2022,street,E. Tuazon Street,97
+RR,San Jose,LITTLE SAMAR,GOV. A. PASCUAL - END,10000.0,DO 46-2022,street,Little Samar Street,97
+RR,San Jose,LOS MARTIRES,G. PASCUAL - MLA BAY,10000.0,DO 46-2022,street,Los Martires Street,97
+RR,San Jose,QUINTOS,M.NAVAL-G.PASCUAL,10000.0,DO 46-2022,street,Quintos Street,97
+RR,San Jose,R.PADILLA,G.PASCUAL-M.NAVAL,10000.0,DO 46-2022,street,R. Padilla Street,97
+RR,San Jose,S.ANDRES,M.NAVAL-END,10000.0,DO 46-2022,street,S. Andres Street,97
+RR,San Jose,SANTILLAN,M.NAVAL-G.PASCUAL,10000.0,DO 46-2022,street,Santillan Street,97
+RR,San Jose,T.GONZALES,M.NAVAL-G.PASCUAL,10000.0,DO 46-2022,street,T. Gonzales Street,97
+RR,San Jose,T.POLICARPIO,M.NAVAL-G.PASCUAL,10000.0,DO 46-2022,street,T. Policarpio Street,97
+RR,San Jose,DOBLE 9,GOV A. PASCUAL-MANILA BAY,12000.0,DO 46-2022,unmatched,Luzon (0),0
+RR,San Jose,E. NAVAL (FERRY 2),M. NAVAL - MAL - NAV RIVER,12000.0,DO 46-2022,unmatched,Luzon (17),0
+RR,San Jose,FERRY NO. 3,NAVAL - MAL - NAV RIVER,12000.0,DO 46-2022,unmatched,Luzon (0),0
+RR,San Jose,G. PASCUAL,P. GABRIEL - F. PASCUAL,12000.0,DO 46-2022,unmatched,Luzon (14),0
+RR,San Jose,CELESTINO,M. NAVAL-END,10000.0,DO 46-2022,unmatched,Luzon (29),0
+RR,San Jose,KAHUNARI,M NAVAL - END,10000.0,DO 46-2022,unmatched,Luzon (31),0
+RR,San Jose,M. POLICARPIO (BAGONG BARRIO),(BAGONG G PASCUAL - MLA BAY,10000.0,DO 46-2022,unmatched,Luzon (24),0
+RR,San Jose,MELCHORA NAVAL,N NAVAL - END,10000.0,DO 46-2022,unmatched,Luzon (32),0
+RR,San Jose,S.POLICARPIO,M.NAVAL,10000.0,DO 46-2022,unmatched,Luzon (24),0
+RR,San Jose,INT.T.GONZALES,GOV.A PASCUAL-END,10000.0,DO 46-2022,unmatched,Luzon (22),0
+CR,San Rafael Village,ALL OTHER STREETS,,20000.0,DO 46-2022,background,,0
+RR,San Rafael Village,ALL OTHER STREETS,,14000.0,DO 46-2022,background,,0
+CR,San Rafael Village,BERNARDO,FRANCISCO-ENCARNACION,21000.0,DO 46-2022,segment,Bernardo Street,97
+CR,San Rafael Village,CATALINA,TALIBA-BENJAMIN ST,21000.0,DO 46-2022,segment,Catalina Street,97
+CR,San Rafael Village,ENCARNACION,TALIBA-SIMEON DE JESUS,21000.0,DO 46-2022,segment,Encarnacion Street,97
+CR,San Rafael Village,KALAKAL,CATALINA-TALIBA,21000.0,DO 46-2022,segment,Kalakal Street,97
+RR,San Rafael Village,KALAKAL,CATALINA-TALIBA,16000.0,DO 46-2022,segment,Kalakal Street,97
+RR,San Rafael Village,RIVERSIDE,FEDERICO-BENJAMIN,16000.0,DO 46-2022,segment,Riverside Street,97
+RR,San Rafael Village,BERNARDO,FRANCISCO-ENCARNACION,15000.0,DO 46-2022,segment,Bernardo Street,97
+RR,San Rafael Village,CAPULONG,TALIBA-KALAKAL,15000.0,DO 46-2022,segment,Capulong Street,97
+RR,San Rafael Village,ENCARNACION,TALIBA-SIMEON DE JESUS,15000.0,DO 46-2022,segment,Encarnacion Street,97
+CR,San Rafael Village,GEN. VICENTE LIM,ENCARNACION-NAV MLA BDRY,25000.0,DO 46-2022,street,General Vicente Lim Street,97
+CR,San Rafael Village,BENJAMIN,ST.LLANES ESCODA ST.-RIVERSIDE,21000.0,DO 46-2022,street,Benjamin Street,97
+CR,San Rafael Village,FEDERICO,ESCODA-Benjamin Street,21000.0,DO 46-2022,street,Federico Street,97
+CR,San Rafael Village,FRANCISCO,Encarnacion St-Nav Mla Bay,21000.0,DO 46-2022,street,Francisco Street,97
+CR,San Rafael Village,R. NICASIO,TALIBA-NAV MLA BDRY,21000.0,DO 46-2022,street,R. Nicasio Street,97
+CR,San Rafael Village,SIMEON DE JESUS,LLANES ESCODA-NAV MLA BDRY,21000.0,DO 46-2022,street,Simeon de Jesus Street,97
+CR,San Rafael Village,TALIBA,J.L. ESCODA-KALAKAL,21000.0,DO 46-2022,street,Taliba Street,97
+RR,San Rafael Village,SIMEON DE JESUS,LLANES ESCODA-NAV MLA BDRY,16000.0,DO 46-2022,street,Simeon de Jesus Street,97
+RR,San Rafael Village,TALIBA,J.L. ESCODA-KALAKAL,16000.0,DO 46-2022,street,Taliba Street,97
+RR,San Rafael Village,BENJAMIN,ST.LLANES ESCODA ST.-RIVERSIDE,15000.0,DO 46-2022,street,Benjamin Street,97
+RR,San Rafael Village,FEDERICO,ESCODA-Benjamin Street,15000.0,DO 46-2022,street,Federico Street,97
+RR,San Rafael Village,FRANCISCO,Encarnacion St-Nav Mla Bay,15000.0,DO 46-2022,street,Francisco Street,97
+RR,San Rafael Village,GEN. VICENTE LIM,ENCARNACION-NAV MLA BDRY,15000.0,DO 46-2022,street,General Vicente Lim Street,97
+CR,San Rafael Village,H. LOPEZ BLVD.,R. NICASIO - MARALA,30000.0,DO 46-2022,unmatched,Paradise Heights (36),0
+CR,San Rafael Village,ESCODA,FEDERICO-NAV. MLA BOUNDARY,25000.0,DO 46-2022,unmatched,Paradise Heights (19),0
+CR,San Rafael Village,JORGE,FRANCISCO - ENCARNACION,21000.0,DO 46-2022,unmatched,Paradise Heights (20),0
+CR,San Rafael Village,MULING PAGSILANG,TALIBA-NAV MLA BDRY,21000.0,DO 46-2022,unmatched,Paradise Heights (39),0
+RR,San Rafael Village,MULING PAGSILANG,TALIBA-NAV MLA BDRY,16000.0,DO 46-2022,unmatched,Paradise Heights (39),0
+RR,San Rafael Village,ROAD 2,TALIBA - KALAKAL,16000.0,DO 46-2022,unmatched,Paradise Heights (0),0
+RR,San Rafael Village,VICENTE,GUILLERMO - ENCARNACION,16000.0,DO 46-2022,unmatched,Paradise Heights (27),0
+RR,San Rafael Village,ESCODA,TALIBA-ROSARIO NICASIO ST.,15000.0,DO 46-2022,unmatched,Paradise Heights (19),0
+RR,San Rafael Village,ESCODA BEND,J.L. ESCODA - J. L. ESCODA,15000.0,DO 46-2022,unmatched,Luzon (25),0
+CR,San Roque,ALL OTHER STREETS,,12000.0,DO 46-2022,background,,0
+RR,San Roque,ALL OTHER STREETS,,7500.0,DO 46-2022,background,,0
+CR,San Roque,M NAVAL,SAN ROQUE - DAANGHARI BD,16500.0,DO 46-2022,street,M. Naval Street,97
+CR,San Roque,MANALAYSAY,M NAVAL - G PASCUAL,16500.0,DO 46-2022,street,Manalaysay Street,97
+RR,San Roque,M NAVAL,SAN ROQUE - DAANGHARI BD,14000.0,DO 46-2022,street,M. Naval Street,97
+RR,San Roque,A DELA CRUZ,M NAVAL - G. PASCUAL,11000.0,DO 46-2022,street,A. Dela Cruz Street,97
+RR,San Roque,A LEONGSON,M NAVAL - G. PASCUAL,11000.0,DO 46-2022,street,A. Leongson Street,97
+RR,San Roque,CHAMPACA,J ROLDAN - END,9000.0,DO 46-2022,street,Champaca Street,97
+RR,San Roque,GUMAMELA,J ROLDAN - END,9000.0,DO 46-2022,street,Gumamela Street,97
+RR,San Roque,MANALAYSAY,M NAVAL - G PASCUAL,9000.0,DO 46-2022,street,Manalaysay Street,97
+RR,San Roque,ROSAL,J ROLDAN - END,9000.0,DO 46-2022,street,Rosal Street,97
+RR,San Roque,SAMPAGUITA,J ROLDAN - END,9000.0,DO 46-2022,street,Sampaguita Street,97
+RR,San Roque,SAMPAGUITA,G.PASCUAL-END,9000.0,DO 46-2022,street,Sampaguita Street,97
+CR,San Roque,MONTE LOYOLA,R.LEONGSON-END,16500.0,DO 46-2022,unmatched,Navotas Residences (36),0
+CR,San Roque,G. A PASCUAL,(NEW),15000.0,DO 46-2022,unmatched,Navotas Residences (30),0
+CR,San Roque,GOLDROCK,GOV. PASCUAL-END,12500.0,DO 46-2022,unmatched,Luzon (31),0
+RR,San Roque,FERRY NO. 4,M NAVAL - END,11000.0,DO 46-2022,unmatched,Lourdes Subdivision (0),0
+RR,San Roque,G. A PASCUAL,SAN ROQUE BDRY - DAANGHARI BDRY,11000.0,DO 46-2022,unmatched,Navotas Residences (30),0
+RR,San Roque,JUDGE ROLDAN,M NAVAL - G. PASCUAL,11000.0,DO 46-2022,unmatched,Fisherman's Village (38),0
+RR,San Roque,A ANGELES,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Navotas Residences (33),0
+RR,San Roque,(A LEONGSON EXTENSION),G.PASCUAL- MANILA BAY (NEW),9000.0,DO 46-2022,unmatched,Navotas Residences (39),0
+RR,San Roque,B. DE ASIS,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Navotas Residences (40),0
+RR,San Roque,CAMIA,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Fisherman's Village (29),0
+RR,San Roque,CAMPUPOT ST,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Luzon (31),0
+RR,San Roque,DAMA DE NOCHE,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Navotas Residences (55),0
+RR,San Roque,EVERLASTING,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Fisherman's Village (40),0
+RR,San Roque,FERRY NO. 5,M NAVAL - END,9000.0,DO 46-2022,unmatched,Lourdes Subdivision (0),0
+RR,San Roque,JUDGE ROLDAN,G.PASCUAL-MLA.BAY,9000.0,DO 46-2022,unmatched,Fisherman's Village (38),0
+RR,San Roque,KAPALARAN,G. PASCUAL - END,9000.0,DO 46-2022,unmatched,Fisherman's Village (33),0
+RR,San Roque,M. CABRERA,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Fisherman's Village (33),0
+RR,San Roque,MONTE LOYOLA,R.LEONGSON-END,9000.0,DO 46-2022,unmatched,Navotas Residences (36),0
+RR,San Roque,P. BUNTAN,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Navotas Residences (33),0
+RR,San Roque,T. GOMEZ,J ROLDAN - END,9000.0,DO 46-2022,unmatched,Lourdes Subdivision (31),0
+CR,Sipac-Almacen,ALL OTHER STREETS,,12500.0,DO 46-2022,background,,0
+RR,Sipac-Almacen,ALL OTHER STREETS,,7000.0,DO 46-2022,background,,0
+CR,Sipac-Almacen,M NAVAL,VARADERO - P GABRIEL,19500.0,DO 46-2022,segment,M. Naval Street,97
+RR,Sipac-Almacen,M NAVAL,VARADERO - P GABRIEL,15000.0,DO 46-2022,segment,M. Naval Street,97
+RR,Sipac-Almacen,P CADORNIGA,VARADERO - M DE VERA (NEW),11000.0,DO 46-2022,segment,P. Cadorniga Street,97
+CR,Sipac-Almacen,A SANTIAGO,M NAVAL - G. PASCUAL,16500.0,DO 46-2022,street,A. Santiago Street,97
+CR,Sipac-Almacen,VARADERO,L.R. YANGCO - P. CADORNIGA (NEW),16000.0,DO 46-2022,street,Varadero Street,97
+RR,Sipac-Almacen,A SANTIAGO,M NAVAL - G. PASCUAL,12000.0,DO 46-2022,street,A. Santiago Street,97
+RR,Sipac-Almacen,P. GABRIEL,G.PASCUAL-MLA BAY,12000.0,DO 46-2022,street,P. Gabriel Street,97
+RR,Sipac-Almacen,VARADERO,L.R. YANGCO - P. CADORNIGA (NEW),12000.0,DO 46-2022,street,Varadero Street,97
+RR,Sipac-Almacen,A SANTIAGO,G.PASCUAL-MLA BAY,11000.0,DO 46-2022,street,A. Santiago Street,97
+RR,Sipac-Almacen,M DE VERA,CADORNIGA - A PASCUAL,11000.0,DO 46-2022,street,M. de Vera Street,97
+RR,Sipac-Almacen,P. GABRIEL,M NAVAL - MLA BAY,11000.0,DO 46-2022,street,P. Gabriel Street,97
+CR,Sipac-Almacen,GOV. PASCUAL,M DE VERA - P GABRIEL,18500.0,DO 46-2022,unmatched,Luzon (12),0
+RR,Sipac-Almacen,GOV. PASCUAL,M DE VERA - P GABRIEL,11000.0,DO 46-2022,unmatched,Luzon (12),0
+RR,Sipac-Almacen,ALL INNER ALLEY AND FOOT PATHS,,8500.0,DO 46-2022,unmatched,Luzon (20),0
+CR,Tangos North,ALL OTHER STREETS,,8500.0,DO 46-2022,background,,0
+RR,Tangos North,ALL OTHER STREETS,,6500.0,DO 46-2022,background,,0
+CR,Tangos North,OLIVEROS,M. NAVAL - END,16000.0,DO 46-2022,street,Oliveros Street,97
+CR,Tangos North,M. NAVAL,FERRY NO. 5 - F PASCUAL,14000.0,DO 46-2022,street,M. Naval Street,97
+RR,Tangos North,M. NAVAL,FERRY NO. 5 - F PASCUAL,13500.0,DO 46-2022,street,M. Naval Street,97
+CR,Tangos North,B. CRUZ,DR A CRUZ - END,10000.0,DO 46-2022,street,B. Cruz Street,97
+CR,Tangos North,DR A CRUZ,M NAVAL - END,10000.0,DO 46-2022,street,A. Cruz Street,97
+CR,Tangos North,J. PASCUAL,M NAVAL - END,10000.0,DO 46-2022,street,J. Pascual Street,97
+RR,Tangos North,OLIVEROS,M. NAVAL - END,10000.0,DO 46-2022,street,Oliveros Street,97
+RR,Tangos North,B. CRUZ,DR A CRUZ - END,7500.0,DO 46-2022,street,B. Cruz Street,97
+RR,Tangos North,BUENAVENTURA,OLIVEROS - END,7500.0,DO 46-2022,street,Buenaventura Street,97
+RR,Tangos North,DR A CRUZ,M NAVAL - END,7500.0,DO 46-2022,street,A. Cruz Street,97
+RR,Tangos North,J. PASCUAL,M NAVAL - END,7500.0,DO 46-2022,street,J. Pascual Street,97
+RR,Tangos North,FERRY NO. 5,M. NAVAL - END,8000.0,DO 46-2022,unmatched,Luzon (0),0
+RR,Tangos North,CASEÑAS,M NAVAL - END,7500.0,DO 46-2022,unmatched,Luzon (18),0
+RR,Tangos North,F. ABLOLA,M NAVAL - END,7500.0,DO 46-2022,unmatched,Luzon (31),0
+RR,Tangos North,M. JOSE,J. PASCUAL - END,7500.0,DO 46-2022,unmatched,Luzon (18),0
+CR,Tangos South,ALL OTHER STREETS,,9000.0,DO 46-2022,background,,0
+RR,Tangos South,ALL OTHER STREETS,,7000.0,DO 46-2022,background,,0
+CR,Tangos South,L SANTOS,MANALAYSAY - F PASCUAL,14000.0,DO 46-2022,segment,L. Santos Street,97
+RR,Tangos South,M. NAVAL,MANALAYSAY ST - F. PASCUAL ST. (NEW),13500.0,DO 46-2022,segment,M. Naval Street,97
+RR,Tangos South,L SANTOS,MANALAYSAY - F PASCUAL,8500.0,DO 46-2022,segment,L. Santos Street,97
+RR,Tangos South,MANALAYSAY ST.,M NAVAL - L SANTOS,8500.0,DO 46-2022,segment,Manalaysay Street,100
+RR,Tangos South,S. ANTONIO,M NAVAL - L SANTOS,8500.0,DO 46-2022,segment,S. Antonio Street,97
+CR,Tangos South,M. NAVAL,(NEW),14000.0,DO 46-2022,street,M. Naval Street,97
+CR,Tangos South,F PASCUAL,L. SANTOS - END,12500.0,DO 46-2022,street,F. Pascual Street,97
+CR,Tangos South,DR A CRUZ,M NAVAL - END,10000.0,DO 46-2022,street,A. Cruz Street,97
+RR,Tangos South,DR A CRUZ,M NAVAL - END,8500.0,DO 46-2022,street,A. Cruz Street,97
+RR,Tangos South,F PASCUAL,L. SANTOS - END,7500.0,DO 46-2022,street,F. Pascual Street,97
+CR,Tangos South,BAGONG KALSADA ST.,DR. A. CRUZ - END (NEW),11000.0,DO 46-2022,unmatched,Luzon (21),0
+RR,Tangos South,BAGONG KALSADA ST.,DR. A. CRUZ - END (NEW),8500.0,DO 46-2022,unmatched,Luzon (21),0
+CR,Tanza 1,ALL OTHER STREETS,,10000.0,DO 46-2022,background,,0
+RR,Tanza 1,ALL OTHER STREETS,,6500.0,DO 46-2022,background,,0
+RR,Tanza 1,TAGUMPAY ST.,TUNAY-END,7500.0,DO 46-2022,street,Tagumpay Street,100
+RR,Tanza 1,TANZA KALIWA,TANZA KALIWA,7500.0,DO 46-2022,street,Tanza Kaliwa Street,97
+CR,Tanza 1,CARVILE SUBD.,CARVILLE SUBD.,11000.0,DO 46-2022,unmatched,Tanza Homes (17),0
+CR,Tanza 1,GABRIEL ST (CAPT.CRUZ),BRIDGE TO FERRY NO. 5,11000.0,DO 46-2022,unmatched,Tanza Homes (29),0
+CR,Tanza 1,MERVILLE SUBD,MERVILLE,11000.0,DO 46-2022,unmatched,Luzon (15),0
+CR,Tanza 1,RODRIGUEZ,DOÑA AURORA - END,11000.0,DO 46-2022,unmatched,Luzon (29),0
+CR,Tanza 1,RODRIGUEZ,NEAR NAVOTAS RIVER INNER PORTION (ALLEY&INT.),11000.0,DO 46-2022,unmatched,Luzon (29),0
+RR,Tanza 1,GABRIEL ST (CAPT.CRUZ),BRIDGE TO FERRY NO. 5,8000.0,DO 46-2022,unmatched,Tanza Homes (29),0
+RR,Tanza 1,MERVILLE SUBD,MERVILLE,8000.0,DO 46-2022,unmatched,Luzon (15),0
+RR,Tanza 1,RODRIGUEZ,FERRY 5 - END,8000.0,DO 46-2022,unmatched,Luzon (29),0
+RR,Tanza 1,CAPT. TICLAO ST.,TAGUMPAY-END,7500.0,DO 46-2022,unmatched,Baytown Homes (33),0
+RR,Tanza 1,CARVILE SUBD.,CARVILLE SUBD.,7500.0,DO 46-2022,unmatched,Tanza Homes (17),0
+RR,Tanza 1,RODRIGUEZ,NEAR NAVOTAS RIVER INNER PORTION (ALLEY&INT.),7500.0,DO 46-2022,unmatched,Luzon (29),0
+RR,Tanza 1,TAHIMIK ST.,TAGUMPAY-END,7500.0,DO 46-2022,unmatched,Tanza Homes (33),0
+CR,Tanza 2,ALL OTHER STREETS,,10000.0,DO 46-2022,background,,0
+RR,Tanza 2,ALL OTHER STREETS,,6500.0,DO 46-2022,background,,0
+CR,Tanza 2,CARVILE SUBD.,CARVILLE SUBD.,11000.0,DO 46-2022,unmatched,Tanza Homes (17),0
+CR,Tanza 2,GABRIEL ST (CAPT.CRUZ),BRIDGE TO TANZA 1 BOUNDARY (NEW),11000.0,DO 46-2022,unmatched,Tanza Homes (29),0
+CR,Tanza 2,MERVILLE SUBD,MERVILLE,11000.0,DO 46-2022,unmatched,Luzon (15),0
+RR,Tanza 2,GABRIEL ST (CAPT.CRUZ),BRIDGE TO TANZA 1 BOUNDARY (NEW),8000.0,DO 46-2022,unmatched,Tanza Homes (29),0
+RR,Tanza 2,MERVILLE SUBD,MERVILLE,8000.0,DO 46-2022,unmatched,Luzon (15),0
+RR,Tanza 2,CARVILE SUBD.,CARVILLE SUBD.,7500.0,DO 46-2022,unmatched,Tanza Homes (17),0

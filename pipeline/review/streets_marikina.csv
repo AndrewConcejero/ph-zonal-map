@@ -1,685 +1,947 @@
-barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
-Barangka,ALL OTHER SUBDIVISION,,6000.0,DO 6-2023,background,,0
-Barangka,ALL OTHER STREETS,,5000.0,DO 6-2023,background,,0
-Barangka,A BONIFACIO AVE,Marcos Highway - Loyola St.,17000.0,DO 6-2023,street,A. Bonifacio Avenue,100
-Barangka,SEMINARY ROAD (Ateneo De Manila),,15000.0,DO 6-2023,street,Seminary Road,100
-Barangka,DON GONZALO PUYAT,,12000.0,DO 6-2023,street,Don Gonzalo Puyat Street,97
-Barangka,HIMLAYANG BAYAN,Along A. Bonifacio,10500.0,DO 6-2023,street,Himlayang Bayan Street,97
-Barangka,PASPASAN ROAD,Gonzalo Puyat to Chorillo,8500.0,DO 6-2023,street,Paspasan Street,97
-Barangka,BERCHMANS,Ateno Housing,7000.0,DO 6-2023,street,Berchmans Street,97
-Barangka,DEGUANGCO,along A. Bonifacio,7000.0,DO 6-2023,street,Deguangco Street,97
-Barangka,KABO PIO,Along A. Bonifacio,7000.0,DO 6-2023,street,Kabo Pio Street,97
-Barangka,KAP SENDONG,Along A. Bonifacio,6500.0,DO 6-2023,street,Kap. Sendong Street,97
-Barangka,KRONE,Urban Bliss,6000.0,DO 6-2023,street,Krone Street,97
-Barangka,ORCHIDS,Along Gonzalo Puyat,6000.0,DO 6-2023,street,Orchid Street,97
-Barangka,GEN JULIAN CRUZ (formerly Chorillo),,5500.0,DO 6-2023,street,General Julian Cruz Street,97
-Barangka,L. CRUZ,Along A. Bonifacio,5500.0,DO 6-2023,street,L. Cruz Street,97
-Barangka,M. CRUZ,Along A. Bonifacio,5500.0,DO 6-2023,street,M. Cruz Street,97
-Barangka,T. JOSEF (T JOSE),along A. Bonifacio,5500.0,DO 6-2023,street,T. Josef Street,97
-Barangka,MAJOR DIZON EXT.,QC TO MARCOS HIGHWAY,20000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (50),0
-Barangka,MERALCO LINE,MARCOS HIGHWAY,15500.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (56),0
-Barangka,YEN,Urban Bliss,8000.0,DO 6-2023,unmatched,Provident Villages (33),0
-Barangka,ATENEO DE MANILA,,7000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (48),0
-Barangka,CHRYSANTHEMUM FORMERLY LOYOLA TENANT / SUBD.,along Don Gonzalo Puyat,7000.0,DO 6-2023,unmatched,Loyola Grand Villas (53),0
-Barangka,D AVELINO,Along A. Bonifacio,7000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (36),0
-Barangka,DINAR (U.B.B.),Urban Bliss,6000.0,DO 6-2023,unmatched,Urban BLISS Barangka (40),0
-Barangka,GIL FERNANDO ST,F. Tuazon,6000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (56),0
-Barangka,TIN R FRANCISCO,along A. Bonifacio,6000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (50),0
-Barangka,F. TUAZON,G. Fernando,5500.0,DO 6-2023,unmatched,La Vista Subdivision (38),0
-Barangka,M. GONZALES,Along A. Bonifacio,5500.0,DO 6-2023,unmatched,Montevista Village (42),0
-Barangka,LOYOLA GRAND VILLAS,part,31000.0,DO 6-2023,village,Loyola Grand Villas,100
-Barangka,ATENEO HOUSING PROJECT,,7000.0,DO 6-2023,village,Ateneo Employees Housing Project,95
-Barangka,DELA COSTA HOUSING,St. Joseph Avenue,7000.0,DO 6-2023,village,De La Costa Housing,100
-Barangka,URBAN BLISS,along Marcos Highway,6000.0,DO 6-2023,village,Urban BLISS Barangka,95
-Calumpang,ALL OTHER SUBDIVISION,,7000.0,DO 6-2023,background,,0
-Calumpang,ALL OTHER STREETS,,6500.0,DO 6-2023,background,,0
-Calumpang,OLD JP RIZAL ST. (FORMERLY TAYUG),MARCOS HIWAY-KAGITINGAN,12500.0,DO 6-2023,segment,Old J. P. Rizal Street,96.7741935483871
-Calumpang,KAUNLARAN,OLD J.P. RIZAL - MARCOS HIGHWAY,10500.0,DO 6-2023,segment,Kaunlaran Street,97
-Calumpang,KAGITINGAN,M.H. DEL PILAR ST. - OLD J.P. RIZAL ST.,8500.0,DO 6-2023,segment,Kagitingan Street,97
-Calumpang,MARCOS HIGHWAY,MARCOS HIWAY-PASIG,25500.0,DO 6-2023,street,Marcos Highway,100
-Calumpang,EVERITE SUBD,Along Marcos Highway,13000.0,DO 6-2023,street,Everite Street,97
-Calumpang,M. H. DEL PILAR,OLD J RIZAL-N ROXAS,11000.0,DO 6-2023,street,M. H. del Pilar Street,97
-Calumpang,TAMBANGAN,Pasig - Marcos Highway,9000.0,DO 6-2023,street,Tambangan Street,97
-Calumpang,TAMBULI,Pasig - Marcos Highway,9000.0,DO 6-2023,street,Tambuli Street,97
-Calumpang,J. M. BASA,KAGITINGAN-N ROXAS,8500.0,DO 6-2023,street,J. M. Basa Street,97
-Calumpang,GEN F SANTOS,J.P. RIZAL ST. - M.H. DEL PILAR,8000.0,DO 6-2023,street,General F. Santos Street,97
-Calumpang,KAIBIGAN,ALONG M.H. DEL PILAR ST.,7500.0,DO 6-2023,street,Kaibigan Street,97
-Calumpang,KALAKHAN,M. H. Del Pilar - Pasig Boundary,7500.0,DO 6-2023,street,Kalakhan Street,97
-Calumpang,KALANTIAO,KAMUMU-N ROXAS,7500.0,DO 6-2023,street,Kalantiao Street,97
-Calumpang,KALBARYO,OLD J P RIZAL-KAGITINGAN,7500.0,DO 6-2023,street,Kalbaryo,100
-Calumpang,KALUPI,M. H. Del Pilar - Pasig Boundary,7500.0,DO 6-2023,street,Kalupi Street,97
-Calumpang,KAMUMU,PRES M ROXAS KALANTIAW,7500.0,DO 6-2023,street,Kamumu Street,97
-Calumpang,KANDILI,M. H. Del Pilar - Pasig Boundary,7500.0,DO 6-2023,street,Kandili Street,97
-Calumpang,KAPWA,J. P. Rizal St.,7500.0,DO 6-2023,street,Kapwa Street,97
-Calumpang,KATIPUNAN ST,M ROXAS-JUSTA,7500.0,DO 6-2023,street,Katipunan Street,100
-Calumpang,CAPITAN TEMYONG,ALONG LIBIS - KALUMPANG,7000.0,DO 6-2023,street,Capitan Temyong Street,97
-Calumpang,FERNANDO AVENUE,ALONG JP RIZAL,6500.0,DO 6-2023,street,Fernando Avenue,100
-Calumpang,JUSTA,KATIPUNAN-N ROXAS,6500.0,DO 6-2023,street,Justa Street,97
-Calumpang,JUSTA,MH DEL PILAR ST. - OLD J.P. RIZAL ST.,6500.0,DO 6-2023,street,Justa Street,97
-Calumpang,J. P. RIZAL ST.,PASIG-M. H. Del Pilar,21000.0,DO 6-2023,unmatched,Industrial Valley Complex (35),0
-Calumpang,SANTOLAN ROAD,PASIG-MARCOS HIWAY,15500.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (38),0
-Calumpang,N. ROXAS,E DELA PAZ-SHOE AVE -Pasig Boundary,13000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (42),0
-Calumpang,TAYUG,PASIG-MAGHIHINTAY,12500.0,DO 6-2023,unmatched,Pasig (40),0
-Calumpang,CALDERON F,(JP RIZAL N ROXAS),11000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (35),0
-Calumpang,GUWE,J M BASA-M ROXAS,9500.0,DO 6-2023,unmatched,Pasig (22),0
-Calumpang,KASI,J M BASA-CALDERON,7500.0,DO 6-2023,unmatched,Pasig (67),0
-Calumpang,LEGASPI,OLD J.P. RIZAL - GEN F. SANTOS,7500.0,DO 6-2023,unmatched,Pasig (50),0
-Calumpang,I. SENGA,M.H. DEL PILAR ST. - M.A. ROXAS EXT.,6500.0,DO 6-2023,unmatched,Pasig (0),0
-Concepcion Dos,ALL OTHER SUBDIVISION,,8500.0,DO 6-2023,background,,0
-Concepcion Dos,ALL OTHER STREETS,,7500.0,DO 6-2023,background,,0
-Concepcion Dos,RAINBOW,LILAC-KATIPUNAN,16000.0,DO 6-2023,segment,Rainbow Street,97
-Concepcion Dos,LILAC ST.,,19000.0,DO 6-2023,street,Lilac Street,100
-Concepcion Dos,PANORAMA,LILAC-ANTIPOLO BOUNDARY,19000.0,DO 6-2023,street,Panorama Street,97
-Concepcion Dos,KATIPUNAN ST,Boundary of Brgy Concepcion Uno & Sto Nino,18000.0,DO 6-2023,street,Katipunan Street,100
-Concepcion Dos,MOLAVE ST (formerly Gen. Ordonez),Katipunan Champagnat - Marikina Heights,16000.0,DO 6-2023,street,General Ordoñez Street,97
-Concepcion Dos,BONANZA,Rancho Estate II,13000.0,DO 6-2023,street,Bonanza Street,97
-Concepcion Dos,CHAMPAGNAT AVENUE,"Rancho IV, Boundary of Marikina Heights",13000.0,DO 6-2023,street,Champagnat Street,97
-Concepcion Dos,RANCHO AVENUE,along Rancho Estate,13000.0,DO 6-2023,street,Rancho Avenue,100
-Concepcion Dos,RUSSET,Rancho Estate II,13000.0,DO 6-2023,street,Russet Street,97
-Concepcion Dos,J M PANGANIBAN,,9000.0,DO 6-2023,street,J. M. Panganiban Street,97
-Concepcion Dos,OLIVE,,9000.0,DO 6-2023,street,Olive Street,97
-Concepcion Dos,PURPLE,SSS Village - I,9000.0,DO 6-2023,street,Purple Street,97
-Concepcion Dos,SAPPHIRE ST,within SSS Village,9000.0,DO 6-2023,street,Sapphire Street,100
-Concepcion Dos,TECSON,,9000.0,DO 6-2023,street,Tecson Street,97
-Concepcion Dos,PIO DEL PILAR,,8500.0,DO 6-2023,street,Pio Del Pilar Street,97
-Concepcion Dos,SCARLET,within SSS Village,8500.0,DO 6-2023,street,Scarlet Street,97
-Concepcion Dos,MAGAT SALAMAT,,8000.0,DO 6-2023,street,Magat Salamat Street,97
-Concepcion Dos,RANCHO ESTATE II,,13000.0,DO 6-2023,unmatched,Zenaida M Subdivision 2 (32),0
-Concepcion Dos,BONITA HOMES,,9000.0,DO 6-2023,unmatched,Balana Townhouses (50),0
-Concepcion Dos,SSS VILLAGE I,,9000.0,DO 6-2023,unmatched,Rancho Estates Phase Ⅰ (31),0
-Concepcion Dos,SSS VILLAGE II,,9000.0,DO 6-2023,unmatched,Zenaida M Subdivision 2 (25),0
-Concepcion Dos,CONCEPCION REALTY,,8500.0,DO 6-2023,unmatched,Saint Dominic (43),0
-Concepcion Dos,HACIENDA HEIGHTS SUBD,,8500.0,DO 6-2023,unmatched,Mansion Hill (44),0
-Concepcion Dos,KAHAGASAN,,8500.0,DO 6-2023,unmatched,Magsilang Compound (56),0
-Concepcion Dos,TAN (INT. TANGERINE),,8500.0,DO 6-2023,unmatched,Tamenggo (55),0
-Concepcion Dos,RANCHO ESTATE I,,13000.0,DO 6-2023,village,Rancho Estates Phase Ⅰ,100
-Concepcion Dos,RANCHO ESTATE III,,13000.0,DO 6-2023,village,Rancho Estates Phase Ⅲ,100
-Concepcion Dos,RANCHO ESTATE IV,,13000.0,DO 6-2023,village,Rancho Estates Phase IV,100
-Concepcion Dos,PANGANIBAN,,9000.0,DO 6-2023,village,Panganiban Compound,100
-Concepcion Dos,RIMVIEW PARK,within SSS Village,9000.0,DO 6-2023,village,Rimview Park,100
-Concepcion Dos,SSS VILLAGE III (ALSO RIMVIEW PARK),,9000.0,DO 6-2023,village,SSS Village 3,100
-Concepcion Uno,ALL OTHER SUBDIVISION,,7500.0,DO 6-2023,background,,0
-Concepcion Uno,ALL OTHER STREETS,,6500.0,DO 6-2023,background,,0
-Concepcion Uno,J. P. RIZAL ST.,MALAYA-KINGSWAY,25500.0,DO 6-2023,segment,J. P. Rizal Street,100
-Concepcion Uno,J. MOLINA (DE),J P Rizal Ave-Katipunan St.,9000.0,DO 6-2023,segment,J. Molina Street,97
-Concepcion Uno,F TORRES,CEPEDA-CANDAZO,7500.0,DO 6-2023,segment,F. Torres Street,97
-Concepcion Uno,BUTIHIN,J P RIZAL-BANTAYOG,7000.0,DO 6-2023,segment,Butihin Street,97
-Concepcion Uno,BAYAN BAYANAN AVE.,Marikina Heights Boundary,21000.0,DO 6-2023,street,Bayan-Bayanan Avenue,100
-Concepcion Uno,KATIPUNAN ST,MOLAVE ST / GEN. ORDOÑEZ,15500.0,DO 6-2023,street,Katipunan Street,100
-Concepcion Uno,MOLAVE ST (formerly Gen. Ordonez),,13000.0,DO 6-2023,street,Molave Street,100
-Concepcion Uno,H BAUTISTA ST,,11000.0,DO 6-2023,street,H. Bautista Street,100
-Concepcion Uno,J. P. RIZAL ST.,interior,11000.0,DO 6-2023,street,J. P. Rizal Street,100
-Concepcion Uno,A DE GUZMAN,J P RIZAL-BANTAYOG,8500.0,DO 6-2023,street,A. de Guzman Street,97
-Concepcion Uno,A DE GUZMAN,B BAYANAN AVE-PARANG,8500.0,DO 6-2023,street,A. de Guzman Street,97
-Concepcion Uno,C. BAUTISTA,along Bayan-Bayanan,8500.0,DO 6-2023,street,C. Bautista Street,97
-Concepcion Uno,CANDAZO,along Concepcion Public Market,8500.0,DO 6-2023,street,Candazo Street,97
-Concepcion Uno,CEPEDA,part of Paliparan,8500.0,DO 6-2023,street,Cepeda Street,97
-Concepcion Uno,GUIZAMA ST,Public Market - J. Molina,8500.0,DO 6-2023,street,Guizama Street,100
-Concepcion Uno,JASMIN ST,,8500.0,DO 6-2023,street,Jasmin Street,100
-Concepcion Uno,L DE GUZMAN,CEPEDA-B BAYANAN AVE,8500.0,DO 6-2023,street,L. de Guzman Street,97
-Concepcion Uno,SHOE AVENUE ( EXT),,8500.0,DO 6-2023,street,Shoe Avenue,100
-Concepcion Uno,SHOE AVENUE ( EXT),B BAYANAN AVE-PARANG,8500.0,DO 6-2023,street,Shoe Avenue,100
-Concepcion Uno,TORRES BUGALLON,,8500.0,DO 6-2023,street,Torres Bugallon Street,97
-Concepcion Uno,BAYANI STREET,,8000.0,DO 6-2023,street,Bayani Street,100
-Concepcion Uno,ABARILLA,,7500.0,DO 6-2023,street,Abarilla Street,97
-Concepcion Uno,BANGKAAN,,7500.0,DO 6-2023,street,Bangkaan Street,97
-Concepcion Uno,BANTAYOG,SHOE AVE-F BALTAZAR,7500.0,DO 6-2023,street,Bantayog Street,97
-Concepcion Uno,BAGONG SILANG - (SHOE AVE. EXT.),,7500.0,DO 6-2023,street,Bagong Silang Street,97
-Concepcion Uno,E SANTOS,,7500.0,DO 6-2023,street,E. Santos Street,97
-Concepcion Uno,EXEQUIEL,,7500.0,DO 6-2023,street,Exequiel Street,97
-Concepcion Uno,F. JOSEF STREET,along J.P. Rizal Ave.,7500.0,DO 6-2023,street,F. Josef I Street,90.9090909090909
-Concepcion Uno,PANGILINAN,,7500.0,DO 6-2023,street,Pangilinan Street,97
-Concepcion Uno,PARAISO ST.,,7500.0,DO 6-2023,street,Paraiso Street,100
-Concepcion Uno,D MARIANO,,7000.0,DO 6-2023,street,D. Mariano Street,97
-Concepcion Uno,M. CRUZ,Bayan-Bayanan,7000.0,DO 6-2023,street,M. Cruz Street,97
-Concepcion Uno,MERCADO COMPOUND,part of Brgy. Sto Nino,7000.0,DO 6-2023,street,Mercado Road,97
-Concepcion Uno,LAPU LAPU FORMERLY GEN MOLINA,JP RIZAL BANGKAAN,11000.0,DO 6-2023,unmatched,La Consolacion Village (47),0
-Concepcion Uno,"FRIENDLY VILL 1,2",,9000.0,DO 6-2023,unmatched,Don Abdon Homes (0),0
-Concepcion Uno,GEN MOLINA FORMERLY LAPU LAPU,BANGKAAN TO G. DEL PILAR,9000.0,DO 6-2023,unmatched,M. E. N. Little Subdivision (44),0
-Concepcion Uno,"GREENHEIGHTS SUBD (1,2)",,9000.0,DO 6-2023,unmatched,Levier Heights (67),0
-Concepcion Uno,PALIPARAN SUBD,,9000.0,DO 6-2023,unmatched,Fairlane (59),0
-Concepcion Uno,E. MANALO AVENUE (formerly E. Rodriguez),EXEQUIEL-B BAYANAN,8500.0,DO 6-2023,unmatched,Balana Townhouses (43),0
-Concepcion Uno,G CRUZ FORMERLY F BALTAZAR,,8500.0,DO 6-2023,unmatched,Balana Townhouses (43),0
-Concepcion Uno,GEN MOLINA FORMERLY LAPU LAPU,G. DEL PILAR TO BALAGTAS,8500.0,DO 6-2023,unmatched,M. E. N. Little Subdivision (44),0
-Concepcion Uno,A RODRIGUEZ SUBD,,7500.0,DO 6-2023,unmatched,Teodora Park (43),0
-Concepcion Uno,A TINIO SUBD (TINIO CMPD),,7500.0,DO 6-2023,unmatched,Twinville (57),0
-Concepcion Uno,AMANG RODRIGUEZ SUBD,,7500.0,DO 6-2023,unmatched,Magolia Compound (45),0
-Concepcion Uno,BETTER HOMES SUBDIVISION,PART,7500.0,DO 6-2023,unmatched,Edge Water Subdivision (50),0
-Concepcion Uno,BULIRAN HOMES FORMERLY BULIRAN ST.,,7500.0,DO 6-2023,unmatched,Balana Townhouses (48),0
-Concepcion Uno,BURGOS PANGILINAN,,7500.0,DO 6-2023,unmatched,Panganiban Compound (54),0
-Concepcion Uno,COL DIVINO,,7500.0,DO 6-2023,unmatched,Cristina Village (44),0
-Concepcion Uno,FARMERS 1,,7500.0,DO 6-2023,unmatched,Saint Claire 1 (45),0
-Concepcion Uno,JOSEF ST,,7500.0,DO 6-2023,unmatched,Jem Subdivision (50),0
-Concepcion Uno,KALAW,,7500.0,DO 6-2023,unmatched,Balana Townhouses (55),0
-Concepcion Uno,LADISLAW DIWA Ave.,along Bayan-Bayanan Ave,7500.0,DO 6-2023,unmatched,La Consolacion Village (44),0
-Concepcion Uno,PORCELANA MARIWASA,,7500.0,DO 6-2023,unmatched,Marquina Squareville (53),0
-Concepcion Uno,R SANTOS,EXEQUIEL-B BAYANAN,7500.0,DO 6-2023,unmatched,Oro Vista (50),0
-Concepcion Uno,ROSITA VILLAGE,,7500.0,DO 6-2023,unmatched,Rositaville (71),0
-Concepcion Uno,SAN ISIDRO VILL 1 & 2,along Bayan-Bayanan Ave.,7500.0,DO 6-2023,unmatched,Don Abdon Homes (0),0
-Concepcion Uno,"ST. CLAIRE SUBD 1,2,3",,7500.0,DO 6-2023,unmatched,Don Abdon Homes (0),0
-Concepcion Uno,WANAMAKER,,7500.0,DO 6-2023,unmatched,Santa Teresita Village (43),0
-Concepcion Uno,ARANETA SUBD,,7000.0,DO 6-2023,unmatched,Fairlane (67),0
-Concepcion Uno,CHERRY COMPOUND,,7000.0,DO 6-2023,unmatched,Palmera Centro (40),0
-Concepcion Uno,E EUSTAQUIO,Along B-Bayanan Ave.,7000.0,DO 6-2023,unmatched,Majestic (42),0
-Concepcion Uno,EMERALD KING FSHER,,7000.0,DO 6-2023,unmatched,Emerald Residences (63),0
-Concepcion Uno,LIBIS Subd / Villages,,7000.0,DO 6-2023,unmatched,Magolia Compound (36),0
-Concepcion Uno,TINIO COMPOUND - TOWNHOUSE,Bayan-Bayanan - Molave St (Gen. Ordonez),7000.0,DO 6-2023,unmatched,Twinville (57),0
-Concepcion Uno,TREVI SUBDIVISION,J. P. Rizal St.,14000.0,DO 6-2023,village,Trevi,100
-Concepcion Uno,ORO VISTA SUBD,,12000.0,DO 6-2023,village,Oro Vista,100
-Concepcion Uno,STRIP 70 SUBD,,9000.0,DO 6-2023,village,Strip 70 Village,100
-Concepcion Uno,DON ABDON SUBDIVISION,GOODRICH VILLAGE,8500.0,DO 6-2023,village,Don Abdon Homes,100
-Concepcion Uno,GOODRICH VILLAGE,,8500.0,DO 6-2023,village,Goodrich Village,100
-Concepcion Uno,GREENFIELD VIEW HOMES,,8500.0,DO 6-2023,village,Greenfield View Subdivision,100
-Concepcion Uno,LA CONSOLACION VILLAGE,part,8500.0,DO 6-2023,village,La Consolacion Village,100
-Concepcion Uno,SUBURBIA EAST SUBD,,8500.0,DO 6-2023,village,Suburbia East,100
-Concepcion Uno,BENEDICTO COMPOUND,,8000.0,DO 6-2023,village,Benedicto Compound,100
-Concepcion Uno,CONCEPCION SUBD,,8000.0,DO 6-2023,village,Concepcion Subdivision,100
-Concepcion Uno,FAIRLANE SUBD,part,8000.0,DO 6-2023,village,Fairlane,100
-Concepcion Uno,COUNTRY SIDE SUBD,,7500.0,DO 6-2023,village,Countryside,100
-Concepcion Uno,CRISTINA SUBD,,7500.0,DO 6-2023,village,Cristina Village,100
-Concepcion Uno,MAJESTIC SUBD,,7500.0,DO 6-2023,village,Majestic,100
-Concepcion Uno,MARIKIT HOMES,,7500.0,DO 6-2023,village,Marikit Subdivision,100
-Concepcion Uno,SIMEONA SUBD.,,7500.0,DO 6-2023,village,Simeona Village,100
-Concepcion Uno,SUMMER HOMES,,7500.0,DO 6-2023,village,Summer Homes,100
-Concepcion Uno,TEODORA PARK SUBD,,7500.0,DO 6-2023,village,Teodora Park,100
-Concepcion Uno,TWINVILLE SUBD,,7000.0,DO 6-2023,village,Twinville,100
-Fortune,ALL OTHER SUBDIVISION,,8000.0,DO 6-2023,background,,0
-Fortune,ALL OTHER STREETS,,6500.0,DO 6-2023,background,,0
-Fortune,TANGUILE ST,Balagtas St - Champaca (Marikina Heights),9000.0,DO 6-2023,segment,Tanguile Street,100
-Fortune,DAMA DE NOCHE ST,Orchids to Champaca (La Colina Subd),8500.0,DO 6-2023,segment,Dama de Noche Street,100
-Fortune,MAGNOLIA ST.,Tanguile - Santan,7500.0,DO 6-2023,segment,Magnolia Street,100
-Fortune,C M RECTO (FORMERLY FORTUNE),,9000.0,DO 6-2023,street,C. M. Recto Street,97
-Fortune,ARMSCOR AVENUE,FORMERLY BALITE DRIVE,8500.0,DO 6-2023,street,Armscor Avenue,100
-Fortune,CHAMPACA STREET,CM Recto - East Drive - Tanguille St,8500.0,DO 6-2023,street,Champaca Street,100
-Fortune,ECHOVILLE SUBDIVISION,Along champaca St.,8500.0,DO 6-2023,street,Echoville Street,97
-Fortune,MODESTA ST,Along Balite,8500.0,DO 6-2023,street,Modesta Street,100
-Fortune,SANTAN STREET,C.M. RECTO TO CHAMPACA,8500.0,DO 6-2023,street,Santan Street,100
-Fortune,AZUCENA,EAST DRIVE TO CHAMPACA,7500.0,DO 6-2023,street,Azucena Street,97
-Fortune,AZUCENA COMPOUND,Along Azucena St.,7500.0,DO 6-2023,street,Azucena Street,97
-Fortune,PLEASANT LANE,Champaca - San Mateo boundary,7500.0,DO 6-2023,street,Pleasant Lane,100
-Fortune,CORNER STONE RESIDENCES,Along champaca St. (CCT),11000.0,DO 6-2023,unmatched,Cornerstone Residences Barangay Fortune (70),0
-Fortune,THE NEST RESIDENCES (Firebird),townhouse (along Champaca),11000.0,DO 6-2023,unmatched,Gentville Residences (73),0
-Fortune,BALAGTAS,C. M. Recto - Tanguile St.,10000.0,DO 6-2023,unmatched,Samaga (62),0
-Fortune,FORTUNE TOBACCO ROAD,Along champaca St.,9000.0,DO 6-2023,unmatched,Fortune Executive Townhomes (54),0
-Fortune,BALITE INDUSTRIAL SITE,,8500.0,DO 6-2023,unmatched,Gentville Residences (44),0
-Fortune,BOYSTOWN COMPLEX,along C. M. Recto,8500.0,DO 6-2023,unmatched,East Drive Townhomes (55),0
-Fortune,EAST DRIVE,SANTAN TO CHAMPACA,8500.0,DO 6-2023,unmatched,The Nest (75),0
-Fortune,EAST DRIVE,TANGUILE TO Santan St.,8500.0,DO 6-2023,unmatched,The Nest (75),0
-Fortune,EMPRESS SUBD,Along champaca St.,8500.0,DO 6-2023,unmatched,Gemstar (43),0
-Fortune,GUEVARRA COMPOUND,Along Santan St.,8500.0,DO 6-2023,unmatched,Gemstar (53),0
-Fortune,HOME POINT VILLAGE,CHAMPACA,8500.0,DO 6-2023,unmatched,Ponte Verde (50),0
-Fortune,LAWAAN ST,Brgy. Parang Boundary,8500.0,DO 6-2023,unmatched,Kawayan Village (77),0
-Fortune,PERMALINE HOMES SUBDIVISION,along East Drive,8500.0,DO 6-2023,unmatched,Riverdale (56),0
-Fortune,RICHTONE VILLAGE,along Champaca St.,8500.0,DO 6-2023,unmatched,Richtoneville (76),0
-Fortune,BONANZA SUBD,along C. M. Recto,8000.0,DO 6-2023,unmatched,Bonanza Horseshoe (58),0
-Fortune,JUANCHO PACHECO COMPOUND,along Santan St.,7500.0,DO 6-2023,unmatched,Burger Machine Housing (43),0
-Fortune,KUI BI COMPD,along Santan St.,7500.0,DO 6-2023,unmatched,Mountain Hills (40),0
-Fortune,MONTEREY PHASE I SUBD,Rolling Hills - part,7500.0,DO 6-2023,unmatched,Home Point Village 1 (59),0
-Fortune,RIVARA'S COMPOUND,Along Santan St.,7500.0,DO 6-2023,unmatched,Riverdale (67),0
-Fortune,SOLID SANTAN HOMES,along Santan St.,7500.0,DO 6-2023,unmatched,St. Scholastica's Village (52),0
-Fortune,SUNNYVILLE SUBD,CHAMPACA EXT.,7500.0,DO 6-2023,unmatched,Sunrise Compound (59),0
-Fortune,"AVENUE DUPLEX COMP. (1,2,3,4)",CHAMPACA EXT.,7000.0,DO 6-2023,unmatched,Duplex Compound (71),0
-Fortune,BAENSVILLE TOWNHOUSES,CHAMPACA,7000.0,DO 6-2023,unmatched,Mariville Compound (63),0
-Fortune,COUNTRYSIDE HOMES,EAST DRIVE,8500.0,DO 6-2023,village,Countryside Homes,100
-Fortune,EL ROSARIO (DEL ROSARIO VILL),Along champaca St.,8500.0,DO 6-2023,village,El Rosario Village,100
-Fortune,GEMSTAR SUBDIVISION,Along champaca St.,8500.0,DO 6-2023,village,Gemstar,100
-Fortune,HILLTOWN RESIDENCES (townhouse),Along champaca St.,8500.0,DO 6-2023,village,Hilltown Residences,100
-Fortune,LA COLINA SUBDIVISION,TANGUILE,8500.0,DO 6-2023,village,La Colina,100
-Fortune,RODEANNA COMPOUND,BALAGTAS St,8500.0,DO 6-2023,village,Rodeanna,100
-Fortune,SAN MIGUEL REALTY,Birmingham Heights,8500.0,DO 6-2023,village,San Miguel,100
-Fortune,BONANZA HORSESHOE SUBD,along C. M. Recto,8000.0,DO 6-2023,village,Bonanza Horseshoe,100
-Fortune,METEOR HOMES,CHAMPACA EXT.,8000.0,DO 6-2023,village,Meteor Homes,100
-Fortune,VILLA GRANDE DRIVE,along Champaca St.,8000.0,DO 6-2023,village,Villa Grande,100
-Fortune,VISTANILA HOMES,AZUCENA St.,8000.0,DO 6-2023,village,Vistanilla Village,94.73684210526316
-Fortune,BAYANIHAN COMPOUND,Along Santan St.,7500.0,DO 6-2023,village,Bayanihan Compound,100
-Fortune,JAVIER COMPOUND,along Santan St.,7500.0,DO 6-2023,village,Javier Compound,100
-Fortune,JULIETA SUBDIVISION,along Santan St.,7500.0,DO 6-2023,village,Julieta Subdivision,100
-Fortune,MONTEREY HILLS,ROLLING HILLS,7500.0,DO 6-2023,village,Monterey Hills,100
-Fortune,MOUNTAIN HILLS,CHAMPACA EXT.,7500.0,DO 6-2023,village,Mountain Hills,100
-Fortune,SARIMANOK COMPOUND,along Santan St.,7500.0,DO 6-2023,village,Sarimanok Compound,100
-Fortune,VICTORY HILLS,CHAMPACA EXT,7500.0,DO 6-2023,village,Victory Hills,100
-Industrial Valley,ALL OTHER SUBDIVISION,,15000.0,DO 6-2023,background,,0
-Industrial Valley,ALL OTHER STREETS,,13000.0,DO 6-2023,background,,0
-Industrial Valley,MARCOS HIGHWAY,,31000.0,DO 6-2023,street,Marcos Highway,100
-Industrial Valley,MAJOR DIZON,MARCOS HIWAY-LAUREL,21000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (50),0
-Industrial Valley,PRES MARCOS,,17000.0,DO 6-2023,unmatched,The Arton by Rockwell (44),0
-Industrial Valley,DON JUAN SUBD (same w/ Pres. Marcos),,15000.0,DO 6-2023,unmatched,Blue Ridge A (41),0
-Industrial Valley,SITIO OLANDES,along FVR road / resettlement,6000.0,DO 6-2023,unmatched,Montevista Village (45),0
-Industrial Valley,CINCO HERMANOS SUBD,,18000.0,DO 6-2023,village,Cinco Hermanos Subdivision,100
-Industrial Valley,MONTE VISTA SUBD,along Major Dizon,18000.0,DO 6-2023,village,Montevista Village,100
-Industrial Valley,INDUSTRIAL VALLEY SUBD,,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Industrial Valley,J A SANTOS / INDUSTRIAL VALLEY SUBD.,PRES ROXAS-QUIRINO,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Industrial Valley,JUSTICE ARELLANO / INDUSTRIAL VALLEY SUBD.,PRES ROXAS-QUIRINO,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Industrial Valley,JUSTICE TUAZON / INDUSTRIAL VALLEY SUBD.,PRES OSMENA-DIZON,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Industrial Valley,PRES E AGUINALDO / INDUSTRIAL VALLEY SUBD.,J P LAUREL-QUIRINO,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Industrial Valley,PRES J P LAUREL / INDUSTRIAL VALLEY SUBD.,DIZON-M L QUEZON,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Industrial Valley,PRES M L QUEZON / INDUSTRIAL VALLEY SUBD.,,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Industrial Valley,PRES M ROXAS / INDUSTRIAL VALLEY SUBD.,J A SANTOS-QUEZON,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Industrial Valley,PRES MAGSAYSAY / INDUSTRIAL VALLEY SUBD.,,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Industrial Valley,PRES QUIRINO / INDUSTRIAL VALLEY SUBD.,J A SANTOS- QUEZON,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Industrial Valley,PRES S OSMENA JR / INDUSTRIAL VALLEY SUBD.,,17000.0,DO 6-2023,village,Industrial Valley Complex,95
-Jesus De La Peña,ALL OTHER SUBDIVISION,,8000.0,DO 6-2023,background,,0
-Jesus De La Peña,ALL OTHER STREETS,,7000.0,DO 6-2023,background,,0
-Jesus De La Peña,A BONIFACIO AVE,ST MARY-MARIKINA BRIDGE,17000.0,DO 6-2023,street,A. Bonifacio Avenue,100
-Jesus De La Peña,LOPEZ JAENA ST,Barangka - J. Dela Pena boundary,10000.0,DO 6-2023,street,Lopez Jaena Street,100
-Jesus De La Peña,A FLORES ST,GEN MALVAR-L JAENA,8500.0,DO 6-2023,street,A. Flores Street,100
-Jesus De La Peña,GEN MALVAR,along Bonifacio Avenue,8500.0,DO 6-2023,street,General Malvar Street,97
-Jesus De La Peña,HALINA ST,L JAENA-A BONIFACIO,8500.0,DO 6-2023,street,Halina Street,100
-Jesus De La Peña,P ZAMORA,GEN MALVAR-BONIFACIO,8500.0,DO 6-2023,street,P. Zamora Street,97
-Jesus De La Peña,RIVERSIDE DRIVE,Provident Village,7500.0,DO 6-2023,street,Riverside Drive,100
-Jesus De La Peña,T. CLAUDIO ST,along A. Bonifacio Ave.,7500.0,DO 6-2023,street,T. Claudio Street,100
-Jesus De La Peña,ST MARY AVE.-PROVIDENT VILL,BONIFACIO-RIVERSIDE,9000.0,DO 6-2023,unmatched,Provident Villages (78),0
-Jesus De La Peña,CAPT. SINDO ST,GEN MALVAR-BONIFACIO,8500.0,DO 6-2023,unmatched,La Vista Subdivision (33),0
-Jesus De La Peña,PROVIDENT VILL,along A. Bonifacio,7500.0,DO 6-2023,village,Provident Villages,100
-Malanday,ALL OTHER SUBD.,,8000.0,DO 6-2023,background,,0
-Malanday,ALL OTHER STREETS,,4500.0,DO 6-2023,background,,0
-Malanday,MAGDALENE,Fatima Drive - Lourdes Drive,9000.0,DO 6-2023,segment,Magdalene Street,97
-Malanday,C MEJIA ST.,MALAYA - J. P. RIZAL ST.,8500.0,DO 6-2023,segment,C. Mejia Street,100
-Malanday,F MENDOZA ST,Malaya St - J.P. Rizal,8500.0,DO 6-2023,segment,F. Mendoza Street,100
-Malanday,RUBY ST.,Diamond St - San Diego Drive,7000.0,DO 6-2023,segment,Ruby Street,100
-Malanday,GRANDVIEW PARK Subd,formerly: PARKLAND ESTATE SUBD,9000.0,DO 6-2023,street,Grandview Park Street,97
-Malanday,LUZON ST,,9000.0,DO 6-2023,street,Luzon Street,100
-Malanday,MALAYA ST,MEJIA / F. MENDOZA,9000.0,DO 6-2023,street,Malaya Street,100
-Malanday,PASONG GOMA ST.,Pasong Goma,9000.0,DO 6-2023,street,Pasong Goma Street,100
-Malanday,RAINBOW DRIVE,PARKLAND SUBDIVISION,9000.0,DO 6-2023,street,Rainbow Drive,100
-Malanday,ROSAL ST,SAMPAGUITA VILLAGE,9000.0,DO 6-2023,street,Rosal Street,100
-Malanday,SAN DIEGO COMPOUND,DIAMOND ST,9000.0,DO 6-2023,street,San Diego Drive,97
-Malanday,SUNNY SQUARE DRIVE,JP RIZAL / GUEVARRA ST,9000.0,DO 6-2023,street,Sunny Square Drive,100
-Malanday,BOUGANVILLA ST.,,7000.0,DO 6-2023,street,Bougainvillea Street,93.33333333333333
-Malanday,G FERNANDO ST,VALENTINO SUBDIVISION,7000.0,DO 6-2023,street,G. Fernando Street,100
-Malanday,GUEVARRA COMPOUND,SAN DIEGO COMPD / JP RIZAL,7000.0,DO 6-2023,street,Guevarra Compound,100
-Malanday,J. P. RIZAL ST.,Interior,7000.0,DO 6-2023,street,J. P. Rizal Street,100
-Malanday,JOCSON ST,along Marikina River,7000.0,DO 6-2023,street,I. Jocson Street,90.0
-Malanday,KABAYANI ST,,7000.0,DO 6-2023,street,Kabayani Road,97
-Malanday,LANGKA ST,PARADISE PUROK II,7000.0,DO 6-2023,street,Langka Street,100
-Malanday,LANZONES ST.,PARADISE PUROK II,7000.0,DO 6-2023,street,Lansones Street,90.9090909090909
-Malanday,NARRA ST,Brgy Tumana Boundary,7000.0,DO 6-2023,street,Narra Street,100
-Malanday,PARADISE,,7000.0,DO 6-2023,street,Paradise Street,97
-Malanday,BULELAK DRIVE,MALAYA - J. P. RIZAL ST.,6500.0,DO 6-2023,street,Bulelak Street,97
-Malanday,ATIS ST,Jocson St. kabayani St.,6000.0,DO 6-2023,street,Atis Street,100
-Malanday,MASIKAP COMPOUND,near Marikina River,5000.0,DO 6-2023,street,Masikap Street,97
-Malanday,"LOYOLA GRAND VILLAS 3,4,& 5",part,31000.0,DO 6-2023,unmatched,La Vista Subdivision (0),0
-Malanday,GOLDEN VALLEY SUBDIVISION,Along J. P. Rizal,9000.0,DO 6-2023,unmatched,Loyola Grand Villas (45),0
-Malanday,LADAO,,9000.0,DO 6-2023,unmatched,La Vista Subdivision (46),0
-Malanday,PARKLAND ESTATE SUBD PAVILLION,Bernador Center,9000.0,DO 6-2023,unmatched,Parkland Estates (62),0
-Malanday,SIASOCO CMPD,ST. RITA / FATIMA DRIVE,9000.0,DO 6-2023,unmatched,Sampaguita Village (35),0
-Malanday,SILVER SPRING PARK,Richwood St - Rainbow Drive,9000.0,DO 6-2023,unmatched,Parkland Estates (46),0
-Malanday,FILIPINAS VILLAGE,"LUZON, VISAYAS AND MINDANAO ST.",8500.0,DO 6-2023,unmatched,La Vista Subdivision (38),0
-Malanday,MBLA COURT,,8000.0,DO 6-2023,unmatched,La Vista Subdivision (44),0
-Malanday,MINAHAN ST.,Malaya St - Narra St,7000.0,DO 6-2023,unmatched,Parkland Estates (40),0
-Malanday,MIRASOL,,7000.0,DO 6-2023,unmatched,Emerald Village (57),0
-Malanday,LIBIS BULELAK,,6000.0,DO 6-2023,unmatched,La Vista Subdivision (40),0
-Malanday,NHA HOUSING,MALAYA,6000.0,DO 6-2023,unmatched,Santa Teresita Village (40),0
-Malanday,LA VISTA SUBD. (SAME AS LGV),,31000.0,DO 6-2023,village,La Vista Subdivision,100
-Malanday,SAMPAGUITA VILLAGE,MALAYA ST / JP RIZAL,9000.0,DO 6-2023,village,Sampaguita Village,100
-Malanday,STA. TERESITA VILLAGE,JP RIZAL / PERPETUAL DRIVE,9000.0,DO 6-2023,village,Santa Teresita Village,92.3076923076923
-Malanday,EMERALD VILLAGE,,8500.0,DO 6-2023,village,Emerald Village,100
-Marikina Heights,ALL OTHER SUBD.,,11000.0,DO 6-2023,background,,0
-Marikina Heights,ALL OTHER STREETS,,9000.0,DO 6-2023,background,,0
-Marikina Heights,BALAGTAS ST.,GEN. ORDONEZ - NARRA,15500.0,DO 6-2023,segment,F. Balagtas Street,91.66666666666666
-Marikina Heights,F BALAGTAS AVE,NARRA-TANGUILE,15500.0,DO 6-2023,segment,F. Balagtas Street,97
-Marikina Heights,IPIL ST,CHAMPAGNAT - P. VALENZUELA,13000.0,DO 6-2023,segment,Ipil Street,100
-Marikina Heights,IPIL ST,CHAMPAGNAT ST - CHAMPACA,13000.0,DO 6-2023,segment,Ipil Street,100
-Marikina Heights,IPIL ST,KATIPUNAN - CHAMPAGNAT,11000.0,DO 6-2023,segment,Ipil Street,100
-Marikina Heights,MALIPAJO,NARRA - CHAMPACA,10500.0,DO 6-2023,segment,Malipajo Street,97
-Marikina Heights,BAYAN BAYANAN AVE,LADISLAO DIWA - GEN. ORDONEZ,26000.0,DO 6-2023,street,Bayan-Bayanan Avenue,100
-Marikina Heights,BAYAN BAYANAN AVE,GEN ORDONEZ - LIWASANG KALAYAAN AVE,21000.0,DO 6-2023,street,Bayan-Bayanan Avenue,100
-Marikina Heights,KATIPUNAN ST.,LIWASANG KALAYAAN-MOLAVE,19000.0,DO 6-2023,street,Katipunan Street,100
-Marikina Heights,CHAMPAGNAT AVE,MOLAVE EAST - MOLAVE WEST,16000.0,DO 6-2023,street,Champagnat Street,97
-Marikina Heights,COCO PALM ST (Palmera Homes),beside Ayala Malls,16000.0,DO 6-2023,street,Coco Palm Street,100
-Marikina Heights,DAO ST,B BAYANAN - WEST DRIVE,16000.0,DO 6-2023,street,Dao Street,100
-Marikina Heights,GEN ORDONEZ ST ( formerly Molave St),BAYAN-BAYANAN AVE - LIWASANG - CHAMPAGNAT,16000.0,DO 6-2023,street,General Ordoñez Street,100
-Marikina Heights,GEN ORDONEZ ST ( formerly Molave St),CHAMPAGNAT - CHAMPACA-EAST DRIVE - WEST DRIVE,16000.0,DO 6-2023,street,General Ordoñez Street,100
-Marikina Heights,NARRA ST,B BAYANAN AVE-MOLAVE,16000.0,DO 6-2023,street,Narra Street,100
-Marikina Heights,LIWASANG KALAYAAN,BAYAN-BAYANAN - T. BUGALLON - EAST DRIVE,15500.0,DO 6-2023,street,Liwasang Kalayaan Street,97
-Marikina Heights,LIWASANG KALAYAAN,BAYAN-BAYANAN - WEST DRIVE - EAST DRIVE,15500.0,DO 6-2023,street,Liwasang Kalayaan Street,97
-Marikina Heights,DR P VALENZUELA ST.,LIWASANG KALAYAAN - LADISLAO DIWA,15000.0,DO 6-2023,street,P. Valenzuela Street,97
-Marikina Heights,CHAMPACA ST,EAST DR - MOLAVE - TANGUILLE,13000.0,DO 6-2023,street,Champaca Street,100
-Marikina Heights,CHAMPAGNAT AVE,MOLAVE - BONANZA,13000.0,DO 6-2023,street,Champagnat Street,97
-Marikina Heights,LADISLAO DIWA,MOLAVE - BAYAN BAYANAN,13000.0,DO 6-2023,street,Ladislao Diwa Street,97
-Marikina Heights,LAKANDULA ST.,LIWASANG KALAYAAN - MOLAVE ST.,13000.0,DO 6-2023,street,Lakandula Street,100
-Marikina Heights,LOPE K SANTOS,LIWASANG KALAYAAN - MOLAVE,13000.0,DO 6-2023,street,Lope K. Santos Street,97
-Marikina Heights,IPIL ST,KATIPUNAN - CHAMPAGNAT - EAST - WEST,11000.0,DO 6-2023,street,Ipil Street,100
-Marikina Heights,TANGUILE ST,F. BALAGTAS - EAST DRIVE - CHAMPACA - APITONG,10500.0,DO 6-2023,street,Tanguile Street,100
-Marikina Heights,APITONG ST,CHAMPAGNAT ST- BALAGTAS,9500.0,DO 6-2023,street,Apitong Street,100
-Marikina Heights,VILLA GRANDE DRIVE,,9500.0,DO 6-2023,street,Villa Grande Drive,100
-Marikina Heights,EAST DRIVE,LIWASANG KALAYAAN - TANGUILE,15500.0,DO 6-2023,unmatched,Eastview Homes (67),0
-Marikina Heights,PALMERA HOMES,ALONG LIWASANG KALAYAAN,15500.0,DO 6-2023,unmatched,Palmera Centro (67),0
-Marikina Heights,WEST DRIVE,LIWASANG KALAYAAN - MOLAVE,13000.0,DO 6-2023,unmatched,Eastview Homes (50),0
-Marikina Heights,T BUGALLON ST,LIWASANG - BAYAN BAYANAN,11000.0,DO 6-2023,unmatched,Balana Townhouses (50),0
-Marikina Heights,HILLTOP COMPOUND,,15500.0,DO 6-2023,village,Hilltop Compound,100
-Marikina Heights,CHAMPACA RESIDENCES,townhouse,13000.0,DO 6-2023,village,Champaca Residences,100
-Marikina Heights,FATIMA DRIVE (La Milagrosa Subd),ALONG MARIST SCHOOL,13000.0,DO 6-2023,village,La Milagrosa Executive Village,95
-Marikina Heights,LA MILAGROSA SUBD,TANGUILE,13000.0,DO 6-2023,village,La Milagrosa Executive Village,95
-Marikina Heights,MARIST VILLAGE,CHAMPAGNAT,11000.0,DO 6-2023,village,Marist Village,100
-Marikina Heights,MARIST ROAD,APITONG - CHAMPAGNAT,10500.0,DO 6-2023,village,Marist Village,100
-Nangka,ALL OTHER SUBD.,,7000.0,DO 6-2023,background,,0
-Nangka,ALL OTHER STREETS,,6000.0,DO 6-2023,background,,0
-Nangka,MABUHAY,MITHI - MAKABAYAN,7000.0,DO 6-2023,segment,Mabuhay Street,97
-Nangka,J. P. RIZAL ST.,Concepcion I - San Mateo Boundary,28000.0,DO 6-2023,street,J. P. Rizal Street,100
-Nangka,DAANG BAKAL,,9000.0,DO 6-2023,street,Daang Bakal Street,97
-Nangka,EDINBURG ST.,PERMALINE HOUSING - GREENLAND SUBD.,9000.0,DO 6-2023,street,Edinburg Street,100
-Nangka,EGYPT ST,J.P. RIZAL ST. - DAANG BAKAL,9000.0,DO 6-2023,street,Egypt Street,100
-Nangka,BAYABAS COMPOUND,,8000.0,DO 6-2023,street,Bayabas Street,97
-Nangka,CONCEPCION ST.,ST. MARY SUBD. - APO ST.,7000.0,DO 6-2023,street,Concepcion Street,100
-Nangka,CRYSTAL ST.,DAANG BAKAL - TWIN RIVER 2,7000.0,DO 6-2023,street,Crystal Street,100
-Nangka,DAMA DE NOCHE ST.,BET. TWINVILLE SUBD. - ST. BENEDICT SUBD.,7000.0,DO 6-2023,street,Dama de Noche Street,100
-Nangka,DESAMPORADOS ST.,ST. MARY SUBD. - APO ST.,7000.0,DO 6-2023,street,Desamporado Street,97
-Nangka,KABAYANI ROAD,,7000.0,DO 6-2023,street,Kabayani Road,100
-Nangka,MABINI ST.,J.P. RIZAL,7000.0,DO 6-2023,street,Mabini Street,100
-Nangka,MAKABAYAN,J.P. RIZAL,7000.0,DO 6-2023,street,Makabayan Street,97
-Nangka,MAKILING ST.,APOL ST. - MARIKINA VILLAGE SUBD.,7000.0,DO 6-2023,street,Makiling Street,100
-Nangka,MARIKIT STREET,J.P. RIZAL - NANGKA RIVER,7000.0,DO 6-2023,street,Marikit Street,100
-Nangka,MILFLORES ST.,BET. TWINVILLE SUBD. - ST. BENEDICT SUBD.,7000.0,DO 6-2023,street,Mil Flores Street,96.0
-Nangka,MIRASOL STREET,J.P. RIZAL,7000.0,DO 6-2023,street,Mirasol Street,100
-Nangka,MITHI,J.P. RIZAL - NANGKA RIVER,7000.0,DO 6-2023,street,Mithi Street,97
-Nangka,ST. BENEDICT SUBD,J.P. RIZAL,7000.0,DO 6-2023,street,Saint Benedict Street,97
-Nangka,BALUBAD ST,NEAR TWIN TOWER I AND PERMALINE HOUSING,6000.0,DO 6-2023,street,Balubad Street,100
-Nangka,BUEN-MAR AVE.,GREENLAND SUBD,9000.0,DO 6-2023,unmatched,Saint Mary (56),0
-Nangka,MARIKINA GREEN HEIGHTS III & IV,"MARIKINA GREENHEIGHTS 3,4,5 J.P. RIZAL",9000.0,DO 6-2023,unmatched,Jem Subdivision (0),0
-Nangka,MARIKINA GREEN HEIGHTS V,,9000.0,DO 6-2023,unmatched,Jem Subdivision (0),0
-Nangka,MARIKINA GREENLAND I & II,J.P. RIZAL,9000.0,DO 6-2023,unmatched,Jem Subdivision (0),0
-Nangka,"CAMACHO Village (1,2)",,8000.0,DO 6-2023,unmatched,Zamora Compound (46),0
-Nangka,DURAVILLE HOMES,,7000.0,DO 6-2023,unmatched,Ateneoville (60),0
-Nangka,ST. MARYS SUBD,KAOLIN TWIN RIVER,7000.0,DO 6-2023,unmatched,Saint Mary (57),0
-Nangka,TWIN RIVER SUBD - I,BESIDES GREENHEIGHTS SUBD.,7000.0,DO 6-2023,unmatched,Greenland Phase 1 (43),0
-Nangka,BAGONG SILANG Nangka Neighborhood,,6500.0,DO 6-2023,unmatched,Greenland Newtown Executive Village (37),0
-Nangka,BALUBAD LOWER,BANGKAL - BANABA,6000.0,DO 6-2023,unmatched,Balubad (70),0
-Nangka,GREENLAND SUBD.,,9000.0,DO 6-2023,village,Greenland Newtown Executive Village,95
-Nangka,HAMPSTEAD PLACE,DEL CARMEN ST-ST MARY SUBD,8000.0,DO 6-2023,village,Hampstead Place,100
-Nangka,ANASTACIA SUBD,,7500.0,DO 6-2023,village,Anastacia Village,100
-Nangka,JAYBEE SUBDIVISION,J.P. RIZAL,7500.0,DO 6-2023,village,Jaybee Village,100
-Nangka,ATENEO VILLE,J.P. RIZAL,7000.0,DO 6-2023,village,Ateneoville,100
-Nangka,MARIKINA VILLAGE,along Twin River,7000.0,DO 6-2023,village,Marikina Village,100
-Nangka,MIRA VERDE SUBD,TWIN RIVER,7000.0,DO 6-2023,village,Mira Verde,100
-Nangka,PERMALINE HOMES,J.P. RIZAL,7000.0,DO 6-2023,village,Permaline Homes,100
-Nangka,TIERRA VISTA SUBD,TWIN RIVER,7000.0,DO 6-2023,village,Tierra Vista Heights,95
-Nangka,TWIN VILLE (HOMESITE),J. P. RIZAL,7000.0,DO 6-2023,village,Twinville,100
-Nangka,BALUBAD UPPER Settlement,KABAYANI ROAD,6000.0,DO 6-2023,village,Balubad Settlements,85.71428571428572
-Parang,ALL OTHER SUBD.,,8500.0,DO 6-2023,background,,0
-Parang,ALL OTHER STREETS,,5500.0,DO 6-2023,background,,0
-Parang,BAGONG SILANG,BANGKAAN-CINNABAR,9000.0,DO 6-2023,segment,Bagong Silang Street,97
-Parang,BURGOS ST.,SUMULONG ST - P. PATERNO ST.,9000.0,DO 6-2023,segment,P. Burgos Street,90.0
-Parang,DAGOHOY ST.,G. DEL PILAR TO JUAN LUNA,8500.0,DO 6-2023,segment,Dagohoy Street,100
-Parang,PARALUMAN ST,PARAISO - C M RECTO,8500.0,DO 6-2023,segment,Paraluman Street,100
-Parang,J. CRUZ,CALCITE TO TANDANG SORA,6500.0,DO 6-2023,segment,J. Cruz Street,97
-Parang,MOLAVE ST (formerly Gen. Ordonez),HEN LLANERA (Cacharel) - BALAGTAS,15500.0,DO 6-2023,street,General Ordoñez Street,97
-Parang,F BALAGTAS AVE.,MOLAVE - C. M. recto,12000.0,DO 6-2023,street,F. Balagtas Street,97
-Parang,TANDANG SORA ST,M. TUASON TO JUAN LUNA,10000.0,DO 6-2023,street,Tandang Sora Street,100
-Parang,A DE GUZMAN,A DE GUZMAN CREEK TO PARALUMAN,9000.0,DO 6-2023,street,A. de Guzman Street,97
-Parang,AQUARIUS ST.,NEAR LA CONSOLACION\,9000.0,DO 6-2023,street,Aquarius Street,100
-Parang,C M RECTO ST,PARALUMAN-BALAGTAS,9000.0,DO 6-2023,street,C. M. Recto Street,100
-Parang,CAPRICORN ST.,NEAR LA CONSOLACION\,9000.0,DO 6-2023,street,Capricorn Street,100
-Parang,GEMINI ST.,NEAR LA CONSOLACION,9000.0,DO 6-2023,street,Gemini Street,100
-Parang,LAKANDULA ST,PARALUMAN - RODRIGUEZ,9000.0,DO 6-2023,street,Lakandula Street,100
-Parang,LAKANDULA ST,BANGKAAN - F. BALAGTAS,9000.0,DO 6-2023,street,Lakandula Street,100
-Parang,M L QUEZON,COR QUIRINO RIVERDALE SUBD,9000.0,DO 6-2023,street,M. L. Quezon Street,97
-Parang,PISCES ST.,NEAR LA CONSOLACION,9000.0,DO 6-2023,street,Pisces Street,100
-Parang,SAGITARIUS ST.,NEAR LA CONSOLACION,9000.0,DO 6-2023,street,Saguittarius Street,92.85714285714286
-Parang,SUMULONG,E. RODRIGUEZ TO G. DEL PILAR,9000.0,DO 6-2023,street,Sumulong Street,97
-Parang,DIEGO SILANG ST.,J LUNA - G DEL PILAR,8500.0,DO 6-2023,street,Diego Silang Street,100
-Parang,DONA AURORA ST.,PARALUMAN - RODRIGUEZ,8500.0,DO 6-2023,street,Doña Aurora Street,100
-Parang,E RODRIGUEZ ST.,C M RECTO - LAPU-LAPU,8500.0,DO 6-2023,street,E. Rodriguez Street,100
-Parang,G DEL PILAR,MOLAVE - KAOLIN,8500.0,DO 6-2023,street,G. del Pilar Street,97
-Parang,GEN MENEZ,MOLAVE - PARAISO,8500.0,DO 6-2023,street,General Meñez Street,97
-Parang,MH DEL PILAR ST,,8500.0,DO 6-2023,street,M. H. del Pilar Street,96.7741935483871
-Parang,PALARIS,,8500.0,DO 6-2023,street,Palaris Street,97
-Parang,PANDAY PIRA,LAPU-LAPU PARAISO,8500.0,DO 6-2023,street,Panday Pira Street,97
-Parang,R. PALMA ST,M. TUASON TO J. CRUZ,8500.0,DO 6-2023,street,R. Palma Street,100
-Parang,RAHA SOLIMAN ST,J LUNA - M TUAZON,8500.0,DO 6-2023,street,Rajah Soliman Street,90.32258064516128
-Parang,MANACOP ST,SUMULONG TO P. PATERINO,8000.0,DO 6-2023,street,Mañacop Street,100
-Parang,PILAPIL,LAPU-LAPU PARAISO,8000.0,DO 6-2023,street,Pilapil Street,97
-Parang,ZAMORA,E. RODRIGUEZ,8000.0,DO 6-2023,street,Zamora Street,97
-Parang,GOMEZ ST.,E. RODRIGUEZ,7500.0,DO 6-2023,street,Gomez Street,100
-Parang,M TUAZON ST,,7500.0,DO 6-2023,street,M. Tuazon Street,100
-Parang,ARAYAT ST.,,7000.0,DO 6-2023,street,Arayat Street,100
-Parang,B. SANCHEZ ST.,TANGUILE - BALAGTAS,7000.0,DO 6-2023,street,Sanchez Street,90.9090909090909
-Parang,CALCITE ST.,CALCITE - NABAR ST.,7000.0,DO 6-2023,street,Calcite Street,100
-Parang,GRANITE ST.,CALCITE - NABAR ST.,7000.0,DO 6-2023,street,Granite Street,100
-Parang,GRAPHITE ST.,CALCITE - NABAR ST.,7000.0,DO 6-2023,street,Graphite Street,100
-Parang,PARNASO,LAPU-LAPU PARAISO,7000.0,DO 6-2023,street,Parnaso Street,97
-Parang,LOPEZ JAENA,,6500.0,DO 6-2023,street,Lopez Jaena Street,97
-Parang,BALAGTAS,"part of Parang, Fortune. Marikina Heights",12000.0,DO 6-2023,unmatched,Samaga (62),0
-Parang,GEN MOLINA,,10000.0,DO 6-2023,unmatched,Gardenia Homes (56),0
-Parang,MARIKINA GREENHEIGHTS,,9000.0,DO 6-2023,unmatched,Marikina Village (57),0
-Parang,GEN. NUESTRA ST.,MISEVILLA - AQUARIUS ST.,8500.0,DO 6-2023,unmatched,Julieta Subdivision (44),0
-Parang,HEN. LLANERA,MOLAVE - PARAISO,8500.0,DO 6-2023,unmatched,Levier Heights (50),0
-Parang,J LUNA ST,C M RECTO - ESTATE,8500.0,DO 6-2023,unmatched,Julieta Subdivision (46),0
-Parang,LAWAAN ST,,8500.0,DO 6-2023,unmatched,Samaga (50),0
-Parang,PARANG SUBD I & II,,8500.0,DO 6-2023,unmatched,Simeona Village (0),0
-Parang,SANTAN ST.,"Part of Fortune, Marikina Heights",8500.0,DO 6-2023,unmatched,Saint Mary (62),0
-Parang,MAGSAYSAY,G DEL PILAR - BALAGTAS,8000.0,DO 6-2023,unmatched,Samaga (53),0
-Parang,MANUEL L QUEZON ST,PARALUMAN - RODRIGUEZ,8000.0,DO 6-2023,unmatched,Ateneoville (46),0
-Parang,PATERNO,G DEL PILAR - M TUAZON,8000.0,DO 6-2023,unmatched,Ateneoville (56),0
-Parang,A TINIO SUBD.,,7500.0,DO 6-2023,unmatched,La Consolacion Village (48),0
-Parang,CHAMPACA STREET,C M RECTO-TANGUILE,7000.0,DO 6-2023,unmatched,Samaga (57),0
-Parang,D. LOPEZ,LAPU-LAPU,7000.0,DO 6-2023,unmatched,Ramdale Homes (43),0
-Parang,CYNABAR ST.,TWIN RIVER - BASALT,7000.0,DO 6-2023,unmatched,La Consolacion Village (38),0
-Parang,PINKIAN,LAPU-LAPU PARAISO,7000.0,DO 6-2023,unmatched,Marikina Village (53),0
-Parang,QUARTS ST.,CALCITE - NABAR ST.,7000.0,DO 6-2023,unmatched,Squibman Subdivision (46),0
-Parang,TWIN RIVER SUBD 2,G. DEL PILAR,7000.0,DO 6-2023,unmatched,Levier 2 Townhomes (62),0
-Parang,RIVERSIDE VIEW (RELOCATION),part of Nangka,6500.0,DO 6-2023,unmatched,Riverdale (61),0
-Parang,SUNNYVILLE 1 & 2 (PART OF FORTUNE),,6000.0,DO 6-2023,unmatched,Fortune Executive Townhomes (47),0
-Parang,LA CONSOLACION VILL (CONSOLACION VILL),GEN ORDOÑEZ,9000.0,DO 6-2023,village,La Consolacion Village,100
-Parang,RIVERDALE SUBD.,part,9000.0,DO 6-2023,village,Riverdale,100
-Parang,JEM SUBD,C.M. RECTO TO BAGONG SILANG,8500.0,DO 6-2023,village,Jem Subdivision,100
-Parang,MISEVILLA ST.,,8500.0,DO 6-2023,village,Sevilla Homes,87.5
-Parang,VICTORIA COMPOUND,LAPU-LAPU,8500.0,DO 6-2023,village,Victoria Compound,100
-Parang,ROSITAVILLE,,7500.0,DO 6-2023,village,Rositaville,100
-Parang,ANNADEL'S SUBD,M. TUAZON,7000.0,DO 6-2023,village,Annadels,100
-Parang,JULIETA SUBD,TANGUILE - B. SANCHEZ,7000.0,DO 6-2023,village,Julieta Subdivision,100
-Parang,SQUIBMAN SUBD,R MATANDA-G DEL PILAR,7000.0,DO 6-2023,village,Squibman Subdivision,100
-San Roque,ALL OTHER SUBD,,12000.0,DO 6-2023,background,,0
-San Roque,ALL OTHER STREETS,,7500.0,DO 6-2023,background,,0
-San Roque,BANGKILYA ST,DRAGON ST. -DITCHOY ST.,13000.0,DO 6-2023,segment,Bangkilya Street,100
-San Roque,V. GOMEZ,J. P. RIZAL - Shoe Avenue,22000.0,DO 6-2023,street,V. Gomez Street,97
-San Roque,MA. ROXAS ST.,J P RIZAL- H. ROXAS,16500.0,DO 6-2023,street,M. A. Roxas Street,95.65217391304348
-San Roque,ALMOND NUT ST.,Walnut St - Gil Fernando - near Marcos Highway,13000.0,DO 6-2023,street,Almond Nut Street,100
-San Roque,BETEL NUT ST.,Marikina East,13000.0,DO 6-2023,street,Betel Nut Street,100
-San Roque,CYPRESS ST.,NEW MARIKINA SUBD,13000.0,DO 6-2023,street,Cypress Street,100
-San Roque,DASDASAN ST.,Midtown Subd- DRAGON ST. - MARCOS HIGHWAY,13000.0,DO 6-2023,street,Dasdasan Street,100
-San Roque,DITCHOY ST.,Midtown Subd ( Dragon St - Marcos Highway),13000.0,DO 6-2023,street,Ditchoy Street,100
-San Roque,DONA PRIETO,along Diego Silang,13000.0,DO 6-2023,street,Dona Prieto Street,97
-San Roque,DRAGON ST,Midtown Subd - near Marcos Highway / Gil Fernando,13000.0,DO 6-2023,street,Dragon Street,100
-San Roque,E DELA PAZ,J P RIZAL-P DIGUANGCO,13000.0,DO 6-2023,street,E. Dela Paz Street,97
-San Roque,EAGLE ST,New Marikina Subd. -P. DIGUANGCO ST - MAPLE ST.,13000.0,DO 6-2023,street,Eagle Street,100
-San Roque,ELM ST.,New Marikina Subd.,13000.0,DO 6-2023,street,Elm Street,100
-San Roque,ESTRADOR,Midtown Subd.,13000.0,DO 6-2023,street,Estrador Street,97
-San Roque,FALCON ST.,New Marikina Subd,13000.0,DO 6-2023,street,Falcon Street,100
-San Roque,FLAMINGO ST,New Marikina Subd,13000.0,DO 6-2023,street,Flamingo Street,100
-San Roque,GUNTING ST.,MIIDTOWN 2 SUBD,13000.0,DO 6-2023,street,Gunting Street,100
-San Roque,H. ROXAS ST.,J. P. Rizal St - Walnut St.,13000.0,DO 6-2023,street,H. Roxas Street,100
-San Roque,HAZEL NUT ST.,Marikina East - near Gil Fernando Ave.,13000.0,DO 6-2023,street,Hazel Nut Street,100
-San Roque,LIAMZON ST. (Midtown Subd.),MIDTOWN 1 & 3,13000.0,DO 6-2023,street,Liamzon Street,100
-San Roque,MAPLE ST. ( Bacolod St),New Marikina Subd (Walnut St - Gil Fernando Ave.),13000.0,DO 6-2023,street,Bacolod Street,100
-San Roque,MARTILYO ST. (Midtown II),MIDTOWN II,13000.0,DO 6-2023,street,Martilyo Street,100
-San Roque,PAMBULI ST.,MIDTOWN 1 & 3,13000.0,DO 6-2023,street,Pambuli Street,100
-San Roque,PANAPIK ST.,MIDTOWN 3,13000.0,DO 6-2023,street,Panapik Street,100
-San Roque,PANGUSTURA ST.,MIDTOWN 3,13000.0,DO 6-2023,street,Pangustora Street,92.3076923076923
-San Roque,PICADOR ST.,MIDTOWN 1,13000.0,DO 6-2023,street,Pikador Street,90.0
-San Roque,PILI NUT ST,MARIKINA EAST,13000.0,DO 6-2023,street,Pili Nut Street,100
-San Roque,PINE ST.,NEW MARIKINA SUBD.,13000.0,DO 6-2023,street,Pine Street,100
-San Roque,PITPITAN ST,MIDTOWN 2,13000.0,DO 6-2023,street,Pitpitan Street,100
-San Roque,PUREFOODS ROAD,J P RIZAL ST.,13000.0,DO 6-2023,street,Purefoods Road,100
-San Roque,RED CEDAR ST.,NEW MARIKINA SUBD.,13000.0,DO 6-2023,street,Red Cedar Street,100
-San Roque,REDWOOD ST.,NEW MARIKINA SUBD.,13000.0,DO 6-2023,street,Redwood Street,100
-San Roque,SHOE AVE (formerly Munding Ave.),I. Mendoza - Pasig Boundary,13000.0,DO 6-2023,street,Shoe Avenue,100
-San Roque,TAGISAN ST.,MIDTOWN 3,13000.0,DO 6-2023,street,Tagisan,97
-San Roque,WALNUT ST.,NEW MARIKINA SUBD,13000.0,DO 6-2023,street,Walnut Street,100
-San Roque,QUIRINO DE GUZMAN,PUREFOODS ROAD - J.P. RIZAL,12000.0,DO 6-2023,street,Quirino de Guzman Street,97
-San Roque,A MABINI ST.,V GOMEZ - J. P. RIZAL ST.,11000.0,DO 6-2023,street,A. Mabini Street,100
-San Roque,CHESTNUT,Walnut St - Gil Fernando Ave,11000.0,DO 6-2023,street,Chestnut Street,97
-San Roque,DIEGO SILANG ST,N. Roxas St. - B. Sta Ana St.,11000.0,DO 6-2023,street,Diego Silang Street,100
-San Roque,IGNACIO CRUZ,Diego Silang Munding De Guzman Ave.,11000.0,DO 6-2023,street,Ignacio Cruz Street,97
-San Roque,M. PRIETO,along Diego Silang,11000.0,DO 6-2023,street,M. Prieto Street,97
-San Roque,SANTISIMO ST,PRES ROXAS - MUNDING DE GUZMAN,11000.0,DO 6-2023,street,Santisimo Street,100
-San Roque,JUSTA,,9000.0,DO 6-2023,street,Justa Street,97
-San Roque,D VICTORINO,J P RIZAL - MUNDING DE GUZMAN AVE,8000.0,DO 6-2023,street,D. Victorino Street,97
-San Roque,GIL FERNANDO AVE,Sta Elena Boundary. - MARCOS HIWAY,27000.0,DO 6-2023,unmatched,Emerald Valley Homes (46),0
-San Roque,J. P. RIZAL ST.,E DELA PAZ- P DIGUANGCO,21000.0,DO 6-2023,unmatched,Signal Corps (40),0
-San Roque,F. PAZ,V. Gomez - I. Mendoza St. - W Paz,13000.0,DO 6-2023,unmatched,Pasig (40),0
-San Roque,J A SANTOS ST.,M. Roxas - Munding De Guzman Ave.,13000.0,DO 6-2023,unmatched,Salvador Compound (35),0
-San Roque,MARIKINA EAST SUBD,SAME VICINITIES,13000.0,DO 6-2023,unmatched,Signal Corps (42),0
-San Roque,MIDTOWN MRKNA SUBD - I,Marcos Highway - Calumpang,13000.0,DO 6-2023,unmatched,Pasig (0),0
-San Roque,MIDTOWN MRKNA SUBD - II & III,Marcos Highway - Cainta Boundary,13000.0,DO 6-2023,unmatched,Pasig (0),0
-San Roque,MUNDING DE GUZMAN,I. MENDOZA - PASIG BOUNDARY,13000.0,DO 6-2023,unmatched,Mount View Village (37),0
-San Roque,N. ROXAS,"E, Dela Paz St - Pasig Boundary",13000.0,DO 6-2023,unmatched,Royal Ville (35),0
-San Roque,NEW MARIKINA SUBD,S & R - Gil Fernando,13000.0,DO 6-2023,unmatched,Mount View Village (45),0
-San Roque,B. STA. ANA ST.,MUNDING DE GUZMAN- J. P. RIZAL ST.,13000.0,DO 6-2023,unmatched,Francesca Homes (44),0
-San Roque,B. STA. ANA ST.,Gil Fernando- MUNDING DE GUZMAN AVE,13000.0,DO 6-2023,unmatched,Francesca Homes (44),0
-San Roque,YAMSON,SHOE AVE,13000.0,DO 6-2023,unmatched,Mount View Village (38),0
-San Roque,CAPT MIYONG,MUNDING DE GUZMAN AVE. - J.A. SANTOS,11000.0,DO 6-2023,unmatched,Pasig (38),0
-San Roque,I MENDOZA,J P RIZAL - MUNDING DE GUZMAN AVE.,11000.0,DO 6-2023,unmatched,Pasig (0),0
-San Roque,B. STA. ANA ST.,MARIKINA EAST,11000.0,DO 6-2023,unmatched,Francesca Homes (44),0
-San Roque,P. DIGUANGCO ST,,10000.0,DO 6-2023,unmatched,Pasig (38),0
-San Roque,MOUNTAIN VIEW VILLAGE,part of Sta Elena,12000.0,DO 6-2023,village,Mount View Village,86.95652173913044
-Santa Elena,ALL OTHER SUBD.,,12000.0,DO 6-2023,background,,0
-Santa Elena,ALL OTHER STREETS,,11000.0,DO 6-2023,background,,0
-Santa Elena,SHOE AVE,W.P/V. GOMEZ/SUMULONG HIGHWAY,26500.0,DO 6-2023,street,Shoe Avenue,100
-Santa Elena,E JACINTO,P DELA PAZ - W DELA PAZ,16500.0,DO 6-2023,street,E. Jacinto Street,97
-Santa Elena,E. DELA PAZ,W. PAZ,16500.0,DO 6-2023,street,E. Dela Paz Street,97
-Santa Elena,FLAMINGO ST.,along Lark St.,16500.0,DO 6-2023,street,Flamingo Street,100
-Santa Elena,JACAMAR ST.,Flamingo St.- Public Mrket,16500.0,DO 6-2023,street,Jacamar Street,100
-Santa Elena,LARK ST.,Gil Fernando - Macdonald Ave.,16500.0,DO 6-2023,street,Lark Street,100
-Santa Elena,M CRUZ,KAPT. MOY- Public Market,16500.0,DO 6-2023,street,M. Cruz Street,97
-Santa Elena,M CRUZ,KAPT. MOY - W. PAZ,16500.0,DO 6-2023,street,M. Cruz Street,97
-Santa Elena,FLORENCIO PAZ,W DELA PAZ - V GOMEZ,13500.0,DO 6-2023,street,Florencio Paz Street,97
-Santa Elena,C. CRUZ,,12000.0,DO 6-2023,street,C. Cruz Street,97
-Santa Elena,DEGUANGCO,C. CRUZ,12000.0,DO 6-2023,street,Deguangco Street,97
-Santa Elena,M. CARLOS,P. DANCEL,12000.0,DO 6-2023,street,M. Carlos Street,97
-Santa Elena,S. DANCEL,,12000.0,DO 6-2023,street,S. Dancel Street,97
-Santa Elena,GIL FERNANDO AVE,FLAMINGO STREET / SUMULONG - HIGHWAY,27000.0,DO 6-2023,unmatched,Royal Ville (43),0
-Santa Elena,J. P. RIZAL ST.,,27000.0,DO 6-2023,unmatched,Tropicana Garden City (33),0
-Santa Elena,W DELA PAZ (W. PAZ),J P RIZAL-SHOE AVE/ Public Market,22000.0,DO 6-2023,unmatched,Adelina Homes (47),0
-Santa Elena,P. BURGOS,P DELA PAZ - PUBLIC MARKET,16500.0,DO 6-2023,unmatched,Provident Villages (38),0
-Santa Elena,NEW MARIKINA SUBD,J. CHANYUNGCO / MAPLE G. FERNANDO,13000.0,DO 6-2023,unmatched,Marquinton Residences (50),0
-Santa Elena,A. DANCEL-KAP. ANTONIO SANTOS (Alley),KAPT MOY-W PAZ,12000.0,DO 6-2023,unmatched,Royal Ville (50),0
-Santa Elena,CAPT CELSO MENDOZA ( P. Dancel),,12000.0,DO 6-2023,unmatched,Francesca Homes (47),0
-Santa Elena,DARIO ST.,along Kapitan Moy,12000.0,DO 6-2023,unmatched,Adelina Homes (33),0
-Santa Elena,KAP. ANTONIO SANTOS (A. DANCEL) (Alley),MOY - P DELA PAZ,12000.0,DO 6-2023,unmatched,Adelina Homes (53),0
-Santa Elena,KAP. HERMINIO SIASOCO,fomerly ZAPATERO,12000.0,DO 6-2023,unmatched,Marquinton Residences (45),0
-Santa Elena,KAPITAN HERMINIO SIASOCO FORMERLY SAPATERO,C. CRUZ,12000.0,DO 6-2023,unmatched,Marquinton Residences (38),0
-Santa Elena,SIXTO DELA PAZ,M. CRUZ,12000.0,DO 6-2023,unmatched,Adelina Homes (38),0
-Santa Elena,STA. INEZ,J. P. Rizal / Pulic Market,12000.0,DO 6-2023,unmatched,Francesca Homes (47),0
-Santa Elena,MOUNTAIN VIEW SUBD.,G. FERNANDO / MT. EVEREST,12000.0,DO 6-2023,village,Mount View Village,86.95652173913044
-Santa Elena,ROYALVILLE,DE GUANGCO,12000.0,DO 6-2023,village,Royal Ville,100
-Santo Niño,ALL OTHER STREETS,,7000.0,DO 6-2023,background,,0
-Santo Niño,ALL OTHER SUBD.,,7000.0,DO 6-2023,background,,0
-Santo Niño,SUMULONG HIGHWAY,J P RIZAL - GIL FERNANDO,32000.0,DO 6-2023,street,Sumulong Highway,100
-Santo Niño,SUMULONG HIGHWAY,Gil Fernando - Cainta Boundary,27500.0,DO 6-2023,street,Sumulong Highway,100
-Santo Niño,J. P. RIZAL ST.,P.ANTONIO-DIAMOND ST.,22000.0,DO 6-2023,street,J. P. Rizal Street,100
-Santo Niño,KATIPUNAN ST,,21000.0,DO 6-2023,street,Katipunan Street,100
-Santo Niño,G. FERNANDO EXT.,,17500.0,DO 6-2023,street,G. Fernando Extension,100
-Santo Niño,VILLALON ST,J P RIZAL-SHOE AVE,16500.0,DO 6-2023,street,Villalon Street,100
-Santo Niño,M CRUZ (GEN LUNA),Sumulong Ave. - Agricultores,15500.0,DO 6-2023,street,M. Cruz Street,97
-Santo Niño,V SANTOS,J P RIZAL - SHOE AVE,13500.0,DO 6-2023,street,V. Santos Street,97
-Santo Niño,E. DELA PAZ,P. DELA PAZ - SUMULONG,13000.0,DO 6-2023,street,E. Dela Paz Street,97
-Santo Niño,E. DELA PAZ ST,Sumulong Ave. - Agricultores,13000.0,DO 6-2023,street,E. Dela Paz Street,100
-Santo Niño,E. JACINTO,Sumulong Ave. - Agricultores,12000.0,DO 6-2023,street,E. Jacinto Street,97
-Santo Niño,E. MENDOZA,COR SHEFF,12000.0,DO 6-2023,street,E. Mendoza Street,97
-Santo Niño,GREGORIO,EXEQUIEL TO KAREN PART OF PALIPARAN,12000.0,DO 6-2023,street,Gregorio Street,97
-Santo Niño,AGRICULTORES,J P RIZAL-LAZARO,11000.0,DO 6-2023,street,Agricultores Street,97
-Santo Niño,DIAMOND ST.,Malanday Boundary,11000.0,DO 6-2023,street,Diamond Street,100
-Santo Niño,E. SANTOS ST.,,11000.0,DO 6-2023,street,E. Santos Street,100
-Santo Niño,LAZARO ST,P ANTONIO-C. A. Santos,11000.0,DO 6-2023,street,Lazaro Street,100
-Santo Niño,P. ANTONIO (formerly Guerilla),J. P. Rizal to Shoe Avenue,11000.0,DO 6-2023,street,Guerilla Street,97
-Santo Niño,SYLVIA,PART OF PALIPARAN,11000.0,DO 6-2023,street,Sylvia Street,97
-Santo Niño,CORAZON,SHEFF TO COL. DIVINO PART OF PALIPARAN,10500.0,DO 6-2023,street,Corazon Street,97
-Santo Niño,SHOE AVE,P ANTONIO - EXEQUIEL,10000.0,DO 6-2023,street,Shoe Avenue,100
-Santo Niño,DELA CRUZ ST.,Virgina - C. A. Santos St.,10000.0,DO 6-2023,street,B. Dela Cruz Street,92.3076923076923
-Santo Niño,EUSTAQUIO ST.,Part of Marikina Subd,10000.0,DO 6-2023,street,Eustaquio Street,100
-Santo Niño,SHEFF ST.,PART OF PALIPARAN,10000.0,DO 6-2023,street,Sheff Street,100
-Santo Niño,ANGELITO,SHEFF TO COL. DIVINO PART OF PALIPARAN,9000.0,DO 6-2023,street,Angelito Street,97
-Santo Niño,AQUILINA ST,G. FERNANDO EXT TO E. MANALO ST PART OF PALIPARAN,9000.0,DO 6-2023,street,Aquilina Street,100
-Santo Niño,BONIFACIO,AQUILINA TO ROSITA PART OF PALIPARAN,9000.0,DO 6-2023,street,Bonifacio Street,97
-Santo Niño,BUENVIAJE SUBDIVISION,,9000.0,DO 6-2023,street,Buenviaje Street,97
-Santo Niño,EXEQUIEL ST.,PART OF PALIPARAN SUBD.,9000.0,DO 6-2023,street,Exequiel Street,100
-Santo Niño,KAREN,GREGORIO TO COL DIVINO PART OF PALIPARAN,9000.0,DO 6-2023,street,Karen Street,97
-Santo Niño,MIGUELITO,BONIFACIO TO E. SANTOS PART OF PALIPARAN,9000.0,DO 6-2023,street,Miguelito Street,97
-Santo Niño,OPAL ST,C. A. Santos - Diamond (Part of Paliparan),9000.0,DO 6-2023,street,Opal Street,100
-Santo Niño,OVAL ST.,MENDOZA TO E. SANTOS PART OF PALIPARAN,9000.0,DO 6-2023,street,Oval Street,100
-Santo Niño,PEARL ST.,,9000.0,DO 6-2023,street,Pearl Street,100
-Santo Niño,ROSITA,E. SANTOS TO SHEFF PART OF PALIPARAN,9000.0,DO 6-2023,street,Rosita Street,97
-Santo Niño,SAPPHIRE ST.,,9000.0,DO 6-2023,street,Sapphire Street,100
-Santo Niño,VIRGINIA ST.,part of Manotoc Subd,9000.0,DO 6-2023,street,Virginia Street,100
-Santo Niño,CHERRY BLOSSOM,Part of Zenaida Subd.,8000.0,DO 6-2023,street,Cherry Blossom Street,97
-Santo Niño,MERCADO COMPOUND,,8000.0,DO 6-2023,street,Mercado Road,97
-Santo Niño,KABAYANI RD,,7750.0,DO 6-2023,street,Kabayani Road,100
-Santo Niño,ILANG-ILANG ST.,Zenaida Subd,7500.0,DO 6-2023,street,Ilang-Ilang Street,100
-Santo Niño,"6th,",P. Antonio (Guerilla) - Marikina City Engr Office),15000.0,DO 6-2023,unmatched,Mount View Village (0),0
-Santo Niño,E. SANTOS - 1ST ST.,E. MANALO - MENDOZA ST.,13000.0,DO 6-2023,unmatched,Mount View Village (0),0
-Santo Niño,COL. DIVINO,AQUILINO TO EXEQUIEL PART OF PALIPARAN,12500.0,DO 6-2023,unmatched,Don Abdon Homes (42),0
-Santo Niño,P BURGOS ST,Sumulong Ave. - JP RIZAL,11000.0,DO 6-2023,unmatched,Don Abdon Homes (38),0
-Santo Niño,ZENAIDA SUBD,,10000.0,DO 6-2023,unmatched,Genesis Village (46),0
-Santo Niño,MENDOZA,E. MANALO TO BUENVIAJE SUBD PART OF PALIPARAN,9500.0,DO 6-2023,unmatched,Mearle Homes (46),0
-Santo Niño,BETTER HOMES,PART OF PALIPARAN SUBD.,9000.0,DO 6-2023,unmatched,Emerald Village (46),0
-Santo Niño,CENTRO DE BUENVIAJE,"Aquilina St., to Gil Fernado Ext.",9000.0,DO 6-2023,unmatched,Santa Teresita Village (42),0
-Santo Niño,MANOTOC SUBD,,9000.0,DO 6-2023,unmatched,Saint Dominic (50),0
-Santo Niño,MARKET VILLAGE,,9000.0,DO 6-2023,unmatched,Mearle Homes (67),0
-Santo Niño,NEW MARKET SUBD / Market Village,,9000.0,DO 6-2023,unmatched,Mearle Homes (67),0
-Santo Niño,PALIPARAN SUBDIVISION,,9000.0,DO 6-2023,unmatched,Magolia Compound (50),0
-Santo Niño,SHOE AVE. EXT.,P. ANTONIO - EXEQUIEL,9000.0,DO 6-2023,unmatched,Vista Valley Executive Village (40),0
-Santo Niño,VISTA VALLEY SUBD,,13500.0,DO 6-2023,village,Vista Valley Executive Village,95
-Santo Niño,EMERALD VILLAGE,,10000.0,DO 6-2023,village,Emerald Village,100
-Santo Niño,MEARLE HOMES SUBD,,9000.0,DO 6-2023,village,Mearle Homes,100
-Santo Niño,NILE SUBD,V. Santos - Guerilla,8500.0,DO 6-2023,village,Nile Subdivision,100
-Santo Niño,DON ABDON HOMES,,8000.0,DO 6-2023,village,Don Abdon Homes,100
-Tañong,ALL OTHER SUBD,,8000.0,DO 6-2023,background,,0
-Tañong,ALL OTHER STREETS,,7000.0,DO 6-2023,background,,0
-Tañong,A BONIFACIO AVE,G PUYAT - ST MARY AVE,17000.0,DO 6-2023,street,A. Bonifacio Avenue,100
-Tañong,LOPEZ JAENA ST,J. Dela Pena - Barangka boundary,10000.0,DO 6-2023,street,Lopez Jaena Street,100
-Tañong,ST MARY AVE,A. BONIFACIO TO RIVERSIDE,9000.0,DO 6-2023,street,Saint Mary Avenue,100
-Tañong,C. DE LEON ST,along A. Bonifacio,8500.0,DO 6-2023,street,C. de Leon Street,100
-Tañong,COBARRUBIAS,along A. Bonifacio,8500.0,DO 6-2023,street,Cobarrubias Street,97
-Tañong,GEN JULIAN ST,along A. Bonifacio,8500.0,DO 6-2023,street,General Julian Street,100
-Tañong,MANGGAHAN,along A. Bonifacio,8500.0,DO 6-2023,street,Manggahan Street,97
-Tañong,TAVERA,along A. Bonifacio,8500.0,DO 6-2023,street,Tavera Street,97
-Tañong,TIPAN (TIPAR),along A. Bonifacio,8500.0,DO 6-2023,street,Tipan Street,97
-Tañong,TRIGUHAN ST,along A. Bonifacio,8500.0,DO 6-2023,street,Tiriguhan Street,95.65217391304348
-Tañong,RIVERSIDE DRIVE,Provident Village,7500.0,DO 6-2023,street,Riverside Drive,100
-Tañong,ST CATHERINE,Provident Village,7500.0,DO 6-2023,street,Saint Catherine Street,97
-Tañong,HON. BENITO SOLIVEN VILLAS,Loyola Grand Villa,31000.0,DO 6-2023,unmatched,Provident Villages (24),0
-Tañong,HONDURAS ST (L.G.V.),Loyola Grand Villa,31000.0,DO 6-2023,unmatched,Provident Villages (25),0
-Tañong,LA VISTA SUBD (L.G.V.),Loyola Grand Villa,31000.0,DO 6-2023,unmatched,Provident Villages (35),0
-Tañong,"LOYOLA GRAND VILLAS 1,2",part,31000.0,DO 6-2023,unmatched,Provident Villages (0),0
-Tañong,PARAGUAY ST.,Loyola Grand Villa,31000.0,DO 6-2023,unmatched,Provident Villages (24),0
-Tañong,LOYOLA SUBDIVISION,DON GONZALO PUYAT,12000.0,DO 6-2023,unmatched,Provident Villages (13),0
-Tañong,LOYOLA MEMORIAL PARK,along A. Bonifacio,11000.0,DO 6-2023,unmatched,Provident Villages (14),0
-Tañong,GONZALO PUYAT,Loyola Subd,9000.0,DO 6-2023,unmatched,Provident Villages (27),0
-Tañong,TANONG LANDLESS,"part of Triguhan, Tavera & Tipan",8500.0,DO 6-2023,unmatched,Provident Villages (25),0
-Tañong,DOMITILLA ST.,Provident Village,7500.0,DO 6-2023,unmatched,Provident Villages (33),0
-Tañong,PROVIDENT VILLAGE,part,8500.0,DO 6-2023,village,Provident Villages,100
-Tumana,ALL OTHER STREETS,,7000.0,DO 6-2023,background,,0
-Tumana,ALL OTHER SUBDIVISION,,7000.0,DO 6-2023,background,,0
-Tumana,MONGO ST.,Pilipino St - Upo St.,11000.0,DO 6-2023,segment,Monggo Street,94.11764705882352
-Tumana,MONARCH ST (MONACO),along Moscow St. (LGV),31000.0,DO 6-2023,street,Monaco Street,97
-Tumana,MOSCOW ST,Denmark to Marikina Bridge (LGV),31000.0,DO 6-2023,street,Moscow Street,100
-Tumana,SILVERDROP ST,Moscow St to Woodridge,12000.0,DO 6-2023,street,Silverdrop Street,100
-Tumana,MUSTASA ST,along Farmers Ave. 2,11000.0,DO 6-2023,street,Mustasa Street,100
-Tumana,AMPALAYA ST.,Farmers Ave. I - Rd Dike,9000.0,DO 6-2023,street,Ampalaya Street,100
-Tumana,FARMERS AVE. - I,,9000.0,DO 6-2023,street,Farmers I Street,97
-Tumana,FARMERS AVE. II,,9000.0,DO 6-2023,street,Farmers Ⅱ Street,97
-Tumana,J. DEL ROSARIO ST.,,9000.0,DO 6-2023,street,Del Rosario Street,93.33333333333333
-Tumana,KALABASA ST,along Farmers Ave. 2,9000.0,DO 6-2023,street,Kalabasa Street,100
-Tumana,LABANOS ST.,along Farmers Ave. 2,9000.0,DO 6-2023,street,Labanos Street,100
-Tumana,MAIS ST.,along oscow St.,9000.0,DO 6-2023,street,Mais Street,100
-Tumana,PALAY ST.,along Farmers Ave. 2,8000.0,DO 6-2023,street,Palay Street,100
-Tumana,PATOLA ST,along Farmers Ave. 2,8000.0,DO 6-2023,street,Patola Street,100
-Tumana,PECHAY ST.,Farmers Ave. I - Pilipino St.,8000.0,DO 6-2023,street,Pechay Street,100
-Tumana,PIPINO ST,near Dona Petra NAI,8000.0,DO 6-2023,street,Pipino Street,100
-Tumana,SINGKAMAS ST,along Farmers Ave. 2,8000.0,DO 6-2023,street,Singkamas Street,100
-Tumana,SITAW ST,along Farmers Ave. 2,8000.0,DO 6-2023,street,Sitaw Street,100
-Tumana,TALONG ST,along Farmers Ave. 2,8000.0,DO 6-2023,street,Talong Street,100
-Tumana,KATIPUNAN ST,LGV,26500.0,DO 6-2023,unmatched,Capitol Park Homes (38),0
-Tumana,WOODRIDGE HEIGHTS RESIDENTIAL ESTATES,,26500.0,DO 6-2023,unmatched,Woodridge Heights (73),0
-Tumana,LIWANAG ST,along Monggo St,13000.0,DO 6-2023,unmatched,Loyola Grand Villas (32),0
-Tumana,Road I to IV,,12000.0,DO 6-2023,unmatched,Loyola Grand Villas (0),0
-Tumana,A. SANTOS ST,along Public Market,11000.0,DO 6-2023,unmatched,Majestic (40),0
-Tumana,GSIS,,11000.0,DO 6-2023,unmatched,Majestic (33),0
-Tumana,HEART CENTER,,11000.0,DO 6-2023,unmatched,Edge Water Subdivision (45),0
-Tumana,AFP MUTUAL BENEFITS,LIBIS TUMANA,9000.0,DO 6-2023,unmatched,Ayala Heights (47),0
-Tumana,LIBIS (OTHERS),LIBIS TUMANA,9000.0,DO 6-2023,unmatched,Edge Water Subdivision (40),0
-Tumana,DOÑA PETRA NAI,,8000.0,DO 6-2023,unmatched,Doña Petra (83),0
-Tumana,P. SANTOS ST.,Liwanag St - A. Santos. St.,8000.0,DO 6-2023,unmatched,Edge Water Subdivision (35),0
-Tumana,LOYOLA GRAND VILLAS,part,31000.0,DO 6-2023,village,Loyola Grand Villas,100
-Tumana,EDGEWATER,LIBIS TUMANA,8000.0,DO 6-2023,village,Edge Water Subdivision,100
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Barangka,ALL OTHER STREETS,,18000.0,DO 6-2023,background,,0
+RR,Barangka,ALL OTHER SUBDIVISION,,6000.0,DO 6-2023,background,,0
+RR,Barangka,ALL OTHER STREETS,,5000.0,DO 6-2023,background,,0
+CR,Barangka,MARCOS HIGHWAY,QC TO BRIDGE,35500.0,DO 6-2023,street,Marcos Highway,100
+CR,Barangka,SOLIVEN AVENUE,along Loyola Grand Villas,31000.0,DO 6-2023,street,Soliven Avenue Ⅰ,91.66666666666666
+CR,Barangka,A BONIFACIO AVE,Marcos Highway - Loyola St.,24000.0,DO 6-2023,street,A. Bonifacio Avenue,100
+CR,Barangka,RIVERBANKS AVE,Riverbanks Mall (U-TEX),20000.0,DO 6-2023,street,Riverbanks Avenue,100
+RR,Barangka,A BONIFACIO AVE,Marcos Highway - Loyola St.,17000.0,DO 6-2023,street,A. Bonifacio Avenue,100
+RR,Barangka,SEMINARY ROAD (Ateneo De Manila),,15000.0,DO 6-2023,street,Seminary Road,100
+RR,Barangka,DON GONZALO PUYAT,,12000.0,DO 6-2023,street,Don Gonzalo Puyat Street,97
+RR,Barangka,HIMLAYANG BAYAN,Along A. Bonifacio,10500.0,DO 6-2023,street,Himlayang Bayan Street,97
+RR,Barangka,PASPASAN ROAD,Gonzalo Puyat to Chorillo,8500.0,DO 6-2023,street,Paspasan Street,97
+CR,Barangka,GEN JULIAN CRUZ (formerly Chorillo),,7500.0,DO 6-2023,street,General Julian Cruz Street,97
+RR,Barangka,BERCHMANS,Ateno Housing,7000.0,DO 6-2023,street,Berchmans Street,97
+RR,Barangka,DEGUANGCO,along A. Bonifacio,7000.0,DO 6-2023,street,Deguangco Street,97
+RR,Barangka,KABO PIO,Along A. Bonifacio,7000.0,DO 6-2023,street,Kabo Pio Street,97
+RR,Barangka,KAP SENDONG,Along A. Bonifacio,6500.0,DO 6-2023,street,Kap. Sendong Street,97
+RR,Barangka,KRONE,Urban Bliss,6000.0,DO 6-2023,street,Krone Street,97
+RR,Barangka,ORCHIDS,Along Gonzalo Puyat,6000.0,DO 6-2023,street,Orchid Street,97
+RR,Barangka,GEN JULIAN CRUZ (formerly Chorillo),,5500.0,DO 6-2023,street,General Julian Cruz Street,97
+RR,Barangka,L. CRUZ,Along A. Bonifacio,5500.0,DO 6-2023,street,L. Cruz Street,97
+RR,Barangka,M. CRUZ,Along A. Bonifacio,5500.0,DO 6-2023,street,M. Cruz Street,97
+RR,Barangka,T. JOSEF (T JOSE),along A. Bonifacio,5500.0,DO 6-2023,street,T. Josef Street,97
+CR,Barangka,MAJOR DIZON EXT.,QC TO MARCOS HIGHWAY,25000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (50),0
+RR,Barangka,MAJOR DIZON EXT.,QC TO MARCOS HIGHWAY,20000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (50),0
+RR,Barangka,MERALCO LINE,MARCOS HIGHWAY,15500.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (56),0
+RR,Barangka,YEN,Urban Bliss,8000.0,DO 6-2023,unmatched,Provident Villages (33),0
+RR,Barangka,ATENEO DE MANILA,,7000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (48),0
+RR,Barangka,CHRYSANTHEMUM FORMERLY LOYOLA TENANT / SUBD.,along Don Gonzalo Puyat,7000.0,DO 6-2023,unmatched,Loyola Grand Villas (53),0
+RR,Barangka,D AVELINO,Along A. Bonifacio,7000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (36),0
+RR,Barangka,DINAR (U.B.B.),Urban Bliss,6000.0,DO 6-2023,unmatched,Urban BLISS Barangka (40),0
+RR,Barangka,GIL FERNANDO ST,F. Tuazon,6000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (56),0
+RR,Barangka,TIN R FRANCISCO,along A. Bonifacio,6000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (50),0
+RR,Barangka,F. TUAZON,G. Fernando,5500.0,DO 6-2023,unmatched,La Vista Subdivision (38),0
+RR,Barangka,M. GONZALES,Along A. Bonifacio,5500.0,DO 6-2023,unmatched,Montevista Village (42),0
+RR,Barangka,LOYOLA GRAND VILLAS,part,31000.0,DO 6-2023,village,Loyola Grand Villas,100
+CR,Barangka,DELA COSTA HOUSING,St. Joseph Avenue,8000.0,DO 6-2023,village,De La Costa Housing,100
+RR,Barangka,ATENEO HOUSING PROJECT,,7000.0,DO 6-2023,village,Ateneo Employees Housing Project,95
+RR,Barangka,DELA COSTA HOUSING,St. Joseph Avenue,7000.0,DO 6-2023,village,De La Costa Housing,100
+RR,Barangka,URBAN BLISS,along Marcos Highway,6000.0,DO 6-2023,village,Urban BLISS Barangka,95
+CR,Calumpang,ALL OTHER STREETS,,8500.0,DO 6-2023,background,,0
+RR,Calumpang,ALL OTHER SUBDIVISION,,7000.0,DO 6-2023,background,,0
+RR,Calumpang,ALL OTHER STREETS,,6500.0,DO 6-2023,background,,0
+CR,Calumpang,OLD JP RIZAL ST. (FORMERLY TAYUG),MARCOS HIWAY-KAGITINGAN,15500.0,DO 6-2023,segment,Old J. P. Rizal Street,96.7741935483871
+RR,Calumpang,OLD JP RIZAL ST. (FORMERLY TAYUG),MARCOS HIWAY-KAGITINGAN,12500.0,DO 6-2023,segment,Old J. P. Rizal Street,96.7741935483871
+RR,Calumpang,KAUNLARAN,OLD J.P. RIZAL - MARCOS HIGHWAY,10500.0,DO 6-2023,segment,Kaunlaran Street,97
+RR,Calumpang,KAGITINGAN,M.H. DEL PILAR ST. - OLD J.P. RIZAL ST.,8500.0,DO 6-2023,segment,Kagitingan Street,97
+CR,Calumpang,MARCOS HIGHWAY,MARCOS HIWAY-PASIG,36500.0,DO 6-2023,street,Marcos Highway,100
+RR,Calumpang,MARCOS HIGHWAY,MARCOS HIWAY-PASIG,25500.0,DO 6-2023,street,Marcos Highway,100
+RR,Calumpang,EVERITE SUBD,Along Marcos Highway,13000.0,DO 6-2023,street,Everite Street,97
+CR,Calumpang,GEN F SANTOS,J.P. RIZAL ST. - M.H. DEL PILAR,13000.0,DO 6-2023,street,General F. Santos Street,97
+CR,Calumpang,J. M. BASA,KAGITINGAN-N ROXAS,13000.0,DO 6-2023,street,J. M. Basa Street,97
+CR,Calumpang,M. H. DEL PILAR,OLD J RIZAL-N ROXAS,13000.0,DO 6-2023,street,M. H. del Pilar Street,97
+RR,Calumpang,M. H. DEL PILAR,OLD J RIZAL-N ROXAS,11000.0,DO 6-2023,street,M. H. del Pilar Street,97
+CR,Calumpang,KALANTIAO,KAMUMU-N ROXAS,10500.0,DO 6-2023,street,Kalantiao Street,97
+CR,Calumpang,KALBARYO,OLD J P RIZAL-KAGITINGAN,9500.0,DO 6-2023,street,Kalbaryo,100
+CR,Calumpang,JUSTA,KATIPUNAN-N ROXAS,9000.0,DO 6-2023,street,Justa Street,97
+RR,Calumpang,TAMBANGAN,Pasig - Marcos Highway,9000.0,DO 6-2023,street,Tambangan Street,97
+RR,Calumpang,TAMBULI,Pasig - Marcos Highway,9000.0,DO 6-2023,street,Tambuli Street,97
+CR,Calumpang,FERNANDO AVENUE,ALONG JP RIZAL,8500.0,DO 6-2023,street,Fernando Avenue,100
+RR,Calumpang,J. M. BASA,KAGITINGAN-N ROXAS,8500.0,DO 6-2023,street,J. M. Basa Street,97
+RR,Calumpang,GEN F SANTOS,J.P. RIZAL ST. - M.H. DEL PILAR,8000.0,DO 6-2023,street,General F. Santos Street,97
+RR,Calumpang,KAIBIGAN,ALONG M.H. DEL PILAR ST.,7500.0,DO 6-2023,street,Kaibigan Street,97
+RR,Calumpang,KALAKHAN,M. H. Del Pilar - Pasig Boundary,7500.0,DO 6-2023,street,Kalakhan Street,97
+RR,Calumpang,KALANTIAO,KAMUMU-N ROXAS,7500.0,DO 6-2023,street,Kalantiao Street,97
+RR,Calumpang,KALBARYO,OLD J P RIZAL-KAGITINGAN,7500.0,DO 6-2023,street,Kalbaryo,100
+RR,Calumpang,KALUPI,M. H. Del Pilar - Pasig Boundary,7500.0,DO 6-2023,street,Kalupi Street,97
+RR,Calumpang,KAMUMU,PRES M ROXAS KALANTIAW,7500.0,DO 6-2023,street,Kamumu Street,97
+RR,Calumpang,KANDILI,M. H. Del Pilar - Pasig Boundary,7500.0,DO 6-2023,street,Kandili Street,97
+RR,Calumpang,KAPWA,J. P. Rizal St.,7500.0,DO 6-2023,street,Kapwa Street,97
+RR,Calumpang,KATIPUNAN ST,M ROXAS-JUSTA,7500.0,DO 6-2023,street,Katipunan Street,100
+RR,Calumpang,CAPITAN TEMYONG,ALONG LIBIS - KALUMPANG,7000.0,DO 6-2023,street,Capitan Temyong Street,97
+RR,Calumpang,FERNANDO AVENUE,ALONG JP RIZAL,6500.0,DO 6-2023,street,Fernando Avenue,100
+RR,Calumpang,JUSTA,KATIPUNAN-N ROXAS,6500.0,DO 6-2023,street,Justa Street,97
+RR,Calumpang,JUSTA,MH DEL PILAR ST. - OLD J.P. RIZAL ST.,6500.0,DO 6-2023,street,Justa Street,97
+CR,Calumpang,SANTOLAN ROAD,PASIG-MARCOS HIWAY,30500.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (38),0
+CR,Calumpang,J. P. RIZAL ST.,PASIG-M. H. Del Pilar,23000.0,DO 6-2023,unmatched,Industrial Valley Complex (35),0
+RR,Calumpang,J. P. RIZAL ST.,PASIG-M. H. Del Pilar,21000.0,DO 6-2023,unmatched,Industrial Valley Complex (35),0
+CR,Calumpang,N. ROXAS,E DELA PAZ-SHOE AVE -Pasig Boundary,16500.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (42),0
+RR,Calumpang,SANTOLAN ROAD,PASIG-MARCOS HIWAY,15500.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (38),0
+CR,Calumpang,TAYUG,PASIG-MAGHIHINTAY,15500.0,DO 6-2023,unmatched,Pasig (40),0
+CR,Calumpang,CALDERON F,(JP RIZAL N ROXAS),13000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (35),0
+CR,Calumpang,M. ROXAS,M. H. De Pilar-N ROXAS,13000.0,DO 6-2023,unmatched,Bali Oasis (40),0
+RR,Calumpang,N. ROXAS,E DELA PAZ-SHOE AVE -Pasig Boundary,13000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (42),0
+RR,Calumpang,TAYUG,PASIG-MAGHIHINTAY,12500.0,DO 6-2023,unmatched,Pasig (40),0
+RR,Calumpang,CALDERON F,(JP RIZAL N ROXAS),11000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (35),0
+RR,Calumpang,GUWE,J M BASA-M ROXAS,9500.0,DO 6-2023,unmatched,Pasig (22),0
+CR,Calumpang,I. SENGA,M.H. DEL PILAR ST. - M.A. ROXAS EXT.,8500.0,DO 6-2023,unmatched,Pasig (0),0
+RR,Calumpang,KASI,J M BASA-CALDERON,7500.0,DO 6-2023,unmatched,Pasig (67),0
+RR,Calumpang,LEGASPI,OLD J.P. RIZAL - GEN F. SANTOS,7500.0,DO 6-2023,unmatched,Pasig (50),0
+RR,Calumpang,I. SENGA,M.H. DEL PILAR ST. - M.A. ROXAS EXT.,6500.0,DO 6-2023,unmatched,Pasig (0),0
+CR,Concepcion Dos,ALL OTHER STREETS,,10500.0,DO 6-2023,background,,0
+RR,Concepcion Dos,ALL OTHER SUBDIVISION,,8500.0,DO 6-2023,background,,0
+RR,Concepcion Dos,ALL OTHER STREETS,,7500.0,DO 6-2023,background,,0
+CR,Concepcion Dos,RAINBOW,LILAC-KATIPUNAN,19000.0,DO 6-2023,segment,Rainbow Street,97
+RR,Concepcion Dos,RAINBOW,LILAC-KATIPUNAN,16000.0,DO 6-2023,segment,Rainbow Street,97
+CR,Concepcion Dos,KATIPUNAN ST,Boundary of Brgy Concepcion Uno & Sto Nino,22000.0,DO 6-2023,street,Katipunan Street,100
+CR,Concepcion Dos,LILAC ST.,,22000.0,DO 6-2023,street,Lilac Street,100
+CR,Concepcion Dos,PANORAMA,LILAC-ANTIPOLO BOUNDARY,22000.0,DO 6-2023,street,Panorama Street,97
+CR,Concepcion Dos,MOLAVE ST (formerly Gen. Ordonez),Katipunan Champagnat - Marikina Heights,20000.0,DO 6-2023,street,General Ordoñez Street,97
+RR,Concepcion Dos,LILAC ST.,,19000.0,DO 6-2023,street,Lilac Street,100
+RR,Concepcion Dos,PANORAMA,LILAC-ANTIPOLO BOUNDARY,19000.0,DO 6-2023,street,Panorama Street,97
+RR,Concepcion Dos,KATIPUNAN ST,Boundary of Brgy Concepcion Uno & Sto Nino,18000.0,DO 6-2023,street,Katipunan Street,100
+CR,Concepcion Dos,RANCHO AVENUE,along Rancho Estate,17000.0,DO 6-2023,street,Rancho Avenue,100
+CR,Concepcion Dos,RUSSET,Rancho Estate II,17000.0,DO 6-2023,street,Russet Street,97
+RR,Concepcion Dos,MOLAVE ST (formerly Gen. Ordonez),Katipunan Champagnat - Marikina Heights,16000.0,DO 6-2023,street,General Ordoñez Street,97
+CR,Concepcion Dos,CHAMPAGNAT AVENUE,"Rancho IV, Boundary of Marikina Heights",14000.0,DO 6-2023,street,Champagnat Street,97
+RR,Concepcion Dos,BONANZA,Rancho Estate II,13000.0,DO 6-2023,street,Bonanza Street,97
+RR,Concepcion Dos,CHAMPAGNAT AVENUE,"Rancho IV, Boundary of Marikina Heights",13000.0,DO 6-2023,street,Champagnat Street,97
+RR,Concepcion Dos,RANCHO AVENUE,along Rancho Estate,13000.0,DO 6-2023,street,Rancho Avenue,100
+RR,Concepcion Dos,RUSSET,Rancho Estate II,13000.0,DO 6-2023,street,Russet Street,97
+CR,Concepcion Dos,SAPPHIRE ST,within SSS Village,11000.0,DO 6-2023,street,Sapphire Street,100
+RR,Concepcion Dos,J M PANGANIBAN,,9000.0,DO 6-2023,street,J. M. Panganiban Street,97
+RR,Concepcion Dos,OLIVE,,9000.0,DO 6-2023,street,Olive Street,97
+RR,Concepcion Dos,PURPLE,SSS Village - I,9000.0,DO 6-2023,street,Purple Street,97
+RR,Concepcion Dos,SAPPHIRE ST,within SSS Village,9000.0,DO 6-2023,street,Sapphire Street,100
+RR,Concepcion Dos,TECSON,,9000.0,DO 6-2023,street,Tecson Street,97
+RR,Concepcion Dos,PIO DEL PILAR,,8500.0,DO 6-2023,street,Pio Del Pilar Street,97
+RR,Concepcion Dos,SCARLET,within SSS Village,8500.0,DO 6-2023,street,Scarlet Street,97
+RR,Concepcion Dos,MAGAT SALAMAT,,8000.0,DO 6-2023,street,Magat Salamat Street,97
+CR,Concepcion Dos,RANCHO ESTATE = I to IV,,14000.0,DO 6-2023,unmatched,Vista Valley Executive Village (0),0
+RR,Concepcion Dos,RANCHO ESTATE II,,13000.0,DO 6-2023,unmatched,Zenaida M Subdivision 2 (32),0
+CR,Concepcion Dos,SSS VILLAGE ( 1 TO III ),,13000.0,DO 6-2023,unmatched,El Missionaries (24),0
+RR,Concepcion Dos,BONITA HOMES,,9000.0,DO 6-2023,unmatched,Balana Townhouses (50),0
+CR,Concepcion Dos,CONCEPCION REALTY,,9000.0,DO 6-2023,unmatched,Saint Dominic (43),0
+RR,Concepcion Dos,SSS VILLAGE I,,9000.0,DO 6-2023,unmatched,Rancho Estates Phase Ⅰ (31),0
+RR,Concepcion Dos,SSS VILLAGE II,,9000.0,DO 6-2023,unmatched,Zenaida M Subdivision 2 (25),0
+RR,Concepcion Dos,CONCEPCION REALTY,,8500.0,DO 6-2023,unmatched,Saint Dominic (43),0
+RR,Concepcion Dos,HACIENDA HEIGHTS SUBD,,8500.0,DO 6-2023,unmatched,Mansion Hill (44),0
+RR,Concepcion Dos,KAHAGASAN,,8500.0,DO 6-2023,unmatched,Magsilang Compound (56),0
+RR,Concepcion Dos,TAN (INT. TANGERINE),,8500.0,DO 6-2023,unmatched,Tamenggo (55),0
+RR,Concepcion Dos,RANCHO ESTATE I,,13000.0,DO 6-2023,village,Rancho Estates Phase Ⅰ,100
+RR,Concepcion Dos,RANCHO ESTATE III,,13000.0,DO 6-2023,village,Rancho Estates Phase Ⅲ,100
+RR,Concepcion Dos,RANCHO ESTATE IV,,13000.0,DO 6-2023,village,Rancho Estates Phase IV,100
+RR,Concepcion Dos,PANGANIBAN,,9000.0,DO 6-2023,village,Panganiban Compound,100
+RR,Concepcion Dos,RIMVIEW PARK,within SSS Village,9000.0,DO 6-2023,village,Rimview Park,100
+RR,Concepcion Dos,SSS VILLAGE III (ALSO RIMVIEW PARK),,9000.0,DO 6-2023,village,SSS Village 3,100
+CR,Concepcion Uno,ALL OTHER STREETS,,7500.0,DO 6-2023,background,,0
+RR,Concepcion Uno,ALL OTHER SUBDIVISION,,7500.0,DO 6-2023,background,,0
+RR,Concepcion Uno,ALL OTHER STREETS,,6500.0,DO 6-2023,background,,0
+RR,Concepcion Uno,J. P. RIZAL ST.,MALAYA-KINGSWAY,25500.0,DO 6-2023,segment,J. P. Rizal Street,100
+CR,Concepcion Uno,L DE GUZMAN,J. Molina to Bayan Bayannan Ave.,13000.0,DO 6-2023,segment,L. de Guzman Street,97
+CR,Concepcion Uno,J. MOLINA (DE),J P Rizal Ave-Katipunan St.,11000.0,DO 6-2023,segment,J. Molina Street,97
+RR,Concepcion Uno,J. MOLINA (DE),J P Rizal Ave-Katipunan St.,9000.0,DO 6-2023,segment,J. Molina Street,97
+RR,Concepcion Uno,F TORRES,CEPEDA-CANDAZO,7500.0,DO 6-2023,segment,F. Torres Street,97
+RR,Concepcion Uno,BUTIHIN,J P RIZAL-BANTAYOG,7000.0,DO 6-2023,segment,Butihin Street,97
+CR,Concepcion Uno,J. P. RIZAL ST.,infront of Trevi Subd.,32000.0,DO 6-2023,street,J. P. Rizal Street,100
+CR,Concepcion Uno,BAYAN BAYANAN AVE.,Marikina Heights Boundary,31000.0,DO 6-2023,street,Bayan-Bayanan Avenue,100
+CR,Concepcion Uno,BAYAN-BAYANAN ACCESS ROAD,newly opened access road,25500.0,DO 6-2023,street,Bayan-Bayanan Access Road,100
+CR,Concepcion Uno,KATIPUNAN ST,MOLAVE ST / GEN. ORDOÑEZ,25500.0,DO 6-2023,street,Katipunan Street,100
+RR,Concepcion Uno,BAYAN BAYANAN AVE.,Marikina Heights Boundary,21000.0,DO 6-2023,street,Bayan-Bayanan Avenue,100
+RR,Concepcion Uno,KATIPUNAN ST,MOLAVE ST / GEN. ORDOÑEZ,15500.0,DO 6-2023,street,Katipunan Street,100
+CR,Concepcion Uno,MOLAVE ST (formerly Gen. Ordonez),,15000.0,DO 6-2023,street,Molave Street,100
+RR,Concepcion Uno,MOLAVE ST (formerly Gen. Ordonez),,13000.0,DO 6-2023,street,Molave Street,100
+CR,Concepcion Uno,SHOE AVENUE ( EXT),B BAYANAN AVE-PARANG,13000.0,DO 6-2023,street,Shoe Avenue,100
+CR,Concepcion Uno,C. BAUTISTA,along Bayan-Bayanan,11000.0,DO 6-2023,street,C. Bautista Street,97
+CR,Concepcion Uno,CANDAZO,along Concepcion Public Market,11000.0,DO 6-2023,street,Candazo Street,97
+CR,Concepcion Uno,E SANTOS,,11000.0,DO 6-2023,street,E. Santos Street,97
+RR,Concepcion Uno,H BAUTISTA ST,,11000.0,DO 6-2023,street,H. Bautista Street,100
+RR,Concepcion Uno,J. P. RIZAL ST.,interior,11000.0,DO 6-2023,street,J. P. Rizal Street,100
+CR,Concepcion Uno,GUIZAMA ST,Public Market - J. Molina,10500.0,DO 6-2023,street,Guizama Street,100
+CR,Concepcion Uno,BAGONG SILANG - (SHOE AVE. EXT.),,9000.0,DO 6-2023,street,Bagong Silang Street,97
+RR,Concepcion Uno,A DE GUZMAN,J P RIZAL-BANTAYOG,8500.0,DO 6-2023,street,A. de Guzman Street,97
+RR,Concepcion Uno,A DE GUZMAN,B BAYANAN AVE-PARANG,8500.0,DO 6-2023,street,A. de Guzman Street,97
+RR,Concepcion Uno,C. BAUTISTA,along Bayan-Bayanan,8500.0,DO 6-2023,street,C. Bautista Street,97
+RR,Concepcion Uno,CANDAZO,along Concepcion Public Market,8500.0,DO 6-2023,street,Candazo Street,97
+RR,Concepcion Uno,CEPEDA,part of Paliparan,8500.0,DO 6-2023,street,Cepeda Street,97
+CR,Concepcion Uno,DAANG BAKAL FORMERLY GSIS / SHOE AVE,,8500.0,DO 6-2023,street,Shoe Avenue,100
+RR,Concepcion Uno,GUIZAMA ST,Public Market - J. Molina,8500.0,DO 6-2023,street,Guizama Street,100
+RR,Concepcion Uno,JASMIN ST,,8500.0,DO 6-2023,street,Jasmin Street,100
+RR,Concepcion Uno,L DE GUZMAN,CEPEDA-B BAYANAN AVE,8500.0,DO 6-2023,street,L. de Guzman Street,97
+RR,Concepcion Uno,SHOE AVENUE ( EXT),,8500.0,DO 6-2023,street,Shoe Avenue,100
+RR,Concepcion Uno,SHOE AVENUE ( EXT),B BAYANAN AVE-PARANG,8500.0,DO 6-2023,street,Shoe Avenue,100
+RR,Concepcion Uno,TORRES BUGALLON,,8500.0,DO 6-2023,street,Torres Bugallon Street,97
+RR,Concepcion Uno,BAYANI STREET,,8000.0,DO 6-2023,street,Bayani Street,100
+CR,Concepcion Uno,KAGINHAWAAN ST,,8000.0,DO 6-2023,street,Kaginhawahan Street,96.55172413793103
+RR,Concepcion Uno,ABARILLA,,7500.0,DO 6-2023,street,Abarilla Street,97
+RR,Concepcion Uno,BANGKAAN,,7500.0,DO 6-2023,street,Bangkaan Street,97
+RR,Concepcion Uno,BANTAYOG,SHOE AVE-F BALTAZAR,7500.0,DO 6-2023,street,Bantayog Street,97
+RR,Concepcion Uno,BAGONG SILANG - (SHOE AVE. EXT.),,7500.0,DO 6-2023,street,Bagong Silang Street,97
+RR,Concepcion Uno,E SANTOS,,7500.0,DO 6-2023,street,E. Santos Street,97
+RR,Concepcion Uno,EXEQUIEL,,7500.0,DO 6-2023,street,Exequiel Street,97
+RR,Concepcion Uno,F. JOSEF STREET,along J.P. Rizal Ave.,7500.0,DO 6-2023,street,F. Josef I Street,90.9090909090909
+RR,Concepcion Uno,PANGILINAN,,7500.0,DO 6-2023,street,Pangilinan Street,97
+RR,Concepcion Uno,PARAISO ST.,,7500.0,DO 6-2023,street,Paraiso Street,100
+RR,Concepcion Uno,D MARIANO,,7000.0,DO 6-2023,street,D. Mariano Street,97
+RR,Concepcion Uno,M. CRUZ,Bayan-Bayanan,7000.0,DO 6-2023,street,M. Cruz Street,97
+RR,Concepcion Uno,MERCADO COMPOUND,part of Brgy. Sto Nino,7000.0,DO 6-2023,street,Mercado Road,97
+CR,Concepcion Uno,"GREENHEIGHTS SUBD (1,2)",,21000.0,DO 6-2023,unmatched,Levier Heights (67),0
+CR,Concepcion Uno,LAPU LAPU FORMERLY GEN MOLINA,JP RIZAL BANGKAAN,13000.0,DO 6-2023,unmatched,La Consolacion Village (47),0
+CR,Concepcion Uno,E. MANALO AVENUE (formerly E. Rodriguez),EXEQUIEL-B BAYANAN,12500.0,DO 6-2023,unmatched,Balana Townhouses (43),0
+CR,Concepcion Uno,GEN MOLINA FORMERLY LAPU LAPU,BANGKAAN TO G. DEL PILAR,11000.0,DO 6-2023,unmatched,M. E. N. Little Subdivision (44),0
+CR,Concepcion Uno,GEN MOLINA FORMERLY LAPU LAPU,G. DEL PILAR TO BALAGTAS,11000.0,DO 6-2023,unmatched,M. E. N. Little Subdivision (44),0
+RR,Concepcion Uno,LAPU LAPU FORMERLY GEN MOLINA,JP RIZAL BANGKAAN,11000.0,DO 6-2023,unmatched,La Consolacion Village (47),0
+CR,Concepcion Uno,PALIPARAN SUBD,,11000.0,DO 6-2023,unmatched,Fairlane (59),0
+CR,Concepcion Uno,FARMERS 1,,10000.0,DO 6-2023,unmatched,Saint Claire 1 (45),0
+CR,Concepcion Uno,PORCELANA MARIWASA,,10000.0,DO 6-2023,unmatched,Marquina Squareville (53),0
+CR,Concepcion Uno,LADISLAW DIWA Ave.,along Bayan-Bayanan Ave,9500.0,DO 6-2023,unmatched,La Consolacion Village (44),0
+CR,Concepcion Uno,SAN ISIDRO VILL 1 & 2,along Bayan-Bayanan Ave.,9500.0,DO 6-2023,unmatched,Don Abdon Homes (0),0
+RR,Concepcion Uno,"FRIENDLY VILL 1,2",,9000.0,DO 6-2023,unmatched,Don Abdon Homes (0),0
+RR,Concepcion Uno,GEN MOLINA FORMERLY LAPU LAPU,BANGKAAN TO G. DEL PILAR,9000.0,DO 6-2023,unmatched,M. E. N. Little Subdivision (44),0
+RR,Concepcion Uno,"GREENHEIGHTS SUBD (1,2)",,9000.0,DO 6-2023,unmatched,Levier Heights (67),0
+RR,Concepcion Uno,PALIPARAN SUBD,,9000.0,DO 6-2023,unmatched,Fairlane (59),0
+RR,Concepcion Uno,E. MANALO AVENUE (formerly E. Rodriguez),EXEQUIEL-B BAYANAN,8500.0,DO 6-2023,unmatched,Balana Townhouses (43),0
+RR,Concepcion Uno,G CRUZ FORMERLY F BALTAZAR,,8500.0,DO 6-2023,unmatched,Balana Townhouses (43),0
+RR,Concepcion Uno,GEN MOLINA FORMERLY LAPU LAPU,G. DEL PILAR TO BALAGTAS,8500.0,DO 6-2023,unmatched,M. E. N. Little Subdivision (44),0
+RR,Concepcion Uno,A RODRIGUEZ SUBD,,7500.0,DO 6-2023,unmatched,Teodora Park (43),0
+RR,Concepcion Uno,A TINIO SUBD (TINIO CMPD),,7500.0,DO 6-2023,unmatched,Twinville (57),0
+RR,Concepcion Uno,AMANG RODRIGUEZ SUBD,,7500.0,DO 6-2023,unmatched,Magolia Compound (45),0
+RR,Concepcion Uno,BETTER HOMES SUBDIVISION,PART,7500.0,DO 6-2023,unmatched,Edge Water Subdivision (50),0
+RR,Concepcion Uno,BULIRAN HOMES FORMERLY BULIRAN ST.,,7500.0,DO 6-2023,unmatched,Balana Townhouses (48),0
+RR,Concepcion Uno,BURGOS PANGILINAN,,7500.0,DO 6-2023,unmatched,Panganiban Compound (54),0
+RR,Concepcion Uno,COL DIVINO,,7500.0,DO 6-2023,unmatched,Cristina Village (44),0
+RR,Concepcion Uno,FARMERS 1,,7500.0,DO 6-2023,unmatched,Saint Claire 1 (45),0
+RR,Concepcion Uno,JOSEF ST,,7500.0,DO 6-2023,unmatched,Jem Subdivision (50),0
+RR,Concepcion Uno,KALAW,,7500.0,DO 6-2023,unmatched,Balana Townhouses (55),0
+RR,Concepcion Uno,LADISLAW DIWA Ave.,along Bayan-Bayanan Ave,7500.0,DO 6-2023,unmatched,La Consolacion Village (44),0
+RR,Concepcion Uno,PORCELANA MARIWASA,,7500.0,DO 6-2023,unmatched,Marquina Squareville (53),0
+RR,Concepcion Uno,R SANTOS,EXEQUIEL-B BAYANAN,7500.0,DO 6-2023,unmatched,Oro Vista (50),0
+RR,Concepcion Uno,ROSITA VILLAGE,,7500.0,DO 6-2023,unmatched,Rositaville (71),0
+RR,Concepcion Uno,SAN ISIDRO VILL 1 & 2,along Bayan-Bayanan Ave.,7500.0,DO 6-2023,unmatched,Don Abdon Homes (0),0
+RR,Concepcion Uno,"ST. CLAIRE SUBD 1,2,3",,7500.0,DO 6-2023,unmatched,Don Abdon Homes (0),0
+RR,Concepcion Uno,WANAMAKER,,7500.0,DO 6-2023,unmatched,Santa Teresita Village (43),0
+RR,Concepcion Uno,ARANETA SUBD,,7000.0,DO 6-2023,unmatched,Fairlane (67),0
+RR,Concepcion Uno,CHERRY COMPOUND,,7000.0,DO 6-2023,unmatched,Palmera Centro (40),0
+RR,Concepcion Uno,E EUSTAQUIO,Along B-Bayanan Ave.,7000.0,DO 6-2023,unmatched,Majestic (42),0
+RR,Concepcion Uno,EMERALD KING FSHER,,7000.0,DO 6-2023,unmatched,Emerald Residences (63),0
+RR,Concepcion Uno,LIBIS Subd / Villages,,7000.0,DO 6-2023,unmatched,Magolia Compound (36),0
+RR,Concepcion Uno,TINIO COMPOUND - TOWNHOUSE,Bayan-Bayanan - Molave St (Gen. Ordonez),7000.0,DO 6-2023,unmatched,Twinville (57),0
+CR,Concepcion Uno,TREVI SUBDIVISION,J. P. Rizal St.,16000.0,DO 6-2023,village,Trevi,100
+RR,Concepcion Uno,TREVI SUBDIVISION,J. P. Rizal St.,14000.0,DO 6-2023,village,Trevi,100
+RR,Concepcion Uno,ORO VISTA SUBD,,12000.0,DO 6-2023,village,Oro Vista,100
+CR,Concepcion Uno,STA. TERESISTA VILL.,J. Molina to Bayan Bayanan Ave.,11000.0,DO 6-2023,village,Santa Teresita Village,88.88888888888889
+RR,Concepcion Uno,STRIP 70 SUBD,,9000.0,DO 6-2023,village,Strip 70 Village,100
+RR,Concepcion Uno,DON ABDON SUBDIVISION,GOODRICH VILLAGE,8500.0,DO 6-2023,village,Don Abdon Homes,100
+RR,Concepcion Uno,GOODRICH VILLAGE,,8500.0,DO 6-2023,village,Goodrich Village,100
+RR,Concepcion Uno,GREENFIELD VIEW HOMES,,8500.0,DO 6-2023,village,Greenfield View Subdivision,100
+RR,Concepcion Uno,LA CONSOLACION VILLAGE,part,8500.0,DO 6-2023,village,La Consolacion Village,100
+RR,Concepcion Uno,SUBURBIA EAST SUBD,,8500.0,DO 6-2023,village,Suburbia East,100
+RR,Concepcion Uno,BENEDICTO COMPOUND,,8000.0,DO 6-2023,village,Benedicto Compound,100
+RR,Concepcion Uno,CONCEPCION SUBD,,8000.0,DO 6-2023,village,Concepcion Subdivision,100
+RR,Concepcion Uno,FAIRLANE SUBD,part,8000.0,DO 6-2023,village,Fairlane,100
+CR,Concepcion Uno,STA. TERESISTA VILL.,Cepeda to Bayan-Bayanan Ave.,8000.0,DO 6-2023,village,Santa Teresita Village,88.88888888888889
+RR,Concepcion Uno,COUNTRY SIDE SUBD,,7500.0,DO 6-2023,village,Countryside,100
+RR,Concepcion Uno,CRISTINA SUBD,,7500.0,DO 6-2023,village,Cristina Village,100
+RR,Concepcion Uno,MAJESTIC SUBD,,7500.0,DO 6-2023,village,Majestic,100
+RR,Concepcion Uno,MARIKIT HOMES,,7500.0,DO 6-2023,village,Marikit Subdivision,100
+RR,Concepcion Uno,SIMEONA SUBD.,,7500.0,DO 6-2023,village,Simeona Village,100
+RR,Concepcion Uno,SUMMER HOMES,,7500.0,DO 6-2023,village,Summer Homes,100
+RR,Concepcion Uno,TEODORA PARK SUBD,,7500.0,DO 6-2023,village,Teodora Park,100
+RR,Concepcion Uno,TWINVILLE SUBD,,7000.0,DO 6-2023,village,Twinville,100
+RR,Fortune,ALL OTHER SUBDIVISION,,8000.0,DO 6-2023,background,,0
+CR,Fortune,ALL OTHER STREETS,,7500.0,DO 6-2023,background,,0
+RR,Fortune,ALL OTHER STREETS,,6500.0,DO 6-2023,background,,0
+CR,Fortune,TANGUILE ST,Balagtas St - Champaca (Marikina Heights),11000.0,DO 6-2023,segment,Tanguile Street,100
+RR,Fortune,TANGUILE ST,Balagtas St - Champaca (Marikina Heights),9000.0,DO 6-2023,segment,Tanguile Street,100
+RR,Fortune,DAMA DE NOCHE ST,Orchids to Champaca (La Colina Subd),8500.0,DO 6-2023,segment,Dama de Noche Street,100
+RR,Fortune,MAGNOLIA ST.,Tanguile - Santan,7500.0,DO 6-2023,segment,Magnolia Street,100
+CR,Fortune,CHAMPACA STREET,C. M. Recto - El Rosario St,13000.0,DO 6-2023,street,Champaca Street,100
+CR,Fortune,CHAMPACA STREET,El Rosario St. - Tanguille St,13000.0,DO 6-2023,street,Champaca Street,100
+CR,Fortune,C M RECTO (FORMERLY FORTUNE),,12000.0,DO 6-2023,street,C. M. Recto Street,97
+CR,Fortune,SANTAN STREET,C.M. RECTO TO CHAMPACA,10500.0,DO 6-2023,street,Santan Street,100
+RR,Fortune,C M RECTO (FORMERLY FORTUNE),,9000.0,DO 6-2023,street,C. M. Recto Street,97
+RR,Fortune,ARMSCOR AVENUE,FORMERLY BALITE DRIVE,8500.0,DO 6-2023,street,Armscor Avenue,100
+RR,Fortune,CHAMPACA STREET,CM Recto - East Drive - Tanguille St,8500.0,DO 6-2023,street,Champaca Street,100
+RR,Fortune,ECHOVILLE SUBDIVISION,Along champaca St.,8500.0,DO 6-2023,street,Echoville Street,97
+RR,Fortune,MODESTA ST,Along Balite,8500.0,DO 6-2023,street,Modesta Street,100
+RR,Fortune,SANTAN STREET,C.M. RECTO TO CHAMPACA,8500.0,DO 6-2023,street,Santan Street,100
+RR,Fortune,AZUCENA,EAST DRIVE TO CHAMPACA,7500.0,DO 6-2023,street,Azucena Street,97
+RR,Fortune,AZUCENA COMPOUND,Along Azucena St.,7500.0,DO 6-2023,street,Azucena Street,97
+RR,Fortune,PLEASANT LANE,Champaca - San Mateo boundary,7500.0,DO 6-2023,street,Pleasant Lane,100
+CR,Fortune,EAST DRIVE,SANTAN TO CHAMPACA,13000.0,DO 6-2023,unmatched,The Nest (75),0
+CR,Fortune,FORTUNE TOBACCO ROAD,Along champaca St.,12500.0,DO 6-2023,unmatched,Fortune Executive Townhomes (54),0
+RR,Fortune,CORNER STONE RESIDENCES,Along champaca St. (CCT),11000.0,DO 6-2023,unmatched,Cornerstone Residences Barangay Fortune (70),0
+RR,Fortune,THE NEST RESIDENCES (Firebird),townhouse (along Champaca),11000.0,DO 6-2023,unmatched,Gentville Residences (73),0
+RR,Fortune,BALAGTAS,C. M. Recto - Tanguile St.,10000.0,DO 6-2023,unmatched,Samaga (62),0
+CR,Fortune,BONANZA SUBD,along C. M. Recto,9000.0,DO 6-2023,unmatched,Bonanza Horseshoe (58),0
+RR,Fortune,FORTUNE TOBACCO ROAD,Along champaca St.,9000.0,DO 6-2023,unmatched,Fortune Executive Townhomes (54),0
+RR,Fortune,BALITE INDUSTRIAL SITE,,8500.0,DO 6-2023,unmatched,Gentville Residences (44),0
+RR,Fortune,BOYSTOWN COMPLEX,along C. M. Recto,8500.0,DO 6-2023,unmatched,East Drive Townhomes (55),0
+RR,Fortune,EAST DRIVE,SANTAN TO CHAMPACA,8500.0,DO 6-2023,unmatched,The Nest (75),0
+RR,Fortune,EAST DRIVE,TANGUILE TO Santan St.,8500.0,DO 6-2023,unmatched,The Nest (75),0
+RR,Fortune,EMPRESS SUBD,Along champaca St.,8500.0,DO 6-2023,unmatched,Gemstar (43),0
+RR,Fortune,GUEVARRA COMPOUND,Along Santan St.,8500.0,DO 6-2023,unmatched,Gemstar (53),0
+RR,Fortune,HOME POINT VILLAGE,CHAMPACA,8500.0,DO 6-2023,unmatched,Ponte Verde (50),0
+RR,Fortune,LAWAAN ST,Brgy. Parang Boundary,8500.0,DO 6-2023,unmatched,Kawayan Village (77),0
+RR,Fortune,PERMALINE HOMES SUBDIVISION,along East Drive,8500.0,DO 6-2023,unmatched,Riverdale (56),0
+RR,Fortune,RICHTONE VILLAGE,along Champaca St.,8500.0,DO 6-2023,unmatched,Richtoneville (76),0
+RR,Fortune,BONANZA SUBD,along C. M. Recto,8000.0,DO 6-2023,unmatched,Bonanza Horseshoe (58),0
+RR,Fortune,JUANCHO PACHECO COMPOUND,along Santan St.,7500.0,DO 6-2023,unmatched,Burger Machine Housing (43),0
+RR,Fortune,KUI BI COMPD,along Santan St.,7500.0,DO 6-2023,unmatched,Mountain Hills (40),0
+RR,Fortune,MONTEREY PHASE I SUBD,Rolling Hills - part,7500.0,DO 6-2023,unmatched,Home Point Village 1 (59),0
+RR,Fortune,RIVARA'S COMPOUND,Along Santan St.,7500.0,DO 6-2023,unmatched,Riverdale (67),0
+RR,Fortune,SOLID SANTAN HOMES,along Santan St.,7500.0,DO 6-2023,unmatched,St. Scholastica's Village (52),0
+RR,Fortune,SUNNYVILLE SUBD,CHAMPACA EXT.,7500.0,DO 6-2023,unmatched,Sunrise Compound (59),0
+RR,Fortune,"AVENUE DUPLEX COMP. (1,2,3,4)",CHAMPACA EXT.,7000.0,DO 6-2023,unmatched,Duplex Compound (71),0
+RR,Fortune,BAENSVILLE TOWNHOUSES,CHAMPACA,7000.0,DO 6-2023,unmatched,Mariville Compound (63),0
+CR,Fortune,VISTANILA HOMES,AZUCENA St.,9500.0,DO 6-2023,village,Vistanilla Village,94.73684210526316
+CR,Fortune,BONANZA HORSESHOE SUBD,along C. M. Recto,9000.0,DO 6-2023,village,Bonanza Horseshoe,100
+RR,Fortune,COUNTRYSIDE HOMES,EAST DRIVE,8500.0,DO 6-2023,village,Countryside Homes,100
+RR,Fortune,EL ROSARIO (DEL ROSARIO VILL),Along champaca St.,8500.0,DO 6-2023,village,El Rosario Village,100
+RR,Fortune,GEMSTAR SUBDIVISION,Along champaca St.,8500.0,DO 6-2023,village,Gemstar,100
+RR,Fortune,HILLTOWN RESIDENCES (townhouse),Along champaca St.,8500.0,DO 6-2023,village,Hilltown Residences,100
+RR,Fortune,LA COLINA SUBDIVISION,TANGUILE,8500.0,DO 6-2023,village,La Colina,100
+RR,Fortune,RODEANNA COMPOUND,BALAGTAS St,8500.0,DO 6-2023,village,Rodeanna,100
+RR,Fortune,SAN MIGUEL REALTY,Birmingham Heights,8500.0,DO 6-2023,village,San Miguel,100
+CR,Fortune,VICTORY HILLS,CHAMPACA EXT,8500.0,DO 6-2023,village,Victory Hills,100
+RR,Fortune,BONANZA HORSESHOE SUBD,along C. M. Recto,8000.0,DO 6-2023,village,Bonanza Horseshoe,100
+RR,Fortune,METEOR HOMES,CHAMPACA EXT.,8000.0,DO 6-2023,village,Meteor Homes,100
+RR,Fortune,VILLA GRANDE DRIVE,along Champaca St.,8000.0,DO 6-2023,village,Villa Grande,100
+RR,Fortune,VISTANILA HOMES,AZUCENA St.,8000.0,DO 6-2023,village,Vistanilla Village,94.73684210526316
+RR,Fortune,BAYANIHAN COMPOUND,Along Santan St.,7500.0,DO 6-2023,village,Bayanihan Compound,100
+RR,Fortune,JAVIER COMPOUND,along Santan St.,7500.0,DO 6-2023,village,Javier Compound,100
+RR,Fortune,JULIETA SUBDIVISION,along Santan St.,7500.0,DO 6-2023,village,Julieta Subdivision,100
+RR,Fortune,MONTEREY HILLS,ROLLING HILLS,7500.0,DO 6-2023,village,Monterey Hills,100
+RR,Fortune,MOUNTAIN HILLS,CHAMPACA EXT.,7500.0,DO 6-2023,village,Mountain Hills,100
+RR,Fortune,SARIMANOK COMPOUND,along Santan St.,7500.0,DO 6-2023,village,Sarimanok Compound,100
+RR,Fortune,VICTORY HILLS,CHAMPACA EXT,7500.0,DO 6-2023,village,Victory Hills,100
+CR,Industrial Valley,ALL OTHER STREETS,,19000.0,DO 6-2023,background,,0
+RR,Industrial Valley,ALL OTHER SUBDIVISION,,15000.0,DO 6-2023,background,,0
+RR,Industrial Valley,ALL OTHER STREETS,,13000.0,DO 6-2023,background,,0
+CR,Industrial Valley,MARCOS HIGHWAY,,36000.0,DO 6-2023,street,Marcos Highway,100
+RR,Industrial Valley,MARCOS HIGHWAY,,31000.0,DO 6-2023,street,Marcos Highway,100
+CR,Industrial Valley,MAJOR DIZON,MARCOS HIWAY-LAUREL,27000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (50),0
+RR,Industrial Valley,MAJOR DIZON,MARCOS HIWAY-LAUREL,21000.0,DO 6-2023,unmatched,Cinco Hermanos Subdivision (50),0
+RR,Industrial Valley,PRES MARCOS,,17000.0,DO 6-2023,unmatched,The Arton by Rockwell (44),0
+RR,Industrial Valley,DON JUAN SUBD (same w/ Pres. Marcos),,15000.0,DO 6-2023,unmatched,Blue Ridge A (41),0
+RR,Industrial Valley,SITIO OLANDES,along FVR road / resettlement,6000.0,DO 6-2023,unmatched,Montevista Village (45),0
+RR,Industrial Valley,CINCO HERMANOS SUBD,,18000.0,DO 6-2023,village,Cinco Hermanos Subdivision,100
+RR,Industrial Valley,MONTE VISTA SUBD,along Major Dizon,18000.0,DO 6-2023,village,Montevista Village,100
+RR,Industrial Valley,INDUSTRIAL VALLEY SUBD,,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+RR,Industrial Valley,J A SANTOS / INDUSTRIAL VALLEY SUBD.,PRES ROXAS-QUIRINO,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+RR,Industrial Valley,JUSTICE ARELLANO / INDUSTRIAL VALLEY SUBD.,PRES ROXAS-QUIRINO,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+RR,Industrial Valley,JUSTICE TUAZON / INDUSTRIAL VALLEY SUBD.,PRES OSMENA-DIZON,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+RR,Industrial Valley,PRES E AGUINALDO / INDUSTRIAL VALLEY SUBD.,J P LAUREL-QUIRINO,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+RR,Industrial Valley,PRES J P LAUREL / INDUSTRIAL VALLEY SUBD.,DIZON-M L QUEZON,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+RR,Industrial Valley,PRES M L QUEZON / INDUSTRIAL VALLEY SUBD.,,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+RR,Industrial Valley,PRES M ROXAS / INDUSTRIAL VALLEY SUBD.,J A SANTOS-QUEZON,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+RR,Industrial Valley,PRES MAGSAYSAY / INDUSTRIAL VALLEY SUBD.,,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+RR,Industrial Valley,PRES QUIRINO / INDUSTRIAL VALLEY SUBD.,J A SANTOS- QUEZON,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+RR,Industrial Valley,PRES S OSMENA JR / INDUSTRIAL VALLEY SUBD.,,17000.0,DO 6-2023,village,Industrial Valley Complex,95
+CR,Jesus De La Peña,ALL OTHER STREETS,,8000.0,DO 6-2023,background,,0
+RR,Jesus De La Peña,ALL OTHER SUBDIVISION,,8000.0,DO 6-2023,background,,0
+RR,Jesus De La Peña,ALL OTHER STREETS,,7000.0,DO 6-2023,background,,0
+CR,Jesus De La Peña,A BONIFACIO AVE,ST MARY-MARIKINA BRIDGE,24000.0,DO 6-2023,street,A. Bonifacio Avenue,100
+RR,Jesus De La Peña,A BONIFACIO AVE,ST MARY-MARIKINA BRIDGE,17000.0,DO 6-2023,street,A. Bonifacio Avenue,100
+CR,Jesus De La Peña,LOPEZ JAENA ST,Barangka - J. Dela Pena boundary,14000.0,DO 6-2023,street,Lopez Jaena Street,100
+CR,Jesus De La Peña,GEN MALVAR,along Bonifacio Avenue,12000.0,DO 6-2023,street,General Malvar Street,97
+RR,Jesus De La Peña,LOPEZ JAENA ST,Barangka - J. Dela Pena boundary,10000.0,DO 6-2023,street,Lopez Jaena Street,100
+RR,Jesus De La Peña,A FLORES ST,GEN MALVAR-L JAENA,8500.0,DO 6-2023,street,A. Flores Street,100
+RR,Jesus De La Peña,GEN MALVAR,along Bonifacio Avenue,8500.0,DO 6-2023,street,General Malvar Street,97
+RR,Jesus De La Peña,HALINA ST,L JAENA-A BONIFACIO,8500.0,DO 6-2023,street,Halina Street,100
+RR,Jesus De La Peña,P ZAMORA,GEN MALVAR-BONIFACIO,8500.0,DO 6-2023,street,P. Zamora Street,97
+RR,Jesus De La Peña,RIVERSIDE DRIVE,Provident Village,7500.0,DO 6-2023,street,Riverside Drive,100
+RR,Jesus De La Peña,T. CLAUDIO ST,along A. Bonifacio Ave.,7500.0,DO 6-2023,street,T. Claudio Street,100
+CR,Jesus De La Peña,ST MARY AVE.-PROVIDENT VILL,BONIFACIO-RIVERSIDE,11000.0,DO 6-2023,unmatched,Provident Villages (78),0
+RR,Jesus De La Peña,ST MARY AVE.-PROVIDENT VILL,BONIFACIO-RIVERSIDE,9000.0,DO 6-2023,unmatched,Provident Villages (78),0
+RR,Jesus De La Peña,CAPT. SINDO ST,GEN MALVAR-BONIFACIO,8500.0,DO 6-2023,unmatched,La Vista Subdivision (33),0
+CR,Jesus De La Peña,PROVIDENT VILL,along A. Bonifacio,8500.0,DO 6-2023,village,Provident Villages,100
+RR,Jesus De La Peña,PROVIDENT VILL,along A. Bonifacio,7500.0,DO 6-2023,village,Provident Villages,100
+CR,Malanday,ALL OTHER STREETS,,8000.0,DO 6-2023,background,,0
+RR,Malanday,ALL OTHER SUBD.,,8000.0,DO 6-2023,background,,0
+RR,Malanday,ALL OTHER STREETS,,4500.0,DO 6-2023,background,,0
+RR,Malanday,MAGDALENE,Fatima Drive - Lourdes Drive,9000.0,DO 6-2023,segment,Magdalene Street,97
+RR,Malanday,C MEJIA ST.,MALAYA - J. P. RIZAL ST.,8500.0,DO 6-2023,segment,C. Mejia Street,100
+RR,Malanday,F MENDOZA ST,Malaya St - J.P. Rizal,8500.0,DO 6-2023,segment,F. Mendoza Street,100
+RR,Malanday,RUBY ST.,Diamond St - San Diego Drive,7000.0,DO 6-2023,segment,Ruby Street,100
+CR,Malanday,J. P. RIZAL ST.,DIAMOND-AGOHO,36000.0,DO 6-2023,street,J. P. Rizal Street,100
+CR,Malanday,J. P. RIZAL ST.,along J. P. Rizal,31000.0,DO 6-2023,street,J. P. Rizal Street,100
+CR,Malanday,GRANDVIEW PARK Subd,formerly: PARKLAND ESTATE SUBD,11000.0,DO 6-2023,street,Grandview Park Street,97
+CR,Malanday,MALAYA ST,MEJIA / F. MENDOZA,10500.0,DO 6-2023,street,Malaya Street,100
+RR,Malanday,GRANDVIEW PARK Subd,formerly: PARKLAND ESTATE SUBD,9000.0,DO 6-2023,street,Grandview Park Street,97
+RR,Malanday,LUZON ST,,9000.0,DO 6-2023,street,Luzon Street,100
+RR,Malanday,MALAYA ST,MEJIA / F. MENDOZA,9000.0,DO 6-2023,street,Malaya Street,100
+RR,Malanday,PASONG GOMA ST.,Pasong Goma,9000.0,DO 6-2023,street,Pasong Goma Street,100
+RR,Malanday,RAINBOW DRIVE,PARKLAND SUBDIVISION,9000.0,DO 6-2023,street,Rainbow Drive,100
+RR,Malanday,ROSAL ST,SAMPAGUITA VILLAGE,9000.0,DO 6-2023,street,Rosal Street,100
+RR,Malanday,SAN DIEGO COMPOUND,DIAMOND ST,9000.0,DO 6-2023,street,San Diego Drive,97
+RR,Malanday,SUNNY SQUARE DRIVE,JP RIZAL / GUEVARRA ST,9000.0,DO 6-2023,street,Sunny Square Drive,100
+RR,Malanday,BOUGANVILLA ST.,,7000.0,DO 6-2023,street,Bougainvillea Street,93.33333333333333
+RR,Malanday,G FERNANDO ST,VALENTINO SUBDIVISION,7000.0,DO 6-2023,street,G. Fernando Street,100
+RR,Malanday,GUEVARRA COMPOUND,SAN DIEGO COMPD / JP RIZAL,7000.0,DO 6-2023,street,Guevarra Compound,100
+RR,Malanday,J. P. RIZAL ST.,Interior,7000.0,DO 6-2023,street,J. P. Rizal Street,100
+RR,Malanday,JOCSON ST,along Marikina River,7000.0,DO 6-2023,street,I. Jocson Street,90.0
+RR,Malanday,KABAYANI ST,,7000.0,DO 6-2023,street,Kabayani Road,97
+RR,Malanday,LANGKA ST,PARADISE PUROK II,7000.0,DO 6-2023,street,Langka Street,100
+RR,Malanday,LANZONES ST.,PARADISE PUROK II,7000.0,DO 6-2023,street,Lansones Street,90.9090909090909
+RR,Malanday,NARRA ST,Brgy Tumana Boundary,7000.0,DO 6-2023,street,Narra Street,100
+RR,Malanday,PARADISE,,7000.0,DO 6-2023,street,Paradise Street,97
+RR,Malanday,BULELAK DRIVE,MALAYA - J. P. RIZAL ST.,6500.0,DO 6-2023,street,Bulelak Street,97
+RR,Malanday,ATIS ST,Jocson St. kabayani St.,6000.0,DO 6-2023,street,Atis Street,100
+RR,Malanday,MASIKAP COMPOUND,near Marikina River,5000.0,DO 6-2023,street,Masikap Street,97
+RR,Malanday,"LOYOLA GRAND VILLAS 3,4,& 5",part,31000.0,DO 6-2023,unmatched,La Vista Subdivision (0),0
+CR,Malanday,GOLDEN VALLEY SUBDIVISION,Along J. P. Rizal,11000.0,DO 6-2023,unmatched,Loyola Grand Villas (45),0
+CR,Malanday,FILIPINAS VILLAGE,"LUZON, VISAYAS AND MINDANAO ST.",9000.0,DO 6-2023,unmatched,La Vista Subdivision (38),0
+RR,Malanday,GOLDEN VALLEY SUBDIVISION,Along J. P. Rizal,9000.0,DO 6-2023,unmatched,Loyola Grand Villas (45),0
+RR,Malanday,LADAO,,9000.0,DO 6-2023,unmatched,La Vista Subdivision (46),0
+RR,Malanday,PARKLAND ESTATE SUBD PAVILLION,Bernador Center,9000.0,DO 6-2023,unmatched,Parkland Estates (62),0
+RR,Malanday,SIASOCO CMPD,ST. RITA / FATIMA DRIVE,9000.0,DO 6-2023,unmatched,Sampaguita Village (35),0
+RR,Malanday,SILVER SPRING PARK,Richwood St - Rainbow Drive,9000.0,DO 6-2023,unmatched,Parkland Estates (46),0
+RR,Malanday,FILIPINAS VILLAGE,"LUZON, VISAYAS AND MINDANAO ST.",8500.0,DO 6-2023,unmatched,La Vista Subdivision (38),0
+RR,Malanday,MBLA COURT,,8000.0,DO 6-2023,unmatched,La Vista Subdivision (44),0
+RR,Malanday,MINAHAN ST.,Malaya St - Narra St,7000.0,DO 6-2023,unmatched,Parkland Estates (40),0
+RR,Malanday,MIRASOL,,7000.0,DO 6-2023,unmatched,Emerald Village (57),0
+RR,Malanday,LIBIS BULELAK,,6000.0,DO 6-2023,unmatched,La Vista Subdivision (40),0
+RR,Malanday,NHA HOUSING,MALAYA,6000.0,DO 6-2023,unmatched,Santa Teresita Village (40),0
+RR,Malanday,LA VISTA SUBD. (SAME AS LGV),,31000.0,DO 6-2023,village,La Vista Subdivision,100
+RR,Malanday,SAMPAGUITA VILLAGE,MALAYA ST / JP RIZAL,9000.0,DO 6-2023,village,Sampaguita Village,100
+RR,Malanday,STA. TERESITA VILLAGE,JP RIZAL / PERPETUAL DRIVE,9000.0,DO 6-2023,village,Santa Teresita Village,92.3076923076923
+RR,Malanday,EMERALD VILLAGE,,8500.0,DO 6-2023,village,Emerald Village,100
+CR,Marikina Heights,ALL OTHER STREETS,,12000.0,DO 6-2023,background,,0
+RR,Marikina Heights,ALL OTHER SUBD.,,11000.0,DO 6-2023,background,,0
+RR,Marikina Heights,ALL OTHER STREETS,,9000.0,DO 6-2023,background,,0
+RR,Marikina Heights,BALAGTAS ST.,GEN. ORDONEZ - NARRA,15500.0,DO 6-2023,segment,F. Balagtas Street,91.66666666666666
+RR,Marikina Heights,F BALAGTAS AVE,NARRA-TANGUILE,15500.0,DO 6-2023,segment,F. Balagtas Street,97
+RR,Marikina Heights,IPIL ST,CHAMPAGNAT - P. VALENZUELA,13000.0,DO 6-2023,segment,Ipil Street,100
+RR,Marikina Heights,IPIL ST,CHAMPAGNAT ST - CHAMPACA,13000.0,DO 6-2023,segment,Ipil Street,100
+RR,Marikina Heights,IPIL ST,KATIPUNAN - CHAMPAGNAT,11000.0,DO 6-2023,segment,Ipil Street,100
+RR,Marikina Heights,MALIPAJO,NARRA - CHAMPACA,10500.0,DO 6-2023,segment,Malipajo Street,97
+CR,Marikina Heights,BAYAN BAYANAN AVE,CONCEP BDRY - GEN ORDONEZ,31000.0,DO 6-2023,street,Bayan-Bayanan Avenue,100
+CR,Marikina Heights,BAYAN BAYANAN AVE,LADISLAO DIWA - GEN. ORDONEZ,31000.0,DO 6-2023,street,Bayan-Bayanan Avenue,100
+RR,Marikina Heights,BAYAN BAYANAN AVE,LADISLAO DIWA - GEN. ORDONEZ,26000.0,DO 6-2023,street,Bayan-Bayanan Avenue,100
+CR,Marikina Heights,BAYAN BAYANAN AVE,GEN ORDONEZ - LIWASANG KALAYAAN AVE,26000.0,DO 6-2023,street,Bayan-Bayanan Avenue,100
+CR,Marikina Heights,KATIPUNAN ST.,LIWASANG KALAYAAN-MOLAVE,22000.0,DO 6-2023,street,Katipunan Street,100
+CR,Marikina Heights,GEN ORDONEZ ST ( formerly Molave St),BAYAN-BAYANAN AVE - LIWASANG - CHAMPAGNAT,21500.0,DO 6-2023,street,General Ordoñez Street,100
+RR,Marikina Heights,BAYAN BAYANAN AVE,GEN ORDONEZ - LIWASANG KALAYAAN AVE,21000.0,DO 6-2023,street,Bayan-Bayanan Avenue,100
+CR,Marikina Heights,LIWASANG KALAYAAN,BAYAN-BAYANAN -T. BUGALLON- LOPEZ SANTOS,21000.0,DO 6-2023,street,Liwasang Kalayaan Street,97
+CR,Marikina Heights,LIWASANG KALAYAAN,BAYAN-BAYANAN - WEST DRIVE - EAST DRIVE,21000.0,DO 6-2023,street,Liwasang Kalayaan Street,97
+CR,Marikina Heights,GEN ORDONEZ ST ( formerly Molave St),CHAMPAGNAT - CHAMPACA-EAST DRIVE - WEST DRIVE,20000.0,DO 6-2023,street,General Ordoñez Street,100
+CR,Marikina Heights,CHAMPAGNAT AVE,MOLAVE EAST - MOLAVE WEST,19000.0,DO 6-2023,street,Champagnat Street,97
+CR,Marikina Heights,DR P VALENZUELA ST.,LIWASANG KALAYAAN - LADISLAO DIWA,19000.0,DO 6-2023,street,P. Valenzuela Street,97
+RR,Marikina Heights,KATIPUNAN ST.,LIWASANG KALAYAAN-MOLAVE,19000.0,DO 6-2023,street,Katipunan Street,100
+CR,Marikina Heights,NARRA ST,B BAYANAN AVE-MOLAVE,19000.0,DO 6-2023,street,Narra Street,100
+CR,Marikina Heights,ROYAL PALM ST,along commercial area,19000.0,DO 6-2023,street,Royal Palm Street,100
+CR,Marikina Heights,DAO ST,B BAYANAN - WEST DRIVE,18500.0,DO 6-2023,street,Dao Street,100
+CR,Marikina Heights,F BALAGTAS AVE,,18000.0,DO 6-2023,street,F. Balagtas Street,97
+CR,Marikina Heights,CHAMPACA ST,EAST DR - MOLAVE - TANGUILLE,16000.0,DO 6-2023,street,Champaca Street,100
+CR,Marikina Heights,CHAMPAGNAT AVE,MOLAVE - BONANZA,16000.0,DO 6-2023,street,Champagnat Street,97
+RR,Marikina Heights,CHAMPAGNAT AVE,MOLAVE EAST - MOLAVE WEST,16000.0,DO 6-2023,street,Champagnat Street,97
+RR,Marikina Heights,COCO PALM ST (Palmera Homes),beside Ayala Malls,16000.0,DO 6-2023,street,Coco Palm Street,100
+RR,Marikina Heights,DAO ST,B BAYANAN - WEST DRIVE,16000.0,DO 6-2023,street,Dao Street,100
+CR,Marikina Heights,IPIL ST,KATIPUNAN - CHAMPAGNAT - EAST - WEST,16000.0,DO 6-2023,street,Ipil Street,100
+CR,Marikina Heights,LAKANDULA ST.,LIWASANG KALAYAAN - MOLAVE ST.,16000.0,DO 6-2023,street,Lakandula Street,100
+CR,Marikina Heights,LOPE K SANTOS,LIWASANG KALAYAAN - MOLAVE,16000.0,DO 6-2023,street,Lope K. Santos Street,97
+RR,Marikina Heights,GEN ORDONEZ ST ( formerly Molave St),BAYAN-BAYANAN AVE - LIWASANG - CHAMPAGNAT,16000.0,DO 6-2023,street,General Ordoñez Street,100
+RR,Marikina Heights,GEN ORDONEZ ST ( formerly Molave St),CHAMPAGNAT - CHAMPACA-EAST DRIVE - WEST DRIVE,16000.0,DO 6-2023,street,General Ordoñez Street,100
+RR,Marikina Heights,NARRA ST,B BAYANAN AVE-MOLAVE,16000.0,DO 6-2023,street,Narra Street,100
+RR,Marikina Heights,LIWASANG KALAYAAN,BAYAN-BAYANAN - T. BUGALLON - EAST DRIVE,15500.0,DO 6-2023,street,Liwasang Kalayaan Street,97
+RR,Marikina Heights,LIWASANG KALAYAAN,BAYAN-BAYANAN - WEST DRIVE - EAST DRIVE,15500.0,DO 6-2023,street,Liwasang Kalayaan Street,97
+RR,Marikina Heights,DR P VALENZUELA ST.,LIWASANG KALAYAAN - LADISLAO DIWA,15000.0,DO 6-2023,street,P. Valenzuela Street,97
+RR,Marikina Heights,CHAMPACA ST,EAST DR - MOLAVE - TANGUILLE,13000.0,DO 6-2023,street,Champaca Street,100
+RR,Marikina Heights,CHAMPAGNAT AVE,MOLAVE - BONANZA,13000.0,DO 6-2023,street,Champagnat Street,97
+CR,Marikina Heights,IPIL ST,CHAMPACA ST - EAST - WEST,13000.0,DO 6-2023,street,Ipil Street,100
+RR,Marikina Heights,LADISLAO DIWA,MOLAVE - BAYAN BAYANAN,13000.0,DO 6-2023,street,Ladislao Diwa Street,97
+RR,Marikina Heights,LAKANDULA ST.,LIWASANG KALAYAAN - MOLAVE ST.,13000.0,DO 6-2023,street,Lakandula Street,100
+RR,Marikina Heights,LOPE K SANTOS,LIWASANG KALAYAAN - MOLAVE,13000.0,DO 6-2023,street,Lope K. Santos Street,97
+CR,Marikina Heights,TANGUILE ST,F. BALAGTAS - EAST DRIVE - CHAMPACA - APITONG,12500.0,DO 6-2023,street,Tanguile Street,100
+RR,Marikina Heights,IPIL ST,KATIPUNAN - CHAMPAGNAT - EAST - WEST,11000.0,DO 6-2023,street,Ipil Street,100
+RR,Marikina Heights,TANGUILE ST,F. BALAGTAS - EAST DRIVE - CHAMPACA - APITONG,10500.0,DO 6-2023,street,Tanguile Street,100
+RR,Marikina Heights,APITONG ST,CHAMPAGNAT ST- BALAGTAS,9500.0,DO 6-2023,street,Apitong Street,100
+RR,Marikina Heights,VILLA GRANDE DRIVE,,9500.0,DO 6-2023,street,Villa Grande Drive,100
+CR,Marikina Heights,EAST DRIVE,LIWASANG KALAYAAN - TANGUILE,19000.0,DO 6-2023,unmatched,Eastview Homes (67),0
+CR,Marikina Heights,OLIVE PALM ST,beside of Ayala Malls,16000.0,DO 6-2023,unmatched,La Colina (53),0
+CR,Marikina Heights,WEST DRIVE,LIWASANG KALAYAAN - MOLAVE,16000.0,DO 6-2023,unmatched,Eastview Homes (50),0
+RR,Marikina Heights,EAST DRIVE,LIWASANG KALAYAAN - TANGUILE,15500.0,DO 6-2023,unmatched,Eastview Homes (67),0
+RR,Marikina Heights,PALMERA HOMES,ALONG LIWASANG KALAYAAN,15500.0,DO 6-2023,unmatched,Palmera Centro (67),0
+CR,Marikina Heights,T BUGALLON ST,LIWASANG - BAYAN BAYANAN,13000.0,DO 6-2023,unmatched,Balana Townhouses (50),0
+RR,Marikina Heights,WEST DRIVE,LIWASANG KALAYAAN - MOLAVE,13000.0,DO 6-2023,unmatched,Eastview Homes (50),0
+RR,Marikina Heights,T BUGALLON ST,LIWASANG - BAYAN BAYANAN,11000.0,DO 6-2023,unmatched,Balana Townhouses (50),0
+CR,Marikina Heights,FATIMA DRIVE (La Milagrosa Subd),ALONG MARIST SCHOOL,16000.0,DO 6-2023,village,La Milagrosa Executive Village,95
+RR,Marikina Heights,HILLTOP COMPOUND,,15500.0,DO 6-2023,village,Hilltop Compound,100
+RR,Marikina Heights,CHAMPACA RESIDENCES,townhouse,13000.0,DO 6-2023,village,Champaca Residences,100
+RR,Marikina Heights,FATIMA DRIVE (La Milagrosa Subd),ALONG MARIST SCHOOL,13000.0,DO 6-2023,village,La Milagrosa Executive Village,95
+RR,Marikina Heights,LA MILAGROSA SUBD,TANGUILE,13000.0,DO 6-2023,village,La Milagrosa Executive Village,95
+RR,Marikina Heights,MARIST VILLAGE,CHAMPAGNAT,11000.0,DO 6-2023,village,Marist Village,100
+RR,Marikina Heights,MARIST ROAD,APITONG - CHAMPAGNAT,10500.0,DO 6-2023,village,Marist Village,100
+CR,Nangka,ALL OTHER STREETS,,8000.0,DO 6-2023,background,,0
+RR,Nangka,ALL OTHER SUBD.,,7000.0,DO 6-2023,background,,0
+RR,Nangka,ALL OTHER STREETS,,6000.0,DO 6-2023,background,,0
+RR,Nangka,MABUHAY,MITHI - MAKABAYAN,7000.0,DO 6-2023,segment,Mabuhay Street,97
+CR,Nangka,J. P. RIZAL ST.,Concepcion I - San Mateo Boundary,30000.0,DO 6-2023,street,J. P. Rizal Street,100
+RR,Nangka,J. P. RIZAL ST.,Concepcion I - San Mateo Boundary,28000.0,DO 6-2023,street,J. P. Rizal Street,100
+CR,Nangka,EGYPT ST,J.P. RIZAL ST. - DAANG BAKAL,11000.0,DO 6-2023,street,Egypt Street,100
+CR,Nangka,FAIRLANE ST,Public Market / Concepcion Uno Boundary,10500.0,DO 6-2023,street,Fairlane Street,100
+CR,Nangka,BALUBAD ST,NEAR TWIN TOWER I AND PERMALINE HOUSING,9000.0,DO 6-2023,street,Balubad Street,100
+RR,Nangka,DAANG BAKAL,,9000.0,DO 6-2023,street,Daang Bakal Street,97
+RR,Nangka,EDINBURG ST.,PERMALINE HOUSING - GREENLAND SUBD.,9000.0,DO 6-2023,street,Edinburg Street,100
+RR,Nangka,EGYPT ST,J.P. RIZAL ST. - DAANG BAKAL,9000.0,DO 6-2023,street,Egypt Street,100
+CR,Nangka,KABAYANI ROAD,,9000.0,DO 6-2023,street,Kabayani Road,100
+RR,Nangka,BAYABAS COMPOUND,,8000.0,DO 6-2023,street,Bayabas Street,97
+RR,Nangka,CONCEPCION ST.,ST. MARY SUBD. - APO ST.,7000.0,DO 6-2023,street,Concepcion Street,100
+RR,Nangka,CRYSTAL ST.,DAANG BAKAL - TWIN RIVER 2,7000.0,DO 6-2023,street,Crystal Street,100
+RR,Nangka,DAMA DE NOCHE ST.,BET. TWINVILLE SUBD. - ST. BENEDICT SUBD.,7000.0,DO 6-2023,street,Dama de Noche Street,100
+RR,Nangka,DESAMPORADOS ST.,ST. MARY SUBD. - APO ST.,7000.0,DO 6-2023,street,Desamporado Street,97
+RR,Nangka,KABAYANI ROAD,,7000.0,DO 6-2023,street,Kabayani Road,100
+RR,Nangka,MABINI ST.,J.P. RIZAL,7000.0,DO 6-2023,street,Mabini Street,100
+RR,Nangka,MAKABAYAN,J.P. RIZAL,7000.0,DO 6-2023,street,Makabayan Street,97
+RR,Nangka,MAKILING ST.,APOL ST. - MARIKINA VILLAGE SUBD.,7000.0,DO 6-2023,street,Makiling Street,100
+RR,Nangka,MARIKIT STREET,J.P. RIZAL - NANGKA RIVER,7000.0,DO 6-2023,street,Marikit Street,100
+RR,Nangka,MILFLORES ST.,BET. TWINVILLE SUBD. - ST. BENEDICT SUBD.,7000.0,DO 6-2023,street,Mil Flores Street,96.0
+RR,Nangka,MIRASOL STREET,J.P. RIZAL,7000.0,DO 6-2023,street,Mirasol Street,100
+RR,Nangka,MITHI,J.P. RIZAL - NANGKA RIVER,7000.0,DO 6-2023,street,Mithi Street,97
+RR,Nangka,ST. BENEDICT SUBD,J.P. RIZAL,7000.0,DO 6-2023,street,Saint Benedict Street,97
+RR,Nangka,BALUBAD ST,NEAR TWIN TOWER I AND PERMALINE HOUSING,6000.0,DO 6-2023,street,Balubad Street,100
+CR,Nangka,BUEN-MAR AVE.,GREENLAND SUBD,10000.0,DO 6-2023,unmatched,Saint Mary (56),0
+RR,Nangka,BUEN-MAR AVE.,GREENLAND SUBD,9000.0,DO 6-2023,unmatched,Saint Mary (56),0
+RR,Nangka,MARIKINA GREEN HEIGHTS III & IV,"MARIKINA GREENHEIGHTS 3,4,5 J.P. RIZAL",9000.0,DO 6-2023,unmatched,Jem Subdivision (0),0
+RR,Nangka,MARIKINA GREEN HEIGHTS V,,9000.0,DO 6-2023,unmatched,Jem Subdivision (0),0
+RR,Nangka,MARIKINA GREENLAND I & II,J.P. RIZAL,9000.0,DO 6-2023,unmatched,Jem Subdivision (0),0
+RR,Nangka,"CAMACHO Village (1,2)",,8000.0,DO 6-2023,unmatched,Zamora Compound (46),0
+CR,Nangka,BALUBAD LOWER,Along J. P. Rizal,7500.0,DO 6-2023,unmatched,Balubad (70),0
+RR,Nangka,DURAVILLE HOMES,,7000.0,DO 6-2023,unmatched,Ateneoville (60),0
+RR,Nangka,ST. MARYS SUBD,KAOLIN TWIN RIVER,7000.0,DO 6-2023,unmatched,Saint Mary (57),0
+RR,Nangka,TWIN RIVER SUBD - I,BESIDES GREENHEIGHTS SUBD.,7000.0,DO 6-2023,unmatched,Greenland Phase 1 (43),0
+RR,Nangka,BAGONG SILANG Nangka Neighborhood,,6500.0,DO 6-2023,unmatched,Greenland Newtown Executive Village (37),0
+RR,Nangka,BALUBAD LOWER,BANGKAL - BANABA,6000.0,DO 6-2023,unmatched,Balubad (70),0
+RR,Nangka,GREENLAND SUBD.,,9000.0,DO 6-2023,village,Greenland Newtown Executive Village,95
+RR,Nangka,HAMPSTEAD PLACE,DEL CARMEN ST-ST MARY SUBD,8000.0,DO 6-2023,village,Hampstead Place,100
+RR,Nangka,ANASTACIA SUBD,,7500.0,DO 6-2023,village,Anastacia Village,100
+RR,Nangka,JAYBEE SUBDIVISION,J.P. RIZAL,7500.0,DO 6-2023,village,Jaybee Village,100
+RR,Nangka,ATENEO VILLE,J.P. RIZAL,7000.0,DO 6-2023,village,Ateneoville,100
+RR,Nangka,MARIKINA VILLAGE,along Twin River,7000.0,DO 6-2023,village,Marikina Village,100
+RR,Nangka,MIRA VERDE SUBD,TWIN RIVER,7000.0,DO 6-2023,village,Mira Verde,100
+RR,Nangka,PERMALINE HOMES,J.P. RIZAL,7000.0,DO 6-2023,village,Permaline Homes,100
+RR,Nangka,TIERRA VISTA SUBD,TWIN RIVER,7000.0,DO 6-2023,village,Tierra Vista Heights,95
+RR,Nangka,TWIN VILLE (HOMESITE),J. P. RIZAL,7000.0,DO 6-2023,village,Twinville,100
+RR,Nangka,BALUBAD UPPER Settlement,KABAYANI ROAD,6000.0,DO 6-2023,village,Balubad Settlements,85.71428571428572
+CR,Parang,ALL OTHER STREETS,,9000.0,DO 6-2023,background,,0
+RR,Parang,ALL OTHER SUBD.,,8500.0,DO 6-2023,background,,0
+RR,Parang,ALL OTHER STREETS,,5500.0,DO 6-2023,background,,0
+CR,Parang,PARALUMAN ST,PARAISO - C M RECTO,11000.0,DO 6-2023,segment,Paraluman Street,100
+RR,Parang,BAGONG SILANG,BANGKAAN-CINNABAR,9000.0,DO 6-2023,segment,Bagong Silang Street,97
+RR,Parang,BURGOS ST.,SUMULONG ST - P. PATERNO ST.,9000.0,DO 6-2023,segment,P. Burgos Street,90.0
+RR,Parang,DAGOHOY ST.,G. DEL PILAR TO JUAN LUNA,8500.0,DO 6-2023,segment,Dagohoy Street,100
+RR,Parang,PARALUMAN ST,PARAISO - C M RECTO,8500.0,DO 6-2023,segment,Paraluman Street,100
+RR,Parang,J. CRUZ,CALCITE TO TANDANG SORA,6500.0,DO 6-2023,segment,J. Cruz Street,97
+CR,Parang,MOLAVE ST (formerly Gen. Ordonez),,19000.0,DO 6-2023,street,General Ordoñez Street,97
+RR,Parang,MOLAVE ST (formerly Gen. Ordonez),HEN LLANERA (Cacharel) - BALAGTAS,15500.0,DO 6-2023,street,General Ordoñez Street,97
+CR,Parang,F BALAGTAS AVE.,MOLAVE - C. M. recto,14000.0,DO 6-2023,street,F. Balagtas Street,97
+CR,Parang,TANDANG SORA ST,M. TUASON TO JUAN LUNA,13000.0,DO 6-2023,street,Tandang Sora Street,100
+RR,Parang,F BALAGTAS AVE.,MOLAVE - C. M. recto,12000.0,DO 6-2023,street,F. Balagtas Street,97
+CR,Parang,C M RECTO ST,PARALUMAN-BALAGTAS,11000.0,DO 6-2023,street,C. M. Recto Street,100
+CR,Parang,G DEL PILAR,MOLAVE - KAOLIN,11000.0,DO 6-2023,street,G. del Pilar Street,97
+CR,Parang,LAKANDULA ST,CORNER G. DEL PILAR,11000.0,DO 6-2023,street,Lakandula Street,100
+CR,Parang,LAKANDULA ST,BANGKAAN - F. BALAGTAS,11000.0,DO 6-2023,street,Lakandula Street,100
+CR,Parang,M L QUEZON,COR QUIRINO RIVERDALE SUBD,11000.0,DO 6-2023,street,M. L. Quezon Street,97
+CR,Parang,MH DEL PILAR ST,,11000.0,DO 6-2023,street,M. H. del Pilar Street,96.7741935483871
+CR,Parang,RAHA SOLIMAN ST,J LUNA - M TUAZON,10500.0,DO 6-2023,street,Rajah Soliman Street,90.32258064516128
+CR,Parang,DONA AURORA ST.,PARALUMAN - RODRIGUEZ,10000.0,DO 6-2023,street,Doña Aurora Street,100
+CR,Parang,SUMULONG,E. RODRIGUEZ TO G. DEL PILAR,10000.0,DO 6-2023,street,Sumulong Street,97
+RR,Parang,TANDANG SORA ST,M. TUASON TO JUAN LUNA,10000.0,DO 6-2023,street,Tandang Sora Street,100
+RR,Parang,A DE GUZMAN,A DE GUZMAN CREEK TO PARALUMAN,9000.0,DO 6-2023,street,A. de Guzman Street,97
+RR,Parang,AQUARIUS ST.,NEAR LA CONSOLACION\,9000.0,DO 6-2023,street,Aquarius Street,100
+RR,Parang,C M RECTO ST,PARALUMAN-BALAGTAS,9000.0,DO 6-2023,street,C. M. Recto Street,100
+RR,Parang,CAPRICORN ST.,NEAR LA CONSOLACION\,9000.0,DO 6-2023,street,Capricorn Street,100
+RR,Parang,GEMINI ST.,NEAR LA CONSOLACION,9000.0,DO 6-2023,street,Gemini Street,100
+RR,Parang,LAKANDULA ST,PARALUMAN - RODRIGUEZ,9000.0,DO 6-2023,street,Lakandula Street,100
+RR,Parang,LAKANDULA ST,BANGKAAN - F. BALAGTAS,9000.0,DO 6-2023,street,Lakandula Street,100
+RR,Parang,M L QUEZON,COR QUIRINO RIVERDALE SUBD,9000.0,DO 6-2023,street,M. L. Quezon Street,97
+RR,Parang,PISCES ST.,NEAR LA CONSOLACION,9000.0,DO 6-2023,street,Pisces Street,100
+RR,Parang,SAGITARIUS ST.,NEAR LA CONSOLACION,9000.0,DO 6-2023,street,Saguittarius Street,92.85714285714286
+RR,Parang,SUMULONG,E. RODRIGUEZ TO G. DEL PILAR,9000.0,DO 6-2023,street,Sumulong Street,97
+RR,Parang,DIEGO SILANG ST.,J LUNA - G DEL PILAR,8500.0,DO 6-2023,street,Diego Silang Street,100
+RR,Parang,DONA AURORA ST.,PARALUMAN - RODRIGUEZ,8500.0,DO 6-2023,street,Doña Aurora Street,100
+RR,Parang,E RODRIGUEZ ST.,C M RECTO - LAPU-LAPU,8500.0,DO 6-2023,street,E. Rodriguez Street,100
+RR,Parang,G DEL PILAR,MOLAVE - KAOLIN,8500.0,DO 6-2023,street,G. del Pilar Street,97
+RR,Parang,GEN MENEZ,MOLAVE - PARAISO,8500.0,DO 6-2023,street,General Meñez Street,97
+RR,Parang,MH DEL PILAR ST,,8500.0,DO 6-2023,street,M. H. del Pilar Street,96.7741935483871
+RR,Parang,PALARIS,,8500.0,DO 6-2023,street,Palaris Street,97
+RR,Parang,PANDAY PIRA,LAPU-LAPU PARAISO,8500.0,DO 6-2023,street,Panday Pira Street,97
+RR,Parang,R. PALMA ST,M. TUASON TO J. CRUZ,8500.0,DO 6-2023,street,R. Palma Street,100
+RR,Parang,RAHA SOLIMAN ST,J LUNA - M TUAZON,8500.0,DO 6-2023,street,Rajah Soliman Street,90.32258064516128
+RR,Parang,MANACOP ST,SUMULONG TO P. PATERINO,8000.0,DO 6-2023,street,Mañacop Street,100
+RR,Parang,PILAPIL,LAPU-LAPU PARAISO,8000.0,DO 6-2023,street,Pilapil Street,97
+RR,Parang,ZAMORA,E. RODRIGUEZ,8000.0,DO 6-2023,street,Zamora Street,97
+RR,Parang,GOMEZ ST.,E. RODRIGUEZ,7500.0,DO 6-2023,street,Gomez Street,100
+RR,Parang,M TUAZON ST,,7500.0,DO 6-2023,street,M. Tuazon Street,100
+RR,Parang,ARAYAT ST.,,7000.0,DO 6-2023,street,Arayat Street,100
+RR,Parang,B. SANCHEZ ST.,TANGUILE - BALAGTAS,7000.0,DO 6-2023,street,Sanchez Street,90.9090909090909
+RR,Parang,CALCITE ST.,CALCITE - NABAR ST.,7000.0,DO 6-2023,street,Calcite Street,100
+RR,Parang,GRANITE ST.,CALCITE - NABAR ST.,7000.0,DO 6-2023,street,Granite Street,100
+RR,Parang,GRAPHITE ST.,CALCITE - NABAR ST.,7000.0,DO 6-2023,street,Graphite Street,100
+RR,Parang,PARNASO,LAPU-LAPU PARAISO,7000.0,DO 6-2023,street,Parnaso Street,97
+RR,Parang,LOPEZ JAENA,,6500.0,DO 6-2023,street,Lopez Jaena Street,97
+RR,Parang,BALAGTAS,"part of Parang, Fortune. Marikina Heights",12000.0,DO 6-2023,unmatched,Samaga (62),0
+CR,Parang,GEN MOLINA,,12000.0,DO 6-2023,unmatched,Gardenia Homes (56),0
+RR,Parang,GEN MOLINA,,10000.0,DO 6-2023,unmatched,Gardenia Homes (56),0
+CR,Parang,CHAMPACA STREET,C M RECTO-TANGUILE,9000.0,DO 6-2023,unmatched,Samaga (57),0
+RR,Parang,MARIKINA GREENHEIGHTS,,9000.0,DO 6-2023,unmatched,Marikina Village (57),0
+RR,Parang,GEN. NUESTRA ST.,MISEVILLA - AQUARIUS ST.,8500.0,DO 6-2023,unmatched,Julieta Subdivision (44),0
+RR,Parang,HEN. LLANERA,MOLAVE - PARAISO,8500.0,DO 6-2023,unmatched,Levier Heights (50),0
+RR,Parang,J LUNA ST,C M RECTO - ESTATE,8500.0,DO 6-2023,unmatched,Julieta Subdivision (46),0
+RR,Parang,LAWAAN ST,,8500.0,DO 6-2023,unmatched,Samaga (50),0
+RR,Parang,PARANG SUBD I & II,,8500.0,DO 6-2023,unmatched,Simeona Village (0),0
+RR,Parang,SANTAN ST.,"Part of Fortune, Marikina Heights",8500.0,DO 6-2023,unmatched,Saint Mary (62),0
+RR,Parang,MAGSAYSAY,G DEL PILAR - BALAGTAS,8000.0,DO 6-2023,unmatched,Samaga (53),0
+RR,Parang,MANUEL L QUEZON ST,PARALUMAN - RODRIGUEZ,8000.0,DO 6-2023,unmatched,Ateneoville (46),0
+RR,Parang,PATERNO,G DEL PILAR - M TUAZON,8000.0,DO 6-2023,unmatched,Ateneoville (56),0
+RR,Parang,A TINIO SUBD.,,7500.0,DO 6-2023,unmatched,La Consolacion Village (48),0
+RR,Parang,CHAMPACA STREET,C M RECTO-TANGUILE,7000.0,DO 6-2023,unmatched,Samaga (57),0
+RR,Parang,D. LOPEZ,LAPU-LAPU,7000.0,DO 6-2023,unmatched,Ramdale Homes (43),0
+RR,Parang,CYNABAR ST.,TWIN RIVER - BASALT,7000.0,DO 6-2023,unmatched,La Consolacion Village (38),0
+RR,Parang,PINKIAN,LAPU-LAPU PARAISO,7000.0,DO 6-2023,unmatched,Marikina Village (53),0
+RR,Parang,QUARTS ST.,CALCITE - NABAR ST.,7000.0,DO 6-2023,unmatched,Squibman Subdivision (46),0
+RR,Parang,TWIN RIVER SUBD 2,G. DEL PILAR,7000.0,DO 6-2023,unmatched,Levier 2 Townhomes (62),0
+RR,Parang,RIVERSIDE VIEW (RELOCATION),part of Nangka,6500.0,DO 6-2023,unmatched,Riverdale (61),0
+RR,Parang,SUNNYVILLE 1 & 2 (PART OF FORTUNE),,6000.0,DO 6-2023,unmatched,Fortune Executive Townhomes (47),0
+RR,Parang,LA CONSOLACION VILL (CONSOLACION VILL),GEN ORDOÑEZ,9000.0,DO 6-2023,village,La Consolacion Village,100
+RR,Parang,RIVERDALE SUBD.,part,9000.0,DO 6-2023,village,Riverdale,100
+RR,Parang,JEM SUBD,C.M. RECTO TO BAGONG SILANG,8500.0,DO 6-2023,village,Jem Subdivision,100
+RR,Parang,MISEVILLA ST.,,8500.0,DO 6-2023,village,Sevilla Homes,87.5
+RR,Parang,VICTORIA COMPOUND,LAPU-LAPU,8500.0,DO 6-2023,village,Victoria Compound,100
+RR,Parang,ROSITAVILLE,,7500.0,DO 6-2023,village,Rositaville,100
+RR,Parang,ANNADEL'S SUBD,M. TUAZON,7000.0,DO 6-2023,village,Annadels,100
+RR,Parang,JULIETA SUBD,TANGUILE - B. SANCHEZ,7000.0,DO 6-2023,village,Julieta Subdivision,100
+RR,Parang,SQUIBMAN SUBD,R MATANDA-G DEL PILAR,7000.0,DO 6-2023,village,Squibman Subdivision,100
+CR,San Roque,ALL OTHER STREETS,,12000.0,DO 6-2023,background,,0
+RR,San Roque,ALL OTHER SUBD,,12000.0,DO 6-2023,background,,0
+RR,San Roque,ALL OTHER STREETS,,7500.0,DO 6-2023,background,,0
+RR,San Roque,BANGKILYA ST,DRAGON ST. -DITCHOY ST.,13000.0,DO 6-2023,segment,Bangkilya Street,100
+CR,San Roque,MARCOS HIGHWAY (Pitpitan St),Marcos Highway - Gil Fernando,42500.0,DO 6-2023,street,Marcos Highway,100
+CR,San Roque,V. GOMEZ,J. P. RIZAL - Shoe Avenue,26500.0,DO 6-2023,street,V. Gomez Street,97
+RR,San Roque,V. GOMEZ,J. P. RIZAL - Shoe Avenue,22000.0,DO 6-2023,street,V. Gomez Street,97
+CR,San Roque,MA. ROXAS ST.,J P RIZAL- H. ROXAS,19000.0,DO 6-2023,street,M. A. Roxas Street,95.65217391304348
+CR,San Roque,SHOE AVE (formerly Munding Ave.),I. Mendoza - Pasig Boundary,17500.0,DO 6-2023,street,Shoe Avenue,100
+CR,San Roque,ALMOND NUT ST.,Walnut St - Gil Fernando - near Marcos Highway,16500.0,DO 6-2023,street,Almond Nut Street,100
+CR,San Roque,DASDASAN ST.,Midtown Subd- DRAGON ST. - MARCOS HIGHWAY,16500.0,DO 6-2023,street,Dasdasan Street,100
+CR,San Roque,DITCHOY ST.,Midtown Subd ( Dragon St - Marcos Highway),16500.0,DO 6-2023,street,Ditchoy Street,100
+CR,San Roque,DONA PRIETO,along Diego Silang,16500.0,DO 6-2023,street,Dona Prieto Street,97
+CR,San Roque,DRAGON ST,Midtown Subd - near Marcos Highway / Gil Fernando,16500.0,DO 6-2023,street,Dragon Street,100
+CR,San Roque,E DELA PAZ,J P RIZAL-P DIGUANGCO,16500.0,DO 6-2023,street,E. Dela Paz Street,97
+CR,San Roque,ESTRADOR,Midtown Subd.,16500.0,DO 6-2023,street,Estrador Street,97
+CR,San Roque,FLAMINGO ST,New Marikina Subd,16500.0,DO 6-2023,street,Flamingo Street,100
+CR,San Roque,GUNTING ST.,MIIDTOWN 2 SUBD,16500.0,DO 6-2023,street,Gunting Street,100
+CR,San Roque,H. ROXAS ST.,SHOE AVENUE - J. P. RIZAL,16500.0,DO 6-2023,street,H. Roxas Street,100
+CR,San Roque,LIAMZON ST. (Midtown Subd.),MIDTOWN 1 & 3,16500.0,DO 6-2023,street,Liamzon Street,100
+RR,San Roque,MA. ROXAS ST.,J P RIZAL- H. ROXAS,16500.0,DO 6-2023,street,M. A. Roxas Street,95.65217391304348
+CR,San Roque,MARTILYO ST. (Midtown II),MIDTOWN II,16500.0,DO 6-2023,street,Martilyo Street,100
+CR,San Roque,PAMBULI ST.,MIDTOWN 1 & 3,16500.0,DO 6-2023,street,Pambuli Street,100
+CR,San Roque,PANAPIK ST.,MIDTOWN 3,16500.0,DO 6-2023,street,Panapik Street,100
+CR,San Roque,PANGUSTURA ST.,MIDTOWN 3,16500.0,DO 6-2023,street,Pangustora Street,92.3076923076923
+CR,San Roque,PITPITAN ST,MIDTOWN 2,16500.0,DO 6-2023,street,Pitpitan Street,100
+CR,San Roque,REDWOOD ST.,NEW MARIKINA SUBD.,16500.0,DO 6-2023,street,Redwood Street,100
+CR,San Roque,TAGISAN ST.,MIDTOWN 3,16500.0,DO 6-2023,street,Tagisan,97
+CR,San Roque,WALNUT ST.,NEW MARIKINA SUBD,16500.0,DO 6-2023,street,Walnut Street,100
+CR,San Roque,PUREFOODS ROAD,J P RIZAL ST.,16000.0,DO 6-2023,street,Purefoods Road,100
+CR,San Roque,A MABINI ST.,V GOMEZ - J. P. RIZAL ST.,13000.0,DO 6-2023,street,A. Mabini Street,100
+RR,San Roque,ALMOND NUT ST.,Walnut St - Gil Fernando - near Marcos Highway,13000.0,DO 6-2023,street,Almond Nut Street,100
+RR,San Roque,BETEL NUT ST.,Marikina East,13000.0,DO 6-2023,street,Betel Nut Street,100
+RR,San Roque,CYPRESS ST.,NEW MARIKINA SUBD,13000.0,DO 6-2023,street,Cypress Street,100
+RR,San Roque,DASDASAN ST.,Midtown Subd- DRAGON ST. - MARCOS HIGHWAY,13000.0,DO 6-2023,street,Dasdasan Street,100
+RR,San Roque,DITCHOY ST.,Midtown Subd ( Dragon St - Marcos Highway),13000.0,DO 6-2023,street,Ditchoy Street,100
+RR,San Roque,DONA PRIETO,along Diego Silang,13000.0,DO 6-2023,street,Dona Prieto Street,97
+RR,San Roque,DRAGON ST,Midtown Subd - near Marcos Highway / Gil Fernando,13000.0,DO 6-2023,street,Dragon Street,100
+RR,San Roque,E DELA PAZ,J P RIZAL-P DIGUANGCO,13000.0,DO 6-2023,street,E. Dela Paz Street,97
+RR,San Roque,EAGLE ST,New Marikina Subd. -P. DIGUANGCO ST - MAPLE ST.,13000.0,DO 6-2023,street,Eagle Street,100
+RR,San Roque,ELM ST.,New Marikina Subd.,13000.0,DO 6-2023,street,Elm Street,100
+RR,San Roque,ESTRADOR,Midtown Subd.,13000.0,DO 6-2023,street,Estrador Street,97
+RR,San Roque,FALCON ST.,New Marikina Subd,13000.0,DO 6-2023,street,Falcon Street,100
+RR,San Roque,FLAMINGO ST,New Marikina Subd,13000.0,DO 6-2023,street,Flamingo Street,100
+RR,San Roque,GUNTING ST.,MIIDTOWN 2 SUBD,13000.0,DO 6-2023,street,Gunting Street,100
+RR,San Roque,H. ROXAS ST.,J. P. Rizal St - Walnut St.,13000.0,DO 6-2023,street,H. Roxas Street,100
+RR,San Roque,HAZEL NUT ST.,Marikina East - near Gil Fernando Ave.,13000.0,DO 6-2023,street,Hazel Nut Street,100
+RR,San Roque,LIAMZON ST. (Midtown Subd.),MIDTOWN 1 & 3,13000.0,DO 6-2023,street,Liamzon Street,100
+RR,San Roque,MAPLE ST. ( Bacolod St),New Marikina Subd (Walnut St - Gil Fernando Ave.),13000.0,DO 6-2023,street,Bacolod Street,100
+RR,San Roque,MARTILYO ST. (Midtown II),MIDTOWN II,13000.0,DO 6-2023,street,Martilyo Street,100
+RR,San Roque,PAMBULI ST.,MIDTOWN 1 & 3,13000.0,DO 6-2023,street,Pambuli Street,100
+RR,San Roque,PANAPIK ST.,MIDTOWN 3,13000.0,DO 6-2023,street,Panapik Street,100
+RR,San Roque,PANGUSTURA ST.,MIDTOWN 3,13000.0,DO 6-2023,street,Pangustora Street,92.3076923076923
+RR,San Roque,PICADOR ST.,MIDTOWN 1,13000.0,DO 6-2023,street,Pikador Street,90.0
+RR,San Roque,PILI NUT ST,MARIKINA EAST,13000.0,DO 6-2023,street,Pili Nut Street,100
+RR,San Roque,PINE ST.,NEW MARIKINA SUBD.,13000.0,DO 6-2023,street,Pine Street,100
+RR,San Roque,PITPITAN ST,MIDTOWN 2,13000.0,DO 6-2023,street,Pitpitan Street,100
+RR,San Roque,PUREFOODS ROAD,J P RIZAL ST.,13000.0,DO 6-2023,street,Purefoods Road,100
+RR,San Roque,RED CEDAR ST.,NEW MARIKINA SUBD.,13000.0,DO 6-2023,street,Red Cedar Street,100
+RR,San Roque,REDWOOD ST.,NEW MARIKINA SUBD.,13000.0,DO 6-2023,street,Redwood Street,100
+CR,San Roque,SANTISIMO ST,PRES ROXAS - MUNDING DE GUZMAN,13000.0,DO 6-2023,street,Santisimo Street,100
+RR,San Roque,SHOE AVE (formerly Munding Ave.),I. Mendoza - Pasig Boundary,13000.0,DO 6-2023,street,Shoe Avenue,100
+RR,San Roque,TAGISAN ST.,MIDTOWN 3,13000.0,DO 6-2023,street,Tagisan,97
+RR,San Roque,WALNUT ST.,NEW MARIKINA SUBD,13000.0,DO 6-2023,street,Walnut Street,100
+RR,San Roque,QUIRINO DE GUZMAN,PUREFOODS ROAD - J.P. RIZAL,12000.0,DO 6-2023,street,Quirino de Guzman Street,97
+RR,San Roque,A MABINI ST.,V GOMEZ - J. P. RIZAL ST.,11000.0,DO 6-2023,street,A. Mabini Street,100
+RR,San Roque,CHESTNUT,Walnut St - Gil Fernando Ave,11000.0,DO 6-2023,street,Chestnut Street,97
+RR,San Roque,DIEGO SILANG ST,N. Roxas St. - B. Sta Ana St.,11000.0,DO 6-2023,street,Diego Silang Street,100
+RR,San Roque,IGNACIO CRUZ,Diego Silang Munding De Guzman Ave.,11000.0,DO 6-2023,street,Ignacio Cruz Street,97
+RR,San Roque,M. PRIETO,along Diego Silang,11000.0,DO 6-2023,street,M. Prieto Street,97
+RR,San Roque,SANTISIMO ST,PRES ROXAS - MUNDING DE GUZMAN,11000.0,DO 6-2023,street,Santisimo Street,100
+RR,San Roque,JUSTA,,9000.0,DO 6-2023,street,Justa Street,97
+RR,San Roque,D VICTORINO,J P RIZAL - MUNDING DE GUZMAN AVE,8000.0,DO 6-2023,street,D. Victorino Street,97
+CR,San Roque,GIL FERNANDO AVE,Sta Elena Boundary. - MARCOS HIWAY,32000.0,DO 6-2023,unmatched,Emerald Valley Homes (46),0
+RR,San Roque,GIL FERNANDO AVE,Sta Elena Boundary. - MARCOS HIWAY,27000.0,DO 6-2023,unmatched,Emerald Valley Homes (46),0
+CR,San Roque,J. P. RIZAL ST.,E DELA PAZ- P DIGUANGCO,26500.0,DO 6-2023,unmatched,Signal Corps (40),0
+RR,San Roque,J. P. RIZAL ST.,E DELA PAZ- P DIGUANGCO,21000.0,DO 6-2023,unmatched,Signal Corps (40),0
+CR,San Roque,B. STA. ANA ST.,MUNDING DE GUZMAN- J. P. RIZAL ST.,17500.0,DO 6-2023,unmatched,Francesca Homes (44),0
+CR,San Roque,B. STA. ANA ST.,MARIKINA EAST,17500.0,DO 6-2023,unmatched,Francesca Homes (44),0
+CR,San Roque,F. PAZ,V. Gomez - I. Mendoza St. - W Paz,16500.0,DO 6-2023,unmatched,Pasig (40),0
+CR,San Roque,J A SANTOS ST.,M. Roxas - Munding De Guzman Ave.,16500.0,DO 6-2023,unmatched,Salvador Compound (35),0
+CR,San Roque,MARIKINA EAST SUBD,SAME VICINITIES,16500.0,DO 6-2023,unmatched,Signal Corps (42),0
+CR,San Roque,MIDTOWN MRKNA SUBD - I,Marcos Highway - Calumpang,16500.0,DO 6-2023,unmatched,Pasig (0),0
+CR,San Roque,MIDTOWN MRKNA SUBD - II & III,Marcos Highway - Cainta Boundary,16500.0,DO 6-2023,unmatched,Pasig (0),0
+CR,San Roque,MUNDING DE GUZMAN,I. MENDOZA - PASIG BOUNDARY,16500.0,DO 6-2023,unmatched,Mount View Village (37),0
+CR,San Roque,N. ROXAS,"E, Dela Paz St - Pasig Boundary",16500.0,DO 6-2023,unmatched,Royal Ville (35),0
+CR,San Roque,NEW MARIKINA SUBD,S & R - Gil Fernando,16500.0,DO 6-2023,unmatched,Mount View Village (45),0
+CR,San Roque,CAPT MIYONG,MUNDING DE GUZMAN AVE. - J.A. SANTOS,13000.0,DO 6-2023,unmatched,Pasig (38),0
+RR,San Roque,F. PAZ,V. Gomez - I. Mendoza St. - W Paz,13000.0,DO 6-2023,unmatched,Pasig (40),0
+CR,San Roque,I MENDOZA,J P RIZAL - MUNDING DE GUZMAN AVE.,13000.0,DO 6-2023,unmatched,Pasig (0),0
+RR,San Roque,J A SANTOS ST.,M. Roxas - Munding De Guzman Ave.,13000.0,DO 6-2023,unmatched,Salvador Compound (35),0
+RR,San Roque,MARIKINA EAST SUBD,SAME VICINITIES,13000.0,DO 6-2023,unmatched,Signal Corps (42),0
+RR,San Roque,MIDTOWN MRKNA SUBD - I,Marcos Highway - Calumpang,13000.0,DO 6-2023,unmatched,Pasig (0),0
+RR,San Roque,MIDTOWN MRKNA SUBD - II & III,Marcos Highway - Cainta Boundary,13000.0,DO 6-2023,unmatched,Pasig (0),0
+RR,San Roque,MUNDING DE GUZMAN,I. MENDOZA - PASIG BOUNDARY,13000.0,DO 6-2023,unmatched,Mount View Village (37),0
+RR,San Roque,N. ROXAS,"E, Dela Paz St - Pasig Boundary",13000.0,DO 6-2023,unmatched,Royal Ville (35),0
+RR,San Roque,NEW MARIKINA SUBD,S & R - Gil Fernando,13000.0,DO 6-2023,unmatched,Mount View Village (45),0
+CR,San Roque,P. DIGUANGCO ST,,13000.0,DO 6-2023,unmatched,Pasig (38),0
+RR,San Roque,B. STA. ANA ST.,MUNDING DE GUZMAN- J. P. RIZAL ST.,13000.0,DO 6-2023,unmatched,Francesca Homes (44),0
+RR,San Roque,B. STA. ANA ST.,Gil Fernando- MUNDING DE GUZMAN AVE,13000.0,DO 6-2023,unmatched,Francesca Homes (44),0
+RR,San Roque,YAMSON,SHOE AVE,13000.0,DO 6-2023,unmatched,Mount View Village (38),0
+RR,San Roque,CAPT MIYONG,MUNDING DE GUZMAN AVE. - J.A. SANTOS,11000.0,DO 6-2023,unmatched,Pasig (38),0
+RR,San Roque,I MENDOZA,J P RIZAL - MUNDING DE GUZMAN AVE.,11000.0,DO 6-2023,unmatched,Pasig (0),0
+RR,San Roque,B. STA. ANA ST.,MARIKINA EAST,11000.0,DO 6-2023,unmatched,Francesca Homes (44),0
+RR,San Roque,P. DIGUANGCO ST,,10000.0,DO 6-2023,unmatched,Pasig (38),0
+RR,San Roque,MOUNTAIN VIEW VILLAGE,part of Sta Elena,12000.0,DO 6-2023,village,Mount View Village,86.95652173913044
+CR,Santa Elena,ALL OTHER STREETS,,21000.0,DO 6-2023,background,,0
+RR,Santa Elena,ALL OTHER SUBD.,,12000.0,DO 6-2023,background,,0
+RR,Santa Elena,ALL OTHER STREETS,,11000.0,DO 6-2023,background,,0
+CR,Santa Elena,MCDONALDS AVE.,Sumulong Highway - Lark St.,22000.0,DO 6-2023,segment,McDonalds Street,97
+CR,Santa Elena,SHOE AVE,W.P/V. GOMEZ/SUMULONG HIGHWAY,33000.0,DO 6-2023,street,Shoe Avenue,100
+RR,Santa Elena,SHOE AVE,W.P/V. GOMEZ/SUMULONG HIGHWAY,26500.0,DO 6-2023,street,Shoe Avenue,100
+CR,Santa Elena,JACAMAR ST.,Flamingo St.- Public Mrket,23000.0,DO 6-2023,street,Jacamar Street,100
+CR,Santa Elena,LARK ST.,Gil Fernando - Macdonald Ave.,22000.0,DO 6-2023,street,Lark Street,100
+CR,Santa Elena,M CRUZ,KAPT. MOY- Public Market,22000.0,DO 6-2023,street,M. Cruz Street,97
+CR,Santa Elena,CITY HALL ROAD,,21000.0,DO 6-2023,street,City Hall Road,100
+CR,Santa Elena,E JACINTO,P DELA PAZ - W DELA PAZ,21000.0,DO 6-2023,street,E. Jacinto Street,97
+CR,Santa Elena,E. DELA PAZ,W. PAZ,21000.0,DO 6-2023,street,E. Dela Paz Street,97
+CR,Santa Elena,E. DELA PAZ,E. DELA PAZ,21000.0,DO 6-2023,street,E. Dela Paz Street,97
+RR,Santa Elena,E JACINTO,P DELA PAZ - W DELA PAZ,16500.0,DO 6-2023,street,E. Jacinto Street,97
+RR,Santa Elena,E. DELA PAZ,W. PAZ,16500.0,DO 6-2023,street,E. Dela Paz Street,97
+RR,Santa Elena,FLAMINGO ST.,along Lark St.,16500.0,DO 6-2023,street,Flamingo Street,100
+RR,Santa Elena,JACAMAR ST.,Flamingo St.- Public Mrket,16500.0,DO 6-2023,street,Jacamar Street,100
+RR,Santa Elena,LARK ST.,Gil Fernando - Macdonald Ave.,16500.0,DO 6-2023,street,Lark Street,100
+RR,Santa Elena,M CRUZ,KAPT. MOY- Public Market,16500.0,DO 6-2023,street,M. Cruz Street,97
+RR,Santa Elena,M CRUZ,KAPT. MOY - W. PAZ,16500.0,DO 6-2023,street,M. Cruz Street,97
+RR,Santa Elena,FLORENCIO PAZ,W DELA PAZ - V GOMEZ,13500.0,DO 6-2023,street,Florencio Paz Street,97
+RR,Santa Elena,C. CRUZ,,12000.0,DO 6-2023,street,C. Cruz Street,97
+RR,Santa Elena,DEGUANGCO,C. CRUZ,12000.0,DO 6-2023,street,Deguangco Street,97
+RR,Santa Elena,M. CARLOS,P. DANCEL,12000.0,DO 6-2023,street,M. Carlos Street,97
+RR,Santa Elena,S. DANCEL,,12000.0,DO 6-2023,street,S. Dancel Street,97
+CR,Santa Elena,GIL FERNANDO AVE,FLAMINGO STREET / SUMULONG - HIGHWAY,32000.0,DO 6-2023,unmatched,Royal Ville (43),0
+CR,Santa Elena,J. P. RIZAL ST.,,32000.0,DO 6-2023,unmatched,Tropicana Garden City (33),0
+RR,Santa Elena,GIL FERNANDO AVE,FLAMINGO STREET / SUMULONG - HIGHWAY,27000.0,DO 6-2023,unmatched,Royal Ville (43),0
+RR,Santa Elena,J. P. RIZAL ST.,,27000.0,DO 6-2023,unmatched,Tropicana Garden City (33),0
+CR,Santa Elena,W DELA PAZ (W. PAZ),J P RIZAL-SHOE AVE/ Public Market,26500.0,DO 6-2023,unmatched,Adelina Homes (47),0
+CR,Santa Elena,MAYOR JUAN CHAUYUNGCO ** - MAYOR JUAN CHANYUNGCO,Gil Fernando - Shoe Avenue,22000.0,DO 6-2023,unmatched,Tropicana Garden City (34),0
+CR,Santa Elena,P. BURGOS,P DELA PAZ - PUBLIC MARKET,22000.0,DO 6-2023,unmatched,Provident Villages (38),0
+CR,Santa Elena,P. DELA PAZ,J P RIZAL - SHOE AVE,22000.0,DO 6-2023,unmatched,Adelina Homes (47),0
+CR,Santa Elena,P. PAZ ** - F. PAZ,Public Market,22000.0,DO 6-2023,unmatched,Tropicana Garden City (31),0
+RR,Santa Elena,W DELA PAZ (W. PAZ),J P RIZAL-SHOE AVE/ Public Market,22000.0,DO 6-2023,unmatched,Adelina Homes (47),0
+CR,Santa Elena,CAPT VENCIONG,M CRUZ-SHOE AVE - Public Market,21000.0,DO 6-2023,unmatched,Tropicana Garden City (41),0
+CR,Santa Elena,KAP MOY,J P RIZAL - F PAZ,17500.0,DO 6-2023,unmatched,Salvador Compound (27),0
+RR,Santa Elena,P. BURGOS,P DELA PAZ - PUBLIC MARKET,16500.0,DO 6-2023,unmatched,Provident Villages (38),0
+CR,Santa Elena,KAP SANTOS (Alley),Along Kapitan Moy,13000.0,DO 6-2023,unmatched,Royal Ville (50),0
+RR,Santa Elena,NEW MARIKINA SUBD,J. CHANYUNGCO / MAPLE G. FERNANDO,13000.0,DO 6-2023,unmatched,Marquinton Residences (50),0
+RR,Santa Elena,A. DANCEL-KAP. ANTONIO SANTOS (Alley),KAPT MOY-W PAZ,12000.0,DO 6-2023,unmatched,Royal Ville (50),0
+RR,Santa Elena,CAPT CELSO MENDOZA ( P. Dancel),,12000.0,DO 6-2023,unmatched,Francesca Homes (47),0
+RR,Santa Elena,DARIO ST.,along Kapitan Moy,12000.0,DO 6-2023,unmatched,Adelina Homes (33),0
+RR,Santa Elena,KAP. ANTONIO SANTOS (A. DANCEL) (Alley),MOY - P DELA PAZ,12000.0,DO 6-2023,unmatched,Adelina Homes (53),0
+RR,Santa Elena,KAP. HERMINIO SIASOCO,fomerly ZAPATERO,12000.0,DO 6-2023,unmatched,Marquinton Residences (45),0
+RR,Santa Elena,KAPITAN HERMINIO SIASOCO FORMERLY SAPATERO,C. CRUZ,12000.0,DO 6-2023,unmatched,Marquinton Residences (38),0
+RR,Santa Elena,SIXTO DELA PAZ,M. CRUZ,12000.0,DO 6-2023,unmatched,Adelina Homes (38),0
+RR,Santa Elena,STA. INEZ,J. P. Rizal / Pulic Market,12000.0,DO 6-2023,unmatched,Francesca Homes (47),0
+RR,Santa Elena,MOUNTAIN VIEW SUBD.,G. FERNANDO / MT. EVEREST,12000.0,DO 6-2023,village,Mount View Village,86.95652173913044
+RR,Santa Elena,ROYALVILLE,DE GUANGCO,12000.0,DO 6-2023,village,Royal Ville,100
+CR,Santo Niño,ALL OTHER STREETS,,9000.0,DO 6-2023,background,,0
+RR,Santo Niño,ALL OTHER STREETS,,7000.0,DO 6-2023,background,,0
+RR,Santo Niño,ALL OTHER SUBD.,,7000.0,DO 6-2023,background,,0
+CR,Santo Niño,CIRMA ST.,SHOE AVENUE - TOYOTA AVENUE,27500.0,DO 6-2023,segment,Cirma Street,100
+CR,Santo Niño,P. ANTONIO (formerly Guerilla),Shoe Avenue to 7th Street,12500.0,DO 6-2023,segment,Guerilla Street,97
+CR,Santo Niño,SUMULONG HIGHWAY,J P RIZAL - GIL FERNANDO,36500.0,DO 6-2023,street,Sumulong Highway,100
+CR,Santo Niño,J. P. RIZAL ST.,P DELA PAZ-P.ANTONIO,32000.0,DO 6-2023,street,J. P. Rizal Street,100
+RR,Santo Niño,SUMULONG HIGHWAY,J P RIZAL - GIL FERNANDO,32000.0,DO 6-2023,street,Sumulong Highway,100
+CR,Santo Niño,SUMULONG HIGHWAY,Gil Fernando - Cainta Boundary,32000.0,DO 6-2023,street,Sumulong Highway,100
+RR,Santo Niño,SUMULONG HIGHWAY,Gil Fernando - Cainta Boundary,27500.0,DO 6-2023,street,Sumulong Highway,100
+CR,Santo Niño,TOYOTA AVE.,P. Antonio - Sumulong Ave.,27500.0,DO 6-2023,street,Toyota Avenue,100
+CR,Santo Niño,J. P. RIZAL ST.,P.ANTONIO-DIAMOND ST.,26500.0,DO 6-2023,street,J. P. Rizal Street,100
+CR,Santo Niño,KATIPUNAN ST,,26500.0,DO 6-2023,street,Katipunan Street,100
+CR,Santo Niño,MCDONALD'S AVE.,,26500.0,DO 6-2023,street,McDonalds Street,97
+CR,Santo Niño,SHOE AVE,P DELA PAZ - P ANTONIO,26500.0,DO 6-2023,street,Shoe Avenue,100
+CR,Santo Niño,G. FERNANDO EXT.,,22500.0,DO 6-2023,street,G. Fernando Extension,100
+RR,Santo Niño,J. P. RIZAL ST.,P.ANTONIO-DIAMOND ST.,22000.0,DO 6-2023,street,J. P. Rizal Street,100
+CR,Santo Niño,P. DELA PAZ ST,Public Market (Sta Elena Boundary),22000.0,DO 6-2023,street,P. de la Paz Street,96.2962962962963
+RR,Santo Niño,KATIPUNAN ST,,21000.0,DO 6-2023,street,Katipunan Street,100
+CR,Santo Niño,M CRUZ (GEN LUNA),P. Dela Paz -Sumulong Ave.,21000.0,DO 6-2023,street,M. Cruz Street,97
+CR,Santo Niño,M CRUZ (GEN LUNA),Public Market (Sumulong to Sta Elena Boundary),21000.0,DO 6-2023,street,M. Cruz Street,97
+RR,Santo Niño,G. FERNANDO EXT.,,17500.0,DO 6-2023,street,G. Fernando Extension,100
+CR,Santo Niño,1ST ST.,Mendoza - E. Manalo,16500.0,DO 6-2023,street,1st Street,100
+CR,Santo Niño,E. DELA PAZ,P. DELA PAZ - SUMULONG,16500.0,DO 6-2023,street,E. Dela Paz Street,97
+CR,Santo Niño,E. DELA PAZ ST,Sumulong Ave. - Agricultores,16500.0,DO 6-2023,street,E. Dela Paz Street,100
+CR,Santo Niño,E. DELA PAZ ST,Public Market (Sumulong to Sta Elena Boundary),16500.0,DO 6-2023,street,E. Dela Paz Street,100
+CR,Santo Niño,V SANTOS,J P RIZAL - SHOE AVE,16500.0,DO 6-2023,street,V. Santos Street,97
+RR,Santo Niño,VILLALON ST,J P RIZAL-SHOE AVE,16500.0,DO 6-2023,street,Villalon Street,100
+RR,Santo Niño,M CRUZ (GEN LUNA),Sumulong Ave. - Agricultores,15500.0,DO 6-2023,street,M. Cruz Street,97
+CR,Santo Niño,SHOE AVE,P ANTONIO - EXEQUIEL,14000.0,DO 6-2023,street,Shoe Avenue,100
+CR,Santo Niño,E. JACINTO,Public Market (Sumulong to Sta Elena Boundary),13500.0,DO 6-2023,street,E. Jacinto Street,97
+CR,Santo Niño,GREGORIO,EXEQUIEL TO KASEL PART OF PALIPARAN,13500.0,DO 6-2023,street,Gregorio Street,97
+RR,Santo Niño,V SANTOS,J P RIZAL - SHOE AVE,13500.0,DO 6-2023,street,V. Santos Street,97
+CR,Santo Niño,VIRGINIA ST.,part of Manotoc Subd,13500.0,DO 6-2023,street,Virginia Street,100
+CR,Santo Niño,AGRICULTORES,J P RIZAL-LAZARO,13000.0,DO 6-2023,street,Agricultores Street,97
+RR,Santo Niño,E. DELA PAZ,P. DELA PAZ - SUMULONG,13000.0,DO 6-2023,street,E. Dela Paz Street,97
+RR,Santo Niño,E. DELA PAZ ST,Sumulong Ave. - Agricultores,13000.0,DO 6-2023,street,E. Dela Paz Street,100
+CR,Santo Niño,E. JACINTO,Sumulong Ave. - P. Antonio,13000.0,DO 6-2023,street,E. Jacinto Street,97
+CR,Santo Niño,EUSTAQUIO ST.,Part of Marikina Subd,12500.0,DO 6-2023,street,Eustaquio Street,100
+CR,Santo Niño,P. ANTONIO (formerly Guerilla),J. P. Rizal to Shoe Avenue,12500.0,DO 6-2023,street,Guerilla Street,97
+RR,Santo Niño,E. JACINTO,Sumulong Ave. - Agricultores,12000.0,DO 6-2023,street,E. Jacinto Street,97
+RR,Santo Niño,E. MENDOZA,COR SHEFF,12000.0,DO 6-2023,street,E. Mendoza Street,97
+RR,Santo Niño,GREGORIO,EXEQUIEL TO KAREN PART OF PALIPARAN,12000.0,DO 6-2023,street,Gregorio Street,97
+RR,Santo Niño,AGRICULTORES,J P RIZAL-LAZARO,11000.0,DO 6-2023,street,Agricultores Street,97
+RR,Santo Niño,DIAMOND ST.,Malanday Boundary,11000.0,DO 6-2023,street,Diamond Street,100
+RR,Santo Niño,E. SANTOS ST.,,11000.0,DO 6-2023,street,E. Santos Street,100
+RR,Santo Niño,LAZARO ST,P ANTONIO-C. A. Santos,11000.0,DO 6-2023,street,Lazaro Street,100
+CR,Santo Niño,NIMFA ST,V. SANTOS GUERILLA,11000.0,DO 6-2023,street,Nimfa Street,100
+RR,Santo Niño,P. ANTONIO (formerly Guerilla),J. P. Rizal to Shoe Avenue,11000.0,DO 6-2023,street,Guerilla Street,97
+CR,Santo Niño,ROSITA,E. SANTOS TO SHEFF PART OF PALIPARAN,11000.0,DO 6-2023,street,Rosita Street,97
+RR,Santo Niño,SYLVIA,PART OF PALIPARAN,11000.0,DO 6-2023,street,Sylvia Street,97
+CR,Santo Niño,CHERRY BLOSSOM,Part of Zenaida Subd.,10500.0,DO 6-2023,street,Cherry Blossom Street,97
+RR,Santo Niño,CORAZON,SHEFF TO COL. DIVINO PART OF PALIPARAN,10500.0,DO 6-2023,street,Corazon Street,97
+RR,Santo Niño,SHOE AVE,P ANTONIO - EXEQUIEL,10000.0,DO 6-2023,street,Shoe Avenue,100
+RR,Santo Niño,DELA CRUZ ST.,Virgina - C. A. Santos St.,10000.0,DO 6-2023,street,B. Dela Cruz Street,92.3076923076923
+RR,Santo Niño,EUSTAQUIO ST.,Part of Marikina Subd,10000.0,DO 6-2023,street,Eustaquio Street,100
+CR,Santo Niño,ILANG-ILANG ST.,Zenaida Subd,10000.0,DO 6-2023,street,Ilang-Ilang Street,100
+CR,Santo Niño,SAMPAGUITA ST.,,10000.0,DO 6-2023,street,Sampaguita Street,100
+RR,Santo Niño,SHEFF ST.,PART OF PALIPARAN,10000.0,DO 6-2023,street,Sheff Street,100
+RR,Santo Niño,ANGELITO,SHEFF TO COL. DIVINO PART OF PALIPARAN,9000.0,DO 6-2023,street,Angelito Street,97
+RR,Santo Niño,AQUILINA ST,G. FERNANDO EXT TO E. MANALO ST PART OF PALIPARAN,9000.0,DO 6-2023,street,Aquilina Street,100
+RR,Santo Niño,BONIFACIO,AQUILINA TO ROSITA PART OF PALIPARAN,9000.0,DO 6-2023,street,Bonifacio Street,97
+RR,Santo Niño,BUENVIAJE SUBDIVISION,,9000.0,DO 6-2023,street,Buenviaje Street,97
+RR,Santo Niño,EXEQUIEL ST.,PART OF PALIPARAN SUBD.,9000.0,DO 6-2023,street,Exequiel Street,100
+RR,Santo Niño,KAREN,GREGORIO TO COL DIVINO PART OF PALIPARAN,9000.0,DO 6-2023,street,Karen Street,97
+RR,Santo Niño,MIGUELITO,BONIFACIO TO E. SANTOS PART OF PALIPARAN,9000.0,DO 6-2023,street,Miguelito Street,97
+RR,Santo Niño,OPAL ST,C. A. Santos - Diamond (Part of Paliparan),9000.0,DO 6-2023,street,Opal Street,100
+RR,Santo Niño,OVAL ST.,MENDOZA TO E. SANTOS PART OF PALIPARAN,9000.0,DO 6-2023,street,Oval Street,100
+RR,Santo Niño,PEARL ST.,,9000.0,DO 6-2023,street,Pearl Street,100
+RR,Santo Niño,ROSITA,E. SANTOS TO SHEFF PART OF PALIPARAN,9000.0,DO 6-2023,street,Rosita Street,97
+RR,Santo Niño,SAPPHIRE ST.,,9000.0,DO 6-2023,street,Sapphire Street,100
+RR,Santo Niño,VIRGINIA ST.,part of Manotoc Subd,9000.0,DO 6-2023,street,Virginia Street,100
+RR,Santo Niño,CHERRY BLOSSOM,Part of Zenaida Subd.,8000.0,DO 6-2023,street,Cherry Blossom Street,97
+RR,Santo Niño,MERCADO COMPOUND,,8000.0,DO 6-2023,street,Mercado Road,97
+RR,Santo Niño,KABAYANI RD,,7750.0,DO 6-2023,street,Kabayani Road,100
+RR,Santo Niño,ILANG-ILANG ST.,Zenaida Subd,7500.0,DO 6-2023,street,Ilang-Ilang Street,100
+CR,Santo Niño,GIL FERNANDO AVE,Sumulong Highway - Gil Fernndo Ext.,36500.0,DO 6-2023,unmatched,Don Mercado Compound (52),0
+CR,Santo Niño,P BURGOS ST,Public Market (Sumulong to Sta Elena Boundary),21000.0,DO 6-2023,unmatched,Don Abdon Homes (38),0
+CR,Santo Niño,"2ND ST., 3RD ST., 4TH ST.",P. Antonio (Guerilla) - E. Mendoza,16500.0,DO 6-2023,unmatched,Mount View Village (0),0
+CR,Santo Niño,"6th,",P. Antonio (Guerilla) - Marikina City Engr Office),16500.0,DO 6-2023,unmatched,Mount View Village (0),0
+CR,Santo Niño,P BURGOS ST,P. Dela Paz - Sumulong Ave,16500.0,DO 6-2023,unmatched,Don Abdon Homes (38),0
+CR,Santo Niño,"5th, 7th",P. Antonio (Guerilla) - Aquilina,15000.0,DO 6-2023,unmatched,Mount View Village (0),0
+RR,Santo Niño,"6th,",P. Antonio (Guerilla) - Marikina City Engr Office),15000.0,DO 6-2023,unmatched,Mount View Village (0),0
+CR,Santo Niño,E. MANALO ST. (FORMER E. RODRIGUEZ HI-WAY),P ANTONIO - EXEQUIEL,13000.0,DO 6-2023,unmatched,Emerald Village (53),0
+RR,Santo Niño,E. SANTOS - 1ST ST.,E. MANALO - MENDOZA ST.,13000.0,DO 6-2023,unmatched,Mount View Village (0),0
+CR,Santo Niño,RIVER PARK,,13000.0,DO 6-2023,unmatched,Green Acres (50),0
+RR,Santo Niño,COL. DIVINO,AQUILINO TO EXEQUIEL PART OF PALIPARAN,12500.0,DO 6-2023,unmatched,Don Abdon Homes (42),0
+CR,Santo Niño,CENTRO DE BUENVIAJE,"Aquilina St., to Gil Fernado Ext.",12000.0,DO 6-2023,unmatched,Santa Teresita Village (42),0
+CR,Santo Niño,E. MANALO ST. (FORMER E. RODRIGUEZ HI-WAY),PART OF PALIPARAN SUBD.,11000.0,DO 6-2023,unmatched,Emerald Village (53),0
+CR,Santo Niño,NEW MARKET SUBD / Market Village,,11000.0,DO 6-2023,unmatched,Mearle Homes (67),0
+RR,Santo Niño,P BURGOS ST,Sumulong Ave. - JP RIZAL,11000.0,DO 6-2023,unmatched,Don Abdon Homes (38),0
+CR,Santo Niño,PALIPARAN SUBDIVISION,,11000.0,DO 6-2023,unmatched,Magolia Compound (50),0
+RR,Santo Niño,ZENAIDA SUBD,,10000.0,DO 6-2023,unmatched,Genesis Village (46),0
+RR,Santo Niño,MENDOZA,E. MANALO TO BUENVIAJE SUBD PART OF PALIPARAN,9500.0,DO 6-2023,unmatched,Mearle Homes (46),0
+RR,Santo Niño,BETTER HOMES,PART OF PALIPARAN SUBD.,9000.0,DO 6-2023,unmatched,Emerald Village (46),0
+RR,Santo Niño,CENTRO DE BUENVIAJE,"Aquilina St., to Gil Fernado Ext.",9000.0,DO 6-2023,unmatched,Santa Teresita Village (42),0
+RR,Santo Niño,MANOTOC SUBD,,9000.0,DO 6-2023,unmatched,Saint Dominic (50),0
+RR,Santo Niño,MARKET VILLAGE,,9000.0,DO 6-2023,unmatched,Mearle Homes (67),0
+RR,Santo Niño,NEW MARKET SUBD / Market Village,,9000.0,DO 6-2023,unmatched,Mearle Homes (67),0
+RR,Santo Niño,PALIPARAN SUBDIVISION,,9000.0,DO 6-2023,unmatched,Magolia Compound (50),0
+RR,Santo Niño,SHOE AVE. EXT.,P. ANTONIO - EXEQUIEL,9000.0,DO 6-2023,unmatched,Vista Valley Executive Village (40),0
+CR,Santo Niño,VISTA VALLEY SUBD,,17500.0,DO 6-2023,village,Vista Valley Executive Village,95
+RR,Santo Niño,VISTA VALLEY SUBD,,13500.0,DO 6-2023,village,Vista Valley Executive Village,95
+RR,Santo Niño,EMERALD VILLAGE,,10000.0,DO 6-2023,village,Emerald Village,100
+RR,Santo Niño,MEARLE HOMES SUBD,,9000.0,DO 6-2023,village,Mearle Homes,100
+RR,Santo Niño,NILE SUBD,V. Santos - Guerilla,8500.0,DO 6-2023,village,Nile Subdivision,100
+RR,Santo Niño,DON ABDON HOMES,,8000.0,DO 6-2023,village,Don Abdon Homes,100
+CR,Tañong,ALL OTHER STREETS,,10000.0,DO 6-2023,background,,0
+RR,Tañong,ALL OTHER SUBD,,8000.0,DO 6-2023,background,,0
+RR,Tañong,ALL OTHER STREETS,,7000.0,DO 6-2023,background,,0
+CR,Tañong,A BONIFACIO AVE,G PUYAT - ST MARY AVE,24000.0,DO 6-2023,street,A. Bonifacio Avenue,100
+RR,Tañong,A BONIFACIO AVE,G PUYAT - ST MARY AVE,17000.0,DO 6-2023,street,A. Bonifacio Avenue,100
+CR,Tañong,ST MARY AVE,A. BONIFACIO TO RIVERSIDE,11000.0,DO 6-2023,street,Saint Mary Avenue,100
+RR,Tañong,LOPEZ JAENA ST,J. Dela Pena - Barangka boundary,10000.0,DO 6-2023,street,Lopez Jaena Street,100
+RR,Tañong,ST MARY AVE,A. BONIFACIO TO RIVERSIDE,9000.0,DO 6-2023,street,Saint Mary Avenue,100
+RR,Tañong,C. DE LEON ST,along A. Bonifacio,8500.0,DO 6-2023,street,C. de Leon Street,100
+RR,Tañong,COBARRUBIAS,along A. Bonifacio,8500.0,DO 6-2023,street,Cobarrubias Street,97
+RR,Tañong,GEN JULIAN ST,along A. Bonifacio,8500.0,DO 6-2023,street,General Julian Street,100
+RR,Tañong,MANGGAHAN,along A. Bonifacio,8500.0,DO 6-2023,street,Manggahan Street,97
+RR,Tañong,TAVERA,along A. Bonifacio,8500.0,DO 6-2023,street,Tavera Street,97
+RR,Tañong,TIPAN (TIPAR),along A. Bonifacio,8500.0,DO 6-2023,street,Tipan Street,97
+RR,Tañong,TRIGUHAN ST,along A. Bonifacio,8500.0,DO 6-2023,street,Tiriguhan Street,95.65217391304348
+RR,Tañong,RIVERSIDE DRIVE,Provident Village,7500.0,DO 6-2023,street,Riverside Drive,100
+RR,Tañong,ST CATHERINE,Provident Village,7500.0,DO 6-2023,street,Saint Catherine Street,97
+RR,Tañong,HON. BENITO SOLIVEN VILLAS,Loyola Grand Villa,31000.0,DO 6-2023,unmatched,Provident Villages (24),0
+RR,Tañong,HONDURAS ST (L.G.V.),Loyola Grand Villa,31000.0,DO 6-2023,unmatched,Provident Villages (25),0
+RR,Tañong,LA VISTA SUBD (L.G.V.),Loyola Grand Villa,31000.0,DO 6-2023,unmatched,Provident Villages (35),0
+RR,Tañong,"LOYOLA GRAND VILLAS 1,2",part,31000.0,DO 6-2023,unmatched,Provident Villages (0),0
+RR,Tañong,PARAGUAY ST.,Loyola Grand Villa,31000.0,DO 6-2023,unmatched,Provident Villages (24),0
+CR,Tañong,GONZALO PUYAT,Loyola Subd,12000.0,DO 6-2023,unmatched,Provident Villages (27),0
+RR,Tañong,LOYOLA SUBDIVISION,DON GONZALO PUYAT,12000.0,DO 6-2023,unmatched,Provident Villages (13),0
+RR,Tañong,LOYOLA MEMORIAL PARK,along A. Bonifacio,11000.0,DO 6-2023,unmatched,Provident Villages (14),0
+RR,Tañong,GONZALO PUYAT,Loyola Subd,9000.0,DO 6-2023,unmatched,Provident Villages (27),0
+RR,Tañong,TANONG LANDLESS,"part of Triguhan, Tavera & Tipan",8500.0,DO 6-2023,unmatched,Provident Villages (25),0
+RR,Tañong,DOMITILLA ST.,Provident Village,7500.0,DO 6-2023,unmatched,Provident Villages (33),0
+CR,Tañong,PROVIDENT VILLAGE,part,11000.0,DO 6-2023,village,Provident Villages,100
+RR,Tañong,PROVIDENT VILLAGE,part,8500.0,DO 6-2023,village,Provident Villages,100
+CR,Tumana,ALL OTHER STREETS,,12000.0,DO 6-2023,background,,0
+RR,Tumana,ALL OTHER STREETS,,7000.0,DO 6-2023,background,,0
+RR,Tumana,ALL OTHER SUBDIVISION,,7000.0,DO 6-2023,background,,0
+RR,Tumana,MONGO ST.,Pilipino St - Upo St.,11000.0,DO 6-2023,segment,Monggo Street,94.11764705882352
+RR,Tumana,MONARCH ST (MONACO),along Moscow St. (LGV),31000.0,DO 6-2023,street,Monaco Street,97
+RR,Tumana,MOSCOW ST,Denmark to Marikina Bridge (LGV),31000.0,DO 6-2023,street,Moscow Street,100
+RR,Tumana,SILVERDROP ST,Moscow St to Woodridge,12000.0,DO 6-2023,street,Silverdrop Street,100
+RR,Tumana,MUSTASA ST,along Farmers Ave. 2,11000.0,DO 6-2023,street,Mustasa Street,100
+RR,Tumana,AMPALAYA ST.,Farmers Ave. I - Rd Dike,9000.0,DO 6-2023,street,Ampalaya Street,100
+RR,Tumana,FARMERS AVE. - I,,9000.0,DO 6-2023,street,Farmers I Street,97
+RR,Tumana,FARMERS AVE. II,,9000.0,DO 6-2023,street,Farmers Ⅱ Street,97
+RR,Tumana,J. DEL ROSARIO ST.,,9000.0,DO 6-2023,street,Del Rosario Street,93.33333333333333
+RR,Tumana,KALABASA ST,along Farmers Ave. 2,9000.0,DO 6-2023,street,Kalabasa Street,100
+RR,Tumana,LABANOS ST.,along Farmers Ave. 2,9000.0,DO 6-2023,street,Labanos Street,100
+RR,Tumana,MAIS ST.,along oscow St.,9000.0,DO 6-2023,street,Mais Street,100
+RR,Tumana,PALAY ST.,along Farmers Ave. 2,8000.0,DO 6-2023,street,Palay Street,100
+RR,Tumana,PATOLA ST,along Farmers Ave. 2,8000.0,DO 6-2023,street,Patola Street,100
+RR,Tumana,PECHAY ST.,Farmers Ave. I - Pilipino St.,8000.0,DO 6-2023,street,Pechay Street,100
+RR,Tumana,PIPINO ST,near Dona Petra NAI,8000.0,DO 6-2023,street,Pipino Street,100
+RR,Tumana,SINGKAMAS ST,along Farmers Ave. 2,8000.0,DO 6-2023,street,Singkamas Street,100
+RR,Tumana,SITAW ST,along Farmers Ave. 2,8000.0,DO 6-2023,street,Sitaw Street,100
+RR,Tumana,TALONG ST,along Farmers Ave. 2,8000.0,DO 6-2023,street,Talong Street,100
+CR,Tumana,KATIPUNAN ST,LGV,31000.0,DO 6-2023,unmatched,Capitol Park Homes (38),0
+RR,Tumana,KATIPUNAN ST,LGV,26500.0,DO 6-2023,unmatched,Capitol Park Homes (38),0
+RR,Tumana,WOODRIDGE HEIGHTS RESIDENTIAL ESTATES,,26500.0,DO 6-2023,unmatched,Woodridge Heights (73),0
+CR,Tumana,A. SANTOS ST,along Public Market,13000.0,DO 6-2023,unmatched,Majestic (40),0
+RR,Tumana,LIWANAG ST,along Monggo St,13000.0,DO 6-2023,unmatched,Loyola Grand Villas (32),0
+RR,Tumana,Road I to IV,,12000.0,DO 6-2023,unmatched,Loyola Grand Villas (0),0
+RR,Tumana,A. SANTOS ST,along Public Market,11000.0,DO 6-2023,unmatched,Majestic (40),0
+RR,Tumana,GSIS,,11000.0,DO 6-2023,unmatched,Majestic (33),0
+RR,Tumana,HEART CENTER,,11000.0,DO 6-2023,unmatched,Edge Water Subdivision (45),0
+RR,Tumana,AFP MUTUAL BENEFITS,LIBIS TUMANA,9000.0,DO 6-2023,unmatched,Ayala Heights (47),0
+RR,Tumana,LIBIS (OTHERS),LIBIS TUMANA,9000.0,DO 6-2023,unmatched,Edge Water Subdivision (40),0
+RR,Tumana,DOÑA PETRA NAI,,8000.0,DO 6-2023,unmatched,Doña Petra (83),0
+RR,Tumana,P. SANTOS ST.,Liwanag St - A. Santos. St.,8000.0,DO 6-2023,unmatched,Edge Water Subdivision (35),0
+RR,Tumana,LOYOLA GRAND VILLAS,part,31000.0,DO 6-2023,village,Loyola Grand Villas,100
+RR,Tumana,EDGEWATER,LIBIS TUMANA,8000.0,DO 6-2023,village,Edge Water Subdivision,100

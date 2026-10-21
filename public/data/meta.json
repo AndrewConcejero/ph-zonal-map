@@ -1,9 +1,9 @@
 {
-  "built_at": "2026-10-21T15:47:20+00:00",
+  "built_at": "2026-10-21T22:02:08+00:00",
   "current_year": 2026,
   "value_basis": "BIR residential zonal value (class RR, land), PHP per sqm",
   "adjusted_available": true,
-  "adjusted_to": "2026-10-21",
+  "adjusted_to": "2026-10-22",
   "adjusted_note": "Projected from each schedule's effectivity date with its RDO's median annual growth between consecutive revisions, measured on the same streets.",
   "growth": {
     "RDO-024": {
