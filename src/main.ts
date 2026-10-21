@@ -10,6 +10,7 @@ interface Props {
   lo?: number; hi?: number; typ?: number; typ_m?: 'median' | 'geomean';
   lo_a?: number; hi_a?: number; typ_a?: number; g?: number;
   eff?: string; do?: string; rdo?: string; ns?: number; src?: 'bir' | 'renph';
+  yrs?: number; gs?: string; since?: string; nb?: number; nbn?: string;
 }
 type Geometry = { type: 'Polygon'; coordinates: number[][][] } | { type: 'MultiPolygon'; coordinates: number[][][][] };
 interface Feature { type: 'Feature'; properties: Props; geometry: Geometry }
@@ -25,14 +26,15 @@ type BBox = [number, number, number, number];
 
 // ---- scale ----
 const STOPS = ['#e9f2e1', '#b5dcb4', '#63b39d', '#2d8590', '#265a8a', '#2c2f6e'];
-const DOMAIN: [number, number] = [2500, 400000];
-const TICKS = [2500, 10000, 30000, 100000, 400000];
+const DOMAIN: [number, number] = [2500, 1000000];
+const TICKS = [2500, 10000, 50000, 250000, 1000000];
 const STYLES = {
   light: 'https://tiles.openfreemap.org/styles/positron',
   dark: 'https://tiles.openfreemap.org/styles/dark',
 };
 const NCR_BOUNDS: [[number, number], [number, number]] = [[120.93, 14.38], [121.13, 14.78]];
 const MODE_LABEL: Record<Mode, string> = { typ: 'Typical', lo: 'Interior lot', hi: 'Prime' };
+const ROUGH_YEARS = 10;  // projections longer than this are marked rough (same as pipeline/report_staleness.py)
 const QUALITY: Record<Quality, { label: string; cls: string; text: (p: Props) => string }> = {
   barangay_data: {
     label: 'barangay data', cls: 'good',
@@ -41,7 +43,10 @@ const QUALITY: Record<Quality, { label: string; cls: string; text: (p: Props) =>
       : "From REN.PH's index of the BIR schedule. Typical is the geometric mean of interior and prime, because street-level rows are not available.",
   },
   city_median: { label: 'city median only', cls: 'warn', text: p => `No BIR schedule matched this barangay. This is the median of ${p.c}'s barangays, not this barangay's own value.` },
-  estimated: { label: 'estimated', cls: 'warn', text: () => 'No BIR value for this barangay. Estimated as the median of the barangays that share its border.' },
+  estimated: {
+    label: 'estimated', cls: 'warn',
+    text: p => `No BIR value for this barangay. These are estimates: the median of the ${p.nb} neighbouring ${p.nb === 1 ? 'barangay' : 'barangays'} with their own values (${p.nbn}).`,
+  },
   no_data: { label: 'no data', cls: '', text: p => `No zonal values loaded for ${p.c} yet.` },
 };
 
@@ -275,24 +280,35 @@ function renderCard(id: string) {
   const q = QUALITY[p.q];
   const year = meta?.current_year ?? new Date().getFullYear();
   const own = p.q === 'barangay_data';
+  const est = p.q === 'estimated';
+  const adj = state.basis === 'adj';
   const row = (label: string, val: string | undefined, na: string) =>
     `<dt>${label}</dt>${val ? `<dd>${val}</dd>` : `<dd class="na">${na}</dd>`}`;
+  const pair = (a?: number, b?: number) => a == null ? undefined : `${fmt(a)}${b != null ? ` → ${fmt(b)}` : ''}`;
   const where = [p.d, p.c, p.p].filter(Boolean).join(', ');
+  const kind = p.q === 'city_median' ? ' (city median)' : est ? ' (estimate)' : '';
+  const rough = p.yrs != null && p.yrs > ROUGH_YEARS;
+  const rdo = p.rdo?.replace(/^RDO-0*/, 'RDO ');
+  const growth = p.g != null
+    ? `${(p.g * 100).toFixed(1)}% a year${p.gs ? ` (${p.gs})` : rdo ? ` (${rdo})` : ''}`
+    : undefined;
   card.innerHTML = `
     <div class="head"><div class="nm">${esc(p.n)}</div><button class="close" type="button" aria-label="Close">×</button></div>
     <div class="loc">${esc(where)}</div>
-    <div class="big">${v != null ? `${fmt(v)}<small> /sqm · ${MODE_LABEL[state.mode].toLowerCase()}${!own && v != null ? ' (city median)' : ''}${state.basis === 'adj' ? `, ${year}` : ''}</small>` : '<small>No value</small>'}</div>
-    <span class="pill ${q.cls}">${q.label}</span>
+    <div class="big">${v != null ? `${fmt(v)}<small> /sqm · ${MODE_LABEL[state.mode].toLowerCase()}${kind}${adj ? `, adjusted to ${year}` : ''}</small>` : '<small>No value</small>'}</div>
+    <span class="pill ${q.cls}">${q.label}</span>${rough ? ` <span class="pill warn">rough adjustment</span>` : ''}
     <dl>
-      ${row(own ? 'Typical' : 'City median', fmt(p.typ), 'no data')}
-      ${row('Interior lot', fmt(p.lo), own ? 'no data' : 'no barangay detail')}
-      ${row('Prime', fmt(p.hi), own ? 'no data' : 'no barangay detail')}
-      ${p.typ_a != null ? row(`Typical, adjusted to ${year}`, fmt(p.typ_a), '') : ''}
-      ${p.g != null ? row('Growth rate used', `${(p.g * 100).toFixed(1)}% a year`, '') : ''}
-      ${row('Schedule effective', p.eff, 'not recorded')}
-      ${p.do ? row('Department Order', `${p.do.replace('DO ', '')}${p.rdo ? ` · ${p.rdo.replace(/^RDO-0*/, 'RDO ')}` : ''}`, '') : ''}
+      <dt></dt><dd class="na">as scheduled${p.typ_a != null ? ` → ${year}` : ''}</dd>
+      ${row(p.q === 'city_median' ? 'City median' : 'Typical', pair(p.typ, p.typ_a), 'no data')}
+      ${row('Interior lot', pair(p.lo, p.lo_a), own || est ? 'no data' : 'no barangay detail')}
+      ${row('Prime', pair(p.hi, p.hi_a), own || est ? 'no data' : 'no barangay detail')}
+      ${growth ? row('Growth rate used', growth, '') : ''}
+      ${!est ? row('Schedule effective', p.eff, 'not recorded') : ''}
+      ${p.since ? row('Values set in', p.since, '') : ''}
+      ${p.do ? row('Department Order', `${p.do.replace('DO ', '')}${rdo ? ` · ${rdo}` : ''}`, '') : ''}
     </dl>
-    <p class="q">${esc(q.text(p))}${p.typ_a == null ? ` Adjusted-to-${year} values arrive in the next release.` : ''}</p>`;
+    <p class="q">${esc(q.text(p))}${p.since ? ` The ${p.do} schedule repeats the values of ${p.since.split(',')[0]}, so the adjustment starts from ${p.since.split(', ')[1]}.` : ''}${
+      p.yrs != null ? ` Adjusted values grow the schedule ${p.yrs.toFixed(0)} ${p.yrs < 1.5 ? 'year' : 'years'} at the rate BIR raised the same streets between its last two revisions${rough ? '. That is a long projection; treat it as rough' : ''}.` : ''}</p>`;
   card.hidden = false;
   card.querySelector<HTMLButtonElement>('.close')!.onclick = () => select(null);
 }
