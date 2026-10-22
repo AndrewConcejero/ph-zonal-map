@@ -12,7 +12,7 @@ data: boundaries ## file raw/bir/_inbox, parse BIR schedules, rebuild public/dat
 	$(PY) -W ignore -m pipeline.inventory
 	$(PY) -W ignore -m pipeline.parse_bir
 	$(PY) -W ignore -m pipeline.build
-	$(PY) -W ignore -m pipeline.streets --ncr
+	$(PY) -W ignore -m pipeline.streets --all
 	$(PY) -m pipeline.transport
 	$(PY) -W ignore -m pipeline.condos
 	$(PY) -m pipeline.report_staleness

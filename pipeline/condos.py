@@ -138,8 +138,9 @@ def run(city: str) -> dict:
 
 
 def main() -> None:
+    from .streets import SOUTH
     zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
-    cities = sorted({f['properties']['c'] for f in zonal if f['properties']['p'] == 'Metro Manila'})
+    cities = sorted({f['properties']['c'] for f in zonal if f['properties']['p'] == 'Metro Manila'}) + SOUTH
     index, report = {}, []
     for c in cities:
         res = run(c)
@@ -151,7 +152,7 @@ def main() -> None:
         w.writeheader()
         w.writerows(sorted(report, key=lambda r: (r['city'], r['barangay'], not r['placed'], -r['value'])))
     placed = sum(r['placed'] for r in report)
-    print(f'Metro Manila: {placed}/{len(report)} condo rows placed ({placed / len(report):.0%}); '
+    print(f'{len(cities)} cities: {placed}/{len(report)} condo rows placed ({placed / len(report):.0%}); '
           f'{sum(v["features"] for v in index.values())} buildings; '
           f'{Counter(r["class"] for r in report if r["placed"])}')
 
