@@ -131,7 +131,7 @@ def run(city: str) -> dict:
     # BIR reclassified as commercial-only has no residential schedule but still has commercial streets
     cand = defaultdict(list)
     for r in read_rows():
-        if r['city'] != city or r['class_code'] not in ('RR', 'CR'):
+        if r['city'] != city or r['class_code'] not in ('RR', 'CR', 'I'):
             continue
         for p in (resolve_target(psgc_of.get(r['barangay']), r['effective_date']) or '').split(';'):
             if p in bgys:
@@ -179,7 +179,7 @@ def run(city: str) -> dict:
             return best if best[1] >= 90 else (None, best[1])
 
         for (cls, street, vicinity), r in items.items():
-            use = 'c' if cls == 'CR' else 'r'
+            use = {'CR': 'c', 'I': 'i'}.get(cls, 'r')
             value = float(r['value_per_sqm'])
             rec = {'use': cls, 'barangay': bname, 'bir_street': street, 'bir_vicinity': vicinity, 'value': value, 'do': r['do_number'],
                    'kind': '', 'osm_name': '', 'score': 0}
@@ -263,7 +263,7 @@ def run(city: str) -> dict:
     by_name = {f['properties']['n']: f['properties'] for f in bgys.values()}
     for f in out:
         p, bp = f['properties'], by_name[f['properties']['b']]
-        pre = 'c_' if p['u'] == 'c' else ''  # commercial rows use the barangay's commercial growth (build.py)
+        pre = {'c': 'c_', 'i': 'i_'}.get(p['u'], '')  # commercial/industrial rows use that use's growth (build.py)
         if bp.get(f'{pre}g') is not None and bp.get(f'{pre}yrs') is not None:
             p['g'] = bp[f'{pre}g']
             for k in ('v', 'vmin'):
@@ -294,16 +294,28 @@ def run(city: str) -> dict:
             'features': len(out), 'placed': placed, 'priced': priced, 'kb': round(size / 1e3)}
 
 
-def run_ncr() -> None:
+# the urbanised belt south of Metro Manila (Cavite and Laguna), where subdivisions dominate
+SOUTH = ['Bacoor', 'Imus', 'Dasmariñas', 'General Trias', 'Kawit', 'Cavite City', 'Noveleta', 'Rosario', 'Tanza', 'Silang', 'Carmona', 'Gen. Mariano Alvarez', 'Trece Martires', 'Tagaytay', 'San Pedro', 'Biñan', 'Santa Rosa', 'Cabuyao', 'Calamba', 'Los Baños']
+
+
+def run_ncr(cities: list[str] | None = None) -> None:
     zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
-    cities = sorted({f['properties']['c'] for f in zonal if f['properties']['p'] == 'Metro Manila'})
-    index = {}
+    cities = cities or sorted({f['properties']['c'] for f in zonal if f['properties']['p'] == 'Metro Manila'})
+    index = json.loads((OUT / 'index.json').read_text(encoding='utf-8')) if (OUT / 'index.json').exists() else {}
     for c in cities:
         index[c] = run(c)
     (OUT / 'index.json').write_text(json.dumps(index, indent=1, ensure_ascii=False), encoding='utf-8')
-    placed, priced = sum(v['placed'] for v in index.values()), sum(v['priced'] for v in index.values())
-    print(f'Metro Manila: placed {placed}/{priced} ({placed / priced:.0%}); {sum(v["kb"] for v in index.values()) / 1e3:.1f} MB total')
+    placed, priced = sum(index[c]['placed'] for c in cities), sum(index[c]['priced'] for c in cities)
+    print(f'{len(cities)} cities: placed {placed}/{priced} ({placed / priced:.0%}); {sum(v["kb"] for v in index.values()) / 1e3:.1f} MB total')
 
 
 if __name__ == '__main__':
-    run_ncr() if sys.argv[1:] == ['--ncr'] else run(sys.argv[1] if len(sys.argv) > 1 else 'Muntinlupa')
+    if sys.argv[1:] == ['--ncr']:
+        run_ncr()
+    elif sys.argv[1:] == ['--south']:
+        run_ncr(SOUTH)
+    elif sys.argv[1:] == ['--all']:
+        run_ncr()
+        run_ncr(SOUTH)
+    else:
+        run(sys.argv[1] if len(sys.argv) > 1 else 'Muntinlupa')

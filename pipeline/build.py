@@ -388,21 +388,26 @@ def main() -> None:
             p['typ_a'] = round(statistics.median(adj_by_city[(p['p'], p['c'])]))
     n_estimated = gap_fill(feats)
 
-    # commercial land (class CR): the same method, stored as c_* fields next to the residential values
-    com_vals = barangay_values(bir_rows, psgc_of, classes={'CR'})
-    com_rates = rdo_rates(matched_pairs(com_vals, city_of), province_of_rdo)
-    write_csv(REVIEW / 'growth_by_rdo_commercial.csv', [
-        {'rdo': r.rdo, 'annual_rate': '' if r.rate is None else round(r.rate, 4), 'source': r.source,
-         'pairs': r.pairs, 'share_rising': round(r.share_up, 3), 'transitions': r.transitions, 'flags': r.flags}
-        for r in sorted(com_rates.values(), key=lambda r: r.rdo)])
-    for f in feats:
-        p = f['properties']
-        if p['id'] in com_vals:
-            v = com_vals[p['id']][-1]
-            p.update(c_q='barangay_data', c_lo=round(v.lo), c_hi=round(v.hi), c_typ=round(v.typ), c_ns=v.n_streets,
-                     c_do=v.do_number, c_eff=v.effective_date)
-            adjust(p, com_rates.get(v.rdo), value_since(com_vals[p['id']]).effective_date, today, prefix='c_')
-    n_com_estimated = gap_fill_prefixed(feats, 'c_')
+    # commercial (CR) and industrial (I) land: the same method, stored as c_* and i_* fields next to residential
+    other_use = {}
+    for cls, pre, label in (('CR', 'c_', 'commercial'), ('I', 'i_', 'industrial')):
+        vals = barangay_values(bir_rows, psgc_of, classes={cls})
+        use_rates = rdo_rates(matched_pairs(vals, city_of), province_of_rdo)
+        write_csv(REVIEW / f'growth_by_rdo_{label}.csv', [
+            {'rdo': r.rdo, 'annual_rate': '' if r.rate is None else round(r.rate, 4), 'source': r.source,
+             'pairs': r.pairs, 'share_rising': round(r.share_up, 3), 'transitions': r.transitions, 'flags': r.flags}
+            for r in sorted(use_rates.values(), key=lambda r: r.rdo)])
+        for f in feats:
+            p = f['properties']
+            if p['id'] in vals:
+                v = vals[p['id']][-1]
+                p.update({f'{pre}q': 'barangay_data', f'{pre}lo': round(v.lo), f'{pre}hi': round(v.hi),
+                          f'{pre}typ': round(v.typ), f'{pre}ns': v.n_streets, f'{pre}do': v.do_number,
+                          f'{pre}eff': v.effective_date})
+                adjust(p, use_rates.get(v.rdo), value_since(vals[p['id']]).effective_date, today, prefix=pre)
+        other_use[label] = (sum(p['id'] in vals for p in (f['properties'] for f in feats)), gap_fill_prefixed(feats, pre), use_rates)
+    com_rates = other_use['commercial'][2]
+    n_com_estimated = other_use['commercial'][1]
 
     add_factors(feats)
 
@@ -473,6 +478,7 @@ def main() -> None:
     same = sum(c['same_as_latest'] for c in cross)
     some = sum(bool(c['same_as_do']) for c in cross)
     print(f'REN.PH vs BIR on {len(cross)} barangays: {same} equal latest DO, {some} equal some DO')
+    print(f"industrial: {other_use['industrial'][0]} barangays with I values, {other_use['industrial'][1]} estimated")
     print(f"commercial: {sum(f['properties'].get('c_q') == 'barangay_data' for f in feats)} barangays with CR values, "
           f"{n_com_estimated} estimated; growth {min(r.rate for r in com_rates.values() if r.rate is not None):.1%}"
           f" to {max(r.rate for r in com_rates.values() if r.rate is not None):.1%}")
