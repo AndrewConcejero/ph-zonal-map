@@ -1,0 +1,811 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Biñan,LAGUNA BEL AIR,(NEW),22200.0,DO 55-2024,unmatched,Sevina Park (48),0
+CR,Biñan,LAGUNA TECHNOPARK,,22200.0,DO 55-2024,unmatched,Sevina Park (50),0
+I,Biñan,LAGUNA TECHNOPARK,,21000.0,DO 55-2024,unmatched,Sevina Park (50),0
+RR,Biñan,LAGUNA BEL AIR,,17100.0,DO 55-2024,unmatched,Sevina Park (48),0
+CR,Biñan,SAN JOSE VILLAGE,(NEW),16850.0,DO 55-2024,unmatched,Narbonita Residences (37),0
+CR,Biñan,LEXUS VILLAGE,(NEW),16200.0,DO 55-2024,unmatched,Aveia (22),0
+RR,Biñan,SAN JOSE VILLAGE,,12300.0,DO 55-2024,unmatched,Narbonita Residences (37),0
+RR,Biñan,LEXUS VILLAGE,,11850.0,DO 55-2024,unmatched,Aveia (22),0
+CR,Biñan,ALONG BARANGAY ROAD,(NEW),11450.0,DO 55-2024,unmatched,The Racha Mansions (52),0
+RR,Biñan,LAGUNA BEL AIR,INTERIOR LOT,10800.0,DO 55-2024,unmatched,Sevina Park (48),0
+I,Biñan,ALONG BARANGAY ROAD,(NEW),10500.0,DO 55-2024,unmatched,The Racha Mansions (52),0
+RR,Biñan,SAN JOSE VILLAGE,INTERIOR LOT,9700.0,DO 55-2024,unmatched,Narbonita Residences (37),0
+RR,Biñan,ALONG BARANGAY ROAD,,8600.0,DO 55-2024,unmatched,The Racha Mansions (52),0
+CR,Biñan,SEVINA PARK,(NEW),59400.0,DO 55-2024,village,Sevina Park,100
+RR,Biñan,SEVINA PARK,(NEW),45850.0,DO 55-2024,village,Sevina Park,100
+CR,Bungahan,ALL OTHER STREETS,(NEW),4550.0,DO 55-2024,background,,0
+I,Bungahan,ALL OTHER STREETS,(NEW),4100.0,DO 55-2024,background,,0
+RR,Bungahan,ALL OTHER STREETS,INTERIOR LOT,3300.0,DO 55-2024,background,,0
+CR,Bungahan,SAN ANTONIO SOUTH,(NEW),12200.0,DO 55-2024,unmatched,Town & Country Southville (50),0
+RR,Bungahan,SAN ANTONIO SOUTH,,10200.0,DO 55-2024,unmatched,Town & Country Southville (50),0
+CR,Bungahan,ALONG BARANGAY ROAD,,6800.0,DO 55-2024,unmatched,Village Front at Brentville (36),0
+I,Bungahan,ALONG BARANGAY ROAD,,5550.0,DO 55-2024,unmatched,Village Front at Brentville (36),0
+RR,Bungahan,ALONG BARANGAY ROAD,,4700.0,DO 55-2024,unmatched,Village Front at Brentville (36),0
+CR,Bungahan,TOWN & COUNTRY (SOUTHVILLE),(NEW),16550.0,DO 55-2024,village,Town & Country Southville,95
+RR,Bungahan,TOWN & COUNTRY (SOUTHVILLE),,12200.0,DO 55-2024,village,Town & Country Southville,95
+CR,Canlalay,A. BONIFACIO ST.,,16200.0,DO 55-2024,street,A. Bonifacio Street,100
+CR,Canlalay,MACARIA DEVELOPMENT CORP,(NEW),13900.0,DO 55-2024,street,Macaria Drive,97
+RR,Canlalay,A. BONIFACIO ST.,,10000.0,DO 55-2024,street,A. Bonifacio Street,100
+RR,Canlalay,MACARIA DEVELOPMENT CORP,,9500.0,DO 55-2024,street,Macaria Drive,97
+RR,Canlalay,A. BONIFACIO ST.,INTERIOR LOT,6100.0,DO 55-2024,street,A. Bonifacio Street,100
+CR,Canlalay,SOUTHWOODS ECOCENTRUM,(NEW),65100.0,DO 55-2024,unmatched,Filinvest South (46),0
+CR,Canlalay,ALONG NATIONAL HIGHWAY,,30400.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+I,Canlalay,ALONG NATIONAL HIGHWAY,,29000.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+RR,Canlalay,ALONG NATIONAL HIGHWAY,,24550.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+RR,Canlalay,LAS VILLAS DE MANILA,(NEW),24000.0,DO 55-2024,unmatched,Doña Marcela Subdivision (45),0
+CR,Canlalay,MARIBEL SUBDIVISION,(NEW),17350.0,DO 55-2024,unmatched,Doña Marcela Subdivision (53),0
+CR,Canlalay,SIMPLE SUBD. (Aladin Simundac),(NEW),17350.0,DO 55-2024,unmatched,Doña Marcela Subdivision (44),0
+CR,Canlalay,ORIENTVILLE SUBDIVISION,(NEW),16200.0,DO 55-2024,unmatched,South Springs Residential Estate (46),0
+CR,Canlalay,AMORLON SUBDIVISION,(NEW),13900.0,DO 55-2024,unmatched,Doña Marcela Subdivision (42),0
+CR,Canlalay,ADELINA REALTY,(NEW),13900.0,DO 55-2024,unmatched,Belizario Compound (50),0
+CR,Canlalay,BEST TOWN SUBDIVISION,(NEW),13900.0,DO 55-2024,unmatched,Filinvest South (42),0
+CR,Canlalay,F. DE CASTRO SUBDIVISION (F.E De Castro),(NEW),13900.0,DO 55-2024,unmatched,Golden City (45),0
+CR,Canlalay,GOLDEN CITY EXECUTIVE SUBDIVISION,(NEW),13900.0,DO 55-2024,unmatched,Golden City (69),0
+CR,Canlalay,Hrs. of PAZ OCAMPO CAMPOS,(NEW),13900.0,DO 55-2024,unmatched,Casas Victoria (42),0
+CR,Canlalay,NOEL HOMES (N.O.C),(NEW),13900.0,DO 55-2024,unmatched,Golden City (38),0
+CR,Canlalay,PABLO DE CASTRO,(NEW),13900.0,DO 55-2024,unmatched,Golden City (46),0
+CR,Canlalay,SACATERO (STREET),(NEW),13900.0,DO 55-2024,unmatched,Casas Victoria (48),0
+CR,Canlalay,"ST. FRANCIS HOMES IX,X",(NEW),13900.0,DO 55-2024,unmatched,Nepa Highway Homes (0),0
+CR,Canlalay,ST. FRANCIS IV,(NEW),13900.0,DO 55-2024,unmatched,Nepa Highway Homes (0),0
+CR,Canlalay,ST. FRANCIS V,(NEW),13900.0,DO 55-2024,unmatched,Nepa Highway Homes (0),0
+CR,Canlalay,TAGA-ARCE INC.,(NEW),13900.0,DO 55-2024,unmatched,Doña Marcela Subdivision (57),0
+CR,Canlalay,BAGONG NAYON (STREET) Calle pogi,,13350.0,DO 55-2024,unmatched,Golden City (35),0
+RR,Canlalay,MARIBEL SUBDIVISION,,11550.0,DO 55-2024,unmatched,Doña Marcela Subdivision (53),0
+RR,Canlalay,ORIENTVILLE SUBDIVISION,,10750.0,DO 55-2024,unmatched,South Springs Residential Estate (46),0
+RR,Canlalay,ADELINA REALTY,,9700.0,DO 55-2024,unmatched,Belizario Compound (50),0
+RR,Canlalay,AMORLON SUBDIVISION,,9500.0,DO 55-2024,unmatched,Doña Marcela Subdivision (42),0
+RR,Canlalay,ADON DEVELOMENT CORP,,9500.0,DO 55-2024,unmatched,Doña Marcela Subdivision (44),0
+RR,Canlalay,BAGONG NAYON (STREET) Calle pogi,,9500.0,DO 55-2024,unmatched,Golden City (35),0
+RR,Canlalay,BEST TOWN SUBDIVISION,,9500.0,DO 55-2024,unmatched,Filinvest South (42),0
+RR,Canlalay,GOLDEN CITY EXECUTIVE SUBDIVISION,,9500.0,DO 55-2024,unmatched,Golden City (69),0
+RR,Canlalay,Hrs. of PAZ OCAMPO CAMPOS,,9500.0,DO 55-2024,unmatched,Casas Victoria (42),0
+RR,Canlalay,NOEL HOMES (N.O.C),,9500.0,DO 55-2024,unmatched,Golden City (38),0
+RR,Canlalay,PABLO DE CASTRO,,9500.0,DO 55-2024,unmatched,Golden City (46),0
+RR,Canlalay,SACATERO (STREET),,9500.0,DO 55-2024,unmatched,Casas Victoria (48),0
+RR,Canlalay,"ST. FRANCIS HOMES IX,X",,9500.0,DO 55-2024,unmatched,Nepa Highway Homes (0),0
+RR,Canlalay,ST. FRANCIS IV,,9500.0,DO 55-2024,unmatched,Nepa Highway Homes (0),0
+RR,Canlalay,ST. FRANCIS V,,9500.0,DO 55-2024,unmatched,Nepa Highway Homes (0),0
+RR,Canlalay,TAGA-ARCE INC.,,9500.0,DO 55-2024,unmatched,Doña Marcela Subdivision (57),0
+RR,Canlalay,SIMPLE SUBD. (Aladin Simundac),,9350.0,DO 55-2024,unmatched,Doña Marcela Subdivision (44),0
+CR,Canlalay,ALONG NATIONAL HIGHWAY,(NEW),8550.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+CR,Canlalay,ALONG BARANGAY ROAD,(NEW),8000.0,DO 55-2024,unmatched,Doña Marcela Subdivision (46),0
+RR,Canlalay,F. DE CASTRO SUBDIVISION (F.E De Castro),,7950.0,DO 55-2024,unmatched,Golden City (45),0
+I,Canlalay,ALONG NATIONAL HIGHWAY,(NEW),7700.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+I,Canlalay,ALONG BARANGAY ROAD,(NEW),7500.0,DO 55-2024,unmatched,Doña Marcela Subdivision (46),0
+RR,Canlalay,ALONG BARANGAY ROAD,(NEW),7000.0,DO 55-2024,unmatched,Doña Marcela Subdivision (46),0
+RR,Canlalay,ALONG NATIONAL HIGHWAY,INTERIOR LOT,6100.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+RR,Canlalay,BAGONG NAYON (STREET) Calle pogi,INTERIOR LOT,5150.0,DO 55-2024,unmatched,Golden City (35),0
+RR,Canlalay,SACATERO (STREET),INTERIOR LOT,4950.0,DO 55-2024,unmatched,Casas Victoria (48),0
+CR,Canlalay,WOODSIDE SUBD. (R.E. Calangui),(NEW),17350.0,DO 55-2024,village,Woodside Village,100
+CR,Canlalay,SOUTH SPRING (STA. LUCIA),(NEW),16300.0,DO 55-2024,village,South Springs Residential Estate,95
+CR,Canlalay,DOÑA MARCELA (Conpil Realty/Josefino Cariño),(NEW),13900.0,DO 55-2024,village,Doña Marcela Subdivision,100
+RR,Canlalay,WOODSIDE SUBD. (R.E. Calangui),,11550.0,DO 55-2024,village,Woodside Village,100
+RR,Canlalay,SOUTH SPRING (STA. LUCIA),,11500.0,DO 55-2024,village,South Springs Residential Estate,95
+RR,Canlalay,DOÑA MARCELA (Conpil Realty/Josefino Cariño),,9500.0,DO 55-2024,village,Doña Marcela Subdivision,100
+CR,Casile,ALL OTHER STREETS,(NEW),4500.0,DO 55-2024,background,,0
+I,Casile,ALL OTHER STREETS,(NEW),3900.0,DO 55-2024,background,,0
+RR,Casile,ALL OTHER STREETS,INTERIOR LOT,2900.0,DO 55-2024,background,,0
+CR,Casile,ST. ROSE SUBDIVISION,(NEW),11700.0,DO 55-2024,unmatched,Generosa Village (50),0
+RR,Casile,ST. ROSE SUBDIVISION,,9500.0,DO 55-2024,unmatched,Generosa Village (50),0
+CR,Casile,ST. JOSEPH II,(NEW),8700.0,DO 55-2024,unmatched,St. Rose Village 3 (0),0
+CR,Casile,ALONG BARANGAY ROAD,,6700.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+I,Casile,ALONG BARANGAY ROAD,,6400.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+RR,Casile,ST. JOSEPH II,,5900.0,DO 55-2024,unmatched,St. Rose Village 3 (0),0
+RR,Casile,ALONG BARANGAY ROAD,,4800.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,Casile,GENEROSA SUBDIVISION,(NEW),8700.0,DO 55-2024,village,Generosa Village,100
+RR,Casile,GENEROSA SUBDIVISION,,5900.0,DO 55-2024,village,Generosa Village,100
+CR,De La Paz,ALL OTHER STREETS,(NEW),4850.0,DO 55-2024,background,,0
+RR,De La Paz,ALL OTHER STREETS,,4000.0,DO 55-2024,background,,0
+CR,De La Paz,A. MABINI,,15980.0,DO 55-2024,street,A. Mabini Street,97
+CR,De La Paz,P. PATERNO,,15100.0,DO 55-2024,street,P. Paterno Street,97
+RR,De La Paz,A. MABINI,,10200.0,DO 55-2024,street,A. Mabini Street,97
+RR,De La Paz,A. MABINI,INTERIOR LOTS,7700.0,DO 55-2024,street,A. Mabini Street,97
+CR,De La Paz,ALMAZORA SUBDIVISION,(NEW),7250.0,DO 55-2024,street,Almazora Compound,97
+CR,De La Paz,ALMEDA SUBDIVISION,(NEW),7250.0,DO 55-2024,street,Almeda Street,97
+RR,De La Paz,P. PATERNO,,7200.0,DO 55-2024,street,P. Paterno Street,97
+CR,De La Paz,JUAN LUNA ST.(FORMERLY 100 YARDS),(NEW),6900.0,DO 55-2024,street,Juan Luna Street,100
+I,De La Paz,P. PATERNO,,6000.0,DO 55-2024,street,P. Paterno Street,97
+RR,De La Paz,JUAN LUNA ST.(FORMERLY 100 YARDS),,4950.0,DO 55-2024,street,Juan Luna Street,100
+RR,De La Paz,ALMAZORA SUBDIVISION,,4600.0,DO 55-2024,street,Almazora Compound,97
+RR,De La Paz,ALMEDA SUBDIVISION,,4600.0,DO 55-2024,street,Almeda Street,97
+RR,De La Paz,P. PATERNO,INTERIOR LOTS,4300.0,DO 55-2024,street,P. Paterno Street,97
+I,De La Paz,P. PATERNO,INTERIOR LOTS,4050.0,DO 55-2024,street,P. Paterno Street,97
+CR,De La Paz,DE LA PAZ VILLAGE,(NEW),7250.0,DO 55-2024,unmatched,Belizario Compound (33),0
+CR,De La Paz,DIMARANAN SUBDIVISION (Emilia Dimaranan),(NEW),7250.0,DO 55-2024,unmatched,Faraon Subdivision (53),0
+CR,De La Paz,G.B. DEV'T CORP,(NEW),7250.0,DO 55-2024,unmatched,South Springs Residential Estate (31),0
+CR,De La Paz,EL PUEBLO SUBDIVISION,(NEW),6900.0,DO 55-2024,unmatched,Generosa Village (35),0
+CR,De La Paz,PULO,(NEW),6900.0,DO 55-2024,unmatched,Belizario Compound (31),0
+RR,De La Paz,ALMORO COMPOUND,,4950.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+RR,De La Paz,ANTIPORDA,,4950.0,DO 55-2024,unmatched,Casas Victoria (45),0
+RR,De La Paz,EL PUEBLO SUBDIVISION,,4950.0,DO 55-2024,unmatched,Generosa Village (35),0
+RR,De La Paz,G.B. DEV'T CORP (HONORIA SUBDIVISION),,4950.0,DO 55-2024,unmatched,Generosa Village (40),0
+RR,De La Paz,HONORIA I,,4950.0,DO 55-2024,unmatched,Faraon Subdivision (0),0
+RR,De La Paz,JULITA KARAMIHAN,,4950.0,DO 55-2024,unmatched,Belizario Compound (40),0
+RR,De La Paz,KAPITANA MARIA VILLAGE,,4950.0,DO 55-2024,unmatched,Casas Victoria (44),0
+RR,De La Paz,KATIPUNAN,,4950.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+RR,De La Paz,LAKEVIEW SUBDIVISION,,4950.0,DO 55-2024,unmatched,Belizario Compound (35),0
+RR,De La Paz,PULO,,4950.0,DO 55-2024,unmatched,Belizario Compound (31),0
+RR,De La Paz,ALONDE SUBDIVISION,,4600.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+RR,De La Paz,CASAS SUBDIVISION (Carmen Casas),,4600.0,DO 55-2024,unmatched,Casas Victoria (47),0
+RR,De La Paz,DE LA PAZ VILLAGE,,4600.0,DO 55-2024,unmatched,Belizario Compound (33),0
+RR,De La Paz,DIMARANAN SUBDIVISION (Emilia Dimaranan),,4600.0,DO 55-2024,unmatched,Faraon Subdivision (53),0
+RR,De La Paz,FAMILLE SUBDIVISION,,4600.0,DO 55-2024,unmatched,Faraon Subdivision (31),0
+RR,De La Paz,G.B. DEV'T CORP,,4600.0,DO 55-2024,unmatched,South Springs Residential Estate (31),0
+RR,De La Paz,HAUSTON SUBDIVISION,,4600.0,DO 55-2024,unmatched,Faraon Subdivision (46),0
+RR,De La Paz,HONORIA SUBDIVISION,,4600.0,DO 55-2024,unmatched,Generosa Village (40),0
+RR,De La Paz,KAPITANG MARIA SUBDIVISION,,4600.0,DO 55-2024,unmatched,Casas Victoria (44),0
+RR,De La Paz,SAN ISIDRO SUBDIVISION,,4600.0,DO 55-2024,unmatched,Generosa Village (44),0
+RR,De La Paz,SHAPPEL HOMES,,4000.0,DO 55-2024,unmatched,South Springs Residential Estate (32),0
+RR,De La Paz,ANTIPORDA,INTERIOR LOTS,3250.0,DO 55-2024,unmatched,Casas Victoria (45),0
+RR,De La Paz,KATIPUNAN,INTERIOR LOTS,3250.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,De La Paz,SOUTH SPRING,(NEW),15700.0,DO 55-2024,village,South Springs Residential Estate,95
+RR,De La Paz,SOUTH SPRING,,11400.0,DO 55-2024,village,South Springs Residential Estate,95
+CR,De La Paz,VICTORIA SUBDIVISION,(NEW),7250.0,DO 55-2024,village,Casas Victoria,95
+RR,De La Paz,VICTORIA SUBDIVISION,,4600.0,DO 55-2024,village,Casas Victoria,95
+CR,Ganado,ALL OTHER STREETS,(NEW),5650.0,DO 55-2024,background,,0
+RR,Ganado,ALL OTHER STREETS,INTERIOR LOT,4840.0,DO 55-2024,background,,0
+I,Ganado,ALL OTHER STREETS,(NEW),4800.0,DO 55-2024,background,,0
+CR,Ganado,LAGUNA BEL AIR,(NEW),22200.0,DO 55-2024,street,Laguna Bel Air Drive,97
+RR,Ganado,LAGUNA BEL AIR,,17100.0,DO 55-2024,street,Laguna Bel Air Drive,97
+CR,Ganado,LAGUNA INTERNARIONAL INDUSTRIAL PARK,,22200.0,DO 55-2024,unmatched,Laguna BelAir 3 (0),0
+I,Ganado,LAGUNA INTERNARIONAL INDUSTRIAL PARK,,21000.0,DO 55-2024,unmatched,Laguna BelAir 3 (0),0
+CR,Ganado,ALONG BARANGAY ROAD,,10100.0,DO 55-2024,unmatched,Laguna BelAir 3 (0),0
+I,Ganado,ALONG BARANGAY ROAD,,9000.0,DO 55-2024,unmatched,Laguna BelAir 3 (0),0
+RR,Ganado,ALONG BARANGAY ROAD,,7300.0,DO 55-2024,unmatched,Laguna BelAir 3 (0),0
+CR,Langkiwa,ALL OTHER STREETS,(NEW),9000.0,DO 55-2024,background,,0
+I,Langkiwa,ALL OTHER STREETS,(NEW),8000.0,DO 55-2024,background,,0
+RR,Langkiwa,ALL OTHER STREETS,INTERIOR LOT,6000.0,DO 55-2024,background,,0
+CR,Langkiwa,MOLAVE TOWNHOUSES,(NEW),13650.0,DO 55-2024,street,Molave Street,97
+RR,Langkiwa,MOLAVE TOWNHOUSES,(NEW),9500.0,DO 55-2024,street,Molave Street,97
+RR,Langkiwa,COMMUNITY INNOVATIONS,,20400.0,DO 55-2024,unmatched,Town & Country Southville (56),0
+CR,Langkiwa,RAINFOREST HOMES/RAIN FOREST ESTATE HOMES,(NEW),14150.0,DO 55-2024,unmatched,Verdana Homes (44),0
+CR,Langkiwa,ALONG BARANGAY ROAD,,13650.0,DO 55-2024,unmatched,Carmona Estates (38),0
+I,Langkiwa,ALONG BARANGAY ROAD,,12000.0,DO 55-2024,unmatched,Carmona Estates (38),0
+RR,Langkiwa,RAINFOREST HOMES/RAIN FOREST ESTATE HOMES,,9850.0,DO 55-2024,unmatched,Verdana Homes (44),0
+RR,Langkiwa,NHA-GOLDENVILLE REALTY,,9500.0,DO 55-2024,unmatched,Town & Country Southville (47),0
+RR,Langkiwa,ALONG BARANGAY ROAD,,9500.0,DO 55-2024,unmatched,Carmona Estates (38),0
+CR,Langkiwa,VERDANA HOMES,(NEW),32950.0,DO 55-2024,village,Verdana Homes,100
+RR,Langkiwa,VERDANA HOMES,,25500.0,DO 55-2024,village,Verdana Homes,100
+CR,Langkiwa,SOUTHVILLE(TOWN&COUNTRY - ACTIVE REALTY),(NEW),16550.0,DO 55-2024,village,Town & Country Southville,95
+RR,Langkiwa,SOUTHVILLE(TOWN&COUNTRY - ACTIVE REALTY),,12200.0,DO 55-2024,village,Town & Country Southville,95
+CR,Loma,ALL OTHER STREETS,(NEW),7700.0,DO 55-2024,background,,0
+I,Loma,ALL OTHER STREETS,(NEW),6600.0,DO 55-2024,background,,0
+RR,Loma,ALL OTHER STREETS,INTERIOR LOT,5550.0,DO 55-2024,background,,0
+CR,Loma,AYALA GREENFIELDS,(NEW),25650.0,DO 55-2024,unmatched,Celina Mansion (33),0
+RR,Loma,EMPIRE EAST LAND HOLDINGS,,21300.0,DO 55-2024,unmatched,Celina Mansion (42),0
+I,Loma,"LAGUNA TECHNOPARK, INC. PH 4,5 & 6",,21000.0,DO 55-2024,unmatched,Celina Mansion (0),0
+RR,Loma,AYALA GREENFIELDS,,20400.0,DO 55-2024,unmatched,Celina Mansion (33),0
+RR,Loma,COMMUNITY INNOVATIONS,,20400.0,DO 55-2024,unmatched,Celina Homes Biñan (44),0
+RR,Loma,"LAGUNA TECHNOPARK, INC. PH 4,5 & 6",,19200.0,DO 55-2024,unmatched,Celina Mansion (0),0
+CR,Loma,SOUTHVILLE(TOWN&COUNTRY - ACTIVE REALTY),(NEW),16550.0,DO 55-2024,unmatched,Celina Mansion (36),0
+RR,Loma,SOUTHVILLE(TOWN&COUNTRY - ACTIVE REALTY),,12200.0,DO 55-2024,unmatched,Celina Mansion (36),0
+CR,Loma,CELINA HOMES TECHNO,(NEW),11450.0,DO 55-2024,unmatched,Celina Mansion (67),0
+CR,Loma,ALONG BARANGAY ROAD,,10150.0,DO 55-2024,unmatched,Celina Homes Biñan (46),0
+RR,Loma,ACTIVE REALTY,,9500.0,DO 55-2024,unmatched,Celina Homes Biñan (33),0
+RR,Loma,CELINA HOMES TECHNO,,9450.0,DO 55-2024,unmatched,Celina Mansion (67),0
+I,Loma,ALONG BARANGAY ROAD,,8700.0,DO 55-2024,unmatched,Celina Homes Biñan (46),0
+RR,Loma,ALONG BARANGAY ROAD,,8150.0,DO 55-2024,unmatched,Celina Homes Biñan (46),0
+CR,Loma,VERDANA HOMES,(NEW),32950.0,DO 55-2024,village,Verdana Homes,100
+RR,Loma,VERDANA HOMES,,25500.0,DO 55-2024,village,Verdana Homes,100
+CR,Loma,LAGUNA BEL-AIR PHASE III,(NEW),22200.0,DO 55-2024,village,Laguna BelAir 3,100
+RR,Loma,LAGUNA BEL-AIR PHASE III,,17100.0,DO 55-2024,village,Laguna BelAir 3,100
+CR,Loma,CELINA MANSION,(NEW),11450.0,DO 55-2024,village,Celina Mansion,100
+RR,Loma,CELINA MANSION,,9450.0,DO 55-2024,village,Celina Mansion,100
+CR,Malaban,ST. FRANCIS SUBDIVISION,(NEW),12550.0,DO 55-2024,unmatched,Faraon Subdivision (67),0
+RR,Malaban,ST. FRANCIS SUBDIVISION,,10000.0,DO 55-2024,unmatched,Faraon Subdivision (67),0
+CR,Malaban,ALONG BARANGAY ROAD,,8000.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,Malaban,ST. ROSE II SUBDIVISION,(NEW),7900.0,DO 55-2024,unmatched,St. Francis Homes 7 Subdivision (0),0
+I,Malaban,ALONG BARANGAY ROAD,,7900.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+RR,Malaban,ALONG BARANGAY ROAD,,6600.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+RR,Malaban,ST. ROSE II SUBDIVISION,,5900.0,DO 55-2024,unmatched,St. Francis Homes 7 Subdivision (0),0
+CR,Malaban,MALAYAN SUBDIVISION,(NEW),5450.0,DO 55-2024,unmatched,Faraon Subdivision (46),0
+CR,Malaban,MALABAN LAKESHORE SUBDIVISION,(NEW),4850.0,DO 55-2024,unmatched,Faraon Subdivision (35),0
+RR,Malaban,MALAYAN SUBDIVISION,,4700.0,DO 55-2024,unmatched,Faraon Subdivision (46),0
+RR,Malaban,MALABAN LAKESHORE SUBDIVISION,,4200.0,DO 55-2024,unmatched,Faraon Subdivision (35),0
+CR,Malaban,ALONG BARANGAY ROAD,(NEW),3150.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+I,Malaban,ALONG BARANGAY ROAD,(NEW),2900.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+RR,Malaban,ALONG BARANGAY ROAD,INTERIOR LOT,2400.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,Malaban,GENEROSA SUBDIVISION,(NEW),4850.0,DO 55-2024,village,Generosa Village,100
+RR,Malaban,GENEROSA SUBDIVISION,,4200.0,DO 55-2024,village,Generosa Village,100
+CR,Malamig,ALL OTHER STREETS,(NEW),8550.0,DO 55-2024,background,,0
+I,Malamig,ALL OTHER STREETS,(NEW),7700.0,DO 55-2024,background,,0
+RR,Malamig,ALL OTHER STREETS,INTERIOR LOTS,5950.0,DO 55-2024,background,,0
+CR,Malamig,AVEIA,(NEW),20500.0,DO 55-2024,unmatched,Venido (55),0
+CR,Malamig,PALM REAL (CROWN CENTRAL),(NEW),20500.0,DO 55-2024,unmatched,Palma Real Residential Estates (58),0
+CR,Malamig,SAN JOSE VILLAGE,(NEW),18650.0,DO 55-2024,unmatched,Venido (29),0
+I,Malamig,ALONG BARANGAY ROAD,,18100.0,DO 55-2024,unmatched,Palma Real Residential Estates (39),0
+CR,Malamig,ALONG BARANGAY ROAD,,15400.0,DO 55-2024,unmatched,Palma Real Residential Estates (39),0
+RR,Malamig,AVEIA,,15150.0,DO 55-2024,unmatched,Venido (55),0
+RR,Malamig,PALM REAL (CROWN CENTRAL),,14400.0,DO 55-2024,unmatched,Palma Real Residential Estates (58),0
+RR,Malamig,SAN JOSE VILLAGE,,13200.0,DO 55-2024,unmatched,Venido (29),0
+RR,Malamig,ALONG BARANGAY ROAD,,12200.0,DO 55-2024,unmatched,Palma Real Residential Estates (39),0
+CR,Mampalasan,ALL OTHER STREETS,(NEW),12000.0,DO 55-2024,background,,0
+I,Mampalasan,ALL OTHER STREETS,(NEW),10800.0,DO 55-2024,background,,0
+RR,Mampalasan,ALL OTHER STREETS,INTERIOR LOT,8000.0,DO 55-2024,background,,0
+CR,Mampalasan,THE VILLAGE FRONT,,43800.0,DO 55-2024,unmatched,Village Front at Brentville (42),0
+RR,Mampalasan,BRENTVILLE,SLEX,34000.0,DO 55-2024,unmatched,The Arborage at Brentville (95),0
+CR,Mampalasan,ALONG SLEX,(NEW) - ASSESSOR,34000.0,DO 55-2024,unmatched,The Arborage at Brentville (38),0
+CR,Mampalasan,ALVEO LAND CORP. (VERDANA SUBDIVISION),(NEW),32950.0,DO 55-2024,unmatched,Brentville International (39),0
+CR,Mampalasan,WEST PARC,(NEW),32750.0,DO 55-2024,unmatched,MetroGate Primavera (43),0
+CR,Mampalasan,WOODMORE SPRING,(NEW),32750.0,DO 55-2024,unmatched,MetroGate Primavera (41),0
+CR,Mampalasan,SUNSHINE PLACE,(NEW),30200.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (42),0
+RR,Mampalasan,PROMENADE,,27200.0,DO 55-2024,unmatched,MetroGate Primavera (36),0
+RR,Mampalasan,ALVEO LAND CORP. (VERDANA SUBDIVISION),,22950.0,DO 55-2024,unmatched,Brentville International (39),0
+RR,Mampalasan,WEST PARC,,22550.0,DO 55-2024,unmatched,MetroGate Primavera (43),0
+RR,Mampalasan,WOODMORE SPRING,,22550.0,DO 55-2024,unmatched,MetroGate Primavera (41),0
+CR,Mampalasan,LAGUNA INTERNARIONAL INDUSTRIAL PARK,,22200.0,DO 55-2024,unmatched,Brentville International (57),0
+CR,Mampalasan,SUMMER BREEZE COUNTRY,(NEW),21300.0,DO 55-2024,unmatched,Evergreen County (65),0
+I,Mampalasan,LAGUNA INTERNARIONAL INDUSTRIAL PARK,,21000.0,DO 55-2024,unmatched,Brentville International (57),0
+RR,Mampalasan,SUNSHINE PLACE,,20850.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (42),0
+CR,Mampalasan,VILLAGIO DI XAVIER - DOLCE VITA,(NEW),20000.0,DO 55-2024,unmatched,Brentville International (38),0
+CR,Mampalasan,FILINVEST,(NEW),18750.0,DO 55-2024,unmatched,Brentville International (36),0
+RR,Mampalasan,SUMMER BREEZE COUNTRY,,14900.0,DO 55-2024,unmatched,Evergreen County (65),0
+CR,Mampalasan,ALONG BARANGAY ROAD,,14450.0,DO 55-2024,unmatched,The Arborage at Brentville (39),0
+RR,Mampalasan,VILLAGIO DI XAVIER - DOLCE VITA,,14050.0,DO 55-2024,unmatched,Brentville International (38),0
+RR,Mampalasan,FILINVEST,,14000.0,DO 55-2024,unmatched,Brentville International (36),0
+I,Mampalasan,ALONG BARANGAY ROAD,,13500.0,DO 55-2024,unmatched,The Arborage at Brentville (39),0
+RR,Mampalasan,ALONG BARANGAY ROAD,,10850.0,DO 55-2024,unmatched,The Arborage at Brentville (39),0
+CR,Mampalasan,EVERGREEN COUNTRY,(NEW),21300.0,DO 55-2024,village,Evergreen County,96.96969696969697
+RR,Mampalasan,EVERGREEN COUNTRY,,14900.0,DO 55-2024,village,Evergreen County,96.96969696969697
+CR,Platero,ALL OTHER STREETS,(NEW),7700.0,DO 55-2024,background,,0
+I,Platero,ALL OTHER STREETS,(NEW),7000.0,DO 55-2024,background,,0
+RR,Platero,ALL OTHER STREETS,INTERIOR LOTS,5850.0,DO 55-2024,background,,0
+CR,Platero,SPRINGTIME,(NEW),18650.0,DO 55-2024,street,Springtime,100
+RR,Platero,SPRINGTIME,,14400.0,DO 55-2024,street,Springtime,100
+CR,Platero,ALONG NATIONAL HIGHWAY,,30400.0,DO 55-2024,unmatched,Pasadeña Heights (49),0
+I,Platero,ALONG NATIONAL HIGHWAY,(NEW),29000.0,DO 55-2024,unmatched,Pasadeña Heights (49),0
+CR,Platero,JUBILATION SOUTH,(NEW),25500.0,DO 55-2024,unmatched,Jubilation East (84),0
+RR,Platero,ALONG NATIONAL HIGHWAY,,24550.0,DO 55-2024,unmatched,Pasadeña Heights (49),0
+CR,Platero,ONE ASIA BUSINESS CENTER,(NEW),23100.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (42),0
+CR,Platero,PRIMA CASA,(NEW),20550.0,DO 55-2024,unmatched,Garcia Filart (43),0
+CR,Platero,SUMMER BREEZE,(NEW),20550.0,DO 55-2024,unmatched,Araya Park Residences (36),0
+CR,Platero,MONDO BAMBINI,(NEW),20000.0,DO 55-2024,unmatched,Jubilation East (43),0
+RR,Platero,JUBILATION SOUTH,,17000.0,DO 55-2024,unmatched,Jubilation East (84),0
+CR,Platero,EARTH ASPIRE CORP (SUMMERBREEZE),(NEW),16550.0,DO 55-2024,unmatched,Araya Park Residences (44),0
+CR,Platero,EVERGREEN,(NEW),16550.0,DO 55-2024,unmatched,Segunda Village (38),0
+RR,Platero,ONE ASIA BUSINESS CENTER,,16150.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (42),0
+RR,Platero,PRIMA CASA,,14450.0,DO 55-2024,unmatched,Garcia Filart (43),0
+RR,Platero,SUMMER BREEZE,,14450.0,DO 55-2024,unmatched,Araya Park Residences (36),0
+RR,Platero,MONDO BAMBINI,,14050.0,DO 55-2024,unmatched,Jubilation East (43),0
+CR,Platero,ALMEDA SUBDIVISION,(NEW),14000.0,DO 55-2024,unmatched,Segunda Village (46),0
+CR,Platero,ANA SUBDIVISION,(NEW),14000.0,DO 55-2024,unmatched,Segunda Village (40),0
+CR,Platero,GARCIA ESTATE,(NEW),14000.0,DO 55-2024,unmatched,Garcia Filart (63),0
+RR,Platero,EARTH ASPIRE CORP (SUMMERBREEZE),,13550.0,DO 55-2024,unmatched,Araya Park Residences (44),0
+RR,Platero,EVERGREEN,,13550.0,DO 55-2024,unmatched,Segunda Village (38),0
+CR,Platero,CRC SUBDIVISION,(NEW),12550.0,DO 55-2024,unmatched,Garcia Filart (25),0
+CR,Platero,G & F SUBDIVISION,(NEW),12550.0,DO 55-2024,unmatched,Garcia Filart (38),0
+CR,Platero,G.B. DEVELOPMENT CORP,(NEW),12550.0,DO 55-2024,unmatched,Garcia Filart (25),0
+CR,Platero,HIGHWAY HOMES SUBDIVISION,(NEW),12550.0,DO 55-2024,unmatched,Hi-way Homes Subdivision (77),0
+CR,Platero,HONORIA SUBDIVISION,(NEW),12550.0,DO 55-2024,unmatched,Hi-way Homes Subdivision (46),0
+CR,Platero,LABRADOR SUBDIVISION,(NEW),12550.0,DO 55-2024,unmatched,Rosaflor Subdivision (50),0
+CR,Platero,ST. FRANCIS HOMES,(NEW),12550.0,DO 55-2024,unmatched,Garcia Filart (53),0
+CR,Platero,HONORVILLE SUBDIVISION,(NEW),11450.0,DO 55-2024,unmatched,Villaggio di Xavier (34),0
+CR,Platero,ST. FRANCIS XI (St. Francis Homes Dev't Corp.),(NEW),11450.0,DO 55-2024,unmatched,Garcia Filart (45),0
+CR,Platero,ROMANVILLE SUBDIVISION,(NEW),10850.0,DO 55-2024,unmatched,Rosaflor Subdivision (44),0
+CR,Platero,ALONG BARANGAY ROAD,(NEW),9950.0,DO 55-2024,unmatched,Pasadeña Heights (41),0
+RR,Platero,ALMEDA SUBDIVISION,,9850.0,DO 55-2024,unmatched,Segunda Village (46),0
+RR,Platero,ANA SUBDIVISION,,9850.0,DO 55-2024,unmatched,Segunda Village (40),0
+CR,Platero,FA AMADOR &JM GARCIA &CO. (GARCIA SUBD),(NEW),9850.0,DO 55-2024,unmatched,Garcia Filart (63),0
+RR,Platero,GARCIA ESTATE,,9850.0,DO 55-2024,unmatched,Garcia Filart (63),0
+RR,Platero,CRC SUBDIVISION,,9500.0,DO 55-2024,unmatched,Garcia Filart (25),0
+RR,Platero,G & F SUBDIVISION,,9500.0,DO 55-2024,unmatched,Garcia Filart (38),0
+RR,Platero,G.B. DEVELOPMENT CORP,,9500.0,DO 55-2024,unmatched,Garcia Filart (25),0
+RR,Platero,HIGHWAY HOMES SUBDIVISION,,9500.0,DO 55-2024,unmatched,Hi-way Homes Subdivision (77),0
+RR,Platero,HONORIA SUBDIVISION,,9500.0,DO 55-2024,unmatched,Hi-way Homes Subdivision (46),0
+RR,Platero,LABRADOR SUBDIVISION,,9500.0,DO 55-2024,unmatched,Rosaflor Subdivision (50),0
+RR,Platero,ST. FRANCIS HOMES,,9500.0,DO 55-2024,unmatched,Garcia Filart (53),0
+RR,Platero,FA AMADOR &JM GARCIA &CO. (GARCIA SUBD),,9450.0,DO 55-2024,unmatched,Garcia Filart (63),0
+RR,Platero,ROMANVILLE SUBDIVISION,,9450.0,DO 55-2024,unmatched,Rosaflor Subdivision (44),0
+RR,Platero,ST. FRANCIS XI (St. Francis Homes Dev't Corp.),,9450.0,DO 55-2024,unmatched,Garcia Filart (45),0
+I,Platero,ALONG BARANGAY ROAD,(NEW),9000.0,DO 55-2024,unmatched,Pasadeña Heights (41),0
+RR,Platero,HONORVILLE SUBDIVISION,,8250.0,DO 55-2024,unmatched,Villaggio di Xavier (34),0
+RR,Platero,ALONG BARANGAY ROAD,,7100.0,DO 55-2024,unmatched,Pasadeña Heights (41),0
+CR,Platero,JUBILATION WEST,(NEW),25500.0,DO 55-2024,village,Jubilation East,93.33333333333333
+RR,Platero,JUBILATION EAST,,25000.0,DO 55-2024,village,Jubilation East,100
+CR,Platero,VILLAGIO DE XAVIER,(NEW),20000.0,DO 55-2024,village,Villaggio di Xavier,91.89189189189189
+RR,Platero,JUBILATION WEST,,17000.0,DO 55-2024,village,Jubilation East,93.33333333333333
+CR,Platero,SEGUNDA SUBDIVISION (Teodora Lim-Aco),(NEW),15150.0,DO 55-2024,village,Segunda Village,100
+RR,Platero,VILLAGIO DE XAVIER,,14050.0,DO 55-2024,village,Villaggio di Xavier,91.89189189189189
+RR,Platero,SEGUNDA SUBDIVISION (Teodora Lim-Aco),,13500.0,DO 55-2024,village,Segunda Village,100
+CR,Poblacion,ALL OTHER STREETS,(NEW),6400.0,DO 55-2024,background,,0
+RR,Poblacion,ALL OTHER STREETS,,5000.0,DO 55-2024,background,,0
+CR,Poblacion,A BONIFACIO ST,MABINI ST-CORNER DR A GONZALES,20700.0,DO 55-2024,street,A. Bonifacio Street,100
+CR,Poblacion,A. MABINI ST.,COR. DON V. OCAMPO ST - COR F. ILAGAN ST,20700.0,DO 55-2024,street,A. Mabini Street,100
+CR,Poblacion,GEN. CAPINPIN,COR. F. GANA ST - COR. MALVAR ST,20700.0,DO 55-2024,street,General Capinpin Street,97
+CR,Poblacion,J.Z. GONZALES ST.,PLAZA RIZAL - F. GANA ST,20700.0,DO 55-2024,street,J. Gonzales Street,92.85714285714286
+CR,Poblacion,A. MABINI ST.,(NEW),15980.0,DO 55-2024,street,A. Mabini Street,100
+CR,Poblacion,GEN. CAPINPIN,COR. A. BONIFACIO ST-COR. F. GANA ST,15100.0,DO 55-2024,street,General Capinpin Street,97
+CR,Poblacion,M.H. DEL PILAR,COR. A. MABINI ST-COR. P. PATERNO ST,15100.0,DO 55-2024,street,M. H. del Pilar Street,97
+RR,Poblacion,A BONIFACIO ST,CORNER PATERNO ST-,12350.0,DO 55-2024,street,A. Bonifacio Street,100
+RR,Poblacion,A. MABINI ST.,CORNER F. ILAGAN ST - COR. N. CASUBUAN ST,10200.0,DO 55-2024,street,A. Mabini Street,100
+CR,Poblacion,GEN. MALVAR ST,(NEW),9250.0,DO 55-2024,street,General Malvar Street,100
+RR,Poblacion,A. MABINI ST.,N. CASUBUAN ST - COR MH DEL PILAR ST,7700.0,DO 55-2024,street,A. Mabini Street,100
+RR,Poblacion,J.Z. GONZALES ST.,F. GANA ST - MALVAR ST,7500.0,DO 55-2024,street,J. Gonzales Street,92.85714285714286
+RR,Poblacion,GEN. CAPINPIN,COR. A. BONIFACIO ST-COR. F. GANA ST,7350.0,DO 55-2024,street,General Capinpin Street,97
+RR,Poblacion,GEN. CAPINPIN,COR. F. GANA ST - COR. MALVAR ST,7350.0,DO 55-2024,street,General Capinpin Street,97
+RR,Poblacion,GEN. MALVAR ST,COR. J.E. GONZALES ST - COR GEN M GAPINPIN ST,7350.0,DO 55-2024,street,General Malvar Street,100
+RR,Poblacion,YLAGAN ST.,COR. A. MABINI ST-COR. DR. GONZALES ST,7350.0,DO 55-2024,street,Ylagan Street,100
+RR,Poblacion,M.H. DEL PILAR,COR. A. MABINI ST-COR. P. PATERNO ST,7000.0,DO 55-2024,street,M. H. del Pilar Street,97
+CR,Poblacion,M.H. DEL PILAR,(NEW),6400.0,DO 55-2024,street,M. H. del Pilar Street,97
+RR,Poblacion,GEN. CAPINPIN,INTERIOR LOT,5800.0,DO 55-2024,street,General Capinpin Street,97
+RR,Poblacion,M.H. DEL PILAR,INTERIOR LOT,5300.0,DO 55-2024,street,M. H. del Pilar Street,97
+CR,Poblacion,PLAZA RIZAL,J.E. GONZALES COR. CAPINPIN ST.,23250.0,DO 55-2024,unmatched,Faraon Subdivision (35),0
+CR,Poblacion,PLAZA RIZAL,ALL LOTS FRONTING PLAZA LIMACO & PLAZA RIZAL,23250.0,DO 55-2024,unmatched,Faraon Subdivision (35),0
+CR,Poblacion,DON V. OCAMPO ST.,COR. MABINI ST - COR. FLORANTE ST(NEW),20700.0,DO 55-2024,unmatched,St. Rose Village 3 (0),0
+CR,Poblacion,FLORANTE,COR. DON VICENTE OCAMPO - COR LA SOLIDARIDAD ST,20700.0,DO 55-2024,unmatched,Faraon Subdivision (57),0
+CR,Poblacion,P. PATERNO,A. BONIFACIO ST - COR DON V. OCAMPO ST,20700.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,Poblacion,P. PATERNO,OCAMPO ST - COR. F. ILAGAN ST,20700.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,Poblacion,PLAZA LIMACO,,20700.0,DO 55-2024,unmatched,Faraon Subdivision (33),0
+CR,Poblacion,REINCARMIENTO ST.,FLORANTE COR PLAZA LIMACO,17300.0,DO 55-2024,unmatched,Faraon Subdivision (32),0
+CR,Poblacion,CAPT. N. CASUBUAN,COR. A. MABINI ST-COR. P. PATERNO ST,15100.0,DO 55-2024,unmatched,Faraon Subdivision (29),0
+CR,Poblacion,DON V. OCAMPO ST.,(NEW),15100.0,DO 55-2024,unmatched,St. Rose Village 3 (0),0
+CR,Poblacion,DR. FLORA ILAGAN,,15100.0,DO 55-2024,unmatched,Faraon Subdivision (44),0
+CR,Poblacion,DON F. GANA,COR. GEN. M. CAPINPIN ST - COR J. GONZALES ST,12200.0,DO 55-2024,unmatched,Faraon Subdivision (38),0
+RR,Poblacion,PLAZA LIMACO,,10550.0,DO 55-2024,unmatched,Faraon Subdivision (33),0
+RR,Poblacion,P. PATERNO,COR. F. ILAGAN ST - COR N. CASUBUAN ST,9800.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,Poblacion,LA SOLIDARIDAD,(NEW),9250.0,DO 55-2024,unmatched,Faraon Subdivision (30),0
+CR,Poblacion,E. JACINTO ST.,(NEW),9100.0,DO 55-2024,unmatched,Faraon Subdivision (27),0
+RR,Poblacion,DON F. GANA,COR. GEN. M. CAPINPIN ST - COR J. GONZALES ST,7350.0,DO 55-2024,unmatched,Faraon Subdivision (38),0
+RR,Poblacion,DON V. OCAMPO ST.,COR PATERNO ST-MABINI ST,7350.0,DO 55-2024,unmatched,St. Rose Village 3 (0),0
+RR,Poblacion,E. JACINTO ST.,COR. GEN. M. CAPINPIN ST - COR DR. GONZALES ST,7350.0,DO 55-2024,unmatched,Faraon Subdivision (27),0
+RR,Poblacion,FLORANTE,COR. DON VICENTE OCAMPO - COR LA SOLIDARIDAD ST,7350.0,DO 55-2024,unmatched,Faraon Subdivision (57),0
+RR,Poblacion,LA SOLIDARIDAD,FLORANTE ST - COR. MABINI ST,7350.0,DO 55-2024,unmatched,Faraon Subdivision (30),0
+RR,Poblacion,NOLI ST.,GEN. M. CAPINPIN ST - COR DR. GONZALES ST,7350.0,DO 55-2024,unmatched,Faraon Subdivision (20),0
+RR,Poblacion,P. PATERNO,COR. N. CASUBUAN ST - COR MH DEL PILAR ST,7350.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+RR,Poblacion,CAPT. N. CASUBUAN,COR. A. MABINI ST-COR. P. PATERNO ST,7000.0,DO 55-2024,unmatched,Faraon Subdivision (29),0
+RR,Poblacion,DON V. OCAMPO ST.,COR. MABINI ST - COR. FLORANTE ST(NEW),7000.0,DO 55-2024,unmatched,St. Rose Village 3 (0),0
+RR,Poblacion,DR. FLORA ILAGAN,,7000.0,DO 55-2024,unmatched,Faraon Subdivision (44),0
+CR,Poblacion,CAPT. N. CASUBUAN,(NEW),6400.0,DO 55-2024,unmatched,Faraon Subdivision (29),0
+CR,Poblacion,DR. FLORA ILAGAN,(NEW),6400.0,DO 55-2024,unmatched,Faraon Subdivision (44),0
+CR,Poblacion,GEN. MEDINA ST.,(NEW),6400.0,DO 55-2024,unmatched,Faraon Subdivision (12),0
+RR,Poblacion,GEN. MEDINA ST.,,6000.0,DO 55-2024,unmatched,Faraon Subdivision (12),0
+RR,Poblacion,P. PATERNO,INTERIOR LOT,5800.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+RR,Poblacion,CAPT. N. CASUBUAN,INTERIOR LOT,5300.0,DO 55-2024,unmatched,Faraon Subdivision (29),0
+RR,Poblacion,DR. FLORA ILAGAN,INTERIOR LOT(NEW),5300.0,DO 55-2024,unmatched,Faraon Subdivision (44),0
+RR,Poblacion,REINCARMIENTO ST.,FR. PLAZA RIZAL - COR. OCAMPO ST,5150.0,DO 55-2024,unmatched,Faraon Subdivision (32),0
+CR,San Antonio,ALL OTHER STREETS,(NEW),8000.0,DO 55-2024,background,,0
+I,San Antonio,ALL OTHER STREETS,(NEW),7500.0,DO 55-2024,background,,0
+RR,San Antonio,ALL OTHER STREETS,,5800.0,DO 55-2024,background,,0
+CR,San Antonio,ST. FRANCIS SUBDIVISION VII,(NEW),10300.0,DO 55-2024,street,Saint Francis 7 Subdivision,97
+CR,San Antonio,A. GANA,(NEW),9050.0,DO 55-2024,street,A. Gana Street,97
+RR,San Antonio,ST. FRANCIS SUBDIVISION VII,,8350.0,DO 55-2024,street,Saint Francis 7 Subdivision,97
+RR,San Antonio,A. GANA,,6150.0,DO 55-2024,street,A. Gana Street,97
+RR,San Antonio,A. GANA,INTERIOR LOT,4600.0,DO 55-2024,street,A. Gana Street,97
+CR,San Antonio,JUBILATION AMANZAYA EAST,(NEW),31800.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (42),0
+CR,San Antonio,ALONG OLD NATIONAL HIGHWAY,,30400.0,DO 55-2024,unmatched,Pasadeña Heights (44),0
+I,San Antonio,ALONG OLD NATIONAL HIGHWAY,,29000.0,DO 55-2024,unmatched,Pasadeña Heights (44),0
+RR,San Antonio,JUBILATION AMANZAYA EAST,,25500.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (42),0
+RR,San Antonio,ALONG OLD NATIONAL HIGHWAY,,24550.0,DO 55-2024,unmatched,Pasadeña Heights (44),0
+CR,San Antonio,JUBILATION CENTRAL,,20550.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (34),0
+CR,San Antonio,SPRINGTIME,(NEW),20550.0,DO 55-2024,unmatched,Pasadeña Heights (32),0
+CR,San Antonio,VILLAGIO DE XAVIER,(NEW),20550.0,DO 55-2024,unmatched,Pasadeña Heights (36),0
+CR,San Antonio,GRAND PAVILION,,20550.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,San Antonio,GOLDEN MEADOW (STA. LUCIA REALTY),(NEW),14550.0,DO 55-2024,unmatched,Generosa Village (48),0
+RR,San Antonio,SPRINGTIME,,14000.0,DO 55-2024,unmatched,Pasadeña Heights (32),0
+RR,San Antonio,VILLAGIO DE XAVIER,,14000.0,DO 55-2024,unmatched,Pasadeña Heights (36),0
+RR,San Antonio,GRAND PAVILION,,14000.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,San Antonio,BALINTAWAK,,13600.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (36),0
+CR,San Antonio,ST. ANTHONY VILLAGE,(NEW),12850.0,DO 55-2024,unmatched,Faraon Subdivision (46),0
+CR,San Antonio,VILLA SAN ANTONIO,(NEW),12850.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (43),0
+CR,San Antonio,J. BASA,,12000.0,DO 55-2024,unmatched,Faraon Subdivision (33),0
+CR,San Antonio,ST. FRANCIS HOMES,(NEW),11050.0,DO 55-2024,unmatched,Faraon Subdivision (67),0
+CR,San Antonio,ST. FRANCIS X & XI,(NEW),10300.0,DO 55-2024,unmatched,Saint Francis X Subdivision (81),0
+CR,San Antonio,"ST. FRANCIS SUBDIVISION/TAGA ARCE, INC.",(NEW),10300.0,DO 55-2024,unmatched,Faraon Subdivision (67),0
+CR,San Antonio,MANABAT,,10200.0,DO 55-2024,unmatched,Pasadeña Heights (36),0
+CR,San Antonio,ST. ROSE SUBDIVISION,(NEW),10050.0,DO 55-2024,unmatched,Generosa Village (50),0
+RR,San Antonio,GOLDEN MEADOW (STA. LUCIA REALTY),,9900.0,DO 55-2024,unmatched,Generosa Village (48),0
+RR,San Antonio,ST. FRANCIS HOMES,,9850.0,DO 55-2024,unmatched,Faraon Subdivision (67),0
+CR,San Antonio,CRC HOMES (Capital Resources Corp.),(NEW),9700.0,DO 55-2024,unmatched,Pasadeña Heights (32),0
+CR,San Antonio,FERLINS (Erlinda Belizario),(NEW),9500.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+CR,San Antonio,STA. CATALINA,,9450.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (34),0
+CR,San Antonio,FA AMADOR & JM GARCIA & CO,(NEW),9050.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (39),0
+CR,San Antonio,LIBRADOR SUBDIVISION,(NEW),9050.0,DO 55-2024,unmatched,Faraon Subdivision (43),0
+RR,San Antonio,ST. ANTHONY VILLAGE,,8700.0,DO 55-2024,unmatched,Faraon Subdivision (46),0
+RR,San Antonio,VILLA SAN ANTONIO,,8700.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (43),0
+CR,San Antonio,ALONG OLD NATIONAL HIGHWAY,(NEW),8550.0,DO 55-2024,unmatched,Pasadeña Heights (44),0
+CR,San Antonio,ALMA MANZO SUBDIVISION,(NEW),8400.0,DO 55-2024,unmatched,Faraon Subdivision (38),0
+CR,San Antonio,ARCEGA,(NEW),8400.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+CR,San Antonio,CASAS SUBDIVISION,(NEW),8400.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,San Antonio,EMBER CORP,(NEW),8400.0,DO 55-2024,unmatched,Generosa Village (46),0
+CR,San Antonio,ROMANA SUBDIVISION,(NEW),8400.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+RR,San Antonio,ST. FRANCIS X & XI,,8350.0,DO 55-2024,unmatched,Saint Francis X Subdivision (81),0
+RR,San Antonio,"ST. FRANCIS SUBDIVISION/TAGA ARCE, INC.",,8350.0,DO 55-2024,unmatched,Faraon Subdivision (67),0
+CR,San Antonio,Casile,(NEW),8350.0,DO 55-2024,unmatched,Segunda Village (31),0
+RR,San Antonio,ST. ROSE SUBDIVISION,,8350.0,DO 55-2024,unmatched,Generosa Village (50),0
+CR,San Antonio,BALINTAWAK,(NEW),8300.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (36),0
+CR,San Antonio,GARCIA SUBDIVISION,(NEW),7750.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+CR,San Antonio,J. FRANCISCO,(NEW),7750.0,DO 55-2024,unmatched,Faraon Subdivision (47),0
+CR,San Antonio,JIMENEZ,(NEW),7750.0,DO 55-2024,unmatched,Generosa Village (40),0
+CR,San Antonio,L. SILVA,(NEW),7750.0,DO 55-2024,unmatched,Segunda Village (29),0
+CR,San Antonio,M.Z. BAUTISTA,(NEW),7750.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (44),0
+CR,San Antonio,PARAON SUBDIVISION (Casile),(NEW),7750.0,DO 55-2024,unmatched,Faraon Subdivision (83),0
+CR,San Antonio,SAN ANTONIO,(NEW),7750.0,DO 55-2024,unmatched,Faraon Subdivision (47),0
+CR,San Antonio,U. AMBAS,(NEW),7750.0,DO 55-2024,unmatched,Faraon Subdivision (33),0
+CR,San Antonio,MARGARITA HOMES,(NEW),7750.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+CR,San Antonio,UMBOY,,7700.0,DO 55-2024,unmatched,Faraon Subdivision (18),0
+I,San Antonio,ALONG OLD NATIONAL HIGHWAY,(NEW),7700.0,DO 55-2024,unmatched,Pasadeña Heights (44),0
+CR,San Antonio,UMBOY,(NEW),7350.0,DO 55-2024,unmatched,Faraon Subdivision (18),0
+RR,San Antonio,CRC HOMES (Capital Resources Corp.),,7150.0,DO 55-2024,unmatched,Pasadeña Heights (32),0
+RR,San Antonio,FERLINS (Erlinda Belizario),,7150.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+RR,San Antonio,J. BASA,,7150.0,DO 55-2024,unmatched,Faraon Subdivision (33),0
+CR,San Antonio,J. LUNA,(NEW),7150.0,DO 55-2024,unmatched,Segunda Village (46),0
+RR,San Antonio,MANABAT,,7150.0,DO 55-2024,unmatched,Pasadeña Heights (36),0
+RR,San Antonio,UMBOY,,7150.0,DO 55-2024,unmatched,Faraon Subdivision (18),0
+CR,San Antonio,HONORVILLE,(NEW),7050.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (26),0
+RR,San Antonio,BALINTAWAK,,6950.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (36),0
+CR,San Antonio,MANABAT,(NEW),6600.0,DO 55-2024,unmatched,Pasadeña Heights (36),0
+CR,San Antonio,CERVANTES,(NEW),6400.0,DO 55-2024,unmatched,Faraon Subdivision (43),0
+RR,San Antonio,FA AMADOR & JM GARCIA & CO,,6150.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (39),0
+CR,San Antonio,J. BASA,(NEW),6150.0,DO 55-2024,unmatched,Faraon Subdivision (33),0
+RR,San Antonio,LIBRADOR SUBDIVISION,,6150.0,DO 55-2024,unmatched,Faraon Subdivision (43),0
+RR,San Antonio,ALONG OLD NATIONAL HIGHWAY,INTERIOR LOT,6100.0,DO 55-2024,unmatched,Pasadeña Heights (44),0
+RR,San Antonio,EMBER CORP,,6000.0,DO 55-2024,unmatched,Generosa Village (46),0
+RR,San Antonio,MALAYAN SUBDIVISION (MALAYAN REALTY),,6000.0,DO 55-2024,unmatched,Faraon Subdivision (46),0
+RR,San Antonio,ALMA MANZO SUBDIVISION,,5900.0,DO 55-2024,unmatched,Faraon Subdivision (38),0
+RR,San Antonio,ARCEGA,,5900.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+RR,San Antonio,CASAS SUBDIVISION,,5900.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+RR,San Antonio,GARCIA SUBDIVISION,,5900.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+RR,San Antonio,J. FRANCISCO,,5900.0,DO 55-2024,unmatched,Faraon Subdivision (47),0
+RR,San Antonio,J. LUNA,,5900.0,DO 55-2024,unmatched,Segunda Village (46),0
+RR,San Antonio,JIMENEZ,,5900.0,DO 55-2024,unmatched,Generosa Village (40),0
+RR,San Antonio,L. SILVA,,5900.0,DO 55-2024,unmatched,Segunda Village (29),0
+RR,San Antonio,M.Z. BAUTISTA,,5900.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (44),0
+RR,San Antonio,PARAON SUBDIVISION (Casile),,5900.0,DO 55-2024,unmatched,Faraon Subdivision (83),0
+RR,San Antonio,ROMANA SUBDIVISION,,5900.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+RR,San Antonio,SAN ANTONIO,,5900.0,DO 55-2024,unmatched,Faraon Subdivision (47),0
+RR,San Antonio,STA. CATALINA,,5900.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (34),0
+RR,San Antonio,U. AMBAS,,5900.0,DO 55-2024,unmatched,Faraon Subdivision (33),0
+RR,San Antonio,HONORVILLE,,5900.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (26),0
+RR,San Antonio,MARGARITA HOMES,,5900.0,DO 55-2024,unmatched,Faraon Subdivision (40),0
+RR,San Antonio,BALINTAWAK,INTERIOR LOT,5600.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (36),0
+RR,San Antonio,CERVANTES,,4450.0,DO 55-2024,unmatched,Faraon Subdivision (43),0
+RR,San Antonio,MANABAT,INTERIOR LOT,4400.0,DO 55-2024,unmatched,Pasadeña Heights (36),0
+RR,San Antonio,J. BASA,INTERIOR LOT,4100.0,DO 55-2024,unmatched,Faraon Subdivision (33),0
+RR,San Antonio,J. FRANCISCO,INTERIOR LOT,3950.0,DO 55-2024,unmatched,Faraon Subdivision (47),0
+RR,San Antonio,JIMENEZ,INTERIOR LOT,3700.0,DO 55-2024,unmatched,Generosa Village (40),0
+RR,San Antonio,SAN ANTONIO,INTERIOR LOT,3700.0,DO 55-2024,unmatched,Faraon Subdivision (47),0
+RR,San Antonio,U. AMBAS,INTERIOR LOT,3700.0,DO 55-2024,unmatched,Faraon Subdivision (33),0
+RR,San Antonio,UMBOY,INTERIOR LOT,3700.0,DO 55-2024,unmatched,Faraon Subdivision (18),0
+RR,San Antonio,ARCEGA,INTERIOR LOT,3550.0,DO 55-2024,unmatched,Faraon Subdivision (50),0
+RR,San Antonio,J. LUNA,INTERIOR LOT,3550.0,DO 55-2024,unmatched,Segunda Village (46),0
+RR,San Antonio,L. SILVA,INTERIOR LOT,3550.0,DO 55-2024,unmatched,Segunda Village (29),0
+RR,San Antonio,M.Z. BAUTISTA,INTERIOR LOT,3550.0,DO 55-2024,unmatched,Zenaida Sudivision (Tulay Bato) (44),0
+RR,San Antonio,CERVANTES,INTERIOR LOT,3400.0,DO 55-2024,unmatched,Faraon Subdivision (43),0
+CR,San Antonio,GENEROSA SUBDIVISION (ANTONIO YATCO),(NEW),11400.0,DO 55-2024,village,Generosa Village,100
+CR,San Antonio,ST. ROSE VILLAGE 3 (RCA Realty),(NEW),10200.0,DO 55-2024,village,St. Rose Village 3,100
+RR,San Antonio,GENEROSA SUBDIVISION (ANTONIO YATCO),,9500.0,DO 55-2024,village,Generosa Village,100
+RR,San Antonio,ST. ROSE VILLAGE 3 (RCA Realty),,8350.0,DO 55-2024,village,St. Rose Village 3,100
+CR,San Francisco,ALL OTHER STREETS,(NEW),7000.0,DO 55-2024,background,,0
+I,San Francisco,ALL OTHER STREETS,(NEW),6500.0,DO 55-2024,background,,0
+RR,San Francisco,ALL OTHER STREETS,INTERIOR LOT(NEW),5000.0,DO 55-2024,background,,0
+CR,San Francisco,FIL-ESTATE ECOCENTRUM,,38250.0,DO 55-2024,unmatched,Metroville Complex Subdivision (44),0
+CR,San Francisco,ALONG SLEX,(NEW),34000.0,DO 55-2024,unmatched,Rosario Complex Village (48),0
+CR,San Francisco,BEL-AIR,(NEW),26300.0,DO 55-2024,unmatched,Alvarez Compound (43),0
+RR,San Francisco,BEL-AIR,,18700.0,DO 55-2024,unmatched,Alvarez Compound (43),0
+RR,San Francisco,FIL-ESTATE ECOCENTRUM,,17000.0,DO 55-2024,unmatched,Metroville Complex Subdivision (44),0
+CR,San Francisco,IRAMO COMPLEX,(NEW),12450.0,DO 55-2024,unmatched,Rosario Complex Village (79),0
+CR,San Francisco,ROSALIA GALICIA SUBDIVISION,(NEW),12450.0,DO 55-2024,unmatched,Rosario Complex Village (47),0
+CR,San Francisco,AC DEV'T CORP,(NEW),12250.0,DO 55-2024,unmatched,Golden City (44),0
+CR,San Francisco,ADON DEV'T CORP,(NEW),12250.0,DO 55-2024,unmatched,Newton Heights Subdivision (45),0
+CR,San Francisco,ADELINA I & II (Adelina Realty) IV & V,(NEW),12250.0,DO 55-2024,unmatched,San Agustin Village (44),0
+CR,San Francisco,IRENEVILLE (PP Molera Realty),(NEW),12250.0,DO 55-2024,unmatched,Metroville Complex Subdivision (50),0
+CR,San Francisco,LA PAZ HOUSING & DEV'T CORP,(NEW),12250.0,DO 55-2024,unmatched,Joel house (48),0
+CR,San Francisco,NOEL HOMES (N.O.C),(NEW),12250.0,DO 55-2024,unmatched,Joel house (43),0
+CR,San Francisco,ST. FRANCIS HOMES,(NEW),12250.0,DO 55-2024,unmatched,Golden City (35),0
+CR,San Francisco,MACARIA DEV'T CORP,(NEW),12200.0,DO 55-2024,unmatched,Las Villas de Manila (52),0
+CR,San Francisco,CONSOLE X,(NEW),11150.0,DO 55-2024,unmatched,Golden City (0),0
+CR,San Francisco,"JUANA I, II, & III",(NEW),11150.0,DO 55-2024,unmatched,Golden City (0),0
+CR,San Francisco,PACITA COMPLEX PH 3B,(NEW),11150.0,DO 55-2024,unmatched,Juana 3 (33),0
+CR,San Francisco,SILCAS VILLAGE,(NEW),11150.0,DO 55-2024,unmatched,Silmer Village (55),0
+CR,San Francisco,ST. AUGUST HOMES,(NEW),11150.0,DO 55-2024,unmatched,Saint August Homes (67),0
+CR,San Francisco,ST. FRANCIS I,(NEW),11150.0,DO 55-2024,unmatched,Juana 1 (53),0
+CR,San Francisco,ST. FRANCIS IV,(NEW),11150.0,DO 55-2024,unmatched,Golden City (0),0
+CR,San Francisco,MERINO SUBDIVISION,(NEW),10550.0,DO 55-2024,unmatched,Silmer Village (50),0
+CR,San Francisco,MOLERA,(NEW),10550.0,DO 55-2024,unmatched,Silmer Village (50),0
+CR,San Francisco,GREENFIELDS (IRENEVILLE),(NEW),9900.0,DO 55-2024,unmatched,Metroville Complex Subdivision (50),0
+CR,San Francisco,TAGA-ARCE,(NEW),9800.0,DO 55-2024,unmatched,Alvarez Compound (50),0
+RR,San Francisco,AC DEV'T CORP,,9500.0,DO 55-2024,unmatched,Golden City (44),0
+RR,San Francisco,ADON DEV'T CORP,,9500.0,DO 55-2024,unmatched,Newton Heights Subdivision (45),0
+RR,San Francisco,ADELINA I & II (Adelina Realty) IV & V,,9500.0,DO 55-2024,unmatched,San Agustin Village (44),0
+RR,San Francisco,IRENEVILLE (PP Molera Realty),,9500.0,DO 55-2024,unmatched,Metroville Complex Subdivision (50),0
+RR,San Francisco,LA PAZ HOUSING & DEV'T CORP,,9500.0,DO 55-2024,unmatched,Joel house (48),0
+RR,San Francisco,MACARIA DEV'T CORP,,9500.0,DO 55-2024,unmatched,Las Villas de Manila (52),0
+RR,San Francisco,NOEL HOMES (N.O.C),,9500.0,DO 55-2024,unmatched,Joel house (43),0
+RR,San Francisco,ST. FRANCIS HOMES,,9500.0,DO 55-2024,unmatched,Golden City (35),0
+RR,San Francisco,TAGA-ARCE,,9500.0,DO 55-2024,unmatched,Alvarez Compound (50),0
+RR,San Francisco,GREENFIELDS (IRENEVILLE),,9450.0,DO 55-2024,unmatched,Metroville Complex Subdivision (50),0
+RR,San Francisco,"JUANA I, II, & III",,9450.0,DO 55-2024,unmatched,Golden City (0),0
+I,San Francisco,TAGA-ARCE,(NEW),9000.0,DO 55-2024,unmatched,Alvarez Compound (50),0
+RR,San Francisco,IRAMO COMPLEX,,8950.0,DO 55-2024,unmatched,Rosario Complex Village (79),0
+RR,San Francisco,ROSALIA GALICIA SUBDIVISION,,8950.0,DO 55-2024,unmatched,Rosario Complex Village (47),0
+CR,San Francisco,ALONG BARANGAY ROAD,,8700.0,DO 55-2024,unmatched,Colegio San Agustin - Biñan (41),0
+CR,San Francisco,GRACELAND 1,(NEW),8600.0,DO 55-2024,unmatched,Juana 1 (44),0
+RR,San Francisco,CONSOLE X,,8250.0,DO 55-2024,unmatched,Golden City (0),0
+RR,San Francisco,SILCAS VILLAGE,,8250.0,DO 55-2024,unmatched,Silmer Village (55),0
+RR,San Francisco,ST. AUGUST HOMES,,8250.0,DO 55-2024,unmatched,Saint August Homes (67),0
+RR,San Francisco,ST. FRANCIS I,,8250.0,DO 55-2024,unmatched,Juana 1 (53),0
+RR,San Francisco,ST. FRANCIS IV,,8250.0,DO 55-2024,unmatched,Golden City (0),0
+RR,San Francisco,PACITA COMPLEX PH 3B,,8050.0,DO 55-2024,unmatched,Juana 3 (33),0
+I,San Francisco,ALONG BARANGAY ROAD,,7830.0,DO 55-2024,unmatched,Colegio San Agustin - Biñan (41),0
+RR,San Francisco,MERINO SUBDIVISION,,7700.0,DO 55-2024,unmatched,Silmer Village (50),0
+RR,San Francisco,MOLERA,,7700.0,DO 55-2024,unmatched,Silmer Village (50),0
+RR,San Francisco,GRACELAND 1,,7000.0,DO 55-2024,unmatched,Juana 1 (44),0
+RR,San Francisco,ALONG BARANGAY ROAD,,5250.0,DO 55-2024,unmatched,Colegio San Agustin - Biñan (41),0
+CR,San Francisco,LAS VILLAS DE MANILA (Interflex),(NEW),29000.0,DO 55-2024,village,Las Villas de Manila,100
+CR,San Francisco,NEWTOWN HEIGHTS,(NEW),23550.0,DO 55-2024,village,Newton Heights Subdivision,96.2962962962963
+RR,San Francisco,LAS VILLAS DE MANILA (Interflex),,23300.0,DO 55-2024,village,Las Villas de Manila,100
+RR,San Francisco,NEWTOWN HEIGHTS,,16600.0,DO 55-2024,village,Newton Heights Subdivision,96.2962962962963
+CR,San Francisco,SAN AGUSTIN VILLAGE,(NEW),15000.0,DO 55-2024,village,San Agustin Village,100
+CR,San Francisco,METROVILLE SUBDIVISION,(NEW),12250.0,DO 55-2024,village,Metroville Complex Subdivision,95
+CR,San Francisco,SILMER SUBDIVISION,(NEW),11150.0,DO 55-2024,village,Silmer Village,100
+RR,San Francisco,SAN AGUSTIN VILLAGE,,10700.0,DO 55-2024,village,San Agustin Village,100
+RR,San Francisco,METROVILLE SUBDIVISION,,9500.0,DO 55-2024,village,Metroville Complex Subdivision,95
+RR,San Francisco,SILMER SUBDIVISION,,8250.0,DO 55-2024,village,Silmer Village,100
+CR,San Jose,ALL OTHER STREETS,,7200.0,DO 55-2024,background,,0
+RR,San Jose,ALL OTHER STREETS,,4800.0,DO 55-2024,background,,0
+RR,San Jose,M.H. DEL PILAR,,7000.0,DO 55-2024,street,M. H. del Pilar Street,97
+RR,San Jose,M.H. DEL PILAR,INTERIOR LOT,3300.0,DO 55-2024,street,M. H. del Pilar Street,97
+CR,San Jose,DR. A. GONZALES,,12100.0,DO 55-2024,unmatched,Casas Victoria (36),0
+CR,San Jose,BATISTA SUBDIVISION,(NEW),7400.0,DO 55-2024,unmatched,Casas Victoria (40),0
+RR,San Jose,CAPT. N. CASUBUAN,,7000.0,DO 55-2024,unmatched,Casas Victoria (36),0
+RR,San Jose,DON F. GANA,,7000.0,DO 55-2024,unmatched,South Springs Residential Estate (29),0
+RR,San Jose,DR. A. GONZALES,,7000.0,DO 55-2024,unmatched,Casas Victoria (36),0
+RR,San Jose,DR. FLORA ILAGAN,,7000.0,DO 55-2024,unmatched,Casas Victoria (32),0
+RR,San Jose,BATISTA SUBDIVISION,,4950.0,DO 55-2024,unmatched,Casas Victoria (40),0
+RR,San Jose,CASUPANG SUBDIVISION,,4950.0,DO 55-2024,unmatched,Casas Victoria (38),0
+RR,San Jose,LOPEZ JAENA,,4950.0,DO 55-2024,unmatched,South Springs Residential Estate (34),0
+RR,San Jose,SILVINO GUICO,,4950.0,DO 55-2024,unmatched,Casas Victoria (38),0
+RR,San Jose,CAPT. N. CASUBUAN,INTERIOR LOT,3300.0,DO 55-2024,unmatched,Casas Victoria (36),0
+RR,San Jose,DON F. GANA,INTERIOR LOT,3300.0,DO 55-2024,unmatched,South Springs Residential Estate (29),0
+RR,San Jose,DR. A. GONZALES,INTERIOR LOT,3300.0,DO 55-2024,unmatched,Casas Victoria (36),0
+RR,San Jose,DR. FLORA ILAGAN,INTERIOR LOT,3300.0,DO 55-2024,unmatched,Casas Victoria (32),0
+RR,San Jose,LOPEZ JAENA,INTERIOR LOT,3300.0,DO 55-2024,unmatched,South Springs Residential Estate (34),0
+CR,San Jose,SOUTH SPRING (STA. LUCIA),(NEW),13450.0,DO 55-2024,village,South Springs Residential Estate,95
+RR,San Jose,SOUTH SPRING (STA. LUCIA),,9850.0,DO 55-2024,village,South Springs Residential Estate,95
+RR,San Jose,BELIZARIO SUBDIVISION,,4950.0,DO 55-2024,village,Belizario Compound,100
+CR,San Vicente,ALL OTHER STREETS,(NEW),7050.0,DO 55-2024,background,,0
+I,San Vicente,ALL OTHER STREETS,(NEW),6800.0,DO 55-2024,background,,0
+RR,San Vicente,ALL OTHER STREETS,,5900.0,DO 55-2024,background,,0
+CR,San Vicente,DON PABLO SUBDIVISION,(NEW),13900.0,DO 55-2024,street,Don Pablo Street,97
+CR,San Vicente,GEN. CAPINPIN ST.,(NEW),13900.0,DO 55-2024,street,General Capinpin Street,100
+CR,San Vicente,J. GONZALES ST.,(NEW),13900.0,DO 55-2024,street,J. Gonzales Street,100
+RR,San Vicente,DON PABLO SUBDIVISION,,9500.0,DO 55-2024,street,Don Pablo Street,97
+RR,San Vicente,GEN. CAPINPIN ST.,,9500.0,DO 55-2024,street,General Capinpin Street,100
+RR,San Vicente,J. GONZALES ST.,,9500.0,DO 55-2024,street,J. Gonzales Street,100
+CR,San Vicente,ALONG NATIONAL HIGHWAY,,30400.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+I,San Vicente,ALONG NATIONAL HIGHWAY,,29000.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+RR,San Vicente,ALONG NATIONAL HIGHWAY,,24550.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+CR,San Vicente,P N R,,16550.0,DO 55-2024,unmatched,Golden City (25),0
+CR,San Vicente,P. BURGOS,(NEW),16200.0,DO 55-2024,unmatched,Nepa Highway Homes (32),0
+CR,San Vicente,MALVAR STREET,,16200.0,DO 55-2024,unmatched,Nepa Highway Homes (22),0
+CR,San Vicente,DR. A. GONZALES,(NEW),15100.0,DO 55-2024,unmatched,Golden City (50),0
+CR,San Vicente,FA AMADOR & JM GARCIA & CO,(NEW),13900.0,DO 55-2024,unmatched,Golden City (24),0
+CR,San Vicente,FERLINS SUBDIVISION (Erlinda Subdivision),(NEW),13900.0,DO 55-2024,unmatched,Nepa Highway Homes (32),0
+CR,San Vicente,ILDEFONSO BELIZARIO,(NEW),13900.0,DO 55-2024,unmatched,Golden City (40),0
+RR,San Vicente,P. BURGOS,,11150.0,DO 55-2024,unmatched,Nepa Highway Homes (32),0
+RR,San Vicente,MALVAR STREET,,11150.0,DO 55-2024,unmatched,Nepa Highway Homes (22),0
+I,San Vicente,P N R,,10500.0,DO 55-2024,unmatched,Golden City (25),0
+RR,San Vicente,FA AMADOR & JM GARCIA & CO,,9500.0,DO 55-2024,unmatched,Golden City (24),0
+RR,San Vicente,FERLINS SUBDIVISION (Erlinda Subdivision),,9500.0,DO 55-2024,unmatched,Nepa Highway Homes (32),0
+RR,San Vicente,ILDEFONSO BELIZARIO,,9500.0,DO 55-2024,unmatched,Golden City (40),0
+RR,San Vicente,P N R,,9500.0,DO 55-2024,unmatched,Golden City (25),0
+RR,San Vicente,DR. A. GONZALES,,9450.0,DO 55-2024,unmatched,Golden City (50),0
+CR,San Vicente,ALONG NATIONAL HIGHWAY,(NEW),8550.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+I,San Vicente,ALONG NATIONAL HIGHWAY,(NEW),7700.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+RR,San Vicente,ALONG NATIONAL HIGHWAY,INTERIOR LOT,6100.0,DO 55-2024,unmatched,Nepa Highway Homes (59),0
+CR,San Vicente,NEPA HIGHWAY SUBDIVISION,(NEW),15450.0,DO 55-2024,village,Nepa Highway Homes,100
+RR,San Vicente,NEPA HIGHWAY SUBDIVISION,,14250.0,DO 55-2024,village,Nepa Highway Homes,100
+CR,Santo Domingo,ALL OTHER STREETS,(NEW),7050.0,DO 55-2024,background,,0
+I,Santo Domingo,ALL OTHER STREETS,(NEW),6300.0,DO 55-2024,background,,0
+RR,Santo Domingo,ALL OTHER STREETS,INTERIOR LOT,5000.0,DO 55-2024,background,,0
+CR,Santo Domingo,CAPT. N. CASUBUAN,(NEW),15100.0,DO 55-2024,unmatched,South Springs Residential Estate (31),0
+CR,Santo Domingo,DR. FLORA ILAGAN,(NEW),15100.0,DO 55-2024,unmatched,Nepa Highway Homes (42),0
+CR,Santo Domingo,M.H. DEL PILAR,(NEW),15100.0,DO 55-2024,unmatched,Belizario Compound (45),0
+CR,Santo Domingo,ALONG BARANGAY ROAD,(NEW),15100.0,DO 55-2024,unmatched,Nepa Highway Homes (38),0
+I,Santo Domingo,ALONG BARANGAY ROAD,(NEW),14500.0,DO 55-2024,unmatched,Nepa Highway Homes (38),0
+CR,Santo Domingo,P. BURGOS / Sto. Domingo,(NEW),13350.0,DO 55-2024,unmatched,Belizario Compound (38),0
+CR,Santo Domingo,ALUNOS SUBDIVISION,(NEW),13050.0,DO 55-2024,unmatched,Belizario Compound (29),0
+CR,Santo Domingo,CALLEJON,,13050.0,DO 55-2024,unmatched,South Springs Residential Estate (25),0
+CR,Santo Domingo,SIMPLE SUBDIVISION,(NEW),13050.0,DO 55-2024,unmatched,Nepa Highway Homes (22),0
+I,Santo Domingo,CALLEJON,(NEW),8250.0,DO 55-2024,unmatched,South Springs Residential Estate (25),0
+RR,Santo Domingo,SIMPLE SUBDIVISION,,8200.0,DO 55-2024,unmatched,Nepa Highway Homes (22),0
+RR,Santo Domingo,ALUNOS SUBDIVISION,,7650.0,DO 55-2024,unmatched,Belizario Compound (29),0
+RR,Santo Domingo,CALLEJON,,7650.0,DO 55-2024,unmatched,South Springs Residential Estate (25),0
+RR,Santo Domingo,P. BURGOS / Sto. Domingo,,7650.0,DO 55-2024,unmatched,Belizario Compound (38),0
+RR,Santo Domingo,ALONG BARANGAY ROAD,,7650.0,DO 55-2024,unmatched,Nepa Highway Homes (38),0
+CR,Santo Domingo,CALLEJON,(NEW),7050.0,DO 55-2024,unmatched,South Springs Residential Estate (25),0
+RR,Santo Domingo,CAPT. N. CASUBUAN,,7000.0,DO 55-2024,unmatched,South Springs Residential Estate (31),0
+RR,Santo Domingo,DR. FLORA ILAGAN,,7000.0,DO 55-2024,unmatched,Nepa Highway Homes (42),0
+RR,Santo Domingo,M.H. DEL PILAR,,7000.0,DO 55-2024,unmatched,Belizario Compound (45),0
+RR,Santo Domingo,CAPT. N. CASUBUAN,INTERIOR LOT,5300.0,DO 55-2024,unmatched,South Springs Residential Estate (31),0
+RR,Santo Domingo,DR. FLORA ILAGAN,INTERIOR LOT,5300.0,DO 55-2024,unmatched,Nepa Highway Homes (42),0
+RR,Santo Domingo,M.H. DEL PILAR,INTERIOR LOT,5300.0,DO 55-2024,unmatched,Belizario Compound (45),0
+RR,Santo Domingo,CALLEJON,INTERIOR LOT,5150.0,DO 55-2024,unmatched,South Springs Residential Estate (25),0
+RR,Santo Domingo,P. BURGOS / Sto. Domingo,INTERIOR LOT,5150.0,DO 55-2024,unmatched,Belizario Compound (38),0
+CR,Santo Niño,ALL OTHER STREETS,,11850.0,DO 55-2024,background,,0
+CR,Santo Niño,ALL OTHER STREETS,(NEW),9600.0,DO 55-2024,background,,0
+I,Santo Niño,ALL OTHER STREETS,,9400.0,DO 55-2024,background,,0
+RR,Santo Niño,ALL OTHER STREETS,,8400.0,DO 55-2024,background,,0
+I,Santo Niño,ALL OTHER STREETS,(NEW),6400.0,DO 55-2024,background,,0
+RR,Santo Niño,ALL OTHER STREETS,INTERIOR LOT,5150.0,DO 55-2024,background,,0
+CR,Santo Niño,GRAND PAVILION,(NEW),82500.0,DO 55-2024,unmatched,Jubilation Enclave (50),0
+RR,Santo Niño,GRAND PAVILION,,55000.0,DO 55-2024,unmatched,Jubilation Enclave (50),0
+CR,Santo Niño,JUBILATION CENTRAL,(NEW),41900.0,DO 55-2024,unmatched,Jubilation Enclave (78),0
+RR,Santo Niño,JUBILATION CENTRAL,(HOUSE&LOT),32200.0,DO 55-2024,unmatched,Jubilation Enclave (78),0
+CR,Santo Niño,ALONG OLD NATIONAL HIGHWAY,,30400.0,DO 55-2024,unmatched,Jubilation Enclave North (40),0
+I,Santo Niño,ALONG OLD NATIONAL HIGHWAY,,29000.0,DO 55-2024,unmatched,Jubilation Enclave North (40),0
+RR,Santo Niño,ALONG OLD NATIONAL HIGHWAY,,24550.0,DO 55-2024,unmatched,Jubilation Enclave North (40),0
+CR,Santo Niño,SPRINGTIME COUNTY,(NEW),15300.0,DO 55-2024,unmatched,Jubilation Enclave North (34),0
+CR,Santo Niño,SUNVILLE,(NEW),14000.0,DO 55-2024,unmatched,Jubilation Enclave (38),0
+CR,Santo Niño,FERLINS SUBDIVISION,(NEW),12550.0,DO 55-2024,unmatched,Jubilation Enclave (33),0
+CR,Santo Niño,PHCL HOUSING PROJECT,(NEW),11450.0,DO 55-2024,unmatched,Jubilation Enclave North (32),0
+CR,Santo Niño,VILLA JONELTA,(NEW),10900.0,DO 55-2024,unmatched,Jubilation Enclave (52),0
+RR,Santo Niño,SPRINGTIME COUNTY,,10700.0,DO 55-2024,unmatched,Jubilation Enclave North (34),0
+RR,Santo Niño,SUNVILLE,,9850.0,DO 55-2024,unmatched,Jubilation Enclave (38),0
+RR,Santo Niño,FERLINS SUBDIVISION,,9500.0,DO 55-2024,unmatched,Jubilation Enclave (33),0
+CR,Santo Niño,ALONG OLD NATIONAL HIGHWAY,(NEW),8550.0,DO 55-2024,unmatched,Jubilation Enclave North (40),0
+RR,Santo Niño,PHCL HOUSING PROJECT,,8250.0,DO 55-2024,unmatched,Jubilation Enclave North (32),0
+RR,Santo Niño,VILLA JONELTA,,8250.0,DO 55-2024,unmatched,Jubilation Enclave (52),0
+I,Santo Niño,ALONG OLD NATIONAL HIGHWAY,(NEW),7700.0,DO 55-2024,unmatched,Jubilation Enclave North (40),0
+RR,Santo Niño,ALONG OLD NATIONAL HIGHWAY,INTERIOR LOT,6100.0,DO 55-2024,unmatched,Jubilation Enclave North (40),0
+RR,Santo Niño,JUBILATION ENCLAVE,PENTHOUSE (HOUSE&LOT)(NEW),97100.0,DO 55-2024,village,Jubilation Enclave,100
+RR,Santo Niño,JUBILATION ENCLAVE,DUPLEX (HOUSE&LOT)(NEW),60700.0,DO 55-2024,village,Jubilation Enclave,100
+RR,Santo Niño,JUBILATION ENCLAVE,TOWNHOUSE (HOUSE&LOT)(NEW),59400.0,DO 55-2024,village,Jubilation Enclave,100
+RR,Santo Niño,JUBILATION NORTH,HOUSE AND LOT(NEW),47800.0,DO 55-2024,village,Jubilation Enclave North,95
+CR,Santo Tomas,ALL OTHER STREETS,(NEW),6700.0,DO 55-2024,background,,0
+I,Santo Tomas,ALL OTHER STREETS,(NEW),6500.0,DO 55-2024,background,,0
+RR,Santo Tomas,ALL OTHER STREETS,INTERIOR LOTS,4400.0,DO 55-2024,background,,0
+CR,Santo Tomas,ADELINA REALTY,(NEW),12400.0,DO 55-2024,street,Adelina Avenue,97
+CR,Santo Tomas,ADELINA (EXPRESSWAY TRDG.),(NEW),10200.0,DO 55-2024,street,Adelina Avenue,97
+RR,Santo Tomas,ADELINA REALTY,,9500.0,DO 55-2024,street,Adelina Avenue,97
+RR,Santo Tomas,ADELINA (EXPRESSWAY TRDG.),,6950.0,DO 55-2024,street,Adelina Avenue,97
+CR,Santo Tomas,ACTIVE PROPERTIES HOLDINGS,(NEW),12400.0,DO 55-2024,unmatched,Citation Residences (48),0
+CR,Santo Tomas,ACTIVE REALTY,(NEW),12400.0,DO 55-2024,unmatched,Altarez Village (46),0
+CR,Santo Tomas,ADON DEVELOPMENT CORP,(NEW),12400.0,DO 55-2024,unmatched,United Estates Townhomes (32),0
+CR,Santo Tomas,HOME INSURANCE & GUARANTY CORP,(NEW),12400.0,DO 55-2024,unmatched,Citation Residences (44),0
+CR,Santo Tomas,OLIVAREZ REALTY CORP,(NEW),12400.0,DO 55-2024,unmatched,Altarez Village (67),0
+CR,Santo Tomas,UNITED STATES CIUDADES SUBDIVISION,(NEW),12400.0,DO 55-2024,unmatched,United Estates Townhomes (51),0
+CR,Santo Tomas,ADELINA III,(NEW),11950.0,DO 55-2024,unmatched,Olivarez Homes South - Phase 5 (0),0
+CR,Santo Tomas,OLIVAREZ HOMES SOUTH,(NEW),11950.0,DO 55-2024,unmatched,South City Homes (58),0
+CR,Santo Tomas,OLIVAREZ HOMES SUBDIVISION,(NEW),11950.0,DO 55-2024,unmatched,Altarez Village (67),0
+CR,Santo Tomas,SOUTHPLAINS I & II,(NEW),11950.0,DO 55-2024,unmatched,Olivarez Homes South - Phase 5 (0),0
+CR,Santo Tomas,ST. JOSEPH VILLAGE (P.A. Alvarez),(NEW),11950.0,DO 55-2024,unmatched,Altarez Village (67),0
+CR,Santo Tomas,SUN-RICH REALTY CORP,(NEW),11950.0,DO 55-2024,unmatched,South City Homes (44),0
+CR,Santo Tomas,TOWN & COUNTRY CLUB SUBDIVISION,(NEW),11950.0,DO 55-2024,unmatched,Town & Country Southville (70),0
+CR,Santo Tomas,ALTHEA RESIDENCES,(NEW),10850.0,DO 55-2024,unmatched,Citation Residences (71),0
+CR,Santo Tomas,MERCEDES SUBDIVISION,(NEW),10850.0,DO 55-2024,unmatched,United Estates Townhomes (36),0
+CR,Santo Tomas,MIGUEL OLIVAN,(NEW),10850.0,DO 55-2024,unmatched,Jubilation Enclave (39),0
+CR,Santo Tomas,PANTAGONZA APARTELLE,(NEW),10850.0,DO 55-2024,unmatched,Jubilation Enclave (42),0
+CR,Santo Tomas,PRAGMATIC SUBDIVISION,(NEW),10850.0,DO 55-2024,unmatched,Jubilation Enclave (30),0
+CR,Santo Tomas,WELLMAN VILLE SUBDIVISION,(NEW),10850.0,DO 55-2024,unmatched,Town & Country Southville (44),0
+CR,Santo Tomas,CORB REALTY,(NEW),10200.0,DO 55-2024,unmatched,South City Homes (29),0
+CR,Santo Tomas,INSULAR LIFE VILLAGE,(NEW),10200.0,DO 55-2024,unmatched,Altarez Village (42),0
+CR,Santo Tomas,NEW VANTAGE CORP,(NEW),10200.0,DO 55-2024,unmatched,United Estates Townhomes (46),0
+CR,Santo Tomas,ALONG BARANGAY ROAD,,10000.0,DO 55-2024,unmatched,Altarez Village (38),0
+CR,Santo Tomas,ST. JOSEPH VILLAGE 2,(NEW),9600.0,DO 55-2024,unmatched,South Plains II (38),0
+CR,Santo Tomas,SUSANA SUBDIVISION,(NEW),9600.0,DO 55-2024,unmatched,Jubilation Enclave (33),0
+CR,Santo Tomas,VILLA CATALINA SUBDIVISION,(NEW),9600.0,DO 55-2024,unmatched,Villagio Di Xavier Dolce Vita (47),0
+RR,Santo Tomas,ACTIVE PROPERTIES HOLDINGS,,9500.0,DO 55-2024,unmatched,Citation Residences (48),0
+RR,Santo Tomas,ACTIVE REALTY,,9500.0,DO 55-2024,unmatched,Altarez Village (46),0
+RR,Santo Tomas,ADELINA III,,9500.0,DO 55-2024,unmatched,Olivarez Homes South - Phase 5 (0),0
+RR,Santo Tomas,ADON DEVELOPMENT CORP,,9500.0,DO 55-2024,unmatched,United Estates Townhomes (32),0
+RR,Santo Tomas,HOME INSURANCE & GUARANTY CORP,,9500.0,DO 55-2024,unmatched,Citation Residences (44),0
+RR,Santo Tomas,LA PAZ HOUSING & DEVELOPMENT CORP,,9500.0,DO 55-2024,unmatched,Villagio Di Xavier Dolce Vita (33),0
+RR,Santo Tomas,OLIVAREZ HOMES SOUTH,,9500.0,DO 55-2024,unmatched,South City Homes (58),0
+RR,Santo Tomas,OLIVAREZ HOMES SUBDIVISION,,9500.0,DO 55-2024,unmatched,Altarez Village (67),0
+RR,Santo Tomas,OLIVAREZ REALTY CORP,,9500.0,DO 55-2024,unmatched,Altarez Village (67),0
+RR,Santo Tomas,PRAGMATIC DEVELOPMENT & CONST CORP,(NEW),9500.0,DO 55-2024,unmatched,Citation Residences (42),0
+RR,Santo Tomas,SOUTHPLAINS I & II,,9500.0,DO 55-2024,unmatched,Olivarez Homes South - Phase 5 (0),0
+RR,Santo Tomas,ST. JOSEPH VILLAGE (P.A. Alvarez),,9500.0,DO 55-2024,unmatched,Altarez Village (67),0
+RR,Santo Tomas,SUN-RICH REALTY CORP,,9500.0,DO 55-2024,unmatched,South City Homes (44),0
+RR,Santo Tomas,TOWN & COUNTRY CLUB SUBDIVISION,,9500.0,DO 55-2024,unmatched,Town & Country Southville (70),0
+RR,Santo Tomas,UNITED STATES CIUDADES SUBDIVISION,,9500.0,DO 55-2024,unmatched,United Estates Townhomes (51),0
+I,Santo Tomas,ALONG BARANGAY ROAD,,8500.0,DO 55-2024,unmatched,Altarez Village (38),0
+RR,Santo Tomas,MERCEDES SUBDIVISION,,8300.0,DO 55-2024,unmatched,United Estates Townhomes (36),0
+RR,Santo Tomas,ALTHEA RESIDENCES,,7300.0,DO 55-2024,unmatched,Citation Residences (71),0
+RR,Santo Tomas,EVELYN ALMEDA,(NEW),7300.0,DO 55-2024,unmatched,Altarez Village (40),0
+RR,Santo Tomas,MERCEDES SUBDIVISION/MERCEDES HOMES (MMO Realty),(NEW),7300.0,DO 55-2024,unmatched,Citation Residences (36),0
+RR,Santo Tomas,MIGUEL OLIVAN,,7300.0,DO 55-2024,unmatched,Jubilation Enclave (39),0
+RR,Santo Tomas,ST. JOSEPH VILLAGE 2,,7300.0,DO 55-2024,unmatched,South Plains II (38),0
+RR,Santo Tomas,VILLA CATALINA SUBDIVISION,,7300.0,DO 55-2024,unmatched,Villagio Di Xavier Dolce Vita (47),0
+RR,Santo Tomas,WELLMAN VILLE SUBDIVISION,,7300.0,DO 55-2024,unmatched,Town & Country Southville (44),0
+RR,Santo Tomas,PANTAGONZA APARTELLE,,7150.0,DO 55-2024,unmatched,Jubilation Enclave (42),0
+RR,Santo Tomas,PRAGMATIC SUBDIVISION,,7150.0,DO 55-2024,unmatched,Jubilation Enclave (30),0
+RR,Santo Tomas,CORB REALTY,,7100.0,DO 55-2024,unmatched,South City Homes (29),0
+RR,Santo Tomas,EMBER CORP,(NEW),7100.0,DO 55-2024,unmatched,United Estates Townhomes (30),0
+RR,Santo Tomas,INSULAR LIFE VILLAGE,,6950.0,DO 55-2024,unmatched,Altarez Village (42),0
+RR,Santo Tomas,NEW VANTAGE CORP,,6950.0,DO 55-2024,unmatched,United Estates Townhomes (46),0
+RR,Santo Tomas,ALONG BARANGAY ROAD,,6650.0,DO 55-2024,unmatched,Altarez Village (38),0
+RR,Santo Tomas,SUSANA SUBDIVISION,,6300.0,DO 55-2024,unmatched,Jubilation Enclave (33),0
+CR,Santo Tomas,TOWNSVILLE(TOWN & COUNTRY),(NEW),16550.0,DO 55-2024,village,Town & Country Southville,95
+RR,Santo Tomas,TOWNSVILLE(TOWN & COUNTRY),,12200.0,DO 55-2024,village,Town & Country Southville,95
+CR,Santo Tomas,SOUTH CITY HOMES,(NEW),11950.0,DO 55-2024,village,South City Homes,100
+RR,Santo Tomas,SOUTH CITY HOMES,,9500.0,DO 55-2024,village,South City Homes,100
+CR,Soro-soro,ALL OTHER STREETS,(NEW),5550.0,DO 55-2024,background,,0
+I,Soro-soro,ALL OTHER STREETS,(NEW),5100.0,DO 55-2024,background,,0
+RR,Soro-soro,ALL OTHER STREETS,INTERIOR LOT,3650.0,DO 55-2024,background,,0
+CR,Soro-soro,ALONG NATIONAL HIGHWAY,,30400.0,DO 55-2024,unmatched,Newton Heights Subdivision (51),0
+I,Soro-soro,ALONG NATIONAL HIGHWAY,(NEW),29000.0,DO 55-2024,unmatched,Newton Heights Subdivision (51),0
+RR,Soro-soro,ALONG NATIONAL HIGHWAY,,24550.0,DO 55-2024,unmatched,Newton Heights Subdivision (51),0
+CR,Soro-soro,FIL-ESTATE,(NEW),14550.0,DO 55-2024,unmatched,Filinvest South (33),0
+RR,Soro-soro,FIL-ESTATE,(NEW),12450.0,DO 55-2024,unmatched,Filinvest South (33),0
+CR,Soro-soro,COUNTY HOMES 1 & 2,(NEW),12250.0,DO 55-2024,unmatched,Southwoods City (0),0
+CR,Soro-soro,THE ANNEX,(NEW),12250.0,DO 55-2024,unmatched,Newton Heights Subdivision (33),0
+CR,Soro-soro,VISTA ROSA,(NEW),12250.0,DO 55-2024,unmatched,Filinvest South (40),0
+CR,Soro-soro,CONSOLE VILLE,(NEW),9900.0,DO 55-2024,unmatched,Newton Heights Subdivision (31),0
+CR,Soro-soro,PLDT SUBD./PLDT VILLAGE (N.F. C Const.),(NEW),9900.0,DO 55-2024,unmatched,Filinvest South (33),0
+RR,Soro-soro,COUNTY HOMES 1 & 2,,9500.0,DO 55-2024,unmatched,Southwoods City (0),0
+RR,Soro-soro,THE ANNEX,(NEW),9500.0,DO 55-2024,unmatched,Newton Heights Subdivision (33),0
+RR,Soro-soro,VISTA ROSA,(NEW),9500.0,DO 55-2024,unmatched,Filinvest South (40),0
+RR,Soro-soro,CONSOLE VILLE,,7250.0,DO 55-2024,unmatched,Newton Heights Subdivision (31),0
+RR,Soro-soro,PLDT SUBD./PLDT VILLAGE (N.F. C Const.),,7250.0,DO 55-2024,unmatched,Filinvest South (33),0
+CR,Soro-soro,ALONG BARANGAY ROAD,(NEW),7050.0,DO 55-2024,unmatched,Newton Heights Subdivision (30),0
+I,Soro-soro,ALONG BARANGAY ROAD,(NEW),6500.0,DO 55-2024,unmatched,Newton Heights Subdivision (30),0
+RR,Soro-soro,ALONG BARANGAY ROAD,,5300.0,DO 55-2024,unmatched,Newton Heights Subdivision (30),0
+CR,Soro-soro,FILINVEST SUBDIVISION,(NEW),18450.0,DO 55-2024,village,Filinvest South,95
+RR,Soro-soro,FILINVEST SUBDIVISION,,13550.0,DO 55-2024,village,Filinvest South,95
+CR,Timbao,ALL OTHER STREETS,(NEW),6700.0,DO 55-2024,background,,0
+I,Timbao,ALL OTHER STREETS,(NEW),6400.0,DO 55-2024,background,,0
+RR,Timbao,ALL OTHER STREETS,INTERIOR LOTS,4450.0,DO 55-2024,background,,0
+CR,Timbao,COMMUNITY INNOVATIONS INC (VERDANA HOMES - ALVEO),(NEW),30600.0,DO 55-2024,unmatched,Verdana Homes (70),0
+RR,Timbao,COMMUNITY INNOVATIONS INC (VERDANA HOMES - ALVEO),,21800.0,DO 55-2024,unmatched,Verdana Homes (70),0
+CR,Timbao,CROWN CENTRAL-PALMA REAL,(NEW),17750.0,DO 55-2024,unmatched,Palma Real Residential Estates (48),0
+CR,Timbao,STA. LUCIA,(NEW),17750.0,DO 55-2024,unmatched,Palma Real Residential Estates (39),0
+CR,Timbao,SOUTHVILLE,(NEW),16550.0,DO 55-2024,unmatched,Palma Real Residential Estates (25),0
+RR,Timbao,CROWN CENTRAL-PALMA REAL,,14400.0,DO 55-2024,unmatched,Palma Real Residential Estates (48),0
+RR,Timbao,STA. LUCIA,,13150.0,DO 55-2024,unmatched,Palma Real Residential Estates (39),0
+RR,Timbao,SOUTHVILLE,,12200.0,DO 55-2024,unmatched,Palma Real Residential Estates (25),0
+CR,Timbao,ACACIA ESTATE HOMES,(NEW),12000.0,DO 55-2024,unmatched,Carmona Estates (46),0
+CR,Timbao,ALTA HOMES,(NEW),10900.0,DO 55-2024,unmatched,Celina Homes Biñan (38),0
+CR,Timbao,DAIMAR INTERNATIONAL REALTY (Daimar Subd.),(NEW),10200.0,DO 55-2024,unmatched,Palma Real Residential Estates (57),0
+CR,Timbao,ALONG BARANGAY ROAD,,10050.0,DO 55-2024,unmatched,Celina Homes Biñan (46),0
+RR,Timbao,ACACIA ESTATE HOMES,(NEW),9500.0,DO 55-2024,unmatched,Carmona Estates (46),0
+I,Timbao,ALONG BARANGAY ROAD,,9000.0,DO 55-2024,unmatched,Celina Homes Biñan (46),0
+RR,Timbao,ALTA HOMES,,7700.0,DO 55-2024,unmatched,Celina Homes Biñan (38),0
+RR,Timbao,DAIMAR INTERNATIONAL REALTY (Daimar Subd.),,6950.0,DO 55-2024,unmatched,Palma Real Residential Estates (57),0
+RR,Timbao,ALONG BARANGAY ROAD,,6700.0,DO 55-2024,unmatched,Celina Homes Biñan (46),0
+CR,Timbao,NATIONAL HOUSING AUTHORITY (NHA),(NEW),6400.0,DO 55-2024,unmatched,Palma Real Residential Estates (42),0
+RR,Timbao,NATIONAL HOUSING AUTHORITY (NHA),,4450.0,DO 55-2024,unmatched,Palma Real Residential Estates (42),0
+CR,Timbao,PALMA REAL,(NEW),20750.0,DO 55-2024,village,Palma Real Residential Estates,95
+RR,Timbao,PALMA REAL,,17000.0,DO 55-2024,village,Palma Real Residential Estates,95
+CR,Timbao,CARMONA ESTATE,(NEW),12600.0,DO 55-2024,village,Carmona Estates,100
+RR,Timbao,CARMONA ESTATE,(NEW),10750.0,DO 55-2024,village,Carmona Estates,100
+CR,Tubigan,ALL OTHER STREETS,(NEW),7250.0,DO 55-2024,background,,0
+I,Tubigan,ALL OTHER STREETS,(NEW),6400.0,DO 55-2024,background,,0
+RR,Tubigan,ALL OTHER STREETS,INTERIOR LOT,5300.0,DO 55-2024,background,,0
+CR,Tubigan,ALONG NATIONAL HIGHWAY,,30400.0,DO 55-2024,unmatched,Golden City (36),0
+RR,Tubigan,ALONG NATIONAL HIGHWAY,,24550.0,DO 55-2024,unmatched,Golden City (36),0
+CR,Tubigan,FERLINS (Erlinda Francisco),(NEW),11450.0,DO 55-2024,unmatched,Filinvest South (38),0
+RR,Tubigan,FERLINS (Erlinda Francisco),,9450.0,DO 55-2024,unmatched,Filinvest South (38),0
+CR,Tubigan,ALONG BARANGAY ROAD,(NEW),9150.0,DO 55-2024,unmatched,Golden City (32),0
+I,Tubigan,ALONG BARANGAY ROAD,(NEW),8700.0,DO 55-2024,unmatched,Golden City (32),0
+RR,Tubigan,ALONG BARANGAY ROAD,,6200.0,DO 55-2024,unmatched,Golden City (32),0
+CR,Tubigan,FILINVEST SUBDIVISION,(NEW),16850.0,DO 55-2024,village,Filinvest South,95
+RR,Tubigan,FILINVEST SUBDIVISION,,13500.0,DO 55-2024,village,Filinvest South,95
+CR,Zapote,ALL OTHER STREETS,(NEW),6700.0,DO 55-2024,background,,0
+I,Zapote,ALL OTHER STREETS,(NEW),6400.0,DO 55-2024,background,,0
+RR,Zapote,ALL OTHER STREETS,INTERIOR LOT,4450.0,DO 55-2024,background,,0
+CR,Zapote,JUBILATION SOUTH,(NEW),25100.0,DO 55-2024,unmatched,Jubilation East (84),0
+CR,Zapote,JUBILATION AMANZAYA WEST,(NEW),22550.0,DO 55-2024,unmatched,Jubilation East (72),0
+CR,Zapote,JUBILATION AMANZAYA WEST PH II,(NEW),22550.0,DO 55-2024,unmatched,South Plains II (46),0
+CR,Zapote,JUBILATION AMANZAYA EAST,(NEW),22550.0,DO 55-2024,unmatched,Jubilation East (77),0
+CR,Zapote,JUBILATION NEW BINAN STRIP,(NEW),22550.0,DO 55-2024,unmatched,Jubilation East (73),0
+CR,Zapote,MONDO BAMBINI,(NEW),20000.0,DO 55-2024,unmatched,Village Front at Brentville (44),0
+CR,Zapote,SUMMER BREEZE COUNTRY,(NEW),18600.0,DO 55-2024,unmatched,Summer Breeze (76),0
+RR,Zapote,JUBILATION SOUTH,,17450.0,DO 55-2024,unmatched,Jubilation East (84),0
+RR,Zapote,JUBILATION AMANZAYA WEST,,15750.0,DO 55-2024,unmatched,Jubilation East (72),0
+RR,Zapote,JUBILATION AMANZAYA WEST PH II,,15750.0,DO 55-2024,unmatched,South Plains II (46),0
+RR,Zapote,JUBILATION AMANZAYA EAST,,15750.0,DO 55-2024,unmatched,Jubilation East (77),0
+RR,Zapote,JUBILATION NEW BINAN STRIP,,15750.0,DO 55-2024,unmatched,Jubilation East (73),0
+CR,Zapote,ALONG BARANGAY ROAD,,14800.0,DO 55-2024,unmatched,Jubilation Enclave (38),0
+I,Zapote,ALONG BARANGAY ROAD,,14450.0,DO 55-2024,unmatched,Jubilation Enclave (38),0
+RR,Zapote,MONDO BAMBINI,,14050.0,DO 55-2024,unmatched,Village Front at Brentville (44),0
+RR,Zapote,SUMMER BREEZE COUNTRY,,14000.0,DO 55-2024,unmatched,Summer Breeze (76),0
+RR,Zapote,ALONG BARANGAY ROAD,,10950.0,DO 55-2024,unmatched,Jubilation Enclave (38),0
+CR,Zapote,DOLCE VITA,(NEW),22550.0,DO 55-2024,village,Villagio Di Xavier Dolce Vita,95
+CR,Zapote,VILLAGIO DE XAVIER,(NEW),20000.0,DO 55-2024,village,Villaggio di Xavier,91.89189189189189
+CR,Zapote,EVERGREEN COUNTY,(NEW),18600.0,DO 55-2024,village,Evergreen County,100
+RR,Zapote,DOLCE VITA,,15750.0,DO 55-2024,village,Villagio Di Xavier Dolce Vita,95
+RR,Zapote,VILLAGIO DE XAVIER,,14050.0,DO 55-2024,village,Villaggio di Xavier,91.89189189189189
+RR,Zapote,EVERGREEN COUNTY,,14000.0,DO 55-2024,village,Evergreen County,100

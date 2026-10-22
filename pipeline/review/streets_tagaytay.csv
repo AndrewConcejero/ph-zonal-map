@@ -1,0 +1,763 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Asisan,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+RR,Asisan,ALL OTHER SUBDIVISION,,5000.0,DO 20-2021,background,,0
+CR,Asisan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4200.0,DO 20-2021,background,,0
+CR,Asisan,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+RR,Asisan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3000.0,DO 20-2021,background,,0
+RR,Asisan,ALL OTHER STREETS,INTERIOR,2800.0,DO 20-2021,background,,0
+CR,Asisan,ASISAN STREET,,7700.0,DO 20-2021,street,Asisan Road,97
+CR,Asisan,CUADRA STREET,,7700.0,DO 20-2021,street,Cuadra Street,100
+RR,Asisan,ASISAN STREET,,5900.0,DO 20-2021,street,Asisan Road,97
+RR,Asisan,CUADRA STREET,,5900.0,DO 20-2021,street,Cuadra Street,100
+CR,Asisan,,GEN E. AGUINALDO HI-WAY) BBM 23-BGY M.JUNCTION,15800.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+CR,Asisan,"TAGAYTAY WOODS BOROUGH HOMES I,II,III,IV",TAGAYTAY ANULING RD,15300.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+CR,Asisan,VILLAGIO ISIDRO SUBD.,,14800.0,DO 20-2021,unmatched,Amirsache Villa (53),0
+CR,Asisan,WOODSBOROUGH LOGHOMES PROJECT,,14000.0,DO 20-2021,unmatched,Woods Borough Log Homes (68),0
+RR,Asisan,,GEN E. AGUINALDO HI-WAY) BBM 23-BGY M.JUNCTION,11000.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+RR,Asisan,"TAGAYTAY WOODS BOROUGH HOMES I,II,III,IV",TAGAYTAY ANULING RD,10900.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+RR,Asisan,VILLAGIO ISIDRO SUBD.,,10900.0,DO 20-2021,unmatched,Amirsache Villa (53),0
+RR,Asisan,WOODSBOROUGH LOGHOMES PROJECT,,9600.0,DO 20-2021,unmatched,Woods Borough Log Homes (68),0
+CR,Asisan,ME. IMAMURA STREET,,7700.0,DO 20-2021,unmatched,Amirsache Villa (40),0
+CR,Asisan,OSORIO STREET,,7700.0,DO 20-2021,unmatched,Woods Borough Log Homes (36),0
+CR,Asisan,P. GATPANDAN STREET,,7700.0,DO 20-2021,unmatched,Soto Grande Subdivision (45),0
+CR,Asisan,VIADO STREET,INTERIOR,7700.0,DO 20-2021,unmatched,Soto Grande Subdivision (38),0
+RR,Asisan,ME. IMAMURA STREET,,5900.0,DO 20-2021,unmatched,Amirsache Villa (40),0
+RR,Asisan,OSORIO STREET,,5900.0,DO 20-2021,unmatched,Woods Borough Log Homes (36),0
+RR,Asisan,P. GATPANDAN STREET,,5900.0,DO 20-2021,unmatched,Soto Grande Subdivision (45),0
+RR,Asisan,VIADO STREET,INTERIOR,5900.0,DO 20-2021,unmatched,Soto Grande Subdivision (38),0
+CR,Asisan,ASISAN BARRIO ROAD,TAGAYTAY- ZAMBAL ROAD TO TAGAYTAY- ANULING ROAD,5200.0,DO 20-2021,unmatched,Amirsache Villa (43),0
+CR,Asisan,ASISAN GUINHAWA BARRIO ROAD,TAGAYTAY- ZAMBAL ROAD,5200.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (42),0
+CR,Asisan,TAGAYTAY-ANULING ROAD,BBM 20 TO BBM 19,5200.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (59),0
+CR,Asisan,TAGAYTAY-ZAMBAL BARANGAY ROAD,BBM 23-BGY NEOGAN,5200.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (58),0
+CR,Asisan,BARANGAY ROAD,NAT'L & BRGY. MOZON,5200.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+CR,Asisan,BARANGAY RD (DIRT RD INT),JAKA-INTS OF ANULING ROAD,4800.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+CR,Asisan,DIRT ROAD INT.,NATIONAL RD-TAGAYTAY,4100.0,DO 20-2021,unmatched,Amirsache Villa (35),0
+RR,Asisan,ASISAN BARRIO ROAD,TAGAYTAY- ZAMBAL ROAD TO TAGAYTAY- ANULING ROAD,3700.0,DO 20-2021,unmatched,Amirsache Villa (43),0
+RR,Asisan,ASISAN GUINHAWA BARRIO ROAD,TAGAYTAY- ZAMBAL ROAD,3700.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (42),0
+RR,Asisan,TAGAYTAY-ANULING ROAD,BBM 20 TO BBM 19,3700.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (59),0
+RR,Asisan,TAGAYTAY-ZAMBAL BARANGAY ROAD,BBM 23-BGY NEOGAN,3700.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (58),0
+RR,Asisan,BARANGAY ROAD,NAT'L & BRGY. MOZON,3700.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+RR,Asisan,BARANGAY RD (DIRT RD INT),JAKA-INTS OF ANULING ROAD,3200.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+RR,Asisan,DIRT ROAD INT.,NATIONAL RD-TAGAYTAY,3200.0,DO 20-2021,unmatched,Amirsache Villa (35),0
+CR,Asisan,SOTO GRANDE SUBD,,17000.0,DO 20-2021,village,Soto Grande Subdivision,100
+CR,Asisan,TAGAYTAY COUNTRY HOMES IV (CITY LAND IV),,14800.0,DO 20-2021,village,Tagaytay Country Homes 4,100
+RR,Asisan,SOTO GRANDE SUBD,,12200.0,DO 20-2021,village,Soto Grande Subdivision,100
+RR,Asisan,TAGAYTAY COUNTRY HOMES IV (CITY LAND IV),,10100.0,DO 20-2021,village,Tagaytay Country Homes 4,100
+CR,Bagong Tubig,ALL OTHER SUBDIVISIONS,,8000.0,DO 20-2021,background,,0
+CR,Bagong Tubig,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5000.0,DO 20-2021,background,,0
+RR,Bagong Tubig,ALL OTHER SUBDIVISIONS,,5000.0,DO 20-2021,background,,0
+CR,Bagong Tubig,ALL OTHER STREETS,INTERIOR,4500.0,DO 20-2021,background,,0
+RR,Bagong Tubig,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3100.0,DO 20-2021,background,,0
+RR,Bagong Tubig,ALL OTHER STREETS,INTERIOR,2800.0,DO 20-2021,background,,0
+CR,Bagong Tubig,AGUINALDO HW (SOUTH SIDE),OVERLOOKING THE LAKE,18000.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+CR,Bagong Tubig,NATIONAL ROAD,NATIONAL ROAD-OBM 82,18000.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+CR,Bagong Tubig,NATIONAL ROAD,AFP TROPO STN-CBM 42,18000.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+CR,Bagong Tubig,MINI CHUNG SUBD.,TAGAYTAY BATS,15600.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+RR,Bagong Tubig,AGUINALDO HW (SOUTH SIDE),OVERLOOKING THE LAKE,11500.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+RR,Bagong Tubig,NATIONAL ROAD,NATIONAL ROAD-OBM 82,11500.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+RR,Bagong Tubig,NATIONAL ROAD,AFP TROPO STN-CBM 42,11500.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+RR,Bagong Tubig,MINI CHUNG SUBD.,TAGAYTAY BATS,11000.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+CR,Bagong Tubig,BARANGAY ROAD,NAT'L ROAD INT. PORTION,5200.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+CR,Bagong Tubig,BARANGAY ROAD,TAGAYTAY-BAGONG TUBIG ROAD,5200.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+RR,Bagong Tubig,BARANGAY ROAD,NAT'L ROAD INT. PORTION,3200.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+RR,Bagong Tubig,BARANGAY ROAD,TAGAYTAY-BAGONG TUBIG ROAD,3200.0,DO 20-2021,unmatched,Tagaytay Country Homes 2 (0),0
+CR,Calabuso,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7200.0,DO 20-2021,background,,0
+CR,Calabuso,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Calabuso,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4000.0,DO 20-2021,background,,0
+RR,Calabuso,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Calabuso,NATIONAL ROAD,ISAAC O. TOLENTINO AVE.,18000.0,DO 20-2021,unmatched,,0
+RR,Calabuso,NATIONAL ROAD,ISAAC O. TOLENTINO AVE.,11500.0,DO 20-2021,unmatched,,0
+CR,Calabuso,BARANGAY ROAD,TAGAYTAY- CALABUSO ROAD,8000.0,DO 20-2021,unmatched,,0
+CR,Calabuso,BARANGAY RD (DIRT RD),DAPDAP-CALABUSO,7500.0,DO 20-2021,unmatched,,0
+RR,Calabuso,BARANGAY ROAD,TAGAYTAY- CALABUSO ROAD,5000.0,DO 20-2021,unmatched,,0
+RR,Calabuso,BARANGAY RD (DIRT RD),DAPDAP-CALABUSO,4500.0,DO 20-2021,unmatched,,0
+CR,Dapdap East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+CR,Dapdap East,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+RR,Dapdap East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3300.0,DO 20-2021,background,,0
+RR,Dapdap East,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Dapdap East,TAGAYTAY-CANLUBANG ROAD,IRUHIN BRGY BDRY LINE-CBM,12000.0,DO 20-2021,unmatched,,0
+RR,Dapdap East,TAGAYTAY-CANLUBANG ROAD,IRUHIN BRGY BDRY LINE-CBM,7500.0,DO 20-2021,unmatched,,0
+CR,Dapdap West,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+CR,Dapdap West,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+RR,Dapdap West,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2900.0,DO 20-2021,background,,0
+RR,Dapdap West,ALL OTHER STREETS,INTERIOR,2700.0,DO 20-2021,background,,0
+CR,Dapdap West,ISAAC O. TOLENTINO AVE.,IRUHIN BRGY BDRY LINE-CBM,12000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Dapdap West,ISAAC O. TOLENTINO AVE.,IRUHIN BRGY BDRY LINE-CBM,7500.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Dapdap West,BARANGAY ROAD,BAYANAN ROAD,5200.0,DO 20-2021,unmatched,,0
+CR,Dapdap West,BARANGAY ROAD,PULONG TALAHIBAN ROAD,5200.0,DO 20-2021,unmatched,,0
+RR,Dapdap West,BARANGAY ROAD,BAYANAN ROAD,3200.0,DO 20-2021,unmatched,,0
+RR,Dapdap West,BARANGAY ROAD,PULONG TALAHIBAN ROAD,3200.0,DO 20-2021,unmatched,,0
+CR,Francisco,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Francisco,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6600.0,DO 20-2021,background,,0
+CR,Francisco,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Francisco,ALL OTHER SUBDIVISION,,6000.0,DO 20-2021,background,,0
+RR,Francisco,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4000.0,DO 20-2021,background,,0
+RR,Francisco,ALL OTHER STREETS,INTERIOR,3800.0,DO 20-2021,background,,0
+CR,Francisco,ISAAC O. TOLENTINO AVE.,OVERLOOKING NORTHSIDE,16500.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Francisco,ISAAC O. TOLENTINO AVE.,TOLENTINO BGY SUNGAY,16500.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Francisco,ISAAC O. TOLENTINO AVE.,OVERLOOKING NORTHSIDE,11000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Francisco,ISAAC O. TOLENTINO AVE.,TOLENTINO BGY SUNGAY,10000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Francisco,NATIONAL ROAD,STA. ROSA TAGAYTAY ROAD,18000.0,DO 20-2021,unmatched,Tagaytay Garden Villas (34),0
+RR,Francisco,JINCO TOWNHOUSE,,18000.0,DO 20-2021,unmatched,Jestra Heights (22),0
+RR,Francisco,ROYAL GARDEN TOWNHOUSE,,18000.0,DO 20-2021,unmatched,Tagaytay Garden Villas (61),0
+CR,Francisco,KAWILIHAN CORP. SUBD.,TAGAYTAY CALAMBA RD.,15500.0,DO 20-2021,unmatched,Jestra Heights (27),0
+CR,Francisco,FORTUNATO SANTOS SUBD,ULAT RD-TOLENTINO RD,12700.0,DO 20-2021,unmatched,Tagaytay Garden Villas (33),0
+CR,Francisco,TAGAYTAY-LUMIL ROAD,CITY MARKET-CBM 20,12300.0,DO 20-2021,unmatched,Tagaytay Garden Villas (63),0
+RR,Francisco,KAWILIHAN CORP. SUBD.,TAGAYTAY CALAMBA RD.,11800.0,DO 20-2021,unmatched,Jestra Heights (27),0
+RR,Francisco,NATIONAL ROAD,STA. ROSA TAGAYTAY ROAD,11500.0,DO 20-2021,unmatched,Tagaytay Garden Villas (34),0
+CR,Francisco,MONTE VISTA (DON TIM DEVT.),,10600.0,DO 20-2021,unmatched,Southridge Estates (45),0
+CR,Francisco,WINDSOR HEIGHTS PHASE 1-A,,10600.0,DO 20-2021,unmatched,Hollywood Subdivision (0),0
+CR,Francisco,EVERGREEN SUBD.,TOLENTINO BGY SUNGAY,8800.0,DO 20-2021,unmatched,Southridge Estates (32),0
+CR,Francisco,TAGAYTAY-ULAT ROAD,LUMIL TO CBM 19,8700.0,DO 20-2021,unmatched,Tagaytay Garden Villas (65),0
+RR,Francisco,FORTUNATO SANTOS SUBD,ULAT RD-TOLENTINO RD,8300.0,DO 20-2021,unmatched,Tagaytay Garden Villas (33),0
+RR,Francisco,MONTE VISTA (DON TIM DEVT.),,7700.0,DO 20-2021,unmatched,Southridge Estates (45),0
+RR,Francisco,WINDSOR HEIGHTS PHASE 1-A,,7600.0,DO 20-2021,unmatched,Hollywood Subdivision (0),0
+RR,Francisco,TAGAYTAY-LUMIL ROAD,CITY MARKET-CBM 20,7200.0,DO 20-2021,unmatched,Tagaytay Garden Villas (63),0
+CR,Francisco,BARANGAY ROAD (DIRT ROAD),ULAT RD-TOLENTINO ROAD,6800.0,DO 20-2021,unmatched,Tagaytay Garden Villas (41),0
+RR,Francisco,EVERGREEN SUBD.,TOLENTINO BGY SUNGAY,6300.0,DO 20-2021,unmatched,Southridge Estates (32),0
+RR,Francisco,TAGAYTAY-ULAT ROAD,LUMIL TO CBM 19,5900.0,DO 20-2021,unmatched,Tagaytay Garden Villas (65),0
+RR,Francisco,BARANGAY ROAD (DIRT ROAD),ULAT RD-TOLENTINO ROAD,4500.0,DO 20-2021,unmatched,Tagaytay Garden Villas (41),0
+CR,Francisco,JESTRA HEIGHTS SUBD,"TAGAYTAY ULAT, STA ROSA ROAD",15400.0,DO 20-2021,village,Jestra Heights,100
+CR,Francisco,HOLLYWOOD SUBD,,12500.0,DO 20-2021,village,Hollywood Subdivision,100
+RR,Francisco,JESTRA HEIGHTS SUBD,"TAGAYTAY ULAT, STA ROSA ROAD",11100.0,DO 20-2021,village,Jestra Heights,100
+RR,Francisco,HOLLYWOOD SUBD,,9300.0,DO 20-2021,village,Hollywood Subdivision,100
+CR,Guinhawa North,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+CR,Guinhawa North,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+RR,Guinhawa North,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3200.0,DO 20-2021,background,,0
+RR,Guinhawa North,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Guinhawa North,TAGAYTAY ANULING ROAD,BBN 19 TO OBM 16 (CITY ROAD),8700.0,DO 20-2021,unmatched,San Miguel Archangel Village (39),0
+CR,Guinhawa North,BARANGAY ROAD,ZAMBAL- GUINHAWA ROAD,5500.0,DO 20-2021,unmatched,San Miguel Archangel Village (43),0
+CR,Guinhawa North,BARANGAY ROAD,PATUTONG MALAKI-GUINHAWA ROAD,5500.0,DO 20-2021,unmatched,San Miguel Archangel Village (43),0
+RR,Guinhawa North,TAGAYTAY ANULING ROAD,BBN 19 TO OBM 16 (CITY ROAD),5400.0,DO 20-2021,unmatched,San Miguel Archangel Village (39),0
+RR,Guinhawa North,BARANGAY ROAD,ZAMBAL- GUINHAWA ROAD,3500.0,DO 20-2021,unmatched,San Miguel Archangel Village (43),0
+RR,Guinhawa North,BARANGAY ROAD,PATUTONG MALAKI-GUINHAWA ROAD,3500.0,DO 20-2021,unmatched,San Miguel Archangel Village (43),0
+CR,Guinhawa South,ALL OTHER SUBDIVISION,,5000.0,DO 20-2021,background,,0
+CR,Guinhawa South,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+CR,Guinhawa South,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+RR,Guinhawa South,ALL OTHER SUBDIVISION,,4000.0,DO 20-2021,background,,0
+RR,Guinhawa South,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3200.0,DO 20-2021,background,,0
+RR,Guinhawa South,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Guinhawa South,GUINHAWA SUBDIVISION,,6800.0,DO 20-2021,street,Guinhawa Road,97
+RR,Guinhawa South,GUINHAWA SUBDIVISION,,5200.0,DO 20-2021,street,Guinhawa Road,97
+CR,Guinhawa South,TAGAYTAY ANULING ROAD,BBN 19 TO OBM 16 (CITY ROAD),8700.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (59),0
+CR,Guinhawa South,BARANGAY ROAD,PATUTONG MALAKI- GUINHAWA NORTH (MAGLABE DRIVE),5500.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+RR,Guinhawa South,TAGAYTAY ANULING ROAD,BBN 19 TO OBM 16 (CITY ROAD),5400.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (59),0
+RR,Guinhawa South,BARANGAY ROAD,PATUTONG MALAKI- GUINHAWA NORTH (MAGLABE DRIVE),3500.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+CR,Guinhawa South,METROGATE SUBD (CENTARA),,20000.0,DO 20-2021,village,Metrogate Centara,95
+RR,Guinhawa South,METROGATE SUBD (CENTARA),,15000.0,DO 20-2021,village,Metrogate Centara,95
+CR,Iruhin East,ALL OTHER SUBDIVISION,,6000.0,DO 20-2021,background,,0
+CR,Iruhin East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5300.0,DO 20-2021,background,,0
+RR,Iruhin East,ALL OTHER SUBDIVISION,,5000.0,DO 20-2021,background,,0
+CR,Iruhin East,ALL OTHER STREETS,INTERIOR,4500.0,DO 20-2021,background,,0
+RR,Iruhin East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3500.0,DO 20-2021,background,,0
+RR,Iruhin East,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Iruhin East,ISAAC O. TOLENTINO AVE.,SOUTHSIDE,17000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Iruhin East,ISAAC O. TOLENTINO AVE.,SUNGAY-CALABUSO,14800.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Iruhin East,ISAAC O. TOLENTINO AVE.,SOUTHSIDE,11000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Iruhin East,ISAAC O. TOLENTINO AVE.,SUNGAY-CALABUSO,9700.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Iruhin East,LAND GROWTH SUBDIVISION,,6600.0,DO 20-2021,unmatched,Crosswinds (50),0
+CR,Iruhin East,BAYANAN RD (DIRT RD),TAG-CALAM.-TAGSILANG,5800.0,DO 20-2021,unmatched,Crosswinds (15),0
+CR,Iruhin East,BULALO RD (DIRT RD),TAG-CALAM/TAG-SILANG,5800.0,DO 20-2021,unmatched,Crosswinds (15),0
+RR,Iruhin East,LAND GROWTH SUBDIVISION,,5700.0,DO 20-2021,unmatched,Crosswinds (50),0
+RR,Iruhin East,BAYANAN RD (DIRT RD),TAG-CALAM.-TAGSILANG,3900.0,DO 20-2021,unmatched,Crosswinds (15),0
+RR,Iruhin East,BULALO RD (DIRT RD),TAG-CALAM/TAG-SILANG,3900.0,DO 20-2021,unmatched,Crosswinds (15),0
+CR,Iruhin South,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Iruhin South,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7200.0,DO 20-2021,background,,0
+CR,Iruhin South,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Iruhin South,ALL OTHER SUBDIVISION,,6000.0,DO 20-2021,background,,0
+RR,Iruhin South,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Iruhin South,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+CR,Iruhin South,ISAAC O. TOLENTINO AVE.,SOUTHSIDE,19100.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Iruhin South,ISAAC O. TOLENTINO AVE.,SUNGAY-CALABUSO,19100.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Iruhin South,ISAAC O. TOLENTINO AVE.,SOUTHSIDE,13100.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Iruhin South,ISAAC O. TOLENTINO AVE.,SUNGAY-CALABUSO,13100.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Iruhin South,F.S MANAGEMENT & DEV. CORP.,"TAGAYTAY, CALAMBA RD",17000.0,DO 20-2021,unmatched,Crosswinds (17),0
+RR,Iruhin South,F.S MANAGEMENT & DEV. CORP.,"TAGAYTAY, CALAMBA RD",10300.0,DO 20-2021,unmatched,Crosswinds (17),0
+CR,Iruhin South,BAYANAN RD (DIRT RD),TAG-CALAM-TAGSILANG,8000.0,DO 20-2021,unmatched,Crosswinds (15),0
+CR,Iruhin South,BULALO RD ( DIRT RD),TAG-CALAM/TAG-SILANG,8000.0,DO 20-2021,unmatched,Crosswinds (15),0
+RR,Iruhin South,BAYANAN RD (DIRT RD),TAG-CALAM-TAGSILANG,5500.0,DO 20-2021,unmatched,Crosswinds (15),0
+RR,Iruhin South,BULALO RD ( DIRT RD),TAG-CALAM/TAG-SILANG,5500.0,DO 20-2021,unmatched,Crosswinds (15),0
+CR,Iruhin South,BRITTANY SUBD (CROSSWINDS),,33300.0,DO 20-2021,village,Crosswinds,100
+RR,Iruhin South,BRITTANY SUBD (CROSSWINDS),,22300.0,DO 20-2021,village,Crosswinds,100
+CR,Iruhin West,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Iruhin West,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7200.0,DO 20-2021,background,,0
+CR,Iruhin West,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Iruhin West,ALL OTHER SUBDIVISION,,5500.0,DO 20-2021,background,,0
+RR,Iruhin West,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Iruhin West,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+CR,Iruhin West,ISAAC O. TOLENTINO AVE.,SOUTHSIDE (NATIONAL ROAD),21600.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Iruhin West,ISAAC O. TOLENTINO AVE.,SUNGAY-CALABUSO,21600.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Iruhin West,ISAAC O. TOLENTINO AVE.,SOUTHSIDE (NATIONAL ROAD),14600.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Iruhin West,ISAAC O. TOLENTINO AVE.,SUNGAY-CALABUSO,13100.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Iruhin West,FILIPINAS FARM SUBDIVISION,,9000.0,DO 20-2021,street,Filipinas Farm Road,97
+CR,Iruhin West,CABANGAAN ROAD,,8000.0,DO 20-2021,street,Kabangaan Road,91.66666666666666
+RR,Iruhin West,FILIPINAS FARM SUBDIVISION,,6000.0,DO 20-2021,street,Filipinas Farm Road,97
+RR,Iruhin West,CABANGAAN ROAD,,5000.0,DO 20-2021,street,Kabangaan Road,91.66666666666666
+CR,Iruhin West,HERBAL COVE SUBD,,13000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (30),0
+CR,Iruhin West,VILLA CECILIA SUBD.,"TAGAYTAY, CALAMBA RD",12300.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (34),0
+CR,Iruhin West,MARY RIDGE ST,,12000.0,DO 20-2021,unmatched,Crosswinds (32),0
+CR,Iruhin West,F.S. MANAGEMENT & DEV. CORP.,"TAGAYTAY, CALAMBA RD",12000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (28),0
+CR,Iruhin West,TAAL GREEN HEIGHT SUBD/CITYLAND,"TAGAYTAY, CALAMBA RD",11800.0,DO 20-2021,unmatched,Crosswinds (47),0
+CR,Iruhin West,ROGEM REALTY-VILLA CIARA SUB.,,11000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (37),0
+CR,Iruhin West,PACRIM REALTY AND DEVT.,,10900.0,DO 20-2021,unmatched,Crosswinds (40),0
+CR,Iruhin West,TIERRA MOY SUBD (FOCOLARE) FOR WOMEN,,10600.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (33),0
+RR,Iruhin West,F.S. MANAGEMENT & DEV. CORP.,"TAGAYTAY, CALAMBA RD",10000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (28),0
+RR,Iruhin West,VILLA CECILIA SUBD.,"TAGAYTAY, CALAMBA RD",9300.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (34),0
+RR,Iruhin West,TAAL GREEN HEIGHT SUBD/CITYLAND,"TAGAYTAY, CALAMBA RD",9300.0,DO 20-2021,unmatched,Crosswinds (47),0
+CR,Iruhin West,ONE BAGGER/MANGUINAO ST.,,9100.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (43),0
+CR,Iruhin West,PAYAD ST./CANTO NG CABANGAAN,,9000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (40),0
+CR,Iruhin West,BULALONG BATA,,9000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (34),0
+CR,Iruhin West,7 BCT SUBD,,9000.0,DO 20-2021,unmatched,Block 1 (0),0
+CR,Iruhin West,ABLE SITE,,9000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (26),0
+RR,Iruhin West,MARY RIDGE ST,,8500.0,DO 20-2021,unmatched,Crosswinds (32),0
+RR,Iruhin West,HERBAL COVE SUBD,,8200.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (30),0
+RR,Iruhin West,ROGEM REALTY-VILLA CIARA SUB.,,8100.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (37),0
+RR,Iruhin West,PACRIM REALTY AND DEVT.,,8100.0,DO 20-2021,unmatched,Crosswinds (40),0
+CR,Iruhin West,BULALO RD (DIRT RD),TAG-CALAM/TAG-SILANG,8000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (15),0
+RR,Iruhin West,TIERRA MOY SUBD (FOCOLARE) FOR WOMEN,,8000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (33),0
+RR,Iruhin West,ONE BAGGER/MANGUINAO ST.,,6500.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (43),0
+RR,Iruhin West,7 BCT SUBD,,6000.0,DO 20-2021,unmatched,Block 1 (0),0
+RR,Iruhin West,ABLE SITE,,6000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (26),0
+RR,Iruhin West,PAYAD ST./CANTO NG CABANGAAN,,5800.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (40),0
+RR,Iruhin West,BULALONG BATA,,5000.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (34),0
+RR,Iruhin West,BULALO RD (DIRT RD),TAG-CALAM/TAG-SILANG,4800.0,DO 20-2021,unmatched,Horizon’s Place Tagaytay (15),0
+CR,Kaybagal East,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Kaybagal East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7200.0,DO 20-2021,background,,0
+CR,Kaybagal East,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Kaybagal East,ALL OTHER SUBDIVISION,,6000.0,DO 20-2021,background,,0
+RR,Kaybagal East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Kaybagal East,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+CR,Kaybagal East,ROYAL PINES WEST,,22600.0,DO 20-2021,unmatched,Royal Pines (80),0
+RR,Kaybagal East,ROYAL PINES WEST,,17600.0,DO 20-2021,unmatched,Royal Pines (80),0
+CR,Kaybagal East,METROGATE SUBD,,17600.0,DO 20-2021,unmatched,Primepeak Tagaytay (44),0
+CR,Kaybagal East,MOLDEX REALTY INC - SUBD. (METRO GATE SUBD.),,17600.0,DO 20-2021,unmatched,Gabriel Heights (50),0
+RR,Kaybagal East,METROGATE SUBD,,13200.0,DO 20-2021,unmatched,Primepeak Tagaytay (44),0
+RR,Kaybagal East,MOLDEX REALTY INC - SUBD. (METRO GATE SUBD.),,13200.0,DO 20-2021,unmatched,Gabriel Heights (50),0
+CR,Kaybagal East,TAGAYTAY DREAM HEIGHTS,,10500.0,DO 20-2021,unmatched,Tagaytay Heights (83),0
+CR,Kaybagal East,TAGAYTAY AMADEO ROAD,MAHOGANY-TAG/AMADEO (CITY ROAD),10400.0,DO 20-2021,unmatched,Tagaytay Heights (67),0
+CR,Kaybagal East,BARANGAY ROAD,TAGAYTAY- STA RITA ROAD,9300.0,DO 20-2021,unmatched,Primepeak Tagaytay (38),0
+CR,Kaybagal East,BARANGAY ROAD,KALYE LOMA ROAD,9300.0,DO 20-2021,unmatched,Primepeak Tagaytay (38),0
+CR,Kaybagal East,STA. RITA ROAD,AMADEO-MAGALLANES ROAD,9300.0,DO 20-2021,unmatched,Primepeak Tagaytay (46),0
+CR,Kaybagal East,FAMILY TREELAND SUBD,,9100.0,DO 20-2021,unmatched,Richmore Land (50),0
+CR,Kaybagal East,ISABELA HEIGHTS,,9100.0,DO 20-2021,unmatched,Gabriel Heights (79),0
+CR,Kaybagal East,LLAMADO SUBD.,,9100.0,DO 20-2021,unmatched,Alta Monte (47),0
+CR,Kaybagal East,VILLA CONSTANCIA,,9100.0,DO 20-2021,unmatched,Alta Monte (46),0
+RR,Kaybagal East,TAGAYTAY AMADEO ROAD,MAHOGANY-TAG/AMADEO (CITY ROAD),7500.0,DO 20-2021,unmatched,Tagaytay Heights (67),0
+RR,Kaybagal East,TAGAYTAY DREAM HEIGHTS,,7400.0,DO 20-2021,unmatched,Tagaytay Heights (83),0
+RR,Kaybagal East,FAMILY TREELAND SUBD,,7000.0,DO 20-2021,unmatched,Richmore Land (50),0
+RR,Kaybagal East,ISABELA HEIGHTS,,7000.0,DO 20-2021,unmatched,Gabriel Heights (79),0
+RR,Kaybagal East,LLAMADO SUBD.,,7000.0,DO 20-2021,unmatched,Alta Monte (47),0
+RR,Kaybagal East,VILLA CONSTANCIA,,7000.0,DO 20-2021,unmatched,Alta Monte (46),0
+RR,Kaybagal East,BARANGAY ROAD,TAGAYTAY- STA RITA ROAD,6800.0,DO 20-2021,unmatched,Primepeak Tagaytay (38),0
+RR,Kaybagal East,BARANGAY ROAD,KALYE LOMA ROAD,6800.0,DO 20-2021,unmatched,Primepeak Tagaytay (38),0
+RR,Kaybagal East,STA. RITA ROAD,AMADEO-MAGALLANES ROAD,6800.0,DO 20-2021,unmatched,Primepeak Tagaytay (46),0
+CR,Kaybagal East,VILVET VIEW SUBD (VELVET),,17600.0,DO 20-2021,village,The Velvet View,90.9090909090909
+CR,Kaybagal East,PACIFIC GROVE SUBD,,17600.0,DO 20-2021,village,Pacific Grove,100
+CR,Kaybagal East,ALTA MONTE SUBD.,,16000.0,DO 20-2021,village,Alta Monte,100
+RR,Kaybagal East,VILVET VIEW SUBD (VELVET),,13200.0,DO 20-2021,village,The Velvet View,90.9090909090909
+RR,Kaybagal East,PACIFIC GROVE SUBD,,13200.0,DO 20-2021,village,Pacific Grove,100
+CR,Kaybagal East,TAGAYTAY FORBES RESIDENCES,,11300.0,DO 20-2021,village,Tagaytay Forbes Residences,100
+RR,Kaybagal East,ALTA MONTE SUBD.,,10000.0,DO 20-2021,village,Alta Monte,100
+RR,Kaybagal East,TAGAYTAY FORBES RESIDENCES,,8900.0,DO 20-2021,village,Tagaytay Forbes Residences,100
+CR,Kaybagal North,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Kaybagal North,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7200.0,DO 20-2021,background,,0
+CR,Kaybagal North,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Kaybagal North,ALL OTHER SUBDIVISION,,6000.0,DO 20-2021,background,,0
+RR,Kaybagal North,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Kaybagal North,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+CR,Kaybagal North,BAYOT STREET,,8000.0,DO 20-2021,street,Bayot Street,100
+CR,Kaybagal North,ORCHARD DRIVE,,8000.0,DO 20-2021,street,Orchard Drive,100
+RR,Kaybagal North,BAYOT STREET,,5000.0,DO 20-2021,street,Bayot Street,100
+RR,Kaybagal North,ORCHARD DRIVE,,5000.0,DO 20-2021,street,Orchard Drive,100
+CR,Kaybagal North,METROGATE SUBD,,17300.0,DO 20-2021,unmatched,Alta Monte (42),0
+RR,Kaybagal North,METROGATE SUBD,,13200.0,DO 20-2021,unmatched,Alta Monte (42),0
+CR,Kaybagal North,CRISANTO M. DELOS REYES AVE.,ALONG PROVINCIAL ROAD,10900.0,DO 20-2021,unmatched,Alta Monte (40),0
+CR,Kaybagal North,VILLA MENDOZA SUBD.,,8900.0,DO 20-2021,unmatched,Tagaytay Greenville Subdivision (44),0
+RR,Kaybagal North,CRISANTO M. DELOS REYES AVE.,ALONG PROVINCIAL ROAD,8100.0,DO 20-2021,unmatched,Alta Monte (40),0
+CR,Kaybagal North,F. LEGASPI STREET,,8000.0,DO 20-2021,unmatched,PGA Homes (33),0
+CR,Kaybagal North,G. CORTEZ STREET,,8000.0,DO 20-2021,unmatched,Alta Monte (44),0
+CR,Kaybagal North,KANLURAN STREET,,8000.0,DO 20-2021,unmatched,Alta Monte (44),0
+CR,Kaybagal North,ME DAANG LUMA ROAD,,8000.0,DO 20-2021,unmatched,Alta Monte (52),0
+CR,Kaybagal North,PAG-ASA ST.,,8000.0,DO 20-2021,unmatched,PGA Homes (60),0
+RR,Kaybagal North,VILLA MENDOZA SUBD.,,6900.0,DO 20-2021,unmatched,Tagaytay Greenville Subdivision (44),0
+RR,Kaybagal North,F. LEGASPI STREET,,5000.0,DO 20-2021,unmatched,PGA Homes (33),0
+RR,Kaybagal North,G. CORTEZ STREET,,5000.0,DO 20-2021,unmatched,Alta Monte (44),0
+RR,Kaybagal North,KANLURAN STREET,,5000.0,DO 20-2021,unmatched,Alta Monte (44),0
+RR,Kaybagal North,ME DAANG LUMA ROAD,,5000.0,DO 20-2021,unmatched,Alta Monte (52),0
+RR,Kaybagal North,PAG-ASA ST.,,5000.0,DO 20-2021,unmatched,PGA Homes (60),0
+CR,Kaybagal North,TAGAYTAY GREENVILLE (GREENVILLE SUBDIVISION),,9300.0,DO 20-2021,village,Tagaytay Greenville Subdivision,100
+RR,Kaybagal North,TAGAYTAY GREENVILLE (GREENVILLE SUBDIVISION),,7200.0,DO 20-2021,village,Tagaytay Greenville Subdivision,100
+CR,Kaybagal South,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Kaybagal South,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7200.0,DO 20-2021,background,,0
+CR,Kaybagal South,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Kaybagal South,ALL OTHER SUBDIVISION,,5500.0,DO 20-2021,background,,0
+RR,Kaybagal South,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Kaybagal South,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+CR,Kaybagal South,J.P. RIZAL AVE (MAHOGANY AVE),IPIL ST.M JUNCTION BDRY,17500.0,DO 20-2021,street,J. P. Rizal Street,97
+CR,Kaybagal South,AKLE STREET,AGUINALDO-MAHOGANY,12300.0,DO 20-2021,street,Akle Street,100
+RR,Kaybagal South,J.P. RIZAL AVE (MAHOGANY AVE),IPIL ST.M JUNCTION BDRY,11500.0,DO 20-2021,street,J. P. Rizal Street,97
+RR,Kaybagal South,AKLE STREET,AGUINALDO-MAHOGANY,9000.0,DO 20-2021,street,Akle Street,100
+CR,Kaybagal South,MAYORS DRIVE,,8900.0,DO 20-2021,street,Mayor's Drive,94.73684210526316
+RR,Kaybagal South,MAYORS DRIVE,,6800.0,DO 20-2021,street,Mayor's Drive,94.73684210526316
+CR,Kaybagal South,TAGAYTAY NATIONAL ROAD (GEN. E. AGUINALDO HIGHWAY),SOUTHSIDE OVERLOOKING,22600.0,DO 20-2021,unmatched,Tagaytay Heights (62),0
+CR,Kaybagal South,GEN. E. AGUINALDO HI-WAY,IPIL-MENDEZ-NORTH,18300.0,DO 20-2021,unmatched,Gabriel Heights (39),0
+CR,Kaybagal South,G. DE LOS REYES AVENUE,,17500.0,DO 20-2021,unmatched,P. C. Employees Village (48),0
+RR,Kaybagal South,TAGAYTAY NATIONAL ROAD (GEN. E. AGUINALDO HIGHWAY),SOUTHSIDE OVERLOOKING,17000.0,DO 20-2021,unmatched,Tagaytay Heights (62),0
+CR,Kaybagal South,MAHOGANY MARKET,,14100.0,DO 20-2021,unmatched,Tagaytay Heights (47),0
+RR,Kaybagal South,GEN. E. AGUINALDO HI-WAY,IPIL-MENDEZ-NORTH,12900.0,DO 20-2021,unmatched,Gabriel Heights (39),0
+CR,Kaybagal South,BACOLOD ST. (IPIL STREET),AGUINALDO-MAHOGANY,12300.0,DO 20-2021,unmatched,Royal Pines (43),0
+CR,Kaybagal South,LEVERIZA SUBD,,12000.0,DO 20-2021,unmatched,The Velvet View (42),0
+CR,Kaybagal South,MONT AIRE,,12000.0,DO 20-2021,unmatched,Gabriel Heights (43),0
+RR,Kaybagal South,G. DE LOS REYES AVENUE,,11500.0,DO 20-2021,unmatched,P. C. Employees Village (48),0
+CR,Kaybagal South,HEROES FARM ROAD,,11500.0,DO 20-2021,unmatched,Gabriel Heights (42),0
+RR,Kaybagal South,MAHOGANY MARKET,,9000.0,DO 20-2021,unmatched,Tagaytay Heights (47),0
+RR,Kaybagal South,BACOLOD ST. (IPIL STREET),AGUINALDO-MAHOGANY,9000.0,DO 20-2021,unmatched,Royal Pines (43),0
+RR,Kaybagal South,HEROES FARM ROAD,,9000.0,DO 20-2021,unmatched,Gabriel Heights (42),0
+RR,Kaybagal South,LEVERIZA SUBD,,9000.0,DO 20-2021,unmatched,The Velvet View (42),0
+RR,Kaybagal South,MONT AIRE,,9000.0,DO 20-2021,unmatched,Gabriel Heights (43),0
+CR,Kaybagal South,METRICO SUBD,,8500.0,DO 20-2021,unmatched,Royal Pines (35),0
+CR,Kaybagal South,NORVIORIC SUBD,,8500.0,DO 20-2021,unmatched,Wind Residences (35),0
+CR,Kaybagal South,NHA SUBD,,8500.0,DO 20-2021,unmatched,Royal Pines (31),0
+CR,Kaybagal South,COREHOUSE - ST. RAFAEL VILLAGE,,8500.0,DO 20-2021,unmatched,The Wellington Courtyard (39),0
+CR,Kaybagal South,CRISPIN LLAMADO,,8500.0,DO 20-2021,unmatched,Wind Residences (41),0
+RR,Kaybagal South,NORVIORIC SUBD,,6500.0,DO 20-2021,unmatched,Wind Residences (35),0
+RR,Kaybagal South,CRISPIN LLAMADO,,6500.0,DO 20-2021,unmatched,Wind Residences (41),0
+RR,Kaybagal South,METRICO SUBD,,6000.0,DO 20-2021,unmatched,Royal Pines (35),0
+RR,Kaybagal South,NHA SUBD,,6000.0,DO 20-2021,unmatched,Royal Pines (31),0
+RR,Kaybagal South,COREHOUSE - ST. RAFAEL VILLAGE,,6000.0,DO 20-2021,unmatched,The Wellington Courtyard (39),0
+CR,Kaybagal South,TAGAYTAY HEIGHTS (PHIL TOWNSHIP),,19500.0,DO 20-2021,village,Tagaytay Heights,100
+RR,Kaybagal South,TAGAYTAY HEIGHTS (PHIL TOWNSHIP),,13500.0,DO 20-2021,village,Tagaytay Heights,100
+CR,Kaybagal South,PC CITY EMPLOYEE SUBD,,8500.0,DO 20-2021,village,P. C. Employees Village,85.71428571428572
+RR,Kaybagal South,PC CITY EMPLOYEE SUBD,,6000.0,DO 20-2021,village,P. C. Employees Village,85.71428571428572
+CR,Mag-Asawang Ilat,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Mag-Asawang Ilat,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6800.0,DO 20-2021,background,,0
+CR,Mag-Asawang Ilat,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Mag-Asawang Ilat,ALL OTHER SUBDIVISION,,5000.0,DO 20-2021,background,,0
+RR,Mag-Asawang Ilat,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Mag-Asawang Ilat,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+CR,Mag-Asawang Ilat,SVD ROAD,SAN JOSE BDRY-BRGY RD,7900.0,DO 20-2021,street,SVD Road,100
+CR,Mag-Asawang Ilat,SVD ROAD,AGUINALDO H-TGYTY/CAL,7900.0,DO 20-2021,street,SVD Road,100
+RR,Mag-Asawang Ilat,SVD ROAD,SAN JOSE BDRY-BRGY RD,5000.0,DO 20-2021,street,SVD Road,100
+RR,Mag-Asawang Ilat,SVD ROAD,AGUINALDO H-TGYTY/CAL,5000.0,DO 20-2021,street,SVD Road,100
+CR,Mag-Asawang Ilat,ANYA RESORT AND RESIDENCES,,16300.0,DO 20-2021,unmatched,Panganiban Property (53),0
+RR,Mag-Asawang Ilat,ANYA RESORT AND RESIDENCES,,13000.0,DO 20-2021,unmatched,Panganiban Property (53),0
+CR,Mag-Asawang Ilat,VJ PROPERTIES,,12000.0,DO 20-2021,unmatched,Panganiban Property (52),0
+CR,Mag-Asawang Ilat,DIVINE WORLD VILLAGE SUBD,,9700.0,DO 20-2021,unmatched,Panganiban Property (32),0
+CR,Mag-Asawang Ilat,FILIPINAS FARMS,,9700.0,DO 20-2021,unmatched,Camella Homes Silang (44),0
+CR,Mag-Asawang Ilat,BARANGAY ROAD,SVD-TAGAYTAY/SILANG BOULEVARD,7900.0,DO 20-2021,unmatched,Kasa Luntian (40),0
+CR,Mag-Asawang Ilat,BARANGAY ROAD,MAG-ASAWANG ILAT ROAD,7900.0,DO 20-2021,unmatched,Kasa Luntian (40),0
+RR,Mag-Asawang Ilat,VJ PROPERTIES,,7500.0,DO 20-2021,unmatched,Panganiban Property (52),0
+RR,Mag-Asawang Ilat,DIVINE WORLD VILLAGE SUBD,,7500.0,DO 20-2021,unmatched,Panganiban Property (32),0
+RR,Mag-Asawang Ilat,FILIPINAS FARMS,,7500.0,DO 20-2021,unmatched,Camella Homes Silang (44),0
+RR,Mag-Asawang Ilat,BARANGAY ROAD,SVD-TAGAYTAY/SILANG BOULEVARD,5000.0,DO 20-2021,unmatched,Kasa Luntian (40),0
+RR,Mag-Asawang Ilat,BARANGAY ROAD,MAG-ASAWANG ILAT ROAD,5000.0,DO 20-2021,unmatched,Kasa Luntian (40),0
+CR,Maharlika East,ALL OTHER SUBDIVISIONS,,7500.0,DO 20-2021,background,,0
+CR,Maharlika East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6600.0,DO 20-2021,background,,0
+CR,Maharlika East,ALL OTHER STREETS,INTERIOR,5500.0,DO 20-2021,background,,0
+RR,Maharlika East,ALL OTHER SUBDIVISIONS,,5500.0,DO 20-2021,background,,0
+RR,Maharlika East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3900.0,DO 20-2021,background,,0
+RR,Maharlika East,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Maharlika East,MAHOGANY AVENUE,PETRON STN-AMADEO,22000.0,DO 20-2021,street,Mahogany Avenue,100
+RR,Maharlika East,MAHOGANY AVENUE,PETRON STN-AMADEO,20000.0,DO 20-2021,street,Mahogany Avenue,100
+CR,Maharlika East,MAGALLANES RD (WEST SIDE),BBM 7 -BBM 9,9300.0,DO 20-2021,street,Magallanes Drive,97
+RR,Maharlika East,MAGALLANES RD (WEST SIDE),BBM 7 -BBM 9,6400.0,DO 20-2021,street,Magallanes Drive,97
+CR,Maharlika East,NATIONAL ROAD,TAGAYTAY - BATANGAS VIA TUY ROAD,22600.0,DO 20-2021,unmatched,Royal Pines (44),0
+CR,Maharlika East,GEN. E. AGUINALDO HI-WAY,BBM 7-BBM 12 SOUTHSIDE,21600.0,DO 20-2021,unmatched,Tagaytay High Grove (44),0
+CR,Maharlika East,GEN. E. AGUINALDO HI-WAY,BBM 7-BBM 12 NORTHSIDE,21600.0,DO 20-2021,unmatched,Tagaytay High Grove (44),0
+RR,Maharlika East,NATIONAL ROAD,TAGAYTAY - BATANGAS VIA TUY ROAD,17000.0,DO 20-2021,unmatched,Royal Pines (44),0
+RR,Maharlika East,GEN. E. AGUINALDO HI-WAY,BBM 7-BBM 12 SOUTHSIDE,13600.0,DO 20-2021,unmatched,Tagaytay High Grove (44),0
+RR,Maharlika East,GEN. E. AGUINALDO HI-WAY,BBM 7-BBM 12 NORTHSIDE,12500.0,DO 20-2021,unmatched,Tagaytay High Grove (44),0
+CR,Maharlika East,GOMEGA SUBD (PALM CREST),,12200.0,DO 20-2021,unmatched,Tagaytay High Grove (40),0
+CR,Maharlika East,J.P. RIZAL AVENUE,BETANIA RTRT HSE-BBM II,11000.0,DO 20-2021,unmatched,Royal Pines (53),0
+RR,Maharlika East,GOMEGA SUBD (PALM CREST),,8900.0,DO 20-2021,unmatched,Tagaytay High Grove (40),0
+CR,Maharlika East,"NHA MAHARLIKA -(A.HERRERA ST., LOURDES ST.)",,8200.0,DO 20-2021,unmatched,Tagaytay High Grove (34),0
+CR,Maharlika East,EXODUS SUBD.,NEAR TAGAYTAY VIA TUY RD,7900.0,DO 20-2021,unmatched,Royal Pines (27),0
+RR,Maharlika East,J.P. RIZAL AVENUE,BETANIA RTRT HSE-BBM II,6900.0,DO 20-2021,unmatched,Royal Pines (53),0
+RR,Maharlika East,"NHA MAHARLIKA -(A.HERRERA ST., LOURDES ST.)",,6400.0,DO 20-2021,unmatched,Tagaytay High Grove (34),0
+RR,Maharlika East,EXODUS SUBD.,NEAR TAGAYTAY VIA TUY RD,6100.0,DO 20-2021,unmatched,Royal Pines (27),0
+CR,Maharlika West,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Maharlika West,ALL OTHER STREETS,ALONG ALL OTHER SREETS,7200.0,DO 20-2021,background,,0
+CR,Maharlika West,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Maharlika West,ALL OTHER SUBDIVISION,,6000.0,DO 20-2021,background,,0
+RR,Maharlika West,ALL OTHER STREETS,ALONG ALL OTHER SREETS,4500.0,DO 20-2021,background,,0
+RR,Maharlika West,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+CR,Maharlika West,MAHOGANY AVENUE,PETRON STN-AMADEO,22000.0,DO 20-2021,street,Mahogany Avenue,100
+RR,Maharlika West,MAHOGANY AVENUE,PETRON STN-AMADEO,20000.0,DO 20-2021,street,Mahogany Avenue,100
+CR,Maharlika West,J.P. RIZAL AVENUE,BETANIA RTRT HSE-BBM II,12000.0,DO 20-2021,street,J. P. Rizal Street,97
+RR,Maharlika West,J.P. RIZAL AVENUE,BETANIA RTRT HSE-BBM II,6900.0,DO 20-2021,street,J. P. Rizal Street,97
+CR,Maharlika West,ELEVE HOMES-TAGAYTAY,,70000.0,DO 20-2021,unmatched,Bloomfields Tagaytay (67),0
+RR,Maharlika West,ELEVE HOMES-TAGAYTAY,,53000.0,DO 20-2021,unmatched,Bloomfields Tagaytay (67),0
+CR,Maharlika West,RML SUBDIVISION,,30000.0,DO 20-2021,unmatched,Royal Pines (31),0
+CR,Maharlika West,NATIONAL ROAD,TAGAYTAY - BATANGAS VIA TUY ROAD,22600.0,DO 20-2021,unmatched,Royal Pines (44),0
+CR,Maharlika West,GEN. E. AGUINALDO HI-WAY,BBM 7-BBM 12 SOUTHSIDE,21600.0,DO 20-2021,unmatched,Tagaytay High Grove (44),0
+CR,Maharlika West,GEN. E. AGUINALDO HI-WAY,BBM 7-BBM 12 NORTHSIDE,21600.0,DO 20-2021,unmatched,Tagaytay High Grove (44),0
+CR,Maharlika West,SUMMIT RIDGE HOTEL,E.AGUINALDO HIGHWAY,20100.0,DO 20-2021,unmatched,Wind Residences (44),0
+RR,Maharlika West,RML SUBDIVISION,,18000.0,DO 20-2021,unmatched,Royal Pines (31),0
+RR,Maharlika West,NATIONAL ROAD,TAGAYTAY - BATANGAS VIA TUY ROAD,17000.0,DO 20-2021,unmatched,Royal Pines (44),0
+RR,Maharlika West,SUMMIT RIDGE HOTEL,E.AGUINALDO HIGHWAY,15400.0,DO 20-2021,unmatched,Wind Residences (44),0
+RR,Maharlika West,GEN. E. AGUINALDO HI-WAY,BBM 7-BBM 12 SOUTHSIDE,13600.0,DO 20-2021,unmatched,Tagaytay High Grove (44),0
+RR,Maharlika West,GEN. E. AGUINALDO HI-WAY,BBM 7-BBM 12 NORTHSIDE,12500.0,DO 20-2021,unmatched,Tagaytay High Grove (44),0
+CR,Maharlika West,BACOLOD ST (IPIL ST (EAST SIDE),BBM 12-BBM 11,12000.0,DO 20-2021,unmatched,Wind Residences (50),0
+CR,Maharlika West,TAGAYTAY AMADEO ROAD,BBM 11-BBM 16,10400.0,DO 20-2021,unmatched,Bloomfields Tagaytay (65),0
+CR,Maharlika West,MAGALLANES ROAD,AGUINALDO HI-WAY 2ND,9300.0,DO 20-2021,unmatched,Royal Pines (42),0
+CR,Maharlika West,CONTINENTAL SUBD,"BBM7-BBM 12, SOUTH",9000.0,DO 20-2021,unmatched,Royal Pines (48),0
+RR,Maharlika West,TAGAYTAY AMADEO ROAD,BBM 11-BBM 16,7200.0,DO 20-2021,unmatched,Bloomfields Tagaytay (65),0
+RR,Maharlika West,BACOLOD ST (IPIL ST (EAST SIDE),BBM 12-BBM 11,6900.0,DO 20-2021,unmatched,Wind Residences (50),0
+RR,Maharlika West,CONTINENTAL SUBD,"BBM7-BBM 12, SOUTH",6500.0,DO 20-2021,unmatched,Royal Pines (48),0
+RR,Maharlika West,MAGALLANES ROAD,AGUINALDO HI-WAY 2ND,6100.0,DO 20-2021,unmatched,Royal Pines (42),0
+CR,Maharlika West,ROYAL PINES SUBD,J.P RIZAL AVENUE,30000.0,DO 20-2021,village,Royal Pines,100
+CR,Maharlika West,BLOOMFIELDS TAGAYTAY,,30000.0,DO 20-2021,village,Bloomfields Tagaytay,100
+CR,Maharlika West,HIGH GROVE SUBDIVISION,J.P RIZAL AVENUE,30000.0,DO 20-2021,village,Tagaytay High Grove,95
+RR,Maharlika West,BLOOMFIELDS TAGAYTAY,,21500.0,DO 20-2021,village,Bloomfields Tagaytay,100
+RR,Maharlika West,ROYAL PINES SUBD,J.P RIZAL AVENUE,18000.0,DO 20-2021,village,Royal Pines,100
+RR,Maharlika West,HIGH GROVE SUBDIVISION,J.P RIZAL AVENUE,18000.0,DO 20-2021,village,Tagaytay High Grove,95
+CR,Maitim 2nd Central,ALL OTHER SUBDIVISIONS,,8000.0,DO 20-2021,background,,0
+CR,Maitim 2nd Central,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6600.0,DO 20-2021,background,,0
+CR,Maitim 2nd Central,ALL OTHER STREETS,INTERIOR,5500.0,DO 20-2021,background,,0
+RR,Maitim 2nd Central,ALL OTHER SUBDIVISIONS,,5000.0,DO 20-2021,background,,0
+RR,Maitim 2nd Central,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3900.0,DO 20-2021,background,,0
+RR,Maitim 2nd Central,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Maitim 2nd Central,LOURDES DRIVE,CITYLAND-TGTY/BTGS RD,9400.0,DO 20-2021,street,Lourdes Street,97
+CR,Maitim 2nd Central,M. TIBAYAN STREET,,9400.0,DO 20-2021,street,M. Tibayan,97
+RR,Maitim 2nd Central,LOURDES DRIVE,CITYLAND-TGTY/BTGS RD,5000.0,DO 20-2021,street,Lourdes Street,97
+RR,Maitim 2nd Central,M. TIBAYAN STREET,,5000.0,DO 20-2021,street,M. Tibayan,97
+CR,Maitim 2nd Central,TAGAYTAY-BATANGAS ARTERIAL RD,AGUINALDO-MAGALLANES DR,15200.0,DO 20-2021,unmatched,Metrogate Tagaytay Manors (61),0
+CR,Maitim 2nd Central,TAGAYTAY-BATANGAS ARTERIAL RD.EXT. (TAGAYTAY CENTURY RD),AGUINALDO TAGAYTAY,15200.0,DO 20-2021,unmatched,Metrogate Tagaytay Manors (60),0
+CR,Maitim 2nd Central,M. MENDOZA STREET,,9400.0,DO 20-2021,unmatched,Richmore Land (36),0
+CR,Maitim 2nd Central,E.LOURDEZ STREET,,9400.0,DO 20-2021,unmatched,Richmore Land (36),0
+CR,Maitim 2nd Central,P. RAMOS STREET,,9400.0,DO 20-2021,unmatched,Richmore Land (42),0
+CR,Maitim 2nd Central,PINE HILLS,,9400.0,DO 20-2021,unmatched,Richmore Land (36),0
+RR,Maitim 2nd Central,TAGAYTAY-BATANGAS ARTERIAL RD,AGUINALDO-MAGALLANES DR,7900.0,DO 20-2021,unmatched,Metrogate Tagaytay Manors (61),0
+RR,Maitim 2nd Central,TAGAYTAY-BATANGAS ARTERIAL RD.EXT. (TAGAYTAY CENTURY RD),AGUINALDO TAGAYTAY,7900.0,DO 20-2021,unmatched,Metrogate Tagaytay Manors (60),0
+RR,Maitim 2nd Central,PINE HILLS,,6200.0,DO 20-2021,unmatched,Richmore Land (36),0
+RR,Maitim 2nd Central,M. MENDOZA STREET,,6100.0,DO 20-2021,unmatched,Richmore Land (36),0
+RR,Maitim 2nd Central,E.LOURDEZ STREET,,6100.0,DO 20-2021,unmatched,Richmore Land (36),0
+RR,Maitim 2nd Central,P. RAMOS STREET,,5000.0,DO 20-2021,unmatched,Richmore Land (42),0
+CR,Maitim 2nd Central,METROGATE (MANOR),,20000.0,DO 20-2021,village,Metrogate Tagaytay Manors,95
+CR,Maitim 2nd Central,RICHMORE SUBD,,15600.0,DO 20-2021,village,Richmore Land,95
+RR,Maitim 2nd Central,METROGATE (MANOR),,13900.0,DO 20-2021,village,Metrogate Tagaytay Manors,95
+RR,Maitim 2nd Central,RICHMORE SUBD,,11100.0,DO 20-2021,village,Richmore Land,95
+CR,Maitim 2nd East,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Maitim 2nd East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7200.0,DO 20-2021,background,,0
+CR,Maitim 2nd East,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Maitim 2nd East,ALL OTHER SUBDIVISION,,6000.0,DO 20-2021,background,,0
+RR,Maitim 2nd East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Maitim 2nd East,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+CR,Maitim 2nd East,GEN. E. AGUINALDO HI-WAY,,19600.0,DO 20-2021,unmatched,Tagaytay Executive Village (35),0
+CR,Maitim 2nd East,TAGAYTAY-BATANGAS ARTERIAL RD,AGUINALDO-MAGALLANES DR,15600.0,DO 20-2021,unmatched,Tagaytay Executive Village (51),0
+RR,Maitim 2nd East,GEN. E. AGUINALDO HI-WAY,,12500.0,DO 20-2021,unmatched,Tagaytay Executive Village (35),0
+CR,Maitim 2nd East,PRIME PEAK TAGAYTAY SUBD,,11300.0,DO 20-2021,unmatched,Tagaytay Executive Village (65),0
+CR,Maitim 2nd East,PRIME PEAK TAGAYTAY,,11300.0,DO 20-2021,unmatched,Tagaytay Executive Village (65),0
+CR,Maitim 2nd East,POLIVEL SUBD,,11300.0,DO 20-2021,unmatched,Camella Homes Silang (29),0
+CR,Maitim 2nd East,RICAFRENTE SUBD.( RICARORTE SUB.),,11300.0,DO 20-2021,unmatched,Aquatic Museum (37),0
+CR,Maitim 2nd East,TAGAYTAY DEV. CORP. - ARNOLOUS ST - HOLY SPIRIT,,11300.0,DO 20-2021,unmatched,Tagaytay Executive Village (48),0
+CR,Maitim 2nd East,TAGAYTAY DEV. CORP. - VAINARAO ST,,11300.0,DO 20-2021,unmatched,Tagaytay Executive Village (57),0
+CR,Maitim 2nd East,TAGAYTAY GOLDEN ENT,,11300.0,DO 20-2021,unmatched,Tagaytay Executive Village (65),0
+CR,Maitim 2nd East,VICTORIA VER VILLAGE,,11300.0,DO 20-2021,unmatched,Tagaytay Executive Village (33),0
+CR,Maitim 2nd East,VICTORIA VILLAGE,,11300.0,DO 20-2021,unmatched,Tagaytay Executive Village (31),0
+CR,Maitim 2nd East,TAGAYTAY-BATANGAS ARTERIAL RD.EXT. (TAGAYTAY CENTURY RD),AGUINALDO TAGAYTAY,11000.0,DO 20-2021,unmatched,Tagaytay Executive Village (65),0
+RR,Maitim 2nd East,TAGAYTAY-BATANGAS ARTERIAL RD,AGUINALDO-MAGALLANES DR,10300.0,DO 20-2021,unmatched,Tagaytay Executive Village (51),0
+CR,Maitim 2nd East,PIOUS HEIGHTS,,9100.0,DO 20-2021,unmatched,Foggy Heights (70),0
+RR,Maitim 2nd East,PRIME PEAK TAGAYTAY SUBD,,8200.0,DO 20-2021,unmatched,Tagaytay Executive Village (65),0
+RR,Maitim 2nd East,PRIME PEAK TAGAYTAY,,8200.0,DO 20-2021,unmatched,Tagaytay Executive Village (65),0
+RR,Maitim 2nd East,POLIVEL SUBD,,8200.0,DO 20-2021,unmatched,Camella Homes Silang (29),0
+RR,Maitim 2nd East,RICAFRENTE SUBD.( RICARORTE SUB.),,8200.0,DO 20-2021,unmatched,Aquatic Museum (37),0
+RR,Maitim 2nd East,TAGAYTAY DEV. CORP. - ARNOLOUS ST - HOLY SPIRIT,,8200.0,DO 20-2021,unmatched,Tagaytay Executive Village (48),0
+RR,Maitim 2nd East,TAGAYTAY DEV. CORP. - VAINARAO ST,,8200.0,DO 20-2021,unmatched,Tagaytay Executive Village (57),0
+RR,Maitim 2nd East,TAGAYTAY GOLDEN ENT,,8200.0,DO 20-2021,unmatched,Tagaytay Executive Village (65),0
+RR,Maitim 2nd East,VICTORIA VER VILLAGE,,8200.0,DO 20-2021,unmatched,Tagaytay Executive Village (33),0
+RR,Maitim 2nd East,VICTORIA VILLAGE,,8200.0,DO 20-2021,unmatched,Tagaytay Executive Village (31),0
+RR,Maitim 2nd East,TAGAYTAY-BATANGAS ARTERIAL RD.EXT. (TAGAYTAY CENTURY RD),AGUINALDO TAGAYTAY,7100.0,DO 20-2021,unmatched,Tagaytay Executive Village (65),0
+RR,Maitim 2nd East,PIOUS HEIGHTS,,6500.0,DO 20-2021,unmatched,Foggy Heights (70),0
+CR,Maitim 2nd West,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Maitim 2nd West,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7200.0,DO 20-2021,background,,0
+CR,Maitim 2nd West,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Maitim 2nd West,ALL OTHER SUBDIVISION,,6000.0,DO 20-2021,background,,0
+RR,Maitim 2nd West,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Maitim 2nd West,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+CR,Maitim 2nd West,MAGALLANES DRIVE,,11000.0,DO 20-2021,street,Magallanes Drive,100
+RR,Maitim 2nd West,MAGALLANES DRIVE,,6100.0,DO 20-2021,street,Magallanes Drive,100
+CR,Maitim 2nd West,TAGAYTAY-BATANGAS ARTERIAL RD,AGUINALDO-MAGALLANES DR,21600.0,DO 20-2021,unmatched,Tagaytay Greenville Subdivision (64),0
+CR,Maitim 2nd West,TAGAYTAY-BATANGAS ARTERIAL RD.EXT. (TAGAYTAY CENTURY RD),AGUINALDO TAGAYTAY,15200.0,DO 20-2021,unmatched,Tagaytay Greenville Subdivision (63),0
+CR,Maitim 2nd West,TAGAYTAY GOLDEN ENT,,12300.0,DO 20-2021,unmatched,Tagaytay Greenville Subdivision (68),0
+RR,Maitim 2nd West,TAGAYTAY-BATANGAS ARTERIAL RD,AGUINALDO-MAGALLANES DR,10300.0,DO 20-2021,unmatched,Tagaytay Greenville Subdivision (64),0
+CR,Maitim 2nd West,PRIME PEAK RESIDENTIAL ESTATE/ PRIME PEAK SUBD.,,9600.0,DO 20-2021,unmatched,Primepeak Tagaytay (64),0
+RR,Maitim 2nd West,TAGAYTAY GOLDEN ENT,,7500.0,DO 20-2021,unmatched,Tagaytay Greenville Subdivision (68),0
+RR,Maitim 2nd West,TAGAYTAY-BATANGAS ARTERIAL RD.EXT. (TAGAYTAY CENTURY RD),AGUINALDO TAGAYTAY,7100.0,DO 20-2021,unmatched,Tagaytay Greenville Subdivision (63),0
+RR,Maitim 2nd West,PRIME PEAK RESIDENTIAL ESTATE/ PRIME PEAK SUBD.,,6800.0,DO 20-2021,unmatched,Primepeak Tagaytay (64),0
+CR,Maitim 2nd West,ALTA MONTE SUBD.,,18100.0,DO 20-2021,village,Alta Monte,100
+CR,Maitim 2nd West,MOLDEX/METROGATE,MAITIM 2ND WEST,17300.0,DO 20-2021,village,Metrogate Tagaytay Manors,95
+RR,Maitim 2nd West,ALTA MONTE SUBD.,,14500.0,DO 20-2021,village,Alta Monte,100
+RR,Maitim 2nd West,MOLDEX/METROGATE,MAITIM 2ND WEST,13000.0,DO 20-2021,village,Metrogate Tagaytay Manors,95
+CR,Maitim 2nd West,RICHMORE LAND SUBD,,12300.0,DO 20-2021,village,Richmore Land,100
+CR,Maitim 2nd West,MAGALLANES HEIGHTS SUBDIVISION,,10000.0,DO 20-2021,village,Magallanes Heights,100
+RR,Maitim 2nd West,RICHMORE LAND SUBD,,9300.0,DO 20-2021,village,Richmore Land,100
+RR,Maitim 2nd West,MAGALLANES HEIGHTS SUBDIVISION,,7200.0,DO 20-2021,village,Magallanes Heights,100
+CR,Mendez Crossing West,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8700.0,DO 20-2021,background,,0
+CR,Mendez Crossing West,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Mendez Crossing West,ALL OTHER STREETS,ALONG ALL OTHER STREET,8000.0,DO 20-2021,background,,0
+CR,Mendez Crossing West,ALL OTHER STREETS,INTERIOR,7500.0,DO 20-2021,background,,0
+RR,Mendez Crossing West,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6200.0,DO 20-2021,background,,0
+RR,Mendez Crossing West,ALL OTHER SUBDIVISION,,6000.0,DO 20-2021,background,,0
+RR,Mendez Crossing West,ALL OTHER STREETS,INTERIOR,5000.0,DO 20-2021,background,,0
+RR,Mendez Crossing West,ALL OTHER STREETS,ALONG ALL OTHER STREET,4400.0,DO 20-2021,background,,0
+CR,Mendez Crossing West,MAYORS DRIVE,,8500.0,DO 20-2021,street,Mayor's Drive,94.73684210526316
+RR,Mendez Crossing West,MAYORS DRIVE,,6500.0,DO 20-2021,street,Mayor's Drive,94.73684210526316
+CR,Mendez Crossing West,JUNCTION,J.P. RIZAL AVENUE & TAGAYTAY- BATANGAS VIA TUY RD,30500.0,DO 20-2021,unmatched,Soto Grande Subdivision (32),0
+CR,Mendez Crossing West,TAGAYTAY BATANGAS VIA TUY RD (GEN E AGUINALDO HW),NORTHSIDE,18600.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (53),0
+CR,Mendez Crossing West,TAGAYTAY BATANGAS VIA TUY RD (GEN E AGUINALDO HW),SOUTHSIDE,18600.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (53),0
+CR,Mendez Crossing West,NATIONAL ROAD,TAGAYTAY- BATANGAS VIA TUY ROAD,18100.0,DO 20-2021,unmatched,Metrogate Centara (40),0
+CR,Mendez Crossing West,TAGAYTAY ANULING ROAD,AGUINALDO -BBM 19,17100.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (59),0
+RR,Mendez Crossing West,JUNCTION,J.P. RIZAL AVENUE & TAGAYTAY- BATANGAS VIA TUY RD,16800.0,DO 20-2021,unmatched,Soto Grande Subdivision (32),0
+CR,Mendez Crossing West,TAGAYTAY MENDEZ ROAD,RURAL & URBAN SUBD-BBM 16,15900.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (61),0
+CR,Mendez Crossing West,TAGAYTAY MENDEZ ROAD,,13900.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (61),0
+RR,Mendez Crossing West,TAGAYTAY BATANGAS VIA TUY RD (GEN E AGUINALDO HW),NORTHSIDE,13600.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (53),0
+RR,Mendez Crossing West,TAGAYTAY BATANGAS VIA TUY RD (GEN E AGUINALDO HW),SOUTHSIDE,13600.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (53),0
+RR,Mendez Crossing West,NATIONAL ROAD,TAGAYTAY- BATANGAS VIA TUY ROAD,13600.0,DO 20-2021,unmatched,Metrogate Centara (40),0
+RR,Mendez Crossing West,TAGAYTAY ANULING ROAD,AGUINALDO -BBM 19,12500.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (59),0
+RR,Mendez Crossing West,TAGAYTAY MENDEZ ROAD,RURAL & URBAN SUBD-BBM 16,11500.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (61),0
+CR,Mendez Crossing West,BARANGAY ROAD,ALONG MAYORS DRIVE,11300.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+CR,Mendez Crossing West,DOROTHEO MARASIGAN STREET,,11300.0,DO 20-2021,unmatched,Soto Grande Subdivision (48),0
+RR,Mendez Crossing West,TAGAYTAY MENDEZ ROAD,,10400.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (61),0
+CR,Mendez Crossing West,ERLINDA PEREZ SUBD,,10300.0,DO 20-2021,unmatched,Metrogate Centara (47),0
+CR,Mendez Crossing West,MARTHA ROYALE SUBD. - ERLINDA PEREZ SUBD,,10300.0,DO 20-2021,unmatched,Metrogate Centara (50),0
+CR,Mendez Crossing West,SARMIENTO SUBD.,,10300.0,DO 20-2021,unmatched,Metrogate Centara (46),0
+CR,Mendez Crossing West,SARMIENTO SUBD,,9900.0,DO 20-2021,unmatched,Metrogate Centara (46),0
+CR,Mendez Crossing West,RIVERO SUBD.,,9900.0,DO 20-2021,unmatched,Soto Grande Subdivision (35),0
+CR,Mendez Crossing West,RURAL URBAN SUBD (ST. JOSEPH),,9900.0,DO 20-2021,unmatched,Soto Grande Subdivision (36),0
+RR,Mendez Crossing West,DOROTHEO MARASIGAN STREET,,9500.0,DO 20-2021,unmatched,Soto Grande Subdivision (48),0
+CR,Mendez Crossing West,SARABIA STREET,,8900.0,DO 20-2021,unmatched,Amirsache Villa (45),0
+CR,Mendez Crossing West,MABINI ST,,8200.0,DO 20-2021,unmatched,Amirsache Villa (29),0
+CR,Mendez Crossing West,OSORIO ST,BURGOS ST-RIZAL ST,8200.0,DO 20-2021,unmatched,Soto Grande Subdivision (35),0
+CR,Mendez Crossing West,OSORIO ST,GEN LUNA ST-MABINI ST,8200.0,DO 20-2021,unmatched,Soto Grande Subdivision (35),0
+RR,Mendez Crossing West,ERLINDA PEREZ SUBD,,7500.0,DO 20-2021,unmatched,Metrogate Centara (47),0
+RR,Mendez Crossing West,MARTHA ROYALE SUBD. - ERLINDA PEREZ SUBD,,7500.0,DO 20-2021,unmatched,Metrogate Centara (50),0
+RR,Mendez Crossing West,SARMIENTO SUBD.,,7500.0,DO 20-2021,unmatched,Metrogate Centara (46),0
+RR,Mendez Crossing West,BARANGAY ROAD,ALONG MAYORS DRIVE,7200.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+RR,Mendez Crossing West,SARMIENTO SUBD,,6800.0,DO 20-2021,unmatched,Metrogate Centara (46),0
+RR,Mendez Crossing West,SARABIA STREET,,6500.0,DO 20-2021,unmatched,Amirsache Villa (45),0
+RR,Mendez Crossing West,RIVERO SUBD.,,5700.0,DO 20-2021,unmatched,Soto Grande Subdivision (35),0
+RR,Mendez Crossing West,RURAL URBAN SUBD (ST. JOSEPH),,5700.0,DO 20-2021,unmatched,Soto Grande Subdivision (36),0
+RR,Mendez Crossing West,MABINI ST,,5300.0,DO 20-2021,unmatched,Amirsache Villa (29),0
+RR,Mendez Crossing West,OSORIO ST,BURGOS ST-RIZAL ST,5300.0,DO 20-2021,unmatched,Soto Grande Subdivision (35),0
+RR,Mendez Crossing West,OSORIO ST,GEN LUNA ST-MABINI ST,5300.0,DO 20-2021,unmatched,Soto Grande Subdivision (35),0
+CR,Neogan,ALL OTHER SUBDIVISION,,9000.0,DO 20-2021,background,,0
+CR,Neogan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6400.0,DO 20-2021,background,,0
+CR,Neogan,ALL OTHER STREETS,INTERIOR,5500.0,DO 20-2021,background,,0
+RR,Neogan,ALL OTHER SUBDIVISION,,5000.0,DO 20-2021,background,,0
+RR,Neogan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Neogan,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Neogan,TAGAYTAY BATANGAS VIA TUY RD (GEN E AGUINALDO HW),NORTHSIDE,20000.0,DO 20-2021,unmatched,Birmingham Villas (40),0
+CR,Neogan,NEOGAN BRGY ROAD,AGUINALDO-ZAMBAL BDRY,20000.0,DO 20-2021,unmatched,Woods Borough Log Homes (44),0
+CR,Neogan,VILLAGE MARKET,,15000.0,DO 20-2021,unmatched,Rodeo Countryside Estate (26),0
+RR,Neogan,VILLAGE MARKET,,11300.0,DO 20-2021,unmatched,Rodeo Countryside Estate (26),0
+RR,Neogan,TAGAYTAY BATANGAS VIA TUY RD (GEN E AGUINALDO HW),NORTHSIDE,10000.0,DO 20-2021,unmatched,Birmingham Villas (40),0
+RR,Neogan,NEOGAN BRGY ROAD,AGUINALDO-ZAMBAL BDRY,10000.0,DO 20-2021,unmatched,Woods Borough Log Homes (44),0
+CR,Neogan,EXCEED REALTY (MERLINDA SUBD),,10000.0,DO 20-2021,unmatched,Birmingham Villas (33),0
+CR,Neogan,LA BELLA LIFESTYLES PROP.,,10000.0,DO 20-2021,unmatched,Rodeo Countryside Estate (30),0
+CR,Neogan,TAGAYTAY COUNTRY HOMES,TAGAYTAY ZAMBAL RD,10000.0,DO 20-2021,unmatched,Rodeo Countryside Estate (48),0
+RR,Neogan,EXCEED REALTY (MERLINDA SUBD),,6800.0,DO 20-2021,unmatched,Birmingham Villas (33),0
+RR,Neogan,LA BELLA LIFESTYLES PROP.,,6800.0,DO 20-2021,unmatched,Rodeo Countryside Estate (30),0
+RR,Neogan,TAGAYTAY COUNTRY HOMES,TAGAYTAY ZAMBAL RD,6800.0,DO 20-2021,unmatched,Rodeo Countryside Estate (48),0
+CR,Neogan,CITYLAND (TAGAYTAY COUNTRY HOMES II),,9900.0,DO 20-2021,village,Tagaytay Country Homes 2,100
+CR,Neogan,BIRMINGHAM VILLAS,,9400.0,DO 20-2021,village,Birmingham Villas,100
+RR,Neogan,BIRMINGHAM VILLAS,,7500.0,DO 20-2021,village,Birmingham Villas,100
+RR,Neogan,CITYLAND (TAGAYTAY COUNTRY HOMES II),,6400.0,DO 20-2021,village,Tagaytay Country Homes 2,100
+CR,Patutong Malaki North,ALL OTHER SUBDIVISIONS,,9000.0,DO 20-2021,background,,0
+CR,Patutong Malaki North,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6000.0,DO 20-2021,background,,0
+RR,Patutong Malaki North,ALL OTHER SUBDIVISIONS,,6000.0,DO 20-2021,background,,0
+CR,Patutong Malaki North,ALL OTHER STREETS,INTERIOR,5000.0,DO 20-2021,background,,0
+RR,Patutong Malaki North,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4700.0,DO 20-2021,background,,0
+RR,Patutong Malaki North,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Patutong Malaki North,TAGAYTAY MENDEZ ROAD,BBN 16 TO CBM 8,18000.0,DO 20-2021,unmatched,Villa Moderna De Tagaytay (60),0
+CR,Patutong Malaki North,HILLSVIEW PARK/TROPICAL GREEN PH II,,10000.0,DO 20-2021,unmatched,Metrogate Tagaytay Estates Phase 2 (44),0
+CR,Patutong Malaki North,RML - ASYANA,,10000.0,DO 20-2021,unmatched,Ashiyana (67),0
+RR,Patutong Malaki North,TAGAYTAY MENDEZ ROAD,BBN 16 TO CBM 8,9300.0,DO 20-2021,unmatched,Villa Moderna De Tagaytay (60),0
+CR,Patutong Malaki North,BUCAL ROAD,,9000.0,DO 20-2021,unmatched,San Miguel Archangel Village (32),0
+CR,Patutong Malaki North,EMERALD ROAD,,9000.0,DO 20-2021,unmatched,Metrogate Centara (42),0
+CR,Patutong Malaki North,ST.RAFAEL ROAD,,9000.0,DO 20-2021,unmatched,Metrogate Centara (35),0
+CR,Patutong Malaki North,BARANGAY ROAD,GUINHAWA-KAYBAGAL BDRY,8600.0,DO 20-2021,unmatched,Ashiyana (50),0
+CR,Patutong Malaki North,BARANGAY ROAD,PATUTONG MALAKI HEROES FARM ROAD,8600.0,DO 20-2021,unmatched,Ashiyana (50),0
+RR,Patutong Malaki North,HILLSVIEW PARK/TROPICAL GREEN PH II,,7200.0,DO 20-2021,unmatched,Metrogate Tagaytay Estates Phase 2 (44),0
+RR,Patutong Malaki North,RML - ASYANA,,7200.0,DO 20-2021,unmatched,Ashiyana (67),0
+RR,Patutong Malaki North,BUCAL ROAD,,6700.0,DO 20-2021,unmatched,San Miguel Archangel Village (32),0
+RR,Patutong Malaki North,EMERALD ROAD,,6700.0,DO 20-2021,unmatched,Metrogate Centara (42),0
+RR,Patutong Malaki North,ST.RAFAEL ROAD,,6700.0,DO 20-2021,unmatched,Metrogate Centara (35),0
+RR,Patutong Malaki North,BARANGAY ROAD,GUINHAWA-KAYBAGAL BDRY,5400.0,DO 20-2021,unmatched,Ashiyana (50),0
+RR,Patutong Malaki North,BARANGAY ROAD,PATUTONG MALAKI HEROES FARM ROAD,5400.0,DO 20-2021,unmatched,Ashiyana (50),0
+CR,Patutong Malaki North,PUEBLO DEL SOL / STA. LUCIA DEV. CORP,,10000.0,DO 20-2021,village,Pueblo del Sol,100
+RR,Patutong Malaki North,PUEBLO DEL SOL / STA. LUCIA DEV. CORP,,7200.0,DO 20-2021,village,Pueblo del Sol,100
+CR,Patutong Malaki South,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Patutong Malaki South,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6400.0,DO 20-2021,background,,0
+CR,Patutong Malaki South,ALL OTHER STREETS,INTERIOR,5500.0,DO 20-2021,background,,0
+RR,Patutong Malaki South,ALL OTHER SUBDIVISION,,5500.0,DO 20-2021,background,,0
+RR,Patutong Malaki South,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5000.0,DO 20-2021,background,,0
+RR,Patutong Malaki South,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Patutong Malaki South,TAGAYTAY MENDEZ ROAD,BBN 16 TO CBM 8,18000.0,DO 20-2021,unmatched,Tagaytay Heights (67),0
+CR,Patutong Malaki South,HILLSVIEW PARK/TROPICAL GREEN PH II,,12300.0,DO 20-2021,unmatched,Metrogate Tagaytay Estates Phase 2 (44),0
+RR,Patutong Malaki South,TAGAYTAY MENDEZ ROAD,BBN 16 TO CBM 8,10000.0,DO 20-2021,unmatched,Tagaytay Heights (67),0
+CR,Patutong Malaki South,BARANGAY ROAD,GUINHAWA-KAYBAGAL BDRY,8600.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+CR,Patutong Malaki South,BARANGAY ROAD,PATUTONG MALAKI HEROES FARM ROAD,8600.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+RR,Patutong Malaki South,HILLSVIEW PARK/TROPICAL GREEN PH II,,7900.0,DO 20-2021,unmatched,Metrogate Tagaytay Estates Phase 2 (44),0
+RR,Patutong Malaki South,BARANGAY ROAD,PATUTONG MALAKI HEROES FARM ROAD,5300.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+RR,Patutong Malaki South,BARANGAY ROAD,GUINHAWA-KAYBAGAL BDRY,5000.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+CR,Patutong Malaki South,METROGATE SUBDIVISION - CENTARA,,21500.0,DO 20-2021,village,Metrogate Centara,100
+RR,Patutong Malaki South,METROGATE SUBDIVISION - CENTARA,,15200.0,DO 20-2021,village,Metrogate Centara,100
+CR,Patutong Malaki South,TROPICAL GREEN / MARGINVILLE,,12300.0,DO 20-2021,village,Tagaytay Tropical Greens,95
+CR,Patutong Malaki South,VILLA MENDEZ SUBD / GOCHECO BROS.,,12300.0,DO 20-2021,village,Villa Mendez,100
+CR,Patutong Malaki South,GABRIEL HEIGHTS,,11500.0,DO 20-2021,village,Gabriel Heights,100
+RR,Patutong Malaki South,TROPICAL GREEN / MARGINVILLE,,7900.0,DO 20-2021,village,Tagaytay Tropical Greens,95
+RR,Patutong Malaki South,VILLA MENDEZ SUBD / GOCHECO BROS.,,7900.0,DO 20-2021,village,Villa Mendez,100
+RR,Patutong Malaki South,GABRIEL HEIGHTS,,5700.0,DO 20-2021,village,Gabriel Heights,100
+CR,Sambong,NATIONAL ROAD,ALONG TAGAYTAY-BATANGAS VIA TUY,18500.0,DO 20-2021,unmatched,Amirsache Villa (35),0
+CR,Sambong,BARANGAY ROAD,F. SARABIA SR. ST.,12600.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+RR,Sambong,NATIONAL ROAD,ALONG TAGAYTAY-BATANGAS VIA TUY,11000.0,DO 20-2021,unmatched,Amirsache Villa (35),0
+RR,Sambong,BARANGAY ROAD,F. SARABIA SR. ST.,9000.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+CR,Sambong,BARANGAY ROAD,LOWER PORTION /CREEK SIDE,6900.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+CR,Sambong,BARANGAY ROAD,INTERIOR,6000.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+RR,Sambong,BARANGAY ROAD,LOWER PORTION /CREEK SIDE,4800.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+RR,Sambong,BARANGAY ROAD,INTERIOR,4000.0,DO 20-2021,unmatched,Las Brisas de Tagaytay (41),0
+CR,San Jose,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,San Jose,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6500.0,DO 20-2021,background,,0
+CR,San Jose,ALL OTHER STREETS,INTERIOR,5500.0,DO 20-2021,background,,0
+RR,San Jose,ALL OTHER SUBDIVISION,,5500.0,DO 20-2021,background,,0
+RR,San Jose,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4000.0,DO 20-2021,background,,0
+RR,San Jose,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,San Jose,ISAAC O. TOLENTINO AVE.,ROTONDA-BBM I (SSIDE),16000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,San Jose,ISAAC O. TOLENTINO AVE.,ROTONDA-BBM I (NSIDE),15000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,San Jose,TAGAYTAY-TALISAY RD,ROTONDA-CBM 33,12000.0,DO 20-2021,street,Tagaytay-Talisay Road,100
+CR,San Jose,OLIVAREZ RD,,12000.0,DO 20-2021,street,Olivarez Road,100
+CR,San Jose,SVD ROAD,BBM 2-TAG/CALAMBA RD,12000.0,DO 20-2021,street,SVD Road,100
+RR,San Jose,ISAAC O. TOLENTINO AVE.,ROTONDA-BBM I (SSIDE),11500.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,San Jose,ISAAC O. TOLENTINO AVE.,ROTONDA-BBM I (NSIDE),11500.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,San Jose,TAGAYTAY-TALISAY RD,ROTONDA-CBM 33,7500.0,DO 20-2021,street,Tagaytay-Talisay Road,100
+RR,San Jose,OLIVAREZ RD,,7500.0,DO 20-2021,street,Olivarez Road,100
+RR,San Jose,SVD ROAD,BBM 2-TAG/CALAMBA RD,7500.0,DO 20-2021,street,SVD Road,100
+CR,San Jose,NATIONAL ROAD,E. AGUINALDO HIGHWAY,16000.0,DO 20-2021,unmatched,Kasa Luntian (40),0
+CR,San Jose,KATIGBAK SUBD,,15000.0,DO 20-2021,unmatched,Kasa Luntian (50),0
+CR,San Jose,TAGAYTAY EXEC VILLAGE/CITYLAND,,15000.0,DO 20-2021,unmatched,Tagaytay Executive Village (84),0
+RR,San Jose,NATIONAL ROAD,E. AGUINALDO HIGHWAY,11500.0,DO 20-2021,unmatched,Kasa Luntian (40),0
+RR,San Jose,KATIGBAK SUBD,,10000.0,DO 20-2021,unmatched,Kasa Luntian (50),0
+RR,San Jose,TAGAYTAY EXEC VILLAGE/CITYLAND,,9300.0,DO 20-2021,unmatched,Tagaytay Executive Village (84),0
+CR,San Jose,TAGAYTAY REALTY (FOGGY HEIGHTS),,20000.0,DO 20-2021,village,Foggy Heights,100
+RR,San Jose,TAGAYTAY REALTY (FOGGY HEIGHTS),,14000.0,DO 20-2021,village,Foggy Heights,100
+CR,San Jose,SALINGLAHI SUBD (VILLA PURA),,12000.0,DO 20-2021,village,Villa Pura,100
+RR,San Jose,SALINGLAHI SUBD (VILLA PURA),,9300.0,DO 20-2021,village,Villa Pura,100
+CR,Silang Junction North,ALL OTHER STREETS,,3690.0,DO 38-2007,background,,0
+I,Silang Junction North,ALL OTHER STREETS,,2200.0,DO 38-2007,background,,0
+RR,Silang Junction North,ALL OTHER STREETS,,645.0,DO 38-2007,background,,0
+RR,Silang Junction North,LOURDES DRIVE,INTERSECTION-AGUINALDO,825.0,DO 38-2007,street,Lourdes Drive,100
+RR,Silang Junction North,CITYLAND (TAGAYTAY COUNTRY HOMES/CITYLAND),,4000.0,DO 38-2007,unmatched,Serin East Tagaytay (55),0
+RR,Silang Junction North,CITYLAND III,,4000.0,DO 38-2007,unmatched,Tagaytay Country Homes 3 (43),0
+RR,Silang Junction North,TAGAYTAY BATANGAS VIA TUY RD (GEN E AGUINALDO HW),ROT-MAG(SOUTHSIDE),3940.0,DO 38-2007,unmatched,Serin West Tagaytay (56),0
+RR,Silang Junction North,BERNARDO BAYBAY,,3000.0,DO 38-2007,unmatched,Serin East Tagaytay (53),0
+RR,Silang Junction North,TAGAYTAY BATANGAS VIA TUY RD (GEN E AGUINALDO HW),ROT-MAG(NORTHSIDE),3000.0,DO 38-2007,unmatched,Serin West Tagaytay (56),0
+RR,Silang Junction North,P. B. CONSTANTINO SUBD,,1790.0,DO 38-2007,unmatched,Pine Suites (32),0
+RR,Silang Junction North,FILIPINAS FARMS,,1500.0,DO 38-2007,unmatched,Pine Suites (35),0
+RR,Silang Junction North,MAGALLANES DRIVE,BBM I-BBM 6 (EASTSIDE),925.0,DO 38-2007,unmatched,Richmore Land (36),0
+RR,Silang Junction North,LIVERIZA,,840.0,DO 38-2007,unmatched,Pine Suites (33),0
+RR,Silang Junction North,MODESTA BAYOT SUBD,,840.0,DO 38-2007,unmatched,Serin West Tagaytay (44),0
+CR,Silang Junction South,ALL OTHER STREETS,,3690.0,DO 38-2007,background,,0
+I,Silang Junction South,ALL OTHER STREETS,,2200.0,DO 38-2007,background,,0
+RR,Silang Junction South,ALL OTHER STREETS,,645.0,DO 38-2007,background,,0
+RR,Silang Junction South,MAGALLANES DRIVE,BBM I-BBM 6 (EASTSIDE),925.0,DO 38-2007,street,Magallanes Drive,100
+RR,Silang Junction South,CITYLAND (TAGAYTAY COUNTRY HOMES/CITYLAND),,4000.0,DO 38-2007,unmatched,Richmore Land (48),0
+RR,Silang Junction South,CITYLAND III,,4000.0,DO 38-2007,unmatched,Royal Pines West 2 (0),0
+RR,Silang Junction South,TAGAYTAY BATANGAS VIA TUY RD (GEN E AGUINALDO HW),ROT-MAG(SOUTHSIDE),3940.0,DO 38-2007,unmatched,Pine Suites (36),0
+RR,Silang Junction South,BERNARDO BAYBAY,,3000.0,DO 38-2007,unmatched,Alta Monte (32),0
+RR,Silang Junction South,TAGAYTAY BATANGAS VIA TUY RD (GEN E AGUINALDO HW),ROT-MAG(NORTHSIDE),3000.0,DO 38-2007,unmatched,Pine Suites (36),0
+RR,Silang Junction South,P. B. CONSTANTINO SUBD,,1790.0,DO 38-2007,unmatched,Pine Suites (32),0
+RR,Silang Junction South,FILIPINAS FARMS,,1500.0,DO 38-2007,unmatched,Pine Suites (35),0
+RR,Silang Junction South,LIVERIZA,,840.0,DO 38-2007,unmatched,Pine Suites (33),0
+RR,Silang Junction South,MODESTA BAYOT SUBD,,840.0,DO 38-2007,unmatched,Alta Monte (52),0
+RR,Silang Junction South,LOURDES DRIVE,INTERSECTION-AGUINALDO,825.0,DO 38-2007,unmatched,Richmore Land (42),0
+CR,Sungay North,ALL OTHER STREETS,,5500.0,DO 38-2007,background,,0
+I,Sungay North,ALL OTHER STREETS,,3440.0,DO 38-2007,background,,0
+RR,Sungay North,ALL OTHER STREETS,,825.0,DO 38-2007,background,,0
+RR,Sungay North,MONTE VISTA (DON TIM DEV. CORP),,4375.0,DO 38-2007,street,Monte Vista Street,97
+RR,Sungay North,LIGAYA DRIVE,TGYTY/CAL.-FRANCISCO,1100.0,DO 38-2007,street,Ligaya Drive,100
+RR,Sungay North,SOUTHRIDGE EST. (MOLDEX REALTY),,5125.0,DO 38-2007,unmatched,Southridge Estates (83),0
+RR,Sungay North,TAGAYTAY-CALAMBA ROAD,SOUTH SIDE,4375.0,DO 38-2007,unmatched,Balai Taal (54),0
+RR,Sungay North,TAGAYTAY-CALAMBA ROAD,NORTH SIDE,3440.0,DO 38-2007,unmatched,Balai Taal (54),0
+RR,Sungay North,WEST COAST SUBD.,KAYKULOT ROAD,1875.0,DO 38-2007,unmatched,Jestra Heights (43),0
+RR,Sungay North,MALABANAN SUBD,,1170.0,DO 38-2007,unmatched,Balai Taal (53),0
+RR,Sungay North,REGALADO SUBD,,1050.0,DO 38-2007,unmatched,Balai Taal (33),0
+RR,Sungay North,BARANGAY DIRT ROAD,CALAMBA-MALABAY,925.0,DO 38-2007,unmatched,Balai Taal (43),0
+RR,Sungay North,BARANGAY DIRT ROAD,KAYKULOT ROAD,925.0,DO 38-2007,unmatched,Balai Taal (43),0
+RR,Sungay North,ST. MICHAEL VILLAGE,KAYKULOT ROAD,750.0,DO 38-2007,unmatched,Balai Taal (35),0
+RR,Sungay North,SEIZ DE JUNIO VILLAGE (PABAHAY),TAGAYTAY CALAMBA RD.,750.0,DO 38-2007,unmatched,Balai Taal (35),0
+CR,Sungay South,ALL OTHER STREETS,,5500.0,DO 38-2007,background,,0
+I,Sungay South,ALL OTHER STREETS,,3440.0,DO 38-2007,background,,0
+RR,Sungay South,ALL OTHER STREETS,,825.0,DO 38-2007,background,,0
+RR,Sungay South,SOUTHRIDGE EST. (MOLDEX REALTY),,5125.0,DO 38-2007,unmatched,Southridge Estates (83),0
+RR,Sungay South,MONTE VISTA (DON TIM DEV. CORP),,4375.0,DO 38-2007,unmatched,Horizon’s Place Tagaytay (36),0
+RR,Sungay South,TAGAYTAY-CALAMBA ROAD,SOUTH SIDE,4375.0,DO 38-2007,unmatched,Horizon’s Place Tagaytay (58),0
+RR,Sungay South,TAGAYTAY-CALAMBA ROAD,NORTH SIDE,3440.0,DO 38-2007,unmatched,Horizon’s Place Tagaytay (58),0
+RR,Sungay South,WEST COAST SUBD.,KAYKULOT ROAD,1875.0,DO 38-2007,unmatched,Balai Taal (30),0
+RR,Sungay South,MALABANAN SUBD,,1170.0,DO 38-2007,unmatched,Balai Taal (53),0
+RR,Sungay South,LIGAYA DRIVE,TGYTY/CAL.-FRANCISCO,1100.0,DO 38-2007,unmatched,Balai Taal (50),0
+RR,Sungay South,REGALADO SUBD,,1050.0,DO 38-2007,unmatched,Balai Taal (33),0
+RR,Sungay South,BARANGAY DIRT ROAD,CALAMBA-MALABAY,925.0,DO 38-2007,unmatched,Balai Taal (43),0
+RR,Sungay South,BARANGAY DIRT ROAD,KAYKULOT ROAD,925.0,DO 38-2007,unmatched,Balai Taal (43),0
+RR,Sungay South,ST. MICHAEL VILLAGE,KAYKULOT ROAD,750.0,DO 38-2007,unmatched,Balai Taal (35),0
+RR,Sungay South,SEIZ DE JUNIO VILLAGE (PABAHAY),TAGAYTAY CALAMBA RD.,750.0,DO 38-2007,unmatched,Balai Taal (35),0
+CR,Tolentino East,ALL OTHER SUBDIVISION,,7000.0,DO 20-2021,background,,0
+CR,Tolentino East,ALL OTHER STREETS,ALONG OTHER STREETS,6200.0,DO 20-2021,background,,0
+CR,Tolentino East,ALL OTHER STREETS,INTERIOR,5000.0,DO 20-2021,background,,0
+RR,Tolentino East,ALL OTHER SUBDIVISION,,5000.0,DO 20-2021,background,,0
+RR,Tolentino East,ALL OTHER STREETS,ALONG OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Tolentino East,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Tolentino East,ISAAC O. TOLENTINO AVE.,SJOSE-FRANCISCO (NSIDE),17000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Tolentino East,ISAAC O. TOLENTINO AVE.,NORTH SIDE,15000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Tolentino East,ISAAC O. TOLENTINO AVE.,TAG/CAL-MALABAG BDRY,14500.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Tolentino East,ISAAC O. TOLENTINO AVE.,SJOSE-FRANCISCO (NSIDE),11500.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Tolentino East,LAGUSAN DRIVE,,10600.0,DO 20-2021,street,Lagusan Drive,100
+RR,Tolentino East,ISAAC O. TOLENTINO AVE.,NORTH SIDE,10400.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Tolentino East,ISAAC O. TOLENTINO AVE.,TAG/CAL-MALABAG BDRY,9800.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Tolentino East,LAGUSAN DRIVE,,6400.0,DO 20-2021,street,Lagusan Drive,100
+CR,Tolentino East,TOLENTINO ROAD,CITY MARKET-TAG/SILANG BDRY,10600.0,DO 20-2021,unmatched,Hollywood Subdivision (33),0
+CR,Tolentino East,BUENAVISTA SUBD,,10300.0,DO 20-2021,unmatched,Jestra Heights (43),0
+CR,Tolentino East,WINDSOR HEIGHTS,,10300.0,DO 20-2021,unmatched,Jestra Heights (67),0
+CR,Tolentino East,WOODRIDGE PROPERTY INC,,10300.0,DO 20-2021,unmatched,Hollywood Subdivision (44),0
+CR,Tolentino East,EVERGREEN SUBD,,8200.0,DO 20-2021,unmatched,St. Gabriel Village (38),0
+RR,Tolentino East,TOLENTINO ROAD,CITY MARKET-TAG/SILANG BDRY,8100.0,DO 20-2021,unmatched,Hollywood Subdivision (33),0
+RR,Tolentino East,BUENAVISTA SUBD,,7800.0,DO 20-2021,unmatched,Jestra Heights (43),0
+RR,Tolentino East,WINDSOR HEIGHTS,,7800.0,DO 20-2021,unmatched,Jestra Heights (67),0
+RR,Tolentino East,WOODRIDGE PROPERTY INC,,7800.0,DO 20-2021,unmatched,Hollywood Subdivision (44),0
+RR,Tolentino East,EVERGREEN SUBD,,5900.0,DO 20-2021,unmatched,St. Gabriel Village (38),0
+CR,Tolentino East,ST. GABRIEL SUBDIVISION,,7400.0,DO 20-2021,village,St. Gabriel Village,100
+RR,Tolentino East,ST. GABRIEL SUBDIVISION,,5900.0,DO 20-2021,village,St. Gabriel Village,100
+CR,Tolentino West,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8000.0,DO 20-2021,background,,0
+CR,Tolentino West,ALL OTHER SUBDIVISION,,8000.0,DO 20-2021,background,,0
+CR,Tolentino West,ALL OTHER STREETS,INTERIOR,6500.0,DO 20-2021,background,,0
+RR,Tolentino West,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5600.0,DO 20-2021,background,,0
+RR,Tolentino West,ALL OTHER SUBDIVISION,,5000.0,DO 20-2021,background,,0
+RR,Tolentino West,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+CR,Tolentino West,ISAAC O. TOLENTINO AVE.,SJOSE-FRANCISCO (NSIDE),20000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Tolentino West,ISAAC O. TOLENTINO AVE.,BOTH SIDE,20000.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Tolentino West,ISAAC O. TOLENTINO AVE.,SJOSE-FRANCISCO (NSIDE),11500.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+CR,Tolentino West,LAGUSAN DRIVE,,10600.0,DO 20-2021,street,Lagusan Drive,100
+RR,Tolentino West,ISAAC O. TOLENTINO AVE.,BOTH SIDE,10400.0,DO 20-2021,street,Isaac O. Tolentino Avenue,100
+RR,Tolentino West,LAGUSAN DRIVE,,7500.0,DO 20-2021,street,Lagusan Drive,100
+CR,Tolentino West,TAGAYTAY-MALABAG ROAD,TAG/CAL-MALABAG BDRY,20000.0,DO 20-2021,unmatched,Sister Maria Carmela Bescia School (36),0
+CR,Tolentino West,TOLENTINO ROAD,CITY MARKET-TAG/SILANG BDRY,10600.0,DO 20-2021,unmatched,Sister Maria Carmela Bescia School (23),0
+CR,Tolentino West,BUENAVISTA SUBD,,10300.0,DO 20-2021,unmatched,Sister Maria Carmela Bescia School (27),0
+CR,Tolentino West,BUENAVISTA AVE,,10000.0,DO 20-2021,unmatched,Sister Maria Carmela Bescia School (27),0
+RR,Tolentino West,TAGAYTAY-MALABAG ROAD,TAG/CAL-MALABAG BDRY,9800.0,DO 20-2021,unmatched,Sister Maria Carmela Bescia School (36),0
+RR,Tolentino West,TOLENTINO ROAD,CITY MARKET-TAG/SILANG BDRY,8100.0,DO 20-2021,unmatched,Sister Maria Carmela Bescia School (23),0
+RR,Tolentino West,BUENAVISTA SUBD,,7900.0,DO 20-2021,unmatched,Sister Maria Carmela Bescia School (27),0
+RR,Tolentino West,BUENAVISTA AVE,,6500.0,DO 20-2021,unmatched,Sister Maria Carmela Bescia School (27),0
+CR,Zambal,ALL OTHER SUBDIVISION,,6500.0,DO 20-2021,background,,0
+CR,Zambal,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6000.0,DO 20-2021,background,,0
+CR,Zambal,ALL OTHER STREETS,INTERIOR,5500.0,DO 20-2021,background,,0
+RR,Zambal,ALL OTHER SUBDIVISION,,5000.0,DO 20-2021,background,,0
+RR,Zambal,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3900.0,DO 20-2021,background,,0
+RR,Zambal,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Zambal,BARANGAY ROAD,ZAMBAL-LUKSUHIN ROAD,8700.0,DO 20-2021,unmatched,Rodeo Countryside Estate (24),0
+CR,Zambal,CITYLAND - TAGAYTAY COUNTRY HOMES,,8500.0,DO 20-2021,unmatched,Rodeo Countryside Estate (43),0
+CR,Zambal,BARANGAY ROAD,NEOGAN-GUINHAWA (ALF) INTERIOR,7400.0,DO 20-2021,unmatched,Rodeo Countryside Estate (24),0
+CR,Zambal,EXCEED REALTY/GLORIA ADIARTE MADRAZO SAN JUAN,,7400.0,DO 20-2021,unmatched,Rodeo Countryside Estate (29),0
+RR,Zambal,CITYLAND - TAGAYTAY COUNTRY HOMES,,6500.0,DO 20-2021,unmatched,Rodeo Countryside Estate (43),0
+RR,Zambal,BARANGAY ROAD,ZAMBAL-LUKSUHIN ROAD,6100.0,DO 20-2021,unmatched,Rodeo Countryside Estate (24),0
+RR,Zambal,EXCEED REALTY/GLORIA ADIARTE MADRAZO SAN JUAN,,6100.0,DO 20-2021,unmatched,Rodeo Countryside Estate (29),0
+RR,Zambal,BARANGAY ROAD,NEOGAN-GUINHAWA (ALF) INTERIOR,4500.0,DO 20-2021,unmatched,Rodeo Countryside Estate (24),0

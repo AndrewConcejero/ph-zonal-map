@@ -1,4 +1,24 @@
 city,barangay,class,bir_building,value,osm_building,score,placed
+Bacoor,Molino I,CC,CASA JESSICA CONDO,50000.0,Orientville Subdivision Clubhouse,31,False
+Bacoor,Molino I,RC,CASA JESSICA CONDO,38000.0,Orientville Subdivision Clubhouse,31,False
+Bacoor,Niog,CC,LA VIVIENDA,65000.0,Mai Pavillion,50,False
+Bacoor,Niog,CC,ALEA RESIDENCES,65000.0,Maynilad,50,False
+Bacoor,Niog,RC,LA VIVIENDA,60000.0,Mai Pavillion,50,False
+Bacoor,Niog,RC,ALEA RESIDENCES,60000.0,Maynilad,50,False
+Biñan,Mampalasan,RC,PROMENADE MASTERPIECE CONDOMINIUM,144500.0,Caltex Auto Service,50,False
+Biñan,Mampalasan,RC,PROMENADE CONDOMINIUM,102000.0,McDonald's,44,False
+Biñan,Mampalasan,RC,MERIDIAN CONDOMINIUM,102000.0,Brick Barn,44,False
+Biñan,Mampalasan,RC,SUMMER BREEZE COUNTRY,59500.0,XD Ever Transformer Service Corp,42,False
+Biñan,Mampalasan,RC,"MEREDIEN, ETC.",27200.0,Caltex Auto Service,45,False
+Biñan,Platero,CC,TERRACES JUBILATION,141200.0,Zabalan Auto Exchange and Services,41,False
+Biñan,Platero,RC,TERRACES JUBILATION,108600.0,Zabalan Auto Exchange and Services,41,False
+Biñan,San Francisco,CC,HOLLAND PARK CONDOMINIUM,255000.0,Honda,59,False
+Biñan,San Francisco,RC,HOLLAND PARK CONDOMINIUM,170000.0,Honda,59,False
+Biñan,Santo Niño,CC,MY CUBE CONDOMINIUM,121500.0,MyCube,100,True
+Biñan,Santo Niño,RC,MY CUBE CONDOMINIUM,93400.0,MyCube,100,True
+Biñan,Santo Niño,CC,JUBILATION TERRACES,141200.0,Justin Troy Enterprises,57,False
+Biñan,Santo Niño,RC,JUBILATION TERRACES,108600.0,Justin Troy Enterprises,57,False
+Calamba,Canlubang,RC,AMAIA STEPS NUVALI,55000.0,Nuvali Shuttle,62,False
 Caloocan,Barangay 104,CC,WBI CONDO,66600.0,Mabini Coffee,25,False
 Caloocan,Barangay 104,RC,WBI CONDO,61100.0,Mabini Coffee,25,False
 Caloocan,Barangay 110,CC,HOWARD TOWER,85200.0,Howard Tower,100,True
@@ -47,6 +67,34 @@ Caloocan,Barangay 94,CC,WILLIAM SHAW RESIDENCES,91200.0,William Shaw Residences,
 Caloocan,Barangay 94,RC,WILLIAM SHAW RESIDENCES,76000.0,William Shaw Residences,100,True
 Caloocan,Barangay 95,CC,TOMAS ESCOTA,84900.0,Victoria Court,54,False
 Caloocan,Barangay 95,RC,TOMAS ESCOTA,72700.0,Victoria Court,54,False
+Carmona,Cabilang Baybay,CC,MANILA SOUTHWOODS,31800.0,Manila Southwoods Manor,92,True
+Carmona,Cabilang Baybay,RC,MANILA SOUTHWOODS,25300.0,Manila Southwoods Manor,92,True
+Dasmariñas,Burol,CC,THE ONE CONDOMINIUM,111600.0,Tower 1,100,True
+Dasmariñas,Burol,RC,THE ONE CONDOMINIUM,92300.0,Tower 1,100,True
+Dasmariñas,Burol,CC,GREEN 2 RESIDENCES( SMDC),135000.0,FSC Building,57,False
+Dasmariñas,Burol,RC,GREEN 2 RESIDENCES( SMDC),106000.0,FSC Building,57,False
+Dasmariñas,Sampaloc II,CC,REGENCY TOWNHOMES (CATHAY LAND),35000.0,Unlad Kabuhayan,62,False
+Dasmariñas,Sampaloc II,RC,REGENCY TOWNHOMES (CATHAY LAND),21000.0,Unlad Kabuhayan,62,False
+Gen. Mariano Alvarez,San Gabriel,CC,EL BENDITA CASA PHASE I,28700.0,Shell Select,44,False
+Gen. Mariano Alvarez,San Gabriel,RC,EL BENDITA CASA PHASE I,21700.0,Shell Select,44,False
+General Trias,Bacao I,CC,MAPLE GROVE (MEGAWORLD),62500.0,Megaworld Maple Grove Information Center,92,True
+General Trias,Bacao I,RC,MAPLE GROVE (MEGAWORLD),46000.0,Megaworld Maple Grove Information Center,92,True
+General Trias,Bacao II,CC,EGI HOMES CAVITE CONDOMINIUM,28000.0,Savemore,42,False
+General Trias,Bacao II,RC,EGI HOMES CAVITE CONDOMINIUM,18500.0,Savemore,42,False
+General Trias,Javalera,CC,EAGLE RIDGE GOLF VILLAS,35000.0,Eagle Ridge Resort,63,False
+General Trias,Javalera,RC,EAGLE RIDGE GOLF VILLAS,30000.0,Eagle Ridge Resort,63,False
+General Trias,Manggahan,CC,ORIENTAL GARDEN RESIDENCES,70000.0,Botanical Garden,71,False
+General Trias,Manggahan,RC,ORIENTAL GARDEN RESIDENCES,60000.0,Botanical Garden,71,False
+General Trias,Tejero,CC,MAPLE GROVE (MEGAWORLD),62000.0,Megaworld Maple Grove Information Center,92,True
+General Trias,Tejero,RC,MAPLE GROVE (MEGAWORLD),45000.0,Megaworld Maple Grove Information Center,92,True
+Imus,Anabu II-A,CC,TERRACES AT TRADIZO ENCLAVE,85000.0,Mayette Store & Eatery,45,False
+Imus,Anabu II-A,RC,TERRACES AT TRADIZO ENCLAVE,75000.0,Mayette Store & Eatery,45,False
+Imus,Bucandala I,CC,AVIANA,150000.0,Alfamart,43,False
+Imus,Bucandala I,RC,AVIANA,130000.0,Alfamart,43,False
+Imus,Magdalo,CC,URBAN DECA HOMES MAHOGANY,23000.0,Maharlika Covered Court,46,False
+Imus,Magdalo,RC,URBAN DECA HOMES MAHOGANY,20000.0,Maharlika Covered Court,46,False
+Kawit,Pulvorista,CC,FIRST ORIENT INTERNATIONAL VENTURES CORP.,35000.0,CAVITEX Kawit Toll Plaza,34,False
+Kawit,Pulvorista,RC,FIRST ORIENT INTERNATIONAL VENTURES CORP.,25000.0,CAVITEX Kawit Toll Plaza,34,False
 Las Piñas,Almanza Dos,RC,CHATEAU MANSIONS,78000.0,ATE Auto Repair Services,50,False
 Las Piñas,Almanza Uno,CC,AMAIA ALABANG STEPS(UNDER CONSTRUCTION),102000.0,Alabang West Parade,68,False
 Las Piñas,Almanza Uno,RC,SM RESIDENCES,95000.0,J. Casim Building,44,False
@@ -84,6 +132,8 @@ Las Piñas,Talon Singko,RC,EMMAUS I (MARY IMMACULATE DEVT CORP),16000.0,Mercury 
 Las Piñas,Talon Tres,RC,SONORA GARDEN RESIDENCES,100000.0,Sonoma,53,False
 Las Piñas,Talon Uno,CC,ANANDA SQUARE,110000.0,Car Insurance,46,False
 Las Piñas,Talon Uno,RC,ANANDA SQUARE,90000.0,Car Insurance,46,False
+Los Baños,Batong Malake,CC,PHILIPPINES CENTENNIAL DEV'T CORP,90000.0,Philippine Agricultural Scientist,60,False
+Los Baños,Batong Malake,RC,PHILIPPINES CENTENNIAL DEV'T CORP,75000.0,Philippine Agricultural Scientist,60,False
 Makati,Bangkal,CC,GLOBAL TOWER CONDO,120000.0,Global Tower,100,True
 Makati,Bangkal,CC,THE MANCHESTER PLACE,115000.0,Manchester Place,100,True
 Makati,Bangkal,RC,GLOBAL TOWER CONDO,98000.0,Global Tower,100,True
@@ -3587,6 +3637,100 @@ San Juan,West Crame,CC,CRYSTAL MANSION,78000.0,Continental Plaza,44,False
 San Juan,West Crame,RC,HANCOURT BUILDING,71000.0,Continental Court,48,False
 San Juan,West Crame,RC,COCO ROYAL MANSION,64000.0,The Connor at Greenhills,44,False
 San Juan,West Crame,RC,CRYSTAL MANSION,64000.0,Continental Plaza,44,False
+Santa Rosa,Balibago,CC,SAN JOSE RESIDENCIAS,63800.0,Rey-Sal Santa Rosa,53,False
+Santa Rosa,Balibago,RC,SAN JOSE RESIDENCIAS,42500.0,Rey-Sal Santa Rosa,53,False
+Santa Rosa,Santo Domingo,CC,VALENZA (CROWN ASIA),203600.0,Seda Nuvali,56,False
+Santa Rosa,Santo Domingo,CC,ZADIA 1,199500.0,One Evotech,25,False
+Santa Rosa,Santo Domingo,CC,ZADIA 2,199500.0,Two Evotech,25,False
+Santa Rosa,Santo Domingo,RC,VALENZA (CROWN ASIA),156700.0,Seda Nuvali,56,False
+Santa Rosa,Santo Domingo,RC,ZADIA 1,133000.0,One Evotech,25,False
+Santa Rosa,Santo Domingo,RC,ZADIA 2,133000.0,Two Evotech,25,False
+Silang,Inchican,CC,STANFORD SUITES 2,108000.0,Stanford Suites 2,100,True
+Silang,Inchican,CC,STANFORD SUITES 3,108000.0,Stanford Suites 3,100,True
+Silang,Inchican,CC,BERKELEY SUITES,103000.0,Berkeley Suite,100,True
+Silang,Inchican,RC,STANFORD SUITES 2,96000.0,Stanford Suites 2,100,True
+Silang,Inchican,RC,STANFORD SUITES 3,96000.0,Stanford Suites 3,100,True
+Silang,Inchican,RC,BERKELEY SUITES,94000.0,Berkeley Suite,100,True
+Silang,Inchican,CC,SCANDIA SUITES/CONDOMINIUMS,75000.0,Scandia Suites,100,True
+Silang,Inchican,CC,GOLF VIEW TERRACES (PEBBLE BEACH) CONDO,75000.0,Golf View Terraces,100,True
+Silang,Inchican,RC,SCANDIA SUITES/CONDOMINIUMS,65000.0,Scandia Suites,100,True
+Silang,Inchican,RC,GOLF VIEW TERRACES (PEBBLE BEACH) CONDO,65000.0,Golf View Terraces,100,True
+Silang,Inchican,CC,STANDFORD SUITES/CONDOMINIUMS,120000.0,Scandia Suites,50,False
+Silang,Inchican,RC,STANDFORD SUITES/CONDOMINIUMS,110000.0,Scandia Suites,50,False
+Silang,Lalaan I,CC,MONTELUCE CONDOMINIUM,110000.0,Windmeal Café,45,False
+Silang,Lalaan I,RC,MONTELUCE CONDOMINIUM,94000.0,Windmeal Café,45,False
+Silang,Puting Kahoy,CC,FULLERTON SUTIES I,100000.0,Student Services Center,50,False
+Silang,Puting Kahoy,CC,FULLERTON SUITES 2,100000.0,PNPA Grandstand,0,False
+Silang,Puting Kahoy,RC,FULLERTON SUTIES I,90000.0,Student Services Center,50,False
+Silang,Puting Kahoy,RC,FULLERTON SUITES 2,90000.0,PNPA Grandstand,0,False
+Silang,Tartaria,CC,SOLANA VERDE RESIDENCES,95000.0,Silang Stone Building,50,False
+Silang,Tartaria,RC,SOLANA VERDE RESIDENCES,75000.0,Silang Stone Building,50,False
+Tagaytay,Calabuso,CC,BELLEVIEW,154500.0,Belleview  Tagaytay Highlands,92,True
+Tagaytay,Calabuso,RC,BELLEVIEW,108000.0,Belleview  Tagaytay Highlands,92,True
+Tagaytay,Calabuso,CC,PINECREST,154500.0,Linden Building,40,False
+Tagaytay,Calabuso,CC,THE WOODRIDGE PLACE,154500.0,Spa and Lodge,44,False
+Tagaytay,Calabuso,CC,VILLAS,154500.0,Highlands Peak Bar,33,False
+Tagaytay,Calabuso,CC,WOODLAND SINGLE DETACHED,127000.0,Highlands China Palace,48,False
+Tagaytay,Calabuso,CC,WOODLAND MULTI FAMILY,127000.0,Highlands China Palace,42,False
+Tagaytay,Calabuso,RC,PINECREST,108000.0,Linden Building,40,False
+Tagaytay,Calabuso,RC,THE WOODRIDGE PLACE,108000.0,Spa and Lodge,44,False
+Tagaytay,Calabuso,RC,VILLAS,108000.0,Highlands Peak Bar,33,False
+Tagaytay,Calabuso,RC,WOODLAND SINGLE DETACHED,92500.0,Highlands China Palace,48,False
+Tagaytay,Calabuso,RC,WOODLAND MULTI FAMILY,92500.0,Highlands China Palace,42,False
+Tagaytay,Iruhin South,CC,ALPINE VILLAS - TOWER 1 (BERNESE); TOWER 2 (BLANC); TOWER 4,152000.0,Zer Franco,40,False
+Tagaytay,Iruhin South,CC,BRITTANY CONDOMINIUM,152000.0,Zer Franco,33,False
+Tagaytay,Iruhin South,CC,GRAND QUARTER 1- BRITANNY CON.,152000.0,Zer Franco,0,False
+Tagaytay,Iruhin South,CC,GRAND QUARTER 2- BRITANNY CON.,152000.0,Zer Franco,0,False
+Tagaytay,Iruhin South,CC,GRAND QUARTER 3- BRITANNY CON.,152000.0,Zer Franco,0,False
+Tagaytay,Iruhin South,CC,SWISS QUADRILL-BRITANNY CON.,152000.0,Sky Palace Coop,38,False
+Tagaytay,Iruhin South,RC,ALPINE VILLAS - TOWER 1 (BERNESE); TOWER 2 (BLANC); TOWER 4,119500.0,Zer Franco,40,False
+Tagaytay,Iruhin South,RC,BRITTANY CONDOMINIUM,119500.0,Zer Franco,33,False
+Tagaytay,Iruhin South,RC,GRAND QUARTER 1- BRITANNY CON.,119500.0,Zer Franco,0,False
+Tagaytay,Iruhin South,RC,GRAND QUARTER 2- BRITANNY CON.,119500.0,Zer Franco,0,False
+Tagaytay,Iruhin South,RC,GRAND QUARTER 3- BRITANNY CON.,119500.0,Zer Franco,0,False
+Tagaytay,Iruhin South,RC,SWISS QUADRILL-BRITANNY CON.,119500.0,Sky Palace Coop,38,False
+Tagaytay,Iruhin West,CC,CALIDEVELOP REALTY CORP.,107000.0,Ruined Project,38,False
+Tagaytay,Iruhin West,CC,LAKEVIEW CONDOTEL,104500.0,Picnic Hostel,47,False
+Tagaytay,Iruhin West,RC,LAKEVIEW CONDOTEL,77000.0,Picnic Hostel,47,False
+Tagaytay,Iruhin West,RC,CALIDEVELOP REALTY CORP.,75000.0,Ruined Project,38,False
+Tagaytay,Kaybagal East,CC,ALTA MONTE LEISURE SUITES - DON TIM,84000.0,Alta Monte Clubhouse,61,False
+Tagaytay,Kaybagal East,RC,ALTA MONTE LEISURE SUITES - DON TIM,48000.0,Alta Monte Clubhouse,61,False
+Tagaytay,Kaybagal East,CC,PACIFIC GROVE QUADRUPLEX CONDO,44500.0,MJ Square Motorcycle Parts,44,False
+Tagaytay,Kaybagal East,RC,PACIFIC GROVE QUADRUPLEX CONDO,27500.0,MJ Square Motorcycle Parts,44,False
+Tagaytay,Kaybagal South,CC,THE WELLINGTON COURTYARD PH. 1,104500.0,Tower 1,9,False
+Tagaytay,Kaybagal South,CC,"THE WELLINGTON COURTYARD PH. 2 (BLDG. C, D & E)",104500.0,Crimson Sunbird Events Place,37,False
+Tagaytay,Kaybagal South,CC,CASIANA CONDOTEL,100000.0,Hotel Casiana,83,False
+Tagaytay,Kaybagal South,RC,THE WELLINGTON COURTYARD PH. 1,78500.0,Tower 1,9,False
+Tagaytay,Kaybagal South,RC,"THE WELLINGTON COURTYARD PH. 2 (BLDG. C, D & E)",78500.0,Crimson Sunbird Events Place,37,False
+Tagaytay,Kaybagal South,RC,CASIANA CONDOTEL,75000.0,Hotel Casiana,83,False
+Tagaytay,Kaybagal South,CC,ALTA MONTE LEISURE SUITES-SOUTH,70500.0,Silvina's Hotel & Resort,53,False
+Tagaytay,Kaybagal South,RC,ALTA MONTE LEISURE SUITES-SOUTH,42000.0,Silvina's Hotel & Resort,53,False
+Tagaytay,Mag-Asawang Ilat,CC,ANYA RESORT AND RESIDENCES,123000.0,Emiramona Garden Hotel,48,False
+Tagaytay,Mag-Asawang Ilat,RC,ANYA RESORT AND RESIDENCES,85000.0,Emiramona Garden Hotel,48,False
+Tagaytay,Maharlika West,CC,WIND RESIDENCES PHS. 1 TO 5,152000.0,8,0,False
+Tagaytay,Maharlika West,RC,WIND RESIDENCES PHS. 1 TO 5,106000.0,8,0,False
+Tagaytay,Neogan,CC,CITYLAND II - CONDOMINIUM,113000.0,Troadia's cafe,0,False
+Tagaytay,Neogan,RC,CITYLAND II - CONDOMINIUM,89000.0,Troadia's cafe,0,False
+Tagaytay,Neogan,CC,LA BELLA AT TAGAYTAY,89000.0,AE Garage,46,False
+Tagaytay,Neogan,RC,LA BELLA AT TAGAYTAY,53500.0,AE Garage,46,False
+Tagaytay,Patutong Malaki South,CC,IPM REALTY AND DEVELOPMENT CORP./WOODHILLS RESIDENCES,89000.0,CBCP-NASSA BEC Development Center,92,True
+Tagaytay,Patutong Malaki South,RC,IPM REALTY AND DEVELOPMENT CORP./WOODHILLS RESIDENCES,60000.0,CBCP-NASSA BEC Development Center,92,True
+Tagaytay,Patutong Malaki South,CC,WOODHILLS - ALBIZIA,106000.0,Villa Isla Resort,41,False
+Tagaytay,Patutong Malaki South,CC,WOODHILLS ASPEN,106000.0,Villa San Jose,48,False
+Tagaytay,Patutong Malaki South,CC,WOODHILLS- PRIMAVERA,106000.0,Villa Isla Resort,44,False
+Tagaytay,Patutong Malaki South,CC,CEDAR RESIDENTIAL CONDOMINIUM TAGAYTAY WOODHILLS,89000.0,Tagaytay Hall of Justice,49,False
+Tagaytay,Patutong Malaki South,RC,WOODHILLS - ALBIZIA,77000.0,Villa Isla Resort,41,False
+Tagaytay,Patutong Malaki South,RC,WOODHILLS ASPEN,77000.0,Villa San Jose,48,False
+Tagaytay,Patutong Malaki South,RC,WOODHILLS- PRIMAVERA,77000.0,Villa Isla Resort,44,False
+Tagaytay,Patutong Malaki South,RC,CEDAR RESIDENTIAL CONDOMINIUM TAGAYTAY WOODHILLS,60000.0,Tagaytay Hall of Justice,49,False
+Tagaytay,San Jose,CC,ALVEO LAND (AYALA),160000.0,Tala,67,False
+Tagaytay,San Jose,CC,KASA LUNTIAN PHASE 2 (BLDG. A E & F),160000.0,Vista de Lago,44,False
+Tagaytay,San Jose,CC,"KASA LUNTIAN (BLDG. AMIHAN, HARANA, KUNDIMAN, SINAG, DIWA, TALA)",160000.0,Mang Inasal,52,False
+Tagaytay,San Jose,CC,TAGAYTAY PRIME RESIDENCES (CITYLAND),140000.0,Fora Tagaytay,74,False
+Tagaytay,San Jose,RC,ALVEO LAND (AYALA),110000.0,Tala,67,False
+Tagaytay,San Jose,RC,KASA LUNTIAN PHASE 2 (BLDG. A E & F),110000.0,Vista de Lago,44,False
+Tagaytay,San Jose,RC,"KASA LUNTIAN (BLDG. AMIHAN, HARANA, KUNDIMAN, SINAG, DIWA, TALA)",110000.0,Mang Inasal,52,False
+Tagaytay,San Jose,RC,TAGAYTAY PRIME RESIDENCES (CITYLAND),90000.0,Fora Tagaytay,74,False
 Taguig,Bambang,CC,ALDER RESIDENCES,152000.0,Alder,100,True
 Taguig,Bambang,RC,ALDER RESIDENCES,122000.0,Alder,100,True
 Taguig,Bambang,CC,CEDAR CREST CONDO,140000.0,The Conde Estates,50,False
@@ -4016,6 +4160,12 @@ Taguig,Western Bicutan,RC,FTI ROTARYVILLE HOMES,100000.0,Merville Arcade,50,Fals
 Taguig,Western Bicutan,RC,ST.MARTIN PLACE CONDO,99000.0,Manta Corporate Plaza,57,False
 Taguig,Western Bicutan,RC,CENTENNIAL VILLAGE CONDO,43000.0,Continental Temic,51,False
 Taguig,Western Bicutan,RC,PVBP BUILDING TENEMENT,36000.0,Fort Bonifacio Tenement,56,False
+Tanza,Punta I,CC,THE GARDEN VILLAS TANZA,20000.0,Kuya LM Tile Depot,38,False
+Tanza,Punta I,CC,TANZA GARDEN PREMIER PH,20000.0,Kuya LM Tile Depot,32,False
+Tanza,Punta I,RC,THE GARDEN VILLAS TANZA,15000.0,Kuya LM Tile Depot,38,False
+Tanza,Punta I,RC,TANZA GARDEN PREMIER PH,15000.0,Kuya LM Tile Depot,32,False
+Trece Martires,San Agustin,CC,HOPE RESIDENCES (SMPH),160000.0,Home Along,43,False
+Trece Martires,San Agustin,RC,HOPE RESIDENCES (SMPH),135000.0,Home Along,43,False
 Valenzuela,Bagbaguin,CC,CONDOMINIUM ( CCT ),50000.0,DC Manufacturing,32,False
 Valenzuela,Bagbaguin,CC,TOWNHOUSE ( CCT ),40000.0,Petron,40,False
 Valenzuela,Bagbaguin,RC,CONDOMINIUM ( CCT ),36000.0,DC Manufacturing,32,False

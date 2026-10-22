@@ -1,0 +1,656 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Balsahan-Bisita,ALL OTHER STREETS,ALONG ALL OTHER STREETS,9000.0,DO 33-2022,background,,0
+CR,Balsahan-Bisita,ALL OTHER SUBDIVISION,,9000.0,DO 33-2022,background,,0
+CR,Balsahan-Bisita,ALL OTHER STREETS,INTERIOR,7000.0,DO 33-2022,background,,0
+RR,Balsahan-Bisita,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Balsahan-Bisita,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5000.0,DO 33-2022,background,,0
+RR,Balsahan-Bisita,ALL OTHER STREETS,INTERIOR,4000.0,DO 33-2022,background,,0
+CR,Balsahan-Bisita,BISITA ST.,TIRONA HIGH WAY - SARINO SUBDIVISION CORNER,11000.0,DO 33-2022,street,Bisita Street,100
+CR,Balsahan-Bisita,BISITA ST.,INTERIOR,10000.0,DO 33-2022,street,Bisita Street,100
+RR,Balsahan-Bisita,BISITA ST.,TIRONA HIGH WAY - SARINO SUBDIVISION CORNER,7000.0,DO 33-2022,street,Bisita Street,100
+RR,Balsahan-Bisita,BISITA ST.,INTERIOR,6000.0,DO 33-2022,street,Bisita Street,100
+CR,Balsahan-Bisita,NATIONAL ROAD,TIRONA HIGH WAY-BISITA ST.,15000.0,DO 33-2022,unmatched,Angel Village (46),0
+CR,Balsahan-Bisita,NATIONAL ROAD,COVELANDIA ROAD,15000.0,DO 33-2022,unmatched,Angel Village (46),0
+CR,Balsahan-Bisita,NATIONAL ROAD,INTERIOR,13000.0,DO 33-2022,unmatched,Angel Village (46),0
+RR,Balsahan-Bisita,NATIONAL ROAD,TIRONA HIGH WAY-BISITA ST.,8000.0,DO 33-2022,unmatched,Angel Village (46),0
+RR,Balsahan-Bisita,NATIONAL ROAD,COVELANDIA ROAD,8000.0,DO 33-2022,unmatched,Angel Village (46),0
+RR,Balsahan-Bisita,NATIONAL ROAD,INTERIOR,7000.0,DO 33-2022,unmatched,Angel Village (46),0
+RR,Balsahan-Bisita,RESTOL SUBD,RESSURRECION SUBD,7000.0,DO 33-2022,unmatched,Angel Village (36),0
+RR,Balsahan-Bisita,SARINO SUBD/COMP.,,7000.0,DO 33-2022,unmatched,Angel Village (36),0
+CR,Batong Dalig,ALL OTHER STREETS,ALONG ALL OTHER STREETS,9000.0,DO 33-2022,background,,0
+CR,Batong Dalig,ALL OTHER SUBDIVISIONS,,9000.0,DO 33-2022,background,,0
+CR,Batong Dalig,ALL OTHER STREETS,INTERIOR,8000.0,DO 33-2022,background,,0
+RR,Batong Dalig,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5500.0,DO 33-2022,background,,0
+RR,Batong Dalig,ALL OTHER STREETS,INTERIOR,5000.0,DO 33-2022,background,,0
+RR,Batong Dalig,ALL OTHER SUBDIVISIONS,,5000.0,DO 33-2022,background,,0
+CR,Batong Dalig,DAANG BAKAL ST.,,10000.0,DO 33-2022,street,Daang Bakal Street,100
+CR,Batong Dalig,DAANG BAKAL ST.,INTERIOR,9500.0,DO 33-2022,street,Daang Bakal Street,100
+RR,Batong Dalig,DAANG BAKAL ST.,,7000.0,DO 33-2022,street,Daang Bakal Street,100
+RR,Batong Dalig,DAANG BAKAL ST.,INTERIOR,6000.0,DO 33-2022,street,Daang Bakal Street,100
+CR,Batong Dalig,NATIONAL ROAD,EVO CITY,60000.0,DO 33-2022,unmatched,Marcville Subdivision (35),0
+CR,Batong Dalig,NATIONAL ROAD,A. SORIANO HIWAY (CENTENNIAL ROAD),40000.0,DO 33-2022,unmatched,Marcville Subdivision (35),0
+CR,Batong Dalig,NATIONAL ROAD,INTERIOR,32000.0,DO 33-2022,unmatched,Marcville Subdivision (35),0
+RR,Batong Dalig,THE RESIDENCES AT EVO CITY,,30000.0,DO 33-2022,unmatched,Cavite Prime Residences (70),0
+RR,Batong Dalig,NATIONAL ROAD,A. SORIANO HIWAY (CENTENNIAL ROAD),22000.0,DO 33-2022,unmatched,Marcville Subdivision (35),0
+RR,Batong Dalig,NATIONAL ROAD,INTERIOR,17500.0,DO 33-2022,unmatched,Marcville Subdivision (35),0
+RR,Batong Dalig,ARIGO SUBDIVISON,,6000.0,DO 33-2022,unmatched,Cavite Prime Residences (37),0
+RR,Batong Dalig,NARRA COMPOUND,,5500.0,DO 33-2022,unmatched,Garland Subdivision (50),0
+RR,Batong Dalig,POBLETE SUBDIVISION,,5500.0,DO 33-2022,unmatched,Collin Ville (32),0
+RR,Batong Dalig,SUMMERVILLE SUBDIVISION,,5500.0,DO 33-2022,unmatched,Marcville Subdivision (70),0
+RR,Batong Dalig,VILLA EL CAVITENO,,5500.0,DO 33-2022,unmatched,Collin Ville (55),0
+RR,Batong Dalig,COLLIN VILLE,,10000.0,DO 33-2022,village,Collin Ville,100
+RR,Batong Dalig,CAVITE PRIME,,8000.0,DO 33-2022,village,Cavite Prime Residences,95
+CR,Binakayan-Aplaya,ALL OTHER STREETS,ALONG ALL OTHER STREETS,9000.0,DO 33-2022,background,,0
+CR,Binakayan-Aplaya,ALL OTHER STREETS,INTERIOR,7000.0,DO 33-2022,background,,0
+RR,Binakayan-Aplaya,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5000.0,DO 33-2022,background,,0
+RR,Binakayan-Aplaya,ALL OTHER SUBDIVISION,,5000.0,DO 33-2022,background,,0
+RR,Binakayan-Aplaya,ALL OTHER STREETS,INTERIOR,4000.0,DO 33-2022,background,,0
+CR,Binakayan-Aplaya,NATIONAL ROAD,TIRONA HIGH WAY-SAMALA ST.,15000.0,DO 33-2022,unmatched,Binakayan (35),0
+CR,Binakayan-Aplaya,NATIONAL ROAD,COVELANDIA ROAD,15000.0,DO 33-2022,unmatched,Binakayan (35),0
+CR,Binakayan-Aplaya,NATIONAL ROAD,INTERIOR,13000.0,DO 33-2022,unmatched,Binakayan (35),0
+CR,Binakayan-Aplaya,APLAYA ST.,,11000.0,DO 33-2022,unmatched,Binakayan (53),0
+CR,Binakayan-Aplaya,LOLA NENENG ST.,,11000.0,DO 33-2022,unmatched,Luzon (38),0
+CR,Binakayan-Aplaya,SGT. DANTE ST.,,11000.0,DO 33-2022,unmatched,Binakayan (22),0
+CR,Binakayan-Aplaya,APLAYA ST.,INTERIOR,10000.0,DO 33-2022,unmatched,Binakayan (53),0
+CR,Binakayan-Aplaya,LOLA NENENG ST.,INTERIOR,10000.0,DO 33-2022,unmatched,Luzon (38),0
+CR,Binakayan-Aplaya,SGT. DANTE ST.,INTERIOR,10000.0,DO 33-2022,unmatched,Binakayan (22),0
+RR,Binakayan-Aplaya,NATIONAL ROAD,TIRONA HIGH WAY-SAMALA ST.,8000.0,DO 33-2022,unmatched,Binakayan (35),0
+RR,Binakayan-Aplaya,NATIONAL ROAD,COVELANDIA ROAD,8000.0,DO 33-2022,unmatched,Binakayan (35),0
+RR,Binakayan-Aplaya,NATIONAL ROAD,INTERIOR,7000.0,DO 33-2022,unmatched,Binakayan (35),0
+RR,Binakayan-Aplaya,APLAYA ST.,,7000.0,DO 33-2022,unmatched,Binakayan (53),0
+RR,Binakayan-Aplaya,LOLA NENENG ST.,,7000.0,DO 33-2022,unmatched,Luzon (38),0
+RR,Binakayan-Aplaya,SGT. DANTE ST.,,7000.0,DO 33-2022,unmatched,Binakayan (22),0
+RR,Binakayan-Aplaya,APLAYA ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Binakayan (53),0
+RR,Binakayan-Aplaya,LOLA NENENG ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Luzon (38),0
+RR,Binakayan-Aplaya,SGT. DANTE ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Binakayan (22),0
+RR,Binakayan-Aplaya,ANASTACIA SUBDIVISION,,6000.0,DO 33-2022,unmatched,Binakayan (44),0
+RR,Binakayan-Aplaya,VILLA IMANG,,6000.0,DO 33-2022,unmatched,Binakayan (40),0
+RR,Binakayan-Aplaya,SITIO IMANG,LOOBAN,5000.0,DO 33-2022,unmatched,Binakayan (30),0
+CR,Binakayan-Kanluran,ALL OTHER STREETS,,2600.0,DO 39-2007,background,,0
+RR,Binakayan-Kanluran,ALL OTHER STREETS,,1560.0,DO 39-2007,background,,0
+RR,Binakayan-Kanluran,COVELANDIA RD,,2200.0,DO 39-2007,street,Covelandia Road,100
+RR,Binakayan-Kanluran,BAUTISTA SUBD,,1715.0,DO 39-2007,street,Bautista Compound,97
+CR,Binakayan-Kanluran,NATIONAL RD,REALICA ST/JUNCTION-COVELANDIA RD,3720.0,DO 39-2007,unmatched,Binakayan (35),0
+CR,Binakayan-Kanluran,NATIONAL RD,MARULAS BR-REALICA ST JUNCTIONS,3440.0,DO 39-2007,unmatched,Binakayan (35),0
+CR,Binakayan-Kanluran,CONGBALAY ST,NATL RD-MARQUEZ ST,3165.0,DO 39-2007,unmatched,Binakayan (44),0
+CR,Binakayan-Kanluran,BISITA ST,NATL RD-SARINO SUBD,3125.0,DO 39-2007,unmatched,Binakayan (40),0
+CR,Binakayan-Kanluran,CONGBALAY ST,MARQUEZ ST-COVELANDIA RD,2875.0,DO 39-2007,unmatched,Binakayan (44),0
+CR,Binakayan-Kanluran,KANLURAN LATELOA NENENG,,2875.0,DO 39-2007,unmatched,Binakayan (31),0
+CR,Binakayan-Kanluran,MANGGAHAN ST,BISITA ST-CAIMEL SUBD,2875.0,DO 39-2007,unmatched,Binakayan (44),0
+RR,Binakayan-Kanluran,BISITA ST,NATL RD-SARINO SUBD,2475.0,DO 39-2007,unmatched,Binakayan (40),0
+RR,Binakayan-Kanluran,NATIONAL RD,REALICA ST/JUNCTION-COVELANDIA RD,2475.0,DO 39-2007,unmatched,Binakayan (35),0
+RR,Binakayan-Kanluran,CONGBALAY ST,NATL RD-MARQUEZ ST,2430.0,DO 39-2007,unmatched,Binakayan (44),0
+RR,Binakayan-Kanluran,SAMALA ST,,2430.0,DO 39-2007,unmatched,Binakayan (40),0
+RR,Binakayan-Kanluran,CAIMOL SUBD,,2200.0,DO 39-2007,unmatched,Luzon (18),0
+RR,Binakayan-Kanluran,MANGGAHAN ST,BISITA ST-CAIMEL SUBD,2200.0,DO 39-2007,unmatched,Binakayan (44),0
+RR,Binakayan-Kanluran,NATIONAL RD,MARULAS BR-REALICA ST JUNCTIONS,2200.0,DO 39-2007,unmatched,Binakayan (35),0
+RR,Binakayan-Kanluran,REALICA ST,,2200.0,DO 39-2007,unmatched,Binakayan (25),0
+RR,Binakayan-Kanluran,RES TOL SUBD,,2200.0,DO 39-2007,unmatched,Luzon (17),0
+RR,Binakayan-Kanluran,SALUD SUBD,,2200.0,DO 39-2007,unmatched,Luzon (40),0
+RR,Binakayan-Kanluran,SARINO SUBD,,2200.0,DO 39-2007,unmatched,Binakayan (27),0
+RR,Binakayan-Kanluran,TRAMO ST,,2075.0,DO 39-2007,unmatched,Luzon (20),0
+RR,Binakayan-Kanluran,FATIMA SUBD.,,1940.0,DO 39-2007,unmatched,Binakayan (27),0
+RR,Binakayan-Kanluran,ALLENVILLE SUBD,,1715.0,DO 39-2007,unmatched,Luzon (27),0
+RR,Binakayan-Kanluran,BANGALAN SUBD,,1715.0,DO 39-2007,unmatched,Binakayan (59),0
+RR,Binakayan-Kanluran,BERMUDA SUBD,,1715.0,DO 39-2007,unmatched,Binakayan (25),0
+RR,Binakayan-Kanluran,CONGBALAY ST,MARQUEZ ST-COVELANDIA RD,1715.0,DO 39-2007,unmatched,Binakayan (44),0
+RR,Binakayan-Kanluran,FVL SUBD,,1715.0,DO 39-2007,unmatched,Luzon (25),0
+RR,Binakayan-Kanluran,KANLURAN LATELOA NENENG,,1715.0,DO 39-2007,unmatched,Binakayan (31),0
+RR,Binakayan-Kanluran,LEGASPI ST,,1715.0,DO 39-2007,unmatched,Luzon (17),0
+RR,Binakayan-Kanluran,MARQUEZ ST,,1715.0,DO 39-2007,unmatched,Luzon (33),0
+RR,Binakayan-Kanluran,SGT. DANTI ST,,1715.0,DO 39-2007,unmatched,Binakayan (22),0
+RR,Binakayan-Kanluran,VILLA ICAZA,,1715.0,DO 39-2007,unmatched,Binakayan (40),0
+RR,Binakayan-Kanluran,VILLA IMANG,,1715.0,DO 39-2007,unmatched,Binakayan (40),0
+RR,Binakayan-Kanluran,LAWIN,,1585.0,DO 39-2007,unmatched,Luzon (40),0
+RR,Binakayan-Kanluran,PULVORISTA ST,,1585.0,DO 39-2007,unmatched,Luzon (27),0
+RR,Binakayan-Kanluran,LOLA NENENG ST,,1575.0,DO 39-2007,unmatched,Luzon (38),0
+RR,Binakayan-Kanluran,MALABANAN SUBD,,1575.0,DO 39-2007,unmatched,Binakayan (44),0
+RR,Binakayan-Kanluran,MANGGAHAN ST,CAIMOL SUBD-BANGALAN SUBD,1575.0,DO 39-2007,unmatched,Binakayan (44),0
+RR,Binakayan-Kanluran,APLAYA ST,,1560.0,DO 39-2007,unmatched,Binakayan (53),0
+CR,Congbalay-Legaspi,ALL OTHER SUBDIVISION,,8000.0,DO 33-2022,background,,0
+CR,Congbalay-Legaspi,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7000.0,DO 33-2022,background,,0
+CR,Congbalay-Legaspi,ALL OTHER STREETS,INTERIOR,5500.0,DO 33-2022,background,,0
+RR,Congbalay-Legaspi,ALL OTHER SUBDIVISION,,5000.0,DO 33-2022,background,,0
+RR,Congbalay-Legaspi,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 33-2022,background,,0
+RR,Congbalay-Legaspi,ALL OTHER STREETS,INTERIOR,3500.0,DO 33-2022,background,,0
+CR,Congbalay-Legaspi,CONGBALAY RD,MARQUEZ ST. (FATIMA ST) - COVELANDIA RD,13000.0,DO 33-2022,street,Congbalay Street,97
+CR,Congbalay-Legaspi,CONGBALAY RD,NATIONAL RD. - MARQUEZ ST. /(TIRONA HIGWAY TO DIVERSION ROAD),12000.0,DO 33-2022,street,Congbalay Street,97
+CR,Congbalay-Legaspi,CONGBALAY RD,INTERIOR,11000.0,DO 33-2022,street,Congbalay Street,97
+RR,Congbalay-Legaspi,CONGBALAY RD,MARQUEZ ST. (FATIMA ST) - COVELANDIA RD,8000.0,DO 33-2022,street,Congbalay Street,97
+RR,Congbalay-Legaspi,CONGBALAY RD,NATIONAL RD. - MARQUEZ ST. /(TIRONA HIGWAY TO DIVERSION ROAD),8000.0,DO 33-2022,street,Congbalay Street,97
+RR,Congbalay-Legaspi,CONGBALAY RD,INTERIOR,7000.0,DO 33-2022,street,Congbalay Street,97
+CR,Congbalay-Legaspi,DIVERSION ROAD,MARQUEZ ST.,9000.0,DO 33-2022,unmatched,Luzon (29),0
+CR,Congbalay-Legaspi,LEGASPI ST.,,9000.0,DO 33-2022,unmatched,Luzon (17),0
+CR,Congbalay-Legaspi,DIVERSION ROAD,INTERIOR,8000.0,DO 33-2022,unmatched,Luzon (29),0
+CR,Congbalay-Legaspi,LEGASPI ST.,INTERIOR,8000.0,DO 33-2022,unmatched,Luzon (17),0
+RR,Congbalay-Legaspi,DIVERSION ROAD,MARQUEZ ST.,6000.0,DO 33-2022,unmatched,Luzon (29),0
+RR,Congbalay-Legaspi,LEGASPI ST.,,6000.0,DO 33-2022,unmatched,Luzon (17),0
+RR,Congbalay-Legaspi,FVL SUBD,,6000.0,DO 33-2022,unmatched,Luzon (25),0
+RR,Congbalay-Legaspi,VILLA ICAZA,,6000.0,DO 33-2022,unmatched,Binakayan (40),0
+RR,Congbalay-Legaspi,DIVERSION ROAD,INTERIOR,5000.0,DO 33-2022,unmatched,Luzon (29),0
+RR,Congbalay-Legaspi,LEGASPI ST.,INTERIOR,5000.0,DO 33-2022,unmatched,Luzon (17),0
+CR,Gahak,ALL OTHER STREETS,ALONG ALL OTHER STREETS,10000.0,DO 33-2022,background,,0
+CR,Gahak,ALL OTHER SUBDIVISION,,9000.0,DO 33-2022,background,,0
+CR,Gahak,ALL OTHER STREETS,INTERIOR,8000.0,DO 33-2022,background,,0
+RR,Gahak,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6000.0,DO 33-2022,background,,0
+RR,Gahak,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Gahak,ALL OTHER STREETS,INTERIOR,5000.0,DO 33-2022,background,,0
+CR,Gahak,NATIONAL ROAD - CENTENIAL ROAD,A. SORIANO HIWAY (CENTENNIAL ROAD),24000.0,DO 33-2022,unmatched,Alix-Alex Compound (37),0
+CR,Gahak,NATIONAL ROAD - CENTENIAL ROAD,INTERIOR,20000.0,DO 33-2022,unmatched,Alix-Alex Compound (37),0
+CR,Gahak,PROVINCIAL ROAD,GAHAK ROAD,18000.0,DO 33-2022,unmatched,Georosville (48),0
+CR,Gahak,PROVINCIAL ROAD,INTERIOR,16000.0,DO 33-2022,unmatched,Georosville (48),0
+CR,Gahak,MRR GAHAK - TABON,,14000.0,DO 33-2022,unmatched,Sunset Meadow (29),0
+CR,Gahak,TRAMO ST.,,14000.0,DO 33-2022,unmatched,Sunset Meadow (33),0
+CR,Gahak,VICTA ST.,,14000.0,DO 33-2022,unmatched,Viejo Subdivision (40),0
+RR,Gahak,NATIONAL ROAD - CENTENIAL ROAD,A. SORIANO HIWAY (CENTENNIAL ROAD),12000.0,DO 33-2022,unmatched,Alix-Alex Compound (37),0
+CR,Gahak,MRR GAHAK - TABON,INTERIOR,12000.0,DO 33-2022,unmatched,Sunset Meadow (29),0
+CR,Gahak,TRAMO ST.,INTERIOR,12000.0,DO 33-2022,unmatched,Sunset Meadow (33),0
+CR,Gahak,VICTA ST.,INTERIOR,12000.0,DO 33-2022,unmatched,Viejo Subdivision (40),0
+RR,Gahak,NATIONAL ROAD - CENTENIAL ROAD,INTERIOR,10000.0,DO 33-2022,unmatched,Alix-Alex Compound (37),0
+RR,Gahak,PROVINCIAL ROAD,GAHAK ROAD,10000.0,DO 33-2022,unmatched,Georosville (48),0
+RR,Gahak,PROVINCIAL ROAD,INTERIOR,9000.0,DO 33-2022,unmatched,Georosville (48),0
+RR,Gahak,CAVITE EL VIEJO SUBD /,NATIONAL ROAD,9000.0,DO 33-2022,unmatched,Viejo Subdivision (50),0
+RR,Gahak,MRR GAHAK - TABON,,8000.0,DO 33-2022,unmatched,Sunset Meadow (29),0
+RR,Gahak,TRAMO ST.,,8000.0,DO 33-2022,unmatched,Sunset Meadow (33),0
+RR,Gahak,VICTA ST.,,8000.0,DO 33-2022,unmatched,Viejo Subdivision (40),0
+RR,Gahak,MRR GAHAK - TABON,INTERIOR,7000.0,DO 33-2022,unmatched,Sunset Meadow (29),0
+RR,Gahak,TRAMO ST.,INTERIOR,7000.0,DO 33-2022,unmatched,Sunset Meadow (33),0
+RR,Gahak,VICTA ST.,INTERIOR,7000.0,DO 33-2022,unmatched,Viejo Subdivision (40),0
+RR,Gahak,AMARIAH RESIDENCES,,7000.0,DO 33-2022,unmatched,Mikesell Subdivision (40),0
+RR,Gahak,BAGALAWIS SUBDIVISION / COMP,,7000.0,DO 33-2022,unmatched,Alix-Alex Compound (47),0
+RR,Gahak,ENCARNACION SUBD,,7000.0,DO 33-2022,unmatched,Sunset Meadow (33),0
+RR,Gahak,GALAN - RIETA SUBD,,7000.0,DO 33-2022,unmatched,Alix-Alex Compound (40),0
+RR,Gahak,MIRANDA SUBD,,7000.0,DO 33-2022,unmatched,Saudia Village (46),0
+RR,Gahak,SUNSET MEADOWS SUBD,,7000.0,DO 33-2022,village,Sunset Meadow,100
+CR,Kaingen,ALL OTHER STREETS,ALONG ALL OTHER STREETS,9000.0,DO 33-2022,background,,0
+CR,Kaingen,ALL OTHER SUBDIVISION,,8000.0,DO 33-2022,background,,0
+CR,Kaingen,ALL OTHER STREETS,INTERIOR,7000.0,DO 33-2022,background,,0
+I,Kaingen,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6000.0,DO 33-2022,background,,0
+I,Kaingen,ALL OTHER STREETS,INTERIOR,5000.0,DO 33-2022,background,,0
+RR,Kaingen,ALL OTHER SUBDIVISION,,4500.0,DO 33-2022,background,,0
+RR,Kaingen,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4000.0,DO 33-2022,background,,0
+RR,Kaingen,ALL OTHER STREETS,INTERIOR,3500.0,DO 33-2022,background,,0
+CR,Kaingen,FREEDOM ST.,,10000.0,DO 33-2022,street,Freedom Street,100
+CR,Kaingen,J LEGASPI ST.,,10000.0,DO 33-2022,street,J. Legaspi Street,100
+CR,Kaingen,P CANDA ST.,,10000.0,DO 33-2022,street,P. Canda Street,100
+CR,Kaingen,TANGULAN ST.,,10000.0,DO 33-2022,street,Tanggulan Street,95.65217391304348
+CR,Kaingen,FREEDOM ST.,INTERIOR,9500.0,DO 33-2022,street,Freedom Street,100
+CR,Kaingen,J LEGASPI ST.,INTERIOR,9500.0,DO 33-2022,street,J. Legaspi Street,100
+CR,Kaingen,P CANDA ST.,INTERIOR,9500.0,DO 33-2022,street,P. Canda Street,100
+CR,Kaingen,TANGULAN ST.,INTERIOR,9500.0,DO 33-2022,street,Tanggulan Street,95.65217391304348
+RR,Kaingen,FREEDOM ST.,,6000.0,DO 33-2022,street,Freedom Street,100
+RR,Kaingen,J LEGASPI ST.,,6000.0,DO 33-2022,street,J. Legaspi Street,100
+RR,Kaingen,P CANDA ST.,,6000.0,DO 33-2022,street,P. Canda Street,100
+RR,Kaingen,TANGULAN ST.,,6000.0,DO 33-2022,street,Tanggulan Street,95.65217391304348
+RR,Kaingen,FREEDOM ST.,INTERIOR,5000.0,DO 33-2022,street,Freedom Street,100
+RR,Kaingen,J LEGASPI ST.,INTERIOR,5000.0,DO 33-2022,street,J. Legaspi Street,100
+RR,Kaingen,P CANDA ST.,INTERIOR,5000.0,DO 33-2022,street,P. Canda Street,100
+RR,Kaingen,TANGULAN ST.,INTERIOR,5000.0,DO 33-2022,street,Tanggulan Street,95.65217391304348
+CR,Kaingen,NATIONAL ROAD,TIRONA HIGHWAY,15000.0,DO 33-2022,unmatched,Luzon (31),0
+CR,Kaingen,NATIONAL ROAD,FREEDOM PARK LOOP ROAD,15000.0,DO 33-2022,unmatched,Luzon (31),0
+CR,Kaingen,NATIONAL ROAD,INTERIOR,13000.0,DO 33-2022,unmatched,Luzon (31),0
+CR,Kaingen,KAINGEN,ALONG TANGULAN ST. - ALONG NATIONAL ROAD,13000.0,DO 33-2022,unmatched,Sunset Meadow (30),0
+CR,Kaingen,KAINGEN,INTERIOR,11000.0,DO 33-2022,unmatched,Sunset Meadow (30),0
+CR,Kaingen,PITONG BAYANI ST.,,10000.0,DO 33-2022,unmatched,Sunset Meadow (23),0
+CR,Kaingen,PITONG BAYANI ST.,INTERIOR,9500.0,DO 33-2022,unmatched,Sunset Meadow (23),0
+RR,Kaingen,NATIONAL ROAD,TIRONA HIGHWAY,9000.0,DO 33-2022,unmatched,Luzon (31),0
+RR,Kaingen,NATIONAL ROAD,FREEDOM PARK LOOP ROAD,9000.0,DO 33-2022,unmatched,Luzon (31),0
+RR,Kaingen,NATIONAL ROAD,INTERIOR,8000.0,DO 33-2022,unmatched,Luzon (31),0
+RR,Kaingen,KAINGEN,ALONG TANGULAN ST. - ALONG NATIONAL ROAD,8000.0,DO 33-2022,unmatched,Sunset Meadow (30),0
+RR,Kaingen,KAINGEN,INTERIOR,7000.0,DO 33-2022,unmatched,Sunset Meadow (30),0
+RR,Kaingen,PITONG BAYANI ST.,,6000.0,DO 33-2022,unmatched,Sunset Meadow (23),0
+RR,Kaingen,DON PEDRO SUBD,,6000.0,DO 33-2022,unmatched,Sunset Meadow (45),0
+RR,Kaingen,PITONG BAYANI ST.,INTERIOR,5000.0,DO 33-2022,unmatched,Sunset Meadow (23),0
+RR,Kaingen,JARIN SUBDIVISION,,5000.0,DO 33-2022,unmatched,Sunset Meadow (22),0
+CR,Magdalo,ALL OTHER STREETS,ALONG ALL OTHER STREETS,10000.0,DO 33-2022,background,,0
+CR,Magdalo,ALL OTHER SUBDIVISION,,9000.0,DO 33-2022,background,,0
+CR,Magdalo,ALL OTHER STREETS,INTERIOR,8000.0,DO 33-2022,background,,0
+RR,Magdalo,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Magdalo,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5500.0,DO 33-2022,background,,0
+RR,Magdalo,ALL OTHER STREETS,INTERIOR,5000.0,DO 33-2022,background,,0
+CR,Magdalo,DAANG BAKAL ST.(MRR ST.),PNR,12000.0,DO 33-2022,street,Daang Bakal Street,100
+CR,Magdalo,SALUD ST.,,12000.0,DO 33-2022,street,Dr. Salud Street,97
+CR,Magdalo,DAANG BAKAL ST.(MRR ST.),INTERIOR,10500.0,DO 33-2022,street,Daang Bakal Street,100
+CR,Magdalo,SALUD ST.,INTERIOR,10500.0,DO 33-2022,street,Dr. Salud Street,97
+RR,Magdalo,DAANG BAKAL ST.(MRR ST.),PNR,8000.0,DO 33-2022,street,Daang Bakal Street,100
+RR,Magdalo,SALUD ST.,,8000.0,DO 33-2022,street,Dr. Salud Street,97
+RR,Magdalo,DAANG BAKAL ST.(MRR ST.),INTERIOR,7000.0,DO 33-2022,street,Daang Bakal Street,100
+RR,Magdalo,SALUD ST.,INTERIOR,7000.0,DO 33-2022,street,Dr. Salud Street,97
+RR,Magdalo,SALUD COMPOUND,,7000.0,DO 33-2022,street,Dr. Salud Street,97
+CR,Magdalo,NATIONAL ROAD,PUTOL DIVERSION - CENTENNIAL ROAD,40000.0,DO 33-2022,unmatched,Centennial Town Plaza (41),0
+CR,Magdalo,NATIONAL ROAD,INTERIOR,32000.0,DO 33-2022,unmatched,Centennial Town Plaza (41),0
+RR,Magdalo,NATIONAL ROAD,PUTOL DIVERSION - CENTENNIAL ROAD,22000.0,DO 33-2022,unmatched,Centennial Town Plaza (41),0
+RR,Magdalo,NATIONAL ROAD,INTERIOR,18000.0,DO 33-2022,unmatched,Centennial Town Plaza (41),0
+CR,Magdalo,NATIONAL ROAD,MAGDIWANG HIGHWAY,12000.0,DO 33-2022,unmatched,Centennial Town Plaza (41),0
+CR,Magdalo,MAGDALO - STA. ISABEL ST.,,12000.0,DO 33-2022,unmatched,Centennial Town Plaza (41),0
+RR,Magdalo,GRAND CENTENNIAL HOMES,,12000.0,DO 33-2022,unmatched,Centennial Town Plaza (70),0
+CR,Magdalo,MAGDALO - STA. ISABEL ST.,INTERIOR,10500.0,DO 33-2022,unmatched,Centennial Town Plaza (41),0
+RR,Magdalo,NATIONAL ROAD,MAGDIWANG HIGHWAY,8000.0,DO 33-2022,unmatched,Centennial Town Plaza (41),0
+RR,Magdalo,MAGDALO - STA. ISABEL ST.,,8000.0,DO 33-2022,unmatched,Centennial Town Plaza (41),0
+RR,Magdalo,POBLETE SUBD,,7500.0,DO 33-2022,unmatched,Baypoint Estates (40),0
+RR,Magdalo,MAGDALO - STA. ISABEL ST.,INTERIOR,7000.0,DO 33-2022,unmatched,Centennial Town Plaza (41),0
+RR,Magdalo,CARENVILLE SUBD,,7000.0,DO 33-2022,unmatched,Marcville Subdivision (74),0
+RR,Magdalo,PIO ENCARNACION COMP,,7000.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (48),0
+RR,Magdalo,ROSEVILLE,,7000.0,DO 33-2022,unmatched,Marcville Subdivision (67),0
+RR,Magdalo,STA. MARIA SUBD,,7000.0,DO 33-2022,unmatched,Marcville Subdivision (44),0
+RR,Magdalo,VALES SUBD,,7000.0,DO 33-2022,unmatched,Venus Subdivision (50),0
+RR,Magdalo,CONSUELO SUBDIVISION,,6000.0,DO 33-2022,unmatched,Centennial Town Plaza (34),0
+RR,Magdalo,MARCVILLE,PROFETA SUBDIVISION,7000.0,DO 33-2022,village,Marcville Subdivision,100
+RR,Magdalo,VENUS SUBD,,7000.0,DO 33-2022,village,Venus Subdivision,100
+CR,Manggahan-Lawin,ALL OTHER SUBDIVISION,,9000.0,DO 33-2022,background,,0
+CR,Manggahan-Lawin,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8000.0,DO 33-2022,background,,0
+CR,Manggahan-Lawin,ALL OTHER STREETS,INTERIOR,6500.0,DO 33-2022,background,,0
+RR,Manggahan-Lawin,ALL OTHER SUBDIVISION,,5500.0,DO 33-2022,background,,0
+RR,Manggahan-Lawin,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 33-2022,background,,0
+RR,Manggahan-Lawin,ALL OTHER STREETS,INTERIOR,3500.0,DO 33-2022,background,,0
+CR,Manggahan-Lawin,MANGGAHAN ST.,BISITA ST-CAIMOL SUBD/ COMP.,11000.0,DO 33-2022,street,Manggahan Street,100
+CR,Manggahan-Lawin,MANGGAHAN ST.,INTERIOR,9000.0,DO 33-2022,street,Manggahan Street,100
+RR,Manggahan-Lawin,MANGGAHAN ST.,BISITA ST-CAIMOL SUBD/ COMP.,7000.0,DO 33-2022,street,Manggahan Street,100
+RR,Manggahan-Lawin,MANGGAHAN ST.,CAIMOL SUBD-BANGALAN SUBD,6000.0,DO 33-2022,street,Manggahan Street,100
+RR,Manggahan-Lawin,MANGGAHAN ST.,INTERIOR,5000.0,DO 33-2022,street,Manggahan Street,100
+CR,Manggahan-Lawin,BANGALAN ST.,,11000.0,DO 33-2022,unmatched,Angel Village (62),0
+CR,Manggahan-Lawin,LAWIN I ST.,CONG. V. ECAMO ST.,11000.0,DO 33-2022,unmatched,Angel Village (0),0
+CR,Manggahan-Lawin,BANGALAN ST.,INTERIOR,9000.0,DO 33-2022,unmatched,Angel Village (62),0
+CR,Manggahan-Lawin,LAWIN I ST.,INTERIOR,9000.0,DO 33-2022,unmatched,Angel Village (0),0
+RR,Manggahan-Lawin,ALLENVILLE SUBDIVISION,PHASE I - II,7000.0,DO 33-2022,unmatched,Camella Homes (47),0
+RR,Manggahan-Lawin,CAIMOL SUBD/ COMP,,7000.0,DO 33-2022,unmatched,Camella Homes (62),0
+RR,Manggahan-Lawin,SALUD SUBDIVISION / COMP.,,7000.0,DO 33-2022,unmatched,Angel Village (40),0
+RR,Manggahan-Lawin,SARINO SUBD/COMP.,,7000.0,DO 33-2022,unmatched,Angel Village (36),0
+RR,Manggahan-Lawin,BANGALAN ST.,,6000.0,DO 33-2022,unmatched,Angel Village (62),0
+RR,Manggahan-Lawin,LAWIN I ST.,CONG. V. ECAMO ST.,6000.0,DO 33-2022,unmatched,Angel Village (0),0
+RR,Manggahan-Lawin,BANGALAN SUBDIVISION/ COMP.,,6000.0,DO 33-2022,unmatched,Angel Village (62),0
+RR,Manggahan-Lawin,BANGALAN ST.,INTERIOR,5000.0,DO 33-2022,unmatched,Angel Village (62),0
+RR,Manggahan-Lawin,LAWIN I ST.,INTERIOR,5000.0,DO 33-2022,unmatched,Angel Village (0),0
+CR,Marulas,ALL OTHER STREETS,ALONG ALL OTHER STREETS,10000.0,DO 33-2022,background,,0
+CR,Marulas,ALL OTHER SUBDIVISION,,9000.0,DO 33-2022,background,,0
+CR,Marulas,ALL OTHER STREETS,INTERIOR,8000.0,DO 33-2022,background,,0
+I,Marulas,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7500.0,DO 33-2022,background,,0
+I,Marulas,ALL OTHER STREETS,INTERIOR,6500.0,DO 33-2022,background,,0
+RR,Marulas,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Marulas,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5500.0,DO 33-2022,background,,0
+RR,Marulas,ALL OTHER STREETS,INTERIOR,5000.0,DO 33-2022,background,,0
+CR,Marulas,CALAX ROAD,,40000.0,DO 33-2022,unmatched,Maligaya Subdivision (46),0
+CR,Marulas,NATIONAL ROAD,CENTENNIAL ROAD,40000.0,DO 33-2022,unmatched,Maligaya Subdivision (38),0
+CR,Marulas,NATIONAL ROAD,INTERIOR,32000.0,DO 33-2022,unmatched,Maligaya Subdivision (38),0
+RR,Marulas,CALAX ROAD,,22000.0,DO 33-2022,unmatched,Maligaya Subdivision (46),0
+RR,Marulas,NATIONAL ROAD,CENTENNIAL ROAD,22000.0,DO 33-2022,unmatched,Maligaya Subdivision (38),0
+RR,Marulas,NATIONAL ROAD,INTERIOR,18000.0,DO 33-2022,unmatched,Maligaya Subdivision (38),0
+CR,Marulas,MARULAS,ALONG NATIONAL ROAD / TIRONA HIGHWAY,16000.0,DO 33-2022,unmatched,Maligaya Subdivision (57),0
+CR,Marulas,MARULAS,INTERIOR,14000.0,DO 33-2022,unmatched,Maligaya Subdivision (57),0
+CR,Marulas,MRR ST.,,13000.0,DO 33-2022,unmatched,Maligaya Subdivision (18),0
+CR,Marulas,VIRATA ST.,,13000.0,DO 33-2022,unmatched,Maligaya Subdivision (43),0
+CR,Marulas,TRAMO ST.,(PNR),13000.0,DO 33-2022,unmatched,Sunset Meadow (33),0
+CR,Marulas,MRR ST.,INTERIOR,11000.0,DO 33-2022,unmatched,Maligaya Subdivision (18),0
+CR,Marulas,VIRATA ST.,INTERIOR,11000.0,DO 33-2022,unmatched,Maligaya Subdivision (43),0
+CR,Marulas,TRAMO ST.,INTERIOR,11000.0,DO 33-2022,unmatched,Sunset Meadow (33),0
+RR,Marulas,MARULAS,ALONG NATIONAL ROAD / TIRONA HIGHWAY,9000.0,DO 33-2022,unmatched,Maligaya Subdivision (57),0
+RR,Marulas,MARULAS,INTERIOR,8000.0,DO 33-2022,unmatched,Maligaya Subdivision (57),0
+RR,Marulas,MRR ST.,,7000.0,DO 33-2022,unmatched,Maligaya Subdivision (18),0
+RR,Marulas,VIRATA ST.,,7000.0,DO 33-2022,unmatched,Maligaya Subdivision (43),0
+RR,Marulas,TRAMO ST.,(PNR),7000.0,DO 33-2022,unmatched,Sunset Meadow (33),0
+RR,Marulas,BAWAR SUBD/ COMP.,,7000.0,DO 33-2022,unmatched,Binakayan (43),0
+RR,Marulas,MRR ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Maligaya Subdivision (18),0
+RR,Marulas,VIRATA ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Maligaya Subdivision (43),0
+RR,Marulas,TRAMO ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Sunset Meadow (33),0
+RR,Marulas,SUNSET MEADOWS SUBD,,7000.0,DO 33-2022,village,Sunset Meadow,100
+CR,Panamitan,ALL OTHER SUBDIVISION,,8000.0,DO 33-2022,background,,0
+CR,Panamitan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7000.0,DO 33-2022,background,,0
+I,Panamitan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6000.0,DO 33-2022,background,,0
+CR,Panamitan,ALL OTHER STREETS,INTERIOR,6000.0,DO 33-2022,background,,0
+RR,Panamitan,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Panamitan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5000.0,DO 33-2022,background,,0
+I,Panamitan,ALL OTHER STREETS,INTERIOR,5000.0,DO 33-2022,background,,0
+RR,Panamitan,ALL OTHER STREETS,INTERIOR,4000.0,DO 33-2022,background,,0
+CR,Panamitan,NATIONAL ROAD,TIRONA HIGHWAY,15000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+CR,Panamitan,NATIONAL ROAD,INTERIOR,12000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+CR,Panamitan,JOSEPHINE SUBD,SARAYBA DEVELOPER,11500.0,DO 33-2022,unmatched,Collin Ville (38),0
+RR,Panamitan,NATIONAL ROAD,TIRONA HIGHWAY,9000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+RR,Panamitan,NATIONAL ROAD,INTERIOR,7000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+RR,Panamitan,JOSEPHINE SUBD,SARAYBA DEVELOPER,7000.0,DO 33-2022,unmatched,Collin Ville (38),0
+RR,Panamitan,CADIZ COMPOUND,,7000.0,DO 33-2022,unmatched,Corona Subdivision (36),0
+RR,Panamitan,CORONA SUBDIVISION,,7000.0,DO 33-2022,village,Corona Subdivision,100
+RR,Panamitan,MARCVILLE SUBD,PROFETA SUBDIVISION,7000.0,DO 33-2022,village,Marcville Subdivision,100
+CR,Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,9000.0,DO 33-2022,background,,0
+CR,Poblacion,ALL OTHER STREETS,INTERIOR,7000.0,DO 33-2022,background,,0
+RR,Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5000.0,DO 33-2022,background,,0
+RR,Poblacion,ALL OTHER STREETS,INTERIOR,4000.0,DO 33-2022,background,,0
+CR,Poblacion,7 BAYANI ST.,,11000.0,DO 33-2022,street,7 Bayani Street,100
+CR,Poblacion,GREGORIO ST.,,11000.0,DO 33-2022,street,Gregoria Street,90.9090909090909
+CR,Poblacion,KALIGTASAN ST.,NATIONAL ROAD - MASCARDO ST.,11000.0,DO 33-2022,street,Kaligtasan Street,100
+CR,Poblacion,KALIGTASAN ST.,MASCARDO ST-TANGULAN,11000.0,DO 33-2022,street,Kaligtasan Street,100
+CR,Poblacion,TANGGULAN ST.,,11000.0,DO 33-2022,street,Tanggulan Street,100
+CR,Poblacion,7 BAYANI ST.,INTERIOR,10000.0,DO 33-2022,street,7 Bayani Street,100
+CR,Poblacion,GREGORIO ST.,INTERIOR,10000.0,DO 33-2022,street,Gregoria Street,90.9090909090909
+CR,Poblacion,KALIGTASAN ST.,INTERIOR,10000.0,DO 33-2022,street,Kaligtasan Street,100
+CR,Poblacion,TANGGULAN ST.,INTERIOR,10000.0,DO 33-2022,street,Tanggulan Street,100
+RR,Poblacion,7 BAYANI ST.,,8000.0,DO 33-2022,street,7 Bayani Street,100
+RR,Poblacion,GREGORIO ST.,,8000.0,DO 33-2022,street,Gregoria Street,90.9090909090909
+RR,Poblacion,KALIGTASAN ST.,NATIONAL ROAD - MASCARDO ST.,8000.0,DO 33-2022,street,Kaligtasan Street,100
+RR,Poblacion,KALIGTASAN ST.,MASCARDO ST-TANGULAN,8000.0,DO 33-2022,street,Kaligtasan Street,100
+RR,Poblacion,TANGGULAN ST.,,8000.0,DO 33-2022,street,Tanggulan Street,100
+RR,Poblacion,7 BAYANI ST.,INTERIOR,7000.0,DO 33-2022,street,7 Bayani Street,100
+RR,Poblacion,GREGORIO ST.,INTERIOR,7000.0,DO 33-2022,street,Gregoria Street,90.9090909090909
+RR,Poblacion,KALIGTASAN ST.,INTERIOR,7000.0,DO 33-2022,street,Kaligtasan Street,100
+RR,Poblacion,TANGGULAN ST.,INTERIOR,7000.0,DO 33-2022,street,Tanggulan Street,100
+CR,Poblacion,NATIONAL ROAD,JUNCTION 7 - BAYANI ST.,13000.0,DO 33-2022,unmatched,Luzon (31),0
+CR,Poblacion,NATIONAL ROAD,JUNCTION 2- TABON BRIDGE,13000.0,DO 33-2022,unmatched,Luzon (31),0
+CR,Poblacion,NATIONAL ROAD,INTERIOR,11000.0,DO 33-2022,unmatched,Luzon (31),0
+CR,Poblacion,EL GENERAL ESTATES,,11000.0,DO 33-2022,unmatched,Luzon (27),0
+CR,Poblacion,GEN. MASCARDO ST.,,11000.0,DO 33-2022,unmatched,Luzon (12),0
+CR,Poblacion,TUMAKAS ST.,,11000.0,DO 33-2022,unmatched,Luzon (18),0
+CR,Poblacion,EL GENERAL ESTATES,INTERIOR,10000.0,DO 33-2022,unmatched,Luzon (27),0
+CR,Poblacion,GEN. MASCARDO ST.,INTERIOR,10000.0,DO 33-2022,unmatched,Luzon (12),0
+CR,Poblacion,TUMAKAS ST.,INTERIOR,10000.0,DO 33-2022,unmatched,Luzon (18),0
+RR,Poblacion,NATIONAL ROAD,JUNCTION 7 - BAYANI ST.,9000.0,DO 33-2022,unmatched,Luzon (31),0
+RR,Poblacion,NATIONAL ROAD,JUNCTION 2- TABON BRIDGE,9000.0,DO 33-2022,unmatched,Luzon (31),0
+RR,Poblacion,NATIONAL ROAD,INTERIOR,8000.0,DO 33-2022,unmatched,Luzon (31),0
+RR,Poblacion,EL GENERAL ESTATES,,8000.0,DO 33-2022,unmatched,Luzon (27),0
+RR,Poblacion,GEN. MASCARDO ST.,,8000.0,DO 33-2022,unmatched,Luzon (12),0
+RR,Poblacion,TUMAKAS ST.,,8000.0,DO 33-2022,unmatched,Luzon (18),0
+RR,Poblacion,EL GENERAL ESTATES,INTERIOR,7000.0,DO 33-2022,unmatched,Luzon (27),0
+RR,Poblacion,GEN. MASCARDO ST.,INTERIOR,7000.0,DO 33-2022,unmatched,Luzon (12),0
+RR,Poblacion,TUMAKAS ST.,INTERIOR,7000.0,DO 33-2022,unmatched,Luzon (18),0
+CR,Pulvorista,ALL OTHER STREETS,ALONG ALL OTHER STREETS,11000.0,DO 33-2022,background,,0
+CR,Pulvorista,ALL OTHER STREETS,INTERIOR,9000.0,DO 33-2022,background,,0
+I,Pulvorista,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8500.0,DO 33-2022,background,,0
+I,Pulvorista,ALL OTHER STREETS,INTERIOR,7500.0,DO 33-2022,background,,0
+RR,Pulvorista,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6000.0,DO 33-2022,background,,0
+RR,Pulvorista,ALL OTHER STREETS,INTERIOR,5000.0,DO 33-2022,background,,0
+CR,Pulvorista,COVELANDIA ROAD,POGO ISLAND/ISLAND COVE,50000.0,DO 33-2022,street,Covelandia Road,100
+I,Pulvorista,COVELANDIA ROAD,POGO ISLAND/ISLAND COVE,40000.0,DO 33-2022,street,Covelandia Road,100
+CR,Pulvorista,COVELANDIA ROAD,,20000.0,DO 33-2022,street,Covelandia Road,100
+CR,Pulvorista,COVELANDIA ROAD,INTERIOR,16000.0,DO 33-2022,street,Covelandia Road,100
+CR,Pulvorista,PULVORISTA ST.,,15000.0,DO 33-2022,street,Pulvorista Street,100
+CR,Pulvorista,PULVORISTA ST.,INTERIOR,13000.0,DO 33-2022,street,Pulvorista Street,100
+I,Pulvorista,COVELANDIA ROAD,,12000.0,DO 33-2022,street,Covelandia Road,100
+RR,Pulvorista,COVELANDIA ROAD,,10000.0,DO 33-2022,street,Covelandia Road,100
+RR,Pulvorista,COVELANDIA ROAD,INTERIOR,9000.0,DO 33-2022,street,Covelandia Road,100
+RR,Pulvorista,PULVORISTA ST.,,8000.0,DO 33-2022,street,Pulvorista Street,100
+RR,Pulvorista,PULVORISTA ST.,INTERIOR,7000.0,DO 33-2022,street,Pulvorista Street,100
+CR,Samala-Marquez,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8500.0,DO 33-2022,background,,0
+CR,Samala-Marquez,ALL OTHER STREETS,INTERIOR,8000.0,DO 33-2022,background,,0
+CR,Samala-Marquez,ALL OTHER SUBDIVISION,,8000.0,DO 33-2022,background,,0
+RR,Samala-Marquez,ALL OTHER SUBDIVISION,,5000.0,DO 33-2022,background,,0
+RR,Samala-Marquez,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 33-2022,background,,0
+RR,Samala-Marquez,ALL OTHER STREETS,INTERIOR,3500.0,DO 33-2022,background,,0
+CR,Samala-Marquez,COVELANDIA ROAD,,15000.0,DO 33-2022,street,Covelandia Road,100
+CR,Samala-Marquez,COVELANDIA ROAD,INTERIOR,13000.0,DO 33-2022,street,Covelandia Road,100
+CR,Samala-Marquez,SAMALA ST.,PROVINCIAL ROAD,13000.0,DO 33-2022,street,Samala Street,100
+CR,Samala-Marquez,CONGBALAY ROAD,,11000.0,DO 33-2022,street,Congbalay Street,97
+CR,Samala-Marquez,SAMALA ST.,INTERIOR,10000.0,DO 33-2022,street,Samala Street,100
+RR,Samala-Marquez,COVELANDIA ROAD,,9000.0,DO 33-2022,street,Covelandia Road,100
+CR,Samala-Marquez,CONGBALAY ROAD,INTERIOR,9000.0,DO 33-2022,street,Congbalay Street,97
+RR,Samala-Marquez,COVELANDIA ROAD,INTERIOR,8000.0,DO 33-2022,street,Covelandia Road,100
+RR,Samala-Marquez,SAMALA ST.,PROVINCIAL ROAD,8000.0,DO 33-2022,street,Samala Street,100
+RR,Samala-Marquez,SAMALA ST.,INTERIOR,7000.0,DO 33-2022,street,Samala Street,100
+RR,Samala-Marquez,CONGBALAY ROAD,,7000.0,DO 33-2022,street,Congbalay Street,97
+RR,Samala-Marquez,BAUTISTA SUBDIVISION,,6000.0,DO 33-2022,street,Bautista Compound,97
+RR,Samala-Marquez,CONGBALAY ROAD,INTERIOR,5000.0,DO 33-2022,street,Congbalay Street,97
+CR,Samala-Marquez,NATIONAL ROAD,TIRONA HIWAY - SAMALA,15000.0,DO 33-2022,unmatched,Binakayan (35),0
+CR,Samala-Marquez,NATIONAL ROAD,INTERIOR,13000.0,DO 33-2022,unmatched,Binakayan (35),0
+CR,Samala-Marquez,MARQUEZ ST.,,11000.0,DO 33-2022,unmatched,Luzon (33),0
+RR,Samala-Marquez,NATIONAL ROAD,TIRONA HIWAY - SAMALA,9000.0,DO 33-2022,unmatched,Binakayan (35),0
+CR,Samala-Marquez,MARQUEZ ST.,INTERIOR,9000.0,DO 33-2022,unmatched,Luzon (33),0
+RR,Samala-Marquez,NATIONAL ROAD,INTERIOR,8000.0,DO 33-2022,unmatched,Binakayan (35),0
+RR,Samala-Marquez,MARQUEZ ST.,,7000.0,DO 33-2022,unmatched,Luzon (33),0
+RR,Samala-Marquez,MARQUEZ ST.,INTERIOR,5000.0,DO 33-2022,unmatched,Luzon (33),0
+CR,San Sebastian,ALL OTHER STREETS,ALONG ALL OTHER STREETS,10000.0,DO 33-2022,background,,0
+CR,San Sebastian,ALL OTHER STREETS,INTERIOR,8000.0,DO 33-2022,background,,0
+CR,San Sebastian,ALL OTHER SUBDIVISION,,8000.0,DO 33-2022,background,,0
+RR,San Sebastian,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,San Sebastian,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5000.0,DO 33-2022,background,,0
+RR,San Sebastian,ALL OTHER STREETS,INTERIOR,4000.0,DO 33-2022,background,,0
+RR,San Sebastian,LANCASTER VILLAGE,,9000.0,DO 33-2022,street,Lancaster Boulevard,97
+CR,San Sebastian,SAN SEBASTIAN ST.,EVO CITY,60000.0,DO 33-2022,unmatched,Grand Pasadena (52),0
+RR,San Sebastian,THE RESIDENCES AT EVO CITY,,30000.0,DO 33-2022,unmatched,The Residences (60),0
+RR,San Sebastian,GRAND CENTENNIAL HOMES,,12000.0,DO 33-2022,unmatched,Antel Grand Village (74),0
+CR,San Sebastian,SAN SEBASTIAN ST.,,11000.0,DO 33-2022,unmatched,Grand Pasadena (52),0
+CR,San Sebastian,SAN SEBASTIAN ST.,INTERIOR,10500.0,DO 33-2022,unmatched,Grand Pasadena (52),0
+RR,San Sebastian,SAN SEBASTIAN CIUDAD DE CAVITE,NHA,9000.0,DO 33-2022,unmatched,Grand Pasadena (41),0
+RR,San Sebastian,MASAITO SUBDIVISION,,9000.0,DO 33-2022,unmatched,Baypoint Estates (40),0
+RR,San Sebastian,PARKSVILLE SUBDIVISION,,9000.0,DO 33-2022,unmatched,Grand Parklane (50),0
+RR,San Sebastian,ROSEDALE RESIDENCE,,9000.0,DO 33-2022,unmatched,The Residences (67),0
+RR,San Sebastian,SAN SEBASTIAN ST.,,6000.0,DO 33-2022,unmatched,Grand Pasadena (52),0
+RR,San Sebastian,SAN SEBASTIAN ST.,INTERIOR,5500.0,DO 33-2022,unmatched,Grand Pasadena (52),0
+RR,San Sebastian,BAYPOINT ESTATE,,12000.0,DO 33-2022,village,Baypoint Estates,100
+RR,San Sebastian,VERANEO SUBD,,9000.0,DO 33-2022,village,Veraneo,100
+CR,Santa Isabel,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7500.0,DO 33-2022,background,,0
+CR,Santa Isabel,ALL OTHER SUBDIVISION,,7000.0,DO 33-2022,background,,0
+CR,Santa Isabel,ALL OTHER STREETS,INTERIOR,6500.0,DO 33-2022,background,,0
+RR,Santa Isabel,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 33-2022,background,,0
+RR,Santa Isabel,ALL OTHER SUBDIVISION,,4000.0,DO 33-2022,background,,0
+RR,Santa Isabel,ALL OTHER STREETS,INTERIOR,3500.0,DO 33-2022,background,,0
+CR,Santa Isabel,SANTONIL ST.,,10000.0,DO 33-2022,street,Santonil Street,100
+CR,Santa Isabel,SANTONIL ST.,INTERIOR,8000.0,DO 33-2022,street,Santonil Street,100
+RR,Santa Isabel,SANTONIL ST.,,5500.0,DO 33-2022,street,Santonil Street,100
+RR,Santa Isabel,SANTONIL ST.,INTERIOR,5000.0,DO 33-2022,street,Santonil Street,100
+CR,Santa Isabel,NATIONAL ROAD,MAGDIWANG HIWAY,11000.0,DO 33-2022,unmatched,Coastal Bay City Subdivision (42),0
+CR,Santa Isabel,PROVINCIAL ROAD,SANTONIL ROAD,10500.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (43),0
+CR,Santa Isabel,PROVINCIAL ROAD,ENCARNACION ROAD,10500.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (43),0
+CR,Santa Isabel,NATIONAL ROAD,INTERIOR,10000.0,DO 33-2022,unmatched,Coastal Bay City Subdivision (42),0
+CR,Santa Isabel,BAGNAS ST.,,10000.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (33),0
+CR,Santa Isabel,ENCARNACION ST.,,10000.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (50),0
+CR,Santa Isabel,STA. ISABEL ST.,,10000.0,DO 33-2022,unmatched,Coastal Bay City Subdivision (38),0
+CR,Santa Isabel,SULAN ST.,,10000.0,DO 33-2022,unmatched,Luzon (40),0
+CR,Santa Isabel,VALES ST.,,10000.0,DO 33-2022,unmatched,Marcville Subdivision (46),0
+CR,Santa Isabel,PROVINCIAL ROAD,INTERIOR,9500.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (43),0
+RR,Santa Isabel,NATIONAL ROAD,MAGDIWANG HIWAY,8000.0,DO 33-2022,unmatched,Coastal Bay City Subdivision (42),0
+CR,Santa Isabel,BAGNAS ST.,INTERIOR,8000.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (33),0
+CR,Santa Isabel,ENCARNACION ST.,INTERIOR,8000.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (50),0
+CR,Santa Isabel,STA. ISABEL ST.,INTERIOR,8000.0,DO 33-2022,unmatched,Coastal Bay City Subdivision (38),0
+CR,Santa Isabel,SULAN ST.,INTERIOR,8000.0,DO 33-2022,unmatched,Luzon (40),0
+CR,Santa Isabel,VALES ST.,INTERIOR,8000.0,DO 33-2022,unmatched,Marcville Subdivision (46),0
+RR,Santa Isabel,PROVINCIAL ROAD,SANTONIL ROAD,6500.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (43),0
+RR,Santa Isabel,PROVINCIAL ROAD,ENCARNACION ROAD,6500.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (43),0
+RR,Santa Isabel,NATIONAL ROAD,INTERIOR,6000.0,DO 33-2022,unmatched,Coastal Bay City Subdivision (42),0
+RR,Santa Isabel,PROVINCIAL ROAD,INTERIOR,6000.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (43),0
+RR,Santa Isabel,BAGNAS ST.,,5500.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (33),0
+RR,Santa Isabel,ENCARNACION ST.,,5500.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (50),0
+RR,Santa Isabel,STA. ISABEL ST.,,5500.0,DO 33-2022,unmatched,Coastal Bay City Subdivision (38),0
+RR,Santa Isabel,SULAN ST.,,5500.0,DO 33-2022,unmatched,Luzon (40),0
+RR,Santa Isabel,VALES ST.,,5500.0,DO 33-2022,unmatched,Marcville Subdivision (46),0
+RR,Santa Isabel,BAGNAS ST.,INTERIOR,5000.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (33),0
+RR,Santa Isabel,ENCARNACION ST.,INTERIOR,5000.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (50),0
+RR,Santa Isabel,STA. ISABEL ST.,INTERIOR,5000.0,DO 33-2022,unmatched,Coastal Bay City Subdivision (38),0
+RR,Santa Isabel,SULAN ST.,INTERIOR,5000.0,DO 33-2022,unmatched,Luzon (40),0
+RR,Santa Isabel,VALES ST.,INTERIOR,5000.0,DO 33-2022,unmatched,Marcville Subdivision (46),0
+RR,Santa Isabel,BAGNAS SUBD/ COMP.,,5000.0,DO 33-2022,unmatched,Villa Cañacao Subdivision (43),0
+RR,Santa Isabel,PUGAD IBON,RELOCATION I,4500.0,DO 33-2022,unmatched,Luzon (40),0
+RR,Santa Isabel,PUGAD IBON,RELOCATION II,4500.0,DO 33-2022,unmatched,Luzon (40),0
+RR,Santa Isabel,VILLA CANACAO,CAÑACAO SUBDIVISION,6000.0,DO 33-2022,village,Villa Cañacao Subdivision,100
+CR,Tabon I,ALL OTHER STREETS,ALONG ALL OTHER STREETS,9000.0,DO 33-2022,background,,0
+CR,Tabon I,ALL OTHER SUBDIVISION,,9000.0,DO 33-2022,background,,0
+I,Tabon I,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8000.0,DO 33-2022,background,,0
+CR,Tabon I,ALL OTHER STREETS,INTERIOR,7000.0,DO 33-2022,background,,0
+I,Tabon I,ALL OTHER STREETS,INTERIOR,6500.0,DO 33-2022,background,,0
+RR,Tabon I,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6000.0,DO 33-2022,background,,0
+RR,Tabon I,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Tabon I,ALL OTHER STREETS,INTERIOR,5000.0,DO 33-2022,background,,0
+RR,Tabon I,VILLA RAMIREZ (ALSO KNOWN AS VILLA SUBDIVISION),,7000.0,DO 33-2022,street,Villa Ramirez Road,97
+CR,Tabon I,NATIONAL ROAD,EVO CITY,60000.0,DO 33-2022,unmatched,Viejo Subdivision (31),0
+CR,Tabon I,CALAX ROAD,,40000.0,DO 33-2022,unmatched,Garland Subdivision (50),0
+CR,Tabon I,NATIONAL ROAD,CENTENNIAL ROAD,40000.0,DO 33-2022,unmatched,Viejo Subdivision (31),0
+CR,Tabon I,NATIONAL ROAD,INTERIOR,32000.0,DO 33-2022,unmatched,Viejo Subdivision (31),0
+I,Tabon I,NATIONAL ROAD,CENTENNIAL ROAD,25000.0,DO 33-2022,unmatched,Viejo Subdivision (31),0
+RR,Tabon I,CALAX ROAD,,22000.0,DO 33-2022,unmatched,Garland Subdivision (50),0
+RR,Tabon I,NATIONAL ROAD,CENTENNIAL ROAD,22000.0,DO 33-2022,unmatched,Viejo Subdivision (31),0
+I,Tabon I,NATIONAL ROAD,INTERIOR,20000.0,DO 33-2022,unmatched,Viejo Subdivision (31),0
+RR,Tabon I,NATIONAL ROAD,INTERIOR,18000.0,DO 33-2022,unmatched,Viejo Subdivision (31),0
+CR,Tabon I,MRR TABON - BATONG DALIG ST.,,12000.0,DO 33-2022,unmatched,Garland Subdivision (34),0
+CR,Tabon I,TANIB ST.,PNR,12000.0,DO 33-2022,unmatched,Garland Subdivision (33),0
+CR,Tabon I,MRR TABON - BATONG DALIG ST.,INTERIOR,10500.0,DO 33-2022,unmatched,Garland Subdivision (34),0
+CR,Tabon I,TANIB ST.,INTERIOR,10500.0,DO 33-2022,unmatched,Garland Subdivision (33),0
+RR,Tabon I,LANCASTER VILLAGE,,9000.0,DO 33-2022,unmatched,Garland Subdivision (38),0
+RR,Tabon I,MRR TABON - BATONG DALIG ST.,,8000.0,DO 33-2022,unmatched,Garland Subdivision (34),0
+RR,Tabon I,TANIB ST.,PNR,8000.0,DO 33-2022,unmatched,Garland Subdivision (33),0
+RR,Tabon I,MRR TABON - BATONG DALIG ST.,INTERIOR,7000.0,DO 33-2022,unmatched,Garland Subdivision (34),0
+RR,Tabon I,TANIB ST.,INTERIOR,7000.0,DO 33-2022,unmatched,Garland Subdivision (33),0
+RR,Tabon I,WATERFIELD VILLAGE,,7000.0,DO 33-2022,unmatched,Garland Subdivision (47),0
+RR,Tabon I,ENCARNACION COMPOUND,,6500.0,DO 33-2022,unmatched,Garland Subdivision (44),0
+CR,Tabon II,ALL OTHER SUBDIVISION,,9000.0,DO 33-2022,background,,0
+CR,Tabon II,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8000.0,DO 33-2022,background,,0
+CR,Tabon II,ALL OTHER STREETS,INTERIOR,6000.0,DO 33-2022,background,,0
+RR,Tabon II,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Tabon II,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5000.0,DO 33-2022,background,,0
+RR,Tabon II,ALL OTHER STREETS,INTERIOR,4000.0,DO 33-2022,background,,0
+CR,Tabon II,GREGORIA ST.,,11000.0,DO 33-2022,street,Gregoria Street,100
+CR,Tabon II,GREGORIA ST.,INTERIOR,9000.0,DO 33-2022,street,Gregoria Street,100
+RR,Tabon II,GREGORIA ST.,,7000.0,DO 33-2022,street,Gregoria Street,100
+RR,Tabon II,GREGORIA ST.,INTERIOR,6000.0,DO 33-2022,street,Gregoria Street,100
+CR,Tabon II,NATIONAL ROAD,MAGDIWANG HIGHWAY,13000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+CR,Tabon II,NATIONAL ROAD,INTERIOR,11000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+CR,Tabon II,MRR TABON - BATONG DALIG ST.,,11000.0,DO 33-2022,unmatched,Corona Subdivision (29),0
+CR,Tabon II,TANIB ST.,PNR,11000.0,DO 33-2022,unmatched,Luzon (20),0
+CR,Tabon II,MRR TABON - BATONG DALIG ST.,INTERIOR,9000.0,DO 33-2022,unmatched,Corona Subdivision (29),0
+CR,Tabon II,TANIB ST.,INTERIOR,9000.0,DO 33-2022,unmatched,Luzon (20),0
+RR,Tabon II,NATIONAL ROAD,MAGDIWANG HIGHWAY,8000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+RR,Tabon II,NATIONAL ROAD,INTERIOR,7000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+RR,Tabon II,MRR TABON - BATONG DALIG ST.,,7000.0,DO 33-2022,unmatched,Corona Subdivision (29),0
+RR,Tabon II,TANIB ST.,PNR,7000.0,DO 33-2022,unmatched,Luzon (20),0
+RR,Tabon II,GREENVILLE SUBD,,7000.0,DO 33-2022,unmatched,Corona Subdivision (25),0
+RR,Tabon II,ENCARNACION COMPOUND,,6500.0,DO 33-2022,unmatched,Corona Subdivision (47),0
+RR,Tabon II,MRR TABON - BATONG DALIG ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Corona Subdivision (29),0
+RR,Tabon II,TANIB ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Luzon (20),0
+RR,Tabon II,4K SUBD,,7000.0,DO 33-2022,village,4K Subdivision,100
+CR,Tabon III,ALL OTHER STREETS,ALONG ALL OTHER STREETS,9000.0,DO 33-2022,background,,0
+CR,Tabon III,ALL OTHER SUBDIVISION,,9000.0,DO 33-2022,background,,0
+CR,Tabon III,ALL OTHER STREETS,INTERIOR,7000.0,DO 33-2022,background,,0
+RR,Tabon III,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Tabon III,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5500.0,DO 33-2022,background,,0
+RR,Tabon III,ALL OTHER STREETS,INTERIOR,4500.0,DO 33-2022,background,,0
+CR,Tabon III,NATIONAL ROAD,CENTENNIAL ROAD,40000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+CR,Tabon III,NATIONAL ROAD,INTERIOR,32000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+RR,Tabon III,NATIONAL ROAD,CENTENNIAL ROAD,22000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+RR,Tabon III,NATIONAL ROAD,INTERIOR,18000.0,DO 33-2022,unmatched,Corona Subdivision (43),0
+CR,Tabon III,TANIB ST,PNR,12000.0,DO 33-2022,unmatched,Garland Subdivision (33),0
+CR,Tabon III,TANIB ST,INTERIOR,10500.0,DO 33-2022,unmatched,Garland Subdivision (33),0
+RR,Tabon III,TANIB ST,PNR,8000.0,DO 33-2022,unmatched,Garland Subdivision (33),0
+RR,Tabon III,TANIB ST,INTERIOR,7000.0,DO 33-2022,unmatched,Garland Subdivision (33),0
+RR,Tabon III,ENCARNACION COMPOUND,,6500.0,DO 33-2022,unmatched,Corona Subdivision (47),0
+RR,Tabon III,GARLAND SUBDIVISION,,7000.0,DO 33-2022,village,Garland Subdivision,100
+CR,Toclong,ALL OTHER STREETS,ALONG ALL OTHER STREETS,9500.0,DO 33-2022,background,,0
+CR,Toclong,ALL OTHER SUBDIVISION,,9000.0,DO 33-2022,background,,0
+CR,Toclong,ALL OTHER STREETS,INTERIOR,7500.0,DO 33-2022,background,,0
+I,Toclong,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7000.0,DO 33-2022,background,,0
+I,Toclong,ALL OTHER STREETS,INTERIOR,6000.0,DO 33-2022,background,,0
+RR,Toclong,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5500.0,DO 33-2022,background,,0
+RR,Toclong,ALL OTHER STREETS,INTERIOR,5000.0,DO 33-2022,background,,0
+RR,Toclong,ALL OTHER SUBDIVISION,,5000.0,DO 33-2022,background,,0
+CR,Toclong,ADVINCULA ROAD,,30000.0,DO 33-2022,street,Advincula Avenue,97
+CR,Toclong,ADVINCULA ROAD,INTERIOR,25000.0,DO 33-2022,street,Advincula Avenue,97
+RR,Toclong,ADVINCULA ROAD,,20000.0,DO 33-2022,street,Advincula Avenue,97
+RR,Toclong,ADVINCULA ROAD,INTERIOR,15000.0,DO 33-2022,street,Advincula Avenue,97
+CR,Toclong,TOCLONG ST.,,13000.0,DO 33-2022,street,Toclong Road,97
+CR,Toclong,TOCLONG ST.,INTERIOR,11000.0,DO 33-2022,street,Toclong Road,97
+RR,Toclong,TOCLONG ST.,,8000.0,DO 33-2022,street,Toclong Road,97
+RR,Toclong,TOCLONG ST.,INTERIOR,7000.0,DO 33-2022,street,Toclong Road,97
+CR,Toclong,CALAX ROAD,EVO CITY,60000.0,DO 33-2022,unmatched,Cattleya Homes (62),0
+CR,Toclong,CALAX ROAD,,30000.0,DO 33-2022,unmatched,Cattleya Homes (62),0
+RR,Toclong,THE RESIDENCES AT EVO CITY,,30000.0,DO 33-2022,unmatched,The Residences (60),0
+RR,Toclong,CALAX ROAD,,20000.0,DO 33-2022,unmatched,Cattleya Homes (62),0
+RR,Toclong,ESTRELLA HOMES SUBD (PH2),PHASE I - II,7000.0,DO 33-2022,unmatched,Regal Homes (46),0
+RR,Toclong,JULIE ANN VILLAGE,,7000.0,DO 33-2022,unmatched,Villanueva Compound (42),0
+RR,Toclong,NARRA COMPUND,,7000.0,DO 33-2022,unmatched,Narra Homes (56),0
+RR,Toclong,PHIL HOMES SUBD,,7000.0,DO 33-2022,unmatched,Philhomes Ville (44),0
+RR,Toclong,MUNICIPAL HOUSING PROJECT,KALAYAAN HOMES,6000.0,DO 33-2022,unmatched,Acacia Townhomes (40),0
+RR,Toclong,PINAGKAISA,RELOCATION,6000.0,DO 33-2022,unmatched,Pinagkalooban Village (70),0
+RR,Toclong,URBAN POOR DEVT PROP INC,JOSHUA VILLAGE,6000.0,DO 33-2022,unmatched,Veraneo (37),0
+RR,Toclong,BOSTON HEIGHTS SUBD,,7000.0,DO 33-2022,village,Boston Heights,100
+RR,Toclong,ESTRELLA HOMES IV SUBD,PHASE I - II,7000.0,DO 33-2022,village,Estrella Homes 4,100
+RR,Toclong,JOSHUA SUBDIVISION,,7000.0,DO 33-2022,village,Joshua Village,100
+RR,Toclong,KALAYAAN HOMES,,7000.0,DO 33-2022,village,Kalayaan Homes,100
+RR,Toclong,LAKERSFIELD SUBD,,7000.0,DO 33-2022,village,Lakersfield Subdivision,100
+RR,Toclong,ROCKWELL SUBD,,7000.0,DO 33-2022,village,Rockwell Classic Homes,95
+RR,Toclong,PINAGKALOOB,RELOCATION,6000.0,DO 33-2022,village,Pinagkalooban Village,91.66666666666666
+CR,Tramo-Bantayan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,10000.0,DO 33-2022,background,,0
+CR,Tramo-Bantayan,ALL OTHER SUBDIVISION,,9000.0,DO 33-2022,background,,0
+CR,Tramo-Bantayan,ALL OTHER STREETS,INTERIOR,8000.0,DO 33-2022,background,,0
+RR,Tramo-Bantayan,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Tramo-Bantayan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5500.0,DO 33-2022,background,,0
+RR,Tramo-Bantayan,ALL OTHER STREETS,INTERIOR,5000.0,DO 33-2022,background,,0
+RR,Tramo-Bantayan,BAUTISTA COMPOUND,,7000.0,DO 33-2022,street,Bautista Compound,100
+CR,Tramo-Bantayan,CALAX ROAD,,20000.0,DO 33-2022,unmatched,Maligaya Subdivision (46),0
+CR,Tramo-Bantayan,NATIONAL ROAD,TIRONA HIGWAY (PUBLIC MARKET),20000.0,DO 33-2022,unmatched,Angel Village (46),0
+CR,Tramo-Bantayan,NATIONAL ROAD,INTERIOR,16000.0,DO 33-2022,unmatched,Angel Village (46),0
+CR,Tramo-Bantayan,CAPT. BAUTISTA ST.,,13000.0,DO 33-2022,unmatched,Maligaya Subdivision (38),0
+CR,Tramo-Bantayan,CAJULIS ST.,,13000.0,DO 33-2022,unmatched,Maligaya Subdivision (43),0
+CR,Tramo-Bantayan,REALICA ST.,,13000.0,DO 33-2022,unmatched,Maligaya Subdivision (53),0
+CR,Tramo-Bantayan,TRAMO ST.,(PNR),13000.0,DO 33-2022,unmatched,Samalabanan Subdivision (25),0
+CR,Tramo-Bantayan,CAPT. BAUTISTA ST.,INTERIOR,11000.0,DO 33-2022,unmatched,Maligaya Subdivision (38),0
+CR,Tramo-Bantayan,CAJULIS ST.,INTERIOR,11000.0,DO 33-2022,unmatched,Maligaya Subdivision (43),0
+CR,Tramo-Bantayan,REALICA ST.,INTERIOR,11000.0,DO 33-2022,unmatched,Maligaya Subdivision (53),0
+CR,Tramo-Bantayan,TRAMO ST.,INTERIOR,11000.0,DO 33-2022,unmatched,Samalabanan Subdivision (25),0
+RR,Tramo-Bantayan,CALAX ROAD,,10000.0,DO 33-2022,unmatched,Maligaya Subdivision (46),0
+RR,Tramo-Bantayan,NATIONAL ROAD,TIRONA HIGWAY (PUBLIC MARKET),10000.0,DO 33-2022,unmatched,Angel Village (46),0
+RR,Tramo-Bantayan,NATIONAL ROAD,INTERIOR,9000.0,DO 33-2022,unmatched,Angel Village (46),0
+RR,Tramo-Bantayan,CAPT. BAUTISTA ST.,,7000.0,DO 33-2022,unmatched,Maligaya Subdivision (38),0
+RR,Tramo-Bantayan,CAJULIS ST.,,7000.0,DO 33-2022,unmatched,Maligaya Subdivision (43),0
+RR,Tramo-Bantayan,REALICA ST.,,7000.0,DO 33-2022,unmatched,Maligaya Subdivision (53),0
+RR,Tramo-Bantayan,TRAMO ST.,(PNR),7000.0,DO 33-2022,unmatched,Samalabanan Subdivision (25),0
+RR,Tramo-Bantayan,FATIMA SUBD,,7000.0,DO 33-2022,unmatched,Maligaya Subdivision (43),0
+RR,Tramo-Bantayan,CAPT. BAUTISTA ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Maligaya Subdivision (38),0
+RR,Tramo-Bantayan,CAJULIS ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Maligaya Subdivision (43),0
+RR,Tramo-Bantayan,REALICA ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Maligaya Subdivision (53),0
+RR,Tramo-Bantayan,TRAMO ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Samalabanan Subdivision (25),0
+CR,Wakas I,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8000.0,DO 33-2022,background,,0
+CR,Wakas I,ALL OTHER SUBDIVISION,,8000.0,DO 33-2022,background,,0
+CR,Wakas I,ALL OTHER STREETS,INTERIOR,6000.0,DO 33-2022,background,,0
+RR,Wakas I,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Wakas I,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5000.0,DO 33-2022,background,,0
+RR,Wakas I,ALL OTHER STREETS,INTERIOR,4000.0,DO 33-2022,background,,0
+CR,Wakas I,GREGORIA ST.,,12000.0,DO 33-2022,street,Gregoria Street,100
+CR,Wakas I,MASCARDO ST.,,12000.0,DO 33-2022,street,Mascardo Street,100
+CR,Wakas I,ORCULLO ST.,,12000.0,DO 33-2022,street,Orcullo Street,100
+CR,Wakas I,RAVELO ST.,,12000.0,DO 33-2022,street,Ravelo Street,100
+CR,Wakas I,RIETA ST.,,12000.0,DO 33-2022,street,Rieta Street,100
+CR,Wakas I,GREGORIA ST.,INTERIOR,9000.0,DO 33-2022,street,Gregoria Street,100
+CR,Wakas I,MASCARDO ST.,INTERIOR,9000.0,DO 33-2022,street,Mascardo Street,100
+CR,Wakas I,ORCULLO ST.,INTERIOR,9000.0,DO 33-2022,street,Orcullo Street,100
+CR,Wakas I,RAVELO ST.,INTERIOR,9000.0,DO 33-2022,street,Ravelo Street,100
+CR,Wakas I,RIETA ST.,INTERIOR,9000.0,DO 33-2022,street,Rieta Street,100
+RR,Wakas I,GREGORIA ST.,,7000.0,DO 33-2022,street,Gregoria Street,100
+RR,Wakas I,MASCARDO ST.,,7000.0,DO 33-2022,street,Mascardo Street,100
+RR,Wakas I,ORCULLO ST.,,7000.0,DO 33-2022,street,Orcullo Street,100
+RR,Wakas I,RAVELO ST.,,7000.0,DO 33-2022,street,Ravelo Street,100
+RR,Wakas I,RIETA ST.,,7000.0,DO 33-2022,street,Rieta Street,100
+RR,Wakas I,GREGORIA ST.,INTERIOR,6000.0,DO 33-2022,street,Gregoria Street,100
+RR,Wakas I,MASCARDO ST.,INTERIOR,6000.0,DO 33-2022,street,Mascardo Street,100
+RR,Wakas I,ORCULLO ST.,INTERIOR,6000.0,DO 33-2022,street,Orcullo Street,100
+RR,Wakas I,RAVELO ST.,INTERIOR,6000.0,DO 33-2022,street,Ravelo Street,100
+RR,Wakas I,RIETA ST.,INTERIOR,6000.0,DO 33-2022,street,Rieta Street,100
+CR,Wakas I,TIRONA ST.,,12000.0,DO 33-2022,unmatched,Corona Subdivision (67),0
+CR,Wakas I,TIRONA ST.,INTERIOR,9000.0,DO 33-2022,unmatched,Corona Subdivision (67),0
+RR,Wakas I,TIRONA ST.,,7000.0,DO 33-2022,unmatched,Corona Subdivision (67),0
+RR,Wakas I,TIRONA ST.,INTERIOR,6000.0,DO 33-2022,unmatched,Corona Subdivision (67),0
+RR,Wakas I,CORONA SUBD,,6500.0,DO 33-2022,village,Corona Subdivision,100
+CR,Wakas II,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8000.0,DO 33-2022,background,,0
+CR,Wakas II,ALL OTHER SUBDIVISION,,8000.0,DO 33-2022,background,,0
+CR,Wakas II,ALL OTHER STREETS,INTERIOR,6000.0,DO 33-2022,background,,0
+RR,Wakas II,ALL OTHER SUBDIVISION,,6000.0,DO 33-2022,background,,0
+RR,Wakas II,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5000.0,DO 33-2022,background,,0
+RR,Wakas II,ALL OTHER STREETS,INTERIOR,4000.0,DO 33-2022,background,,0
+CR,Wakas II,GREGORIA ST.,,12000.0,DO 33-2022,street,Gregoria Street,100
+CR,Wakas II,MASCARDO ST.,,12000.0,DO 33-2022,street,Mascardo Street,100
+CR,Wakas II,ORCULLO ST.,,12000.0,DO 33-2022,street,Orcullo Street,100
+CR,Wakas II,RAVELO ST.,,12000.0,DO 33-2022,street,Ravelo Street,100
+CR,Wakas II,RIETA ST.,,12000.0,DO 33-2022,street,Rieta Street,100
+CR,Wakas II,TANGULAN ST.,,12000.0,DO 33-2022,street,Tanggulan Street,95.65217391304348
+CR,Wakas II,GREGORIA ST.,INTERIOR,9000.0,DO 33-2022,street,Gregoria Street,100
+CR,Wakas II,MASCARDO ST.,INTERIOR,9000.0,DO 33-2022,street,Mascardo Street,100
+CR,Wakas II,ORCULLO ST.,INTERIOR,9000.0,DO 33-2022,street,Orcullo Street,100
+CR,Wakas II,RAVELO ST.,INTERIOR,9000.0,DO 33-2022,street,Ravelo Street,100
+CR,Wakas II,RIETA ST.,INTERIOR,9000.0,DO 33-2022,street,Rieta Street,100
+CR,Wakas II,TANGULAN ST.,INTERIOR,9000.0,DO 33-2022,street,Tanggulan Street,95.65217391304348
+RR,Wakas II,GREGORIA ST.,,7000.0,DO 33-2022,street,Gregoria Street,100
+RR,Wakas II,MASCARDO ST.,,7000.0,DO 33-2022,street,Mascardo Street,100
+RR,Wakas II,ORCULLO ST.,,7000.0,DO 33-2022,street,Orcullo Street,100
+RR,Wakas II,RAVELO ST.,,7000.0,DO 33-2022,street,Ravelo Street,100
+RR,Wakas II,RIETA ST.,,7000.0,DO 33-2022,street,Rieta Street,100
+RR,Wakas II,TANGULAN ST.,,7000.0,DO 33-2022,street,Tanggulan Street,95.65217391304348
+RR,Wakas II,GREGORIA ST.,INTERIOR,6000.0,DO 33-2022,street,Gregoria Street,100
+RR,Wakas II,MASCARDO ST.,INTERIOR,6000.0,DO 33-2022,street,Mascardo Street,100
+RR,Wakas II,ORCULLO ST.,INTERIOR,6000.0,DO 33-2022,street,Orcullo Street,100
+RR,Wakas II,RAVELO ST.,INTERIOR,6000.0,DO 33-2022,street,Ravelo Street,100
+RR,Wakas II,RIETA ST.,INTERIOR,6000.0,DO 33-2022,street,Rieta Street,100
+RR,Wakas II,TANGULAN ST.,INTERIOR,6000.0,DO 33-2022,street,Tanggulan Street,95.65217391304348
+RR,Wakas II,COLET SUBD,,6500.0,DO 33-2022,unmatched,Corona Subdivision (36),0

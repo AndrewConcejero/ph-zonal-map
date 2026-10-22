@@ -1,0 +1,218 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Anos,ALL OTHER STREETS,ALONG NATIONAL ROAD,12000.0,DO 59-2023,background,,0
+CR,Anos,ALL OTHER STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,background,,0
+RR,Anos,ALL OTHER STREETS,ALONG NATIONAL ROAD,6000.0,DO 59-2023,background,,0
+RR,Anos,ALL OTHER STREETS,ALONG BARANGAY ROAD,4500.0,DO 59-2023,background,,0
+RR,Anos,ALL OTHER STREETS,INTERIOR LOTS,3500.0,DO 59-2023,background,,0
+RR,Anos,ALL OTHER STREETS,NEAR CEMETERY LOT,3000.0,DO 59-2023,background,,0
+CR,Anos,MARYMOUNT SUBD I-III,,7500.0,DO 59-2023,unmatched,Umali Subdivision (0),0
+CR,Anos,SAN ISIDRO SUBD,,7500.0,DO 59-2023,unmatched,Rhoda Subdivision (40),0
+CR,Anos,ELIZABETH HAMLET,,7500.0,DO 59-2023,unmatched,Lopez Heights (43),0
+CR,Anos,MARYMOUNT VILLAGE IV,,7500.0,DO 59-2023,unmatched,Umali Subdivision (0),0
+RR,Anos,MARYMOUNT SUBD I-III,,5000.0,DO 59-2023,unmatched,Umali Subdivision (0),0
+RR,Anos,SAN ISIDRO SUBD,,5000.0,DO 59-2023,unmatched,Rhoda Subdivision (40),0
+RR,Anos,ELIZABETH HAMLET,,5000.0,DO 59-2023,unmatched,Lopez Heights (43),0
+RR,Anos,MARYMOUNT VILLAGE IV,,5000.0,DO 59-2023,unmatched,Umali Subdivision (0),0
+CR,Anos,CARBERN VILLAGE,,7500.0,DO 59-2023,village,Carbern Village,100
+CR,Anos,LOPEZ HEIGHTS SUBD,,7500.0,DO 59-2023,village,Lopez Heights,100
+CR,Anos,MAKILING SUBD,,7500.0,DO 59-2023,village,Makiling Subdivision,100
+CR,Anos,RHODAS SUBD (REVILLEZA),,7500.0,DO 59-2023,village,Rhoda Subdivision,100
+RR,Anos,CARBERN VILLAGE,,5000.0,DO 59-2023,village,Carbern Village,100
+RR,Anos,LOPEZ HEIGHTS SUBD,,5000.0,DO 59-2023,village,Lopez Heights,100
+RR,Anos,MAKILING SUBD,,5000.0,DO 59-2023,village,Makiling Subdivision,100
+RR,Anos,RHODAS SUBD (REVILLEZA),,5000.0,DO 59-2023,village,Rhoda Subdivision,100
+RR,Bagong Silang,ALL STREETS,BARANGAY ROAD,500.0,DO 69-2002,unmatched,,0
+RR,Bagong Silang,ALL STREETS,INTERIOR LOT,450.0,DO 69-2002,unmatched,,0
+CR,Bambang,ALL OTHER STREETS,ALONG NATIONAL HIGHWAY,12000.0,DO 59-2023,background,,0
+CR,Bambang,ALL OTHER STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,background,,0
+RR,Bambang,ALL OTHER STREETS,ALONG NATIONAL HIGHWAY,5000.0,DO 59-2023,background,,0
+RR,Bambang,ALL OTHER STREETS,ALONG BARANGAY ROAD,4500.0,DO 59-2023,background,,0
+RR,Bambang,ALL OTHER STREETS,INTERIOR LOTS,3500.0,DO 59-2023,background,,0
+RR,Bambang,LOS BANOS VILLAGE,,5000.0,DO 59-2023,unmatched,Los Baños Central Elementary School (Primary) (95),0
+RR,Bambang,JADELAND,,5000.0,DO 59-2023,unmatched,Lakewood (38),0
+CR,Bambang,JAMAICA HILLS SUBD,,7500.0,DO 59-2023,village,Jamaica Hills,100
+RR,Bambang,JAMAICA HILLS SUBD,,5000.0,DO 59-2023,village,Jamaica Hills,100
+CR,Batong Malake,ALL OTHER STREETS,,8000.0,DO 59-2023,background,,0
+RR,Batong Malake,ALL OTHER STREETS,,5000.0,DO 59-2023,background,,0
+RR,Batong Malake,ALL OTHER STREETS,INTERIOR LOTS,4500.0,DO 59-2023,background,,0
+CR,Batong Malake,LOPEZ AVENUE,CROSSING-UP GATE,35000.0,DO 59-2023,street,Lopez Avenue,100
+CR,Batong Malake,LOPEZ AVENUE,INTERIOR,20000.0,DO 59-2023,street,Lopez Avenue,100
+CR,Batong Malake,BANGKAL ST,ALONG BARANGAY ROAD,17000.0,DO 59-2023,street,Bangkal Road,97
+CR,Batong Malake,EL DANDA COMPOUND,,12000.0,DO 59-2023,street,El Danda Street,97
+RR,Batong Malake,LOPEZ AVENUE,INTERIOR,10000.0,DO 59-2023,street,Lopez Avenue,100
+RR,Batong Malake,BANGKAL ST,ALONG BARANGAY ROAD,9000.0,DO 59-2023,street,Bangkal Road,97
+RR,Batong Malake,EL DANDA COMPOUND,,7000.0,DO 59-2023,street,El Danda Street,97
+RR,Batong Malake,BANGKAL ST,INTERIOR LOTS,6000.0,DO 59-2023,street,Bangkal Road,97
+CR,Batong Malake,CROSSING,ALONG NATIONAL ROAD,35000.0,DO 59-2023,unmatched,UP-Cornell Housing (54),0
+RR,Batong Malake,CROSSING,ALONG NATIONAL ROAD,20000.0,DO 59-2023,unmatched,UP-Cornell Housing (54),0
+CR,Batong Malake,DEMARSES SUBD,,10000.0,DO 59-2023,unmatched,Demarses Farmville (58),0
+CR,Batong Malake,TRIAS COMPOUND,,10000.0,DO 59-2023,unmatched,Ilag Compound (50),0
+RR,Batong Malake,DEMARSES SUBD,,5500.0,DO 59-2023,unmatched,Demarses Farmville (58),0
+RR,Batong Malake,TRIAS COMPOUND,,5500.0,DO 59-2023,unmatched,Ilag Compound (50),0
+CR,Batong Malake,SACAY GRAND VILLAS SUBD,,12000.0,DO 59-2023,village,Sacay Grand Villas,100
+CR,Batong Malake,ORCHARD ROW,,10000.0,DO 59-2023,village,Orchard Row,100
+CR,Batong Malake,RAYMUNDO COMPOUND,,10000.0,DO 59-2023,village,Raymundo,100
+CR,Batong Malake,ROCKVILLE SUBD,,10000.0,DO 59-2023,village,Rockville,100
+CR,Batong Malake,STA. FE SUBD,,10000.0,DO 59-2023,village,Santa Fe Subdivision,85.71428571428572
+CR,Batong Malake,LOS BAÑOS SUBD. (UMALI SUBD),,10000.0,DO 59-2023,village,Umali Subdivision,100
+CR,Batong Malake,VILLEGAS SUBD,,10000.0,DO 59-2023,village,Villegas Compound,100
+RR,Batong Malake,SACAY GRAND VILLAS SUBD,,8000.0,DO 59-2023,village,Sacay Grand Villas,100
+RR,Batong Malake,ORCHARD ROW,,5500.0,DO 59-2023,village,Orchard Row,100
+RR,Batong Malake,RAYMUNDO COMPOUND,,5500.0,DO 59-2023,village,Raymundo,100
+RR,Batong Malake,ROCKVILLE SUBD,,5500.0,DO 59-2023,village,Rockville,100
+RR,Batong Malake,STA. FE SUBD,,5500.0,DO 59-2023,village,Santa Fe Subdivision,85.71428571428572
+RR,Batong Malake,LOS BAÑOS SUBD. (UMALI SUBD),,5500.0,DO 59-2023,village,Umali Subdivision,100
+RR,Batong Malake,VILLEGAS SUBD,,5500.0,DO 59-2023,village,Villegas Compound,100
+CR,Baybayin,ALL OTHER STREETS,,7000.0,DO 59-2023,background,,0
+RR,Baybayin,ALL OTHER STREETS,,6000.0,DO 59-2023,background,,0
+RR,Baybayin,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 59-2023,background,,0
+CR,Baybayin,VILLEGAS,,12000.0,DO 59-2023,street,Villegas Street,97
+RR,Baybayin,DE PASUPIL,,6000.0,DO 59-2023,street,De Pasupil Street,97
+RR,Baybayin,LOPEZ,,6000.0,DO 59-2023,street,Lopez Street,97
+RR,Baybayin,VILLEGAS,,6000.0,DO 59-2023,street,Villegas Street,97
+CR,Baybayin,RIZAL,,12000.0,DO 59-2023,unmatched,,0
+CR,Baybayin,LUNA,,10000.0,DO 59-2023,unmatched,,0
+RR,Baybayin,RIZAL,,6500.0,DO 59-2023,unmatched,,0
+RR,Baybayin,BURGOS,ALONG PROVINCIAL ROAD,6000.0,DO 59-2023,unmatched,,0
+RR,Baybayin,LOPEZ JAENA,,6000.0,DO 59-2023,unmatched,,0
+RR,Baybayin,LUNA,,6000.0,DO 59-2023,unmatched,,0
+RR,Baybayin,MABINI,,6000.0,DO 59-2023,unmatched,,0
+CR,Bayog,ST. FRANCIS SUBD.,,10000.0,DO 59-2023,unmatched,Jardin Leonila (30),0
+RR,Bayog,ST. FRANCIS SUBD.,,5500.0,DO 59-2023,unmatched,Jardin Leonila (30),0
+CR,Bayog,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Jardin Leonila (35),0
+RR,Bayog,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Jardin Leonila (35),0
+RR,Bayog,ALL STREETS,INTERIOR LOTS,3500.0,DO 59-2023,unmatched,Jardin Leonila (35),0
+CR,Lalakay,FIL ESTATE SUBD,,10000.0,DO 59-2023,unmatched,Makiling Heights Subdivision (22),0
+CR,Lalakay,LALAKAY SUBD,,10000.0,DO 59-2023,unmatched,Lakewood (40),0
+CR,Lalakay,MAKILING HEIGHTS SUBD PHASE 1,,10000.0,DO 59-2023,unmatched,Makiling Heights Subdivision (0),0
+CR,Lalakay,MAKILING HEIGHTS SUBD PHASE 2 (ALT),,10000.0,DO 59-2023,unmatched,Makiling Heights Subdivision (33),0
+CR,Lalakay,PALM SPRINGS GARDEN,,10000.0,DO 59-2023,unmatched,Springdale Garden Subdivision (74),0
+CR,Lalakay,ALL STREETS,ALONG NATIONAL HIGHWAY,10000.0,DO 59-2023,unmatched,Makiling Heights Subdivision (22),0
+CR,Lalakay,ALL STREETS,ALONG BARANGAY ROAD,8500.0,DO 59-2023,unmatched,Makiling Heights Subdivision (22),0
+RR,Lalakay,ALL STREETS,ALONG NATIONAL HIGHWAY,6000.0,DO 59-2023,unmatched,Makiling Heights Subdivision (22),0
+RR,Lalakay,FIL ESTATE SUBD,,5500.0,DO 59-2023,unmatched,Makiling Heights Subdivision (22),0
+RR,Lalakay,LALAKAY SUBD,,5500.0,DO 59-2023,unmatched,Lakewood (40),0
+RR,Lalakay,MAKILING HEIGHTS SUBD PHASE 1,,5500.0,DO 59-2023,unmatched,Makiling Heights Subdivision (0),0
+RR,Lalakay,MAKILING HEIGHTS SUBD PHASE 2 (ALT),,5500.0,DO 59-2023,unmatched,Makiling Heights Subdivision (33),0
+RR,Lalakay,PALM SPRINGS GARDEN,,5500.0,DO 59-2023,unmatched,Springdale Garden Subdivision (74),0
+RR,Lalakay,ALL STREETS,INTERIOR LOT,5500.0,DO 59-2023,unmatched,Makiling Heights Subdivision (22),0
+RR,Lalakay,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Makiling Heights Subdivision (22),0
+CR,Lalakay,MAKILING HEIGHTS SUBD,,10000.0,DO 59-2023,village,Makiling Heights Subdivision,100
+CR,Lalakay,SPRING OAKS RESIDENCES,,10000.0,DO 59-2023,village,Spring Oaks Residences,100
+CR,Lalakay,LAKEWOOD,,10000.0,DO 59-2023,village,Lakewood,100
+CR,Lalakay,SPRINGDALE GARDEN SUBD,,10000.0,DO 59-2023,village,Springdale Garden Subdivision,100
+CR,Lalakay,PARK MERCED SUBD,,10000.0,DO 59-2023,village,Park Merced Village,100
+RR,Lalakay,MAKILING HEIGHTS SUBD,,5500.0,DO 59-2023,village,Makiling Heights Subdivision,100
+RR,Lalakay,SPRING OAKS RESIDENCES,,5500.0,DO 59-2023,village,Spring Oaks Residences,100
+RR,Lalakay,LAKEWOOD,,5500.0,DO 59-2023,village,Lakewood,100
+RR,Lalakay,SPRINGDALE GARDEN SUBD,,5500.0,DO 59-2023,village,Springdale Garden Subdivision,100
+RR,Lalakay,PARK MERCED SUBD,,5500.0,DO 59-2023,village,Park Merced Village,100
+CR,Maahas,ALL STREETS,ALONG NATIONAL HIGHWAY,15000.0,DO 59-2023,unmatched,Beavill Subdivision (60),0
+CR,Maahas,ANEST VILLE,,7500.0,DO 59-2023,unmatched,Villa Niña (57),0
+CR,Maahas,MALIGAYA CPD,,7500.0,DO 59-2023,unmatched,Maharlika Village (59),0
+CR,Maahas,OARLAND CPD/ONATE SUBD,,7500.0,DO 59-2023,unmatched,Jardin Leonila (52),0
+CR,Maahas,VILLA CONCEPCION,,7500.0,DO 59-2023,unmatched,Villa Niña (69),0
+CR,Maahas,VILLA MARIZ SUBD,,7500.0,DO 59-2023,unmatched,Villa Niña (67),0
+CR,Maahas,ALL STREETS,ALONG BARANGAY ROAD,7000.0,DO 59-2023,unmatched,Beavill Subdivision (60),0
+RR,Maahas,ANEST VILLE,,5000.0,DO 59-2023,unmatched,Villa Niña (57),0
+RR,Maahas,MALIGAYA CPD,,5000.0,DO 59-2023,unmatched,Maharlika Village (59),0
+RR,Maahas,OARLAND CPD/ONATE SUBD,,5000.0,DO 59-2023,unmatched,Jardin Leonila (52),0
+RR,Maahas,VILLA CONCEPCION,,5000.0,DO 59-2023,unmatched,Villa Niña (69),0
+RR,Maahas,VILLA MARIZ SUBD,,5000.0,DO 59-2023,unmatched,Villa Niña (67),0
+RR,Maahas,ALL STREETS,ALONG NATIONAL HIGHWAY,5000.0,DO 59-2023,unmatched,Beavill Subdivision (60),0
+RR,Maahas,ALL STREETS,INTERIOR LOT,4500.0,DO 59-2023,unmatched,Beavill Subdivision (60),0
+RR,Maahas,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Beavill Subdivision (60),0
+CR,Maahas,BEA VILLE SUBD,,7500.0,DO 59-2023,village,Beavill Subdivision,87.5
+CR,Maahas,JARDIN LEONILA SUBD,,7500.0,DO 59-2023,village,Jardin Leonila,100
+CR,Maahas,MAHARLIKA VILLAGE,,7500.0,DO 59-2023,village,Maharlika Village,100
+RR,Maahas,BEA VILLE SUBD,,5000.0,DO 59-2023,village,Beavill Subdivision,87.5
+RR,Maahas,JARDIN LEONILA SUBD,,5000.0,DO 59-2023,village,Jardin Leonila,100
+RR,Maahas,MAHARLIKA VILLAGE,,5000.0,DO 59-2023,village,Maharlika Village,100
+CR,Malinta,ALL LOTS,ALONG NATIONAL ROAD,14000.0,DO 59-2023,unmatched,Makiling Subdivision (25),0
+CR,Malinta,SAN LUIS AVENUE (previously name Mayondon an,ALONG PROVINCIAL ROAD,9000.0,DO 59-2023,unmatched,Prince Spring Subdivision (33),0
+RR,Malinta,ALL LOTS,ALONG NATIONAL ROAD,8000.0,DO 59-2023,unmatched,Makiling Subdivision (25),0
+CR,Malinta,SAN LUIS AVENUE (previously name Mayondon an,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Prince Spring Subdivision (33),0
+RR,Malinta,ALL LOTS,INTERIOR LOTS,7000.0,DO 59-2023,unmatched,Makiling Subdivision (25),0
+RR,Malinta,SAN LUIS AVENUE (previously name Mayondon an,ALONG PROVINCIAL ROAD,6000.0,DO 59-2023,unmatched,Prince Spring Subdivision (33),0
+RR,Malinta,SAN LUIS AVENUE (previously name Mayondon an,INTERIOR LOTS,5000.0,DO 59-2023,unmatched,Prince Spring Subdivision (33),0
+RR,Malinta,SAN LUIS AVENUE (previously name Mayondon an,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Prince Spring Subdivision (33),0
+CR,Mayondon,EURO SOUTH RIDGE SUBD,,10000.0,DO 59-2023,unmatched,Bernardo Village (42),0
+CR,Mayondon,PRINCE SPRING SUBD PH 1-3,,10000.0,DO 59-2023,unmatched,Rockville (0),0
+CR,Mayondon,VILLA ADELINA,,10000.0,DO 59-2023,unmatched,Villa Amanda Residences (63),0
+CR,Mayondon,VIRGINIA HOMES,,10000.0,DO 59-2023,unmatched,Prince Spring Subdivision (38),0
+CR,Mayondon,ALL STREETS,ALL STREETS,9000.0,DO 59-2023,unmatched,Makiling Subdivision (36),0
+CR,Mayondon,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Makiling Subdivision (36),0
+RR,Mayondon,EURO SOUTH RIDGE SUBD,,5500.0,DO 59-2023,unmatched,Bernardo Village (42),0
+RR,Mayondon,PRINCE SPRING SUBD PH 1-3,,5500.0,DO 59-2023,unmatched,Rockville (0),0
+RR,Mayondon,VILLA ADELINA,,5500.0,DO 59-2023,unmatched,Villa Amanda Residences (63),0
+RR,Mayondon,VIRGINIA HOMES,,5000.0,DO 59-2023,unmatched,Prince Spring Subdivision (38),0
+RR,Mayondon,ALL STREETS,ALL STREETS,5000.0,DO 59-2023,unmatched,Makiling Subdivision (36),0
+RR,Mayondon,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Makiling Subdivision (36),0
+RR,Mayondon,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Makiling Subdivision (36),0
+CR,Mayondon,BERNARDO VILLAGE,,10000.0,DO 59-2023,village,Bernardo Village,100
+RR,Mayondon,BERNARDO VILLAGE,,5500.0,DO 59-2023,village,Bernardo Village,100
+CR,Putho Tuntungin,ALL STREETS,ALONG PROVINCIAL ROAD,7000.0,DO 59-2023,unmatched,Dairyville (46),0
+CR,Putho Tuntungin,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Dairyville (46),0
+RR,Putho Tuntungin,ALVEYAHAN,,4500.0,DO 59-2023,unmatched,Pleasant Village (59),0
+RR,Putho Tuntungin,MAAHAS SUBD,,4500.0,DO 59-2023,unmatched,Villa Carangal (32),0
+RR,Putho Tuntungin,LA CHESA VALLEY ESTATE,,4500.0,DO 59-2023,unmatched,GK Los Baños Ville (50),0
+RR,Putho Tuntungin,PARKER PEREZ COMPOUND,,4500.0,DO 59-2023,unmatched,Lopez-Arguelles Village (54),0
+RR,Putho Tuntungin,UNIVERSITY PARK VILLE/U.P. SYSTEM,,4500.0,DO 59-2023,unmatched,Dairyville (58),0
+RR,Putho Tuntungin,L.A. VILLAGE,,4500.0,DO 59-2023,unmatched,Pleasant Village (36),0
+RR,Putho Tuntungin,CAS-VILL SUBD,,4500.0,DO 59-2023,unmatched,Pleasant Village (36),0
+RR,Putho Tuntungin,ALL STREETS,ALONG PROVINCIAL ROAD,4500.0,DO 59-2023,unmatched,Dairyville (46),0
+RR,Putho Tuntungin,ALL STREETS,INTERIOR LOTS,3500.0,DO 59-2023,unmatched,Dairyville (46),0
+RR,Putho Tuntungin,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Dairyville (46),0
+RR,Putho Tuntungin,GAWAD KALINGA,,2000.0,DO 59-2023,unmatched,Villa Carangal (44),0
+RR,Putho Tuntungin,COLLEGE VILLE SUBD,,4500.0,DO 59-2023,village,Collegeville Subdivision,100
+RR,Putho Tuntungin,HILLSIDE VILLAGE,,4500.0,DO 59-2023,village,Hillside Village,100
+RR,Putho Tuntungin,PLEASANT VILLAGE,,4500.0,DO 59-2023,village,Pleasant Village,100
+RR,Putho Tuntungin,VILLA CARANGAL SUBD,,4500.0,DO 59-2023,village,Villa Carangal,100
+RR,San Antonio,BANGKAL ST,,4000.0,DO 59-2023,street,Bangkal Road,97
+CR,San Antonio,LAGUNA VILLE PHASE 1,,9000.0,DO 59-2023,unmatched,ICropS Orchard 1 (21),0
+CR,San Antonio,LAGUNA VILLE PHASE 2,,9000.0,DO 59-2023,unmatched,Betterland Homes Phase 2 (38),0
+CR,San Antonio,METRO LOS BAÑOS RESIDENCE,,9000.0,DO 59-2023,unmatched,Villa Amanda Residences (61),0
+CR,San Antonio,"STA, RITA SUBD",,9000.0,DO 59-2023,unmatched,Santa Fe Subdivision (50),0
+CR,San Antonio,BETTER LAND SUBD PHASE 1,,7000.0,DO 59-2023,unmatched,ICropS Orchard 1 (43),0
+RR,San Antonio,BETTER LAND SUBD PHASE 1,,5000.0,DO 59-2023,unmatched,ICropS Orchard 1 (43),0
+RR,San Antonio,LAGUNA VILLE PHASE 1,,5000.0,DO 59-2023,unmatched,ICropS Orchard 1 (21),0
+RR,San Antonio,LAGUNA VILLE PHASE 2,,5000.0,DO 59-2023,unmatched,Betterland Homes Phase 2 (38),0
+RR,San Antonio,METRO LOS BAÑOS RESIDENCE,,5000.0,DO 59-2023,unmatched,Villa Amanda Residences (61),0
+RR,San Antonio,"STA, RITA SUBD",,5000.0,DO 59-2023,unmatched,Santa Fe Subdivision (50),0
+CR,San Antonio,VILLA AMANDA,ALONG NATIONAL ROAD,14000.0,DO 59-2023,village,Villa Amanda Residences,95
+CR,San Antonio,MANSION GROVE,,12000.0,DO 59-2023,village,Mansion Grove,100
+CR,San Antonio,VILLA AMANDA,INTERIOR LOTS,12000.0,DO 59-2023,village,Villa Amanda Residences,95
+CR,San Antonio,MENDIOLA ESTATE SUBD,,9000.0,DO 59-2023,village,Mendiola Estate,100
+CR,San Antonio,VILLA AMANDA,,9000.0,DO 59-2023,village,Villa Amanda Residences,95
+RR,San Antonio,VILLA AMANDA,ALONG NATIONAL ROAD,8000.0,DO 59-2023,village,Villa Amanda Residences,95
+CR,San Antonio,BETTER LAND SUBD PHASE 2,,7000.0,DO 59-2023,village,Betterland Homes Phase 2,100
+RR,San Antonio,VILLA AMANDA,,6000.0,DO 59-2023,village,Villa Amanda Residences,95
+RR,San Antonio,VILLA AMANDA,INTERIOR LOTS,6000.0,DO 59-2023,village,Villa Amanda Residences,95
+CR,San Antonio,VILLA AMANDA,ALONG BARANGAY ROAD,6000.0,DO 59-2023,village,Villa Amanda Residences,95
+RR,San Antonio,BETTER LAND SUBD PHASE 2,,5000.0,DO 59-2023,village,Betterland Homes Phase 2,100
+RR,San Antonio,MANSION GROVE,,5000.0,DO 59-2023,village,Mansion Grove,100
+RR,San Antonio,MENDIOLA ESTATE SUBD,,5000.0,DO 59-2023,village,Mendiola Estate,100
+RR,San Antonio,VILLA AMANDA,ALONG BARANGAY ROAD,4000.0,DO 59-2023,village,Villa Amanda Residences,95
+CR,Tadlak,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Lakewood (18),0
+RR,Tadlak,BLISS,,4000.0,DO 59-2023,unmatched,Spring Oaks Residences (23),0
+RR,Tadlak,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Lakewood (18),0
+RR,Tadlak,ALL STREETS,INTERIOR LOTS,2500.0,DO 59-2023,unmatched,Lakewood (18),0
+CR,Tadlak,LAKEWOOD SUBD. (STA. LUCIA),,11000.0,DO 59-2023,village,Lakewood,100
+RR,Tadlak,LAKEWOOD SUBD. (STA. LUCIA),,7500.0,DO 59-2023,village,Lakewood,100
+CR,Timugan,ALL OTHER STREETS,,9000.0,DO 59-2023,background,,0
+RR,Timugan,ALL OTHER STREETS,,6000.0,DO 59-2023,background,,0
+RR,Timugan,ALL OTHER STREETS,INTERIOR LOTS,5500.0,DO 59-2023,background,,0
+CR,Timugan,M. PALIS,,12000.0,DO 59-2023,street,M. Palis Street,97
+RR,Timugan,M. PALIS,,6500.0,DO 59-2023,street,M. Palis Street,97
+RR,Timugan,AQUINO,,6000.0,DO 59-2023,street,Aquino Street,97
+RR,Timugan,DE PASUPIL,,6000.0,DO 59-2023,street,De Pasupil Street,97
+RR,Timugan,LOPEZ,,6000.0,DO 59-2023,street,Lopez Street,97
+RR,Timugan,PANTUA,,6000.0,DO 59-2023,street,Pantua Street,97
+RR,Timugan,REVILLEZA,,6000.0,DO 59-2023,street,Revilleza Street,97
+CR,Timugan,ALL LOTS,ALONG NATIONAL ROAD,12000.0,DO 59-2023,unmatched,Jamaica Hills (30),0
+CR,Timugan,RIZAL,,12000.0,DO 59-2023,unmatched,Jamaica Hills (35),0
+RR,Timugan,ALL LOTS,ALONG NATIONAL ROAD,7000.0,DO 59-2023,unmatched,Jamaica Hills (30),0
+RR,Timugan,RIZAL,,6500.0,DO 59-2023,unmatched,Jamaica Hills (35),0
+RR,Timugan,BURGOS,,6000.0,DO 59-2023,unmatched,Los Baños Central Elementary School (Primary) (13),0
+RR,Timugan,LOPEZ JAENA,,6000.0,DO 59-2023,unmatched,Los Baños Central Elementary School (Primary) (30),0
+RR,Timugan,MABINI,,6000.0,DO 59-2023,unmatched,Jamaica Hills (44),0

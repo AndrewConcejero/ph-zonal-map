@@ -429,6 +429,7 @@ RR,Olympia,SAN MAXIMO,San Anselmo,108000.0,DO 35-2021,street,San Maximo Street,9
 RR,Olympia,SAN ANSELMO (ANSELMO),San Anselmo,100000.0,DO 35-2021,street,San Anselmo Street,97
 RR,Olympia,CONSTANCIA,J. P. Rizal - S. Osmena,100000.0,DO 35-2021,street,Constancia Street,97
 RR,Olympia,KALAYAAN AVE.,C. Roces - South Ave.,100000.0,DO 35-2021,street,Kalayaan Avenue,100
+I,Olympia,SULTANA,Fortuna - Pateros,132000.0,DO 35-2021,unmatched,Santiago Village (53),0
 RR,Olympia,HIPODROMO,A. Reyes Ave. - Trabajo,120000.0,DO 35-2021,unmatched,Santiago Village (24),0
 RR,Olympia,SANTA BARBARA,J. P. Rizal - San Mateo,120000.0,DO 35-2021,unmatched,Santiago Village (48),0
 RR,Olympia,SANTA LUCIA,J. P. Rizal - San Mateo,120000.0,DO 35-2021,unmatched,Santiago Village (63),0
@@ -1141,6 +1142,7 @@ RR,Urdaneta,STO. TOMAS,,222000.0,DO 38-2021,unmatched,Somerset Olympia (50),0
 RR,Urdaneta,REAL(INNER),,220000.0,DO 38-2021,unmatched,Twin Towers (53),0
 CR,Valenzuela,ANTIPOLO,J. P. Rizal - S. Osmena,160000.0,DO 35-2021,segment,Antipolo Street,97
 RR,Valenzuela,ANTIPOLO,J. P. Rizal - S. Osmena,150000.0,DO 35-2021,segment,Antipolo Street,97
+I,Valenzuela,S. OSMENA,Antipolo - J. B. Roxas,150000.0,DO 35-2021,segment,S. Osmeña Street,97
 RR,Valenzuela,HORMIGA,Antipolo - Pateros,120000.0,DO 35-2021,segment,Hormiga Street,97
 RR,Valenzuela,IRIGA,Baler - D. Oliman,120000.0,DO 35-2021,segment,Iriga Street,97
 RR,Valenzuela,OBRERO,Antipolo - Pateros,120000.0,DO 35-2021,segment,Obrero Street,97

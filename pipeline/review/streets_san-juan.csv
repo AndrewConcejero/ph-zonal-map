@@ -1,5 +1,6 @@
 use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
 CR,Addition Hills,ALL OTHER STREETS,,79000.0,DO 22-2023,background,,0
+I,Addition Hills,ALL OTHER STREETS,,74000.0,DO 22-2023,background,,0
 RR,Addition Hills,ALL OTHER TOWNHOUSES,,69000.0,DO 22-2023,background,,0
 RR,Addition Hills,ALL OTHER STREETS,,61000.0,DO 22-2023,background,,0
 CR,Addition Hills,P GOMEZ,LUNA MENCIAS-P. ZAMORA,80000.0,DO 22-2023,segment,P. Gomez Street,97
@@ -26,6 +27,7 @@ RR,Addition Hills,CAPT ROJA,RECTO- WACK WACK,63000.0,DO 22-2023,unmatched,Ochoa 
 RR,Addition Hills,MENCIAS,P GUEVARRA-ARAULLO,63000.0,DO 22-2023,unmatched,Ochoa Apartments (48),0
 RR,Addition Hills,ZAMORA,ORTEGA-ARAULLO,62000.0,DO 22-2023,unmatched,Classica Manor (40),0
 CR,Balong-Bato,ALL OTHER STREETS,,88000.0,DO 22-2023,background,,0
+I,Balong-Bato,ALL OTHER STREETS,,71000.0,DO 22-2023,background,,0
 RR,Balong-Bato,ALL OTHER STREETS,,27000.0,DO 22-2023,background,,0
 CR,Balong-Bato,N. DOMINGO,A. LUNA-DE LEON,89000.0,DO 22-2023,segment,N. Domingo Street,97
 RR,Balong-Bato,N. DOMINGO,A. LUNA-DE LEON,67000.0,DO 22-2023,segment,N. Domingo Street,97
@@ -48,6 +50,7 @@ RR,Balong-Bato,MILAGROS,N. DOMINGO,28000.0,DO 22-2023,street,Milagros Street,97
 RR,Balong-Bato,GUZMAN,A. LAKE-A. JUAN,34000.0,DO 22-2023,unmatched,J. Ruiz Estate (33),0
 RR,Balong-Bato,J. RUIZ,AURORA BLVD.-N. DOMINGO,40000.0,DO 22-2023,village,J. Ruiz Estate,100
 CR,Batis,ALL OTHER STREETS,,59000.0,DO 22-2023,background,,0
+I,Batis,ALL OTHER STREETS,,48000.0,DO 22-2023,background,,0
 RR,Batis,ALL OTHER STREETS,,43000.0,DO 22-2023,background,,0
 CR,Batis,F BLUMENTRITT,E FERNANDEZ- R J FERNANDEZ,105000.0,DO 22-2023,segment,F. Blumentritt Street,97
 RR,Batis,F BLUMENTRITT,E FERNANDEZ- R J FERNANDEZ,79000.0,DO 22-2023,segment,F. Blumentritt Street,97
@@ -65,7 +68,10 @@ RR,Batis,SAN JOSE,J WRIGHT-SAN MIGUEL,44000.0,DO 22-2023,segment,San Jose Street
 RR,Batis,SAN RAFAEL,J WRIGHT-SAN LUIS,44000.0,DO 22-2023,segment,San Rafael Street,97
 CR,Batis,F MANALO,N DOMINGO-RJ FERNANDEZ,80000.0,DO 22-2023,street,F. Manalo Street,97
 CR,Batis,S TUANO,A RITA-BLUMENTRITT,61000.0,DO 22-2023,street,S. Tuano Street,97
+I,Batis,M SALVADOR,FERNANDEZ-MANALO,57000.0,DO 22-2023,street,M. Salvador Street,97
+I,Batis,E FERNANDEZ,BLUMENTRITT- SALVADOR,55000.0,DO 22-2023,street,E. Fernandez Street,97
 RR,Batis,M SALVADOR,BATIS-KABAYANAN BGY,53000.0,DO 22-2023,street,M. Salvador Street,97
+I,Batis,F MANALO,N DOMINGO-RJ FERNANDEZ,49000.0,DO 22-2023,street,F. Manalo Street,97
 RR,Batis,VALENZUELA,MALVAR-SALVADOR-MANALO,49000.0,DO 22-2023,street,Valenzuela Street,97
 RR,Batis,S TUANO,A RITA-BLUMENTRITT,48000.0,DO 22-2023,street,S. Tuano Street,97
 RR,Batis,E FERNANDEZ,BLUMENTRITT- SALVADOR,44000.0,DO 22-2023,street,E. Fernandez Street,97
@@ -74,6 +80,8 @@ RR,Batis,F MANALO,N DOMINGO-RJ FERNANDEZ,44000.0,DO 22-2023,street,F. Manalo Str
 RR,Batis,GEN BAUTISTA,BLUMENTRITT-RITA,44000.0,DO 22-2023,street,General Bautista Street,97
 RR,Batis,M SALVADOR,FERNANDEZ-MANALO,44000.0,DO 22-2023,street,M. Salvador Street,97
 RR,Batis,SAN MAURICIO,,44000.0,DO 22-2023,street,San Mauricio Street,97
+I,Batis,COL SAN MIGUEL,F. MANALO - R.L. FERNANDEZ,57000.0,DO 22-2023,unmatched,Santa Mesa Gardenville Condominium (46),0
+I,Batis,JOSE WRIGHT,R PASCUAL-SAN JUAN RIVER,56000.0,DO 22-2023,unmatched,Little Bagiuo Gardens (32),0
 RR,Batis,R FERNANDEZ,F BLUMENTRITT-RITA,53000.0,DO 22-2023,unmatched,San Juan Ville (32),0
 RR,Batis,COL SAN MIGUEL,F. MANALO - R.L. FERNANDEZ,44000.0,DO 22-2023,unmatched,Santa Mesa Gardenville Condominium (46),0
 RR,Batis,GEN SAN LUIS,MANALO-BLUEMENTRITT,44000.0,DO 22-2023,unmatched,San Juan Ville (46),0
@@ -81,7 +89,9 @@ RR,Batis,GEN SAN PABLO,SAN JOSE-RJ FERNANDEZ,44000.0,DO 22-2023,unmatched,Hampst
 RR,Batis,JOSE WRIGHT,R PASCUAL-SAN JUAN RIVER,44000.0,DO 22-2023,unmatched,Little Bagiuo Gardens (32),0
 CR,Corazon De Jesus,ALL OTHER STREETS,,63000.0,DO 22-2023,background,,0
 RR,Corazon De Jesus,ALL OTHER STREETS,,34000.0,DO 22-2023,background,,0
+I,Corazon De Jesus,ALL OTHER STREETS,,34000.0,DO 22-2023,background,,0
 CR,Corazon De Jesus,LACTAO,N. DOMINGO-PARAISO,64000.0,DO 22-2023,segment,Lactao Street,97
+I,Corazon De Jesus,LACTAO,N. DOMINGO-PARAISO,55000.0,DO 22-2023,segment,Lactao Street,97
 RR,Corazon De Jesus,PANCHO VILLA,PARAISO-PINAGLABANAN,49000.0,DO 22-2023,segment,Pancho Villa Street,97
 RR,Corazon De Jesus,PARAISO,PINAGLABANAN- CORAZON DE JESUS,49000.0,DO 22-2023,segment,Paraiso Street,97
 RR,Corazon De Jesus,LACTAO,N. DOMINGO-PARAISO,44000.0,DO 22-2023,segment,Lactao Street,97
@@ -107,6 +117,7 @@ RR,Corazon De Jesus,DR. P.A. NARCISO,DE JESUS - DEAD END,40000.0,DO 22-2023,unma
 RR,Corazon De Jesus,IPIL,N. DOMINGO - MULAWIN,38000.0,DO 22-2023,unmatched,Saint Joseph Ville (36),0
 RR,Corazon De Jesus,C. VICTORIA,PARAISO-DEAD END,35000.0,DO 22-2023,unmatched,Alvir Compound (40),0
 CR,Ermitaño,ALL OTHER STREETS,,87000.0,DO 22-2023,background,,0
+I,Ermitaño,ALL OTHER STREETS,,40000.0,DO 22-2023,background,,0
 RR,Ermitaño,ALL OTHER STREETS,,30000.0,DO 22-2023,background,,0
 RR,Ermitaño,LOURDES DRIVE,AURORA BLVD.-DE LEON,53000.0,DO 22-2023,segment,Lourdes Drive,100
 RR,Ermitaño,MARINA,DE LEON-MILAGROS,53000.0,DO 22-2023,segment,Marina Street,97
@@ -120,6 +131,7 @@ CR,Ermitaño,N DOMINGO,DE LEON-CREEK,88000.0,DO 22-2023,street,N. Domingo Street
 RR,Ermitaño,R. LAGMAY,ELLEN'S STORE-DEAD END,70000.0,DO 22-2023,street,R. Lagmay Street,97
 RR,Ermitaño,N DOMINGO,DE LEON-CREEK,63000.0,DO 22-2023,street,N. Domingo Street,97
 RR,Ermitaño,ALICIA,AURORA BLVD.,53000.0,DO 22-2023,street,Alicia Street,97
+I,Ermitaño,MENDOZA ST.(Formerly C. RUIZ),AURORA BLVD-A SORIANO,43000.0,DO 22-2023,unmatched,Promenade Place (45),0
 RR,Ermitaño,GREY,AURORA BLVD,40000.0,DO 22-2023,unmatched,Little Baguio Terraces (24),0
 RR,Ermitaño,SORIANO,MENDOZA-DEAD END,40000.0,DO 22-2023,unmatched,Suntrust Aurora Gardens (34),0
 RR,Ermitaño,MENDOZA ST.(Formerly C. RUIZ),AURORA BLVD-A SORIANO,37000.0,DO 22-2023,unmatched,Promenade Place (45),0
@@ -183,6 +195,7 @@ RR,Greenhills,POLK,KENNEDY-EISENHOWER,124000.0,DO 22-2023,unmatched,Pujalite Sub
 RR,Greenhills,ADAMS,ROOSEVELT-WILSON,115000.0,DO 22-2023,unmatched,Jade Garden (40),0
 RR,Greenhills,TAFT,ROOSEVELT-JACKSON,105000.0,DO 22-2023,unmatched,Pujalite Subdivision (33),0
 CR,Halo-halo,ALL OTHER STREETS,,54000.0,DO 22-2023,background,,0
+I,Halo-halo,ALL OTHER STREETS,,53000.0,DO 22-2023,background,,0
 RR,Halo-halo,ALL OTHER STREETS,,39000.0,DO 22-2023,background,,0
 CR,Halo-halo,P. GUEVARRA,PINAGLABANAN-IBUNA,84000.0,DO 22-2023,segment,P. Guevarra Street,97
 CR,Halo-halo,SANTOLAN ROAD,P. GUEVARRA-ABAD SANTOS,88000.0,DO 22-2023,street,Santolan Road,100
@@ -195,6 +208,7 @@ RR,Halo-halo,MARNE,P. GUEVARRA-IBUNA,53000.0,DO 22-2023,unmatched,Alvir Compound
 RR,Halo-halo,VIOLA,SANTOLAN RD-END OF VIOLA,49000.0,DO 22-2023,unmatched,Villa Carmelita (40),0
 RR,Halo-halo,MATIMYAS,SANTOLAN RD.-P. SANTOS,40000.0,DO 22-2023,unmatched,Villa Carmelita (36),0
 CR,Isabelita,ALL OTHER STREETS,,85000.0,DO 22-2023,background,,0
+I,Isabelita,ALL OTHER STREETS,,51000.0,DO 22-2023,background,,0
 RR,Isabelita,ALL OTHER STREETS,,30000.0,DO 22-2023,background,,0
 RR,Isabelita,F. ROXAS,DON E. EJERCITO-KALAYAAN,32000.0,DO 22-2023,segment,F. Roxas Street,97
 CR,Isabelita,PINAGLABANAN,ALONG PINAGLABANAN,95000.0,DO 22-2023,street,Pinaglabanan Street,97
@@ -208,6 +222,7 @@ RR,Isabelita,EMILIO HUBILLA,PINAGLABANAN EXT.-END OF HUBILLA,32000.0,DO 22-2023,
 RR,Isabelita,KALAW,JOSE GIL-DEAD END,32000.0,DO 22-2023,unmatched,Saint Joseph Ville (17),0
 RR,Isabelita,PEREY,PINAGLABANAN-P. SANTOS,32000.0,DO 22-2023,unmatched,Saint Joseph Ville (17),0
 CR,Kabayanan,ALL OTHER STREETS,,104000.0,DO 22-2023,background,,0
+I,Kabayanan,ALL OTHER STREETS,,74000.0,DO 22-2023,background,,0
 RR,Kabayanan,ALL OTHER STREETS,,39000.0,DO 22-2023,background,,0
 RR,Kabayanan,A. BONIFACIO,F. BLUMENTRITT-F. MANALO,45000.0,DO 22-2023,segment,A. Bonifacio Street,97
 RR,Kabayanan,I. FRANCISCO,A. BONIFACIO-F. MANALO,40000.0,DO 22-2023,segment,I. Francisco Street,97
@@ -223,6 +238,7 @@ RR,Kabayanan,A. DIEGO,A. BONIFACIO - F. MANALO,44000.0,DO 22-2023,unmatched,Nica
 RR,Kabayanan,COL. VER,A. BONIFACIO - F. MANALO,44000.0,DO 22-2023,unmatched,Ochoa Apartments (36),0
 RR,Kabayanan,R. FERNANDEZ,F-BLUMENTRITT-DEAD END,42000.0,DO 22-2023,unmatched,San Juan Ville (32),0
 CR,Little Baguio,ALL OTHER STREETS,,89000.0,DO 22-2023,background,,0
+I,Little Baguio,ALL OTHER STREETS,,70000.0,DO 22-2023,background,,0
 RR,Little Baguio,ALL OTHER STREETS,,52000.0,DO 22-2023,background,,0
 CR,Little Baguio,WILSON,P GUEVARRA-BARASOAIN,117000.0,DO 22-2023,segment,Wilson Street,97
 RR,Little Baguio,WILSON,P GUEVARRA-BARASOAIN,105000.0,DO 22-2023,segment,Wilson Street,97
@@ -257,6 +273,7 @@ RR,Little Baguio,MONTEREY,SANTOLAN RD.,55000.0,DO 22-2023,village,Monterey Compo
 RR,Little Baguio,ALVIR,J.A. SANTOS-DEAD END,53000.0,DO 22-2023,village,Alvir Compound,100
 RR,Little Baguio,PROSPECT,M. INFANTE,53000.0,DO 22-2023,village,Prospect Subdivision,100
 CR,Maytunas,ALL OTHER STREETS,,71000.0,DO 22-2023,background,,0
+I,Maytunas,ALL OTHER STREETS,,62000.0,DO 22-2023,background,,0
 RR,Maytunas,ALL OTHER STREETS,,33000.0,DO 22-2023,background,,0
 CR,Maytunas,WILSON,P GUEVARRA-L. GRUET,76000.0,DO 22-2023,segment,Wilson Street,97
 RR,Maytunas,WILSON,P GUEVARRA-L. GRUET,53000.0,DO 22-2023,segment,Wilson Street,97
@@ -272,11 +289,13 @@ RR,Maytunas,LIEGE,WILSON-RECTO,43000.0,DO 22-2023,street,Liege Street,97
 RR,Maytunas,MAUDE (MAUBE),P GUEVARRA-M MARCOS,43000.0,DO 22-2023,street,Maude Street,97
 RR,Maytunas,M H DEL PILAR,M MARCOS-V CRUZ,41000.0,DO 22-2023,street,M. H. del Pilar Street,97
 RR,Maytunas,V CRUZ,L.GRUET-DEL PILAR,34000.0,DO 22-2023,street,V. Cruz Street,97
+I,Maytunas,M MARCOS,F MANALO-P GUEVARRA,64000.0,DO 22-2023,unmatched,Maude Royale (42),0
 RR,Maytunas,GRUET,F MANALO-BARCELONA,46000.0,DO 22-2023,unmatched,Liege Court (38),0
 RR,Maytunas,M MARCOS,F MANALO-P GUEVARRA,46000.0,DO 22-2023,unmatched,Maude Royale (42),0
 RR,Maytunas,ARAS,WILSON-C M RECTO,43000.0,DO 22-2023,unmatched,Parkplace (46),0
 RR,Maytunas,SMUTH MUTT,M MARCOS-BARCELONA,37000.0,DO 22-2023,unmatched,San Juan Executive Townhouse (36),0
 CR,Onse,ALL OTHER STREETS,,47000.0,DO 22-2023,background,,0
+I,Onse,ALL OTHER STREETS,,42000.0,DO 22-2023,background,,0
 RR,Onse,ALL OTHER STREETS,,24000.0,DO 22-2023,background,,0
 RR,Onse,CARRIEDO,A BONIFACIO-SAN LUIS ST,40000.0,DO 22-2023,segment,Carriedo Street,97
 RR,Onse,HARDBOARD,P GUEVARRA-J P RIZAL,40000.0,DO 22-2023,segment,Hardboard Street,97
@@ -299,6 +318,7 @@ RR,Onse,GEN P R SOTTO (V AGAN GEN P R SOTTO),CARRIEDO-J V PANGANIBAN,34000.0,DO 
 RR,Onse,F.Y MANALO EXT,A.BONIFACIO-J.P. RIZAL,29000.0,DO 22-2023,unmatched,Silvana Townhomes (33),0
 RR,Onse,CLARO SUAREZ(PAG-IBIG SUAREZ),J RIZAL-END OF PAG-IBIG,25000.0,DO 22-2023,unmatched,La Louvière (52),0
 CR,Pasadeña,ALL OTHER STREETS,,66000.0,DO 22-2023,background,,0
+I,Pasadeña,ALL OTHER STREETS,,62000.0,DO 22-2023,background,,0
 RR,Pasadeña,ALL OTHER STREETS,,52000.0,DO 22-2023,background,,0
 CR,Pasadeña,M J PATERNO,N. DOMINGO-SANTOLAN ROAD,88000.0,DO 22-2023,segment,M. J. Paterno Street,97
 RR,Pasadeña,M J PATERNO,N. DOMINGO-SANTOLAN ROAD,70000.0,DO 22-2023,segment,M. J. Paterno Street,97
@@ -308,6 +328,7 @@ RR,Pasadeña,N DOMINGO,M. PATERNO-CREEK,88000.0,DO 22-2023,street,N. Domingo Str
 CR,Pasadeña,SANTOLAN ROAD,M. PATERNO-CREEK,88000.0,DO 22-2023,street,Santolan Road,100
 CR,Pasadeña,ALFONSO XIII,M. PATERNO-LT. ARTIAGA,79000.0,DO 22-2023,street,Alfonso XIII Street,97
 RR,Pasadeña,SANTOLAN ROAD,M. PATERNO-CREEK,70000.0,DO 22-2023,street,Santolan Road,100
+I,Pasadeña,ALFONSO XIII,M. PATERNO-LT. ARTIAGA,65000.0,DO 22-2023,street,Alfonso XIII Street,97
 RR,Pasadeña,ALFONSO XIII,M. PATERNO-LT. ARTIAGA,53000.0,DO 22-2023,street,Alfonso XIII Street,97
 RR,Pasadeña,DOS CASTILLA,M PATERNO-HILLSIDE,53000.0,DO 22-2023,street,Dos Castillas Street,97
 RR,Pasadeña,F BENITEZ,M. PATERNO-PASADENA,53000.0,DO 22-2023,street,F. Benitez Street,97
@@ -316,6 +337,7 @@ RR,Pasadeña,LEDESMA,LT ARTIAGA-F BENITEZ,53000.0,DO 22-2023,street,Ledesma Stre
 CR,Pasadeña,LT ARTIAGA,ALFONSO XIII-M. PATERNO,79000.0,DO 22-2023,unmatched,Corinthian Place (46),0
 RR,Pasadeña,LT ARTIAGA,ALFONSO XIII-M. PATERNO,53000.0,DO 22-2023,unmatched,Corinthian Place (46),0
 CR,Pedro Cruz,ALL OTHER STREETS,,46000.0,DO 22-2023,background,,0
+I,Pedro Cruz,ALL OTHER STREETS,,38000.0,DO 22-2023,background,,0
 RR,Pedro Cruz,ALL OTHER STREETS,,28000.0,DO 22-2023,background,,0
 CR,Pedro Cruz,N DOMINGO (AGORA N DOMINGO),F BLUMENTRITT - PINAGLABANAN,95000.0,DO 22-2023,segment,N. Domingo Street,97
 CR,Pedro Cruz,F BLUMENTRITT,N DOMINGO-JOSE GIL,76000.0,DO 22-2023,segment,F. Blumentritt Street,97
@@ -337,6 +359,7 @@ RR,Pedro Cruz,RIDEOUT MANZANO,CAPT MANZANO-N DOMINGO,34000.0,DO 22-2023,unmatche
 RR,Pedro Cruz,SEVILLA,DR E EJERCITO-F BLUMENTRITT,34000.0,DO 22-2023,unmatched,Lagmay Heights (40),0
 RR,Pedro Cruz,CALVARIO ALVAREZ,,29000.0,DO 22-2023,unmatched,Joyce Apartelle (39),0
 CR,Progreso,ALL OTHER STREETS,,48000.0,DO 22-2023,background,,0
+I,Progreso,ALL OTHER STREETS,,29000.0,DO 22-2023,background,,0
 RR,Progreso,ALL OTHER STREETS,,18000.0,DO 22-2023,background,,0
 CR,Progreso,N DOMINGO,J EUSTAQUIO-KATUBUSAN,60000.0,DO 22-2023,segment,N. Domingo Street,97
 RR,Progreso,N DOMINGO,J EUSTAQUIO-KATUBUSAN,49000.0,DO 22-2023,segment,N. Domingo Street,97
@@ -351,6 +374,7 @@ RR,Progreso,GEN ARANETA AVE,N DOMINGO-SAN JUAN BRIDGE,34000.0,DO 22-2023,unmatch
 RR,Progreso,STO DOMINGO,N DOMINGO-G ARANETA,23000.0,DO 22-2023,unmatched,Santa Mesa Gardenville Condominium (40),0
 RR,Progreso,PROGRESO,SAN JUAN RIVER-G ARANETA,19000.0,DO 22-2023,unmatched,Santa Mesa Gardenville Condominium (24),0
 CR,Rivera,ALL OTHER STREETS,,30000.0,DO 22-2023,background,,0
+I,Rivera,ALL OTHER STREETS,,23000.0,DO 22-2023,background,,0
 RR,Rivera,ALL OTHER STREETS,,16000.0,DO 22-2023,background,,0
 CR,Rivera,N DOMINGO,KATUBUSAN-A LUNA,67000.0,DO 22-2023,segment,N. Domingo Street,97
 RR,Rivera,N DOMINGO,KATUBUSAN-A LUNA,61000.0,DO 22-2023,segment,N. Domingo Street,97
@@ -366,6 +390,7 @@ CR,Rivera,M BASIBAS,N DOMINGO - DEAD END,31000.0,DO 22-2023,unmatched,,0
 RR,Rivera,M BASIBAS,N DOMINGO - DEAD END,20000.0,DO 22-2023,unmatched,,0
 RR,Rivera,OLAZO,RIVERA - SAN MANUEL,20000.0,DO 22-2023,unmatched,,0
 CR,Salapan,ALL OTHER STREETS,,50000.0,DO 22-2023,background,,0
+I,Salapan,ALL OTHER STREETS,,42000.0,DO 22-2023,background,,0
 RR,Salapan,ALL OTHER STREETS,,14000.0,DO 22-2023,background,,0
 RR,Salapan,A LAKE,AURORA BLVD -A. LUNA,28000.0,DO 22-2023,segment,A. Lake Street,97
 RR,Salapan,A JUAN,AURORA BLVD-F. ANTONIO,24000.0,DO 22-2023,segment,A. Juan Street,97
@@ -390,6 +415,7 @@ RR,Salapan,J DELA CRUZ,A. LUNA-J. RUIZ,15000.0,DO 22-2023,unmatched,J. Ruiz Esta
 RR,Salapan,J RUIZ,AURORA BLVD - G REYES/29 DE AGOSTO,24000.0,DO 22-2023,village,J. Ruiz Estate,100
 RR,Salapan,J RUIZ,G. REYES/29 DE AGOSTO-A. LUNA,19000.0,DO 22-2023,village,J. Ruiz Estate,100
 CR,San Perfecto,ALL OTHER STREETS,,66000.0,DO 22-2023,background,,0
+I,San Perfecto,ALL OTHER STREETS,,50000.0,DO 22-2023,background,,0
 RR,San Perfecto,ALL OTHER STREETS,,24000.0,DO 22-2023,background,,0
 CR,San Perfecto,F BLUMENTRITT,N DOMINGO - M SALVADOR,76000.0,DO 22-2023,segment,F. Blumentritt Street,97
 CR,San Perfecto,F BLUMENTRITT,M SALVADOR - F SEVILLA,67000.0,DO 22-2023,segment,F. Blumentritt Street,97
@@ -410,6 +436,7 @@ RR,San Perfecto,SAN VENANCIO,,25000.0,DO 22-2023,street,San Venancio Street,97
 RR,San Perfecto,S JORGE,SAN PERFECTO - END OF SAN JORGE,29000.0,DO 22-2023,unmatched,Santa Mesa Gardenville Condominium (24),0
 RR,San Perfecto,SAN REMEGIO (REMIGIO),SAN JORGE-END OF SAN REMIGIO,29000.0,DO 22-2023,unmatched,Santa Mesa Gardenville Condominium (40),0
 CR,Santa Lucia,ALL OTHER STREETS,,56000.0,DO 22-2023,background,,0
+I,Santa Lucia,ALL OTHER STREETS,,49000.0,DO 22-2023,background,,0
 RR,Santa Lucia,ALL OTHER STREETS,,36000.0,DO 22-2023,background,,0
 CR,Santa Lucia,WILSON,L. GRUET- P. GUEVARRA,83000.0,DO 22-2023,segment,Wilson Street,97
 RR,Santa Lucia,WILSON,L. GRUET- P. GUEVARRA,70000.0,DO 22-2023,segment,Wilson Street,97
@@ -446,6 +473,7 @@ RR,Santa Lucia,GRUET,F. MANALO-WILSON,42000.0,DO 22-2023,unmatched,Prospect Subd
 RR,Santa Lucia,MIRANDA,F MANALO -D. VICENCIO,38000.0,DO 22-2023,unmatched,Quirino compound (43),0
 RR,Santa Lucia,F. SALVADOR,P.PARADA-V.CRUZ,37000.0,DO 22-2023,unmatched,Alvir Compound (53),0
 CR,Tibagan,ALL OTHER STREETS,,54000.0,DO 22-2023,background,,0
+I,Tibagan,ALL OTHER STREETS,,45000.0,DO 22-2023,background,,0
 RR,Tibagan,ALL OTHER STREETS,,27000.0,DO 22-2023,background,,0
 CR,Tibagan,VALENZUELA,F BLUMENTRITT-A RITA,56000.0,DO 22-2023,segment,Valenzuela Street,97
 RR,Tibagan,A BONIFACIO,CARRIEDO - F. BLUMENTRITT,46000.0,DO 22-2023,segment,A. Bonifacio Street,97
@@ -469,6 +497,7 @@ RR,Tibagan,J V ALVIOR (FLORANTE),CARRIEDO-DON E. EJERCITO,31000.0,DO 22-2023,unm
 RR,Tibagan,P VILLAMOR,F. ROXAS-REGIDOR,31000.0,DO 22-2023,unmatched,Saint Joseph Ville (43),0
 RR,Tibagan,ARELLANO JR.,BLUMENTRITT-DR.E. EJERCITO,28000.0,DO 22-2023,unmatched,Little Bagiuo Gardens (39),0
 CR,West Crame,ALL OTHER STREETS,,48000.0,DO 22-2023,background,,0
+I,West Crame,ALL OTHER STREETS,,42000.0,DO 22-2023,background,,0
 RR,West Crame,ALL OTHER STREETS,,15000.0,DO 22-2023,background,,0
 CR,West Crame,SANTOLAN ROAD,SAN JUAN CEMETERY-1ST WEST CRAME,86000.0,DO 22-2023,unmatched,Ilustrata Residences (37),0
 RR,West Crame,SANTOLAN ROAD,SAN JUAN CEMETERY-1ST WEST CRAME,48000.0,DO 22-2023,unmatched,Ilustrata Residences (37),0

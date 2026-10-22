@@ -1,0 +1,856 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+RR,Bagong Kalsada,ALL OTHER STREETS,,5150.0,DO 59-2023,background,,0
+CR,Bagong Kalsada,ALL STREETS,ALONG NATIONAL HIGHWAY,12000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+CR,Bagong Kalsada,ALL STREETS,ALONG BRGY ROAD,10500.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+I,Bagong Kalsada,ALL STREETS,ALONG NATIONAL HIGHWAY,9000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+CR,Bagong Kalsada,CRYSTAL SPRING MOUNT,,8000.0,DO 59-2023,unmatched,Miramonte Village (41),0
+CR,Bagong Kalsada,KALFAM ENTERPRISES INC.,,8000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (45),0
+CR,Bagong Kalsada,STA. FE SUBD,,8000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (40),0
+CR,Bagong Kalsada,INDIGO BAY SUBD I & II,,8000.0,DO 59-2023,unmatched,Nayong Maharlika (0),0
+I,Bagong Kalsada,ALL STREETS,ALONG BRGY ROAD,7500.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+RR,Bagong Kalsada,ALL STREETS,ALONG NATIONAL HIGHWAY,7000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+RR,Bagong Kalsada,INDIGO BAY SUBD I & II,,6500.0,DO 59-2023,unmatched,Nayong Maharlika (0),0
+RR,Bagong Kalsada,CRYSTAL SPRING MOUNT,,6000.0,DO 59-2023,unmatched,Miramonte Village (41),0
+RR,Bagong Kalsada,KALFAM ENTERPRISES INC.,,6000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (45),0
+RR,Bagong Kalsada,STA. FE SUBD,,6000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (40),0
+RR,Bagong Kalsada,ALL STREETS,ALONG BRGY ROAD,6000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+RR,Bagong Kalsada,ALL STREETS,INTERIOR LOT,5500.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+CR,Banadero,ALL STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Bougainvilla Homes (40),0
+I,Banadero,ALL STREETS,ALONG BARANGAY ROAD,5500.0,DO 59-2023,unmatched,Bougainvilla Homes (40),0
+RR,Banadero,BRIA CALAMBA PH 1,,4500.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (0),0
+RR,Banadero,BRIA CALAMBA PH 2,,4500.0,DO 59-2023,unmatched,Lake Breeze Residences 2 (38),0
+RR,Banadero,BRIA CALAMBA PH 3,,4500.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (0),0
+RR,Banadero,BRIA CALAMBA PH 4,,4500.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (0),0
+RR,Banadero,PUEBLO DEL RIO,,4500.0,DO 59-2023,unmatched,Casa Verde de Bañadero (39),0
+RR,Banadero,MAHOGANY VILLAS PH5 & 6,,4500.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (0),0
+RR,Banadero,UNLAD PABAHAY SA BAÑADERO,,3500.0,DO 59-2023,unmatched,Casa Verde de Bañadero (60),0
+RR,Banadero,ALL STREETS,ALONG BARANGAY ROAD,3500.0,DO 59-2023,unmatched,Bougainvilla Homes (40),0
+RR,Banadero,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Bougainvilla Homes (40),0
+RR,Banadero,ALL STREETS,SAN JUAN RIVER & SAN CRISTOBAL RIVER,2000.0,DO 59-2023,unmatched,Bougainvilla Homes (40),0
+RR,Banadero,BOUGAINVILLA SUBD,,4500.0,DO 59-2023,village,Bougainvilla Homes,100
+RR,Banadero,CASA VERDE DE BAÑADEROS,,4500.0,DO 59-2023,village,Casa Verde de Bañadero,100
+CR,Banlic,ALL STREETS,ALONG BARANGAY ROAD,6500.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+I,Banlic,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+RR,Banlic,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+RR,Banlic,CASSANDRA HOMES,,3500.0,DO 59-2023,unmatched,Cazandra Homes (82),0
+RR,Banlic,ST. MARTHA TOWNHOMES,,3500.0,DO 59-2023,unmatched,Don Jose Homes (35),0
+RR,Banlic,SOUTHVILLE 6 (DON JOSE HOMES PH2-A & 2-C),,3500.0,DO 59-2023,unmatched,Casa Verde de Bañadero (0),0
+RR,Banlic,ALL STREETS,INTERIOR LOTS,3500.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+RR,Banlic,ALL STREETS,SAN CRISTOBAL RIVER,2000.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+RR,Banlic,VILLA PALAO,,6000.0,DO 59-2023,village,Villa Palao,100
+RR,Banlic,APOLEGA VILLE,,3500.0,DO 59-2023,village,Apolega Ville,100
+RR,Banlic,GREENCREST VILLE SUBD,,3500.0,DO 59-2023,village,Greencrest Ville,100
+RR,Banlic,LAKE BREEZE RESIDENCES 2,,3500.0,DO 59-2023,village,Lake Breeze Residences 2,100
+RR,Banlic,LA VISTA DE CALAMBA,,3500.0,DO 59-2023,village,La Vista de Calamba,100
+CR,Barandal,ALL STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Vista Hills (46),0
+RR,Barandal,CALAMBA HILLS A & B,,6000.0,DO 59-2023,unmatched,Amaia Scapes Calamba (57),0
+RR,Barandal,LAGUNA BUENAVISTA EXEC-A & B,,6000.0,DO 59-2023,unmatched,Laguna Buenavista Excecutive Homes (81),0
+RR,Barandal,CARMEL VILLAGE PH2,,6000.0,DO 59-2023,unmatched,Calamba Hills Village 2 (50),0
+RR,Barandal,ANDREA PAZ,,6000.0,DO 59-2023,unmatched,Punta Altezza (52),0
+RR,Barandal,GAWAD KALINGA PHILIPS VILLAGE,,5000.0,DO 59-2023,unmatched,Amaia Scapes Calamba (41),0
+I,Barandal,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Vista Hills (46),0
+RR,Barandal,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Vista Hills (46),0
+RR,Barandal,ALL STREETS,INTERIOR LOT,3000.0,DO 59-2023,unmatched,Vista Hills (46),0
+RR,Barandal,VISTA HILLS SUBD,,6500.0,DO 59-2023,village,Vista Hills,100
+RR,Barandal,AMAIA SCAPES,,6000.0,DO 59-2023,village,Amaia Scapes Calamba,95
+CR,Barangay 1,ALL OTHER STREETS,,15000.0,DO 59-2023,background,,0
+CR,Barangay 1,ALL OTHER STREETS INTERIOR,,13000.0,DO 59-2023,background,,0
+RR,Barangay 1,ALL OTHER STREETS,,7000.0,DO 59-2023,background,,0
+RR,Barangay 1,ALL OTHER STREETS INTERIOR,,5000.0,DO 59-2023,background,,0
+CR,Barangay 1,J.P. RIZAL,,25000.0,DO 59-2023,street,J. P. Rizal Street,97
+RR,Barangay 1,J.P. RIZAL,,15000.0,DO 59-2023,street,J. P. Rizal Street,97
+CR,Barangay 1,STO. DOMINGO SUBD,from PNR TRADE CENTER TO SEAFARERS,65000.0,DO 59-2023,unmatched,Sitio Lote (48),0
+RR,Barangay 1,STO. DOMINGO SUBD,from DINGHAO TO RIVER VIEW BRIDGE,35000.0,DO 59-2023,unmatched,Sitio Lote (48),0
+RR,Barangay 1,CROSSING AREA INTERIOR,from DINGHAO TO RIVER VIEW BRIDGE,35000.0,DO 59-2023,unmatched,Sitio Lote (44),0
+CR,Barangay 1,CROSSING AREA INTERIOR,from PNR TRADE CENTER TO SEAFARERS,25000.0,DO 59-2023,unmatched,Sitio Lote (44),0
+CR,Barangay 1,CROSSING AREA INTERIOR,(Regular),25000.0,DO 59-2023,unmatched,Sitio Lote (44),0
+CR,Barangay 1,J.P. RIZAL INTERIOR,,23000.0,DO 59-2023,unmatched,Rizal Park Subdivision (50),0
+CR,Barangay 1,DOLOR SUBD,,15000.0,DO 59-2023,unmatched,Sitio Lote (40),0
+RR,Barangay 1,CROSSING AREA INTERIOR,(Regular),15000.0,DO 59-2023,unmatched,Sitio Lote (44),0
+RR,Barangay 1,J.P. RIZAL INTERIOR,,13000.0,DO 59-2023,unmatched,Rizal Park Subdivision (50),0
+RR,Barangay 1,BAYANI'S COMPOUND,,8000.0,DO 59-2023,unmatched,Rizal Park Subdivision (25),0
+RR,Barangay 1,BELARMINO SUBD,,8000.0,DO 59-2023,unmatched,Criscor Homes (38),0
+RR,Barangay 1,CALAMBA CENTRAL CPD,,8000.0,DO 59-2023,unmatched,Rizal Park Subdivision (40),0
+RR,Barangay 1,DOLOR SUBD,,8000.0,DO 59-2023,unmatched,Sitio Lote (40),0
+RR,Barangay 1,ELEPANO SUBD,,8000.0,DO 59-2023,unmatched,Sitio Lote (35),0
+RR,Barangay 1,STO. DOMINGO SUBD,,8000.0,DO 59-2023,unmatched,Sitio Lote (48),0
+RR,Barangay 1,CRISCOR SUBD,,8000.0,DO 59-2023,village,Criscor Homes,100
+CR,Barangay 2,ALL OTHER STREETS,,9500.0,DO 59-2023,background,,0
+CR,Barangay 2,ALL OTHER STREETS INTERIOR,,7500.0,DO 59-2023,background,,0
+RR,Barangay 2,ALL OTHER STREETS,,5500.0,DO 59-2023,background,,0
+RR,Barangay 2,ALL OTHER STREETS INTERIOR,,4500.0,DO 59-2023,background,,0
+RR,Barangay 2,ALL OTHER STREETS INTERIOR,SAN JUAN RIVER,3000.0,DO 59-2023,background,,0
+CR,Barangay 2,BURGOS ST,,20000.0,DO 59-2023,street,P. Burgos Street,90.0
+CR,Barangay 2,J.P. RIZAL ST,,20000.0,DO 59-2023,street,J. P. Rizal Street,100
+RR,Barangay 2,J.P. RIZAL ST,,15000.0,DO 59-2023,street,J. P. Rizal Street,100
+RR,Barangay 2,BURGOS ST,,13500.0,DO 59-2023,street,P. Burgos Street,90.0
+CR,Barangay 2,BELARMINO ST,,10000.0,DO 59-2023,street,Belarmino Street,100
+RR,Barangay 2,BELARMINO ST,,6500.0,DO 59-2023,street,Belarmino Street,100
+CR,Barangay 2,BURGOS ST INTERIOR,,18000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (31),0
+CR,Barangay 2,J.P. RIZAL ST INTERIOR,,18000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (40),0
+CR,Barangay 2,HABANA ST,,13000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (32),0
+RR,Barangay 2,J.P. RIZAL ST INTERIOR,,13000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (40),0
+CR,Barangay 2,HABANA ST INTERIOR,,11000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (37),0
+CR,Barangay 2,ROMAN SANTOS ST.,,11000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (35),0
+CR,Barangay 2,ALONZO ST,,10000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (22),0
+RR,Barangay 2,BURGOS ST INTERIOR,,10000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (31),0
+RR,Barangay 2,ROMAN SANTOS ST.,,8500.0,DO 59-2023,unmatched,Villa Carpio Subdivision (35),0
+CR,Barangay 2,ALONZO ST INTERIOR,,8000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (37),0
+CR,Barangay 2,BELARMINO ST INTERIOR,,8000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (40),0
+CR,Barangay 2,ROMAN SANTOS ST. INTERIOR,,8000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (38),0
+RR,Barangay 2,TIBAG TRIANGLE COMPOUND,,6500.0,DO 59-2023,unmatched,Villa Carpio Subdivision (38),0
+RR,Barangay 2,ALONZO ST,,6500.0,DO 59-2023,unmatched,Villa Carpio Subdivision (22),0
+RR,Barangay 2,HABANA ST,,6500.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (32),0
+RR,Barangay 2,HABANA ST INTERIOR,,5500.0,DO 59-2023,unmatched,Villa Carpio Subdivision (37),0
+RR,Barangay 2,ALONZO ST INTERIOR,,5000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (37),0
+RR,Barangay 2,BELARMINO ST INTERIOR,,5000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (40),0
+RR,Barangay 2,ROMAN SANTOS ST. INTERIOR,,5000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (38),0
+RR,Barangay 2,CHIPECO SUBD,,6500.0,DO 59-2023,village,Chipeco Subdivision,100
+CR,Barangay 3,ALL OTHER STREETS,,8500.0,DO 59-2023,background,,0
+CR,Barangay 3,ALL OTHER STREETS INTERIOR,,6500.0,DO 59-2023,background,,0
+RR,Barangay 3,ALL OTHER STREETS,,5500.0,DO 59-2023,background,,0
+RR,Barangay 3,ALL OTHER STREETS INTERIOR,,4500.0,DO 59-2023,background,,0
+CR,Barangay 3,BURGOS ST,,20000.0,DO 59-2023,street,P. Burgos Street,90.0
+CR,Barangay 3,CHIPECO AVENUE,,20000.0,DO 59-2023,street,Chipeco Avenue,100
+CR,Barangay 3,PABALAN ST,,20000.0,DO 59-2023,street,Pabalan Street,100
+RR,Barangay 3,BURGOS ST,,13500.0,DO 59-2023,street,P. Burgos Street,90.0
+RR,Barangay 3,CHIPECO AVENUE,,13500.0,DO 59-2023,street,Chipeco Avenue,100
+RR,Barangay 3,PABALAN ST,,13500.0,DO 59-2023,street,Pabalan Street,100
+CR,Barangay 3,BELARMINO ST,,10000.0,DO 59-2023,street,Belarmino Street,100
+RR,Barangay 3,KINSVILLE SUBD,,6500.0,DO 59-2023,street,Kinsville Road,97
+RR,Barangay 3,LLAMAS SUBD,,6500.0,DO 59-2023,street,Llamas Street,97
+RR,Barangay 3,BELARMINO ST,,6500.0,DO 59-2023,street,Belarmino Street,100
+CR,Barangay 3,BURGOS ST INTERIOR,,18000.0,DO 59-2023,unmatched,Sitio Lote (50),0
+CR,Barangay 3,CHIPECO AVENUE INTERIOR,,18000.0,DO 59-2023,unmatched,Chipeco Subdivision (61),0
+CR,Barangay 3,PABALAN ST INTERIOR,,18000.0,DO 59-2023,unmatched,Criscor Homes (35),0
+CR,Barangay 3,ROMAN SANTOS ST,,11000.0,DO 59-2023,unmatched,Sitio Lote (48),0
+RR,Barangay 3,BURGOS ST INTERIOR,,10000.0,DO 59-2023,unmatched,Sitio Lote (50),0
+RR,Barangay 3,CHIPECO AVENUE INTERIOR,,10000.0,DO 59-2023,unmatched,Chipeco Subdivision (61),0
+RR,Barangay 3,PABALAN ST INTERIOR,,10000.0,DO 59-2023,unmatched,Criscor Homes (35),0
+CR,Barangay 3,T. ALONZO ST,,9000.0,DO 59-2023,unmatched,Sitio Lote (44),0
+RR,Barangay 3,ROMAN SANTOS ST,,8500.0,DO 59-2023,unmatched,Sitio Lote (48),0
+CR,Barangay 3,BELARMINO ST INTERIOR,,8000.0,DO 59-2023,unmatched,Sitio Lote (50),0
+CR,Barangay 3,ROMAN SANTOS ST INTERIOR,,8000.0,DO 59-2023,unmatched,Sitio Lote (40),0
+CR,Barangay 3,T. ALONZO ST INTERIOR,,7000.0,DO 59-2023,unmatched,Sitio Lote (52),0
+RR,Barangay 3,ELAZEQUI I & II,,6500.0,DO 59-2023,unmatched,Sitio Lote (0),0
+RR,Barangay 3,ELEPANO SUBD I & II,,6500.0,DO 59-2023,unmatched,Sitio Lote (0),0
+RR,Barangay 3,LEONOR VILLAGE I & II,,6500.0,DO 59-2023,unmatched,Sitio Lote (0),0
+RR,Barangay 3,T. ALONZO ST,,6000.0,DO 59-2023,unmatched,Sitio Lote (44),0
+RR,Barangay 3,BELARMINO ST INTERIOR,,5500.0,DO 59-2023,unmatched,Sitio Lote (50),0
+RR,Barangay 3,T. ALONZO ST INTERIOR,,5000.0,DO 59-2023,unmatched,Sitio Lote (52),0
+RR,Barangay 3,ROMAN SANTOS ST INTERIOR,,5000.0,DO 59-2023,unmatched,Sitio Lote (40),0
+RR,Barangay 3,DNE SUBD (COMPOUND),,6500.0,DO 59-2023,village,DNE Subdivision,100
+CR,Barangay 4,ALL OTHER STREETS,,15000.0,DO 59-2023,background,,0
+CR,Barangay 4,ALL OTHER STREETS INTERIOR,,13000.0,DO 59-2023,background,,0
+RR,Barangay 4,ALL OTHER STREETS,,9000.0,DO 59-2023,background,,0
+RR,Barangay 4,ALL OTHER STREETS INTERIOR,INTERIOR LOT,7000.0,DO 59-2023,background,,0
+RR,Barangay 4,ALL OTHER STREETS INTERIOR,NEAR SAN JUAN RIVER,4000.0,DO 59-2023,background,,0
+CR,Barangay 4,DEL PILAR ST,,20000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (36),0
+CR,Barangay 4,DEL PILAR ST INTERIOR,,18000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (39),0
+RR,Barangay 4,DEL PILAR ST,,10000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (36),0
+RR,Barangay 4,DEL PILAR ST INTERIOR,,9000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (39),0
+CR,Barangay 5,ALL OTHER STREETS,,9500.0,DO 59-2023,background,,0
+CR,Barangay 5,ALL OTHER STREETS INTERIOR,,7500.0,DO 59-2023,background,,0
+RR,Barangay 5,ALL OTHER STREETS,,5500.0,DO 59-2023,background,,0
+RR,Barangay 5,ALL OTHER STREETS INTERIOR,,4500.0,DO 59-2023,background,,0
+CR,Barangay 5,BURGOS ST,,20000.0,DO 59-2023,street,P. Burgos Street,90.0
+CR,Barangay 5,LOPEZ JAENA ST,,20000.0,DO 59-2023,street,Lopez Jaena Street,100
+CR,Barangay 5,PABALAN ST,,20000.0,DO 59-2023,street,Pabalan Street,100
+RR,Barangay 5,BURGOS ST,,13500.0,DO 59-2023,street,P. Burgos Street,90.0
+RR,Barangay 5,LOPEZ JAENA ST,,13500.0,DO 59-2023,street,Lopez Jaena Street,100
+RR,Barangay 5,PABALAN ST,,13500.0,DO 59-2023,street,Pabalan Street,100
+CR,Barangay 5,ELEJORDE ST,,10000.0,DO 59-2023,street,Elejorde Street,100
+CR,Barangay 5,MABINI ST,,10000.0,DO 59-2023,street,Mabini Street,100
+RR,Barangay 5,ELEJORDE ST,,6500.0,DO 59-2023,street,Elejorde Street,100
+RR,Barangay 5,MABINI ST,,6500.0,DO 59-2023,street,Mabini Street,100
+RR,Barangay 5,BANDOLA SUBD,,6000.0,DO 59-2023,street,Bandola Street,97
+CR,Barangay 5,DR. SV RIZAL ST,,20000.0,DO 59-2023,unmatched,Villa Silangan (36),0
+CR,Barangay 5,GENERAL LIM,,20000.0,DO 59-2023,unmatched,Ramada Homes (35),0
+CR,Barangay 5,BURGOS ST INTERIOR,,18000.0,DO 59-2023,unmatched,Borja Subdivision (32),0
+CR,Barangay 5,DR. SV RIZAL ST INTERIOR,,18000.0,DO 59-2023,unmatched,Villa Silangan (39),0
+CR,Barangay 5,GENERAL LIM INTERIOR,,18000.0,DO 59-2023,unmatched,Villa Silangan (29),0
+CR,Barangay 5,LOPEZ JAENA ST INTERIOR,,18000.0,DO 59-2023,unmatched,Villa Silangan (35),0
+CR,Barangay 5,PABALAN ST INTERIOR,,18000.0,DO 59-2023,unmatched,Lazer Compound (38),0
+RR,Barangay 5,DR. SV RIZAL ST,,13500.0,DO 59-2023,unmatched,Villa Silangan (36),0
+RR,Barangay 5,GENERAL LIM,,13500.0,DO 59-2023,unmatched,Ramada Homes (35),0
+RR,Barangay 5,BURGOS ST INTERIOR,,10000.0,DO 59-2023,unmatched,Borja Subdivision (32),0
+RR,Barangay 5,DR. SV RIZAL ST INTERIOR,,10000.0,DO 59-2023,unmatched,Villa Silangan (39),0
+RR,Barangay 5,GENERAL LIM INTERIOR,,10000.0,DO 59-2023,unmatched,Villa Silangan (29),0
+RR,Barangay 5,LOPEZ JAENA ST INTERIOR,,10000.0,DO 59-2023,unmatched,Villa Silangan (35),0
+RR,Barangay 5,PABALAN ST INTERIOR,,10000.0,DO 59-2023,unmatched,Lazer Compound (38),0
+CR,Barangay 5,ELEJORDE ST INTERIOR,,8000.0,DO 59-2023,unmatched,DNE Subdivision (30),0
+CR,Barangay 5,MABINI ST INTERIOR,,8000.0,DO 59-2023,unmatched,Villa Silangan (34),0
+RR,Barangay 5,HABANA COMPOUND,,6000.0,DO 59-2023,unmatched,Ramada Homes (50),0
+RR,Barangay 5,L & E COMPOUND / LE VILLAGE,,6000.0,DO 59-2023,unmatched,Lazer Compound (57),0
+RR,Barangay 5,DENNIS SUBD 1&2,,5000.0,DO 59-2023,unmatched,Lazaro Compound 3 (0),0
+RR,Barangay 5,ELEJORDE ST INTERIOR,,5000.0,DO 59-2023,unmatched,DNE Subdivision (30),0
+RR,Barangay 5,MABINI ST INTERIOR,,5000.0,DO 59-2023,unmatched,Villa Silangan (34),0
+RR,Barangay 5,LAZER SUBD,,6000.0,DO 59-2023,village,Lazer Compound,100
+RR,Barangay 5,VILLA SILANGAN,,6000.0,DO 59-2023,village,Villa Silangan,100
+CR,Barangay 6,ALL OTHER STREETS,,10000.0,DO 59-2023,background,,0
+RR,Barangay 6,ALL OTHER STREETS,,9000.0,DO 59-2023,background,,0
+CR,Barangay 6,ALL OTHER STREETS INTERIOR,,8000.0,DO 59-2023,background,,0
+RR,Barangay 6,ALL OTHER STREETS INTERIOR,,7500.0,DO 59-2023,background,,0
+CR,Barangay 6,BURGOS ST,,20000.0,DO 59-2023,street,P. Burgos Street,90.0
+CR,Barangay 6,ELEPANO ST,,20000.0,DO 59-2023,street,Elepaño Street,100
+CR,Barangay 6,J.P. RIZAL ST,,20000.0,DO 59-2023,street,J. P. Rizal Street,100
+CR,Barangay 6,LOPEZ JAENA ST.,,20000.0,DO 59-2023,street,Lopez Jaena Street,100
+RR,Barangay 6,BURGOS ST,,15000.0,DO 59-2023,street,P. Burgos Street,90.0
+RR,Barangay 6,ELEPANO ST,,15000.0,DO 59-2023,street,Elepaño Street,100
+RR,Barangay 6,J.P. RIZAL ST,,15000.0,DO 59-2023,street,J. P. Rizal Street,100
+RR,Barangay 6,LOPEZ JAENA ST.,,15000.0,DO 59-2023,street,Lopez Jaena Street,100
+CR,Barangay 6,CAILLES ST,,12000.0,DO 59-2023,street,Cailles Street,100
+RR,Barangay 6,CAILLES ST,,10000.0,DO 59-2023,street,Cailles Street,100
+CR,Barangay 6,MERCADO ST,,20000.0,DO 59-2023,unmatched,Chipeco Subdivision (43),0
+CR,Barangay 6,BURGOS ST INTERIOR,,18000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+CR,Barangay 6,ELEPANO ST INTERIOR,,18000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (34),0
+CR,Barangay 6,J.P. RIZAL ST INTERIOR,,18000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (32),0
+CR,Barangay 6,LOPEZ JAENA ST. INTERIOR,,18000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (36),0
+CR,Barangay 6,MERCADO ST INTERIOR,,18000.0,DO 59-2023,unmatched,Chipeco Subdivision (35),0
+CR,Barangay 6,CASANAS (LASANAS),,16000.0,DO 59-2023,unmatched,Samson Compound (50),0
+RR,Barangay 6,MERCADO ST,,15000.0,DO 59-2023,unmatched,Chipeco Subdivision (43),0
+CR,Barangay 6,CASANAS (LASANAS) INTERIOR,,14000.0,DO 59-2023,unmatched,Samson Compound (50),0
+RR,Barangay 6,BURGOS ST INTERIOR,,13000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+RR,Barangay 6,ELEPANO ST INTERIOR,,13000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (34),0
+RR,Barangay 6,J.P. RIZAL ST INTERIOR,,13000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (32),0
+RR,Barangay 6,LOPEZ JAENA ST. INTERIOR,,13000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (36),0
+RR,Barangay 6,MERCADO ST INTERIOR,,13000.0,DO 59-2023,unmatched,Chipeco Subdivision (35),0
+CR,Barangay 6,CAILLES ST INTERIOR,,10000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (43),0
+RR,Barangay 6,CASANAS (LASANAS),,10000.0,DO 59-2023,unmatched,Samson Compound (50),0
+RR,Barangay 6,CAILLES ST INTERIOR,,8000.0,DO 59-2023,unmatched,Villa Zenaida Subdivision (43),0
+RR,Barangay 6,CASANAS (LASANAS) INTERIOR,,8000.0,DO 59-2023,unmatched,Samson Compound (50),0
+RR,Barangay 6,SITIO LABAK,,6000.0,DO 59-2023,unmatched,Samson Compound (35),0
+RR,Barangay 6,VILLA ZENAIDA SUBD,,10000.0,DO 59-2023,village,Villa Zenaida Subdivision,100
+CR,Barangay 7,ALL OTHER STREETS,,9500.0,DO 59-2023,background,,0
+CR,Barangay 7,ALL OTHER STREETS INTERIOR,,8000.0,DO 59-2023,background,,0
+RR,Barangay 7,ALL OTHER STREETS,,5500.0,DO 59-2023,background,,0
+RR,Barangay 7,ALL OTHER STREETS INTERIOR,,4500.0,DO 59-2023,background,,0
+CR,Barangay 7,P. ALIHAN ST,,20000.0,DO 59-2023,street,P. Alihan Street,100
+RR,Barangay 7,P. ALIHAN ST,,13500.0,DO 59-2023,street,P. Alihan Street,100
+CR,Barangay 7,CAILLES ST,,12000.0,DO 59-2023,street,Cailles Street,100
+RR,Barangay 7,JULIANO SUBD,,6000.0,DO 59-2023,street,Juliano Street,97
+RR,Barangay 7,MAXMAR SUBD,,6000.0,DO 59-2023,street,Maxmar Street,97
+RR,Barangay 7,CAILLES ST,,6000.0,DO 59-2023,street,Cailles Street,100
+CR,Barangay 7,GENERAL LIM,,25000.0,DO 59-2023,unmatched,Jenel Subdivision (50),0
+CR,Barangay 7,P. ALIHAN ST INTERIOR,,18000.0,DO 59-2023,unmatched,Lazer Compound (36),0
+RR,Barangay 7,GENERAL LIM,,13000.0,DO 59-2023,unmatched,Jenel Subdivision (50),0
+CR,Barangay 7,BELARMINO SUBD,,10000.0,DO 59-2023,unmatched,Laureola Subdivision (47),0
+CR,Barangay 7,CAILLES ST INTERIOR,,10000.0,DO 59-2023,unmatched,Villa Silangan (41),0
+RR,Barangay 7,P. ALIHAN ST INTERIOR,,10000.0,DO 59-2023,unmatched,Lazer Compound (36),0
+RR,Barangay 7,MA. SOLEDAD SUBD,,6000.0,DO 59-2023,unmatched,Ramada Homes (50),0
+RR,Barangay 7,BELARMINO SUBD,,6000.0,DO 59-2023,unmatched,Laureola Subdivision (47),0
+RR,Barangay 7,CAILLES ST INTERIOR,,5000.0,DO 59-2023,unmatched,Villa Silangan (41),0
+RR,Barangay 7,BORJA SUBD,,6000.0,DO 59-2023,village,Borja Subdivision,100
+CR,Batino,CALAMBA PREMIERE INT'L PARK,,15000.0,DO 59-2023,unmatched,Amaia Scapes Calamba (49),0
+I,Batino,CALAMBA PREMIERE INT'L PARK,,10000.0,DO 59-2023,unmatched,Amaia Scapes Calamba (49),0
+CR,Batino,ALL STREETS,ALONG BARANGAY ROAD,10000.0,DO 59-2023,unmatched,Saint Michael Subdivision (25),0
+RR,Batino,CALAMBA PREMIERE INT'L PARK,,8000.0,DO 59-2023,unmatched,Amaia Scapes Calamba (49),0
+I,Batino,ALL STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Saint Michael Subdivision (25),0
+RR,Batino,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Saint Michael Subdivision (25),0
+RR,Batino,ALL STREETS,INTERIOR LOTS,5000.0,DO 59-2023,unmatched,Saint Michael Subdivision (25),0
+CR,Batino,MADISON SOUTH,,10000.0,DO 59-2023,village,Madison South,100
+RR,Batino,MADISON SOUTH,,8000.0,DO 59-2023,village,Madison South,100
+RR,Bubuyan,MSME ASENSO VILLAGE,,6000.0,DO 59-2023,unmatched,Asenso Village (71),0
+RR,Bubuyan,VALLE ALLEGRE,,6000.0,DO 59-2023,unmatched,Valle Dulce at Pueblo Solana (49),0
+RR,Bubuyan,VALLE DULCE PH 2,,6000.0,DO 59-2023,unmatched,Valle Dulce at Pueblo Solana (0),0
+RR,Bubuyan,VENTURA REAL,,6000.0,DO 59-2023,unmatched,Carmel Ridge Residential Estates (44),0
+CR,Bubuyan,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Carmel Ridge Residential Estates (22),0
+I,Bubuyan,ALL STREETS,ALONG BARANGAY ROAD,3500.0,DO 59-2023,unmatched,Carmel Ridge Residential Estates (22),0
+I,Bubuyan,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Carmel Ridge Residential Estates (22),0
+RR,Bubuyan,ALL STREETS,ALONG BARANGAY ROAD,2500.0,DO 59-2023,unmatched,Carmel Ridge Residential Estates (22),0
+RR,Bubuyan,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Carmel Ridge Residential Estates (22),0
+RR,Bubuyan,VALLE DULCE AT PUEBLO SOLANA,,6000.0,DO 59-2023,village,Valle Dulce at Pueblo Solana,100
+RR,Bucal,BAYVIEW HILLS SUBD (BAYVIEW SUBD),,6000.0,DO 59-2023,street,Bayview,97
+CR,Bucal,ALL STREETS,ALONG NATIONAL ROAD,12000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+CR,Bucal,SPRING HOMES SUBD I & II,,9750.0,DO 59-2023,unmatched,Laguna Hills (0),0
+CR,Bucal,SOUTH LAKES SUBD,,9750.0,DO 59-2023,unmatched,Solemar Del Pansol Subdivision (36),0
+CR,Bucal,SOUTH SPRING VILLA (SOUTH SPRING SUBD),,9750.0,DO 59-2023,unmatched,Villa Remedios Subdivision (52),0
+CR,Bucal,CUYAB HOT SPRING SUBD,,9000.0,DO 59-2023,unmatched,Maria Makiling Hot Springs Village (59),0
+CR,Bucal,LAKEVIEW SUBD.,,9000.0,DO 59-2023,unmatched,Villa de Calamba (42),0
+CR,Bucal,ALL STREETS,ALONG BARANGAY ROAD,9000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+I,Bucal,ALL STREETS,ALONG NATIONAL ROAD,8500.0,DO 59-2023,unmatched,Laguna Hills (43),0
+CR,Bucal,CENTRO VERDE PH 1,,8000.0,DO 59-2023,unmatched,Laguna Hills (0),0
+CR,Bucal,ALL STREETS,ALONG BYPASS ROAD,8000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+I,Bucal,ALL STREETS,INTERIOR LOTS,7500.0,DO 59-2023,unmatched,Laguna Hills (43),0
+I,Bucal,ALL STREETS,ALONG BARANGAY ROAD,7000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Bucal,PAMANA HOMES I & II,,6500.0,DO 59-2023,unmatched,Laguna Hills (0),0
+RR,Bucal,SPRING HOMES SUBD I & II,,6500.0,DO 59-2023,unmatched,Laguna Hills (0),0
+RR,Bucal,SOUTH LAKES SUBD,,6500.0,DO 59-2023,unmatched,Solemar Del Pansol Subdivision (36),0
+RR,Bucal,SOUTH SPRING VILLA (SOUTH SPRING SUBD),,6500.0,DO 59-2023,unmatched,Villa Remedios Subdivision (52),0
+RR,Bucal,TIERRA HERMOSA SUBD,,6500.0,DO 59-2023,unmatched,Centro Verde (46),0
+RR,Bucal,TIERRA VALIENTE SUBD,,6500.0,DO 59-2023,unmatched,Centro Verde (44),0
+RR,Bucal,ALL STREETS,ALONG NATIONAL ROAD,6500.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Bucal,ALL STREETS,ALONG BYPASS ROAD,6500.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Bucal,CENTRO VERDE PH 2,,6000.0,DO 59-2023,unmatched,Laguna Hills (0),0
+RR,Bucal,CUYAB HOT SPRING SUBD,,6000.0,DO 59-2023,unmatched,Maria Makiling Hot Springs Village (59),0
+RR,Bucal,GEMSVILLE SUBD,,6000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (55),0
+RR,Bucal,LAKEVIEW SUBD.,,6000.0,DO 59-2023,unmatched,Villa de Calamba (42),0
+RR,Bucal,ALL STREETS,INTERIOR LOTS,4500.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Bucal,ALL STREETS,ALONG BARANGAY ROAD,4500.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Bucal,PAMANA HOMES (LETRAN HEIGHTS SUBD),,6500.0,DO 59-2023,village,Pamana Homes,100
+RR,Bucal,VANESSA HOMES,,6000.0,DO 59-2023,village,Vanessa Homes,100
+RR,Bunggo,THE HILLSIDE AT TAGAYTAY HIGHLANDS,,12000.0,DO 59-2023,unmatched,Hillside (43),0
+RR,Bunggo,THE PINES AT ASPENHILLS,,12000.0,DO 59-2023,unmatched,Aspenhills (69),0
+RR,Bunggo,LA HUERTA PH 2,,6000.0,DO 59-2023,unmatched,La Huerta Farms and Residences (0),0
+CR,Bunggo,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Aspenhills (50),0
+I,Bunggo,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Aspenhills (50),0
+RR,Bunggo,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Aspenhills (50),0
+I,Bunggo,ALL STREETS,INTERIOR LOT,3000.0,DO 59-2023,unmatched,Aspenhills (50),0
+RR,Bunggo,ALL STREETS,INTERIOR LOT,2000.0,DO 59-2023,unmatched,Aspenhills (50),0
+RR,Bunggo,ALL STREETS,BONTOG RIVER,1000.0,DO 59-2023,unmatched,Aspenhills (50),0
+RR,Burol,LAGUNA WINDWOODS (*PALO ALTO),,7000.0,DO 59-2023,unmatched,La Huerta Farms and Residences (36),0
+RR,Burol,LA HUERTA PH1,,6000.0,DO 59-2023,unmatched,Southville 6 (0),0
+RR,Burol,ST. JOSEPH HOMES,,6000.0,DO 59-2023,unmatched,Valle Dulce at Pueblo Solana (18),0
+RR,Burol,ST. JOSEPH HOMES CALAMBA PHASE 2,,6000.0,DO 59-2023,unmatched,Southville 6 (0),0
+CR,Burol,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Valle Dulce at Pueblo Solana (19),0
+I,Burol,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Valle Dulce at Pueblo Solana (19),0
+RR,Burol,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Valle Dulce at Pueblo Solana (19),0
+I,Burol,ALL STREETS,INTERIOR LOT,3000.0,DO 59-2023,unmatched,Valle Dulce at Pueblo Solana (19),0
+RR,Burol,ALL STREETS,INTERIOR LOT,2000.0,DO 59-2023,unmatched,Valle Dulce at Pueblo Solana (19),0
+RR,Burol,VALLE DULCE,,6000.0,DO 59-2023,village,Valle Dulce at Pueblo Solana,95
+RR,Burol,SOUTHVILLE 6,,5000.0,DO 59-2023,village,Southville 6,100
+CR,Camaligan,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+I,Camaligan,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+RR,Camaligan,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+I,Camaligan,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+RR,Camaligan,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+RR,Camaligan,ALL STREETS,BARANCA DI SIPIT RIVER,1000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+RR,Camaligan,AYALA GREENFIELD PH 7,,12000.0,DO 59-2023,village,Ayala Greenfield Estates Phase 7,100
+RR,Canlubang,NUVALI,,35000.0,DO 59-2023,street,Nuvali Boulevard,97
+RR,Canlubang,MONDIA EXPANSION,,51000.0,DO 59-2023,unmatched,Mondia (55),0
+RR,Canlubang,HILLCREST ESTATES NUVALI,,34000.0,DO 59-2023,unmatched,Hillcrest Estates (72),0
+RR,Canlubang,SOUTHFIELD SETTINGS NUVALI,,31000.0,DO 59-2023,unmatched,Southdale Settings Nuvali (86),0
+RR,Canlubang,ELARO,,23500.0,DO 59-2023,unmatched,Palao (60),0
+RR,Canlubang,TREVEIA I,,21000.0,DO 59-2023,unmatched,Asia 1 (53),0
+RR,Canlubang,VENARE I & II,,21000.0,DO 59-2023,unmatched,Mondia (0),0
+RR,Canlubang,MORNING FIELDS AT CARMENTOWN (Carmel Town Town II),,12000.0,DO 59-2023,unmatched,Morningfields (62),0
+CR,Canlubang,ALL STREETS,ALONG BARANGAY ROAD,11000.0,DO 59-2023,unmatched,Palao (50),0
+I,Canlubang,CARMELRAY INDUSTRIAL PARK,,10000.0,DO 59-2023,unmatched,Carmelray GK Village (59),0
+RR,Canlubang,"CERIS I,II & III",,8000.0,DO 59-2023,unmatched,Mondia (0),0
+I,Canlubang,ALL STREETS,ALONG BARANGAY ROAD,7000.0,DO 59-2023,unmatched,Palao (50),0
+RR,Canlubang,ARJAY HOUSING,,6000.0,DO 59-2023,unmatched,Carmel Housing (74),0
+RR,Canlubang,BUNTOG BENIFICIARY SITE,,6000.0,DO 59-2023,unmatched,Amaia Steps Nuvali (40),0
+RR,Canlubang,CANLUBANG HOUSING PROJECT,,6000.0,DO 59-2023,unmatched,Carmel Housing (56),0
+RR,Canlubang,CANLUBANG SILANGAN SUBD (CSE),,6000.0,DO 59-2023,unmatched,Silangan Village (62),0
+RR,Canlubang,VILLA PALAO (Kapayapaan ville PH1),,6000.0,DO 59-2023,unmatched,Palao (62),0
+RR,Canlubang,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Palao (50),0
+I,Canlubang,ALL STREETS,INTERIOR LOTS,6000.0,DO 59-2023,unmatched,Palao (50),0
+RR,Canlubang,ALL STREETS,INTERIOR LOTS,4000.0,DO 59-2023,unmatched,Palao (50),0
+RR,Canlubang,ALL STREETS,MANGUMIT RIVER &,2000.0,DO 59-2023,unmatched,Palao (50),0
+RR,Canlubang,ROCKWELL SOUTH CARMELRAY,,51000.0,DO 59-2023,village,Rockwell South at Carmelray,95
+RR,Canlubang,PROJECT N1 (Andacillo),,42000.0,DO 59-2023,village,Andacillo Nuvali,95
+RR,Canlubang,PROJECT K7 (Cerilo),,35000.0,DO 59-2023,village,Cerilo,100
+RR,Canlubang,MIRALA,,31000.0,DO 59-2023,village,Mirala,100
+RR,Canlubang,RIOMONTE,,31000.0,DO 59-2023,village,Riomonte,100
+RR,Canlubang,SOLIENTO,,31000.0,DO 59-2023,village,Soliento,100
+RR,Canlubang,LUMIRA,,30000.0,DO 59-2023,village,Lumira,100
+RR,Canlubang,MONTECITO (Villas Del sol),,29000.0,DO 59-2023,village,Montecito Nuvali,95
+RR,Canlubang,LUSCARA,,27000.0,DO 59-2023,village,Luscara,100
+RR,Canlubang,AVIDA ESTATE NUVALI,,21000.0,DO 59-2023,village,Avida Settings Nuvali,95
+RR,Canlubang,AVIDA PARKWAY SETTINGS NUVALI,,21000.0,DO 59-2023,village,Avida Parkway Settings,85.71428571428572
+RR,Canlubang,AVIDA SETTINGS NUVALI,,21000.0,DO 59-2023,village,Avida Settings Nuvali,100
+RR,Canlubang,AVIDA VILLAGE NUVALI,,21000.0,DO 59-2023,village,Avida Settings Nuvali,95
+RR,Canlubang,AVIDA WOODHILL SETTINGS NUVALI,,21000.0,DO 59-2023,village,Avida Woodhill Settings,86.27450980392157
+RR,Canlubang,AMAIA SERIES NUVALI,,12000.0,DO 59-2023,village,Amaya Series Nuvali,94.44444444444444
+RR,Canlubang,CARMEL HOUSING,,6000.0,DO 59-2023,village,Carmel Housing,100
+RR,Canlubang,SILANGAN VILLAGE (Silangan Retirement Ville),,6000.0,DO 59-2023,village,Silangan Village,100
+CR,Halang,ALL STREETS,ALONG NATIONAL ROAD,12000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+CR,Halang,ALL STREETS,ALONG BARANGAY ROAD,10000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+CR,Halang,BRIDGE WATER REALTY,,8000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (32),0
+CR,Halang,EL DANDA SUBD,,8000.0,DO 59-2023,unmatched,Pamana Homes (43),0
+CR,Halang,GEBELYN CPD,,8000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (30),0
+CR,Halang,LAKEVIEW SUBD,,8000.0,DO 59-2023,unmatched,Canossa GK Ville (42),0
+CR,Halang,LAZARO CPD,,8000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (42),0
+CR,Halang,L & E SUBD I (LAZARO CPD),,8000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (42),0
+CR,Halang,MA. SALOME SUBD,,8000.0,DO 59-2023,unmatched,Pamana Homes (40),0
+CR,Halang,MARCELINA VILLAGE,,8000.0,DO 59-2023,unmatched,Pamana Homes (53),0
+CR,Halang,SOUTH MEADOWS SUBD,,8000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (40),0
+I,Halang,ALL STREETS,ALONG NATIONAL ROAD,8000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+RR,Halang,BRIDGE WATER REALTY,,6000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (32),0
+RR,Halang,EL DANDA SUBD,,6000.0,DO 59-2023,unmatched,Pamana Homes (43),0
+RR,Halang,GEBELYN CPD,,6000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (30),0
+RR,Halang,LAKEVIEW SUBD,,6000.0,DO 59-2023,unmatched,Canossa GK Ville (42),0
+RR,Halang,LAZARO CPD,,6000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (42),0
+RR,Halang,L & E SUBD I (LAZARO CPD),,6000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (42),0
+RR,Halang,MA. SALOME SUBD,,6000.0,DO 59-2023,unmatched,Pamana Homes (40),0
+RR,Halang,MARCELINA VILLAGE,,6000.0,DO 59-2023,unmatched,Pamana Homes (53),0
+RR,Halang,SOUTH MEADOWS SUBD,,6000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (40),0
+RR,Halang,VILLA REMEDIOS EAST SUBD,,6000.0,DO 59-2023,unmatched,Villa Remedios Subdivision (84),0
+RR,Halang,ALL STREETS,ALONG NATIONAL ROAD,6000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+I,Halang,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+RR,Halang,ALL STREETS,INTERIOR LOTS,5000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+RR,Halang,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+CR,Halang,PAMANA HOMES,,8000.0,DO 59-2023,village,Pamana Homes,100
+RR,Halang,PAMANA HOMES,,6000.0,DO 59-2023,village,Pamana Homes,100
+RR,Halang,VILLA REMEDIOS,,6000.0,DO 59-2023,village,Villa Remedios Subdivision,100
+RR,Halang,TAPIA COMPOUND,,5000.0,DO 59-2023,village,Tapia Subdivision,100
+CR,Hornalan,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Miriam College Nuvali (25),0
+I,Hornalan,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Miriam College Nuvali (25),0
+RR,Hornalan,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Miriam College Nuvali (25),0
+I,Hornalan,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Miriam College Nuvali (25),0
+RR,Hornalan,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Miriam College Nuvali (25),0
+RR,Kay-Anlog,CALAMBEÑO VILLE 5 PH 3,,6000.0,DO 59-2023,unmatched,Southville 6 (0),0
+CR,Kay-Anlog,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,The Aviary (22),0
+RR,Kay-Anlog,VALLEY BREEZE RESIDENCES,,4000.0,DO 59-2023,unmatched,Carmel Ridge Residential Estates (55),0
+RR,Kay-Anlog,VALLEY BREEZE RESIDENCES PH2 & PH 3,,4000.0,DO 59-2023,unmatched,Southville 6 (0),0
+I,Kay-Anlog,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,The Aviary (22),0
+RR,Kay-Anlog,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,The Aviary (22),0
+RR,Kay-Anlog,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,The Aviary (22),0
+RR,Kay-Anlog,ALL STREETS,SAN JUAN RIVER,1500.0,DO 59-2023,unmatched,The Aviary (22),0
+RR,Kay-Anlog,CARMEL RIDGE VILLAGE,,6000.0,DO 59-2023,village,Carmel Ridge Residential Estates,95
+RR,Kay-Anlog,SOUTHVILLE 6,,4000.0,DO 59-2023,village,Southville 6,100
+CR,La Mesa,ALL STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Carmel Valley (38),0
+CR,La Mesa,ALL STREETS,ALONG BYPASS ROAD,8000.0,DO 59-2023,unmatched,Carmel Valley (38),0
+I,La Mesa,SCIENCE PARK,,7000.0,DO 59-2023,unmatched,Glenwood Park (56),0
+I,La Mesa,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Carmel Valley (38),0
+RR,La Mesa,MA. MAKILING GARDEN,,5000.0,DO 59-2023,unmatched,Pamana Homes (42),0
+RR,La Mesa,MA. MAKILING GREEEN HTS,,5000.0,DO 59-2023,unmatched,Glenwood Park (34),0
+RR,La Mesa,SPRING HOMES SUBD/HILL TOP,,5000.0,DO 59-2023,unmatched,KEJULIOTO (35),0
+RR,La Mesa,LAKEVIEW HEIGHTS,,5000.0,DO 59-2023,unmatched,KEJULIOTO (33),0
+RR,La Mesa,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Carmel Valley (38),0
+RR,La Mesa,ALL STREETS,ALONG BYPASS ROAD,5000.0,DO 59-2023,unmatched,Carmel Valley (38),0
+RR,La Mesa,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Carmel Valley (38),0
+RR,La Mesa,CARMEL VALLEY,,5000.0,DO 59-2023,village,Carmel Valley,100
+RR,La Mesa,LA MESA RIDGE I,,5000.0,DO 59-2023,village,La Mesa Ridge Phase 1,100
+RR,La Mesa,VILLA DE CALAMBA,,5000.0,DO 59-2023,village,Villa de Calamba,100
+RR,Laguerta,SOUTHDALE EXPANSION,,12000.0,DO 59-2023,unmatched,Southdale Settings Nuvali (65),0
+RR,Laguerta,ST. JOSEPH HOMES,,5000.0,DO 59-2023,unmatched,Southdale Settings Nuvali (20),0
+RR,Laguerta,ST. JOSEPH HOMES PHASE 3 (St. Joseph Springfield),,5000.0,DO 59-2023,unmatched,Avida Southfield Settings (48),0
+CR,Laguerta,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Hillcrest Estates (33),0
+RR,Laguerta,LA HUERTA PH II,,5000.0,DO 59-2023,unmatched,La Huerta Farms and Residences (0),0
+RR,Laguerta,LA CASA LAGUERTA PH 1 & 2,,4000.0,DO 59-2023,unmatched,La Huerta Farms and Residences (0),0
+RR,Laguerta,GUMAMELA HEIGHTS,,4000.0,DO 59-2023,unmatched,La Huerta Farms and Residences (41),0
+RR,Laguerta,MARESCO DREAMS HOMES,,4000.0,DO 59-2023,unmatched,La Huerta Farms and Residences (49),0
+RR,Laguerta,MOUNTAIN VIEW HOMES,,4000.0,DO 59-2023,unmatched,Southdale Settings Nuvali (49),0
+RR,Laguerta,MULTI-LAND V,,4000.0,DO 59-2023,unmatched,La Huerta Farms and Residences (0),0
+RR,Laguerta,XANTARA HOMES LAGUERTA,,4000.0,DO 59-2023,unmatched,La Huerta Farms and Residences (45),0
+I,Laguerta,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Hillcrest Estates (33),0
+RR,Laguerta,LAGUERTA VILLAGE DEVT,,4000.0,DO 59-2023,unmatched,La Huerta Farms and Residences (54),0
+RR,Laguerta,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Hillcrest Estates (33),0
+I,Laguerta,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Hillcrest Estates (33),0
+RR,Laguerta,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Hillcrest Estates (33),0
+RR,Laguerta,AVIDA LAPANDAY SETTINGS (Avida Settings Southdale Nuvali),,12000.0,DO 59-2023,village,Southdale Settings Nuvali,88.88888888888889
+RR,Laguerta,AVIDA LAPANDAY ESTATES (Averdeen Estates Nuvali),,12000.0,DO 59-2023,village,Averdeen Estates Nuvali,100
+CR,Lawa,ALL STREETS,ALONG BARANGAY ROAD,12000.0,DO 59-2023,unmatched,Villa La Prinza (33),0
+RR,Lawa,DON ABELARDO HOMES,,6000.0,DO 59-2023,unmatched,Santa Cecilia Village (40),0
+RR,Lawa,L.E. VILLAGE II & III,,6000.0,DO 59-2023,unmatched,Villa La Prinza (0),0
+RR,Lawa,MALIGAYA VILLAGE,,6000.0,DO 59-2023,unmatched,Santa Cecilia Village (38),0
+RR,Lawa,SENTRINA - CALAMBA,,6000.0,DO 59-2023,unmatched,Sentrina (67),0
+RR,Lawa,SOUTHCREST (DIONLINA HOMES),,6000.0,DO 59-2023,unmatched,Southern Crest (83),0
+RR,Lawa,ST. AUGUSTINE SUBD,,6000.0,DO 59-2023,unmatched,Sentrina (47),0
+RR,Lawa,WESTRIDGE RESIDENCES,,6000.0,DO 59-2023,unmatched,Sentrina (44),0
+I,Lawa,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Villa La Prinza (33),0
+RR,Lawa,BASCARA CMPD,,4000.0,DO 59-2023,unmatched,Sentrina (40),0
+RR,Lawa,VEGERANO CMPD,,4000.0,DO 59-2023,unmatched,Sentrina (38),0
+RR,Lawa,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Villa La Prinza (33),0
+RR,Lawa,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Villa La Prinza (33),0
+RR,Lawa,ALL STREETS,SAN JUAN RIVER,1500.0,DO 59-2023,unmatched,Villa La Prinza (33),0
+RR,Lawa,RODRIGUEZ SUBD,,6000.0,DO 59-2023,village,Rodriguez Village,100
+CR,Lecheria,ALL STREETS,ALONG NATIONAL ROAD (Lecheria to Los Baños Boundary),12000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+CR,Lecheria,ALL STREETS,ALONG BARANGAY ROAD,9000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+CR,Lecheria,HOLY FAMILY MEMORIAL PARK 2,,8000.0,DO 59-2023,unmatched,Elepaño 2 (33),0
+I,Lecheria,ALL STREETS,ALONG NATIONAL ROAD (Lecheria to Los Baños Boundary),8000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+RR,Lecheria,CABILLO SUBD,,6500.0,DO 59-2023,unmatched,Canossa GK Ville (43),0
+RR,Lecheria,L.A. COMPOUND (LECHERIA HILLS),,6500.0,DO 59-2023,unmatched,Lazer Compound (50),0
+RR,Lecheria,ALL STREETS,ALONG NATIONAL ROAD (Lecheria to Los Baños Boundary),6500.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+I,Lecheria,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+RR,Lecheria,DENNIS I & II,,5500.0,DO 59-2023,unmatched,Amihan Compound (0),0
+RR,Lecheria,ELEPANO HILLS SIDE SUBD,,5500.0,DO 59-2023,unmatched,Canossa GK Ville (48),0
+RR,Lecheria,ALL STREETS,ALONG BARANGAY ROAD,5500.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+RR,Lecheria,ALL STREETS,INTERIOR LOTS,5000.0,DO 59-2023,unmatched,Canossa GK Ville (32),0
+RR,Lecheria,LAZARO CPD III (LAZARO CPD),,6500.0,DO 59-2023,village,Lazaro Compound 3,100
+RR,Lecheria,RAMADA HOMES SUBD,,5000.0,DO 59-2023,village,Ramada Homes,100
+CR,Lingga,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Jenel Subdivision (25),0
+RR,Lingga,L & E SUBD I (LAZARO CPD),,5000.0,DO 59-2023,unmatched,Jenel Subdivision (18),0
+RR,Lingga,VILLANUEVA SUBD,,5000.0,DO 59-2023,unmatched,Jenel Subdivision (27),0
+RR,Lingga,ST. PETER & PAUL SUBD,,5000.0,DO 59-2023,unmatched,Jenel Subdivision (40),0
+RR,Lingga,CASTILLO SUBD,,4000.0,DO 59-2023,unmatched,Jenel Subdivision (15),0
+I,Lingga,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Jenel Subdivision (25),0
+RR,Lingga,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Jenel Subdivision (25),0
+RR,Lingga,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Jenel Subdivision (25),0
+RR,Lingga,ALL STREETS,NEAR LAGUNA DE BAY LAKE,1000.0,DO 59-2023,unmatched,Jenel Subdivision (25),0
+CR,Looc,ALL STREETS,ALONG BARANGAY ROAD,8500.0,DO 59-2023,unmatched,Bougainvilla Homes (40),0
+I,Looc,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Bougainvilla Homes (40),0
+RR,Looc,LAKE HILLS SUBD / WAKE HILLS,,5000.0,DO 59-2023,unmatched,Rose Ville Subdivision (53),0
+RR,Looc,LAZARO COMPOUND,,5000.0,DO 59-2023,unmatched,Vermont Place (42),0
+RR,Looc,ALL STREETS,ALONG BARANGAY ROAD,4500.0,DO 59-2023,unmatched,Bougainvilla Homes (40),0
+RR,Looc,DOÑA PILAR SUBD /ASTEC,,4000.0,DO 59-2023,unmatched,Aztec Homes (80),0
+RR,Looc,MUNTING PARAISO,,4000.0,DO 59-2023,unmatched,Vermont Place (43),0
+RR,Looc,RILLO REYES SUBD,,4000.0,DO 59-2023,unmatched,Rose Ville Subdivision (60),0
+RR,Looc,VILLA MARGARITA HEIGHTS,,4000.0,DO 59-2023,unmatched,Mahogany Villas (56),0
+RR,Looc,ALL STREETS,INTERIOR LOTS,3500.0,DO 59-2023,unmatched,Bougainvilla Homes (40),0
+RR,Looc,ALL STREETS,NEAR LAGUNA DE BAY LAKE,1000.0,DO 59-2023,unmatched,Bougainvilla Homes (40),0
+RR,Looc,MAHOGANY VILLAS,,5000.0,DO 59-2023,village,Mahogany Villas,100
+RR,Looc,VERMONT PLACE,,5000.0,DO 59-2023,village,Vermont Place,100
+RR,Looc,BAMBOO GROVE,,5000.0,DO 59-2023,village,Bamboo Grove Subdivision,100
+RR,Looc,LAKE BREEZE RESIDENCES,,4000.0,DO 59-2023,village,Lake Breeze  Residences,100
+RR,Looc,ROSEVILLE SUBD,,4000.0,DO 59-2023,village,Rose Ville Subdivision,100
+RR,Looc,VILL CONSOLACION,,4000.0,DO 59-2023,village,Villa Consolacion Subdivision,95
+RR,Looc,VILLA ISABEL/ CASA ISABEL,,4000.0,DO 59-2023,village,Villa Isabel Subdivision,100
+RR,Looc,CENTENNIAL DE CALAMBA,,4000.0,DO 59-2023,village,Centennial de Calamba,100
+CR,Mabato,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Aspenhills (50),0
+I,Mabato,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Aspenhills (50),0
+RR,Mabato,ALL STREETS,ALONG BARANGAY ROAD,2500.0,DO 59-2023,unmatched,Aspenhills (50),0
+RR,Mabato,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Aspenhills (50),0
+RR,Mabato,ALL STREETS,MABATO RIVER,1000.0,DO 59-2023,unmatched,Aspenhills (50),0
+CR,Majada Labas,ALL STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Gran Avila (31),0
+RR,Majada Labas,ALEGRO HOMES,,6000.0,DO 59-2023,unmatched,Gran Avila (50),0
+RR,Majada Labas,CARMEL VILLAGE SUBD I (A),,6000.0,DO 59-2023,unmatched,Gran Avila (18),0
+RR,Majada Labas,CARMEL VILLAGE SUBD II (B),,6000.0,DO 59-2023,unmatched,Block 2 (40),0
+RR,Majada Labas,CHURCH VIEW HOMES,,6000.0,DO 59-2023,unmatched,Gran Avila (38),0
+RR,Majada Labas,LA RESIDENCIA VIRGINIA,,6000.0,DO 59-2023,unmatched,Gran Avila (38),0
+RR,Majada Labas,SAN FRANCISCO PLACE,,6000.0,DO 59-2023,unmatched,Gran Avila (48),0
+RR,Majada Labas,RIVERA HOMES,,6000.0,DO 59-2023,unmatched,Gran Avila (38),0
+I,Majada Labas,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Gran Avila (31),0
+RR,Majada Labas,BRIA HOMES,,4500.0,DO 59-2023,unmatched,Gran Avila (43),0
+RR,Majada Labas,BRIA HOMES EXECUTIVE - MAJADA,,4500.0,DO 59-2023,unmatched,Alexandra South (33),0
+RR,Majada Labas,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Gran Avila (31),0
+RR,Majada Labas,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Gran Avila (31),0
+RR,Majada Labas,ALEXANDRA SOUTH,,6000.0,DO 59-2023,village,Alexandra South,100
+RR,Majada Labas,GRAND AVILA,,6000.0,DO 59-2023,village,Gran Avila,95.23809523809523
+RR,Majada Labas,MIDLAND IV SUBD,,6000.0,DO 59-2023,village,Midland IV Subdivision,100
+CR,Makiling,ALL STREETS,ALONG NATIONAL ROAD,12000.0,DO 59-2023,unmatched,Palacio Real Subdivision (40),0
+I,Makiling,ALL STREETS,ALONG NATIONAL ROAD,8000.0,DO 59-2023,unmatched,Palacio Real Subdivision (40),0
+CR,Makiling,ALL STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Palacio Real Subdivision (40),0
+RR,Makiling,RIDGEMONT SOUTH EXEC VIL A,,7000.0,DO 59-2023,unmatched,Ciudad Verde Calamba (35),0
+RR,Makiling,RIDGEMONT SOUTH EXEC VIL B,,7000.0,DO 59-2023,unmatched,Ciudad Verde Calamba (35),0
+RR,Makiling,TIFANNY VILLAGE,,7000.0,DO 59-2023,unmatched,Tiffany Village Calamba (55),0
+RR,Makiling,WOODLANDS,,7000.0,DO 59-2023,unmatched,Ashton Fields (30),0
+RR,Makiling,ALL STREETS,ALONG NATIONAL ROAD,7000.0,DO 59-2023,unmatched,Palacio Real Subdivision (40),0
+I,Makiling,ALL STREETS,ALONG BARANGAY ROAD,5500.0,DO 59-2023,unmatched,Palacio Real Subdivision (40),0
+RR,Makiling,ALL STREETS,INTERIOR LOTS,5000.0,DO 59-2023,unmatched,Palacio Real Subdivision (40),0
+RR,Makiling,ALL STREETS,ALONG BARANGAY ROAD,4500.0,DO 59-2023,unmatched,Palacio Real Subdivision (40),0
+RR,Makiling,ALL STREETS,"BARANCA DE SIPIT RIVER,",2000.0,DO 59-2023,unmatched,Palacio Real Subdivision (40),0
+I,Makiling,CALAMBA PARK PLACE,,10000.0,DO 59-2023,village,Calamba Park Place,100
+RR,Makiling,CALAMBA PARK PLACE,,7000.0,DO 59-2023,village,Calamba Park Place,100
+RR,Makiling,CIUDAD VERDE,,7000.0,DO 59-2023,village,Ciudad Verde Calamba,95
+RR,Makiling,MAKILING HILLS,,7000.0,DO 59-2023,village,Makiling Hills,100
+RR,Makiling,PALACIO REAL,,6000.0,DO 59-2023,village,Palacio Real Subdivision,100
+CR,Mapagong,ALL STREETS,ALONG BARANGAY ROAD,10000.0,DO 59-2023,unmatched,Silangan Village (18),0
+I,Mapagong,ALL STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Silangan Village (18),0
+RR,Mapagong,SOUTHERN PLAINS EXEC,,7000.0,DO 59-2023,unmatched,Silangan Village (30),0
+RR,Mapagong,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Silangan Village (18),0
+RR,Mapagong,ALL STREETS,INTERIOR LOTS,4000.0,DO 59-2023,unmatched,Silangan Village (18),0
+RR,Mapagong,ALL STREETS,SAN CRISTOBAL RIVER,2000.0,DO 59-2023,unmatched,Silangan Village (18),0
+CR,Masili,ALL STREETS,ALONG BARANGAY ROAD,7000.0,DO 59-2023,unmatched,Shangri-la Subdivision (31),0
+I,Masili,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Shangri-la Subdivision (31),0
+RR,Masili,HERBOSA COMPOUND,,4000.0,DO 59-2023,unmatched,Shangri-la Subdivision (35),0
+RR,Masili,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Shangri-la Subdivision (31),0
+RR,Masili,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Shangri-la Subdivision (31),0
+RR,Masili,ALL STREETS,NEAR LAGUNA DE BAY LAKE,2000.0,DO 59-2023,unmatched,Shangri-la Subdivision (31),0
+RR,Maunong,AYALA GREENFIELDS SUBD PH 4,,15000.0,DO 59-2023,unmatched,Tierra Sueño (0),0
+CR,Maunong,ALL STREETS,ALONG BARANGAY ROAD,7000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+I,Maunong,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Maunong,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Maunong,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Maunong,ALL STREETS,BARANCA DE SIPIT RIVER,1500.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Maunong,AYALA GREENFIELDS SUBD PH I,,15000.0,DO 59-2023,village,Ayala Greenfield Estates Phase 1,100
+RR,Maunong,AYALA GREENFIELDS SUBD PH 2,,15000.0,DO 59-2023,village,Ayala Greenfield Estates Phase 2,100
+RR,Maunong,AYALA GREENFIELDS ESTATES PH 7,,15000.0,DO 59-2023,village,Ayala Greenfield Estates Phase 7,100
+RR,Mayapa,MARYLAND CPD,,8000.0,DO 59-2023,street,Maryland Street,97
+RR,Mayapa,CHRISTOPHER SUBD (MENESES SUBD),,8000.0,DO 59-2023,street,Saint Christopher Road,97
+RR,Mayapa,TORRES COMPOUND,,6000.0,DO 59-2023,street,Torres Street,97
+RR,Mayapa,CHRISTOPHER SUBD,,6000.0,DO 59-2023,street,Saint Christopher Road,97
+CR,Mayapa,ALL STREETS,ALONG NATIONAL ROAD,12000.0,DO 59-2023,unmatched,Saint Michael Subdivision (25),0
+I,Mayapa,ALL STREETS,ALONG NATIONAL ROAD,10000.0,DO 59-2023,unmatched,Saint Michael Subdivision (25),0
+RR,Mayapa,MA. LEONORA SUBD,,8000.0,DO 59-2023,unmatched,Doctora's Compound (47),0
+RR,Mayapa,SALCEDO CPD,,8000.0,DO 59-2023,unmatched,Saint Michael Subdivision (40),0
+RR,Mayapa,ST. MICHAEL SUBD,,8000.0,DO 59-2023,unmatched,Saint Michael Subdivision (70),0
+RR,Mayapa,CALAMBA HILLS A,,6000.0,DO 59-2023,unmatched,New Canlubang Village (44),0
+RR,Mayapa,CARANDANG SUBD,,6000.0,DO 59-2023,unmatched,New Canlubang Village (55),0
+RR,Mayapa,FILMONT HOMES,,6000.0,DO 59-2023,unmatched,Saint Michael Subdivision (40),0
+RR,Mayapa,STO. DOMINGO SUBD,,6000.0,DO 59-2023,unmatched,Doctora's Compound (44),0
+RR,Mayapa,ALL STREETS,ALONG NATIONAL ROAD,6000.0,DO 59-2023,unmatched,Saint Michael Subdivision (25),0
+RR,Mayapa,ALL STREETS,INTERIOR LOTS,5000.0,DO 59-2023,unmatched,Saint Michael Subdivision (25),0
+RR,Mayapa,DOCTORA CPD,,8000.0,DO 59-2023,village,Doctora's Compound,100
+RR,Mayapa,ST. CHRISTOPHER II ANNEX,,7000.0,DO 59-2023,village,Saint Christopher Village Ⅱ Annex,95
+CR,Milagrosa,ALL OTHER STREETS,ALONG NATIONAL ROAD,13000.0,DO 59-2023,background,,0
+CR,Milagrosa,ALL OTHER STREETS,ALONG BARANGAY ROAD,10000.0,DO 59-2023,background,,0
+I,Milagrosa,ALL OTHER STREETS,ALONG NATIONAL ROAD,8000.0,DO 59-2023,background,,0
+I,Milagrosa,ALL OTHER STREETS,ALONG BARANGAY ROAD,7500.0,DO 59-2023,background,,0
+RR,Milagrosa,ALL OTHER STREETS,ALONG NATIONAL ROAD,7000.0,DO 59-2023,background,,0
+RR,Milagrosa,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 59-2023,background,,0
+RR,Milagrosa,ALL OTHER STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,background,,0
+RR,Milagrosa,ALL OTHER STREETS,"SAN JUAN RIVER, BARANCA",2000.0,DO 59-2023,background,,0
+I,Milagrosa,CARMELRAY INDUSTRIAL PARK,,11000.0,DO 59-2023,unmatched,Glenwood Park (42),0
+RR,Milagrosa,LAGUNA BAYVIEW HOMES,,8000.0,DO 59-2023,unmatched,Ashton Fields (38),0
+RR,Milagrosa,LAGUNA HILLS,,8000.0,DO 59-2023,unmatched,Ashton Fields (43),0
+RR,Milagrosa,MAKILING HILLS,,8000.0,DO 59-2023,unmatched,Ashton Fields (40),0
+RR,Milagrosa,OLIVARES HOMES,,8000.0,DO 59-2023,unmatched,Olivarez Homes Calamba (61),0
+RR,Milagrosa,RIDGEMONT SOUTH EXEC,BRGY MAKILING,8000.0,DO 59-2023,unmatched,Suntrust Sentosa (39),0
+RR,Milagrosa,GLENWOOD PARK SUBD,,8000.0,DO 59-2023,village,Glenwood Park,100
+RR,Milagrosa,HOMELAND (VILLA ORION),,8000.0,DO 59-2023,village,The Homelands,100
+RR,Milagrosa,ASHTON FIELDS,,8000.0,DO 59-2023,village,Ashton Fields,100
+RR,Milagrosa,TIERRA SUENO SUBD,,8000.0,DO 59-2023,village,Tierra Sueño,100
+RR,Paciano Rizal,DOÑA FELISA SUBD,,6500.0,DO 59-2023,street,Doña Felisa,97
+RR,Paciano Rizal,ST. CHRISTOPHER I,,6500.0,DO 59-2023,street,Saint Christopher I Road,97
+CR,Paciano Rizal,ALL STREETS,Jolibee check point to Canlubang,20000.0,DO 59-2023,unmatched,Rizal Village (50),0
+CR,Paciano Rizal,ALL STREETS,ALONG BARANGAY ROAD,12000.0,DO 59-2023,unmatched,Rizal Village (50),0
+I,Paciano Rizal,ALL STREETS,Jolibee check point to Canlubang,10000.0,DO 59-2023,unmatched,Rizal Village (50),0
+I,Paciano Rizal,ALL STREETS,ALONG BARANGAY ROAD,10000.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Paciano Rizal,ALL STREETS,Jolibee check point to Canlubang,7000.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Paciano Rizal,MARIVEL VILLAGE (MARIBEL),,6500.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Paciano Rizal,SALCEDO SUBD,,6500.0,DO 59-2023,unmatched,Rizal Village (33),0
+RR,Paciano Rizal,SAN ANTONIO VILLAGE,,6500.0,DO 59-2023,unmatched,New Canlubang Village (42),0
+RR,Paciano Rizal,VILLA RIZZA,,6500.0,DO 59-2023,unmatched,Rizal Village (62),0
+RR,Paciano Rizal,CENTERVILLE SUBD/ALCASID COMPOUND,,6500.0,DO 59-2023,unmatched,Landmark Subdivision (40),0
+RR,Paciano Rizal,MORALES COMPOUND,,6500.0,DO 59-2023,unmatched,Rizal Village (55),0
+RR,Paciano Rizal,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Paciano Rizal,ALL STREETS,INTERIOR LOTS,5000.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Paciano Rizal,ALL STREETS,SAN CRISTOBAL RIVER,2000.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Paciano Rizal,CANLUBANG VILLAGE,,6500.0,DO 59-2023,village,New Canlubang Village,95
+RR,Paciano Rizal,MODERN VILLAGE,,6500.0,DO 59-2023,village,Modern Village,100
+RR,Paciano Rizal,NEW CANLUBANG SUBD,,6500.0,DO 59-2023,village,New Canlubang Village,100
+RR,Paciano Rizal,RIZAL VILLAGE,,6500.0,DO 59-2023,village,Rizal Village,100
+CR,Palingon,ALL STREETS,ALONG BARANGAY ROAD,5500.0,DO 59-2023,unmatched,,0
+I,Palingon,ALL STREETS,ALONG BARANGAY ROAD,4500.0,DO 59-2023,unmatched,,0
+RR,Palingon,LAGUNA LANDS,,3500.0,DO 59-2023,unmatched,,0
+RR,Palingon,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,,0
+RR,Palingon,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,,0
+RR,Palingon,ALL STREETS,"NEAR LAGUNA DE BAY LAKE,",1000.0,DO 59-2023,unmatched,,0
+RR,Palo-Alto,LAGUNA WINDWOODS (*BUROL),,7000.0,DO 59-2023,unmatched,Ciudad de Calamba (44),0
+RR,Palo-Alto,PALO-ALTO HIGHLAND I (A),,6000.0,DO 59-2023,unmatched,Highlands 1 (67),0
+RR,Palo-Alto,PALO-ALTO HIGHLAND II (B),,6000.0,DO 59-2023,unmatched,Ciudad de Calamba (11),0
+RR,Palo-Alto,PALO-ALTO EXEC VILL,,6000.0,DO 59-2023,unmatched,Punta Altezza (52),0
+RR,Palo-Alto,PHIRST PARK HOMES - CALAMBA PH 2,,6000.0,DO 59-2023,unmatched,PHirst Park Homes Calamba (0),0
+CR,Palo-Alto,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Aldea Real (46),0
+RR,Palo-Alto,BAY HILL,,5000.0,DO 59-2023,unmatched,Pacific Hills Subdivision (60),0
+RR,Palo-Alto,CAMELLA CALAMBA,,5000.0,DO 59-2023,unmatched,Ciudad de Calamba (69),0
+RR,Palo-Alto,GUARDIAN ANGELS HOA,,5000.0,DO 59-2023,unmatched,Gran Avila (57),0
+RR,Palo-Alto,HACIENDA HILLS,,5000.0,DO 59-2023,unmatched,Pacific Hills Subdivision (64),0
+RR,Palo-Alto,OAK HILL,,5000.0,DO 59-2023,unmatched,Pacific Hills Subdivision (60),0
+RR,Palo-Alto,PALM HILL,,5000.0,DO 59-2023,unmatched,Pacific Hills Subdivision (67),0
+I,Palo-Alto,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Aldea Real (46),0
+RR,Palo-Alto,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Aldea Real (46),0
+RR,Palo-Alto,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Aldea Real (46),0
+RR,Palo-Alto,ALL STREETS,MAJADA RIVER,1000.0,DO 59-2023,unmatched,Aldea Real (46),0
+RR,Palo-Alto,PHIRST PARK HOMES - CALAMBA,,6000.0,DO 59-2023,village,PHirst Park Homes Calamba,100
+RR,Palo-Alto,SAN FRANCISCO HEIGHTS,,6000.0,DO 59-2023,village,San Francisco Heights,100
+RR,Palo-Alto,SOUTHWYND RESIDENCES,,6000.0,DO 59-2023,village,Southwynd Residences,100
+RR,Palo-Alto,LYNVILLE RESIDENCES,,5000.0,DO 59-2023,village,Lynville Residences,100
+RR,Palo-Alto,PACIFIC HILLS,,5000.0,DO 59-2023,village,Pacific Hills Subdivision,100
+CR,Pansol,ALL STREETS,ALONG NATIONAL ROAD,12000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+CR,Pansol,ACRES HOTSPRING VILLAGE,,10000.0,DO 59-2023,unmatched,Maria Makiling Hot Springs Village (62),0
+CR,Pansol,ATDRRMAM SUBD/VILLA LAGOS,,10000.0,DO 59-2023,unmatched,Solemar Del Pansol Subdivision (43),0
+CR,Pansol,AYALA GREENFIELD ESTATES PH 9,,10000.0,DO 59-2023,unmatched,Nayong Maharlika (0),0
+CR,Pansol,BARRETO SUBD,,10000.0,DO 59-2023,unmatched,Indigo Gate (33),0
+CR,Pansol,BELLBART SUBD,,10000.0,DO 59-2023,unmatched,Solemar Del Pansol Subdivision (38),0
+CR,Pansol,EKSON SUBD,,10000.0,DO 59-2023,unmatched,Nayong Maharlika (29),0
+CR,Pansol,H & M SUBD,,10000.0,DO 59-2023,unmatched,Laguna Hills (29),0
+CR,Pansol,JELL CPD,,10000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (33),0
+CR,Pansol,LAGO VISTA EXEC VILLE,,10000.0,DO 59-2023,unmatched,Laguna Hills (50),0
+CR,Pansol,MA. MAKILING HILLS,,10000.0,DO 59-2023,unmatched,Maria Makiling Hot Springs Village (68),0
+CR,Pansol,MEJIA SUBD,,10000.0,DO 59-2023,unmatched,Miramonte Village (43),0
+CR,Pansol,MT. VIEW ESTATES CPD,,10000.0,DO 59-2023,unmatched,Miramonte Village (38),0
+CR,Pansol,N. DONATO SUBD,,10000.0,DO 59-2023,unmatched,Indigo Gate (53),0
+CR,Pansol,NORVILLE SUBD,,10000.0,DO 59-2023,unmatched,Laguna Hills (42),0
+CR,Pansol,SA. CECILIA A,,10000.0,DO 59-2023,unmatched,Solemar Del Pansol Subdivision (47),0
+CR,Pansol,SUMMERVILLE SUBD,,10000.0,DO 59-2023,unmatched,Laguna Hills (36),0
+CR,Pansol,SUMMERVILLE SUBD (l AND D SUBD),,10000.0,DO 59-2023,unmatched,Laguna Hills (36),0
+CR,Pansol,VILLA PILAR,,10000.0,DO 59-2023,unmatched,Laguna Hills (45),0
+CR,Pansol,VILLA TERESITA,,10000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (43),0
+I,Pansol,ALL STREETS,ALONG NATIONAL ROAD,9000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+CR,Pansol,ALL STREETS,ALONG BARANGAY ROAD,9000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Pansol,ACRES HOTSPRING VILLAGE,,7000.0,DO 59-2023,unmatched,Maria Makiling Hot Springs Village (62),0
+RR,Pansol,ATDRRMAM SUBD/VILLA LAGOS,,7000.0,DO 59-2023,unmatched,Solemar Del Pansol Subdivision (43),0
+RR,Pansol,AYALA GREENFIELD ESTATES PH 9,,7000.0,DO 59-2023,unmatched,Nayong Maharlika (0),0
+RR,Pansol,BARRETO SUBD,,7000.0,DO 59-2023,unmatched,Indigo Gate (33),0
+RR,Pansol,BELLBART SUBD,,7000.0,DO 59-2023,unmatched,Solemar Del Pansol Subdivision (38),0
+RR,Pansol,EKSON SUBD,,7000.0,DO 59-2023,unmatched,Nayong Maharlika (29),0
+RR,Pansol,H & M SUBD,,7000.0,DO 59-2023,unmatched,Laguna Hills (29),0
+RR,Pansol,JELL CPD,,7000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (33),0
+RR,Pansol,LAGO VISTA EXEC VILLE,,7000.0,DO 59-2023,unmatched,Laguna Hills (50),0
+RR,Pansol,MA. MAKILING HILLS,,7000.0,DO 59-2023,unmatched,Maria Makiling Hot Springs Village (68),0
+RR,Pansol,MEJIA SUBD,,7000.0,DO 59-2023,unmatched,Miramonte Village (43),0
+RR,Pansol,MT. VIEW ESTATES CPD,,7000.0,DO 59-2023,unmatched,Miramonte Village (38),0
+RR,Pansol,N. DONATO SUBD,,7000.0,DO 59-2023,unmatched,Indigo Gate (53),0
+RR,Pansol,NORVILLE SUBD,,7000.0,DO 59-2023,unmatched,Laguna Hills (42),0
+RR,Pansol,SA. CECILIA A,,7000.0,DO 59-2023,unmatched,Solemar Del Pansol Subdivision (47),0
+RR,Pansol,SUMMERVILLE SUBD,,7000.0,DO 59-2023,unmatched,Laguna Hills (36),0
+RR,Pansol,SUMMERVILLE SUBD (l AND D SUBD),,7000.0,DO 59-2023,unmatched,Laguna Hills (36),0
+RR,Pansol,VILLA PILAR,,7000.0,DO 59-2023,unmatched,Laguna Hills (45),0
+RR,Pansol,VILLA TERESITA,,7000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (43),0
+RR,Pansol,ALL STREETS,ALONG NATIONAL ROAD,6000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+I,Pansol,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Pansol,ALL STREETS,INTERIOR LOTS,5000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Pansol,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Laguna Hills (43),0
+RR,Pansol,,INTERIOR LOTS,4000.0,DO 59-2023,unmatched,Nayong Maharlika (0),0
+RR,Pansol,,NEAR LAGUNA DE BAY LAKE,2000.0,DO 59-2023,unmatched,Nayong Maharlika (0),0
+CR,Pansol,LAGUNA HILLS SUBD,,10000.0,DO 59-2023,village,Laguna Hills,100
+CR,Pansol,MAHARLIKA SUBD/ NAYONGMAHARLIKA,,10000.0,DO 59-2023,village,Nayong Maharlika,100
+CR,Pansol,MIRAMONTE SUBD (MIRAMONTE RESORT VIEW),,10000.0,DO 59-2023,village,Miramonte Village,100
+CR,Pansol,PERPETUAL HELP SUBD,,10000.0,DO 59-2023,village,Perpetual Help Subdivision,100
+CR,Pansol,SOLEMAR DEL SOL,,10000.0,DO 59-2023,village,Solemar Del Pansol Subdivision,90.9090909090909
+CR,Pansol,VILLA PANSOL/MARIA MAKILING SUBD,,10000.0,DO 59-2023,village,Maria Makiling Hot Springs Village,95
+RR,Pansol,LAGUNA HILLS SUBD,,7000.0,DO 59-2023,village,Laguna Hills,100
+RR,Pansol,MAHARLIKA SUBD/ NAYONGMAHARLIKA,,7000.0,DO 59-2023,village,Nayong Maharlika,100
+RR,Pansol,MIRAMONTE SUBD (MIRAMONTE RESORT VIEW),,7000.0,DO 59-2023,village,Miramonte Village,100
+RR,Pansol,PERPETUAL HELP SUBD,,7000.0,DO 59-2023,village,Perpetual Help Subdivision,100
+RR,Pansol,SOLEMAR DEL SOL,,7000.0,DO 59-2023,village,Solemar Del Pansol Subdivision,90.9090909090909
+RR,Pansol,VILLA PANSOL/MARIA MAKILING SUBD,,7000.0,DO 59-2023,village,Maria Makiling Hot Springs Village,95
+CR,Parian,ALL STREETS,ALONG NATIONAL ROAD,20000.0,DO 59-2023,unmatched,Rizal Village (50),0
+I,Parian,ALL STREETS,ALONG NATIONAL ROAD,12000.0,DO 59-2023,unmatched,Rizal Village (50),0
+CR,Parian,ALL STREETS,ALONG BARANGAY ROAD,12000.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Parian,VILLA VALENTINA,,10000.0,DO 59-2023,unmatched,Villa Carpio Subdivision (59),0
+RR,Parian,BANTAYAN CENTRUM,,8000.0,DO 59-2023,unmatched,Santa Cecilia Village (48),0
+RR,Parian,BORJA-TORRES SUBD,,8000.0,DO 59-2023,unmatched,Borja Subdivison (52),0
+RR,Parian,FARCON SUBD,,8000.0,DO 59-2023,unmatched,Farconville Subdivision (71),0
+RR,Parian,LAZARO CPD,,8000.0,DO 59-2023,unmatched,Landmark Subdivision (57),0
+RR,Parian,MANOTO-MENESES SUBD,,8000.0,DO 59-2023,unmatched,Manotoc Subdivision (60),0
+RR,Parian,MARC VILLE SUBD,,8000.0,DO 59-2023,unmatched,Farconville Subdivision (76),0
+RR,Parian,"STA. CECILIA SUBD I, II, III, IV (B)",,8000.0,DO 59-2023,unmatched,New Canlubang Village (14),0
+RR,Parian,TRANS STAR CPD,,8000.0,DO 59-2023,unmatched,Southern Crest (52),0
+RR,Parian,ALL STREETS,ALONG NATIONAL ROAD,8000.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Parian,ATDRAMAM SUBD,,6000.0,DO 59-2023,unmatched,Landmark Subdivision (50),0
+RR,Parian,ALL STREETS,INTERIOR LOTS,6000.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Parian,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Parian,ALL STREETS,"SAN JUAN RIVER,",2000.0,DO 59-2023,unmatched,Rizal Village (50),0
+RR,Parian,E & H CPD (TNH CPD),,8000.0,DO 59-2023,village,E & H Subdivision,100
+RR,Parian,LANDMARK SUBD I & II (LANDMARK SUBD),,8000.0,DO 59-2023,village,Landmark Subdivision,100
+RR,Parian,VILLA CARPIO CPD,,8000.0,DO 59-2023,village,Villa Carpio Subdivision,100
+I,Prinza,CALAMBA PREMIERE INT'L PARK,,6000.0,DO 59-2023,unmatched,Villa La Prinza (44),0
+CR,Prinza,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Villa La Prinza (33),0
+I,Prinza,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Villa La Prinza (33),0
+RR,Prinza,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Villa La Prinza (33),0
+RR,Prinza,ALL STREETS,INTERIOR LOTS,2500.0,DO 59-2023,unmatched,Villa La Prinza (33),0
+RR,Prinza,ALL STREETS,SAN JUAN RIVER,1500.0,DO 59-2023,unmatched,Villa La Prinza (33),0
+RR,Prinza,VILLA PRINZA (VILLA LA PRINZA),,4000.0,DO 59-2023,village,Villa La Prinza,100
+I,Punta,CARMELRAY IND'L PARK II,,8000.0,DO 59-2023,unmatched,Garden Springs (0),0
+I,Punta,FILINVEST TECHNOPARK,,8000.0,DO 59-2023,unmatched,Forest Cove (45),0
+RR,Punta,"ALDEA REAL PH 1, 2,3",,7000.0,DO 59-2023,unmatched,Garden Springs (0),0
+RR,Punta,CARMELRIDGE VILLAGE,,7000.0,DO 59-2023,unmatched,Carmel Ridge Residential Estates (63),0
+RR,Punta,CRESCENT KNOLL RESIDENCES,,7000.0,DO 59-2023,unmatched,Lynville Residences (62),0
+RR,Punta,FILINVEST TECHNOPARK,,7000.0,DO 59-2023,unmatched,Forest Cove (45),0
+RR,Punta,LA BRISA TOWN HOMES,,7000.0,DO 59-2023,unmatched,La Brisa Townhomes at Ciudad de Calamba (51),0
+RR,Punta,SUNTRUST SENTOSA PH 3 SUBD,,7000.0,DO 59-2023,unmatched,Garden Springs (0),0
+RR,Punta,VISTA HILLS II,,7000.0,DO 59-2023,unmatched,Garden Springs (0),0
+CR,Punta,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Aldea Real (46),0
+I,Punta,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Aldea Real (46),0
+RR,Punta,UNLAD PABAHAY SA BRGY. PUNTA,,3000.0,DO 59-2023,unmatched,La Brisa Townhomes at Ciudad de Calamba (40),0
+RR,Punta,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Aldea Real (46),0
+RR,Punta,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Aldea Real (46),0
+RR,Punta,ALL STREETS,SAN JUAN RIVER,1000.0,DO 59-2023,unmatched,Aldea Real (46),0
+RR,Punta,MONTEBELLO,,7000.0,DO 59-2023,village,Montebello,100
+RR,Punta,PUNTA ALTEZZA,,7000.0,DO 59-2023,village,Punta Altezza,100
+RR,Puting Lupa,AYALA GREENFIELD SUBD PH 2,,30000.0,DO 59-2023,unmatched,Santo Tomas Interchange (0),0
+RR,Puting Lupa,TERRAZA DE LORENZA RESIDENCES,,6000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (45),0
+CR,Puting Lupa,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Makiling Hills (38),0
+I,Puting Lupa,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Makiling Hills (38),0
+RR,Puting Lupa,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Makiling Hills (38),0
+RR,Puting Lupa,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Makiling Hills (38),0
+RR,Puting Lupa,AYALA GREENFIELD SUBD PH 1,,30000.0,DO 59-2023,village,Ayala Greenfield Estates Phase 1,100
+RR,Puting Lupa,AYALA GREENFIELD ESTATES PH7,,20000.0,DO 59-2023,village,Ayala Greenfield Estates Phase 7,94.73684210526316
+CR,Real,ALL OTHER STREETS,ALONG NATIONAL ROAD,15000.0,DO 59-2023,background,,0
+CR,Real,ALL OTHER STREETS,ALONG BARANGAY ROAD,10000.0,DO 59-2023,background,,0
+I,Real,ALL OTHER STREETS,ALONG NATIONAL ROAD,8000.0,DO 59-2023,background,,0
+I,Real,ALL OTHER STREETS,ALONG BARANGAY ROAD,7500.0,DO 59-2023,background,,0
+RR,Real,ALL OTHER STREETS,ALONG NATIONAL ROAD,7000.0,DO 59-2023,background,,0
+RR,Real,ALL OTHER STREETS,ALONG BARANGAY ROAD,6500.0,DO 59-2023,background,,0
+RR,Real,ALL OTHER STREETS,INTERIOR LOTS,6000.0,DO 59-2023,background,,0
+RR,Real,ALL OTHER STREETS,SAN JUAN RIVER,2000.0,DO 59-2023,background,,0
+CR,Real,CROSSING (Highly commercial),w/IN 1km radius fr SM City),67500.0,DO 59-2023,unmatched,Southern Crest (45),0
+RR,Real,CROSSING (Highly commercial),w/IN 1km radius fr SM City),36000.0,DO 59-2023,unmatched,Southern Crest (45),0
+CR,Real,CROSSING (Regular Commercial),,22000.0,DO 59-2023,unmatched,Southern Crest (45),0
+I,Real,LAGUNA INDUSTRIAL SCIENCE PARK II,,13000.0,DO 59-2023,unmatched,Pamana Homes (0),0
+RR,Real,CASA ROMA SUBD,,10000.0,DO 59-2023,unmatched,Rizal Park Subdivision (42),0
+RR,Real,CUERVO VILLE SUBD I & II,,10000.0,DO 59-2023,unmatched,Pamana Homes (0),0
+RR,Real,EL REAL CPD,,10000.0,DO 59-2023,unmatched,Rizal Park Subdivision (47),0
+RR,Real,GREENLANE NORTH SUBD,,10000.0,DO 59-2023,unmatched,Southern Crest (41),0
+RR,Real,MANOTO-MALIHAN SUBD,,10000.0,DO 59-2023,unmatched,Pamana Homes (40),0
+RR,Real,ATCI HEIGHTS SUBD,,9000.0,DO 59-2023,unmatched,Southern Crest (32),0
+RR,Real,ATDRMAN SUBD,,8000.0,DO 59-2023,unmatched,Pamana Homes (62),0
+RR,Real,CROSSING (Regular Commercial),,8000.0,DO 59-2023,unmatched,Southern Crest (45),0
+RR,Real,ST. VINCENT VILLAGE,,5000.0,DO 59-2023,unmatched,Sentrina (40),0
+RR,Real,CALAMBA HEIGHTS SUBD,,5000.0,DO 59-2023,unmatched,Villa de Calamba (67),0
+RR,Real,PAMPLONA'S COMPOUND,,5000.0,DO 59-2023,unmatched,Pamana Homes (71),0
+RR,Real,RIZAL PARK,,9000.0,DO 59-2023,village,Rizal Park Subdivision,100
+CR,Saimsim,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+RR,Saimsim,ACACIA HOMES,,5000.0,DO 59-2023,unmatched,Acacia Park Homes (71),0
+I,Saimsim,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+RR,Saimsim,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+RR,Saimsim,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+RR,Saimsim,ALL STREETS,BARANCA DE PINAGSIPITAN,1500.0,DO 59-2023,unmatched,Ayala Greenfield Estates (32),0
+CR,Sampiruhan,ALL STREETS,ALONG BARANGAY ROAD,7000.0,DO 59-2023,unmatched,Vermont Place (12),0
+RR,Sampiruhan,CARDDINAL VILLAGE,,5000.0,DO 59-2023,unmatched,Vermont Place (27),0
+RR,Sampiruhan,FAMILY VILLAGE,,5000.0,DO 59-2023,unmatched,Vermont Place (21),0
+RR,Sampiruhan,LINO HABACON VILLAGE,,5000.0,DO 59-2023,unmatched,Vermont Place (32),0
+RR,Sampiruhan,MOUNT ROYALE,,5000.0,DO 59-2023,unmatched,Vermont Place (56),0
+I,Sampiruhan,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Vermont Place (12),0
+RR,Sampiruhan,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Vermont Place (12),0
+RR,Sampiruhan,ALL STREETS,INTERIOR LOTS,3000.0,DO 59-2023,unmatched,Vermont Place (12),0
+RR,Sampiruhan,ALL STREETS,NEAR LAGUNA LAKE,2000.0,DO 59-2023,unmatched,Vermont Place (12),0
+CR,San Cristobal,ALL STREETS,ALONG NATIONAL ROAD,12000.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+I,San Cristobal,ALL STREETS,ALONG NATIONAL ROAD,9000.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+CR,San Cristobal,ALL STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+RR,San Cristobal,BALDILLA CMPD,,7000.0,DO 59-2023,unmatched,Villa Palao (63),0
+RR,San Cristobal,FARCONVILLE SUBD I & II,,7000.0,DO 59-2023,unmatched,Saint Christopher Village I (0),0
+RR,San Cristobal,RICO MULTI-VENTURES I,,7000.0,DO 59-2023,unmatched,Saint Christopher Village I (41),0
+RR,San Cristobal,CAMPILLO SUBD,,6000.0,DO 59-2023,unmatched,Palmsville Subdivision (56),0
+RR,San Cristobal,LEONORA SUBD,,6000.0,DO 59-2023,unmatched,Bel-Flor Subdivision (40),0
+RR,San Cristobal,VILLA CASTILLO,,6000.0,DO 59-2023,unmatched,Villa Palao (72),0
+RR,San Cristobal,VILLA SOLEDAD,,6000.0,DO 59-2023,unmatched,Apolega Ville (69),0
+RR,San Cristobal,ALL STREETS,ALONG NATIONAL ROAD,6000.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+RR,San Cristobal,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+RR,San Cristobal,ALL STREETS,INTERIOR LOTS,5000.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+RR,San Cristobal,ALL STREETS,SAN CRISTOBAL RIVER,2000.0,DO 59-2023,unmatched,Palmsville Subdivision (46),0
+RR,San Cristobal,BEL FLOR SUBD,,7000.0,DO 59-2023,village,Bel-Flor Subdivision,100
+RR,San Cristobal,SUNRISE SUBD,,7000.0,DO 59-2023,village,Sunrise Subdivision,100
+RR,San Cristobal,GARDEN HOMES/SC GARDEN HOMES,,6000.0,DO 59-2023,village,Garden Homes,100
+CR,San Jose,ALL STREETS,ALONG BARANGAY ROAD,10000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+I,San Jose,ALL STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+RR,San Jose,ALBERTO SUBD,,6000.0,DO 59-2023,unmatched,Laureola Subdivision (40),0
+RR,San Jose,L.E. VILLAGE,,6000.0,DO 59-2023,unmatched,Jenel Subdivision (50),0
+RR,San Jose,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+RR,San Jose,ALL STREETS,INTERIOR LOTS,4000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+RR,San Jose,JENEL SUBD,,6000.0,DO 59-2023,village,Jenel Subdivision,100
+RR,San Jose,LAUREOLA SUBD,,6000.0,DO 59-2023,village,Laureola Subdivision,100
+CR,San Juan,ALL STREETS,ALONG BARANGAY ROAD,11000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+I,San Juan,ALL STREETS,ALONG BARANGAY ROAD,9000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+RR,San Juan,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+RR,San Juan,ALL STREETS,INTERIOR LOTS,4000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+RR,San Juan,ALL STREETS,SAN JUAN RIVER,2000.0,DO 59-2023,unmatched,Laureola Subdivision (36),0
+CR,Sirang Lupa,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Gran Avila (31),0
+RR,Sirang Lupa,JOEY TAN CMPD,,4000.0,DO 59-2023,unmatched,Agapeya Towns (50),0
+RR,Sirang Lupa,MAJOR HOMES,,4000.0,DO 59-2023,unmatched,Nazareth Compound (31),0
+RR,Sirang Lupa,PABAHAY SA SIRANG LUPA,,4000.0,DO 59-2023,unmatched,Carmel Housing (39),0
+I,Sirang Lupa,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Gran Avila (31),0
+RR,Sirang Lupa,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Gran Avila (31),0
+RR,Sirang Lupa,ALL STREETS,INTERIORS LOTS,2500.0,DO 59-2023,unmatched,Gran Avila (31),0
+RR,Sirang Lupa,GRAN AVILA,,4000.0,DO 59-2023,village,Gran Avila,100
+CR,Sucol,ALL STREETS,ALONG BARANGAY ROAD,8000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+CR,Sucol,BUENSUCESO RESORT HOMES A,,7500.0,DO 59-2023,unmatched,Buensuceso Homes (69),0
+CR,Sucol,BUENSUCESO RESORT HOMES B,,7500.0,DO 59-2023,unmatched,Buensuceso Homes (69),0
+I,Sucol,ALL STREETS,ALONG BARANGAY ROAD,6000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+RR,Sucol,BUENSUCESO RESORT HOMES A,,5000.0,DO 59-2023,unmatched,Buensuceso Homes (69),0
+RR,Sucol,BUENSUCESO RESORT HOMES B,,5000.0,DO 59-2023,unmatched,Buensuceso Homes (69),0
+RR,Sucol,DIAMOND SPRING SUBD,,5000.0,DO 59-2023,unmatched,Miramonte Village (43),0
+RR,Sucol,EVERGREEN LAG ESTATE A,,5000.0,DO 59-2023,unmatched,Shangri-la Subdivision (40),0
+RR,Sucol,EVERGREEN LAG ESTATE B,,5000.0,DO 59-2023,unmatched,Shangri-la Subdivision (40),0
+RR,Sucol,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+RR,Sucol,ALL STREETS,INTERIOR LOTS,4000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+RR,Sucol,ALL STREETS,NEAR LAGUNA DE BAY LAKE,2000.0,DO 59-2023,unmatched,Perpetual Help Subdivision (35),0
+CR,Sucol,SHANGRILA VILLAGE,,9000.0,DO 59-2023,village,Shangri-la Subdivision,100
+RR,Sucol,SHANGRILA VILLAGE,,6000.0,DO 59-2023,village,Shangri-la Subdivision,100
+CR,Turbina,ALL STREETS,ALONG NATIONAL ROAD,12000.0,DO 59-2023,unmatched,Olivarez Homes Calamba (32),0
+CR,Turbina,ALL STREETS,ALONG BARANGAY ROAD,9000.0,DO 59-2023,unmatched,Olivarez Homes Calamba (32),0
+I,Turbina,ALL STREETS,ALONG NATIONAL ROAD,8000.0,DO 59-2023,unmatched,Olivarez Homes Calamba (32),0
+RR,Turbina,GLENWOOD PARK PH I,,7000.0,DO 59-2023,unmatched,Olivarez Homes Calamba (0),0
+RR,Turbina,ALL STREETS,ALONG NATIONAL ROAD,7000.0,DO 59-2023,unmatched,Olivarez Homes Calamba (32),0
+I,Turbina,ALL STREETS,ALONG BARANGAY ROAD,7000.0,DO 59-2023,unmatched,Olivarez Homes Calamba (32),0
+RR,Turbina,ALL STREETS,INTERIOR LOTS,5000.0,DO 59-2023,unmatched,Olivarez Homes Calamba (32),0
+RR,Turbina,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Olivarez Homes Calamba (32),0
+RR,Turbina,ALL STREETS,"SAN JUAN RIVER, BARANCA",2000.0,DO 59-2023,unmatched,Olivarez Homes Calamba (32),0
+CR,Ulango,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Ashton Fields (27),0
+I,Ulango,ALL STREETS,ALONG BARANGAY ROAD,4000.0,DO 59-2023,unmatched,Ashton Fields (27),0
+RR,Ulango,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Ashton Fields (27),0
+RR,Ulango,ALL STREETS,INTERIOR LOTS,2000.0,DO 59-2023,unmatched,Ashton Fields (27),0
+RR,Ulango,ALL STREETS,SAN JUAN RIVER,1000.0,DO 59-2023,unmatched,Ashton Fields (27),0
+CR,Uwisan,ALL STREETS,ALONG BARANGAY ROAD,7000.0,DO 59-2023,unmatched,Rizal Ville (43),0
+I,Uwisan,ALL STREETS,ALONG BARANGAY ROAD,5000.0,DO 59-2023,unmatched,Rizal Ville (43),0
+RR,Uwisan,FAULMINO SUBD,,4000.0,DO 59-2023,unmatched,Rizal Ville (32),0
+RR,Uwisan,ALL STREETS,ALONG BARANGAY ROAD,3000.0,DO 59-2023,unmatched,Rizal Ville (43),0
+RR,Uwisan,ALL STREETS,INTERIOR LOTS,2500.0,DO 59-2023,unmatched,Rizal Ville (43),0
+RR,Uwisan,ALL STREETS,NEAR LAGUNA DE BAY LAKE,1000.0,DO 59-2023,unmatched,Rizal Ville (43),0
+RR,Uwisan,CITADEL RESIDENCES PHASE 1,,4000.0,DO 59-2023,village,Citadel Residences Phase 1,100
+RR,Uwisan,CITADEL RESIDENCES PHASE 2,,4000.0,DO 59-2023,village,Citadel Residences Phase 2,100
+RR,Uwisan,LAKE BREEZE RESIDENCES 2,,4000.0,DO 59-2023,village,Lake Breeze Residences 2,100

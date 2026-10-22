@@ -202,5 +202,245 @@
   "features": 0,
   "placed": 0,
   "rows": 81
+ },
+ "Bacoor": {
+  "file": "bacoor.geojson",
+  "bbox": [
+   120.927,
+   14.3539,
+   121.0116,
+   14.4753
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 6
+ },
+ "Imus": {
+  "file": "imus.geojson",
+  "bbox": [
+   120.8941,
+   14.3541,
+   120.9816,
+   14.4458
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 6
+ },
+ "Dasmariñas": {
+  "file": "dasmariñas.geojson",
+  "bbox": [
+   120.9221,
+   14.2474,
+   121.0142,
+   14.3653
+  ],
+  "features": 2,
+  "placed": 2,
+  "rows": 6
+ },
+ "General Trias": {
+  "file": "general-trias.geojson",
+  "bbox": [
+   120.8601,
+   14.2199,
+   120.9329,
+   14.4215
+  ],
+  "features": 2,
+  "placed": 4,
+  "rows": 10
+ },
+ "Kawit": {
+  "file": "kawit.geojson",
+  "bbox": [
+   120.8845,
+   14.4094,
+   120.9314,
+   14.4678
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 2
+ },
+ "Cavite City": {
+  "file": "cavite-city.geojson",
+  "bbox": [
+   120.5623,
+   14.3646,
+   120.9208,
+   14.5001
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 0
+ },
+ "Noveleta": {
+  "file": "noveleta.geojson",
+  "bbox": [
+   120.8716,
+   14.4181,
+   120.8895,
+   14.4565
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 0
+ },
+ "Rosario": {
+  "file": "rosario.geojson",
+  "bbox": [
+   120.8454,
+   14.3999,
+   120.8791,
+   14.4309
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 0
+ },
+ "Tanza": {
+  "file": "tanza.geojson",
+  "bbox": [
+   120.7809,
+   14.2847,
+   120.8759,
+   14.4082
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 4
+ },
+ "Silang": {
+  "file": "silang.geojson",
+  "bbox": [
+   120.9214,
+   14.1342,
+   121.0543,
+   14.2845
+  ],
+  "features": 10,
+  "placed": 10,
+  "rows": 20
+ },
+ "Carmona": {
+  "file": "carmona.geojson",
+  "bbox": [
+   121.0016,
+   14.2744,
+   121.0703,
+   14.3292
+  ],
+  "features": 2,
+  "placed": 2,
+  "rows": 2
+ },
+ "Gen. Mariano Alvarez": {
+  "file": "gen.-mariano-alvarez.geojson",
+  "bbox": [
+   120.9959,
+   14.2817,
+   121.0393,
+   14.3336
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 2
+ },
+ "Trece Martires": {
+  "file": "trece-martires.geojson",
+  "bbox": [
+   120.8217,
+   14.2181,
+   120.9018,
+   14.3135
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 2
+ },
+ "Tagaytay": {
+  "file": "tagaytay.geojson",
+  "bbox": [
+   120.8875,
+   14.0768,
+   121.0359,
+   14.156
+  ],
+  "features": 4,
+  "placed": 4,
+  "rows": 66
+ },
+ "San Pedro": {
+  "file": "san-pedro.geojson",
+  "bbox": [
+   121.0067,
+   14.321,
+   121.0765,
+   14.3785
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 0
+ },
+ "Biñan": {
+  "file": "biñan.geojson",
+  "bbox": [
+   121.0353,
+   14.2489,
+   121.0998,
+   14.3595
+  ],
+  "features": 2,
+  "placed": 2,
+  "rows": 13
+ },
+ "Santa Rosa": {
+  "file": "santa-rosa.geojson",
+  "bbox": [
+   121.0468,
+   14.2163,
+   121.1281,
+   14.3356
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 8
+ },
+ "Cabuyao": {
+  "file": "cabuyao.geojson",
+  "bbox": [
+   121.0137,
+   14.1557,
+   121.1737,
+   14.2963
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 0
+ },
+ "Calamba": {
+  "file": "calamba.geojson",
+  "bbox": [
+   121.026,
+   14.1395,
+   121.2019,
+   14.2371
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 1
+ },
+ "Los Baños": {
+  "file": "los-baños.geojson",
+  "bbox": [
+   121.1819,
+   14.11,
+   121.2662,
+   14.1979
+  ],
+  "features": 0,
+  "placed": 0,
+  "rows": 2
  }
 }

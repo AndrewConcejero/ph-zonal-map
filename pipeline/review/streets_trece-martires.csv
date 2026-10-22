@@ -1,0 +1,388 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Aguado,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2700.0,DO 20-2021,background,,0
+CR,Aguado,ALL OTHER SUBDIVISIONS,,2500.0,DO 20-2021,background,,0
+I,Aguado,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2400.0,DO 20-2021,background,,0
+RR,Aguado,ALL OTHER SUBDIVISIONS,,2000.0,DO 20-2021,background,,0
+RR,Aguado,ALL OTHER STREETS,ALONG ALL OTHER STREETS,1600.0,DO 20-2021,background,,0
+RR,Aguado,ALL OTHER STREETS,INTERIOR,1400.0,DO 20-2021,background,,0
+CR,Aguado,AGUADO ST.,ALONG AGUADO-LAPIDARIO RD,3200.0,DO 20-2021,street,Aguado Road,97
+RR,Aguado,AGUADO ST.,ALONG AGUADO-LAPIDARIO RD,2100.0,DO 20-2021,street,Aguado Road,97
+CR,Aguado,GOLDEN VILLE SUBD,,3100.0,DO 20-2021,unmatched,Sunshine Ville (54),0
+CR,Aguado,PHIL NAVY VILL ASSOCIATION,,3100.0,DO 20-2021,unmatched,Sunshine Ville (46),0
+CR,Aguado,SOUTH SUMMIT RIDGE RESIDENCES PH I,,3100.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+CR,Aguado,SOUTH SUMMIT RIDGE RESIDENCES PH II,,3100.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+CR,Aguado,SOUTH SUMMIT RIDGE RESIDENCES PH III,,3100.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+CR,Aguado,SOUTHVILLE SUBD,,3100.0,DO 20-2021,unmatched,Sunshine Ville (67),0
+RR,Aguado,GOLDEN VILLE SUBD,,2500.0,DO 20-2021,unmatched,Sunshine Ville (54),0
+RR,Aguado,PHIL NAVY VILL ASSOCIATION,,2500.0,DO 20-2021,unmatched,Sunshine Ville (46),0
+RR,Aguado,SOUTH SUMMIT RIDGE RESIDENCES PH I,,2500.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+RR,Aguado,SOUTH SUMMIT RIDGE RESIDENCES PH II,,2500.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+RR,Aguado,SOUTH SUMMIT RIDGE RESIDENCES PH III,,2500.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+RR,Aguado,SOUTHVILLE SUBD,,2500.0,DO 20-2021,unmatched,Sunshine Ville (67),0
+RR,Aguado,SOUTHVILLE PHASE III,,2500.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+CR,Cabezas,ALL OTHER SUBDIVISION,,4300.0,DO 20-2021,background,,0
+RR,Cabezas,ALL OTHER SUBDIVISION,,3500.0,DO 20-2021,background,,0
+CR,Cabezas,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3400.0,DO 20-2021,background,,0
+RR,Cabezas,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2100.0,DO 20-2021,background,,0
+RR,Cabezas,ALL OTHER STREETS,INTERIOR,1800.0,DO 20-2021,background,,0
+CR,Cabezas,HUGO PEREZ ROAD,,4100.0,DO 20-2021,street,Hugo Perez Road,100
+RR,Cabezas,HUGO PEREZ ROAD,,2900.0,DO 20-2021,street,Hugo Perez Road,100
+CR,Cabezas,SHERWOOD HILLS DEVT CORP,,7200.0,DO 20-2021,unmatched,Metro South Executive (41),0
+CR,Cabezas,LA PAZ HOMES DEVT CORP PHASE I SUBD,,6300.0,DO 20-2021,unmatched,La Paz Homes 1 (76),0
+CR,Cabezas,LA PAZ HOMES DEVT CORP PHASE II,,6300.0,DO 20-2021,unmatched,La Paz Homes 2 (76),0
+RR,Cabezas,SHERWOOD HILLS DEVT CORP,,5900.0,DO 20-2021,unmatched,Metro South Executive (41),0
+RR,Cabezas,LA PAZ HOMES DEVT CORP PHASE I SUBD,,4500.0,DO 20-2021,unmatched,La Paz Homes 1 (76),0
+RR,Cabezas,LA PAZ HOMES DEVT CORP PHASE II,,4500.0,DO 20-2021,unmatched,La Paz Homes 2 (76),0
+CR,Cabezas,BARANGAY ROAD,LA PAZ TO BARANGAY PROPER,4100.0,DO 20-2021,unmatched,Karlaville Park Homes (35),0
+CR,Cabezas,BARANGAY ROAD,DULONG BAYAN TO LALLANA BOUN.,4100.0,DO 20-2021,unmatched,Karlaville Park Homes (35),0
+CR,Cabezas,CABEZAS ST,CABEZAS ST,4100.0,DO 20-2021,unmatched,Karlaville Park Homes (29),0
+CR,Cabezas,CABEZAS ST,CABEZAS TO LALLANA,4100.0,DO 20-2021,unmatched,Karlaville Park Homes (29),0
+RR,Cabezas,BARANGAY ROAD,LA PAZ TO BARANGAY PROPER,2900.0,DO 20-2021,unmatched,Karlaville Park Homes (35),0
+RR,Cabezas,BARANGAY ROAD,DULONG BAYAN TO LALLANA BOUN.,2900.0,DO 20-2021,unmatched,Karlaville Park Homes (35),0
+RR,Cabezas,CABEZAS ST,CABEZAS ST,2900.0,DO 20-2021,unmatched,Karlaville Park Homes (29),0
+RR,Cabezas,CABEZAS ST,CABEZAS TO LALLANA,2900.0,DO 20-2021,unmatched,Karlaville Park Homes (29),0
+CR,Cabuco,ALL OTHER SUBDIVISION,,4300.0,DO 20-2021,background,,0
+CR,Cabuco,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3500.0,DO 20-2021,background,,0
+RR,Cabuco,ALL OTHER SUBDIVISION,,3500.0,DO 20-2021,background,,0
+I,Cabuco,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3000.0,DO 20-2021,background,,0
+RR,Cabuco,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2500.0,DO 20-2021,background,,0
+RR,Cabuco,ALL OTHER STREETS,INTERIOR,2300.0,DO 20-2021,background,,0
+CR,Cabuco,NATIONAL ROAD,ALONG GOVERNOR'S DRIVE,11500.0,DO 20-2021,unmatched,La Trinidad Subdivision (53),0
+CR,Cabuco,CAMELLA -TRECE MARTIRES,,9900.0,DO 20-2021,unmatched,Camella Trece (76),0
+RR,Cabuco,NATIONAL ROAD,ALONG GOVERNOR'S DRIVE,7600.0,DO 20-2021,unmatched,La Trinidad Subdivision (53),0
+RR,Cabuco,CAMELLA -TRECE MARTIRES,,7600.0,DO 20-2021,unmatched,Camella Trece (76),0
+CR,Cabuco,WEST GOVERNOR HEIGHTS,,7000.0,DO 20-2021,unmatched,Cabuco Heights (48),0
+CR,Cabuco,ASIAN DEVT CORP,,6300.0,DO 20-2021,unmatched,Via Verde Trece (48),0
+CR,Cabuco,ASIAN PACIFIC ESTATE DEV CORP,,6300.0,DO 20-2021,unmatched,Arden Botanical Estate (43),0
+CR,Cabuco,BEVERLY HOMES CABUCO,,6300.0,DO 20-2021,unmatched,Cabuco Heights (44),0
+CR,Cabuco,CARISSA HOMES QUINTANA SUBDIVISION,,6300.0,DO 20-2021,unmatched,Arden Botanical Estate (45),0
+CR,Cabuco,QUINTANA SUBD,,6300.0,DO 20-2021,unmatched,Arden Botanical Estate (43),0
+CR,Cabuco,SAN MARINO HOMES,,6300.0,DO 20-2021,unmatched,Arden Botanical Estate (48),0
+CR,Cabuco,SPS EULOGIO MAGAWAY SUBD,,6300.0,DO 20-2021,unmatched,Don Bosco Executive Village (26),0
+CR,Cabuco,SUMMERHOMES HOUSING PROJECT,,6300.0,DO 20-2021,unmatched,Brookstone Park (39),0
+CR,Cabuco,CHRISTIAN DREAMS HOMES,,6000.0,DO 20-2021,unmatched,Las Brisas at Tierra Del Sol (43),0
+CR,Cabuco,LA TRINIDAD SUBD PHASE I,,5800.0,DO 20-2021,unmatched,Beverly Homes Cabuco Phase 1 (34),0
+CR,Cabuco,LA TRINIDAD SUBD PHASE II,,5800.0,DO 20-2021,unmatched,Beverly Homes Cabuco Phase 2 (34),0
+CR,Cabuco,LA TRINIDAD SUBD PHASE III,,5800.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+CR,Cabuco,SUNSHINE VILLAGE PHASE I,,5800.0,DO 20-2021,unmatched,Beverly Homes Cabuco Phase 1 (23),0
+CR,Cabuco,SOUTHVILLE PHASE IV,,5800.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+CR,Cabuco,SUNSHINE VILLAGE PHASE II,,5800.0,DO 20-2021,unmatched,West Governor Heights 2 (38),0
+CR,Cabuco,CABUCO ST,SAN AGUSTIN,5500.0,DO 20-2021,unmatched,Cabuco Heights (63),0
+RR,Cabuco,WEST GOVERNOR HEIGHTS,,5200.0,DO 20-2021,unmatched,Cabuco Heights (48),0
+I,Cabuco,CABUCO ST,CABUCO -TANZA ROAD (TANZA),4800.0,DO 20-2021,unmatched,Cabuco Heights (63),0
+RR,Cabuco,ASIAN DEVT CORP,,4800.0,DO 20-2021,unmatched,Via Verde Trece (48),0
+RR,Cabuco,ASIAN PACIFIC ESTATE DEV CORP,,4800.0,DO 20-2021,unmatched,Arden Botanical Estate (43),0
+RR,Cabuco,BEVERLY HOMES CABUCO,,4800.0,DO 20-2021,unmatched,Cabuco Heights (44),0
+RR,Cabuco,CARISSA HOMES QUINTANA SUBDIVISION,,4800.0,DO 20-2021,unmatched,Arden Botanical Estate (45),0
+RR,Cabuco,QUINTANA SUBD,,4800.0,DO 20-2021,unmatched,Arden Botanical Estate (43),0
+RR,Cabuco,SAN MARINO HOMES,,4800.0,DO 20-2021,unmatched,Arden Botanical Estate (48),0
+RR,Cabuco,SPS EULOGIO MAGAWAY SUBD,,4800.0,DO 20-2021,unmatched,Don Bosco Executive Village (26),0
+RR,Cabuco,SUMMERHOMES HOUSING PROJECT,,4800.0,DO 20-2021,unmatched,Brookstone Park (39),0
+RR,Cabuco,CHRISTIAN DREAMS HOMES,,4800.0,DO 20-2021,unmatched,Las Brisas at Tierra Del Sol (43),0
+RR,Cabuco,LA TRINIDAD SUBD PHASE I,,4300.0,DO 20-2021,unmatched,Beverly Homes Cabuco Phase 1 (34),0
+RR,Cabuco,LA TRINIDAD SUBD PHASE II,,4300.0,DO 20-2021,unmatched,Beverly Homes Cabuco Phase 2 (34),0
+RR,Cabuco,LA TRINIDAD SUBD PHASE III,,4300.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+RR,Cabuco,SUNSHINE VILLAGE PHASE I,,4300.0,DO 20-2021,unmatched,Beverly Homes Cabuco Phase 1 (23),0
+RR,Cabuco,SOUTHVILLE PHASE IV,,4300.0,DO 20-2021,unmatched,Sunshine Ville (0),0
+RR,Cabuco,SUNSHINE VILLAGE PHASE II,,4300.0,DO 20-2021,unmatched,West Governor Heights 2 (38),0
+RR,Cabuco,CABUCO ST,CABUCO -TANZA ROAD (TANZA),3900.0,DO 20-2021,unmatched,Cabuco Heights (63),0
+CR,Cabuco,DON BOSCO EXECUTIVE VILLAGE,,7000.0,DO 20-2021,village,Don Bosco Executive Village,100
+CR,Cabuco,BROOKESTONE PARK,,6300.0,DO 20-2021,village,Brookstone Park,96.7741935483871
+CR,Cabuco,RIO VERDE SUBDIVISION,,6300.0,DO 20-2021,village,Rio Verde,100
+CR,Cabuco,SOUTHWIND HOMES,,6300.0,DO 20-2021,village,Southwinds Homes,100
+CR,Cabuco,VIA VERDE TRECE,,6300.0,DO 20-2021,village,Via Verde Trece,100
+CR,Cabuco,PARAGON VILLAGE/ PARAGON VILLAGE PHASE 2 TO 5,,6000.0,DO 20-2021,village,Paragon Village,100
+RR,Cabuco,DON BOSCO EXECUTIVE VILLAGE,,5200.0,DO 20-2021,village,Don Bosco Executive Village,100
+RR,Cabuco,BROOKESTONE PARK,,4800.0,DO 20-2021,village,Brookstone Park,96.7741935483871
+RR,Cabuco,RIO VERDE SUBDIVISION,,4800.0,DO 20-2021,village,Rio Verde,100
+RR,Cabuco,SOUTHWIND HOMES,,4800.0,DO 20-2021,village,Southwinds Homes,100
+RR,Cabuco,VIA VERDE TRECE,,4800.0,DO 20-2021,village,Via Verde Trece,100
+RR,Cabuco,PARAGON VILLAGE/ PARAGON VILLAGE PHASE 2 TO 5,,4800.0,DO 20-2021,village,Paragon Village,100
+CR,Conchu,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4400.0,DO 20-2021,background,,0
+CR,Conchu,ALL OTHER SUBDIVISION,,4000.0,DO 20-2021,background,,0
+I,Conchu,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3600.0,DO 20-2021,background,,0
+RR,Conchu,ALL OTHER SUBDIVISION,,3200.0,DO 20-2021,background,,0
+RR,Conchu,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2700.0,DO 20-2021,background,,0
+RR,Conchu,ALL OTHER STREETS,INTERIOR,2500.0,DO 20-2021,background,,0
+CR,Conchu,CONCHU ST.,HUGO PEREZ,5900.0,DO 20-2021,street,Conchu Road,97
+CR,Conchu,CONCHU ST.,LUCIANO & INOCENCIO,5900.0,DO 20-2021,street,Conchu Road,97
+I,Conchu,CONCHU ST.,HUGO PEREZ,4300.0,DO 20-2021,street,Conchu Road,97
+RR,Conchu,CONCHU ST.,HUGO PEREZ,3800.0,DO 20-2021,street,Conchu Road,97
+RR,Conchu,CONCHU ST.,LUCIANO & INOCENCIO,3800.0,DO 20-2021,street,Conchu Road,97
+CR,Conchu,BEVERLY HOMES,,6300.0,DO 20-2021,unmatched,Beverly Homes Conchu (67),0
+CR,Conchu,ERVILLE ROYALE EXEC HOMES,,6300.0,DO 20-2021,unmatched,Beverly Homes Conchu (42),0
+CR,Conchu,LA PAZ HOMES,,6300.0,DO 20-2021,unmatched,General Trias (33),0
+CR,Conchu,SATELITEVILLE- CONCHU,,6300.0,DO 20-2021,unmatched,Satelliteville (76),0
+CR,Conchu,BARANGAY ROAD,CLASSIQUE IDEA TO AMADEO BOUN.,5900.0,DO 20-2021,unmatched,MetroGate Indang (33),0
+CR,Conchu,CIUDAD ADELINA PHASE IV,,5600.0,DO 20-2021,unmatched,Adelina Townhome Phase 4 (59),0
+CR,Conchu,ADELINA REALTY PHASE I,,5600.0,DO 20-2021,unmatched,Pacifictown Conchu (0),0
+CR,Conchu,ADELINA REALTY PHASE II,,5600.0,DO 20-2021,unmatched,Pacifictown Conchu (0),0
+CR,Conchu,ADELINA REALTY PHASE III,,5600.0,DO 20-2021,unmatched,Pacifictown Conchu (0),0
+RR,Conchu,BEVERLY HOMES,,4800.0,DO 20-2021,unmatched,Beverly Homes Conchu (67),0
+RR,Conchu,ERVILLE ROYALE EXEC HOMES,,4800.0,DO 20-2021,unmatched,Beverly Homes Conchu (42),0
+RR,Conchu,LA PAZ HOMES,,4800.0,DO 20-2021,unmatched,General Trias (33),0
+RR,Conchu,SATELITEVILLE- CONCHU,,4800.0,DO 20-2021,unmatched,Satelliteville (76),0
+RR,Conchu,BARANGAY ROAD,CLASSIQUE IDEA TO AMADEO BOUN.,3800.0,DO 20-2021,unmatched,MetroGate Indang (33),0
+RR,Conchu,CIUDAD ADELINA PHASE IV,,3800.0,DO 20-2021,unmatched,Adelina Townhome Phase 4 (59),0
+RR,Conchu,ADELINA REALTY PHASE I,,3800.0,DO 20-2021,unmatched,Pacifictown Conchu (0),0
+RR,Conchu,ADELINA REALTY PHASE II,,3800.0,DO 20-2021,unmatched,Pacifictown Conchu (0),0
+RR,Conchu,ADELINA REALTY PHASE III,,3800.0,DO 20-2021,unmatched,Pacifictown Conchu (0),0
+CR,Conchu,PACIFICTOWN- EXECUTIVE VILLAGE,,9200.0,DO 20-2021,village,Pacific Town Executive Village,100
+CR,Conchu,AMAIA SCAPES TRECE MARTIRES,,7500.0,DO 20-2021,village,Amaia Scapes Trece Martires,100
+CR,Conchu,PACIFICTOWN- CONCHU,,6300.0,DO 20-2021,village,Pacifictown Conchu,100
+RR,Conchu,PACIFICTOWN- EXECUTIVE VILLAGE,,5700.0,DO 20-2021,village,Pacific Town Executive Village,100
+RR,Conchu,AMAIA SCAPES TRECE MARTIRES,,5500.0,DO 20-2021,village,Amaia Scapes Trece Martires,100
+RR,Conchu,PACIFICTOWN- CONCHU,,4800.0,DO 20-2021,village,Pacifictown Conchu,100
+CR,De Ocampo,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+CR,De Ocampo,ALL OTHER SUBDIVISION,,4300.0,DO 20-2021,background,,0
+I,De Ocampo,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4000.0,DO 20-2021,background,,0
+RR,De Ocampo,ALL OTHER SUBDIVISION,,3500.0,DO 20-2021,background,,0
+RR,De Ocampo,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3100.0,DO 20-2021,background,,0
+RR,De Ocampo,ALL OTHER STREETS,INTERIOR,2800.0,DO 20-2021,background,,0
+CR,De Ocampo,SALUYSOY ROAD,SAN AGUSTIN TO TANZA BOUNDARY,5800.0,DO 20-2021,street,Saluysoy Road,100
+RR,De Ocampo,SALUYSOY ROAD,SAN AGUSTIN TO TANZA BOUNDARY,4000.0,DO 20-2021,street,Saluysoy Road,100
+CR,De Ocampo,NATIONAL ROAD,TRECE MARTIRES - TANZA ROAD,10500.0,DO 20-2021,unmatched,Masaito Homes (40),0
+CR,De Ocampo,MARKET ROAD,,7300.0,DO 20-2021,unmatched,Masaito Homes (46),0
+RR,De Ocampo,NATIONAL ROAD,TRECE MARTIRES - TANZA ROAD,7200.0,DO 20-2021,unmatched,Masaito Homes (40),0
+I,De Ocampo,DE OCAMPO ST,,6300.0,DO 20-2021,unmatched,Nusa Dua Farm Estate (36),0
+CR,De Ocampo,CITY LAND SUBD.(CITY LAND DEVT CORP),,6300.0,DO 20-2021,unmatched,Lucky Prince Homes (38),0
+CR,De Ocampo,CIUDAD PANGARAP,,6300.0,DO 20-2021,unmatched,Nusa Dua Farm Estate (43),0
+CR,De Ocampo,ERINVILLE HOMES PHASE 1,,6300.0,DO 20-2021,unmatched,Grand Krause Ville 1 (58),0
+CR,De Ocampo,FEDERAL TRADE CTR DEVT,,6300.0,DO 20-2021,unmatched,MetroGate Trece Martires (49),0
+CR,De Ocampo,KRAUSEVILLE 2 SUBD,,6300.0,DO 20-2021,unmatched,Grand Krause Ville 2 (79),0
+CR,De Ocampo,MASAITO HOMES TRECE PHASE 1,,6300.0,DO 20-2021,unmatched,Grand Krause Ville 1 (40),0
+CR,De Ocampo,METRO INDEX/METRO LAND TERRACES PHASE I,,6300.0,DO 20-2021,unmatched,Grand Krause Ville 1 (50),0
+CR,De Ocampo,METRO INDEX/METRO LAND TERRACES PHASE II,,6300.0,DO 20-2021,unmatched,Erinville Homes (50),0
+CR,De Ocampo,RAMOS SUBD,,6300.0,DO 20-2021,unmatched,Masaito Homes (36),0
+CR,De Ocampo,WEST PLAINS SUBD PHASE I,,6300.0,DO 20-2021,unmatched,Grand Krause Ville 1 (38),0
+CR,De Ocampo,WEST PLAINS SUBD PHASE II,,6300.0,DO 20-2021,unmatched,Grand Krause Ville 2 (38),0
+CR,De Ocampo,TEMPLO SUBD,,6100.0,DO 20-2021,unmatched,Masaito Homes (31),0
+RR,De Ocampo,DE OCAMPO ST,,4800.0,DO 20-2021,unmatched,Nusa Dua Farm Estate (36),0
+RR,De Ocampo,CITY LAND SUBD.(CITY LAND DEVT CORP),,4800.0,DO 20-2021,unmatched,Lucky Prince Homes (38),0
+RR,De Ocampo,CIUDAD PANGARAP,,4800.0,DO 20-2021,unmatched,Nusa Dua Farm Estate (43),0
+RR,De Ocampo,ERINVILLE HOMES PHASE 1,,4800.0,DO 20-2021,unmatched,Grand Krause Ville 1 (58),0
+RR,De Ocampo,FEDERAL TRADE CTR DEVT,,4800.0,DO 20-2021,unmatched,MetroGate Trece Martires (49),0
+RR,De Ocampo,KRAUSEVILLE 2 SUBD,,4800.0,DO 20-2021,unmatched,Grand Krause Ville 2 (79),0
+RR,De Ocampo,MASAITO HOMES TRECE PHASE 1,,4800.0,DO 20-2021,unmatched,Grand Krause Ville 1 (40),0
+RR,De Ocampo,METRO INDEX/METRO LAND TERRACES PHASE I,,4800.0,DO 20-2021,unmatched,Grand Krause Ville 1 (50),0
+RR,De Ocampo,METRO INDEX/METRO LAND TERRACES PHASE II,,4800.0,DO 20-2021,unmatched,Erinville Homes (50),0
+RR,De Ocampo,RAMOS SUBD,,4800.0,DO 20-2021,unmatched,Masaito Homes (36),0
+RR,De Ocampo,WEST PLAINS SUBD PHASE I,,4800.0,DO 20-2021,unmatched,Grand Krause Ville 1 (38),0
+RR,De Ocampo,WEST PLAINS SUBD PHASE II,,4800.0,DO 20-2021,unmatched,Grand Krause Ville 2 (38),0
+RR,De Ocampo,TEMPLO SUBD,,4300.0,DO 20-2021,unmatched,Masaito Homes (31),0
+CR,De Ocampo,REGINA VILLE EXECUTIVE SUBD,,8200.0,DO 20-2021,village,Regina Ville Executive,100
+RR,De Ocampo,REGINA VILLE EXECUTIVE SUBD,,6600.0,DO 20-2021,village,Regina Ville Executive,100
+CR,De Ocampo,REGINA VILLE CLASSIC SUBD,,6300.0,DO 20-2021,village,Regina Ville Classic,100
+RR,De Ocampo,REGINA VILLE CLASSIC SUBD,,4800.0,DO 20-2021,village,Regina Ville Classic,100
+CR,Gregorio,ALL OTHER SUBDIVISION,,4700.0,DO 20-2021,background,,0
+CR,Gregorio,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4300.0,DO 20-2021,background,,0
+I,Gregorio,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3800.0,DO 20-2021,background,,0
+RR,Gregorio,ALL OTHER SUBDIVISION,,3500.0,DO 20-2021,background,,0
+RR,Gregorio,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2900.0,DO 20-2021,background,,0
+RR,Gregorio,ALL OTHER STREETS,INTERIOR,2700.0,DO 20-2021,background,,0
+CR,Gregorio,NATIONAL ROAD,GOVERNOR'S DRIVE,14200.0,DO 20-2021,unmatched,General Trias (50),0
+CR,Gregorio,METRO GATE PHASE I,,9300.0,DO 20-2021,unmatched,Regina Ville Executive (0),0
+CR,Gregorio,METRO GATE PHASE II,,9300.0,DO 20-2021,unmatched,Regina Ville Executive (0),0
+CR,Gregorio,METRO GATE PHASE III,,9300.0,DO 20-2021,unmatched,Regina Ville Executive (0),0
+RR,Gregorio,NATIONAL ROAD,GOVERNOR'S DRIVE,8200.0,DO 20-2021,unmatched,General Trias (50),0
+CR,Gregorio,BARANGAY ROAD,ALONG BARANGAY ROAD,7500.0,DO 20-2021,unmatched,General Trias (30),0
+RR,Gregorio,METRO GATE PHASE I,,7500.0,DO 20-2021,unmatched,Regina Ville Executive (0),0
+RR,Gregorio,METRO GATE PHASE II,,7500.0,DO 20-2021,unmatched,Regina Ville Executive (0),0
+RR,Gregorio,METRO GATE PHASE III,,7500.0,DO 20-2021,unmatched,Regina Ville Executive (0),0
+CR,Gregorio,GREGORIO ST,BARANGAY ROAD,7200.0,DO 20-2021,unmatched,General Trias (40),0
+CR,Gregorio,HERITAGE HOMES PHASE I,,6500.0,DO 20-2021,unmatched,Regina Ville Executive (0),0
+CR,Gregorio,HERITAGE HOMES PHASE II,,6500.0,DO 20-2021,unmatched,Regina Ville Executive (0),0
+CR,Gregorio,MOLDEX REALTY,,6300.0,DO 20-2021,unmatched,Regina Ville Executive (21),0
+RR,Gregorio,HERITAGE HOMES PHASE I,,5200.0,DO 20-2021,unmatched,Regina Ville Executive (0),0
+RR,Gregorio,HERITAGE HOMES PHASE II,,5200.0,DO 20-2021,unmatched,Regina Ville Executive (0),0
+RR,Gregorio,MOLDEX REALTY,,4800.0,DO 20-2021,unmatched,Regina Ville Executive (21),0
+I,Gregorio,GREGORIO ST,BARANGAY ROAD,4700.0,DO 20-2021,unmatched,General Trias (40),0
+RR,Gregorio,BARANGAY ROAD,ALONG BARANGAY ROAD,4100.0,DO 20-2021,unmatched,General Trias (30),0
+RR,Gregorio,GREGORIO ST,BARANGAY ROAD,3800.0,DO 20-2021,unmatched,General Trias (40),0
+CR,Inocencio,ALL OTHER SUBDIVISIONS,,5300.0,DO 20-2021,background,,0
+CR,Inocencio,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4100.0,DO 20-2021,background,,0
+RR,Inocencio,ALL OTHER SUBDIVISIONS,,3600.0,DO 20-2021,background,,0
+I,Inocencio,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3000.0,DO 20-2021,background,,0
+RR,Inocencio,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2700.0,DO 20-2021,background,,0
+RR,Inocencio,ALL OTHER STREETS,INTERIOR,2500.0,DO 20-2021,background,,0
+CR,Inocencio,TRECE MARTIRES - INDANG ROAD,TRADITION TO TRECE- INDANG BOUNDARY,9400.0,DO 20-2021,street,Trece Martires-Indang Road,100
+RR,Inocencio,TRECE MARTIRES - INDANG ROAD,TRADITION TO TRECE- INDANG BOUNDARY,6700.0,DO 20-2021,street,Trece Martires-Indang Road,100
+CR,Inocencio,INOCENCIO ST,AGUADO,4700.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (39),0
+CR,Inocencio,INOCENCIO ST,LUCIANO,4700.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (39),0
+I,Inocencio,INOCENCIO ST,AGUADO,3400.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (39),0
+RR,Inocencio,INOCENCIO ST,AGUADO,2800.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (39),0
+RR,Inocencio,INOCENCIO ST,LUCIANO,2800.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (39),0
+CR,Inocencio,SAINT JOSEPH SUBD,,7200.0,DO 20-2021,village,Saint Joseph Homes,100
+RR,Inocencio,SAINT JOSEPH SUBD,,5900.0,DO 20-2021,village,Saint Joseph Homes,100
+CR,Inocencio,BRIA HOMES TRECE,,5900.0,DO 20-2021,village,Bria Homes Trece,100
+CR,Inocencio,REGINA VILLE 2000,,5900.0,DO 20-2021,village,Regina Ville 2000,100
+CR,Inocencio,SAMPAGUITA VILLAGE,,5900.0,DO 20-2021,village,Sampaguita Village,100
+CR,Inocencio,TRADITION HOMES PHASE I,TRECE MARTIRES-INDANG ROAD,5900.0,DO 20-2021,village,Tradition Homes Phase 1,100
+CR,Inocencio,TRADITION HOMES PHASE II,,5900.0,DO 20-2021,village,Tradition Homes Phase 2,100
+RR,Inocencio,BRIA HOMES TRECE,,4100.0,DO 20-2021,village,Bria Homes Trece,100
+RR,Inocencio,REGINA VILLE 2000,,4100.0,DO 20-2021,village,Regina Ville 2000,100
+RR,Inocencio,SAMPAGUITA VILLAGE,,4100.0,DO 20-2021,village,Sampaguita Village,100
+RR,Inocencio,TRADITION HOMES PHASE I,TRECE MARTIRES-INDANG ROAD,4100.0,DO 20-2021,village,Tradition Homes Phase 1,100
+RR,Inocencio,TRADITION HOMES PHASE II,,4100.0,DO 20-2021,village,Tradition Homes Phase 2,100
+CR,Lallana,ALL OTHER SUBDIVISIONS,,5100.0,DO 20-2021,background,,0
+CR,Lallana,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3500.0,DO 20-2021,background,,0
+RR,Lallana,ALL OTHER SUBDIVISIONS,,3300.0,DO 20-2021,background,,0
+I,Lallana,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2700.0,DO 20-2021,background,,0
+RR,Lallana,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2300.0,DO 20-2021,background,,0
+RR,Lallana,ALL OTHER STREETS,INTERIOR,2000.0,DO 20-2021,background,,0
+CR,Lallana,SHERWOOD HILLS GOLF COURSE,,7200.0,DO 20-2021,unmatched,San Francesco Villagio (38),0
+CR,Lallana,NATIONAL HOUSING AUTHORITY,,5600.0,DO 20-2021,unmatched,San Francesco Villagio (38),0
+RR,Lallana,SHERWOOD HILLS GOLF COURSE,,5500.0,DO 20-2021,unmatched,San Francesco Villagio (38),0
+CR,Lallana,BARANGAY ROAD,LALLANA- CABEZAS BOUND TO TRECE AMADEO BOUN,5000.0,DO 20-2021,unmatched,San Francesco Villagio (33),0
+CR,Lallana,LALLANA ST,CABEZAS,5000.0,DO 20-2021,unmatched,General Trias (32),0
+CR,Lallana,LALLANA ST,LLALANA ROAD -AMADEO ROAD,4300.0,DO 20-2021,unmatched,General Trias (32),0
+RR,Lallana,NATIONAL HOUSING AUTHORITY,,3800.0,DO 20-2021,unmatched,San Francesco Villagio (38),0
+RR,Lallana,BARANGAY ROAD,LALLANA- CABEZAS BOUND TO TRECE AMADEO BOUN,3500.0,DO 20-2021,unmatched,San Francesco Villagio (33),0
+RR,Lallana,LALLANA ST,CABEZAS,3500.0,DO 20-2021,unmatched,General Trias (32),0
+RR,Lallana,LALLANA ST,LLALANA ROAD -AMADEO ROAD,2700.0,DO 20-2021,unmatched,General Trias (32),0
+CR,Lapidario,ALL OTHER SUBDIVISIONS,,5300.0,DO 20-2021,background,,0
+CR,Lapidario,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4300.0,DO 20-2021,background,,0
+I,Lapidario,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3800.0,DO 20-2021,background,,0
+RR,Lapidario,ALL OTHER SUBDIVISIONS,,3300.0,DO 20-2021,background,,0
+RR,Lapidario,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3100.0,DO 20-2021,background,,0
+RR,Lapidario,ALL OTHER STREETS,INTERIOR,2800.0,DO 20-2021,background,,0
+CR,Lapidario,GOVERNORS DRIVE,,11500.0,DO 20-2021,street,Governor's Drive,96.0
+RR,Lapidario,GOVERNORS DRIVE,,8500.0,DO 20-2021,street,Governor's Drive,96.0
+CR,Lapidario,TALISAYAN ROAD,,5600.0,DO 20-2021,street,Talisayan Road,100
+CR,Lapidario,LAPIDARIO ST,LAPIDARIO RD - AGUADO ROAD,5600.0,DO 20-2021,street,Lapidario Road,97
+I,Lapidario,LAPIDARIO ST,LAPIDARIO RD - CABUCO ROAD,5000.0,DO 20-2021,street,Lapidario Road,97
+RR,Lapidario,TALISAYAN ROAD,,3800.0,DO 20-2021,street,Talisayan Road,100
+RR,Lapidario,LAPIDARIO ST,LAPIDARIO RD - AGUADO ROAD,3800.0,DO 20-2021,street,Lapidario Road,97
+CR,Lapidario,BARANGAY ROAD,MAPUTING TUBIG BRIDGE TO CAPITOL HILLS,6300.0,DO 20-2021,unmatched,Paragon Village (53),0
+CR,Lapidario,BARANGAY ROAD,PROVINCIAL JAIL TO LAPIDARIO AGUADO BOUN,6300.0,DO 20-2021,unmatched,Paragon Village (53),0
+CR,Lapidario,CAPITOL HILLS SUBD PHASE I,,5900.0,DO 20-2021,unmatched,La Trinidad Subdivision (0),0
+CR,Lapidario,CAPITOL HILLS SUBD PHASE II,,5600.0,DO 20-2021,unmatched,La Trinidad Subdivision (0),0
+CR,Lapidario,LAPIDARIO HOUSING PROJECT,,5600.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (47),0
+I,Lapidario,LAPIDARIO HOUSING PROJECT,,4700.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (47),0
+RR,Lapidario,CAPITOL HILLS SUBD PHASE I,,4300.0,DO 20-2021,unmatched,La Trinidad Subdivision (0),0
+RR,Lapidario,BARANGAY ROAD,MAPUTING TUBIG BRIDGE TO CAPITOL HILLS,4100.0,DO 20-2021,unmatched,Paragon Village (53),0
+RR,Lapidario,BARANGAY ROAD,PROVINCIAL JAIL TO LAPIDARIO AGUADO BOUN,4100.0,DO 20-2021,unmatched,Paragon Village (53),0
+RR,Lapidario,CAPITOL HILLS SUBD PHASE II,,3800.0,DO 20-2021,unmatched,La Trinidad Subdivision (0),0
+RR,Lapidario,LAPIDARIO HOUSING PROJECT,,3800.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (47),0
+CR,Lapidario,CAPITOL HILLS SUBD,,6300.0,DO 20-2021,village,Capitol Hills Executive Subdivision,95
+I,Lapidario,CAPITOL HILLS SUBD,,5600.0,DO 20-2021,village,Capitol Hills Executive Subdivision,95
+RR,Lapidario,CAPITOL HILLS SUBD,,4800.0,DO 20-2021,village,Capitol Hills Executive Subdivision,95
+CR,Luciano,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+I,Luciano,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4000.0,DO 20-2021,background,,0
+CR,Luciano,ALL OTHER SUBDIVISIONS,,4000.0,DO 20-2021,background,,0
+RR,Luciano,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3100.0,DO 20-2021,background,,0
+RR,Luciano,ALL OTHER SUBDIVISIONS,,3000.0,DO 20-2021,background,,0
+RR,Luciano,ALL OTHER STREETS,INTERIOR,2800.0,DO 20-2021,background,,0
+CR,Luciano,TRECE MARTIRES - INDANG ROAD,,10500.0,DO 20-2021,street,Trece Martires-Indang Road,100
+RR,Luciano,TRECE MARTIRES - INDANG ROAD,,7500.0,DO 20-2021,street,Trece Martires-Indang Road,100
+CR,Luciano,CRUCILLO ST.,,6300.0,DO 20-2021,street,A. Crucillo Street,91.66666666666666
+CR,Luciano,VICEDO ST.,,6300.0,DO 20-2021,street,J. Vicedo Street,90.0
+RR,Luciano,CRUCILLO ST.,,4100.0,DO 20-2021,street,A. Crucillo Street,91.66666666666666
+RR,Luciano,VICEDO ST.,,4100.0,DO 20-2021,street,J. Vicedo Street,90.0
+CR,Luciano,KALYE MALIGAYA,,6300.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (39),0
+CR,Luciano,PHASE 2,,6300.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (0),0
+CR,Luciano,AFP - PNP HOUSING PROJECT,,5600.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (40),0
+CR,Luciano,NHA,,5000.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (16),0
+RR,Luciano,KALYE MALIGAYA,,4100.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (39),0
+RR,Luciano,PHASE 2,,4100.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (0),0
+RR,Luciano,AFP - PNP HOUSING PROJECT,,3800.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (40),0
+RR,Luciano,NHA,,3500.0,DO 20-2021,unmatched,Ciudad Adelina Luciano (16),0
+CR,Osorio,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3300.0,DO 20-2021,background,,0
+CR,Osorio,ALL OTHER SUBDIVISIONS,,3000.0,DO 20-2021,background,,0
+I,Osorio,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2700.0,DO 20-2021,background,,0
+RR,Osorio,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2150.0,DO 20-2021,background,,0
+RR,Osorio,ALL OTHER STREETS,INTERIOR,2000.0,DO 20-2021,background,,0
+RR,Osorio,ALL OTHER SUBDIVISIONS,,2000.0,DO 20-2021,background,,0
+CR,Osorio,GOVERNOR'S DRIVE,GREGORIO TO OSORIO,13700.0,DO 20-2021,street,Governor's Drive,100
+CR,Osorio,GOVERNOR'S DRIVE,OSORIO TO TRECE BOUNDARY,11500.0,DO 20-2021,street,Governor's Drive,100
+RR,Osorio,GOVERNOR'S DRIVE,GREGORIO TO OSORIO,8200.0,DO 20-2021,street,Governor's Drive,100
+RR,Osorio,GOVERNOR'S DRIVE,OSORIO TO TRECE BOUNDARY,7100.0,DO 20-2021,street,Governor's Drive,100
+CR,Osorio,OSORIO ROAD,ALONG BARANGAY ROAD,4400.0,DO 20-2021,street,F. Osorio Road,90.0
+CR,Osorio,ALFONSO ST,AMADEO ST,4200.0,DO 20-2021,street,Alfonso Street,100
+CR,Osorio,BAILEN ST,BACOOR ST,4200.0,DO 20-2021,street,Bailen Street,100
+CR,Osorio,CARMONA ST,CORREGIDOR ST,4200.0,DO 20-2021,street,Carmona Street,100
+CR,Osorio,DASMARINAS ST,IMUS ST,4200.0,DO 20-2021,street,Dasmariñas Street,100
+CR,Osorio,IMUS ST,INDANG ST,4200.0,DO 20-2021,street,Imus Street,100
+CR,Osorio,INDANG ST,IMUS ST,4200.0,DO 20-2021,street,Indang Street,100
+CR,Osorio,NAIC ST,MAGALLANES ST,4200.0,DO 20-2021,street,Naic Street,100
+CR,Osorio,NOVELETA ST,IMUS ST,4200.0,DO 20-2021,street,Noveleta Street,100
+CR,Osorio,TAGAYTAY AVENUE,CARMONA ST,4200.0,DO 20-2021,street,Tagaytay Avenue,100
+RR,Osorio,OSORIO ROAD,ALONG BARANGAY ROAD,3300.0,DO 20-2021,street,F. Osorio Road,90.0
+RR,Osorio,ALFONSO ST,AMADEO ST,3300.0,DO 20-2021,street,Alfonso Street,100
+RR,Osorio,BAILEN ST,BACOOR ST,3300.0,DO 20-2021,street,Bailen Street,100
+RR,Osorio,CARMONA ST,CORREGIDOR ST,3300.0,DO 20-2021,street,Carmona Street,100
+RR,Osorio,DASMARINAS ST,IMUS ST,3300.0,DO 20-2021,street,Dasmariñas Street,100
+RR,Osorio,IMUS ST,INDANG ST,3300.0,DO 20-2021,street,Imus Street,100
+RR,Osorio,INDANG ST,IMUS ST,3300.0,DO 20-2021,street,Indang Street,100
+RR,Osorio,NAIC ST,MAGALLANES ST,3300.0,DO 20-2021,street,Naic Street,100
+RR,Osorio,NOVELETA ST,IMUS ST,3300.0,DO 20-2021,street,Noveleta Street,100
+RR,Osorio,TAGAYTAY AVENUE,CARMONA ST,3300.0,DO 20-2021,street,Tagaytay Avenue,100
+CR,Osorio,MAGALLANES ST,CAVITE AVENUE,5600.0,DO 20-2021,unmatched,Sugarland Estates (56),0
+CR,Osorio,CITY HOMES,,4600.0,DO 20-2021,unmatched,New Leaf by Filinvest (16),0
+CR,Osorio,BARANGAY ROAD,VIAJE COMPOUND TO SAUCO RESIDENCE,4400.0,DO 20-2021,unmatched,Sugarland Estates (47),0
+CR,Osorio,AMADEO ST,BACOOR ST,4200.0,DO 20-2021,unmatched,Sugarland Estates (40),0
+CR,Osorio,BACOOR ST,BAILEN ST,4200.0,DO 20-2021,unmatched,Sugarland Estates (27),0
+CR,Osorio,CORREGIDOR ST,DASMARINAS ST,4200.0,DO 20-2021,unmatched,MetroGate Trece Martires (30),0
+CR,Osorio,OSORIO ST,HUGO PEREZ ST,4200.0,DO 20-2021,unmatched,Summerfield Subdivision (35),0
+CR,Osorio,TANZA ST,MAGALLANES ST,4200.0,DO 20-2021,unmatched,Sugarland Estates (29),0
+CR,Osorio,TERNATE ST,TANZA ST,4200.0,DO 20-2021,unmatched,General Trias (42),0
+CR,Osorio,TRECE MARTIRES DEVT CORP,,4200.0,DO 20-2021,unmatched,The Woodlands at Trece Martires (70),0
+RR,Osorio,MAGALLANES ST,CAVITE AVENUE,4100.0,DO 20-2021,unmatched,Sugarland Estates (56),0
+CR,Osorio,NHA,,3500.0,DO 20-2021,unmatched,General Trias (27),0
+RR,Osorio,BARANGAY ROAD,VIAJE COMPOUND TO SAUCO RESIDENCE,3300.0,DO 20-2021,unmatched,Sugarland Estates (47),0
+RR,Osorio,AMADEO ST,BACOOR ST,3300.0,DO 20-2021,unmatched,Sugarland Estates (40),0
+RR,Osorio,BACOOR ST,BAILEN ST,3300.0,DO 20-2021,unmatched,Sugarland Estates (27),0
+RR,Osorio,CORREGIDOR ST,DASMARINAS ST,3300.0,DO 20-2021,unmatched,MetroGate Trece Martires (30),0
+RR,Osorio,OSORIO ST,HUGO PEREZ ST,3300.0,DO 20-2021,unmatched,Summerfield Subdivision (35),0
+RR,Osorio,TANZA ST,MAGALLANES ST,3300.0,DO 20-2021,unmatched,Sugarland Estates (29),0
+RR,Osorio,TERNATE ST,TANZA ST,3300.0,DO 20-2021,unmatched,General Trias (42),0
+RR,Osorio,CITY HOMES,,3300.0,DO 20-2021,unmatched,New Leaf by Filinvest (16),0
+RR,Osorio,TRECE MARTIRES DEVT CORP,,3000.0,DO 20-2021,unmatched,The Woodlands at Trece Martires (70),0
+RR,Osorio,NHA,,2500.0,DO 20-2021,unmatched,General Trias (27),0
+CR,Osorio,SUMMERFIELD SUBD,,4200.0,DO 20-2021,village,Summerfield Subdivision,100
+RR,Osorio,SUMMERFIELD SUBD,,3000.0,DO 20-2021,village,Summerfield Subdivision,100
+CR,San Agustin,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+CR,San Agustin,ALL OTHER SUBDIVISIONS,,4500.0,DO 20-2021,background,,0
+I,San Agustin,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4000.0,DO 20-2021,background,,0
+RR,San Agustin,ALL OTHER SUBDIVISIONS,,3000.0,DO 20-2021,background,,0
+RR,San Agustin,ALL OTHER STREETS,ALONG ALL OTHER STREETS,2900.0,DO 20-2021,background,,0
+RR,San Agustin,ALL OTHER STREETS,INTERIOR,2700.0,DO 20-2021,background,,0
+CR,San Agustin,SALUYSOY ROAD,MARKET TO QUEEN'S JOY,8000.0,DO 20-2021,street,Saluysoy Road,100
+RR,San Agustin,SALUYSOY ROAD,MARKET TO QUEEN'S JOY,5000.0,DO 20-2021,street,Saluysoy Road,100
+CR,San Agustin,NATIONAL ROAD,ALONG GOVERNOR'S DRIVE,18800.0,DO 20-2021,unmatched,Masaito Homes (40),0
+CR,San Agustin,PROVINCIAL ROAD,TRECE- TANZA ROAD,12000.0,DO 20-2021,unmatched,Lucky Prince Homes (45),0
+CR,San Agustin,PROVINCIAL ROAD,TRECE- INDANG ROAD,10500.0,DO 20-2021,unmatched,Lucky Prince Homes (45),0
+RR,San Agustin,NATIONAL ROAD,ALONG GOVERNOR'S DRIVE,9400.0,DO 20-2021,unmatched,Masaito Homes (40),0
+CR,San Agustin,BARANGAY ROAD,ALL OTHER BARANGAY ROAD,8500.0,DO 20-2021,unmatched,Transville Homes (33),0
+CR,San Agustin,RCD VILLAS COMMERCIAL,,8400.0,DO 20-2021,unmatched,Goldcrest Villa (51),0
+CR,San Agustin,QUINTANA EXEC HOMES,,8400.0,DO 20-2021,unmatched,Quintana Executive Homes (84),0
+RR,San Agustin,PROVINCIAL ROAD,TRECE- TANZA ROAD,7100.0,DO 20-2021,unmatched,Lucky Prince Homes (45),0
+RR,San Agustin,PROVINCIAL ROAD,TRECE- INDANG ROAD,7000.0,DO 20-2021,unmatched,Lucky Prince Homes (45),0
+RR,San Agustin,QUINTANA EXEC HOMES,,7000.0,DO 20-2021,unmatched,Quintana Executive Homes (84),0
+RR,San Agustin,MASAITO HOMES TRECE PHASE 1,,7000.0,DO 20-2021,unmatched,Grand Krause Ville 1 (40),0
+RR,San Agustin,MASAITO HOMES TRECE PHASE 2,,7000.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (0),0
+RR,San Agustin,RCD VILLAS DE TRECE,,7000.0,DO 20-2021,unmatched,Goldcrest Villa (61),0
+CR,San Agustin,GRAND KRAUSE VILLE PHASE II,,6300.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (0),0
+CR,San Agustin,HAUSKON GOLDCREST,,6300.0,DO 20-2021,unmatched,Goldcrest Villa (69),0
+CR,San Agustin,PARAGON VILLAGE PHASE 1 TO 5,,6300.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (0),0
+CR,San Agustin,PULIDO SUBD,,6300.0,DO 20-2021,unmatched,Masaito Homes (31),0
+CR,San Agustin,RUBY SAPPHIRE- LUCKY PRINCE HOMES,,6300.0,DO 20-2021,unmatched,Lucky Prince Homes (63),0
+CR,San Agustin,WEST PLAIN,PANUNGYANAN ROAD,6300.0,DO 20-2021,unmatched,Goldcrest Villa (48),0
+CR,San Agustin,FIDGIE SUBD,,6300.0,DO 20-2021,unmatched,Hope Residences (30),0
+RR,San Agustin,BARANGAY ROAD,ALL OTHER BARANGAY ROAD,5500.0,DO 20-2021,unmatched,Transville Homes (33),0
+CR,San Agustin,13 MARTYRS ST.,,5000.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (0),0
+RR,San Agustin,GRAND KRAUSE VILLE PHASE II,,4800.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (0),0
+RR,San Agustin,HAUSKON GOLDCREST,,4800.0,DO 20-2021,unmatched,Goldcrest Villa (69),0
+RR,San Agustin,PARAGON VILLAGE PHASE 1 TO 5,,4800.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (0),0
+RR,San Agustin,PULIDO SUBD,,4800.0,DO 20-2021,unmatched,Masaito Homes (31),0
+RR,San Agustin,RUBY SAPPHIRE- LUCKY PRINCE HOMES,,4800.0,DO 20-2021,unmatched,Lucky Prince Homes (63),0
+RR,San Agustin,WEST PLAIN,PANUNGYANAN ROAD,4800.0,DO 20-2021,unmatched,Goldcrest Villa (48),0
+RR,San Agustin,MASAITO HOMES TRECE PHASE 3,,4800.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (0),0
+RR,San Agustin,FIDGIE SUBD,,4800.0,DO 20-2021,unmatched,Hope Residences (30),0
+RR,San Agustin,167 SALUYSOY BYPASS ROAD,,4500.0,DO 20-2021,unmatched,Capitol Hills Executive Subdivision (0),0
+CR,San Agustin,TRANSVILLE HOMES,CAPITOL ROAD-MARKET ROAD,7300.0,DO 20-2021,village,Transville Homes,100
+CR,San Agustin,GOLDCREST VILLAS,,6300.0,DO 20-2021,village,Goldcrest Villa,100
+CR,San Agustin,GRAND KRAUSE VILLE PHASE I,,6300.0,DO 20-2021,village,Grand Krause Ville 1,100
+RR,San Agustin,TRANSVILLE HOMES,CAPITOL ROAD-MARKET ROAD,5200.0,DO 20-2021,village,Transville Homes,100
+RR,San Agustin,GOLDCREST VILLAS,,4800.0,DO 20-2021,village,Goldcrest Villa,100
+RR,San Agustin,GRAND KRAUSE VILLE PHASE I,,4800.0,DO 20-2021,village,Grand Krause Ville 1,100

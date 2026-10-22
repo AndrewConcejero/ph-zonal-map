@@ -109,6 +109,7 @@ RR,San Roque,CRUZ COMPOUND,E. HERMOSA ST,10000.0,DO 5-2024,unmatched,Doña Esper
 RR,San Roque,GREM VILLAGE,,10000.0,DO 5-2024,unmatched,Lake View Manors (21),0
 CR,Santa Ana,ALL OTHER STREETS,,13000.0,DO 5-2024,background,,0
 CR,Santa Ana,ALL OTHER VILLAGES/SUBDIVISIONS,,13000.0,DO 5-2024,background,,0
+I,Santa Ana,ALL OTHER STREETS,,12000.0,DO 5-2024,background,,0
 RR,Santa Ana,ALL OTHER STREETS,,9000.0,DO 5-2024,background,,0
 RR,Santa Ana,ALL OTHER VILLAGES/SUBDIVISIONS,,9000.0,DO 5-2024,background,,0
 CR,Santa Ana,J. DE JESUS,E. HERMOSA - P. ROSALES,14000.0,DO 5-2024,segment,J. de Jesus Street,97
@@ -145,6 +146,7 @@ CR,Santa Ana,ESPIRITU COMPOUND,INT. C.M. BORJA,14000.0,DO 5-2024,unmatched,Saint
 CR,Santa Ana,KINSI,ALLEY 7,14000.0,DO 5-2024,unmatched,Saint Anne Subdivision (40),0
 CR,Santa Ana,PANDAY PALTOK,PANDAY CREEK,14000.0,DO 5-2024,unmatched,Doña Esperanza (44),0
 CR,Santa Ana,POBLETE SUBD.,INT. MASAGANA,14000.0,DO 5-2024,unmatched,Lexington Garden Village (35),0
+I,Santa Ana,MAESTRANG PINANG,P. ROSALES - BRIDGE,13000.0,DO 5-2024,unmatched,Doña Esperanza (47),0
 RR,Santa Ana,CAPT. MUSNI SUBD.,INT. P. ROSALES,13000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (43),0
 RR,Santa Ana,JOSE T. CAPCO ST.,P. ROSALES - COL. FLORES,12000.0,DO 5-2024,unmatched,Estacio Subdivision (53),0
 RR,Santa Ana,A. PONCE ST.,MASAGANA,10000.0,DO 5-2024,unmatched,Saint Anne Subdivision (47),0
@@ -171,6 +173,7 @@ RR,Santa Ana,TANGCO SUBDIVISION,E. RAGAS - COL. FLORES,10000.0,DO 5-2024,village
 RR,Santa Ana,TIBAY SUBD.,INT. P. ROSALES,10000.0,DO 5-2024,village,Tibay Subdivision,100
 CR,Santo Rosario-Kanluran,ALL OTHER STREETS,,18000.0,DO 5-2024,background,,0
 CR,Santo Rosario-Kanluran,ALL OTHER VILLAGES / SUBDIVISIONS,,18000.0,DO 5-2024,background,,0
+I,Santo Rosario-Kanluran,ALL OTHER VILLAGES / SUBDIVISIONS,,15000.0,DO 5-2024,background,,0
 RR,Santo Rosario-Kanluran,ALL OTHER STREETS,,13000.0,DO 5-2024,background,,0
 RR,Santo Rosario-Kanluran,ALL OTHER VILLAGES / SUBDIVISIONS,,13000.0,DO 5-2024,background,,0
 CR,Santo Rosario-Kanluran,ARMADA ST.,MR. FLORES - COLLEGE ST.,19000.0,DO 5-2024,street,M. Armada Street,90.0
@@ -190,18 +193,22 @@ CR,Santo Rosario-Kanluran,COLLEGE ST,SANTANA SUBD.,19000.0,DO 5-2024,unmatched,E
 CR,Santo Rosario-Kanluran,C. LORENZO ST.,MR. FLORES - STO. ROSARIO PASIG BDRY,19000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (36),0
 CR,Santo Rosario-Kanluran,TALIBONG,INT. C. LORENZO,19000.0,DO 5-2024,unmatched,Pasig (46),0
 CR,Santo Rosario-Kanluran,SANTANA SUBD.,ENTIRE AREA,19000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (50),0
+I,Santo Rosario-Kanluran,SANTANA SUBD.,ENTIRE AREA,16000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (50),0
 RR,Santo Rosario-Kanluran,A. MARIANO,INT. C. LORENZO,14000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (55),0
 RR,Santo Rosario-Kanluran,COLLEGE ST,SANTANA SUBD.,14000.0,DO 5-2024,unmatched,Emerald Court Subdivision (40),0
 RR,Santo Rosario-Kanluran,C. LORENZO ST.,MR. FLORES - STO. ROSARIO PASIG BDRY,14000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (36),0
 RR,Santo Rosario-Kanluran,TALIBONG,INT. C. LORENZO,14000.0,DO 5-2024,unmatched,Pasig (46),0
 RR,Santo Rosario-Kanluran,SANTANA SUBD.,ENTIRE AREA,14000.0,DO 5-2024,unmatched,Santo Rosario Subdivision (50),0
 CR,Santo Rosario-Silangan,ALL OTHER STREETS*******/,,15000.0,DO 5-2024,background,,0
+I,Santo Rosario-Silangan,ALL OTHER STREETS*******/,,15000.0,DO 5-2024,background,,0
 RR,Santo Rosario-Silangan,ALL OTHER STREETS*******/,,10000.0,DO 5-2024,background,,0
 RR,Santo Rosario-Silangan,ALL OTHER VILLAGES / SUBDIVISIONS,,7000.0,DO 5-2024,background,,0
 CR,Santo Rosario-Silangan,M ALMEDA ST.,TULAY NA BATO - PASIG/PATEROS,37000.0,DO 5-2024,street,M. Almeda Street,100
+I,Santo Rosario-Silangan,M ALMEDA ST.,TULAY NA BATO - PASIG/PATEROS,35000.0,DO 5-2024,street,M. Almeda Street,100
 RR,Santo Rosario-Silangan,M ALMEDA ST.,PASIG BDRY - M LOZADA,31000.0,DO 5-2024,street,M. Almeda Street,100
 CR,Santo Rosario-Silangan,M. FLORES ST.,M. ALMEDA TO BOUNDERY OF LEXINGTON GARDEN,20000.0,DO 5-2024,street,M. R. Flores Street,91.66666666666666
 CR,Santo Rosario-Silangan,M. LOZADA ST.,STO. ROSARIO K & M. ALMEDA,19000.0,DO 5-2024,street,M. Lozada Street,100
+I,Santo Rosario-Silangan,M. FLORES ST.,M. ALMEDA TO BOUNDERY OF LEXINGTON GARDEN,18000.0,DO 5-2024,street,M. R. Flores Street,91.66666666666666
 RR,Santo Rosario-Silangan,M. FLORES ST.,M. ALMEDA TO BOUNDERY OF LEXINGTON GARDEN,15000.0,DO 5-2024,street,M. R. Flores Street,91.66666666666666
 RR,Santo Rosario-Silangan,M. LOZADA ST.,STO. ROSARIO K & M. ALMEDA,14000.0,DO 5-2024,street,M. Lozada Street,100
 CR,Santo Rosario-Silangan,ELISCO ROAD,M. ALMEDA - LEXINGTON,37000.0,DO 5-2024,unmatched,Emerald Court Subdivision (42),0

@@ -1,0 +1,613 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Aplaya,RCA COMPOUND,(NEW),13950.0,DO 55-2024,unmatched,Cataquiz Subdivision (36),0
+CR,Aplaya,ST. ROSE SUBD.,(NEW),13950.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (33),0
+CR,Aplaya,TERRYTOWN SUBD,(NEW),13300.0,DO 55-2024,unmatched,Dia Leyco Subdivision (33),0
+CR,Aplaya,ALONG PROVINCIAL ROAD,,12850.0,DO 55-2024,unmatched,Grand Riverside (39),0
+CR,Aplaya,DICTADO SUBD.,(NEW),12000.0,DO 55-2024,unmatched,Dia Leyco Subdivision (50),0
+I,Aplaya,ALONG PROVINCIAL ROAD,,10950.0,DO 55-2024,unmatched,Grand Riverside (39),0
+CR,Aplaya,ALONG PROVINCIAL ROAD,(NEW),10200.0,DO 55-2024,unmatched,Grand Riverside (39),0
+CR,Aplaya,ROSARIO HEIGHTS,(NEW),9700.0,DO 55-2024,unmatched,Grand Riverside (41),0
+RR,Aplaya,RCA COMPOUND,,9500.0,DO 55-2024,unmatched,Cataquiz Subdivision (36),0
+RR,Aplaya,ST. ROSE SUBD.,,9500.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (33),0
+RR,Aplaya,ALONG PROVINCIAL ROAD,,9250.0,DO 55-2024,unmatched,Grand Riverside (39),0
+I,Aplaya,ALONG PROVINCIAL ROAD,(NEW),9200.0,DO 55-2024,unmatched,Grand Riverside (39),0
+RR,Aplaya,DICTADO SUBD.,,9050.0,DO 55-2024,unmatched,Dia Leyco Subdivision (50),0
+RR,Aplaya,TERRYTOWN SUBD,,9050.0,DO 55-2024,unmatched,Dia Leyco Subdivision (33),0
+RR,Aplaya,ROSARIO HEIGHTS,,6600.0,DO 55-2024,unmatched,Grand Riverside (41),0
+RR,Aplaya,ALONG PROVINCIAL ROAD,INTERIOR LOT,6600.0,DO 55-2024,unmatched,Grand Riverside (39),0
+CR,Aplaya,CIUDAD GRANDE SUBDIVISION,(NEW),14500.0,DO 55-2024,village,Ciudad Grande,100
+CR,Aplaya,GARDEN VILLAS PH 3,(NEW),13950.0,DO 55-2024,village,Santa Rosa Garden Villas 3,95
+RR,Aplaya,CIUDAD GRANDE SUBDIVISION,,10650.0,DO 55-2024,village,Ciudad Grande,100
+RR,Aplaya,GARDEN VILLAS PH 3,,9500.0,DO 55-2024,village,Santa Rosa Garden Villas 3,95
+CR,Balibago,ALL OTHER STREETS,(NEW),14100.0,DO 55-2024,background,,0
+I,Balibago,ALL OTHER STREETS,(NEW),13950.0,DO 55-2024,background,,0
+RR,Balibago,ALL OTHER STREETS,INTERIOR,9200.0,DO 55-2024,background,,0
+CR,Balibago,ALONG OLD NATIONAL HIGHWAY,GOING TO DILA & DITA,38500.0,DO 55-2024,unmatched,La Joya De Santa Rosa (43),0
+CR,Balibago,SANTA ROSA COMPLEX,(NEW),27550.0,DO 55-2024,unmatched,La Joya De Santa Rosa (67),0
+CR,Balibago,VCSR COMMERCIAL,(NEW),24000.0,DO 55-2024,unmatched,Victoria Homes (52),0
+I,Balibago,ALONG OLD NATIONAL HIGHWAY,(NEW),22550.0,DO 55-2024,unmatched,La Joya De Santa Rosa (43),0
+CR,Balibago,SAN LORENZO SOUTH,,19400.0,DO 55-2024,unmatched,San Lorenzo Royale Subdivision (74),0
+CR,Balibago,ALONG PROVINCIAL ROAD,GOING TO TOWN PROPER,19300.0,DO 55-2024,unmatched,San Lorenzo Royale Subdivision (53),0
+CR,Balibago,METROGATE SUBD.,(NEW),19200.0,DO 55-2024,unmatched,Metroville Subdivision (63),0
+RR,Balibago,ALONG OLD NATIONAL HIGHWAY,GOING TO DILA & DITA,19000.0,DO 55-2024,unmatched,La Joya De Santa Rosa (43),0
+I,Balibago,ALONG PROVINCIAL ROAD,(NEW),18500.0,DO 55-2024,unmatched,San Lorenzo Royale Subdivision (53),0
+CR,Balibago,NEW BALIBAGO SUBDIVISION,,18150.0,DO 55-2024,unmatched,De Leon Compound (42),0
+RR,Balibago,SANTA ROSA COMPLEX,(NEW),18150.0,DO 55-2024,unmatched,La Joya De Santa Rosa (67),0
+CR,Balibago,ST. FRANCIS,(NEW),18150.0,DO 55-2024,unmatched,Villa Caceres (33),0
+CR,Balibago,ST. MARY SUBD.,(NEW),16850.0,DO 55-2024,unmatched,Amar Village (75),0
+RR,Balibago,ALONG PROVINCIAL ROAD,GOING TO TOWN PROPER,14900.0,DO 55-2024,unmatched,San Lorenzo Royale Subdivision (53),0
+CR,Balibago,ALONG BARANGAY ROAD,ALONG BARANGAY ROAD,14550.0,DO 55-2024,unmatched,San Lorenzo Royale Subdivision (44),0
+CR,Balibago,MABUHAY HOMES,(NEW),13950.0,DO 55-2024,unmatched,Amar Village (36),0
+RR,Balibago,METROGATE SUBD.,,13700.0,DO 55-2024,unmatched,Metroville Subdivision (63),0
+I,Balibago,ALONG BARANGAY ROAD,ALONG BARANGAY ROAD,13300.0,DO 55-2024,unmatched,San Lorenzo Royale Subdivision (44),0
+RR,Balibago,SAN LORENZO SOUTH,,12800.0,DO 55-2024,unmatched,San Lorenzo Royale Subdivision (74),0
+CR,Balibago,MA. JESUSA SUBD.,(NEW),12000.0,DO 55-2024,unmatched,La Joya De Santa Rosa (47),0
+RR,Balibago,NEW BALIBAGO SUBDIVISION,,11950.0,DO 55-2024,unmatched,De Leon Compound (42),0
+RR,Balibago,ST. FRANCIS,,11950.0,DO 55-2024,unmatched,Villa Caceres (33),0
+RR,Balibago,ST. MARY SUBD.,,11100.0,DO 55-2024,unmatched,Amar Village (75),0
+CR,Balibago,ST. MARY'S VILLAGE,(NEW),10250.0,DO 55-2024,unmatched,Amar Village (75),0
+RR,Balibago,ALONG BARANGAY ROAD,ALONG BARANGAY ROAD,9680.0,DO 55-2024,unmatched,San Lorenzo Royale Subdivision (44),0
+RR,Balibago,MABUHAY HOMES,,9200.0,DO 55-2024,unmatched,Amar Village (36),0
+RR,Balibago,MA. JESUSA SUBD.,,7900.0,DO 55-2024,unmatched,La Joya De Santa Rosa (47),0
+RR,Balibago,ST. MARY'S VILLAGE,,7500.0,DO 55-2024,unmatched,Amar Village (75),0
+CR,Balibago,THE BELLECOURT,(NEW),34000.0,DO 55-2024,village,The Bellecourt,100
+RR,Balibago,THE BELLECOURT,(NEW),26200.0,DO 55-2024,village,The Bellecourt,100
+CR,Balibago,AMAR VILLAGE,(NEW),18150.0,DO 55-2024,village,Amar Village,100
+CR,Balibago,CIUDAD DE SAN JOSE,(NEW),18150.0,DO 55-2024,village,Ciudad de San Jose,100
+CR,Balibago,LA JOYA DE STA. ROSA,(NEW),18150.0,DO 55-2024,village,La Joya De Santa Rosa,95.0
+CR,Balibago,SOUTH HAMPTON,(NEW),18150.0,DO 55-2024,village,South Hampton Village,100
+CR,Balibago,VILLA DE TOLEDO,,18150.0,DO 55-2024,village,Villa de Toledo,100
+CR,Balibago,VILLA SEGOVIA,(NEW),17650.0,DO 55-2024,village,Villa Segovia,100
+CR,Balibago,VILLA ESMERALDA,(NEW),17000.0,DO 55-2024,village,Villa Esmeralda,100
+CR,Balibago,VILLA CACERES,,16000.0,DO 55-2024,village,Villa Caceres,100
+CR,Balibago,JB VILLAGE,(NEW),14300.0,DO 55-2024,village,JB Village,100
+RR,Balibago,VILLA DE TOLEDO,,13000.0,DO 55-2024,village,Villa de Toledo,100
+RR,Balibago,VILLA ESMERALDA,,12330.0,DO 55-2024,village,Villa Esmeralda,100
+RR,Balibago,AMAR VILLAGE,,11950.0,DO 55-2024,village,Amar Village,100
+RR,Balibago,CIUDAD DE SAN JOSE,ALONG AFP-RSBS AVENUE,11950.0,DO 55-2024,village,Ciudad de San Jose,100
+RR,Balibago,LA JOYA DE STA. ROSA,ALONG NATIONAL HIGHWAY,11950.0,DO 55-2024,village,La Joya De Santa Rosa,95.0
+RR,Balibago,SOUTH HAMPTON,ALONG AFP-RSBS AVENUE,11950.0,DO 55-2024,village,South Hampton Village,100
+RR,Balibago,VILLA CACERES,,11950.0,DO 55-2024,village,Villa Caceres,100
+RR,Balibago,VILLA SEGOVIA,,11750.0,DO 55-2024,village,Villa Segovia,100
+CR,Balibago,METROVILLE SUBD.,(NEW),10850.0,DO 55-2024,village,Metroville Subdivision,100
+RR,Balibago,JB VILLAGE,ALONG F. REYES,9400.0,DO 55-2024,village,JB Village,100
+RR,Balibago,METROVILLE SUBD.,,8000.0,DO 55-2024,village,Metroville Subdivision,100
+CR,Caingin,"GARDEN VILLAS PH 3,5,6,8",(NEW),13950.0,DO 55-2024,unmatched,Southville (0),0
+CR,Caingin,ALONG PROVINCIAL ROAD,BARANGAY PROPER,10200.0,DO 55-2024,unmatched,Garden Villas (43),0
+CR,Caingin,VILLA SANTA ROSA,(NEW),9700.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (72),0
+RR,Caingin,"GARDEN VILLAS PH 3,5,6,8",,9500.0,DO 55-2024,unmatched,Southville (0),0
+I,Caingin,ALONG PROVINCIAL ROAD,BARANGAY PROPER,9350.0,DO 55-2024,unmatched,Garden Villas (43),0
+CR,Caingin,ALONG PROVINCIAL ROAD,INTERIOR,8850.0,DO 55-2024,unmatched,Garden Villas (43),0
+I,Caingin,ALONG PROVINCIAL ROAD,INTERIOR,8500.0,DO 55-2024,unmatched,Garden Villas (43),0
+RR,Caingin,VILLA SANTA ROSA,,7000.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (72),0
+RR,Caingin,ALONG PROVINCIAL ROAD,BARANGAY PROPER,7000.0,DO 55-2024,unmatched,Garden Villas (43),0
+RR,Caingin,ALONG PROVINCIAL ROAD,INTERIOR,6150.0,DO 55-2024,unmatched,Garden Villas (43),0
+CR,Caingin,CELINA PLAINS PH 4,(NEW),12000.0,DO 55-2024,village,Celina Plain Subdivision Phase 4,100
+CR,Caingin,SOUTHVILLE SUBD.,(NEW),9700.0,DO 55-2024,village,Southville,100
+RR,Caingin,CELINA PLAINS PH 4,,7300.0,DO 55-2024,village,Celina Plain Subdivision Phase 4,100
+RR,Caingin,SOUTHVILLE SUBD.,,7000.0,DO 55-2024,village,Southville,100
+CR,Dila,ALL OTHER STREETS,(NEW),16650.0,DO 55-2024,background,,0
+I,Dila,ALL OTHER STREETS,(NEW),14650.0,DO 55-2024,background,,0
+RR,Dila,ALL OTHER STREETS,INTERIOR LOT,9000.0,DO 55-2024,background,,0
+CR,Dila,ALONG OLD NAT'L HIGHWAY,,38500.0,DO 55-2024,unmatched,Golden City Subdivision (48),0
+I,Dila,ALONG OLD NAT'L HIGHWAY,,22550.0,DO 55-2024,unmatched,Golden City Subdivision (48),0
+RR,Dila,ALONG OLD NAT'L HIGHWAY,,19000.0,DO 55-2024,unmatched,Golden City Subdivision (48),0
+CR,Dila,SOUTH DRIVE SUBDIVISION,(NEW),16250.0,DO 55-2024,unmatched,Southdrive Village (67),0
+CR,Dila,MABUHAY HOMES PH 3-E,(NEW),13950.0,DO 55-2024,unmatched,Maja Village (0),0
+RR,Dila,MABUHAY HOMES PH 3-E,,11000.0,DO 55-2024,unmatched,Maja Village (0),0
+RR,Dila,SOUTH DRIVE SUBDIVISION,,11000.0,DO 55-2024,unmatched,Southdrive Village (67),0
+CR,Dila,LA JOYA DE STA. ROSA,(NEW),18150.0,DO 55-2024,village,La Joya De Santa Rosa,95.0
+CR,Dila,VILLA CACERES,(NEW),18150.0,DO 55-2024,village,Villa Caceres,100
+CR,Dila,VILLA TOLEDO,(NEW),16700.0,DO 55-2024,village,Villa de Toledo,95
+RR,Dila,VILLA CACERES,,14000.0,DO 55-2024,village,Villa Caceres,100
+CR,Dila,GOLDEN CITY SUBDIVISION,,12450.0,DO 55-2024,village,Golden City Subdivision,100
+CR,Dila,MAJA VILLAGE(FORMERLY MAJADECO SUBD),(NEW),12000.0,DO 55-2024,village,Maja Village,100
+RR,Dila,LA JOYA DE STA. ROSA,,11950.0,DO 55-2024,village,La Joya De Santa Rosa,95.0
+RR,Dila,GOLDEN CITY SUBDIVISION,,11000.0,DO 55-2024,village,Golden City Subdivision,100
+RR,Dila,VILLA TOLEDO,(NEW),10580.0,DO 55-2024,village,Villa de Toledo,95
+RR,Dila,MAJA VILLAGE(FORMERLY MAJADECO SUBD),,10000.0,DO 55-2024,village,Maja Village,100
+CR,Dita,ALONG OLD NAT'L HIGHWAY,,38500.0,DO 55-2024,unmatched,Golden City Subdivision (48),0
+I,Dita,ALONG OLD NAT'L HIGHWAY,,22550.0,DO 55-2024,unmatched,Golden City Subdivision (48),0
+RR,Dita,ALONG OLD NAT'L HIGHWAY,,19000.0,DO 55-2024,unmatched,Golden City Subdivision (48),0
+CR,Dita,TERRA FORTUNA,(NEW),18800.0,DO 55-2024,unmatched,Veracruz Subdivision (48),0
+CR,Dita,SAN LORENZO SOUTH / SAN LORENZO PH-1C ANNEX / SAN LORENZO PH-1D,(NEW),16700.0,DO 55-2024,unmatched,San Lorenzo South Subdivision Phase 1D (95),0
+CR,Dita,BARANGAY PROPER,(NEW),16650.0,DO 55-2024,unmatched,Baroro Compound (48),0
+CR,Dita,TIERRACON SUBDIVISION,(NEW),16250.0,DO 55-2024,unmatched,Veracruz Subdivision (47),0
+CR,Dita,ALONG PROVINCIAL ROAD,AFTER ROTONDA UP TO AREA BEFORE ANAHAW SUBD. ALL OTHER STREETS,16050.0,DO 55-2024,unmatched,Carlton Residences (55),0
+CR,Dita,SAN LORENZO ROYALE PH 2E,(NEW),15850.0,DO 55-2024,unmatched,Terra Fortuna 2 (44),0
+I,Dita,ALONG PROVINCIAL ROAD,AFTER ROTONDA UP TO AREA BEFORE ANAHAW SUBD. ALL OTHER STREETS,15300.0,DO 55-2024,unmatched,Carlton Residences (55),0
+I,Dita,BARANGAY PROPER,(NEW),14650.0,DO 55-2024,unmatched,Baroro Compound (48),0
+CR,Dita,MABUHAY HOMES PH2E,(NEW),13950.0,DO 55-2024,unmatched,Terra Fortuna 2 (37),0
+CR,Dita,NEW SANTA ROSA HOMES,(NEW),13950.0,DO 55-2024,unmatched,San Lorenzo Royale Subdivision (56),0
+CR,Dita,SOLCAR VILLE,(NEW),13950.0,DO 55-2024,unmatched,Villa Caceres (67),0
+CR,Dita,ST. AGATA VILLAGE 2,(NEW),13950.0,DO 55-2024,unmatched,Terra Fortuna 2 (45),0
+CR,Dita,ALONG PROVINCIAL ROAD,(NEW),12600.0,DO 55-2024,unmatched,Carlton Residences (55),0
+CR,Dita,ROBES FRANCISCO SUBDIVISION,(NEW),12000.0,DO 55-2024,unmatched,Grand Riverstone Village (47),0
+RR,Dita,TERRA FORTUNA,,11600.0,DO 55-2024,unmatched,Veracruz Subdivision (48),0
+I,Dita,ALONG PROVINCIAL ROAD,(NEW),11600.0,DO 55-2024,unmatched,Carlton Residences (55),0
+CR,Dita,CONSOLE VILLAGE,(NEW),11400.0,DO 55-2024,unmatched,Roseville (50),0
+CR,Dita,SANTA ROSA HOMES,(NEW),11400.0,DO 55-2024,unmatched,Anahaw Homes (50),0
+RR,Dita,SAN LORENZO ROYALE PH 2E,,10530.0,DO 55-2024,unmatched,Terra Fortuna 2 (44),0
+RR,Dita,SAN LORENZO SOUTH / SAN LORENZO PH-1C ANNEX / SAN LORENZO PH-1D,(NEW),10450.0,DO 55-2024,unmatched,San Lorenzo South Subdivision Phase 1D (95),0
+RR,Dita,SOLCAR VILLE,,10400.0,DO 55-2024,unmatched,Villa Caceres (67),0
+RR,Dita,BARANGAY PROPER,INTERIOR,10100.0,DO 55-2024,unmatched,Baroro Compound (48),0
+RR,Dita,TIERRACON SUBDIVISION,,9900.0,DO 55-2024,unmatched,Veracruz Subdivision (47),0
+RR,Dita,MABUHAY HOMES PH2E,,9200.0,DO 55-2024,unmatched,Terra Fortuna 2 (37),0
+RR,Dita,ALONG PROVINCIAL ROAD,AFTER ROTONDA UP TO AREA BEFORE ANAHAW SUBD. ALL OTHER STREETS,8650.0,DO 55-2024,unmatched,Carlton Residences (55),0
+RR,Dita,NEW SANTA ROSA HOMES,(NEW),8600.0,DO 55-2024,unmatched,San Lorenzo Royale Subdivision (56),0
+RR,Dita,ST. AGATA VILLAGE 2,,8600.0,DO 55-2024,unmatched,Terra Fortuna 2 (45),0
+RR,Dita,ROBES FRANCISCO SUBDIVISION,,7300.0,DO 55-2024,unmatched,Grand Riverstone Village (47),0
+RR,Dita,CONSOLE VILLAGE,,6900.0,DO 55-2024,unmatched,Roseville (50),0
+RR,Dita,SANTA ROSA HOMES,,6900.0,DO 55-2024,unmatched,Anahaw Homes (50),0
+RR,Dita,ALONG PROVINCIAL ROAD,INTERIOR (WITHIN ROTONDA AREA),6200.0,DO 55-2024,unmatched,Carlton Residences (55),0
+CR,Dita,VILLA ANTHURIUM,(NEW),18800.0,DO 55-2024,village,Villa Anthurium,100
+CR,Dita,VILLA DE TOLEDO,,18800.0,DO 55-2024,village,Villa de Toledo,100
+CR,Dita,VILLA ESMERALDA,(NEW),18800.0,DO 55-2024,village,Villa Esmeralda,100
+CR,Dita,VILLA SEGOVIA,(NEW),18800.0,DO 55-2024,village,Villa Segovia,100
+CR,Dita,ANAHAW HOMES,(NEW),13950.0,DO 55-2024,village,Anahaw Homes,100
+CR,Dita,MARIQUITA PUEBLO SUBDIVISION,(NEW),13950.0,DO 55-2024,village,Mariquita Pueblo,100
+CR,Dita,PANORAMA SUBDIVISION,(NEW),13950.0,DO 55-2024,village,Panorama,100
+RR,Dita,VILLA DE TOLEDO,,12450.0,DO 55-2024,village,Villa de Toledo,100
+CR,Dita,GRAND RIVERSTONE SUBDIVISION,(NEW),12000.0,DO 55-2024,village,Grand Riverstone Village,100
+RR,Dita,VILLA ANTHURIUM,,11600.0,DO 55-2024,village,Villa Anthurium,100
+RR,Dita,VILLA ESMERALDA,,11600.0,DO 55-2024,village,Villa Esmeralda,100
+RR,Dita,VILLA SEGOVIA,,11600.0,DO 55-2024,village,Villa Segovia,100
+CR,Dita,CARLTON RESIDENCES,(NEW),11400.0,DO 55-2024,village,Carlton Residences,100
+CR,Dita,ROSEVILLE SUBDIVISION,(NEW),11400.0,DO 55-2024,village,Roseville,100
+RR,Dita,ANAHAW HOMES,,8600.0,DO 55-2024,village,Anahaw Homes,100
+RR,Dita,MARIQUITA PUEBLO SUBDIVISION,,8600.0,DO 55-2024,village,Mariquita Pueblo,100
+RR,Dita,PANORAMA SUBDIVISION,,8600.0,DO 55-2024,village,Panorama,100
+RR,Dita,GRAND RIVERSTONE SUBDIVISION,,7300.0,DO 55-2024,village,Grand Riverstone Village,100
+RR,Dita,CARLTON RESIDENCES,(NEW),7285.0,DO 55-2024,village,Carlton Residences,100
+RR,Dita,ROSEVILLE SUBDIVISION,,6900.0,DO 55-2024,village,Roseville,100
+CR,Don Jose,ALL OTHER STREETS,(NEW),15250.0,DO 55-2024,background,,0
+I,Don Jose,ALL OTHER STREETS,(NEW),13600.0,DO 55-2024,background,,0
+RR,Don Jose,ALL OTHER STREETS,INTERIOR LOT,10700.0,DO 55-2024,background,,0
+I,Don Jose,GREENFIELD CITY TECHNOPARK,STA ROSA BUSINESS PARK,54600.0,DO 55-2024,unmatched,Pramana Residential Park (44),0
+RR,Don Jose,BANAHAW HOMES,,38600.0,DO 55-2024,unmatched,Valenza (43),0
+RR,Don Jose,STA. ELENA GOLF COURSE(HACIENDA STA. ROSA & SIERRA MADRE),,36900.0,DO 55-2024,unmatched,Hacienda Santa Elena (60),0
+RR,Don Jose,STA. ROSA ESTATES PHINEX 1,,36900.0,DO 55-2024,unmatched,Santa Rosa Estates 1 (69),0
+RR,Don Jose,STA. ROSA VILL (AYALA),,36900.0,DO 55-2024,unmatched,Augusta (53),0
+CR,Don Jose,ALONG TAGAYTAY -STA. ROSA ROAD,(NEW),30100.0,DO 55-2024,unmatched,Camella Dos Rios Trails (44),0
+I,Don Jose,ALONG TAGAYTAY -STA. ROSA ROAD,(NEW),28000.0,DO 55-2024,unmatched,Camella Dos Rios Trails (44),0
+RR,Don Jose,ALONG TAGAYTAY -STA. ROSA ROAD,(NEW),22900.0,DO 55-2024,unmatched,Camella Dos Rios Trails (44),0
+RR,Don Jose,"LAGUNA TECHNOPARK, INC. PH 4,5 & 6",,21300.0,DO 55-2024,unmatched,Sierra Madre Village (0),0
+CR,Don Jose,LAGUNA BEL-AIR 1 & 2,(NEW),19500.0,DO 55-2024,unmatched,Sierra Madre Village (0),0
+CR,Don Jose,LAGUNA BEL-AIR 4,(NEW),19500.0,DO 55-2024,unmatched,Sierra Madre Village (0),0
+CR,Don Jose,ALONG BARANGAY ROAD,,18550.0,DO 55-2024,unmatched,Fontamara (43),0
+I,Don Jose,"LAGUNA TECHNOPARK, INC. PH 4,5 & 6",,17850.0,DO 55-2024,unmatched,Sierra Madre Village (0),0
+I,Don Jose,ALONG BARANGAY ROAD,,15250.0,DO 55-2024,unmatched,Fontamara (43),0
+I,Don Jose,LAGUNA TECHNOPARK,,15200.0,DO 55-2024,unmatched,Pramana Residential Park (49),0
+RR,Don Jose,LAGUNA BEL-AIR 1 & 2,(NEW),15200.0,DO 55-2024,unmatched,Sierra Madre Village (0),0
+RR,Don Jose,LAGUNA BEL-AIR 4,,15200.0,DO 55-2024,unmatched,Sierra Madre Village (0),0
+RR,Don Jose,PALM DRIVE SUBDIVISION,,14850.0,DO 55-2024,unmatched,Bali Mansions (38),0
+RR,Don Jose,ALONG BARANGAY ROAD,,14400.0,DO 55-2024,unmatched,Fontamara (43),0
+RR,Don Jose,SOLEN RESIDENCES,,45000.0,DO 55-2024,village,Solen Residences,100
+RR,Don Jose,AUGUSTA,,28750.0,DO 55-2024,village,Augusta,100
+RR,Don Jose,GEORGIA CLUB,(NEW),25000.0,DO 55-2024,village,Georgia Club,100
+CR,Don Jose,MESA HOMES,(NEW),18400.0,DO 55-2024,village,Mesa Homes,100
+RR,Don Jose,MESA HOMES,,14400.0,DO 55-2024,village,Mesa Homes,100
+CR,Ibaba,ALL OTHER STREETS,(NEW),9200.0,DO 55-2024,background,,0
+RR,Ibaba,ALL OTHER STREETS,INTERIOR LOT,8400.0,DO 55-2024,background,,0
+I,Ibaba,ALL OTHER STREETS,(NEW),8200.0,DO 55-2024,background,,0
+CR,Ibaba,MUNICIPAL RD. (NEAR SHORELINE),(NEW),16250.0,DO 55-2024,unmatched,Grand Riverside (41),0
+CR,Ibaba,CIUDAD GRANDE 2,(NEW),14500.0,DO 55-2024,unmatched,Santa Rosa Garden Villas 3 (0),0
+CR,Ibaba,ALONG BARANGAY ROAD,(NEW),14400.0,DO 55-2024,unmatched,Ciudad Grande (37),0
+I,Ibaba,MUNICIPAL RD. (NEAR SHORELINE),(NEW),14150.0,DO 55-2024,unmatched,Grand Riverside (41),0
+CR,Ibaba,GARDEN VILLAS 3 PH3,(NEW),13950.0,DO 55-2024,unmatched,Santa Rosa Garden Villas 3 (0),0
+I,Ibaba,ALONG BARANGAY ROAD,(NEW),13600.0,DO 55-2024,unmatched,Ciudad Grande (37),0
+CR,Ibaba,ST. ROSE SUBDIVISION,(NEW),11650.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (33),0
+RR,Ibaba,MUNICIPAL RD. (NEAR SHORELINE),(NEW),11650.0,DO 55-2024,unmatched,Grand Riverside (41),0
+RR,Ibaba,CIUDAD GRANDE 2,,10650.0,DO 55-2024,unmatched,Santa Rosa Garden Villas 3 (0),0
+RR,Ibaba,ALONG BARANGAY ROAD,,10400.0,DO 55-2024,unmatched,Ciudad Grande (37),0
+CR,Ibaba,AMBROCIA SUBDIVISION,(NEW),9700.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (29),0
+CR,Ibaba,STA. ROSA DE LIMA SUBDIVISION,(NEW),9700.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (44),0
+RR,Ibaba,GARDEN VILLAS 3 PH3,,9500.0,DO 55-2024,unmatched,Santa Rosa Garden Villas 3 (0),0
+CR,Ibaba,ST. JOHN SUBDIVISION,(NEW),9100.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (25),0
+RR,Ibaba,ST. ROSE SUBDIVISION,,8300.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (33),0
+RR,Ibaba,AMBROCIA SUBDIVISION,,7000.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (29),0
+RR,Ibaba,STA. ROSA DE LIMA SUBDIVISION,,7000.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (44),0
+RR,Ibaba,ST. JOHN SUBDIVISION,,6600.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (25),0
+CR,Kanluran,ALL OTHER STREETS,(NEW),12550.0,DO 55-2024,background,,0
+I,Kanluran,ALL OTHER STREETS,(NEW),12300.0,DO 55-2024,background,,0
+RR,Kanluran,ALL OTHER STREETS,,8700.0,DO 55-2024,background,,0
+CR,Kanluran,DR. ZAVALLA ST.,(NEW),18450.0,DO 55-2024,street,Zavalla Street,97
+CR,Kanluran,P.ANONUEVO ST.,(NEW),17850.0,DO 55-2024,street,P. Añonuevo Street,100
+CR,Kanluran,P. ARAMBULO ST.,(NEW),17850.0,DO 55-2024,street,Arambulo Street,91.66666666666666
+CR,Kanluran,P. GOMEZ ST.,(NEW),17850.0,DO 55-2024,street,F. Gomez Street,90.0
+CR,Kanluran,TATLONG HARI ST.,(NEW),16800.0,DO 55-2024,street,Tatlong Hari Street,100
+CR,Kanluran,F. GOMEZ ST.,,15900.0,DO 55-2024,street,F. Gomez Street,100
+CR,Kanluran,ZAVALLA COMPOUND,(NEW),15300.0,DO 55-2024,street,Zavalla Street,97
+CR,Kanluran,LUCERO ST.,,15050.0,DO 55-2024,street,Lucero Street,100
+CR,Kanluran,P. VALLEJO ST.,,15050.0,DO 55-2024,street,P. Vallejo Street,100
+RR,Kanluran,DR. ZAVALLA ST.,,12800.0,DO 55-2024,street,Zavalla Street,97
+RR,Kanluran,F. GOMEZ ST.,,12800.0,DO 55-2024,street,F. Gomez Street,100
+RR,Kanluran,LUCERO ST.,,12400.0,DO 55-2024,street,Lucero Street,100
+RR,Kanluran,P.ANONUEVO ST.,,12400.0,DO 55-2024,street,P. Añonuevo Street,100
+RR,Kanluran,P. ARAMBULO ST.,,12400.0,DO 55-2024,street,Arambulo Street,91.66666666666666
+RR,Kanluran,P. GOMEZ ST.,,12400.0,DO 55-2024,street,F. Gomez Street,90.0
+RR,Kanluran,P. VALLEJO ST.,,12400.0,DO 55-2024,street,P. Vallejo Street,100
+RR,Kanluran,TATLONG HARI ST.,,12000.0,DO 55-2024,street,Tatlong Hari Street,100
+RR,Kanluran,ZAVALLA COMPOUND,,10700.0,DO 55-2024,street,Zavalla Street,97
+CR,Kanluran,J. RIZAL ST.,,17500.0,DO 55-2024,unmatched,Perlas Village (33),0
+CR,Kanluran,ZAVALLA VILLAGE I,(NEW),15300.0,DO 55-2024,unmatched,Alfonso Homes I (44),0
+CR,Kanluran,G. B. ZAVALLA ST.,,15050.0,DO 55-2024,unmatched,Baynosa Compound (33),0
+CR,Kanluran,GARDEN VILLAS,(NEW),13950.0,DO 55-2024,unmatched,Perlas Village (35),0
+CR,Kanluran,CATAQUIZ SUBDIVISION,(NEW),13650.0,DO 55-2024,unmatched,Ciudad Grande (29),0
+CR,Kanluran,DIA-LEYCO SUBDIVISION,(NEW),13650.0,DO 55-2024,unmatched,Baynosa Compound (38),0
+CR,Kanluran,RCA SUBDIVISION,(NEW),13650.0,DO 55-2024,unmatched,Perlas Village (50),0
+RR,Kanluran,J. RIZAL ST.,,13550.0,DO 55-2024,unmatched,Perlas Village (33),0
+CR,Kanluran,BUENA ROSA 8,(NEW),13350.0,DO 55-2024,unmatched,Westdrive Village (0),0
+RR,Kanluran,G. B. ZAVALLA ST.,,12400.0,DO 55-2024,unmatched,Baynosa Compound (33),0
+CR,Kanluran,GRAND RIVERSIDE,(NEW),11700.0,DO 55-2024,unmatched,Ciudad Grande (43),0
+CR,Kanluran,L. M. SUBDIVISION,(NEW),11700.0,DO 55-2024,unmatched,Perlas Village (25),0
+CR,Kanluran,ROSARIO HEIGHTS SUBDIVISION,(NEW),11700.0,DO 55-2024,unmatched,Rose Pointe (48),0
+RR,Kanluran,ZAVALLA VILLAGE I,,10700.0,DO 55-2024,unmatched,Alfonso Homes I (44),0
+RR,Kanluran,BUENA ROSA 8,,9500.0,DO 55-2024,unmatched,Westdrive Village (0),0
+RR,Kanluran,CATAQUIZ SUBDIVISION,,9500.0,DO 55-2024,unmatched,Ciudad Grande (29),0
+RR,Kanluran,DIA-LEYCO SUBDIVISION,,9500.0,DO 55-2024,unmatched,Baynosa Compound (38),0
+RR,Kanluran,GARDEN VILLAS,,9500.0,DO 55-2024,unmatched,Perlas Village (35),0
+RR,Kanluran,RCA SUBDIVISION,,9500.0,DO 55-2024,unmatched,Perlas Village (50),0
+RR,Kanluran,GRAND RIVERSIDE,,8200.0,DO 55-2024,unmatched,Ciudad Grande (43),0
+RR,Kanluran,L. M. SUBDIVISION,,8200.0,DO 55-2024,unmatched,Perlas Village (25),0
+RR,Kanluran,ROSARIO HEIGHTS SUBDIVISION,,8200.0,DO 55-2024,unmatched,Rose Pointe (48),0
+CR,Kanluran,ZERAMYR-1,(NEW),15300.0,DO 55-2024,village,Zeramyr 1,100
+CR,Kanluran,CIUDAD GRANDE,(NEW),14500.0,DO 55-2024,village,Ciudad Grande,100
+RR,Kanluran,ZERAMYR-1,,10700.0,DO 55-2024,village,Zeramyr 1,100
+RR,Kanluran,CIUDAD GRANDE,,10650.0,DO 55-2024,village,Ciudad Grande,100
+CR,Labas,ALL OTHER STREETS,(NEW),10000.0,DO 55-2024,background,,0
+I,Labas,ALL OTHER STREETS,(NEW),8500.0,DO 55-2024,background,,0
+RR,Labas,ALL OTHER STREETS,INTERIOR LOT,7000.0,DO 55-2024,background,,0
+CR,Labas,ALONG PROVINCIAL ROAD,,16300.0,DO 55-2024,unmatched,Rose Pointe (44),0
+I,Labas,ALONG PROVINCIAL ROAD,(NEW),15300.0,DO 55-2024,unmatched,Rose Pointe (44),0
+CR,Labas,BUENA PERLAS 1 & 2,(NEW),13950.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (0),0
+CR,Labas,GARDEN VILLAS 3 PH1,(NEW),13950.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (0),0
+CR,Labas,"BUENA ROSA 2, 3, 4 & 5",(NEW),13350.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (0),0
+CR,Labas,ALONG BARANGAY ROAD,,12800.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (40),0
+CR,Labas,CELINA PLAINS - PHASE I & II,(NEW),12000.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (0),0
+CR,Labas,"OLYMPIA SUBDIVISION PH 1, 2, 3 & 4",(NEW),12000.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (0),0
+CR,Labas,RIVIERA HEIGHTS SUBDIVISION,(NEW),12000.0,DO 55-2024,unmatched,Riviera Homes (67),0
+CR,Labas,SITIO MASIIT,(NEW),12000.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (44),0
+CR,Labas,ST. AGATHA I,(NEW),12000.0,DO 55-2024,unmatched,Buena Perlas 1 (38),0
+CR,Labas,VILLA LASERNA,(NEW),12000.0,DO 55-2024,unmatched,Garden Villas (72),0
+CR,Labas,WEST DRIVE,(NEW),12000.0,DO 55-2024,unmatched,Westdrive Village (62),0
+I,Labas,ALONG BARANGAY ROAD,,11500.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (40),0
+RR,Labas,ALONG PROVINCIAL ROAD,,10000.0,DO 55-2024,unmatched,Rose Pointe (44),0
+RR,Labas,"BUENA ROSA 2, 3, 4 & 5",,9500.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (0),0
+RR,Labas,GARDEN VILLAS 3 PH1,,9500.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (0),0
+RR,Labas,BUENA PERLAS 1 & 2,,8600.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (0),0
+RR,Labas,ALONG BARANGAY ROAD,,8105.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (40),0
+RR,Labas,CELINA PLAINS - PHASE I & II,,7300.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (0),0
+RR,Labas,"OLYMPIA SUBDIVISION PH 1, 2, 3 & 4",,7300.0,DO 55-2024,unmatched,Don Jose Zavalla Subdivision (0),0
+RR,Labas,RIVIERA HEIGHTS SUBDIVISION,,7300.0,DO 55-2024,unmatched,Riviera Homes (67),0
+RR,Labas,SITIO MASIIT,,7300.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (44),0
+RR,Labas,ST. AGATHA I,,7300.0,DO 55-2024,unmatched,Buena Perlas 1 (38),0
+RR,Labas,VILLA LASERNA,,7300.0,DO 55-2024,unmatched,Garden Villas (72),0
+RR,Labas,WEST DRIVE,,7300.0,DO 55-2024,unmatched,Westdrive Village (62),0
+CR,Labas,EASTDRIVE SUBDIVISION,(NEW),12000.0,DO 55-2024,village,Eastdrive Village,100
+CR,Labas,ALFONSO HOMES 1,(NEW),10850.0,DO 55-2024,village,Alfonso Homes I,100
+RR,Labas,EASTDRIVE SUBDIVISION,,7300.0,DO 55-2024,village,Eastdrive Village,100
+RR,Labas,ALFONSO HOMES 1,,6650.0,DO 55-2024,village,Alfonso Homes I,100
+CR,Macabling,ALL OTHER STREETS,(NEW),10200.0,DO 55-2024,background,,0
+I,Macabling,ALL OTHER STREETS,(NEW),9500.0,DO 55-2024,background,,0
+RR,Macabling,ALL OTHER STREETS,INTERIOR LOT,6050.0,DO 55-2024,background,,0
+CR,Macabling,ALONG NAT'L HIGHWAY,,38500.0,DO 55-2024,unmatched,The Arborage at Brentville (45),0
+RR,Macabling,ALONG NAT'L HIGHWAY,,19000.0,DO 55-2024,unmatched,The Arborage at Brentville (45),0
+CR,Macabling,METROGATE PH 1 & 2,(NEW),15850.0,DO 55-2024,unmatched,Felicidad Compound (0),0
+CR,Macabling,GARDEN VILLAS 2,(NEW),13950.0,DO 55-2024,unmatched,Zeramyr II Subdivision (35),0
+CR,Macabling,BUENA ROSA 1 & 9,(NEW),13350.0,DO 55-2024,unmatched,Felicidad Compound (0),0
+CR,Macabling,"CORINTHIAN HOMES PH 2A, 2B",(NEW),12000.0,DO 55-2024,unmatched,Felicidad Compound (0),0
+CR,Macabling,LOVES HOMES SUBDIVISION,(NEW),12000.0,DO 55-2024,unmatched,Lake Shore Village (43),0
+CR,Macabling,ROSEMONTVILLE,(NEW),12000.0,DO 55-2024,unmatched,The Arborage at Brentville (57),0
+RR,Macabling,METROGATE PH 1 & 2,,11650.0,DO 55-2024,unmatched,Felicidad Compound (0),0
+CR,Macabling,CARINO SUBDIVISION,(NEW),11400.0,DO 55-2024,unmatched,Garden Homes (50),0
+CR,Macabling,ALONG BARANGAY ROAD,(NEW),9800.0,DO 55-2024,unmatched,Garden Homes (40),0
+RR,Macabling,BUENA ROSA 1 & 9,,9500.0,DO 55-2024,unmatched,Felicidad Compound (0),0
+RR,Macabling,GARDEN VILLAS 2,,9500.0,DO 55-2024,unmatched,Zeramyr II Subdivision (35),0
+CR,Macabling,NIA ROAD,(NEW),9150.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (46),0
+CR,Macabling,SITIO IRAN (FORMERLY SITIO IRAN/AGAW VILLAGE),(NEW),9150.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (50),0
+CR,Macabling,SITIO IRAQ/AGAW VILLAGE (FORMERLY SITIO IRAQ),(NEW),9150.0,DO 55-2024,unmatched,MetroGate Sta. Rosa (48),0
+CR,Macabling,SITIO JORDAN,(NEW),9150.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (45),0
+CR,Macabling,SITIO PUTING TULAY,(NEW),9150.0,DO 55-2024,unmatched,MetroGate Sta. Rosa (39),0
+RR,Macabling,"CORINTHIAN HOMES PH 2A, 2B",,9100.0,DO 55-2024,unmatched,Felicidad Compound (0),0
+RR,Macabling,LOVES HOMES SUBDIVISION,,9100.0,DO 55-2024,unmatched,Lake Shore Village (43),0
+RR,Macabling,CARINO SUBDIVISION,,8700.0,DO 55-2024,unmatched,Garden Homes (50),0
+I,Macabling,ALONG BARANGAY ROAD,(NEW),8500.0,DO 55-2024,unmatched,Garden Homes (40),0
+RR,Macabling,ALONG BARANGAY ROAD,,7200.0,DO 55-2024,unmatched,Garden Homes (40),0
+RR,Macabling,NIA ROAD,,6750.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (46),0
+RR,Macabling,ROSEMONTVILLE,,6750.0,DO 55-2024,unmatched,The Arborage at Brentville (57),0
+RR,Macabling,SITIO IRAN (FORMERLY SITIO IRAN/AGAW VILLAGE),,6750.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (50),0
+RR,Macabling,SITIO IRAQ/AGAW VILLAGE (FORMERLY SITIO IRAQ),,6750.0,DO 55-2024,unmatched,MetroGate Sta. Rosa (48),0
+RR,Macabling,SITIO JORDAN,,6750.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (45),0
+RR,Macabling,SITIO PUTING TULAY,,6750.0,DO 55-2024,unmatched,MetroGate Sta. Rosa (39),0
+CR,Macabling,FELICIDAD COMPOUND,(NEW),12000.0,DO 55-2024,village,Felicidad Compound,100
+CR,Macabling,GARDEN CITY 4 (CORINTHIAN),(NEW),12000.0,DO 55-2024,village,Corinthian Homes Subdivision,100
+CR,Macabling,LAKESHORE VILLAGE(FORMERLY ORMON-LAKESHOREVILLE),(NEW),12000.0,DO 55-2024,village,Lake Shore Village,100
+CR,Macabling,PRIMAVERA,(NEW),12000.0,DO 55-2024,village,MetroGate Primavera,95
+CR,Macabling,ZERAMYR II,(NEW),12000.0,DO 55-2024,village,Zeramyr II Subdivision,100
+RR,Macabling,FELICIDAD COMPOUND,,9100.0,DO 55-2024,village,Felicidad Compound,100
+RR,Macabling,GARDEN CITY 4 (CORINTHIAN),,9100.0,DO 55-2024,village,Corinthian Homes Subdivision,100
+RR,Macabling,LAKESHORE VILLAGE(FORMERLY ORMON-LAKESHOREVILLE),,9100.0,DO 55-2024,village,Lake Shore Village,100
+RR,Macabling,ZERAMYR II,,9100.0,DO 55-2024,village,Zeramyr II Subdivision,100
+RR,Macabling,PRIMAVERA,,6750.0,DO 55-2024,village,MetroGate Primavera,95
+CR,Malitlit,ALL OTHER STREETS,(NEW),11500.0,DO 55-2024,background,,0
+I,Malitlit,ALL OTHER STREETS,(NEW),10500.0,DO 55-2024,background,,0
+RR,Malitlit,ALL OTHER STREETS,INTERIOR LOT,7350.0,DO 55-2024,background,,0
+RR,Malitlit,SIERRA MADRE (STA. ELENA GOLF),,44900.0,DO 55-2024,unmatched,TierraBela (55),0
+RR,Malitlit,SOLEN RESIDENCES,,44900.0,DO 55-2024,unmatched,Carlton Residences (75),0
+CR,Malitlit,PRAMANA (GARLAND) Res Park Greenfield,(NEW),39250.0,DO 55-2024,unmatched,Carlton Residences (42),0
+CR,Malitlit,TRAVA PHASE 1,(NEW),36550.0,DO 55-2024,unmatched,Terra Fortuna 1 (55),0
+RR,Malitlit,PRAMANA (GARLAND) Res Park Greenfield,,28350.0,DO 55-2024,unmatched,Carlton Residences (42),0
+RR,Malitlit,TRAVA PHASE 1,(NEW),28350.0,DO 55-2024,unmatched,Terra Fortuna 1 (55),0
+CR,Malitlit,SOLEN RESIDENCES,(NEW),23000.0,DO 55-2024,unmatched,Carlton Residences (75),0
+CR,Malitlit,CASAN RESIDENCIA,,16800.0,DO 55-2024,unmatched,Carlton Residences (73),0
+CR,Malitlit,"SAN LORENZO PH I, I-A, I-B, I-E & I-A ANNEX",,14250.0,DO 55-2024,unmatched,San Lorenzo South Subdivision Phase 1A Annex (0),0
+CR,Malitlit,COBASSUISE SAN LORENZO PH 1A ANNEX,(NEW),14100.0,DO 55-2024,unmatched,San Lorenzo South Subdivision Phase 1A Annex (70),0
+CR,Malitlit,GOLDWELL SUBD.,(NEW),13000.0,DO 55-2024,unmatched,Roseville (47),0
+CR,Malitlit,VILLA SUSANA,,12550.0,DO 55-2024,unmatched,Villa las Casas (69),0
+CR,Malitlit,ALONG BARANGAY ROAD,BRGY ROAD,12150.0,DO 55-2024,unmatched,Carlton Residences (45),0
+RR,Malitlit,CASAN RESIDENCIA,,12000.0,DO 55-2024,unmatched,Carlton Residences (73),0
+RR,Malitlit,"SAN LORENZO PH I, I-A, I-B, I-E & I-A ANNEX",,10300.0,DO 55-2024,unmatched,San Lorenzo South Subdivision Phase 1A Annex (0),0
+RR,Malitlit,VILLA SUSANA,,9900.0,DO 55-2024,unmatched,Villa las Casas (69),0
+RR,Malitlit,GOLDWELL SUBD.,,9450.0,DO 55-2024,unmatched,Roseville (47),0
+RR,Malitlit,COBASSUISE SAN LORENZO PH 1A ANNEX,,9400.0,DO 55-2024,unmatched,San Lorenzo South Subdivision Phase 1A Annex (70),0
+I,Malitlit,ALONG BARANGAY ROAD,BRGY ROAD,9400.0,DO 55-2024,unmatched,Carlton Residences (45),0
+RR,Malitlit,ALONG BARANGAY ROAD,BRGY ROAD,8750.0,DO 55-2024,unmatched,Carlton Residences (45),0
+CR,Malitlit,ETON CITY/SOUTH LAKE VILLAGE,(NEW),37200.0,DO 55-2024,village,South Lake Village,100
+CR,Malitlit,ETON CITY/RIVERBEND,(NEW),36550.0,DO 55-2024,village,Riverbend,100
+CR,Malitlit,WEST WING (Eton City),(NEW),36550.0,DO 55-2024,village,West Wing Residences,95
+RR,Malitlit,ETON CITY/SOUTH LAKE VILLAGE,,28850.0,DO 55-2024,village,South Lake Village,100
+RR,Malitlit,ETON CITY/RIVERBEND,,28350.0,DO 55-2024,village,Riverbend,100
+RR,Malitlit,WEST WING (Eton City),,28350.0,DO 55-2024,village,West Wing Residences,95
+CR,Malitlit,SOUTH POINT (Part of Cabuyao),,14750.0,DO 55-2024,village,Southpoint Village,100
+CR,Malitlit,VERACRUZ HOMES,(NEW),14150.0,DO 55-2024,village,Veracruz Subdivision,100
+RR,Malitlit,SOUTH POINT (Part of Cabuyao),,11750.0,DO 55-2024,village,Southpoint Village,100
+RR,Malitlit,VERACRUZ HOMES,,11000.0,DO 55-2024,village,Veracruz Subdivision,100
+CR,Malusak,ALL OTHER STREETS,(NEW),12550.0,DO 55-2024,background,,0
+I,Malusak,ALL OTHER STREETS,(NEW),12300.0,DO 55-2024,background,,0
+RR,Malusak,ALL OTHER STREETS,,8700.0,DO 55-2024,background,,0
+CR,Malusak,DR. ZAVALLA ST.,(NEW),18450.0,DO 55-2024,street,Zavalla Street,97
+CR,Malusak,P.ANONUEVO ST.,(NEW),17850.0,DO 55-2024,street,P. Añonuevo Street,100
+CR,Malusak,P. GOMEZ ST.,(NEW),17850.0,DO 55-2024,street,F. Gomez Street,90.0
+CR,Malusak,TATLONG HARI ST.,(NEW),16800.0,DO 55-2024,street,Tatlong Hari Street,100
+CR,Malusak,F. GOMEZ ST.,,15900.0,DO 55-2024,street,F. Gomez Street,100
+CR,Malusak,ZAVALLA COMPOUND,(NEW),15300.0,DO 55-2024,street,Zavalla Street,97
+CR,Malusak,LUCERO ST.,,15050.0,DO 55-2024,street,Lucero Street,100
+CR,Malusak,P. VALLEJO ST.,,15050.0,DO 55-2024,street,P. Vallejo Street,100
+RR,Malusak,DR. ZAVALLA ST.,,12800.0,DO 55-2024,street,Zavalla Street,97
+RR,Malusak,F. GOMEZ ST.,,12800.0,DO 55-2024,street,F. Gomez Street,100
+RR,Malusak,LUCERO ST.,,12400.0,DO 55-2024,street,Lucero Street,100
+RR,Malusak,P.ANONUEVO ST.,,12400.0,DO 55-2024,street,P. Añonuevo Street,100
+RR,Malusak,P. GOMEZ ST.,,12400.0,DO 55-2024,street,F. Gomez Street,90.0
+RR,Malusak,P. VALLEJO ST.,,12400.0,DO 55-2024,street,P. Vallejo Street,100
+RR,Malusak,TATLONG HARI ST.,,12000.0,DO 55-2024,street,Tatlong Hari Street,100
+RR,Malusak,ZAVALLA COMPOUND,,10700.0,DO 55-2024,street,Zavalla Street,97
+CR,Malusak,P. ARAMBULO ST.,(NEW),17850.0,DO 55-2024,unmatched,Perlas Village (40),0
+CR,Malusak,J. RIZAL ST.,,17500.0,DO 55-2024,unmatched,Perlas Village (33),0
+CR,Malusak,ZAVALLA VILLAGE I,(NEW),15300.0,DO 55-2024,unmatched,Alfonso Homes I (44),0
+CR,Malusak,G. B. ZAVALLA ST.,,15050.0,DO 55-2024,unmatched,Baynosa Compound (33),0
+CR,Malusak,GARDEN VILLAS,(NEW),13950.0,DO 55-2024,unmatched,Grand Riverside (44),0
+CR,Malusak,CATAQUIZ SUBDIVISION,(NEW),13650.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (36),0
+CR,Malusak,DIA-LEYCO SUBDIVISION,(NEW),13650.0,DO 55-2024,unmatched,Baynosa Compound (38),0
+CR,Malusak,RCA SUBDIVISION,(NEW),13650.0,DO 55-2024,unmatched,Perlas Village (50),0
+RR,Malusak,J. RIZAL ST.,,13550.0,DO 55-2024,unmatched,Perlas Village (33),0
+CR,Malusak,BUENA ROSA 8,(NEW),13350.0,DO 55-2024,unmatched,Santa Rosa Garden Villas 2 (0),0
+RR,Malusak,G. B. ZAVALLA ST.,,12400.0,DO 55-2024,unmatched,Baynosa Compound (33),0
+RR,Malusak,P. ARAMBULO ST.,,12400.0,DO 55-2024,unmatched,Perlas Village (40),0
+CR,Malusak,L. M. SUBDIVISION,(NEW),11700.0,DO 55-2024,unmatched,Perlas Village (25),0
+CR,Malusak,ROSARIO HEIGHTS SUBDIVISION,(NEW),11700.0,DO 55-2024,unmatched,Grand Riverside (41),0
+RR,Malusak,ZAVALLA VILLAGE I,,10700.0,DO 55-2024,unmatched,Alfonso Homes I (44),0
+RR,Malusak,BUENA ROSA 8,,9500.0,DO 55-2024,unmatched,Santa Rosa Garden Villas 2 (0),0
+RR,Malusak,CATAQUIZ SUBDIVISION,,9500.0,DO 55-2024,unmatched,Southview Homes Santa Rosa (36),0
+RR,Malusak,DIA-LEYCO SUBDIVISION,,9500.0,DO 55-2024,unmatched,Baynosa Compound (38),0
+RR,Malusak,GARDEN VILLAS,,9500.0,DO 55-2024,unmatched,Grand Riverside (44),0
+RR,Malusak,RCA SUBDIVISION,,9500.0,DO 55-2024,unmatched,Perlas Village (50),0
+RR,Malusak,L. M. SUBDIVISION,,8200.0,DO 55-2024,unmatched,Perlas Village (25),0
+RR,Malusak,ROSARIO HEIGHTS SUBDIVISION,,8200.0,DO 55-2024,unmatched,Grand Riverside (41),0
+CR,Malusak,ZERAMYR-1,(NEW),15300.0,DO 55-2024,village,Zeramyr 1,100
+CR,Malusak,CIUDAD GRANDE,(NEW),14500.0,DO 55-2024,village,Ciudad Grande,100
+CR,Malusak,GRAND RIVERSIDE,(NEW),11700.0,DO 55-2024,village,Grand Riverside,100
+RR,Malusak,ZERAMYR-1,,10700.0,DO 55-2024,village,Zeramyr 1,100
+RR,Malusak,CIUDAD GRANDE,,10650.0,DO 55-2024,village,Ciudad Grande,100
+RR,Malusak,GRAND RIVERSIDE,,8200.0,DO 55-2024,village,Grand Riverside,100
+RR,Pooc,ALL OTHER STREETS,INTERIOR LOT(NEW),6000.0,DO 55-2024,background,,0
+CR,Pooc,ALONG MUNICIPAL ROAD(RIZAL BLVD),(NEW),17600.0,DO 55-2024,street,Rizal Boulevard,100
+I,Pooc,ALONG MUNICIPAL ROAD(RIZAL BLVD),(NEW),15500.0,DO 55-2024,street,Rizal Boulevard,100
+RR,Pooc,ALONG MUNICIPAL ROAD(RIZAL BLVD),RIZAL BLVD,11600.0,DO 55-2024,street,Rizal Boulevard,100
+CR,Pooc,ST. FRANCIS HOMES SUBDIVISION,(NEW),11500.0,DO 55-2024,street,Saint Francis Avenue,97
+RR,Pooc,ST. FRANCIS HOMES SUBDIVISION,,7600.0,DO 55-2024,street,Saint Francis Avenue,97
+CR,Pooc,HONORIA ATIENZA (HONORVILLE),(NEW),13950.0,DO 55-2024,unmatched,Southville (60),0
+CR,Pooc,MABUHAY HOMES PH 2F,(NEW),13950.0,DO 55-2024,unmatched,Celina Plains Subdivision Phase 2 (33),0
+CR,Pooc,SOUTHVILLE IV,(NEW),12150.0,DO 55-2024,unmatched,Santa Rosa Garden Villas 4 (43),0
+CR,Pooc,"CELINA PLAINS PHASE 2, 3 & 4",(NEW),12000.0,DO 55-2024,unmatched,Golden City Subdivision (0),0
+CR,Pooc,VICTORIA TOWN HOMES,(NEW),10850.0,DO 55-2024,unmatched,Victoria Homes (76),0
+CR,Pooc,EAST DRIVE SUBDIVISION,(NEW),10250.0,DO 55-2024,unmatched,Eastdrive Village (62),0
+CR,Pooc,VILLA MERCEDES,(NEW),10250.0,DO 55-2024,unmatched,Garden Villas (72),0
+RR,Pooc,HONORIA ATIENZA (HONORVILLE),,9200.0,DO 55-2024,unmatched,Southville (60),0
+RR,Pooc,MABUHAY HOMES PH 2F,,9200.0,DO 55-2024,unmatched,Celina Plains Subdivision Phase 2 (33),0
+RR,Pooc,SOUTHVILLE IV,,8000.0,DO 55-2024,unmatched,Santa Rosa Garden Villas 4 (43),0
+RR,Pooc,"CELINA PLAINS PHASE 2, 3 & 4",,7300.0,DO 55-2024,unmatched,Golden City Subdivision (0),0
+RR,Pooc,VICTORIA TOWN HOMES,,7150.0,DO 55-2024,unmatched,Victoria Homes (76),0
+RR,Pooc,EAST DRIVE SUBDIVISION,,6750.0,DO 55-2024,unmatched,Eastdrive Village (62),0
+RR,Pooc,VILLA MERCEDES,,6750.0,DO 55-2024,unmatched,Garden Villas (72),0
+CR,Pooc,LA JOYA DE STA. ROSA,(NEW),18150.0,DO 55-2024,village,La Joya De Santa Rosa,95.0
+CR,Pooc,GOLDEN CITY SUBDIVISION,(NEW),13950.0,DO 55-2024,village,Golden City Subdivision,100
+RR,Pooc,LA JOYA DE STA. ROSA,,11950.0,DO 55-2024,village,La Joya De Santa Rosa,95.0
+CR,Pooc,BAGONG STA. ROSA VILL I,(NEW),10850.0,DO 55-2024,village,Bagong Santa Rosa Village 1,94.44444444444444
+CR,Pooc,DON JOSE ZAVALLA SUBDIVISION,(NEW),10250.0,DO 55-2024,village,Don Jose Zavalla Subdivision,100
+RR,Pooc,GOLDEN CITY SUBDIVISION,,9200.0,DO 55-2024,village,Golden City Subdivision,100
+RR,Pooc,BAGONG STA. ROSA VILL I,,7150.0,DO 55-2024,village,Bagong Santa Rosa Village 1,94.44444444444444
+RR,Pooc,DON JOSE ZAVALLA SUBDIVISION,,6750.0,DO 55-2024,village,Don Jose Zavalla Subdivision,100
+CR,Pulong Santa Cruz,ALL OTHER STREETS,(NEW),12700.0,DO 55-2024,background,,0
+I,Pulong Santa Cruz,ALL OTHER STREETS,(NEW),11100.0,DO 55-2024,background,,0
+RR,Pulong Santa Cruz,ALL OTHER STREETS,INTERIOR LOT,8150.0,DO 55-2024,background,,0
+CR,Pulong Santa Cruz,LAGUNA BEL-AIR,(NEW),18950.0,DO 55-2024,street,Laguna Bel Air Drive,97
+RR,Pulong Santa Cruz,LAGUNA BEL-AIR,(NEW),14700.0,DO 55-2024,street,Laguna Bel Air Drive,97
+CR,Pulong Santa Cruz,SOLEN RRESIDENCES PH-2 EXTENSION,(NEW),67300.0,DO 55-2024,unmatched,Laguna Belair 2 (37),0
+RR,Pulong Santa Cruz,SOLEN RRESIDENCES PH-2 EXTENSION,,44900.0,DO 55-2024,unmatched,Laguna Belair 2 (37),0
+CR,Pulong Santa Cruz,ALONG NATIONAL ROAD,ALONG STO. DOMINGO-BALIBAGO,38500.0,DO 55-2024,unmatched,Gawad Kalinga Toyota Village (47),0
+I,Pulong Santa Cruz,ALONG NATIONAL ROAD,ALONG STO. DOMINGO-BALIBAGO,22550.0,DO 55-2024,unmatched,Gawad Kalinga Toyota Village (47),0
+RR,Pulong Santa Cruz,ALONG NATIONAL ROAD,ALONG STO. DOMINGO-BALIBAGO,19000.0,DO 55-2024,unmatched,Gawad Kalinga Toyota Village (47),0
+CR,Pulong Santa Cruz,FRANCISCO VILLAGE (All Commercial),(NEW),12600.0,DO 55-2024,unmatched,San Jose Residencias (48),0
+CR,Pulong Santa Cruz,RAMON MERCADO (PSC),(NEW),12600.0,DO 55-2024,unmatched,Mercado Village (70),0
+CR,Pulong Santa Cruz,BUKLOD DIWA SUBD.,(NEW),10800.0,DO 55-2024,unmatched,Berkeley Heights (38),0
+CR,Pulong Santa Cruz,GAWAD KALINGA - PUBLIC,(NEW),10800.0,DO 55-2024,unmatched,Gawad Kalinga Toyota Village (70),0
+RR,Pulong Santa Cruz,FRANCISCO VILLAGE (All Commercial),,8200.0,DO 55-2024,unmatched,San Jose Residencias (48),0
+RR,Pulong Santa Cruz,RAMON MERCADO (PSC),,8200.0,DO 55-2024,unmatched,Mercado Village (70),0
+RR,Pulong Santa Cruz,GAWAD KALINGA - PUBLIC,(NEW),7500.0,DO 55-2024,unmatched,Gawad Kalinga Toyota Village (70),0
+RR,Pulong Santa Cruz,BUKLOD DIWA SUBD.,,6900.0,DO 55-2024,unmatched,Berkeley Heights (38),0
+CR,Pulong Santa Cruz,SOUTHLAKE VILLAGE,(NEW),37500.0,DO 55-2024,village,South Lake Village,100
+RR,Pulong Santa Cruz,SOUTHLAKE VILLAGE,(NEW),25000.0,DO 55-2024,village,South Lake Village,100
+CR,Pulong Santa Cruz,VILLA SEGOVIA,(NEW),16950.0,DO 55-2024,village,Villa Segovia,100
+RR,Pulong Santa Cruz,VILLA SEGOVIA,,12700.0,DO 55-2024,village,Villa Segovia,100
+CR,Pulong Santa Cruz,BERKELEY HEIGHTS SUBD.,(NEW),12600.0,DO 55-2024,village,Berkeley Heights,100
+CR,Pulong Santa Cruz,GRAND CHESTNUT GROVE SUBDIVISION,(NEW),12600.0,DO 55-2024,village,Grand Chestnut Grove,100
+RR,Pulong Santa Cruz,BERKELEY HEIGHTS SUBD.,,8200.0,DO 55-2024,village,Berkeley Heights,100
+RR,Pulong Santa Cruz,GRAND CHESTNUT GROVE SUBDIVISION,,8200.0,DO 55-2024,village,Grand Chestnut Grove,100
+CR,Santo Domingo,NUVALI,,152000.0,DO 55-2024,street,Nuvali Boulevard,97
+RR,Santo Domingo,AVIDA ESTATES/NUVALI,,25000.0,DO 55-2024,street,Nuvali Boulevard,97
+RR,Santo Domingo,AVIDA/NUVALI,,20000.0,DO 55-2024,street,Nuvali Boulevard,97
+CR,Santo Domingo,LAKESIDE EVOZONE-SOUTH,,85000.0,DO 55-2024,unmatched,La Residencia (46),0
+CR,Santo Domingo,LAKESIDE EVOZONE-EAST,,85000.0,DO 55-2024,unmatched,La Residencia (53),0
+RR,Santo Domingo,LA RESIDENCIA DE STA. ROSA,,32150.0,DO 55-2024,unmatched,La Residencia (68),0
+CR,Santo Domingo,ALONG TAGAYTAY-STA. ROSA ROAD,(NEW),30100.0,DO 55-2024,unmatched,Fontamara (44),0
+I,Santo Domingo,ALONG TAGAYTAY-STA. ROSA ROAD,(NEW),28000.0,DO 55-2024,unmatched,Fontamara (44),0
+RR,Santo Domingo,COUNTRY CLUB,,25000.0,DO 55-2024,unmatched,South Forbes Villas (41),0
+RR,Santo Domingo,GEORGIA CLUB,(NEW),25000.0,DO 55-2024,unmatched,La Residencia (40),0
+RR,Santo Domingo,STA. ROSA ESTATE 2 (PHINEX 2),,25000.0,DO 55-2024,unmatched,Santierra Nuvali (0),0
+RR,Santo Domingo,ALONG TAGAYTAY-STA. ROSA ROAD,(NEW),22900.0,DO 55-2024,unmatched,Fontamara (44),0
+CR,Santo Domingo,MESA HOMES,(NEW),16250.0,DO 55-2024,unmatched,Promenade (46),0
+CR,Santo Domingo,ALONG BARANGAY ROAD,,13600.0,DO 55-2024,unmatched,Fontamara (43),0
+I,Santo Domingo,ALONG BARANGAY ROAD,,12000.0,DO 55-2024,unmatched,Fontamara (43),0
+RR,Santo Domingo,MESA HOMES,,11900.0,DO 55-2024,unmatched,Promenade (46),0
+RR,Santo Domingo,ALONG BARANGAY ROAD,,9450.0,DO 55-2024,unmatched,Fontamara (43),0
+RR,Santo Domingo,VALENZA (CROWN ASIA),,38000.0,DO 55-2024,village,Valenza,100
+RR,Santo Domingo,ABRIO/NUVALI,,34050.0,DO 55-2024,village,Abrio Nuvali,100
+RR,Santo Domingo,SANTIERRA,,32600.0,DO 55-2024,village,Santierra Nuvali,95
+RR,Santo Domingo,BELLE REVE,,25000.0,DO 55-2024,village,Belle Reve,100
+RR,Santo Domingo,FONTAMARA,,25000.0,DO 55-2024,village,Fontamara,100
+RR,Santo Domingo,SONOMA,,25000.0,DO 55-2024,village,The Sonoma,100
+RR,Santo Domingo,PROMENADE,,22400.0,DO 55-2024,village,Promenade,100
+CR,Sinalhan,ALL OTHER STREETS,(NEW),11000.0,DO 55-2024,background,,0
+I,Sinalhan,ALL OTHER STREETS,(NEW),10200.0,DO 55-2024,background,,0
+RR,Sinalhan,ALL OTHER STREETS,INTERIOR LOT,7850.0,DO 55-2024,background,,0
+CR,Sinalhan,ALONG BARANGAY PROPER,,15400.0,DO 55-2024,unmatched,Pasadeña Heights (33),0
+CR,Sinalhan,GOLDEN MEADOWS PH II-A,(NEW),13950.0,DO 55-2024,unmatched,Alfonso Homes 2 (46),0
+I,Sinalhan,ALONG BARANGAY PROPER,,13600.0,DO 55-2024,unmatched,Pasadeña Heights (33),0
+RR,Sinalhan,ALONG BARANGAY PROPER,,10500.0,DO 55-2024,unmatched,Pasadeña Heights (33),0
+RR,Sinalhan,GOLDEN MEADOWS PH II-A,,10100.0,DO 55-2024,unmatched,Alfonso Homes 2 (46),0
+CR,Sinalhan,AMIRA TOWN HOMES,(NEW),9700.0,DO 55-2024,unmatched,Hi-way Homes Subdivision (38),0
+CR,Sinalhan,LABRADOR SUBDIVISION,(NEW),9700.0,DO 55-2024,unmatched,Mercedes Homes (27),0
+CR,Sinalhan,LAKEVILLE SUBDIVISION,(NEW),9700.0,DO 55-2024,unmatched,Satelliteville (61),0
+CR,Sinalhan,ROMANVILLE SUBDIVISION,(NEW),9700.0,DO 55-2024,unmatched,Satelliteville (50),0
+CR,Sinalhan,BAYSHOREVILLE SUBDIVISION,(NEW),8450.0,DO 55-2024,unmatched,Satelliteville (52),0
+CR,Sinalhan,FARMVIEW SUBDIVISION,(NEW),8450.0,DO 55-2024,unmatched,Satelliteville (36),0
+RR,Sinalhan,AMIRA TOWN HOMES,,7000.0,DO 55-2024,unmatched,Hi-way Homes Subdivision (38),0
+RR,Sinalhan,LABRADOR SUBDIVISION,,7000.0,DO 55-2024,unmatched,Mercedes Homes (27),0
+RR,Sinalhan,LAKEVILLE SUBDIVISION,,7000.0,DO 55-2024,unmatched,Satelliteville (61),0
+RR,Sinalhan,ROMANVILLE SUBDIVISION,,7000.0,DO 55-2024,unmatched,Satelliteville (50),0
+RR,Sinalhan,BAYSHOREVILLE SUBDIVISION,,5350.0,DO 55-2024,unmatched,Satelliteville (52),0
+RR,Sinalhan,FARMVIEW SUBDIVISION,,5350.0,DO 55-2024,unmatched,Satelliteville (36),0
+CR,Sinalhan,ZAVALLA VILLAGE 2,(NEW),13950.0,DO 55-2024,village,Zavalla Village 2,100
+RR,Sinalhan,ZAVALLA VILLAGE 2,,10800.0,DO 55-2024,village,Zavalla Village 2,100
+CR,Sinalhan,ALFONSO HOMES II,(NEW),9700.0,DO 55-2024,village,Alfonso Homes 2,100
+CR,Sinalhan,MERCEDES HOMES,(NEW),9700.0,DO 55-2024,village,Mercedes Homes,100
+CR,Sinalhan,SATELLITEVILLE SUBDIVISION,(NEW),9700.0,DO 55-2024,village,Satelliteville,100
+RR,Sinalhan,ALFONSO HOMES II,,7000.0,DO 55-2024,village,Alfonso Homes 2,100
+RR,Sinalhan,MERCEDES HOMES,,7000.0,DO 55-2024,village,Mercedes Homes,100
+RR,Sinalhan,SATELLITEVILLE SUBDIVISION,,7000.0,DO 55-2024,village,Satelliteville,100
+CR,Tagapo,ALL OTHER STREETS,INTERIOR LOT,8500.0,DO 55-2024,background,,0
+I,Tagapo,ALL OTHER STREETS,INTERIOR LOT,6500.0,DO 55-2024,background,,0
+RR,Tagapo,ALL OTHER STREETS,INTERIOR LOT,4150.0,DO 55-2024,background,,0
+CR,Tagapo,MA. PAZ CASAS SUBDIVISION(MERCADO COMPOUND),(NEW),9350.0,DO 55-2024,street,Mercado Street,97
+RR,Tagapo,MA. PAZ CASAS SUBDIVISION(MERCADO COMPOUND),,6050.0,DO 55-2024,street,Mercado Street,97
+CR,Tagapo,ALONG NATIONAL HIGHWAY,,38500.0,DO 55-2024,unmatched,Rosario Heights (50),0
+I,Tagapo,ALONG NATIONAL HIGHWAY,,22550.0,DO 55-2024,unmatched,Rosario Heights (50),0
+RR,Tagapo,ALONG NATIONAL HIGHWAY,,19000.0,DO 55-2024,unmatched,Rosario Heights (50),0
+CR,Tagapo,TO ROSAFLOR SUBD.,(NEW),16650.0,DO 55-2024,unmatched,Rosaflor Subdivision (84),0
+CR,Tagapo,METROGATE SUBDIVISION PH 1 & 2,(NEW),15550.0,DO 55-2024,unmatched,Buena Perlas 1 (0),0
+CR,Tagapo,GOLDEN MEADOWS PH 2A & 2B,(NEW),15300.0,DO 55-2024,unmatched,Buena Perlas 1 (0),0
+I,Tagapo,TO ROSAFLOR SUBD.,(NEW),14650.0,DO 55-2024,unmatched,Rosaflor Subdivision (84),0
+CR,Tagapo,DON PABLO SUBDIVISION,(NEW),13650.0,DO 55-2024,unmatched,Marco Polo Place (48),0
+CR,Tagapo,TERRYTOWN SUBDIVISION,(NEW),13300.0,DO 55-2024,unmatched,Evergreen County (40),0
+CR,Tagapo,MUNICIPAL ROAD,,13150.0,DO 55-2024,unmatched,Amihan Subdivision (40),0
+CR,Tagapo,VILLA DE ORO,(NEW),13150.0,DO 55-2024,unmatched,Villaggio di Xavier (58),0
+CR,Tagapo,ZAVALLA III,(NEW),13150.0,DO 55-2024,unmatched,Buena Perlas 1 (0),0
+RR,Tagapo,METROGATE SUBDIVISION PH 1 & 2,,13080.0,DO 55-2024,unmatched,Buena Perlas 1 (0),0
+CR,Tagapo,GRUENVILLE SUBDIVISION,(NEW),12350.0,DO 55-2024,unmatched,Satelliteville (50),0
+CR,Tagapo,ALONG BARANGAY ROAD,,12300.0,DO 55-2024,unmatched,Fairfield of Margana (52),0
+CR,Tagapo,DAANG NIA,(NEW),11700.0,DO 55-2024,unmatched,Garcia Filart (45),0
+CR,Tagapo,DONA ROSINA COMPOUND,(NEW),11700.0,DO 55-2024,unmatched,Buena Rosa Subdivision (67),0
+CR,Tagapo,FLORENCEVILLE SUBDIVISION.,(NEW),11700.0,DO 55-2024,unmatched,Satelliteville (52),0
+CR,Tagapo,GARCIA SUBDIVISION,(NEW),11700.0,DO 55-2024,unmatched,Garcia Filart (63),0
+CR,Tagapo,JUAN ENCINA COMPOUND,(NEW),11700.0,DO 55-2024,unmatched,Jubilation East (54),0
+CR,Tagapo,ILEM HOMES,(NEW),11300.0,DO 55-2024,unmatched,Dia Leyco Subdivision (46),0
+CR,Tagapo,ALINSOD SUBDIVISION/ALINSOD COMPOUND,(NEW),10600.0,DO 55-2024,unmatched,Limpo Compound (50),0
+CR,Tagapo,ANROS SUBDIVISION,(NEW),10600.0,DO 55-2024,unmatched,Buena Rosa Subdivision (43),0
+CR,Tagapo,BAGONG STA. ROSA VILL I/II,(NEW),10600.0,DO 55-2024,unmatched,Saint Rose Village 1 (62),0
+CR,Tagapo,CELINA HOMES,(NEW),10600.0,DO 55-2024,unmatched,Perlas Village (55),0
+CR,Tagapo,F & F SUBDIVISION,(NEW),10600.0,DO 55-2024,unmatched,Garcia Filart (25),0
+CR,Tagapo,J & B VILLAGE,(NEW),10600.0,DO 55-2024,unmatched,Buena Rosa Subdivision (31),0
+CR,Tagapo,LABRADOR SUBDIVISION,(NEW),10600.0,DO 55-2024,unmatched,Rosaflor Subdivision (50),0
+CR,Tagapo,OVAL SUBDIVISION,(NEW),10600.0,DO 55-2024,unmatched,Rosaflor Subdivision (50),0
+CR,Tagapo,ROSADA SUBDIVISION,(NEW),10600.0,DO 55-2024,unmatched,Rosaflor Subdivision (57),0
+CR,Tagapo,ROSAFLOR SUBDIVISION 1 & 2,(NEW),10600.0,DO 55-2024,unmatched,Buena Perlas 1 (0),0
+CR,Tagapo,ROSEWOOD VILLAGE,(NEW),10600.0,DO 55-2024,unmatched,Rose Pointe (53),0
+CR,Tagapo,ROSEWOOD SUBDIVISION,(NEW),10600.0,DO 55-2024,unmatched,Rose Pointe (53),0
+CR,Tagapo,"TIONGCO SUBDIVISION 1, 2, 3 & 4",(NEW),10600.0,DO 55-2024,unmatched,Buena Perlas 1 (0),0
+I,Tagapo,ALONG BARANGAY ROAD,,10200.0,DO 55-2024,unmatched,Fairfield of Margana (52),0
+RR,Tagapo,ALONG RIZAL BLVD. FROM PERLAS SUBD.,INTERIOR LOT,10100.0,DO 55-2024,unmatched,Marco Polo Place (47),0
+CR,Tagapo,ENCINA COMPOUND,(NEW),10000.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (50),0
+RR,Tagapo,GOLDEN MEADOWS PH 2A & 2B,,9950.0,DO 55-2024,unmatched,Buena Perlas 1 (0),0
+CR,Tagapo,MANILA DOCTOR'S VILLAGE,(NEW),9350.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (52),0
+RR,Tagapo,ROSEWOOD SUBDIVISION,,9100.0,DO 55-2024,unmatched,Rose Pointe (53),0
+RR,Tagapo,TERRYTOWN SUBDIVISION,,9050.0,DO 55-2024,unmatched,Evergreen County (40),0
+RR,Tagapo,MUNICIPAL ROAD,,8600.0,DO 55-2024,unmatched,Amihan Subdivision (40),0
+RR,Tagapo,VILLA DE ORO,,8600.0,DO 55-2024,unmatched,Villaggio di Xavier (58),0
+RR,Tagapo,ZAVALLA III,,8600.0,DO 55-2024,unmatched,Buena Perlas 1 (0),0
+RR,Tagapo,ANROS SUBDIVISION,,8300.0,DO 55-2024,unmatched,Buena Rosa Subdivision (43),0
+RR,Tagapo,DON PABLO SUBDIVISION,,8200.0,DO 55-2024,unmatched,Marco Polo Place (48),0
+RR,Tagapo,GRUENVILLE SUBDIVISION,,8050.0,DO 55-2024,unmatched,Satelliteville (50),0
+RR,Tagapo,ALONG BARANGAY ROAD,,7750.0,DO 55-2024,unmatched,Fairfield of Margana (52),0
+RR,Tagapo,FLORENCEVILLE SUBDIVISION.,,7600.0,DO 55-2024,unmatched,Satelliteville (52),0
+RR,Tagapo,GARCIA SUBDIVISION,,7600.0,DO 55-2024,unmatched,Garcia Filart (63),0
+RR,Tagapo,JUAN ENCINA COMPOUND,,7600.0,DO 55-2024,unmatched,Jubilation East (54),0
+RR,Tagapo,ILEM HOMES,(NEW),7585.0,DO 55-2024,unmatched,Dia Leyco Subdivision (46),0
+RR,Tagapo,ROSADA SUBDIVISION,,7250.0,DO 55-2024,unmatched,Rosaflor Subdivision (57),0
+RR,Tagapo,ALINSOD SUBDIVISION/ALINSOD COMPOUND,,6900.0,DO 55-2024,unmatched,Limpo Compound (50),0
+RR,Tagapo,BAGONG STA. ROSA VILL I/II,,6900.0,DO 55-2024,unmatched,Saint Rose Village 1 (62),0
+RR,Tagapo,CELINA HOMES,,6900.0,DO 55-2024,unmatched,Perlas Village (55),0
+RR,Tagapo,DAANG NIA,,6900.0,DO 55-2024,unmatched,Garcia Filart (45),0
+RR,Tagapo,DONA ROSINA COMPOUND,,6900.0,DO 55-2024,unmatched,Buena Rosa Subdivision (67),0
+RR,Tagapo,F & F SUBDIVISION,,6900.0,DO 55-2024,unmatched,Garcia Filart (25),0
+RR,Tagapo,J & B VILLAGE,,6900.0,DO 55-2024,unmatched,Buena Rosa Subdivision (31),0
+RR,Tagapo,LABRADOR SUBDIVISION,,6900.0,DO 55-2024,unmatched,Rosaflor Subdivision (50),0
+RR,Tagapo,OVAL SUBDIVISION,,6900.0,DO 55-2024,unmatched,Rosaflor Subdivision (50),0
+RR,Tagapo,ROSAFLOR SUBDIVISION 1 & 2,,6900.0,DO 55-2024,unmatched,Buena Perlas 1 (0),0
+RR,Tagapo,ROSEWOOD VILLAGE,,6900.0,DO 55-2024,unmatched,Rose Pointe (53),0
+RR,Tagapo,"TIONGCO SUBDIVISION 1, 2, 3 & 4",,6900.0,DO 55-2024,unmatched,Buena Perlas 1 (0),0
+RR,Tagapo,ENCINA COMPOUND,,6500.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (50),0
+RR,Tagapo,MANILA DOCTOR'S VILLAGE,,6050.0,DO 55-2024,unmatched,Corinthian Homes Subdivision (52),0
+CR,Tagapo,BUENA ROSA 10,(NEW),13350.0,DO 55-2024,village,Buena Rosa 10,100
+CR,Tagapo,THE ARAYA PARK RESIDENCES,(NEW),13150.0,DO 55-2024,village,Araya Park Residences,100
+CR,Tagapo,HOWARD VILLAGE,(NEW),12350.0,DO 55-2024,village,Howard Village,100
+CR,Tagapo,AMIHAN SUBDIVISION,(NEW),10600.0,DO 55-2024,village,Amihan Subdivision,100
+CR,Tagapo,CATAQUIZ HOMES,(NEW),10600.0,DO 55-2024,village,Cataquiz Subdivision,100
+CR,Tagapo,CRC HOMES (CATAQUIZ HOMES),(NEW),10600.0,DO 55-2024,village,Cataquiz Subdivision,100
+CR,Tagapo,FAIRFIELD SUBDIVISION,(NEW),10600.0,DO 55-2024,village,Fairfield of Margana,95
+CR,Tagapo,LIMPO SUBDIVISION,(NEW),10600.0,DO 55-2024,village,Limpo Compound,100
+CR,Tagapo,MARCO POLO SUBDIVISION,(NEW),10600.0,DO 55-2024,village,Marco Polo Place,95
+CR,Tagapo,PERLAS SUBDIVISION,(NEW),10600.0,DO 55-2024,village,Perlas Village,100
+CR,Tagapo,ST. JOSEPH RICHFIELD,(NEW),10600.0,DO 55-2024,village,Saint Joseph Richfields,95
+RR,Tagapo,BUENA ROSA 10,,9500.0,DO 55-2024,village,Buena Rosa 10,100
+RR,Tagapo,THE ARAYA PARK RESIDENCES,(NEW),8600.0,DO 55-2024,village,Araya Park Residences,100
+RR,Tagapo,PROGRESSIVE VILLAGE,,8200.0,DO 55-2024,village,Progressive Village,100
+RR,Tagapo,HOWARD VILLAGE,(NEW),8050.0,DO 55-2024,village,Howard Village,100
+RR,Tagapo,FAIRFIELD SUBDIVISION,,7300.0,DO 55-2024,village,Fairfield of Margana,95
+RR,Tagapo,AMIHAN SUBDIVISION,,6900.0,DO 55-2024,village,Amihan Subdivision,100
+RR,Tagapo,CATAQUIZ HOMES,,6900.0,DO 55-2024,village,Cataquiz Subdivision,100
+RR,Tagapo,CRC HOMES (CATAQUIZ HOMES),,6900.0,DO 55-2024,village,Cataquiz Subdivision,100
+RR,Tagapo,LIMPO SUBDIVISION,,6900.0,DO 55-2024,village,Limpo Compound,100
+RR,Tagapo,MARCO POLO SUBDIVISION,,6900.0,DO 55-2024,village,Marco Polo Place,95
+RR,Tagapo,PERLAS SUBDIVISION,,6900.0,DO 55-2024,village,Perlas Village,100
+RR,Tagapo,ST. JOSEPH RICHFIELD,,6900.0,DO 55-2024,village,Saint Joseph Richfields,95

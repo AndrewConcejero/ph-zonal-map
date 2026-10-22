@@ -1,0 +1,333 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Aldiano Olaes,ALL OTHER SUBDIVISION,,6600.0,DO 20-2021,background,,0
+CR,Aldiano Olaes,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5700.0,DO 20-2021,background,,0
+I,Aldiano Olaes,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5200.0,DO 20-2021,background,,0
+RR,Aldiano Olaes,ALL OTHER SUBDIVISION,,4700.0,DO 20-2021,background,,0
+RR,Aldiano Olaes,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4300.0,DO 20-2021,background,,0
+RR,Aldiano Olaes,ALL OTHER STREETS,INTERIOR,3600.0,DO 20-2021,background,,0
+CR,Aldiano Olaes,BARANGAY ROAD,ALONG BARANGAY ROAD,6200.0,DO 20-2021,unmatched,Dasmariñas (47),0
+RR,Aldiano Olaes,BARANGAY ROAD,ALONG BARANGAY ROAD,4700.0,DO 20-2021,unmatched,Dasmariñas (47),0
+CR,Aldiano Olaes,ALTA TIERRA SUBDIVISION,,9500.0,DO 20-2021,village,Alta Tierra Homes,100
+RR,Aldiano Olaes,ALTA TIERRA SUBDIVISION,,7600.0,DO 20-2021,village,Alta Tierra Homes,100
+CR,Barangay 1 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8000.0,DO 20-2021,background,,0
+I,Barangay 1 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6000.0,DO 20-2021,background,,0
+RR,Barangay 1 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4200.0,DO 20-2021,background,,0
+RR,Barangay 1 Poblacion,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Barangay 1 Poblacion,ROAD LOT 2,ROAD LOT 5-MUNICIPAL BLDG.,14200.0,DO 20-2021,unmatched,Tahanan Village (0),0
+CR,Barangay 1 Poblacion,ROAD LOT 2,ROAD LOT 5-BGRY. LUMBRERAS,13300.0,DO 20-2021,unmatched,Tahanan Village (0),0
+CR,Barangay 1 Poblacion,ROAD LOT 2,MUNICIPAL BLDG-ALLEY LOT 173,13100.0,DO 20-2021,unmatched,Tahanan Village (0),0
+RR,Barangay 1 Poblacion,ROAD LOT 2,ROAD LOT 5-MUNICIPAL BLDG.,9500.0,DO 20-2021,unmatched,Tahanan Village (0),0
+RR,Barangay 1 Poblacion,ROAD LOT 2,ROAD LOT 5-BGRY. LUMBRERAS,8500.0,DO 20-2021,unmatched,Tahanan Village (0),0
+RR,Barangay 1 Poblacion,ROAD LOT 2,MUNICIPAL BLDG-ALLEY LOT 173,8300.0,DO 20-2021,unmatched,Tahanan Village (0),0
+CR,Barangay 2 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7100.0,DO 20-2021,background,,0
+I,Barangay 2 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5200.0,DO 20-2021,background,,0
+RR,Barangay 2 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4700.0,DO 20-2021,background,,0
+RR,Barangay 2 Poblacion,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Barangay 2 Poblacion,ALLEY LOT 54,BLOCK C-4-I,9500.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+CR,Barangay 2 Poblacion,ALLEY LOT 75,ALONG ALLEY LOT 75,9500.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+CR,Barangay 2 Poblacion,ALLEY LOT 77,BLOCK C-4-I,9500.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+CR,Barangay 2 Poblacion,ALLEY LOT 78,ALONG ALLEY LOT 78,9500.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+CR,Barangay 2 Poblacion,ROAD LOT 2,ROAD LOT 94-ROAD LOT 88,9500.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+CR,Barangay 2 Poblacion,ROAD LOT 88,ROAD LOT 2-ROAD LOT 95,9500.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+CR,Barangay 2 Poblacion,ROAD LOT 88,ROAD LOT 95-BOUNDARY.POBLACION 4,9500.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+CR,Barangay 2 Poblacion,ROAD LOT 94,ROAD LOT 2-ROAD LOT 95,9500.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+RR,Barangay 2 Poblacion,ALLEY LOT 54,BLOCK C-4-I,7100.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+RR,Barangay 2 Poblacion,ALLEY LOT 75,ALONG ALLEY LOT 75,7100.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+RR,Barangay 2 Poblacion,ALLEY LOT 77,BLOCK C-4-I,7100.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+RR,Barangay 2 Poblacion,ALLEY LOT 78,ALONG ALLEY LOT 78,7100.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+RR,Barangay 2 Poblacion,ROAD LOT 2,ROAD LOT 94-ROAD LOT 88,7100.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+RR,Barangay 2 Poblacion,ROAD LOT 88,ROAD LOT 2-ROAD LOT 95,7100.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+RR,Barangay 2 Poblacion,ROAD LOT 88,ROAD LOT 95-BOUNDARY.POBLACION 4,7100.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+RR,Barangay 2 Poblacion,ROAD LOT 94,ROAD LOT 2-ROAD LOT 95,7100.0,DO 20-2021,unmatched,Bahay Pamahalaan ng Barangay Poblacion 1 (0),0
+CR,Barangay 3 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6100.0,DO 20-2021,background,,0
+I,Barangay 3 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5200.0,DO 20-2021,background,,0
+RR,Barangay 3 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4000.0,DO 20-2021,background,,0
+RR,Barangay 3 Poblacion,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Barangay 3 Poblacion,ALLEY LOT 40,ROAD LOT 2- CORNER,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 40,PERPENDICULAR-ROAD. LOT 2,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 40,PARALLEL-ROAD. LOT 2,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 41,ROAD LOT 2- CORNER,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 41,PARALLEL-ROAD LOT 2,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 47,ROAD LOT 2-CORNER,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 47,PARALLEL-ROAD LOT 2,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 48,ROAD LOT 2-ALLEY LOT 48,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 48,ALLEY LOT 48-CREEK,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 162,ROAD LOT 2-ALLEY 164,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 162,ALLEY LOT 164-ALLEY LOT 168,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 165,ROAD LOT 2-ALLEY LOT 164,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ALLEY LOT 165,ALLEY LOT 164-LOT 168,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ROAD LOT 23,ROAD LOT 2-ALLEY LOT 65,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ROAD LOT 23,ALLEY LOT 9-ALLEY LOT 19,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ROAD LOT 23,ALLEY LOT 20-ALLEY LOT 30,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ROAD LOT 24,ROAD LOT 2-ALLEY LOT 48,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ROAD LOT 25,ROAD LOT 2-ALLEY LOT 45,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ROAD LOT 96,ROAD LOT 94-BOUNDARY OF POB IV,7100.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ROAD LOT 23,ALLEY LOT 65-CREEK,6600.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ROAD LOT 24,ALLEY LOT 48-CREEK,6600.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 3 Poblacion,ROAD LOT 25,ALLEY LOT 45-CREEK,6600.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ROAD LOT 96,ROAD LOT 94-BOUNDARY OF POB IV,6500.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 40,ROAD LOT 2- CORNER,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 40,PERPENDICULAR-ROAD. LOT 2,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 40,PARALLEL-ROAD. LOT 2,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 41,ROAD LOT 2- CORNER,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 41,PARALLEL-ROAD LOT 2,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 47,ROAD LOT 2-CORNER,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 47,PARALLEL-ROAD LOT 2,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 48,ROAD LOT 2-ALLEY LOT 48,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 48,ALLEY LOT 48-CREEK,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 162,ROAD LOT 2-ALLEY 164,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 162,ALLEY LOT 164-ALLEY LOT 168,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 165,ROAD LOT 2-ALLEY LOT 164,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ALLEY LOT 165,ALLEY LOT 164-LOT 168,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ROAD LOT 23,ROAD LOT 2-ALLEY LOT 65,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ROAD LOT 23,ALLEY LOT 9-ALLEY LOT 19,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ROAD LOT 23,ALLEY LOT 20-ALLEY LOT 30,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ROAD LOT 23,ALLEY LOT 65-CREEK,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ROAD LOT 24,ROAD LOT 2-ALLEY LOT 48,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ROAD LOT 24,ALLEY LOT 48-CREEK,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ROAD LOT 25,ROAD LOT 2-ALLEY LOT 45,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ROAD LOT 25,ALLEY LOT 45-CREEK,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+RR,Barangay 3 Poblacion,ROAD LOT 96,ALLEY LOT 171-ALLEY LOT 173,4700.0,DO 20-2021,unmatched,Karunungan Village (0),0
+CR,Barangay 4 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7100.0,DO 20-2021,background,,0
+I,Barangay 4 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5700.0,DO 20-2021,background,,0
+RR,Barangay 4 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4200.0,DO 20-2021,background,,0
+RR,Barangay 4 Poblacion,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Barangay 4 Poblacion,ALLEY LOT C-1-I,ALONG ALLEY LOT C-1-I,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ALLEY LOT 38,BLOCKC-4-1,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ALLEY LOTS 70-74,BLOCK C-3-I,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ALLEY LOTS 70-74,BLOCK C-13-I,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ALLEY LOTS 73-77,BLOCK C-2-I,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ALLEY LOTS 75-77,BLOCK C-3-1,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ALLEY LOTS 78-79,BLOCK C-2-I,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ALLEY LOTS 84-88,BLOCK.C-1-1,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ALLEY 89-91,BLOCK C-1-I,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ROAD LOT 2,ROAD LOT 88-BOUNDARY POB.4 & MEMIJE,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ROAD LOT 2,ROAD LOT 95-ALLEY LOT C-2-1,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ROAD LOT 2,ALLEY LOT C 2-1-ROAD LOT 85,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ROAD LOT 85,ALONG ROAD LOT 85,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ROAD LOT 87,ALONG ROAD LOT 87,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ROAD LOT 88,ALONG ROAD LOT 88,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 4 Poblacion,ROAD LOT 95,ALONG ROAD LOT 95,8000.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ALLEY LOT C-1-I,ALONG ALLEY LOT C-1-I,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ALLEY LOT 38,BLOCKC-4-1,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ALLEY LOTS 70-74,BLOCK C-3-I,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ALLEY LOTS 70-74,BLOCK C-13-I,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ALLEY LOTS 73-77,BLOCK C-2-I,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ALLEY LOTS 75-77,BLOCK C-3-1,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ALLEY LOTS 78-79,BLOCK C-2-I,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ALLEY LOTS 84-88,BLOCK.C-1-1,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ALLEY 89-91,BLOCK C-1-I,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ROAD LOT 2,ROAD LOT 88-BOUNDARY POB.4 & MEMIJE,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ROAD LOT 2,ROAD LOT 95-ALLEY LOT C-2-1,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ROAD LOT 2,ALLEY LOT C 2-1-ROAD LOT 85,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ROAD LOT 85,ALONG ROAD LOT 85,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ROAD LOT 87,ALONG ROAD LOT 87,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ROAD LOT 88,ALONG ROAD LOT 88,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+RR,Barangay 4 Poblacion,ROAD LOT 95,ALONG ROAD LOT 95,6100.0,DO 20-2021,unmatched,Terraverde Residences (0),0
+CR,Barangay 5 Poblacion,ALL OTHER SUBDIVISIONS,,7500.0,DO 20-2021,background,,0
+CR,Barangay 5 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7100.0,DO 20-2021,background,,0
+I,Barangay 5 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6100.0,DO 20-2021,background,,0
+RR,Barangay 5 Poblacion,ALL OTHER SUBDIVISIONS,,5300.0,DO 20-2021,background,,0
+RR,Barangay 5 Poblacion,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4700.0,DO 20-2021,background,,0
+RR,Barangay 5 Poblacion,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Barangay 5 Poblacion,GMA VILLAGE,,9800.0,DO 20-2021,unmatched,Dasmariñas (33),0
+CR,Barangay 5 Poblacion,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,9000.0,DO 20-2021,unmatched,Dasmariñas (42),0
+CR,Barangay 5 Poblacion,BARANGAY ROAD,ALONG BARANGAY ROAD,8500.0,DO 20-2021,unmatched,Dasmariñas (47),0
+RR,Barangay 5 Poblacion,GMA VILLAGE,,8400.0,DO 20-2021,unmatched,Dasmariñas (33),0
+CR,Barangay 5 Poblacion,ALLEY LOT 43,ALONG ALLEY LOT 43,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ALLEY LOT 44,ALONG ALLEY LOT 44,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ALLEY LOT 162,ROAD LOT 2-ALLEY LOT 62,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ALLEY LOT 162,ALLEY LOT 62-CREEK,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ALLEY LOT 169,ROAD LOT 2-ALLEY LOT 65,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ALLEY LOT 169,ALLEY LOT 65-CREEK,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ALLEY LOT 173,ROADLOT 2-ALLEY LOT 22,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ALLEY LOT 173,ALLEY LOT 171-ALLEY LOT 169,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ROAD LOT 2,ALLEY LOT 173-ROAD LT 22,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ROAD LOT 22,ROAD LOT 2-ALLEY LOT 63,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ROAD LOT 22,ALLEY LOT 63-CREEK,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Barangay 5 Poblacion,ROAD LOT 26,ALONG ROAD LOT 26,8000.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,7100.0,DO 20-2021,unmatched,Dasmariñas (42),0
+RR,Barangay 5 Poblacion,BARANGAY ROAD,ALONG BARANGAY ROAD,6600.0,DO 20-2021,unmatched,Dasmariñas (47),0
+RR,Barangay 5 Poblacion,ALLEY LOT 43,ALONG ALLEY LOT 43,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ALLEY LOT 44,ALONG ALLEY LOT 44,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ALLEY LOT 162,ROAD LOT 2-ALLEY LOT 62,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ALLEY LOT 162,ALLEY LOT 62-CREEK,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ALLEY LOT 169,ROAD LOT 2-ALLEY LOT 65,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ALLEY LOT 169,ALLEY LOT 65-CREEK,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ALLEY LOT 173,ROADLOT 2-ALLEY LOT 22,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ALLEY LOT 173,ALLEY LOT 171-ALLEY LOT 169,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ROAD LOT 2,ALLEY LOT 173-ROAD LT 22,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ROAD LOT 22,ROAD LOT 2-ALLEY LOT 63,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ROAD LOT 22,ALLEY LOT 63-CREEK,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+RR,Barangay 5 Poblacion,ROAD LOT 26,ALONG ROAD LOT 26,6100.0,DO 20-2021,unmatched,Riverview Place West (0),0
+CR,Benjamin Tirona,BARANGAY ROAD,ALONG BARANGAY ROAD,6600.0,DO 20-2021,unmatched,Pahara Southwoods (25),0
+I,Benjamin Tirona,BARANGAY ROAD,ALONG BARANGAY ROAD,5400.0,DO 20-2021,unmatched,Pahara Southwoods (25),0
+RR,Benjamin Tirona,BARANGAY ROAD,ALONG BARANGAY ROAD,4200.0,DO 20-2021,unmatched,Pahara Southwoods (25),0
+RR,Benjamin Tirona,BARANGAY ROAD,INTERIOR,3000.0,DO 20-2021,unmatched,Pahara Southwoods (25),0
+CR,Bernardo Pulido,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6600.0,DO 20-2021,background,,0
+I,Bernardo Pulido,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5900.0,DO 20-2021,background,,0
+CR,Bernardo Pulido,ALL OTHER STREETS,INTERIOR,5000.0,DO 20-2021,background,,0
+RR,Bernardo Pulido,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4200.0,DO 20-2021,background,,0
+RR,Bernardo Pulido,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Bernardo Pulido,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,8300.0,DO 20-2021,unmatched,Terraverde Residences (33),0
+CR,Bernardo Pulido,ALONG BARANGAY ROAD,ALONG BARANGAY ROAD,8100.0,DO 20-2021,unmatched,Pahara Southwoods (27),0
+RR,Bernardo Pulido,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,6400.0,DO 20-2021,unmatched,Terraverde Residences (33),0
+RR,Bernardo Pulido,ALONG BARANGAY ROAD,ALONG BARANGAY ROAD,5900.0,DO 20-2021,unmatched,Pahara Southwoods (27),0
+CR,Epifanio Malia,ALL OTHER SUBDIVISION,,6600.0,DO 20-2021,background,,0
+CR,Epifanio Malia,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4700.0,DO 20-2021,background,,0
+I,Epifanio Malia,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,Epifanio Malia,ALL OTHER SUBDIVISION,,4200.0,DO 20-2021,background,,0
+RR,Epifanio Malia,ALL OTHER STREETS,ALONG ALL OTHER STREETS,3300.0,DO 20-2021,background,,0
+RR,Epifanio Malia,ALL OTHER STREETS,INTERIOR,2800.0,DO 20-2021,background,,0
+CR,Epifanio Malia,MANILA SOUTHWOODS,,23200.0,DO 20-2021,unmatched,Pahara Southwoods (75),0
+CR,Epifanio Malia,PAHARA (SOUTHWOODS CITY),,23200.0,DO 20-2021,unmatched,Pahara Southwoods (67),0
+I,Epifanio Malia,PAHARA (SOUTHWOODS CITY),,21500.0,DO 20-2021,unmatched,Pahara Southwoods (67),0
+RR,Epifanio Malia,MANILA SOUTHWOODS,,20000.0,DO 20-2021,unmatched,Pahara Southwoods (75),0
+RR,Epifanio Malia,PAHARA (SOUTHWOODS CITY),,20000.0,DO 20-2021,unmatched,Pahara Southwoods (67),0
+CR,Epifanio Malia,BARANGAY ROAD,ALONG BARANGAY ROAD,6100.0,DO 20-2021,unmatched,Pahara Southwoods (25),0
+I,Epifanio Malia,BARANGAY ROAD,ALONG BARANGAY ROAD,5700.0,DO 20-2021,unmatched,Pahara Southwoods (25),0
+RR,Epifanio Malia,BARANGAY ROAD,ALONG BARANGAY ROAD,4200.0,DO 20-2021,unmatched,Pahara Southwoods (25),0
+CR,Fiorello Calimag,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,5200.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+RR,Fiorello Calimag,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,4200.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+CR,Fiorello Calimag,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,4200.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+I,Fiorello Calimag,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,4000.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+RR,Fiorello Calimag,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,3300.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+CR,Francisco De Castro,ALL OTHER SUBDIVISIONS,,5700.0,DO 20-2021,background,,0
+RR,Francisco De Castro,ALL OTHER SUBDIVISIONS,,4700.0,DO 20-2021,background,,0
+CR,Francisco De Castro,SOUTHWOODS SUBD,,23200.0,DO 20-2021,unmatched,Casa de Monteverde (30),0
+RR,Francisco De Castro,SOUTHWOODS SUBD,,20000.0,DO 20-2021,unmatched,Casa de Monteverde (30),0
+CR,Francisco De Castro,MANDARIN HOMES SUBD,,11700.0,DO 20-2021,unmatched,Casa de Monteverde (23),0
+CR,Francisco De Castro,SUNSHINE HOMES SUBD,,10400.0,DO 20-2021,unmatched,Casa de Monteverde (23),0
+RR,Francisco De Castro,MANDARIN HOMES SUBD,,8000.0,DO 20-2021,unmatched,Casa de Monteverde (23),0
+RR,Francisco De Castro,SUNSHINE HOMES SUBD,,8000.0,DO 20-2021,unmatched,Casa de Monteverde (23),0
+CR,Francisco De Castro,PROVINCIAL/MUNICIPAL ROAD,ALONG PROVINCIAL/MUNICIPAL ROAD,7100.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+I,Francisco De Castro,PROVINCIAL/MUNICIPAL ROAD,ALONG PROVINCIAL/MUNICIPAL ROAD,5600.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+CR,Francisco De Castro,PROVINCIAL/MUNICIPAL ROAD,INTERIOR,5000.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+RR,Francisco De Castro,PROVINCIAL/MUNICIPAL ROAD,ALONG PROVINCIAL/MUNICIPAL ROAD,4200.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+I,Francisco De Castro,PROVINCIAL/MUNICIPAL ROAD,INTERIOR,4200.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+RR,Francisco De Castro,PROVINCIAL/MUNICIPAL ROAD,INTERIOR,3500.0,DO 20-2021,unmatched,Casa de Monteverde (26),0
+CR,Francisco De Castro,CASA MONTE-VERDE SUBD,,11700.0,DO 20-2021,village,Casa de Monteverde,88.23529411764706
+RR,Francisco De Castro,CASA MONTE-VERDE SUBD,,8000.0,DO 20-2021,village,Casa de Monteverde,88.23529411764706
+CR,Francisco Reyes,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,8000.0,DO 20-2021,unmatched,Mandarin Homes Subdivision 1 (0),0
+CR,Francisco Reyes,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,7100.0,DO 20-2021,unmatched,Mandarin Homes Subdivision 1 (0),0
+RR,Francisco Reyes,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,6100.0,DO 20-2021,unmatched,Mandarin Homes Subdivision 1 (0),0
+I,Francisco Reyes,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,5200.0,DO 20-2021,unmatched,Mandarin Homes Subdivision 1 (0),0
+RR,Francisco Reyes,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,4200.0,DO 20-2021,unmatched,Mandarin Homes Subdivision 1 (0),0
+CR,Gavino Maderan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7800.0,DO 20-2021,background,,0
+I,Gavino Maderan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7100.0,DO 20-2021,background,,0
+CR,Gavino Maderan,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+RR,Gavino Maderan,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5900.0,DO 20-2021,background,,0
+I,Gavino Maderan,ALL OTHER STREETS,INTERIOR,5500.0,DO 20-2021,background,,0
+RR,Gavino Maderan,ALL OTHER STREETS,INTERIOR,5000.0,DO 20-2021,background,,0
+CR,Gavino Maderan,GOVERNOR'S DRIVE,ALONG GOVERNOR'S DRIVE,25300.0,DO 20-2021,street,Governor's Drive,100
+RR,Gavino Maderan,GOVERNOR'S DRIVE,ALONG GOVERNOR'S DRIVE,14100.0,DO 20-2021,street,Governor's Drive,100
+CR,Gavino Maderan,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,16100.0,DO 20-2021,unmatched,Dasmariñas (42),0
+I,Gavino Maderan,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,13200.0,DO 20-2021,unmatched,Dasmariñas (42),0
+CR,Gavino Maderan,BARANGAY ROAD,PALAWAN AVENUE,11400.0,DO 20-2021,unmatched,Dasmariñas (47),0
+CR,Gavino Maderan,BARANGAY ROAD,LUZON AVENUE,11400.0,DO 20-2021,unmatched,Dasmariñas (47),0
+CR,Gavino Maderan,BARANGAY ROAD,VISAYAS AVENUE,11400.0,DO 20-2021,unmatched,Dasmariñas (47),0
+CR,Gavino Maderan,BARANGAY ROAD,MINDANAO AVENUE,11400.0,DO 20-2021,unmatched,Dasmariñas (47),0
+RR,Gavino Maderan,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,10400.0,DO 20-2021,unmatched,Dasmariñas (42),0
+I,Gavino Maderan,BARANGAY ROAD,PALAWAN AVENUE,8600.0,DO 20-2021,unmatched,Dasmariñas (47),0
+I,Gavino Maderan,BARANGAY ROAD,LUZON AVENUE,8600.0,DO 20-2021,unmatched,Dasmariñas (47),0
+I,Gavino Maderan,BARANGAY ROAD,VISAYAS AVENUE,8600.0,DO 20-2021,unmatched,Dasmariñas (47),0
+I,Gavino Maderan,BARANGAY ROAD,MINDANAO AVENUE,8600.0,DO 20-2021,unmatched,Dasmariñas (47),0
+RR,Gavino Maderan,BARANGAY ROAD,PALAWAN AVENUE,7600.0,DO 20-2021,unmatched,Dasmariñas (47),0
+RR,Gavino Maderan,BARANGAY ROAD,LUZON AVENUE,7600.0,DO 20-2021,unmatched,Dasmariñas (47),0
+RR,Gavino Maderan,BARANGAY ROAD,VISAYAS AVENUE,7600.0,DO 20-2021,unmatched,Dasmariñas (47),0
+RR,Gavino Maderan,BARANGAY ROAD,MINDANAO AVENUE,7600.0,DO 20-2021,unmatched,Dasmariñas (47),0
+CR,Gregoria De Jesus,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,8300.0,DO 20-2021,unmatched,Stonecrest (30),0
+CR,Gregoria De Jesus,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,7300.0,DO 20-2021,unmatched,Stonecrest (30),0
+RR,Gregoria De Jesus,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,6300.0,DO 20-2021,unmatched,Stonecrest (30),0
+I,Gregoria De Jesus,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,5300.0,DO 20-2021,unmatched,Stonecrest (30),0
+RR,Gregoria De Jesus,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,4500.0,DO 20-2021,unmatched,Stonecrest (30),0
+CR,Inocencio Salud,BARANGAY ROAD,ALONG BARANGAY ROAD,6200.0,DO 20-2021,unmatched,,0
+I,Inocencio Salud,BARANGAY ROAD,ALONG BARANGAY ROAD,5700.0,DO 20-2021,unmatched,,0
+RR,Inocencio Salud,BARANGAY ROAD,ALONG BARANGAY ROAD,4800.0,DO 20-2021,unmatched,,0
+CR,Jacinto Lumbreras,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6900.0,DO 20-2021,background,,0
+I,Jacinto Lumbreras,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6100.0,DO 20-2021,background,,0
+RR,Jacinto Lumbreras,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4200.0,DO 20-2021,background,,0
+RR,Jacinto Lumbreras,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Jacinto Lumbreras,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,7800.0,DO 20-2021,unmatched,Dasmariñas (42),0
+CR,Jacinto Lumbreras,ROAD LOT 2,ALONG ROAD LOT 2,7600.0,DO 20-2021,unmatched,Tahanan Village (0),0
+RR,Jacinto Lumbreras,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,5900.0,DO 20-2021,unmatched,Dasmariñas (42),0
+RR,Jacinto Lumbreras,ROAD LOT 2,ALONG ROAD LOT 2,5200.0,DO 20-2021,unmatched,Tahanan Village (0),0
+CR,Koronel Jose P. Elises,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,7600.0,DO 20-2021,unmatched,,0
+CR,Koronel Jose P. Elises,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,5900.0,DO 20-2021,unmatched,,0
+I,Koronel Jose P. Elises,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,5700.0,DO 20-2021,unmatched,,0
+RR,Koronel Jose P. Elises,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,5200.0,DO 20-2021,unmatched,,0
+RR,Koronel Jose P. Elises,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,4200.0,DO 20-2021,unmatched,,0
+CR,Macario Dacon,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,4700.0,DO 20-2021,unmatched,Pahara Southwoods (28),0
+RR,Macario Dacon,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,3800.0,DO 20-2021,unmatched,Pahara Southwoods (28),0
+CR,Macario Dacon,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,3800.0,DO 20-2021,unmatched,Pahara Southwoods (28),0
+I,Macario Dacon,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,3600.0,DO 20-2021,unmatched,Pahara Southwoods (28),0
+RR,Macario Dacon,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,2800.0,DO 20-2021,unmatched,Pahara Southwoods (28),0
+CR,Marcelino Memije,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6900.0,DO 20-2021,background,,0
+I,Marcelino Memije,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5900.0,DO 20-2021,background,,0
+RR,Marcelino Memije,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4200.0,DO 20-2021,background,,0
+RR,Marcelino Memije,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,Marcelino Memije,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,7800.0,DO 20-2021,unmatched,Terraverde Residences (33),0
+RR,Marcelino Memije,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,5900.0,DO 20-2021,unmatched,Terraverde Residences (33),0
+CR,Nicolasa Virata,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6900.0,DO 20-2021,background,,0
+I,Nicolasa Virata,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5900.0,DO 20-2021,background,,0
+CR,Nicolasa Virata,ALL OTHER STREETS,INTERIOR,5000.0,DO 20-2021,background,,0
+RR,Nicolasa Virata,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4200.0,DO 20-2021,background,,0
+I,Nicolasa Virata,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+RR,Nicolasa Virata,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Nicolasa Virata,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,8000.0,DO 20-2021,unmatched,Stonecrest (30),0
+CR,Nicolasa Virata,ROAD LOT 8,ALONG ROAD LOT 8,7600.0,DO 20-2021,unmatched,Stonecrest (0),0
+CR,Nicolasa Virata,ROAD LOT 12,ALONG ROAD LOT 12,7600.0,DO 20-2021,unmatched,Stonecrest (0),0
+RR,Nicolasa Virata,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,6100.0,DO 20-2021,unmatched,Stonecrest (30),0
+RR,Nicolasa Virata,ROAD LOT 8,ALONG ROAD LOT 8,5200.0,DO 20-2021,unmatched,Stonecrest (0),0
+RR,Nicolasa Virata,ROAD LOT 12,ALONG ROAD LOT 12,5200.0,DO 20-2021,unmatched,Stonecrest (0),0
+CR,Pantaleon Granados,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6900.0,DO 20-2021,background,,0
+I,Pantaleon Granados,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5700.0,DO 20-2021,background,,0
+RR,Pantaleon Granados,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4200.0,DO 20-2021,background,,0
+RR,Pantaleon Granados,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,Pantaleon Granados,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,7800.0,DO 20-2021,unmatched,,0
+CR,Pantaleon Granados,ROAD LOT 1,ALONG ROAD LOT 1,7600.0,DO 20-2021,unmatched,,0
+CR,Pantaleon Granados,ROAD LOT 22,ALONG ROAD LOT 22,7600.0,DO 20-2021,unmatched,,0
+RR,Pantaleon Granados,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,5900.0,DO 20-2021,unmatched,,0
+RR,Pantaleon Granados,ROAD LOT 1,ALONG ROAD LOT 1,5000.0,DO 20-2021,unmatched,,0
+RR,Pantaleon Granados,ROAD LOT 22,ALONG ROAD LOT 22,5000.0,DO 20-2021,unmatched,,0
+CR,Ramon Cruz,BARANGAY ROAD,ALONG BARANGAY ROAD,6900.0,DO 20-2021,unmatched,Dasmariñas (47),0
+I,Ramon Cruz,BARANGAY ROAD,ALONG BARANGAY ROAD,5900.0,DO 20-2021,unmatched,Dasmariñas (47),0
+RR,Ramon Cruz,BARANGAY ROAD,ALONG BARANGAY ROAD,4200.0,DO 20-2021,unmatched,Dasmariñas (47),0
+RR,Ramon Cruz,BARANGAY ROAD,INTERIOR,3000.0,DO 20-2021,unmatched,Dasmariñas (47),0
+CR,San Gabriel,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7100.0,DO 20-2021,background,,0
+I,San Gabriel,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6100.0,DO 20-2021,background,,0
+CR,San Gabriel,ALL OTHER STREETS,INTERIOR,6000.0,DO 20-2021,background,,0
+CR,San Gabriel,ALL OTHER SUBDIVISIONS,,6000.0,DO 20-2021,background,,0
+I,San Gabriel,ALL OTHER STREETS,INTERIOR,5000.0,DO 20-2021,background,,0
+RR,San Gabriel,ALL OTHER SUBDIVISIONS,,4800.0,DO 20-2021,background,,0
+RR,San Gabriel,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4500.0,DO 20-2021,background,,0
+RR,San Gabriel,ALL OTHER STREETS,INTERIOR,3500.0,DO 20-2021,background,,0
+CR,San Gabriel,GOVERNORS's DRIVE,ALONG GOVERNOR'S DRIVE,25300.0,DO 20-2021,street,Governor's Drive,96.2962962962963
+I,San Gabriel,GOVERNORS's DRIVE,ALONG GOVERNOR'S DRIVE,18200.0,DO 20-2021,street,Governor's Drive,96.2962962962963
+RR,San Gabriel,GOVERNORS's DRIVE,ALONG GOVERNOR'S DRIVE,13600.0,DO 20-2021,street,Governor's Drive,96.2962962962963
+CR,San Gabriel,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,8600.0,DO 20-2021,unmatched,Karunungan Village (30),0
+CR,San Gabriel,TEACHER'S VILLAGE (NHA),,7700.0,DO 20-2021,unmatched,Tahanan Village (43),0
+I,San Gabriel,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,7500.0,DO 20-2021,unmatched,Karunungan Village (30),0
+RR,San Gabriel,PROVINCIAL ROAD,ALONG PROVINCIAL ROAD,6600.0,DO 20-2021,unmatched,Karunungan Village (30),0
+RR,San Gabriel,TEACHER'S VILLAGE (NHA),,6000.0,DO 20-2021,unmatched,Tahanan Village (43),0
+CR,San Jose,ALL OTHER SUBDIVISION,,7000.0,DO 20-2021,background,,0
+CR,San Jose,ALL OTHER STREETS,ALONG ALL OTHER STREETS,6900.0,DO 20-2021,background,,0
+I,San Jose,ALL OTHER STREETS,ALONG ALL OTHER STREETS,5900.0,DO 20-2021,background,,0
+CR,San Jose,ALL OTHER STREETS,INTERIOR,5000.0,DO 20-2021,background,,0
+RR,San Jose,ALL OTHER SUBDIVISION,,4800.0,DO 20-2021,background,,0
+RR,San Jose,ALL OTHER STREETS,ALONG ALL OTHER STREETS,4200.0,DO 20-2021,background,,0
+I,San Jose,ALL OTHER STREETS,INTERIOR,4000.0,DO 20-2021,background,,0
+RR,San Jose,ALL OTHER STREETS,INTERIOR,3000.0,DO 20-2021,background,,0
+CR,San Jose,MANILA SOUTHWOODS,,23200.0,DO 20-2021,unmatched,Stonecrest (23),0
+RR,San Jose,MANILA SOUTHWOODS,,20000.0,DO 20-2021,unmatched,Stonecrest (23),0
+CR,San Jose,L.I. REGIDOR AVE,ALONG L.I REGIDOR AVE.,10000.0,DO 20-2021,unmatched,Juana 3 (0),0
+RR,San Jose,L.I. REGIDOR AVE,ALONG L.I REGIDOR AVE.,7000.0,DO 20-2021,unmatched,Juana 3 (0),0
+CR,Severino De Las Alas,ALL OTHER SUBDIVISIONS,,6700.0,DO 20-2021,background,,0
+RR,Severino De Las Alas,ALL OTHER SUBDIVISIONS,,5700.0,DO 20-2021,background,,0
+CR,Severino De Las Alas,RIVERVIEW SUBDIVISION,,10400.0,DO 20-2021,unmatched,Riverview Place West (95),0
+RR,Severino De Las Alas,RIVERVIEW SUBDIVISION,,8500.0,DO 20-2021,unmatched,Riverview Place West (95),0
+CR,Severino De Las Alas,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,7100.0,DO 20-2021,unmatched,Dasmariñas (42),0
+CR,Severino De Las Alas,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,6100.0,DO 20-2021,unmatched,Dasmariñas (42),0
+I,Severino De Las Alas,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,5400.0,DO 20-2021,unmatched,Dasmariñas (42),0
+RR,Severino De Las Alas,PROVINCIAL/ MUNICIPAL ROAD,ALONG PROVINCIAL/ MUNICIPAL ROAD,5200.0,DO 20-2021,unmatched,Dasmariñas (42),0
+RR,Severino De Las Alas,PROVINCIAL/ MUNICIPAL ROAD,INTERIOR,4500.0,DO 20-2021,unmatched,Dasmariñas (42),0

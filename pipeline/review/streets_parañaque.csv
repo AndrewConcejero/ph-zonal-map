@@ -2,8 +2,10 @@ use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
 CR,B. F. Homes,ALL OTHER STREETS,,68000.0,DO 49-2023,background,,0
 CR,B. F. Homes,ALL OTHER STREETS (OUTSIDE BF HOMES SUBDIVISION),,42000.0,DO 49-2023,background,,0
 RR,B. F. Homes,ALL OTHER STREETS,,40000.0,DO 49-2023,background,,0
+I,B. F. Homes,ALL OTHER STREETS (OUTSIDE BF HOMES SUBDIVISION),,37000.0,DO 49-2023,background,,0
 RR,B. F. Homes,ALL OTHER STREETS (OUTSIDE BF HOMES SUBDIVISION),,26000.0,DO 49-2023,background,,0
 CR,B. F. Homes,DR. A. SANTOS AVENUE (FORMERLY SUCAT ROAD),,113000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
+I,B. F. Homes,DR. A. SANTOS AVENUE (FORMERLY SUCAT ROAD),,105000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
 RR,B. F. Homes,DR. A. SANTOS AVENUE (FORMERLY SUCAT ROAD),,100000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
 CR,B. F. Homes,PRESIDENT'S AVENUE,,90000.0,DO 49-2023,street,President's Avenue,100
 CR,B. F. Homes,AGUIRRE AVENUE,,87000.0,DO 49-2023,street,Aguirre Avenue,100
@@ -24,10 +26,12 @@ CR,B. F. Homes,J. L. ESCODA STREET,PRESIDENT'S AVENUE TO GNG. ELSIE GATCHES STRE
 CR,B. F. Homes,T. M. KALAW STREET,,70000.0,DO 49-2023,unmatched,Sinagtala (44),0
 CR,B. F. Homes,,,63000.0,DO 49-2023,unmatched,Pilar Executive Village (0),0
 CR,B. F. Homes,BB. L. AVELINO STREET,ELIZALDE AVENUE TO AGUIRRE AVENUE,63000.0,DO 49-2023,unmatched,Belisario Compound (48),0
+I,B. F. Homes,BF (INDUSTRIAL) VILLONGCO AVENUE,,57000.0,DO 49-2023,unmatched,Justina Village (59),0
 RR,B. F. Homes,ELIZALDE AVENUE,,48000.0,DO 49-2023,unmatched,Amelie Townhouse (57),0
 RR,B. F. Homes,ALL STREETS,,48000.0,DO 49-2023,unmatched,Amelie Townhouse (44),0
 CR,B. F. Homes,IRENEVILLE SUBDIVISION,IRENEA AVENUE,43000.0,DO 49-2023,unmatched,Teoville Subdivision (67),0
 RR,B. F. Homes,BB. L. AVELINO STREET,BF- 1 CIRCULO DOCE,42000.0,DO 49-2023,unmatched,Belisario Compound (48),0
+I,B. F. Homes,IRENEVILLE SUBDIVISION,IRENEA AVENUE,38000.0,DO 49-2023,unmatched,Teoville Subdivision (67),0
 RR,B. F. Homes,RGV HOMES,,38000.0,DO 49-2023,unmatched,VOB (33),0
 RR,B. F. Homes,IRENEVILLE SUBDIVISION,,35000.0,DO 49-2023,unmatched,Teoville Subdivision (67),0
 RR,B. F. Homes,CAMELLA HOMES SUBDIVISION,,29000.0,DO 49-2023,unmatched,Amelie Townhouse (62),0
@@ -68,6 +72,7 @@ CR,Baclaran,R.CUSTODIO ST.,,70000.0,DO 49-2023,street,R. Custodio Street,100
 CR,Baclaran,UNIDA ST,,70000.0,DO 49-2023,street,Unida Street,100
 CR,Baclaran,DIMASALANG ST.,,69000.0,DO 49-2023,street,Dimasalang Street,100
 CR,Baclaran,J CORREA ST,,69000.0,DO 49-2023,street,J. Correa Street,100
+I,Baclaran,BAGONG BUHAY ST,,68000.0,DO 49-2023,street,Bagong Buhay Street,100
 CR,Baclaran,OPENA ST,,63000.0,DO 49-2023,street,Opeña Street,100
 CR,Baclaran,PINAGLABANAN ST,,58000.0,DO 49-2023,street,Pinaglabanan Street,100
 RR,Baclaran,LAPU LAPU ST,,53000.0,DO 49-2023,street,Lapu-Lapu Street,100
@@ -114,6 +119,7 @@ RR,Baclaran,MABUHAY ST,,25000.0,DO 49-2023,street,Mabuhay Street,100
 RR,Baclaran,PINAGLABANAN ST,,25000.0,DO 49-2023,street,Pinaglabanan Street,100
 CR,Baclaran,MACAPAGAL BLVD/HIGH-WAY,,405000.0,DO 49-2023,unmatched,Royal Peak Plaza 华诚中心 (40),0
 CR,Baclaran,ASEANA BUSINESS PARK / BLVD 2000,,400000.0,DO 49-2023,unmatched,Solemare Parksuites (47),0
+I,Baclaran,MACAPAGAL BLVD/HIGH-WAY,,270000.0,DO 49-2023,unmatched,Royal Peak Plaza 华诚中心 (40),0
 CR,Baclaran,TAFT AVE EXT,,138000.0,DO 49-2023,unmatched,MidPark Towers (29),0
 CR,Baclaran,,,70000.0,DO 49-2023,unmatched,MidPark Towers (0),0
 CR,Baclaran,LT GARCIA ST,INNER AIRPORT ROAD-T CLAUDIO,68000.0,DO 49-2023,unmatched,Monarch Parksuites (38),0
@@ -130,6 +136,7 @@ RR,Baclaran,VIZCARA ST.,STA MARIA,30000.0,DO 49-2023,unmatched,Villa Josefa Carm
 RR,Baclaran,M ROXAS ST,,29000.0,DO 49-2023,unmatched,Royal Peak Plaza 华诚中心 (36),0
 RR,Baclaran,RIMAS ST.,,29000.0,DO 49-2023,unmatched,Solemare Parksuites (36),0
 CR,Don Bosco,ALL OTHER STREETS,,33500.0,DO 49-2023,background,,0
+I,Don Bosco,ALL OTHER STREETS,,33000.0,DO 49-2023,background,,0
 RR,Don Bosco,BLS ALL OTHER ANNEXES,,33000.0,DO 49-2023,background,,0
 RR,Don Bosco,ALL OTHER STREETS,,27000.0,DO 49-2023,background,,0
 CR,Don Bosco,DOÑA SOLEDAD AVENUE,,105000.0,DO 49-2023,street,Doña Soledad Avenue,100
@@ -193,8 +200,11 @@ RR,Don Bosco,REMANVILLE SUBD,,30000.0,DO 49-2023,village,Remmanville,95.23809523
 RR,Don Bosco,VALLEY VISTA,,30000.0,DO 49-2023,village,Valley Vista Village,100
 RR,Don Bosco,CHATEAU VILLE,,28000.0,DO 49-2023,village,Chateau Ville,100
 RR,Don Bosco,SANTOS COMPOUND (SAN LORENZO RUIZ),INTERIOR / ALLEY,28000.0,DO 49-2023,village,San Lorenzo Ruiz Compound,100
+I,Don Galo,ALL OTHER STREETS,,175000.0,DO 49-2023,background,,0
 CR,Don Galo,ALL OTHER STREETS,,32000.0,DO 49-2023,background,,0
 RR,Don Galo,ALL OTHER STREETS,,18000.0,DO 49-2023,background,,0
+I,Don Galo,ATLANTIC AVENUE,MACAPAGAL AVENUE,415000.0,DO 49-2023,street,Atlantic Avenue,100
+I,Don Galo,PACIFIC AVENUE,MACAPAGAL AVENUE,415000.0,DO 49-2023,street,Pacific Avenue,100
 CR,Don Galo,ATLANTIC AVENUE,MACAPAGAL AVENUE,400000.0,DO 49-2023,street,Atlantic Avenue,100
 CR,Don Galo,J.W. DIOKNO BOULEVARD/ NEW SEASIDE DRIVE,,400000.0,DO 49-2023,street,J. W. Diokno Boulevard,100
 CR,Don Galo,PACIFIC AVENUE,MACAPAGAL AVENUE,400000.0,DO 49-2023,street,Pacific Avenue,100
@@ -225,6 +235,7 @@ RR,Don Galo,GEN. LUNA STREET,,19000.0,DO 49-2023,unmatched,Luzon (46),0
 RR,Don Galo,N. MAYUGA STREET,,19000.0,DO 49-2023,unmatched,Marina Baytown East (37),0
 RR,Don Galo,PALM COAST RESIDENCES,,253000.0,DO 49-2023,village,Palm Coast Residences,100
 CR,La Huerta,ALL OTHER STREETS (OTHER THAN ALLEY),,32000.0,DO 49-2023,background,,0
+I,La Huerta,ALL OTHER STREETS (OTHER THAN ALLEY),,31000.0,DO 49-2023,background,,0
 RR,La Huerta,ALL OTHER STREETS (OTHER THAN ALLEY),,19000.0,DO 49-2023,background,,0
 CR,La Huerta,QUIRINO AVENUE,,145000.0,DO 49-2023,street,Quirino Avenue,100
 RR,La Huerta,QUIRINO AVENUE,,85000.0,DO 49-2023,street,Quirino Avenue,100
@@ -265,13 +276,20 @@ RR,La Huerta,PARANCILLO STREET,,20000.0,DO 49-2023,unmatched,Saint Andrew's Scho
 RR,La Huerta,PARANG-PARANG STREET,,20000.0,DO 49-2023,unmatched,Saint Andrew's School (31),0
 RR,La Huerta,WAWA LA HUERTA,,20000.0,DO 49-2023,unmatched,Saint Andrew's School (30),0
 CR,Marcelo Green Village,ALL OTHER STREETS,,42000.0,DO 49-2023,background,,0
+I,Marcelo Green Village,ALL OTHER STREETS,,39000.0,DO 49-2023,background,,0
 RR,Marcelo Green Village,ALL OTHER STREETS,,24000.0,DO 49-2023,background,,0
 CR,Marcelo Green Village,SOUTH SUPER HIGHWAY (WEST SERVICE ROAD),,110000.0,DO 49-2023,street,West Service Road,100
+I,Marcelo Green Village,SOUTH SUPER HIGHWAY (WEST SERVICE ROAD),,100000.0,DO 49-2023,street,West Service Road,100
 RR,Marcelo Green Village,SOUTH SUPER HIGHWAY (WEST SERVICE ROAD),,95000.0,DO 49-2023,street,West Service Road,100
+I,Marcelo Green Village,DAMA DE NOCHE,,80000.0,DO 49-2023,street,Dama de Noche Street,97
 RR,Marcelo Green Village,MAHARLIKA AVENUE,MAIN ROAD,35000.0,DO 49-2023,street,Maharlika Avenue,100
 RR,Marcelo Green Village,MAYWOOD VILL,,33000.0,DO 49-2023,street,Maywood Avenue,97
 RR,Marcelo Green Village,IRENEVILLE,,28000.0,DO 49-2023,street,Irene Ville,95.23809523809523
+I,Marcelo Green Village,ACSIE CMPD (ASSOCIATION OF COMPANIES OF SEVERINA INDUSTRIAL ESTATE),ALONG SERVICE ROAD,98000.0,DO 49-2023,unmatched,Creeksite (57),0
+I,Marcelo Green Village,,,98000.0,DO 49-2023,unmatched,Villa Pag-asa (0),0
 CR,Marcelo Green Village,UNITED PARANAQUE SUBDIVISION IV,,75000.0,DO 49-2023,unmatched,Villa Pag-asa (0),0
+I,Marcelo Green Village,UPS IV - SAMPAGUITA AVENUE,MAIN ROAD,75000.0,DO 49-2023,unmatched,Villa Pag-asa (0),0
+I,Marcelo Green Village,UNITED PARANAQUE SUBDIVISION IV,,70000.0,DO 49-2023,unmatched,Villa Pag-asa (0),0
 CR,Marcelo Green Village,,,50000.0,DO 49-2023,unmatched,Villa Pag-asa (0),0
 RR,Marcelo Green Village,UNITED PARANAQUE SUBDIVISION IV,,40000.0,DO 49-2023,unmatched,Villa Pag-asa (0),0
 RR,Marcelo Green Village,MARCELO GREEN AVE,MAIN ROAD,39000.0,DO 49-2023,unmatched,South Green Park Village (62),0
@@ -285,6 +303,7 @@ RR,Marcelo Green Village,BAGONG SIBOL,NEIGHBORHOOD ASSOC.,25000.0,DO 49-2023,unm
 RR,Marcelo Green Village,EQUITY HOMES,,25000.0,DO 49-2023,unmatched,Aquino Village Subdivision (50),0
 RR,Marcelo Green Village,REMMANVILLE ANNEX 31,,25000.0,DO 49-2023,unmatched,Annex 31 (57),0
 RR,Marcelo Green Village,UNIVERSAL SOLID HOMES,,25000.0,DO 49-2023,unmatched,Severina Diamond (45),0
+I,Marcelo Green Village,BUENSUCESO HOMES 3,INSIDE CERVANTES CMPD,99000.0,DO 49-2023,village,Buensuceso 3,100
 RR,Marcelo Green Village,SUPERVILLE,INSIDE SUPERVILLE,40000.0,DO 49-2023,village,Superville,100
 RR,Marcelo Green Village,SEVERINA AVE,MAIN ROAD,38000.0,DO 49-2023,village,Severina Diamond,95
 RR,Marcelo Green Village,MILBRAE ESTATES,,34000.0,DO 49-2023,village,Milbrae Estates,100
@@ -295,12 +314,15 @@ RR,Marcelo Green Village,SAMPAGUITA HILLS,NEIGHBORHOOD ASSOC.,25000.0,DO 49-2023
 CR,Merville,ALL OTHER STREETS,,30000.0,DO 49-2023,background,,0
 RR,Merville,ALL OTHER STREETS,,24000.0,DO 49-2023,background,,0
 CR,Merville,SOUTH SUPERHIGHWAY (WEST SERVICE ROAD),,110000.0,DO 49-2023,street,West Service Road,100
+I,Merville,SOUTH SUPERHIGHWAY (WEST SERVICE ROAD),,100000.0,DO 49-2023,street,West Service Road,100
 RR,Merville,SOUTH SUPERHIGHWAY (WEST SERVICE ROAD),,95000.0,DO 49-2023,street,West Service Road,100
 CR,Merville,MERVILLE ACCESS RD,"MOONWALK ACCESS ROAD, C-5 EXTENSION",87000.0,DO 49-2023,street,Merville Access Road,100
 CR,Merville,EDISON AVE,"WEST SERVICE ROAD, SOUTH SUPER HIGHWAY",84000.0,DO 49-2023,street,Edison Avenue,100
 RR,Merville,MERVILLE ACCESS RD,"MOONWALK ACCESS ROAD, C-5 EXTENSION",77000.0,DO 49-2023,street,Merville Access Road,100
 RR,Merville,NOMADS DRIVE,"MOONWALK ACCESS ROAD, C-5 EXTENSION, CLUB UNITED",75000.0,DO 49-2023,street,Nomads Drive,100
+I,Merville,EDISON AVE,"WEST SERVICE ROAD, SOUTH SUPER HIGHWAY",73000.0,DO 49-2023,street,Edison Avenue,100
 RR,Merville,EDISON AVE,"WEST SERVICE ROAD, SOUTH SUPER HIGHWAY",60000.0,DO 49-2023,street,Edison Avenue,100
+I,Merville,LA SUERTE COMPOUND,"WEST SERVICE ROAD, SOUTH SUPER HIGHWAY",109000.0,DO 49-2023,unmatched,Arca South (53),0
 CR,Merville,LA SUERTE COMPOUND,"WEST SERVICE ROAD, SOUTH SUPER HIGHWAY",79000.0,DO 49-2023,unmatched,Arca South (53),0
 CR,Merville,,,77000.0,DO 49-2023,unmatched,Chateau Elysée Condominiums (0),0
 CR,Merville,"SOUTH GREEN PARK VILLAGE 1,2 & 3",MERVILLE PARK SUBDIVISION,75000.0,DO 49-2023,unmatched,Chateau Elysée Condominiums (0),0
@@ -343,6 +365,7 @@ RR,Moonwalk,ST FRANCIS SUBD,,38000.0,DO 49-2023,street,Saint Francis Street,97
 RR,Moonwalk,DAANG BATANG ST.,,25000.0,DO 49-2023,street,Daang Batang,97
 CR,Moonwalk,C-5 EXTENSION,HOMEWORLD WAREHOUSE/SM WAREHOUSE,100000.0,DO 49-2023,unmatched,Levitown Ⅴ (52),0
 CR,Moonwalk,,,90000.0,DO 49-2023,unmatched,R. Medina Subdivision (0),0
+I,Moonwalk,C-5 EXTENSION,HOMEWORLD WAREHOUSE/SM WAREHOUSE,83000.0,DO 49-2023,unmatched,Levitown Ⅴ (52),0
 CR,Moonwalk,ALL STREETS,,70000.0,DO 49-2023,unmatched,Alsea Homes (50),0
 CR,Moonwalk,"ARMSTRONG AVENUE I,II,III",,57000.0,DO 49-2023,unmatched,R. Medina Subdivision (0),0
 CR,Moonwalk,TLR COMPOUND,,54000.0,DO 49-2023,unmatched,Triple S (36),0
@@ -351,6 +374,7 @@ RR,Moonwalk,AKAHANA TOWNHOMES,,52000.0,DO 49-2023,unmatched,Garden Townhomes (71
 CR,Moonwalk,SAGANA VILLAGE,,50500.0,DO 49-2023,unmatched,Isabelle Garden Homes (48),0
 RR,Moonwalk,FASTRACK AVENUE,,48000.0,DO 49-2023,unmatched,Fortunata Village (47),0
 RR,Moonwalk,ALL STREETS,,48000.0,DO 49-2023,unmatched,Alsea Homes (50),0
+I,Moonwalk,,,44000.0,DO 49-2023,unmatched,R. Medina Subdivision (0),0
 RR,Moonwalk,SAGANA VILLAGE,,40000.0,DO 49-2023,unmatched,Isabelle Garden Homes (48),0
 RR,Moonwalk,SAN AGUSTIN VILLAGE,,40000.0,DO 49-2023,unmatched,Saint Catherine Village (62),0
 RR,Moonwalk,DONNAS VILLE SUBD,,39000.0,DO 49-2023,unmatched,Hiyas Ville (67),0
@@ -364,6 +388,7 @@ CR,Moonwalk,AIRPORT VILLAGE,,54000.0,DO 49-2023,village,Airport Village,100
 CR,Moonwalk,CECILIA VILLAGE,,54000.0,DO 49-2023,village,Cecilia Village,100
 CR,Moonwalk,HIYASVILLE SUBD,,54000.0,DO 49-2023,village,Hiyas Ville,90.0
 CR,Moonwalk,LAS CASAS 100,,54000.0,DO 49-2023,village,Las Casas 100,100
+I,Moonwalk,HIYASVILLE SUBD,,45000.0,DO 49-2023,village,Hiyas Ville,90.0
 RR,Moonwalk,ISABEL GARDEN HOMES,,38000.0,DO 49-2023,village,Isabelle Garden Homes,92.85714285714286
 RR,Moonwalk,BRENTWOOD HEIGHTS,,37000.0,DO 49-2023,village,Brentwood Heights,100
 RR,Moonwalk,AIRPORT VILLAGE,,35000.0,DO 49-2023,village,Airport Village,100
@@ -371,8 +396,10 @@ RR,Moonwalk,CECILIA VILLAGE,,33000.0,DO 49-2023,village,Cecilia Village,100
 RR,Moonwalk,HIYASVILLE SUBD,,28000.0,DO 49-2023,village,Hiyas Ville,90.0
 RR,Moonwalk,LAS CASAS 100,,26000.0,DO 49-2023,village,Las Casas 100,100
 CR,San Antonio,ALL OTHER STREETS,,42000.0,DO 49-2023,background,,0
+I,San Antonio,ALL OTHER STREETS,,39000.0,DO 49-2023,background,,0
 RR,San Antonio,ALL OTHER STREETS,,23000.0,DO 49-2023,background,,0
 CR,San Antonio,DR. A. SANTOS AVENUE,,113000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
+I,San Antonio,DR. A. SANTOS AVENUE,,105000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
 RR,San Antonio,DR. A. SANTOS AVENUE,,100000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
 CR,San Antonio,SAN ANTONIO AVENUE,DR. A SANTOS AVE.,55000.0,DO 49-2023,street,San Antonio Avenue,100
 RR,San Antonio,SAN ANTONIO AVENUE,DR. A SANTOS AVE.,45000.0,DO 49-2023,street,San Antonio Avenue,100
@@ -380,6 +407,7 @@ CR,San Antonio,MELITON ESPIRITU COMPOUND,DR. A SANTOS AVE.,43000.0,DO 49-2023,st
 RR,San Antonio,MELITON ESPIRITU COMPOUND,DR. A SANTOS AVE.,33000.0,DO 49-2023,street,Meliton Espiritu Avenue,97
 RR,San Antonio,PASCUAL COMPOUND,DR. A SANTOS AVE.,33000.0,DO 49-2023,street,Pascual Compound,100
 CR,San Antonio,SOUTH SUPER HIGHWAY,,105000.0,DO 49-2023,unmatched,Amaia Steps Sucat (46),0
+I,San Antonio,,,100000.0,DO 49-2023,unmatched,Justina Village (0),0
 CR,San Antonio,,,50000.0,DO 49-2023,unmatched,Justina Village (0),0
 RR,San Antonio,"SAN ANTONIO VALLEY (PH 1,3,5, 7,8,9,10&11)",DR. A SANTOS AVE.,45000.0,DO 49-2023,unmatched,Lower San Antonio (63),0
 CR,San Antonio,SEACOM COMPOUND,DR. A SANTOS AVE.,45000.0,DO 49-2023,unmatched,Welcome Village (62),0
@@ -411,10 +439,12 @@ RR,San Antonio,WELCOME VILLAGE,SAV I,29000.0,DO 49-2023,village,Welcome Village,
 RR,San Antonio,DREAMLAND SUBDIVISION,FOURTH ESTATE,25000.0,DO 49-2023,village,Dreamland Sucat Subdivision,95
 RR,San Antonio,EL PUENTEBELLO SUBDIVISION,FOURTH ESTATE,25000.0,DO 49-2023,village,El Puentebello,100
 RR,San Antonio,JARN COMPOUND,FOURTH ESTATE,25000.0,DO 49-2023,village,JARN Compound,100
+I,San Dionisio,ALL OTHER STREETS,,44000.0,DO 49-2023,background,,0
 CR,San Dionisio,ALL OTHER STREETS,,39000.0,DO 49-2023,background,,0
 RR,San Dionisio,ALL OTHER STREETS,,19000.0,DO 49-2023,background,,0
 CR,San Dionisio,QUIRINO AVENUE,,148000.0,DO 49-2023,street,Quirino Avenue,100
 CR,San Dionisio,DR. A. SANTOS AVENUE,,113000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
+I,San Dionisio,DR. A. SANTOS AVENUE,,105000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
 RR,San Dionisio,DR. A. SANTOS AVENUE,,100000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
 RR,San Dionisio,QUIRINO AVENUE,,70000.0,DO 49-2023,street,Quirino Avenue,100
 CR,San Dionisio,JUANITA DE LEON STREET,,60000.0,DO 49-2023,street,Juanita de Leon Street,100
@@ -440,6 +470,7 @@ RR,San Dionisio,MAMANTE STREET,,23000.0,DO 49-2023,street,Mamamante Street,90.90
 RR,San Dionisio,VITALEZ STREET,,23000.0,DO 49-2023,street,Vitalez Street,100
 CR,San Dionisio,N. AQUINO AVENUE (same with B. AQUINO),,125000.0,DO 49-2023,unmatched,Aurenina Village (50),0
 CR,San Dionisio,AMVEL CITY/AMVEL BUSINESS PARK/CALANG-CALANGAN,,120000.0,DO 49-2023,unmatched,Amvel Mansions (61),0
+I,San Dionisio,,,110000.0,DO 49-2023,unmatched,Woodrow 3 (0),0
 CR,San Dionisio,AGUINALDO HI-WAY/COASTAL ROAD,,106000.0,DO 49-2023,unmatched,Saint Andrew's School (47),0
 RR,San Dionisio,AGUINALDO HI-WAY/COASTAL ROAD,,92000.0,DO 49-2023,unmatched,Saint Andrew's School (47),0
 RR,San Dionisio,N. AQUINO AVENUE (same with B. AQUINO),,88000.0,DO 49-2023,unmatched,Aurenina Village (50),0
@@ -467,9 +498,11 @@ RR,San Dionisio,SAN ANTONIO DE PADUA STREET,TRAMO LINES,23000.0,DO 49-2023,unmat
 RR,San Dionisio,TRAMO LINES STREET,,23000.0,DO 49-2023,unmatched,Lim Compound (46),0
 RR,San Dionisio,JALEVILLE SUBDIVISION,,49000.0,DO 49-2023,village,Jaleville,100
 RR,San Dionisio,R MEDINA / SUBDIVISION,,25000.0,DO 49-2023,village,R. Medina Subdivision,100
+I,San Isidro,ALL OTHER STREETS,,32000.0,DO 49-2023,background,,0
 CR,San Isidro,ALL OTHER STREETS,,29000.0,DO 49-2023,background,,0
 RR,San Isidro,ALL OTHER STREETS,,19000.0,DO 49-2023,background,,0
 CR,San Isidro,DR. A. SANTOS AVE.,,113000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
+I,San Isidro,DR. A. SANTOS AVE.,,105000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
 RR,San Isidro,DR. A. SANTOS AVE.,,100000.0,DO 49-2023,street,Dr. A. Santos Avenue,100
 CR,San Isidro,N. LOPEZ AVE.,"NEAR LOPEZ VILLAGE 1,2",60000.0,DO 49-2023,street,N. Lopez Avenue,100
 CR,San Isidro,CLARMEN VILLAGE,ALONG DR. A. SANTOS AVE.,39000.0,DO 49-2023,street,Clarmen Road,97
@@ -479,6 +512,7 @@ RR,San Isidro,CLARMEN VILLAGE,ALONG DR. A. SANTOS AVE.,29000.0,DO 49-2023,street
 RR,San Isidro,CREEK DRIVE,ALONG DR. A. SANTOS AVE.,28000.0,DO 49-2023,street,Creek Drive,100
 RR,San Isidro,RAMOS ST. / RAMOS APARTMENT,ALONG DR. A. SANTOS AVE.,28000.0,DO 49-2023,street,Ramos Street,100
 RR,San Isidro,TOPLAND SUBD.,INSIDE SAN ANTONIO VALLEY,28000.0,DO 49-2023,street,Topland Street,97
+I,San Isidro,,,49000.0,DO 49-2023,unmatched,KK Subdivision (0),0
 CR,San Isidro,,,40000.0,DO 49-2023,unmatched,KK Subdivision (0),0
 CR,San Isidro,"SAN ANTONIO VALLEY (SAV) - PHASE 2, 6, 12, 13, 14 & 15",ALONG DR. A. SANTOS AVE.,39000.0,DO 49-2023,unmatched,Salvador Estate (55),0
 RR,San Isidro,SANDIVILLE SUBD.,ALONG DR. A. SANTOS AVE.,30000.0,DO 49-2023,unmatched,Remmanville (67),0
@@ -531,8 +565,10 @@ RR,San Isidro,VALENTINO EXECUTIVE VILLAGE,INSIDE FORTUNATA VILLAGE,25000.0,DO 49
 RR,San Isidro,EL PASEO DE FORTUNATA SUBD.,INSIDE FORTUNATA VILLAGE,24000.0,DO 49-2023,village,El Paseo de Fortunata,100
 RR,San Isidro,EQUITY HOMES IV,INSIDE SAN ANTONIO VALLEY,24000.0,DO 49-2023,village,Equity Homes 4,100
 CR,San Martin De Porres,ALL OTHER STREETS,,28000.0,DO 49-2023,background,,0
+I,San Martin De Porres,ALL OTHER STREETS,,28000.0,DO 49-2023,background,,0
 RR,San Martin De Porres,ALL OTHER STREETS,,19000.0,DO 49-2023,background,,0
 CR,San Martin De Porres,EAST SERVICE RD.,,113000.0,DO 49-2023,street,East Service Road,100
+I,San Martin De Porres,EAST SERVICE RD.,,100000.0,DO 49-2023,street,East Service Road,100
 RR,San Martin De Porres,EAST SERVICE RD.,,95000.0,DO 49-2023,street,East Service Road,100
 CR,San Martin De Porres,DAANG HARI AVE,PERPETUAL VILLAGE,50000.0,DO 49-2023,street,Daang Hari,97
 RR,San Martin De Porres,DAANG HARI ST.,NEAR ARCA SOUTH,48000.0,DO 49-2023,street,Daang Hari,97
@@ -541,6 +577,8 @@ RR,San Martin De Porres,DAANG HARI AVE,PERPETUAL VILLAGE,34000.0,DO 49-2023,stre
 CR,San Martin De Porres,GEN. SANTOS AVE.,NEAR BICUTAN,85000.0,DO 49-2023,unmatched,Sitio Pagkakaisa (40),0
 CR,San Martin De Porres,MARIAN BUSINESS PARK (MARIAN & MARIAN II),ALONG EAST SERVICE RD.,82000.0,DO 49-2023,unmatched,Marian Lakeview Park (70),0
 CR,San Martin De Porres,,,79000.0,DO 49-2023,unmatched,Posadas Village (0),0
+I,San Martin De Porres,MARIAN BUSINESS PARK (MARIAN & MARIAN II),ALONG EAST SERVICE RD.,73000.0,DO 49-2023,unmatched,Marian Lakeview Park (70),0
+I,San Martin De Porres,,,69000.0,DO 49-2023,unmatched,Posadas Village (0),0
 RR,San Martin De Porres,GEN. SANTOS AVE.,NEAR BICUTAN,65000.0,DO 49-2023,unmatched,Sitio Pagkakaisa (40),0
 RR,San Martin De Porres,MARIAN BUSINESS PARK (MARIAN & MARIAN II),ALONG EAST SERVICE RD.,47000.0,DO 49-2023,unmatched,Marian Lakeview Park (70),0
 RR,San Martin De Porres,SITIO MARIAN 1,,36000.0,DO 49-2023,unmatched,Marcelo Green Village Phase 1 (41),0
@@ -558,6 +596,7 @@ RR,San Martin De Porres,"UNITED HILLS VILLAGE (VILL I, II, III) (UNITED HILLS )"
 RR,San Martin De Porres,MAKATI SOUTH HILLS SUBD./MAKATI SOUTH ARCADE,ALONG EAST SERVICE RD.,38000.0,DO 49-2023,village,Makati South Hills,100
 RR,San Martin De Porres,TINZEL HOMES,INSIDE PERPETUAL VILLAGE,33000.0,DO 49-2023,village,Tinzel Homes,100
 CR,Santo Niño,ALL OTHER STREETS,,26000.0,DO 49-2023,background,,0
+I,Santo Niño,ALL OTHER STREETS,,23000.0,DO 49-2023,background,,0
 RR,Santo Niño,ALL OTHER STREETS,,17000.0,DO 49-2023,background,,0
 CR,Santo Niño,MULTINATIONAL AVE,,80000.0,DO 49-2023,street,Multinational Avenue,100
 CR,Santo Niño,PASCOR DRIVE,,80000.0,DO 49-2023,street,Pascor Drive,100
@@ -578,8 +617,10 @@ RR,Santo Niño,ROSAL ST,,20000.0,DO 49-2023,street,Rosal Street,100
 RR,Santo Niño,DANDAN ST,,18000.0,DO 49-2023,street,P. Dandan Street,90.0
 RR,Santo Niño,ILANG-ILANG ST,,18000.0,DO 49-2023,street,Ilang-ilang Street,100
 CR,Santo Niño,N AQUINO AVE (B AQUINO AVE) (FORMERLY IMELDA AVENUE),,130000.0,DO 49-2023,unmatched,Rivera Village (50),0
+I,Santo Niño,N AQUINO AVE (B AQUINO AVE) (FORMERLY IMELDA AVENUE),,113000.0,DO 49-2023,unmatched,Rivera Village (50),0
 CR,Santo Niño,,,100000.0,DO 49-2023,unmatched,Saint Andrew's School (0),0
 RR,Santo Niño,N AQUINO AVE (B AQUINO AVE) (FORMERLY IMELDA AVENUE),,88000.0,DO 49-2023,unmatched,Rivera Village (50),0
+I,Santo Niño,,,70000.0,DO 49-2023,unmatched,Saint Andrew's School (0),0
 RR,Santo Niño,KAINGIN ROAD/ C-5 EXTENSION,,65000.0,DO 49-2023,unmatched,Gat Mendoza Housing (38),0
 CR,Santo Niño,COL E DE LEON ST (DAMAYAN),,55000.0,DO 49-2023,unmatched,Hengtai Gold Mansion (48),0
 RR,Santo Niño,COL E DE LEON ST (DAMAYAN),,35000.0,DO 49-2023,unmatched,Hengtai Gold Mansion (48),0
@@ -602,9 +643,11 @@ RR,Santo Niño,VALENZUELA COMPOUND,,18000.0,DO 49-2023,unmatched,Vitalez Compoun
 CR,Santo Niño,PACIFIC GRAND VILLA,,70000.0,DO 49-2023,village,Pacific Grand Villa,100
 RR,Santo Niño,PACIFIC GRAND VILLA,,35000.0,DO 49-2023,village,Pacific Grand Villa,100
 CR,Sun Valley,ALL OTHER STREETS,,42000.0,DO 49-2023,background,,0
+I,Sun Valley,ALL OTHER STREETS,,39000.0,DO 49-2023,background,,0
 RR,Sun Valley,ALL OTHER STREETS,,27000.0,DO 49-2023,background,,0
 CR,Sun Valley,SAMPAGUITA ROAD,WEST SERVICE ROAD,94000.0,DO 49-2023,street,Sampaguita,97
 CR,Sun Valley,EDISON AVENUE,,84000.0,DO 49-2023,street,Edison Avenue,100
+I,Sun Valley,EDISON AVENUE,,73000.0,DO 49-2023,street,Edison Avenue,100
 RR,Sun Valley,EDISON AVENUE,,60000.0,DO 49-2023,street,Edison Avenue,100
 CR,Sun Valley,SUN VALLEY DRIVE,,60000.0,DO 49-2023,street,Sun Valley Drive,100
 RR,Sun Valley,SUN VALLEY DRIVE,,45000.0,DO 49-2023,street,Sun Valley Drive,100
@@ -613,9 +656,11 @@ RR,Sun Valley,DAFFODIL ST.,,29000.0,DO 49-2023,street,Daffodil Street,100
 RR,Sun Valley,DAFFODIL SUBDIVISION,,29000.0,DO 49-2023,street,Daffodil Street,97
 RR,Sun Valley,HAPPY GLEN LOOP,,28000.0,DO 49-2023,street,Happy Glen Loop,100
 CR,Sun Valley,SOUTH SUPER HIGHWAY,WEST SERVICE ROAD,110000.0,DO 49-2023,unmatched,City Square Country Homes (53),0
+I,Sun Valley,SOUTH SUPER HIGHWAY,WEST SERVICE ROAD,100000.0,DO 49-2023,unmatched,City Square Country Homes (53),0
 RR,Sun Valley,SOUTH SUPER HIGHWAY,WEST SERVICE ROAD,95000.0,DO 49-2023,unmatched,City Square Country Homes (53),0
 RR,Sun Valley,KASA BERDE TOWNHOMES (CDC),INSIDE LIONS PARK RESIDENCES STA. ANA DRIVE,56000.0,DO 49-2023,unmatched,South Pointe Townhomes (60),0
 CR,Sun Valley,,,53000.0,DO 49-2023,unmatched,Chateau Ville (0),0
+I,Sun Valley,,,47000.0,DO 49-2023,unmatched,Chateau Ville (0),0
 RR,Sun Valley,ANNEX 41 UPPER (previously named 41A),,45000.0,DO 49-2023,unmatched,Annex 41 (73),0
 CR,Sun Valley,"PARKVIEW HOMES I, II, III, IV",,44000.0,DO 49-2023,unmatched,Chateau Ville (0),0
 CR,Sun Valley,RAMOS VILLAGE,,43000.0,DO 49-2023,unmatched,Candida Ramos Village (50),0
@@ -645,6 +690,7 @@ RR,Sun Valley,CUL DE SAC COMPOUND,,34000.0,DO 49-2023,village,Santo Niño del Cu
 RR,Sun Valley,STA. ANA DRIVE,,30000.0,DO 49-2023,village,Santa Ana Village,87.5
 RR,Sun Valley,ANNEX 41,,28000.0,DO 49-2023,village,Annex 41,100
 RR,Sun Valley,ANNEX 45,,28000.0,DO 49-2023,village,Annex 45,100
+I,Tambo,ALL OTHER STREETS,,43000.0,DO 49-2023,background,,0
 CR,Tambo,ALL OTHER STREETS,,35000.0,DO 49-2023,background,,0
 RR,Tambo,ALL OTHER STREETS,,23000.0,DO 49-2023,background,,0
 CR,Tambo,J.W. DIOKNO BOULEVARD,,400000.0,DO 49-2023,street,J. W. Diokno Boulevard,100
@@ -671,6 +717,7 @@ CR,Tambo,QUIRINO AVENUE,INTERIOR NEAR MERALCO,57000.0,DO 49-2023,street,Quirino 
 CR,Tambo,QUIRINO AVENUE,T. ALONZO -MIA RD/MIA RD - DON GALO,57000.0,DO 49-2023,street,Quirino Avenue,100
 CR,Tambo,QUIRINO AVENUE,BOUNDARY DONGALO/TAMBO,57000.0,DO 49-2023,street,Quirino Avenue,100
 CR,Tambo,KATIGBAK DRIVE,,55000.0,DO 49-2023,street,Katigbak Drive,100
+I,Tambo,16TH STREET,,47000.0,DO 49-2023,street,16th Street,100
 RR,Tambo,QUIRINO AVENUE,INTERIOR,45000.0,DO 49-2023,street,Quirino Avenue,100
 RR,Tambo,TAMARAW COURT,,45000.0,DO 49-2023,street,Tamaraw Court,100
 RR,Tambo,VALUENZUELA STREET,,45000.0,DO 49-2023,street,Valenzuela Street,96.2962962962963
@@ -703,6 +750,7 @@ CR,Tambo,MACAPAGAL AVENUE,,405000.0,DO 49-2023,unmatched,Mayuga Compound (53),0
 CR,Tambo,ASEANA BUSINESS PARK/ ASEANA CITY,ASEAN AVENUE,400000.0,DO 49-2023,unmatched,Casiana Towers (58),0
 CR,Tambo,BRADCO AVENUE,,400000.0,DO 49-2023,unmatched,Bayside Court (53),0
 CR,Tambo,AGUINALDO HIGHWAY,E. AGUINALDO HIGHWAY,275000.0,DO 49-2023,unmatched,Royal View Garden (41),0
+I,Tambo,MACAPAGAL AVENUE,,270000.0,DO 49-2023,unmatched,Mayuga Compound (53),0
 CR,Tambo,MANILA BAY RESORTS ENTERTAINMENT CITY,,258000.0,DO 49-2023,unmatched,Bayshore Residential Resort (57),0
 CR,Tambo,NEW SEASIDE DRIVE,,258000.0,DO 49-2023,unmatched,SunnyPlace Residences (52),0
 RR,Tambo,MARINA SUBDIVISION (EAST & WEST),,244000.0,DO 49-2023,unmatched,Tropicana Village (53),0
@@ -736,9 +784,11 @@ RR,Tambo,BAYVIEW VILLAGE,,85000.0,DO 49-2023,village,Bayview Village,100
 RR,Tambo,BAYSIDE COURT,,60000.0,DO 49-2023,village,Bayside Court,100
 RR,Tambo,RIVERVIEW COMPOUND,,25000.0,DO 49-2023,village,Riverview Compound,100
 CR,Vitalez,ALL OTHER STREETS,,50000.0,DO 49-2023,background,,0
+I,Vitalez,ALL OTHER STREETS,,47000.0,DO 49-2023,background,,0
 RR,Vitalez,ALL OTHER STREETS,,24000.0,DO 49-2023,background,,0
 RR,Vitalez,AIRLANE VILL,,25000.0,DO 49-2023,street,Airlane Road,97
 CR,Vitalez,,,150000.0,DO 49-2023,unmatched,Rivera Village (0),0
+I,Vitalez,,,55000.0,DO 49-2023,unmatched,Rivera Village (0),0
 RR,Vitalez,AIRPORT VILLAGE (FORMERLY PART OF BALTAO SUBD.),,25000.0,DO 49-2023,unmatched,Aeroville (38),0
 RR,Vitalez,GATCHALIAN MENDOZA,CARGOHAUS COMPOUND,25000.0,DO 49-2023,unmatched,Gat Mendoza Housing (76),0
 RR,Vitalez,JETLANE VILLAGE,,25000.0,DO 49-2023,unmatched,Vitalez Compound (43),0
