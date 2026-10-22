@@ -87,7 +87,7 @@ const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as 
 const state = {
   mode: 'typ' as Mode,
   basis: 'raw' as Basis,
-  use: 'res' as 'res' | 'com',
+  use: 'res' as Use,
   order: 'top' as 'top' | 'bottom',
   satellite: false,
   transport: false,
@@ -101,7 +101,7 @@ let cities: Collection<CityProps>;
 let meta: Meta;
 // Street- and village-level values (pipeline/streets.py), one file per Metro Manila city, loaded when zoomed in
 interface StreetProps { n: string; osm: string; v: number; v_a?: number; vmin?: number; vmin_a?: number; rows?: number;
-  k: 'village' | 'segment' | 'street'; u: 'r' | 'c'; b: string; c: string; do: string; eff?: string; vic?: string; g?: number }
+  k: 'village' | 'segment' | 'street'; u: 'r' | 'c' | 'i'; b: string; c: string; do: string; eff?: string; vic?: string; g?: number }
 interface StreetIndex { [city: string]: { file: string; bbox: [number, number, number, number]; features: number } }
 let streetIndex: StreetIndex = {};
 const streetFeatures: Collection<StreetProps>['features'] = [];
@@ -290,19 +290,24 @@ function bboxOf(g: Geometry): BBox {
   return b;
 }
 
-// commercial values sit next to residential ones as c_lo, c_typ_a, ... (pipeline/build.py)
-const pre = () => state.use === 'com' ? 'c_' : '';
+// commercial and industrial values sit next to residential ones as c_lo, i_typ_a, ... (pipeline/build.py)
+type Use = 'res' | 'com' | 'ind';
+const USE_PREFIX: Record<Use, string> = { res: '', com: 'c_', ind: 'i_' };
+const USE_CODE: Record<Use, string> = { res: 'r', com: 'c', ind: 'i' };
+const USE_WORD: Record<Use, string> = { res: 'residential', com: 'commercial', ind: 'industrial' };
+const pre = () => USE_PREFIX[state.use];
 const key = (m: Mode = state.mode, basis: Basis = state.basis) => `${pre()}${basis === 'adj' ? `${m}_a` : m}` as keyof Props;
 const qKey = () => `${pre()}q`;
-const useWord = () => state.use === 'com' ? 'commercial' : 'residential';
+const useWord = () => USE_WORD[state.use];
 /** The feature as the card and ranking should see it for the current use. */
 function view(p: Props): Props {
   if (state.use === 'res') return p;
   const c = p as unknown as Record<string, unknown>;
-  return { ...p, q: (c.c_q as Quality | undefined) ?? 'no_data', lo: c.c_lo as number, hi: c.c_hi as number, typ: c.c_typ as number,
-    lo_a: c.c_lo_a as number, hi_a: c.c_hi_a as number, typ_a: c.c_typ_a as number, g: c.c_g as number, yrs: c.c_yrs as number,
-    eff: c.c_eff as string, do: c.c_do as string, ns: c.c_ns as number, nb: c.c_nb as number, src: c.c_q === 'barangay_data' ? 'bir' : undefined,
-    typ_m: 'median', since: undefined, gs: undefined, nores: undefined, nbn: c.c_q === 'estimated' ? 'see map' : p.nbn };
+  const x = (k: string) => c[`${pre()}${k}`];
+  return { ...p, q: (x('q') as Quality | undefined) ?? 'no_data', lo: x('lo') as number, hi: x('hi') as number, typ: x('typ') as number,
+    lo_a: x('lo_a') as number, hi_a: x('hi_a') as number, typ_a: x('typ_a') as number, g: x('g') as number, yrs: x('yrs') as number,
+    eff: x('eff') as string, do: x('do') as string, ns: x('ns') as number, nb: x('nb') as number, src: x('q') === 'barangay_data' ? 'bir' : undefined,
+    typ_m: 'median', since: undefined, gs: undefined, nores: undefined, nbn: x('q') === 'estimated' ? 'see map' : p.nbn };
 }
 const valueOf = (p: Props, m: Mode = state.mode, basis: Basis = state.basis) =>
   (p[key(m, basis)] as number | undefined) ?? (p[key('typ', basis)] as number | undefined);
@@ -375,7 +380,7 @@ function fillColor(): ExpressionSpecification {
 const hatchFilter = (): ExpressionSpecification =>
   ['in', ['coalesce', ['get', qKey()], 'none'], ['literal', ['city_median', 'estimated']]];
 const useFilter = (k: ExpressionSpecification): ExpressionSpecification =>
-  ['all', k, ['==', ['get', 'u'], state.use === 'com' ? 'c' : 'r']];
+  ['all', k, ['==', ['get', 'u'], USE_CODE[state.use]]];
 
 function addLayers() {
   if (!zonal || map.getSource('zonal')) return;
@@ -644,7 +649,7 @@ function renderStreetCard(p: StreetProps) {
     <span class="pill good">${kind}</span>
     <dl>
       <dt></dt><dd class="na">as scheduled${p.v_a != null ? ` → ${year}` : ''}</dd>
-      <dt>${p.u === 'c' ? 'Commercial' : 'Residential'} land</dt><dd>${range(p.vmin, p.v)}${p.v_a != null ? ` → ${range(p.vmin_a, p.v_a)}` : ''}</dd>
+      <dt>${p.u === 'c' ? 'Commercial' : p.u === 'i' ? 'Industrial' : 'Residential'} land</dt><dd>${range(p.vmin, p.v)}${p.v_a != null ? ` → ${range(p.vmin_a, p.v_a)}` : ''}</dd>
       ${p.g != null ? `<dt>Growth rate used</dt><dd>${(p.g * 100).toFixed(1)}% a year</dd>` : ''}
       <dt>Schedule effective</dt><dd>${esc(p.eff || '')}</dd>
       <dt>Department Order</dt><dd>${esc(p.do.replace('DO ', ''))}</dd>
@@ -657,7 +662,7 @@ function renderStreetCard(p: StreetProps) {
 function renderCard(id: string) {
   const raw = byId.get(id)!.properties;
   const p = view(raw);
-  const other = state.use === 'com' ? raw.typ : (raw as unknown as { c_typ?: number }).c_typ;
+  const other = state.use === 'res' ? (raw as unknown as { c_typ?: number }).c_typ : raw.typ;
   const card = $('card');
   const v = valueOf(p);
   const q = QUALITY[p.q];
@@ -687,7 +692,7 @@ function renderCard(id: string) {
       ${row('Prime', pair(p.hi, p.hi_a), own || est ? 'no data' : 'no barangay detail')}
       ${growth ? row('Growth rate used', growth, '') : ''}
       ${!est ? row('Schedule effective', p.eff, 'not recorded') : ''}
-      ${other != null ? row(`${state.use === 'com' ? 'Residential' : 'Commercial'} typical`, fmt(other), '') : ''}
+      ${other != null ? row(`${state.use === 'res' ? 'Commercial' : 'Residential'} typical`, fmt(other), '') : ''}
       ${p.since ? row('Values set in', p.since, '') : ''}
       ${p.do ? row('Department Order', `${p.do.replace('DO ', '')}${rdo ? ` · ${rdo}` : ''}`, '') : ''}
       ${Object.values(FACTORS).map(f => {
@@ -725,8 +730,8 @@ function renderLegend() {
       return `<span style="position:absolute;${align}">${short(t)}</span>`;
     }).join('')}</div>
     <div class="keys"><span><i class="sw hatch"></i>city median or estimate</span><span><i class="sw" style="background:var(--nodata)"></i>no data</span></div>
-    ${Object.keys(streetIndex).length ? `<div class="imagery">${map.getZoom() < STREET_FADE[0] ? 'Zoom in on Metro Manila for village and street values' : `Villages filled, streets as lines (dashed: whole street shown)${state.mode === 'typ' ? '; barangays show their interior-lot value' : ''}`}</div>` : ''}
-    ${state.condos ? `<div class="imagery">● condominiums: BIR value per sqm of floor area${map.getZoom() < CONDO_MINZOOM ? ' (zoom in on Metro Manila)' : ''}</div>` : ''}
+    ${Object.keys(streetIndex).length ? `<div class="imagery">${map.getZoom() < STREET_FADE[0] ? 'Zoom in on Metro Manila or southern Cavite and Laguna for village, street and condo values' : `Villages filled, streets as lines (dashed: whole street shown)${state.mode === 'typ' ? '; barangays show their interior-lot value' : ''}`}</div>` : ''}
+    ${state.condos ? `<div class="imagery">● condominiums: BIR value per sqm of floor area${map.getZoom() < CONDO_MINZOOM ? ' (zoom in on Metro Manila, Cavite or Laguna)' : ''}</div>` : ''}
     ${state.transport ? `<div class="imagery"><span style="color:${TR_COLORS.expressway}">━</span> expressway <span style="color:${TR_COLORS.rail}">━</span> rail · dashed: under construction · dotted: proposed</div>` : ''}
     ${state.satellite ? `<div class="imagery">Imagery: ${SATELLITE.name} (credit at bottom right)</div>` : ''}`;
 }
@@ -766,7 +771,7 @@ function renderRank() {
     return b.contains([(bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2]);
   }).sort((a, z) => (z.properties[k] as number) - (a.properties[k] as number));
   const list = state.order === 'top' ? rows.slice(0, 10) : rows.slice(-10).reverse();
-  const label = `${MODE_LABEL[state.mode].toLowerCase()}${state.use === 'com' ? ' commercial' : ''}`;
+  const label = `${MODE_LABEL[state.mode].toLowerCase()}${state.use === 'res' ? '' : ` ${useWord()}`}`;
   $('rank-h').textContent = `${state.order === 'top' ? 'Highest' : 'Lowest'} ${label} values in view`;
   $('rank-note').textContent = rows.length
     ? `Ranking ${rows.length.toLocaleString()} barangays with their own BIR values in the current map view. City-median, estimated and no-data areas are left out. Pan or zoom the map to change the list.`
@@ -869,7 +874,7 @@ function wireControls() {
     state.mode = b.dataset.mode as Mode; pressed('[data-mode]', b); repaint();
   });
   document.querySelectorAll<HTMLButtonElement>('[data-use]').forEach(b => b.onclick = () => {
-    state.use = b.dataset.use as 'res' | 'com'; pressed('[data-use]', b); repaint();
+    state.use = b.dataset.use as Use; pressed('[data-use]', b); repaint();
   });
   document.querySelectorAll<HTMLButtonElement>('[data-basis]').forEach(b => b.onclick = () => {
     state.basis = b.dataset.basis as Basis; pressed('[data-basis]', b); repaint();
@@ -909,9 +914,9 @@ function writeHash() {
   if (state.mode !== 'typ') h.set('v', state.mode);
   if (state.basis !== 'raw') h.set('adj', '1');
   if (state.satellite) h.set('sat', '1');
-  if (state.use === 'com') h.set('use', 'com');
-  if (state.transport) h.set('tr', '1');
-  if (state.condos) h.set('cd', '1');
+  if (state.use !== 'res') h.set('use', state.use);
+  if (!state.transport) h.set('tr', '0');  // on by default: only 'off' is recorded
+  if (!state.condos) h.set('cd', '0');
   if (state.by !== 'value') h.set('by', state.by);
   const s = h.toString();
   history.replaceState(null, '', s ? `#${s}` : location.pathname + location.search);
@@ -923,12 +928,13 @@ function readHash() {
   state.mode = v === 'lo' || v === 'hi' ? v : 'typ';
   pressed('[data-mode]', document.querySelector(`[data-mode="${state.mode}"]`)!);
   state.satellite = h.get('sat') === '1';
-  state.use = h.get('use') === 'com' ? 'com' : 'res';
+  const u = h.get('use');
+  state.use = u === 'com' || u === 'ind' ? u : 'res';
   const by = h.get('by') as By | null;
   state.by = by && by in FACTORS ? by : 'value';
   $<HTMLSelectElement>('by').value = state.by;
-  if ((h.get('tr') === '1') !== state.transport) void setTransport(h.get('tr') === '1');
-  if ((h.get('cd') === '1') !== state.condos) void setCondos(h.get('cd') === '1');
+  if ((h.get('tr') !== '0') !== state.transport) void setTransport(h.get('tr') !== '0');
+  if ((h.get('cd') !== '0') !== state.condos) void setCondos(h.get('cd') !== '0');
   pressed('[data-use]', document.querySelector(`[data-use="${state.use}"]`)!);
   $('sat').setAttribute('aria-pressed', String(state.satellite));
   if (h.get('adj') === '1' && meta.adjusted_available) { state.basis = 'adj'; pressed('[data-basis]', document.querySelector('[data-basis="adj"]')!); }
