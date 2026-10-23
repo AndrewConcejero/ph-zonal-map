@@ -9,9 +9,10 @@ Each residential land (RR) row of a barangay's current schedule is placed as:
 Only OSM shapes inside (or touching) the row's own barangay are considered, so common names like
 "Rizal St" cannot match in the wrong place.
 
-Usage: python -m pipeline.streets Muntinlupa      one city
-       python -m pipeline.streets --ncr           every Metro Manila city, plus public/data/streets/index.json
-Writes public/data/streets/<city>.geojson and pipeline/review/streets_<city>.csv.
+Usage: python -m pipeline.streets Muntinlupa      one city (Metro Manila; or "Lipa, Batangas")
+       python -m pipeline.streets --ncr|--south|--batangas|--all   a set of cities, plus public/data/streets/index.json
+Writes public/data/streets/<city>.geojson and pipeline/review/streets_<city>.csv; a city name used in several
+provinces (Rosario, San Juan) gets the province in its file name and index key (osm.place_slug).
 """
 from __future__ import annotations
 
@@ -29,7 +30,7 @@ from shapely.strtree import STRtree
 
 from .bir_values import resolve_target
 from .normalize import ascii_fold
-from .osm import features as osm_features
+from .osm import features as osm_features, place_label, place_slug
 from .parse_bir import read_rows
 from .staleness import norm_street
 
@@ -115,15 +116,15 @@ def place_segment(line, cross_lines: list) -> object | None:
     return unary_union(segs) if segs else None
 
 
-def run(city: str) -> dict:
+def run(city: str, province: str = 'Metro Manila') -> dict:
     zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
-    bgys = {f['properties']['id']: f for f in zonal if f['properties']['c'] == city}
+    bgys = {f['properties']['id']: f for f in zonal if f['properties']['c'] == city and f['properties']['p'] == province}
     bgeom = {k: shape(f['geometry']) for k, f in bgys.items()}
     
     # which BIR block names map to which barangay (same mapping the build used)
     psgc_of = {}
     for m in csv.DictReader(open(REVIEW / 'bir_match_report.csv', encoding='utf-8')):
-        if m['city'] == city and m['psgc']:
+        if m['city'] == city and m['province'] == province and m['psgc']:
             psgc_of[m['bir_name']] = ({'before': m['valid_before'], 'alias': m['psgc'], 'else': m['otherwise'] or None}
                                       if m['valid_before'] else m['psgc'])
 
@@ -131,7 +132,7 @@ def run(city: str) -> dict:
     # BIR reclassified as commercial-only has no residential schedule but still has commercial streets
     cand = defaultdict(list)
     for r in read_rows():
-        if r['city'] != city or r['class_code'] not in ('RR', 'CR', 'I'):
+        if r['city'] != city or r['province'] != province or r['class_code'] not in ('RR', 'CR', 'I'):
             continue
         for p in (resolve_target(psgc_of.get(r['barangay']), r['effective_date']) or '').split(';'):
             if p in bgys:
@@ -145,7 +146,7 @@ def run(city: str) -> dict:
                 if k not in rows[p] or float(r['value_per_sqm']) > float(rows[p][k]['value_per_sqm']):
                     rows[p][k] = r
 
-    streets, areas, points = osm_features(city)
+    streets, areas, points = osm_features(city, province)
     s_tree, a_tree = STRtree([s['geom'] for s in streets]), STRtree([a['geom'] for a in areas])
 
     out, report = [], []
@@ -273,7 +274,7 @@ def run(city: str) -> dict:
         p['c'] = city
 
     OUT.mkdir(parents=True, exist_ok=True)
-    slug = city.lower().replace(' ', '-')
+    slug = place_slug(city, province)
     # round coordinates: ~1 m is plenty
     def rnd(c):
         return [round(c[0], 5), round(c[1], 5)] if isinstance(c[0], (int, float)) else [rnd(x) for x in c]
@@ -295,27 +296,42 @@ def run(city: str) -> dict:
 
 
 # the urbanised belt south of Metro Manila (Cavite and Laguna), where subdivisions dominate
-SOUTH = ['Bacoor', 'Imus', 'Dasmariñas', 'General Trias', 'Kawit', 'Cavite City', 'Noveleta', 'Rosario', 'Tanza', 'Silang', 'Carmona', 'Gen. Mariano Alvarez', 'Trece Martires', 'Tagaytay', 'San Pedro', 'Biñan', 'Santa Rosa', 'Cabuyao', 'Calamba', 'Los Baños']
+SOUTH = [('Bacoor', 'Cavite'), ('Imus', 'Cavite'), ('Dasmariñas', 'Cavite'), ('General Trias', 'Cavite'), ('Kawit', 'Cavite'),
+         ('Cavite City', 'Cavite'), ('Noveleta', 'Cavite'), ('Rosario', 'Cavite'), ('Tanza', 'Cavite'), ('Silang', 'Cavite'),
+         ('Carmona', 'Cavite'), ('Gen. Mariano Alvarez', 'Cavite'), ('Trece Martires', 'Cavite'), ('Tagaytay', 'Cavite'),
+         ('San Pedro', 'Laguna'), ('Biñan', 'Laguna'), ('Santa Rosa', 'Laguna'), ('Cabuyao', 'Laguna'), ('Calamba', 'Laguna'),
+         ('Los Baños', 'Laguna')]
 
 
-def run_ncr(cities: list[str] | None = None) -> None:
+def province_cities(province: str) -> list[tuple[str, str]]:
+    """Every city of a province that has barangays with BIR values (Batangas: all 34 LGUs)."""
     zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
-    cities = cities or sorted({f['properties']['c'] for f in zonal if f['properties']['p'] == 'Metro Manila'})
+    return sorted({(f['properties']['c'], province) for f in zonal
+                   if f['properties']['p'] == province and f['properties'].get('src') == 'bir'})
+
+
+def run_ncr(cities: list[tuple[str, str]] | None = None) -> None:
+    zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
+    cities = cities or sorted({(f['properties']['c'], 'Metro Manila') for f in zonal if f['properties']['p'] == 'Metro Manila'})
     index = json.loads((OUT / 'index.json').read_text(encoding='utf-8')) if (OUT / 'index.json').exists() else {}
-    for c in cities:
-        index[c] = run(c)
+    for c, prov in cities:
+        key = place_label(c, prov)
+        if key != c:
+            index.pop(c, None)  # entry from before the name was shared by two provinces
+        index[key] = run(c, prov)
     (OUT / 'index.json').write_text(json.dumps(index, indent=1, ensure_ascii=False), encoding='utf-8')
-    placed, priced = sum(index[c]['placed'] for c in cities), sum(index[c]['priced'] for c in cities)
+    keys = [place_label(c, p) for c, p in cities]
+    placed, priced = sum(index[k]['placed'] for k in keys), sum(index[k]['priced'] for k in keys)
     print(f'{len(cities)} cities: placed {placed}/{priced} ({placed / priced:.0%}); {sum(v["kb"] for v in index.values()) / 1e3:.1f} MB total')
 
 
 if __name__ == '__main__':
-    if sys.argv[1:] == ['--ncr']:
-        run_ncr()
-    elif sys.argv[1:] == ['--south']:
-        run_ncr(SOUTH)
-    elif sys.argv[1:] == ['--all']:
-        run_ncr()
-        run_ncr(SOUTH)
+    sets = {'--ncr': lambda: None, '--south': lambda: SOUTH, '--batangas': lambda: province_cities('Batangas')}
+    if sys.argv[1:] == ['--all']:
+        for f in sets.values():
+            run_ncr(f())
+    elif sys.argv[1:2] and sys.argv[1] in sets:
+        run_ncr(sets[sys.argv[1]]())
     else:
-        run(sys.argv[1] if len(sys.argv) > 1 else 'Muntinlupa')
+        city, _, prov = (sys.argv[1] if len(sys.argv) > 1 else 'Muntinlupa').partition(',')
+        run(city.strip(), prov.strip() or 'Metro Manila')

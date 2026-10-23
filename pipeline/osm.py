@@ -5,6 +5,7 @@ OSM data is © OpenStreetMap contributors, ODbL.
 """
 from __future__ import annotations
 
+import functools
 import json
 import time
 import urllib.error
@@ -34,17 +35,34 @@ QUERY = """[out:json][timeout:180];
 out geom;"""
 
 
-def city_polygon(city: str):
-    feats = json.loads((ROOT / 'public' / 'data' / 'cities.geojson').read_text(encoding='utf-8'))['features']
-    return shape(next(f for f in feats if f['properties']['n'] == city)['geometry'])
+@functools.cache
+def _cities() -> list[dict]:
+    return json.loads((ROOT / 'public' / 'data' / 'cities.geojson').read_text(encoding='utf-8'))['features']
 
 
-def fetch(city: str) -> dict:
+def city_polygon(city: str, province: str):
+    return shape(next(f for f in _cities() if f['properties']['n'] == city and f['properties']['p'] == province)['geometry'])
+
+
+def place_slug(city: str, province: str) -> str:
+    """File name for a city: 'imus'; with the province when the name is used in several ('rosario-batangas')."""
+    base = city.lower().replace(' ', '-')
+    if sum(f['properties']['n'] == city for f in _cities()) > 1:
+        return f"{base}-{province.lower().replace(' ', '-')}"
+    return base
+
+
+def place_label(city: str, province: str) -> str:
+    """Index key for a city: 'Imus'; 'Rosario (Batangas)' when the name is used in several provinces."""
+    return city if place_slug(city, province) == city.lower().replace(' ', '-') else f'{city} ({province})'
+
+
+def fetch(city: str, province: str) -> dict:
     CACHE.mkdir(parents=True, exist_ok=True)
-    path = CACHE / f"{city.lower().replace(' ', '-')}.json"
+    path = CACHE / f'{place_slug(city, province)}.json'
     if path.exists():
         return json.loads(path.read_text(encoding='utf-8'))
-    w, s, e, n = city_polygon(city).buffer(0.005).bounds
+    w, s, e, n = city_polygon(city, province).buffer(0.005).bounds
     q = QUERY.format(bbox=f'{s:.5f},{w:.5f},{n:.5f},{e:.5f}')
     req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({'data': q}).encode(), headers={'User-Agent': UA})
     t = time.time()
@@ -64,9 +82,9 @@ def fetch(city: str) -> dict:
     return data
 
 
-def features(city: str) -> tuple[list[dict], list[dict], list[dict]]:
+def features(city: str, province: str) -> tuple[list[dict], list[dict], list[dict]]:
     """-> (streets, areas, points). Each: name, osm id, tags, shapely geometry (in lon/lat)."""
-    data = fetch(city)
+    data = fetch(city, province)
     streets, areas, points = [], [], []
     for el in data['elements']:
         tags = el.get('tags', {})
@@ -124,12 +142,12 @@ nwr["building"]["name"]({bbox});
 out center tags;"""
 
 
-def fetch_buildings(city: str) -> list[dict]:
+def fetch_buildings(city: str, province: str) -> list[dict]:
     """Named buildings (condominiums, towers) in a city as points: name, osm id, tags, lon, lat. Cached."""
     CACHE.mkdir(parents=True, exist_ok=True)
-    path = CACHE / f"{city.lower().replace(' ', '-')}-buildings.json"
+    path = CACHE / f'{place_slug(city, province)}-buildings.json'
     if not path.exists():
-        w, s, e, n = city_polygon(city).buffer(0.005).bounds
+        w, s, e, n = city_polygon(city, province).buffer(0.005).bounds
         _overpass(BUILDINGS_QUERY.format(bbox=f'{s:.5f},{w:.5f},{n:.5f},{e:.5f}'), path)
     out = []
     for el in json.loads(path.read_text(encoding='utf-8'))['elements']:

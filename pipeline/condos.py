@@ -6,6 +6,7 @@ building inside or touching its barangay, by the same name rules as villages (pi
 words ("tower", "residences", "condominium") ignored. Unmatched buildings are listed, never guessed.
 
 Usage: python -m pipeline.condos   -> public/data/condos/<city>.geojson + index.json, pipeline/review/condos.csv
+Covers the same cities as the street layer: Metro Manila, southern Cavite and Laguna, Batangas.
 """
 from __future__ import annotations
 
@@ -22,7 +23,7 @@ from shapely.strtree import STRtree
 
 from .bir_values import resolve_target
 from .normalize import ascii_fold
-from .osm import fetch_buildings
+from .osm import fetch_buildings, place_label, place_slug
 from .parse_bir import read_rows
 from .streets import alternatives, digits
 
@@ -60,18 +61,18 @@ def bscore(bir: str, osm: str) -> float:
     return max(fuzz.ratio(a, b), fuzz.token_sort_ratio(a, b))
 
 
-def run(city: str) -> dict:
+def run(city: str, province: str = 'Metro Manila') -> dict:
     zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
-    bgys = {f['properties']['id']: f for f in zonal if f['properties']['c'] == city}
+    bgys = {f['properties']['id']: f for f in zonal if f['properties']['c'] == city and f['properties']['p'] == province}
     bgeom = {k: shape(f['geometry']) for k, f in bgys.items()}
     psgc_of = {}
     for m in csv.DictReader(open(REVIEW / 'bir_match_report.csv', encoding='utf-8')):
-        if m['city'] == city and m['psgc']:
+        if m['city'] == city and m['province'] == province and m['psgc']:
             psgc_of[m['bir_name']] = ({'before': m['valid_before'], 'alias': m['psgc'], 'else': m['otherwise'] or None}
                                       if m['valid_before'] else m['psgc'])
     cand = defaultdict(list)
     for r in read_rows():
-        if r['city'] != city:
+        if r['city'] != city or r['province'] != province:
             continue
         for p in (resolve_target(psgc_of.get(r['barangay']), r['effective_date']) or '').split(';'):
             if p in bgys:
@@ -90,7 +91,7 @@ def run(city: str) -> dict:
     # a condominium is never a church, school, hall or hospital, whatever its name shares
     not_condo = re.compile(r'(?i)\b(church|parish|chapel|cathedral|school|college|university|academy|barangay hall|'
                            r'city hall|municipal|hospital|clinic|mosque|temple|police|fire station|gym(nasium)?|market)\b')
-    buildings = [b for b in fetch_buildings(city) if not not_condo.search(b['name'])
+    buildings = [b for b in fetch_buildings(city, province) if not not_condo.search(b['name'])
                  and b['tags'].get('building') not in ('church', 'chapel', 'school', 'university', 'hospital', 'government',
                                                        'civic', 'public', 'mosque', 'temple')
                  and b['tags'].get('amenity') not in ('place_of_worship', 'school', 'townhall', 'hospital', 'police')]
@@ -127,7 +128,7 @@ def run(city: str) -> dict:
             seen.add(k)
             uniq.append(f)
     OUT.mkdir(parents=True, exist_ok=True)
-    slug = city.lower().replace(' ', '-')
+    slug = place_slug(city, province)
     (OUT / f'{slug}.geojson').write_text(json.dumps({'type': 'FeatureCollection', 'features': uniq}, separators=(',', ':'),
                                                      ensure_ascii=False), encoding='utf-8')
     placed = sum(r['placed'] for r in report)
@@ -138,14 +139,15 @@ def run(city: str) -> dict:
 
 
 def main() -> None:
-    from .streets import SOUTH
+    from .streets import SOUTH, province_cities
     zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
-    cities = sorted({f['properties']['c'] for f in zonal if f['properties']['p'] == 'Metro Manila'}) + SOUTH
+    cities = (sorted({(f['properties']['c'], 'Metro Manila') for f in zonal if f['properties']['p'] == 'Metro Manila'})
+              + SOUTH + province_cities('Batangas'))
     index, report = {}, []
-    for c in cities:
-        res = run(c)
-        report += [{'city': c, **r} for r in res.pop('report')]
-        index[c] = res
+    for c, prov in cities:
+        res = run(c, prov)
+        report += [{'city': c, 'province': prov, **r} for r in res.pop('report')]
+        index[place_label(c, prov)] = res
     (OUT / 'index.json').write_text(json.dumps(index, indent=1, ensure_ascii=False), encoding='utf-8')
     with open(REVIEW / 'condos.csv', 'w', newline='', encoding='utf-8') as f:
         w = csv.DictWriter(f, fieldnames=list(report[0]))
