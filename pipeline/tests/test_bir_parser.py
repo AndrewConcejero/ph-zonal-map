@@ -97,6 +97,15 @@ def test_masked_values_are_logged_not_dropped():
     assert logged and 'not numeric' in logged[0].reason
 
 
+@needs_raw
+def test_class_code_right_of_merged_header_batangas():
+    """DO 35-2022: CLASSIFICATION spans D:F but the codes sit in E, with footnote marks in F."""
+    res = parse_real('RDO-058', 'Batangas City', 'DO 35-2022')
+    assert len(res.rows) > 17000
+    rows = find(res, street_or_building='PLAZA MABINI EXT.', class_code='RR')
+    assert rows and rows[0].value_per_sqm == 22000 and rows[0].barangay.startswith('POBLACION I')
+
+
 # ---------------------------------------------------------------- synthetic edge cases
 
 def sheet(tmp_path: Path, rows: list[list]) -> Book:
@@ -159,3 +168,17 @@ def test_clean_classes():
     assert clean_classes('RR/CR') == ['RR', 'CR']
     assert clean_classes('A50*') == ['A50']
     assert clean_classes('ALL OTHER STREETS') == []
+
+
+def test_class_code_in_later_cell_of_merged_header(tmp_path):
+    book = sheet(tmp_path, MEMO + [
+        ['CITY/MUNICIPALITY', ': LEMERY'],
+        ['BARANGAY', ': DISTRICT I'],
+        ['STREET NAME', None, 'VICINITY', 'CLASSIFICATION', None, None, '4TH REVISION ZV/SQM'],
+        ['ILUSTRE AVE', None, 'A - B', None, 'CR', None, 25000],
+        [None, None, None, None, 'RR', '**', 18000],   # footnote mark beside the code
+        [None, None, None, None, 'RESIDENTIAL', None, 500],  # not a code: logged, not guessed
+    ])
+    res = parse_sheet(book, 'DO 1-2024', 'RDO-058', 'DO 1-2024', '2024-01-05')
+    assert {(r.class_code, r.value_per_sqm) for r in res.rows} == {('CR', 25000), ('RR', 18000)}
+    assert any('unrecognised class' in p.reason for p in res.problems)

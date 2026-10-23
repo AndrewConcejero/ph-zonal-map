@@ -264,7 +264,15 @@ def parse_sheet(book: Book, sheet: str, rdo: str, do_number: str, do_effective: 
         if cols is None:
             continue  # memo text before the first table: not data, not logged
 
-        classes = clean_classes(cells[cols.cls]) if cols.cls < len(cells) else []
+        cls_col = cols.cls
+        classes = clean_classes(cells[cls_col]) if cls_col < len(cells) else []
+        if not classes and not (cls_col < len(cells) and cells[cls_col]) and cols.value is not None:
+            # a merged CLASSIFICATION header (D:F) whose codes sit in a later cell of the merge (Batangas 2022)
+            # (the cell after the code may hold only a footnote marker: '*' newly identified classification)
+            filled = [j for j in range(cls_col + 1, min(cols.value, len(cells))) if cells[j].strip('* ')]
+            if len(filled) == 1 and clean_classes(cells[filled[0]]):
+                cls_col = filled[0]
+                classes = clean_classes(cells[cls_col])
         cls = classes[0] if classes else None
         val = to_number(cells[cols.value]) if cols.value is not None and cols.value < len(cells) else None
         if cls and val is None and cols.value is None:
