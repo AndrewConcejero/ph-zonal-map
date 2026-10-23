@@ -17,10 +17,13 @@ from collections import Counter, defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+from shapely.geometry import mapping, shape
+from shapely.ops import unary_union
+
 from .bir_values import CityIndex, barangay_values, match_bir_names, newest_listing, write_matches
 from .gapfill import fill as gap_fill, fill_prefixed as gap_fill_prefixed
 from .staleness import matched_pairs, project, rdo_rates, value_since, years_between
-from .fetch_boundaries import MANILA_PSGC, MANILA_SUBMUNS_2019, PROVDISTS, manila_path, municity_path, provdist_path
+from .fetch_boundaries import HUCS, MANILA_PSGC, MANILA_SUBMUNS_2019, PROVDISTS, manila_path, municity_path, provdist_path
 from .match import load_aliases, match_city
 from .normalize import norm_barangay, norm_city
 from .parse_bir import ROWS_OUT, read_rows
@@ -41,7 +44,8 @@ def rnd(c):
 
 def display_city(name: str) -> str:
     name = name.removeprefix('City of ').strip()
-    return {'Cavite': 'Cavite City', 'San Jose Del Monte': 'San Jose del Monte', 'Pasay City': 'Pasay'}.get(name, name)
+    return {'Cavite': 'Cavite City', 'San Jose Del Monte': 'San Jose del Monte', 'Pasay City': 'Pasay',
+            'Mabalacat City': 'Mabalacat', 'Sto. Tomas': 'Santo Tomas'}.get(name, name)
 
 
 def district_name(s: str) -> str:
@@ -53,32 +57,36 @@ def district_name(s: str) -> str:
 def load_boundaries():
     """-> (barangays, cities, barangays_without_geometry). Each barangay: psgc, name, city, city_psgc, prov, geometry."""
     bgys, cities, no_geom = [], [], []
-    for code, prov in PROVDISTS.items():
-        for f in json.loads(provdist_path(code).read_text())['features']:
-            if not f.get('geometry'):
-                continue
-            p = f['properties']
-            cpsgc, city = str(p['adm3_psgc']), display_city(p['adm3_en'])
-            cities.append({'psgc': cpsgc, 'name': city, 'prov': prov, 'geometry': f['geometry']})
-            if cpsgc == MANILA_PSGC:
-                for s in MANILA_SUBMUNS_2019:
-                    for b in json.loads(manila_path(s).read_text())['features']:
-                        if b.get('geometry'):
-                            bp = b['properties']
-                            # two polygons (Tutuban Mall, North Cemetery) have no barangay code
-                            code = bp['ADM4_PCODE'] or f"{bp['ADM3_PCODE']}-{norm_barangay(bp['ADM4_EN'])[:12]}"
-                            bgys.append({'psgc': code.removeprefix('PH'), 'name': bp['ADM4_EN'],
-                                         'city': city, 'city_psgc': cpsgc, 'prov': prov,
-                                         'district': district_name(bp['ADM3_EN']), 'geometry': b['geometry']})
-                continue
-            for b in json.loads(municity_path(cpsgc).read_text())['features']:
-                if not b.get('geometry'):
-                    no_geom.append({'city': city, 'prov': prov, 'psgc': str(b['properties']['adm4_psgc']),
-                                    'name': b['properties']['adm4_en']})
-                else:
-                    bp = b['properties']
-                    bgys.append({'psgc': str(bp['adm4_psgc']), 'name': bp['adm4_en'], 'city': city,
-                                 'city_psgc': cpsgc, 'prov': prov, 'geometry': b['geometry']})
+    municities = [(f, prov) for code, prov in PROVDISTS.items()
+                  for f in json.loads(provdist_path(code).read_text())['features'] if f.get('geometry')]
+    for code, (name, prov) in HUCS.items():  # outline = union of its barangays
+        parts = [shape(b['geometry']).buffer(0) for b in json.loads(municity_path(code).read_text())['features']
+                 if b.get('geometry')]
+        municities.append(({'properties': {'adm3_psgc': code, 'adm3_en': name},
+                            'geometry': mapping(unary_union(parts).buffer(0.0002).buffer(-0.0002))}, prov))
+    for f, prov in municities:
+        p = f['properties']
+        cpsgc, city = str(p['adm3_psgc']), display_city(p['adm3_en'])
+        cities.append({'psgc': cpsgc, 'name': city, 'prov': prov, 'geometry': f['geometry']})
+        if cpsgc == MANILA_PSGC:
+            for s in MANILA_SUBMUNS_2019:
+                for b in json.loads(manila_path(s).read_text())['features']:
+                    if b.get('geometry'):
+                        bp = b['properties']
+                        # two polygons (Tutuban Mall, North Cemetery) have no barangay code
+                        code = bp['ADM4_PCODE'] or f"{bp['ADM3_PCODE']}-{norm_barangay(bp['ADM4_EN'])[:12]}"
+                        bgys.append({'psgc': code.removeprefix('PH'), 'name': bp['ADM4_EN'],
+                                     'city': city, 'city_psgc': cpsgc, 'prov': prov,
+                                     'district': district_name(bp['ADM3_EN']), 'geometry': b['geometry']})
+            continue
+        for b in json.loads(municity_path(cpsgc).read_text())['features']:
+            if not b.get('geometry'):
+                no_geom.append({'city': city, 'prov': prov, 'psgc': str(b['properties']['adm4_psgc']),
+                                'name': b['properties']['adm4_en']})
+            else:
+                bp = b['properties']
+                bgys.append({'psgc': str(bp['adm4_psgc']), 'name': bp['adm4_en'], 'city': city,
+                             'city_psgc': cpsgc, 'prov': prov, 'geometry': b['geometry']})
     return bgys, cities, no_geom
 
 

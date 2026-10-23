@@ -40,7 +40,7 @@ UNREADABLE = BIR / '_unreadable'
 DUPLICATES = BIR / '_duplicates'
 REVIEW = Path(__file__).resolve().parent / 'review'
 CITIES = ROOT / 'public' / 'data' / 'cities.geojson'
-IN_SCOPE_PROVINCES = {'Metro Manila', 'Cavite', 'Laguna', 'Rizal', 'Bulacan'}
+IN_SCOPE_PROVINCES = {'Metro Manila', 'Cavite', 'Laguna', 'Rizal', 'Bulacan', 'Pampanga', 'Batangas'}
 EXCEL_SUFFIXES = {'.xls', '.xlsx', '.xlsm'}
 HEADER_ROWS = 40  # DO number, date and subject sit in the first rows of each DO sheet
 
@@ -50,7 +50,7 @@ LGU_ALIASES = {
     'damarinas': 'Dasmariñas', 'trecemartirez': 'Trece Martires', 'gma': 'Gen. Mariano Alvarez',
     'generalmarianoalvarez': 'Gen. Mariano Alvarez', 'genmarianoalvarez': 'Gen. Mariano Alvarez',
     'genemilioaguinaldo': 'General Emilio Aguinaldo', 'baliuag': 'Baliwag', 'obandoo': 'Obando',
-    'stamaria': 'Santa Maria', 'starosa': 'Santa Rosa', 'stacruz': 'Santa Cruz', 'gentrias': 'General Trias',
+    'stamaria': 'Santa Maria', 'stotomas': 'Santo Tomas', 'starosa': 'Santa Rosa', 'stacruz': 'Santa Cruz', 'gentrias': 'General Trias',
     'generaleaguinaldo': 'General Emilio Aguinaldo', 'geneaguinaldo': 'General Emilio Aguinaldo', 'bulakan': 'Bulacan',
 }
 

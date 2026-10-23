@@ -3,6 +3,9 @@
 Files already in the cache are skipped, and requests are spaced out, so re-running is cheap
 and polite. Delete cache/ to force a fresh download.
 
+Angeles City is a highly urbanised city and has no entry in Pampanga's 2023 file; its barangays are fetched
+directly (HUCS) and its outline is their union.
+
 Uses the 2023 release (PSGC Dec 2023) everywhere except Manila. In that release Manila's
 barangay files are empty GeometryCollections, so Manila comes from the 2019 release, which
 splits it into 14 sub-municipalities (Tondo I/II, Binondo, ...).
@@ -26,7 +29,11 @@ PROVDISTS = {
     '402100000': 'Cavite',
     '403400000': 'Laguna',
     '405800000': 'Rizal',
+    '305400000': 'Pampanga',
+    '401000000': 'Batangas',
 }
+# highly urbanised cities left out of their province's file in the 2023 release: code -> (name, display province)
+HUCS = {'330100000': ('Angeles', 'Pampanga')}
 MANILA_PSGC = '1380600000'
 MANILA_SUBMUNS_2019 = [f'ph1339{n:02d}000' for n in range(1, 15)]
 
@@ -68,6 +75,8 @@ def main() -> None:
             if m == MANILA_PSGC:
                 continue
             fetch(f'{BASE}/2023/geojson/municities/medres/bgysubmuns-municity-{m}.0.01.json', municity_path(m))
+    for m in HUCS:
+        fetch(f'{BASE}/2023/geojson/municities/medres/bgysubmuns-municity-{m}.0.01.json', municity_path(m))
     for s in MANILA_SUBMUNS_2019:
         fetch(f'{BASE}/2019/geojson/barangays/medres/barangays-municity-{s}.0.01.json', manila_path(s))
     print(f'boundaries cached in {CACHE}: {len(list(CACHE.glob("*.json")))} files')

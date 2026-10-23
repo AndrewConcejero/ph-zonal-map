@@ -2,7 +2,9 @@
 
 Neighbours are barangays sharing a boundary. The boundary files are simplified, so shared edges do not line
 up exactly; polygons within TOUCH_DEG of each other count as touching. Only barangays with their own BIR
-values are used, never other estimates, so an estimate is always one step from real data.
+values are used, never other estimates, so an estimate is always one step from real data. Only cities with
+values of their own are filled: a city no loaded schedule covers stays no_data rather than borrowing its
+neighbour's values across a city or province line (Pampanga next to Bulacan, before its workbooks are in).
 """
 from __future__ import annotations
 
@@ -27,13 +29,20 @@ def neighbours(features: list[dict]) -> dict[str, list[str]]:
     return out
 
 
+def covered_cities(features: list[dict], prefix: str = '') -> set[tuple[str, str]]:
+    """(province, city) pairs with at least one barangay value of their own (residential, or <prefix> values)."""
+    return {(f['properties'].get('p'), f['properties'].get('c')) for f in features
+            if 'barangay_data' in (f['properties'].get('q'), f['properties'].get(f'{prefix}q') if prefix else None)}
+
+
 def fill(features: list[dict]) -> int:
     """Turn features flagged city_median or no_data into estimates where real neighbours exist. Returns count."""
     by_id = {f['properties']['id']: f['properties'] for f in features}
     nb = neighbours(features)
+    covered = covered_cities(features)
     filled = 0
     for p in by_id.values():
-        if p['q'] not in ('city_median', 'no_data'):
+        if p['q'] not in ('city_median', 'no_data') or (p.get('p'), p.get('c')) not in covered:
             continue
         real = [by_id[n] for n in nb.get(p['id'], []) if by_id[n]['q'] == 'barangay_data']
         if not real:
@@ -56,9 +65,10 @@ def fill_prefixed(features: list[dict], prefix: str) -> int:
     (commercial values use 'c_'). Barangays without them get their real neighbours' medians, flagged estimated."""
     by_id = {f['properties']['id']: f['properties'] for f in features}
     nb = neighbours(features)
+    covered = covered_cities(features, prefix)
     filled = 0
     for p in by_id.values():
-        if p.get(f'{prefix}q') == 'barangay_data':
+        if p.get(f'{prefix}q') == 'barangay_data' or (p.get('p'), p.get('c')) not in covered:
             continue
         real = [by_id[n] for n in nb.get(p['id'], []) if by_id[n].get(f'{prefix}q') == 'barangay_data']
         if not real:
