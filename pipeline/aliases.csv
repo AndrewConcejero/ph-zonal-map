@@ -90,3 +90,48 @@ Pasig,ALL BARANGAYS (continuation),(ignore),,,"[high] City-wide or condominium s
 Mandaluyong,CONDOMINIUMS/TOWNHOUSES,(ignore),,,"[high] City-wide or condominium section, not a barangay; mark as ignored so it leaves unmatched.csv"
 Mandaluyong,CONDOMINIUMS/TOWNHOUSES (CONTINUATION),(ignore),,,"[high] City-wide or condominium section, not a barangay; mark as ignored so it leaves unmatched.csv"
 Manila,CONDOMINIUMS AND TOWNHOUSES,(ignore),,,"[high] City-wide or condominium section, not a barangay; mark as ignored so it leaves unmatched.csv"
+Lemery,POBLACION I,District I,,,"[high] PSGC names Lemery's four town-centre barangays District I-IV (Pob.); BIR numbers the same four Poblacion I-IV, in DO 60-2018 and DO 35-2022"
+Lemery,POBLACION II,District II,,,"[high] PSGC names Lemery's four town-centre barangays District I-IV (Pob.); BIR numbers the same four Poblacion I-IV, in DO 60-2018 and DO 35-2022"
+Lemery,POBLACION III,District III,,,"[high] PSGC names Lemery's four town-centre barangays District I-IV (Pob.); BIR numbers the same four Poblacion I-IV, in DO 60-2018 and DO 35-2022"
+Lemery,POBLACION IV,District IV,,,"[high] PSGC names Lemery's four town-centre barangays District I-IV (Pob.); BIR numbers the same four Poblacion I-IV, in DO 60-2018 and DO 35-2022"
+Lemery,POBLACION DISTRICT I,District I,,,[high] BIR's own label: Poblacion District I
+Lemery,POBLACION DISTRICT II,District II,,,[high] BIR's own label: Poblacion District II
+Lemery,POBLACION DISTRICT III,District III,,,[high] BIR's own label: Poblacion District III
+Lemery,POBLACION DISTRICT IV,District IV,,,[high] BIR's own label: Poblacion District IV
+Mataasnakahoy,POBLACION 1,District I,,,"[high] PSGC: District I-IV and Barangay II-A (all Pob.); BIR numbers them Poblacion 1-4 and 2-A"
+Mataasnakahoy,POBLACION 2,District II,,,"[high] PSGC: District I-IV and Barangay II-A (all Pob.); BIR numbers them Poblacion 1-4 and 2-A"
+Mataasnakahoy,POBLACION 3,District III,,,"[high] PSGC: District I-IV and Barangay II-A (all Pob.); BIR numbers them Poblacion 1-4 and 2-A"
+Mataasnakahoy,POBLACION 4,District IV,,,"[high] PSGC: District I-IV and Barangay II-A (all Pob.); BIR numbers them Poblacion 1-4 and 2-A"
+Mataasnakahoy,POBLACION 2-A,Barangay II-A,,,"[high] PSGC: District I-IV and Barangay II-A (all Pob.); BIR numbers them Poblacion 1-4 and 2-A"
+Mataasnakahoy,POBLACION 2A,Barangay II-A,,,"[high] PSGC: District I-IV and Barangay II-A (all Pob.); BIR numbers them Poblacion 1-4 and 2-A"
+Nasugbu,BARANGAY I TO XII (POBLACION),Barangay 1; Barangay 2; Barangay 3; Barangay 4; Barangay 5; Barangay 6; Barangay 7; Barangay 8; Barangay 9; Barangay 10; Barangay 11; Barangay 12,,,[high] one block for the twelve numbered town-centre barangays (range wider than the matcher's automatic limit of ten)
+Nasugbu,POBLACION I to XII,Barangay 1; Barangay 2; Barangay 3; Barangay 4; Barangay 5; Barangay 6; Barangay 7; Barangay 8; Barangay 9; Barangay 10; Barangay 11; Barangay 12,,,[high] one block for the twelve numbered town-centre barangays (range wider than the matcher's automatic limit of ten)
+Batangas City,ILIJAN,Ilihan,,,[high] spelling: Ilijan (BIR; also the power plant's name) = PSGC Ilihan; no other close name
+Batangas City,DUMUCLAY,Domoclay,,,[high] spelling (o/u): Dumuclay = PSGC Domoclay; no other close name
+Batangas City,BANABA SOUTH (IBABA),Banaba Ibaba,,,[high] BIR gives the PSGC name in brackets
+Batangas City,BANABA EAST (SILANGAN),Banaba Silangan,,,[high] BIR gives the PSGC name in brackets
+Batangas City,BANABA WEST (KANLURAN),Banaba Kanluran,,,[high] BIR gives the PSGC name in brackets
+Lipa,INOSLUBAN,Inosloban,,,[high] spelling (o/u); no other close name in Lipa
+Lipa,PINAGTUNGOLAN,Pinagtongulan,,,[high] spelling (o/u); no other close name in Lipa
+Lipa,MARAOUY,Marauoy,,,[high] transposed letters; no other close name in Lipa
+San Juan,CALUBCOB I,Calubcub I,,,[high] spelling (o/u)
+San Juan,CALUBCOB II,Calubcub II,,,[high] spelling (o/u)
+Rosario,NAZI,Nasi,,,[high] spelling (z/s); no other close name in Rosario (Batangas)
+Rosario,MAC A,Macalamcam A,,,[high] BIR abbreviates Macalamcam; only Macalamcam A and B exist
+Rosario,MAC B,Macalamcam B,,,[high] BIR abbreviates Macalamcam; only Macalamcam A and B exist
+Rosario,CALONGAN,Colongan,,,[high] spelling (a/o); no other close name in Rosario (Batangas)
+San Jose,LAPU-LAPU I,Lapolapo I,,,[high] spelling: Lapu-lapu = PSGC Lapolapo
+San Jose,LAPU-LAPU II,Lapolapo II,,,[high] spelling: Lapu-lapu = PSGC Lapolapo
+San Jose,LAPU- LAPU II,Lapolapo II,,,[high] spelling: Lapu-lapu = PSGC Lapolapo
+San Jose,LEPOTE,Lepute,,,[high] spelling (o/u); no other close name in San Jose
+San Jose,P. ULAN,Pinagtung-Ulan,,,[medium] BIR abbreviates Pinagtung-Ulan; the only San Jose barangay ending in Ulan
+San Jose,P.ULAN,Pinagtung-Ulan,,,[medium] BIR abbreviates Pinagtung-Ulan; the only San Jose barangay ending in Ulan
+Lemery,NIOGAN,Niugan,,,[high] spelling (o/u); no other close name in Lemery
+Bauan,PITOGO,Pitugo,,,[high] spelling (o/u); no other close name in Bauan
+Balayan,TALUDTOD,Taludtud,,,[high] spelling (o/u); no other close name in Balayan
+Nasugbu,KAYRILAO,Kayrilaw,,,[high] spelling (o/w)
+San Luis,BONLIO,Bonliw,,,[high] spelling (o/w)
+Tanauan,BAGONG BAYAN,Bagumbayan,,,[medium] Bagumbayan is the contraction of Bagong Bayan; the only such name in Tanauan
+Alitagtag,MUNLAWIN,Munlawin Norte,,,"[medium] BIR's own note in DO 60-2014 (filed under Agoncillo): ""MULAWIN NORTE (NOW MUNLAWIN)""; PSGC still says Munlawin Norte"
+Alitagtag,SALVADOR AGITO,Munlawin Sur,,,"[medium] BIR's own note in DO 60-2014 (filed under Agoncillo): ""MULAWIN SUR (NOW SALVADOR AGITO)""; PSGC still says Munlawin Sur"
+San Nicolas,BALOKBAKLOK,Baluk-baluk,,,"[medium] BIR's own note in DO 58-2018: ""BALOKBAKLOK (PREVIOUSLY BALUKLUK)""; the only close PSGC name"

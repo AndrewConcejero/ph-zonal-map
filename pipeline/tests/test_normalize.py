@@ -120,3 +120,15 @@ def test_aliases_file_parses_ignore_dated_and_other_city():
     assert al[(norm_city('Pasig'), norm_barangay('ALL BARANGAYS (continuation)'))].ignore
     assert al[(norm_city('San Pedro'), norm_barangay('MALITLIT'))].city == 'Santa Rosa'
     assert al[(norm_city('Kawit'), norm_barangay('BINAKAYAN'))].names == ['Binakayan-Aplaya', 'Binakayan-Kanluran']
+
+
+def test_batangas_naming_rules():
+    idx = CityIndex({'1': 'Poblacion Barangay 6', '2': 'Poblacion Barangay 9-A', '3': 'Muzon Primero',
+                     '4': 'Muzon Segundo', '5': 'San Isidro Norte', '6': 'Maria Paz', '7': 'Rillo', '8': 'Barangay 12'})
+    assert idx.exact(clean_bir_barangay('BARANGAY 6* (CONT.)', 'Lipa')) == '1'   # PSGC adds "Poblacion"
+    assert idx.exact('BARANGAY 9A') == '2'
+    assert idx.exact('MUZON II') == '4'                   # Segundo = II
+    assert idx.exact('SAN ISIDRO NORTH') == '5'           # Norte = North
+    assert idx.exact('MA. PAZ') == '6'
+    assert idx.exact('POBLACION RILLO') == '7'            # Tuy: a named town-centre barangay
+    assert idx.group('POBLACION XII') == ['8']            # numerals past X

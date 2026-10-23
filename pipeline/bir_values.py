@@ -57,11 +57,14 @@ def variants(name: str) -> list[str]:
     out += re.split(r'-(?=NORTH|SOUTH|EAST|WEST)', no_paren, flags=re.I)[:1]  # "PIO DEL PILAR-NORTH"
     out += [re.sub(r'^\s*FORMERLY\s+', '', x, flags=re.I) for x in inside]  # "(FORMERLY TABING BAKOD)"
     out.append(re.sub(r'^POBLACION\s*-\s*', '', no_paren, flags=re.I))  # Angat "POBLACION - SAN ROQUE"
+    if not re.search(r'\d|\b[IVX]+\b', no_paren):  # Tuy "POBLACION RILLO" = Rillo, one of the town-centre barangays
+        out.append(re.sub(r'^POBLACION\s+(?=[A-Z]{3})', '', no_paren, flags=re.I))
     return [v.strip() for v in dict.fromkeys(out) if v.strip()]
 
 
-_ROMAN = {'i': '1', 'ii': '2', 'iii': '3', 'iv': '4', 'v': '5', 'vi': '6', 'vii': '7', 'viii': '8', 'ix': '9', 'x': '10'}
-_WORD = {'sto': 'santo', 'sta': 'santa', 'st': 'saint', 'sn': 'san', 'gen': 'general', 'pob': 'poblacion',
+_ROMAN = {'i': '1', 'ii': '2', 'iii': '3', 'iv': '4', 'v': '5', 'vi': '6', 'vii': '7', 'viii': '8', 'ix': '9', 'x': '10',
+          'xi': '11', 'xii': '12', 'xiii': '13', 'xiv': '14', 'xv': '15'}
+_WORD = {'primero': '1', 'segundo': '2', 'tercero': '3', 'norte': 'north', 'sur': 'south', 'ma': 'maria','sto': 'santo', 'sta': 'santa', 'st': 'saint', 'sn': 'san', 'gen': 'general', 'pob': 'poblacion',
          'brgy': '', 'bgy': '', 'barangay': '', 'n': 'north', 's': 'south', 'e': 'east', 'w': 'west',
          'uno': '1', 'dos': '2', 'tres': '3', 'kuatro': '4', 'cuatro': '4', 'singko': '5', 'cinco': '5',
          '1st': '1', '2nd': '2', '3rd': '3', '4th': '4', '5th': '5', '6th': '6', '7th': '7', '8th': '8'}
@@ -163,6 +166,11 @@ class CityIndex:
         for psgc, n in feats.items():
             for k in keys_for(n):
                 self.by_key[k].add(psgc)
+            # Lipa "Poblacion Barangay 6" is BIR's "BARANGAY 6"
+            m = re.fullmatch(r'Poblacion\s+Barangay\s+(\S+)', n, re.I)
+            if m and not numbered:
+                for k in keys_for(f'Barangay {m.group(1)}'):
+                    self.by_key[k].add(psgc)
         self.lean = {psgc: tokens(n) for psgc, n in feats.items()}
 
     def exact(self, name: str) -> str | None:
