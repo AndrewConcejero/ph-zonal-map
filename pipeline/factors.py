@@ -8,7 +8,9 @@
           median across clear dry-season scenes of the barangay's mean daytime land surface temperature, °C.
   access  OpenStreetMap: km from the barangay's centre to the nearest open rail station and expressway.
 
-Usage: python -m pipeline.factors flood|elevation|heat|access|all  -> cache/factors.json (merged by build.py)
+Usage: python -m pipeline.factors flood|elevation|heat|access|all [--new]  -> cache/factors.json (merged by build.py)
+       --new: only barangays without that factor yet (new areas), so existing values stay as they were computed;
+       heat in particular depends on which scenes the search returns for the whole area's bounding box.
 Everything downloaded is cached in cache/factors/; flood layers are reduced to per-barangay numbers and deleted.
 """
 from __future__ import annotations
@@ -33,7 +35,8 @@ CACHE = ROOT / 'cache' / 'factors'
 OUT = ROOT / 'cache' / 'factors.json'
 UA = {'User-Agent': 'ph-zonal-map/0.1 (https://github.com/AndrewConcejero/ph-zonal-map)'}
 LIPAD = 'https://lipad-fmc.dream.upd.edu.ph/geoserver/wfs'
-PROVINCES = ('ph13', 'ph0421', 'ph0434', 'ph0458', 'ph0314')  # NCR, Cavite, Laguna, Rizal, Bulacan (2019 codes)
+# NCR, Cavite, Laguna, Rizal, Bulacan, Pampanga (Angeles is ph035401), Batangas (2019 codes)
+PROVINCES = ('ph13', 'ph0421', 'ph0434', 'ph0458', 'ph0314', 'ph0354', 'ph0410')
 
 
 def barangays() -> dict[str, object]:
@@ -207,14 +210,19 @@ def access(geoms: dict, data: dict) -> None:
 
 
 def main() -> None:
-    what = sys.argv[1] if len(sys.argv) > 1 else 'all'
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    what = args[0] if args else 'all'
+    only_new = '--new' in sys.argv
     CACHE.mkdir(parents=True, exist_ok=True)
     geoms = barangays()
     data = load()
-    steps = {'access': access, 'elevation': elevation, 'heat': heat, 'flood': flood}
-    for name, fn in steps.items():
+    steps = {'access': (access, 'rail_km'), 'elevation': (elevation, 'elev'), 'heat': (heat, 'heat'), 'flood': (flood, None)}
+    for name, (fn, key) in steps.items():
         if what in (name, 'all'):
-            fn(geoms, data)
+            todo = {p: g for p, g in geoms.items() if key not in data.get(p, {})} if only_new and key else geoms
+            print(f'{name}: {len(todo)} barangays', flush=True)
+            if todo:
+                fn(todo, data)
             save(data)
 
 
