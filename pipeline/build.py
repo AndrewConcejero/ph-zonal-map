@@ -246,8 +246,8 @@ def sources_as_of(dos_used: list[tuple[str, str]], schedule_range) -> list[dict]
         {'name': 'BIR zonal value schedules (Department Orders)', 'as_of': list(schedule_range or []),
          'note': f'effectivity dates of the {len(dos_used)} Department Orders in use, from {len({r for r, _ in dos_used})} '
                  'Revenue District Offices', 'url': 'https://www.bir.gov.ph'},
-        {'name': 'Barangay and city boundaries (PSA / NAMRIA, PSGC)', 'as_of': ['2023-12-31'],
-         'note': 'PSGC December 2023 release; Manila from the 2019 release',
+        {'name': 'Barangay and city boundaries (PSA / NAMRIA, PSGC)', 'as_of': ['December 2023 release'],
+         'note': 'Manila from the 2019 release',
          'url': 'https://github.com/faeldon/philippines-json-maps'},
         {'name': 'OpenStreetMap: streets, villages, buildings', 'as_of': osm_range(p for p in osm.glob('*.json') if not p.name.startswith('transport')),
          'note': 'extract dates of the cached per-city downloads', 'url': 'https://www.openstreetmap.org/copyright'},

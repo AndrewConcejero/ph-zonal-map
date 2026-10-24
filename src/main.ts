@@ -952,7 +952,7 @@ function renderFootnotes() {
   $('fn-built').innerHTML = `Data built ${esc(longDate(meta.built_at))}` +
     (meta.adjusted_to ? `; "adjusted to today" values are projected to ${esc(longDate(meta.adjusted_to))}.` : '.');
   $('fn-schedules').innerHTML = meta.schedule_range
-    ? `BIR schedules in use took effect between ${esc(span(meta.schedule_range))}` +
+    ? `BIR schedules in use took effect from ${esc(span(meta.schedule_range))}` +
       (meta.bir ? `: ${meta.bir.department_orders_used} Department Orders from ${meta.bir.rdos.length} Revenue District Offices.` : '.') +
       ' Each barangay shows the newest schedule that covers it; older ones are flagged on its card.'
     : '';

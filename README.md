@@ -1,6 +1,6 @@
 # Philippine Zonal Value Map
 
-A free, public map of BIR residential zonal values (₱ per square meter of land) for Metro Manila and its outskirts: Cavite, Laguna, Rizal and Bulacan. Values are shown per barangay where the data allows. Every area carries a flag saying how good its number is.
+A free, public map of BIR residential zonal values (₱ per square meter of land) for Metro Manila and its outskirts: Cavite, Laguna, Rizal, Bulacan and Batangas. Pampanga (with Angeles City) is on the map as `no_data` until its BIR workbooks (RDO 21A North Pampanga, 21B South Pampanga) are added. Values are shown per barangay where the data allows. Every area carries a flag saying how good its number is.
 
 > **Zonal values are BIR tax floors, not market prices.** Read the map as a ranking. Check with the BIR Revenue District Office (RDO) before any transaction.
 
@@ -59,13 +59,14 @@ npm run dev  # local site at http://localhost:5173
 
 `make data` writes review files to `pipeline/review/`. If a barangay lands in `unmatched.csv`, add a row to `pipeline/aliases.csv` and run `make data` again.
 
-## Street and village values (Metro Manila)
+## Street and village values (Metro Manila, southern Cavite and Laguna, Batangas)
 
-Zoom in on any Metro Manila city to see BIR's street and subdivision values on the map: villages filled, streets as
+Zoom in on any Metro Manila city, the Cavite and Laguna cities listed in `streets.SOUTH`, or any Batangas town to see BIR's street and subdivision values on the map: villages filled, streets as
 lines (dashed where BIR's stretch could not be pinned down, so the whole street is drawn). `pipeline/streets.py`
 matches each residential row of the current schedule to OpenStreetMap shapes in its own barangay; 62% of priced
 rows place. One cached OSM request per city (`cache/osm/`); one GeoJSON per city in `public/data/streets/`,
-loaded only when you zoom in. Review files: `pipeline/review/streets_<city>.csv`. Method and limits:
+loaded only when you zoom in. A city name used in two provinces (Rosario, San Juan) gets the province in its file
+name (`rosario-batangas`). Review files: `pipeline/review/streets_<city>.csv`. Method and limits:
 [docs/pilot-muntinlupa-streets.md](docs/pilot-muntinlupa-streets.md).
 
 ## Other layers
@@ -74,13 +75,13 @@ loaded only when you zoom in. Review files: `pipeline/review/streets_<city>.csv`
 |---|---|---|
 | Roads & rail (current, under construction, proposed) | OpenStreetMap | `pipeline/transport.py` |
 | Condominium values per building | BIR RC/CC rows on named OSM buildings (31% of rows place) | `pipeline/condos.py`, review `pipeline/review/condos.csv` |
-| Flood hazard (share of barangay in medium/high hazard, 100-year rain) | UP NOAH / DREAM via LiPAD WFS (ODbL); NCR and Bulacan fully, Cavite/Laguna/Rizal partly | `pipeline/factors.py flood` |
+| Flood hazard (share of barangay in medium/high hazard, 100-year rain) | UP NOAH / DREAM via LiPAD WFS (ODbL); NCR, Bulacan and Pampanga fully; Cavite, Laguna, Rizal and Batangas partly (Batangas 779 of 1,075 barangays; none for Mabini and Tingloy) | `pipeline/factors.py flood` |
 | Elevation | Copernicus GLO-30 (surface model) | `pipeline/factors.py elevation` |
 | Surface heat (dry-season afternoon land surface temperature) | Landsat 8/9 C2 L2 via Planetary Computer | `pipeline/factors.py heat` |
 | Distance to rail station / expressway | OpenStreetMap | `pipeline/factors.py access` |
 | Vacancy by submarket | hand-entered from broker reports: fill `data/vacancy_submarkets.csv` (with source and period); barangays per submarket in `data/vacancy_submarket_barangays.csv`. The option appears once a row has a number. | `pipeline/build.py` |
 
-`python -m pipeline.factors all` refreshes the factors (slow; downloads are cached in `cache/factors/`).
+`python -m pipeline.factors all` refreshes the factors (slow; downloads are cached in `cache/factors/`). After adding an area, `python -m pipeline.factors <factor> --new` computes a factor only for barangays that lack it, leaving existing values as they were.
 
 ## Satellite imagery
 
@@ -110,7 +111,7 @@ The key ends up in the browser by design; the referrer restriction is what keeps
 - Only residential land rows (class `RR`) count. Condominium rows (`RC`) are priced per sqm of floor area, not land, so they are left out.
 - Each barangay uses the newest Department Order that covers it. Typical is the median of its street values, each street counted once; interior lot is the minimum, prime the maximum.
 - If the newest schedule listing a barangay has no residential land row (BIR now classes it commercial or industrial only), older residential values are not used; it is treated as having no value.
-- Where no BIR schedule matched a barangay, it is estimated as the median of the neighbouring barangays that have their own values (flagged `estimated`, hatched on the map). Only real values are used, never other estimates. With no such neighbour, it shows the city median (flagged `city_median`).
+- Where no BIR schedule matched a barangay, it is estimated as the median of the neighbouring barangays that have their own values (flagged `estimated`, hatched on the map). Only real values are used, never other estimates. With no such neighbour, it shows the city median (flagged `city_median`). A city with no values of its own (Pampanga today) is never estimated from a neighbouring city: it stays `no_data`.
 - **Adjusted to today.** For each RDO, every street that appears in two consecutive revisions of the same barangay gives one annual growth rate; the RDO's rate is their median, taken from the transition into its current schedules. An RDO with fewer than 20 such pairs uses earlier transitions, then its province's median. Each value is then grown from the date it was actually set (a schedule that only repeats an older one's values does not count as a new date). Department Order averages are never compared. Rates per RDO are in `pipeline/review/growth_by_rdo.csv`; the summary is in [docs/staleness-report.md](docs/staleness-report.md).
 
 ## License
