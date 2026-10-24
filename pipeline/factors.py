@@ -18,6 +18,7 @@ from __future__ import annotations
 import json
 import sys
 import time
+import urllib.error
 import urllib.request
 from collections import defaultdict
 from pathlib import Path
@@ -160,8 +161,23 @@ def heat(geoms: dict, data: dict) -> None:
     items = [i for i in json.loads(urllib.request.urlopen(req, timeout=120).read())['features']
              if i['properties']['datetime'][5:7] in ('03', '04', '05')]
     items.sort(key=lambda i: i['properties']['eo:cloud_cover'])
-    token = json.loads(urllib.request.urlopen(urllib.request.Request(
-        'https://planetarycomputer.microsoft.com/api/sas/v1/token/landsateuwest/landsat-c2', headers=UA), timeout=60).read())['token']
+    tok = {'value': '', 'at': 0.0}
+
+    def sas_token() -> str:
+        """The read token expires; a long run renews it every 15 minutes, backing off if the endpoint says 429."""
+        if time.time() - tok['at'] > 900:
+            for attempt in range(4):
+                try:
+                    tok['value'] = json.loads(urllib.request.urlopen(urllib.request.Request(
+                        'https://planetarycomputer.microsoft.com/api/sas/v1/token/landsateuwest/landsat-c2', headers=UA),
+                        timeout=60).read())['token']
+                    break
+                except urllib.error.HTTPError as err:
+                    if err.code != 429 or attempt == 3:
+                        raise
+                    time.sleep(60 * (attempt + 1))
+            tok['at'] = time.time()
+        return tok['value']
     per = defaultdict(list)
     used = 0
     by_tile = defaultdict(int)
@@ -169,27 +185,39 @@ def heat(geoms: dict, data: dict) -> None:
         tile = (it['properties'].get('landsat:wrs_path'), it['properties'].get('landsat:wrs_row'))
         if by_tile[tile] >= 3:  # the three clearest scenes per path/row are plenty
             continue
-        by_tile[tile] += 1
         st, qa = it['assets']['lwir11']['href'], it['assets']['qa_pixel']['href']
-        with rasterio.open(f'/vsicurl/{st}?{token}') as src, rasterio.open(f'/vsicurl/{qa}?{token}') as qsrc:
-            to_src = Transformer.from_crs('EPSG:4326', src.crs, always_xy=True).transform
-            win_geoms = {p: g for p, g in geoms.items()}
-            from rasterio.windows import from_bounds
-            l, b_, r, t = transform(to_src, shape({'type': 'Polygon', 'coordinates': [[(w, s), (e, s), (e, n), (w, n), (w, s)]]})).bounds
-            win = from_bounds(l, b_, r, t, src.transform).round_offsets().round_lengths()
-            band = src.read(1, window=win, boundless=True, fill_value=0)
-            q = qsrc.read(1, window=win, boundless=True, fill_value=0)
-            clear = ((q >> 6) & 1).astype(bool) & (band > 0)
-            celsius = band * 0.00341802 + 149.0 - 273.15
-            sub = type('W', (), {'transform': src.window_transform(win)})()
-            for p, (mean, _mn, cnt) in zonal_mean(win_geoms, sub, celsius, clear, to_src).items():
-                if cnt >= 5:
-                    per[p].append(mean)
+        token = sas_token()
+        try:
+            got = _heat_scene(geoms, (w, s, e, n), f'/vsicurl/{st}?{token}', f'/vsicurl/{qa}?{token}')
+        except rasterio.errors.RasterioIOError as err:  # a dropped read: skip the scene, the next clearest one fills in
+            print(f"  heat scene {it['id']} skipped: {err}", flush=True)
+            tok['at'] = 0.0  # perhaps an expired token: renew before the next scene
+            continue
+        by_tile[tile] += 1
+        for p, mean in got.items():
+            per[p].append(mean)
         used += 1
         print(f"  heat scene {it['id']} ({it['properties']['eo:cloud_cover']:.0f}% cloud)", flush=True)
     for p, vals in per.items():
         data.setdefault(p, {}).update(heat=round(float(np.median(vals)), 1))
     print(f'heat: {len(per)} barangays from {used} scenes')
+
+
+def _heat_scene(geoms: dict, bbox, st_url: str, qa_url: str) -> dict[str, float]:
+    """Mean clear-pixel surface temperature (°C) per barangay in one Landsat scene (barangays with 5+ clear pixels)."""
+    import rasterio
+    from rasterio.windows import from_bounds
+    w, s, e, n = bbox
+    with rasterio.open(st_url) as src, rasterio.open(qa_url) as qsrc:
+        to_src = Transformer.from_crs('EPSG:4326', src.crs, always_xy=True).transform
+        l, b_, r, t = transform(to_src, shape({'type': 'Polygon', 'coordinates': [[(w, s), (e, s), (e, n), (w, n), (w, s)]]})).bounds
+        win = from_bounds(l, b_, r, t, src.transform).round_offsets().round_lengths()
+        band = src.read(1, window=win, boundless=True, fill_value=0)
+        q = qsrc.read(1, window=win, boundless=True, fill_value=0)
+        clear = ((q >> 6) & 1).astype(bool) & (band > 0)
+        celsius = band * 0.00341802 + 149.0 - 273.15
+        sub = type('W', (), {'transform': src.window_transform(win)})()
+        return {p: mean for p, (mean, _mn, cnt) in zonal_mean(geoms, sub, celsius, clear, to_src).items() if cnt >= 5}
 
 
 # ---------------------------------------------------------------- access
