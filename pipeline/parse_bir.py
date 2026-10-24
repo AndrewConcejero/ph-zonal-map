@@ -36,6 +36,10 @@ def resolve_city(raw: str, covered: list[str], candidates: list[str], gaz: Gazet
     its province, because DOs from before an RDO split (25 -> 25A/25B, 54 -> 54A/54B) cover the old district."""
     if not raw:
         return covered[0] if len(covered) == 1 else None
+    if ',' in raw:  # "SAN NARCISO, QUEZON": the province after a comma (San Narciso is also in Zambales)
+        head = resolve_city(raw.split(',')[0], covered, candidates, gaz)
+        if head:
+            return head
     # compare keys against this RDO's own candidates first: names like Santa Maria exist in two provinces
     k = gaz.key(raw)
     same = [c for c in candidates if gaz.key(c) == k]

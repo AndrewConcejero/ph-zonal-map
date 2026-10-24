@@ -31,6 +31,9 @@ NUMBERED_CITIES = {'Manila', 'Caloocan', 'Pasay'}  # barangays are numbers
 def clean_bir_barangay(name: str, city: str) -> str:
     s = name.strip().strip('*').strip()
     s = re.sub(r'^\d{3,4}\s*-\s*(?=[A-Z])', '', s, flags=re.I)  # Paete "0004 - QUINALE (POBLACION)"
+    if city not in NUMBERED_CITIES:
+        s = re.sub(r'^\d{1,2}\s*-\s*(?=[A-Z]{3})', '', s, flags=re.I)  # Perez "6-PINAGTUBIGAN ESTE"
+        s = re.sub(r'^(\d{1,2})\s+POBLACION$', r'POBLACION \1', s, flags=re.I)  # Lucban "1 POBLACION"
     s = re.sub(r'\(?\s*\b(cont|conti|coni|continu)\w*\.?[\'’]?d?\s*\)?\s*$', '', s, flags=re.I).strip(' -–(')
     s = re.sub(r'\s*-\s*$', '', s)
     s = s.strip('*').strip()
@@ -59,6 +62,7 @@ def variants(name: str) -> list[str]:
     out.append(re.sub(r'^POBLACION\s*-\s*', '', no_paren, flags=re.I))  # Angat "POBLACION - SAN ROQUE"
     if not re.search(r'\d|\b[IVX]+\b', no_paren):  # Tuy "POBLACION RILLO" = Rillo, one of the town-centre barangays
         out.append(re.sub(r'^POBLACION\s+(?=[A-Z]{3})', '', no_paren, flags=re.I))
+        out.append(re.sub(r'(?<=[A-Z]{3})\s+POBLACION$', '', no_paren, flags=re.I))  # Gumaca "TABING DAGAT POBLACION"
     return [v.strip() for v in dict.fromkeys(out) if v.strip()]
 
 
@@ -170,6 +174,11 @@ class CityIndex:
             m = re.fullmatch(r'Poblacion\s+Barangay\s+(\S+)', n, re.I)
             if m and not numbered:
                 for k in keys_for(f'Barangay {m.group(1)}'):
+                    self.by_key[k].add(psgc)
+            # Pagbilao "Barangay 4 Parang" is BIR's "PARANG (POBLACION)"
+            m = re.fullmatch(r'Barangay\s+\d{1,2}[A-Z]?\s+(\D{3,}.*)', n, re.I)
+            if m and not numbered:
+                for k in keys_for(m.group(1)):
                     self.by_key[k].add(psgc)
         self.lean = {psgc: tokens(n) for psgc, n in feats.items()}
 
