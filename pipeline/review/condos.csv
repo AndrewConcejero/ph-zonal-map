@@ -1,4 +1,16 @@
 city,province,barangay,class,bir_building,value,osm_building,score,placed
+Angeles,Pampanga,Anunas,CC,CONDOMINIUMS,61250.0,Barangay Cuayan Outpost,0,False
+Angeles,Pampanga,Anunas,RC,CONDOMINIUMS,52500.0,Barangay Cuayan Outpost,0,False
+Angeles,Pampanga,Balibago,CC,ONE EUPHORIA,90000.0,One Euphoria Residences,100,True
+Angeles,Pampanga,Balibago,RC,ONE EUPHORIA,80000.0,One Euphoria Residences,100,True
+Angeles,Pampanga,Balibago,CC,CONDOMINIUMS,80000.0,Hidden Garden,0,False
+Angeles,Pampanga,Balibago,RC,CONDOMINIUMS,67500.0,Hidden Garden,0,False
+Angeles,Pampanga,Balibago,CC,DIAMOND SERVICE ROAD/RAMON TANG AVE.,47500.0,aero service,69,False
+Angeles,Pampanga,Cuayan,RC,CONDOMINIUMS,60000.0,Savannah Green Plains Clubhouse,0,False
+Angeles,Pampanga,Cuayan,CC,CONDOMINIUMS,57500.0,Savannah Green Plains Clubhouse,0,False
+Angeles,Pampanga,Cutcut,CC,CONDOMINIUM,146250.0,SHEN,0,False
+Angeles,Pampanga,Cutcut,RC,CONDOMINIUM,120000.0,SHEN,0,False
+Angeles,Pampanga,Malabañas,CC,CONDOMINIUMS (C-A) PROJEXASIA,95000.0,F&A Building,67,False
 Bacoor,Cavite,Molino I,CC,CASA JESSICA CONDO,50000.0,Orientville Subdivision Clubhouse,31,False
 Bacoor,Cavite,Molino I,RC,CASA JESSICA CONDO,38000.0,Orientville Subdivision Clubhouse,31,False
 Bacoor,Cavite,Niog,CC,LA VIVIENDA,65000.0,Mai Pavillion,50,False
@@ -171,6 +183,10 @@ Lipa,Batangas,Mataas Na Lupa,RC,TORRE LORENZO (2 BEDROOM),110000.0,Tierra de Lor
 Lipa,Batangas,Mataas Na Lupa,RC,TORRE LORENZO (1 BEDROOM),95000.0,Tierra de Lorenzo Condotel,62,False
 Los Baños,Laguna,Batong Malake,CC,PHILIPPINES CENTENNIAL DEV'T CORP,90000.0,Philippine Agricultural Scientist,60,False
 Los Baños,Laguna,Batong Malake,RC,PHILIPPINES CENTENNIAL DEV'T CORP,75000.0,Philippine Agricultural Scientist,60,False
+Lucena,Quezon,Gulang-gulang,CC,ALONG DIVERSION ROAD,12000.0,Canteen WIth Covered service road,53,False
+Lucena,Quezon,Gulang-gulang,RC,ALONG DIVERSION ROAD,8000.0,Canteen WIth Covered service road,53,False
+Lucena,Quezon,Ilayang Iyam,CC,2205 CITY HEIGHTS CONDOTEL,60000.0,B10 L25,0,False
+Lucena,Quezon,Ilayang Iyam,RC,2205 CITY HEIGHTS CONDOTEL,50000.0,B10 L25,0,False
 Makati,Metro Manila,Bangkal,CC,GLOBAL TOWER CONDO,120000.0,Global Tower,100,True
 Makati,Metro Manila,Bangkal,CC,THE MANCHESTER PLACE,115000.0,Manchester Place,100,True
 Makati,Metro Manila,Bangkal,RC,GLOBAL TOWER CONDO,98000.0,Global Tower,100,True
@@ -2449,6 +2465,8 @@ Pasig,Metro Manila,Ugong,RC,VALLE VERDE BLISS 3,65000.0,Rockwell Tower 3,34,Fals
 Pasig,Metro Manila,Ugong,RC,ESLA EXEC TOWNHOUSE,63000.0,Meralco Power Lab,50,False
 Pateros,Metro Manila,Santo Rosario-Silangan,CC,EAST MANSION,37000.0,Anselma I,36,False
 Pateros,Metro Manila,Santo Rosario-Silangan,RC,EAST MANSION,32000.0,Anselma I,36,False
+Porac,Pampanga,Sta. Cruz,CC,CONDOMINIUMS,51000.0,Fiesta Communities II B Basketball Court,0,False
+Porac,Pampanga,Sta. Cruz,RC,CONDOMINIUMS,39500.0,Fiesta Communities II B Basketball Court,0,False
 Quezon City,Metro Manila,Apolonio Samson,RC,CYPRESS VILLAGE CONDOMINIUM,132000.0,MC Premiere Building,46,False
 Quezon City,Metro Manila,Apolonio Samson,RC,CLOVERLEAF CONDOMINIUM,104000.0,Avida Towers Cloverleaf,92,False
 Quezon City,Metro Manila,Apolonio Samson,RC,GRACE I CONDOMINIUM,104000.0,Cheng Residence,40,False
@@ -3456,6 +3474,9 @@ Quezon City,Metro Manila,West Kamias,RC,THE KAMIAS TWIN TOWERS CONDOMINIUM,95000
 Quezon City,Metro Manila,West Triangle,RC,G.A. SKY SUITES,143000.0,DDT Sky Tower,57,False
 Quezon City,Metro Manila,West Triangle,RC,TIMES MANSION CONDO.,112000.0,Citibeds,62,False
 Quezon City,Metro Manila,West Triangle,RC,VERANDA RESIDENCES,105000.0,Veria,67,False
+San Fernando,Pampanga,San Jose,RC,AZURE (CENTURY LIMITLESS CORPORATION),140000.0,McArthur Intersection Hotel,50,False
+San Fernando,Pampanga,San Juan,RC,MEGAWORLD,170000.0,Plaza Emperador,56,False
+San Fernando,Pampanga,Santo Niño,RC,MEGAWORLD CONDO,170000.0,Plaza Emperador,56,False
 San Juan,Metro Manila,Addition Hills,CC,FIRST BARON RESIDENCES,118000.0,First Baron Residences,100,True
 San Juan,Metro Manila,Addition Hills,RC,FIRST BARON RESIDENCES,98000.0,First Baron Residences,100,True
 San Juan,Metro Manila,Addition Hills,RC,BREECE RESIDENCES,90000.0,Breece Residences,100,True

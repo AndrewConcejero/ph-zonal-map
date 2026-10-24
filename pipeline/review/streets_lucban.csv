@@ -1,0 +1,307 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+RR,Abang,ALL OTHER SUBD,,1500.0,DO 13-2020,background,,0
+RR,Abang,MARYLAND SUBD.,,2500.0,DO 13-2020,unmatched,Casa Milagrosa (36),0
+RR,Abang,SUMMERVILLE HOMES SUBD.,,2500.0,DO 13-2020,unmatched,Firstville (57),0
+RR,Abang,CORINTHIAN VILLAGE,,2500.0,DO 13-2020,unmatched,Astoria Heights (42),0
+RR,Abang,R & L SUBD.,,1500.0,DO 13-2020,unmatched,Firstville (31),0
+CR,Abang,ALL LOTS,,700.0,DO 13-2020,unmatched,Casa Milagrosa (45),0
+RR,Abang,ALL LOTS,,500.0,DO 13-2020,unmatched,Casa Milagrosa (45),0
+RR,Abang,ASTORIA HEIGHTS,,2500.0,DO 13-2020,village,Astoria Heights,100
+RR,Abang,CASA MILAGROS SUBD.,,2000.0,DO 13-2020,village,Casa Milagrosa,92.3076923076923
+RR,Aliliw,ALL OTHERS SUBD,,1500.0,DO 13-2020,background,,0
+RR,Aliliw,COSMOPOLITAN COMMUNITIES,,2000.0,DO 13-2020,unmatched,One Mangostana Place (42),0
+RR,Aliliw,D & A SUBD.,,1500.0,DO 13-2020,unmatched,La Residencia Trinidad (24),0
+CR,Aliliw,ALONG NATIONAL HIGHWAY,,900.0,DO 13-2020,unmatched,Astoria Heights (50),0
+RR,Aliliw,ALONG NATIONAL HIGHWAY,,850.0,DO 13-2020,unmatched,Astoria Heights (50),0
+CR,Aliliw,ALL LOTS,,800.0,DO 13-2020,unmatched,Garcinia Grove (27),0
+RR,Aliliw,ALL LOTS,,600.0,DO 13-2020,unmatched,Garcinia Grove (27),0
+RR,Aliliw,LA RESIDENCIA TRINIDAD SUBD.,,2000.0,DO 13-2020,village,La Residencia Trinidad,100
+CR,Atulinao,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Atulinao,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+RR,Ayuti,ALL OTHER SUBD,,2000.0,DO 13-2020,background,,0
+RR,Ayuti,SAN LUIS VILLAGE,,3000.0,DO 13-2020,street,San Luis Street,97
+RR,Ayuti,COUNTRYSIDE VILLAGE,,3500.0,DO 13-2020,unmatched,Greenville (29),0
+RR,Ayuti,FABIE HEIGHTS SUBD.,,3500.0,DO 13-2020,unmatched,Greenville (27),0
+RR,Ayuti,LOR-CAN SUBD.,,3000.0,DO 13-2020,unmatched,Greenville (24),0
+RR,Ayuti,VIRAY SUBD.,,3000.0,DO 13-2020,unmatched,Greenville (27),0
+RR,Ayuti,AYUTI-BINUSUAN,,3000.0,DO 13-2020,unmatched,Greenville (8),0
+RR,Ayuti,RFR SUBD.,,2500.0,DO 13-2020,unmatched,Greenville (15),0
+RR,Ayuti,LES COMPOUND,,2500.0,DO 13-2020,unmatched,Greenville (31),0
+CR,Ayuti,ALL LOTS,,800.0,DO 13-2020,unmatched,Greenville (22),0
+RR,Ayuti,ALL LOTS,,600.0,DO 13-2020,unmatched,Greenville (22),0
+RR,Ayuti,GREENVILLE SUBD.,,3500.0,DO 13-2020,village,Greenville,100
+CR,Barangay 1,ALL OTHER STREETS,INTERIOR LOTS,5500.0,DO 13-2020,background,,0
+RR,Barangay 1,ALL OTHER STREETS,INTERIOR LOTS,3500.0,DO 13-2020,background,,0
+CR,Barangay 1,DELA CRUZ ST.,SAN JOSE,11000.0,DO 13-2020,street,A. dela Cruz Street,92.3076923076923
+CR,Barangay 1,CADELINA ST.,SAN JOSE,9000.0,DO 13-2020,street,G. Cadeliña Street,91.66666666666666
+CR,Barangay 1,KATIPUNAN ST.,SAN JOSE,6500.0,DO 13-2020,street,Katipunan Avenue,97
+CR,Barangay 1,PLARIDEL ST.,SAN JOSE,6500.0,DO 13-2020,street,Plaridel Street,100
+CR,Barangay 1,AGUILAR ST.,SAN JOSE,5500.0,DO 13-2020,street,D. Aguilar Street,90.9090909090909
+CR,Barangay 1,ARELLANO ST.,SAN JOSE,5500.0,DO 13-2020,street,C. Arellano Street,91.66666666666666
+CR,Barangay 1,CABUNGCAL ST.,SAN JOSE,5500.0,DO 13-2020,street,C. Cabungcal Street,92.3076923076923
+RR,Barangay 1,DELA CRUZ ST.,SAN JOSE,5500.0,DO 13-2020,street,A. dela Cruz Street,92.3076923076923
+CR,Barangay 1,ELEAZAR ST.,SAN JOSE,5500.0,DO 13-2020,street,J. Eleazar Street,90.9090909090909
+CR,Barangay 1,BAYANIHAN ST.,,5500.0,DO 13-2020,street,Bayanihan Street,100
+RR,Barangay 1,CADELINA ST.,SAN JOSE,5000.0,DO 13-2020,street,G. Cadeliña Street,91.66666666666666
+CR,Barangay 1,KATIPUNAN SUBD.,SAN JOSE,4250.0,DO 13-2020,street,Katipunan Avenue,97
+RR,Barangay 1,AGUILAR ST.,SAN JOSE,3500.0,DO 13-2020,street,D. Aguilar Street,90.9090909090909
+RR,Barangay 1,ARELLANO ST.,SAN JOSE,3500.0,DO 13-2020,street,C. Arellano Street,91.66666666666666
+RR,Barangay 1,CABUNGCAL ST.,SAN JOSE,3500.0,DO 13-2020,street,C. Cabungcal Street,92.3076923076923
+RR,Barangay 1,ELEAZAR ST.,SAN JOSE,3500.0,DO 13-2020,street,J. Eleazar Street,90.9090909090909
+RR,Barangay 1,BAYANIHAN ST.,,3500.0,DO 13-2020,street,Bayanihan Street,100
+RR,Barangay 1,KATIPUNAN ST.,SAN JOSE,2750.0,DO 13-2020,street,Katipunan Avenue,97
+RR,Barangay 1,PLARIDEL ST.,SAN JOSE,2750.0,DO 13-2020,street,Plaridel Street,100
+RR,Barangay 1,KATIPUNAN SUBD.,SAN JOSE,2750.0,DO 13-2020,street,Katipunan Avenue,97
+CR,Barangay 1,LA PURISIMA CONCEPCION ST.,SAN JOSE,12000.0,DO 13-2020,unmatched,Calmar Land Lucban (35),0
+CR,Barangay 1,JAENA ST.,SAN JOSE,6500.0,DO 13-2020,unmatched,Calmar Land Lucban (26),0
+CR,Barangay 1,RADA ST.,SAN JOSE,5500.0,DO 13-2020,unmatched,Calmar Land Lucban (36),0
+CR,Barangay 1,QUIRINO ST.,SAN JOSE,5500.0,DO 13-2020,unmatched,Calmar Land Lucban (16),0
+CR,Barangay 1,RATIO ST.,SAN JOSE,5500.0,DO 13-2020,unmatched,Calmar Land Lucban (17),0
+RR,Barangay 1,JAENA ST.,SAN JOSE,4500.0,DO 13-2020,unmatched,Calmar Land Lucban (26),0
+RR,Barangay 1,IGLESIA SUBD.,,4500.0,DO 13-2020,unmatched,Calmar Land Lucban (16),0
+RR,Barangay 1,LA PURISIMA CONCEPCION ST.,SAN JOSE,4250.0,DO 13-2020,unmatched,Calmar Land Lucban (35),0
+RR,Barangay 1,RADA ST.,SAN JOSE,3500.0,DO 13-2020,unmatched,Calmar Land Lucban (36),0
+RR,Barangay 1,QUIRINO ST.,SAN JOSE,3500.0,DO 13-2020,unmatched,Calmar Land Lucban (16),0
+RR,Barangay 1,RATIO ST.,SAN JOSE,3500.0,DO 13-2020,unmatched,Calmar Land Lucban (17),0
+CR,Barangay 10,ALL OTHER STREETS,SAN LUIS,8000.0,DO 13-2020,background,,0
+RR,Barangay 10,ALL OTHER STREETS,SAN LUIS,6000.0,DO 13-2020,background,,0
+CR,Barangay 10,QUEZON AVENUE,SAN LUIS,14000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 10,SAN LUIS ST.,SAN LUIS,12000.0,DO 13-2020,street,San Luis Street,100
+CR,Barangay 10,CADELINA ST.,SAN LUIS,10000.0,DO 13-2020,street,G. Cadeliña Street,91.66666666666666
+CR,Barangay 10,BALINTAWAK ST.,SAN LUIS,8000.0,DO 13-2020,street,Balintawak Street,100
+CR,Barangay 10,DEL PILAR ST.,SAN LUIS,8000.0,DO 13-2020,street,G. del Pilar Street,92.3076923076923
+RR,Barangay 10,QUEZON AVENUE,SAN LUIS,8000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Barangay 10,SAN LUIS ST.,SAN LUIS,7000.0,DO 13-2020,street,San Luis Street,100
+RR,Barangay 10,CADELINA ST.,SAN LUIS,6000.0,DO 13-2020,street,G. Cadeliña Street,91.66666666666666
+RR,Barangay 10,BALINTAWAK ST.,SAN LUIS,5000.0,DO 13-2020,street,Balintawak Street,100
+RR,Barangay 10,DEL PILAR ST.,SAN LUIS,5000.0,DO 13-2020,street,G. del Pilar Street,92.3076923076923
+CR,Barangay 10,LA PURISIMA CONCEPCION ST.,SAN LUIS,12000.0,DO 13-2020,unmatched,Calmar Land Lucban (35),0
+CR,Barangay 10,RACELIS AVENUE,SAN LUIS,12000.0,DO 13-2020,unmatched,Calmar Land Lucban (25),0
+RR,Barangay 10,LA PURISIMA CONCEPCION ST.,SAN LUIS,7500.0,DO 13-2020,unmatched,Calmar Land Lucban (35),0
+RR,Barangay 10,RACELIS AVENUE,SAN LUIS,7000.0,DO 13-2020,unmatched,Calmar Land Lucban (25),0
+CR,Barangay 2,ALL OTHER STREETS,INTERIOR LOTS,7500.0,DO 13-2020,background,,0
+RR,Barangay 2,ALL OTHER STREETS,INTERIOR LOTS,5500.0,DO 13-2020,background,,0
+CR,Barangay 2,MABINI ST.,SAN ANTONIO,13000.0,DO 13-2020,street,A. Mabini Street,90.0
+CR,Barangay 2,REGIDOR ST.,SAN ANTONIO,12000.0,DO 13-2020,street,Regidor Street,100
+CR,Barangay 2,RIZAL AVENUE,SAN ANTONIO,12000.0,DO 13-2020,street,Rizal Avenue,100
+CR,Barangay 2,VILLASENOR ST.,SAN ANTONIO,12000.0,DO 13-2020,street,R. Villaseñor Street,92.85714285714286
+CR,Barangay 2,BONIFACIO ST.,SAN ANTONIO,11000.0,DO 13-2020,street,A. Bonifacio Street,92.3076923076923
+CR,Barangay 2,DON RACELIS ST.,SAN ANTONIO,11000.0,DO 13-2020,street,Don A. Racelis Street,93.33333333333333
+CR,Barangay 2,GEN. LUCBAN ST.,SAN ANTONIO,11000.0,DO 13-2020,street,General Lukban Street,92.3076923076923
+CR,Barangay 2,TOLENTINO ST.,SAN ANTONIO,10500.0,DO 13-2020,street,B. Tolentino Street,92.3076923076923
+CR,Barangay 2,CADELINA ST.,SAN ANTONIO,10000.0,DO 13-2020,street,G. Cadeliña Street,91.66666666666666
+CR,Barangay 2,BALINTAWAK ST.,SAN ANTONIO,8000.0,DO 13-2020,street,Balintawak Street,100
+CR,Barangay 2,DEL PILAR ST.,SAN ANTONIO,8000.0,DO 13-2020,street,G. del Pilar Street,92.3076923076923
+RR,Barangay 2,MABINI ST.,SAN ANTONIO,7500.0,DO 13-2020,street,A. Mabini Street,90.0
+RR,Barangay 2,REGIDOR ST.,SAN ANTONIO,7000.0,DO 13-2020,street,Regidor Street,100
+RR,Barangay 2,RIZAL AVENUE,SAN ANTONIO,7000.0,DO 13-2020,street,Rizal Avenue,100
+RR,Barangay 2,VILLASENOR ST.,SAN ANTONIO,7000.0,DO 13-2020,street,R. Villaseñor Street,92.85714285714286
+RR,Barangay 2,BONIFACIO ST.,SAN ANTONIO,6000.0,DO 13-2020,street,A. Bonifacio Street,92.3076923076923
+RR,Barangay 2,CADELINA ST.,SAN ANTONIO,6000.0,DO 13-2020,street,G. Cadeliña Street,91.66666666666666
+RR,Barangay 2,DON RACELIS ST.,SAN ANTONIO,6000.0,DO 13-2020,street,Don A. Racelis Street,93.33333333333333
+RR,Barangay 2,GEN. LUCBAN ST.,SAN ANTONIO,6000.0,DO 13-2020,street,General Lukban Street,92.3076923076923
+RR,Barangay 2,TOLENTINO ST.,SAN ANTONIO,5500.0,DO 13-2020,street,B. Tolentino Street,92.3076923076923
+RR,Barangay 2,BALINTAWAK ST.,SAN ANTONIO,5000.0,DO 13-2020,street,Balintawak Street,100
+RR,Barangay 2,DEL PILAR ST.,SAN ANTONIO,5000.0,DO 13-2020,street,G. del Pilar Street,92.3076923076923
+CR,Barangay 2,RACELIS AVENUE,SAN ANTONIO,12000.0,DO 13-2020,unmatched,Calmar Land Lucban (25),0
+RR,Barangay 2,RACELIS AVENUE,SAN ANTONIO,7000.0,DO 13-2020,unmatched,Calmar Land Lucban (25),0
+CR,Barangay 2,RADA ST.,SAN ANTONIO,6500.0,DO 13-2020,unmatched,Calmar Land Lucban (36),0
+RR,Barangay 2,RADA ST.,SAN ANTONIO,6000.0,DO 13-2020,unmatched,Calmar Land Lucban (36),0
+CR,Barangay 4,ALL OTHER STREETS,SAN ISIDRO,7000.0,DO 13-2020,background,,0
+RR,Barangay 4,ALL OTHER STREETS,SAN ISIDRO,5000.0,DO 13-2020,background,,0
+CR,Barangay 4,GEN. LUCBAN ST.,SAN ISIDRO,11000.0,DO 13-2020,street,General Lukban Street,92.3076923076923
+CR,Barangay 4,GOMBURZA ST.,SAN ISIDRO,11000.0,DO 13-2020,street,Gomburza Street,100
+CR,Barangay 4,BONIFACIO ST.,SAN ISIDRO,6500.0,DO 13-2020,street,A. Bonifacio Street,92.3076923076923
+RR,Barangay 4,BONIFACIO ST.,SAN ISIDRO,6000.0,DO 13-2020,street,A. Bonifacio Street,92.3076923076923
+RR,Barangay 4,GEN. LUCBAN ST.,SAN ISIDRO,6000.0,DO 13-2020,street,General Lukban Street,92.3076923076923
+RR,Barangay 4,GOMBURZA ST.,SAN ISIDRO,6000.0,DO 13-2020,street,Gomburza Street,100
+CR,Barangay 4,RACELIS AVENUE,SAN ISIDRO,11000.0,DO 13-2020,unmatched,,0
+CR,Barangay 4,DATOR ST.,SAN ISIDRO,8500.0,DO 13-2020,unmatched,,0
+RR,Barangay 4,LITTLE BAGUIO SUBD.,SAN ISIDRO,7000.0,DO 13-2020,unmatched,,0
+RR,Barangay 4,RACELIS AVENUE,SAN ISIDRO,6000.0,DO 13-2020,unmatched,,0
+RR,Barangay 4,DATOR ST.,SAN ISIDRO,5500.0,DO 13-2020,unmatched,,0
+CR,Barangay 5,ALL OTHER STREETS,interior lots,7000.0,DO 13-2020,background,,0
+RR,Barangay 5,ALL OTHER STREETS,interior lots,5000.0,DO 13-2020,background,,0
+CR,Barangay 5,MABINI ST.,SAN ANTONIO,12500.0,DO 13-2020,street,A. Mabini Street,90.0
+CR,Barangay 5,DON RACELIS ST.,SAN ANTONIO,11000.0,DO 13-2020,street,Don A. Racelis Street,93.33333333333333
+CR,Barangay 5,GEN. LUCBAN ST.,SAN ANTONIO,11000.0,DO 13-2020,street,General Lukban Street,92.3076923076923
+CR,Barangay 5,RIZAL AVENUE,SAN ANTONIO,11000.0,DO 13-2020,street,Rizal Avenue,100
+CR,Barangay 5,VILLASENOR ST.,SAN ANTONIO,11000.0,DO 13-2020,street,R. Villaseñor Street,92.85714285714286
+CR,Barangay 5,CADELINA ST.,SAN ANTONIO,10000.0,DO 13-2020,street,G. Cadeliña Street,91.66666666666666
+CR,Barangay 5,MADERAL ST.,SAN ANTONIO,10000.0,DO 13-2020,street,A. Maderal Street,90.9090909090909
+CR,Barangay 5,TOLENTINO ST.,SAN ANTONIO,10000.0,DO 13-2020,street,B. Tolentino Street,92.3076923076923
+CR,Barangay 5,ZURBANO ST.,SAN ANTONIO,10000.0,DO 13-2020,street,E. Zurbano Street,90.9090909090909
+CR,Barangay 5,BALINTAWAK ST.,SAN ANTONIO,8000.0,DO 13-2020,street,Balintawak Street,100
+CR,Barangay 5,DEL PILAR ST.,SAN ANTONIO,8000.0,DO 13-2020,street,G. del Pilar Street,92.3076923076923
+RR,Barangay 5,MABINI ST.,SAN ANTONIO,7000.0,DO 13-2020,street,A. Mabini Street,90.0
+RR,Barangay 5,CADELINA ST.,SAN ANTONIO,6000.0,DO 13-2020,street,G. Cadeliña Street,91.66666666666666
+RR,Barangay 5,DON RACELIS ST.,SAN ANTONIO,6000.0,DO 13-2020,street,Don A. Racelis Street,93.33333333333333
+RR,Barangay 5,GEN. LUCBAN ST.,SAN ANTONIO,6000.0,DO 13-2020,street,General Lukban Street,92.3076923076923
+RR,Barangay 5,RIZAL AVENUE,SAN ANTONIO,6000.0,DO 13-2020,street,Rizal Avenue,100
+RR,Barangay 5,VILLASENOR ST.,SAN ANTONIO,6000.0,DO 13-2020,street,R. Villaseñor Street,92.85714285714286
+RR,Barangay 5,BALINTAWAK ST.,SAN ANTONIO,5000.0,DO 13-2020,street,Balintawak Street,100
+RR,Barangay 5,DEL PILAR ST.,SAN ANTONIO,5000.0,DO 13-2020,street,G. del Pilar Street,92.3076923076923
+RR,Barangay 5,MADERAL ST.,SAN ANTONIO,5000.0,DO 13-2020,street,A. Maderal Street,90.9090909090909
+RR,Barangay 5,TOLENTINO ST.,SAN ANTONIO,5000.0,DO 13-2020,street,B. Tolentino Street,92.3076923076923
+RR,Barangay 5,ZURBANO ST.,SAN ANTONIO,5000.0,DO 13-2020,street,E. Zurbano Street,90.9090909090909
+CR,Barangay 5,RADA ST.,SAN ANTONIO,11000.0,DO 13-2020,unmatched,,0
+CR,Barangay 5,TIGLA ST.,SAN ANTONIO,10000.0,DO 13-2020,unmatched,,0
+RR,Barangay 5,RADA ST.,SAN ANTONIO,6000.0,DO 13-2020,unmatched,,0
+RR,Barangay 5,TIGLA ST.,SAN ANTONIO,5000.0,DO 13-2020,unmatched,,0
+CR,Barangay 6,ALL OTHER STREETS,interior lots,6500.0,DO 13-2020,background,,0
+RR,Barangay 6,ALL OTHER STREETS,interior lots,4500.0,DO 13-2020,background,,0
+CR,Barangay 6,PLACENCIA ST.,SAN ISIDRO,10000.0,DO 13-2020,street,Placencia Street,100
+CR,Barangay 6,GEN. LUCBAN ST,,10000.0,DO 13-2020,street,General Lukban Street,92.3076923076923
+CR,Barangay 6,KATIPUNAN ST.,SAN ISIDRO,6500.0,DO 13-2020,street,Katipunan Avenue,97
+CR,Barangay 6,PLARIDEL ST.,SAN ISIDRO,6500.0,DO 13-2020,street,Plaridel Street,100
+RR,Barangay 6,PLACENCIA ST.,SAN ISIDRO,5000.0,DO 13-2020,street,Placencia Street,100
+RR,Barangay 6,GEN. LUCBAN ST,,5000.0,DO 13-2020,street,General Lukban Street,92.3076923076923
+RR,Barangay 6,KATIPUNAN ST.,SAN ISIDRO,4500.0,DO 13-2020,street,Katipunan Avenue,97
+RR,Barangay 6,PLARIDEL ST.,SAN ISIDRO,4500.0,DO 13-2020,street,Plaridel Street,100
+CR,Barangay 6,LA PURISIMA CONCEPCION ST.,SAN ISIDRO,12500.0,DO 13-2020,unmatched,,0
+CR,Barangay 6,SUAREZ ST.,SAN ISIDRO,9000.0,DO 13-2020,unmatched,,0
+RR,Barangay 6,LA PURISIMA CONCEPCION ST.,SAN ISIDRO,7500.0,DO 13-2020,unmatched,,0
+CR,Barangay 6,JAENA ST.,SAN ISIDRO,6500.0,DO 13-2020,unmatched,,0
+RR,Barangay 6,BANAHAW SUBD.,SAN ISIDRO,6000.0,DO 13-2020,unmatched,,0
+RR,Barangay 6,VILLALON COMPOUND,SAN ISIDRO,6000.0,DO 13-2020,unmatched,,0
+RR,Barangay 6,SUAREZ ST.,SAN ISIDRO,5000.0,DO 13-2020,unmatched,,0
+RR,Barangay 6,JAENA ST.,SAN ISIDRO,4500.0,DO 13-2020,unmatched,,0
+CR,Barangay 7,ALL OTHER STREETS,interior lots,5500.0,DO 13-2020,background,,0
+RR,Barangay 7,ALL OTHER STREETS,interior lots,2250.0,DO 13-2020,background,,0
+CR,Barangay 7,MABINI ST.,SAN JOSE,12500.0,DO 13-2020,street,A. Mabini Street,90.0
+CR,Barangay 7,RIZAL AVENUE,SAN JOSE,11000.0,DO 13-2020,street,Rizal Avenue,100
+CR,Barangay 7,PLACENCIA ST.,SAN JOSE,10000.0,DO 13-2020,street,Placencia Street,100
+RR,Barangay 7,MABINI ST.,SAN JOSE,7000.0,DO 13-2020,street,A. Mabini Street,90.0
+CR,Barangay 7,KATIPUNAN ST.,SAN JOSE,6500.0,DO 13-2020,street,Katipunan Avenue,97
+CR,Barangay 7,PLARIDEL ST.,SAN JOSE,6500.0,DO 13-2020,street,Plaridel Street,100
+RR,Barangay 7,RIZAL AVENUE,SAN JOSE,6000.0,DO 13-2020,street,Rizal Avenue,100
+CR,Barangay 7,AGUILAR ST.,SAN JOSE,5500.0,DO 13-2020,street,D. Aguilar Street,90.9090909090909
+CR,Barangay 7,ARELLANO ST.,SAN JOSE,5500.0,DO 13-2020,street,C. Arellano Street,91.66666666666666
+CR,Barangay 7,CABUNGCAL ST.,SAN JOSE,5500.0,DO 13-2020,street,C. Cabungcal Street,92.3076923076923
+CR,Barangay 7,DELA CRUZ ST.,SAN JOSE,5500.0,DO 13-2020,street,A. dela Cruz Street,92.3076923076923
+CR,Barangay 7,ELEAZAR ST.,SAN JOSE,5500.0,DO 13-2020,street,J. Eleazar Street,90.9090909090909
+RR,Barangay 7,PLACENCIA ST.,SAN JOSE,5000.0,DO 13-2020,street,Placencia Street,100
+RR,Barangay 7,KATIPUNAN ST.,SAN JOSE,4500.0,DO 13-2020,street,Katipunan Avenue,97
+RR,Barangay 7,PLARIDEL ST.,SAN JOSE,4500.0,DO 13-2020,street,Plaridel Street,100
+RR,Barangay 7,AGUILAR ST.,SAN JOSE,3500.0,DO 13-2020,street,D. Aguilar Street,90.9090909090909
+RR,Barangay 7,ARELLANO ST.,SAN JOSE,3500.0,DO 13-2020,street,C. Arellano Street,91.66666666666666
+RR,Barangay 7,CABUNGCAL ST.,SAN JOSE,3500.0,DO 13-2020,street,C. Cabungcal Street,92.3076923076923
+RR,Barangay 7,DELA CRUZ ST.,SAN JOSE,3500.0,DO 13-2020,street,A. dela Cruz Street,92.3076923076923
+RR,Barangay 7,ELEAZAR ST.,SAN JOSE,3500.0,DO 13-2020,street,J. Eleazar Street,90.9090909090909
+CR,Barangay 7,LA PURISIMA CONCEPCION ST.,SAN JOSE,12000.0,DO 13-2020,unmatched,,0
+RR,Barangay 7,LA PURISIMA CONCEPCION ST.,SAN JOSE,7500.0,DO 13-2020,unmatched,,0
+CR,Barangay 7,JAENA ST.,SAN JOSE,6500.0,DO 13-2020,unmatched,,0
+RR,Barangay 7,JAENA ST.,SAN JOSE,4500.0,DO 13-2020,unmatched,,0
+CR,Barangay 8,ALL OTHER STREETS,SAN LUIS,8000.0,DO 13-2020,background,,0
+RR,Barangay 8,ALL OTHER STREETS,SAN LUIS,6000.0,DO 13-2020,background,,0
+CR,Barangay 8,QUEZON AVENUE ST.,SAN LUIS,12500.0,DO 13-2020,street,Quezon Avenue,97
+CR,Barangay 8,MABINI ST.,SAN LUIS,12000.0,DO 13-2020,street,A. Mabini Street,90.0
+CR,Barangay 8,REGIDOR ST.,SAN LUIS,12000.0,DO 13-2020,street,Regidor Street,100
+CR,Barangay 8,RIZAL AVENUE,SAN LUIS,12000.0,DO 13-2020,street,Rizal Avenue,100
+CR,Barangay 8,SAN LUIS ST.,SAN LUIS,12000.0,DO 13-2020,street,San Luis Street,100
+CR,Barangay 8,DON V. CADELINA ST.,SAN LUIS,11000.0,DO 13-2020,street,Don V. Cadeliña Street,100
+RR,Barangay 8,QUEZON AVENUE ST.,SAN LUIS,8500.0,DO 13-2020,street,Quezon Avenue,97
+RR,Barangay 8,RIZAL AVENUE,SAN LUIS,8500.0,DO 13-2020,street,Rizal Avenue,100
+CR,Barangay 8,BALINTAWAK ST.,SAN LUIS,8000.0,DO 13-2020,street,Balintawak Street,100
+RR,Barangay 8,MABINI ST.,SAN LUIS,8000.0,DO 13-2020,street,A. Mabini Street,90.0
+RR,Barangay 8,REGIDOR ST.,SAN LUIS,7000.0,DO 13-2020,street,Regidor Street,100
+RR,Barangay 8,SAN LUIS ST.,SAN LUIS,7000.0,DO 13-2020,street,San Luis Street,100
+RR,Barangay 8,DON V. CADELINA ST.,SAN LUIS,6000.0,DO 13-2020,street,Don V. Cadeliña Street,100
+RR,Barangay 8,BALINTAWAK ST.,SAN LUIS,5000.0,DO 13-2020,street,Balintawak Street,100
+CR,Barangay 8,LA PURISIMA CONCEPCION ST.,SAN LUIS,12000.0,DO 13-2020,unmatched,,0
+CR,Barangay 8,RACELIS AVENUE,SAN LUIS,12000.0,DO 13-2020,unmatched,,0
+RR,Barangay 8,LA PURISIMA CONCEPCION ST.,SAN LUIS,8000.0,DO 13-2020,unmatched,,0
+RR,Barangay 8,RACELIS AVENUE,SAN LUIS,8000.0,DO 13-2020,unmatched,,0
+CR,Barangay 9,ALL OTHER STREETS,INTERIOR LOTS,5500.0,DO 13-2020,background,,0
+RR,Barangay 9,ALL OTHER STREETS,INTERIOR LOTS,3500.0,DO 13-2020,background,,0
+CR,Barangay 9,RIZAL AVENUE,SAN JOSE,12000.0,DO 13-2020,street,Rizal Avenue,100
+CR,Barangay 9,DON V. CADELINA ST.,SAN JOSE,9000.0,DO 13-2020,street,Don V. Cadeliña Street,100
+CR,Barangay 9,REGIDOR ST.,SAN JOSE,9000.0,DO 13-2020,street,Regidor Street,100
+CR,Barangay 9,KATIPUNAN ST.,SAN JOSE,6500.0,DO 13-2020,street,Katipunan Avenue,97
+CR,Barangay 9,PLARIDEL ST.,SAN JOSE,6500.0,DO 13-2020,street,Plaridel Street,100
+RR,Barangay 9,RIZAL AVENUE,SAN JOSE,6000.0,DO 13-2020,street,Rizal Avenue,100
+CR,Barangay 9,AGUILAR ST.,SAN JOSE,5500.0,DO 13-2020,street,D. Aguilar Street,90.9090909090909
+CR,Barangay 9,ARELLANO ST.,SAN JOSE,5500.0,DO 13-2020,street,C. Arellano Street,91.66666666666666
+CR,Barangay 9,CABUNGCAL ST.,SAN JOSE,5500.0,DO 13-2020,street,C. Cabungcal Street,92.3076923076923
+CR,Barangay 9,DELA CRUZ ST.,SAN JOSE,5500.0,DO 13-2020,street,A. dela Cruz Street,92.3076923076923
+CR,Barangay 9,ELEAZAR ST.,SAN JOSE,5500.0,DO 13-2020,street,J. Eleazar Street,90.9090909090909
+RR,Barangay 9,DON V. CADELINA ST.,SAN JOSE,5000.0,DO 13-2020,street,Don V. Cadeliña Street,100
+RR,Barangay 9,REGIDOR ST.,SAN JOSE,5000.0,DO 13-2020,street,Regidor Street,100
+RR,Barangay 9,KATIPUNAN ST.,SAN JOSE,4500.0,DO 13-2020,street,Katipunan Avenue,97
+RR,Barangay 9,PLARIDEL ST.,SAN JOSE,4500.0,DO 13-2020,street,Plaridel Street,100
+RR,Barangay 9,AGUILAR ST.,SAN JOSE,3500.0,DO 13-2020,street,D. Aguilar Street,90.9090909090909
+RR,Barangay 9,ARELLANO ST.,SAN JOSE,3500.0,DO 13-2020,street,C. Arellano Street,91.66666666666666
+RR,Barangay 9,CABUNGCAL ST.,SAN JOSE,3500.0,DO 13-2020,street,C. Cabungcal Street,92.3076923076923
+RR,Barangay 9,DELA CRUZ ST.,SAN JOSE,3500.0,DO 13-2020,street,A. dela Cruz Street,92.3076923076923
+RR,Barangay 9,ELEAZAR ST.,SAN JOSE,3500.0,DO 13-2020,street,J. Eleazar Street,90.9090909090909
+CR,Barangay 9,LA PURISIMA CONCEPCION ST.,SAN JOSE,12000.0,DO 13-2020,unmatched,,0
+RR,Barangay 9,LA PURISIMA CONCEPCION ST.,SAN JOSE,7500.0,DO 13-2020,unmatched,,0
+CR,Barangay 9,JAENA ST.,SAN JOSE,6500.0,DO 13-2020,unmatched,,0
+CR,Barangay 9,RADA ST.,SAN JOSE,5500.0,DO 13-2020,unmatched,,0
+RR,Barangay 9,JAENA ST.,SAN JOSE,4500.0,DO 13-2020,unmatched,,0
+RR,Barangay 9,RADA ST.,SAN JOSE,3500.0,DO 13-2020,unmatched,,0
+CR,Igang,ALL LOTS,,700.0,DO 13-2020,unmatched,,0
+RR,Igang,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+CR,Kabatete,ALL LOTS,,900.0,DO 13-2020,unmatched,La Residencia Trinidad (20),0
+RR,Kabatete,ALL LOTS,,700.0,DO 13-2020,unmatched,La Residencia Trinidad (20),0
+CR,Kakawit,ALL LOTS,,700.0,DO 13-2020,unmatched,,0
+RR,Kakawit,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+CR,Kalangay,ALL LOTS,,700.0,DO 13-2020,unmatched,,0
+RR,Kalangay,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+CR,Kalyaat,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Kalyaat,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+RR,Kilib,ALL OTHER SUBDIVISION,,2000.0,DO 13-2020,background,,0
+RR,Kilib,STO NIÑO SUBD.,,2000.0,DO 13-2020,unmatched,Astoria Heights (45),0
+CR,Kilib,ALL LOTS,,800.0,DO 13-2020,unmatched,Casa Milagrosa (45),0
+RR,Kilib,ALL LOTS,,700.0,DO 13-2020,unmatched,Casa Milagrosa (45),0
+RR,Kilib,SUMMERVILLE I SUBD.,,2500.0,DO 13-2020,village,Summerville Homes Ⅰ,100
+RR,Kilib,FIRSTVILLE SUBD.,,2000.0,DO 13-2020,village,Firstville,100
+RR,Kulapi,ALL OTHER SUBDIVISION,,2000.0,DO 13-2020,background,,0
+RR,Kulapi,NANAGAS ESTATE/CALMAR SUBD.,,4500.0,DO 13-2020,unmatched,Calmar Land Lucban (65),0
+RR,Kulapi,MARIPOSA ROYALE SUBD.,,3500.0,DO 13-2020,unmatched,Mariposa (70),0
+RR,Kulapi,ST. LOUIS HEIGHTS,,3500.0,DO 13-2020,unmatched,Villa Loreto Ibaba (34),0
+CR,Kulapi,ALL LOTS,,2000.0,DO 13-2020,unmatched,San Luis Subdivision (50),0
+RR,Kulapi,D & A COMPOUND,,2000.0,DO 13-2020,unmatched,Calmar Land Lucban (29),0
+RR,Kulapi,ALL LOTS,,1500.0,DO 13-2020,unmatched,San Luis Subdivision (50),0
+RR,Kulapi,URBAN POOR I,,1500.0,DO 13-2020,unmatched,Summerville Homes Ⅰ (32),0
+CR,Mahabang Parang,ALL LOTS,,700.0,DO 13-2020,unmatched,La Residencia Trinidad (20),0
+RR,Mahabang Parang,ALL LOTS,,500.0,DO 13-2020,unmatched,La Residencia Trinidad (20),0
+RR,Mahabang Parang,LA RESIDENCIA TRINIDAD,,2340.0,DO 13-2020,village,La Residencia Trinidad,100
+RR,Malupak,ST. THERESE RES'L ESTATE,,3000.0,DO 13-2020,unmatched,San Luis Subdivision (30),0
+CR,Malupak,ALONG NATIONAL HIGHWAY,,2000.0,DO 13-2020,unmatched,Lukban Highlands (49),0
+RR,Malupak,ALONG NATIONAL HIGHWAY,,1500.0,DO 13-2020,unmatched,Lukban Highlands (49),0
+CR,Malupak,ALONG NATIONAL HIGHWAY,INTERIOR LOTS,1500.0,DO 13-2020,unmatched,Lukban Highlands (49),0
+RR,Malupak,ALONG NATIONAL HIGHWAY,INTERIOR LOTS,1000.0,DO 13-2020,unmatched,Lukban Highlands (49),0
+CR,Manasa,ALONG NATIONAL HIGHWAY,,1500.0,DO 13-2020,unmatched,,0
+RR,Manasa,ALONG NATIONAL HIGHWAY,,1000.0,DO 13-2020,unmatched,,0
+CR,Manasa,ALONG NATIONAL HIGHWAY,INTERIOR LOTS,800.0,DO 13-2020,unmatched,,0
+RR,Manasa,ALONG NATIONAL HIGHWAY,INTERIOR LOTS,600.0,DO 13-2020,unmatched,,0
+CR,May-It,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,May-It,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+CR,Nagsinamo,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Nagsinamo,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+CR,Nalunao,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Nalunao,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+CR,Palola,INTERIOR LOTS,,600.0,DO 13-2020,background,,0
+RR,Palola,INTERIOR LOTS,,400.0,DO 13-2020,background,,0
+CR,Palola,ALONG MUNICIPAL ROAD,,800.0,DO 13-2020,unmatched,Greenville (32),0
+RR,Palola,ALONG MUNICIPAL ROAD,,600.0,DO 13-2020,unmatched,Greenville (32),0
+CR,Piis,INTERIOR LOTS,,700.0,DO 13-2020,background,,0
+RR,Piis,INTERIOR LOTS,,500.0,DO 13-2020,background,,0
+CR,Piis,ALONG NATIONAL HIGHWAY,,900.0,DO 13-2020,unmatched,,0
+RR,Piis,ALONG NATIONAL HIGHWAY,,700.0,DO 13-2020,unmatched,,0
+CR,Samil,INTERIOR LOTS,,500.0,DO 13-2020,background,,0
+RR,Samil,INTERIOR LOTS,,300.0,DO 13-2020,background,,0
+CR,Samil,ALONG NATIONAL HIGHWAY,,700.0,DO 13-2020,unmatched,,0
+RR,Samil,ALONG NATIONAL HIGHWAY,,500.0,DO 13-2020,unmatched,,0
+CR,Tiawe,INTERIOR LOTS,,1000.0,DO 13-2020,background,,0
+RR,Tiawe,INTERIOR LOTS,,800.0,DO 13-2020,background,,0
+CR,Tiawe,ALONG NATIONAL HIGHWAY,,1500.0,DO 13-2020,unmatched,Lukban Highlands (49),0
+RR,Tiawe,ALONG NATIONAL HIGHWAY,,1000.0,DO 13-2020,unmatched,Lukban Highlands (49),0
+RR,Tinamnan,ALL OTHER SUBD,,2000.0,DO 13-2020,background,,0
+CR,Tinamnan,INTERIOR LOTS,,1500.0,DO 13-2020,background,,0
+RR,Tinamnan,INTERIOR LOTS,,1000.0,DO 13-2020,background,,0
+RR,Tinamnan,MIRAMONTE SUBD,,4000.0,DO 13-2020,unmatched,San Luis Subdivision (35),0
+CR,Tinamnan,ALONG NATIONAL HIGHWAY,,2000.0,DO 13-2020,unmatched,Lukban Highlands (49),0
+RR,Tinamnan,ALONG NATIONAL HIGHWAY,,1500.0,DO 13-2020,unmatched,Lukban Highlands (49),0
+RR,Tinamnan,LUCBAN HIGHLANDS,,4000.0,DO 13-2020,village,Lukban Highlands,93.33333333333333

@@ -1,0 +1,536 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Acli,ALL LOTS,ALONG EXPRESSWAY,3000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Acli,ALL LOTS,ALONG EXPRESSWAY,2800.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+CR,Acli,ALL LOTS,ALONG BARANGAY ROAD,2800.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Acli,ALL LOTS,ALONG EXPRESSWAY,2450.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Acli,ALL LOTS,ALONG BARANGAY ROAD,2300.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Acli,ALL LOTS,ALONG BARANGAY ROAD,1800.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Acli,ALL LOTS,RESETTLEMENT,1600.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Acli,ALL LOTS,INTERIOR LOTS,1500.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Acli,ALL LOTS,INTERIOR LOTS,1200.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+CR,Anao,ALL LOTS,ALONG NATIONAL ROAD,5000.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Anao,ALL LOTS,(MAGALANG-ARAYAT ROAD),4000.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,Anao,ALL LOTS,ALONG BY PASS ROAD,4000.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,Anao,VILLA AURELIO SUBD.,ALONG NATIONAL ROAD,4000.0,DO 4-2024,unmatched,Sanros (33),0
+RR,Anao,ALL LOTS,(MAGALANG-ARAYAT ROAD),3500.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,Anao,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Anao,ALL LOTS,ANAO TO SAN JOSE MALINO,3500.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Anao,VILLA AURELIO SUBD.,ALONG NATIONAL ROAD,3500.0,DO 4-2024,unmatched,Sanros (33),0
+CR,Anao,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Anao,ALL LOTS,ANAO TO SAN JOSE MALINO,3000.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Anao,ALL LOTS,INTERIOR LOTS,2250.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Anao,,INTERIOR LOTS,2025.0,DO 4-2024,unmatched,Santa Ana (0),0
+RR,Anao,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Anao,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Anao,,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Santa Ana (0),0
+RR,Anao,ALL LOTS,BARANGAY ROAD,1800.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Anao,SANROS SUBD.,"INFRONT OF PRESCO, INC.",3000.0,DO 4-2024,village,Sanros,100
+CR,Balas,ALL LOTS,PROV. ROAD-BENIGNO AQUINO HI-WAY,5000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Balas,ALL LOTS,PROV. ROAD-BENIGNO AQUINO HI-WAY,4000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Balas,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Balas,ALL LOTS,PROV. ROAD-BENIGNO AQUINO HI-WAY,3500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Balas,ALL LOTS,INTERIOR LOTS,3250.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Balas,ALL LOTS,BARANGAY ROAD,3250.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Balas,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Balas,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Balas,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Buenavista,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Buenavista,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Buenavista,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Buenavista,ALL LOTS,ALONG BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Mexico (14),0
+I,Buenavista,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Buenavista,ALL LOTS,INTERIOR LOTS,1750.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Camuning,ALL LOTS,ALONG EXPRESSWAY,6000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+CR,Camuning,ALL LOTS,ALONG PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Camuning,ALL LOTS,ALONG EXPRESSWAY,5000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Camuning,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Camuning,ALL LOTS,ALONG EXPRESSWAY,4500.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Camuning,ALL LOTS,ALONG PROVINCIAL ROAD,4500.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+CR,Camuning,ALL LOTS,ALONG BARANGAY ROAD,4500.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Camuning,MILAN SUBD.,ALONG PROVINCIAL ROAD,4500.0,DO 4-2024,unmatched,Camella Sorrento (38),0
+RR,Camuning,PANORAMA SUBD.,ALONG PROVINCIAL ROAD,4500.0,DO 4-2024,unmatched,Villa Rapael (40),0
+RR,Camuning,VILLA DEL SAN AGUSTIN,ALONG PROVINCIAL ROAD,4500.0,DO 4-2024,unmatched,Villa Rapael (55),0
+RR,Camuning,ST. PETER SUBD,ALONG PROVINCIAL ROAD,4500.0,DO 4-2024,unmatched,Saint Peter Village (62),0
+I,Camuning,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+CR,Camuning,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Camuning,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Camuning,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+CR,Camuning,,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Camella Sorrento (0),0
+RR,Camuning,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Camuning,,INTERIOR LOTS,2250.0,DO 4-2024,unmatched,Camella Sorrento (0),0
+RR,Camuning,,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Camella Sorrento (0),0
+RR,Camuning,GOLDEN ESTATE,ALONG PROVINCIAL ROAD,4750.0,DO 4-2024,village,Golden Estate Subdivision,100
+RR,Camuning,VILLA RAFAEL,ALONG PROVINCIAL ROAD,4750.0,DO 4-2024,village,Villa Rapael,91.66666666666666
+RR,Camuning,COUNTRY SIDE SUBD.,ADJACENT TO NLEX/ ALONG PROVINCIAL ROAD,4750.0,DO 4-2024,village,Countryside,100
+CR,Cawayan,ALL LOTS,FRONTING BY PASS ROAD FROM ANAO,4500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Cawayan,ALL LOTS,FRONTING BY PASS ROAD FROM ANAO,4000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Cawayan,ALL LOTS,FRONTING BY PASS ROAD FROM ANAO,3500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Cawayan,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Cawayan,ALL LOTS,INTERIOR LOTS,3250.0,DO 4-2024,unmatched,Mexico (14),0
+I,Cawayan,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Cawayan,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Cawayan,ALL LOTS,INTERIOR LOTS,2250.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Cawayan,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Concepcion,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Concepcion,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,Concepcion,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Concepcion,ALL LOTS,BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Concepcion,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Concepcion,ALL LOTS,INTERIOR LOTS,1750.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,Culubasa,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Culubasa,ALL LOTS,INTERIOR LOTS,2750.0,DO 4-2024,unmatched,Mexico (14),0
+I,Culubasa,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Culubasa,ALL LOTS,INTERIOR LOTS,2200.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Culubasa,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Culubasa,ALL LOTS,INTERIOR LOTS,1750.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Divisoria,LAKESHORE SUBD.,ADJACENT TO NLEX,13500.0,DO 4-2024,unmatched,Lakeview (59),0
+RR,Divisoria,LAKESHORE SUBD.,ADJACENT TO NLEX,8500.0,DO 4-2024,unmatched,Lakeview (59),0
+RR,Divisoria,THE PALM,,8000.0,DO 4-2024,unmatched,Eastlake (33),0
+CR,Divisoria,ALL LOTS,PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Northern Hills (48),0
+I,Divisoria,ALL LOTS,PROVINCIAL ROAD,4500.0,DO 4-2024,unmatched,Northern Hills (48),0
+CR,Divisoria,ALL LOTS,INTERIOR LOTS,4500.0,DO 4-2024,unmatched,Northern Hills (48),0
+RR,Divisoria,ALL LOTS,PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,Northern Hills (48),0
+I,Divisoria,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Northern Hills (48),0
+CR,Divisoria,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Northern Hills (48),0
+I,Divisoria,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Northern Hills (48),0
+RR,Divisoria,ALL LOTS,INTERIOR LOTS,2750.0,DO 4-2024,unmatched,Northern Hills (48),0
+RR,Divisoria,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Northern Hills (48),0
+CR,Eden,ALL LOTS,ALONG EXPRESSWAY,5500.0,DO 4-2024,unmatched,Ajoya (31),0
+RR,Eden,ASPIRA HOMES,,5000.0,DO 4-2024,unmatched,Ajoya (36),0
+I,Eden,ALL LOTS,ALONG EXPRESSWAY,4000.0,DO 4-2024,unmatched,Ajoya (31),0
+RR,Eden,ALL LOTS,ALONG EXPRESSWAY,3000.0,DO 4-2024,unmatched,Ajoya (31),0
+CR,Eden,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Ajoya (31),0
+CR,Eden,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Ajoya (31),0
+I,Eden,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Ajoya (31),0
+I,Eden,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Ajoya (31),0
+RR,Eden,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Ajoya (31),0
+RR,Eden,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Ajoya (31),0
+RR,Eden,AJOYA SUBD.,,5000.0,DO 4-2024,village,Ajoya,100
+CR,Gandus,ALL LOTS,ALONG EXPRESSWAY,5000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Gandus,ALL LOTS,ALONG EXPRESSWAY,4000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Gandus,ALL LOTS,ALONG EXPRESSWAY,3500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Gandus,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Gandus,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Gandus,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Gandus,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Gandus,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Gandus,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Lagundi,ALL LOTS,ALONG OLONGAPO-GAPAN RD.,19750.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+I,Lagundi,ALL LOTS,ALONG OLONGAPO-GAPAN RD.,18000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+RR,Lagundi,ALL LOTS,ALONG OLONGAPO-GAPAN RD.,13750.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+CR,Lagundi,ALL LOTS,INTERIOR LOTS,13000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+I,Lagundi,ALL LOTS,INTERIOR LOTS,11000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+RR,Lagundi,ALL LOTS,INTERIOR LOTS,8000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+CR,Lagundi,ALL LOTS,ALONG BARANGAY ROAD,8000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+I,Lagundi,ALL LOTS,ALONG BARANGAY ROAD,7250.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+RR,Lagundi,QUEENSBOROUGH,NEAR SM,6750.0,DO 4-2024,unmatched,El Grande Mansionette (29),0
+RR,Lagundi,ALL LOTS,ALONG BARANGAY ROAD,6000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+RR,Lagundi,PAZ VILLE SUBD.,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Beverly Place (36),0
+RR,Lagundi,PELICAN SUBD.,,5000.0,DO 4-2024,unmatched,Mexico (46),0
+RR,Lagundi,STO. NINO SUBD.,ALONG PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,Mexico (29),0
+RR,Lagundi,VISTA ROMA RESIDENTIAL ESTATE,,4000.0,DO 4-2024,unmatched,El Grande Mansionette (37),0
+CR,Lagundi,BEVERLY PLACE,NEAR SM,12000.0,DO 4-2024,village,Beverly Place,100
+CR,Lagundi,EL GRANDE SUBD.,NEAR BEVERLY PLACE,12000.0,DO 4-2024,village,El Grande Mansionette,95
+RR,Lagundi,BEVERLY PLACE,NEAR SM,8500.0,DO 4-2024,village,Beverly Place,100
+RR,Lagundi,EL GRANDE SUBD.,NEAR BEVERLY PLACE,8250.0,DO 4-2024,village,El Grande Mansionette,95
+CR,Laput,ALL LOTS,PROV. ROAD-BENIGNO AQUINO-HIWAY,5000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Laput,ALL LOTS,PROV. ROAD-BENIGNO AQUINO-HIWAY,4000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Laput,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Laput,ALL LOTS,PROV. ROAD-BENIGNO AQUINO-HIWAY,3500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Laput,ALL LOTS,INTERIOR LOTS,3250.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Laput,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Laput,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Laput,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Laput,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Laug,ALL LOTS,ALONG QUEZON ROAD,6000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Laug,ALL LOTS,ALONG QUEZON ROAD,4500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Laug,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Laug,ALL LOTS,ALONG BY PASS ROAD,4000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Laug,ALL LOTS,ALONG QUEZON ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Laug,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Laug,ALL LOTS,ALONG BY PASS ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Laug,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Laug,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Laug,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Laug,ALL LOTS,ALONG BY PASS ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Laug,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Masamat,ALL LOTS,ALONG BARANGAY ROAD,5500.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+RR,Masamat,BERKELEY SUBD.,BARANGAY ROAD,5500.0,DO 4-2024,unmatched,The Belle Enclave (48),0
+RR,Masamat,VISTA ROMA,NEAR LAGUNDI ELEM. SCHOOL,5500.0,DO 4-2024,unmatched,Fiesta Communities Mexico (41),0
+I,Masamat,ALL LOTS,ALONG BARANGAY ROAD,4500.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+RR,Masamat,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+CR,Masamat,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+I,Masamat,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+RR,Masamat,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+CR,Masamat,BEVERLY PLACE,ADJACENT TO NLEX / SM CITY,12000.0,DO 4-2024,village,Beverly Place,100
+RR,Masamat,BEVERLY PLACE,ADJACENT TO NLEX / SM CITY,8500.0,DO 4-2024,village,Beverly Place,100
+CR,Masangsang,ALL LOTS,NATIONAL RD.- OLONGAPO-GAPAN RD.,8000.0,DO 26-2017,unmatched,Mexico (14),0
+I,Masangsang,ALL LOTS,NATIONAL RD.- OLONGAPO-GAPAN RD.,5000.0,DO 26-2017,unmatched,Mexico (14),0
+RR,Masangsang,ALL LOTS,NATIONAL RD.- OLONGAPO-GAPAN RD.,4500.0,DO 26-2017,unmatched,Mexico (14),0
+CR,Masangsang,ALL LOTS,ALONG BARANGAY ROAD,4500.0,DO 26-2017,unmatched,Mexico (14),0
+I,Masangsang,STO. NINO SUBD.,BARANGAY ROAD,3000.0,DO 26-2017,unmatched,Mexico (29),0
+RR,Masangsang,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 26-2017,unmatched,Mexico (14),0
+RR,Masangsang,STO. NINO SUBD.,FRONTING PROVINCIAL ROAD,1600.0,DO 26-2017,unmatched,Mexico (29),0
+RR,Masangsang,ALL LOTS,INTERIOR LOTS,1000.0,DO 26-2017,unmatched,Mexico (14),0
+CR,Nueva Victoria,LAKESHORE,,13500.0,DO 4-2024,street,Lake Shore,94.73684210526316
+RR,Nueva Victoria,LAKESHORE,,8500.0,DO 4-2024,street,Lake Shore,94.73684210526316
+CR,Nueva Victoria,JAMES VILLE SUBD.,NEAR PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,Lakeview (56),0
+CR,Nueva Victoria,THE RIDGE,,6000.0,DO 4-2024,unmatched,Woodbridge (67),0
+CR,Nueva Victoria,ALL LOTS,ALONG PROV'L. ROAD,5500.0,DO 4-2024,unmatched,Aiola South (53),0
+RR,Nueva Victoria,JAMES VILLE SUBD.,NEAR PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Lakeview (56),0
+RR,Nueva Victoria,THE RIDGE,,5000.0,DO 4-2024,unmatched,Woodbridge (67),0
+I,Nueva Victoria,ALL LOTS,ALONG PROV'L. ROAD,4750.0,DO 4-2024,unmatched,Aiola South (53),0
+CR,Nueva Victoria,ALL LOTS,INTERIOR LOTS,4500.0,DO 4-2024,unmatched,Aiola South (53),0
+RR,Nueva Victoria,ALL LOTS,ALONG PROV'L. ROAD,4000.0,DO 4-2024,unmatched,Aiola South (53),0
+I,Nueva Victoria,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Aiola South (53),0
+CR,Nueva Victoria,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Aiola South (53),0
+I,Nueva Victoria,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Aiola South (53),0
+RR,Nueva Victoria,ALL LOTS,INTERIOR LOTS,2750.0,DO 4-2024,unmatched,Aiola South (53),0
+RR,Nueva Victoria,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Aiola South (53),0
+CR,Pandacaqui,ALL LOTS,ALONG BRGY ROAD/RESETTLEMENT,5500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Pandacaqui,ALL LOTS,BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Pandacaqui,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Pandacaqui,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Pandacaqui,ALL LOTS,INTERIOR LOTS,3250.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Pandacaqui,ALL LOTS,ALONG BRGY ROAD/RESETTLEMENT,3000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Pandacaqui,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Pandacaqui,BENJAMIN SUBD.,NEAR NHA,3000.0,DO 4-2024,unmatched,Mexico (29),0
+CR,Pandacaqui,NHA,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,District 1 (0),0
+RR,Pandacaqui,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Pandacaqui,BENJAMIN SUBD.,NEAR NHA,2500.0,DO 4-2024,unmatched,Mexico (29),0
+RR,Pandacaqui,NHA,BARANGAY ROAD,1625.0,DO 4-2024,unmatched,District 1 (0),0
+CR,Pangatlan,STREET NAME:,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mexico (40),0
+I,Pangatlan,ALL LOTS,,3000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Pangatlan,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Pangatlan,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Pangatlan,ALL LOTS,,2250.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Pangatlan,ALL LOTS,INTERIOR LOTS,1900.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Panipuan,LAKESHORE,ALONG NLEX,15000.0,DO 4-2024,unmatched,Camella Sorrento (48),0
+RR,Panipuan,LAKESHORE,ALONG NLEX,10000.0,DO 4-2024,unmatched,Camella Sorrento (48),0
+CR,Panipuan,ALL LOTS,ALONG EXPRESSWAY,7000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+CR,Panipuan,ALL LOTS,ALONG PROVINCIAL ROAD,7000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Panipuan,ALL LOTS,ALONG EXPRESSWAY,6000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Panipuan,ALL LOTS,ALONG PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+CR,Panipuan,VILLA PAULINA,NEAR NLEX/ MEXICO EXIT,6000.0,DO 4-2024,unmatched,Montana View (48),0
+RR,Panipuan,ALL LOTS,ALONG EXPRESSWAY,5000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+CR,Panipuan,ALL LOTS,INTERIOR LOTS,5000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Panipuan,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Panipuan,VILLA PAULINA,NEAR NLEX/ MEXICO EXIT,5000.0,DO 4-2024,unmatched,Montana View (48),0
+RR,Panipuan,CITA DEL SOL,ADJACENT TO NLEX,5000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Panipuan,LUMINA HOMES,,5000.0,DO 4-2024,unmatched,Lumina Homes San Fernando Pampanga (35),0
+RR,Panipuan,HAUSLAND PRIME RESIDENCES,,5000.0,DO 4-2024,unmatched,The Royal Residences (62),0
+CR,Panipuan,ALL LOTS,ALONG BARANGAY ROAD,4500.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Panipuan,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+I,Panipuan,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Panipuan,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+RR,Panipuan,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Camella Sorrento (50),0
+CR,Panipuan,SORRENTO SUBD. (CAMELLA),BARANGAY ROAD,15000.0,DO 4-2024,village,Camella Sorrento,95
+RR,Panipuan,SORRENTO SUBD. (CAMELLA),BARANGAY ROAD,10000.0,DO 4-2024,village,Camella Sorrento,95
+RR,Panipuan,MONTANA VIEWS,,5000.0,DO 4-2024,village,Montana View,100
+CR,Parian,ALL LOTS,ALONG NATIONAL ROAD Olongapo-Gapan Road,17750.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,AQUINO HI-WAY-Prov. Rd fr. Municipal hall to,16750.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,ABAD SANTOS ST.,14250.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,MANIAGO ST.,14250.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,R.DE LEON ST.,13250.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,DEL PILAR ST.,13250.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,J.P.RIZAL (Lico St.),13250.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,GOMBURZA,13250.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,LAZATIN ST. (2nd St.),13250.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,ALONG NATIONAL ROAD Olongapo-Gapan Road,13000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,San Carlos bridge,12750.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,HIZON ST.,12750.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,MABINI ST.,12750.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,LACSAMANA ST.,12750.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,ALONG BARANGAY ROAD,10000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,ABAD SANTOS ST.,9750.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,BESIDES MUNICIPAL HALL,9500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,LAZATIN ST. (2nd St.),9500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,BESIDES STA. MONICA CHURCH,9500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+I,Parian,ALL LOTS,ALONG BARANGAY ROAD,8500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,J.P.RIZAL (Lico St.),8000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,MANIAGO ST.,8000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,ALONG BARANGAY ROAD,7000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,R.DE LEON ST.,6500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,DEL PILAR ST.,6500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,GOMBURZA,6500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,MABINI ST.,6500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Parian,ALL LOTS,INTERIOR LOTS,6250.0,DO 4-2024,unmatched,Ligaya Village (14),0
+I,Parian,ALL LOTS,INTERIOR LOTS,5750.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,Parian,ALL LOTS,INTERIOR LOTS,4250.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,Sabanilla,LAKESHORE,ADJACENT TO NLEX,15000.0,DO 4-2024,unmatched,The Belle Enclave (27),0
+RR,Sabanilla,LAKESHORE,ADJACENT TO NLEX,10000.0,DO 4-2024,unmatched,The Belle Enclave (27),0
+CR,Sabanilla,ALL LOTS,ALONG EXPRESSWAY,6600.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+I,Sabanilla,ALL LOTS,ALONG EXPRESSWAY,6000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+RR,Sabanilla,ALL LOTS,ALONG EXPRESSWAY,5000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+CR,Sabanilla,ALL LOTS,INTERIOR LOTS,5000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+CR,Sabanilla,ALL LOTS,ALONG BARANGAY ROADS,4500.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+I,Sabanilla,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+I,Sabanilla,ALL LOTS,ALONG BARANGAY ROADS,4000.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+RR,Sabanilla,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+RR,Sabanilla,ALL LOTS,ALONG BARANGAY ROADS,3500.0,DO 4-2024,unmatched,The Belle Enclave (38),0
+CR,Sabanilla,BEVERLY PLACE,ADJACENT TO NLEX,10000.0,DO 4-2024,village,Beverly Place,100
+RR,Sabanilla,BEVERLY PLACE,ADJACENT TO NLEX,7500.0,DO 4-2024,village,Beverly Place,100
+CR,Sabanilla,FIESTA COMMUNITIES,BARANGAY ROAD,6250.0,DO 4-2024,village,Fiesta Communities Mexico,95
+RR,Sabanilla,FIESTA COMMUNITIES,BARANGAY ROAD,5000.0,DO 4-2024,village,Fiesta Communities Mexico,95
+CR,San Antonio,ALL LOTS,ALONG NATIONAL ROAD,15000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+I,San Antonio,ALL LOTS,ALONG NATIONAL ROAD,11500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,San Antonio,ALL LOTS,ALONG NATIONAL ROAD,10000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,San Antonio,ALL LOTS,INTERIOR LOTS,8000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,San Antonio,ALL LOTS,ALONG PROVINCIAL ROAD,7500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+I,San Antonio,ALL LOTS,INTERIOR LOTS,7000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,San Antonio,ALL LOTS,INTERIOR LOTS,6500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+I,San Antonio,ALL LOTS,ALONG PROVINCIAL ROAD,6500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,San Antonio,ALL LOTS,ALONG PROVINCIAL ROAD,5500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,San Antonio,ALL LOTS,BARANGAY ROAD,4500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+CR,San Antonio,ST. JOSEPH SUBD.,OPPOSITE OF ST. JOSEHP HIGH SCHOOL,4500.0,DO 4-2024,unmatched,Mexico (17),0
+CR,San Antonio,ALL LOTS,BY PASS ROAD FROM QUEZON ROAD,4000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+I,San Antonio,ALL LOTS,BY PASS ROAD FROM QUEZON ROAD,4000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+I,San Antonio,ALL LOTS,BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,San Antonio,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+RR,San Antonio,ST. JOSEPH SUBD.,OPPOSITE OF ST. JOSEHP HIGH SCHOOL,3500.0,DO 4-2024,unmatched,Mexico (17),0
+RR,San Antonio,,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Ligaya Village (0),0
+RR,San Antonio,ALL LOTS,BY PASS ROAD FROM QUEZON ROAD,2500.0,DO 4-2024,unmatched,Ligaya Village (14),0
+I,San Antonio,,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Ligaya Village (0),0
+RR,San Antonio,LIGAYA VILLAGE,NEAR MUNICIPAL HALL,6000.0,DO 4-2024,village,Ligaya Village,100
+CR,San Carlos,ALL LOTS,ALONG PROV'L. ROAD,7500.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Carlos,ALL LOTS,(AQUINO BI-WAY),6000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Carlos,ALL LOTS,(AQUINO BI-WAY),5000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Carlos,ALL LOTS,BARANGAY ROAD,5000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Carlos,ALL LOTS,BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Carlos,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Jose Malino,ALL LOTS,ALONG PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,Ajoya (31),0
+CR,San Jose Malino,PANORAMA HEIGHTS,ALONG PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,Ajoya (30),0
+I,San Jose Malino,ALL LOTS,ALONG PROVINCIAL ROAD,5250.0,DO 4-2024,unmatched,Ajoya (31),0
+RR,San Jose Malino,ALL LOTS,ALONG PROVINCIAL ROAD,4500.0,DO 4-2024,unmatched,Ajoya (31),0
+I,San Jose Malino,ALL LOTS,ALONG BARANGAY ROAD,4250.0,DO 4-2024,unmatched,Ajoya (31),0
+CR,San Jose Malino,ALL LOTS,BY PASS ROAD,4000.0,DO 4-2024,unmatched,Ajoya (31),0
+CR,San Jose Malino,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Ajoya (31),0
+I,San Jose Malino,ALL LOTS,SAN JOSE MALINO TO ANAO,3750.0,DO 4-2024,unmatched,Ajoya (31),0
+RR,San Jose Malino,ALL LOTS,SAN JOSE MALINO TO ANAO,3500.0,DO 4-2024,unmatched,Ajoya (31),0
+RR,San Jose Malino,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Ajoya (31),0
+I,San Jose Malino,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Ajoya (31),0
+I,San Jose Malino,,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Ajoya (0),0
+RR,San Jose Malino,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Ajoya (31),0
+RR,San Jose Malino,,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Ajoya (0),0
+CR,San Jose Matulid,STO. DOMINGO SUBD.,BESIDES NGCP,7000.0,DO 4-2024,unmatched,Mexico (35),0
+CR,San Jose Matulid,STREET NAME:,ALONG - TRANSCO (NGCP),6000.0,DO 4-2024,unmatched,Mexico (40),0
+RR,San Jose Matulid,STO. DOMINGO SUBD.,BESIDES NGCP,6000.0,DO 4-2024,unmatched,Mexico (35),0
+I,San Jose Matulid,ALL LOTS,,5000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Jose Matulid,ALL LOTS,ALONG BARANGAY ROAD,5000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Jose Matulid,ALL LOTS,,4500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Jose Matulid,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Jose Matulid,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Jose Matulid,ALL LOTS,INTERIOR LOTS,3750.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Jose Matulid,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Jose Matulid,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Juan,ALL LOTS,ALONG PROV'L. ROAD,6000.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,San Juan,ALL LOTS,(AQUINO BI-WAY),4750.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,San Juan,ALL LOTS,INTERIOR LOTS,4750.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,San Juan,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,San Juan,ALL LOTS,(AQUINO BI-WAY),3500.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,San Juan,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,San Juan,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,San Juan,ALL LOTS,INTERIOR LOTS,2750.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,San Juan,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,San Lorenzo,ALL LOTS,ALONG PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Lorenzo,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Lorenzo,ALL LOTS,ALONG PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Lorenzo,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Lorenzo,ALL LOTS,BY PASS TO QUEZON ROAD,4000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Lorenzo,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Lorenzo,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Lorenzo,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Lorenzo,ALL LOTS,BY PASS TO QUEZON ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Lorenzo,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Lorenzo,ALL LOTS,BY PASS TO QUEZON ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Lorenzo,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Miguel,ALL LOTS,ALONG PROV'L. ROAD,6000.0,DO 4-2024,unmatched,Beverly Place (29),0
+I,San Miguel,ALL LOTS,ALONG PROV'L. ROAD,5000.0,DO 4-2024,unmatched,Beverly Place (29),0
+CR,San Miguel,ALL LOTS,INTERIOR LOTS,4750.0,DO 4-2024,unmatched,Beverly Place (29),0
+I,San Miguel,ALL LOTS,INTERIOR LOTS,4500.0,DO 4-2024,unmatched,Beverly Place (29),0
+CR,San Miguel,THE HAUSLAND/FIESTA COMMUNITIES,,4500.0,DO 4-2024,unmatched,Beverly Place (27),0
+CR,San Miguel,FONTANILLA SUBD.,FRONTING BARANGAY ROAD,4250.0,DO 4-2024,unmatched,Beverly Place (26),0
+RR,San Miguel,ALL LOTS,ALONG PROV'L. ROAD,4000.0,DO 4-2024,unmatched,Beverly Place (29),0
+CR,San Miguel,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Beverly Place (29),0
+RR,San Miguel,FONTANILLA SUBD.,FRONTING BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Beverly Place (26),0
+RR,San Miguel,THE HAUSLAND/FIESTA COMMUNITIES,,3500.0,DO 4-2024,unmatched,Beverly Place (27),0
+RR,San Miguel,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Beverly Place (29),0
+I,San Miguel,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Beverly Place (29),0
+RR,San Miguel,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Beverly Place (29),0
+CR,San Miguel,BEVERLY PLACE,BEVERLY PLACE,11000.0,DO 4-2024,village,Beverly Place,100
+RR,San Miguel,BEVERLY PLACE,BEVERLY PLACE,8500.0,DO 4-2024,village,Beverly Place,100
+CR,San Nicolas,STREET NAME:,ALONG QUEZON ROAD,6000.0,DO 4-2024,unmatched,Mexico (40),0
+CR,San Nicolas,ALL LOTS,ALONG PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Nicolas,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Nicolas,STREET NAME:,ALONG QUEZON ROAD,4000.0,DO 4-2024,unmatched,Mexico (40),0
+CR,San Nicolas,STREET NAME:,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Mexico (40),0
+RR,San Nicolas,ALL LOTS,ALONG PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Nicolas,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Nicolas,STREET NAME:,INTERIOR LOTS,3750.0,DO 4-2024,unmatched,Mexico (40),0
+RR,San Nicolas,STREET NAME:,ALONG QUEZON ROAD,3500.0,DO 4-2024,unmatched,Mexico (40),0
+I,San Nicolas,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Nicolas,,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mexico (0),0
+RR,San Nicolas,STREET NAME:,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Mexico (40),0
+RR,San Nicolas,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Nicolas,,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (0),0
+CR,San Nicolas,,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Mexico (0),0
+RR,San Nicolas,,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (0),0
+I,San Nicolas,,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Mexico (0),0
+RR,San Nicolas,,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Mexico (0),0
+CR,San Pablo,AMBER TRAIL RESORT & RESIDENCES,,10000.0,DO 4-2024,unmatched,Mexico (29),0
+CR,San Pablo,ALL LOTS,ALONG NATIONAL ROAD,8500.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Pablo,ALL LOTS,ALONG NATIONAL ROAD,7500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Pablo,ALL LOTS,ALONG NATIONAL ROAD,6500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Pablo,AMBER TRAIL RESORT & RESIDENCES,,5750.0,DO 4-2024,unmatched,Mexico (29),0
+CR,San Pablo,ALL LOTS,ALONG BARANGAY ROAD,5000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Pablo,ALL LOTS,INTERIOR LOTS,4750.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Pablo,ALL LOTS,ALONG BARANGAY ROAD,4500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Pablo,ALL LOTS,INTERIOR LOTS,4250.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Pablo,ALL LOTS,ALONG BARANGAY ROAD,3750.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Pablo,ALL LOTS,INTERIOR LOTS,3250.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Patricio,ALL LOTS,BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,San Patricio,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,San Patricio,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,San Patricio,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,San Patricio,ALL LOTS,INTERIOR LOTS,2250.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,San Patricio,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,San Rafael,LAKESHORE,ADJACENT TO NLEX,15000.0,DO 4-2024,street,Lake Shore,94.73684210526316
+RR,San Rafael,LAKESHORE,ADJACENT TO NLEX,10000.0,DO 4-2024,street,Lake Shore,94.73684210526316
+RR,San Rafael,(LAKESHORE),,10000.0,DO 4-2024,street,Lake Shore,94.73684210526316
+CR,San Rafael,FLAVOR ESCAPE,ADJACENT TO NLEX,15000.0,DO 4-2024,unmatched,Venice (42),0
+CR,San Rafael,ALL LOTS,ALONG EXPRESSWAY,8000.0,DO 4-2024,unmatched,Northern Hills (48),0
+CR,San Rafael,ALL LOTS,ALONG PROVINCIAL ROAD,8000.0,DO 4-2024,unmatched,Northern Hills (48),0
+CR,San Rafael,TIERRA VISTA SUBD.,BESIDES SUMMERFIELD HOMES,6500.0,DO 4-2024,unmatched,Eastlake (50),0
+I,San Rafael,ALL LOTS,ALONG EXPRESSWAY,6000.0,DO 4-2024,unmatched,Northern Hills (48),0
+I,San Rafael,ALL LOTS,ALONG PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,Northern Hills (48),0
+RR,San Rafael,TIERRA VISTA SUBD.,BESIDES SUMMERFIELD HOMES,6000.0,DO 4-2024,unmatched,Eastlake (50),0
+RR,San Rafael,ALL LOTS,ALONG EXPRESSWAY,5000.0,DO 4-2024,unmatched,Northern Hills (48),0
+CR,San Rafael,ALL LOTS,INTERIOR LOTS,5000.0,DO 4-2024,unmatched,Northern Hills (48),0
+RR,San Rafael,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Northern Hills (48),0
+CR,San Rafael,ALL LOTS,ALONG BARANGAY ROAD,5000.0,DO 4-2024,unmatched,Northern Hills (48),0
+I,San Rafael,ALL LOTS,INTERIOR LOTS,4500.0,DO 4-2024,unmatched,Northern Hills (48),0
+I,San Rafael,ALL LOTS,ALONG BARANGAY ROAD,4500.0,DO 4-2024,unmatched,Northern Hills (48),0
+RR,San Rafael,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Northern Hills (48),0
+CR,San Rafael,,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Bulaon (0),0
+RR,San Rafael,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Northern Hills (48),0
+I,San Rafael,,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Bulaon (0),0
+RR,San Rafael,,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Bulaon (0),0
+CR,San Rafael,BEVERLY PLACE,ADJACENT TO NLEX,11000.0,DO 4-2024,village,Beverly Place,100
+RR,San Rafael,BEVERLY PLACE,ADJACENT TO NLEX,8500.0,DO 4-2024,village,Beverly Place,100
+CR,San Rafael,SUMMER FIELD HOMES SUBD.,ALONG BARANGAY ROAD,6500.0,DO 4-2024,village,Summerfield Homes,100
+RR,San Rafael,SUMMER FIELD HOMES SUBD.,ALONG BARANGAY ROAD,6000.0,DO 4-2024,village,Summerfield Homes,100
+CR,San Roque,STREET NAME:,ALONG QUEZON ROAD,6000.0,DO 4-2024,unmatched,Mexico (40),0
+CR,San Roque,ALL LOTS,ALONG PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,San Roque,ALL LOTS,ALONG PROVINCIAL ROAD,4500.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,San Roque,ALL LOTS,INTERIOR LOTS,4500.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,San Roque,ALL LOTS,INTERIOR LOTS,4250.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,San Roque,STREET NAME:,ALONG QUEZON ROAD,4000.0,DO 4-2024,unmatched,Mexico (40),0
+CR,San Roque,STREET NAME:,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Mexico (40),0
+I,San Roque,STREET NAME:,INTERIOR LOTS,3750.0,DO 4-2024,unmatched,Mexico (40),0
+RR,San Roque,STREET NAME:,ALONG QUEZON ROAD,3500.0,DO 4-2024,unmatched,Mexico (40),0
+RR,San Roque,ALL LOTS,ALONG PROVINCIAL ROAD,3500.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,San Roque,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,San Roque,STREET NAME:,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Mexico (40),0
+I,San Roque,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,San Roque,ALL LOTS,INTERIOR LOTS,2750.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,San Roque,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,San Vicente,ALL LOTS,ALONG PROV'L. ROAD,6000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Vicente,ALL LOTS,INTERIOR LOTS,5000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Vicente,ALL LOTS,INTERIOR LOTS,3750.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Vicente,ALL LOTS,ALONG PROV'L. ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Vicente,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Vicente,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Vicente,ALL LOTS,INTERIOR LOTS,2750.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Vicente,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Santa Cruz,ALL LOTS,ALONG PROV'L. ROAD,6000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Santa Cruz,ALL LOTS,INTERIOR LOTS,4750.0,DO 4-2024,unmatched,Mexico (14),0
+I,Santa Cruz,ALL LOTS,(AQUINO BI-WAY),4500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Santa Cruz,ALL LOTS,(AQUINO BI-WAY),4000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Santa Cruz,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Santa Cruz,LA NUEVA VILLA,NEAR PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,Mexico (20),0
+CR,Santa Cruz,PASEO DE STA. CRUZ SUBD.,,4000.0,DO 4-2024,unmatched,Mexico (17),0
+CR,Santa Cruz,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Santa Cruz,LA NUEVA VILLA,NEAR PROVINCIAL ROAD,3500.0,DO 4-2024,unmatched,Mexico (20),0
+RR,Santa Cruz,PASEO DE STA. CRUZ SUBD.,,3500.0,DO 4-2024,unmatched,Mexico (17),0
+I,Santa Cruz,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Santa Cruz,ALL LOTS,INTERIOR LOTS,2750.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Santa Cruz,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Santa Maria,ALL LOTS,ALONG PROVINCIAL ROAD,5500.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Santa Maria,ALL LOTS,ALONG PROVINCIAL ROAD,4750.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,Santa Maria,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,Santa Maria,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Santa Maria,ALL LOTS,INTERIOR LOTS,3375.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Santa Maria,ALL LOTS,ALONG PROVINCIAL ROAD,3250.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Santa Maria,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Santa Maria,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Santa Maria,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,Santo Domingo,ALL LOTS,ALONG NATIONAL ROAD,11000.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+I,Santo Domingo,ALL LOTS,ALONG NATIONAL ROAD,8500.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+RR,Santo Domingo,ALL LOTS,ALONG NATIONAL ROAD,7500.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+CR,Santo Domingo,ALL LOTS,INTERIOR LOTS,7500.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+CR,Santo Domingo,ALL LOTS,ALONG PROVINCIAL ROAD,7000.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+I,Santo Domingo,ALL LOTS,INTERIOR LOTS,5500.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+CR,Santo Domingo,ALL LOTS,ALONG BARANGAY ROAD,5500.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+I,Santo Domingo,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+I,Santo Domingo,ALL LOTS,ALONG BARANGAY ROAD,4500.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+RR,Santo Domingo,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+RR,Santo Domingo,ALL LOTS,ALONG PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+RR,Santo Domingo,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Al Livello Heights (48),0
+CR,Santo Domingo,VILLA STO. DOMINGO,,7250.0,DO 4-2024,village,Villa Santo Domingo,94.44444444444444
+RR,Santo Domingo,VILLA STO. DOMINGO,,6000.0,DO 4-2024,village,Villa Santo Domingo,94.44444444444444
+CR,Santo Rosario,ALL LOTS,ALONG NATIONAL ROAD,11000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Santo Rosario,ALL LOTS,ALONG NATIONAL ROAD,8500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Santo Rosario,ALL LOTS,ALONG NATIONAL ROAD,7500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Santo Rosario,ALL LOTS,INTERIOR LOTS,6000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Santo Rosario,ALL LOTS,INTERIOR LOTS,5750.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Santo Rosario,ALL LOTS,ALONG BARANGAY ROAD,5500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Santo Rosario,STO. ROSARIO HOMES,NEAR SPILLWAY,5000.0,DO 4-2024,unmatched,Mexico (24),0
+CR,Santo Rosario,STO. ROSARIO SUBD.,BESIDE STO. ROSARIO HOMES,5000.0,DO 4-2024,unmatched,Mexico (24),0
+I,Santo Rosario,ALL LOTS,ALONG BARANGAY ROAD,4750.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Santo Rosario,ALL LOTS,INTERIOR LOTS,4250.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Santo Rosario,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Santo Rosario,STO. ROSARIO HOMES,NEAR SPILLWAY,4000.0,DO 4-2024,unmatched,Mexico (24),0
+RR,Santo Rosario,STO. ROSARIO SUBD.,BESIDE STO. ROSARIO HOMES,4000.0,DO 4-2024,unmatched,Mexico (24),0
+CR,Sapang Maisac,ALL LOTS,ALONG PROVINCIAL ROAD-ANGELES-MAG. RD.,8000.0,DO 4-2024,unmatched,Lapidsville (32),0
+I,Sapang Maisac,ALL LOTS,ALONG PROVINCIAL ROAD-ANGELES-MAG. RD.,6000.0,DO 4-2024,unmatched,Lapidsville (32),0
+RR,Sapang Maisac,ALL LOTS,ALONG PROVINCIAL ROAD-ANGELES-MAG. RD.,5000.0,DO 4-2024,unmatched,Lapidsville (32),0
+CR,Sapang Maisac,ALL LOTS,INTERIOR LOTS,5000.0,DO 4-2024,unmatched,Lapidsville (32),0
+CR,Sapang Maisac,AMAIA SUBD.,NATIONAL ROAD GOING TO MAGALANG,5000.0,DO 4-2024,unmatched,Amaia Scapes Pampanga (40),0
+CR,Sapang Maisac,GEORGIA PLAINS SUBD.,,5000.0,DO 4-2024,unmatched,Amaia Scapes Pampanga (36),0
+CR,Sapang Maisac,AZALEA SUBD.,,5000.0,DO 4-2024,unmatched,Lapidsville (35),0
+CR,Sapang Maisac,ALL LOTS,BARANGAY ROAD,4750.0,DO 4-2024,unmatched,Lapidsville (32),0
+I,Sapang Maisac,ALL LOTS,INTERIOR LOTS,4500.0,DO 4-2024,unmatched,Lapidsville (32),0
+CR,Sapang Maisac,LACSON HERMANAS,ALONG NATIONAL ROAD,4500.0,DO 4-2024,unmatched,Amaia Scapes Pampanga (41),0
+CR,Sapang Maisac,STA. CLARA SUBD.,ALONG NATIONAL ROAD,4500.0,DO 4-2024,unmatched,Amaia Scapes Pampanga (34),0
+I,Sapang Maisac,ALL LOTS,BARANGAY ROAD,4250.0,DO 4-2024,unmatched,Lapidsville (32),0
+RR,Sapang Maisac,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Lapidsville (32),0
+RR,Sapang Maisac,AMAIA SUBD.,NATIONAL ROAD GOING TO MAGALANG,4000.0,DO 4-2024,unmatched,Amaia Scapes Pampanga (40),0
+RR,Sapang Maisac,GEORGIA PLAINS SUBD.,,4000.0,DO 4-2024,unmatched,Amaia Scapes Pampanga (36),0
+RR,Sapang Maisac,AZALEA SUBD.,,4000.0,DO 4-2024,unmatched,Lapidsville (35),0
+RR,Sapang Maisac,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Lapidsville (32),0
+RR,Sapang Maisac,LACSON HERMANAS,ALONG NATIONAL ROAD,3500.0,DO 4-2024,unmatched,Amaia Scapes Pampanga (41),0
+RR,Sapang Maisac,STA. CLARA SUBD.,ALONG NATIONAL ROAD,3500.0,DO 4-2024,unmatched,Amaia Scapes Pampanga (34),0
+CR,Sapang Maisac,LAPID'S VILLE,NEAR AMAIAH,4500.0,DO 4-2024,village,Lapidsville,90.9090909090909
+RR,Sapang Maisac,LAPID'S VILLE,NEAR AMAIAH,3500.0,DO 4-2024,village,Lapidsville,90.9090909090909
+CR,Suclaban,ALL LOTS,ALONG EXPRESSWAY,6000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Suclaban,ALL LOTS,ALONG EXPRESSWAY,5000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Suclaban,ALL LOTS,ALONG EXPRESSWAY,4000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Suclaban,ALL LOTS,INTERIOR LOTS,3500.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Suclaban,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+I,Suclaban,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Suclaban,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Suclaban,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Suclaban,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Tangle,ALL LOTS,BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Vilches Residence (25),0
+CR,Tangle,ROYAL MEADOWS SUBDIVISION,"NEAR BARANGAY SAPA LIBUTAD, A.C.",4000.0,DO 4-2024,unmatched,Mexico (33),0
+CR,Tangle,SAMEERA,NEAR ROYAL MEADOWS,4000.0,DO 4-2024,unmatched,Mexico (31),0
+CR,Tangle,ENGR'S VILLE,,4000.0,DO 4-2024,unmatched,Vilches Residence (54),0
+RR,Tangle,ROYAL MEADOWS SUBDIVISION,"NEAR BARANGAY SAPA LIBUTAD, A.C.",3500.0,DO 4-2024,unmatched,Mexico (33),0
+I,Tangle,ALL LOTS,BARANGAY ROAD,3350.0,DO 4-2024,unmatched,Vilches Residence (25),0
+I,Tangle,ALL LOTS,INTERIOR LOTS,3175.0,DO 4-2024,unmatched,Vilches Residence (25),0
+RR,Tangle,ALL LOTS,NEAR PANDACAQUI RESETTLEMENT,3000.0,DO 4-2024,unmatched,Vilches Residence (25),0
+RR,Tangle,SAMEERA,NEAR ROYAL MEADOWS,3000.0,DO 4-2024,unmatched,Mexico (31),0
+RR,Tangle,FERRARIS VILLE AND ENGR'S VILLE,NEAR ROYAL MEADOWS,3000.0,DO 4-2024,unmatched,Vilches Residence (54),0
+RR,Tangle,ENGR'S VILLE,,3000.0,DO 4-2024,unmatched,Vilches Residence (54),0
+RR,Tangle,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Vilches Residence (25),0
+RR,Tangle,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Vilches Residence (25),0

@@ -1,0 +1,514 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Alitao,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Alitao,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Alsam Ibaba,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Alsam Ibaba,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Alupay,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Alupay,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Angeles Zone I,ALL OTHER STREETS,INTERIOR LOTS,7100.0,DO 13-2020,background,,0
+RR,Angeles Zone I,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 13-2020,background,,0
+CR,Angeles Zone I,QUEZON AVENUE,,15000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Angeles Zone I,GEN. LUNA ST,,10000.0,DO 13-2020,street,General Luna Street,100
+CR,Angeles Zone I,J.P. RIZAL ST,,10000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,Angeles Zone I,P. NADERA ST,,8500.0,DO 13-2020,street,Nadera Street,90.0
+CR,Angeles Zone I,C.M.RECTO ST,,8000.0,DO 13-2020,street,C. M. Recto Street,100
+CR,Angeles Zone I,E. JACINTO ST,,8000.0,DO 13-2020,street,E. Jacinto Street,100
+RR,Angeles Zone I,QUEZON AVENUE,,7000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Angeles Zone I,J.P. RIZAL ST,,6500.0,DO 13-2020,street,J. P. Rizal Street,100
+RR,Angeles Zone I,C.M.RECTO ST,,6000.0,DO 13-2020,street,C. M. Recto Street,100
+RR,Angeles Zone I,E. JACINTO ST,,6000.0,DO 13-2020,street,E. Jacinto Street,100
+RR,Angeles Zone I,GEN. LUNA ST,,6000.0,DO 13-2020,street,General Luna Street,100
+RR,Angeles Zone I,P. NADERA ST,,6000.0,DO 13-2020,street,Nadera Street,90.0
+CR,Angeles Zone I,L. PALAD ST,,10500.0,DO 13-2020,unmatched,Wesland Subdivision (43),0
+CR,Angeles Zone I,A. DELA CRUZ ST,,8000.0,DO 13-2020,unmatched,Luzon (38),0
+CR,Angeles Zone I,TRECE DE AGOSTO,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (40),0
+RR,Angeles Zone I,L. PALAD ST,,6500.0,DO 13-2020,unmatched,Wesland Subdivision (43),0
+RR,Angeles Zone I,A. DELA CRUZ ST,,6000.0,DO 13-2020,unmatched,Luzon (38),0
+RR,Angeles Zone I,TRECE DE AGOSTO,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (40),0
+CR,Angeles Zone II,ALL OTHER STREETS,INTERIOR LOTS,7100.0,DO 13-2020,background,,0
+RR,Angeles Zone II,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 13-2020,background,,0
+CR,Angeles Zone II,QUEZON AVENUE,,11000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Angeles Zone II,GEN. LUNA ST,,10000.0,DO 13-2020,street,General Luna Street,100
+CR,Angeles Zone II,J.P. RIZAL ST,,10000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,Angeles Zone II,C.M.RECTO ST,,8600.0,DO 13-2020,street,C. M. Recto Street,100
+CR,Angeles Zone II,E. JACINTO ST,,8000.0,DO 13-2020,street,E. Jacinto Street,100
+RR,Angeles Zone II,QUEZON AVENUE,,7000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Angeles Zone II,C.M.RECTO ST,,6000.0,DO 13-2020,street,C. M. Recto Street,100
+RR,Angeles Zone II,E. JACINTO ST,,6000.0,DO 13-2020,street,E. Jacinto Street,100
+RR,Angeles Zone II,GEN. LUNA ST,,6000.0,DO 13-2020,street,General Luna Street,100
+RR,Angeles Zone II,J.P. RIZAL ST,,6000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,Angeles Zone II,L. PALAD ST,,10500.0,DO 13-2020,unmatched,Wesland Subdivision (43),0
+CR,Angeles Zone II,P. NADERA ST,,8500.0,DO 13-2020,unmatched,Capistrano Subdivision (33),0
+CR,Angeles Zone II,A. DELA CRUZ ST,,8000.0,DO 13-2020,unmatched,Luzon (38),0
+CR,Angeles Zone II,TRECE DE AGOSTO,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (40),0
+RR,Angeles Zone II,L. PALAD ST,,6500.0,DO 13-2020,unmatched,Wesland Subdivision (43),0
+RR,Angeles Zone II,P. NADERA ST,,6500.0,DO 13-2020,unmatched,Capistrano Subdivision (33),0
+RR,Angeles Zone II,A. DELA CRUZ ST,,6000.0,DO 13-2020,unmatched,Luzon (38),0
+RR,Angeles Zone II,TRECE DE AGOSTO,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (40),0
+CR,Angeles Zone III,ALL OTHER STREETS,INTERIOR LOTS,7100.0,DO 13-2020,background,,0
+RR,Angeles Zone III,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 13-2020,background,,0
+CR,Angeles Zone III,QUEZON AVENUE,,11000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Angeles Zone III,GEN. LUNA ST,,9000.0,DO 13-2020,street,General Luna Street,100
+CR,Angeles Zone III,J.P. RIZAL ST,,9000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,Angeles Zone III,P. NADERA ST,,8750.0,DO 13-2020,street,Nadera Street,90.0
+CR,Angeles Zone III,C.M.RECTO ST,,8000.0,DO 13-2020,street,C. M. Recto Street,100
+CR,Angeles Zone III,E. JACINTO ST,,8000.0,DO 13-2020,street,E. Jacinto Street,100
+RR,Angeles Zone III,QUEZON AVENUE,,7000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Angeles Zone III,P. NADERA ST,,6500.0,DO 13-2020,street,Nadera Street,90.0
+RR,Angeles Zone III,C.M.RECTO ST,,6000.0,DO 13-2020,street,C. M. Recto Street,100
+RR,Angeles Zone III,E. JACINTO ST,,6000.0,DO 13-2020,street,E. Jacinto Street,100
+RR,Angeles Zone III,GEN. LUNA ST,,6000.0,DO 13-2020,street,General Luna Street,100
+RR,Angeles Zone III,J.P. RIZAL ST,,6000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,Angeles Zone III,L. PALAD ST,,10250.0,DO 13-2020,unmatched,Wesland Subdivision (43),0
+CR,Angeles Zone III,A. DELA CRUZ ST,,8000.0,DO 13-2020,unmatched,Luzon (38),0
+CR,Angeles Zone III,TRECE DE AGOSTO,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (40),0
+RR,Angeles Zone III,L. PALAD ST,,7800.0,DO 13-2020,unmatched,Wesland Subdivision (43),0
+RR,Angeles Zone III,A. DELA CRUZ ST,,6000.0,DO 13-2020,unmatched,Luzon (38),0
+RR,Angeles Zone III,TRECE DE AGOSTO,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (40),0
+CR,Angeles Zone IV,ALL OTHER STREETS,INTERIOR LOTS,7000.0,DO 13-2020,background,,0
+RR,Angeles Zone IV,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 13-2020,background,,0
+CR,Angeles Zone IV,QUEZON AVENUE,,11000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Angeles Zone IV,GEN. LUNA ST,,9000.0,DO 13-2020,street,General Luna Street,100
+CR,Angeles Zone IV,J.P. RIZAL ST,,9000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,Angeles Zone IV,P. NADERA ST,,8500.0,DO 13-2020,street,Nadera Street,90.0
+RR,Angeles Zone IV,QUEZON AVENUE,,7000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Angeles Zone IV,P. NADERA ST,,6500.0,DO 13-2020,street,Nadera Street,90.0
+RR,Angeles Zone IV,GEN. LUNA ST,,6000.0,DO 13-2020,street,General Luna Street,100
+RR,Angeles Zone IV,J.P. RIZAL ST,,6000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,Angeles Zone IV,L. PALAD ST,,9000.0,DO 13-2020,unmatched,Wesland Subdivision (43),0
+CR,Angeles Zone IV,A. DELA CRUZ ST,,8000.0,DO 13-2020,unmatched,Saint Jude Subdivision (38),0
+CR,Angeles Zone IV,C.M.RECTO ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (32),0
+CR,Angeles Zone IV,E. JACINTO ST,,8000.0,DO 13-2020,unmatched,Saint Jude Subdivision (63),0
+CR,Angeles Zone IV,TRECE DE AGOSTO,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (40),0
+RR,Angeles Zone IV,L. PALAD ST,,7800.0,DO 13-2020,unmatched,Wesland Subdivision (43),0
+RR,Angeles Zone IV,A. DELA CRUZ ST,,6000.0,DO 13-2020,unmatched,Saint Jude Subdivision (38),0
+RR,Angeles Zone IV,C.M.RECTO ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (32),0
+RR,Angeles Zone IV,E. JACINTO ST,,6000.0,DO 13-2020,unmatched,Saint Jude Subdivision (63),0
+RR,Angeles Zone IV,TRECE DE AGOSTO,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (40),0
+CR,Angustias Zone I,ALL OTHER STREETS,INTERIOR LOTS,6000.0,DO 13-2020,background,,0
+RR,Angustias Zone I,ALL OTHER STREETS,INTERIOR LOTS,4000.0,DO 13-2020,background,,0
+CR,Angustias Zone I,QUEZON AVENUE,,9500.0,DO 13-2020,street,Quezon Avenue,100
+CR,Angustias Zone I,A. BONIFACIO ST,,7000.0,DO 13-2020,street,A. Bonifacio Street,100
+CR,Angustias Zone I,M.H. DEL PILAR ST,,7000.0,DO 13-2020,street,M. H. del Pilar Street,100
+CR,Angustias Zone I,M.J. SUMILANG ST,,7000.0,DO 13-2020,street,M J Sumilang Street,100
+RR,Angustias Zone I,QUEZON AVENUE,,6000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Angustias Zone I,A. BONIFACIO ST,,4500.0,DO 13-2020,street,A. Bonifacio Street,100
+RR,Angustias Zone I,M.H. DEL PILAR ST,,4500.0,DO 13-2020,street,M. H. del Pilar Street,100
+RR,Angustias Zone I,M.J. SUMILANG ST,,4500.0,DO 13-2020,street,M J Sumilang Street,100
+CR,Angustias Zone I,ALANDAY ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+CR,Angustias Zone I,P. GOMEZ ST,,7000.0,DO 13-2020,unmatched,Luzon (17),0
+CR,Angustias Zone I,TRECE DE AGOSTO,,7000.0,DO 13-2020,unmatched,Sitio Ayala (31),0
+RR,Angustias Zone I,ALANDAY ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+RR,Angustias Zone I,P. GOMEZ ST,,4500.0,DO 13-2020,unmatched,Luzon (17),0
+RR,Angustias Zone I,TRECE DE AGOSTO,,4500.0,DO 13-2020,unmatched,Sitio Ayala (31),0
+CR,Angustias Zone II,ALL OTHER STREETS,INTERIOR LOTS,6000.0,DO 13-2020,background,,0
+RR,Angustias Zone II,ALL OTHER STREETS,INTERIOR LOTS,4000.0,DO 13-2020,background,,0
+CR,Angustias Zone II,QUEZON AVENUE,,9500.0,DO 13-2020,street,Quezon Avenue,100
+CR,Angustias Zone II,A. BONIFACIO ST,,7000.0,DO 13-2020,street,A. Bonifacio Street,100
+CR,Angustias Zone II,M.H. DEL PILAR ST,,7000.0,DO 13-2020,street,M. H. del Pilar Street,100
+CR,Angustias Zone II,M.J. SUMILANG ST,,7000.0,DO 13-2020,street,M J Sumilang Street,100
+CR,Angustias Zone II,TRECE DE AGOSTO,,7000.0,DO 13-2020,street,Trece de Agosto Street,97
+RR,Angustias Zone II,QUEZON AVENUE,,6000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Angustias Zone II,A. BONIFACIO ST,,4500.0,DO 13-2020,street,A. Bonifacio Street,100
+RR,Angustias Zone II,M.H. DEL PILAR ST,,4500.0,DO 13-2020,street,M. H. del Pilar Street,100
+RR,Angustias Zone II,M.J. SUMILANG ST,,4500.0,DO 13-2020,street,M J Sumilang Street,100
+RR,Angustias Zone II,TRECE DE AGOSTO,,4500.0,DO 13-2020,street,Trece de Agosto Street,97
+CR,Angustias Zone II,ALANDAY ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+CR,Angustias Zone II,P. GOMEZ ST,,7000.0,DO 13-2020,unmatched,Luzon (17),0
+RR,Angustias Zone II,ALANDAY ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+RR,Angustias Zone II,P. GOMEZ ST,,4500.0,DO 13-2020,unmatched,Luzon (17),0
+CR,Angustias Zone III,ALL OTHER STREETS,INTERIOR LOTS,6000.0,DO 13-2020,background,,0
+RR,Angustias Zone III,ALL OTHER STREETS,INTERIOR LOTS,4000.0,DO 13-2020,background,,0
+CR,Angustias Zone III,QUEZON AVENUE,,9500.0,DO 13-2020,street,Quezon Avenue,100
+CR,Angustias Zone III,A. BONIFACIO ST,,7000.0,DO 13-2020,street,A. Bonifacio Street,100
+CR,Angustias Zone III,M.H. DEL PILAR ST,,7000.0,DO 13-2020,street,M. H. del Pilar Street,100
+CR,Angustias Zone III,M.J. SUMILANG ST,,7000.0,DO 13-2020,street,M J Sumilang Street,100
+CR,Angustias Zone III,TRECE DE AGOSTO,,7000.0,DO 13-2020,street,Trece de Agosto Street,97
+RR,Angustias Zone III,QUEZON AVENUE,,6000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Angustias Zone III,A. BONIFACIO ST,,4500.0,DO 13-2020,street,A. Bonifacio Street,100
+RR,Angustias Zone III,M.H. DEL PILAR ST,,4500.0,DO 13-2020,street,M. H. del Pilar Street,100
+RR,Angustias Zone III,M.J. SUMILANG ST,,4500.0,DO 13-2020,street,M J Sumilang Street,100
+RR,Angustias Zone III,TRECE DE AGOSTO,,4500.0,DO 13-2020,street,Trece de Agosto Street,97
+CR,Angustias Zone III,ALANDAY ST,,7000.0,DO 13-2020,unmatched,Luzon (33),0
+CR,Angustias Zone III,P. GOMEZ ST,,7000.0,DO 13-2020,unmatched,Green Valley Subdivision (32),0
+RR,Angustias Zone III,ALANDAY ST,,4500.0,DO 13-2020,unmatched,Luzon (33),0
+RR,Angustias Zone III,P. GOMEZ ST,,4500.0,DO 13-2020,unmatched,Green Valley Subdivision (32),0
+CR,Angustias Zone IV,ALL OTHER STREETS,INTERIOR LOTS,6000.0,DO 13-2020,background,,0
+RR,Angustias Zone IV,ALL OTHER STREETS,INTERIOR LOTS,4000.0,DO 13-2020,background,,0
+CR,Angustias Zone IV,QUEZON AVENUE,,9500.0,DO 13-2020,street,Quezon Avenue,100
+CR,Angustias Zone IV,A. BONIFACIO ST,,7000.0,DO 13-2020,street,A. Bonifacio Street,100
+CR,Angustias Zone IV,M.H. DEL PILAR ST,,7000.0,DO 13-2020,street,M. H. del Pilar Street,100
+CR,Angustias Zone IV,M.J. SUMILANG ST,,7000.0,DO 13-2020,street,M J Sumilang Street,100
+CR,Angustias Zone IV,TRECE DE AGOSTO,,7000.0,DO 13-2020,street,Trece de Agosto Street,97
+RR,Angustias Zone IV,QUEZON AVENUE,,6000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Angustias Zone IV,A. BONIFACIO ST,,4500.0,DO 13-2020,street,A. Bonifacio Street,100
+RR,Angustias Zone IV,M.H. DEL PILAR ST,,4500.0,DO 13-2020,street,M. H. del Pilar Street,100
+RR,Angustias Zone IV,M.J. SUMILANG ST,,4500.0,DO 13-2020,street,M J Sumilang Street,100
+RR,Angustias Zone IV,TRECE DE AGOSTO,,4500.0,DO 13-2020,street,Trece de Agosto Street,97
+CR,Angustias Zone IV,ALANDAY ST,,7000.0,DO 13-2020,unmatched,Luzon (33),0
+CR,Angustias Zone IV,P. GOMEZ ST,,7000.0,DO 13-2020,unmatched,Luzon (17),0
+RR,Angustias Zone IV,ALANDAY ST,,4500.0,DO 13-2020,unmatched,Luzon (33),0
+RR,Angustias Zone IV,P. GOMEZ ST,,4500.0,DO 13-2020,unmatched,Luzon (17),0
+RR,Anos,ALL OTHER SUBD,,2500.0,DO 13-2020,background,,0
+CR,Anos,ALL LOTS,,1400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Anos,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Ayaas,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ayaas,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Baguio,JACKELINE VILLAGE,,2500.0,DO 13-2020,unmatched,Villa Florina (36),0
+CR,Baguio,ALL LOTS,,1800.0,DO 13-2020,unmatched,Villa Florina (48),0
+RR,Baguio,ALL LOTS,,1500.0,DO 13-2020,unmatched,Villa Florina (48),0
+RR,Baguio,GREEN MEADOWS SUBD,,1500.0,DO 13-2020,unmatched,Villa Florina (32),0
+CR,Banilad,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Banilad,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Bukal Ibaba,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Bukal Ibaba,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Bukal Ilaya,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Bukal Ilaya,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Calantas,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Calantas,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Calumpang,ALL OTHER SUBD,,2500.0,DO 13-2020,background,,0
+RR,Calumpang,SOUTHGATE SUBD,,2500.0,DO 13-2020,unmatched,Escueta Subdivision (50),0
+RR,Calumpang,ST DOMINIQUE VILLAGE,,2500.0,DO 13-2020,unmatched,St. Dominic Village (75),0
+CR,Calumpang,ALL LOTS,,1700.0,DO 13-2020,unmatched,Villa Lopez Village (53),0
+RR,Calumpang,ALL LOTS,,1500.0,DO 13-2020,unmatched,Villa Lopez Village (53),0
+CR,Camaysa,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Camaysa,BAGONG PAG-ASA SUBD,,1050.0,DO 13-2020,unmatched,Luzon (21),0
+RR,Camaysa,ST THOMAS VILLAGE,,1050.0,DO 13-2020,unmatched,Luzon (20),0
+RR,Camaysa,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Dapdap,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Dapdap,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Domoit Kanluran,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Domoit Kanluran,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Domoit Silangan,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Domoit Silangan,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Gibanga,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Gibanga,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Ibas,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ibas,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Ilasan Ibaba,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ilasan Ibaba,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Ilasan Ilaya,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ilasan Ilaya,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Ipilan,ALL LOTS,,1800.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ipilan,ALL LOTS,,1500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ipilan,INTERTOWN SUBD,,2550.0,DO 13-2020,village,Intertown Homes Subdivision,100
+RR,Isabang,ALL OTHER SUBD,,2500.0,DO 13-2020,background,,0
+RR,Isabang,CAMELLA SUBD,,4000.0,DO 13-2020,street,Camella Street,97
+CR,Isabang,ALL LOTS,,5250.0,DO 13-2020,unmatched,Villa Lopez Village (53),0
+RR,Isabang,SUNRIDGE VILLAGE,,3000.0,DO 13-2020,unmatched,Ong Residence (48),0
+RR,Isabang,VILLA CONSUELO,,2650.0,DO 13-2020,unmatched,Villa Lopez Village (64),0
+RR,Isabang,ALL LOTS,,1800.0,DO 13-2020,unmatched,Villa Lopez Village (53),0
+RR,Isabang,SAN JUAN ESTATES,,5125.0,DO 13-2020,village,San Juan Estates,100
+RR,Isabang,STA BARBARA ESTATES,,4000.0,DO 13-2020,village,Santa Barbara Homes,91.66666666666666
+RR,Isabang,STA ISABEL ESTATES,,4000.0,DO 13-2020,village,Santa Isabel Village,90.9090909090909
+RR,Isabang,PALMVILLE SUBD,,4000.0,DO 13-2020,village,Palmville Residences,95
+RR,Isabang,VISTAVERDE SUBD,,3500.0,DO 13-2020,village,Vista Verde Subdivision,100
+RR,Isabang,LEVERIZA HEIGHTS,,2500.0,DO 13-2020,village,Leveriza Heights Subdivision,100
+RR,Isabang,WELMANVILLE SUBD,,2500.0,DO 13-2020,village,Welmanville Subdivision,100
+CR,Katigan Kanluran,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Katigan Kanluran,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Katigan Silangan,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Katigan Silangan,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Lakawan,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Lakawan,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Lakawan,BAGONG PAG-ASA VILLAGE,,1000.0,DO 13-2020,unmatched,Luzon (21),0
+RR,Lakawan,OUR LADY OF SACRED HEART SUBD,,1000.0,DO 13-2020,unmatched,Luzon (15),0
+RR,Lalo,ALL LOTS,,2000.0,DO 13-2020,unmatched,Sitio Ayala (42),0
+CR,Lalo,ALL LOTS,,1200.0,DO 13-2020,unmatched,Sitio Ayala (42),0
+CR,Lawigue,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Lawigue,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Lita,ALL LOTS,,5000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Lita,ALL LOTS,,3500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Lita,LITA SUBDIVISION,,3500.0,DO 13-2020,unmatched,Wesland Subdivision (36),0
+RR,Lita,SAN DIEGO VILLAGE,,3500.0,DO 13-2020,unmatched,Wesland Subdivision (50),0
+CR,Malaoa,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Malaoa,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Masin,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Masin,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Mate,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Mate,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Mateuna,ALL OTHERS SUBD.,,1250.0,DO 13-2020,background,,0
+RR,Mateuna,VILLAGE OF ST. JUDE,,3500.0,DO 13-2020,unmatched,Saint Jude Subdivision (57),0
+RR,Mateuna,DELA TORRES SUBD.,,3500.0,DO 13-2020,unmatched,Saint Jude Subdivision (40),0
+RR,Mateuna,MARIPOSA,,3500.0,DO 13-2020,unmatched,Capistrano Subdivision (44),0
+CR,Mateuna,ALL LOTS,,3000.0,DO 13-2020,unmatched,Lovely Meadows (38),0
+RR,Mateuna,ALL LOTS,,2500.0,DO 13-2020,unmatched,Lovely Meadows (38),0
+RR,Mateuna,ROMAROSA SUBD,,2500.0,DO 13-2020,unmatched,Lovely Meadows (38),0
+RR,Mateuna,SILANG SUBD.,,2500.0,DO 13-2020,unmatched,Wesland Subdivision (62),0
+RR,Mateuna,DIVINE MERCY VILLAGE,,1800.0,DO 13-2020,unmatched,Lovely Meadows (40),0
+RR,Mateuna,LOVELY MEADOWS,,3500.0,DO 13-2020,village,Lovely Meadows,100
+RR,Mateuna,WESLAND SUBD,,3500.0,DO 13-2020,village,Wesland Subdivision,100
+RR,Mateuna,CAPISTRANO,,3500.0,DO 13-2020,village,Capistrano Subdivision,100
+CR,Mayowe,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Mayowe,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Nangka Ibaba,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Nangka Ibaba,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Nangka Ilaya,ALL LOTS,,1200.0,DO 13-2020,unmatched,Sitio Ayala (42),0
+RR,Nangka Ilaya,ALL LOTS,,1000.0,DO 13-2020,unmatched,Sitio Ayala (42),0
+CR,Opias,ALL LOTS,,3800.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Opias,DOÑA CARMEN SUBD,,2500.0,DO 13-2020,unmatched,Capistrano Subdivision (48),0
+RR,Opias,ALL LOTS,,2000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Opias,GREEN VALLEY SUBD,,3500.0,DO 13-2020,village,Green Valley Subdivision,100
+CR,Palale Ibaba,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Palale Ibaba,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Palale Ilaya,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Palale Ilaya,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Palale Kanluran,ALL LOTS,,1300.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Palale Kanluran,ALL LOTS,,1100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Palale Silangan,ALL LOTS,,1300.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Palale Silangan,ALL LOTS,,1100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Pandakaki,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Pandakaki,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Pook,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Pook,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Potol,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Potol,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,San Diego Zone I,ALL OTHER STREETS,INTERIOR LOTS,7000.0,DO 13-2020,background,,0
+RR,San Diego Zone I,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 13-2020,background,,0
+CR,San Diego Zone I,QUEZON AVENUE,,11000.0,DO 13-2020,street,Quezon Avenue,100
+CR,San Diego Zone I,A. MABINI ST,,8000.0,DO 13-2020,street,A. Mabini Street,100
+CR,San Diego Zone I,C.M. RECTO ST,,8000.0,DO 13-2020,street,C. M. Recto Street,100
+CR,San Diego Zone I,E. JACINTO ST,,8000.0,DO 13-2020,street,E. Jacinto Street,100
+CR,San Diego Zone I,J.P. RIZAL ST,,8000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,San Diego Zone I,M. PONCE ST,,8000.0,DO 13-2020,street,M. Ponce Street,100
+RR,San Diego Zone I,QUEZON AVENUE,,7000.0,DO 13-2020,street,Quezon Avenue,100
+RR,San Diego Zone I,A. MABINI ST,,6000.0,DO 13-2020,street,A. Mabini Street,100
+RR,San Diego Zone I,C.M. RECTO ST,,6000.0,DO 13-2020,street,C. M. Recto Street,100
+RR,San Diego Zone I,E. JACINTO ST,,6000.0,DO 13-2020,street,E. Jacinto Street,100
+RR,San Diego Zone I,J.P. RIZAL ST,,6000.0,DO 13-2020,street,J. P. Rizal Street,100
+RR,San Diego Zone I,M. PONCE ST,,6000.0,DO 13-2020,street,M. Ponce Street,100
+CR,San Diego Zone I,A. DELA CRUZ ST,,8000.0,DO 13-2020,unmatched,Luzon (38),0
+CR,San Diego Zone I,A.M. REGIDOR ST,,8000.0,DO 13-2020,unmatched,Sitio Ayala (36),0
+CR,San Diego Zone I,P. NADERA ST,,8000.0,DO 13-2020,unmatched,Sitio Ayala (32),0
+CR,San Diego Zone I,P. PATERNO ST,,8000.0,DO 13-2020,unmatched,Sitio Ayala (30),0
+CR,San Diego Zone I,TRECE DE AGOSTO ST,,8000.0,DO 13-2020,unmatched,Sitio Ayala (31),0
+CR,San Diego Zone I,F. BALTAZAR ST,,7500.0,DO 13-2020,unmatched,Sitio Ayala (38),0
+CR,San Diego Zone I,L. JAENA ST,,7500.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+RR,San Diego Zone I,A. DELA CRUZ ST,,6000.0,DO 13-2020,unmatched,Luzon (38),0
+RR,San Diego Zone I,A.M. REGIDOR ST,,6000.0,DO 13-2020,unmatched,Sitio Ayala (36),0
+RR,San Diego Zone I,P. NADERA ST,,6000.0,DO 13-2020,unmatched,Sitio Ayala (32),0
+RR,San Diego Zone I,P. PATERNO ST,,6000.0,DO 13-2020,unmatched,Sitio Ayala (30),0
+RR,San Diego Zone I,TRECE DE AGOSTO ST,,6000.0,DO 13-2020,unmatched,Sitio Ayala (31),0
+RR,San Diego Zone I,F. BALTAZAR ST,,5500.0,DO 13-2020,unmatched,Sitio Ayala (38),0
+RR,San Diego Zone I,L. JAENA ST,,5500.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+CR,San Diego Zone II,ALL OTHER STREETS,INTERIOR LOTS,7000.0,DO 13-2020,background,,0
+RR,San Diego Zone II,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 13-2020,background,,0
+CR,San Diego Zone II,QUEZON AVENUE,,11000.0,DO 13-2020,street,Quezon Avenue,100
+CR,San Diego Zone II,A. MABINI ST,,8000.0,DO 13-2020,street,A. Mabini Street,100
+CR,San Diego Zone II,C.M. RECTO ST,,8000.0,DO 13-2020,street,C. M. Recto Street,100
+CR,San Diego Zone II,E. JACINTO ST,,8000.0,DO 13-2020,street,E. Jacinto Street,100
+CR,San Diego Zone II,J.P. RIZAL ST,,8000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,San Diego Zone II,M. PONCE ST,,8000.0,DO 13-2020,street,M. Ponce Street,100
+CR,San Diego Zone II,P. NADERA ST,,8000.0,DO 13-2020,street,Nadera Street,90.0
+CR,San Diego Zone II,TRECE DE AGOSTO ST,,8000.0,DO 13-2020,street,Trece de Agosto Street,100
+CR,San Diego Zone II,F. BALTAZAR ST,,7500.0,DO 13-2020,street,F. Baltazar Street,100
+RR,San Diego Zone II,QUEZON AVENUE,,7000.0,DO 13-2020,street,Quezon Avenue,100
+RR,San Diego Zone II,A. MABINI ST,,6000.0,DO 13-2020,street,A. Mabini Street,100
+RR,San Diego Zone II,C.M. RECTO ST,,6000.0,DO 13-2020,street,C. M. Recto Street,100
+RR,San Diego Zone II,E. JACINTO ST,,6000.0,DO 13-2020,street,E. Jacinto Street,100
+RR,San Diego Zone II,J.P. RIZAL ST,,6000.0,DO 13-2020,street,J. P. Rizal Street,100
+RR,San Diego Zone II,M. PONCE ST,,6000.0,DO 13-2020,street,M. Ponce Street,100
+RR,San Diego Zone II,P. NADERA ST,,6000.0,DO 13-2020,street,Nadera Street,90.0
+RR,San Diego Zone II,TRECE DE AGOSTO ST,,6000.0,DO 13-2020,street,Trece de Agosto Street,100
+RR,San Diego Zone II,F. BALTAZAR ST,,5500.0,DO 13-2020,street,F. Baltazar Street,100
+CR,San Diego Zone II,A. DELA CRUZ ST,,8000.0,DO 13-2020,unmatched,Saint Jude Subdivision (38),0
+CR,San Diego Zone II,A.M. REGIDOR ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (29),0
+CR,San Diego Zone II,P. PATERNO ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (53),0
+CR,San Diego Zone II,L. JAENA ST,,7500.0,DO 13-2020,unmatched,Saint Jude Subdivision (35),0
+RR,San Diego Zone II,A. DELA CRUZ ST,,6000.0,DO 13-2020,unmatched,Saint Jude Subdivision (38),0
+RR,San Diego Zone II,A.M. REGIDOR ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (29),0
+RR,San Diego Zone II,P. PATERNO ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (53),0
+RR,San Diego Zone II,L. JAENA ST,,5500.0,DO 13-2020,unmatched,Saint Jude Subdivision (35),0
+CR,San Diego Zone III,ALL OTHER STREETS,INTERIOR LOTS,7000.0,DO 13-2020,background,,0
+RR,San Diego Zone III,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 13-2020,background,,0
+CR,San Diego Zone III,QUEZON AVENUE,,11000.0,DO 13-2020,street,Quezon Avenue,100
+CR,San Diego Zone III,A. MABINI ST,,8000.0,DO 13-2020,street,A. Mabini Street,100
+CR,San Diego Zone III,M. PONCE ST,,8000.0,DO 13-2020,street,M. Ponce Street,100
+CR,San Diego Zone III,P. NADERA ST,,8000.0,DO 13-2020,street,Nadera Street,90.0
+CR,San Diego Zone III,TRECE DE AGOSTO ST,,8000.0,DO 13-2020,street,Trece de Agosto Street,100
+CR,San Diego Zone III,F. BALTAZAR ST,,7500.0,DO 13-2020,street,F. Baltazar Street,100
+RR,San Diego Zone III,QUEZON AVENUE,,7000.0,DO 13-2020,street,Quezon Avenue,100
+RR,San Diego Zone III,A. MABINI ST,,6000.0,DO 13-2020,street,A. Mabini Street,100
+RR,San Diego Zone III,M. PONCE ST,,6000.0,DO 13-2020,street,M. Ponce Street,100
+RR,San Diego Zone III,P. NADERA ST,,6000.0,DO 13-2020,street,Nadera Street,90.0
+RR,San Diego Zone III,TRECE DE AGOSTO ST,,6000.0,DO 13-2020,street,Trece de Agosto Street,100
+RR,San Diego Zone III,F. BALTAZAR ST,,5500.0,DO 13-2020,street,F. Baltazar Street,100
+CR,San Diego Zone III,A. DELA CRUZ ST,,8000.0,DO 13-2020,unmatched,Saint Jude Subdivision (38),0
+CR,San Diego Zone III,A.M. REGIDOR ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (29),0
+CR,San Diego Zone III,C.M. RECTO ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (32),0
+CR,San Diego Zone III,E. JACINTO ST,,8000.0,DO 13-2020,unmatched,Saint Jude Subdivision (63),0
+CR,San Diego Zone III,J.P. RIZAL ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (32),0
+CR,San Diego Zone III,P. PATERNO ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (53),0
+CR,San Diego Zone III,L. JAENA ST,,7500.0,DO 13-2020,unmatched,Saint Jude Subdivision (35),0
+RR,San Diego Zone III,A. DELA CRUZ ST,,6000.0,DO 13-2020,unmatched,Saint Jude Subdivision (38),0
+RR,San Diego Zone III,A.M. REGIDOR ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (29),0
+RR,San Diego Zone III,C.M. RECTO ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (32),0
+RR,San Diego Zone III,E. JACINTO ST,,6000.0,DO 13-2020,unmatched,Saint Jude Subdivision (63),0
+RR,San Diego Zone III,J.P. RIZAL ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (32),0
+RR,San Diego Zone III,P. PATERNO ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (53),0
+RR,San Diego Zone III,L. JAENA ST,,5500.0,DO 13-2020,unmatched,Saint Jude Subdivision (35),0
+CR,San Diego Zone IV,ALL OTHER STREETS,INTERIOR LOTS,7000.0,DO 13-2020,background,,0
+RR,San Diego Zone IV,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 13-2020,background,,0
+CR,San Diego Zone IV,QUEZON AVENUE,,11000.0,DO 13-2020,street,Quezon Avenue,100
+CR,San Diego Zone IV,A. MABINI ST,,8000.0,DO 13-2020,street,A. Mabini Street,100
+CR,San Diego Zone IV,M. PONCE ST,,8000.0,DO 13-2020,street,M. Ponce Street,100
+CR,San Diego Zone IV,P. NADERA ST,,8000.0,DO 13-2020,street,Nadera Street,90.0
+CR,San Diego Zone IV,TRECE DE AGOSTO ST,,8000.0,DO 13-2020,street,Trece de Agosto Street,100
+CR,San Diego Zone IV,F. BALTAZAR ST,,7500.0,DO 13-2020,street,F. Baltazar Street,100
+RR,San Diego Zone IV,QUEZON AVENUE,,7000.0,DO 13-2020,street,Quezon Avenue,100
+RR,San Diego Zone IV,A. MABINI ST,,6000.0,DO 13-2020,street,A. Mabini Street,100
+RR,San Diego Zone IV,M. PONCE ST,,6000.0,DO 13-2020,street,M. Ponce Street,100
+RR,San Diego Zone IV,P. NADERA ST,,6000.0,DO 13-2020,street,Nadera Street,90.0
+RR,San Diego Zone IV,TRECE DE AGOSTO ST,,6000.0,DO 13-2020,street,Trece de Agosto Street,100
+RR,San Diego Zone IV,F. BALTAZAR ST,,5500.0,DO 13-2020,street,F. Baltazar Street,100
+CR,San Diego Zone IV,A. DELA CRUZ ST,,8000.0,DO 13-2020,unmatched,Saint Jude Subdivision (38),0
+CR,San Diego Zone IV,A.M. REGIDOR ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (29),0
+CR,San Diego Zone IV,C.M. RECTO ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (32),0
+CR,San Diego Zone IV,E. JACINTO ST,,8000.0,DO 13-2020,unmatched,Saint Jude Subdivision (63),0
+CR,San Diego Zone IV,J.P. RIZAL ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (32),0
+CR,San Diego Zone IV,P. PATERNO ST,,8000.0,DO 13-2020,unmatched,Capistrano Subdivision (53),0
+CR,San Diego Zone IV,L. JAENA ST,,7500.0,DO 13-2020,unmatched,Green Valley Subdivision (42),0
+RR,San Diego Zone IV,A. DELA CRUZ ST,,6000.0,DO 13-2020,unmatched,Saint Jude Subdivision (38),0
+RR,San Diego Zone IV,A.M. REGIDOR ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (29),0
+RR,San Diego Zone IV,C.M. RECTO ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (32),0
+RR,San Diego Zone IV,E. JACINTO ST,,6000.0,DO 13-2020,unmatched,Saint Jude Subdivision (63),0
+RR,San Diego Zone IV,J.P. RIZAL ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (32),0
+RR,San Diego Zone IV,P. PATERNO ST,,6000.0,DO 13-2020,unmatched,Capistrano Subdivision (53),0
+RR,San Diego Zone IV,L. JAENA ST,,5500.0,DO 13-2020,unmatched,Green Valley Subdivision (42),0
+CR,San Isidro Zone I,ALL OTHER STREETS,INTERIOR LOTS,6000.0,DO 13-2020,background,,0
+RR,San Isidro Zone I,ALL OTHER STREETS,INTERIOR LOTS,4000.0,DO 13-2020,background,,0
+CR,San Isidro Zone I,EJV ORIAS ST,,7000.0,DO 13-2020,street,EJV Orias St.,100
+RR,San Isidro Zone I,EJV ORIAS ST,,4500.0,DO 13-2020,street,EJV Orias St.,100
+CR,San Isidro Zone I,DEL PILAR ST,,7000.0,DO 13-2020,unmatched,Luzon (14),0
+CR,San Isidro Zone I,J. LUNA ST,,7000.0,DO 13-2020,unmatched,Luzon (55),0
+CR,San Isidro Zone I,L. PLATA ST,,7000.0,DO 13-2020,unmatched,Luzon (17),0
+CR,San Isidro Zone I,MALVAR ST,,7000.0,DO 13-2020,unmatched,Luzon (18),0
+CR,San Isidro Zone I,PANGANIBAN ST,,7000.0,DO 13-2020,unmatched,Luzon (13),0
+CR,San Isidro Zone I,PEREZ ST,,7000.0,DO 13-2020,unmatched,Luzon (20),0
+CR,San Isidro Zone I,ZAMORA ST,,7000.0,DO 13-2020,unmatched,Luzon (36),0
+RR,San Isidro Zone I,DEL PILAR ST,,4500.0,DO 13-2020,unmatched,Luzon (14),0
+RR,San Isidro Zone I,J. LUNA ST,,4500.0,DO 13-2020,unmatched,Luzon (55),0
+RR,San Isidro Zone I,L. PLATA ST,,4500.0,DO 13-2020,unmatched,Luzon (17),0
+RR,San Isidro Zone I,MALVAR ST,,4500.0,DO 13-2020,unmatched,Luzon (18),0
+RR,San Isidro Zone I,PANGANIBAN ST,,4500.0,DO 13-2020,unmatched,Luzon (13),0
+RR,San Isidro Zone I,PEREZ ST,,4500.0,DO 13-2020,unmatched,Luzon (20),0
+RR,San Isidro Zone I,ZAMORA ST,,4500.0,DO 13-2020,unmatched,Luzon (36),0
+CR,San Isidro Zone II,ALL OTHER STREETS,INTERIOR LOTS,6000.0,DO 13-2020,background,,0
+RR,San Isidro Zone II,ALL OTHER STREETS,INTERIOR LOTS,4000.0,DO 13-2020,background,,0
+CR,San Isidro Zone II,EJV ORIAS ST,,7000.0,DO 13-2020,street,EJV Orias St.,100
+RR,San Isidro Zone II,EJV ORIAS ST,,4500.0,DO 13-2020,street,EJV Orias St.,100
+CR,San Isidro Zone II,DEL PILAR ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (30),0
+CR,San Isidro Zone II,J. LUNA ST,,7000.0,DO 13-2020,unmatched,Luzon (55),0
+CR,San Isidro Zone II,L. PLATA ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+CR,San Isidro Zone II,MALVAR ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (35),0
+CR,San Isidro Zone II,PANGANIBAN ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (29),0
+CR,San Isidro Zone II,PEREZ ST,,7000.0,DO 13-2020,unmatched,Luzon (20),0
+CR,San Isidro Zone II,ZAMORA ST,,7000.0,DO 13-2020,unmatched,Luzon (36),0
+RR,San Isidro Zone II,DEL PILAR ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (30),0
+RR,San Isidro Zone II,J. LUNA ST,,4500.0,DO 13-2020,unmatched,Luzon (55),0
+RR,San Isidro Zone II,L. PLATA ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+RR,San Isidro Zone II,MALVAR ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (35),0
+RR,San Isidro Zone II,PANGANIBAN ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (29),0
+RR,San Isidro Zone II,PEREZ ST,,4500.0,DO 13-2020,unmatched,Luzon (20),0
+RR,San Isidro Zone II,ZAMORA ST,,4500.0,DO 13-2020,unmatched,Luzon (36),0
+CR,San Isidro Zone III,ALL OTHER STREETS,INTERIOR LOTS,6000.0,DO 13-2020,background,,0
+RR,San Isidro Zone III,ALL OTHER STREETS,INTERIOR LOTS,4000.0,DO 13-2020,background,,0
+CR,San Isidro Zone III,EJV ORIAS ST,,7000.0,DO 13-2020,street,EJV Orias St.,100
+RR,San Isidro Zone III,EJV ORIAS ST,,4500.0,DO 13-2020,street,EJV Orias St.,100
+CR,San Isidro Zone III,DEL PILAR ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (30),0
+CR,San Isidro Zone III,J. LUNA ST,,7000.0,DO 13-2020,unmatched,Luzon (55),0
+CR,San Isidro Zone III,L. PLATA ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+CR,San Isidro Zone III,MALVAR ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (35),0
+CR,San Isidro Zone III,PANGANIBAN ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (29),0
+CR,San Isidro Zone III,PEREZ ST,,7000.0,DO 13-2020,unmatched,Luzon (20),0
+CR,San Isidro Zone III,ZAMORA ST,,7000.0,DO 13-2020,unmatched,Luzon (36),0
+RR,San Isidro Zone III,DEL PILAR ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (30),0
+RR,San Isidro Zone III,J. LUNA ST,,4500.0,DO 13-2020,unmatched,Luzon (55),0
+RR,San Isidro Zone III,L. PLATA ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+RR,San Isidro Zone III,MALVAR ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (35),0
+RR,San Isidro Zone III,PANGANIBAN ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (29),0
+RR,San Isidro Zone III,PEREZ ST,,4500.0,DO 13-2020,unmatched,Luzon (20),0
+RR,San Isidro Zone III,ZAMORA ST,,4500.0,DO 13-2020,unmatched,Luzon (36),0
+CR,San Isidro Zone IV,ALL OTHER STREETS,INTERIOR LOTS,6000.0,DO 13-2020,background,,0
+RR,San Isidro Zone IV,ALL OTHER STREETS,INTERIOR LOTS,4000.0,DO 13-2020,background,,0
+CR,San Isidro Zone IV,EJV ORIAS ST,,7000.0,DO 13-2020,street,EJV Orias St.,100
+RR,San Isidro Zone IV,EJV ORIAS ST,,4500.0,DO 13-2020,street,EJV Orias St.,100
+CR,San Isidro Zone IV,DEL PILAR ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (30),0
+CR,San Isidro Zone IV,J. LUNA ST,,7000.0,DO 13-2020,unmatched,Luzon (55),0
+CR,San Isidro Zone IV,L. PLATA ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+CR,San Isidro Zone IV,MALVAR ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (35),0
+CR,San Isidro Zone IV,PANGANIBAN ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (29),0
+CR,San Isidro Zone IV,PEREZ ST,,7000.0,DO 13-2020,unmatched,Luzon (20),0
+CR,San Isidro Zone IV,ZAMORA ST,,7000.0,DO 13-2020,unmatched,Luzon (36),0
+RR,San Isidro Zone IV,DEL PILAR ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (30),0
+RR,San Isidro Zone IV,J. LUNA ST,,4500.0,DO 13-2020,unmatched,Luzon (55),0
+RR,San Isidro Zone IV,L. PLATA ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (33),0
+RR,San Isidro Zone IV,MALVAR ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (35),0
+RR,San Isidro Zone IV,PANGANIBAN ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (29),0
+RR,San Isidro Zone IV,PEREZ ST,,4500.0,DO 13-2020,unmatched,Luzon (20),0
+RR,San Isidro Zone IV,ZAMORA ST,,4500.0,DO 13-2020,unmatched,Luzon (36),0
+CR,San Roque Zone I,ALL OTHER STREETS,INTERIOR LOTS,7000.0,DO 13-2020,background,,0
+RR,San Roque Zone I,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 13-2020,background,,0
+CR,San Roque Zone I,QUEZON AVENUE,,10000.0,DO 13-2020,street,Quezon Avenue,100
+CR,San Roque Zone I,J.P. RIZAL ST,,8000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,San Roque Zone I,LEGASPI ST,,8000.0,DO 13-2020,street,Legaspi Street,100
+CR,San Roque Zone I,M. PONCE ST,,8000.0,DO 13-2020,street,M. Ponce Street,100
+CR,San Roque Zone I,P. SILANG ST,,8000.0,DO 13-2020,street,Silang Street,90.0
+CR,San Roque Zone I,C.M. RECTO ST,,7000.0,DO 13-2020,street,C. M. Recto Street,100
+CR,San Roque Zone I,F. BALTAZAR ST,,7000.0,DO 13-2020,street,F. Baltazar Street,100
+RR,San Roque Zone I,QUEZON AVENUE,,7000.0,DO 13-2020,street,Quezon Avenue,100
+CR,San Roque Zone I,S. REYES ST,,7000.0,DO 13-2020,street,S. Reyes Street,100
+CR,San Roque Zone I,TRECE DE AGOSTO ST,,7000.0,DO 13-2020,street,Trece de Agosto Street,100
+RR,San Roque Zone I,J.P. RIZAL ST,,6000.0,DO 13-2020,street,J. P. Rizal Street,100
+RR,San Roque Zone I,LEGASPI ST,,6000.0,DO 13-2020,street,Legaspi Street,100
+RR,San Roque Zone I,M. PONCE ST,,6000.0,DO 13-2020,street,M. Ponce Street,100
+RR,San Roque Zone I,P. SILANG ST,,6000.0,DO 13-2020,street,Silang Street,90.0
+RR,San Roque Zone I,S. REYES ST,,6000.0,DO 13-2020,street,S. Reyes Street,100
+RR,San Roque Zone I,C.M. RECTO ST,,4500.0,DO 13-2020,street,C. M. Recto Street,100
+RR,San Roque Zone I,F. BALTAZAR ST,,4500.0,DO 13-2020,street,F. Baltazar Street,100
+RR,San Roque Zone I,TRECE DE AGOSTO ST,,4500.0,DO 13-2020,street,Trece de Agosto Street,100
+CR,San Roque Zone I,A. DELA CRUZ ST,,7000.0,DO 13-2020,unmatched,Luzon (38),0
+CR,San Roque Zone I,A.M. REGIDOR ST,,7000.0,DO 13-2020,unmatched,Sitio Ayala (36),0
+RR,San Roque Zone I,A. DELA CRUZ ST,,4500.0,DO 13-2020,unmatched,Luzon (38),0
+RR,San Roque Zone I,A.M. REGIDOR ST,,4500.0,DO 13-2020,unmatched,Sitio Ayala (36),0
+CR,San Roque Zone II,ALL OTHER STREETS,INTERIOR LOTS,7000.0,DO 13-2020,background,,0
+RR,San Roque Zone II,ALL OTHER STREETS,INTERIOR LOTS,5000.0,DO 13-2020,background,,0
+CR,San Roque Zone II,QUEZON AVENUE,,10000.0,DO 13-2020,street,Quezon Avenue,100
+CR,San Roque Zone II,J.P. RIZAL ST,,8000.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,San Roque Zone II,LEGASPI ST,,8000.0,DO 13-2020,street,Legaspi Street,100
+CR,San Roque Zone II,M. PONCE ST,,8000.0,DO 13-2020,street,M. Ponce Street,100
+CR,San Roque Zone II,P. SILANG ST,,8000.0,DO 13-2020,street,Silang Street,90.0
+CR,San Roque Zone II,F. BALTAZAR ST,,7000.0,DO 13-2020,street,F. Baltazar Street,100
+RR,San Roque Zone II,QUEZON AVENUE,,7000.0,DO 13-2020,street,Quezon Avenue,100
+CR,San Roque Zone II,S. REYES ST,,7000.0,DO 13-2020,street,S. Reyes Street,100
+CR,San Roque Zone II,TRECE DE AGOSTO ST,,7000.0,DO 13-2020,street,Trece de Agosto Street,100
+RR,San Roque Zone II,J.P. RIZAL ST,,6000.0,DO 13-2020,street,J. P. Rizal Street,100
+RR,San Roque Zone II,LEGASPI ST,,6000.0,DO 13-2020,street,Legaspi Street,100
+RR,San Roque Zone II,M. PONCE ST,,6000.0,DO 13-2020,street,M. Ponce Street,100
+RR,San Roque Zone II,P. SILANG ST,,6000.0,DO 13-2020,street,Silang Street,90.0
+RR,San Roque Zone II,S. REYES ST,,6000.0,DO 13-2020,street,S. Reyes Street,100
+RR,San Roque Zone II,F. BALTAZAR ST,,4500.0,DO 13-2020,street,F. Baltazar Street,100
+RR,San Roque Zone II,TRECE DE AGOSTO ST,,4500.0,DO 13-2020,street,Trece de Agosto Street,100
+CR,San Roque Zone II,A. DELA CRUZ ST,,7000.0,DO 13-2020,unmatched,Saint Jude Subdivision (38),0
+CR,San Roque Zone II,A.M. REGIDOR ST,,7000.0,DO 13-2020,unmatched,Saint Jude Subdivision (29),0
+CR,San Roque Zone II,C.M. RECTO ST,,7000.0,DO 13-2020,unmatched,Saint Jude Subdivision (21),0
+RR,San Roque Zone II,A. DELA CRUZ ST,,4500.0,DO 13-2020,unmatched,Saint Jude Subdivision (38),0
+RR,San Roque Zone II,A.M. REGIDOR ST,,4500.0,DO 13-2020,unmatched,Saint Jude Subdivision (29),0
+RR,San Roque Zone II,C.M. RECTO ST,,4500.0,DO 13-2020,unmatched,Saint Jude Subdivision (21),0
+CR,Talolong,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Talolong,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Tamlong,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Tamlong,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+I,Tongko,ALL LOTS,ALONG NATIONAL ROAD,5500.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Tongko,ALL LOTS,ALONG NATIONAL ROAD,5000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Tongko,ALL LOTS,ALONG NATIONAL ROAD,2500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Tongko,ALL LOTS,ALONG OTHER ROADS,1500.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Valencia,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Valencia,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Wakas,ALL LOTS,ALONG NATIONAL ROAD,5000.0,DO 13-2020,unmatched,Lovely Meadows (38),0
+RR,Wakas,SAN MIGUEL VILLAGE,,2750.0,DO 13-2020,unmatched,Wesland Subdivision (47),0
+RR,Wakas,ALL LOTS,ALONG NATIONAL ROAD,2500.0,DO 13-2020,unmatched,Lovely Meadows (38),0
+RR,Wakas,CARMENVILLE SUBD,,2500.0,DO 13-2020,unmatched,Lovely Meadows (25),0
+RR,Wakas,ALL LOTS,ALONG OTHER ROADS,1500.0,DO 13-2020,unmatched,Lovely Meadows (38),0
+RR,Wakas,LOVELY MEADOWS,,3500.0,DO 13-2020,village,Lovely Meadows,100
+RR,Wakas,LOVELY VILLAGE,,3500.0,DO 13-2020,village,Lovely Village,100

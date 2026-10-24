@@ -1,0 +1,43 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Alibihaban,ALL LOTS,,2000.0,DO 33-2019,unmatched,Alibijaban Island (32),0
+RR,Alibihaban,ALL LOTS,,550.0,DO 33-2019,unmatched,Alibijaban Island (32),0
+CR,Camflora,ALL LOTS,NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Camflora,ALL LOTS,NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Camflora,ALL LOTS,BARANGAY ROAD,650.0,DO 33-2019,unmatched,Luzon (31),0
+I,Mangero,ALL INDUSTRIAL LOTS,,1200.0,DO 33-2019,unmatched,Luzon (25),0
+CR,Mangero,ALL LOTS,PROVINCIAL ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Mangero,ALL LOTS,PROVINCIAL ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Mangero,ALL LOTS,BARANGAY ROAD,600.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Pansoy,ALL LOTS,PROVINCIAL ROAD,1500.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Pansoy,ALL LOTS,PROVINCIAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Pansoy,ALL LOTS,BARANGAY ROAD,650.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Poblacion,DE LEON ST.,PORT - CENTER OF COMMERCE,2000.0,DO 33-2019,street,De Leon Street,100
+CR,Poblacion,NADRES ST.,CENTER OF COMMERCE,1900.0,DO 33-2019,street,Nadres Street,100
+CR,Poblacion,MEDENILLA ST,ADJACENT TO NATIONAL ROAD,1900.0,DO 33-2019,street,Medenilla Street,100
+CR,Poblacion,LEON GUINTO ST.,,1800.0,DO 33-2019,street,Leon Guinto Street,100
+CR,Poblacion,LOPINAC,EMPRESE - LEON GUINTO,1800.0,DO 33-2019,street,Lopinac Street,97
+CR,Poblacion,RIZAL ST.,MUNICIPAL HALL,1800.0,DO 33-2019,street,Rizal Street,100
+CR,Poblacion,BANAL ST,EMPRESE,1800.0,DO 33-2019,street,Banal Street,100
+CR,Poblacion,PUMARADA ST.,(NEAR SCHOOL),1700.0,DO 33-2019,street,Pumarada Street,100
+CR,Poblacion,MENDRIJE ST.,ADJACENT TO PUMARADA ST.,1700.0,DO 33-2019,street,Mendreje Street,90.9090909090909
+RR,Poblacion,DE LEON ST.,PORT - CENTER OF COMMERCE,1500.0,DO 33-2019,street,De Leon Street,100
+RR,Poblacion,FERNANDEZ ST.,PUBLIC MARKET,1500.0,DO 33-2019,street,Fernandez Street,100
+RR,Poblacion,NADRES ST.,CENTER OF COMMERCE,1400.0,DO 33-2019,street,Nadres Street,100
+RR,Poblacion,MEDENILLA ST,ADJACENT TO NATIONAL ROAD,1400.0,DO 33-2019,street,Medenilla Street,100
+RR,Poblacion,LEON GUINTO ST.,,1300.0,DO 33-2019,street,Leon Guinto Street,100
+RR,Poblacion,LOPINAC,EMPRESE - LEON GUINTO,1300.0,DO 33-2019,street,Lopinac Street,97
+RR,Poblacion,RIZAL ST.,MUNICIPAL HALL,1300.0,DO 33-2019,street,Rizal Street,100
+RR,Poblacion,BANAL ST,EMPRESE,1300.0,DO 33-2019,street,Banal Street,100
+RR,Poblacion,PUMARADA ST.,(NEAR SCHOOL),1200.0,DO 33-2019,street,Pumarada Street,100
+RR,Poblacion,MENDRIJE ST.,ADJACENT TO PUMARADA ST.,1200.0,DO 33-2019,street,Mendreje Street,90.9090909090909
+CR,Poblacion,FERNANDEZ ST.,NATIONAL HIGHWAY,1000.0,DO 33-2019,street,Fernandez Street,100
+CR,Poblacion,NATIONAL HIGHWAY,,2000.0,DO 33-2019,unmatched,Luzon (19),0
+CR,Poblacion,EMPRESE ST.,NADRES,1800.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Poblacion,NATIONAL HIGHWAY,,1500.0,DO 33-2019,unmatched,Luzon (19),0
+RR,Poblacion,EMPRESE ST.,NADRES,1300.0,DO 33-2019,unmatched,Luzon (0),0
+CR,Tala,ALL LOTS,NATIONAL ROAD,1400.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Tala,ALL LOTS,NATIONAL ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Tala,ALL LOTS,BARANGAY ROAD,25.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Talisay,ALL LOTS,PROVINCIAL ROAD,1400.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Talisay,ALL LOTS,PROVINCIAL ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Talisay,ALL LOTS,BARANGAY ROAD,25.0,DO 33-2019,unmatched,Luzon (31),0

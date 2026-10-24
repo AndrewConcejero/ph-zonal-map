@@ -51,3 +51,8 @@ MOVED      RDO No. 76 - Victorias City, Negros Occidental.xls  -> RDO-076/RDO No
 MOVED      RDO No. 77 - Bacolod City Negros Occidental.xls  -> RDO-077/RDO No. 77 - Bacolod City Negros Occidental.xls
 MOVED      RDO No. 78 - Binalbagan, Negros Occidental.xls  -> RDO-078/RDO No. 78 - Binalbagan, Negros Occidental.xls
 MOVED      RDO No. 79 - Dumaguete City, Negros Oriental.xls  -> RDO-079/RDO No. 79 - Dumaguete City, Negros Oriental.xls
+# inventory run 2026-10-25T04:34:41
+MOVED      RDO No. 18 - Olongapo City, Zambales.xls  -> RDO-018/RDO No. 18 - Olongapo City, Zambales.xls
+MOVED      RDO No. 21A - Angeles City, North Pampanga.xls  -> RDO-21A/RDO No. 21A - Angeles City, North Pampanga.xls
+MOVED      RDO No. 21B - City of San Fernando, South Pampanga.xls  -> RDO-21B/RDO No. 21B - City of San Fernando, South Pampanga.xls
+

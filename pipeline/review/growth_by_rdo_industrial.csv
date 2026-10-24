@@ -1,4 +1,5 @@
 rdo,annual_rate,source,pairs,share_rising,transitions,flags
+RDO-018,,rdo,3,0,"DO 48-2007 -> DO 19-2022 (14.2 yrs, 3 pairs)",only 3 matched pairs
 RDO-024,0.1077,rdo,255,0.988,"DO 81-2015 -> DO 9-2021 (5.7 yrs, 255 pairs)",
 RDO-026,0.1279,rdo,159,1.0,"DO 94-2015 -> DO 46-2022 (6.7 yrs, 154 pairs); DO 32-2009 -> DO 46-2022 (12.8 yrs, 5 pairs)",
 RDO-027,0.1028,rdo,1953,0.999,"DO 41-2019 -> DO 46-2023 (4.2 yrs, 1953 pairs)",
@@ -28,6 +29,10 @@ RDO-056,0.0918,rdo,91,1.0,"DO 56-2017 -> DO 59-2023 (6.0 yrs, 91 pairs)",
 RDO-057,0.3034,rdo,140,0.993,"DO 11-2015 -> DO 32-2019 (4.2 yrs, 87 pairs); DO 11-2015 -> DO 88-2019 (4.7 yrs, 37 pairs); DO 32-2019 -> DO 55-2024 (5.1 yrs, 10 pairs); DO 88-2019 -> DO 55-2024 (4.5 yrs, 5 pairs)",above 15% a year; latest transition had too few pairs; used 2 transitions
 RDO-058,0.1023,rdo,32,1.0,"DO 32-2010 -> DO 60-2018 (8.2 yrs, 30 pairs); DO 60-2018 -> DO 35-2022 (3.6 yrs, 1 pairs); DO 12-2000 -> DO 60-2018 (18.7 yrs, 1 pairs)",latest transition had too few pairs; used 2 transitions
 RDO-059,0.4024,rdo,68,1.0,"DO 60-2014 -> DO 58-2018 (4.1 yrs, 54 pairs); DO 58-2018 -> DO 34-2022 (3.6 yrs, 14 pairs)",above 15% a year; latest transition had too few pairs; used 2 transitions
+RDO-060,0.082,rdo,33,1.0,"DO 16-2010 -> DO 13-2020 (9.6 yrs, 33 pairs)",
+RDO-061,0.082,province median,0,0,,no matched pairs
+RDO-21A,0.1298,rdo,58,1.0,"DO 66-2018 -> DO 56-2022 (3.7 yrs, 58 pairs)",
+RDO-21B,0.109,rdo,228,0.987,"DO 26-2017 -> DO 4-2024 (6.7 yrs, 218 pairs); DO 36-2005 -> DO 26-2017 (8.2 yrs, 6 pairs); DO 36-2005 -> DO 4-2024 (14.9 yrs, 4 pairs)",
 RDO-25A,0.1144,rdo,142,1.0,"DO 29-2009 -> DO 9-2020 (10.6 yrs, 142 pairs)",
 RDO-25B,0.0836,rdo,263,1.0,"DO 29-2009 -> DO 14-2018 (8.8 yrs, 263 pairs)",
 RDO-53A,0.1254,province median,0,0,,no matched pairs

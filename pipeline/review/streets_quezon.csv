@@ -1,0 +1,222 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Apad,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Apad,ALL LOTS,BRGY. ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Apad,ALL LOTS,ALONG NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Apad,ALL LOTS,BRGY. ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Apad,ALL LOTS,INTERIOR,800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Argosino,ALL LOTS,BRGY. ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Argosino,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Argosino,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Barangay I,M. ROXAS STREET,R. MAGSAYSAY ST. - FB. HARRISON ST.,1700.0,DO 33-2019,segment,M. Roxas Street,100
+CR,Barangay I,M. ROXAS STREET,S. MILITANTE ST.- FB. HARRISON ST.,1700.0,DO 33-2019,segment,M. Roxas Street,100
+RR,Barangay I,M. ROXAS STREET,R. MAGSAYSAY ST. - FB. HARRISON ST.,1300.0,DO 33-2019,segment,M. Roxas Street,100
+RR,Barangay I,M. ROXAS STREET,S. MILITANTE ST.- FB. HARRISON ST.,1300.0,DO 33-2019,segment,M. Roxas Street,100
+CR,Barangay I,M. ROXAS STREET,J. GENCIANA ST.- FB. HARRISON ST.,1700.0,DO 33-2019,street,M. Roxas Street,100
+CR,Barangay I,AGUINALDO STREET,S. MILITANTE ST.- VILLAPANDO ST.,1700.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+CR,Barangay I,AGUINALDO STREET,R. MAGSAYSAY ST. SAN PABLO ST.,1700.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+CR,Barangay I,AGUINALDO STREET,SAN PABLO ST. BAYAN ST.,1700.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+RR,Barangay I,M. ROXAS STREET,J. GENCIANA ST.- FB. HARRISON ST.,1300.0,DO 33-2019,street,M. Roxas Street,100
+RR,Barangay I,AGUINALDO STREET,S. MILITANTE ST.- VILLAPANDO ST.,1300.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+RR,Barangay I,AGUINALDO STREET,R. MAGSAYSAY ST. SAN PABLO ST.,1300.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+RR,Barangay I,AGUINALDO STREET,SAN PABLO ST. BAYAN ST.,1300.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+CR,Barangay I,J. P. RIZAL STREET,R. MAGSAYSAY ST.-S. OSMENA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay I,J. P. RIZAL STREET,J. GENCIANA ST.-M. ROXAS ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay I,J. P. RIZAL STREET,S. MILITANTE ST. -J. GENCIANA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay I,A. BAYAN STREET,J. P. RIZAL ST. - ROXAS ST.,1700.0,DO 33-2019,unmatched,Alabat Island (50),0
+RR,Barangay I,J. P. RIZAL STREET,R. MAGSAYSAY ST.-S. OSMENA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay I,J. P. RIZAL STREET,J. GENCIANA ST.-M. ROXAS ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay I,J. P. RIZAL STREET,S. MILITANTE ST. -J. GENCIANA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay I,A. BAYAN STREET,J. P. RIZAL ST. - ROXAS ST.,1300.0,DO 33-2019,unmatched,Alabat Island (50),0
+CR,Barangay II,S. OSMENA STREET,A. BONIFACIO ST.- A. MABINI ST.,1700.0,DO 33-2019,segment,S. Osmeña Street,100
+RR,Barangay II,S. OSMENA STREET,A. BONIFACIO ST.- A. MABINI ST.,1300.0,DO 33-2019,segment,S. Osmeña Street,100
+CR,Barangay II,S. OSMENA STREET,R. MAGSAYSAY ST. - A. MABINI ST.,1700.0,DO 33-2019,street,S. Osmeña Street,100
+CR,Barangay II,S. OSMENA STREET,J. GENCIANA ST. - A. MABINI ST.,1700.0,DO 33-2019,street,S. Osmeña Street,100
+CR,Barangay II,A. MABINI STREET,R. MAGSAYSAY ST. - SEAWALL,1700.0,DO 33-2019,street,A. Mabini Street,100
+CR,Barangay II,A. MABINI STREET,J. GENCIANA ST. - SEAWALL,1700.0,DO 33-2019,street,A. Mabini Street,100
+CR,Barangay II,A. MABINI STREET,S. MILITANTE ST. - SEAWALL,1700.0,DO 33-2019,street,A. Mabini Street,100
+CR,Barangay II,A. MABINI STREET,A. BONIFACIO ST. - SEAWALL,1700.0,DO 33-2019,street,A. Mabini Street,100
+RR,Barangay II,S. OSMENA STREET,R. MAGSAYSAY ST. - A. MABINI ST.,1300.0,DO 33-2019,street,S. Osmeña Street,100
+RR,Barangay II,S. OSMENA STREET,J. GENCIANA ST. - A. MABINI ST.,1300.0,DO 33-2019,street,S. Osmeña Street,100
+RR,Barangay II,A. MABINI STREET,R. MAGSAYSAY ST. - SEAWALL,1300.0,DO 33-2019,street,A. Mabini Street,100
+RR,Barangay II,A. MABINI STREET,J. GENCIANA ST. - SEAWALL,1300.0,DO 33-2019,street,A. Mabini Street,100
+RR,Barangay II,A. MABINI STREET,S. MILITANTE ST. - SEAWALL,1300.0,DO 33-2019,street,A. Mabini Street,100
+RR,Barangay II,A. MABINI STREET,A. BONIFACIO ST. - SEAWALL,1300.0,DO 33-2019,street,A. Mabini Street,100
+CR,Barangay II,J. P. RIZAL STREET,A. BONIFACIO ST.- S. OSMENA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay II,J. P. RIZAL STREET,S. MILITANTE ST.- S. OSMENA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay II,J. P. RIZAL STREET,J. GENCIANA ST. - S. OSMENA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay II,J. P. RIZAL STREET,R. MAGSAYSAY ST. - S. OSMENA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay II,J. P. RIZAL STREET,A. BONIFACIO ST.- S. OSMENA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay II,J. P. RIZAL STREET,S. MILITANTE ST.- S. OSMENA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay II,J. P. RIZAL STREET,J. GENCIANA ST. - S. OSMENA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay II,J. P. RIZAL STREET,R. MAGSAYSAY ST. - S. OSMENA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay III,S. OSMENA STREET,A. MABINI ST. - U. CAMAHO ST.,1900.0,DO 33-2019,segment,S. Osmeña Street,100
+CR,Barangay III,S. OSMENA STREET,A. MABINI ST. - A. BONIFACIO ST.,1700.0,DO 33-2019,segment,S. Osmeña Street,100
+CR,Barangay III,S. OSMENA STREET,A. MABINI ST. - S. OLIVEROS ST.,1700.0,DO 33-2019,segment,S. Osmeña Street,100
+CR,Barangay III,S. OSMENA STREET,A. MABINI ST. - C. M. RECTO ST.,1700.0,DO 33-2019,segment,S. Osmeña Street,100
+RR,Barangay III,S. OSMENA STREET,A. MABINI ST. - U. CAMAHO ST.,1500.0,DO 33-2019,segment,S. Osmeña Street,100
+RR,Barangay III,S. OSMENA STREET,A. MABINI ST. - A. BONIFACIO ST.,1300.0,DO 33-2019,segment,S. Osmeña Street,100
+RR,Barangay III,S. OSMENA STREET,A. MABINI ST. - S. OLIVEROS ST.,1300.0,DO 33-2019,segment,S. Osmeña Street,100
+RR,Barangay III,S. OSMENA STREET,A. MABINI ST. - C. M. RECTO ST.,1300.0,DO 33-2019,segment,S. Osmeña Street,100
+CR,Barangay III,A. MABINI STREET,,1700.0,DO 33-2019,street,A. Mabini Street,100
+RR,Barangay III,A. MABINI STREET,,1300.0,DO 33-2019,street,A. Mabini Street,100
+CR,Barangay III,J. P. RIZAL STREET,U. CAMAHO ST. - S. OSMENA ST.,1900.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay III,J. P. RIZAL STREET,A. BONIFACIO ST.- S. OSMENA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay III,J. P. RIZAL STREET,S. OLIVEROS ST. - S. OSMENA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay III,J. P. RIZAL STREET,C. M. RECTO ST. - S. OSMENA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay III,ARCEO PROPERTY,,1700.0,DO 33-2019,unmatched,Alabat Island (15),0
+RR,Barangay III,J. P. RIZAL STREET,U. CAMAHO ST. - S. OSMENA ST.,1500.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay III,J. P. RIZAL STREET,A. BONIFACIO ST.- S. OSMENA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay III,J. P. RIZAL STREET,S. OLIVEROS ST. - S. OSMENA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay III,J. P. RIZAL STREET,C. M. RECTO ST. - S. OSMENA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay III,ARCEO PROPERTY,,1300.0,DO 33-2019,unmatched,Alabat Island (15),0
+CR,Barangay IV,M. ROXAS STREET,A. BONIFACIO ST. - F.B. HARRISON ST.,1700.0,DO 33-2019,segment,M. Roxas Street,100
+CR,Barangay IV,F.B. HARRISON STREET,A. BONIFACIO ST. - AGUINALDO ST.,1700.0,DO 33-2019,segment,F.B. Harrison Street,100
+CR,Barangay IV,F.B. HARRISON STREET,S. OLIVEROS ST. - AGUINALDO ST.,1700.0,DO 33-2019,segment,F.B. Harrison Street,100
+RR,Barangay IV,M. ROXAS STREET,A. BONIFACIO ST. - F.B. HARRISON ST.,1300.0,DO 33-2019,segment,M. Roxas Street,100
+RR,Barangay IV,F.B. HARRISON STREET,A. BONIFACIO ST. - AGUINALDO ST.,1300.0,DO 33-2019,segment,F.B. Harrison Street,100
+RR,Barangay IV,F.B. HARRISON STREET,S. OLIVEROS ST. - AGUINALDO ST.,1300.0,DO 33-2019,segment,F.B. Harrison Street,100
+CR,Barangay IV,M. ROXAS STREET,S. OLIVEROS ST. - F.B. HARRISON ST.,1900.0,DO 33-2019,street,M. Roxas Street,100
+CR,Barangay IV,M. ROXAS STREET,C. M. RECTO ST. - F.B. HARRISON ST.,1900.0,DO 33-2019,street,M. Roxas Street,100
+CR,Barangay IV,F.B. HARRISON STREET,U. CAMAHO ST. - AGUINALDO ST.,1900.0,DO 33-2019,street,F.B. Harrison Street,100
+CR,Barangay IV,AGUINALDO STREET,U. CAMAHO ST. - VILLAPANDO ST.,1900.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+CR,Barangay IV,AGUINALDO STREET,C. M. RECTO ST. - VILLAPANDO ST.,1900.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+CR,Barangay IV,MILITANTE STREET,,1700.0,DO 33-2019,street,S. Militante Street,92.3076923076923
+CR,Barangay IV,F.B. HARRISON STREET,C. M. RECTO ST. - AGUINALDO ST.,1700.0,DO 33-2019,street,F.B. Harrison Street,100
+CR,Barangay IV,AGUINALDO STREET,S. OLIVEROS ST. - VILLAPANDO ST.,1700.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+CR,Barangay IV,D. FRANCIA STREET,U. CAMAHO ST. - E. ENERO ST.,1700.0,DO 33-2019,street,D. Francia Street,100
+CR,Barangay IV,D. FRANCIA STREET,S. OLIVEROS ST. - E. ENERO ST.,1700.0,DO 33-2019,street,D. Francia Street,100
+CR,Barangay IV,D. FRANCIA STREET,A. BONIFACIO ST. - E. ENERO ST.,1700.0,DO 33-2019,street,D. Francia Street,100
+RR,Barangay IV,M. ROXAS STREET,S. OLIVEROS ST. - F.B. HARRISON ST.,1500.0,DO 33-2019,street,M. Roxas Street,100
+RR,Barangay IV,M. ROXAS STREET,C. M. RECTO ST. - F.B. HARRISON ST.,1500.0,DO 33-2019,street,M. Roxas Street,100
+RR,Barangay IV,F.B. HARRISON STREET,U. CAMAHO ST. - AGUINALDO ST.,1500.0,DO 33-2019,street,F.B. Harrison Street,100
+RR,Barangay IV,AGUINALDO STREET,U. CAMAHO ST. - VILLAPANDO ST.,1500.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+RR,Barangay IV,AGUINALDO STREET,C. M. RECTO ST. - VILLAPANDO ST.,1500.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+RR,Barangay IV,MILITANTE STREET,,1300.0,DO 33-2019,street,S. Militante Street,92.3076923076923
+RR,Barangay IV,F.B. HARRISON STREET,C. M. RECTO ST. - AGUINALDO ST.,1300.0,DO 33-2019,street,F.B. Harrison Street,100
+RR,Barangay IV,AGUINALDO STREET,S. OLIVEROS ST. - VILLAPANDO ST.,1300.0,DO 33-2019,street,E. Aguinaldo Street,92.3076923076923
+RR,Barangay IV,D. FRANCIA STREET,U. CAMAHO ST. - E. ENERO ST.,1300.0,DO 33-2019,street,D. Francia Street,100
+RR,Barangay IV,D. FRANCIA STREET,S. OLIVEROS ST. - E. ENERO ST.,1300.0,DO 33-2019,street,D. Francia Street,100
+RR,Barangay IV,D. FRANCIA STREET,A. BONIFACIO ST. - E. ENERO ST.,1300.0,DO 33-2019,street,D. Francia Street,100
+CR,Barangay IV,VILLAPANDO STREET,U. CAHO ST.- D. FRANCIA ST.,1900.0,DO 33-2019,unmatched,Alabat Island (43),0
+CR,Barangay IV,E. ENERO STREET,U. CAMAHO ST. - COCO LAND,1900.0,DO 33-2019,unmatched,Alabat Island (20),0
+CR,Barangay IV,J. P. RIZAL STREET,U. CAMAHO ST. - C. M. RECTO ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay IV,J. P. RIZAL STREET,S. OLIVEROS ST. - M. ROXAS ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay IV,J. P. RIZAL STREET,A. BONIFACIO ST. - M. ROXAS ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay IV,J. P. RIZAL STREET,S. MILITANTE ST. - M. ROXAS ST.,1700.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay IV,VILLAPANDO STREET,C. M. RECTO ST. - D. FRANCIA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (43),0
+CR,Barangay IV,VILLAPANDO STREET,A. BONIFACIO ST. - D. FRANCIA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (43),0
+CR,Barangay IV,E. ENERO STREET,C. M. RECTO ST. - COCO LAND,1700.0,DO 33-2019,unmatched,Alabat Island (20),0
+CR,Barangay IV,E. ENERO STREET,S. OLIVEROS ST. - COCO LAND,1700.0,DO 33-2019,unmatched,Alabat Island (20),0
+CR,Barangay IV,E. ENERO STREET,S. MILITANTE ST. - COCO LAND,1700.0,DO 33-2019,unmatched,Alabat Island (20),0
+CR,Barangay IV,ARCEO'S PROPERTY,,1700.0,DO 33-2019,unmatched,Alabat Island (15),0
+RR,Barangay IV,VILLAPANDO STREET,U. CAHO ST.- D. FRANCIA ST.,1500.0,DO 33-2019,unmatched,Alabat Island (43),0
+RR,Barangay IV,E. ENERO STREET,U. CAMAHO ST. - COCO LAND,1500.0,DO 33-2019,unmatched,Alabat Island (20),0
+RR,Barangay IV,J. P. RIZAL STREET,U. CAMAHO ST. - C. M. RECTO ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay IV,J. P. RIZAL STREET,S. OLIVEROS ST. - M. ROXAS ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay IV,J. P. RIZAL STREET,A. BONIFACIO ST. - M. ROXAS ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay IV,J. P. RIZAL STREET,S. MILITANTE ST. - M. ROXAS ST.,1300.0,DO 33-2019,unmatched,Alabat Island (27),0
+RR,Barangay IV,VILLAPANDO STREET,C. M. RECTO ST. - D. FRANCIA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (43),0
+RR,Barangay IV,VILLAPANDO STREET,A. BONIFACIO ST. - D. FRANCIA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (43),0
+RR,Barangay IV,E. ENERO STREET,C. M. RECTO ST. - COCO LAND,1300.0,DO 33-2019,unmatched,Alabat Island (20),0
+RR,Barangay IV,E. ENERO STREET,S. OLIVEROS ST. - COCO LAND,1300.0,DO 33-2019,unmatched,Alabat Island (20),0
+RR,Barangay IV,E. ENERO STREET,S. MILITANTE ST. - COCO LAND,1300.0,DO 33-2019,unmatched,Alabat Island (20),0
+RR,Barangay IV,ARCEO'S PROPERTY,,1300.0,DO 33-2019,unmatched,Alabat Island (15),0
+CR,Barangay V,A. MABINI STREET,U. CAMAHO ST. - C. M. RECTO ST.,1700.0,DO 33-2019,segment,A. Mabini Street,100
+CR,Barangay V,A. MABINI STREET,C. M. RECTO ST. - S. OLIVEROS ST.,1700.0,DO 33-2019,segment,A. Mabini Street,100
+RR,Barangay V,A. MABINI STREET,U. CAMAHO ST. - C. M. RECTO ST.,1300.0,DO 33-2019,segment,A. Mabini Street,100
+RR,Barangay V,A. MABINI STREET,C. M. RECTO ST. - S. OLIVEROS ST.,1300.0,DO 33-2019,segment,A. Mabini Street,100
+CR,Barangay V,U. CAMAHO STREET,S. OLIVEROS ST. - BONIFACIO ST.,1900.0,DO 33-2019,street,U. Camacho Street,95.65217391304348
+CR,Barangay V,A. MABINI STREET,U. CAMAHO ST. - COCO LAND,1900.0,DO 33-2019,street,A. Mabini Street,100
+CR,Barangay V,A. MABINI STREET,A. BONIFACIO ST. - SHORELINE,1700.0,DO 33-2019,street,A. Mabini Street,100
+CR,Barangay V,A. MABINI STREET,S. OLIVEROS ST. - SHORELINE,1700.0,DO 33-2019,street,A. Mabini Street,100
+RR,Barangay V,U. CAMAHO STREET,S. OLIVEROS ST. - BONIFACIO ST.,1500.0,DO 33-2019,street,U. Camacho Street,95.65217391304348
+RR,Barangay V,A. MABINI STREET,U. CAMAHO ST. - COCO LAND,1500.0,DO 33-2019,street,A. Mabini Street,100
+RR,Barangay V,A. MABINI STREET,A. BONIFACIO ST. - SHORELINE,1300.0,DO 33-2019,street,A. Mabini Street,100
+RR,Barangay V,A. MABINI STREET,S. OLIVEROS ST. - SHORELINE,1300.0,DO 33-2019,street,A. Mabini Street,100
+CR,Barangay V,ARCEO'S PROPERTY,,1700.0,DO 33-2019,unmatched,Alabat Island (15),0
+RR,Barangay V,ARCEO'S PROPERTY,,1300.0,DO 33-2019,unmatched,Alabat Island (15),0
+CR,Barangay VI,D. FRANCIA STREET,MAGSAYSAY ST. - E. ENERO ST.,1700.0,DO 33-2019,street,D. Francia Street,100
+CR,Barangay VI,D. FRANCIA STREET,E. LIM ST. - E. ENERO ST.,1700.0,DO 33-2019,street,D. Francia Street,100
+CR,Barangay VI,D. FRANCIA STREET,S. MILITANTE ST. - COCO LAND,1700.0,DO 33-2019,street,D. Francia Street,100
+RR,Barangay VI,D. FRANCIA STREET,,1300.0,DO 33-2019,street,D. Francia Street,100
+RR,Barangay VI,D. FRANCIA STREET,MAGSAYSAY ST. - E. ENERO ST.,1300.0,DO 33-2019,street,D. Francia Street,100
+RR,Barangay VI,D. FRANCIA STREET,E. LIM ST. - E. ENERO ST.,1300.0,DO 33-2019,street,D. Francia Street,100
+CR,Barangay VI,VILLAPANDO STREET,S. MILITANTE ST. - D. FRANCIA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (43),0
+CR,Barangay VI,VILLAPANDO STREET,MAGSAYSAY ST. D. FRANCIA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (43),0
+CR,Barangay VI,VILLAPANDO STREET,A. BAYAN ST. - D. FRANCIA ST.,1700.0,DO 33-2019,unmatched,Alabat Island (43),0
+CR,Barangay VI,VILLAPANDO STREET,S. MILITANTE ST. - E. ENERO ST.,1700.0,DO 33-2019,unmatched,Alabat Island (43),0
+CR,Barangay VI,E. ENERO STREET,J. GENCIANA ST. - COCO LAND,1700.0,DO 33-2019,unmatched,Alabat Island (20),0
+CR,Barangay VI,E. ENERO STREET,MAGSAYSAY ST. - COCO LAND,1700.0,DO 33-2019,unmatched,Alabat Island (20),0
+CR,Barangay VI,E. ENERO STREET,E. LIM ST. - COCO LAND,1700.0,DO 33-2019,unmatched,Alabat Island (20),0
+RR,Barangay VI,VILLAPANDO STREET,S. MILITANTE ST. - D. FRANCIA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (43),0
+RR,Barangay VI,VILLAPANDO STREET,MAGSAYSAY ST. D. FRANCIA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (43),0
+RR,Barangay VI,VILLAPANDO STREET,A. BAYAN ST. - D. FRANCIA ST.,1300.0,DO 33-2019,unmatched,Alabat Island (43),0
+RR,Barangay VI,E. ENERO STREET,,1300.0,DO 33-2019,unmatched,Alabat Island (20),0
+RR,Barangay VI,E. ENERO STREET,J. GENCIANA ST. - COCO LAND,1300.0,DO 33-2019,unmatched,Alabat Island (20),0
+RR,Barangay VI,E. ENERO STREET,MAGSAYSAY ST. - COCO LAND,1300.0,DO 33-2019,unmatched,Alabat Island (20),0
+RR,Barangay VI,E. ENERO STREET,E. LIM ST. - COCO LAND,1300.0,DO 33-2019,unmatched,Alabat Island (20),0
+CR,Cagbalogo,ALL LOTS,NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Cagbalogo,ALL LOTS,BRGY. ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Cagbalogo,ALL LOTS,NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Cagbalogo,ALL LOTS,BRGY. ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Cagbalogo,ALL LOTS,INTERIOR,750.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Caridad,ALL LOTS,NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Caridad,ALL LOTS,BRGY. ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Caridad,ALL LOTS,NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Caridad,ALL LOTS,BRGY. ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Caridad,ALL LOTS,INTERIOR,800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Cometa,ALL LOTS,NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Cometa,ALL LOTS,BRGY. ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Cometa,ALL LOTS,NATIONAL ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Cometa,ALL LOTS,BRGY. ROAD,850.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Cometa,ALL LOTS,INTERIOR,750.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Del Pilar,ALL LOTS,BRGY. ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Del Pilar,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Del Pilar,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Guinhawa,ALL LOTS,NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Guinhawa,ALL LOTS,BRGY. ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Guinhawa,ALL LOTS,NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Guinhawa,ALL LOTS,INTERIOR,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Guinhawa,ALL LOTS,BRGY. ROAD,850.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Gumubat,ALL LOTS,BRGY. ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Gumubat,ALL LOTS,INTERIOR,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Gumubat,ALL LOTS,BRGY. ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Gumubat,ALL LOTS,INTERIOR,850.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Magsino,ALL LOTS,NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Magsino,ALL LOTS,BRGY. ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Magsino,ALL LOTS,NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Magsino,ALL LOTS,BRGY. ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Magsino,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Mascariña,ALL LOTS,NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Mascariña,ALL LOTS,BRGY. ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Mascariña,ALL LOTS,NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Mascariña,ALL LOTS,BRGY. ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Mascariña,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Montaña,ALL LOTS,NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Montaña,ALL LOTS,BRGY. ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Montaña,ALL LOTS,NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Montaña,ALL LOTS,BRGY. ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Montaña,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Sabang,ALL LOTS,BRGY. ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Sabang,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Sabang,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Silangan,ALL LOTS,BRGY. ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Silangan,ALL LOTS,BRGY. ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Silangan,ALL LOTS,INTERIOR,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Tagkawa,ALL LOTS,NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Tagkawa,ALL LOTS,BRGY. ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Tagkawa,ALL LOTS,NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Tagkawa,ALL LOTS,BRGY. ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Tagkawa,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Belen,ALL LOTS,BRGY. ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Belen,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Belen,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Francia,ALL LOTS,BRGY. ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Francia,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Francia,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Gomez,ALL LOTS,BRGY. ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Gomez,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Gomez,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Mercedes,ALL LOTS,BRGY. ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Mercedes,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Mercedes,ALL LOTS,INTERIOR,700.0,DO 33-2019,unmatched,Alabat Island (38),0

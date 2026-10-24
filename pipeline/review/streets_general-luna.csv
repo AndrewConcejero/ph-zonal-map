@@ -1,0 +1,142 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Bacong Ibaba,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Bacong Ibaba,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Bacong Ilaya,ALL LOTS,(ALONG NAT'L ROAD),1400.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Bacong Ilaya,ALL LOTS,BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Bacong Ilaya,ALL LOTS,(ALONG NAT'L ROAD),1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Bacong Ilaya,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Barangay 1,RIZAL ST.,,1900.0,DO 33-2019,street,Rizal Street,100
+CR,Barangay 1,GEN. LUCBAN ST,,1800.0,DO 33-2019,street,General Lucban Street,100
+CR,Barangay 1,BURGOS ST.,,1800.0,DO 33-2019,street,Burgos Street,100
+RR,Barangay 1,RIZAL ST.,,1400.0,DO 33-2019,street,Rizal Street,100
+RR,Barangay 1,GEN. LUCBAN ST,,1300.0,DO 33-2019,street,General Lucban Street,100
+RR,Barangay 1,BURGOS ST.,,1300.0,DO 33-2019,street,Burgos Street,100
+CR,Barangay 1,MERCEDES ST,,1800.0,DO 33-2019,unmatched,Luzon (0),0
+CR,Barangay 1,SAPUNGGAN ST,,1800.0,DO 33-2019,unmatched,Luzon (29),0
+RR,Barangay 1,MERCEDES ST,,1300.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Barangay 1,SAPUNGGAN ST,,1300.0,DO 33-2019,unmatched,Luzon (29),0
+CR,Barangay 2,RIZAL ST.,,1900.0,DO 33-2019,street,Rizal Street,100
+CR,Barangay 2,GEN. LUCBAN ST,,1800.0,DO 33-2019,street,General Lucban Street,100
+CR,Barangay 2,VILLAROSA ST.,,1800.0,DO 33-2019,street,Villa Rosa Street,96.0
+CR,Barangay 2,L. GUINTO ST,,1800.0,DO 33-2019,street,L. Guinto Street,100
+CR,Barangay 2,BONIFACIO ST,,1800.0,DO 33-2019,street,Bonifacio Street,100
+CR,Barangay 2,BURGOS ST.,,1800.0,DO 33-2019,street,Burgos Street,100
+RR,Barangay 2,RIZAL ST.,,1400.0,DO 33-2019,street,Rizal Street,100
+RR,Barangay 2,GEN. LUCBAN ST,,1300.0,DO 33-2019,street,General Lucban Street,100
+RR,Barangay 2,VILLAROSA ST.,,1300.0,DO 33-2019,street,Villa Rosa Street,96.0
+RR,Barangay 2,L. GUINTO ST,,1300.0,DO 33-2019,street,L. Guinto Street,100
+RR,Barangay 2,BONIFACIO ST,,1300.0,DO 33-2019,street,Bonifacio Street,100
+RR,Barangay 2,BURGOS ST.,,1300.0,DO 33-2019,street,Burgos Street,100
+RR,Barangay 2,MERCEDES ST,,1400.0,DO 33-2019,unmatched,Luzon (0),0
+CR,Barangay 3,RIZAL ST.,,1900.0,DO 33-2019,street,Rizal Street,100
+CR,Barangay 3,GEN. LUCBAN ST,,1800.0,DO 33-2019,street,General Lucban Street,100
+CR,Barangay 3,VILLAROSA ST.,,1800.0,DO 33-2019,street,Villa Rosa Street,96.0
+CR,Barangay 3,L. GUINTO ST,,1800.0,DO 33-2019,street,L. Guinto Street,100
+CR,Barangay 3,BONIFACIO ST,,1800.0,DO 33-2019,street,Bonifacio Street,100
+CR,Barangay 3,BURGOS ST.,,1800.0,DO 33-2019,street,Burgos Street,100
+RR,Barangay 3,RIZAL ST.,,1400.0,DO 33-2019,street,Rizal Street,100
+RR,Barangay 3,GEN. LUCBAN ST,,1300.0,DO 33-2019,street,General Lucban Street,100
+RR,Barangay 3,VILLAROSA ST.,,1300.0,DO 33-2019,street,Villa Rosa Street,96.0
+RR,Barangay 3,L. GUINTO ST,,1300.0,DO 33-2019,street,L. Guinto Street,100
+RR,Barangay 3,BONIFACIO ST,,1300.0,DO 33-2019,street,Bonifacio Street,100
+RR,Barangay 3,BONIFACIO ST,INTERIOR LOTS,1300.0,DO 33-2019,street,Bonifacio Street,100
+RR,Barangay 3,BURGOS ST.,,1300.0,DO 33-2019,street,Burgos Street,100
+CR,Barangay 3,MANUEL L. QUEZON ST.,,1800.0,DO 33-2019,unmatched,Luzon (50),0
+RR,Barangay 3,MANUEL L. QUEZON ST.,,1300.0,DO 33-2019,unmatched,Luzon (50),0
+CR,Barangay 4,PEREZ ST,ALONG PROV'L ROADALONG PROV'L ROAD,2000.0,DO 33-2019,street,Perez Street,100
+CR,Barangay 4,RIZAL ST.,,1900.0,DO 33-2019,street,Rizal Street,100
+CR,Barangay 4,GEN. LUCBAN ST,,1800.0,DO 33-2019,street,General Lucban Street,100
+CR,Barangay 4,L. GUINTO ST,,1800.0,DO 33-2019,street,L. Guinto Street,100
+RR,Barangay 4,PEREZ ST,ALONG PROV'L ROADALONG PROV'L ROAD,1500.0,DO 33-2019,street,Perez Street,100
+RR,Barangay 4,RIZAL ST.,,1400.0,DO 33-2019,street,Rizal Street,100
+RR,Barangay 4,GEN. LUCBAN ST,,1300.0,DO 33-2019,street,General Lucban Street,100
+RR,Barangay 4,L. GUINTO ST,,1300.0,DO 33-2019,street,L. Guinto Street,100
+CR,Barangay 4,MANUEL L. QUEZON ST.,,1800.0,DO 33-2019,unmatched,Luzon (50),0
+RR,Barangay 4,MANUEL L. QUEZON ST.,,1300.0,DO 33-2019,unmatched,Luzon (50),0
+CR,Barangay 5,PEREZ ST,ALONG PROV'L ROADALONG PROV'L ROAD,2000.0,DO 33-2019,street,Perez Street,100
+CR,Barangay 5,RIZAL ST.,,1900.0,DO 33-2019,street,Rizal Street,100
+CR,Barangay 5,VILLAROSA ST.,,1800.0,DO 33-2019,street,Villa Rosa Street,96.0
+CR,Barangay 5,JACINTO ST,,1800.0,DO 33-2019,street,Jacinto Street,100
+RR,Barangay 5,PEREZ ST,ALONG PROV'L ROADALONG PROV'L ROAD,1500.0,DO 33-2019,street,Perez Street,100
+RR,Barangay 5,RIZAL ST.,,1400.0,DO 33-2019,street,Rizal Street,100
+RR,Barangay 5,VILLAROSA ST.,,1300.0,DO 33-2019,street,Villa Rosa Street,96.0
+RR,Barangay 5,MABINI ST,,1300.0,DO 33-2019,street,Mabini Street,100
+RR,Barangay 5,JACINTO ST,,1300.0,DO 33-2019,street,Jacinto Street,100
+RR,Barangay 5,MABINI ST. EXTENSION,,1300.0,DO 33-2019,unmatched,Luzon (19),0
+CR,Barangay 6,PEREZ ST,ALONG PROV'L ROADALONG PROV'L ROAD,2000.0,DO 33-2019,street,Perez Street,100
+CR,Barangay 6,RIZAL ST.,,1900.0,DO 33-2019,street,Rizal Street,100
+CR,Barangay 6,GEN. LUCBAN ST,,1800.0,DO 33-2019,street,General Lucban Street,100
+CR,Barangay 6,VILLAROSA ST.,,1800.0,DO 33-2019,street,Villa Rosa Street,96.0
+CR,Barangay 6,HELEN ST,,1800.0,DO 33-2019,street,Helen Street,100
+CR,Barangay 6,JACINTO ST,,1800.0,DO 33-2019,street,Jacinto Street,100
+RR,Barangay 6,PEREZ ST,ALONG PROV'L ROADALONG PROV'L ROAD,1500.0,DO 33-2019,street,Perez Street,100
+RR,Barangay 6,RIZAL ST.,,1400.0,DO 33-2019,street,Rizal Street,100
+RR,Barangay 6,GEN. LUCBAN ST,,1300.0,DO 33-2019,street,General Lucban Street,100
+RR,Barangay 6,VILLAROSA ST.,,1300.0,DO 33-2019,street,Villa Rosa Street,96.0
+RR,Barangay 6,HELEN ST,,1300.0,DO 33-2019,street,Helen Street,100
+RR,Barangay 6,MABINI ST,,1300.0,DO 33-2019,street,Mabini Street,100
+RR,Barangay 6,JACINTO ST,,1300.0,DO 33-2019,street,Jacinto Street,100
+CR,Barangay 7,PEREZ ST,ALONG PROV'L ROADALONG PROV'L ROAD,2000.0,DO 33-2019,street,Perez Street,100
+CR,Barangay 7,JACINTO ST,,1800.0,DO 33-2019,street,Jacinto Street,100
+RR,Barangay 7,PEREZ ST,ALONG PROV'L ROADALONG PROV'L ROAD,1500.0,DO 33-2019,street,Perez Street,100
+RR,Barangay 7,JACINTO ST,,1300.0,DO 33-2019,street,Jacinto Street,100
+CR,Barangay 7,RIZAL ST.,,1900.0,DO 33-2019,unmatched,Luzon (20),0
+RR,Barangay 7,RIZAL ST.,,1400.0,DO 33-2019,unmatched,Luzon (20),0
+CR,Barangay 8,RIZAL ST.,,1900.0,DO 33-2019,street,Rizal Street,100
+CR,Barangay 8,GEN. LUCBAN ST,,1800.0,DO 33-2019,street,General Lucban Street,100
+CR,Barangay 8,VILLAROSA ST.,,1800.0,DO 33-2019,street,Villa Rosa Street,96.0
+RR,Barangay 8,RIZAL ST.,,1400.0,DO 33-2019,street,Rizal Street,100
+RR,Barangay 8,VERCELOS ST.,,1400.0,DO 33-2019,street,Vercelos Street,100
+RR,Barangay 8,GEN. LUCBAN ST,,1300.0,DO 33-2019,street,General Lucban Street,100
+RR,Barangay 8,VILLAROSA ST.,,1300.0,DO 33-2019,street,Villa Rosa Street,96.0
+CR,Barangay 9,RIZAL ST.,,1900.0,DO 33-2019,street,Rizal Street,100
+CR,Barangay 9,GEN. LUCBAN ST,,1800.0,DO 33-2019,street,General Lucban Street,100
+CR,Barangay 9,VILLAROSA ST.,,1800.0,DO 33-2019,street,Villa Rosa Street,96.0
+CR,Barangay 9,VERCELOS ST,,1800.0,DO 33-2019,street,Vercelos Street,100
+RR,Barangay 9,RIZAL ST.,,1400.0,DO 33-2019,street,Rizal Street,100
+RR,Barangay 9,MABINI ST,,1400.0,DO 33-2019,street,Mabini Street,100
+RR,Barangay 9,GEN. LUCBAN ST,,1300.0,DO 33-2019,street,General Lucban Street,100
+RR,Barangay 9,VILLAROSA ST.,,1300.0,DO 33-2019,street,Villa Rosa Street,96.0
+RR,Barangay 9,VERCELOS ST,,1300.0,DO 33-2019,street,Vercelos Street,100
+CR,Lavides,ALL LOTS,BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Lavides,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Magsaysay,ALL LOTS,BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Magsaysay,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Malaya,ALL LOTS,ALONG NATL. ROAD,1400.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Malaya,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Malaya,ALL LOTS,ALONG NATL. ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Malaya,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Nieva,ALL LOTS,BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Nieva,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Recto,ALL LOTS,BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Recto,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Ignacio Ibaba,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Ignacio Ibaba,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Ignacio Ibaba,ALL LOTS,ALONG NATIONAL ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Ignacio Ibaba,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Ignacio Ilaya,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Ignacio Ilaya,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Isidro Ibaba,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Isidro Ibaba,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Isidro Ilaya,ALL LOTS,ALONG NATIONAL ROAD,1800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Isidro Ilaya,ALL LOTS,ALONG NATIONAL ROAD,1300.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Isidro Ilaya,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Isidro Ilaya,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Jose,ALL LOTS,ALONG NATIONAL ROAD,1800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Jose,ALL LOTS,ALONG NATIONAL ROAD,1300.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Jose,ALL LOTS,ALONG BRGY. ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Jose,ALL LOTS,ALONG BRGY. ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Nicolas,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Nicolas,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Vicente,ALL LOTS,ALONG NATIONAL ROAD,1800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Vicente,ALL LOTS,ALONG NATIONAL ROAD,1300.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Vicente,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Vicente,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Santa Maria Ibaba,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Santa Maria Ibaba,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Santa Maria Ilaya,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Santa Maria Ilaya,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Sumilang,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Sumilang,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Villarica,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Villarica,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0

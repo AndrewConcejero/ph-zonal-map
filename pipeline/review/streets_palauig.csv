@@ -1,0 +1,89 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Alwa,NATIONAL ROAD,,2500.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Alwa,NATIONAL ROAD,,1500.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Alwa,ALL LOTS,INTERIOR,1000.0,DO 19-2022,unmatched,Luzon (31),0
+CR,Bato,NATIONAL ROAD,,2000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Bato,NATIONAL ROAD,,1000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Bato,ALL LOTS,INTERIOR LOTS,700.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Bulawen,ALL LOTS,ALONG BARANGAY ROAD,800.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Bulawen,ALL LOTS,INTERIOR LOTS,500.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Cauyan,ALL LOTS,ALONG BARANGAY ROAD,800.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Cauyan,ALL LOTS,INTERIOR LOTS,500.0,DO 19-2022,unmatched,Luzon (31),0
+CR,East Poblacion,ALL OTHER STREETS,,285.0,DO 48-2007,background,,0
+RR,East Poblacion,ALL OTHER STREETS,,175.0,DO 48-2007,background,,0
+RR,East Poblacion,ARANA ST,DELA ROSA ST.- RIZAL ST.,215.0,DO 48-2007,street,Araña Street,100
+RR,East Poblacion,MENDOZA ST,LESACA ST. - PROVINCIAL ROAD,215.0,DO 48-2007,street,Mendoza Street,100
+RR,East Poblacion,AGLIPAY ST,LESACA ST. - P. SANTOS ST.,200.0,DO 48-2007,street,Aglipay Street,100
+RR,East Poblacion,AGLIPAY ST,BOUNDARY LINE - LESACA ST.,175.0,DO 48-2007,street,Aglipay Street,100
+RR,East Poblacion,TUAZON ST,BOUNDARY LINE - MONATO ST.,175.0,DO 48-2007,street,Tuazon Street,100
+CR,East Poblacion,ARABEJO ST,PROVINCIAL ROAD - TANTE ST.,300.0,DO 48-2007,unmatched,Luzon (17),0
+CR,East Poblacion,DECANO ST,MUNICIPAL BLDG.,300.0,DO 48-2007,unmatched,Luzon (18),0
+CR,East Poblacion,PROVINCIAL ROAD,STO.TOMAS BDRY-CATH. CEM.,300.0,DO 48-2007,unmatched,Luzon (27),0
+CR,East Poblacion,ROAD TO SUBIC,PROVINCIAL ROAD - LESACA ST.,250.0,DO 48-2007,unmatched,Luzon (31),0
+RR,East Poblacion,CARIAGA ST,MUNICIPAL BLDG.,215.0,DO 48-2007,unmatched,Luzon (0),0
+RR,East Poblacion,DECANO ST,MUNICIPAL BLDG.,215.0,DO 48-2007,unmatched,Luzon (18),0
+RR,East Poblacion,DELA ROSA ST,TUAZON ST. - TANTE ST.,215.0,DO 48-2007,unmatched,Luzon (29),0
+RR,East Poblacion,DELA ROSA ST,TANTE ST. - MENDOZA ST.,215.0,DO 48-2007,unmatched,Luzon (29),0
+RR,East Poblacion,LESACA ST,TANTE ST. - TUAZON ST.,215.0,DO 48-2007,unmatched,Luzon (18),0
+RR,East Poblacion,MONATO ST,LIBABA BOUNDARY- TANTE ST.,215.0,DO 48-2007,unmatched,Luzon (36),0
+RR,East Poblacion,P. SANTOS ST,TUAZON ST. - TANTE ST.,215.0,DO 48-2007,unmatched,Luzon (17),0
+RR,East Poblacion,P. SANTOS ST,ARANA ST.- MENDOZA ST.,215.0,DO 48-2007,unmatched,Luzon (17),0
+RR,East Poblacion,PROVINCIAL ROAD,STO.TOMAS BDRY-CATH. CEM.,215.0,DO 48-2007,unmatched,Luzon (27),0
+RR,East Poblacion,RIZAL ST,TUAZON ST. - MENDOZA ST.,215.0,DO 48-2007,unmatched,Luzon (20),0
+RR,East Poblacion,TANTE ST,LESACA ST. - P. SANTOS ST.,215.0,DO 48-2007,unmatched,Luzon (20),0
+RR,East Poblacion,LESACA ST,MENDOZA ST. - ROAD TO SUBIC,175.0,DO 48-2007,unmatched,Luzon (18),0
+RR,East Poblacion,ROAD TO SUBIC,PROVINCIAL ROAD - LESACA ST.,175.0,DO 48-2007,unmatched,Luzon (31),0
+RR,East Poblacion,TANTE ST,BOUNDARY - LESACA ST.,175.0,DO 48-2007,unmatched,Luzon (20),0
+RR,Garreta,ALL LOTS,ALONG BARANGAY ROAD,1000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Garreta,ALL LOTS,INTERIOR LOTS,700.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Libaba,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Libaba,ALL LOTS,INTERIOR,1000.0,DO 19-2022,unmatched,Luzon (31),0
+CR,Liozon,ALL LOTS,,2000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Liozon,ALL LOTS,,1500.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Liozon,ALL LOTS,INTERIOR LOTS,1000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Lipay,ALL LOTS,AONG BRGY ROAD,1000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Lipay,ALL LOTS,INTERIOR LOTS,500.0,DO 19-2022,unmatched,Luzon (31),0
+CR,Locloc,NATIONAL ROAD,,2000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Locloc,NATIONAL ROAD,,1000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Locloc,ALL LOTS,,700.0,DO 19-2022,unmatched,Luzon (31),0
+CR,Macarang,NATIONAL ROAD,,2500.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Macarang,NATIONAL ROAD,,1500.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Macarang,ALL LOTS,INTERIOR,1000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Magalawa,ALL LOTS,,700.0,DO 19-2022,unmatched,,0
+CR,Pangolingan,OLONGAPO-BUGALLON ROAD,BOUNDARY OF BRGY. DAMPAY- MUNICIPALITY OF MASINLOC,2000.0,DO 19-2022,unmatched,Luzon (36),0
+RR,Pangolingan,OLONGAPO-BUGALLON ROAD,BOUNDARY OF BRGY. DAMPAY- MUNICIPALITY OF MASINLOC,1500.0,DO 19-2022,unmatched,Luzon (36),0
+RR,Pangolingan,ALL LOTS,INTERIOR,1000.0,DO 19-2022,unmatched,Luzon (31),0
+CR,Salaza,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 19-2022,unmatched,Luzon (31),0
+I,Salaza,ALL LOTS,INTERIOR,2000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Salaza,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Salaza,ALL LOTS,INTERIOR,1000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,San Juan,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,San Juan,ALL LOTS,INTERIOR,1000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Sto. Niño,ALL LOTS,ALONG BARANGAY ROAD,1000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Sto. Niño,ALL LOTS,INTERIOR LOTS,700.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Sto. Tomas,ALL LOTS,,700.0,DO 19-2022,unmatched,Luzon (31),0
+RR,West Poblacion,ALL OTHER STREETS,,1500.0,DO 19-2022,background,,0
+CR,West Poblacion,ARABEJO ST,AMUNGAN-PALAUIG-BANLOG ROAD - TANTE ST.,3000.0,DO 19-2022,street,Arabejo Street,100
+RR,West Poblacion,AGLIPAY ST,LESACA ST. -PEDRO SANTOS ST.,2000.0,DO 19-2022,street,Aglipay Street,100
+RR,West Poblacion,AGLIPAY ST,BOUNDARY LINE - LESACA ST.,2000.0,DO 19-2022,street,Aglipay Street,100
+RR,West Poblacion,ARANA ST,DELA ROSA ST.- RIZAL ST.,2000.0,DO 19-2022,street,Araña Street,100
+RR,West Poblacion,MENDOZA ST,LESACA ST. -BOUNDARY OF BRGY. SANTO TOMAS & LIBABA,2000.0,DO 19-2022,street,Mendoza Street,100
+RR,West Poblacion,MENDOZA ST,LESACA ST. - PROVINCIAL ROAD,2000.0,DO 19-2022,street,Mendoza Street,100
+RR,West Poblacion,TUAZON ST,BOUNDARY LINE - MONATO ST.,2000.0,DO 19-2022,street,Tuazon Street,100
+CR,West Poblacion,NATIONAL ROAD,STO.TOMAS BDRY-CATH. CEM.,3000.0,DO 19-2022,unmatched,Luzon (31),0
+CR,West Poblacion,ROAD TO SUBIC,NATIONAL ROAD - LESACA ST.,3000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,West Poblacion,NATIONAL ROAD,STO.TOMAS BDRY-CATH. CEM.,2000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,West Poblacion,CARIAGA ST,MUNICIPAL BLDG.,2000.0,DO 19-2022,unmatched,Luzon (0),0
+RR,West Poblacion,DECANO ST,MUNICIPAL BLDG.,2000.0,DO 19-2022,unmatched,Luzon (18),0
+RR,West Poblacion,DELA ROSA ST,TUAZON ST. - TANTE ST.,2000.0,DO 19-2022,unmatched,Luzon (29),0
+RR,West Poblacion,DELA ROSA ST,TANTE ST. - MENDOZA ST.,2000.0,DO 19-2022,unmatched,Luzon (29),0
+RR,West Poblacion,LESACA ST,MENDOZA ST.-TANTE ST.,2000.0,DO 19-2022,unmatched,Luzon (18),0
+RR,West Poblacion,LESACA ST,TANTE ST. - TUAZON ST.,2000.0,DO 19-2022,unmatched,Luzon (18),0
+RR,West Poblacion,LESACA ST,MENDOZA ST. - ROAD TO SUBIC,2000.0,DO 19-2022,unmatched,Luzon (18),0
+RR,West Poblacion,MONATO ST,LIBABA BOUNDARY- TANTE ST.,2000.0,DO 19-2022,unmatched,Luzon (36),0
+RR,West Poblacion,P. SANTOS ST,TUAZON ST. - TANTE ST.,2000.0,DO 19-2022,unmatched,Luzon (17),0
+RR,West Poblacion,P. SANTOS ST,ARANA ST.- MENDOZA ST.,2000.0,DO 19-2022,unmatched,Luzon (17),0
+RR,West Poblacion,RIZAL ST,TUAZON ST. - MENDOZA ST.,2000.0,DO 19-2022,unmatched,Luzon (20),0
+RR,West Poblacion,ROAD TO SUBIC,NATIONAL ROAD - LESACA ST.,2000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,West Poblacion,TANTE ST,BOUNDARY - LESACA ST.,2000.0,DO 19-2022,unmatched,Luzon (20),0
+RR,West Poblacion,TANTE ST,LESACA ST. - P. SANTOS ST.,2000.0,DO 19-2022,unmatched,Luzon (20),0

@@ -69,6 +69,12 @@ Rizal,Rodriguez,Macabud,300,350,350,6500,bir,DO 6-2023,typical is 1/19 of the ci
 Rizal,Rodriguez,Mascap,600,600,600,6500,bir,DO 6-2023,typical is 1/11 of the city median
 Rizal,Rodriguez,Puray,325,350,338,6500,bir,DO 6-2023,typical is 1/19 of the city median
 Rizal,Rodriguez,San Isidro,325,7000,350,6500,bir,DO 6-2023,max is 22x min; prime value is probably one road or development; typical is 1/19 of the city median
+Pampanga,Floridablanca,Basa Air Base,500,800,650,2812,bir,DO 26-2017,typical is 1/4 of the city median; value is from DO 26-2017 (2017) but Floridablanca has a 2024 schedule; its block in the newer DO did not match (renamed barangay?)
+Pampanga,Mexico,Masangsang,1000,4500,2050,3000,bir,DO 26-2017,value is from DO 26-2017 (2017) but Mexico has a 2024 schedule; its block in the newer DO did not match (renamed barangay?)
+Pampanga,Porac,Dolores,1300,26200,20400,1950,bir,DO 56-2022,max is 20x min; prime value is probably one road or development; typical is 10.5x the city median
+Pampanga,San Fernando,Santo Rosario,1500,8000,4500,5750,bir,DO 26-2017,value is from DO 26-2017 (2017) but San Fernando has a 2024 schedule; its block in the newer DO did not match (renamed barangay?)
+Pampanga,San Simon,Santa Monica,2600,8350,6900,1588,bir,DO 4-2024,typical is 4.3x the city median
+Pampanga,Santo Tomas,Moras De La Paz,1050,2700,1300,2362,bir,DO 26-2017,value is from DO 26-2017 (2017) but Santo Tomas has a 2024 schedule; its block in the newer DO did not match (renamed barangay?)
 Batangas,Balayan,Barangay 11,2800,7300,4900,1000,bir,DO 35-2022,typical is 4.9x the city median
 Batangas,Balayan,Barangay 12,2800,13800,5350,1000,bir,DO 35-2022,typical is 5.3x the city median
 Batangas,Balayan,Barangay 2,3000,7500,4250,1000,bir,DO 35-2022,typical is 4.2x the city median
@@ -157,3 +163,55 @@ Batangas,Tanauan,Sulpoc,800,12000,10000,2450,bir,DO 34-2022,max is 15x min; prim
 Batangas,Tanauan,Suplang,1000,10000,10000,2450,bir,DO 34-2022,typical is 4.1x the city median
 Batangas,Taysan,Poblacion East,1200,2500,1900,400,bir,DO 34-2022,typical is 4.8x the city median
 Batangas,Taysan,Poblacion West,1200,2500,1900,400,bir,DO 34-2022,typical is 4.8x the city median
+Zambales,Palauig,East Poblacion,175,215,215,850,bir,DO 48-2007,value is from DO 48-2007 (2008) but Palauig has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
+Quezon,Atimonan,Barangay Zone 4,4250,11500,7250,1750,bir,DO 37-2022,typical is 4.1x the city median
+Quezon,Calauag,Barangay I,650,7500,3000,500,bir,DO 33-2019,typical is 6.0x the city median
+Quezon,Calauag,Barangay II,1000,9000,6500,500,bir,DO 33-2019,typical is 13.0x the city median
+Quezon,Calauag,Barangay III,1250,7000,3438,500,bir,DO 33-2019,typical is 6.9x the city median
+Quezon,Calauag,Barangay IV,1000,9000,3000,500,bir,DO 33-2019,typical is 6.0x the city median
+Quezon,Calauag,Barangay V,2100,2100,2100,500,bir,DO 31-1999,typical is 4.2x the city median; value is from DO 31-1999 (2000) but Calauag has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
+Quezon,Calauag,Sabang I,1500,5000,3250,500,bir,DO 33-2019,typical is 6.5x the city median
+Quezon,Calauag,Sabang II,3000,3000,3000,500,bir,DO 33-2019,typical is 6.0x the city median
+Quezon,Calauag,Santa Maria,3000,10000,4750,500,bir,DO 33-2019,typical is 9.5x the city median
+Quezon,Candelaria,Poblacion,1500,26000,4500,925,bir,DO 13-2020,max is 17x min; prime value is probably one road or development; typical is 4.9x the city median
+Quezon,Dolores,Antonino,225,225,225,575,bir,DO 16-2010,value is from DO 16-2010 (2010) but Dolores has a 2020 schedule; its block in the newer DO did not match (renamed barangay?)
+Quezon,Guinayangan,Cabong Sur,305,545,425,475,bir,DO 31-2010,value is from DO 31-2010 (2010) but Guinayangan has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
+Quezon,Guinayangan,Poblacion,900,2900,2250,475,bir,DO 37-2022,typical is 4.7x the city median
+Quezon,Lopez,Burgos,2000,10000,4000,500,bir,DO 33-2019,typical is 8.0x the city median
+Quezon,Lopez,Gomez,2000,10750,6500,500,bir,DO 33-2019,typical is 13.0x the city median
+Quezon,Lopez,Magsaysay,2000,10000,3000,500,bir,DO 33-2019,typical is 6.0x the city median
+Quezon,Lopez,Talolong,2000,10000,5500,500,bir,DO 33-2019,typical is 11.0x the city median
+Quezon,Lopez,Bebito,300,3500,2125,500,bir,DO 33-2019,typical is 4.2x the city median
+Quezon,Lopez,Bocboc,80,875,500,500,bir,DO 47-2007,value is from DO 47-2007 (2008) but Lopez has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
+Quezon,Lopez,Danlagan,300,5000,2000,500,bir,DO 33-2019,max is 17x min; prime value is probably one road or development
+Quezon,Lopez,Mandoog,76,130,103,500,bir,DO 47-2007,typical is 1/5 of the city median; value is from DO 47-2007 (2008) but Lopez has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
+Quezon,Lopez,Rizal,55,7500,2000,500,bir,DO 47-2007,max is 136x min; prime value is probably one road or development; value is from DO 47-2007 (2008) but Lopez has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
+Quezon,Lucban,Barangay 8,5000,8500,7500,1500,bir,DO 13-2020,typical is 5.0x the city median
+Quezon,Lucban,Barangay 10,5000,8000,6500,1500,bir,DO 13-2020,typical is 4.3x the city median
+Quezon,Mauban,Rizaliana,500,1300,1300,300,bir,DO 13-2020,typical is 4.3x the city median
+Quezon,Perez,Sangirin,550,700,625,1200,bir,DO 31-2010,value is from DO 31-2010 (2010) but Perez has a 2019 schedule; its block in the newer DO did not match (renamed barangay?)
+Quezon,Real,Poblacion I,800,2750,1700,410,bir,DO 13-2020,typical is 4.1x the city median
+Quezon,Real,Poblacion 61,800,2750,1700,410,bir,DO 13-2020,typical is 4.1x the city median
+Quezon,San Andres,Tala,25,1000,512,650,bir,DO 33-2019,max is 40x min; prime value is probably one road or development
+Quezon,San Andres,Talisay,25,1000,512,650,bir,DO 33-2019,max is 40x min; prime value is probably one road or development
+Quezon,Tayabas,Angeles Zone I,5000,7000,6000,1000,bir,DO 13-2020,typical is 6.0x the city median
+Quezon,Tayabas,Angeles Zone II,5000,7000,6000,1000,bir,DO 13-2020,typical is 6.0x the city median
+Quezon,Tayabas,Angeles Zone III,5000,7800,6000,1000,bir,DO 13-2020,typical is 6.0x the city median
+Quezon,Tayabas,Angeles Zone IV,5000,7800,6000,1000,bir,DO 13-2020,typical is 6.0x the city median
+Quezon,Tayabas,Angustias Zone I,4000,6000,4500,1000,bir,DO 13-2020,typical is 4.5x the city median
+Quezon,Tayabas,Angustias Zone II,4000,6000,4500,1000,bir,DO 13-2020,typical is 4.5x the city median
+Quezon,Tayabas,Angustias Zone III,4000,6000,4500,1000,bir,DO 13-2020,typical is 4.5x the city median
+Quezon,Tayabas,Angustias Zone IV,4000,6000,4500,1000,bir,DO 13-2020,typical is 4.5x the city median
+Quezon,Tayabas,San Diego Zone I,5000,7000,6000,1000,bir,DO 13-2020,typical is 6.0x the city median
+Quezon,Tayabas,San Diego Zone II,5000,7000,6000,1000,bir,DO 13-2020,typical is 6.0x the city median
+Quezon,Tayabas,San Diego Zone III,5000,7000,6000,1000,bir,DO 13-2020,typical is 6.0x the city median
+Quezon,Tayabas,San Diego Zone IV,5000,7000,6000,1000,bir,DO 13-2020,typical is 6.0x the city median
+Quezon,Tayabas,San Isidro Zone I,4000,4500,4500,1000,bir,DO 13-2020,typical is 4.5x the city median
+Quezon,Tayabas,San Isidro Zone II,4000,4500,4500,1000,bir,DO 13-2020,typical is 4.5x the city median
+Quezon,Tayabas,San Isidro Zone III,4000,4500,4500,1000,bir,DO 13-2020,typical is 4.5x the city median
+Quezon,Tayabas,San Isidro Zone IV,4000,4500,4500,1000,bir,DO 13-2020,typical is 4.5x the city median
+Quezon,Tayabas,San Roque Zone I,4500,7000,5500,1000,bir,DO 13-2020,typical is 5.5x the city median
+Quezon,Tayabas,San Roque Zone II,4500,7000,5500,1000,bir,DO 13-2020,typical is 5.5x the city median
+Pampanga,Angeles,Cuayan,1350,9000,1750,7531,bir,DO 56-2022,typical is 1/4 of the city median
+Pampanga,Angeles,Malabañas,1750,75000,10250,7531,bir,DO 56-2022,max is 43x min; prime value is probably one road or development
+Quezon,Lucena,Barra,300,400,350,2000,bir,DO 13-2020,typical is 1/6 of the city median

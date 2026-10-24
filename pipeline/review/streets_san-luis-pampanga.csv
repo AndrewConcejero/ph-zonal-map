@@ -1,0 +1,182 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,San Agustin,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,San Agustin,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,San Agustin,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,San Agustin,ALL LOTS,ALONG BARANGAY ROAD,1700.0,DO 4-2024,unmatched,,0
+I,San Agustin,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,,0
+RR,San Agustin,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,,0
+CR,San Carlos,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,San Carlos,ALL OTHER LOTS,INTERIOR LOTS,1300.0,DO 4-2024,background,,0
+RR,San Carlos,ALL OTHER LOTS,INTERIOR LOTS,1100.0,DO 4-2024,background,,0
+CR,San Carlos,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Mexico (14),0
+I,San Carlos,ALL LOTS,ALONG BARANGAY ROAD,1600.0,DO 4-2024,unmatched,Mexico (14),0
+RR,San Carlos,ALL LOTS,ALONG BARANGAY ROAD,1400.0,DO 4-2024,unmatched,Mexico (14),0
+CR,San Isidro,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,San Isidro,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,San Isidro,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,San Isidro,ALL LOTS,PROV. RD-SAN LUIS-BALIWAG RD,2800.0,DO 4-2024,unmatched,,0
+I,San Isidro,ALL LOTS,PROV. RD-SAN LUIS-BALIWAG RD,2000.0,DO 4-2024,unmatched,,0
+RR,San Isidro,ALL LOTS,PROV. RD-SAN LUIS-BALIWAG RD,1800.0,DO 4-2024,unmatched,,0
+CR,San Isidro,ALL LOTS,ALONG BARANGAY ROAD,1800.0,DO 4-2024,unmatched,,0
+I,San Isidro,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,,0
+RR,San Isidro,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,,0
+RR,San Isidro,MALIGAYA/PASUMBALAS,,1200.0,DO 4-2024,unmatched,,0
+RR,San Isidro,BEBE,,1200.0,DO 4-2024,unmatched,,0
+RR,San Isidro,SAGUINAN,,1200.0,DO 4-2024,unmatched,,0
+RR,San Isidro,BICAL,,1200.0,DO 4-2024,unmatched,,0
+RR,San Isidro,PALIGUE,,1200.0,DO 4-2024,unmatched,,0
+RR,San Isidro,LAMINO,,1200.0,DO 4-2024,unmatched,,0
+RR,San Isidro,ILOG A METUNG,,1200.0,DO 4-2024,unmatched,,0
+RR,San Isidro,BARRIO CAVITE,,1200.0,DO 4-2024,unmatched,,0
+RR,San Isidro,KAMIAS,,1200.0,DO 4-2024,unmatched,,0
+RR,San Isidro,PASUK,,1200.0,DO 4-2024,unmatched,,0
+CR,San Jose,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,San Jose,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,San Jose,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,San Jose,ALL LOTS,ALONG BARANGAY ROAD,1900.0,DO 4-2024,unmatched,Santo Niño (33),0
+I,San Jose,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,Santo Niño (33),0
+RR,San Jose,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Santo Niño (33),0
+RR,San Jose,MUSNI,,1200.0,DO 4-2024,unmatched,Santo Niño (40),0
+RR,San Jose,RIVERSIDE 1,,1200.0,DO 4-2024,unmatched,Talipapa (0),0
+RR,San Jose,PULONG CANLAS,,1200.0,DO 4-2024,unmatched,Talipapa (40),0
+RR,San Jose,MIRANDA,,1200.0,DO 4-2024,unmatched,Talipapa (40),0
+RR,San Jose,MANENA,,1200.0,DO 4-2024,unmatched,Santo Niño (38),0
+RR,San Jose,PROPER,,1200.0,DO 4-2024,unmatched,Talipapa (29),0
+RR,San Jose,PASUK,,1200.0,DO 4-2024,unmatched,Talipapa (31),0
+RR,San Jose,MANGGAHAN,,1200.0,DO 4-2024,unmatched,Talipapa (35),0
+RR,San Jose,TABON,,1200.0,DO 4-2024,unmatched,Santo Niño (40),0
+RR,San Jose,TELAPAYONG,,1200.0,DO 4-2024,unmatched,Talipapa (56),0
+RR,San Jose,PULONG SALAS,,1200.0,DO 4-2024,unmatched,Santo Niño (38),0
+RR,San Jose,ATBANG BANA,,1200.0,DO 4-2024,unmatched,Talipapa (42),0
+RR,San Jose,HAWAII,,1200.0,DO 4-2024,unmatched,Talipapa (29),0
+RR,San Jose,TABING PATUBIG,,1200.0,DO 4-2024,unmatched,Talipapa (45),0
+RR,San Jose,BITUKANG MANOK,,1200.0,DO 4-2024,unmatched,Santo Niño (50),0
+CR,San Juan,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,San Juan,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,San Juan,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,San Juan,ALL LOTS,ALONG BARANGAY ROAD,1700.0,DO 4-2024,unmatched,,0
+I,San Juan,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,,0
+RR,San Juan,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,,0
+RR,San Juan,SITIO MATIQUE,,1200.0,DO 4-2024,unmatched,,0
+RR,San Juan,PAG-ASA,,1200.0,DO 4-2024,unmatched,,0
+RR,San Juan,MASUNURIN,,1200.0,DO 4-2024,unmatched,,0
+RR,San Juan,GITNANG NAYON,,1200.0,DO 4-2024,unmatched,,0
+RR,San Juan,PAMAGSIKAP,,1200.0,DO 4-2024,unmatched,,0
+RR,San Juan,BAGONG SIKAT,,1200.0,DO 4-2024,unmatched,,0
+RR,San Juan,SAPANG PARI,,1200.0,DO 4-2024,unmatched,,0
+RR,San Juan,VALENCIA,,1200.0,DO 4-2024,unmatched,,0
+RR,San Juan,MATALUSTUS,,1200.0,DO 4-2024,unmatched,,0
+CR,San Nicolas,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,San Nicolas,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,San Nicolas,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,San Nicolas,ALL LOTS,ALONG BARANGAY ROAD,1700.0,DO 4-2024,unmatched,,0
+I,San Nicolas,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,,0
+RR,San Nicolas,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,,0
+CR,San Roque,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,San Roque,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,San Roque,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,San Roque,ALL LOTS,ALONG BARANGAY ROAD,1900.0,DO 4-2024,unmatched,Santo Niño (33),0
+I,San Roque,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,Santo Niño (33),0
+RR,San Roque,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Santo Niño (33),0
+RR,San Roque,PULONG MANANKIL,,1200.0,DO 4-2024,unmatched,Santo Niño (32),0
+RR,San Roque,LABAK,,1200.0,DO 4-2024,unmatched,Santo Niño (13),0
+RR,San Roque,BAGONG SIKAT,,1200.0,DO 4-2024,unmatched,Santo Niño (45),0
+RR,San Roque,PULONG SALAS,,1200.0,DO 4-2024,unmatched,Santo Niño (38),0
+RR,San Roque,PASUK,,1200.0,DO 4-2024,unmatched,Santo Niño (13),0
+CR,San Sebastian,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,San Sebastian,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,San Sebastian,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,San Sebastian,ALL LOTS,PROV. RD-SAN LUIS-MEXICO RD,2800.0,DO 4-2024,unmatched,,0
+I,San Sebastian,ALL LOTS,PROV. RD-SAN LUIS-MEXICO RD,2500.0,DO 4-2024,unmatched,,0
+RR,San Sebastian,ALL LOTS,PROV. RD-SAN LUIS-MEXICO RD,2000.0,DO 4-2024,unmatched,,0
+CR,San Sebastian,ALL LOTS,ALONG BARANGAY ROAD,1800.0,DO 4-2024,unmatched,,0
+I,San Sebastian,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,,0
+RR,San Sebastian,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,,0
+CR,Santa Catalina,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,Santa Catalina,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,Santa Catalina,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,Santa Catalina,ALL LOTS,ALONG BARANGAY ROAD,1700.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Santa Catalina,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Santa Catalina,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Santa Ana (35),0
+CR,Santa Cruz Pambilog,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,Santa Cruz Pambilog,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,Santa Cruz Pambilog,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,Santa Cruz Pambilog,ALL LOTS,ALONG BARANGAY ROAD,1700.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Santa Cruz Pambilog,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Santa Cruz Pambilog,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Santa Cruz Pambilog,ARABIA,,1200.0,DO 4-2024,unmatched,Santa Ana (40),0
+RR,Santa Cruz Pambilog,PUGAD LAWIN,,1200.0,DO 4-2024,unmatched,Santa Ana (40),0
+RR,Santa Cruz Pambilog,CENTRO,,1200.0,DO 4-2024,unmatched,Santa Ana (27),0
+I,Santa Cruz Poblacion,ALL OTHER LOTS,INTERIOR LOTS,1600.0,DO 4-2024,background,,0
+RR,Santa Cruz Poblacion,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,Santa Cruz Poblacion,F. CARLOS ST.,,2000.0,DO 4-2024,street,F. Carlos Street,100
+RR,Santa Cruz Poblacion,P. LEUTERIO ST.,,2000.0,DO 4-2024,street,P. Leuterio Street,100
+CR,Santa Cruz Poblacion,ALL LOTS,ALONG BARANGAY ROAD,3600.0,DO 4-2024,unmatched,,0
+I,Santa Cruz Poblacion,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+RR,Santa Cruz Poblacion,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+RR,Santa Cruz Poblacion,V. TRINIDAD ST.,,2000.0,DO 4-2024,unmatched,,0
+RR,Santa Cruz Poblacion,CHURCH ST.,,2000.0,DO 4-2024,unmatched,,0
+RR,Santa Cruz Poblacion,MSGR. SALAS ST.,,2000.0,DO 4-2024,unmatched,,0
+RR,Santa Cruz Poblacion,JOSE SAGUM ST.,,2000.0,DO 4-2024,unmatched,,0
+RR,Santa Cruz Poblacion,F. CLARIN ST.,,2000.0,DO 4-2024,unmatched,,0
+CR,Santa Lucia,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,Santa Lucia,ALL OTHER LOTS,INTERIOR LOTS,1300.0,DO 4-2024,background,,0
+RR,Santa Lucia,ALL OTHER LOTS,INTERIOR LOTS,1100.0,DO 4-2024,background,,0
+CR,Santa Lucia,ALL LOTS,PROV. RD-SAN LUIS-MEXICO RD,4000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Santa Lucia,ALL LOTS,PROV. RD-SAN LUIS-MEXICO RD,3500.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Santa Lucia,ALL LOTS,PROV. RD-SAN LUIS-MEXICO RD,2800.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Santa Lucia,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Mexico (14),0
+I,Santa Lucia,ALL LOTS,ALONG BARANGAY ROAD,1600.0,DO 4-2024,unmatched,Mexico (14),0
+RR,Santa Lucia,ALL LOTS,ALONG BARANGAY ROAD,1400.0,DO 4-2024,unmatched,Mexico (14),0
+CR,Santa Monica,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,Santa Monica,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,Santa Monica,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,Santa Monica,ALL LOTS,PROV. RD-SAN LUIS-BALIWAG RD,2800.0,DO 4-2024,unmatched,,0
+I,Santa Monica,ALL LOTS,PROV. RD-SAN LUIS-BALIWAG RD,2000.0,DO 4-2024,unmatched,,0
+RR,Santa Monica,ALL LOTS,PROV. RD-SAN LUIS-BALIWAG RD,1800.0,DO 4-2024,unmatched,,0
+CR,Santa Monica,ALL LOTS,ALONG BARANGAY ROAD,1800.0,DO 4-2024,unmatched,,0
+I,Santa Monica,PINAK,,1500.0,DO 4-2024,unmatched,,0
+RR,Santa Monica,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,,0
+RR,Santa Monica,BAGONG LIPUNAN,,1200.0,DO 4-2024,unmatched,,0
+RR,Santa Monica,TAGULOD,,1200.0,DO 4-2024,unmatched,,0
+RR,Santa Monica,CANIUPAN,,1200.0,DO 4-2024,unmatched,,0
+RR,Santa Monica,PINAK,,1200.0,DO 4-2024,unmatched,,0
+CR,Santa Rita,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,Santa Rita,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,Santa Rita,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,Santa Rita,ALL LOTS,ALONG BARANGAY ROAD,1700.0,DO 4-2024,unmatched,,0
+I,Santa Rita,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,,0
+RR,Santa Rita,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,,0
+CR,Santo Niño,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,Santo Niño,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,Santo Niño,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,Santo Niño,ALL LOTS,ALONG BARANGAY ROAD,1900.0,DO 4-2024,unmatched,Santo Niño (33),0
+I,Santo Niño,ALL LOTS,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,Santo Niño (33),0
+RR,Santo Niño,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Santo Niño (33),0
+CR,Santo Rosario,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+I,Santo Rosario,ALL OTHER LOTS,INTERIOR LOTS,1250.0,DO 4-2024,background,,0
+RR,Santo Rosario,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,Santo Rosario,ALL LOTS,ALONG BARANGAY ROAD,1800.0,DO 4-2024,unmatched,Santa Ana (35),0
+I,Santo Rosario,PALIGUI,,1500.0,DO 4-2024,unmatched,Mexico (15),0
+RR,Santo Rosario,ALL LOTS,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Santa Ana (35),0
+RR,Santo Rosario,PANGAILAN,,1200.0,DO 4-2024,unmatched,Santa Ana (56),0
+RR,Santo Rosario,BANA 1,,1200.0,DO 4-2024,unmatched,Santa Ana (0),0
+RR,Santo Rosario,BANA 2,,1200.0,DO 4-2024,unmatched,Santa Ana (0),0
+RR,Santo Rosario,WAKAS,,1200.0,DO 4-2024,unmatched,Santa Ana (31),0
+RR,Santo Rosario,MALIPATONG,,1200.0,DO 4-2024,unmatched,Mexico (38),0
+RR,Santo Rosario,PALIGUI,,1200.0,DO 4-2024,unmatched,Mexico (15),0
+CR,Santo Tomas,ALL OTHER LOTS,INTERIOR LOTS,3000.0,DO 4-2024,background,,0
+I,Santo Tomas,ALL OTHER LOTS,INTERIOR LOTS,2500.0,DO 4-2024,background,,0
+RR,Santo Tomas,ALL OTHER LOTS,INTERIOR LOTS,1500.0,DO 4-2024,background,,0
+CR,Santo Tomas,ALL LOTS,PROV. RD-SAN LUIS-MEXICO RD,4000.0,DO 4-2024,unmatched,,0
+I,Santo Tomas,ALL LOTS,PROV. RD-SAN LUIS-MEXICO RD,3500.0,DO 4-2024,unmatched,,0
+CR,Santo Tomas,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,,0
+I,Santo Tomas,LUNA ST.,,3000.0,DO 4-2024,unmatched,,0
+RR,Santo Tomas,ALL LOTS,PROV. RD-SAN LUIS-MEXICO RD,2800.0,DO 4-2024,unmatched,,0
+RR,Santo Tomas,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+RR,Santo Tomas,BURGOS ST.,,2000.0,DO 4-2024,unmatched,,0
+RR,Santo Tomas,LEUTERO ST.,,2000.0,DO 4-2024,unmatched,,0
+RR,Santo Tomas,BONIFACIO ST.,,2000.0,DO 4-2024,unmatched,,0
+RR,Santo Tomas,ZAMORA ST.,,2000.0,DO 4-2024,unmatched,,0
+RR,Santo Tomas,MORIONES ST.,,2000.0,DO 4-2024,unmatched,,0
+RR,Santo Tomas,LUNA ST.,,2000.0,DO 4-2024,unmatched,,0

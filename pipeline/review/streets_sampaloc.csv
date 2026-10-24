@@ -1,0 +1,55 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Alupay,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+RR,Alupay,ALL LOTS,,310.0,DO 13-2020,unmatched,,0
+CR,Apasan,ALL LOTS,,390.0,DO 13-2020,unmatched,,0
+RR,Apasan,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+CR,Banot,ALL LOTS,,450.0,DO 13-2020,unmatched,,0
+RR,Banot,ALL LOTS,,360.0,DO 13-2020,unmatched,,0
+CR,Bataan,ALL LOTS,,450.0,DO 13-2020,unmatched,,0
+RR,Bataan,ALL LOTS,,360.0,DO 13-2020,unmatched,,0
+CR,Bayongon,GREENHILLS SUBDIVISION,,460.0,DO 13-2020,unmatched,,0
+RR,Bayongon,GREENHILLS SUBDIVISION,,390.0,DO 13-2020,unmatched,,0
+RR,Bayongon,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+CR,Bilucao,ALL LOTS,,450.0,DO 13-2020,unmatched,,0
+RR,Bilucao,ALL LOTS,,350.0,DO 13-2020,unmatched,,0
+CR,Caldong,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+RR,Caldong,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+CR,Ibabang Owain,ALL LOTS,,450.0,DO 13-2020,unmatched,,0
+RR,Ibabang Owain,ALL LOTS,,390.0,DO 13-2020,unmatched,,0
+CR,Ilayang Owain,ALL LOTS,,450.0,DO 13-2020,unmatched,,0
+RR,Ilayang Owain,ALL LOTS,,390.0,DO 13-2020,unmatched,,0
+CR,Mamala,ALL LOTS,,450.0,DO 13-2020,unmatched,,0
+RR,Mamala,ALL LOTS,,360.0,DO 13-2020,unmatched,,0
+CR,San Bueno,ALL LOTS,,450.0,DO 13-2020,unmatched,,0
+RR,San Bueno,ALL LOTS,,350.0,DO 13-2020,unmatched,,0
+CR,San Isidro,ALL OTHER STREETS,,900.0,DO 13-2020,background,,0
+RR,San Isidro,ALL OTHER STREETS,,400.0,DO 13-2020,background,,0
+RR,San Isidro,ALL OTHER STREETS,INTERIOR,300.0,DO 13-2020,background,,0
+CR,San Isidro,CADELINA ST.,,1100.0,DO 13-2020,street,Cadeliña Street,100
+CR,San Isidro,GAGAN ST.,,1100.0,DO 13-2020,street,Gagan Street,100
+CR,San Isidro,ABUEVA ST.,,1000.0,DO 13-2020,street,Abueva Street,100
+CR,San Isidro,DEJELO ST.,,1000.0,DO 13-2020,street,L. Dejelo Street,90.0
+CR,San Isidro,OBNAMIA ST.,,1000.0,DO 13-2020,street,Obnamia Street,100
+CR,San Isidro,TUMAGAY ST.,,1000.0,DO 13-2020,street,N. Tumagay Street,90.9090909090909
+RR,San Isidro,CADELINA ST.,,550.0,DO 13-2020,street,Cadeliña Street,100
+RR,San Isidro,GAGAN ST.,,550.0,DO 13-2020,street,Gagan Street,100
+RR,San Isidro,ABUEVA ST.,,450.0,DO 13-2020,street,Abueva Street,100
+RR,San Isidro,DEJELO ST.,,450.0,DO 13-2020,street,L. Dejelo Street,90.0
+RR,San Isidro,OBNAMIA ST.,,450.0,DO 13-2020,street,Obnamia Street,100
+RR,San Isidro,TUMAGAY ST.,,450.0,DO 13-2020,street,N. Tumagay Street,90.9090909090909
+CR,San Isidro,ABCEDE ST.,,1100.0,DO 13-2020,unmatched,,0
+CR,San Isidro,QUEZON AVE.,,1000.0,DO 13-2020,unmatched,,0
+RR,San Isidro,ABCEDE ST.,,550.0,DO 13-2020,unmatched,,0
+RR,San Isidro,QUEZON AVE.,,450.0,DO 13-2020,unmatched,,0
+CR,San Roque,ABEJA ST.,,1000.0,DO 13-2020,street,Abeja Street,100
+CR,San Roque,DAYO ST.,,1000.0,DO 13-2020,street,Dayo Street,100
+CR,San Roque,DEJELO ST.,,1000.0,DO 13-2020,street,L. Dejelo Street,90.0
+CR,San Roque,DORNEO ST.,,950.0,DO 13-2020,street,Dorneo,97
+RR,San Roque,DORNEO ST.,,500.0,DO 13-2020,street,Dorneo,97
+RR,San Roque,ABEJA ST.,,450.0,DO 13-2020,street,Abeja Street,100
+RR,San Roque,DAYO ST.,,450.0,DO 13-2020,street,Dayo Street,100
+RR,San Roque,DEJELO ST.,,450.0,DO 13-2020,street,L. Dejelo Street,90.0
+CR,San Roque,AGUINALDO ST.,,1000.0,DO 13-2020,unmatched,,0
+RR,San Roque,AGUINALDO ST.,,450.0,DO 13-2020,unmatched,,0
+CR,Taquico,ALL LOTS,,450.0,DO 13-2020,unmatched,,0
+RR,Taquico,ALL LOTS,,350.0,DO 13-2020,unmatched,,0

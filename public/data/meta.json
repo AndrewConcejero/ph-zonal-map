@@ -1,11 +1,16 @@
 {
-  "built_at": "2026-10-24T06:25:19+00:00",
+  "built_at": "2026-10-24T22:58:28+00:00",
   "current_year": 2026,
   "value_basis": "BIR residential zonal value (class RR, land), PHP per sqm",
   "adjusted_available": true,
-  "adjusted_to": "2026-10-24",
+  "adjusted_to": "2026-10-25",
   "adjusted_note": "Projected from each schedule's effectivity date with its RDO's median annual growth between consecutive revisions, measured on the same streets.",
   "growth": {
+    "RDO-018": {
+      "rate": 0.1614,
+      "source": "rdo",
+      "pairs": 730
+    },
     "RDO-024": {
       "rate": 0.1019,
       "source": "rdo",
@@ -132,9 +137,9 @@
       "pairs": 389
     },
     "RDO-056": {
-      "rate": 0.0782,
+      "rate": 0.078,
       "source": "rdo",
-      "pairs": 746
+      "pairs": 749
     },
     "RDO-057": {
       "rate": 0.1538,
@@ -150,6 +155,26 @@
       "rate": 0.1051,
       "source": "rdo",
       "pairs": 786
+    },
+    "RDO-060": {
+      "rate": 0.0866,
+      "source": "rdo",
+      "pairs": 904
+    },
+    "RDO-061": {
+      "rate": 0.0594,
+      "source": "rdo",
+      "pairs": 368
+    },
+    "RDO-21A": {
+      "rate": 0.172,
+      "source": "rdo",
+      "pairs": 654
+    },
+    "RDO-21B": {
+      "rate": 0.1287,
+      "source": "rdo",
+      "pairs": 1047
     },
     "RDO-25A": {
       "rate": 0.0817,
@@ -183,17 +208,17 @@
     }
   },
   "schedule_range": [
-    "2002-12-28",
+    "2000-02-21",
     "2024-07-04"
   ],
   "sources_as_of": [
     {
       "name": "BIR zonal value schedules (Department Orders)",
       "as_of": [
-        "2002-12-28",
+        "2000-02-21",
         "2024-07-04"
       ],
-      "note": "effectivity dates of the 41 Department Orders in use, from 35 Revenue District Offices",
+      "note": "effectivity dates of the 53 Department Orders in use, from 40 Revenue District Offices",
       "url": "https://www.bir.gov.ph"
     },
     {
@@ -256,18 +281,16 @@
     }
   ],
   "coverage": {
-    "features": 5544,
+    "features": 7032,
     "by_flag": {
-      "barangay_data": 4824,
-      "estimated": 162,
-      "city_median": 25,
-      "no_data": 533
+      "barangay_data": 6809,
+      "estimated": 199,
+      "city_median": 24
     },
     "by_source": {
-      "barangay_data/bir": 4824,
-      "estimated": 162,
-      "city_median/bir": 25,
-      "no_data": 533
+      "barangay_data/bir": 6809,
+      "estimated": 199,
+      "city_median/bir": 24
     },
     "by_province": {
       "Metro Manila": {
@@ -284,27 +307,36 @@
         "estimated": 10
       },
       "Laguna": {
-        "barangay_data": 628,
-        "estimated": 49,
+        "barangay_data": 629,
+        "estimated": 48,
         "city_median": 1
       },
       "Rizal": {
         "barangay_data": 173,
-        "estimated": 10,
-        "city_median": 1
+        "estimated": 11
       },
       "Pampanga": {
-        "no_data": 533
+        "barangay_data": 511,
+        "estimated": 22
       },
       "Batangas": {
         "barangay_data": 1061,
         "estimated": 14
+      },
+      "Zambales": {
+        "barangay_data": 243,
+        "estimated": 4
+      },
+      "Quezon": {
+        "barangay_data": 1230,
+        "estimated": 11
       }
     }
   },
   "bir": {
-    "department_orders_used": 41,
+    "department_orders_used": 53,
     "rdos": [
+      "RDO-018",
       "RDO-024",
       "RDO-026",
       "RDO-027",
@@ -334,6 +366,10 @@
       "RDO-057",
       "RDO-058",
       "RDO-059",
+      "RDO-060",
+      "RDO-061",
+      "RDO-21A",
+      "RDO-21B",
       "RDO-25A",
       "RDO-25B",
       "RDO-53A",
@@ -341,7 +377,7 @@
       "RDO-54A",
       "RDO-54B"
     ],
-    "rows_parsed": 296458
+    "rows_parsed": 352663
   },
   "sources": [
     {

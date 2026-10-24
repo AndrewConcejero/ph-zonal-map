@@ -1,0 +1,115 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+RR,Amontay,ALL LOTS,Brgy Road,1000.0,DO 37-2022,unmatched,Pag-asa (40),0
+RR,Anos,ALL LOTS,Brgy Road,1000.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Buyao,ALL LOTS,Brgy Road,1150.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Calantas,ALL LOTS,ALONG NATIONAL ROAD,2500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Calantas,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Calantas,ALL LOTS,INTERIOR LOTS,1500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Calantas,ALL LOTS,INTERIOR LOTS,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Candangal,ALL LOTS,BRGY ROAD,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Castillo,A.L. Tarray St,Jp Rizal St. - Bonifacio St,2400.0,DO 37-2022,segment,L. L. Tarray Street,92.3076923076923
+RR,Castillo,A.L. Tarray St,Jp Rizal St. - Bonifacio St,1600.0,DO 37-2022,segment,L. L. Tarray Street,92.3076923076923
+CR,Castillo,J. P. Rizal St.,Pescadores St. to Tarray St.,2400.0,DO 37-2022,street,J. P. Rizal Street,100
+RR,Castillo,J. C. NIEVA ST.,Pescadores St. to Tarray St.,1600.0,DO 37-2022,street,J. C. Nieva Street,100
+RR,Castillo,J. P. Rizal St.,Pescadores St. to Tarray St.,1600.0,DO 37-2022,street,J. P. Rizal Street,100
+RR,Castillo,PESCADORES ST.,Jp Rizal St.,1600.0,DO 37-2022,street,Pescadores Street,100
+RR,Castillo,A. Bonifacio St.,Unas St. to Tarray St.,1600.0,DO 37-2022,street,Bonifacio Street,92.3076923076923
+CR,Castillo,E. UNAS ST,Jp Rizal St. - Bonifacio St,2400.0,DO 37-2022,unmatched,Pag-asa (46),0
+RR,Castillo,E. UNAS ST,Jp Rizal St. - Bonifacio St,1600.0,DO 37-2022,unmatched,Pag-asa (46),0
+CR,Damayan,"LA PURISIMA ST.,",Penalosa St.,2750.0,DO 37-2022,street,La Purisima Street,100
+CR,Damayan,PENALOSA ST.,Provincial Road,2750.0,DO 37-2022,street,F. Peñalosa Street,91.66666666666666
+CR,Damayan,S.H. Gimenez St,Penalosa St.,2750.0,DO 37-2022,street,S. H. Gimenez Sr. Street,90.32258064516128
+RR,Damayan,"LA PURISIMA ST.,",Penalosa St.,2150.0,DO 37-2022,street,La Purisima Street,100
+RR,Damayan,PENALOSA ST.,Provincial Road,2150.0,DO 37-2022,street,F. Peñalosa Street,91.66666666666666
+RR,Damayan,S.H. Gimenez St,Penalosa St.,2150.0,DO 37-2022,street,S. H. Gimenez Sr. Street,90.32258064516128
+RR,Lahing,ALL LOTS,Interior Brgy,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Luctob,ALL LOTS,TOWNSITE,1750.0,DO 37-2022,unmatched,Pag-asa (40),0
+RR,Mabini Ibaba,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Mabini Ilaya,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Malabahay,ALL LOTS,,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Mambog,ALL LOTS,,900.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Masipag,LA PURISIMA ST.,Quezon St. to Penalosa St.,3250.0,DO 37-2022,street,La Purisima Street,100
+CR,Masipag,Penalosa St.,Purisima St. to Gimenez St.,2750.0,DO 37-2022,street,F. Peñalosa Street,91.66666666666666
+RR,Masipag,LA PURISIMA ST.,Quezon St. to Penalosa St.,2500.0,DO 37-2022,street,La Purisima Street,100
+RR,Masipag,Penalosa St.,Purisima St. to Gimenez St.,2150.0,DO 37-2022,street,F. Peñalosa Street,91.66666666666666
+CR,Masipag,S. H. GIMENEZ,Quezon St. to Penalosa St.,2750.0,DO 37-2022,unmatched,Barangay Rodriguez (28),0
+CR,Masipag,R. R. CATRROJA,Quezon St. to Carmona St.,2750.0,DO 37-2022,unmatched,Barangay Castillo (41),0
+CR,Masipag,TARRAY ST,Quezon St. to Carmona St.,2750.0,DO 37-2022,unmatched,Damayan (46),0
+CR,Masipag,Quezon St,Purisima St. to Pescadores St.,2750.0,DO 37-2022,unmatched,Luzon (73),0
+CR,Masipag,Carmona St.,Purisima St. to Tarray St.,2750.0,DO 37-2022,unmatched,Damayan (43),0
+RR,Masipag,S. H. GIMENEZ,Quezon St. to Penalosa St.,2150.0,DO 37-2022,unmatched,Barangay Rodriguez (28),0
+RR,Masipag,R. R. CATRROJA,Quezon St. to Carmona St.,2150.0,DO 37-2022,unmatched,Barangay Castillo (41),0
+RR,Masipag,TARRAY ST,Quezon St. to Carmona St.,2150.0,DO 37-2022,unmatched,Damayan (46),0
+RR,Masipag,Quezon St,Purisima St. to Pescadores St.,2150.0,DO 37-2022,unmatched,Luzon (73),0
+RR,Masipag,Carmona St.,Purisima St. to Tarray St.,2150.0,DO 37-2022,unmatched,Damayan (43),0
+CR,Masipag,Rodriguez St.,Purisima St. to Tarray St.,2750.0,DO 37-2022,village,Barangay Rodriguez,95
+RR,Masipag,Rodriguez St.,Purisima St. to Tarray St.,2150.0,DO 37-2022,village,Barangay Rodriguez,95
+RR,Olongtao Ibaba,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Olongtao Ibaba,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Olongtao Ilaya,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Padre Herrera,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Pag-Asa,J P Rizal St.,Pescadores St. to Purisima St.,2750.0,DO 37-2022,street,J. P. Rizal Street,100
+CR,Pag-Asa,S.H. Gimenez St,Rizal To Rodriguez St,2750.0,DO 37-2022,street,S. H. Gimenez Sr. Street,90.32258064516128
+CR,Pag-Asa,Unas St.,Rizal St. to Quezon St.,2750.0,DO 37-2022,street,Uñas Street,100
+RR,Pag-Asa,J P Rizal St.,Pescadores St. to Purisima St.,2150.0,DO 37-2022,street,J. P. Rizal Street,100
+RR,Pag-Asa,S.H. Gimenez St,Rizal To Rodriguez St,2150.0,DO 37-2022,street,S. H. Gimenez Sr. Street,90.32258064516128
+RR,Pag-Asa,Unas St.,Rizal St. to Quezon St.,2150.0,DO 37-2022,street,Uñas Street,100
+CR,Pag-Asa,Quezon St.,Pescadores St. to Purisima St.,3250.0,DO 37-2022,unmatched,Luzon (73),0
+CR,Pag-Asa,F. T. Rodriguez,Tarray St. to Purisima St.,3250.0,DO 37-2022,unmatched,Barangay Rodriguez (65),0
+CR,Pag-Asa,Purisima St,Rizal To Rodriguez St,3250.0,DO 37-2022,unmatched,Masipag (40),0
+CR,Pag-Asa,R.R. Catarroja,Rizal To Rodriguez St,2750.0,DO 37-2022,unmatched,Barangay Castillo (40),0
+CR,Pag-Asa,Tarray St,Rizal To Rodriguez St,2750.0,DO 37-2022,unmatched,Damayan (46),0
+RR,Pag-Asa,Quezon St.,Pescadores St. to Purisima St.,2500.0,DO 37-2022,unmatched,Luzon (73),0
+RR,Pag-Asa,F. T. Rodriguez,Tarray St. to Purisima St.,2500.0,DO 37-2022,unmatched,Barangay Rodriguez (65),0
+RR,Pag-Asa,Purisima St,Rizal To Rodriguez St,2500.0,DO 37-2022,unmatched,Masipag (40),0
+RR,Pag-Asa,R.R. Catarroja,Rizal To Rodriguez St,2150.0,DO 37-2022,unmatched,Barangay Castillo (40),0
+RR,Pag-Asa,Tarray St,Rizal To Rodriguez St,2150.0,DO 37-2022,unmatched,Damayan (46),0
+RR,Pajarillo,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Pinagbayanan,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Rizal,Bonifacio St,Tarray St. to Pandeno st.,2750.0,DO 37-2022,street,Bonifacio Street,100
+CR,Rizal,S. H. Gimenez St.,Bonifacio St to Rizal St.,2750.0,DO 37-2022,street,S. H. Gimenez Sr. Street,90.32258064516128
+CR,Rizal,L.A. Purisima St.,Bonifacio St to Rizal St.,2750.0,DO 37-2022,street,La Purisima Street,96.55172413793103
+CR,Rizal,Pajarillo St.,Bonifacio St to Rizal St.,2750.0,DO 37-2022,street,R. Pajarillo Street,92.3076923076923
+CR,Rizal,Pandeno St.,Bonifacio St to Rizal St.,2750.0,DO 37-2022,street,D. Pandeno Street,90.9090909090909
+RR,Rizal,Bonifacio St,Tarray St. to Pandeno st.,2150.0,DO 37-2022,street,Bonifacio Street,100
+RR,Rizal,S. H. Gimenez St.,Bonifacio St to Rizal St.,2150.0,DO 37-2022,street,S. H. Gimenez Sr. Street,90.32258064516128
+RR,Rizal,L.A. Purisima St.,Bonifacio St to Rizal St.,2150.0,DO 37-2022,street,La Purisima Street,96.55172413793103
+RR,Rizal,Pajarillo St.,Bonifacio St to Rizal St.,2150.0,DO 37-2022,street,R. Pajarillo Street,92.3076923076923
+RR,Rizal,Pandeno St.,Bonifacio St to Rizal St.,2150.0,DO 37-2022,street,D. Pandeno Street,90.9090909090909
+CR,Rizal,Nieva St.,Tarray St. to Pandeno st.,2750.0,DO 37-2022,unmatched,Masipag (33),0
+CR,Rizal,Rizal St.,Tarray St. to Municipal Hall,2750.0,DO 37-2022,unmatched,Barangay Rizal (53),0
+CR,Rizal,Tarry St.,Bonifacio St to Rizal St.,2750.0,DO 37-2022,unmatched,Damayan (33),0
+CR,Rizal,CatarRoja St.,Bonifacio St to Rizal St.,2750.0,DO 37-2022,unmatched,Pag-asa (38),0
+CR,Rizal,P. Rodriguez St.,Municipal Hall and,2750.0,DO 37-2022,unmatched,Barangay Rodriguez (69),0
+RR,Rizal,Nieva St.,Tarray St. to Pandeno st.,2150.0,DO 37-2022,unmatched,Masipag (33),0
+RR,Rizal,Rizal St.,Tarray St. to Municipal Hall,2150.0,DO 37-2022,unmatched,Barangay Rizal (53),0
+RR,Rizal,Tarry St.,Bonifacio St to Rizal St.,2150.0,DO 37-2022,unmatched,Damayan (33),0
+RR,Rizal,CatarRoja St.,Bonifacio St to Rizal St.,2150.0,DO 37-2022,unmatched,Pag-asa (38),0
+RR,Rizal,P. Rodriguez St.,Elementary School,1600.0,DO 37-2022,unmatched,Barangay Rodriguez (69),0
+CR,Rodriquez,Pajarillo St,Quezon St - Dela Cruz St.,2750.0,DO 37-2022,street,R. Pajarillo Street,92.3076923076923
+RR,Rodriquez,Pajarillo St,Quezon St - Dela Cruz St.,2150.0,DO 37-2022,street,R. Pajarillo Street,92.3076923076923
+CR,Rodriquez,Purisima St.,Quezon St - Rodriguez St.,3250.0,DO 37-2022,unmatched,Masipag (40),0
+CR,Rodriquez,Padeno St.,Quezon St - Dela Cruz St.,2750.0,DO 37-2022,unmatched,Masipag (31),0
+CR,Rodriquez,P.T. Rodriguez St.,Quezon St - Dela Cruz St.,2750.0,DO 37-2022,unmatched,Barangay Rodriguez (65),0
+CR,Rodriquez,Quezon St.,Purisima St. to Dela Cruz St.,2750.0,DO 37-2022,unmatched,Luzon (73),0
+CR,Rodriquez,Quezon St.,Pajarillo St. to Dela Cruz St.,2750.0,DO 37-2022,unmatched,Luzon (73),0
+CR,Rodriquez,F.T. Rodriguez St.,Purisima St. to Pajarillo St.,2750.0,DO 37-2022,unmatched,Barangay Rodriguez (65),0
+CR,Rodriquez,Carmona St.,Purisima St. to Roman Catholic Church,2750.0,DO 37-2022,unmatched,Damayan (43),0
+RR,Rodriquez,Purisima St.,Quezon St - Rodriguez St.,2500.0,DO 37-2022,unmatched,Masipag (40),0
+RR,Rodriquez,Padeno St.,Quezon St - Dela Cruz St.,2150.0,DO 37-2022,unmatched,Masipag (31),0
+RR,Rodriquez,P.T. Rodriguez St.,Quezon St - Dela Cruz St.,2150.0,DO 37-2022,unmatched,Barangay Rodriguez (65),0
+RR,Rodriquez,Quezon St.,Purisima St. to Dela Cruz St.,2150.0,DO 37-2022,unmatched,Luzon (73),0
+RR,Rodriquez,Quezon St.,Pajarillo St. to Dela Cruz St.,2150.0,DO 37-2022,unmatched,Luzon (73),0
+RR,Rodriquez,F.T. Rodriguez St.,Purisima St. to Pajarillo St.,2150.0,DO 37-2022,unmatched,Barangay Rodriguez (65),0
+RR,Rodriquez,Carmona St.,Purisima St. to Roman Catholic Church,2150.0,DO 37-2022,unmatched,Damayan (43),0
+RR,Rodriquez,"DELA CRUZ ST., TO P. BURGOS ST.",NEW MUNICIPAL COVERED COURT AND CONVENTION CENTER,1250.0,DO 37-2022,unmatched,Barangay Castillo (43),0
+RR,Rodriquez,"P.T. RODRIGUEZ ST., DELA CRUZ ST.,",ROMAN CATHOLIC CHURCH,1250.0,DO 37-2022,unmatched,Barangay Rodriguez (59),0
+RR,San Isidro,ALL LOTS,,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Jose,ALL LOTS,,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Nicolas,ALL LOTS,,1050.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Vicente,ALL LOTS,,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Taguin,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Taguin,ALL LOTS,INTERIOR LOTS,1350.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tubigan Ibaba,ALL LOTS,,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tubigan Ilaya,ALL LOTS,,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Vista Hermosa,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0

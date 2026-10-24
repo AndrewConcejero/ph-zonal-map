@@ -1,0 +1,193 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Balas,ALL LOTS,BARANGAY ROAD,1900.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Balas,ALL LOTS,BARANGAY ROAD,1600.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Balas,ALL LOTS,BARANGAY ROAD,1250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Balas,ALL LOTS,INTERIOR LOTS,1150.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Balas,ALL LOTS,INTERIOR LOTS,950.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabalantian,ALL LOTS,ALONG JASA ROAD,10000.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabalantian,ALL LOTS,ALONG JASA ROAD,8000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabalantian,ALL LOTS,MAC ARTHUR HIWAY,7500.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabalantian,SPLENDAROSA SUBD.,ALONG MAC ARTHUR,7500.0,DO 4-2024,unmatched,Splendorable Subdivision (70),0
+I,Cabalantian,ALL LOTS,MAC ARTHUR HIWAY,6750.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabalantian,ALL LOTS,MAC ARTHUR HIWAY,6000.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabalantian,WESTVILLE,,6000.0,DO 4-2024,unmatched,Splendorable Subdivision (38),0
+RR,Cabalantian,DON BOSCO VILLAGE SUBD,ALONG MAC ARTHUR,6000.0,DO 4-2024,unmatched,Bacolor (50),0
+CR,Cabalantian,ALL LOTS,BARANGAY ROAD,4250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Cabalantian,ALL LOTS,BARANGAY ROAD,3850.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabalantian,SITIO BANLIC,ALONG BARANGAY ROAD,3550.0,DO 4-2024,unmatched,Santa Lucia (43),0
+RR,Cabalantian,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Cabalantian,SITIO BANLIC,ALONG BARANGAY ROAD,3350.0,DO 4-2024,unmatched,Santa Lucia (43),0
+RR,Cabalantian,SITIO BANLIC,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Santa Lucia (43),0
+I,Cabalantian,SITIO BANLIC,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Santa Lucia (43),0
+RR,Cabalantian,SITIO BANLIC,INTERIOR LOTS,1500.0,DO 4-2024,unmatched,Santa Lucia (43),0
+RR,Cabalantian,CASA REAL SOLANA,ALONG JASA ROAD,8500.0,DO 4-2024,village,Solana Casa Real,95
+RR,Cabalantian,LA TIERRA SOLANA,SITIO BANLIC,8250.0,DO 4-2024,village,La Tierra Solana,100
+RR,Cabalantian,LA HACIENDA SUBD.,ALONG MAC ARTHUR,7000.0,DO 4-2024,village,La Hacienda,100
+CR,Cabambangan,,MAC ARTHUR HIWAY,10000.0,DO 4-2024,unmatched,Bacolor (0),0
+CR,Cabambangan,,DON HONORIO VENTURA STREET,8000.0,DO 4-2024,unmatched,Bacolor (0),0
+RR,Cabambangan,,MAC ARTHUR HIWAY,7000.0,DO 4-2024,unmatched,Bacolor (0),0
+CR,Cabambangan,ALL LOTS,DON CEFERINO JOVEN STREET,6750.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabambangan,ALL LOTS,DON MARIANO BUYSON STREET,6500.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabambangan,ALL LOTS,DON CEFERINO ST.,6500.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabambangan,ALL LOTS,CALLE LIRAG SERRANO,6500.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabambangan,ALL LOTS,DON MARIANO ALIMURONG STREET,6500.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,,DON HONORIO VENTURA STREET,6000.0,DO 4-2024,unmatched,Bacolor (0),0
+CR,Cabambangan,ALL LOTS,DONA ANTERA JOVEN DE VALDEZ ST.,5500.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabambangan,ALL LOTS,DON JOSE DE LEON STREET,5000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabambangan,ALL LOTS,MC KINLEY STREET,5000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabambangan,ALL LOTS,WEST TRAMO STREET,5000.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,DON CEFERINO JOVEN STREET,4500.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabambangan,ALL LOTS,BARANGAY ROAD,4500.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,DON MARIANO BUYSON STREET,4250.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,DON CEFERINO ST.,4250.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,CALLE LIRAG SERRANO,4250.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,DON MARIANO ALIMURONG STREET,4250.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,DONA ANTERA JOVEN DE VALDEZ ST.,4250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Cabambangan,ALL LOTS,BARANGAY ROAD,4200.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,DON JOSE DE LEON STREET,3750.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,MC KINLEY STREET,3750.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,WEST TRAMO STREET,3750.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,BARANGAY ROAD,3750.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabambangan,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Cabambangan,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Cabambangan,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Cabetican,ALL LOTS,JOSE ABAD SANTOS AVENUE( O.G. ROAD),12500.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+I,Cabetican,ALL LOTS,JOSE ABAD SANTOS AVENUE( O.G. ROAD),11500.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+RR,Cabetican,ALL LOTS,JOSE ABAD SANTOS AVENUE( O.G. ROAD),10000.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+CR,Cabetican,ALL LOTS,MAC ARTHUR HIWAY*( SAN FERNANDO-LUBAO ROAD),7500.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+I,Cabetican,ALL LOTS,MAC ARTHUR HIWAY*( SAN FERNANDO-LUBAO ROAD),6750.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+RR,Cabetican,ALL LOTS,MAC ARTHUR HIWAY*( SAN FERNANDO-LUBAO ROAD),6000.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+CR,Cabetican,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+I,Cabetican,ALL LOTS,BARANGAY ROAD,3250.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+RR,Cabetican,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+RR,Cabetican,JOVEN SUBD.,,2500.0,DO 4-2024,unmatched,Villa Rosemarie (20),0
+I,Cabetican,ALL LOTS,INTERIOR LOTS,2250.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+RR,Cabetican,ALL LOTS,INTERIOR LOTS,1650.0,DO 4-2024,unmatched,Villa Rosemarie (43),0
+CR,Calibutbut,HOLY ANGEL VILLAGE,NEAR ANGELES INDUSTRIAL PARK,10500.0,DO 4-2024,street,Holy Angel Village,100
+RR,Calibutbut,HOLY ANGEL VILLAGE,NEAR ANGELES INDUSTRIAL PARK,9000.0,DO 4-2024,street,Holy Angel Village,100
+CR,Calibutbut,ALL LOTS,SHORTCUT TO CLARK AIR BASE(PANING'S ENTRY),11000.0,DO 4-2024,unmatched,L & S Subdivision (55),0
+I,Calibutbut,HOLY ANGEL INDUSTRIAL ESTATE,,9500.0,DO 4-2024,unmatched,Villagio Real (41),0
+I,Calibutbut,ALL LOTS,SHORTCUT TO CAB(PANING'S ENTRY),9000.0,DO 4-2024,unmatched,L & S Subdivision (55),0
+RR,Calibutbut,HOLY ANGEL INDUSTRIAL ESTATE,,8500.0,DO 4-2024,unmatched,Villagio Real (41),0
+RR,Calibutbut,ALL LOTS,SHORTCUT TO CAB(PANING'S ENTRY),7500.0,DO 4-2024,unmatched,L & S Subdivision (55),0
+CR,Calibutbut,ALL LOTS,BARANGAY ROAD,7500.0,DO 4-2024,unmatched,L & S Subdivision (55),0
+RR,Calibutbut,RICHVILLE HEIGHTS,,7500.0,DO 4-2024,unmatched,Leoncia Ville (55),0
+I,Calibutbut,ALL LOTS,BARANGAY ROAD,7000.0,DO 4-2024,unmatched,L & S Subdivision (55),0
+RR,Calibutbut,ALL LOTS,BARANGAY ROAD,6500.0,DO 4-2024,unmatched,L & S Subdivision (55),0
+RR,Calibutbut,XEVERA SUBDIVISION,NEAR BARANGAY ROAD,6000.0,DO 4-2024,unmatched,Xevera Bacolor (60),0
+I,Calibutbut,ALL LOTS,INTERIOR LOTS,5000.0,DO 4-2024,unmatched,L & S Subdivision (55),0
+RR,Calibutbut,ST. ORLY SUBDIVISION,,5000.0,DO 4-2024,unmatched,Bacolor (36),0
+RR,Calibutbut,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,L & S Subdivision (55),0
+RR,Calibutbut,FARMVILLE,,3250.0,DO 4-2024,unmatched,Leoncia Ville (55),0
+RR,Calibutbut,PROMISED LAND,,3000.0,DO 4-2024,unmatched,Trinidad Village (48),0
+RR,Calibutbut,VILLAGIO REAL SUBD.,NEAR ANGELES INDUSTRIAL PARK,11000.0,DO 4-2024,village,Villagio Real,100
+CR,Calibutbut,TRINIDAD VILLAGE,NEAR ANGELES INDUSTRIAL PARK,10000.0,DO 4-2024,village,Trinidad Village,100
+RR,Calibutbut,HAMPTON ORCHARD SUBD.,NEAR ANGELES INDUSTRIAL PARK,9000.0,DO 4-2024,village,Hampton Orchards,100
+RR,Calibutbut,TRINIDAD VILLAGE,NEAR ANGELES INDUSTRIAL PARK,8500.0,DO 4-2024,village,Trinidad Village,100
+RR,Calibutbut,LEONCIA VILLE,,6500.0,DO 4-2024,village,Leoncia Ville,100
+CR,Concepcion,ALL LOTS,BARANGAY ROAD,2050.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Concepcion,ALL LOTS,BARANGAY ROAD,1750.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Concepcion,ALL LOTS,BARANGAY ROAD,1350.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Concepcion,ALL LOTS,INTERIOR LOTS,1250.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Concepcion,ALL LOTS,INTERIOR LOTS,1000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Dolores,ALL LOTS,BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Dolores,ALL LOTS,BARANGAY ROAD,2050.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Dolores,ALL LOTS,BARANGAY ROAD,1750.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Dolores,ALL LOTS,INTERIOR LOTS,1400.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Dolores,ALL LOTS,INTERIOR LOTS,1150.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Duat,ALL LOTS,BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Duat,ALL LOTS,BARANGAY ROAD,2050.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Duat,ALL LOTS,BARANGAY ROAD,1750.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Duat,ALL LOTS,INTERIOR LOTS,1250.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Duat,ALL LOTS,INTERIOR LOTS,1000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Macabacle,ALL LOTS,BARANGAY ROAD,3250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Macabacle,ALL LOTS,BARANGAY ROAD,2750.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Macabacle,ALL LOTS,BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Macabacle,ALL LOTS,INTERIOR LOTS,1750.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Macabacle,ALL LOTS,INTERIOR LOTS,1250.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Macabacle,LA TIERRA SOLANA/LAS PALMAS,ALONG BARANGAY ROAD,8250.0,DO 4-2024,village,La Tierra Solana,100
+RR,Macabacle,CASA REAL SOLANA,,8250.0,DO 4-2024,village,Solana Casa Real,95
+CR,Magliman,ALL LOTS,BARANGAY ROAD,4250.0,DO 4-2024,unmatched,Villa Del Sol (48),0
+I,Magliman,ALL LOTS,BARANGAY ROAD,4100.0,DO 4-2024,unmatched,Villa Del Sol (48),0
+RR,Magliman,ALL LOTS,BARANGAY ROAD,3650.0,DO 4-2024,unmatched,Villa Del Sol (48),0
+I,Magliman,ALL LOTS,INTERIOR LOTS,2750.0,DO 4-2024,unmatched,Villa Del Sol (48),0
+RR,Magliman,ALL LOTS,INTERIOR LOTS,2250.0,DO 4-2024,unmatched,Villa Del Sol (48),0
+CR,Maliwalu,ALL LOTS,BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Maliwalu,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Maliwalu,ALL LOTS,BARANGAY ROAD,1500.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Maliwalu,ALL LOTS,INTERIOR LOTS,1500.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Maliwalu,ALL LOTS,INTERIOR LOTS,1000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Mesalipit,ALL LOTS,BARANGAY ROAD,1650.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Mesalipit,ALL LOTS,BARANGAY ROAD,1350.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Mesalipit,ALL LOTS,BARANGAY ROAD,1100.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Mesalipit,ALL LOTS,INTERIOR LOTS,800.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Mesalipit,ALL LOTS,INTERIOR LOTS,650.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Parulog,ALL LOTS,JOSE ABAD SANTOS AVENUE (O.G. ROAD),10000.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Parulog,ALL LOTS,JOSE ABAD SANTOS AVENUE (O.G. ROAD),9000.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Parulog,ALL LOTS,JOSE ABAD SANTOS AVENUE (O.G. ROAD),8000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Parulog,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Parulog,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Parulog,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Parulog,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Parulog,ALL LOTS,INTERIOR LOTS,1500.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Potrero,ALL LOTS,BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Potrero,ALL LOTS,BARANGAY ROAD,2050.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Potrero,ALL LOTS,BARANGAY ROAD,1750.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Potrero,ALL LOTS,INTERIOR LOTS,1500.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Potrero,ALL LOTS,INTERIOR LOTS,1000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,San Antonio,ALL LOTS,BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,San Antonio,ALL LOTS,BARANGAY ROAD,1950.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,San Antonio,ALL LOTS,BARANGAY ROAD,1750.0,DO 4-2024,unmatched,Bacolor (40),0
+I,San Antonio,ALL LOTS,INTERIOR LOTS,1350.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,San Antonio,ALL LOTS,INTERIOR LOTS,1100.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,San Isidro,MONTVILLE,,6500.0,DO 4-2024,unmatched,Villa Lourdes Subdivision (48),0
+RR,San Isidro,LE JARDIN,,6500.0,DO 4-2024,unmatched,Bridgepointe Place (52),0
+RR,San Isidro,WEST CAVERN SUBD.,,5250.0,DO 4-2024,unmatched,Havanna Residences Subdivision (43),0
+CR,San Isidro,ALL LOTS,BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Villa Lourdes Subdivision (50),0
+I,San Isidro,ALL LOTS,BARANGAY ROAD,3600.0,DO 4-2024,unmatched,Villa Lourdes Subdivision (50),0
+RR,San Isidro,ALL LOTS,BARANGAY ROAD,3250.0,DO 4-2024,unmatched,Villa Lourdes Subdivision (50),0
+RR,San Isidro,SAN ISIDRO VILLAGE,,2750.0,DO 4-2024,unmatched,Solana Casa Real (46),0
+I,San Isidro,ALL LOTS,INTERIOR LOTS,2250.0,DO 4-2024,unmatched,Villa Lourdes Subdivision (50),0
+RR,San Isidro,ALL LOTS,INTERIOR LOTS,1750.0,DO 4-2024,unmatched,Villa Lourdes Subdivision (50),0
+RR,San Isidro,COUNTRY HOMES SOLANA,BACK OF SANCTUARIO DE SAN FERNANDO,7750.0,DO 4-2024,village,Solana Country Homes,95
+RR,San Isidro,HAVANA RESIDENCE,BACK OF SANCTUARIO DE SAN FERNANDO,6750.0,DO 4-2024,village,Havanna Residences Subdivision,96.96969696969697
+RR,San Isidro,VILLA LOURDES SUBD.,BACK OF SANCTUARIO DE SAN FERNANDO,5250.0,DO 4-2024,village,Villa Lourdes Subdivision,100
+CR,San Vicente,STREET NAME:,JOSE ABAD SANTOS AVENUE (O.G. ROAD),12500.0,DO 4-2024,unmatched,Bacolor (18),0
+I,San Vicente,STREET NAME:,JOSE ABAD SANTOS AVENUE (O.G. ROAD),11500.0,DO 4-2024,unmatched,Bacolor (18),0
+RR,San Vicente,STREET NAME:,JOSE ABAD SANTOS AVENUE (O.G. ROAD),10000.0,DO 4-2024,unmatched,Bacolor (18),0
+CR,San Vicente,STREET NAME:,MAC ARTHUR HIWAY,9000.0,DO 4-2024,unmatched,Bacolor (18),0
+I,San Vicente,STREET NAME:,(CALLE WASHINGTON),8250.0,DO 4-2024,unmatched,Bacolor (18),0
+RR,San Vicente,STREET NAME:,(CALLE WASHINGTON),7250.0,DO 4-2024,unmatched,Bacolor (18),0
+RR,San Vicente,ST. DOMINIC SUBD.,,4350.0,DO 4-2024,unmatched,Bacolor (14),0
+CR,San Vicente,STREET NAME:,BARANGAY ROAD,4250.0,DO 4-2024,unmatched,Bacolor (18),0
+I,San Vicente,STREET NAME:,BARANGAY ROAD,3900.0,DO 4-2024,unmatched,Bacolor (18),0
+RR,San Vicente,STREET NAME:,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Bacolor (18),0
+RR,San Vicente,MARIS VILLAGE,,3500.0,DO 4-2024,unmatched,Bacolor (36),0
+RR,San Vicente,STREET NAME:,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Bacolor (18),0
+CR,Santa Barbara,ALL LOTS,JOSE ABAD SANTOS AVENUE,13500.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Santa Barbara,ALL LOTS,JOSE ABAD SANTOS AVENUE,12000.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Santa Barbara,ALL LOTS,JOSE ABAD SANTOS AVENUE,10000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Santa Barbara,ALL LOTS,BARANGAY ROAD,4250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Santa Barbara,ALL LOTS,BARANGAY ROAD,3750.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Santa Barbara,ALL LOTS,BARANGAY ROAD,3250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Santa Barbara,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Santa Barbara,MORNING SUN SUBD.,BDRY. OF MUNICIPALITY OF STA. RITA,2500.0,DO 4-2024,unmatched,Bacolor (22),0
+RR,Santa Barbara,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Santa Ines,,MAC ARTHUR HIWAY,9000.0,DO 4-2024,unmatched,Bacolor (0),0
+I,Santa Ines,,MAC ARTHUR HIWAY,8000.0,DO 4-2024,unmatched,Bacolor (0),0
+RR,Santa Ines,,MAC ARTHUR HIWAY,7000.0,DO 4-2024,unmatched,Bacolor (0),0
+CR,Santa Ines,,BARANGAY ROAD,4250.0,DO 4-2024,unmatched,Bacolor (0),0
+I,Santa Ines,,BARANGAY ROAD,3900.0,DO 4-2024,unmatched,Bacolor (0),0
+RR,Santa Ines,,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Bacolor (0),0
+I,Santa Ines,,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Bacolor (0),0
+RR,Santa Ines,SIMPLE LIVING SUBD.,,2500.0,DO 4-2024,unmatched,Bacolor (10),0
+RR,Santa Ines,,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Bacolor (0),0
+CR,Talba,ALL LOTS,BARANGAY ROAD,2150.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Talba,ALL LOTS,BARANGAY ROAD,1750.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Talba,ALL LOTS,BARANGAY ROAD,1250.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Talba,ALL LOTS,INTERIOR LOTS,1100.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Talba,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,Tinajero,ALL LOTS,BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Bacolor (40),0
+I,Tinajero,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Tinajero,ALL LOTS,BARANGAY ROAD,1650.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,Tinajero,ALL LOTS,INTERIOR LOTS,650.0,DO 4-2024,unmatched,Bacolor (40),0

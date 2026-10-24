@@ -1,0 +1,42 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Anoling,INTERIOR,,600.0,DO 13-2020,background,,0
+RR,Anoling,INTERIOR,,400.0,DO 13-2020,background,,0
+CR,Anoling,ALONG NATIONAL HIGH WAY,,1000.0,DO 13-2020,unmatched,Luzon (21),0
+RR,Anoling,ALONG NATIONAL HIGH WAY,,700.0,DO 13-2020,unmatched,Luzon (21),0
+RR,Banglos,ALL LOTS,,75.0,DO 66-2002,unmatched,Luzon (31),0
+CR,Batangan,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Batangan,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Canaway,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Canaway,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Catablingan,ALL LOTS,,450.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Catablingan,ALL LOTS,,250.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Lumutan,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Lumutan,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Magsikap,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Magsikap,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Mahabang Lalim,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Mahabang Lalim,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Maigang,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Maigang,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Maligaya,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Maligaya,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Minahan Norte,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Minahan Norte,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Minahan Sur,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Minahan Sur,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Pagsangahan,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Pagsangahan,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Pamplona,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Pamplona,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Pisa,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Pisa,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Poblacion,ALONG BARANGAY ROAD,,1000.0,DO 13-2020,unmatched,Luzon (32),0
+RR,Poblacion,ALONG BARANGAY ROAD,,700.0,DO 13-2020,unmatched,Luzon (32),0
+CR,Poblacion,ALONG BARANGAY ROAD,INTERIOR LOTS,600.0,DO 13-2020,unmatched,Luzon (32),0
+RR,Poblacion,ALONG BARANGAY ROAD,INTERIOR LOTS,400.0,DO 13-2020,unmatched,Luzon (32),0
+CR,Sablang,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Sablang,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,San Marcelino,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,San Marcelino,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Umiray,ALL LOTS,,300.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Umiray,ALL LOTS,,150.0,DO 13-2020,unmatched,Luzon (31),0

@@ -1,0 +1,163 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Almacen,ALL LOTS,ALONG PROVINCIAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Almacen,ALL LOTS,ALONG BRGY ROAD,900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Almacen,ALL LOTS,ALONG PROVINCIAL ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Almacen,ALL LOTS,ALONG BRGY ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Almacen,ALL LOTS,INTERIOR LOTS,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Balagtas,ALL LOTS,ALONG PROVINCIAL RD(ALONG NATL RD),1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Balagtas,ALL LOTS,ALONG PROVINCIAL RD(ALONG NATL RD),900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Balagtas,ALL LOTS,INTERIOR LOTS,600.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Balanacan,ALL LOTS,ALONG PROVINCIAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Balanacan,ALL LOTS,BRGY ROAD,900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Balanacan,ALL LOTS,ALONG PROVINCIAL ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Balanacan,ALL LOTS,BRGY ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Balanacan,ALL LOTS,INTERIOR LOTS,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Bonifacio,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Bonifacio,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Bonifacio,ALL LOTS,INTERIOR LOTS,425.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Bulo Ibaba,ALL LOTS,BRGY ROAD,750.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Bulo Ibaba,ALL LOTS,BRGY ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Bulo Ibaba,ALL LOTS,INTERIOR LOTS,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Bulo Ilaya,ALL LOTS,ALONG PROVINCIAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Bulo Ilaya,ALL LOTS,BRGY ROAD,900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Bulo Ilaya,ALL LOTS,ALONG PROVINCIAL ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Bulo Ilaya,ALL LOTS,BRGY ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Bulo Ilaya,ALL LOTS,INTERIOR LOTS,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Burgos,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Burgos,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Burgos,ALL LOTS,INTERIOR LOTS,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Cabulihan Ibaba,ALL LOTS,ALONG PROVINCIAL ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Cabulihan Ibaba,ALL LOTS,BRGY. ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Cabulihan Ibaba,ALL LOTS,ALONG PROVINCIAL ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Cabulihan Ibaba,ALL LOTS,BRGY. ROAD,400.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Cabulihan Ilaya,ALL LOTS,ALONG PROVINCIAL RD(ALONG NATL RD),1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Cabulihan Ilaya,ALL LOTS,ALONG PROVINCIAL RD(ALONG NATL RD),900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Cabulihan Ilaya,ALL LOTS,INTERIOR LOTS,600.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Caigdal,ALL LOTS,ALONG PROVINCIAL RD(ALONG NATL RD),1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Caigdal,ALL LOTS,ALONG PROVINCIAL RD(ALONG NATL RD),900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Caigdal,ALL LOTS,INTERIOR LOTS,600.0,DO 33-2019,unmatched,Luzon (31),0
+CR,F. De Jesus,ALL OTHER LOTS,SITIO MALIGAYA & SITIO MASAGANA,1500.0,DO 33-2019,background,,0
+RR,F. De Jesus,ALL OTHER LOTS,SITIO MALIGAYA & SITIO MASAGANA,1100.0,DO 33-2019,background,,0
+CR,F. De Jesus,QUEZON AVE.,PROVINCIAL ROAD,2350.0,DO 33-2019,street,Quezon Avenue,100
+CR,F. De Jesus,L. CARRILLO ST.,FRONTING MUNICIPAL PLAZA,1750.0,DO 33-2019,street,L. Carillo Street,96.0
+CR,F. De Jesus,V. TOLENTINO ST.,,1750.0,DO 33-2019,street,V. Tolentino Street,100
+CR,F. De Jesus,R. VARGAS ST.,,1750.0,DO 33-2019,street,R. Vargas Street,100
+RR,F. De Jesus,QUEZON AVE.,PROVINCIAL ROAD,1400.0,DO 33-2019,street,Quezon Avenue,100
+RR,F. De Jesus,L. CARRILLO ST.,FRONTING MUNICIPAL PLAZA,1300.0,DO 33-2019,street,L. Carillo Street,96.0
+RR,F. De Jesus,CONSTANTINO ST.,,1300.0,DO 33-2019,street,Constantino Street,100
+RR,F. De Jesus,V. TOLENTINO ST.,,1300.0,DO 33-2019,street,V. Tolentino Street,100
+RR,F. De Jesus,R. VARGAS ST.,,1300.0,DO 33-2019,street,R. Vargas Street,100
+CR,General Luna,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,General Luna,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+RR,General Luna,ALL LOTS,INTERIOR LOTS,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Kalilayan Ibaba,ALL LOTS,ALONG PROVINCIAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Kalilayan Ibaba,ALL LOTS,BRGY ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Kalilayan Ibaba,TOLENTINO SUBD.,KALILAYAN IBABA,900.0,DO 33-2019,unmatched,Luzon (29),0
+RR,Kalilayan Ibaba,ALL LOTS,ALONG PROVINCIAL ROAD,900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Kalilayan Ibaba,ALL LOTS,BRGY ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Kalilayan Ibaba,ALL LOTS,INTERIOR LOTS,600.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Kalilayan Ilaya,ALL LOTS,ALONG PROVINCIAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Kalilayan Ilaya,ALL LOTS,BRGY ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Kalilayan Ilaya,ALL LOTS,ALONG PROVINCIAL ROAD,900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Kalilayan Ilaya,ALL LOTS,BRGY ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Kalilayan Ilaya,ALL LOTS,INTERIOR LOTS,600.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Mabini,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Mabini,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Mairok Ibaba,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Mairok Ibaba,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Mairok Ilaya,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Mairok Ilaya,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Malvar,ALL LOTS,BRGY ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Malvar,ALL LOTS,BRGY ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Maputat,ALL LOTS,BRGY ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Maputat,ALL LOTS,BRGY ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Maputat,ALL LOTS,INTERIOR LOTS,400.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Muliguin,ALL LOTS,ALONG PROVINCIAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Muliguin,MULIGUIN SUBD.,BRGY. MULIGUIN,1000.0,DO 33-2019,unmatched,Luzon (46),0
+CR,Muliguin,ALL LOTS,BRGY ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Muliguin,ALL LOTS,ALONG PROVINCIAL ROAD,900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Muliguin,ALL LOTS,BRGY ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Muliguin,ALL LOTS,INTERIOR LOTS,600.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Pagaguasan,ALL LOTS,BRGY ROAD,750.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Pagaguasan,ALL LOTS,BRGY ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Panaon Ibaba,ALL LOTS,ALONG PROVINCIAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Panaon Ibaba,ALL LOTS,BRGY ROAD,900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Panaon Ibaba,ALL LOTS,ALONG PROVINCIAL ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Panaon Ibaba,ALL LOTS,BRGY ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Panaon Ibaba,ALL LOTS,INTERIOR LOTS,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Panaon Ilaya,ALL LOTS,ALONG PROVINCIAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Panaon Ilaya,ALL LOTS,BRGY ROAD,900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Panaon Ilaya,ALL LOTS,ALONG PROVINCIAL ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Panaon Ilaya,ALL LOTS,BRGY ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Panaon Ilaya,ALL LOTS,INTERIOR LOTS,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Plaridel,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Plaridel,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Poctol,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Poctol,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Punta,ALL LOTS,BRGY ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Punta,ALL LOTS,BRGY ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,R. Lapu-lapu,QUEZON AVE.,NATIONAL ROAD,2350.0,DO 33-2019,street,Quezon Avenue,100
+CR,R. Lapu-lapu,D. VALERIO ST.,BACK OF MUNICIPAL PLAZA AND CHURCH,2100.0,DO 33-2019,street,D. Valerio Street,100
+CR,R. Lapu-lapu,J.P. RIZAL ST.,NATIONAL ROAD,2100.0,DO 33-2019,street,J. P. Rizal Street,100
+CR,R. Lapu-lapu,J. VARGAS ST.,BESIDE MUNICIPAL PLAZA,2100.0,DO 33-2019,street,J. Vargas Street,100
+CR,R. Lapu-lapu,R. VARGAS ST.,NEAR PUBLIC MARKET,2100.0,DO 33-2019,street,R. Vargas Street,100
+CR,R. Lapu-lapu,L. CARRILLO ST.,FRONTING MUNICIPAL PLAZA AND CHURCH,2000.0,DO 33-2019,street,L. Carillo Street,96.0
+CR,R. Lapu-lapu,T. VALERIO ST.,OLD MUNICIPAL BUILDING,2000.0,DO 33-2019,street,T. Valerio Street,100
+RR,R. Lapu-lapu,QUEZON AVE.,NATIONAL ROAD,1500.0,DO 33-2019,street,Quezon Avenue,100
+RR,R. Lapu-lapu,L. CARRILLO ST.,FRONTING MUNICIPAL PLAZA AND CHURCH,1300.0,DO 33-2019,street,L. Carillo Street,96.0
+RR,R. Lapu-lapu,D. VALERIO ST.,BACK OF MUNICIPAL PLAZA AND CHURCH,1300.0,DO 33-2019,street,D. Valerio Street,100
+RR,R. Lapu-lapu,T. VALERIO ST.,OLD MUNICIPAL BUILDING,1300.0,DO 33-2019,street,T. Valerio Street,100
+RR,R. Lapu-lapu,J.P. RIZAL ST.,NATIONAL ROAD,1300.0,DO 33-2019,street,J. P. Rizal Street,100
+RR,R. Lapu-lapu,J. VARGAS ST.,BESIDE MUNICIPAL PLAZA,1300.0,DO 33-2019,street,J. Vargas Street,100
+RR,R. Lapu-lapu,R. VARGAS ST.,NEAR PUBLIC MARKET,1300.0,DO 33-2019,street,R. Vargas Street,100
+CR,R. Magsaysay,ALL OTHER LOTS,SITIO OLALA,1500.0,DO 33-2019,background,,0
+RR,R. Magsaysay,ALL OTHER LOTS,SITIO OLALA,1100.0,DO 33-2019,background,,0
+CR,R. Magsaysay,ALING SIDA ST.,MUN.PROPER OF UNISAN QUEZON,1750.0,DO 33-2019,street,Aling Sida Street,100
+CR,R. Magsaysay,V. CONSTANTINO ST.,,1750.0,DO 33-2019,street,V. Constantino Street,100
+CR,R. Magsaysay,ISAAC ST.,,1750.0,DO 33-2019,street,Isaac Street,100
+CR,R. Magsaysay,KALILAYAN ST.,,1750.0,DO 33-2019,street,Kalilayan Street,100
+CR,R. Magsaysay,J. TOLENTINO ST.,,1750.0,DO 33-2019,street,J. Tolentino Street,100
+RR,R. Magsaysay,ALING SIDA ST.,MUN.PROPER OF UNISAN QUEZON,1300.0,DO 33-2019,street,Aling Sida Street,100
+RR,R. Magsaysay,V. CONSTANTINO ST.,,1300.0,DO 33-2019,street,V. Constantino Street,100
+RR,R. Magsaysay,ISAAC ST.,,1300.0,DO 33-2019,street,Isaac Street,100
+RR,R. Magsaysay,KALILAYAN ST.,,1300.0,DO 33-2019,street,Kalilayan Street,100
+RR,R. Magsaysay,J. TOLENTINO ST.,,1300.0,DO 33-2019,street,J. Tolentino Street,100
+RR,R. Magsaysay,D. VALERIO ST.,,1300.0,DO 33-2019,street,D. Valerio Street,100
+CR,Raja Soliman,D. VALERIO ST.,BOUNDARY OF BRGY. LAPU LAPU,2100.0,DO 33-2019,street,D. Valerio Street,100
+CR,Raja Soliman,J.P. RIZAL ST.,NATIONAL ROAD,1900.0,DO 33-2019,street,J. P. Rizal Street,100
+CR,Raja Soliman,ALING SIDA ST.,ISAAC ST & T. VALERIO ST.,1750.0,DO 33-2019,street,Aling Sida Street,100
+CR,Raja Soliman,V. CONSTANTINO ST.,KALILAYAN ST.,1750.0,DO 33-2019,street,V. Constantino Street,100
+CR,Raja Soliman,ISAAC ST.,ALING SIDA ST.,1750.0,DO 33-2019,street,Isaac Street,100
+CR,Raja Soliman,KALILAYAN ST.,V. CONSTANTINO ST.,1750.0,DO 33-2019,street,Kalilayan Street,100
+CR,Raja Soliman,J. TOLENTINO ST.,D. VALERIO ST. & ISAAC ST.,1750.0,DO 33-2019,street,J. Tolentino Street,100
+CR,Raja Soliman,T. VALERIO ST.,ALING SIDA ST.,1750.0,DO 33-2019,street,T. Valerio Street,100
+CR,Raja Soliman,J. VARGAS ST.,BOUNDARY OF BRGY. MAGSAYSAY,1750.0,DO 33-2019,street,J. Vargas Street,100
+RR,Raja Soliman,ALING SIDA ST.,ISAAC ST & T. VALERIO ST.,1300.0,DO 33-2019,street,Aling Sida Street,100
+RR,Raja Soliman,V. CONSTANTINO ST.,KALILAYAN ST.,1300.0,DO 33-2019,street,V. Constantino Street,100
+RR,Raja Soliman,ISAAC ST.,ALING SIDA ST.,1300.0,DO 33-2019,street,Isaac Street,100
+RR,Raja Soliman,KALILAYAN ST.,V. CONSTANTINO ST.,1300.0,DO 33-2019,street,Kalilayan Street,100
+RR,Raja Soliman,J. TOLENTINO ST.,D. VALERIO ST. & ISAAC ST.,1300.0,DO 33-2019,street,J. Tolentino Street,100
+RR,Raja Soliman,D. VALERIO ST.,BOUNDARY OF BRGY. LAPU LAPU,1300.0,DO 33-2019,street,D. Valerio Street,100
+RR,Raja Soliman,T. VALERIO ST.,ALING SIDA ST.,1300.0,DO 33-2019,street,T. Valerio Street,100
+RR,Raja Soliman,J.P. RIZAL ST.,NATIONAL ROAD,1300.0,DO 33-2019,street,J. P. Rizal Street,100
+RR,Raja Soliman,J. VARGAS ST.,BOUNDARY OF BRGY. MAGSAYSAY,1300.0,DO 33-2019,street,J. Vargas Street,100
+CR,Rizal Ibaba,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Rizal Ibaba,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Rizal Ilaya,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Rizal Ilaya,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Roque,ALL LOTS,BRGY ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Roque,ALL LOTS,BRGY ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Socorro,ALL LOTS,ALONG PROVINCIAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Socorro,ALL LOTS,BRGY ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Socorro,ALL LOTS,ALONG PROVINCIAL ROAD,750.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Socorro,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Tagumpay,ALL LOTS,BRGY ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Tagumpay,ALL LOTS,BRGY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Tubas,ALL LOTS,ALONG PROVINCIAL RD(ALONG NATL RD),1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Tubas,ALL LOTS,ALONG PROVINCIAL RD(ALONG NATL RD),900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Tubas,ALL LOTS,INTERIOR LOTS,600.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Tubigan,ALL LOTS,ALONG PROVINCIAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Tubigan,ALL LOTS,BRGY ROAD,900.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Tubigan,ALL LOTS,ALONG PROVINCIAL ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Tubigan,ALL LOTS,BRGY ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Tubigan,ALL LOTS,INTERIOR LOTS,450.0,DO 33-2019,unmatched,Luzon (31),0

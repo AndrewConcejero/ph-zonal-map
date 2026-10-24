@@ -1,0 +1,470 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Barangay 1,ALL OTHER STREETS,,7000.0,DO 13-2020,background,,0
+RR,Barangay 1,ALL OTHER STREETS,,3500.0,DO 13-2020,background,,0
+CR,Barangay 1,QUEZON AVENUE,,27000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Barangay 1,QUEZON AVENUE,,18000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 1,P. GOMEZ ST,,9500.0,DO 13-2020,street,P. Gomez Street,100
+CR,Barangay 1,ALLAREY ST,,7500.0,DO 13-2020,street,Allarey Street,100
+CR,Barangay 1,BARCELONA ST,,7500.0,DO 13-2020,street,Barcelona Street,100
+CR,Barangay 1,GRANJA ST,,7500.0,DO 13-2020,street,Granja Street,100
+CR,Barangay 1,HERMANA FAUSTA ST,,7500.0,DO 13-2020,street,Hermana Fausta Street,100
+CR,Barangay 1,OSMENA ST,,7500.0,DO 13-2020,street,Osmeña Street,100
+CR,Barangay 1,RAVANZO ST,,7500.0,DO 13-2020,street,Ravanzo Street,100
+CR,Barangay 1,TRINIDAD ST,,7500.0,DO 13-2020,street,Trinidad Street,100
+RR,Barangay 1,P. GOMEZ ST,,5000.0,DO 13-2020,street,P. Gomez Street,100
+RR,Barangay 1,ALLAREY ST,,4000.0,DO 13-2020,street,Allarey Street,100
+RR,Barangay 1,BARCELONA ST,,4000.0,DO 13-2020,street,Barcelona Street,100
+RR,Barangay 1,GRANJA ST,,4000.0,DO 13-2020,street,Granja Street,100
+RR,Barangay 1,HERMANA FAUSTA ST,,4000.0,DO 13-2020,street,Hermana Fausta Street,100
+RR,Barangay 1,OSMENA ST,,4000.0,DO 13-2020,street,Osmeña Street,100
+RR,Barangay 1,RAVANZO ST,,4000.0,DO 13-2020,street,Ravanzo Street,100
+RR,Barangay 1,TRINIDAD ST,,4000.0,DO 13-2020,street,Trinidad Street,100
+CR,Barangay 1,DEL PILAR ST,,7500.0,DO 13-2020,unmatched,Luzon (14),0
+RR,Barangay 1,DEL PILAR ST,,4000.0,DO 13-2020,unmatched,Luzon (14),0
+CR,Barangay 10,ALL OTHER STREETS,,8000.0,DO 13-2020,background,,0
+RR,Barangay 10,ALL OTHER STREETS,,4500.0,DO 13-2020,background,,0
+CR,Barangay 10,QUEZON AVENUE,,32000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Barangay 10,QUEZON AVENUE,,14000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 10,PANTOC SUBD,,10000.0,DO 13-2020,street,Pantoc Street,97
+CR,Barangay 10,AGUILAR ST,,8000.0,DO 13-2020,street,Aguilar Street,100
+RR,Barangay 10,PANTOC SUBD,,5500.0,DO 13-2020,street,Pantoc Street,97
+RR,Barangay 10,AGUILAR ST,,4500.0,DO 13-2020,street,Aguilar Street,100
+CR,Barangay 10,DOÑA VICTORIA ST,,8000.0,DO 13-2020,unmatched,Purok Bagong Buhay (32),0
+CR,Barangay 10,DOÑA NENA ST,,8000.0,DO 13-2020,unmatched,Purok Bagong Buhay (30),0
+RR,Barangay 10,DOÑA VICTORIA ST,,4500.0,DO 13-2020,unmatched,Purok Bagong Buhay (32),0
+RR,Barangay 10,DOÑA NENA ST,,4500.0,DO 13-2020,unmatched,Purok Bagong Buhay (30),0
+CR,Barangay 11,ALL OTHER STREETS,INTERIOR LOTS,7500.0,DO 13-2020,background,,0
+RR,Barangay 11,ALL OTHER STREETS,INTERIOR LOTS,4000.0,DO 13-2020,background,,0
+CR,Barangay 11,QUEZON AVENUE,,27000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Barangay 11,QUEZON AVENUE,,14500.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 11,MERCHAN ST,,11000.0,DO 13-2020,street,Merchan Street,100
+CR,Barangay 11,ENRIQUEZ ST,,10000.0,DO 13-2020,street,Enriquez Street,100
+CR,Barangay 11,DALEON ST,,9500.0,DO 13-2020,street,Daleon Street,100
+RR,Barangay 11,MERCHAN ST,,8500.0,DO 13-2020,street,Merchan Street,100
+CR,Barangay 11,RAVANZO ST,,7500.0,DO 13-2020,street,Ravanzo Street,100
+RR,Barangay 11,ENRIQUEZ ST,,6000.0,DO 13-2020,street,Enriquez Street,100
+RR,Barangay 11,DALEON ST,,4500.0,DO 13-2020,street,Daleon Street,100
+RR,Barangay 11,RAVANZO ST,,4000.0,DO 13-2020,street,Ravanzo Street,100
+CR,Barangay 11,FAUSTA ST,,7500.0,DO 13-2020,unmatched,Luzon (18),0
+RR,Barangay 11,FAUSTA ST,,4000.0,DO 13-2020,unmatched,Luzon (18),0
+CR,Barangay 2,ALL OTHER STREETS,,7000.0,DO 13-2020,background,,0
+RR,Barangay 2,ALL OTHER STREETS,,3500.0,DO 13-2020,background,,0
+CR,Barangay 2,QUEZON AVENUE,,27000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Barangay 2,QUEZON AVENUE,,18000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 2,MERCHAN ST,,11000.0,DO 13-2020,street,Merchan Street,100
+CR,Barangay 2,P. GOMEZ ST,,11000.0,DO 13-2020,street,P. Gomez Street,100
+CR,Barangay 2,ENRIQUEZ ST,,10000.0,DO 13-2020,street,Enriquez Street,100
+CR,Barangay 2,TANDANG SORA,,9000.0,DO 13-2020,street,Tandang Sora Street,97
+CR,Barangay 2,TRINIDAD ST,,9000.0,DO 13-2020,street,Trinidad Street,100
+CR,Barangay 2,BARCELONA ST,,8500.0,DO 13-2020,street,Barcelona Street,100
+RR,Barangay 2,MERCHAN ST,,8500.0,DO 13-2020,street,Merchan Street,100
+CR,Barangay 2,HERMANA FAUSTA ST,,7500.0,DO 13-2020,street,Hermana Fausta Street,100
+RR,Barangay 2,P. GOMEZ ST,,7000.0,DO 13-2020,street,P. Gomez Street,100
+RR,Barangay 2,ENRIQUEZ ST,,6000.0,DO 13-2020,street,Enriquez Street,100
+RR,Barangay 2,BARCELONA ST,,4500.0,DO 13-2020,street,Barcelona Street,100
+RR,Barangay 2,TANDANG SORA,,4500.0,DO 13-2020,street,Tandang Sora Street,97
+RR,Barangay 2,TRINIDAD ST,,4500.0,DO 13-2020,street,Trinidad Street,100
+RR,Barangay 2,HERMANA FAUSTA ST,,4000.0,DO 13-2020,street,Hermana Fausta Street,100
+CR,Barangay 3,ALL OTHER STREETS,,7500.0,DO 13-2020,background,,0
+RR,Barangay 3,ALL OTHER STREETS,,4000.0,DO 13-2020,background,,0
+CR,Barangay 3,QUEZON AVENUE,,28000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 3,P. GOMEZ ST,,13000.0,DO 13-2020,street,P. Gomez Street,100
+CR,Barangay 3,ALLAREY ST,,9000.0,DO 13-2020,street,Allarey Street,100
+CR,Barangay 3,CABANA ST,,9000.0,DO 13-2020,street,Cabana Street,100
+CR,Barangay 3,GRANJA ST,,9000.0,DO 13-2020,street,Granja Street,100
+CR,Barangay 3,OSMENA ST,,9000.0,DO 13-2020,street,Osmeña Street,100
+CR,Barangay 3,M. H. DEL PILAR ST,,8500.0,DO 13-2020,street,M. H. del Pilar Street,100
+RR,Barangay 3,P. GOMEZ ST,,8000.0,DO 13-2020,street,P. Gomez Street,100
+RR,Barangay 3,ALLAREY ST,,4500.0,DO 13-2020,street,Allarey Street,100
+RR,Barangay 3,CABANA ST,,4500.0,DO 13-2020,street,Cabana Street,100
+RR,Barangay 3,GRANJA ST,,4500.0,DO 13-2020,street,Granja Street,100
+RR,Barangay 3,OSMENA ST,,4500.0,DO 13-2020,street,Osmeña Street,100
+RR,Barangay 3,M. H. DEL PILAR ST,,4000.0,DO 13-2020,street,M. H. del Pilar Street,100
+CR,Barangay 3,GEN. LUCBAN ST (ML TAGARAO),,12000.0,DO 13-2020,unmatched,Luzon (40),0
+CR,Barangay 3,ENVERGA ST. (formerly P. Burgos St),,9500.0,DO 13-2020,unmatched,Luzon (33),0
+RR,Barangay 3,GEN. LUCBAN ST (ML TAGARAO),,8000.0,DO 13-2020,unmatched,Luzon (40),0
+RR,Barangay 3,ENVERGA ST. (formerly P. Burgos St),,5000.0,DO 13-2020,unmatched,Luzon (33),0
+CR,Barangay 4,ALL OTHER STREETS/INTERIOR,,7500.0,DO 13-2020,background,,0
+RR,Barangay 4,ALL OTHER STREETS/INTERIOR,,4000.0,DO 13-2020,background,,0
+CR,Barangay 4,QUEZON AVE,across St Ferdinand Cathedral,35000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 4,MERCHAN ST,,16500.0,DO 13-2020,street,Merchan Street,100
+CR,Barangay 4,ENRIQUEZ ST,,14000.0,DO 13-2020,street,Enriquez Street,100
+CR,Barangay 4,SAN FERNANDO ST,,14000.0,DO 13-2020,street,San Fernando Street,100
+CR,Barangay 4,GENERAL LUCBAN ST (M.L. TAGARAO),,13500.0,DO 13-2020,street,M. L. Tagarao Street,97
+CR,Barangay 4,P. GOMEZ ST,,13000.0,DO 13-2020,street,P. Gomez Street,100
+RR,Barangay 4,MERCHAN ST,,10500.0,DO 13-2020,street,Merchan Street,100
+CR,Barangay 4,C.M. RECTO ST,,10000.0,DO 13-2020,street,C. M. Recto Street,100
+CR,Barangay 4,CABANA ST,,9500.0,DO 13-2020,street,Cabana Street,100
+RR,Barangay 4,GENERAL LUCBAN ST (M.L. TAGARAO),,8500.0,DO 13-2020,street,M. L. Tagarao Street,97
+RR,Barangay 4,P. GOMEZ ST,,8500.0,DO 13-2020,street,P. Gomez Street,100
+RR,Barangay 4,ENRIQUEZ ST,,7500.0,DO 13-2020,street,Enriquez Street,100
+RR,Barangay 4,SAN FERNANDO ST,,6500.0,DO 13-2020,street,San Fernando Street,100
+RR,Barangay 4,C.M. RECTO ST,,6000.0,DO 13-2020,street,C. M. Recto Street,100
+RR,Barangay 4,CABANA ST,,4500.0,DO 13-2020,street,Cabana Street,100
+CR,Barangay 4,ENVERGA ST (formely Burgos St),,9500.0,DO 13-2020,unmatched,Flores Subdivision (44),0
+RR,Barangay 4,ENVERGA ST (formely Burgos St),,4500.0,DO 13-2020,unmatched,Flores Subdivision (44),0
+CR,Barangay 5,ALL OTHER STREETS,,8500.0,DO 13-2020,background,,0
+RR,Barangay 5,ALL OTHER STREETS,,4500.0,DO 13-2020,background,,0
+CR,Barangay 5,QUEZON AVE,St Ferdinand Cathedral,35000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 5,RIZAL ST,,15000.0,DO 13-2020,street,Rizal Street,100
+CR,Barangay 5,GEN LUCBAN ST (M.L. TAGARAO),,13500.0,DO 13-2020,street,M. L. Tagarao Street,97
+CR,Barangay 5,GRANJA ST,,11000.0,DO 13-2020,street,Granja Street,100
+CR,Barangay 5,PROFUGO ST (formerly Paz St.),,11000.0,DO 13-2020,street,Profugo Street,100
+CR,Barangay 5,ABELLANOSA ST,along side Iyam River,9000.0,DO 13-2020,street,Abellanosa Street,100
+CR,Barangay 5,ALLAREY ST,,9000.0,DO 13-2020,street,Allarey Street,100
+CR,Barangay 5,BONIFACIO ST,,9000.0,DO 13-2020,street,A. Bonifacio Street,92.3076923076923
+CR,Barangay 5,M.H. DEL PILAR ST,,9000.0,DO 13-2020,street,M. H. del Pilar Street,100
+CR,Barangay 5,JUAREZ ST,,9000.0,DO 13-2020,street,Juarez Street,100
+RR,Barangay 5,GEN LUCBAN ST (M.L. TAGARAO),,8500.0,DO 13-2020,street,M. L. Tagarao Street,97
+CR,Barangay 5,SISA ST,along side Iyam River,8500.0,DO 13-2020,street,Sisa Street,100
+CR,Barangay 5,MALVAR ST (short cut),along side Iyam River,8000.0,DO 13-2020,street,Malvar Street,100
+RR,Barangay 5,RIZAL ST,,6500.0,DO 13-2020,street,Rizal Street,100
+RR,Barangay 5,PROFUGO ST (formerly Paz St.),,5500.0,DO 13-2020,street,Profugo Street,100
+RR,Barangay 5,GRANJA ST,,5000.0,DO 13-2020,street,Granja Street,100
+RR,Barangay 5,ABELLANOSA ST,along side Iyam River,4500.0,DO 13-2020,street,Abellanosa Street,100
+RR,Barangay 5,ALLAREY ST,,4500.0,DO 13-2020,street,Allarey Street,100
+RR,Barangay 5,BONIFACIO ST,,4500.0,DO 13-2020,street,A. Bonifacio Street,92.3076923076923
+RR,Barangay 5,M.H. DEL PILAR ST,,4500.0,DO 13-2020,street,M. H. del Pilar Street,100
+RR,Barangay 5,JUAREZ ST,,4500.0,DO 13-2020,street,Juarez Street,100
+RR,Barangay 5,SISA ST,along side Iyam River,4500.0,DO 13-2020,street,Sisa Street,100
+RR,Barangay 5,MALVAR ST (short cut),along side Iyam River,4000.0,DO 13-2020,street,Malvar Street,100
+CR,Barangay 6,ALL OTHER STREETS,,8500.0,DO 13-2020,background,,0
+RR,Barangay 6,ALL OTHER STREETS,,4000.0,DO 13-2020,background,,0
+CR,Barangay 6,QUEZON AVENUE,,35000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 6,MERCHAN ST,,16500.0,DO 13-2020,street,Merchan Street,100
+CR,Barangay 6,RIZAL ST,,15000.0,DO 13-2020,street,Rizal Street,100
+CR,Barangay 6,SAN FERNANDO,,15000.0,DO 13-2020,street,San Fernando Street,97
+CR,Barangay 6,ENRIQUEZ ST,,14000.0,DO 13-2020,street,Enriquez Street,100
+CR,Barangay 6,PROFUGO ST (formerly Paz St),,11000.0,DO 13-2020,street,Profugo Street,100
+RR,Barangay 6,MERCHAN ST,,10500.0,DO 13-2020,street,Merchan Street,100
+CR,Barangay 6,C.M. RECTO,,10000.0,DO 13-2020,street,C. M. Recto Street,97
+CR,Barangay 6,EVANGELISTA ST,,9000.0,DO 13-2020,street,Evangelista Street,100
+CR,Barangay 6,JUAREZ ST,,9000.0,DO 13-2020,street,Juarez Street,100
+CR,Barangay 6,MAGALLANES ST,,9000.0,DO 13-2020,street,Magallanes Street,100
+CR,Barangay 6,ZAMORA ST,,9000.0,DO 13-2020,street,Zamora Street,100
+RR,Barangay 6,ENRIQUEZ ST,,7500.0,DO 13-2020,street,Enriquez Street,100
+RR,Barangay 6,SAN FERNANDO,,7500.0,DO 13-2020,street,San Fernando Street,97
+RR,Barangay 6,RIZAL ST,,6500.0,DO 13-2020,street,Rizal Street,100
+RR,Barangay 6,C.M. RECTO,,6000.0,DO 13-2020,street,C. M. Recto Street,97
+RR,Barangay 6,PROFUGO ST (formerly Paz St),,5500.0,DO 13-2020,street,Profugo Street,100
+RR,Barangay 6,EVANGELISTA ST,,4500.0,DO 13-2020,street,Evangelista Street,100
+RR,Barangay 6,JUAREZ ST,,4500.0,DO 13-2020,street,Juarez Street,100
+RR,Barangay 6,MAGALLANES ST,,4500.0,DO 13-2020,street,Magallanes Street,100
+RR,Barangay 6,ZAMORA ST,,4500.0,DO 13-2020,street,Zamora Street,100
+CR,Barangay 7,ALL OTHER STREETS,,8500.0,DO 13-2020,background,,0
+RR,Barangay 7,ALL OTHER STREETS,,4500.0,DO 13-2020,background,,0
+CR,Barangay 7,QUEZON AVENUE,,33000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 7,GRANJA ST,,11000.0,DO 13-2020,street,Granja Street,100
+CR,Barangay 7,ABELLANOSA ST,,9000.0,DO 13-2020,street,Abellanosa Street,100
+CR,Barangay 7,ALLAREY ST,,9000.0,DO 13-2020,street,Allarey Street,100
+CR,Barangay 7,BONIFACIO ST,,9000.0,DO 13-2020,street,A. Bonifacio Street,92.3076923076923
+CR,Barangay 7,M.H. DEL PILAR ST,,9000.0,DO 13-2020,street,M.H. del Pilar Street,100
+CR,Barangay 7,EVANGELISTA ST,,9000.0,DO 13-2020,street,Evangelista Street,100
+CR,Barangay 7,JUAREZ ST,,9000.0,DO 13-2020,street,Juarez Street,100
+CR,Barangay 7,LAKANDULA ST,,9000.0,DO 13-2020,street,Lakandula Street,100
+CR,Barangay 7,MAGALLANES ST,,9000.0,DO 13-2020,street,Magallanes Street,100
+CR,Barangay 7,ZAMORA ST,,9000.0,DO 13-2020,street,Zamora Street,100
+RR,Barangay 7,GRANJA ST,,5500.0,DO 13-2020,street,Granja Street,100
+RR,Barangay 7,ABELLANOSA ST,,4500.0,DO 13-2020,street,Abellanosa Street,100
+RR,Barangay 7,ALLAREY ST,,4500.0,DO 13-2020,street,Allarey Street,100
+RR,Barangay 7,BONIFACIO ST,,4500.0,DO 13-2020,street,A. Bonifacio Street,92.3076923076923
+RR,Barangay 7,M.H. DEL PILAR ST,,4500.0,DO 13-2020,street,M.H. del Pilar Street,100
+RR,Barangay 7,EVANGELISTA ST,,4500.0,DO 13-2020,street,Evangelista Street,100
+RR,Barangay 7,JUAREZ ST,,4500.0,DO 13-2020,street,Juarez Street,100
+RR,Barangay 7,LAKANDULA ST,,4500.0,DO 13-2020,street,Lakandula Street,100
+RR,Barangay 7,MAGALLANES ST,,4500.0,DO 13-2020,street,Magallanes Street,100
+RR,Barangay 7,ZAMORA ST,,4500.0,DO 13-2020,street,Zamora Street,100
+CR,Barangay 7,QUEBLAR ST,,10000.0,DO 13-2020,unmatched,Flores Subdivision (33),0
+RR,Barangay 7,QUEBLAR ST,,5500.0,DO 13-2020,unmatched,Flores Subdivision (33),0
+CR,Barangay 8,ALL OTHER STREETS,,9000.0,DO 13-2020,background,,0
+RR,Barangay 8,ALL OTHER STREETS,,4500.0,DO 13-2020,background,,0
+CR,Barangay 8,QUEZON AVENUE,,33000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Barangay 8,QUEZON AVENUE,,15000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 8,GRANJA ST,,11000.0,DO 13-2020,street,Granja Street,100
+CR,Barangay 8,ALLAREY ST,,9000.0,DO 13-2020,street,Allarey Street,100
+CR,Barangay 8,BONIFACIO ST,,9000.0,DO 13-2020,street,A. Bonifacio Street,92.3076923076923
+CR,Barangay 8,GUINTO ST,,9000.0,DO 13-2020,street,L. Guinto Street,90.0
+CR,Barangay 8,LAGOS ST,,9000.0,DO 13-2020,street,Lagos Street,100
+CR,Barangay 8,ROSAS ST,,9000.0,DO 13-2020,street,Rosas Street,100
+RR,Barangay 8,GRANJA ST,,5500.0,DO 13-2020,street,Granja Street,100
+RR,Barangay 8,ALLAREY ST,,4500.0,DO 13-2020,street,Allarey Street,100
+RR,Barangay 8,BONIFACIO ST,,4500.0,DO 13-2020,street,A. Bonifacio Street,92.3076923076923
+RR,Barangay 8,GUINTO ST,,4500.0,DO 13-2020,street,L. Guinto Street,90.0
+RR,Barangay 8,LAGOS ST,,4500.0,DO 13-2020,street,Lagos Street,100
+RR,Barangay 8,ROSAS ST,,4500.0,DO 13-2020,street,Rosas Street,100
+CR,Barangay 8,QUEBLAR ST,,9000.0,DO 13-2020,unmatched,Flores Subdivision (33),0
+CR,Barangay 8,ROSEMARIE COMPOUND,,9000.0,DO 13-2020,unmatched,Flores Subdivision (43),0
+RR,Barangay 8,QUEBLAR ST,,4500.0,DO 13-2020,unmatched,Flores Subdivision (33),0
+RR,Barangay 8,ROSEMARIE COMPOUND,,4500.0,DO 13-2020,unmatched,Flores Subdivision (43),0
+CR,Barangay 8,FLORES SUBD.,,9000.0,DO 13-2020,village,Flores Subdivision,100
+RR,Barangay 8,FLORES SUBD.,,4500.0,DO 13-2020,village,Flores Subdivision,100
+CR,Barangay 9,ALL OTHER STREETS,,8500.0,DO 13-2020,background,,0
+RR,Barangay 9,ALL OTHER STREETS,,4000.0,DO 13-2020,background,,0
+CR,Barangay 9,QUEZON AVENUE,,32000.0,DO 13-2020,street,Quezon Avenue,100
+RR,Barangay 9,QUEZON AVENUE,,14000.0,DO 13-2020,street,Quezon Avenue,100
+CR,Barangay 9,MERCHAN ST,,13000.0,DO 13-2020,street,Merchan Street,100
+CR,Barangay 9,C.M. RECTO ST,,10000.0,DO 13-2020,street,C. M. Recto Street,100
+CR,Barangay 9,ENRIQUEZ ST,,10000.0,DO 13-2020,street,Enriquez Street,100
+RR,Barangay 9,MERCHAN ST,,10000.0,DO 13-2020,street,Merchan Street,100
+CR,Barangay 9,DON PEREZ ST,,9500.0,DO 13-2020,street,Don Perez Street,100
+CR,Barangay 9,EDAÑO ST,,9000.0,DO 13-2020,street,Edano Street,100
+CR,Barangay 9,EVANGELISTA ST,,9000.0,DO 13-2020,street,Evangelista Street,100
+CR,Barangay 9,GUINTO ST,,9000.0,DO 13-2020,street,L. Guinto Street,90.0
+CR,Barangay 9,LAKANDULA ST,,9000.0,DO 13-2020,street,Lakandula Street,100
+RR,Barangay 9,C.M. RECTO ST,,6000.0,DO 13-2020,street,C. M. Recto Street,100
+RR,Barangay 9,DON PEREZ ST,,6000.0,DO 13-2020,street,Don Perez Street,100
+RR,Barangay 9,ENRIQUEZ ST,,6000.0,DO 13-2020,street,Enriquez Street,100
+RR,Barangay 9,EDAÑO ST,,4500.0,DO 13-2020,street,Edano Street,100
+RR,Barangay 9,EVANGELISTA ST,,4500.0,DO 13-2020,street,Evangelista Street,100
+RR,Barangay 9,GUINTO ST,,4500.0,DO 13-2020,street,L. Guinto Street,90.0
+RR,Barangay 9,LAKANDULA ST,,4500.0,DO 13-2020,street,Lakandula Street,100
+CR,Barangay 9,LA MILAGROSA SUBD,,10000.0,DO 13-2020,unmatched,Flores Subdivision (24),0
+CR,Barangay 9,QUEBLAR ST,,9000.0,DO 13-2020,unmatched,Flores Subdivision (33),0
+RR,Barangay 9,LA MILAGROSA SUBD,,5500.0,DO 13-2020,unmatched,Flores Subdivision (24),0
+RR,Barangay 9,QUEBLAR ST,,4500.0,DO 13-2020,unmatched,Flores Subdivision (33),0
+CR,Barra,ALL LOTS,ALONG THE ROAD,800.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Barra,ALL LOTS,INTERIOR LOTS,600.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Barra,ALL LOTS,ALONG THE ROAD,400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Barra,ALL LOTS,INTERIOR LOTS,300.0,DO 13-2020,unmatched,Luzon (31),0
+I,Bocohan,ALL LOTS,ALONG DIVERSION ROAD,8000.0,DO 13-2020,unmatched,Palm Springs (42),0
+I,Bocohan,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,6000.0,DO 13-2020,unmatched,Stone Gate (37),0
+CR,Bocohan,CIUDAD MAHARLIKA,,5500.0,DO 13-2020,unmatched,Maharlika Subdivision (72),0
+CR,Bocohan,ALL LOTS,ALONG DIVERSION ROAD,5000.0,DO 13-2020,unmatched,Palm Springs (42),0
+CR,Bocohan,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,5000.0,DO 13-2020,unmatched,Stone Gate (37),0
+CR,Bocohan,WELMANVILLE,,4500.0,DO 13-2020,unmatched,Palmville Residences (47),0
+RR,Bocohan,ALL LOTS,ALONG DIVERSION ROAD,4000.0,DO 13-2020,unmatched,Palm Springs (42),0
+I,Bocohan,ALL LOTS,ALONG OTHER STREETS,3000.0,DO 13-2020,unmatched,Palm Springs (42),0
+RR,Bocohan,WELMANVILLE,,3000.0,DO 13-2020,unmatched,Palmville Residences (47),0
+RR,Bocohan,CIUDAD MAHARLIKA,,3000.0,DO 13-2020,unmatched,Maharlika Subdivision (72),0
+RR,Bocohan,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,3000.0,DO 13-2020,unmatched,Stone Gate (37),0
+CR,Bocohan,ALL LOTS,ALONG OTHER STREETS,2000.0,DO 13-2020,unmatched,Palm Springs (42),0
+CR,Bocohan,ALL LOTS,INTERIOR LOTS,1400.0,DO 13-2020,unmatched,Palm Springs (42),0
+RR,Bocohan,ALL LOTS,ALONG OTHER STREETS,1000.0,DO 13-2020,unmatched,Palm Springs (42),0
+RR,Bocohan,ALL LOTS,INTERIOR LOTS,700.0,DO 13-2020,unmatched,Palm Springs (42),0
+CR,Bocohan,PALM SPRINGS,,5500.0,DO 13-2020,village,Palm Springs,100
+RR,Bocohan,PALM SPRINGS,,3000.0,DO 13-2020,village,Palm Springs,100
+CR,Cotta,ALL OTHER STREETS,,2000.0,DO 13-2020,background,,0
+CR,Cotta,ALL OTHER STREETS,INTERIOR,2000.0,DO 13-2020,background,,0
+RR,Cotta,ALL OTHER STREETS,INTERIOR,1200.0,DO 13-2020,background,,0
+RR,Cotta,ALL OTHER STREETS,,1000.0,DO 13-2020,background,,0
+I,Cotta,QUEZON AVE EXT,,8500.0,DO 13-2020,unmatched,Luzon (53),0
+CR,Cotta,QUEZON AVE EXT,,6000.0,DO 13-2020,unmatched,Luzon (53),0
+CR,Cotta,CAPITOL HOMESITE,,4000.0,DO 13-2020,unmatched,Maligalig Compound (32),0
+RR,Cotta,QUEZON AVE EXT,,3000.0,DO 13-2020,unmatched,Luzon (53),0
+RR,Cotta,CAPITOL HOMESITE,,3000.0,DO 13-2020,unmatched,Maligalig Compound (32),0
+I,Dalahican,ALL LOTS,,7000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Dalahican,BESTLAND HOMES,,4000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Dalahican,ALL LOTS,,3000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Dalahican,BESTLAND HOMES,,2000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Dalahican,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Dalahican,ALL LOTS,INTERIOR LOTS,1000.0,DO 13-2020,unmatched,Luzon (31),0
+I,Domoit,ALL LOTS,ALONG DIVERSION ROAD,8000.0,DO 13-2020,unmatched,Palm Springs (42),0
+CR,Domoit,ALL LOTS,ALONG DIVERSION ROAD,6000.0,DO 13-2020,unmatched,Palm Springs (42),0
+CR,Domoit,CALMAR HOMES SUBD,,6000.0,DO 13-2020,unmatched,Palm Springs (47),0
+I,Domoit,ALL LOTS,ALONG OTHER STREETS,5000.0,DO 13-2020,unmatched,Palm Springs (42),0
+RR,Domoit,ALL LOTS,ALONG DIVERSION ROAD,4500.0,DO 13-2020,unmatched,Palm Springs (42),0
+CR,Domoit,VILLA AUREA,,4000.0,DO 13-2020,unmatched,Saint Michael (33),0
+CR,Domoit,ALL LOTS,ALONG OTHER STREETS,3000.0,DO 13-2020,unmatched,Palm Springs (42),0
+RR,Domoit,CALMAR HOMES SUBD,,3000.0,DO 13-2020,unmatched,Palm Springs (47),0
+RR,Domoit,ALL LOTS,ALONG OTHER STREETS,2000.0,DO 13-2020,unmatched,Palm Springs (42),0
+CR,Domoit,ALL LOTS,INTERIOR LOTS,2000.0,DO 13-2020,unmatched,Palm Springs (42),0
+RR,Domoit,VILLA AUREA,,2000.0,DO 13-2020,unmatched,Saint Michael (33),0
+RR,Domoit,ALL LOTS,INTERIOR LOTS,1000.0,DO 13-2020,unmatched,Palm Springs (42),0
+I,Gulang-gulang,ALL OTHER STREETS,,4500.0,DO 13-2020,background,,0
+CR,Gulang-gulang,ALL OTHER STREETS,,3000.0,DO 13-2020,background,,0
+RR,Gulang-gulang,ALL OTHER STREETS,,1500.0,DO 13-2020,background,,0
+RR,Gulang-gulang,ALL OTHER STREETS,INTERIOR LOTS,1000.0,DO 13-2020,background,,0
+I,Gulang-gulang,DOÑA AURORA BLVD,,9000.0,DO 13-2020,street,Doña Aurora Boulevard,100
+CR,Gulang-gulang,DOÑA AURORA BLVD,,8000.0,DO 13-2020,street,Doña Aurora Boulevard,100
+RR,Gulang-gulang,DOÑA AURORA BLVD,,4000.0,DO 13-2020,street,Doña Aurora Boulevard,100
+CR,Gulang-gulang,ST PETER SUBD,,4000.0,DO 13-2020,street,Saint Peter Street,97
+RR,Gulang-gulang,ST PETER SUBD,,2000.0,DO 13-2020,street,Saint Peter Street,97
+I,Gulang-gulang,ALONG DIVERSION ROAD,,11000.0,DO 13-2020,unmatched,San Isidro Subdivision (56),0
+CR,Gulang-gulang,ALONG DIVERSION ROAD,,10000.0,DO 13-2020,unmatched,San Isidro Subdivision (56),0
+CR,Gulang-gulang,RIDGEWOOD PARK SUBD,,10000.0,DO 13-2020,unmatched,Ridgewood Village (78),0
+CR,Gulang-gulang,MARILAG SUBD,,8000.0,DO 13-2020,unmatched,Saint Michael (40),0
+RR,Gulang-gulang,ALONG DIVERSION ROAD,,5000.0,DO 13-2020,unmatched,San Isidro Subdivision (56),0
+CR,Gulang-gulang,L I C COMPOUND,,5000.0,DO 13-2020,unmatched,Daleon Compound (0),0
+RR,Gulang-gulang,RIDGEWOOD PARK SUBD,,5000.0,DO 13-2020,unmatched,Ridgewood Village (78),0
+CR,Gulang-gulang,ANDAMAN VILLAGE,,4000.0,DO 13-2020,unmatched,Westland urban (48),0
+CR,Gulang-gulang,CARMELITE,,4000.0,DO 13-2020,unmatched,Saint Michael (55),0
+CR,Gulang-gulang,LA MILAGROS SUBD,,4000.0,DO 13-2020,unmatched,San Isidro Subdivision (50),0
+RR,Gulang-gulang,MARILAG SUBD,,4000.0,DO 13-2020,unmatched,Saint Michael (40),0
+CR,Gulang-gulang,NORTH EMPLOYEES SUBD,,4000.0,DO 13-2020,unmatched,West Employees Village (74),0
+CR,Gulang-gulang,ORGAS SUBD,,4000.0,DO 13-2020,unmatched,Purok Sariling Atin (35),0
+CR,Gulang-gulang,REGIS COMPOUND,,4000.0,DO 13-2020,unmatched,Ridgewood Village (31),0
+CR,Gulang-gulang,SOUTH EMPLOYEES,,4000.0,DO 13-2020,unmatched,West Employees Village (81),0
+CR,Gulang-gulang,ST MICHAEL SUBD,,4000.0,DO 13-2020,unmatched,Saint Michael (70),0
+CR,Gulang-gulang,UNSON SUBD,,4000.0,DO 13-2020,unmatched,Luzon (60),0
+CR,Gulang-gulang,ZABALLERO SUBD,,4000.0,DO 13-2020,unmatched,Daleon Compound (53),0
+RR,Gulang-gulang,L I C COMPOUND,,2500.0,DO 13-2020,unmatched,Daleon Compound (0),0
+RR,Gulang-gulang,ANDAMAN VILLAGE,,2000.0,DO 13-2020,unmatched,Westland urban (48),0
+RR,Gulang-gulang,CARMELITE,,2000.0,DO 13-2020,unmatched,Saint Michael (55),0
+RR,Gulang-gulang,LA MILAGROS SUBD,,2000.0,DO 13-2020,unmatched,San Isidro Subdivision (50),0
+RR,Gulang-gulang,NORTH EMPLOYEES SUBD,,2000.0,DO 13-2020,unmatched,West Employees Village (74),0
+RR,Gulang-gulang,ORGAS SUBD,,2000.0,DO 13-2020,unmatched,Purok Sariling Atin (35),0
+RR,Gulang-gulang,REGIS COMPOUND,,2000.0,DO 13-2020,unmatched,Ridgewood Village (31),0
+RR,Gulang-gulang,SOUTH EMPLOYEES,,2000.0,DO 13-2020,unmatched,West Employees Village (81),0
+RR,Gulang-gulang,ST MICHAEL SUBD,,2000.0,DO 13-2020,unmatched,Saint Michael (70),0
+RR,Gulang-gulang,UNSON SUBD,,2000.0,DO 13-2020,unmatched,Luzon (60),0
+RR,Gulang-gulang,ZABALLERO SUBD,,2000.0,DO 13-2020,unmatched,Daleon Compound (53),0
+CR,Gulang-gulang,CAMPO SUBD,,4000.0,DO 13-2020,village,Campo Subdivision,100
+CR,Gulang-gulang,CAPISTRANO COMPOUND/SUBD,,4000.0,DO 13-2020,village,Hermanas Capistrano Compound,95
+CR,Gulang-gulang,EMPLOYEES SUBD,,4000.0,DO 13-2020,village,West Employees Village,95
+CR,Gulang-gulang,JOSEPHINE SUBD,,4000.0,DO 13-2020,village,Josephine Subdivision,100
+RR,Gulang-gulang,CAMPO SUBD,,2000.0,DO 13-2020,village,Campo Subdivision,100
+RR,Gulang-gulang,CAPISTRANO COMPOUND/SUBD,,2000.0,DO 13-2020,village,Hermanas Capistrano Compound,95
+RR,Gulang-gulang,EMPLOYEES SUBD,,2000.0,DO 13-2020,village,West Employees Village,95
+RR,Gulang-gulang,JOSEPHINE SUBD,,2000.0,DO 13-2020,village,Josephine Subdivision,100
+I,Ibabang Dupay,ALL OTHER STREETS,,5000.0,DO 13-2020,background,,0
+CR,Ibabang Dupay,ALL OTHER STREETS,,3000.0,DO 13-2020,background,,0
+RR,Ibabang Dupay,ALL OTHER STREETS,,1500.0,DO 13-2020,background,,0
+RR,Ibabang Dupay,ALL OTHER STREETS,INTERIOR LOTS,1500.0,DO 13-2020,background,,0
+CR,Ibabang Dupay,ALONG SM CITY LUCENA,,20000.0,DO 13-2020,unmatched,Lucena Heights (55),0
+RR,Ibabang Dupay,ALONG SM CITY LUCENA,,11000.0,DO 13-2020,unmatched,Lucena Heights (55),0
+CR,Ibabang Dupay,METROPOLIS LUCENA I & II,,10000.0,DO 13-2020,unmatched,Daleon Compound (0),0
+CR,Ibabang Dupay,ALONG DIVERSION ROAD,,8000.0,DO 13-2020,unmatched,Sta Veronica Village (52),0
+I,Ibabang Dupay,ALONG DIVERSION ROAD,,7000.0,DO 13-2020,unmatched,Sta Veronica Village (52),0
+RR,Ibabang Dupay,METROPOLIS LUCENA I & II,,5000.0,DO 13-2020,unmatched,Daleon Compound (0),0
+CR,Ibabang Dupay,ALPSVILLE SUBD,,4000.0,DO 13-2020,unmatched,RJVille Subdivision (62),0
+CR,Ibabang Dupay,ST JUDE SATELLITE,,4000.0,DO 13-2020,unmatched,Lucena Heights (44),0
+CR,Ibabang Dupay,UNIVERSITY VILLAGE,,4000.0,DO 13-2020,unmatched,Lucena Heights (43),0
+RR,Ibabang Dupay,ALONG DIVERSION ROAD,,2500.0,DO 13-2020,unmatched,Sta Veronica Village (52),0
+RR,Ibabang Dupay,ALPSVILLE SUBD,,2000.0,DO 13-2020,unmatched,RJVille Subdivision (62),0
+RR,Ibabang Dupay,ST JUDE SATELLITE,,2000.0,DO 13-2020,unmatched,Lucena Heights (44),0
+RR,Ibabang Dupay,UNIVERSITY VILLAGE,,2000.0,DO 13-2020,unmatched,Lucena Heights (43),0
+CR,Ibabang Dupay,RGR SUBD,,4000.0,DO 13-2020,village,RGR Subdivision,100
+RR,Ibabang Dupay,RGR SUBD,,2000.0,DO 13-2020,village,RGR Subdivision,100
+I,Ibabang Iyam,ALL OTHER STREETS,,5000.0,DO 13-2020,background,,0
+CR,Ibabang Iyam,ALL OTHER STREETS,,4000.0,DO 13-2020,background,,0
+RR,Ibabang Iyam,ALL OTHER STREETS,,2000.0,DO 13-2020,background,,0
+RR,Ibabang Iyam,ALL OTHER STREETS,INTERIOR,1000.0,DO 13-2020,background,,0
+I,Ibabang Iyam,ALONG MAHARLIKA HIGHWAY,,10000.0,DO 13-2020,unmatched,Maharlika Subdivision (56),0
+CR,Ibabang Iyam,ALONG MAHARLIKA HIGHWAY,,8000.0,DO 13-2020,unmatched,Maharlika Subdivision (56),0
+RR,Ibabang Iyam,ALONG MAHARLIKA HIGHWAY,,4000.0,DO 13-2020,unmatched,Maharlika Subdivision (56),0
+CR,Ibabang Iyam,CITTA GRANDE,,10000.0,DO 13-2020,village,Citta Grande Subdivision,100
+RR,Ibabang Iyam,CITTA GRANDE,,5000.0,DO 13-2020,village,Citta Grande Subdivision,100
+CR,Ibabang Iyam,STEPHEN COMPOUND,,4000.0,DO 13-2020,village,Stephen compound,100
+RR,Ibabang Iyam,STEPHEN COMPOUND,,2000.0,DO 13-2020,village,Stephen compound,100
+I,Ibabang Talim,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,4000.0,DO 13-2020,unmatched,Luzon (27),0
+I,Ibabang Talim,ALL LOTS,,3000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Ibabang Talim,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,3000.0,DO 13-2020,unmatched,Luzon (27),0
+RR,Ibabang Talim,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,1500.0,DO 13-2020,unmatched,Luzon (27),0
+CR,Ibabang Talim,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ibabang Talim,ALL LOTS,,500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ibabang Talim,ALL LOTS,INTERIOR LOTS,400.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Ilayang Dupay,ALL OTHER STREETS,,3000.0,DO 13-2020,background,,0
+RR,Ilayang Dupay,ALL OTHER STREETS,,1500.0,DO 13-2020,background,,0
+RR,Ilayang Dupay,ALL OTHER STREETS,INTERIOR,1000.0,DO 13-2020,background,,0
+CR,Ilayang Dupay,ALONG DIVERSION ROAD,,8000.0,DO 13-2020,unmatched,Josephine Subdivision (33),0
+RR,Ilayang Dupay,ALONG DIVERSION ROAD,,4000.0,DO 13-2020,unmatched,Josephine Subdivision (33),0
+I,Ilayang Iyam,ALL LOTS,,6000.0,DO 13-2020,unmatched,Flores Subdivision (31),0
+CR,Ilayang Iyam,CALMAR SUBD,,6000.0,DO 13-2020,unmatched,Maharlika Subdivision (40),0
+CR,Ilayang Iyam,PUERTO DEL MAR,,6000.0,DO 13-2020,unmatched,River Park Estate Subdivision (42),0
+CR,Ilayang Iyam,ROSARIO SUBD,,5000.0,DO 13-2020,unmatched,Maharlika Subdivision (38),0
+CR,Ilayang Iyam,ALL LOTS,,4000.0,DO 13-2020,unmatched,Flores Subdivision (31),0
+CR,Ilayang Iyam,BETTER LIVING SUBD,,4000.0,DO 13-2020,unmatched,River Park Estate Subdivision (35),0
+CR,Ilayang Iyam,LOURDES SUBD,,4000.0,DO 13-2020,unmatched,Flores Subdivision (73),0
+CR,Ilayang Iyam,PLEASANTVILLE SUBD,,4000.0,DO 13-2020,unmatched,River Park Estate Subdivision (35),0
+RR,Ilayang Iyam,CALMAR SUBD,,3000.0,DO 13-2020,unmatched,Maharlika Subdivision (40),0
+RR,Ilayang Iyam,PUERTO DEL MAR,,3000.0,DO 13-2020,unmatched,River Park Estate Subdivision (42),0
+RR,Ilayang Iyam,ROSARIO SUBD,,2500.0,DO 13-2020,unmatched,Maharlika Subdivision (38),0
+RR,Ilayang Iyam,ALL LOTS,,2000.0,DO 13-2020,unmatched,Flores Subdivision (31),0
+RR,Ilayang Iyam,BETTER LIVING SUBD,,2000.0,DO 13-2020,unmatched,River Park Estate Subdivision (35),0
+RR,Ilayang Iyam,LOURDES SUBD,,2000.0,DO 13-2020,unmatched,Flores Subdivision (73),0
+RR,Ilayang Iyam,PLEASANTVILLE SUBD,,2000.0,DO 13-2020,unmatched,River Park Estate Subdivision (35),0
+RR,Ilayang Iyam,ALL LOTS,INTERIOR,1000.0,DO 13-2020,unmatched,Flores Subdivision (31),0
+CR,Ilayang Iyam,MAHARLIKA SUBD,,4000.0,DO 13-2020,village,Maharlika Subdivision,100
+RR,Ilayang Iyam,MAHARLIKA SUBD,,2000.0,DO 13-2020,village,Maharlika Subdivision,100
+I,Ilayang Talim,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,4000.0,DO 13-2020,unmatched,Santa Isabel Village (34),0
+I,Ilayang Talim,ALL LOTS,,3000.0,DO 13-2020,unmatched,Santa Isabel Village (40),0
+CR,Ilayang Talim,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,3000.0,DO 13-2020,unmatched,Santa Isabel Village (34),0
+RR,Ilayang Talim,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,1500.0,DO 13-2020,unmatched,Santa Isabel Village (34),0
+CR,Ilayang Talim,ALL LOTS,,1000.0,DO 13-2020,unmatched,Santa Isabel Village (40),0
+RR,Ilayang Talim,ALL LOTS,,500.0,DO 13-2020,unmatched,Santa Isabel Village (40),0
+RR,Ilayang Talim,ALL LOTS,INTERIOR,400.0,DO 13-2020,unmatched,Santa Isabel Village (40),0
+CR,Isabang,CITTA GRANDE PH IV,,8500.0,DO 13-2020,unmatched,Phase 4a (25),0
+I,Isabang,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,6000.0,DO 13-2020,unmatched,Valley Oaks (43),0
+RR,Isabang,CITTA GRANDE PH IV,,5000.0,DO 13-2020,unmatched,Phase 4a (25),0
+CR,Isabang,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,5000.0,DO 13-2020,unmatched,Valley Oaks (43),0
+I,Isabang,ALL LOTS,,4000.0,DO 13-2020,unmatched,Valley Oaks (63),0
+CR,Isabang,FIRENZE SUBD,,4000.0,DO 13-2020,unmatched,Citta Grande Subdivision (42),0
+CR,Isabang,HERMANA FAUSTA,,4000.0,DO 13-2020,unmatched,Cuesta Verde Lucena (48),0
+CR,Isabang,WELMANVILLE SUBD,,4000.0,DO 13-2020,unmatched,Palmville Residences (47),0
+CR,Isabang,ALL LOTS,,3000.0,DO 13-2020,unmatched,Valley Oaks (63),0
+RR,Isabang,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,3000.0,DO 13-2020,unmatched,Valley Oaks (43),0
+RR,Isabang,FIRENZE SUBD,,2000.0,DO 13-2020,unmatched,Citta Grande Subdivision (42),0
+RR,Isabang,HERMANA FAUSTA,,2000.0,DO 13-2020,unmatched,Cuesta Verde Lucena (48),0
+RR,Isabang,WELMANVILLE SUBD,,2000.0,DO 13-2020,unmatched,Palmville Residences (47),0
+RR,Isabang,ALL LOTS,,1500.0,DO 13-2020,unmatched,Valley Oaks (63),0
+RR,Isabang,ALL LOTS,INTERIOR,1000.0,DO 13-2020,unmatched,Valley Oaks (63),0
+CR,Isabang,CUESTA VERDE,,6000.0,DO 13-2020,village,Cuesta Verde Lucena,95
+CR,Isabang,MAHARLIKA VILLAGE,,4000.0,DO 13-2020,village,Maharlika Subdivision,100
+RR,Isabang,CUESTA VERDE,,3000.0,DO 13-2020,village,Cuesta Verde Lucena,95
+RR,Isabang,MAHARLIKA VILLAGE,,2000.0,DO 13-2020,village,Maharlika Subdivision,100
+CR,Market View,ALL LOTS,MARKET VIEW SUBD,4000.0,DO 13-2020,unmatched,Hillsview Solcom village (42),0
+RR,Market View,ALL LOTS,MARKET VIEW SUBD,2000.0,DO 13-2020,unmatched,Hillsview Solcom village (42),0
+CR,Market View,ALL LOTS,INTERIOR,2000.0,DO 13-2020,unmatched,Hillsview Solcom village (42),0
+RR,Market View,ALL LOTS,INTERIOR,1000.0,DO 13-2020,unmatched,Hillsview Solcom village (42),0
+I,Mayao Castillo,ALL LOTS,INTERIOR LOTS,2500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Mayao Castillo,ALL LOTS,,700.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Mayao Castillo,ALL LOTS,INTERIOR LOTS,500.0,DO 13-2020,unmatched,Luzon (31),0
+I,Mayao Crossing,ALL OTHER STREETS,,4000.0,DO 13-2020,background,,0
+CR,Mayao Crossing,ALL OTHER STREETS,,2000.0,DO 13-2020,background,,0
+RR,Mayao Crossing,ALL OTHER STREETS,,1000.0,DO 13-2020,background,,0
+RR,Mayao Crossing,ALL OTHER STREETS,INTERIOR,800.0,DO 13-2020,background,,0
+I,Mayao Crossing,ALONG DALAHICAN ROAD,,4000.0,DO 13-2020,unmatched,Maligalig Compound (50),0
+CR,Mayao Crossing,RACVILLE COMPOUD,,4000.0,DO 13-2020,unmatched,RJVille Subdivision (52),0
+CR,Mayao Crossing,RANCHO SOCORRO,,4000.0,DO 13-2020,unmatched,Hillsview Solcom village (40),0
+CR,Mayao Crossing,ALONG DALAHICAN ROAD,,3000.0,DO 13-2020,unmatched,Maligalig Compound (50),0
+RR,Mayao Crossing,RACVILLE COMPOUD,,2000.0,DO 13-2020,unmatched,RJVille Subdivision (52),0
+RR,Mayao Crossing,RANCHO SOCORRO,,2000.0,DO 13-2020,unmatched,Hillsview Solcom village (40),0
+RR,Mayao Crossing,ALONG DALAHICAN ROAD,,1200.0,DO 13-2020,unmatched,Maligalig Compound (50),0
+CR,Mayao Crossing,ST JUDE EAST PHASE II,,4000.0,DO 13-2020,village,"Village of Saint Jude, East 2",95
+RR,Mayao Crossing,ST JUDE EAST PHASE II,,2000.0,DO 13-2020,village,"Village of Saint Jude, East 2",95
+CR,Mayao Kanluran,ALL OTHER STREETS,,3000.0,DO 13-2020,background,,0
+RR,Mayao Kanluran,ALL OTHER STREETS,,1500.0,DO 13-2020,background,,0
+RR,Mayao Kanluran,ALL OTHER STREETS,INTERIOR,1000.0,DO 13-2020,background,,0
+CR,Mayao Kanluran,ST THOMAS VILLAGE,,4000.0,DO 13-2020,street,Saint Thomas Avenue,97
+RR,Mayao Kanluran,ST THOMAS VILLAGE,,2000.0,DO 13-2020,street,Saint Thomas Avenue,97
+CR,Mayao Kanluran,METROPOLIS-SOUTHGATE,,8000.0,DO 13-2020,unmatched,Metropolis Subdivision (64),0
+CR,Mayao Kanluran,ALONG DIVERSION ROAD,,7000.0,DO 13-2020,unmatched,Luzon (30),0
+RR,Mayao Kanluran,METROPOLIS-SOUTHGATE,,5000.0,DO 13-2020,unmatched,Metropolis Subdivision (64),0
+CR,Mayao Kanluran,ST JUDE SATELLITE CITY,,4000.0,DO 13-2020,unmatched,Executive Village (36),0
+RR,Mayao Kanluran,ALONG DIVERSION ROAD,,3500.0,DO 13-2020,unmatched,Luzon (30),0
+RR,Mayao Kanluran,ST JUDE SATELLITE CITY,,2000.0,DO 13-2020,unmatched,Executive Village (36),0
+CR,Mayao Kanluran,CALMAR SUBD,,8000.0,DO 13-2020,village,Calmar Homes,100
+RR,Mayao Kanluran,CALMAR SUBD,,5000.0,DO 13-2020,village,Calmar Homes,100
+CR,Mayao Kanluran,EXECUTIVE VILLAGE,,4000.0,DO 13-2020,village,Executive Village,100
+CR,Mayao Kanluran,MARVILLE HOMES,,4000.0,DO 13-2020,village,Marville Homes,100
+CR,Mayao Kanluran,RGR SUBD,,4000.0,DO 13-2020,village,RGR Subdivision,100
+RR,Mayao Kanluran,EXECUTIVE VILLAGE,,2000.0,DO 13-2020,village,Executive Village,100
+RR,Mayao Kanluran,MARVILLE HOMES,,2000.0,DO 13-2020,village,Marville Homes,100
+RR,Mayao Kanluran,RGR SUBD,,2000.0,DO 13-2020,village,RGR Subdivision,100
+CR,Mayao Parada,ALL LOTS,,1200.0,DO 13-2020,unmatched,Purok Mabilog (38),0
+RR,Mayao Parada,ALL LOTS,,800.0,DO 13-2020,unmatched,Purok Mabilog (38),0
+RR,Mayao Parada,ALL LOTS,INTERIOR LOTS,500.0,DO 13-2020,unmatched,Purok Mabilog (38),0
+CR,Mayao Silangan,ALL OTHER STREETS,,3500.0,DO 13-2020,background,,0
+RR,Mayao Silangan,ALL OTHER STREETS,,1500.0,DO 13-2020,background,,0
+CR,Mayao Silangan,ALONG DIVERSION ROAD,,6000.0,DO 13-2020,unmatched,Daleon compound (48),0
+CR,Mayao Silangan,BESTLAND HOMES,,4000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Mayao Silangan,GREEN MEADOWS SUBD,,4000.0,DO 13-2020,unmatched,Calmar Homes North (25),0
+CR,Mayao Silangan,RAC VILLE,,4000.0,DO 13-2020,unmatched,Almontville (60),0
+CR,Mayao Silangan,RANCHO,,4000.0,DO 13-2020,unmatched,Daleon compound (33),0
+RR,Mayao Silangan,ALONG DIVERSION ROAD,,2000.0,DO 13-2020,unmatched,Daleon compound (48),0
+RR,Mayao Silangan,BESTLAND HOMES,,2000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Mayao Silangan,GREEN MEADOWS SUBD,,2000.0,DO 13-2020,unmatched,Calmar Homes North (25),0
+RR,Mayao Silangan,RAC VILLE,,2000.0,DO 13-2020,unmatched,Almontville (60),0
+RR,Mayao Silangan,RANCHO,,2000.0,DO 13-2020,unmatched,Daleon compound (33),0
+CR,Ransohan,ALL LOTS,,2000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ransohan,ALL LOTS,,800.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ransohan,ALL LOTS,INTERIOR LOTS,500.0,DO 13-2020,unmatched,Luzon (31),0
+I,Salinas,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,3500.0,DO 13-2020,unmatched,Luzon (27),0
+CR,Salinas,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,2500.0,DO 13-2020,unmatched,Luzon (27),0
+CR,Salinas,ALL LOTS,,1500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Salinas,ALONG ECO-TOURISM ROAD,NEWLY OPENED AREA,1200.0,DO 13-2020,unmatched,Luzon (27),0
+RR,Salinas,ALL LOTS,,800.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Salinas,ALL LOTS,INTERIOR LOTS,500.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Talao-talao,ALL LOTS,,2500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Talao-talao,ALL LOTS,,1500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Talao-talao,ALL LOTS,INTERIOR LOTS,1000.0,DO 13-2020,unmatched,Luzon (31),0

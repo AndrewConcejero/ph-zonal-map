@@ -1,0 +1,156 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+I,Angeles,ALL LOTS,ALONG BRGY ROAD,800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Angeles,ALL LOTS,ALONG BRGY ROAD,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Angeles,ALL LOTS,ALONG BRGY ROAD,500.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Bacong,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Bacong,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Bacong,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Bacong,ALL LOTS,ALONG BRGY ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Bacong,ALL LOTS,ALONG NATIONAL ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Bacong,ALL LOTS,ALONG BRGY ROAD,850.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Balungay,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Balungay,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Balungay,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Balungay,ALL LOTS,ALONG BRGY ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Balungay,ALL LOTS,ALONG NATIONAL ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Balungay,ALL LOTS,ALONG BRGY ROAD,750.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Balungay,ALL LOTS,INTERIOR LOTS,150.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Barangay 1,ALL OTHER STREETS,,1500.0,DO 33-2019,background,,0
+RR,Barangay 1,ALL OTHER STREETS,,1200.0,DO 33-2019,background,,0
+CR,Barangay 1,MASCARINA ST,,2000.0,DO 33-2019,street,Mascariñas Street,97
+CR,Barangay 1,OLIVEROS ST.,,2000.0,DO 33-2019,street,Oliveros Street,100
+RR,Barangay 1,MASCARINA ST,,1600.0,DO 33-2019,street,Mascariñas Street,97
+RR,Barangay 1,OLIVEROS ST.,,1600.0,DO 33-2019,street,Oliveros Street,100
+CR,Barangay 1,ALONG NATIONAL ROAD,,2100.0,DO 33-2019,unmatched,Alabat Island (44),0
+CR,Barangay 1,OLIVEROS ST. EXTENSION,,2000.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay 1,ALPAY DRIVE,,2000.0,DO 33-2019,unmatched,Alabat Island (33),0
+CR,Barangay 1,COAST TO COAST ROAD,,2000.0,DO 33-2019,unmatched,Alabat Island (30),0
+RR,Barangay 1,ALONG NATIONAL ROAD,,1700.0,DO 33-2019,unmatched,Alabat Island (44),0
+RR,Barangay 1,ALPAY DRIVE,,1600.0,DO 33-2019,unmatched,Alabat Island (33),0
+RR,Barangay 1,COAST TO COAST ROAD,,1600.0,DO 33-2019,unmatched,Alabat Island (30),0
+RR,Barangay 1,OLIVEROS ST. EXTENSION,,1500.0,DO 33-2019,unmatched,Alabat Island (27),0
+CR,Barangay 2,ALL OTHER STREETS,,1500.0,DO 33-2019,background,,0
+RR,Barangay 2,ALL OTHER STREETS,,1200.0,DO 33-2019,background,,0
+CR,Barangay 2,CALIWARA ST,,2000.0,DO 33-2019,street,Caliwara Street,100
+CR,Barangay 2,RIZAL ST,,2000.0,DO 33-2019,street,Rizal Street,100
+CR,Barangay 2,GUINTO ST,,2000.0,DO 33-2019,street,L. Guinto Street,90.0
+CR,Barangay 2,MAGSAYSAY ST,,2000.0,DO 33-2019,street,Magsaysay Street,100
+RR,Barangay 2,CALIWARA ST,,1600.0,DO 33-2019,street,Caliwara Street,100
+RR,Barangay 2,RIZAL ST,,1600.0,DO 33-2019,street,Rizal Street,100
+RR,Barangay 2,GUINTO ST,,1600.0,DO 33-2019,street,L. Guinto Street,90.0
+RR,Barangay 2,MAGSAYSAY ST,,1500.0,DO 33-2019,street,Magsaysay Street,100
+CR,Barangay 2,BALDOVINO ST,,2000.0,DO 33-2019,unmatched,Alabat Island (36),0
+CR,Barangay 2,GUINTO EXTENSION,,2000.0,DO 33-2019,unmatched,Alabat Island (28),0
+RR,Barangay 2,BALDOVINO ST,,1600.0,DO 33-2019,unmatched,Alabat Island (36),0
+RR,Barangay 2,GUINTO EXTENSION,,1600.0,DO 33-2019,unmatched,Alabat Island (28),0
+CR,Barangay 3,ALL OTHER STREETS,,1500.0,DO 33-2019,background,,0
+RR,Barangay 3,ALL OTHER STREETS,,1200.0,DO 33-2019,background,,0
+CR,Barangay 3,CALIWARA ST,,2000.0,DO 33-2019,street,Caliwara Street,100
+CR,Barangay 3,OLIVEROS ST,,2000.0,DO 33-2019,street,Oliveros Street,100
+CR,Barangay 3,MAGSAYSAY ST,,2000.0,DO 33-2019,street,Magsaysay Street,100
+CR,Barangay 3,BARCELONA ST,,2000.0,DO 33-2019,street,Barcelona Street,100
+RR,Barangay 3,CALIWARA ST,,1600.0,DO 33-2019,street,Caliwara Street,100
+RR,Barangay 3,OLIVEROS ST,,1600.0,DO 33-2019,street,Oliveros Street,100
+RR,Barangay 3,MAGSAYSAY ST,,1600.0,DO 33-2019,street,Magsaysay Street,100
+RR,Barangay 3,BARCELONA ST,,1600.0,DO 33-2019,street,Barcelona Street,100
+CR,Barangay 3,FELIX ALPAY ST,,2000.0,DO 33-2019,unmatched,Alabat Island (42),0
+CR,Barangay 3,F. ALPAY ST. EXTENSION,,2000.0,DO 33-2019,unmatched,Alabat Island (40),0
+RR,Barangay 3,FELIX ALPAY ST,,1600.0,DO 33-2019,unmatched,Alabat Island (42),0
+RR,Barangay 3,F. ALPAY ST. EXTENSION,,1600.0,DO 33-2019,unmatched,Alabat Island (40),0
+CR,Barangay 4,ALL OTHER STREETS,,1500.0,DO 33-2019,background,,0
+RR,Barangay 4,ALL OTHER STREETS,,1200.0,DO 33-2019,background,,0
+CR,Barangay 4,GEN LUNA ST,,2000.0,DO 33-2019,street,General Luna,97
+CR,Barangay 4,QUEZON ST,,2000.0,DO 33-2019,street,Quezon Street,100
+CR,Barangay 4,CAPARROS ST,,2000.0,DO 33-2019,street,Caparros Street,100
+CR,Barangay 4,RIZAL ST,,2000.0,DO 33-2019,street,Rizal Street,100
+CR,Barangay 4,BONIFACIO ST,,2000.0,DO 33-2019,street,Bonifacio,97
+RR,Barangay 4,GEN LUNA ST,,1600.0,DO 33-2019,street,General Luna,97
+RR,Barangay 4,QUEZON ST,,1600.0,DO 33-2019,street,Quezon Street,100
+RR,Barangay 4,CAPARROS ST,,1600.0,DO 33-2019,street,Caparros Street,100
+RR,Barangay 4,RIZAL ST,,1600.0,DO 33-2019,street,Rizal Street,100
+RR,Barangay 4,BONIFACIO ST,,1600.0,DO 33-2019,street,Bonifacio,97
+CR,Barangay 4,ALONG NATIONAL ROAD,,2100.0,DO 33-2019,unmatched,Alabat Island (44),0
+CR,Barangay 4,FRANCIA ST,,2000.0,DO 33-2019,unmatched,Alabat Island (30),0
+CR,Barangay 4,CARMEN ST,,2000.0,DO 33-2019,unmatched,Alabat Island (21),0
+CR,Barangay 4,RIZAL ST EXT.,,2000.0,DO 33-2019,unmatched,Alabat Island (36),0
+CR,Barangay 4,ALL CORNER LOTS,,2000.0,DO 33-2019,unmatched,Alabat Island (29),0
+RR,Barangay 4,ALONG NATIONAL ROAD,,1700.0,DO 33-2019,unmatched,Alabat Island (44),0
+RR,Barangay 4,FRANCIA ST,,1600.0,DO 33-2019,unmatched,Alabat Island (30),0
+RR,Barangay 4,CARMEN ST,,1600.0,DO 33-2019,unmatched,Alabat Island (21),0
+RR,Barangay 4,RIZAL ST EXT.,,1600.0,DO 33-2019,unmatched,Alabat Island (36),0
+RR,Barangay 4,ALL CORNER LOTS,,1600.0,DO 33-2019,unmatched,Alabat Island (29),0
+CR,Barangay 5,ALL OTHER STREETS,,2000.0,DO 33-2019,background,,0
+RR,Barangay 5,ALL OTHER STREETS,,1500.0,DO 33-2019,background,,0
+CR,Barangay 5,QUEZON ST,,2000.0,DO 33-2019,street,Quezon Street,100
+CR,Barangay 5,DR. FELIX ALPAY ST,,2000.0,DO 33-2019,street,Felix Alpay Drive,97
+CR,Barangay 5,MAGSAYSAY ST.,,2000.0,DO 33-2019,street,Magsaysay Street,100
+RR,Barangay 5,QUEZON ST,,1600.0,DO 33-2019,street,Quezon Street,100
+RR,Barangay 5,DR. FELIX ALPAY ST,,1600.0,DO 33-2019,street,Felix Alpay Drive,97
+RR,Barangay 5,MAGSAYSAY ST.,,1600.0,DO 33-2019,street,Magsaysay Street,100
+CR,Barangay 5,FRANCIA ST,,2000.0,DO 33-2019,unmatched,Alabat Island (30),0
+CR,Barangay 5,RECTO ST,FR. A ACARIÑAS ST-QUEZON ST,2000.0,DO 33-2019,unmatched,Alabat Island (11),0
+RR,Barangay 5,FRANCIA ST,,1600.0,DO 33-2019,unmatched,Alabat Island (30),0
+RR,Barangay 5,RECTO ST,FR. A ACARIÑAS ST-QUEZON ST,1600.0,DO 33-2019,unmatched,Alabat Island (11),0
+CR,Barangay 5,ALL INTERIOR LOTS,,1500.0,DO 33-2019,unmatched,Alabat Island (33),0
+RR,Barangay 5,ALL INTERIOR LOTS,,1200.0,DO 33-2019,unmatched,Alabat Island (33),0
+I,Buenavista,ALL LOTS,ALONG NATIONAL ROAD,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Buenavista,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Buenavista,ALL LOTS,ALONG ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Buenavista,ALL LOTS,ALONG ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Buenavista,ALL LOTS,ALONG NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Buenavista,ALL LOTS,ALONG ROAD,850.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Caglate,ALL LOTS,ALONG NATIONAL ROAD,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Caglate,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Caglate,ALL LOTS,ALONG BRGY ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Caglate,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Caglate,ALL LOTS,ALONG NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Caglate,ALL LOTS,ALONG BRGY ROAD,850.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Camagong,ALL LOTS,CAMAGONG-VILLA NORTE ROAD (COAST TO COAST ROAD),1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Camagong,ALL LOTS,CAMAGONG-VILLA NORTE ROAD (COAST TO COAST ROAD),1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Camagong,ALL LOTS,ALONG BRGY ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Camagong,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Camagong,ALL LOTS,CAMAGONG-VILLA NORTE ROAD (COAST TO COAST ROAD),1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Camagong,ALL LOTS,ALONG BRGY ROAD,850.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Gordon,ALL LOTS,ALONG NATIONAL ROAD,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Gordon,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Gordon,ALL LOTS,BRGY ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Gordon,ALL LOTS,BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Gordon,ALL LOTS,ALONG NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Gordon,ALL LOTS,BRGY ROAD,850.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Pambilan Norte,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Pambilan Norte,ALL LOTS,ALONG NATIONAL ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Pambilan Norte,ALL LOTS,ALONG BRGY ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Pambilan Norte,ALL LOTS,ALONG BRGY ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pambilan Norte,ALL LOTS,ALONG NATIONAL ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pambilan Norte,ALL LOTS,ALONG BRGY ROAD,650.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Pambilan Sur,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Pambilan Sur,ALL LOTS,ALONG NATIONAL ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Pambilan Sur,ALL LOTS,BRGY ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Pambilan Sur,ALL LOTS,BRGY ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pambilan Sur,ALL LOTS,ALONG NATIONAL ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pambilan Sur,ALL LOTS,BRGY ROAD,650.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pambilan Sur,ALL LOTS,INTERIOR LOTS,150.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villa Esperanza,ALL LOTS,ALONG BRGY ROAD,800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Esperanza,ALL LOTS,ALONG BRGY ROAD,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Esperanza,ALL LOTS,ALONG BRGY ROAD,500.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villa Jesus Este,ALL LOTS,ALONG NATIONAL ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Jesus Este,ALL LOTS,ALONG NATIONAL ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villa Jesus Este,ALL LOTS,ALONG BRGY ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Jesus Este,ALL LOTS,ALONG BRGY ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Jesus Este,ALL LOTS,ALONG NATIONAL ROAD,800.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Jesus Este,ALL LOTS,ALONG BRGY ROAD,550.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villa Jesus Weste,ALL LOTS,ALONG NATIONAL ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Jesus Weste,ALL LOTS,ALONG NATIONAL ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villa Jesus Weste,ALL LOTS,ALONG BRGY ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Jesus Weste,ALL LOTS,ALONG BRGY ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Jesus Weste,ALL LOTS,ALONG NATIONAL ROAD,800.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Jesus Weste,ALL LOTS,ALONG BRGY ROAD,550.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villa Norte,ALL LOTS,ALONG BARANGAY ROAD,900.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Norte,ALL LOTS,ALONG BARANGAY ROAD,800.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Norte,ALL LOTS,ALONG BARANGAY ROAD,600.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villa Victoria,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Victoria,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villa Victoria,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villa Victoria,ALL LOTS,ALONG BRGY ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Victoria,ALL LOTS,ALONG NATIONAL ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villa Victoria,ALL LOTS,ALONG BRGY ROAD,850.0,DO 33-2019,unmatched,Alabat Island (38),0

@@ -1,0 +1,70 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+RR,Bagong Silang,ALL LOTS,,150.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Capalong,ALL LOTS,,450.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Capalong,ALL LOTS,,410.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Cawayan,ALL LOTS,,850.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Cawayan,ALL LOTS,,410.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Kiloloran,ALL LOTS,,500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Kiloloran,ALL LOTS,,410.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Llavac,ALL LOTS,,500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Llavac,ALL LOTS,,410.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Lubayat,ALL LOTS,,600.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Lubayat,ALL LOTS,,500.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Malapad,ALL LOTS,,450.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Malapad,ALL LOTS,,360.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Maragondon,ALL LOTS,,450.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Maragondon,ALL LOTS,,360.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Masikap,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Maunlad,ALL LOTS,,150.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Pandan,ALL LOTS,,450.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Pandan,ALL LOTS,,300.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Poblacion 61,ALL OTHER STREETS,POB. 1 & 61,1800.0,DO 13-2020,background,,0
+RR,Poblacion 61,ALL OTHER STREETS,POB. 1 & 61,1000.0,DO 13-2020,background,,0
+RR,Poblacion 61,ALL OTHER STREETS,INTERIOR,800.0,DO 13-2020,background,,0
+CR,Poblacion 61,ENVERGA ST.,POB. 1 & 61,2800.0,DO 13-2020,street,Enverga Street,100
+RR,Poblacion 61,ENVERGA ST.,POB. 1 & 61,2200.0,DO 13-2020,street,Enverga Street,100
+RR,Poblacion 61,ATENDIDO ST.,POB. 1,1700.0,DO 13-2020,street,B. Atendido Street,91.66666666666666
+RR,Poblacion 61,VILLANUEVA ST.,POB. 1,1700.0,DO 13-2020,street,Villanueva Street,100
+CR,Poblacion 61,QUEZON AVENUE ST.,POB. 1,3350.0,DO 13-2020,unmatched,Luzon (73),0
+CR,Poblacion 61,ROBLES AVENUE,POB. 1 & 61,3300.0,DO 13-2020,unmatched,Luzon (20),0
+CR,Poblacion 61,AVENO ST.,POB. 61,2800.0,DO 13-2020,unmatched,Luzon (20),0
+CR,Poblacion 61,MIRAS ST.,POB. 1 & 61,2800.0,DO 13-2020,unmatched,Luzon (0),0
+RR,Poblacion 61,QUEZON AVENUE ST.,POB. 1,2750.0,DO 13-2020,unmatched,Luzon (73),0
+RR,Poblacion 61,ROBLES AVENUE,POB. 1 & 61,2700.0,DO 13-2020,unmatched,Luzon (20),0
+RR,Poblacion 61,DIESTRO ST.,POB. 1,2200.0,DO 13-2020,unmatched,Luzon (17),0
+RR,Poblacion 61,AVENO ST.,POB. 61,1700.0,DO 13-2020,unmatched,Luzon (20),0
+RR,Poblacion 61,BICOLVILLE SUBD.,POB. 1,1700.0,DO 13-2020,unmatched,Luzon (13),0
+RR,Poblacion 61,ALCALA ST.,POB. 1,1200.0,DO 13-2020,unmatched,Luzon (18),0
+RR,Poblacion 61,GARCIA BLVD.,POB. 61,1200.0,DO 13-2020,unmatched,Luzon (0),0
+RR,Poblacion 61,MIRAS ST.,POB. 1 & 61,1200.0,DO 13-2020,unmatched,Luzon (0),0
+RR,Poblacion 61,SANTANA SUBD.,POB. 1,1200.0,DO 13-2020,unmatched,Luzon (17),0
+RR,Poblacion 61,VISAYANVILLE SUBD.,POB. 61,1200.0,DO 13-2020,unmatched,Luzon (12),0
+CR,Poblacion I,ALL OTHER STREETS,POB. 1 & 61,1800.0,DO 13-2020,background,,0
+RR,Poblacion I,ALL OTHER STREETS,POB. 1 & 61,1000.0,DO 13-2020,background,,0
+RR,Poblacion I,ALL OTHER STREETS,INTERIOR,800.0,DO 13-2020,background,,0
+CR,Poblacion I,ENVERGA ST.,POB. 1 & 61,2800.0,DO 13-2020,street,Enverga Street,100
+RR,Poblacion I,ENVERGA ST.,POB. 1 & 61,2200.0,DO 13-2020,street,Enverga Street,100
+RR,Poblacion I,ATENDIDO ST.,POB. 1,1700.0,DO 13-2020,street,B. Atendido Street,91.66666666666666
+RR,Poblacion I,VILLANUEVA ST.,POB. 1,1700.0,DO 13-2020,street,Villanueva Street,100
+CR,Poblacion I,QUEZON AVENUE ST.,POB. 1,3350.0,DO 13-2020,unmatched,Luzon (73),0
+CR,Poblacion I,ROBLES AVENUE,POB. 1 & 61,3300.0,DO 13-2020,unmatched,Luzon (20),0
+CR,Poblacion I,AVENO ST.,POB. 61,2800.0,DO 13-2020,unmatched,Luzon (20),0
+CR,Poblacion I,MIRAS ST.,POB. 1 & 61,2800.0,DO 13-2020,unmatched,Luzon (0),0
+RR,Poblacion I,QUEZON AVENUE ST.,POB. 1,2750.0,DO 13-2020,unmatched,Luzon (73),0
+RR,Poblacion I,ROBLES AVENUE,POB. 1 & 61,2700.0,DO 13-2020,unmatched,Luzon (20),0
+RR,Poblacion I,DIESTRO ST.,POB. 1,2200.0,DO 13-2020,unmatched,Luzon (17),0
+RR,Poblacion I,AVENO ST.,POB. 61,1700.0,DO 13-2020,unmatched,Luzon (20),0
+RR,Poblacion I,BICOLVILLE SUBD.,POB. 1,1700.0,DO 13-2020,unmatched,Luzon (13),0
+RR,Poblacion I,ALCALA ST.,POB. 1,1200.0,DO 13-2020,unmatched,Luzon (18),0
+RR,Poblacion I,GARCIA BLVD.,POB. 61,1200.0,DO 13-2020,unmatched,Luzon (0),0
+RR,Poblacion I,MIRAS ST.,POB. 1 & 61,1200.0,DO 13-2020,unmatched,Luzon (0),0
+RR,Poblacion I,SANTANA SUBD.,POB. 1,1200.0,DO 13-2020,unmatched,Luzon (17),0
+RR,Poblacion I,VISAYANVILLE SUBD.,POB. 61,1200.0,DO 13-2020,unmatched,Luzon (12),0
+CR,Tagumpay,ALL LOTS,,300.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Tagumpay,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Tanauan,ALL LOTS,,500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Tanauan,ALL LOTS,,360.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Tignoan,ALL LOTS,,500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Tignoan,ALL LOTS,,410.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Ungos,ALL LOTS,,550.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Ungos,ALL LOTS,,410.0,DO 13-2020,unmatched,Luzon (31),0

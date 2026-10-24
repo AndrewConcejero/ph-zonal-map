@@ -1,0 +1,138 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Abo-abo,ALL LOTS,,250.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Abo-abo,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Alitap,ALL LOTS,,250.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Alitap,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Baao,ALL LOTS,,600.0,DO 13-2020,unmatched,San Isidro (33),0
+RR,Baao,ALL LOTS,,350.0,DO 13-2020,unmatched,San Isidro (33),0
+CR,Bagong Bayan,ALL OTHER STREETS,,1500.0,DO 13-2020,background,,0
+RR,Bagong Bayan,ALL OTHER STREETS,,600.0,DO 13-2020,background,,0
+RR,Bagong Bayan,ALL OTHER STREETS,INTERIOR,400.0,DO 13-2020,background,,0
+CR,Bagong Bayan,QUEZON ST,,2000.0,DO 13-2020,street,Quezon Street,100
+CR,Bagong Bayan,ENVERGA ST.,,1800.0,DO 13-2020,street,Enverga Street,100
+RR,Bagong Bayan,QUEZON ST,,1000.0,DO 13-2020,street,Quezon Street,100
+RR,Bagong Bayan,ENVERGA ST.,,900.0,DO 13-2020,street,Enverga Street,100
+CR,Balaybalay,ALL LOTS,,800.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Balaybalay,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Bato,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Bato,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Cagbalete I,ALL LOTS,,800.0,DO 13-2020,unmatched,Cagbalete Island (33),0
+RR,Cagbalete I,ALL LOTS,,300.0,DO 13-2020,unmatched,Cagbalete Island (33),0
+CR,Cagbalete II,ALL LOTS,,800.0,DO 13-2020,unmatched,Cagbalete Island (33),0
+RR,Cagbalete II,ALL LOTS,,250.0,DO 13-2020,unmatched,Cagbalete Island (33),0
+I,Cagsiay I,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Cagsiay I,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Cagsiay I,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+I,Cagsiay II,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Cagsiay II,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Cagsiay II,ALL LOTS,,250.0,DO 13-2020,unmatched,Luzon (31),0
+I,Cagsiay III,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Cagsiay III,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Cagsiay III,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Concepcion,ALL LOTS,,500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Concepcion,ALL LOTS,,350.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Daungan,ALL OTHER STREETS,,1400.0,DO 13-2020,background,,0
+RR,Daungan,ALL OTHER STREETS,,700.0,DO 13-2020,background,,0
+RR,Daungan,ALL OTHER STREETS,INTERIOR,450.0,DO 13-2020,background,,0
+CR,Daungan,MABINI ST,,2000.0,DO 13-2020,street,Mabini Street,100
+CR,Daungan,RIZAL ST,,2000.0,DO 13-2020,street,Rizal Street,100
+CR,Daungan,GOMEZ,,2000.0,DO 13-2020,street,Gomez Street,97
+RR,Daungan,MABINI ST,,1000.0,DO 13-2020,street,Mabini Street,100
+RR,Daungan,RIZAL ST,,1000.0,DO 13-2020,street,Rizal Street,100
+RR,Daungan,GOMEZ,,1000.0,DO 13-2020,street,Gomez Street,97
+CR,Daungan,VICENTE DE VERA,,2000.0,DO 13-2020,unmatched,Sitio Balingbalingan (23),0
+CR,Daungan,DELA COSTA,,2000.0,DO 13-2020,unmatched,Luzon (27),0
+RR,Daungan,VICENTE DE VERA,,1000.0,DO 13-2020,unmatched,Sitio Balingbalingan (23),0
+RR,Daungan,DELA COSTA,,1000.0,DO 13-2020,unmatched,Luzon (27),0
+I,Liwayway,ALL LOTS,,800.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Liwayway,ALL LOTS,,600.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Liwayway,BAHAY LIWAYWAY SUBD.,,500.0,DO 13-2020,unmatched,Luzon (11),0
+RR,Liwayway,ALL LOTS,,300.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Lual,ALL OTHER STREETS,,1200.0,DO 13-2020,background,,0
+RR,Lual,ALL OTHER STREETS,,600.0,DO 13-2020,background,,0
+RR,Lual,ALL OTHER STREETS,INTERIOR,400.0,DO 13-2020,background,,0
+CR,Lual,PLARIDEL ST,,1800.0,DO 13-2020,street,Plaridel Street,100
+CR,Lual,QUEZON ST.,,1800.0,DO 13-2020,street,Quezon Street,100
+RR,Lual,PLARIDEL ST,,900.0,DO 13-2020,street,Plaridel Street,100
+RR,Lual,QUEZON ST.,,900.0,DO 13-2020,street,Quezon Street,100
+CR,Lual,JUANCHO ST,,1800.0,DO 13-2020,unmatched,Luzon (33),0
+RR,Lual,JUANCHO ST,,900.0,DO 13-2020,unmatched,Luzon (33),0
+CR,Lual Rural,QUEZON ST.,,1600.0,DO 13-2020,street,Quezon Street,100
+RR,Lual Rural,QUEZON ST.,,800.0,DO 13-2020,street,Quezon Street,100
+CR,Lual Rural,ALL LOTS,,1100.0,DO 13-2020,unmatched,San Lorenzo Ruiz Compound (33),0
+RR,Lual Rural,ALL LOTS,,450.0,DO 13-2020,unmatched,San Lorenzo Ruiz Compound (33),0
+CR,Lucutan,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Lucutan,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Luya-luya,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Luya-luya,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Mabato,ALL OTHER STREETS,,1000.0,DO 13-2020,background,,0
+RR,Mabato,ALL OTHER STREETS,,500.0,DO 13-2020,background,,0
+RR,Mabato,ALL OTHER STREETS,INTERIOR,400.0,DO 13-2020,background,,0
+CR,Mabato,AGUINALDO ST,,1300.0,DO 13-2020,street,Aguinaldo,97
+CR,Mabato,GOMEZ ST.,,1300.0,DO 13-2020,street,Gomez Street,100
+RR,Mabato,AGUINALDO ST,,700.0,DO 13-2020,street,Aguinaldo,97
+RR,Mabato,GOMEZ ST.,,700.0,DO 13-2020,street,Gomez Street,100
+CR,Mabato,JOCSON ST.,,1300.0,DO 13-2020,unmatched,Luzon (36),0
+RR,Mabato,JOCSON ST.,,700.0,DO 13-2020,unmatched,Luzon (36),0
+CR,Macasin,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Macasin,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Polo,ALL OTHER LOTS,,350.0,DO 13-2020,background,,0
+CR,Polo,ALONG NATIONAL ROAD,,2000.0,DO 13-2020,unmatched,Brgy. Santol (48),0
+RR,Polo,ALONG NATIONAL ROAD,,1000.0,DO 13-2020,unmatched,Brgy. Santol (48),0
+RR,Polo,SUBDIVISIONS LOTS,,500.0,DO 13-2020,unmatched,Luzon (44),0
+CR,Remedios I,ALL LOTS,,800.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Remedios I,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Remedios II,ALL LOTS,,600.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Remedios II,ALL LOTS,,300.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Rizaliana,ALL OTHER STREETS,,2000.0,DO 13-2020,background,,0
+RR,Rizaliana,ALL OTHER STREETS,,1000.0,DO 13-2020,background,,0
+RR,Rizaliana,ALL OTHER STREETS,INTERIOR,500.0,DO 13-2020,background,,0
+CR,Rizaliana,MAGSAYSAY ST,,2500.0,DO 13-2020,street,Magsaysay Street,100
+CR,Rizaliana,RIZAL ST.,,2500.0,DO 13-2020,street,Rizal Street,100
+CR,Rizaliana,QUEZON ST.,,2500.0,DO 13-2020,street,Quezon Street,100
+CR,Rizaliana,DONA AURORA ST.,,2500.0,DO 13-2020,street,Doña Aurora,97
+RR,Rizaliana,MAGSAYSAY ST,,1300.0,DO 13-2020,street,Magsaysay Street,100
+RR,Rizaliana,RIZAL ST.,,1300.0,DO 13-2020,street,Rizal Street,100
+RR,Rizaliana,QUEZON ST.,,1300.0,DO 13-2020,street,Quezon Street,100
+RR,Rizaliana,DONA AURORA ST.,,1300.0,DO 13-2020,street,Doña Aurora,97
+CR,Rizaliana,DE VERA ST.,,2500.0,DO 13-2020,unmatched,Luzon (0),0
+CR,Rizaliana,SAN BUENAVENTURA ST.,,2500.0,DO 13-2020,unmatched,Luzon (19),0
+RR,Rizaliana,DE VERA ST.,,1300.0,DO 13-2020,unmatched,Luzon (0),0
+RR,Rizaliana,SAN BUENAVENTURA ST.,,1300.0,DO 13-2020,unmatched,Luzon (19),0
+CR,Rosario,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Rosario,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Sadsaran,ALL OTHER STREETS,,1200.0,DO 13-2020,background,,0
+RR,Sadsaran,ALL OTHER STREETS,,600.0,DO 13-2020,background,,0
+RR,Sadsaran,ALL OTHER STREETS,INTERIOR,400.0,DO 13-2020,background,,0
+CR,Sadsaran,V. DE VERA ST.,,2500.0,DO 13-2020,unmatched,Luzon (0),0
+CR,Sadsaran,DELA COSTA ST,,2000.0,DO 13-2020,unmatched,Luzon (27),0
+RR,Sadsaran,V. DE VERA ST.,,1300.0,DO 13-2020,unmatched,Luzon (0),0
+RR,Sadsaran,DELA COSTA ST,,1000.0,DO 13-2020,unmatched,Luzon (27),0
+CR,San Gabriel,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,San Gabriel,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,San Isidro,ALL LOTS,,700.0,DO 13-2020,unmatched,San Isidro (33),0
+RR,San Isidro,ALL LOTS,,350.0,DO 13-2020,unmatched,San Isidro (33),0
+CR,San Jose,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,San Jose,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,San Lorenzo,ALL LOTS,,700.0,DO 13-2020,unmatched,Sitio Balingbalingan (36),0
+RR,San Lorenzo,ALL LOTS,,350.0,DO 13-2020,unmatched,Sitio Balingbalingan (36),0
+CR,San Miguel,ALL LOTS,,700.0,DO 13-2020,unmatched,Luzon (31),0
+RR,San Miguel,ALL LOTS,,350.0,DO 13-2020,unmatched,Luzon (31),0
+CR,San Rafael,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,San Rafael,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,San Roque,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,San Roque,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,San Vicente,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,San Vicente,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Santa Lucia,ALL LOTS,,500.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Santa Lucia,ALL LOTS,,250.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Santo Angel,ALL LOTS,,600.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Santo Angel,ALL LOTS,,300.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Santo Niño,ALL LOTS,,200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Santo Niño,ALL LOTS,,100.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Santol,ALL LOTS,,600.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Santol,ALL LOTS,,300.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Soledad,ALL LOTS,,800.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Soledad,ALL LOTS,,400.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Tapucan,ALL LOTS,,200.0,DO 13-2020,unmatched,Brgy. Polo (35),0
+RR,Tapucan,ALL LOTS,,100.0,DO 13-2020,unmatched,Brgy. Polo (35),0

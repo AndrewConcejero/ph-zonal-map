@@ -1,0 +1,336 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Balantacan,STREET:,ALONG BARANGAY ROAD,2250.0,DO 4-2024,unmatched,,0
+I,Balantacan,STREET:,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+I,Balantacan,STREET:,INTERIOR,1500.0,DO 4-2024,unmatched,,0
+RR,Balantacan,STREET:,ALONG BARANGAY ROAD,1450.0,DO 4-2024,unmatched,,0
+RR,Balantacan,STREET:,INTERIOR,1125.0,DO 4-2024,unmatched,,0
+CR,Bancal Pugad,STREET:,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Houses (0),0
+I,Bancal Pugad,STREET:,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,Houses (0),0
+I,Bancal Pugad,STREET:,INTERIOR,1225.0,DO 4-2024,unmatched,Houses (0),0
+RR,Bancal Pugad,STREET:,ALONG BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Houses (0),0
+RR,Bancal Pugad,STREET:,INTERIOR,925.0,DO 4-2024,unmatched,Houses (0),0
+CR,Bancal Sinubli,STREET:,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+I,Bancal Sinubli,STREET:,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,,0
+RR,Bancal Sinubli,STREET:,ALONG BARANGAY ROAD,1300.0,DO 4-2024,unmatched,,0
+I,Bancal Sinubli,STREET:,INTERIOR,1250.0,DO 4-2024,unmatched,,0
+RR,Bancal Sinubli,STREET:,INTERIOR,925.0,DO 4-2024,unmatched,,0
+RR,Baruya,GREENVILLE SUBD,"MADLAMBAYAN, ET AL",2950.0,DO 4-2024,street,Greenville Subdivision Avenue,97
+CR,Baruya,STREET NAME:,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+I,Baruya,STREET NAME:,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+RR,Baruya,"MADLAMBAYAN, ET AL",NEAR BARUYA ELEMENTARY SCHOOL,2250.0,DO 4-2024,unmatched,,0
+RR,Baruya,STREET NAME:,ALONG BARANGAY ROAD,1800.0,DO 4-2024,unmatched,,0
+I,Baruya,STREET NAME:,INTERIOR,1500.0,DO 4-2024,unmatched,,0
+RR,Baruya,STREET NAME:,INTERIOR,1125.0,DO 4-2024,unmatched,,0
+CR,Calangain,STREET:,ALONG BARANGAY ROAD,3350.0,DO 4-2024,unmatched,Houses (0),0
+I,Calangain,STREET:,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Houses (0),0
+RR,Calangain,STREET:,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Houses (0),0
+I,Calangain,STREET:,INTERIOR,1500.0,DO 4-2024,unmatched,Houses (0),0
+RR,Calangain,STREET:,INTERIOR,1175.0,DO 4-2024,unmatched,Houses (0),0
+CR,Concepcion,ALL LOTS,ALONG NATIONAL ROAD,5950.0,DO 4-2024,unmatched,Serrano Compound (27),0
+I,Concepcion,ALL LOTS,(JASA),5000.0,DO 4-2024,unmatched,Serrano Compound (27),0
+RR,Concepcion,ALL LOTS,(JASA),3850.0,DO 4-2024,unmatched,Serrano Compound (27),0
+CR,Concepcion,ALL LOTS,ALONG BARANGAY ROAD,2950.0,DO 4-2024,unmatched,Serrano Compound (27),0
+I,Concepcion,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Serrano Compound (27),0
+I,Concepcion,ALL LOTS,INTERIOR,2000.0,DO 4-2024,unmatched,Serrano Compound (27),0
+RR,Concepcion,ALL LOTS,ALONG BARANGAY ROAD,1750.0,DO 4-2024,unmatched,Serrano Compound (27),0
+RR,Concepcion,ALL LOTS,INTERIOR,1250.0,DO 4-2024,unmatched,Serrano Compound (27),0
+CR,De La Paz,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+I,De La Paz,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+RR,De La Paz,ALL LOTS,ALONG BARANGAY ROAD,1625.0,DO 4-2024,unmatched,,0
+I,De La Paz,ALL LOTS,INTERIOR,1500.0,DO 4-2024,unmatched,,0
+RR,De La Paz,ALL LOTS,INTERIOR,1125.0,DO 4-2024,unmatched,,0
+CR,Del Carmen,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+I,Del Carmen,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+RR,Del Carmen,ALL LOTS,ALONG BARANGAY ROAD,1625.0,DO 4-2024,unmatched,,0
+I,Del Carmen,ALL LOTS,INTERIOR LOTS,1500.0,DO 4-2024,unmatched,,0
+RR,Del Carmen,ALL LOTS,INTERIOR LOTS,1125.0,DO 4-2024,unmatched,,0
+I,Lourdes,ALL LOTS,(JASA),7000.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+CR,Lourdes,ALL LOTS,ALONG OLONGAPO-GAPAN ROAD,6000.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+CR,Lourdes,ST. DOMINIC CORINTHIAN,BDRY. OF BRGY. SAN ROQUE ARBOL,4000.0,DO 4-2024,unmatched,Familyville Subdivision (28),0
+CR,Lourdes,ALL LOTS,ALONG BARANGAY ROAD,3600.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+RR,Lourdes,ALL LOTS,(JASA),3500.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+I,Lourdes,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+RR,Lourdes,ST. DOMINIC CORINTHIAN,BDRY. OF BRGY. SAN ROQUE ARBOL,3000.0,DO 4-2024,unmatched,Familyville Subdivision (28),0
+RR,Lourdes,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+I,Lourdes,ALL LOTS,INTERIOR,1875.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+RR,Lourdes,ALL LOTS,INTERIOR,1250.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+CR,Prado Siongco,STREET:,ALONG OLONGAPO-GAPAN ROAD,7500.0,DO 4-2024,unmatched,Houses (0),0
+I,Prado Siongco,STREET:,(JASA),7000.0,DO 4-2024,unmatched,Houses (0),0
+RR,Prado Siongco,STREET:,(JASA),6000.0,DO 4-2024,unmatched,Houses (0),0
+CR,Prado Siongco,STREET:,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Houses (0),0
+I,Prado Siongco,STREET:,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Houses (0),0
+RR,Prado Siongco,STREET:,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Houses (0),0
+RR,Prado Siongco,BASE SUBD.,NEAR PRADO SIONGCO ELEM.SCHOOL,2500.0,DO 4-2024,unmatched,Houses (44),0
+RR,Prado Siongco,COUNTRY HOMES SUBD.,NEAR PRADO SIONGCO ELEM.SCHOOL,2500.0,DO 4-2024,unmatched,Houses (33),0
+RR,Prado Siongco,FORTALEZA SUBD.,NEAR PRADO SIONGCO ELEM.SCHOOL,2500.0,DO 4-2024,unmatched,Pradera Verde (36),0
+RR,Prado Siongco,ILAGAN SUBD.,NEAR PRADO SIONGCO ELEM.SCHOOL,2500.0,DO 4-2024,unmatched,Pradera Verde (21),0
+RR,Prado Siongco,LINA FELICIANO,NEAR PRADO SIONGCO ELEM.SCHOOL,2500.0,DO 4-2024,unmatched,Pradera Verde (22),0
+RR,Prado Siongco,PEOPLES VILLAGE,NEAR PRADO SIONGCO ELEM.SCHOOL,2500.0,DO 4-2024,unmatched,Houses (36),0
+RR,Prado Siongco,ST.PETER VILLAGE,BDRY. OF BRGY. STO. NINO,2500.0,DO 4-2024,unmatched,Pradera Verde (44),0
+RR,Prado Siongco,ASTERVILLE SUBD.,NEAR BRGY. BARUYA,2250.0,DO 4-2024,unmatched,Pradera Verde (43),0
+I,Prado Siongco,STREET:,INTERIOR LOTS,2100.0,DO 4-2024,unmatched,Houses (0),0
+RR,Prado Siongco,TERENCE MADLAMBAYAN,BDRY. OF BRGY. STO. NINO,1850.0,DO 4-2024,unmatched,Pradera Verde (44),0
+RR,Prado Siongco,STREET:,INTERIOR LOTS,1150.0,DO 4-2024,unmatched,Houses (0),0
+CR,Remedios,ALL LOTS,ALONG NATIONAL ROAD-,5950.0,DO 4-2024,unmatched,Houses (31),0
+I,Remedios,ALL LOTS,(JASA),5500.0,DO 4-2024,unmatched,Houses (31),0
+RR,Remedios,ALL LOTS,(JASA),4500.0,DO 4-2024,unmatched,Houses (31),0
+CR,Remedios,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Houses (31),0
+I,Remedios,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Houses (31),0
+RR,Remedios,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Houses (31),0
+I,Remedios,ALL LOTS,INTERIOR,2000.0,DO 4-2024,unmatched,Houses (31),0
+RR,Remedios,ALL LOTS,INTERIOR,1500.0,DO 4-2024,unmatched,Houses (31),0
+CR,San Agustin,ALL LOTS,ALONG OLONGAPO-GAPAN ROAD,6000.0,DO 4-2024,unmatched,,0
+I,San Agustin,ALL LOTS,JASA,5500.0,DO 4-2024,unmatched,,0
+RR,San Agustin,ALL LOTS,JASA,4500.0,DO 4-2024,unmatched,,0
+CR,San Agustin,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,,0
+I,San Agustin,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,,0
+RR,San Agustin,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+CR,San Agustin,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,,0
+RR,San Agustin,ALL LOTS,INTERIOR LOTS,1750.0,DO 4-2024,unmatched,,0
+I,San Agustin,ALL LOTS,INTERIOR LOTS,1750.0,DO 4-2024,unmatched,,0
+CR,San Antonio,STREET:,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,,0
+CR,San Antonio,STREET:,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,,0
+I,San Antonio,STREET:,ALONG PROVINCIAL ROAD,3500.0,DO 4-2024,unmatched,,0
+RR,San Antonio,STREET:,ALONG PROVINCIAL ROAD,3000.0,DO 4-2024,unmatched,,0
+I,San Antonio,STREET:,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+RR,San Antonio,STREET:,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+I,San Antonio,STREET:,INTERIOR,2000.0,DO 4-2024,unmatched,,0
+RR,San Antonio,STREET:,INTERIOR,1375.0,DO 4-2024,unmatched,,0
+CR,San Francisco,ALL LOTS,PROVINCIAL ROAD,3350.0,DO 4-2024,unmatched,plantation (22),0
+I,San Francisco,ALL LOTS,PROVINCIAL ROAD,2500.0,DO 4-2024,unmatched,plantation (22),0
+CR,San Francisco,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,plantation (22),0
+I,San Francisco,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,plantation (22),0
+RR,San Francisco,ALL LOTS,PROVINCIAL ROAD,1800.0,DO 4-2024,unmatched,plantation (22),0
+I,San Francisco,ALL LOTS,INTERIOR LOTS,1350.0,DO 4-2024,unmatched,plantation (22),0
+RR,San Francisco,ALL LOTS,ALONG BARANGAY ROAD,1300.0,DO 4-2024,unmatched,plantation (22),0
+RR,San Francisco,ALL LOTS,INTERIOR LOTS,1250.0,DO 4-2024,unmatched,plantation (22),0
+CR,San Isidro,ALL LOTS,GAPAN OLONGAPO ROAD,7250.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+I,San Isidro,ALL LOTS,(JASA),7000.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+RR,San Isidro,ALL LOTS,(JASA),5000.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+CR,San Isidro,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+I,San Isidro,ALL LOTS,ALONG BARANGAY ROAD,3250.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+RR,San Isidro,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+I,San Isidro,ALL LOTS,INTERIOR,2500.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+RR,San Isidro,ALL LOTS,INTERIOR,1250.0,DO 4-2024,unmatched,Familyville Subdivision (42),0
+CR,San Jose Apunan,ALL LOTS,ALONG BARANGAY ROAD,3450.0,DO 4-2024,unmatched,,0
+I,San Jose Apunan,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+RR,San Jose Apunan,ALL LOTS,ALONG BARANGAY ROAD,1750.0,DO 4-2024,unmatched,,0
+I,San Jose Apunan,ALL LOTS,INTERIOR LOTS,1250.0,DO 4-2024,unmatched,,0
+RR,San Jose Apunan,ALL LOTS,INTERIOR LOTS,1000.0,DO 4-2024,unmatched,,0
+CR,San Jose Gumi,STREET NAME:,ALONG BARANGAY ROAD,2450.0,DO 4-2024,unmatched,Maligaya (Boracay) (20),0
+I,San Jose Gumi,STREET NAME:,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Maligaya (Boracay) (20),0
+I,San Jose Gumi,STREET NAME:,INTERIOR,1400.0,DO 4-2024,unmatched,Maligaya (Boracay) (20),0
+RR,San Jose Gumi,STREET NAME:,ALONG BARANGAY ROAD,1350.0,DO 4-2024,unmatched,Maligaya (Boracay) (20),0
+RR,San Jose Gumi,STREET NAME:,INTERIOR,1000.0,DO 4-2024,unmatched,Maligaya (Boracay) (20),0
+CR,San Juan,,ALONG PROVINCIAL ROAD,5500.0,DO 4-2024,unmatched,,0
+I,San Juan,,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,,0
+RR,San Juan,,ALONG PROVINCIAL ROAD,4250.0,DO 4-2024,unmatched,,0
+CR,San Juan,,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,,0
+I,San Juan,,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,,0
+RR,San Juan,,ALONG BARANGAY ROAD,2750.0,DO 4-2024,unmatched,,0
+I,San Juan,,INTERIOR,2000.0,DO 4-2024,unmatched,,0
+RR,San Juan,,INTERIOR,1750.0,DO 4-2024,unmatched,,0
+CR,San Matias,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,,0
+I,San Matias,ALL LOTS,ALONG PROVINCIAL ROAD,3750.0,DO 4-2024,unmatched,,0
+CR,San Matias,ALL LOTS,ALONG BARANGAY ROAD,3700.0,DO 4-2024,unmatched,,0
+I,San Matias,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+RR,San Matias,ALL LOTS,ALONG PROVINCIAL ROAD,2750.0,DO 4-2024,unmatched,,0
+RR,San Matias,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+I,San Matias,ALL LOTS,INTERIOR LOTS,1500.0,DO 4-2024,unmatched,,0
+RR,San Matias,ALL LOTS,INTERIOR LOTS,1125.0,DO 4-2024,unmatched,,0
+CR,San Miguel,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,,0
+I,San Miguel,ALL LOTS,ALONG PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,,0
+RR,San Miguel,ALL LOTS,ALONG PROVINCIAL ROAD,3500.0,DO 4-2024,unmatched,,0
+CR,San Miguel,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+I,San Miguel,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+RR,San Miguel,ALL LOTS,ALONG BARANGAY ROAD,1950.0,DO 4-2024,unmatched,,0
+I,San Miguel,ALL LOTS,INTERIOR LOTS,1625.0,DO 4-2024,unmatched,,0
+RR,San Miguel,ALL LOTS,INTERIOR LOTS,1175.0,DO 4-2024,unmatched,,0
+CR,San Nicolas 1st,,ALONG PROVINCIAL ROAD,5600.0,DO 4-2024,unmatched,,0
+I,San Nicolas 1st,,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,,0
+RR,San Nicolas 1st,,ALONG PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,,0
+CR,San Nicolas 1st,,ALONG BARANGAY ROAD,3300.0,DO 4-2024,unmatched,,0
+I,San Nicolas 1st,,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+RR,San Nicolas 1st,LA POBLACION VILLAS,BDRY. OF BRGY. CONCEPCION,2500.0,DO 4-2024,unmatched,,0
+RR,San Nicolas 1st,,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+I,San Nicolas 1st,,INTERIOR,2000.0,DO 4-2024,unmatched,,0
+RR,San Nicolas 1st,,INTERIOR,1250.0,DO 4-2024,unmatched,,0
+CR,San Nicolas 2nd,ALL LOTS,ALONG NATIONAL ROAD,6450.0,DO 4-2024,unmatched,,0
+I,San Nicolas 2nd,ALL LOTS,( JASA ),5750.0,DO 4-2024,unmatched,,0
+RR,San Nicolas 2nd,ALL LOTS,( JASA ),5000.0,DO 4-2024,unmatched,,0
+CR,San Nicolas 2nd,ALL LOTS,PROVINCIAL ROAD (OLD ROAD),4900.0,DO 4-2024,unmatched,,0
+I,San Nicolas 2nd,ALL LOTS,PROVINCIAL ROAD (OLD ROAD),3500.0,DO 4-2024,unmatched,,0
+CR,San Nicolas 2nd,ALL LOTS,ALONG BARANGAY ROAD,3400.0,DO 4-2024,unmatched,,0
+I,San Nicolas 2nd,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+RR,San Nicolas 2nd,ALL LOTS,PROVINCIAL ROAD (OLD ROAD),2700.0,DO 4-2024,unmatched,,0
+RR,San Nicolas 2nd,LA POBLACION VILLAS,BDRY. OF BRGY. CONCEPCION,2500.0,DO 4-2024,unmatched,,0
+RR,San Nicolas 2nd,ALL LOTS,ALONG BARANGAY ROAD,2250.0,DO 4-2024,unmatched,,0
+I,San Nicolas 2nd,ALL LOTS,INTERIOR,2000.0,DO 4-2024,unmatched,,0
+RR,San Nicolas 2nd,ALL LOTS,INTERIOR,1250.0,DO 4-2024,unmatched,,0
+CR,San Pablo 1st,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,,0
+I,San Pablo 1st,ALL LOTS,ALONG PROVINCIAL ROAD,3500.0,DO 4-2024,unmatched,,0
+CR,San Pablo 1st,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,,0
+I,San Pablo 1st,ALL LOTS,ALONG BARANGAY ROAD,3250.0,DO 4-2024,unmatched,,0
+RR,San Pablo 1st,ALL LOTS,ALONG PROVINCIAL ROAD,3000.0,DO 4-2024,unmatched,,0
+RR,San Pablo 1st,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+I,San Pablo 1st,ALL LOTS,INTERIOR,1750.0,DO 4-2024,unmatched,,0
+RR,San Pablo 1st,ALL LOTS,INTERIOR,1250.0,DO 4-2024,unmatched,,0
+CR,San Pablo 2nd,STREET NAME:,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Houses (22),0
+I,San Pablo 2nd,STREET NAME:,ALONG PROVINCIAL ROAD,3500.0,DO 4-2024,unmatched,Houses (22),0
+CR,San Pablo 2nd,STREET NAME:,ALONG BARANGAY ROAD,3400.0,DO 4-2024,unmatched,Houses (22),0
+I,San Pablo 2nd,STREET NAME:,ALONG BARANGAY ROAD,3250.0,DO 4-2024,unmatched,Houses (22),0
+RR,San Pablo 2nd,STREET NAME:,ALONG PROVINCIAL ROAD,2800.0,DO 4-2024,unmatched,Houses (22),0
+RR,San Pablo 2nd,STREET NAME:,ALONG BARANGAY ROAD,2050.0,DO 4-2024,unmatched,Houses (22),0
+I,San Pablo 2nd,STREET NAME:,INTERIOR,1750.0,DO 4-2024,unmatched,Houses (22),0
+RR,San Pablo 2nd,STREET NAME:,INTERIOR,1250.0,DO 4-2024,unmatched,Houses (22),0
+CR,San Pedro Palcarangan,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Houses (31),0
+I,San Pedro Palcarangan,ALL LOTS,ALONG BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Houses (31),0
+RR,San Pedro Palcarangan,ALL LOTS,ALONG BARANGAY ROAD,1700.0,DO 4-2024,unmatched,Houses (31),0
+I,San Pedro Palcarangan,ALL LOTS,INTERIOR,1500.0,DO 4-2024,unmatched,Houses (31),0
+RR,San Pedro Palcarangan,ALL LOTS,INTERIOR,1000.0,DO 4-2024,unmatched,Houses (31),0
+CR,San Pedro Saug,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Houses (31),0
+I,San Pedro Saug,ALL LOTS,ALONG BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Houses (31),0
+RR,San Pedro Saug,ALL LOTS,ALONG BARANGAY ROAD,1700.0,DO 4-2024,unmatched,Houses (31),0
+I,San Pedro Saug,ALL LOTS,INTERIOR,1500.0,DO 4-2024,unmatched,Houses (31),0
+RR,San Pedro Saug,ALL LOTS,INTERIOR,1000.0,DO 4-2024,unmatched,Houses (31),0
+CR,San Roque Arbol,ALL LOTS,ALONG NATIONAL ROAD,6250.0,DO 4-2024,unmatched,Houses (31),0
+I,San Roque Arbol,ALL LOTS,(ALONG JASA),5000.0,DO 4-2024,unmatched,Houses (31),0
+RR,San Roque Arbol,ALL LOTS,(ALONG JASA),4250.0,DO 4-2024,unmatched,Houses (31),0
+CR,San Roque Arbol,ST. DOMINIC CORINTHIAN,ALONG JASA ROAD,4000.0,DO 4-2024,unmatched,Houses (17),0
+RR,San Roque Arbol,ST. DOMINIC CORINTHIAN,ALONG JASA ROAD,3000.0,DO 4-2024,unmatched,Houses (17),0
+CR,San Roque Arbol,ALL LOTS,ALONG BARANGAY ROAD,2750.0,DO 4-2024,unmatched,Houses (31),0
+I,San Roque Arbol,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Houses (31),0
+I,San Roque Arbol,ALL LOTS,INTERIOR,2000.0,DO 4-2024,unmatched,Houses (31),0
+RR,San Roque Arbol,ALL LOTS,ALONG BARANGAY ROAD,1750.0,DO 4-2024,unmatched,Houses (31),0
+RR,San Roque Arbol,ALL LOTS,INTERIOR,1300.0,DO 4-2024,unmatched,Houses (31),0
+I,San Roque Dau,ALL OTHER LOTS,INTERIOR LOTS,2000.0,DO 4-2024,background,,0
+RR,San Roque Dau,ALL OTHER LOTS,INTERIOR LOTS,1125.0,DO 4-2024,background,,0
+CR,San Roque Dau,ALL LOTS,ALONG PROVINCIAL ROAD,5950.0,DO 4-2024,unmatched,plantation (22),0
+I,San Roque Dau,ALL LOTS,ALONG PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,plantation (22),0
+RR,San Roque Dau,ALL LOTS,ALONG PROVINCIAL ROAD,3500.0,DO 4-2024,unmatched,plantation (22),0
+CR,San Roque Dau,MORNING SUN VILLAGE I & II,NEAR SAN ROQUE DAU 1ST ELEM.SCH,3500.0,DO 4-2024,unmatched,plantation (0),0
+CR,San Roque Dau,ALL LOTS,ALONG BARANGAY ROAD,2950.0,DO 4-2024,unmatched,plantation (22),0
+RR,San Roque Dau,FAMILY SUBD.,NEAR SAN ROQUE DAU 2ND ELEM. SCH.,2700.0,DO 4-2024,unmatched,plantation (25),0
+RR,San Roque Dau,IDEAL SUBD.,NEAR SAN ROQUE DAU 2ND ELEM. SCH.,2700.0,DO 4-2024,unmatched,plantation (13),0
+RR,San Roque Dau,KABUHAYAN VILLAGE,NEAR SAN ROQUE DAU 1ST ELEM.SCH,2700.0,DO 4-2024,unmatched,plantation (32),0
+RR,San Roque Dau,LIVEHOOD VILLAGE,NEAR SAN ROQUE DAU 1ST ELEM.SCH,2700.0,DO 4-2024,unmatched,plantation (33),0
+RR,San Roque Dau,MORNING SUN VILLAGE I & II,NEAR SAN ROQUE DAU 1ST ELEM.SCH,2700.0,DO 4-2024,unmatched,plantation (0),0
+RR,San Roque Dau,ROSARY VILLE SUBD.,NEAR SAN ROQUE DAU 1ST ELEM.SCH,2700.0,DO 4-2024,unmatched,plantation (18),0
+RR,San Roque Dau,SAN ROQUE FARMLOT SUBD.,NEAR SAN ROQUE DAU 1ST ELEM.SCH,2700.0,DO 4-2024,unmatched,plantation (30),0
+RR,San Roque Dau,SAN ROQUE SUBD.,NEAR SAN ROQUE DAU 1ST ELEM.SCH,2700.0,DO 4-2024,unmatched,plantation (32),0
+RR,San Roque Dau,ST. DOMINIC SUBD.,NEAR SAN ROQUE DAU 1ST ELEM.SCH,2700.0,DO 4-2024,unmatched,plantation (24),0
+I,San Roque Dau,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,plantation (22),0
+RR,San Roque Dau,ALL LOTS,ALONG BARANGAY ROAD,1750.0,DO 4-2024,unmatched,plantation (22),0
+CR,San Vicente,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Globe (31),0
+I,San Vicente,ALL LOTS,ALONG PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,Globe (31),0
+RR,San Vicente,ALL LOTS,ALONG PROVINCIAL ROAD,3500.0,DO 4-2024,unmatched,Globe (31),0
+CR,San Vicente,ALL LOTS,ALONG BARANGAY ROAD,2750.0,DO 4-2024,unmatched,Globe (31),0
+I,San Vicente,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Globe (31),0
+I,San Vicente,ALL LOTS,INTERIOR LOTS,1750.0,DO 4-2024,unmatched,Globe (31),0
+RR,San Vicente,ALL LOTS,ALONG BARANGAY ROAD,1700.0,DO 4-2024,unmatched,Globe (31),0
+RR,San Vicente,ALL LOTS,INTERIOR LOTS,1300.0,DO 4-2024,unmatched,Globe (31),0
+CR,Santa Barbara,ALL LOTS,ALONG PROVINCIAL ROAD,5600.0,DO 4-2024,unmatched,,0
+I,Santa Barbara,ALL LOTS,ALONG PROVINCIAL ROAD,5500.0,DO 4-2024,unmatched,,0
+RR,Santa Barbara,ALL LOTS,ALONG PROVINCIAL ROAD,4500.0,DO 4-2024,unmatched,,0
+I,Santa Barbara,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,,0
+CR,Santa Barbara,ALL LOTS,ALONG BARANGAY ROAD,3200.0,DO 4-2024,unmatched,,0
+RR,Santa Barbara,ALL LOTS,ALONG BARANGAY ROAD,2200.0,DO 4-2024,unmatched,,0
+I,Santa Barbara,ALL LOTS,INTERIOR,1750.0,DO 4-2024,unmatched,,0
+RR,Santa Barbara,ALL LOTS,INTERIOR,1300.0,DO 4-2024,unmatched,,0
+CR,Santa Catalina,STREET NAME:,ALONG OLONGAPO-GAPAN ROAD,9000.0,DO 4-2024,unmatched,,0
+I,Santa Catalina,STREET NAME:,(ALONG JASA),7000.0,DO 4-2024,unmatched,,0
+RR,Santa Catalina,STREET NAME:,(ALONG JASA),6000.0,DO 4-2024,unmatched,,0
+CR,Santa Catalina,STREET NAME:,ALONG BARANGAY ROAD,3700.0,DO 4-2024,unmatched,,0
+I,Santa Catalina,STREET NAME:,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,,0
+RR,Santa Catalina,STREET NAME:,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+I,Santa Catalina,STREET NAME:,INTERIOR,1675.0,DO 4-2024,unmatched,,0
+RR,Santa Catalina,STREET NAME:,INTERIOR,1250.0,DO 4-2024,unmatched,,0
+CR,Santa Cruz,ALL LOTS,ALONG NATIONAL ROAD,14500.0,DO 4-2024,unmatched,Houses (31),0
+I,Santa Cruz,ALL LOTS,(ALONG JASA),8500.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santa Cruz,ALL LOTS,(ALONG JASA),7400.0,DO 4-2024,unmatched,Houses (31),0
+CR,Santa Cruz,ALL LOTS,ALONG PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,Houses (31),0
+I,Santa Cruz,ALL LOTS,ALONG PROVINCIAL ROAD,4500.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santa Cruz,ALL LOTS,ALONG PROVINCIAL ROAD,3700.0,DO 4-2024,unmatched,Houses (31),0
+CR,Santa Cruz,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Houses (31),0
+CR,Santa Cruz,DIMATULAC VILLAGE,NEAR STA. CRUZ NATIONAL HIGH SCH.,3500.0,DO 4-2024,unmatched,Dampil Compound (40),0
+CR,Santa Cruz,ROMANA VDA. DE SEBASTIAN,NEAR HOLY CROSS PARISH CHURCH,3500.0,DO 4-2024,unmatched,Houses (21),0
+I,Santa Cruz,ALL LOTS,ALONG BARANGAY ROAD,3250.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santa Cruz,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santa Cruz,DIMATULAC VILLAGE,NEAR STA. CRUZ NATIONAL HIGH SCH.,2250.0,DO 4-2024,unmatched,Dampil Compound (40),0
+RR,Santa Cruz,ROMANA VDA. DE SEBASTIAN,NEAR HOLY CROSS PARISH CHURCH,2250.0,DO 4-2024,unmatched,Houses (21),0
+I,Santa Cruz,ALL LOTS,INTERIOR,2000.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santa Cruz,ALL LOTS,INTERIOR,1450.0,DO 4-2024,unmatched,Houses (31),0
+CR,Santa Lucia,STREET NAME:,ALONG PROVINCIAL ROAD,6000.0,DO 4-2024,unmatched,,0
+I,Santa Lucia,STREET NAME:,ALONG PROVINCIAL ROAD,5500.0,DO 4-2024,unmatched,,0
+RR,Santa Lucia,STREET NAME:,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,,0
+CR,Santa Lucia,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,,0
+I,Santa Lucia,ALL LOTS,ALONG BARANGAY ROAD,3250.0,DO 4-2024,unmatched,,0
+RR,Santa Lucia,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+I,Santa Lucia,ALL LOTS,INTERIOR,1625.0,DO 4-2024,unmatched,,0
+RR,Santa Lucia,ALL LOTS,INTERIOR,1300.0,DO 4-2024,unmatched,,0
+CR,Santa Maria,ALL LOTS,ALONG NATIONAL ROAD,5950.0,DO 4-2024,unmatched,Houses (31),0
+I,Santa Maria,ALL LOTS,(JASA),5500.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santa Maria,ALL LOTS,(JASA),4500.0,DO 4-2024,unmatched,Houses (31),0
+CR,Santa Maria,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Houses (31),0
+I,Santa Maria,ALL LOTS,ALONG BARANGAY ROAD,3250.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santa Maria,ALL LOTS,ALONG BARANGAY ROAD,2700.0,DO 4-2024,unmatched,Houses (31),0
+I,Santa Maria,ALL LOTS,INTERIOR,2000.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santa Maria,ALL LOTS,INTERIOR,1350.0,DO 4-2024,unmatched,Houses (31),0
+CR,Santa Monica,ALL LOTS,ALONG NATIONAL ROAD,6000.0,DO 4-2024,unmatched,,0
+I,Santa Monica,ALL LOTS,(JASA),5000.0,DO 4-2024,unmatched,,0
+CR,Santa Monica,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,,0
+RR,Santa Monica,ALL LOTS,(JASA),4000.0,DO 4-2024,unmatched,,0
+I,Santa Monica,ALL LOTS,ALONG PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,,0
+CR,Santa Monica,ALL LOTS,ALONG BARANGAY ROAD,3450.0,DO 4-2024,unmatched,,0
+RR,Santa Monica,ALL LOTS,ALONG PROVINCIAL ROAD,3250.0,DO 4-2024,unmatched,,0
+I,Santa Monica,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+RR,Santa Monica,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+I,Santa Monica,ALL LOTS,INTERIOR,1750.0,DO 4-2024,unmatched,,0
+RR,Santa Monica,ALL LOTS,INTERIOR,1350.0,DO 4-2024,unmatched,,0
+CR,Santa Rita,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,,0
+I,Santa Rita,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+RR,Santa Rita,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+I,Santa Rita,ALL LOTS,INTERIOR,1500.0,DO 4-2024,unmatched,,0
+RR,Santa Rita,ALL LOTS,INTERIOR,1250.0,DO 4-2024,unmatched,,0
+CR,Santa Teresa 1st,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,,0
+I,Santa Teresa 1st,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+RR,Santa Teresa 1st,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,,0
+I,Santa Teresa 1st,ALL LOTS,INTERIOR,1500.0,DO 4-2024,unmatched,,0
+RR,Santa Teresa 1st,ALL LOTS,INTERIOR,1250.0,DO 4-2024,unmatched,,0
+CR,Santa Teresa 2nd,STREET NAME:,ALONG BARANGAY ROAD,2450.0,DO 4-2024,unmatched,,0
+I,Santa Teresa 2nd,STREET NAME:,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+I,Santa Teresa 2nd,STREET NAME:,INTERIOR,1725.0,DO 4-2024,unmatched,,0
+RR,Santa Teresa 2nd,STREET NAME:,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,,0
+RR,Santa Teresa 2nd,STREET NAME:,INTERIOR,1125.0,DO 4-2024,unmatched,,0
+CR,Santiago,STREET NAME:,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Familyville Subdivision (40),0
+I,Santiago,STREET NAME:,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Familyville Subdivision (40),0
+RR,Santiago,STREET NAME:,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Familyville Subdivision (40),0
+I,Santiago,STREET NAME:,INTERIOR,1750.0,DO 4-2024,unmatched,Familyville Subdivision (40),0
+RR,Santiago,STREET NAME:,INTERIOR,1250.0,DO 4-2024,unmatched,Familyville Subdivision (40),0
+CR,Santo Domingo,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Serrano Compound (27),0
+I,Santo Domingo,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Serrano Compound (27),0
+RR,Santo Domingo,ALL LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,unmatched,Serrano Compound (27),0
+I,Santo Domingo,ALL LOTS,INTERIOR LOTS,1500.0,DO 4-2024,unmatched,Serrano Compound (27),0
+RR,Santo Domingo,ALL LOTS,INTERIOR LOTS,1125.0,DO 4-2024,unmatched,Serrano Compound (27),0
+CR,Santo Niño,ALL LOTS,ALONG NATIONAL ROAD,7000.0,DO 4-2024,unmatched,Houses (31),0
+I,Santo Niño,ALL LOTS,(JASA),7000.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santo Niño,ALL LOTS,(JASA),5500.0,DO 4-2024,unmatched,Houses (31),0
+CR,Santo Niño,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Houses (31),0
+I,Santo Niño,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santo Niño,ST. JEROME SUBDIVISION,NEAR BDRY. OF BRGY. PRADO SIONGCO,2400.0,DO 4-2024,unmatched,Houses (36),0
+RR,Santo Niño,ALL LOTS,ALONG BARANGAY ROAD,2050.0,DO 4-2024,unmatched,Houses (31),0
+I,Santo Niño,ALL LOTS,INTERIOR,1750.0,DO 4-2024,unmatched,Houses (31),0
+RR,Santo Niño,ALL LOTS,INTERIOR,1350.0,DO 4-2024,unmatched,Houses (31),0
+CR,Santo Tomas,ALL LOTS,ALONG NATIONAL ROAD,6000.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+I,Santo Tomas,ALL LOTS,(JASA),5000.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+CR,Santo Tomas,ALL LOTS,ALONG PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+RR,Santo Tomas,ALL LOTS,(JASA),4000.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+I,Santo Tomas,ALL LOTS,ALONG PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+CR,Santo Tomas,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+RR,Santo Tomas,ALL LOTS,ALONG PROVINCIAL ROAD,3450.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+I,Santo Tomas,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+I,Santo Tomas,ALL LOTS,INTERIOR LOTS,2250.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+RR,Santo Tomas,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+RR,Santo Tomas,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+I,Santo Tomas,ALL LOTS,INTERIOR,1475.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0
+RR,Santo Tomas,ALL LOTS,INTERIOR,1250.0,DO 4-2024,unmatched,Gov. Lilia Pineda Residences (24),0

@@ -1,0 +1,135 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Bagong Pag-Asa Pob.,ALL OTHER STREETS,,1800.0,DO 33-2019,background,,0
+RR,Bagong Pag-Asa Pob.,ALL OTHER STREETS,,1400.0,DO 33-2019,background,,0
+CR,Bagong Pag-Asa Pob.,QUEZON ST.,,1800.0,DO 33-2019,street,Quezon Street,100
+RR,Bagong Pag-Asa Pob.,QUEZON ST.,,1400.0,DO 33-2019,street,Quezon Street,100
+CR,Bagong Pag-Asa Pob.,BONIFACIO ST. QUEZON ST.,,2000.0,DO 33-2019,unmatched,Alabat Island (28),0
+CR,Bagong Pag-Asa Pob.,REFAZO ST.,,2000.0,DO 33-2019,unmatched,Alabat Island (11),0
+CR,Bagong Pag-Asa Pob.,ALTAMARINO ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (52),0
+CR,Bagong Pag-Asa Pob.,GEN. LUNA ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (29),0
+CR,Bagong Pag-Asa Pob.,ALMADRONES ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (36),0
+CR,Bagong Pag-Asa Pob.,RIZAL ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (22),0
+CR,Bagong Pag-Asa Pob.,ALL CORNER LOTS,,1800.0,DO 33-2019,unmatched,Alabat Island (29),0
+RR,Bagong Pag-Asa Pob.,BONIFACIO ST. QUEZON ST.,,1600.0,DO 33-2019,unmatched,Alabat Island (28),0
+RR,Bagong Pag-Asa Pob.,REFAZO ST.,,1600.0,DO 33-2019,unmatched,Alabat Island (11),0
+RR,Bagong Pag-Asa Pob.,ALTAMARINO ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (52),0
+RR,Bagong Pag-Asa Pob.,GEN. LUNA ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (29),0
+RR,Bagong Pag-Asa Pob.,ALMADRONES ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (36),0
+RR,Bagong Pag-Asa Pob.,RIZAL ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (22),0
+RR,Bagong Pag-Asa Pob.,ALL CORNER LOTS,,1400.0,DO 33-2019,unmatched,Alabat Island (29),0
+CR,Bagong Silang Pob.,QUEZON ST.,,1800.0,DO 33-2019,street,Quezon Street,100
+CR,Bagong Silang Pob.,SEGUNDO ST.,,1800.0,DO 33-2019,street,Segundo Street,100
+RR,Bagong Silang Pob.,QUEZON ST.,,1400.0,DO 33-2019,street,Quezon Street,100
+RR,Bagong Silang Pob.,SEGUNDO ST.,,1400.0,DO 33-2019,street,Segundo Street,100
+CR,Bagong Silang Pob.,ALMADRONES ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (36),0
+CR,Bagong Silang Pob.,SAN LORENZO ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (42),0
+CR,Bagong Silang Pob.,REYES ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (0),0
+CR,Bagong Silang Pob.,MANLOGON ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (29),0
+CR,Bagong Silang Pob.,ALTAMARINO,,1800.0,DO 33-2019,unmatched,Alabat Island (52),0
+CR,Bagong Silang Pob.,GEN LUNA ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (29),0
+CR,Bagong Silang Pob.,ALL CORNER LOTS,,1800.0,DO 33-2019,unmatched,Alabat Island (29),0
+CR,Bagong Silang Pob.,ALL INTERIOR LOTS,,1800.0,DO 33-2019,unmatched,Alabat Island (33),0
+RR,Bagong Silang Pob.,ALMADRONES ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (36),0
+RR,Bagong Silang Pob.,SAN LORENZO ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (42),0
+RR,Bagong Silang Pob.,REYES ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (0),0
+RR,Bagong Silang Pob.,MANLOGON ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (29),0
+RR,Bagong Silang Pob.,ALTAMARINO,,1400.0,DO 33-2019,unmatched,Alabat Island (52),0
+RR,Bagong Silang Pob.,GEN LUNA ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (29),0
+RR,Bagong Silang Pob.,ALL CORNER LOTS,,1400.0,DO 33-2019,unmatched,Alabat Island (29),0
+RR,Bagong Silang Pob.,ALL INTERIOR LOTS,,1400.0,DO 33-2019,unmatched,Alabat Island (33),0
+I,Maabot,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Maabot,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Maabot,ALL LOTS,ALONG BRGY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Maabot,ALL LOTS,ALONG BRGY ROAD,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Maabot,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Maabot,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Maabot,ALL LOTS,INTERIOR LOTS,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Mainit Norte,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Mainit Norte,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Mainit Norte,ALL LOTS,ALONG BRGY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Mainit Norte,ALL LOTS,ALONG BRGY ROAD,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Mainit Norte,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Mainit Norte,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Mainit Norte,ALL LOTS,INTERIOR LOTS,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Mainit Sur,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Mainit Sur,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Mainit Sur,ALL LOTS,ALONG BRGY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Mainit Sur,ALL LOTS,ALONG BRGY ROAD,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Mainit Sur,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Mainit Sur,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Mainit Sur,ALL LOTS,INTERIOR LOTS,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Mapagmahal Pob.,ALL OTHER STREETS,,1800.0,DO 33-2019,background,,0
+RR,Mapagmahal Pob.,ALL OTHER STREETS,,1400.0,DO 33-2019,background,,0
+CR,Mapagmahal Pob.,QUEZON ST.,,2000.0,DO 33-2019,street,Quezon Street,100
+CR,Mapagmahal Pob.,SANGIRIN ST.,,2000.0,DO 33-2019,street,Sangirin Street,100
+CR,Mapagmahal Pob.,LEON GUINTO ST.,,1800.0,DO 33-2019,street,Leon Guinto Street,100
+RR,Mapagmahal Pob.,QUEZON ST.,,1600.0,DO 33-2019,street,Quezon Street,100
+RR,Mapagmahal Pob.,SANGIRIN ST.,,1600.0,DO 33-2019,street,Sangirin Street,100
+RR,Mapagmahal Pob.,LEON GUINTO ST.,,1400.0,DO 33-2019,street,Leon Guinto Street,100
+CR,Mapagmahal Pob.,ALMADRONES ST.,,2000.0,DO 33-2019,unmatched,Alabat Island (36),0
+CR,Mapagmahal Pob.,GEN LUNA ST.,,2000.0,DO 33-2019,unmatched,Alabat Island (29),0
+CR,Mapagmahal Pob.,P BURGOS ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (20),0
+CR,Mapagmahal Pob.,RIZAL ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (22),0
+RR,Mapagmahal Pob.,ALMADRONES ST.,,1600.0,DO 33-2019,unmatched,Alabat Island (36),0
+RR,Mapagmahal Pob.,GEN LUNA ST.,,1600.0,DO 33-2019,unmatched,Alabat Island (29),0
+RR,Mapagmahal Pob.,P BURGOS ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (20),0
+RR,Mapagmahal Pob.,RIZAL ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (22),0
+CR,Pagkakaisa Pob.,ALL OTHER STREETS,,1800.0,DO 33-2019,background,,0
+RR,Pagkakaisa Pob.,ALL OTHER STREETS,,1400.0,DO 33-2019,background,,0
+CR,Pagkakaisa Pob.,QUEZON ST.,,2000.0,DO 33-2019,street,Quezon Street,100
+CR,Pagkakaisa Pob.,LEON GUINTO ST.,,1800.0,DO 33-2019,street,Leon Guinto Street,100
+RR,Pagkakaisa Pob.,QUEZON ST.,,1600.0,DO 33-2019,street,Quezon Street,100
+RR,Pagkakaisa Pob.,LEON GUINTO ST.,,1400.0,DO 33-2019,street,Leon Guinto Street,100
+CR,Pagkakaisa Pob.,GEN LUNA ST.,,2000.0,DO 33-2019,unmatched,Alabat Island (29),0
+CR,Pagkakaisa Pob.,ALMADRONES ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (36),0
+CR,Pagkakaisa Pob.,KAPT. KIKO ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (36),0
+CR,Pagkakaisa Pob.,P BURGOS ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (20),0
+CR,Pagkakaisa Pob.,ALMIRAŇEZ ST.,,1800.0,DO 33-2019,unmatched,Alabat Island (45),0
+RR,Pagkakaisa Pob.,GEN LUNA ST.,,1600.0,DO 33-2019,unmatched,Alabat Island (29),0
+RR,Pagkakaisa Pob.,ALMADRONES ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (36),0
+RR,Pagkakaisa Pob.,KAPT. KIKO ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (36),0
+RR,Pagkakaisa Pob.,P BURGOS ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (20),0
+RR,Pagkakaisa Pob.,ALMIRAŇEZ ST.,,1400.0,DO 33-2019,unmatched,Alabat Island (45),0
+I,Pambuhan,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Pambuhan,ALL LOTS,ALONG BRGY ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pambuhan,ALL LOTS,ALONG BRGY ROAD,800.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pambuhan,ALL LOTS,INTERIOR LOTS,600.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Pinagtubigan Este,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Pinagtubigan Este,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Pinagtubigan Este,ALL LOTS,ALONG BRGY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Pinagtubigan Este,ALL LOTS,ALONG BRGY ROAD,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pinagtubigan Este,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pinagtubigan Este,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pinagtubigan Este,ALL LOTS,INTERIOR LOTS,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Pinagtubigan Weste,ALL LOTS,ALONG NATIONAL ROAD,1800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Pinagtubigan Weste,ALL LOTS,ALONG NATIONAL ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Pinagtubigan Weste,ALL LOTS,ALONG BRGY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Pinagtubigan Weste,ALL LOTS,ALONG BRGY ROAD,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pinagtubigan Weste,ALL LOTS,ALONG NATIONAL ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pinagtubigan Weste,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Pinagtubigan Weste,ALL LOTS,INTERIOR LOTS,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Rizal,ALL LOTS,ALONG PROV ROAD,1800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Rizal,ALL LOTS,ALONG PROV ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Rizal,ALL LOTS,ALONG BRGY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Rizal,ALL LOTS,ALONG BRGY ROAD,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Rizal,ALL LOTS,ALONG PROV ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Rizal,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Rizal,ALL LOTS,INTERIOR LOTS,700.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Sangirin,ALL LOTS,ALONG THE ROAD,700.0,DO 31-2010,unmatched,Alabat Island (38),0
+RR,Sangirin,ALL LOTS,INTERIOR LOTS,550.0,DO 31-2010,unmatched,Alabat Island (38),0
+I,Villamanzano Norte,ALL LOTS,ALONG AIRPORT,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villamanzano Norte,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villamanzano Norte,ALL LOTS,ALONG BRGY ROAD,1500.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villamanzano Norte,ALL LOTS,ALONG BRGY ROAD,1400.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villamanzano Norte,ALL LOTS,ALONG AIRPORT,1250.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villamanzano Norte,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1100.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villamanzano Norte,ALL LOTS,ALONG BRGY ROAD,1000.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villamanzano Norte,ALL LOTS,ALONG AIRPORT,950.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villamanzano Norte,ALL LOTS,INTERIOR LOTS,600.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villamanzano Sur,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1800.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villamanzano Sur,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+I,Villamanzano Sur,ALL LOTS,ALONG BRGY ROAD,1700.0,DO 33-2019,unmatched,Alabat Island (38),0
+CR,Villamanzano Sur,ALL LOTS,ALONG BRGY ROAD,1600.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villamanzano Sur,ALL LOTS,ALONG NATIONAL SECONDARY ROAD,1300.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villamanzano Sur,ALL LOTS,ALONG BRGY ROAD,1200.0,DO 33-2019,unmatched,Alabat Island (38),0
+RR,Villamanzano Sur,ALL LOTS,INTERIOR LOTS,700.0,DO 33-2019,unmatched,Alabat Island (38),0

@@ -1,0 +1,192 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Abuyon,ANTERRO FONTANILLA ST.,,1100.0,DO 33-2019,street,Antero Fontanilla Sr. Street,90.9090909090909
+CR,Abuyon,PELAGIO FONTANILLA ST.,,1100.0,DO 33-2019,street,Pelagio Fontanilla Street,100
+CR,Abuyon,MIGUEL FONTANILLA ST.,,1100.0,DO 33-2019,street,Miguel Fontanilla Street,100
+RR,Abuyon,ANTERRO FONTANILLA ST.,,800.0,DO 33-2019,street,Antero Fontanilla Sr. Street,90.9090909090909
+RR,Abuyon,PELAGIO FONTANILLA ST.,,800.0,DO 33-2019,street,Pelagio Fontanilla Street,100
+RR,Abuyon,MIGUEL FONTANILLA ST.,,800.0,DO 33-2019,street,Miguel Fontanilla Street,100
+CR,Abuyon,,ALONG PROVINCIAL ROAD,1700.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Abuyon,,ALONG PROVINCIAL ROAD,1250.0,DO 33-2019,unmatched,Luzon (0),0
+CR,Abuyon,BUENAVISTA ROAD,,1100.0,DO 33-2019,unmatched,Luzon (27),0
+RR,Abuyon,BUENAVISTA ROAD,,800.0,DO 33-2019,unmatched,Luzon (27),0
+CR,Andres Bonifacio,ALL LOTS,ALONG NATIONAL ROAD,750.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Andres Bonifacio,ALL LOTS,ALONG NATIONAL ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Andres Bonifacio,ALL LOTS,INTERIOR,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Bani,,ALONG BARANGAY ROAD,450.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Bani,,INTERIOR,400.0,DO 33-2019,unmatched,Luzon (0),0
+CR,Bayanihan,SUGBONG COGON ST.,Public Market/Municipal Building,2100.0,DO 33-2019,street,Sugbong Cogon Street,100
+CR,Bayanihan,G. ROADILLA ST. ( formerly Gomez St. ),,2000.0,DO 33-2019,street,G. Roadilla Street,100
+CR,Bayanihan,G. MEDENILLA ST. ( formerly Mabini St. ),,2000.0,DO 33-2019,street,G. Medenilla Street,100
+CR,Bayanihan,PIO AQUINO ST. (formerly Nieva St. ),,2000.0,DO 33-2019,street,Pio C. Aquino Street,92.85714285714286
+CR,Bayanihan,ZOSING M. TAN ST. (formely A. Bonifacio St. ),,2000.0,DO 33-2019,street,Zosing M. Tan Street,100
+CR,Bayanihan,SAN JOSE ST.,,2000.0,DO 33-2019,street,San Jose Street,100
+CR,Bayanihan,J.P. RIZAL ST.,,2000.0,DO 33-2019,street,J. P. Rizal Street,100
+CR,Bayanihan,M. RAMOS ST.,,2000.0,DO 33-2019,street,M. Ramos Street,100
+CR,Bayanihan,P. FONTANILLA ST.,,2000.0,DO 33-2019,street,P. Fontanilla Street,100
+CR,Bayanihan,D. ARGOSINO ST.,,2000.0,DO 33-2019,street,D. Argosino Street,100
+CR,Bayanihan,ABUYON NATIONAL ROAD,Poblacion,2000.0,DO 33-2019,street,Abuyon National Road,100
+CR,Bayanihan,CLAVERIA ST.,,2000.0,DO 33-2019,street,Claveria Street,100
+RR,Bayanihan,SUGBONG COGON ST.,Public Market/Municipal Building,1400.0,DO 33-2019,street,Sugbong Cogon Street,100
+RR,Bayanihan,G. ROADILLA ST. ( formerly Gomez St. ),,1200.0,DO 33-2019,street,G. Roadilla Street,100
+RR,Bayanihan,G. MEDENILLA ST. ( formerly Mabini St. ),,1200.0,DO 33-2019,street,G. Medenilla Street,100
+RR,Bayanihan,PIO AQUINO ST. (formerly Nieva St. ),,1200.0,DO 33-2019,street,Pio C. Aquino Street,92.85714285714286
+RR,Bayanihan,ZOSING M. TAN ST. (formely A. Bonifacio St. ),,1200.0,DO 33-2019,street,Zosing M. Tan Street,100
+RR,Bayanihan,SAN JOSE ST.,,1200.0,DO 33-2019,street,San Jose Street,100
+RR,Bayanihan,J.P. RIZAL ST.,,1200.0,DO 33-2019,street,J. P. Rizal Street,100
+RR,Bayanihan,M. RAMOS ST.,,1200.0,DO 33-2019,street,M. Ramos Street,100
+RR,Bayanihan,P. FONTANILLA ST.,,1200.0,DO 33-2019,street,P. Fontanilla Street,100
+RR,Bayanihan,D. ARGOSINO ST.,,1200.0,DO 33-2019,street,D. Argosino Street,100
+RR,Bayanihan,ABUYON NATIONAL ROAD,Poblacion,1200.0,DO 33-2019,street,Abuyon National Road,100
+RR,Bayanihan,CLAVERIA ST.,,1200.0,DO 33-2019,street,Claveria Street,100
+CR,Bayanihan,L. GUINTO ST.,,2100.0,DO 33-2019,unmatched,Luzon (46),0
+CR,Bayanihan,FRANCISCO MENDIETA ST.,,2000.0,DO 33-2019,unmatched,Luzon (17),0
+CR,Bayanihan,MAAYAS-AS ST.,,2000.0,DO 33-2019,unmatched,Luzon (0),0
+CR,Bayanihan,MAYOR DOMINGO REYES ST. ( Formerly L. Guinto ),,2000.0,DO 33-2019,unmatched,Luzon (46),0
+CR,Bayanihan,MAYOR JUANITO K. UY ST. ( Formerly P. Burgos & R. Magsaysay St. ),,2000.0,DO 33-2019,unmatched,Luzon (17),0
+RR,Bayanihan,L. GUINTO ST.,,1400.0,DO 33-2019,unmatched,Luzon (46),0
+RR,Bayanihan,FRANCISCO MENDIETA ST.,,1200.0,DO 33-2019,unmatched,Luzon (17),0
+RR,Bayanihan,MAAYAS-AS ST.,,1200.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Bayanihan,MAYOR DOMINGO REYES ST. ( Formerly L. Guinto ),,1200.0,DO 33-2019,unmatched,Luzon (46),0
+RR,Bayanihan,MAYOR JUANITO K. UY ST. ( Formerly P. Burgos & R. Magsaysay St. ),,1200.0,DO 33-2019,unmatched,Luzon (17),0
+CR,Binay,ALL LOTS,ALONG NATIONAL ROAD,750.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Binay,ALL LOTS,ALONG NATIONAL ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Binay,ALL LOTS,INTERIOR,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Buenavista,ALL LOTS,ALONG NATIONAL ROAD,1600.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Buenavista,ALL LOTS,ALONG NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Buenavista,ALL LOTS,INTERIOR,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Busokbusokan,ALL LOTS,BARANGAY ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Busokbusokan,ALL LOTS,BARANGAY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Calwit,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Calwit,ALL LOTS,ALONG NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Calwit,ALL LOTS,INTERIOR (BARANGAY ROAD),450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Guinhalinan,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Guinhalinan,ALL LOTS,ALONG NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Guinhalinan,ALL LOTS,INTERIOR (BARANGAY ROAD),450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Lacdayan,ALL LOTS,ALONG NATIONAL ROAD,1600.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Lacdayan,ALL LOTS,ALONG NATIONAL ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Lacdayan,ALL LOTS,INTERIOR / BRGY. ROAD,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Maguiting,ALL LOTS,ALONG NATIONAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Maguiting,ALL LOTS,ALONG NATIONAL ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Maguiting,ALL LOTS,INTERIOR / BRGY. ROAD,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Maligaya,SUGBONG COGON ST.,Public Market/Municipal Building,2100.0,DO 33-2019,street,Sugbong Cogon Street,100
+CR,Maligaya,G. ROADILLA ST. ( formerly Gomez St. ),,2000.0,DO 33-2019,street,G. Roadilla Street,100
+CR,Maligaya,G. MEDENILLA ST. ( formerly Mabini St. ),,2000.0,DO 33-2019,street,G. Medenilla Street,100
+CR,Maligaya,PIO AQUINO ST. (formerly Nieva St. ),,2000.0,DO 33-2019,street,Pio C. Aquino Street,92.85714285714286
+CR,Maligaya,ZOSING M. TAN ST. (formely A. Bonifacio St. ),,2000.0,DO 33-2019,street,Zosing M. Tan Street,100
+CR,Maligaya,SAN JOSE ST.,,2000.0,DO 33-2019,street,San Jose Street,100
+CR,Maligaya,J.P. RIZAL ST.,,2000.0,DO 33-2019,street,J. P. Rizal Street,100
+CR,Maligaya,M. RAMOS ST.,,2000.0,DO 33-2019,street,M. Ramos Street,100
+CR,Maligaya,MAAYAS-AS ST.,,2000.0,DO 33-2019,street,Maayas-as Street,100
+CR,Maligaya,P. FONTANILLA ST.,,2000.0,DO 33-2019,street,P. Fontanilla Street,100
+CR,Maligaya,D ARGOSINO ST. ( Formerly Gen Luna St. ),,2000.0,DO 33-2019,street,D. Argosino Street,100
+CR,Maligaya,ABUYON NATIONAL ROAD,Poblacion,2000.0,DO 33-2019,street,Abuyon National Road,100
+RR,Maligaya,SUGBONG COGON ST.,Public Market/Municipal Building,1400.0,DO 33-2019,street,Sugbong Cogon Street,100
+RR,Maligaya,G. ROADILLA ST. ( formerly Gomez St. ),,1200.0,DO 33-2019,street,G. Roadilla Street,100
+RR,Maligaya,G. MEDENILLA ST. ( formerly Mabini St. ),,1200.0,DO 33-2019,street,G. Medenilla Street,100
+RR,Maligaya,PIO AQUINO ST. (formerly Nieva St. ),,1200.0,DO 33-2019,street,Pio C. Aquino Street,92.85714285714286
+RR,Maligaya,ZOSING M. TAN ST. (formely A. Bonifacio St. ),,1200.0,DO 33-2019,street,Zosing M. Tan Street,100
+RR,Maligaya,SAN JOSE ST.,,1200.0,DO 33-2019,street,San Jose Street,100
+RR,Maligaya,J.P. RIZAL ST.,,1200.0,DO 33-2019,street,J. P. Rizal Street,100
+RR,Maligaya,M. RAMOS ST.,,1200.0,DO 33-2019,street,M. Ramos Street,100
+RR,Maligaya,MAAYAS-AS ST.,,1200.0,DO 33-2019,street,Maayas-as Street,100
+RR,Maligaya,P. FONTANILLA ST.,,1200.0,DO 33-2019,street,P. Fontanilla Street,100
+RR,Maligaya,D ARGOSINO ST. ( Formerly Gen Luna St. ),,1200.0,DO 33-2019,street,D. Argosino Street,100
+RR,Maligaya,ABUYON NATIONAL ROAD,Poblacion,1200.0,DO 33-2019,street,Abuyon National Road,100
+CR,Maligaya,L. GUINTO ST.,,2100.0,DO 33-2019,unmatched,Luzon (46),0
+CR,Maligaya,CLAVERIA ST.,,2000.0,DO 33-2019,unmatched,Luzon (15),0
+CR,Maligaya,MAYOR DOMINGO REYES ST. ( Formerly L. Guinto ),,2000.0,DO 33-2019,unmatched,Luzon (46),0
+CR,Maligaya,MAYOR JUANITO K. UY ST. ( Formerly P. Burgos & R. Magsaysay St. ),,2000.0,DO 33-2019,unmatched,Luzon (17),0
+CR,Maligaya,D. NIEVE ST.,,1500.0,DO 33-2019,unmatched,Luzon (17),0
+RR,Maligaya,L. GUINTO ST.,,1400.0,DO 33-2019,unmatched,Luzon (46),0
+RR,Maligaya,CLAVERIA ST.,,1200.0,DO 33-2019,unmatched,Luzon (15),0
+RR,Maligaya,D. NIEVE ST.,,1200.0,DO 33-2019,unmatched,Luzon (17),0
+RR,Maligaya,MAYOR DOMINGO REYES ST. ( Formerly L. Guinto ),,1200.0,DO 33-2019,unmatched,Luzon (46),0
+RR,Maligaya,MAYOR JUANITO K. UY ST. ( Formerly P. Burgos & R. Magsaysay St. ),,1200.0,DO 33-2019,unmatched,Luzon (17),0
+CR,Manlampong,ALL LOTS,ALONG NATIONAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Manlampong,ALL LOTS,ALONG NATIONAL ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Manlampong,ALL LOTS,INTERIOR / BRGY. ROAD,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Pagdadamayan,SUGBONG COGON ST.,Public Market/Municipal Building,2100.0,DO 33-2019,street,Sugbong Cogon Street,100
+CR,Pagdadamayan,ZOSING M. TAN ST. (formely A. Bonifacio St. ),,2000.0,DO 33-2019,street,Zosing M. Tan Street,100
+CR,Pagdadamayan,SAN JOSE ST.,,2000.0,DO 33-2019,street,San Jose Street,100
+CR,Pagdadamayan,J.P. RIZAL ST.,,2000.0,DO 33-2019,street,J. P. Rizal Street,100
+CR,Pagdadamayan,M. RAMOS ST.,,2000.0,DO 33-2019,street,M. Ramos Street,100
+CR,Pagdadamayan,P. FONTANILLA ST.,,2000.0,DO 33-2019,street,P. Fontanilla Street,100
+CR,Pagdadamayan,D. ARGOSINO ST.,,2000.0,DO 33-2019,street,D. Argosino Street,100
+CR,Pagdadamayan,ABUYON NATIONAL ROAD,Poblacion,2000.0,DO 33-2019,street,Abuyon National Road,100
+CR,Pagdadamayan,CLAVERIA ST.,,2000.0,DO 33-2019,street,Claveria Street,100
+RR,Pagdadamayan,SUGBONG COGON ST.,Public Market/Municipal Building,1400.0,DO 33-2019,street,Sugbong Cogon Street,100
+RR,Pagdadamayan,ZOSING M. TAN ST. (formely A. Bonifacio St. ),,1200.0,DO 33-2019,street,Zosing M. Tan Street,100
+RR,Pagdadamayan,SAN JOSE ST.,,1200.0,DO 33-2019,street,San Jose Street,100
+RR,Pagdadamayan,J.P. RIZAL ST.,,1200.0,DO 33-2019,street,J. P. Rizal Street,100
+RR,Pagdadamayan,M. RAMOS ST.,,1200.0,DO 33-2019,street,M. Ramos Street,100
+RR,Pagdadamayan,P. FONTANILLA ST.,,1200.0,DO 33-2019,street,P. Fontanilla Street,100
+RR,Pagdadamayan,D. ARGOSINO ST.,,1200.0,DO 33-2019,street,D. Argosino Street,100
+RR,Pagdadamayan,ABUYON NATIONAL ROAD,Poblacion,1200.0,DO 33-2019,street,Abuyon National Road,100
+RR,Pagdadamayan,CLAVERIA ST.,,1200.0,DO 33-2019,street,Claveria Street,100
+CR,Pagdadamayan,L. GUINTO ST.,,2100.0,DO 33-2019,unmatched,Luzon (46),0
+CR,Pagdadamayan,MAAYAS-AS ST.,,2000.0,DO 33-2019,unmatched,Luzon (0),0
+CR,Pagdadamayan,MAYOR DOMINGO REYES ST. ( Formerly L. Guinto ),,2000.0,DO 33-2019,unmatched,Luzon (46),0
+CR,Pagdadamayan,MAYOR JUANITO K. UY ST. ( Formerly P. Burgos & R. Magsaysay St. ),,2000.0,DO 33-2019,unmatched,Luzon (17),0
+RR,Pagdadamayan,L. GUINTO ST.,,1400.0,DO 33-2019,unmatched,Luzon (46),0
+RR,Pagdadamayan,MAAYAS-AS ST.,,1200.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Pagdadamayan,MAYOR DOMINGO REYES ST. ( Formerly L. Guinto ),,1200.0,DO 33-2019,unmatched,Luzon (46),0
+RR,Pagdadamayan,MAYOR JUANITO K. UY ST. ( Formerly P. Burgos & R. Magsaysay St. ),,1200.0,DO 33-2019,unmatched,Luzon (17),0
+CR,Pagkakaisa,SUGBONG COGON ST.,Public Market/Municipal Building,2100.0,DO 33-2019,street,Sugbong Cogon Street,100
+CR,Pagkakaisa,FRANCISCO MENDIETA ST. (formerly G. Del Pilar ),,2000.0,DO 33-2019,street,G. del Pilar Street,97
+CR,Pagkakaisa,G. ROADILLA ST. ( formerly Gomez St. ),,2000.0,DO 33-2019,street,G. Roadilla Street,100
+CR,Pagkakaisa,G. MEDENILLA ST. ( formerly Mabini St. ),,2000.0,DO 33-2019,street,G. Medenilla Street,100
+CR,Pagkakaisa,PIO AQUINO ST. (formerly Nieva St. ),,2000.0,DO 33-2019,street,Pio C. Aquino Street,92.85714285714286
+CR,Pagkakaisa,ZOSING M. TAN ST. (formely A. Bonifacio St. ),,2000.0,DO 33-2019,street,Zosing M. Tan Street,100
+CR,Pagkakaisa,SAN JOSE ST.,,2000.0,DO 33-2019,street,San Jose Street,100
+CR,Pagkakaisa,J.P. RIZAL ST.,,2000.0,DO 33-2019,street,J. P. Rizal Street,100
+CR,Pagkakaisa,M. RAMOS ST.,,2000.0,DO 33-2019,street,M. Ramos Street,100
+CR,Pagkakaisa,MAAYAS-AS ST.,,2000.0,DO 33-2019,street,Maayas-as Street,100
+CR,Pagkakaisa,P. FONTANILLA ST.,,2000.0,DO 33-2019,street,P. Fontanilla Street,100
+CR,Pagkakaisa,D ARGOSINO ST. ( Formerly Gen Luna St. ),,2000.0,DO 33-2019,street,D. Argosino Street,100
+CR,Pagkakaisa,ABUYON NATIONAL ROAD,Poblacion,2000.0,DO 33-2019,street,Abuyon National Road,100
+RR,Pagkakaisa,SUGBONG COGON ST.,Public Market/Municipal Building,1400.0,DO 33-2019,street,Sugbong Cogon Street,100
+RR,Pagkakaisa,FRANCISCO MENDIETA ST. (formerly G. Del Pilar ),,1200.0,DO 33-2019,street,G. del Pilar Street,97
+RR,Pagkakaisa,G. ROADILLA ST. ( formerly Gomez St. ),,1200.0,DO 33-2019,street,G. Roadilla Street,100
+RR,Pagkakaisa,G. MEDENILLA ST. ( formerly Mabini St. ),,1200.0,DO 33-2019,street,G. Medenilla Street,100
+RR,Pagkakaisa,PIO AQUINO ST. (formerly Nieva St. ),,1200.0,DO 33-2019,street,Pio C. Aquino Street,92.85714285714286
+RR,Pagkakaisa,ZOSING M. TAN ST. (formely A. Bonifacio St. ),,1200.0,DO 33-2019,street,Zosing M. Tan Street,100
+RR,Pagkakaisa,SAN JOSE ST.,,1200.0,DO 33-2019,street,San Jose Street,100
+RR,Pagkakaisa,J.P. RIZAL ST.,,1200.0,DO 33-2019,street,J. P. Rizal Street,100
+RR,Pagkakaisa,M. RAMOS ST.,,1200.0,DO 33-2019,street,M. Ramos Street,100
+RR,Pagkakaisa,MAAYAS-AS ST.,,1200.0,DO 33-2019,street,Maayas-as Street,100
+RR,Pagkakaisa,P. FONTANILLA ST.,,1200.0,DO 33-2019,street,P. Fontanilla Street,100
+RR,Pagkakaisa,D ARGOSINO ST. ( Formerly Gen Luna St. ),,1200.0,DO 33-2019,street,D. Argosino Street,100
+RR,Pagkakaisa,ABUYON NATIONAL ROAD,Poblacion,1200.0,DO 33-2019,street,Abuyon National Road,100
+CR,Pagkakaisa,MAYOR DOMINGO REYES ST. ( Formerly L. Guinto ),Domingo Reyes St. to St Joseph Highschool,2100.0,DO 33-2019,unmatched,Luzon (46),0
+CR,Pagkakaisa,L. GUINTO ST.,,2000.0,DO 33-2019,unmatched,Luzon (46),0
+CR,Pagkakaisa,MAYOR JUANITO K. UY ST. ( Formerly P. Burgos & R. Magsaysay St. ),,2000.0,DO 33-2019,unmatched,Luzon (17),0
+CR,Pagkakaisa,CLAVERIA ST.,,2000.0,DO 33-2019,unmatched,Luzon (15),0
+RR,Pagkakaisa,MAYOR DOMINGO REYES ST. ( Formerly L. Guinto ),Domingo Reyes St. to St Joseph Highschool,1400.0,DO 33-2019,unmatched,Luzon (46),0
+RR,Pagkakaisa,L. GUINTO ST.,,1200.0,DO 33-2019,unmatched,Luzon (46),0
+RR,Pagkakaisa,MAYOR JUANITO K. UY ST. ( Formerly P. Burgos & R. Magsaysay St. ),,1200.0,DO 33-2019,unmatched,Luzon (17),0
+RR,Pagkakaisa,CLAVERIA ST.,,1200.0,DO 33-2019,unmatched,Luzon (15),0
+CR,Punta,,BARANGAY ROAD,700.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Punta,,BARANGAY ROAD,525.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Punta,,INTERIOR,450.0,DO 33-2019,unmatched,Luzon (0),0
+CR,Rizal,,BARANGAY ROAD,700.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Rizal,,BARANGAY ROAD,525.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Rizal,,INTERIOR,450.0,DO 33-2019,unmatched,Luzon (0),0
+CR,San Isidro,,ALONG BARANGAY ROAD,600.0,DO 33-2019,unmatched,Luzon (0),0
+RR,San Isidro,,ALONG BARANGAY ROAD,525.0,DO 33-2019,unmatched,Luzon (0),0
+RR,San Isidro,,INTERIOR,450.0,DO 33-2019,unmatched,Luzon (0),0
+CR,San Juan,ALL LOTS,ALONG NATIONAL ROAD,750.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Juan,ALL LOTS,ALONG NATIONAL ROAD,550.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Juan,ALL LOTS,INTERIOR / BRGY. ROAD,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,San Vicente,ALL LOTS,BARANGAY ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,San Vicente,ALL LOTS,BARANGAY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Vigo Central,ALL LOTS,ALONG NATIONAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Vigo Central,ALL LOTS,ALONG NATIONAL ROAD,525.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Vigo Central,ALL LOTS,INTERIOR / BRGY. ROAD,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Villa Aurin,,BARANGAY ROAD,1200.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Villa Aurin,,BARANGAY ROAD,525.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Villa Aurin,,INTERIOR,450.0,DO 33-2019,unmatched,Luzon (0),0
+CR,Villa Reyes,ALL LOTS,ALONG NATIONAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Villa Reyes,ALL LOTS,ALONG NATIONAL ROAD,525.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Villa Reyes,ALL LOTS,INTERIOR / BRGY. ROAD,450.0,DO 33-2019,unmatched,Luzon (31),0
+CR,White Cliff,ALL LOTS,BARANGAY ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,White Cliff,ALL LOTS,BARANGAY ROAD,500.0,DO 33-2019,unmatched,Luzon (31),0

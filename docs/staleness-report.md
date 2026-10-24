@@ -1,11 +1,12 @@
 # Staleness adjustment report
 
-Values projected to 2026-10-24. Each barangay's typical value is grown from the effectivity date of the schedule its values were set in, at its RDO's median annual growth. Growth is measured on the same street in the same barangay across consecutive revisions, never on Department Order averages.
+Values projected to 2026-10-25. Each barangay's typical value is grown from the effectivity date of the schedule its values were set in, at its RDO's median annual growth. Growth is measured on the same street in the same barangay across consecutive revisions, never on Department Order averages.
 
 ## Growth rate per RDO
 
 | RDO | Annual growth | Street pairs | Rising | Revisions compared | Flags |
 |---|---:|---:|---:|---|---|
+| 018 | 16.1% | 730 | 100% | DO 48-2007 -> DO 19-2022 (14.2 yrs, 730 pairs) | above 15% a year |
 | 024 | 10.2% | 884 | 99% | DO 81-2015 -> DO 9-2021 (5.7 yrs, 882 pairs) |  |
 | 026 | 16.4% | 685 | 100% | DO 94-2015 -> DO 46-2022 (6.7 yrs, 655 pairs) | above 15% a year |
 | 027 | 7.2% | 1793 | 100% | DO 41-2019 -> DO 46-2023 (4.2 yrs, 1793 pairs) |  |
@@ -31,10 +32,14 @@ Values projected to 2026-10-24. Each barangay's typical value is grown from the 
 | 051 | 10.6% | 751 | 100% | DO 36-2018 -> DO 43-2023 (5.1 yrs, 738 pairs) |  |
 | 052 | 15.9% | 273 | 100% | DO 9-2018 -> DO 49-2023 (5.6 yrs, 273 pairs) | above 15% a year |
 | 055 | 6.5% | 389 | 100% | DO 33-2002 -> DO 18-2020 (17.5 yrs, 221 pairs) |  |
-| 056 | 7.8% | 746 | 100% | DO 56-2017 -> DO 59-2023 (6.0 yrs, 746 pairs) |  |
+| 056 | 7.8% | 749 | 100% | DO 56-2017 -> DO 59-2023 (6.0 yrs, 749 pairs) |  |
 | 057 | 15.4% | 615 | 100% | DO 32-2019 -> DO 55-2024 (5.1 yrs, 468 pairs) | above 15% a year |
 | 058 | 10.1% | 438 | 99% | DO 60-2018 -> DO 35-2022 (3.6 yrs, 438 pairs) |  |
 | 059 | 10.5% | 786 | 100% | DO 58-2018 -> DO 34-2022 (3.6 yrs, 786 pairs) |  |
+| 060 | 8.7% | 904 | 100% | DO 16-2010 -> DO 13-2020 (9.6 yrs, 898 pairs) |  |
+| 061 | 5.9% | 368 | 100% | DO 47-2007 -> DO 33-2019 (11.3 yrs, 207 pairs) |  |
+| 21A | 17.2% | 654 | 100% | DO 66-2018 -> DO 56-2022 (3.7 yrs, 652 pairs) | above 15% a year |
+| 21B | 12.9% | 1047 | 100% | DO 26-2017 -> DO 4-2024 (6.7 yrs, 1036 pairs) |  |
 | 25A | 8.2% | 573 | 100% | DO 29-2009 -> DO 9-2020 (10.6 yrs, 573 pairs) |  |
 | 25B | 10.3% | 1238 | 100% | DO 29-2009 -> DO 14-2018 (8.8 yrs, 1238 pairs) |  |
 | 53A | 9.5% | 322 | 100% | DO 68-2017 -> DO 4-2021 (3.3 yrs, 322 pairs) |  |
@@ -44,30 +49,30 @@ Values projected to 2026-10-24. Each barangay's typical value is grown from the 
 
 ## How much the ranking moves
 
-- 4,824 barangays have their own values and a growth rate.
-- Median uplift from the scheduled to the adjusted value: 1.61x (middle half 1.50x to 2.12x).
-- 4,809 barangays change rank; 72 move by a tenth of the list or more (482+ places); the median move is 77 places.
+- 6,809 barangays have their own values and a growth rate.
+- Median uplift from the scheduled to the adjusted value: 1.54x (middle half 1.49x to 1.73x).
+- 6,766 barangays change rank; 130 move by a tenth of the list or more (680+ places); the median move is 120 places.
 
 ## Five biggest changes
 
 | Barangay | Values set in | Growth used | Years projected | Typical, scheduled | Typical, adjusted | Rank |
 |---|---|---:|---:|---:|---:|---|
-| Binakayan-Kanluran, Kawit | DO 39-2007, 2007-11-05 | 12.3% | 19 | ₱1,715 | ₱15,527 | 3,723 → 1,613 |
-| Silang Junction South, Tagaytay | DO 38-2007, 2007-10-22 | 10.0% | 19 | ₱1,645 | ₱10,070 | 3,773 → 2,146 |
-| Silang Junction North, Tagaytay | DO 38-2007, 2007-10-22 | 10.0% | 19 | ₱1,645 | ₱10,070 | 3,774 → 2,147 |
-| Barangay 10, Cavite City | DO 13-2010, 2010-08-08 | 12.3% | 16 | ₱1,500 | ₱9,859 | 3,846 → 2,221 |
-| Sungay South, Tagaytay | DO 38-2007, 2007-10-22 | 10.0% | 19 | ₱1,100 | ₱6,734 | 4,165 → 2,721 |
+| East Poblacion, Palauig | DO 48-2007, 2008-02-16 | 16.1% | 19 | ₱215 | ₱3,525 | 6,762 → 3,911 |
+| Binakayan-Kanluran, Kawit | DO 39-2007, 2007-11-05 | 12.3% | 19 | ₱1,715 | ₱15,532 | 4,414 → 1,636 |
+| Sungay South, Tagaytay | DO 38-2007, 2007-10-22 | 10.0% | 19 | ₱1,100 | ₱6,736 | 5,221 → 2,911 |
+| Sungay North, Tagaytay | DO 38-2007, 2007-10-22 | 10.0% | 19 | ₱1,100 | ₱6,736 | 5,222 → 2,912 |
+| Barangay 10, Cavite City | DO 13-2010, 2010-08-08 | 12.3% | 16 | ₱1,500 | ₱9,862 | 4,583 → 2,302 |
 
-All five take their value from an old schedule: their RDO's newer schedule either lists them under a name not yet aliased or does not list them at all (see `pipeline/review/plausibility.csv`), so a recent growth rate is applied over many years. 9 barangays are projected over more than 10 years; the map marks them as rough.
+All five take their value from an old schedule: their RDO's newer schedule either lists them under a name not yet aliased or does not list them at all (see `pipeline/review/plausibility.csv`), so a recent growth rate is applied over many years. 17 barangays are projected over more than 10 years; the map marks them as rough.
 
 ## Five biggest changes among barangays projected 10 years or less
 
 | Barangay | Values set in | Growth used | Years projected | Typical, scheduled | Typical, adjusted | Rank |
 |---|---|---:|---:|---:|---:|---|
-| Santo Niño, Cainta | DO 22-2020, 2020-09-15 | 16.3% | 6 | ₱5,500 | ₱13,857 | 2,355 → 1,686 |
-| San Isidro, Cainta | DO 22-2020, 2020-09-15 | 16.3% | 6 | ₱5,000 | ₱12,597 | 2,477 → 1,814 |
-| San Juan, Cainta | DO 22-2020, 2020-09-15 | 16.3% | 6 | ₱5,000 | ₱12,597 | 2,478 → 1,815 |
-| Santo Domingo, Cainta | DO 22-2020, 2020-09-15 | 16.3% | 6 | ₱5,000 | ₱12,597 | 2,479 → 1,816 |
-| Tayuman, Binangonan | DO 22-2020, 2020-09-15 | 16.3% | 6 | ₱5,250 | ₱13,227 | 2,392 → 1,739 |
+| Moras De La Paz, Santo Tomas | DO 26-2017, 2017-06-11 | 12.9% | 9 | ₱1,300 | ₱4,042 | 4,930 → 3,652 |
+| Basa Air Base, Floridablanca | DO 26-2017, 2017-06-11 | 12.9% | 9 | ₱650 | ₱2,021 | 6,101 → 4,938 |
+| Masangsang, Mexico | DO 26-2017, 2017-06-11 | 12.9% | 9 | ₱2,050 | ₱6,374 | 4,000 → 2,974 |
+| Santo Rosario, San Fernando | DO 26-2017, 2017-06-11 | 12.9% | 9 | ₱4,500 | ₱13,992 | 2,739 → 1,717 |
+| Paalaman, Jala-Jala | DO 22-2020, 2020-09-15 | 16.3% | 6 | ₱850 | ₱2,142 | 5,753 → 4,847 |
 
 _Generated by `pipeline/report_staleness.py`._

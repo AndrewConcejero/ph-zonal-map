@@ -1,0 +1,92 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+RR,A. Mabini,ALL LOTS,,325.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Aloneros,ALL LOTS,ALONG RAILWAY,975.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Aloneros,ALL LOTS,INTERIOR LOTS,850.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Arbismen,ALL LOTS,ALONG BARANGAY ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bagong Silang,ALL LOTS,ALONG NATIONAL HIGHWAY,625.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Balinarin,ALL LOTS,ALONG PROVINCIAL ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bukal Maligaya,ALL LOTS,ALONG BRGY. ROAD,500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bukal Maligaya,ALL LOTS,INTERIOR LOTS,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cabibihan,ALL LOTS,,1350.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cabong Norte,ALL LOTS,ALONG BARANGAY ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cabong Norte,ALL LOTS,INTERIOR LOTS,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cabong Sur,ALL LOTS,ALONG BARANGAY ROAD,545.0,DO 31-2010,unmatched,Luzon (31),0
+RR,Cabong Sur,ALL LOTS,INTERIOR LOTS,305.0,DO 31-2010,unmatched,Luzon (31),0
+CR,Calimpak,ALL LOTS,ALONG PROVINCIAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Calimpak,ISAAC PROPERTY,,950.0,DO 37-2022,unmatched,Luzon (11),0
+RR,Calimpak,ALL LOTS,ALONG PROVINCIAL ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Calimpak,ALL LOTS,INTERIOR LOTS,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Calimpak,BAGONG BAYAN SUBD.,BISCOCHO PROPERTY,850.0,DO 37-2022,unmatched,Luzon (24),0
+RR,Calimpak,LAGDAMEO PROPERTY,,850.0,DO 37-2022,unmatched,Luzon (18),0
+RR,Calimpak,ALL LOTS,INTERIOR LOTS,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Capuluan Central,ALL LOTS,,650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Capuluan Tulon,ALL LOTS,,590.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Dancalan Caimawan,ALL LOTS,,590.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Dancalan Central,ALL LOTS,,650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Danlagan Batis,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Danlagan Cabayao,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Danlagan Central,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Danlagan Reserva,ALL LOTS,,475.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Del Rosario,ALL LOTS,,575.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Dungawan Central,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Dungawan Paalyunan,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Dungawan Pantay,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Ermita,ALL LOTS,,475.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Gapas,ALL LOTS,,775.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Himbubulo Este,ALL LOTS,ALONG BARANGAY ROAD,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Himbubulo Weste,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Hinabaan,ALL LOTS,,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Ligpit Bantayan,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Lubigan,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Magallanes,ALL LOTS,,225.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Magsaysay,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Manggagawa,ISAAC PROPERTY,,950.0,DO 37-2022,unmatched,Luzon (11),0
+RR,Manggagawa,VILLANUEVA PROPERTY,,750.0,DO 37-2022,unmatched,Luzon (25),0
+RR,Manggagawa,ALL LOTS,ALONG THE BRGY. ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Manggagawa,ALL LOTS,INTERIOR LOTS,675.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Manggalang,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Manlayo,ALL LOTS,ALONG PROVINCIAL ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Manlayo,ALL LOTS,INTERIOR LOTS,750.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Poblacion,ALL OTHER STREETS,,2250.0,DO 37-2022,background,,0
+RR,Poblacion,ALL OTHER STREETS,,900.0,DO 37-2022,background,,0
+CR,Poblacion,ROLDAN AVE.,,6250.0,DO 37-2022,street,Roldan Avenue,100
+CR,Poblacion,GOMBURZA ST.,,6250.0,DO 37-2022,street,Gomburza,97
+CR,Poblacion,C. M RECTO ST. To Cor. ISAAC ST.,,6250.0,DO 37-2022,unmatched,Luzon (7),0
+CR,Poblacion,C.M RECTO ST.,,6250.0,DO 37-2022,unmatched,Luzon (14),0
+CR,Poblacion,ISAAC ST.,,6250.0,DO 37-2022,unmatched,Luzon (0),0
+CR,Poblacion,P. BURGOS ST.,,6250.0,DO 37-2022,unmatched,Luzon (33),0
+CR,Poblacion,ROLDAN AVE. To.Cor. ISAAC ST.,,6250.0,DO 37-2022,unmatched,Luzon (17),0
+CR,Poblacion,GOMBURZA ST. COR. C. RECTO ST.,,6250.0,DO 37-2022,unmatched,Luzon (24),0
+CR,Poblacion,MOLINES ST. COR. ISAAC ST.,,4500.0,DO 37-2022,unmatched,Luzon (19),0
+CR,Poblacion,MOLINES ST. COR VILLAFUERTE,,4500.0,DO 37-2022,unmatched,Luzon (15),0
+CR,Poblacion,MOLINES ST.,,4500.0,DO 37-2022,unmatched,Luzon (36),0
+CR,Poblacion,V. VILLAFUERTE ST.,,3250.0,DO 37-2022,unmatched,Luzon (0),0
+RR,Poblacion,ISAAC ST.,,2900.0,DO 37-2022,unmatched,Luzon (0),0
+RR,Poblacion,ARANA ST.,,2850.0,DO 37-2022,unmatched,Luzon (20),0
+RR,Poblacion,MATTA MOLINES ST.,,2250.0,DO 37-2022,unmatched,Luzon (24),0
+CR,Poblacion,ALONG THE SHORE,,2250.0,DO 37-2022,unmatched,Luzon (38),0
+RR,Poblacion,ISAAC PROPERTY K.P ST.,,950.0,DO 37-2022,unmatched,Luzon (9),0
+RR,Salakan,ALL LOTS,,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Antonio,ALL LOTS,ALONG PROVINCIAL ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Antonio,ALL LOTS,INTERIOR LOTS,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Isidro,ALL LOTS,ALONG BARANGAY ROAD,650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Jose,ALL LOTS,ALONG NATIONAL HIGHWAY,525.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Lorenzo,ALL LOTS,ALONG BARANGAY ROAD,325.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Luis I,ALL LOTS,ALONG NATIONAL HIGHWAY,675.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Luis II,ALL LOTS,ALONG NATIONAL HIGHWAY,650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Miguel,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Pedro I,ALL LOTS,ALONG BARANGAY ROAD,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Pedro II,ALL LOTS,ALONG NATIONAL HIGHWAY,460.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Roque,ALL LOTS,ALONG BARANGAY ROAD,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Santa Cruz,ALL LOTS,ALONG BARANGAY ROAD,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Santa Maria,ALL LOTS,ALONG BARANGAY ROAD,325.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Santa Teresita,ALL LOTS,ALONG BARANGAY ROAD,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Sintones,ALL LOTS,ALONG BARANGAY ROAD,525.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Sisi,ALL LOTS,ALONG PROVINCIAL ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Sisi,ALL LOTS,ALONG PROVINCIAL ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Sisi,BLISS,,750.0,DO 37-2022,unmatched,Luzon (20),0
+RR,Sisi,ALL LOTS,INTERIOR LOTS,650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Sisi,CANLAS SUBD.,,650.0,DO 37-2022,unmatched,Luzon (20),0
+RR,Tikay,ALL LOTS,,525.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Triumpo,ALL LOTS,,450.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Villa Hiwasayan,ALL LOTS,ALONG BARANGAY ROAD,475.0,DO 37-2022,unmatched,Luzon (31),0

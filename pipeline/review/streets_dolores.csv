@@ -1,0 +1,80 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+RR,Antonino,ALL LOTS,,225.0,DO 16-2010,unmatched,,0
+CR,Bagong Anyo,ALL OTHER STREETS,,1800.0,DO 13-2020,background,,0
+RR,Bagong Anyo,ALL OTHER STREETS,,900.0,DO 13-2020,background,,0
+CR,Bagong Anyo,QUEZON ST.,,3000.0,DO 13-2020,street,Quezon Street,100
+CR,Bagong Anyo,CAUYAN ST.,,2000.0,DO 13-2020,street,Cauyan Street,100
+CR,Bagong Anyo,HERRERA ST.,,2000.0,DO 13-2020,street,Herrera Street,100
+CR,Bagong Anyo,MARQUEZ ST.,,2000.0,DO 13-2020,street,Marquez Street,100
+CR,Bagong Anyo,PALAD ST.,,2000.0,DO 13-2020,street,Palad Street,100
+CR,Bagong Anyo,REYES ST.,,2000.0,DO 13-2020,street,Reyes Street,100
+RR,Bagong Anyo,QUEZON ST.,,1500.0,DO 13-2020,street,Quezon Street,100
+RR,Bagong Anyo,CAUYAN ST.,,1000.0,DO 13-2020,street,Cauyan Street,100
+RR,Bagong Anyo,HERRERA ST.,,1000.0,DO 13-2020,street,Herrera Street,100
+RR,Bagong Anyo,MARQUEZ ST.,,1000.0,DO 13-2020,street,Marquez Street,100
+RR,Bagong Anyo,PALAD ST.,,1000.0,DO 13-2020,street,Palad Street,100
+RR,Bagong Anyo,REYES ST.,,1000.0,DO 13-2020,street,Reyes Street,100
+CR,Bayanihan,ALL OTHER STREETS,,1800.0,DO 13-2020,background,,0
+RR,Bayanihan,ALL OTHER STREETS,,900.0,DO 13-2020,background,,0
+CR,Bayanihan,QUEZON ST,,3000.0,DO 13-2020,street,Quezon Street,100
+CR,Bayanihan,DEJARME ST,,2000.0,DO 13-2020,street,Dejarme Street,100
+CR,Bayanihan,HERRERA ST,,2000.0,DO 13-2020,street,Herrera Street,100
+CR,Bayanihan,MARQUEZ ST,,2000.0,DO 13-2020,street,Marquez Street,100
+RR,Bayanihan,QUEZON ST,,1500.0,DO 13-2020,street,Quezon Street,100
+RR,Bayanihan,DEJARME ST,,1000.0,DO 13-2020,street,Dejarme Street,100
+RR,Bayanihan,HERRERA ST,,1000.0,DO 13-2020,street,Herrera Street,100
+RR,Bayanihan,MARQUEZ ST,,1000.0,DO 13-2020,street,Marquez Street,100
+CR,Bulakin I,ALL LOTS,ALONG PROVINCIAL ROAD,1200.0,DO 13-2020,unmatched,Buncayo Subdivision (27),0
+CR,Bulakin I,ALL LOTS,ALONG OTHER ROADS,1200.0,DO 13-2020,unmatched,Buncayo Subdivision (27),0
+RR,Bulakin I,STA. MARIA VILLAGE,,1200.0,DO 13-2020,unmatched,Buncayo Subdivision (12),0
+RR,Bulakin I,ALL LOTS,ALONG PROVINCIAL ROAD,800.0,DO 13-2020,unmatched,Buncayo Subdivision (27),0
+RR,Bulakin I,ALL LOTS,ALONG OTHER ROADS,600.0,DO 13-2020,unmatched,Buncayo Subdivision (27),0
+CR,Bulakin II,ALL LOTS,ALONG PROVINCIAL ROAD,1600.0,DO 13-2020,unmatched,Santa Maria Village (32),0
+CR,Bulakin II,ALL LOTS,ALONG OTHER ROADS,1200.0,DO 13-2020,unmatched,Santa Maria Village (32),0
+RR,Bulakin II,ALL LOTS,ALONG PROVINCIAL ROAD,800.0,DO 13-2020,unmatched,Santa Maria Village (32),0
+RR,Bulakin II,ALL LOTS,ALONG OTHER ROADS,600.0,DO 13-2020,unmatched,Santa Maria Village (32),0
+RR,Bulakin II,STA. MARIA VILLAGE,,1200.0,DO 13-2020,village,Santa Maria Village,90.0
+CR,Bungoy,ALL LOTS,ALONG PROVINCIAL ROAD,1600.0,DO 13-2020,unmatched,,0
+CR,Bungoy,ALL LOTS,ALONG OTHER ROADS,1200.0,DO 13-2020,unmatched,,0
+RR,Bungoy,ALL LOTS,ALONG PROVINCIAL ROAD,800.0,DO 13-2020,unmatched,,0
+RR,Bungoy,ALL LOTS,ALONG OTHER ROADS,600.0,DO 13-2020,unmatched,,0
+CR,Cabatang,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Cabatang,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Dagatan,ALL LOTS,ALONG PROVINCIAL ROAD,1600.0,DO 13-2020,unmatched,Buncayo Subdivision (27),0
+RR,Dagatan,ALL LOTS,ALONG PROVINCIAL ROAD,800.0,DO 13-2020,unmatched,Buncayo Subdivision (27),0
+RR,Dagatan,ALL LOTS,ALONG OTHER ROADS,500.0,DO 13-2020,unmatched,Buncayo Subdivision (27),0
+RR,Kinabuhayan,ALL LOTS,,500.0,DO 13-2020,unmatched,Kinabuhayan (11),0
+CR,Maligaya,ALL OTHER STREETS,,1800.0,DO 13-2020,background,,0
+RR,Maligaya,ALL OTHER STREETS,,900.0,DO 13-2020,background,,0
+CR,Maligaya,QUEZON ST.,,3000.0,DO 13-2020,street,Quezon Street,100
+CR,Maligaya,DEJARME ST.,,2000.0,DO 13-2020,street,Dejarme Street,100
+CR,Maligaya,GAURANO ST.,,2000.0,DO 13-2020,street,Guarano Street,90.0
+CR,Maligaya,HERRERA ST.,,2000.0,DO 13-2020,street,Herrera Street,100
+CR,Maligaya,LUICO ST.,,2000.0,DO 13-2020,street,Luico Street,100
+RR,Maligaya,QUEZON ST.,,1500.0,DO 13-2020,street,Quezon Street,100
+RR,Maligaya,DEJARME ST.,,1000.0,DO 13-2020,street,Dejarme Street,100
+RR,Maligaya,GAURANO ST.,,1000.0,DO 13-2020,street,Guarano Street,90.0
+RR,Maligaya,HERRERA ST.,,1000.0,DO 13-2020,street,Herrera Street,100
+RR,Maligaya,LUICO ST.,,1000.0,DO 13-2020,street,Luico Street,100
+CR,Manggahan,ALL LOTS,,800.0,DO 13-2020,unmatched,Santa Maria Village (32),0
+RR,Manggahan,ALL LOTS,,400.0,DO 13-2020,unmatched,Santa Maria Village (32),0
+CR,Pinagdanlayan,ALL LOTS,,1000.0,DO 13-2020,unmatched,,0
+RR,Pinagdanlayan,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+CR,Putol,ALL LOTS,,1000.0,DO 13-2020,unmatched,,0
+RR,Putol,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+CR,San Mateo,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,San Mateo,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Santa Lucia,ALL LOTS,,1000.0,DO 13-2020,unmatched,,0
+RR,Santa Lucia,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+CR,Silanganan,ALL OTHER STREETS,,1500.0,DO 13-2020,background,,0
+RR,Silanganan,ALL OTHER STREETS,,750.0,DO 13-2020,background,,0
+CR,Silanganan,QUEZON ST.,,2400.0,DO 13-2020,street,Quezon Street,100
+CR,Silanganan,CAUYAN ST.,,1800.0,DO 13-2020,street,Cauyan Street,100
+CR,Silanganan,HERRERA ST.,,1800.0,DO 13-2020,street,Herrera Street,100
+CR,Silanganan,LUICO ST.,,1800.0,DO 13-2020,street,Luico Street,100
+CR,Silanganan,REYES ST.,,1600.0,DO 13-2020,street,Reyes Street,100
+RR,Silanganan,QUEZON ST.,,1200.0,DO 13-2020,street,Quezon Street,100
+RR,Silanganan,CAUYAN ST.,,900.0,DO 13-2020,street,Cauyan Street,100
+RR,Silanganan,HERRERA ST.,,900.0,DO 13-2020,street,Herrera Street,100
+RR,Silanganan,LUICO ST.,,900.0,DO 13-2020,street,Luico Street,100
+RR,Silanganan,REYES ST.,,800.0,DO 13-2020,street,Reyes Street,100

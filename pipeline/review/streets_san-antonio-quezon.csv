@@ -1,0 +1,54 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Arawan,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+RR,Arawan,ALL LOTS,,250.0,DO 13-2020,unmatched,,0
+CR,Bagong Niing,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Bagong Niing,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Balat Atis,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Balat Atis,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Briones,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Briones,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Bulihan,,,800.0,DO 13-2020,unmatched,,0
+RR,Bulihan,,,400.0,DO 13-2020,unmatched,,0
+CR,Buliran,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Buliran,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Callejon,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Callejon,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Corazon,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Corazon,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Loob,ALL LOTS,,1000.0,DO 13-2020,unmatched,,0
+RR,Loob,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+CR,Magsaysay,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Magsaysay,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,"Manuel del Valle, Sr.",ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,"Manuel del Valle, Sr.",ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Matipunso,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Matipunso,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Niing,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Niing,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Poblacion,ALL OTHER STREETS,,1700.0,DO 13-2020,background,,0
+CR,Poblacion,ALL OTHER STREETS,INTERIOR,1200.0,DO 13-2020,background,,0
+RR,Poblacion,ALL OTHER STREETS,,850.0,DO 13-2020,background,,0
+RR,Poblacion,ALL OTHER STREETS,INTERIOR,600.0,DO 13-2020,background,,0
+CR,Poblacion,J. C WAGAN ST.,,5000.0,DO 13-2020,unmatched,,0
+CR,Poblacion,SACRED HEART SUBDIVISION,,2600.0,DO 13-2020,unmatched,,0
+RR,Poblacion,J. C WAGAN ST.,,2500.0,DO 13-2020,unmatched,,0
+CR,Poblacion,DIMAANO ST.,,2400.0,DO 13-2020,unmatched,,0
+CR,Poblacion,CARAOS ST.,,2000.0,DO 13-2020,unmatched,,0
+CR,Poblacion,HARINA ST.,,2000.0,DO 13-2020,unmatched,,0
+RR,Poblacion,SACRED HEART SUBDIVISION,,1300.0,DO 13-2020,unmatched,,0
+RR,Poblacion,DIMAANO ST.,,1200.0,DO 13-2020,unmatched,,0
+RR,Poblacion,CARAOS ST.,,1000.0,DO 13-2020,unmatched,,0
+RR,Poblacion,HARINA ST.,,1000.0,DO 13-2020,unmatched,,0
+CR,Pulo,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Pulo,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Pury,ALL LOTS,,1000.0,DO 13-2020,unmatched,,0
+RR,Pury,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+CR,Sampaga,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Sampaga,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Sampaguita,ALL LOTS,,1000.0,DO 13-2020,unmatched,,0
+CR,Sampaguita,VILLA SAN ANTONIO SUBDIVISION,,1000.0,DO 13-2020,unmatched,,0
+RR,Sampaguita,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+CR,San Jose,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,San Jose,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Sinturisan,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Sinturisan,ALL LOTS,,400.0,DO 13-2020,unmatched,,0

@@ -1,7 +1,17 @@
 NOTE       RDO-027 RDO No. 27 - Caloocan City.xls: sheet 'Sheet1' is empty; ignored
 NOTE       RDO-030 RDO No. 30 - Binondo.xls: sheet 'Sheet1' is empty; ignored
 NOTE       RDO-033 RDO No. 33 - Intramuros-Ermita-Malate.xls: NOTICE says RDO 033 but DO 75-2017 subject says RDO 030
-NOTE       RDO-046 RDO No. 46 - Cainta-Taytay.xls: DO 44-2003: NOTICE gives no effectivity date
+NOTE       RDO-046 RDO No. 46 - Cainta-Taytay.xls: DO 44-2003: no effectivity date in NOTICE; using 2004-03-01 from 47 of 47 block headers in ['Sheet 4 (DO 44-03) ']
 NOTE       RDO-073 RDO No. 73 - San Jose, Antique.xls: sheet 'Recovered_Sheet1' is empty; ignored
+NOTE       RDO-21A RDO No. 21A - Angeles City, North Pampanga.xls: DO 56-2022: no effectivity date in NOTICE; using 2022-09-11 from 30 of 30 block headers in ['Sheet 6 (DO 056-22)']
+NOTE       RDO-21A RDO No. 21A - Angeles City, North Pampanga.xls: DO 66-2018: no effectivity date in NOTICE; using 2018-12-28 from 59 of 59 block headers in ['Sheet 5 (DO 066-18)']
+NOTE       RDO-21A RDO No. 21A - Angeles City, North Pampanga.xls: DO 36-2005: sheet ['Sheet 4 (DO 36-05)'] not listed in NOTICE; no effectivity date
+NOTE       RDO-21A RDO No. 21A - Angeles City, North Pampanga.xls: DO 47-2002: no effectivity date in NOTICE; using 2002-12-28 from 32 of 32 block headers in ['Sheet 3 (DO 47-02)']
+NOTE       RDO-21A RDO No. 21A - Angeles City, North Pampanga.xls: DO 24-2002: no effectivity date in NOTICE; using 2002-12-28 from 51 of 51 block headers in ['Sheet 2 (DO 24-02)']
+NOTE       RDO-21A RDO No. 21A - Angeles City, North Pampanga.xls: DO 73-1996: no effectivity date in NOTICE; using 1996-09-16 from 12 of 12 block headers in ['Sheet 1 (DO 73-96)']
+NOTE       RDO-21B RDO No. 21B - City of San Fernando, South Pampanga.xls: DO 47-2002: several effectivity dates by LGU ['2002-12-28', '2007-02-02']; using the earliest
+NOTE       RDO-21B RDO No. 21B - City of San Fernando, South Pampanga.xls: DO 24-2002: several effectivity dates by LGU ['2002-12-28', '2007-02-02']; using the earliest
+NOTE       RDO-21B RDO No. 21B - City of San Fernando, South Pampanga.xls: DO 23-1998: several effectivity dates by LGU ['1998-07-20', '2007-02-02']; using the earliest
+NOTE       RDO-21B RDO No. 21B - City of San Fernando, South Pampanga.xls: DO 80-1996: several effectivity dates by LGU ['1996-10-20', '2007-02-02']; using the earliest
 NOTE       RDO-54A RDO No. 54A - Trece Martirez City, East Cavite.xls: sheet 'Recovered_Sheet1' is empty; ignored
 NOTE       RDO-54B RDO No. 54B - Bacoor City, West Cavite.xls: sheet 'Recovered_Sheet1' is empty; ignored

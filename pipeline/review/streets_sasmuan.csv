@@ -1,0 +1,56 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+I,Batang 1st,ALL LOTS,ALONG BARANGAY ROAD,1450.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Batang 1st,ALL LOTS,ALONG BARANGAY ROAD,1000.0,DO 4-2024,unmatched,Luzon (31),0
+I,Batang 2nd,ALL LOTS,ALONG BARANGAY ROAD,1450.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Batang 2nd,ALL LOTS,ALONG BARANGAY ROAD,1000.0,DO 4-2024,unmatched,Luzon (31),0
+I,Mabuanbuan,ALL LOTS,ALONG BARANGAY ROAD,1450.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Mabuanbuan,ALL LOTS,ALONG BARANGAY ROAD,1000.0,DO 4-2024,unmatched,Luzon (31),0
+I,Malusac,ALL LOTS,ALONG BARANGAY ROAD,1450.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Malusac,ALL LOTS,ALONG BARANGAY ROAD,1000.0,DO 4-2024,unmatched,Luzon (31),0
+CR,San Antonio,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Luzon (31),0
+I,San Antonio,ALL LOTS,BARANGAY ROAD,1700.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Antonio,ALL LOTS,BARANGAY ROAD,1400.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Antonio,ALL LOTS,INTERIOR LOTS,800.0,DO 4-2024,unmatched,Luzon (31),0
+CR,San Nicolas 1st,ALL LOTS,PROV.ROAD-SASMUAN-GUAGUA,5500.0,DO 4-2024,unmatched,Luzon (31),0
+I,San Nicolas 1st,ALL LOTS,PROV.ROAD-SASMUAN-GUAGUA,3000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Nicolas 1st,ALL LOTS,PROV.ROAD-SASMUAN-GUAGUA,2750.0,DO 4-2024,unmatched,Luzon (31),0
+I,San Nicolas 1st,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Nicolas 1st,ALL LOTS,BARANGAY ROAD,2100.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Nicolas 1st,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Luzon (31),0
+I,San Nicolas 2nd,ALL OTHER STREETS,INTERIOR LOTS,1700.0,DO 4-2024,background,,0
+RR,San Nicolas 2nd,ALL OTHER STREETS,INTERIOR LOTS,1350.0,DO 4-2024,background,,0
+CR,San Nicolas 2nd,ALL LOTS,PROV'L. RD-SASMUAN-GUAGUA,5500.0,DO 4-2024,unmatched,Luzon (31),0
+I,San Nicolas 2nd,ALL LOTS,PROV'L. RD-SASMUAN-GUAGUA,3000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Nicolas 2nd,SEDECO SUBD.,NEAR BRGY.HALL,3000.0,DO 4-2024,unmatched,Luzon (18),0
+I,San Nicolas 2nd,ALL LOTS,INTERIOR LOTS,2800.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Nicolas 2nd,ALL LOTS,PROV'L. RD-SASMUAN-GUAGUA,2750.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Nicolas 2nd,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Luzon (31),0
+I,San Nicolas 2nd,ALL LOTS,BARANGAY ROAD,2400.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Nicolas 2nd,ALL LOTS,BARANGAY ROAD,2050.0,DO 4-2024,unmatched,Luzon (31),0
+CR,San Pedro,ALL LOTS,BARANGAY ROAD,1800.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Pedro,ALL LOTS,BARANGAY ROAD,1500.0,DO 4-2024,unmatched,Luzon (31),0
+I,San Pedro,ALL LOTS,INTERIOR LOTS,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Pedro,ALL LOTS,INTERIOR LOTS,1000.0,DO 4-2024,unmatched,Luzon (31),0
+CR,Santa Monica,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Luzon (31),0
+I,Santa Monica,ALL LOTS,BARANGAY ROAD,1700.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Santa Monica,ALL LOTS,BARANGAY ROAD,1400.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Santa Monica,ALL LOTS,INTERIOR LOTS,800.0,DO 4-2024,unmatched,Luzon (31),0
+CR,Santo Tomas,ALL LOTS,PROV. ROAD-SASMUAN-GUAGUA,5500.0,DO 4-2024,unmatched,Luzon (31),0
+I,Santo Tomas,ALL LOTS,PROV. ROAD-SASMUAN-GUAGUA,3000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Santo Tomas,ALL LOTS,PROV. ROAD-SASMUAN-GUAGUA,2750.0,DO 4-2024,unmatched,Luzon (31),0
+I,Santo Tomas,ALL LOTS,INTERIOR LOTS,2250.0,DO 4-2024,unmatched,Luzon (31),0
+I,Santo Tomas,ALL LOTS,BARANGAY ROAD,1900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Santo Tomas,ALL LOTS,BARANGAY ROAD,1700.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Santo Tomas,ALL LOTS,INTERIOR LOTS,1600.0,DO 4-2024,unmatched,Luzon (31),0
+I,Sebitanan,ALL LOTS,BARANGAY ROAD,1450.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sebitanan,ALL LOTS,BARANGAY ROAD,1000.0,DO 4-2024,unmatched,Luzon (31),0
+CR,Sta. Lucia,ALL LOTS,PRV.ROAD-SASMUAN-LUBAO,5000.0,DO 4-2024,unmatched,Luzon (31),0
+CR,Sta. Lucia,ALL LOTS,PROV.ROAD-SASMUAN-GUAGUA,5000.0,DO 4-2024,unmatched,Luzon (31),0
+I,Sta. Lucia,ALL LOTS,PROV.ROAD-SASMUAN-GUAGUA,3500.0,DO 4-2024,unmatched,Luzon (31),0
+I,Sta. Lucia,ALL LOTS,PRV.ROAD-SASMUAN-LUBAO,3000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia,ALL LOTS,PRV.ROAD-SASMUAN-LUBAO,2650.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia,ALL LOTS,PROV.ROAD-SASMUAN-GUAGUA,2650.0,DO 4-2024,unmatched,Luzon (31),0
+I,Sta. Lucia,ALL LOTS,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Luzon (31),0
+I,Sta. Lucia,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia,ALL LOTS,INTERIOR LOTS,1800.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia,ALL LOTS,BARANGAY ROAD,1800.0,DO 4-2024,unmatched,Luzon (31),0

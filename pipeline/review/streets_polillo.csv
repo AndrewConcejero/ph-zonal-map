@@ -1,0 +1,56 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Anawan,ALL LOTS,,500.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Anawan,ALL LOTS,,400.0,DO 13-2020,unmatched,Polillo Island (45),0
+CR,Atulayan,ALL LOTS,,525.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Atulayan,ALL LOTS,,415.0,DO 13-2020,unmatched,Polillo Island (45),0
+CR,Balesin,ALL LOTS,,1000.0,DO 13-2020,unmatched,,0
+RR,Balesin,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Bañadero,ALL LOTS,,490.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Binibitinan,,,270.0,DO 13-2020,unmatched,Polillo Island (0),0
+RR,Bislian,ALL LOTS,,300.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Bucao,ALL LOTS,,330.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Canicanian,ALL LOTS,,270.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Kalubakis,ALL LOTS,,270.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Languyin,ALL LOTS,,225.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Libjo,ALL LOTS,,300.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Pamatdan,ALL LOTS,,225.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Pilion,ALL LOTS,,225.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Pinaglubayan,ALL LOTS,,225.0,DO 13-2020,unmatched,Polillo Island (45),0
+CR,Poblacion,ALL OTHER LOTS,,850.0,DO 13-2020,background,,0
+RR,Poblacion,ALL OTHER LOTS,,780.0,DO 13-2020,background,,0
+CR,Poblacion,SAN JOSE ST.,,2120.0,DO 13-2020,street,San Jose Street,100
+RR,Poblacion,SAN JOSE ST.,,1960.0,DO 13-2020,street,San Jose Street,100
+CR,Poblacion,BONIFACIO ST.,,1950.0,DO 13-2020,street,Bonifacio Street,100
+RR,Poblacion,BONIFACIO ST.,,1000.0,DO 13-2020,street,Bonifacio Street,100
+CR,Poblacion,GOMEZ ST.,,2120.0,DO 13-2020,unmatched,Polillo Island (11),0
+CR,Poblacion,PUMARADA ST.,,2120.0,DO 13-2020,unmatched,Polillo Island (27),0
+CR,Poblacion,RIZAL ST.,,2120.0,DO 13-2020,unmatched,Polillo Island (32),0
+CR,Poblacion,MOPERA ST.,,2080.0,DO 13-2020,unmatched,Polillo Island (20),0
+CR,Poblacion,M.H. DEL PILAR ST.,,1960.0,DO 13-2020,unmatched,Polillo Island (37),0
+CR,Poblacion,ZAMORA ST.,,1960.0,DO 13-2020,unmatched,Polillo Island (20),0
+CR,Poblacion,LUNA ST.,,1920.0,DO 13-2020,unmatched,Polillo Island (22),0
+CR,Poblacion,MABINI ST.,,1920.0,DO 13-2020,unmatched,Polillo Island (30),0
+CR,Poblacion,ELMA ST.,,1840.0,DO 13-2020,unmatched,Polillo Island (22),0
+CR,Poblacion,AZARIAS ST.,,1535.0,DO 13-2020,unmatched,Polillo Island (20),0
+CR,Poblacion,BURGOS ST.,,1520.0,DO 13-2020,unmatched,Polillo Island (11),0
+RR,Poblacion,GOMEZ ST.,,1450.0,DO 13-2020,unmatched,Polillo Island (11),0
+RR,Poblacion,M.H. DEL PILAR ST.,,1450.0,DO 13-2020,unmatched,Polillo Island (37),0
+RR,Poblacion,MABINI ST.,,1450.0,DO 13-2020,unmatched,Polillo Island (30),0
+RR,Poblacion,MOPERA ST.,,1450.0,DO 13-2020,unmatched,Polillo Island (20),0
+RR,Poblacion,RIZAL ST.,,1450.0,DO 13-2020,unmatched,Polillo Island (32),0
+RR,Poblacion,HERNANDEZ ST.,,1440.0,DO 13-2020,unmatched,Polillo Island (26),0
+CR,Poblacion,AZOREL ST.,near ricefield area,1050.0,DO 13-2020,unmatched,Polillo Island (30),0
+RR,Poblacion,AZARIAS ST.,,1000.0,DO 13-2020,unmatched,Polillo Island (20),0
+RR,Poblacion,BURGOS ST.,,1000.0,DO 13-2020,unmatched,Polillo Island (11),0
+RR,Poblacion,ELMA ST.,,1000.0,DO 13-2020,unmatched,Polillo Island (22),0
+RR,Poblacion,FOLIENTE ST.,,1000.0,DO 13-2020,unmatched,Polillo Island (36),0
+RR,Poblacion,LUNA ST.,,1000.0,DO 13-2020,unmatched,Polillo Island (22),0
+RR,Poblacion,PUMARADA ST.,,1000.0,DO 13-2020,unmatched,Polillo Island (27),0
+RR,Poblacion,ZAMORA ST.,,1000.0,DO 13-2020,unmatched,Polillo Island (20),0
+RR,Poblacion,AZOREL ST.,near ricefield area,850.0,DO 13-2020,unmatched,Polillo Island (30),0
+RR,Sabang,ALL LOTS,,525.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Salipsip,ALL LOTS,,210.0,DO 13-2020,unmatched,Polillo Island (45),0
+CR,Sibulan,ALL LOTS,,800.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Sibulan,ALL LOTS,,650.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Taluong,ALL LOTS,,350.0,DO 13-2020,unmatched,Polillo Island (45),0
+RR,Tamulaya-Anitong,ALL LOTS,,375.0,DO 13-2020,unmatched,Polillo Island (45),0

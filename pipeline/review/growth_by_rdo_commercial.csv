@@ -1,4 +1,5 @@
 rdo,annual_rate,source,pairs,share_rising,transitions,flags
+RDO-018,0.1455,rdo,133,1.0,"DO 48-2007 -> DO 19-2022 (14.2 yrs, 133 pairs)",
 RDO-024,0.1038,rdo,153,0.974,"DO 81-2015 -> DO 9-2021 (5.7 yrs, 152 pairs); DO 22-2003 -> DO 9-2021 (17.5 yrs, 1 pairs)",
 RDO-026,0.15,rdo,227,1.0,"DO 94-2015 -> DO 46-2022 (6.7 yrs, 213 pairs); DO 32-2009 -> DO 46-2022 (12.8 yrs, 14 pairs)",
 RDO-027,0.1023,rdo,1948,0.999,"DO 41-2019 -> DO 46-2023 (4.2 yrs, 1948 pairs)",
@@ -25,10 +26,14 @@ RDO-050,0.1355,rdo,60,1.0,"DO 62-2016 -> DO 38-2021 (5.0 yrs, 59 pairs); DO 24-2
 RDO-051,0.0895,rdo,756,1.0,"DO 36-2018 -> DO 43-2023 (5.1 yrs, 743 pairs); DO 38-2009 -> DO 43-2023 (13.7 yrs, 13 pairs)",
 RDO-052,0.1306,rdo,136,1.0,"DO 9-2018 -> DO 49-2023 (5.6 yrs, 136 pairs)",
 RDO-055,0.0658,rdo,80,1.0,"DO 33-2002 -> DO 18-2020 (17.5 yrs, 43 pairs); DO 55-2002 -> DO 18-2020 (17.5 yrs, 37 pairs)",
-RDO-056,0.07,rdo,171,1.0,"DO 56-2017 -> DO 59-2023 (6.0 yrs, 171 pairs)",
+RDO-056,0.07,rdo,177,1.0,"DO 56-2017 -> DO 59-2023 (6.0 yrs, 177 pairs)",
 RDO-057,0.1554,rdo,82,1.0,"DO 32-2019 -> DO 55-2024 (5.1 yrs, 63 pairs); DO 88-2019 -> DO 55-2024 (4.5 yrs, 19 pairs)",above 15% a year
 RDO-058,0.0835,rdo,125,1.0,"DO 60-2018 -> DO 35-2022 (3.6 yrs, 125 pairs)",
 RDO-059,0.0839,rdo,147,0.993,"DO 58-2018 -> DO 34-2022 (3.6 yrs, 147 pairs)",
+RDO-060,0.0838,rdo,489,1.0,"DO 16-2010 -> DO 13-2020 (9.6 yrs, 489 pairs)",
+RDO-061,0.055,rdo,199,0.99,"DO 47-2007 -> DO 33-2019 (11.3 yrs, 150 pairs); DO 31-2010 -> DO 37-2022 (11.8 yrs, 44 pairs); DO 31-2010 -> DO 33-2019 (8.6 yrs, 5 pairs)",
+RDO-21A,0.1517,rdo,334,1.0,"DO 66-2018 -> DO 56-2022 (3.7 yrs, 334 pairs)",above 15% a year
+RDO-21B,0.0933,rdo,353,0.994,"DO 26-2017 -> DO 4-2024 (6.7 yrs, 345 pairs); DO 36-2005 -> DO 26-2017 (8.2 yrs, 4 pairs); DO 36-2005 -> DO 4-2024 (14.9 yrs, 4 pairs)",
 RDO-25A,0.0732,rdo,401,1.0,"DO 29-2009 -> DO 9-2020 (10.6 yrs, 401 pairs)",
 RDO-25B,0.0868,rdo,641,1.0,"DO 29-2009 -> DO 14-2018 (8.8 yrs, 641 pairs)",
 RDO-53A,0.0913,rdo,54,0.963,"DO 68-2017 -> DO 4-2021 (3.3 yrs, 54 pairs)",

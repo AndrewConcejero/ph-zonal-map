@@ -1,0 +1,216 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Ajos,ALL LOTS,ALONG NATIONAL ROAD,2000.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Ajos,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Ajos,ALL LOTS,INTERIOR,1200.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Anusan,ALL LOTS,ALONG NATIONAL ROAD,1650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Anusan,ALL LOTS,ALONG NATIONAL ROAD,1100.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Barangay 1,MABINI ST,MABINI COR. JUAN LUNA ST.,3250.0,DO 37-2022,street,Mabini Street,100
+CR,Barangay 1,REGIDOR ST,,3150.0,DO 37-2022,street,Regidor Street,100
+CR,Barangay 1,JUAN LUNA ST,,2800.0,DO 37-2022,street,Juan Luna Street,100
+RR,Barangay 1,JUAN LUNA ST,,1750.0,DO 37-2022,street,Juan Luna Street,100
+RR,Barangay 1,MABINI ST,MABINI COR. JUAN LUNA ST.,1750.0,DO 37-2022,street,Mabini Street,100
+RR,Barangay 1,REGIDOR ST,,1650.0,DO 37-2022,street,Regidor Street,100
+RR,Barangay 1,REGIDOR ST,INTERIOR,1250.0,DO 37-2022,street,Regidor Street,100
+CR,Barangay 1,GOV. PEREZ,,3250.0,DO 37-2022,unmatched,Luzon (14),0
+CR,Barangay 1,DEL PILAR ST,M.H. DEL PILAR COR. JUAN LUNA,3100.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 1,DEL PILAR ST,M.H. DEL PILAR COR. JUAN LUNA,1750.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 1,GOV. PEREZ,,1750.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 10,ALL OTHER STREETS,,2000.0,DO 37-2022,background,,0
+RR,Barangay 10,ALL OTHER STREETS,INTERIOR,1750.0,DO 37-2022,background,,0
+CR,Barangay 10,ALL LOTS,ALONG NATIONAL ROAD,5500.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Barangay 10,ST. JUDE SUBD.,,4250.0,DO 37-2022,unmatched,Luzon (22),0
+RR,Barangay 10,ALL LOTS,ALONG NATIONAL ROAD,3500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Barangay 10,ALL LOTS,INTERIOR,2000.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Barangay 10,ST. JUDE SUBD.,,2000.0,DO 37-2022,unmatched,Luzon (22),0
+CR,Barangay 2,BONCAN ST,,3500.0,DO 37-2022,street,Boncan Street,100
+CR,Barangay 2,BURGOS ST,,3500.0,DO 37-2022,street,P. Burgos Street,90.0
+CR,Barangay 2,JUAN LUNA ST,,3500.0,DO 37-2022,street,Juan Luna Street,100
+CR,Barangay 2,MABINI ST,,3500.0,DO 37-2022,street,Mabini Street,100
+CR,Barangay 2,PATERNO ST,,3150.0,DO 37-2022,street,Paterno Street,100
+CR,Barangay 2,P. ABELLA ST,,3150.0,DO 37-2022,street,P. Abella Street,100
+RR,Barangay 2,BONCAN ST,,2000.0,DO 37-2022,street,Boncan Street,100
+RR,Barangay 2,BURGOS ST,,2000.0,DO 37-2022,street,P. Burgos Street,90.0
+RR,Barangay 2,JUAN LUNA ST,,2000.0,DO 37-2022,street,Juan Luna Street,100
+RR,Barangay 2,MABINI ST,,2000.0,DO 37-2022,street,Mabini Street,100
+RR,Barangay 2,PATERNO ST,,1750.0,DO 37-2022,street,Paterno Street,100
+RR,Barangay 2,P. ABELLA ST,,1750.0,DO 37-2022,street,P. Abella Street,100
+RR,Barangay 2,P. ABELLA ST,INTERIOR,1500.0,DO 37-2022,street,P. Abella Street,100
+CR,Barangay 2,C. DE LUNA ST,,3500.0,DO 37-2022,unmatched,Luzon (43),0
+CR,Barangay 2,DEL PILAR ST,,3500.0,DO 37-2022,unmatched,Luzon (14),0
+CR,Barangay 2,GOV. PEREZ,,3500.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 2,C. DE LUNA ST,,2000.0,DO 37-2022,unmatched,Luzon (43),0
+RR,Barangay 2,DEL PILAR ST,,2000.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 2,GOV. PEREZ,,2000.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 3,ALL OTHER STREETS,,1750.0,DO 37-2022,background,,0
+RR,Barangay 3,ALL OTHER STREETS,INTERIOR,1250.0,DO 37-2022,background,,0
+CR,Barangay 3,QUEZON AVE,,5500.0,DO 37-2022,street,Quezon Avenue,100
+CR,Barangay 3,P. ABELLA ST,,4000.0,DO 37-2022,street,P. Abella Street,100
+CR,Barangay 3,ARELLANO ST,,3500.0,DO 37-2022,street,Arellano Street,100
+CR,Barangay 3,BONIFACIO ST,,3500.0,DO 37-2022,street,A. Bonifacio Street,92.3076923076923
+CR,Barangay 3,BURGOS ST,,3500.0,DO 37-2022,street,P. Burgos Street,90.0
+RR,Barangay 3,QUEZON AVE,,3500.0,DO 37-2022,street,Quezon Avenue,100
+RR,Barangay 3,ARELLANO ST,,2250.0,DO 37-2022,street,Arellano Street,100
+RR,Barangay 3,BONIFACIO ST,,2250.0,DO 37-2022,street,A. Bonifacio Street,92.3076923076923
+RR,Barangay 3,BURGOS ST,,2250.0,DO 37-2022,street,P. Burgos Street,90.0
+RR,Barangay 3,P. ABELLA ST,,2250.0,DO 37-2022,street,P. Abella Street,100
+CR,Barangay 3,DEL PILAR ST,,3500.0,DO 37-2022,unmatched,Luzon (14),0
+CR,Barangay 3,GOV. PEREZ,,3500.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 3,DEL PILAR ST,,2250.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 3,GOV. PEREZ,,2250.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 4,ALL OTHER STREETS,,1750.0,DO 37-2022,background,,0
+RR,Barangay 4,ALL OTHER STREETS,INTERIOR,1250.0,DO 37-2022,background,,0
+CR,Barangay 4,QUEZON AVE,,5500.0,DO 37-2022,street,Quezon Avenue,100
+RR,Barangay 4,QUEZON AVE,,3500.0,DO 37-2022,street,Quezon Avenue,100
+CR,Barangay 4,BONIFACIO ST,,3400.0,DO 37-2022,street,A. Bonifacio Street,92.3076923076923
+CR,Barangay 4,BURGOS ST,,3400.0,DO 37-2022,street,P. Burgos Street,90.0
+RR,Barangay 4,BONIFACIO ST,,2300.0,DO 37-2022,street,A. Bonifacio Street,92.3076923076923
+RR,Barangay 4,BURGOS ST,,2300.0,DO 37-2022,street,P. Burgos Street,90.0
+CR,Barangay 4,ALONG THE ROAD (ALONG NATIONAL ROAD),,5500.0,DO 37-2022,unmatched,Luzon (60),0
+RR,Barangay 4,ALONG THE ROAD (ALONG NATIONAL ROAD),,3500.0,DO 37-2022,unmatched,Luzon (60),0
+CR,Barangay 4,GOV. PEREZ,,3400.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 4,GOV. PEREZ,,2300.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 4,ALONG THE ROAD (ALONG NATIONAL ROAD),INTERIOR,1750.0,DO 37-2022,unmatched,Luzon (60),0
+RR,Barangay 5,ALL OTHER STREETS,,1750.0,DO 37-2022,background,,0
+RR,Barangay 5,ALL OTHER STREETS,INTERIOR,1250.0,DO 37-2022,background,,0
+CR,Barangay 5,QUEZON AVE,,5500.0,DO 37-2022,street,Quezon Avenue,100
+RR,Barangay 5,QUEZON AVE,,3500.0,DO 37-2022,street,Quezon Avenue,100
+CR,Barangay 5,ARELLANO ST,,3400.0,DO 37-2022,street,Arellano Street,100
+CR,Barangay 5,BURGOS ST,,3400.0,DO 37-2022,street,P. Burgos Street,90.0
+CR,Barangay 5,BONCAN ST,,3250.0,DO 37-2022,street,Boncan Street,100
+CR,Barangay 5,MABINI ST,,3250.0,DO 37-2022,street,Mabini Street,100
+RR,Barangay 5,ARELLANO ST,,2250.0,DO 37-2022,street,Arellano Street,100
+RR,Barangay 5,BURGOS ST,,2250.0,DO 37-2022,street,P. Burgos Street,90.0
+RR,Barangay 5,MABINI ST,,1900.0,DO 37-2022,street,Mabini Street,100
+RR,Barangay 5,BONCAN ST,,1750.0,DO 37-2022,street,Boncan Street,100
+CR,Barangay 5,DEL PILAR ST,,3400.0,DO 37-2022,unmatched,Luzon (14),0
+CR,Barangay 5,C. DE LUNA ST,,3250.0,DO 37-2022,unmatched,Luzon (43),0
+RR,Barangay 5,DEL PILAR ST,,2250.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 5,C. DE LUNA ST,,1750.0,DO 37-2022,unmatched,Luzon (43),0
+RR,Barangay 6,ALL OTHER STREETS,,1750.0,DO 37-2022,background,,0
+RR,Barangay 6,ALL OTHER STREETS,INTERIOR,1250.0,DO 37-2022,background,,0
+CR,Barangay 6,QUEZON AVE,,5500.0,DO 37-2022,street,Quezon Avenue,100
+RR,Barangay 6,QUEZON AVE,,3500.0,DO 37-2022,street,Quezon Avenue,100
+CR,Barangay 6,BONIFACIO ST,,3400.0,DO 37-2022,street,A. Bonifacio Street,92.3076923076923
+CR,Barangay 6,BONCAN ST,,3250.0,DO 37-2022,street,Boncan Street,100
+RR,Barangay 6,BONIFACIO ST,,2250.0,DO 37-2022,street,A. Bonifacio Street,92.3076923076923
+RR,Barangay 6,BONCAN ST,,1900.0,DO 37-2022,street,Boncan Street,100
+CR,Barangay 6,DEL PILAR ST,,3400.0,DO 37-2022,unmatched,Luzon (14),0
+CR,Barangay 6,GOV. PEREZ,,3400.0,DO 37-2022,unmatched,Luzon (14),0
+CR,Barangay 6,RIZAL ST,,3400.0,DO 37-2022,unmatched,Luzon (20),0
+RR,Barangay 6,DEL PILAR ST,,2250.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 6,GOV. PEREZ,,2250.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 6,RIZAL ST,,2250.0,DO 37-2022,unmatched,Luzon (20),0
+RR,Barangay 7,ALL OTHER STREETS,,1750.0,DO 37-2022,background,,0
+RR,Barangay 7,ALL OTHER STREETS,INTERIOR,1250.0,DO 37-2022,background,,0
+CR,Barangay 7,BONCAN ST,,3250.0,DO 37-2022,street,Boncan Street,100
+CR,Barangay 7,MABINI ST,,3250.0,DO 37-2022,street,Mabini Street,100
+CR,Barangay 7,NABATASAN ST.,,3250.0,DO 37-2022,street,Nabatasan Street,100
+RR,Barangay 7,BONCAN ST,,1750.0,DO 37-2022,street,Boncan Street,100
+RR,Barangay 7,MABINI ST,,1750.0,DO 37-2022,street,Mabini Street,100
+RR,Barangay 7,NABATASAN ST.,,1750.0,DO 37-2022,street,Nabatasan Street,100
+CR,Barangay 7,DEL PILAR ST,,3400.0,DO 37-2022,unmatched,Luzon (14),0
+CR,Barangay 7,C. DE LUNA ST,,3250.0,DO 37-2022,unmatched,Luzon (43),0
+RR,Barangay 7,DEL PILAR ST,,2250.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 7,C. DE LUNA ST,,1750.0,DO 37-2022,unmatched,Luzon (43),0
+RR,Barangay 7,LICAR SUBD.,,1750.0,DO 37-2022,unmatched,Luzon (20),0
+RR,Barangay 8,ALL OTHER STREETS,,2000.0,DO 37-2022,background,,0
+RR,Barangay 8,ALL OTHER STREETS,INTERIOR,1750.0,DO 37-2022,background,,0
+CR,Barangay 8,NABATASAN ST.,,3250.0,DO 37-2022,street,Nabatasan Street,100
+RR,Barangay 8,NABATASAN ST.,,2000.0,DO 37-2022,street,Nabatasan Street,100
+CR,Barangay 8,,ALONG MUNICIPAL ROAD,3250.0,DO 37-2022,unmatched,Luzon (0),0
+CR,Barangay 8,DEL PILAR ST,,3250.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 8,,ALONG MUNICIPAL ROAD,2250.0,DO 37-2022,unmatched,Luzon (0),0
+RR,Barangay 8,DEL PILAR ST,,2250.0,DO 37-2022,unmatched,Luzon (14),0
+RR,Barangay 8,PEARMA SUBD,,2000.0,DO 37-2022,unmatched,Luzon (0),0
+RR,Barangay 9,ALL OTHER STREETS,,2000.0,DO 37-2022,background,,0
+RR,Barangay 9,ALL OTHER STREETS,INTERIOR,1750.0,DO 37-2022,background,,0
+CR,Barangay 9,QUEZON AVE,,5500.0,DO 37-2022,street,Quezon Avenue,100
+RR,Barangay 9,QUEZON AVE,,3500.0,DO 37-2022,street,Quezon Avenue,100
+CR,Barangay 9,NABATASAN ST.,,3250.0,DO 37-2022,street,Nabatasan Street,100
+RR,Barangay 9,NABATASAN ST.,,2000.0,DO 37-2022,street,Nabatasan Street,100
+CR,Barangay 9,ALONG THE ROAD,ALONG NATIONAL ROAD,5500.0,DO 37-2022,unmatched,Luzon (60),0
+RR,Barangay 9,ALONG THE ROAD,ALONG NATIONAL ROAD,3500.0,DO 37-2022,unmatched,Luzon (60),0
+RR,Barangay 9,ALONG THE ROAD,INTERIOR,2250.0,DO 37-2022,unmatched,Luzon (60),0
+CR,Bolo,ALL LOTS,ALONG NATIONAL ROAD,2000.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bolo,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bolo,ALL LOTS,INTERIOR,1200.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Bulagsong,ALL LOTS,ALONG NATIONAL ROAD,2250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bulagsong,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bulagsong,ALL LOTS,INTERIOR LOTS,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Camandiison,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Camandiison,ALL LOTS,,1000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Canculajao,ALL LOTS,ALONG NATIONAL ROAD,2250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Canculajao,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Canculajao,ALL LOTS,INTERIOR,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Catumbo,ALL LOTS,ALONG NATIONAL ROAD,2000.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Catumbo,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Catumbo,ALL LOTS,INTERIOR,1200.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Cawayanin Ibaba,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cawayanin Ibaba,ALL LOTS,,1000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Cawayanin Ilaya,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cawayanin Ilaya,ALL LOTS,,1000.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cutcutan,CATANAUAN COVE,,2000.0,DO 37-2022,unmatched,Luzon (21),0
+CR,Cutcutan,ALL LOTS,,1650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cutcutan,ALL LOTS,,1100.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Dahican,ALL LOTS,ALONG NATIONAL ROAD,2000.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Dahican,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Dahican,ALL LOTS,INTERIOR,1200.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Doongan Ibaba,ALL LOTS,ALONG THE ROAD,2250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Doongan Ibaba,ALL LOTS,ALONG THE ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Doongan Ibaba,ALL LOTS,INTERIOR LOTS,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Doongan Ilaya,ALL LOTS,ALONG NATIONAL ROAD,2250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Doongan Ilaya,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Doongan Ilaya,ALL LOTS,INTERIOR LOTS,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Gatasan,ALL LOTS,,1650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Gatasan,ALL LOTS,,1100.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Macpac,ALL LOTS,,1650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Macpac,ALL LOTS,,1100.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Madulao,ALL LOTS,NFA TO PUBLIC MARKET,5250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Madulao,ALL LOTS,NFA TO PUBLIC MARKET,3250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Madulao,ALL LOTS,ALL OTHER STREET,3150.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Madulao,ALL LOTS,ALL OTHER STREET,2000.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Madulao,ALL LOTS,INTERIOR,1600.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Matandang Sabang Kanluran,ALL LOTS,,1650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Matandang Sabang Kanluran,ALL LOTS,,1100.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Matandang Sabang Silangan,ALL LOTS,ALONG NATIONAL ROAD,2000.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Matandang Sabang Silangan,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Matandang Sabang Silangan,ALL LOTS,INTERIOR,1200.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Milagrosa,ALL LOTS,,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Milagrosa,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Navitas,ALL LOTS,ALONG NATIONAL ROAD,2250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Navitas,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Navitas,ALL LOTS,INTERIOR LOTS,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Pacabit,ALL LOTS,ALONG BRGY. ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Pacabit,ALL LOTS,ALONG BRGY. ROAD,1500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Pacabit,ALL LOTS,INTERIOR,1200.0,DO 37-2022,unmatched,Luzon (31),0
+CR,San Antonio Magkupa,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Antonio Magkupa,ALL LOTS,,1000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,San Isidro,ALL LOTS,ALONG NATIONAL ROAD,2500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Isidro,ALL LOTS,ALONG NATIONAL ROAD,2000.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Isidro,ALL LOTS,INTERIOR,1500.0,DO 37-2022,unmatched,Luzon (31),0
+CR,San Pablo,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Pablo,ALL LOTS,,1000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,San Roque,ALL LOTS,ALONG BRGY. ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Roque,ALL LOTS,ALONG BRGY. ROAD,1400.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Roque,ALL LOTS,INTERIOR LOTS,1000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,San Vicente Kanluran,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Vicente Kanluran,ALL LOTS,,1000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,San Vicente Silangan,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Vicente Silangan,ALL LOTS,,1000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Santa Maria,ALL LOTS,ALONG NATIONAL ROAD,2250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Santa Maria,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Santa Maria,ALL LOTS,INTERIOR LOTS,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Tagabas Ibaba,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tagabas Ibaba,ALL LOTS,,1000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Tagabas Ilaya,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tagabas Ilaya,ALL LOTS,,1000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Tagbacan Ibaba,ALL LOTS,ALONG NATIONAL ROAD,2250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tagbacan Ibaba,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tagbacan Ibaba,ALL LOTS,INTERIOR LOTS,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Tagbacan Ilaya,ALL LOTS,ALONG NATIONAL ROAD,2250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tagbacan Ilaya,ALL LOTS,ALONG NATIONAL ROAD,1750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tagbacan Ilaya,ALL LOTS,INTERIOR LOTS,1250.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Tagbacan Silangan,ALL LOTS,,1250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tagbacan Silangan,ALL LOTS,,1000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Tuhian,ALL LOTS,,1650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tuhian,ALL LOTS,,1100.0,DO 37-2022,unmatched,Luzon (31),0

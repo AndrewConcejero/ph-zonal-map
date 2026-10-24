@@ -1,0 +1,129 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Becuran,ALL OTHER LOTS,ALONG BARANGAY ROAD - NEW,3000.0,DO 4-2024,background,,0
+CR,Becuran,ALL OTHER LOTS,ALONG BARANGAY ROAD - OLD,3000.0,DO 4-2024,background,,0
+RR,Becuran,ALL OTHER LOTS,ALONG BARANGAY ROAD - NEW,2350.0,DO 4-2024,background,,0
+RR,Becuran,ALL OTHER LOTS,ALONG BARANGAY ROAD - OLD,1750.0,DO 4-2024,background,,0
+RR,Becuran,ALL OTHER LOTS,INTERIOR LOTS,1000.0,DO 4-2024,background,,0
+CR,Becuran,ALL LOTS,ALONG PROVINCIAL ROAD - NEW,5000.0,DO 4-2024,unmatched,,0
+I,Becuran,ALL LOTS,ALONG PROVINCIAL ROAD - NEW,3600.0,DO 4-2024,unmatched,,0
+RR,Becuran,ALL LOTS,ALONG PROVINCIAL ROAD - NEW,3500.0,DO 4-2024,unmatched,,0
+RR,Becuran,ORDOÑEZ SUBD.,BOUNDARY SAN MATIAS & BECURAN,3500.0,DO 4-2024,unmatched,,0
+RR,Becuran,CAYANAN SUBD,ALONG BRGY ROAD,3500.0,DO 4-2024,unmatched,,0
+CR,Becuran,ALL LOTS,ALONG PROVINCIAL ROAD - OLD,3250.0,DO 4-2024,unmatched,,0
+RR,Becuran,MAROLITA LANSANG,,3250.0,DO 4-2024,unmatched,,0
+RR,Becuran,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,,0
+RR,Becuran,ROSS-VILLE SUBD.,NEAR BECURAN ELEMENTARY AND HIGH SCHOOL,3000.0,DO 4-2024,unmatched,,0
+RR,Becuran,SUNNY-ROSS SUBD.,NEAR BECURAN ELEMENTARY AND HIGH SCHOOL,3000.0,DO 4-2024,unmatched,,0
+RR,Becuran,JACINTO-CARLOS SUBD.,BACK BECURAN ELEM. AND HIGH SCHOOL-NEAR NEW PROV'L. RD.,3000.0,DO 4-2024,unmatched,,0
+I,Becuran,ALL LOTS,ALONG PROVINCIAL ROAD - OLD,2750.0,DO 4-2024,unmatched,,0
+RR,Becuran,ALL LOTS,ALONG PROVINCIAL ROAD - OLD,2450.0,DO 4-2024,unmatched,,0
+I,Becuran,,,2100.0,DO 4-2024,unmatched,,0
+RR,Becuran,STO. ROSARIO HEIGHTS,GOING TO BRGY. NATIVIDAD,2000.0,DO 4-2024,unmatched,,0
+I,Becuran,ALL LOTS,INTERIOR LOTS,1750.0,DO 4-2024,unmatched,,0
+RR,Dila-dila,ALL OTHER LOTS,INTERIOR LOTS,1075.0,DO 4-2024,background,,0
+CR,Dila-dila,ALL LOTS,ALONG PROVINCIAL ROAD - NEW,5000.0,DO 4-2024,unmatched,,0
+CR,Dila-dila,ALL LOTS,ALONG PROVINCIAL ROAD - OLD,4000.0,DO 4-2024,unmatched,,0
+CR,Dila-dila,,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,,0
+I,Dila-dila,ALL LOTS,ALONG PROVINCIAL ROAD - NEW,3450.0,DO 4-2024,unmatched,,0
+I,Dila-dila,ALL LOTS,ALONG PROVINCIAL ROAD - OLD,3200.0,DO 4-2024,unmatched,,0
+RR,Dila-dila,ALL LOTS,ALONG PROVINCIAL ROAD - NEW,3100.0,DO 4-2024,unmatched,,0
+RR,Dila-dila,ALL LOTS,ALONG PROVINCIAL ROAD - OLD,3000.0,DO 4-2024,unmatched,,0
+RR,Dila-dila,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,,0
+RR,Dila-dila,HOLY FAMILY SUBD.,NEAR BDRY OF STA. RITA - PORAC RD.,2500.0,DO 4-2024,unmatched,,0
+RR,Dila-dila,SACOP SUBD.,NEAR HOLY FAMILY SUBD,2500.0,DO 4-2024,unmatched,,0
+I,Dila-dila,ALL LOTS,INTERIOR LOTS,2250.0,DO 4-2024,unmatched,,0
+RR,Dila-dila,,ALONG BARANGAY ROAD - NEW,2150.0,DO 4-2024,unmatched,,0
+RR,Dila-dila,,ALONG BARANGAY ROAD,1750.0,DO 4-2024,unmatched,,0
+RR,Dila-dila,DILA DILA EBUS ROAD,ALONG BARANGAY ROAD,1500.0,DO 4-2024,unmatched,,0
+I,Dila-dila,,ALONG BARANGAY ROAD,1475.0,DO 4-2024,unmatched,,0
+I,San Agustin,ALL OTHER LOTS,INTERIOR LOTS,1375.0,DO 4-2024,background,,0
+RR,San Agustin,ALL OTHER LOTS,INTERIOR LOTS,1200.0,DO 4-2024,background,,0
+CR,San Agustin,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,,0
+RR,San Agustin,ALL LOTS,ALONG BARANGAY ROAD,2000.0,DO 4-2024,unmatched,,0
+CR,San Basilio,ALL OTHER LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,background,,0
+I,San Basilio,ALL OTHER LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,background,,0
+RR,San Basilio,ALL OTHER LOTS,ALONG BARANGAY ROAD,2500.0,DO 4-2024,background,,0
+I,San Basilio,ALL OTHER LOTS,INTERIOR LOTS,2250.0,DO 4-2024,background,,0
+RR,San Basilio,ALL OTHER LOTS,INTERIOR LOTS,2000.0,DO 4-2024,background,,0
+RR,San Basilio,CORONEL SUBDIVISION,BDRY. OF DILA-DILA AND SAN BASILIO,3000.0,DO 4-2024,unmatched,Bacolor (43),0
+RR,San Basilio,ROY DAVID SUBDIVISION,NEAR SAN BASILIO HIGH SCHOOL,2500.0,DO 4-2024,unmatched,Bacolor (25),0
+RR,San Basilio,CORONEL SUBDIVISION,NEAR SAN BASILIO HIGH SCHOOL,2500.0,DO 4-2024,unmatched,Bacolor (43),0
+CR,San Isidro,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Mariano - Ordonez Compound (26),0
+I,San Isidro,ALL LOTS,ALONG BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Mariano - Ordonez Compound (26),0
+RR,San Isidro,ALL LOTS,ALONG BARANGAY ROAD,2600.0,DO 4-2024,unmatched,Mariano - Ordonez Compound (26),0
+I,San Isidro,ALL LOTS,INTERIOR,1750.0,DO 4-2024,unmatched,Mariano - Ordonez Compound (26),0
+RR,San Isidro,ALL LOTS,INTERIOR,1500.0,DO 4-2024,unmatched,Mariano - Ordonez Compound (26),0
+CR,San Jose,ALL OTHER LOTS,INTERIOR LOTS,4000.0,DO 4-2024,background,,0
+RR,San Jose,ALL OTHER LOTS,INTERIOR LOTS,2500.0,DO 4-2024,background,,0
+CR,San Jose,PINEDA ST,,7250.0,DO 4-2024,street,Pineda Street,100
+CR,San Jose,ENUMERADORES ST.,,7250.0,DO 4-2024,street,Enumenadores Street,93.33333333333333
+CR,San Jose,ENUMERADORES STREET,,7000.0,DO 4-2024,street,Enumenadores Street,93.33333333333333
+RR,San Jose,PINEDA ST,,4500.0,DO 4-2024,street,Pineda Street,100
+RR,San Jose,ENUMERADORES ST.,,4500.0,DO 4-2024,street,Enumenadores Street,93.33333333333333
+CR,San Jose,VALENCIA ST,,4000.0,DO 4-2024,street,Valencia Street,100
+RR,San Jose,DALAN BETIS ST.,,3750.0,DO 4-2024,street,Dalan Betis,97
+RR,San Jose,ENUMERADORES STREET,,3500.0,DO 4-2024,street,Enumenadores Street,93.33333333333333
+RR,San Jose,VALENCIA ST,,3000.0,DO 4-2024,street,Valencia Street,100
+CR,San Jose,OCAMPO STREET,ALONG BARANGAY ROAD,7500.0,DO 4-2024,unmatched,b (0),0
+CR,San Jose,CARLOS MARIANO ST.,ALONG BARANGAY ROAD,7500.0,DO 4-2024,unmatched,b (0),0
+CR,San Jose,MAGLALANG ST,,7250.0,DO 4-2024,unmatched,b (0),0
+CR,San Jose,LANSANG ST,,7250.0,DO 4-2024,unmatched,b (0),0
+CR,San Jose,OCAMPO ST,,7250.0,DO 4-2024,unmatched,b (0),0
+CR,San Jose,CARLOS MARIANO ST,,7250.0,DO 4-2024,unmatched,b (0),0
+CR,San Jose,MUNICIPAL ST.,,7250.0,DO 4-2024,unmatched,b (0),0
+CR,San Jose,ANICETO ST. (PROCESSIONAL),,7250.0,DO 4-2024,unmatched,b (0),0
+CR,San Jose,ALL LOTS,ALONG BARANGAY ROAD,5500.0,DO 4-2024,unmatched,b (0),0
+RR,San Jose,OCAMPO ST,,5100.0,DO 4-2024,unmatched,b (0),0
+RR,San Jose,CARLOS MARIANO ST,,5100.0,DO 4-2024,unmatched,b (0),0
+RR,San Jose,MUNICIPAL ST.,,5100.0,DO 4-2024,unmatched,b (0),0
+I,San Jose,ALL LOTS,ALONG BARANGAY ROAD,5000.0,DO 4-2024,unmatched,b (0),0
+RR,San Jose,OCAMPO STREET,ALONG BARANGAY ROAD,5000.0,DO 4-2024,unmatched,b (0),0
+RR,San Jose,CARLOS MARIANO ST.,ALONG BARANGAY ROAD,5000.0,DO 4-2024,unmatched,b (0),0
+CR,San Jose,TELABITUKA ST.,,5000.0,DO 4-2024,unmatched,b (18),0
+RR,San Jose,MAGLALANG ST,,4600.0,DO 4-2024,unmatched,b (0),0
+RR,San Jose,LANSANG ST,,4600.0,DO 4-2024,unmatched,b (0),0
+RR,San Jose,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,b (0),0
+RR,San Jose,TELABITUKA ST.,,3500.0,DO 4-2024,unmatched,b (18),0
+I,San Jose,ALL LOTS,INTERIOR,2750.0,DO 4-2024,unmatched,b (0),0
+RR,San Jose,ALL LOTS,INTERIOR,2500.0,DO 4-2024,unmatched,b (0),0
+CR,San Juan,ALL LOTS,FROM SEPA CREEK TO BOUNDARY SN JUAN CACUTUD,4000.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,San Juan,ALL LOTS,BARANGAY ROAD,3250.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,San Juan,ALL LOTS,FROM SEPA CREEK TO BOUNDARY SN JUAN CACUTUD,3000.0,DO 4-2024,unmatched,Bacolor (40),0
+I,San Juan,ALL LOTS,BARANGAY ROAD,2650.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,San Juan,ALL LOTS,BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Bacolor (40),0
+RR,San Juan,ALL LOTS,INTERIOR,1350.0,DO 4-2024,unmatched,Bacolor (40),0
+CR,San Matias,ALL LOTS,PROVINCIAL ROAD-NEW (Boundary of San Vicente to Dominican School),6700.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+CR,San Matias,ALL LOTS,PROVINCIAL ROAD-OLD,6000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+CR,San Matias,ALL LOTS,PROVINCIAL ROAD-NEW Dominican School to Jesus Lansang prop.,5250.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+I,San Matias,ALL LOTS,PROVINCIAL ROAD-NEW Dominican School to Jesus Lansang prop.,5000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Matias,ALL LOTS,PROVINCIAL ROAD-NEW (Boundary of San Vicente to Dominican School),4750.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Matias,ALL LOTS,PROVINCIAL ROAD-NEW Dominican School to Jesus Lansang prop.,4500.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+I,San Matias,ALL LOTS,PROVINCIAL ROAD-OLD,4500.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Matias,ALL LOTS,PROVINCIAL ROAD-OLD,4000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+I,San Matias,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Matias,SUNNYSIDE ESTATE,BDRY. OF BRGY. BECURAN,3500.0,DO 4-2024,unmatched,Dominican School - Santa Rita (22),0
+RR,San Matias,ALL LOTS,INTERIOR LOTS,3100.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Matias,ALL LOTS,BARANGAY ROAD,3000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Matias,ALL LOTS,INTERIOR LOT,2000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+CR,San Vicente,ALL LOTS,ALONG PROVINCIAL ROAD-STA. RITA-PORAC RD-BRDY. GUAGUA,8500.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+CR,San Vicente,ALL LOTS,ALONG PROVINCIAL STA. RITA END. CENTRAL SCHOOL,8500.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+CR,San Vicente,ALL LOTS,ALONG PROVINCIAL BDRY GUAGUA,8500.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+CR,San Vicente,ALL LOTS,DAVID ST. (FROM RURAL BANK TO CREEK),6250.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+CR,San Vicente,ALL LOTS,P.N.GOSIOCO (up to De Castro property),6000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+CR,San Vicente,ALL LOTS,GARCIA ST.,5250.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Vicente,ALL LOTS,ALONG PROVINCIAL ROAD-STA. RITA-PORAC RD-BRDY. GUAGUA,5000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Vicente,ALL LOTS,ALONG PROVINCIAL STA. RITA END. CENTRAL SCHOOL,5000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Vicente,ALL LOTS,ALONG PROVINCIAL BDRY GUAGUA,5000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Vicente,ALL LOTS,P.N.GOSIOCO (up to De Castro property),4250.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Vicente,ALL LOTS,DAVID ST. (FROM RURAL BANK TO CREEK),4250.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Vicente,ALL LOTS,INTERIOR LOTS,4000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,San Vicente,ALL LOTS,GARCIA ST.,3750.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+CR,Santa Monica,P.N. GOSIOCO ST.,,5250.0,DO 4-2024,unmatched,Dominican School - Santa Rita (32),0
+CR,Santa Monica,ALL LOTS,ALONG BARANGAY ROAD,4000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,Santa Monica,P.N. GOSIOCO ST.,,4000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (32),0
+RR,Santa Monica,ALL LOTS,ALONG BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+I,Santa Monica,ALL LOTS,ALONG BARANGAY ROAD,3350.0,DO 4-2024,unmatched,Dominican School - Santa Rita (23),0
+RR,Santa Monica,DE CASTRO SUBD.,BACK OF V.DE CASTRO ELEMENTARY SCHOOL,3000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (33),0
+RR,Santa Monica,DAMPUL SUBD.,BACK OF STA. MONICA CHAPEL,2500.0,DO 4-2024,unmatched,Dominican School - Santa Rita (18),0
+RR,Santa Monica,SINIPIT SUBD. (MALIGAYA ),NEAR BDRY. OF BRGY. SAN AGUSTIN,2500.0,DO 4-2024,unmatched,Dominican School - Santa Rita (29),0
+RR,Santa Monica,P.N. GOSIOCO ST.,INTERIOR LOTS,2000.0,DO 4-2024,unmatched,Dominican School - Santa Rita (32),0

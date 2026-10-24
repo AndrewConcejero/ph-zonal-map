@@ -1,0 +1,81 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Binagbag,ALL LOTS,ALONG NATIONAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Binagbag,ALL LOTS,ALONG BRGY. ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Binagbag,ALL LOTS,ALONG NATIONAL ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Binagbag,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Dayap,ALL LOTS,ALONG BRGY. ROAD,950.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Dayap,ALL LOTS,ALONG BRGY. ROAD,750.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Ibabang Kinagunan,ALL LOTS,ALONG NATIONAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Ibabang Kinagunan,ALL LOTS,ALONG BRGY. ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Ibabang Kinagunan,ALL LOTS,ALONG NATIONAL ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Ibabang Kinagunan,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Ilayang Kinagunan,ALL LOTS,ALONG FEEDER ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Ilayang Kinagunan,ALL LOTS,ALONG FEEDER ROAD,750.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Kanlurang Calutan,ALL LOTS,ALONG BRGY ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Kanlurang Calutan,ALL LOTS,ALONG BRGY ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Kanlurang Maligaya,ALL LOTS,ALONG BRGY. ROAD,950.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Kanlurang Maligaya,ALL LOTS,ALONG BRGY. ROAD,750.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Poblacion I,MARIANO AGUILAR ST.,,2700.0,DO 33-2019,street,Mariano Aguilar Street,100
+CR,Poblacion I,J. P. RIZAL ST.,,1650.0,DO 33-2019,street,J. P. Rizal Street,100
+CR,Poblacion I,RODRIGUEZ ST.,,1650.0,DO 33-2019,street,Rodriguez Street,100
+CR,Poblacion I,QUEZON AVE.,,1650.0,DO 33-2019,street,Quezon Avenue,100
+CR,Poblacion I,CONSTANTINO ST.,,1650.0,DO 33-2019,street,Constantino Street,100
+CR,Poblacion I,ELIAS SALVADOR ST.,,1500.0,DO 33-2019,street,Elias Salvador Street,100
+RR,Poblacion I,RODRIGUEZ ST.,,1350.0,DO 33-2019,street,Rodriguez Street,100
+RR,Poblacion I,CONSTANTINO ST.,,1350.0,DO 33-2019,street,Constantino Street,100
+RR,Poblacion I,MARIANO AGUILAR ST.,,1300.0,DO 33-2019,street,Mariano Aguilar Street,100
+RR,Poblacion I,J. P. RIZAL ST.,,1250.0,DO 33-2019,street,J. P. Rizal Street,100
+RR,Poblacion I,QUEZON AVE.,,1250.0,DO 33-2019,street,Quezon Avenue,100
+RR,Poblacion I,ELIAS SALVADOR ST.,,1150.0,DO 33-2019,street,Elias Salvador Street,100
+CR,Poblacion I,ALVAREZ ST.,,1650.0,DO 33-2019,unmatched,Luzon (33),0
+CR,Poblacion I,A. BONIFACIO ST.,,1650.0,DO 33-2019,unmatched,San Isidro Village (48),0
+CR,Poblacion I,JUAN SALVADOR ST.,,1650.0,DO 33-2019,unmatched,San Isidro Village (52),0
+CR,Poblacion I,L. GUINTO ST.,,1650.0,DO 33-2019,unmatched,Luzon (46),0
+CR,Poblacion I,LAVIDEZ,,1650.0,DO 33-2019,unmatched,San Isidro Village (35),0
+CR,Poblacion I,YACAL ST.,,1650.0,DO 33-2019,unmatched,Luzon (20),0
+CR,Poblacion I,PEDRO OLASE ST.,,1500.0,DO 33-2019,unmatched,San Isidro Village (38),0
+CR,Poblacion I,GREGORIO VALLES ST.,,1500.0,DO 33-2019,unmatched,San Isidro Village (33),0
+RR,Poblacion I,LAVIDEZ,,1350.0,DO 33-2019,unmatched,San Isidro Village (35),0
+RR,Poblacion I,YACAL ST.,,1350.0,DO 33-2019,unmatched,Luzon (20),0
+RR,Poblacion I,ALVAREZ ST.,,1250.0,DO 33-2019,unmatched,Luzon (33),0
+RR,Poblacion I,A. BONIFACIO ST.,,1250.0,DO 33-2019,unmatched,San Isidro Village (48),0
+RR,Poblacion I,JUAN SALVADOR ST.,,1250.0,DO 33-2019,unmatched,San Isidro Village (52),0
+RR,Poblacion I,L. GUINTO ST.,,1250.0,DO 33-2019,unmatched,Luzon (46),0
+RR,Poblacion I,PEDRO OLASE ST.,,1250.0,DO 33-2019,unmatched,San Isidro Village (38),0
+RR,Poblacion I,GREGORIO VALLES ST.,,1250.0,DO 33-2019,unmatched,San Isidro Village (33),0
+CR,Poblacion II,J. P. RIZAL ST.,,1650.0,DO 33-2019,street,J. P. Rizal Street,100
+CR,Poblacion II,QUEZON AVE.,,1650.0,DO 33-2019,street,Quezon Avenue,100
+CR,Poblacion II,RODRIGUEZ ST.,,1650.0,DO 33-2019,street,Rodriguez Street,100
+CR,Poblacion II,SAMPAYO ST.,,1650.0,DO 33-2019,street,Sampayo Street,100
+RR,Poblacion II,RODRIGUEZ ST.,,1350.0,DO 33-2019,street,Rodriguez Street,100
+RR,Poblacion II,J. P. RIZAL ST.,,1250.0,DO 33-2019,street,J. P. Rizal Street,100
+RR,Poblacion II,QUEZON AVE.,,1250.0,DO 33-2019,street,Quezon Avenue,100
+RR,Poblacion II,SAMPAYO ST.,,1250.0,DO 33-2019,street,Sampayo Street,100
+CR,Poblacion II,MABINI ST.,,1650.0,DO 33-2019,unmatched,San Isidro Village (38),0
+CR,Poblacion II,PEREZ ST.,,1650.0,DO 33-2019,unmatched,Luzon (20),0
+CR,Poblacion II,C. M. RECTO ST.,,1650.0,DO 33-2019,unmatched,San Isidro Village (32),0
+CR,Poblacion II,OLD MARKET,,1650.0,DO 33-2019,unmatched,San Isidro Village (20),0
+CR,Poblacion II,ALFREDO K. NAVARRO SUBD.,,1650.0,DO 33-2019,unmatched,San Isidro Village (30),0
+CR,Poblacion II,AGUILAR SUBD.,,1650.0,DO 33-2019,unmatched,San Isidro Village (35),0
+CR,Poblacion II,URIARTE SUBD.,,1650.0,DO 33-2019,unmatched,San Isidro Village (24),0
+CR,Poblacion II,ANDALIS ST.,MUN. PROPER-POBLACION I,1500.0,DO 33-2019,unmatched,San Isidro Village (38),0
+RR,Poblacion II,C. M. RECTO ST.,,1350.0,DO 33-2019,unmatched,San Isidro Village (32),0
+RR,Poblacion II,ANDALIS ST.,MUN. PROPER-POBLACION I,1250.0,DO 33-2019,unmatched,San Isidro Village (38),0
+RR,Poblacion II,MABINI ST.,,1250.0,DO 33-2019,unmatched,San Isidro Village (38),0
+RR,Poblacion II,PEREZ ST.,,1250.0,DO 33-2019,unmatched,Luzon (20),0
+RR,Poblacion II,OLD MARKET,,1250.0,DO 33-2019,unmatched,San Isidro Village (20),0
+RR,Poblacion II,ALFREDO K. NAVARRO SUBD.,,1250.0,DO 33-2019,unmatched,San Isidro Village (30),0
+RR,Poblacion II,AGUILAR SUBD.,,1250.0,DO 33-2019,unmatched,San Isidro Village (35),0
+RR,Poblacion II,URIARTE SUBD.,,1250.0,DO 33-2019,unmatched,San Isidro Village (24),0
+CR,Salvacion,ALL LOTS,ALONG NATIONAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Salvacion,ALL LOTS,ALONG NATIONAL ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Silangang Calutan,ALL LOTS,ALONG BRGY. ROAD,1100.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Silangang Calutan,ALL LOTS,ALONG BRGY. ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Silangang Maligaya,ALL LOTS,ALONG BRGY. ROAD,950.0,DO 33-2019,unmatched,San Isidro Village (33),0
+RR,Silangang Maligaya,ALL LOTS,ALONG BRGY. ROAD,750.0,DO 33-2019,unmatched,San Isidro Village (33),0
+CR,Sildora,Angela Roque Subd.,,1500.0,DO 33-2019,unmatched,Luzon (24),0
+CR,Sildora,Constantino Subd.,,1500.0,DO 33-2019,unmatched,Luzon (25),0
+CR,Sildora,ALL LOTS,ALONG NATIONAL ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Sildora,Angela Roque Subd.,,1100.0,DO 33-2019,unmatched,Luzon (24),0
+RR,Sildora,Constantino Subd.,,1100.0,DO 33-2019,unmatched,Luzon (25),0
+RR,Sildora,ALL LOTS,ALONG NATIONAL ROAD,850.0,DO 33-2019,unmatched,Luzon (31),0

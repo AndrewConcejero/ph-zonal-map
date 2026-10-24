@@ -1,4 +1,8 @@
 rdo,rdo_name,cities_covered,department_order,effective_date,file_name,file_type,in_scope
+RDO-018,Olongapo City,Olongapo,DO 5-1996,1996-03-03,"RDO No. 18 - Olongapo City, Zambales.xls",xls,yes
+RDO-018,Olongapo City,Botolan; Cabangan; Candelaria; Castillejos; Iba; Masinloc; Palauig; San Antonio; San Felipe; San Marcelino; San Narciso; Santa Cruz; Subic,DO 33-1997,1997-09-04,"RDO No. 18 - Olongapo City, Zambales.xls",xls,yes
+RDO-018,Olongapo City,Olongapo; Botolan; Cabangan; Candelaria; Castillejos; Iba; Masinloc; Palauig; San Antonio; San Felipe; San Marcelino; San Narciso; Santa Cruz; Subic,DO 48-2007,2008-02-16,"RDO No. 18 - Olongapo City, Zambales.xls",xls,yes
+RDO-018,Olongapo City,Olongapo; Botolan; Cabangan; Candelaria; Castillejos; Iba; Masinloc; Palauig; San Antonio; San Felipe; San Marcelino; San Narciso; Santa Cruz; Subic,DO 19-2022,2022-05-13,"RDO No. 18 - Olongapo City, Zambales.xls",xls,yes
 RDO-024,Valenzuela City,Valenzuela,DO 37-1989,1990-01-11,RDO No. 24 - Valenzuela City.xls,xls,yes
 RDO-024,Valenzuela City,Valenzuela,DO 84-1994,1994-09-28,RDO No. 24 - Valenzuela City.xls,xls,yes
 RDO-024,Valenzuela City,Valenzuela,DO 83-1996,1996-12-18,RDO No. 24 - Valenzuela City.xls,xls,yes
@@ -150,9 +154,9 @@ RDO-046,Cainta-Taytay,Angono; Cainta; Taytay,DO 5-1991,1991-09-16,RDO No. 46 - C
 RDO-046,Cainta-Taytay,Angono; Cainta; Taytay,DO 25-1996,1996-05-15,RDO No. 46 - Cainta-Taytay.xls,xls,yes
 RDO-046,Cainta-Taytay,Baras; Binangonan; Cardona; Jala-Jala; Morong; Pililla; Tanay,DO 24-1996,1996-05-15,RDO No. 46 - Cainta-Taytay.xls,xls,yes
 RDO-046,Cainta-Taytay,Angono; Cainta; Taytay,DO 43-2003,2004-03-01,RDO No. 46 - Cainta-Taytay.xls,xls,yes
+RDO-046,Cainta-Taytay,Baras; Binangonan; Cardona; Jala-Jala; Morong; Pililla; Tanay,DO 44-2003,2004-03-01,RDO No. 46 - Cainta-Taytay.xls,xls,yes
 RDO-046,Cainta-Taytay,Angono; Cainta; Taytay; Baras; Binangonan; Cardona; Jala-Jala; Morong; Pililla; Tanay,DO 20-2015,2015-05-08,RDO No. 46 - Cainta-Taytay.xls,xls,yes
 RDO-046,Cainta-Taytay,Angono; Cainta; Taytay; Baras; Binangonan; Cardona; Jala-Jala; Morong; Pililla; Tanay,DO 22-2020,2020-09-15,RDO No. 46 - Cainta-Taytay.xls,xls,yes
-RDO-046,Cainta-Taytay,Baras; Binangonan; Cardona; Jala-Jala; Morong; Pililla; Tanay,DO 44-2003,,RDO No. 46 - Cainta-Taytay.xls,xls,yes
 RDO-047,East Makati City,Makati,DO 51-1987,1987-06-09,RDO No. 47 - East Makati.xls,xls,yes
 RDO-047,East Makati City,Makati,DO 19-1990,1990-04-25,RDO No. 47 - East Makati.xls,xls,yes
 RDO-047,East Makati City,Makati,DO 135-1991,1992-07-31,RDO No. 47 - East Makati.xls,xls,yes
@@ -253,22 +257,22 @@ RDO-059,"Lipa City, East Batangas",Agoncillo; Alitagtag; Balete; Cuenca; Ibaan; 
 RDO-059,"Lipa City, East Batangas",Agoncillo; Alitagtag; Balete; Cuenca; Ibaan; Laurel; Malvar; Mataasnakahoy; Padre Garcia; Rosario; San Jose; San Juan; San Nicolas; Santa Teresita; Santo Tomas; Talisay; Tanauan; Taysan; Lipa,DO 60-2014,2014-10-26,"RDO No. 59 - Lipa City, East Batangas.xls",xls,yes
 RDO-059,"Lipa City, East Batangas",Agoncillo; Alitagtag; Balete; Cuenca; Ibaan; Laurel; Malvar; Mataasnakahoy; Padre Garcia; Rosario; San Jose; San Juan; San Nicolas; Santa Teresita; Santo Tomas; Talisay; Tanauan; Taysan; Lipa,DO 58-2018,2018-12-14,"RDO No. 59 - Lipa City, East Batangas.xls",xls,yes
 RDO-059,"Lipa City, East Batangas",Agoncillo; Alitagtag; Balete; Cuenca; Ibaan; Laurel; Malvar; Mataasnakahoy; Padre Garcia; Rosario; San Jose; San Juan; San Nicolas; Santa Teresita; Santo Tomas; Talisay; Tanauan; Taysan; Lipa,DO 34-2022,2022-07-10,"RDO No. 59 - Lipa City, East Batangas.xls",xls,yes
-RDO-060,"Lucena City, North Quezon",Lucena City,DO 40-1990,1990-09-20,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
-RDO-060,"Lucena City, North Quezon",Lucena City,DO 21-1996,1996-05-11,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
-RDO-060,"Lucena City, North Quezon",Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas; Tiaong,DO 50-1996,1996-06-26,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
-RDO-060,"Lucena City, North Quezon",Lucena City,DO 67-2002,2002-12-28,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
-RDO-060,"Lucena City, North Quezon",Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas; Tiaong,DO 66-2002,2002-12-28,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
-RDO-060,"Lucena City, North Quezon",Lucena City; Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas; Tiaong,DO 16-2010,2010-08-08,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
-RDO-060,"Lucena City, North Quezon",Lucena City; Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas City; Tiaong,DO 13-2020,2020-03-21,"RDO No. 60 - Lucena City, North Quezon.xls",xls,no
-RDO-061,"Gumaca, South Quezon",Lopez; Padre Burgos; Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Pitogo; Plaridel; Tagkawayan,DO 86-1996,1996-11-21,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
-RDO-061,"Gumaca, South Quezon",Agdangan; Alabat; Calauag; Quezon City; Gen. Luna; San Andres; San Francisco (Aurora); San Narciso; Unisan,DO 31-1999,2000-02-21,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
-RDO-061,"Gumaca, South Quezon",Padre Burgos,DO 72-2002,2002-12-28,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
-RDO-061,"Gumaca, South Quezon",Perez,DO 38-2002,2002-12-28,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
-RDO-061,"Gumaca, South Quezon",Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Pitogo; Plaridel; Tagkawayan,DO 19-2004,2004-07-24,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
-RDO-061,"Gumaca, South Quezon",Agdangan; Alabat; Calauag; Gen. Luna; Lopez; Quezon City; San; Andres; San Francisco (Aurora); San Narciso; Unisan,DO 47-2007,2008-02-16,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
-RDO-061,"Gumaca, South Quezon",Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Padre Burgos; Pitogo; Plaridel; Tagkawayan; Perez,DO 31-2010,2010-10-20,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
-RDO-061,"Gumaca, South Quezon",Agdangan; Alabat; Calauag; Gen. Luna; Lopez; Quezon City; San; Andres; San Francisco (Aurora); San Narciso; Unisan,DO 33-2019,2019-06-13,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
-RDO-061,"Gumaca, South Quezon",Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Padre Burgos; Pitogo; Plaridel; Tagkawayan,DO 37-2022,2022-07-23,"RDO No. 61 - Gumaca, South Quezon.xls",xls,no
+RDO-060,"Lucena City, North Quezon",Lucena,DO 40-1990,1990-09-20,"RDO No. 60 - Lucena City, North Quezon.xls",xls,yes
+RDO-060,"Lucena City, North Quezon",Lucena,DO 21-1996,1996-05-11,"RDO No. 60 - Lucena City, North Quezon.xls",xls,yes
+RDO-060,"Lucena City, North Quezon",Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas; Tiaong,DO 50-1996,1996-06-26,"RDO No. 60 - Lucena City, North Quezon.xls",xls,yes
+RDO-060,"Lucena City, North Quezon",Lucena,DO 67-2002,2002-12-28,"RDO No. 60 - Lucena City, North Quezon.xls",xls,yes
+RDO-060,"Lucena City, North Quezon",Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas; Tiaong,DO 66-2002,2002-12-28,"RDO No. 60 - Lucena City, North Quezon.xls",xls,yes
+RDO-060,"Lucena City, North Quezon",Lucena; Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas; Tiaong,DO 16-2010,2010-08-08,"RDO No. 60 - Lucena City, North Quezon.xls",xls,yes
+RDO-060,"Lucena City, North Quezon",Lucena; Burdeos; Candelaria; Dolores; General Nakar; Infanta; Jomalig; Lucban; Mauban; Pagbilao; Panukulan; Patnanungan; Polilio; Real; Sampaloc; San Antonio; Sariaya; Tayabas; Tiaong,DO 13-2020,2020-03-21,"RDO No. 60 - Lucena City, North Quezon.xls",xls,yes
+RDO-061,"Gumaca, South Quezon",Lopez; Padre Burgos; Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Pitogo; Plaridel; Tagkawayan,DO 86-1996,1996-11-21,"RDO No. 61 - Gumaca, South Quezon.xls",xls,yes
+RDO-061,"Gumaca, South Quezon",Agdangan; Alabat; Calauag; Quezon City; Gen. Luna; San Andres; San Francisco (Aurora); San Narciso; Unisan,DO 31-1999,2000-02-21,"RDO No. 61 - Gumaca, South Quezon.xls",xls,yes
+RDO-061,"Gumaca, South Quezon",Padre Burgos,DO 72-2002,2002-12-28,"RDO No. 61 - Gumaca, South Quezon.xls",xls,yes
+RDO-061,"Gumaca, South Quezon",Perez,DO 38-2002,2002-12-28,"RDO No. 61 - Gumaca, South Quezon.xls",xls,yes
+RDO-061,"Gumaca, South Quezon",Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Pitogo; Plaridel; Tagkawayan,DO 19-2004,2004-07-24,"RDO No. 61 - Gumaca, South Quezon.xls",xls,yes
+RDO-061,"Gumaca, South Quezon",Agdangan; Alabat; Calauag; Gen. Luna; Lopez; Quezon City; San; Andres; San Francisco (Aurora); San Narciso; Unisan,DO 47-2007,2008-02-16,"RDO No. 61 - Gumaca, South Quezon.xls",xls,yes
+RDO-061,"Gumaca, South Quezon",Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Padre Burgos; Pitogo; Plaridel; Tagkawayan; Perez,DO 31-2010,2010-10-20,"RDO No. 61 - Gumaca, South Quezon.xls",xls,yes
+RDO-061,"Gumaca, South Quezon",Agdangan; Alabat; Calauag; Gen. Luna; Lopez; Quezon City; San; Andres; San Francisco (Aurora); San Narciso; Unisan,DO 33-2019,2019-06-13,"RDO No. 61 - Gumaca, South Quezon.xls",xls,yes
+RDO-061,"Gumaca, South Quezon",Atimonan; Buenavista; Catanauan; Guinayangan; Gumaca; Macalelon; Mulanay; Padre Burgos; Pitogo; Plaridel; Tagkawayan,DO 37-2022,2022-07-23,"RDO No. 61 - Gumaca, South Quezon.xls",xls,yes
 RDO-062,"Boac, Marinduque",Boac; Buenavista; Gasan; Mogpog; Santa Cruz; Torrijos,DO 21-1994,1994-06-08,"RDO No. 62 - Boac, Marinduque.xls",xls,no
 RDO-062,"Boac, Marinduque",Boac; Buenavista; Gasan; Mogpog; Santa Cruz; Torrijos,DO 6-1997,1997-03-17,"RDO No. 62 - Boac, Marinduque.xls",xls,no
 RDO-062,"Boac, Marinduque",Boac; Buenavista; Gasan; Mogpog; Santa Cruz; Torrijos,DO 7-2009,2009-02-25,"RDO No. 62 - Boac, Marinduque.xls",xls,no
@@ -332,6 +336,21 @@ RDO-078,"Binalbagan, Negros Occidental",Bago City; Himamaylan City; Kabankalan C
 RDO-079,"Dumaguete City, Negros Oriental",Bais City; Canlaon City; Dumaguete City; Amlan (Ayuquitan); Ayungon; Bacong; Basay; Bayawan City (Tulong); Bindoy (Payabon); Dauin; Guihulngan City; Jimalalud; La Libertad; Mabinay; Manjuyod; Pamplona; San Jose; Santa Catalina; Siaton; Sibulan; Tanay; Taysan; Valencia (Luzurriaga); Vallehermoso; Zamboanguita; Siquijor Provinces; Enrique Villanueva; Larena; Lazi; Maria; San Juan; Siquijor,DO 4-1997,1997-03-17,"RDO No. 79 - Dumaguete City, Negros Oriental.xls",xls,no
 RDO-079,"Dumaguete City, Negros Oriental",Bais City; Canlaon City; Dumaguete City; Amlan (Ayuquitan); Ayungon; Bacong; Basay; Bayawan City (Tulong); Bindoy (Payabon); Dauin; Guihulngan City; Jimalalud; La Libertad; Mabinay; Manjuyod; Pamplona; San Jose; Santa Catalina; Siaton; Sibulan; Tanay; Taysan; Valencia (Luzurriaga); Vallehermoso; Zamboanguita; Siquijor Provinces; Enrique Villanueva; Larena; Lazi; Maria; San Juan; Siquijor,DO 17-2010,2010-08-25,"RDO No. 79 - Dumaguete City, Negros Oriental.xls",xls,no
 RDO-079,"Dumaguete City, Negros Oriental",Bais City; Canlaon City; Dumaguete City; Amlan (Ayuquitan); Ayungon; Bacong; Basay; Bayawan City (Tulong); Bindoy (Payabon); Dauin; Guihulngan City; Jimalalud; La Libertad; Mabinay; Manjuyod; Pamplona; San Jose; Santa Catalina; Siaton; Sibulan; Tanay; Taysan; Valencia (Luzurriaga); Vallehermoso; Zamboanguita; Siquijor Provinces; Enrique Villanueva; Larena; Lazi; Maria; San Juan; Siquijor,DO 78-2018,2019-02-27,"RDO No. 79 - Dumaguete City, Negros Oriental.xls",xls,no
+RDO-21A,North Pampanga,Angeles; Mabalacat; Arayat; Clarkfield; Magalang; Porac,DO 73-1996,1996-09-16,"RDO No. 21A - Angeles City, North Pampanga.xls",xls,yes
+RDO-21A,North Pampanga,Angeles; Mabalacat; Arayat; Clarkfield; Magalang; Porac,DO 47-2002,2002-12-28,"RDO No. 21A - Angeles City, North Pampanga.xls",xls,yes
+RDO-21A,North Pampanga,Angeles; Mabalacat; Arayat; Clarkfield; Magalang; Porac,DO 24-2002,2002-12-28,"RDO No. 21A - Angeles City, North Pampanga.xls",xls,yes
+RDO-21A,North Pampanga,Angeles; Mabalacat; Arayat; Clarkfield; Magalang; Porac,DO 66-2018,2018-12-28,"RDO No. 21A - Angeles City, North Pampanga.xls",xls,yes
+RDO-21A,North Pampanga,Angeles; Mabalacat; Arayat; Clarkfield; Magalang; Porac,DO 56-2022,2022-09-11,"RDO No. 21A - Angeles City, North Pampanga.xls",xls,yes
+RDO-21A,North Pampanga,Angeles; Mabalacat; Arayat; Clarkfield; Magalang; Porac,DO 36-2005,,"RDO No. 21A - Angeles City, North Pampanga.xls",xls,yes
+RDO-21B,"City of San Fernando, South Pampanga",San Fernando,DO 61-1990,1990-12-20,"RDO No. 21B - City of San Fernando, South Pampanga.xls",xls,yes
+RDO-21B,"City of San Fernando, South Pampanga",San Fernando,DO 80-1996,1996-10-20,"RDO No. 21B - City of San Fernando, South Pampanga.xls",xls,yes
+RDO-21B,"City of San Fernando, South Pampanga",Apalit; Candaba; Guagua; Lubao; Masantol; San Luis; San Simon; Sasmuan; Sta. Ana; Sta. Rita; Santo Tomas,DO 23-1998,1998-07-20,"RDO No. 21B - City of San Fernando, South Pampanga.xls",xls,yes
+RDO-21B,"City of San Fernando, South Pampanga",Macabebe,DO 47-2002,2002-12-28,"RDO No. 21B - City of San Fernando, South Pampanga.xls",xls,yes
+RDO-21B,"City of San Fernando, South Pampanga",Bacolor; Floridablanca; Mexico; Minalin,DO 24-2002,2002-12-28,"RDO No. 21B - City of San Fernando, South Pampanga.xls",xls,yes
+RDO-21B,"City of San Fernando, South Pampanga",Apalit; Bacolor; Candaba; Floridablanca; Guagua; Lubao; Macabebe; Masantol; Mexico; Minalin; San Luis; San Simon; Sasmuan; Santa Ana; Santa Rita; Santo Tomas,DO 36-2005,2009-03-14,"RDO No. 21B - City of San Fernando, South Pampanga.xls",xls,yes
+RDO-21B,"City of San Fernando, South Pampanga",San Fernando,DO 35-2005,2009-03-14,"RDO No. 21B - City of San Fernando, South Pampanga.xls",xls,yes
+RDO-21B,"City of San Fernando, South Pampanga",San Fernando; Apalit; Bacolor; Candaba; Floridablanca; Guagua; Lubao; Macabebe; Masantol; Mexico; Minalin; San Luis; San Simon; Sasmuan; Santa Ana; Santa Rita; Santo Tomas,DO 26-2017,2017-06-11,"RDO No. 21B - City of San Fernando, South Pampanga.xls",xls,yes
+RDO-21B,"City of San Fernando, South Pampanga",San Fernando; Apalit; Bacolor; Candaba; Floridablanca; Guagua; Lubao; Macabebe; Masantol; Mexico; Minalin; San Luis; San Simon; Sasmuan; Santa Ana; Santa Rita; Santo Tomas,DO 4-2024,2024-02-22,"RDO No. 21B - City of San Fernando, South Pampanga.xls",xls,yes
 RDO-25A,"Plaridel, Bulacan",Bocaue,DO 134-1991,1992-07-31,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes
 RDO-25A,"Plaridel, Bulacan",Malolos; Balagtas; Baliwag; Bulacan; Bustos; Calumpit; Guiguinto; Hagonoy; Pandi; Paombong; Plaridel; Pulilan,DO 83-1994,1994-09-25,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes
 RDO-25A,"Plaridel, Bulacan",Bocaue,DO 84-1994,1994-09-28,"RDO No. 25A - Plaridel, Bulacan.xlsx",xlsx,yes

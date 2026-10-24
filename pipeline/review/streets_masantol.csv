@@ -1,0 +1,62 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+RR,Alauli,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Alauli,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Bagang,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Bagang,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Balibago,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Balibago,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+CR,Bebe Anac,ALL LOTS,BARANGAY ROAD,2300.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Bebe Anac,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Bebe Anac,ALL LOTS,INTERIOR LOTS,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Bebe Matua,ALL LOTS,BARANGAY ROAD,2000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Bebe Matua,ALL LOTS,INTERIOR LOTS,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Bulacus,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Bulacus,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Cambasi,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Cambasi,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Malauli,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Malauli,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Nigui,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Nigui,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Palimpe,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Palimpe,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Puti,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Puti,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sagrada,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sagrada,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Agustin,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Agustin,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Isidro Anac,ALL LOTS,BARANGAY ROAD,1000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Isidro Anac,ALL LOTS,INTERIOR LOTS,800.0,DO 4-2024,unmatched,Luzon (31),0
+CR,San Isidro Matua,ALL LOTS,PROVINCIAL ROAD,5000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Isidro Matua,ALL LOTS,PROVINCIAL ROAD,4000.0,DO 4-2024,unmatched,Luzon (31),0
+CR,San Isidro Matua,ALL LOTS,BARANGAY ROAD,3500.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Isidro Matua,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Isidro Matua,ALL LOTS,BARANGAY ROAD,2250.0,DO 4-2024,unmatched,Luzon (31),0
+CR,San Nicolas,ALL LOTS,ALONG THE ROAD,6000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Nicolas,ST. DOMINIC CORINTHIAN,NEAR HOLY CHILD ACADEMY,4500.0,DO 4-2024,unmatched,Luzon (17),0
+RR,San Nicolas,ALL LOTS,(BARANGAY ROAD),4000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Nicolas,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Pedro,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,San Pedro,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sapang Kawayan,ALL LOTS,BARANGAY ROAD,1100.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sapang Kawayan,ALL LOTS,INTERIOR LOTS,800.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Cruz,STREET NAME:,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,San Esteban (27),0
+RR,Sta. Cruz,STREET NAME:,INTERIOR LOTS,800.0,DO 4-2024,unmatched,San Esteban (27),0
+CR,Sta. Lucia Anac,ALL LOTS,ALONG THE ROAD,6000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia Anac,ALL LOTS,(BARANGAY ROAD),4000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia Anac,ALL LOTS,INTERIOR LOTS,3000.0,DO 4-2024,unmatched,Luzon (31),0
+CR,Sta. Lucia Matua,ALL LOTS,ALONG THE ROAD,5000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia Matua,ALL LOTS,(BARANGAY ROAD),4000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia Matua,ALL LOTS,INTERIOR LOTS,2500.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia Paguiba,ALL LOTS,BARANGAY ROAD,1550.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia Paguiba,ALL LOTS,INTERIOR LOTS,1000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia Wakas,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Lucia Wakas,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Monica,ALL LOTS,BARANGAY ROAD,1200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sta. Monica,ALL LOTS,INTERIOR LOTS,900.0,DO 4-2024,unmatched,Luzon (31),0
+CR,Sto. Niño,ALL LOTS,ALONG THE ROAD,5000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sto. Niño,ALL LOTS,(BARANGAY ROAD),4000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sto. Niño,ALL LOTS,INTERIOR LOTS,2200.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sua,ALL LOTS,BARANGAY ROAD,1000.0,DO 4-2024,unmatched,Luzon (31),0
+RR,Sua,ALL LOTS,INTERIOR LOTS,500.0,DO 4-2024,unmatched,Luzon (31),0

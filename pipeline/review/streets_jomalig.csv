@@ -1,0 +1,19 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+RR,Apad,ALL LOTS,,100.0,DO 13-2020,unmatched,Jomalig Island (36),0
+RR,Bukal,ALL LOTS,,200.0,DO 13-2020,unmatched,Jomalig Island (36),0
+RR,Casuguran,ALL LOTS,,200.0,DO 13-2020,unmatched,Jomalig Island (36),0
+RR,Gango,ALL LOTS,,200.0,DO 13-2020,unmatched,Jomalig Island (36),0
+CR,Talisoy,ALL OTHER STREETS,INTERIOR LOTS,380.0,DO 13-2020,background,,0
+RR,Talisoy,ALL OTHER STREETS,INTERIOR LOTS,300.0,DO 13-2020,background,,0
+CR,Talisoy,RIZAL ST.,,450.0,DO 13-2020,street,Rizal Street,100
+CR,Talisoy,BONIFACIO ST.,,450.0,DO 13-2020,street,Bonifacio Street,100
+RR,Talisoy,RIZAL ST.,,330.0,DO 13-2020,street,Rizal Street,100
+RR,Talisoy,BONIFACIO ST.,,330.0,DO 13-2020,street,Bonifacio Street,100
+CR,Talisoy,DANCECO ST.,,460.0,DO 13-2020,unmatched,Jomalig Island (29),0
+CR,Talisoy,CORDIA ST.,,450.0,DO 13-2020,unmatched,Jomalig Island (30),0
+CR,Talisoy,HIGHWAY ST.,,450.0,DO 13-2020,unmatched,Jomalig Island (29),0
+CR,Talisoy,M.H. DEL PILAR ST.,,450.0,DO 13-2020,unmatched,Jomalig Island (44),0
+RR,Talisoy,CORDIA ST.,,330.0,DO 13-2020,unmatched,Jomalig Island (30),0
+RR,Talisoy,DANCECO ST.,,330.0,DO 13-2020,unmatched,Jomalig Island (29),0
+RR,Talisoy,HIGHWAY ST.,,330.0,DO 13-2020,unmatched,Jomalig Island (29),0
+RR,Talisoy,M.H. DEL PILAR ST.,,330.0,DO 13-2020,unmatched,Jomalig Island (44),0

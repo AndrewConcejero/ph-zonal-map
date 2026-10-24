@@ -1,0 +1,834 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Asinan,ALL OTHER STREETS,,25000.0,DO 19-2022,background,,0
+RR,Asinan,ALL OTHER STREETS,,10000.0,DO 19-2022,background,,0
+CR,Asinan,R. MAGSAYSAY DRIVE,FROM SBMA MAIN GATE TO BRGY EAST TAPINAC,30000.0,DO 19-2022,street,Magsaysay Drive,92.3076923076923
+CR,Asinan,GORDON AVE,MAGSAYSAY - 14TH ST,25000.0,DO 19-2022,street,Gordon Avenue,100
+CR,Asinan,GORDON AVE,l4TH ST - BRIDGE,25000.0,DO 19-2022,street,Gordon Avenue,100
+CR,Asinan,ALBA ST.,E-1ST ST.-E-3RD ST.,23000.0,DO 19-2022,street,Alba Street,100
+CR,Asinan,FENDLER ST.,ST. COLUMBAN ST.(FORMER PERIMETER ROAD)-E-3RD ST.,23000.0,DO 19-2022,street,Fendler Street,100
+CR,Asinan,FENDLER ST.,E-1ST ST. -E-3RD ST.,23000.0,DO 19-2022,street,Fendler Street,100
+CR,Asinan,JONES ST.,E-6TH ST.-E-12TH ST.,23000.0,DO 19-2022,street,Jones Street,100
+CR,Asinan,LINDAYAG ST.,E-1ST ST. -E-3RD ST.,23000.0,DO 19-2022,street,Lindayag Street,100
+RR,Asinan,ALBA ST.,E-1ST ST.-E-3RD ST.,15000.0,DO 19-2022,street,Alba Street,100
+RR,Asinan,FENDLER ST.,ST. COLUMBAN ST.(FORMER PERIMETER ROAD)-E-3RD ST.,15000.0,DO 19-2022,street,Fendler Street,100
+RR,Asinan,FENDLER ST.,E-1ST ST. -E-3RD ST.,15000.0,DO 19-2022,street,Fendler Street,100
+RR,Asinan,GORDON AVE,l4TH ST - BRIDGE,15000.0,DO 19-2022,street,Gordon Avenue,100
+RR,Asinan,JONES ST.,E-6TH ST.-E-12TH ST.,15000.0,DO 19-2022,street,Jones Street,100
+RR,Asinan,LINDAYAG ST.,E-1ST ST. -E-3RD ST.,15000.0,DO 19-2022,street,Lindayag Street,100
+CR,Asinan,RIZAL AVE,FROM BRGY EAST TAPINAC TO SBMA GATE,25000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (21),0
+CR,Asinan,E-1ST ST.,RIZAL AVE.-GORDON AVE.,23000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+CR,Asinan,E-3RD ST.-,RIZAL AVE.-R. M. DRIVE,23000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+CR,Asinan,E-10TH ST.,GORDON AVE.-E-3RD ST.,23000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+CR,Asinan,E-6TH ST.,GORDON AVE.-E-3RD ST.,20000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+RR,Asinan,E-1ST ST.,RIZAL AVE.-GORDON AVE.,15000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+RR,Asinan,E-3RD ST.-,RIZAL AVE.-R. M. DRIVE,15000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+RR,Asinan,E-6TH ST.,GORDON AVE.-E-3RD ST.,15000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+RR,Asinan,E-10TH ST.,GORDON AVE.-E-3RD ST.,15000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+RR,Barretto,ALL OTHER STREETS,,3000.0,DO 19-2022,background,,0
+CR,Barretto,BURGOS ST,DAGUPAN ST.-GOMEZ ST.,15000.0,DO 19-2022,segment,Burgos Street,100
+RR,Barretto,BURGOS ST,DAGUPAN ST.-GOMEZ ST.,5000.0,DO 19-2022,segment,Burgos Street,100
+CR,Barretto,ABRA ST,OLONGAPO-BUGALLON ROAD-RIZAL ST,17000.0,DO 19-2022,street,Abra Street,100
+CR,Barretto,CAGAYAN ST.,OLONGAPO-BUGALLON ROAD-DAGUPAN ST.,15000.0,DO 19-2022,street,Cagayan Street,100
+CR,Barretto,CAMIA ST.,JASMIN ST.- END OF CAMIA ST.,15000.0,DO 19-2022,street,Camia Street,100
+CR,Barretto,DAGUPAN ST.,ELANE ST.-MAQUINAYA RIVER,15000.0,DO 19-2022,street,Dagupan Street,100
+CR,Barretto,DEL PILAR ST.,OLONGAPO-BUGALLON ROAD-JOLO ST.,15000.0,DO 19-2022,street,Del Pilar Street,100
+CR,Barretto,GABAYA EXT,,15000.0,DO 19-2022,street,Gabaya Street Extension,97
+CR,Barretto,GOMEZ ST,OLONGAPO-BUGALLON ROAD-RIZAL ST,15000.0,DO 19-2022,street,Gomez Street,100
+CR,Barretto,IFUGAO ST,OLONGAPO-BUGALLON ROAD-JOLO ST.,15000.0,DO 19-2022,street,Ifugao Street,100
+CR,Barretto,ILOILO ST.,OLONGAPO-BUGALLON ROAD-JOLO ST.,15000.0,DO 19-2022,street,Iloilo Street,100
+CR,Barretto,JOLO ST,DEL PILAR ST.-RIZAL ST.,15000.0,DO 19-2022,street,Jolo Street,100
+CR,Barretto,LA UNION ST,,15000.0,DO 19-2022,street,La Union Street,100
+CR,Barretto,LACAMBRA ST,JOLO ST.-ILOILO EXT. ROAD,15000.0,DO 19-2022,street,Lacambra Street,100
+CR,Barretto,LAGUNA ST.,OLONGAPO-BUGALLON ROAD-GABAYA ST.,15000.0,DO 19-2022,street,Laguna Street,100
+CR,Barretto,MACARAEG ST.,OLONGAPO-BUGALLON ROAD-DAGUPAN ST.,15000.0,DO 19-2022,street,Macaraeg Street,100
+CR,Barretto,MENDOZA ST,,15000.0,DO 19-2022,street,Mendoza Street,100
+CR,Barretto,NUEVA ECIJA ST.,OLONGAPO-BUGALLON ROAD-LA UNION ST.,15000.0,DO 19-2022,street,Nueva Ecija Street,100
+CR,Barretto,PANGASINAN ST,,15000.0,DO 19-2022,street,Pangasinan Street,100
+CR,Barretto,SAMAR ST.,OLONGAPO-BUGALLON ROAD-JOLO ST.,15000.0,DO 19-2022,street,Samar Street,100
+CR,Barretto,ZAMORA ST,OLONGAPO-BUGALLON ROAD-DAGUPAN ST.,15000.0,DO 19-2022,street,Zamora Street,100
+RR,Barretto,ABRA ST,OLONGAPO-BUGALLON ROAD-RIZAL ST,8000.0,DO 19-2022,street,Abra Street,100
+RR,Barretto,DAGUPAN ST.,ELANE ST.-MAQUINAYA RIVER,8000.0,DO 19-2022,street,Dagupan Street,100
+RR,Barretto,DEL PILAR ST.,OLONGAPO-BUGALLON ROAD-JOLO ST.,8000.0,DO 19-2022,street,Del Pilar Street,100
+RR,Barretto,LA UNION ST,,8000.0,DO 19-2022,street,La Union Street,100
+RR,Barretto,LACAMBRA ST,NEAR NATIONAL HWAY,8000.0,DO 19-2022,street,Lacambra Street,100
+RR,Barretto,JOLO ST,DEL PILAR ST.-RIZAL ST.,7000.0,DO 19-2022,street,Jolo Street,100
+RR,Barretto,LACAMBRA ST,JOLO ST.-ILOILO EXT. ROAD,7000.0,DO 19-2022,street,Lacambra Street,100
+RR,Barretto,MENDOZA ST,,7000.0,DO 19-2022,street,Mendoza Street,100
+CR,Barretto,NARRA ST,RIZAL ST.-RIZAL ST.,6000.0,DO 19-2022,street,Narra Street,100
+RR,Barretto,CAGAYAN ST.,OLONGAPO-BUGALLON ROAD-DAGUPAN ST.,5000.0,DO 19-2022,street,Cagayan Street,100
+RR,Barretto,CAMIA ST.,JASMIN ST.- END OF CAMIA ST.,5000.0,DO 19-2022,street,Camia Street,100
+RR,Barretto,DAGUPAN ST.,INTERIOR,5000.0,DO 19-2022,street,Dagupan Street,100
+RR,Barretto,DEL PILAR ST.,INTERIOR,5000.0,DO 19-2022,street,Del Pilar Street,100
+RR,Barretto,GOMEZ ST,OLONGAPO-BUGALLON ROAD-RIZAL ST,5000.0,DO 19-2022,street,Gomez Street,100
+RR,Barretto,IFUGAO ST,OLONGAPO-BUGALLON ROAD-JOLO ST.,5000.0,DO 19-2022,street,Ifugao Street,100
+RR,Barretto,ILOILO ST.,OLONGAPO-BUGALLON ROAD-JOLO ST.,5000.0,DO 19-2022,street,Iloilo Street,100
+RR,Barretto,LA UNION ST,INTERIOR,5000.0,DO 19-2022,street,La Union Street,100
+RR,Barretto,LACAMBRA ST,INTERIOR,5000.0,DO 19-2022,street,Lacambra Street,100
+RR,Barretto,LAGUNA ST.,OLONGAPO-BUGALLON ROAD-GABAYA ST.,5000.0,DO 19-2022,street,Laguna Street,100
+RR,Barretto,MACARAEG ST.,OLONGAPO-BUGALLON ROAD-DAGUPAN ST.,5000.0,DO 19-2022,street,Macaraeg Street,100
+RR,Barretto,NARRA ST,RIZAL ST.-RIZAL ST.,5000.0,DO 19-2022,street,Narra Street,100
+RR,Barretto,NUEVA ECIJA ST.,OLONGAPO-BUGALLON ROAD-LA UNION ST.,5000.0,DO 19-2022,street,Nueva Ecija Street,100
+RR,Barretto,PANGASINAN ST,,5000.0,DO 19-2022,street,Pangasinan Street,100
+RR,Barretto,SAMAR ST.,OLONGAPO-BUGALLON ROAD-JOLO ST.,5000.0,DO 19-2022,street,Samar Street,100
+RR,Barretto,ZAMORA ST,OLONGAPO-BUGALLON ROAD-DAGUPAN ST.,5000.0,DO 19-2022,street,Zamora Street,100
+RR,Barretto,GABAYA ST,,4000.0,DO 19-2022,street,Gabaya Street,100
+RR,Barretto,GABAYA EXT,,4000.0,DO 19-2022,street,Gabaya Street Extension,97
+CR,Barretto,BALOY BEACH,OLONGAPO-BUGALLON ROAD-SUBIC BAY/ MATAIN RIVER BOUNDARY,18000.0,DO 19-2022,unmatched,Alta Vista (38),0
+CR,Barretto,GERONIMO ST,,18000.0,DO 19-2022,unmatched,Olongapo (38),0
+CR,Barretto,OLONGAPO-BUGALLON ROAD,"FROM BRGY KALAKLAN TO BRGY MATAIN, SUBIC, ZAMBALES",17000.0,DO 19-2022,unmatched,Olongapo (64),0
+CR,Barretto,ABAD ST.,RIZAL ST.-,15000.0,DO 19-2022,unmatched,Alta Vista (29),0
+CR,Barretto,BANABA ST,,15000.0,DO 19-2022,unmatched,Alta Vista (38),0
+CR,Barretto,BARBA LANE,,15000.0,DO 19-2022,unmatched,Alta Vista (40),0
+CR,Barretto,BONIFACIO ST,,15000.0,DO 19-2022,unmatched,Olongapo (47),0
+CR,Barretto,BRISAS DEL MAR ROAD,OLONGAPO-BUGALLON ROAD- BOUNDARY OF MUNICIPALITY OF SUBIC,15000.0,DO 19-2022,unmatched,Alta Vista (35),0
+CR,Barretto,ELANE ST.,OLONGAPO-BUGALLON ROAD-DAGUPAN ST.,15000.0,DO 19-2022,unmatched,Luzon (40),0
+CR,Barretto,GONZALES ST.,,15000.0,DO 19-2022,unmatched,Olongapo (40),0
+CR,Barretto,HOYA ST.,,15000.0,DO 19-2022,unmatched,Olongapo (33),0
+CR,Barretto,ILOILO EXT. ROAD,,15000.0,DO 19-2022,unmatched,Olongapo (33),0
+CR,Barretto,JACINTO ST,,15000.0,DO 19-2022,unmatched,Alta Vista (35),0
+CR,Barretto,JASMIN ST.,,15000.0,DO 19-2022,unmatched,Alta Vista (25),0
+CR,Barretto,MONTELIBANO ST.,,15000.0,DO 19-2022,unmatched,Olongapo (42),0
+CR,Barretto,MORALES ST,,15000.0,DO 19-2022,unmatched,Olongapo (29),0
+CR,Barretto,RIZAL ST,OLONGAPO BUGALLON ROAD-END OF RIZAL ST.,15000.0,DO 19-2022,unmatched,Alta Vista (27),0
+CR,Barretto,RIZAL ST. EXT.,,15000.0,DO 19-2022,unmatched,Alta Vista (42),0
+CR,Barretto,RIZAL EXT (HULO),,15000.0,DO 19-2022,unmatched,Luzon (44),0
+CR,Barretto,ROSAL ST.,JASMIN ST.-ASSEMBLY OF GOD CHURCH,15000.0,DO 19-2022,unmatched,Olongapo (31),0
+CR,Barretto,SOLIS ST,BURGOS ST.-ABRA ST.,15000.0,DO 19-2022,unmatched,Olongapo (33),0
+CR,Barretto,TOLENTINO LANE,,15000.0,DO 19-2022,unmatched,Olongapo (36),0
+CR,Barretto,VILLAS LN,ABRA ST.-RIZAL ST.,15000.0,DO 19-2022,unmatched,Alta Vista (56),0
+RR,Barretto,OLONGAPO-BUGALLON ROAD,"FROM BRGY KALAKLAN TO BRGY MATAIN, SUBIC, ZAMBALES",8000.0,DO 19-2022,unmatched,Olongapo (64),0
+RR,Barretto,ABAD ST.,RIZAL ST.-,8000.0,DO 19-2022,unmatched,Alta Vista (29),0
+RR,Barretto,BALOY BEACH,OLONGAPO-BUGALLON ROAD-SUBIC BAY/ MATAIN RIVER BOUNDARY,8000.0,DO 19-2022,unmatched,Alta Vista (38),0
+RR,Barretto,BANABA ST,,8000.0,DO 19-2022,unmatched,Alta Vista (38),0
+RR,Barretto,BARBA LANE,,8000.0,DO 19-2022,unmatched,Alta Vista (40),0
+RR,Barretto,BONIFACIO ST,,8000.0,DO 19-2022,unmatched,Olongapo (47),0
+RR,Barretto,MONTELIBANO ST.,,8000.0,DO 19-2022,unmatched,Olongapo (42),0
+RR,Barretto,RIZAL ST,OLONGAPO BUGALLON ROAD-END OF RIZAL ST.,8000.0,DO 19-2022,unmatched,Alta Vista (27),0
+RR,Barretto,RIZAL EXT (HULO),,8000.0,DO 19-2022,unmatched,Luzon (44),0
+RR,Barretto,ELANE ST.,OLONGAPO-BUGALLON ROAD-DAGUPAN ST.,7000.0,DO 19-2022,unmatched,Luzon (40),0
+RR,Barretto,GERONIMO ST,,7000.0,DO 19-2022,unmatched,Olongapo (38),0
+RR,Barretto,HOYA ST.,,7000.0,DO 19-2022,unmatched,Olongapo (33),0
+RR,Barretto,JACINTO ST,,7000.0,DO 19-2022,unmatched,Alta Vista (35),0
+RR,Barretto,MORALES ST,,7000.0,DO 19-2022,unmatched,Olongapo (29),0
+RR,Barretto,BANABA ST,INTERIOR,5000.0,DO 19-2022,unmatched,Alta Vista (38),0
+RR,Barretto,BONIFACIO ST,INTERIOR,5000.0,DO 19-2022,unmatched,Olongapo (47),0
+RR,Barretto,BRISAS DEL MAR ROAD,OLONGAPO-BUGALLON ROAD- BOUNDARY OF MUNICIPALITY OF SUBIC,5000.0,DO 19-2022,unmatched,Alta Vista (35),0
+RR,Barretto,GONZALES ST.,,5000.0,DO 19-2022,unmatched,Olongapo (40),0
+RR,Barretto,ILOILO EXT. ROAD,,5000.0,DO 19-2022,unmatched,Olongapo (33),0
+RR,Barretto,JASMIN ST.,,5000.0,DO 19-2022,unmatched,Alta Vista (25),0
+RR,Barretto,RIZAL ST,INTERIOR,5000.0,DO 19-2022,unmatched,Alta Vista (27),0
+RR,Barretto,RIZAL ST. EXT.,,5000.0,DO 19-2022,unmatched,Alta Vista (42),0
+RR,Barretto,RIZAL EXT (HULO),INTERIOR,5000.0,DO 19-2022,unmatched,Luzon (44),0
+RR,Barretto,ROSAL ST.,JASMIN ST.-ASSEMBLY OF GOD CHURCH,5000.0,DO 19-2022,unmatched,Olongapo (31),0
+RR,Barretto,SOLIS ST,BURGOS ST.-ABRA ST.,5000.0,DO 19-2022,unmatched,Olongapo (33),0
+RR,Barretto,TOLENTINO LANE,,5000.0,DO 19-2022,unmatched,Olongapo (36),0
+RR,Barretto,VILLAS LN,ABRA ST.-RIZAL ST.,5000.0,DO 19-2022,unmatched,Alta Vista (56),0
+RR,East Bajac-bajac,ALL OTHER STREETS,WITHIN TOWNSITE-308,13000.0,DO 19-2022,background,,0
+RR,East Bajac-bajac,ALL OTHER STREETS,OUTSIDE TOWNSITE - 308,12500.0,DO 19-2022,background,,0
+CR,East Bajac-bajac,ARDOIN ST,E-21ST ST.-E-23RD ST.,23000.0,DO 19-2022,segment,Ardoin Street,100
+CR,East Bajac-bajac,IBARRA ST,E-18TH ST.-E-21ST ST.,25000.0,DO 19-2022,street,Ibarra Street,100
+CR,East Bajac-bajac,RIZAL AVENUE,FROM MARIKIT BRIDGE TO STA. RITA BRIDGE,25000.0,DO 19-2022,street,Rizal Avenue,100
+CR,East Bajac-bajac,RIZAL AVENUE,ULO NG APO-CLTX STA. RITA,25000.0,DO 19-2022,street,Rizal Avenue,100
+CR,East Bajac-bajac,RIZAL AVENUE,ULO APO-MAGSAYSAY RTDA,25000.0,DO 19-2022,street,Rizal Avenue,100
+CR,East Bajac-bajac,RIZAL AVENUE,MAGSAYSAY RTDA-HOSPITAL,25000.0,DO 19-2022,street,Rizal Avenue,100
+CR,East Bajac-bajac,AFABLE ST,E-18TH ST.-E-20TH ST.,23000.0,DO 19-2022,street,Afable Street,100
+CR,East Bajac-bajac,AFABLE ST,BEHIND - ALONG BARRETTO,23000.0,DO 19-2022,street,Afable Street,100
+CR,East Bajac-bajac,AFABLE ST,BEHIND - ALONG GANDA,23000.0,DO 19-2022,street,Afable Street,100
+CR,East Bajac-bajac,ARDOIN ST,E-24TH ST.-E-25TH ST.,23000.0,DO 19-2022,street,Ardoin Street,100
+CR,East Bajac-bajac,ARDOIN ST,BEHIND - ALONG GANDA,23000.0,DO 19-2022,street,Ardoin Street,100
+CR,East Bajac-bajac,CANDA ST,E-17TH ST.-E-23RD ST./ E-24TH ST.-E-25TH ST.,23000.0,DO 19-2022,street,Canda Street,100
+CR,East Bajac-bajac,BARRETTO ST,E-17TH ST.-E-20TH ST.,23000.0,DO 19-2022,street,Baretto Street,95.23809523809523
+CR,East Bajac-bajac,DAHL ST,,23000.0,DO 19-2022,street,Dahl Street,100
+CR,East Bajac-bajac,EAST 18TH ST,AFABLE ST.-JOHNSON ST.,23000.0,DO 19-2022,street,East 18th Street,100
+CR,East Bajac-bajac,EAST 20TH ST,FROM ELICANO TO GORDON AVE,23000.0,DO 19-2022,street,West 20th Street,91.66666666666666
+CR,East Bajac-bajac,EAST 20TH ST,FROM RIZAL AVE TO ELICANO ST,23000.0,DO 19-2022,street,West 20th Street,91.66666666666666
+CR,East Bajac-bajac,EAST 21ST ST,FROM ELICANO TO IBARRA/RAMOS ST.,23000.0,DO 19-2022,street,West 21st Street,91.66666666666666
+CR,East Bajac-bajac,EAST 21ST ST,FROM RIZAL AVE TO ELICANO ST,23000.0,DO 19-2022,street,West 21st Street,91.66666666666666
+CR,East Bajac-bajac,EAST 23RD ST,ARDOIN ST.-FONTAINE ST.,23000.0,DO 19-2022,street,West 23rd Street,91.66666666666666
+CR,East Bajac-bajac,ELICANO ST,E-27TH ST.-E-17TH ST.,23000.0,DO 19-2022,street,Elicaño Street,100
+CR,East Bajac-bajac,FONTAINE ST,E-17TH ST.-E-23RD ST.,23000.0,DO 19-2022,street,Fontaine Street,100
+CR,East Bajac-bajac,GRAHAM ST,E-17TH ST.-RAMOS ST.,23000.0,DO 19-2022,street,Graham Street,100
+CR,East Bajac-bajac,HARRIS ST,E-17TH ST.-RAMOS ST.,23000.0,DO 19-2022,street,Harris Street,100
+CR,East Bajac-bajac,JOHNSON ST,E-18TH ST.-BOUNDARY OF BRY WEST BAJAC-BAJAC,23000.0,DO 19-2022,street,Johnson Street,100
+CR,East Bajac-bajac,KATIPUNAN ST,,23000.0,DO 19-2022,street,Katipunan Street,100
+RR,East Bajac-bajac,DAHL ST,,18500.0,DO 19-2022,street,Dahl Street,100
+RR,East Bajac-bajac,RIZAL AVENUE,FROM MARIKIT BRIDGE TO STA. RITA BRIDGE,16000.0,DO 19-2022,street,Rizal Avenue,100
+RR,East Bajac-bajac,RIZAL AVENUE,ULO NG APO-CLTX STA. RITA,16000.0,DO 19-2022,street,Rizal Avenue,100
+RR,East Bajac-bajac,RIZAL AVENUE,ULO APO-MAGSAYSAY RTDA,16000.0,DO 19-2022,street,Rizal Avenue,100
+RR,East Bajac-bajac,RIZAL AVENUE,MAGSAYSAY RTDA-HOSPITAL,16000.0,DO 19-2022,street,Rizal Avenue,100
+RR,East Bajac-bajac,AFABLE ST,E-18TH ST.-E-20TH ST.,15000.0,DO 19-2022,street,Afable Street,100
+RR,East Bajac-bajac,AFABLE ST,BEHIND - ALONG GANDA,15000.0,DO 19-2022,street,Afable Street,100
+RR,East Bajac-bajac,ARDOIN ST,E-24TH ST.-E-25TH ST.,15000.0,DO 19-2022,street,Ardoin Street,100
+RR,East Bajac-bajac,ARDOIN ST,BEHIND - ALONG GANDA,15000.0,DO 19-2022,street,Ardoin Street,100
+RR,East Bajac-bajac,CANDA ST,E-17TH ST.-E-23RD ST./ E-24TH ST.-E-25TH ST.,15000.0,DO 19-2022,street,Canda Street,100
+RR,East Bajac-bajac,BARRETTO ST,E-17TH ST.-E-20TH ST.,15000.0,DO 19-2022,street,Baretto Street,95.23809523809523
+RR,East Bajac-bajac,EAST 18TH ST,AFABLE ST.-JOHNSON ST.,15000.0,DO 19-2022,street,East 18th Street,100
+RR,East Bajac-bajac,EAST 20TH ST,FROM RIZAL AVE TO ELICANO ST,15000.0,DO 19-2022,street,West 20th Street,91.66666666666666
+RR,East Bajac-bajac,EAST 21ST ST,FROM RIZAL AVE TO ELICANO ST,15000.0,DO 19-2022,street,West 21st Street,91.66666666666666
+RR,East Bajac-bajac,EAST 23RD ST,ARDOIN ST.-FONTAINE ST.,15000.0,DO 19-2022,street,West 23rd Street,91.66666666666666
+RR,East Bajac-bajac,ELICANO ST,E-27TH ST.-E-17TH ST.,15000.0,DO 19-2022,street,Elicaño Street,100
+RR,East Bajac-bajac,FONTAINE ST,E-17TH ST.-E-23RD ST.,15000.0,DO 19-2022,street,Fontaine Street,100
+RR,East Bajac-bajac,GRAHAM ST,E-17TH ST.-RAMOS ST.,15000.0,DO 19-2022,street,Graham Street,100
+RR,East Bajac-bajac,HARRIS ST,E-17TH ST.-RAMOS ST.,15000.0,DO 19-2022,street,Harris Street,100
+RR,East Bajac-bajac,IBARRA ST,E-18TH ST.-E-21ST ST.,15000.0,DO 19-2022,street,Ibarra Street,100
+RR,East Bajac-bajac,KATIPUNAN ST,,15000.0,DO 19-2022,street,Katipunan Street,100
+RR,East Bajac-bajac,ELICANO ST,INTERIOR,13000.0,DO 19-2022,street,Elicaño Street,100
+RR,East Bajac-bajac,FONTAINE ST,INTERIOR,13000.0,DO 19-2022,street,Fontaine Street,100
+RR,East Bajac-bajac,GRAHAM ST,INTERIOR,13000.0,DO 19-2022,street,Graham Street,100
+RR,East Bajac-bajac,KATIPUNAN ST,INTERIOR,13000.0,DO 19-2022,street,Katipunan Street,100
+RR,East Bajac-bajac,JOHNSON ST,E-18TH ST.-BOUNDARY OF BRY WEST BAJAC-BAJAC,10000.0,DO 19-2022,street,Johnson Street,100
+CR,East Bajac-bajac,EAST 17TH ST,BARRETTO ST.-HARRIS ST.,23000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,East Bajac-bajac,EAST 24TH ST,ARDOIN ST.-ELICANO ST.,23000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,East Bajac-bajac,EAST 25TH ST,ARDOIN ST.-ELICANO ST.,23000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,East Bajac-bajac,EAST 26TH ST,ARDOIN ST.-ELICANO ST.,23000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,East Bajac-bajac,EAST 27TH ST,ARDOIN ST.-ELICANO ST.,23000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,East Bajac-bajac,LAPU-LAPU ST,,23000.0,DO 19-2022,unmatched,Olongapo (35),0
+CR,East Bajac-bajac,LITTLE BAGUIO,,23000.0,DO 19-2022,unmatched,Luzon (33),0
+CR,East Bajac-bajac,MABINI ST,,23000.0,DO 19-2022,unmatched,Luzon (18),0
+CR,East Bajac-bajac,SIBUL,,23000.0,DO 19-2022,unmatched,Luzon (20),0
+RR,East Bajac-bajac,EAST 17TH ST,BARRETTO ST.-HARRIS ST.,15000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Bajac-bajac,EAST 24TH ST,ARDOIN ST.-ELICANO ST.,15000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Bajac-bajac,EAST 25TH ST,ARDOIN ST.-ELICANO ST.,15000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Bajac-bajac,EAST 26TH ST,ARDOIN ST.-ELICANO ST.,15000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Bajac-bajac,LAPU-LAPU ST,,15000.0,DO 19-2022,unmatched,Olongapo (35),0
+RR,East Bajac-bajac,MABINI ST,,15000.0,DO 19-2022,unmatched,Luzon (18),0
+RR,East Bajac-bajac,EAST 24TH ST,INTERIOR,13000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Bajac-bajac,EAST 25TH ST,INTERIOR,13000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Bajac-bajac,EAST 26TH ST,INTERIOR,13000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Bajac-bajac,EAST 27TH ST,ARDOIN ST.-ELICANO ST.,13000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Bajac-bajac,LAPU-LAPU ST,INTERIOR,13000.0,DO 19-2022,unmatched,Olongapo (35),0
+RR,East Bajac-bajac,MABINI ST,INTERIOR,13000.0,DO 19-2022,unmatched,Luzon (18),0
+RR,East Bajac-bajac,LITTLE BAGUIO,,12000.0,DO 19-2022,unmatched,Luzon (33),0
+RR,East Bajac-bajac,SIBUL,,11500.0,DO 19-2022,unmatched,Luzon (20),0
+RR,East Bajac-bajac,LITTLE BAGUIO,INTERIOR,10000.0,DO 19-2022,unmatched,Luzon (33),0
+RR,East Tapinac,ALL OTHER STREETS,,13000.0,DO 19-2022,background,,0
+CR,East Tapinac,9TH ST.,RIZAL AVE.-DONOR ST.,23000.0,DO 19-2022,segment,9th Street,100
+CR,East Tapinac,10TH ST.,FENDLER ST.-IRVING ST.,21000.0,DO 19-2022,segment,10th Street,100
+RR,East Tapinac,9TH ST.,RIZAL AVE.-DONOR ST.,15000.0,DO 19-2022,segment,9th Street,100
+RR,East Tapinac,10TH ST.,FENDLER ST.-IRVING ST.,15000.0,DO 19-2022,segment,10th Street,100
+CR,East Tapinac,R. MAGSAYSAY DRIVE,FROM BRGY NEW ASINAN TO UNITY FOUNTAIN (RIZAL AVE.),35000.0,DO 19-2022,street,Magsaysay Drive,92.3076923076923
+CR,East Tapinac,RIZAL AVENUE,FROM MARIKIT BRIDGE TO BRGY NEW ASINAN,35000.0,DO 19-2022,street,Rizal Avenue,100
+CR,East Tapinac,RIZAL AVENUE,ULO NG APO-CLTX STA. RITA,35000.0,DO 19-2022,street,Rizal Avenue,100
+CR,East Tapinac,RIZAL AVENUE,ULO APO-MAGSAYSAY RTDA,35000.0,DO 19-2022,street,Rizal Avenue,100
+CR,East Tapinac,RIZAL AVENUE,MAGSAYSAY RTDA-HOSPITAL,35000.0,DO 19-2022,street,Rizal Avenue,100
+RR,East Tapinac,R. MAGSAYSAY DRIVE,FROM BRGY NEW ASINAN TO UNITY FOUNTAIN (RIZAL AVE.),25000.0,DO 19-2022,street,Magsaysay Drive,92.3076923076923
+RR,East Tapinac,RIZAL AVENUE,FROM MARIKIT BRIDGE TO BRGY NEW ASINAN,25000.0,DO 19-2022,street,Rizal Avenue,100
+CR,East Tapinac,1ST ST,,23000.0,DO 19-2022,street,1st Street,100
+CR,East Tapinac,l4TH ST,RIZAL AVE - FENDLER ST,23000.0,DO 19-2022,street,4th Street,92.3076923076923
+CR,East Tapinac,l4TH ST,FENDLER ST - GORDON AVE,23000.0,DO 19-2022,street,4th Street,92.3076923076923
+CR,East Tapinac,FENDLER ST,BAPTIST CHRCH-EVER HOTEL,23000.0,DO 19-2022,street,Fendler Street,100
+CR,East Tapinac,GALLAGHER ST,R.M. DRIVE- E-16TH ST.,23000.0,DO 19-2022,street,Gallagher Street,100
+CR,East Tapinac,OLD HOSPITAL ROAD,SHOE MART CENTRAL,23000.0,DO 19-2022,street,Old Hospital Road,100
+CR,East Tapinac,l4TH ST,RIZAL AVE - IRVING ST.,21000.0,DO 19-2022,street,4th Street,92.3076923076923
+CR,East Tapinac,16TH ST.,FENDLER ST.-IRVING ST.,21000.0,DO 19-2022,street,16th Street,100
+CR,East Tapinac,BACON ST,E-13TH ST.-E-9TH ST.,21000.0,DO 19-2022,street,Bacon Street,100
+CR,East Tapinac,DONOR ST,COR. FENDLER ST. & E-10TH ST. TO COR. FONTAINE ST. & E-13TH ST.,21000.0,DO 19-2022,street,Donor Street,100
+CR,East Tapinac,FENDLER ST,R.M. DRIVE- COR. ACAYAN ST. & E-16TH ST.,21000.0,DO 19-2022,street,Fendler Street,100
+CR,East Tapinac,FENDLER ST,BAPTIST CHURCH - 14TH ST,21000.0,DO 19-2022,street,Fendler Street,100
+CR,East Tapinac,FENDLER ST,INTERIOR,21000.0,DO 19-2022,street,Fendler Street,100
+CR,East Tapinac,HANSEN ST,R.M. DRIVE - E-16TH ST.,21000.0,DO 19-2022,street,Hansen Street,100
+CR,East Tapinac,IRVING ST,E-8TH ST.-E-16TH ST.,21000.0,DO 19-2022,street,Irving Street,100
+CR,East Tapinac,ALBA ST,E-3RD ST.- E-5TH ST.,18000.0,DO 19-2022,street,Alba Street,100
+RR,East Tapinac,l4TH ST,RIZAL AVE - IRVING ST.,15000.0,DO 19-2022,street,4th Street,92.3076923076923
+RR,East Tapinac,l4TH ST,RIZAL AVE - FENDLER ST,15000.0,DO 19-2022,street,4th Street,92.3076923076923
+RR,East Tapinac,l4TH ST,FENDLER ST - GORDON AVE,15000.0,DO 19-2022,street,4th Street,92.3076923076923
+RR,East Tapinac,16TH ST.,FENDLER ST.-IRVING ST.,15000.0,DO 19-2022,street,16th Street,100
+RR,East Tapinac,ALBA ST,E-3RD ST.- E-5TH ST.,15000.0,DO 19-2022,street,Alba Street,100
+RR,East Tapinac,BACON ST,E-13TH ST.-E-9TH ST.,15000.0,DO 19-2022,street,Bacon Street,100
+RR,East Tapinac,DONOR ST,COR. FENDLER ST. & E-10TH ST. TO COR. FONTAINE ST. & E-13TH ST.,15000.0,DO 19-2022,street,Donor Street,100
+RR,East Tapinac,EAST 15TH ST,,15000.0,DO 19-2022,street,West 15th Street,91.66666666666666
+RR,East Tapinac,ESPIRITU ST,,15000.0,DO 19-2022,street,Espiritu Street,100
+RR,East Tapinac,FENDLER ST,R.M. DRIVE- COR. ACAYAN ST. & E-16TH ST.,15000.0,DO 19-2022,street,Fendler Street,100
+RR,East Tapinac,FENDLER ST,BAPTIST CHRCH-EVER HOTEL,15000.0,DO 19-2022,street,Fendler Street,100
+RR,East Tapinac,FENDLER ST,INTERIOR,15000.0,DO 19-2022,street,Fendler Street,100
+RR,East Tapinac,RIZAL AVENUE,ULO NG APO-CLTX STA. RITA,15000.0,DO 19-2022,street,Rizal Avenue,100
+RR,East Tapinac,RIZAL AVENUE,ULO APO-MAGSAYSAY RTDA,15000.0,DO 19-2022,street,Rizal Avenue,100
+RR,East Tapinac,RIZAL AVENUE,MAGSAYSAY RTDA-HOSPITAL,15000.0,DO 19-2022,street,Rizal Avenue,100
+RR,East Tapinac,DONOR ST,INTERIOR,13000.0,DO 19-2022,street,Donor Street,100
+RR,East Tapinac,FENDLER ST,BAPTIST CHURCH - 14TH ST,13000.0,DO 19-2022,street,Fendler Street,100
+RR,East Tapinac,GALLAGHER ST,R.M. DRIVE- E-16TH ST.,13000.0,DO 19-2022,street,Gallagher Street,100
+RR,East Tapinac,HANSEN ST,R.M. DRIVE - E-16TH ST.,13000.0,DO 19-2022,street,Hansen Street,100
+RR,East Tapinac,IRVING ST,E-8TH ST.-E-16TH ST.,13000.0,DO 19-2022,street,Irving Street,100
+CR,East Tapinac,12TH ST,FENDLER ST.-IRVING ST.,23000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,East Tapinac,13TH ST,BACON ST.-DONOR ST.,23000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,East Tapinac,AGUINALDO ST,,23000.0,DO 19-2022,unmatched,Olongapo (35),0
+CR,East Tapinac,8TH ST.,FENDLER ST.-IRVING ST.,21000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,East Tapinac,DELA CRUZ DRIVE EXT,E-16TH ST.-OLD HOSPITAL ROAD,21000.0,DO 19-2022,unmatched,Luzon (33),0
+CR,East Tapinac,FONTAINE ST. EXT.,APELADO ST.-COR. DONOR ST. & E-13TH ST.,21000.0,DO 19-2022,unmatched,Olongapo (30),0
+CR,East Tapinac,ACAYAN LANE,E-14TH ST.- E-16TH ST.,18000.0,DO 19-2022,unmatched,Luzon (25),0
+CR,East Tapinac,APELADO ST,,18000.0,DO 19-2022,unmatched,Olongapo (40),0
+RR,East Tapinac,8TH ST.,FENDLER ST.-IRVING ST.,15000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Tapinac,12TH ST,FENDLER ST.-IRVING ST.,15000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Tapinac,13TH ST,BACON ST.-DONOR ST.,15000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Tapinac,ACAYAN LANE,E-14TH ST.- E-16TH ST.,15000.0,DO 19-2022,unmatched,Luzon (25),0
+RR,East Tapinac,AGUINALDO ST,,15000.0,DO 19-2022,unmatched,Olongapo (35),0
+RR,East Tapinac,APELADO ST,,15000.0,DO 19-2022,unmatched,Olongapo (40),0
+RR,East Tapinac,DELA CRUZ DRIVE EXT,E-16TH ST.-OLD HOSPITAL ROAD,15000.0,DO 19-2022,unmatched,Luzon (33),0
+RR,East Tapinac,MUNICIPAL ROAD,,15000.0,DO 19-2022,unmatched,Luzon (29),0
+RR,East Tapinac,MUNICIPAL ST,,15000.0,DO 19-2022,unmatched,Luzon (29),0
+RR,East Tapinac,19TH ST,,13000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,East Tapinac,FONTAINE ST. EXT.,APELADO ST.-COR. DONOR ST. & E-13TH ST.,13000.0,DO 19-2022,unmatched,Olongapo (30),0
+RR,Gordon Heights,ALL OTHER STREETS,,4000.0,DO 19-2022,background,,0
+CR,Gordon Heights,BALITE ST,SANDERS ST.-WATERDAM RD.,13000.0,DO 19-2022,segment,Balite Street,100
+CR,Gordon Heights,CASOY ST,SANDERS ST.-WATERDAM RD.,13000.0,DO 19-2022,segment,Casoy Street,100
+CR,Gordon Heights,KAUFFMAN ST,SIMPSON ST.-FEDERICO ST.,13000.0,DO 19-2022,segment,Kauffman Street,100
+RR,Gordon Heights,KAUFFMAN ST,SIMPSON ST.-FEDERICO ST.,10000.0,DO 19-2022,segment,Kauffman Street,100
+RR,Gordon Heights,BALITE ST,SANDERS ST.-WATERDAM RD.,8000.0,DO 19-2022,segment,Balite Street,100
+RR,Gordon Heights,CASOY ST,SANDERS ST.-WATERDAM RD.,8000.0,DO 19-2022,segment,Casoy Street,100
+CR,Gordon Heights,ACACIA ST,OTERO AVE EXT.-WATERDAM RD. TO BALIC-BALIC RD.,13000.0,DO 19-2022,street,Acacia Street,100
+CR,Gordon Heights,ADAMOS ST,SANDERS ST.-WATERDAM RD.,13000.0,DO 19-2022,street,Adamos Street,100
+CR,Gordon Heights,ARRIOLA ST,SANDERS ST.-WATERDAM RD.,13000.0,DO 19-2022,street,Ariola Street,94.73684210526316
+CR,Gordon Heights,CAVA ST,SANDERS ST.-WATERDAM RD.,13000.0,DO 19-2022,street,Cava Street,100
+CR,Gordon Heights,CLEOPATRA ST,,13000.0,DO 19-2022,street,Cleopatra Street,100
+CR,Gordon Heights,CORAL ST,,13000.0,DO 19-2022,street,Coral Street,100
+CR,Gordon Heights,DAYANAN ST,,13000.0,DO 19-2022,street,Dayaman Street,90.0
+CR,Gordon Heights,DE GUZMAN ST,,13000.0,DO 19-2022,street,De Guzman Street,100
+CR,Gordon Heights,DIWA ST,SANDERS ST.-WATERDAM RD.,13000.0,DO 19-2022,street,Diwa  Street,100
+CR,Gordon Heights,DOMINGO ST,,13000.0,DO 19-2022,street,Domingo Street,100
+CR,Gordon Heights,DUHAT ST,,13000.0,DO 19-2022,street,Duhat Street,100
+CR,Gordon Heights,FEDERICO ST,,13000.0,DO 19-2022,street,Federico Street,100
+CR,Gordon Heights,FIRE TREE ST,,13000.0,DO 19-2022,street,Fire Tree Street,100
+CR,Gordon Heights,GOMEZ ST,,13000.0,DO 19-2022,street,Gomez  Street,100
+CR,Gordon Heights,GUAVA ST,,13000.0,DO 19-2022,street,Guava Street,100
+CR,Gordon Heights,HERBA BUENA ST,,13000.0,DO 19-2022,street,Herbabuena Street,96.2962962962963
+CR,Gordon Heights,IPIL-IPIL ST,,13000.0,DO 19-2022,street,Ipil-Ipil Street,100
+CR,Gordon Heights,JACARANDA ST,,13000.0,DO 19-2022,street,Jacaranda Street,100
+CR,Gordon Heights,KALATSUCHI ST,,13000.0,DO 19-2022,street,Kalatsuchi Street,100
+CR,Gordon Heights,KEITH ST.,CORAL ST.-ACACIA ST.,13000.0,DO 19-2022,street,Keith Street,100
+CR,Gordon Heights,LATIRIS ST,,13000.0,DO 19-2022,street,Latiris Street,100
+CR,Gordon Heights,MANGA ST,,13000.0,DO 19-2022,street,Mangga Street,94.11764705882352
+CR,Gordon Heights,MERCURIO ST.,,13000.0,DO 19-2022,street,Mercurio Street,100
+CR,Gordon Heights,NARRA ST,,13000.0,DO 19-2022,street,Narra Street,100
+CR,Gordon Heights,OLIVA ST,,13000.0,DO 19-2022,street,Oliva Street,100
+CR,Gordon Heights,OSMUNDSON ST,,13000.0,DO 19-2022,street,Osmundson Street,100
+CR,Gordon Heights,PACHECO ST,,13000.0,DO 19-2022,street,Pacheco Street,100
+CR,Gordon Heights,SIMPSON ST,,13000.0,DO 19-2022,street,Simpson Street,100
+CR,Gordon Heights,UBAS ST,,13000.0,DO 19-2022,street,Ubas Street,100
+CR,Gordon Heights,WATERDAM ROAD,CAVA ST.-ZINNIA ST.,13000.0,DO 19-2022,street,Waterdam Road,100
+RR,Gordon Heights,ACACIA ST,OTERO AVE EXT.-WATERDAM RD. TO BALIC-BALIC RD.,10000.0,DO 19-2022,street,Acacia Street,100
+RR,Gordon Heights,WALING-WALING ST,LOWER,10000.0,DO 19-2022,street,Waling-Waling Street,100
+RR,Gordon Heights,WOODHOUSE ST,LOWER,10000.0,DO 19-2022,street,Woodhouse Street,100
+RR,Gordon Heights,XEROPHYTE ST,LOWER,10000.0,DO 19-2022,street,Xenophyte Street,91.66666666666666
+RR,Gordon Heights,WATERDAM ROAD,CAVA ST.-ZINNIA ST.,9500.0,DO 19-2022,street,Waterdam Road,100
+RR,Gordon Heights,ARRIOLA ST,SANDERS ST.-WATERDAM RD.,8500.0,DO 19-2022,street,Ariola Street,94.73684210526316
+RR,Gordon Heights,SIMPSON ST,,8250.0,DO 19-2022,street,Simpson Street,100
+RR,Gordon Heights,ADAMOS ST,SANDERS ST.-WATERDAM RD.,8000.0,DO 19-2022,street,Adamos Street,100
+RR,Gordon Heights,BLOCK 27 EXT,,8000.0,DO 19-2022,street,Block 27 Extension,100
+RR,Gordon Heights,DAYANAN ST,,8000.0,DO 19-2022,street,Dayaman Street,90.0
+RR,Gordon Heights,DIWA ST,SANDERS ST.-WATERDAM RD.,8000.0,DO 19-2022,street,Diwa  Street,100
+RR,Gordon Heights,DOMINGO ST,,8000.0,DO 19-2022,street,Domingo Street,100
+RR,Gordon Heights,DUHAT ST,,8000.0,DO 19-2022,street,Duhat Street,100
+RR,Gordon Heights,EUCALYPTUS ST,,8000.0,DO 19-2022,street,Eucalyptus Street,100
+RR,Gordon Heights,FEDERICO ST,,8000.0,DO 19-2022,street,Federico Street,100
+RR,Gordon Heights,FIRE TREE ST,,8000.0,DO 19-2022,street,Fire Tree Street,100
+RR,Gordon Heights,GOMEZ ST,,8000.0,DO 19-2022,street,Gomez  Street,100
+RR,Gordon Heights,GUAVA ST,,8000.0,DO 19-2022,street,Guava Street,100
+RR,Gordon Heights,HERBA BUENA ST,,8000.0,DO 19-2022,street,Herbabuena Street,96.2962962962963
+RR,Gordon Heights,MANGA ST,,8000.0,DO 19-2022,street,Mangga Street,94.11764705882352
+RR,Gordon Heights,MERCURIO ST.,,8000.0,DO 19-2022,street,Mercurio Street,100
+RR,Gordon Heights,NARRA ST,,8000.0,DO 19-2022,street,Narra Street,100
+RR,Gordon Heights,NEPTUNE ST,,8000.0,DO 19-2022,street,Neptune Street,100
+RR,Gordon Heights,SANDERS ST,DIWA ST.-VERBENA ST.,8000.0,DO 19-2022,street,Sander Street,97
+RR,Gordon Heights,ACACIA ST,INTERIOR,7000.0,DO 19-2022,street,Acacia Street,100
+RR,Gordon Heights,ARRIOLA ST,INTERIOR,7000.0,DO 19-2022,street,Ariola Street,94.73684210526316
+RR,Gordon Heights,CAVA ST,INTERIOR,7000.0,DO 19-2022,street,Cava Street,100
+RR,Gordon Heights,CLEOPATRA ST,INTERIOR,7000.0,DO 19-2022,street,Cleopatra Street,100
+RR,Gordon Heights,CORAL ST,INTERIOR,7000.0,DO 19-2022,street,Coral Street,100
+RR,Gordon Heights,IPIL-IPIL ST,,7000.0,DO 19-2022,street,Ipil-Ipil Street,100
+RR,Gordon Heights,JACARANDA ST,,7000.0,DO 19-2022,street,Jacaranda Street,100
+RR,Gordon Heights,KALATSUCHI ST,,7000.0,DO 19-2022,street,Kalatsuchi Street,100
+RR,Gordon Heights,KEITH ST.,CORAL ST.-ACACIA ST.,7000.0,DO 19-2022,street,Keith Street,100
+RR,Gordon Heights,LATIRIS ST,,7000.0,DO 19-2022,street,Latiris Street,100
+RR,Gordon Heights,OLIVA ST,,7000.0,DO 19-2022,street,Oliva Street,100
+RR,Gordon Heights,OSMUNDSON ST,,7000.0,DO 19-2022,street,Osmundson Street,100
+RR,Gordon Heights,PACHECO ST,,7000.0,DO 19-2022,street,Pacheco Street,100
+RR,Gordon Heights,PACHECO ST,INTERIOR,7000.0,DO 19-2022,street,Pacheco Street,100
+RR,Gordon Heights,PALO SANTO ST,,7000.0,DO 19-2022,street,Palosanto Street,96.0
+RR,Gordon Heights,RAMIREZ ST,,7000.0,DO 19-2022,street,Ramirez Street,100
+RR,Gordon Heights,RIMAS ST,,7000.0,DO 19-2022,street,Rimas Street,100
+RR,Gordon Heights,SIMPSON ST,INTERIOR,7000.0,DO 19-2022,street,Simpson Street,100
+RR,Gordon Heights,ADAMOS ST,INTERIOR,6500.0,DO 19-2022,street,Adamos Street,100
+RR,Gordon Heights,BALITE ST,INTERIOR,6500.0,DO 19-2022,street,Balite Street,100
+RR,Gordon Heights,CASOY ST,INTERIOR,6500.0,DO 19-2022,street,Casoy Street,100
+RR,Gordon Heights,DE GUZMAN ST,,6500.0,DO 19-2022,street,De Guzman Street,100
+RR,Gordon Heights,DIWA ST,INTERIOR,6500.0,DO 19-2022,street,Diwa  Street,100
+RR,Gordon Heights,DUHAT ST,INTERIOR,6500.0,DO 19-2022,street,Duhat Street,100
+RR,Gordon Heights,EUCALYPTUS ST,INTERIOR,6500.0,DO 19-2022,street,Eucalyptus Street,100
+RR,Gordon Heights,FEDERICO ST,INTERIOR,6500.0,DO 19-2022,street,Federico Street,100
+RR,Gordon Heights,FIRE TREE ST,INTERIOR,6500.0,DO 19-2022,street,Fire Tree Street,100
+RR,Gordon Heights,GOMEZ ST,INTERIOR,6500.0,DO 19-2022,street,Gomez  Street,100
+RR,Gordon Heights,GUAVA ST,INTERIOR,6500.0,DO 19-2022,street,Guava Street,100
+RR,Gordon Heights,HERBA BUENA ST,INTERIOR,6500.0,DO 19-2022,street,Herbabuena Street,96.2962962962963
+RR,Gordon Heights,KAUFFMAN ST,INTERIOR,6500.0,DO 19-2022,street,Kauffman Street,100
+RR,Gordon Heights,MANGA ST,INTERIOR,6500.0,DO 19-2022,street,Mangga Street,94.11764705882352
+RR,Gordon Heights,NARRA ST,INTERIOR,6500.0,DO 19-2022,street,Narra Street,100
+RR,Gordon Heights,CAVA ST,SANDERS ST.-WATERDAM RD.,5000.0,DO 19-2022,street,Cava Street,100
+RR,Gordon Heights,CLEOPATRA ST,,5000.0,DO 19-2022,street,Cleopatra Street,100
+RR,Gordon Heights,CORAL ST,,5000.0,DO 19-2022,street,Coral Street,100
+RR,Gordon Heights,SANTOL ST,,5000.0,DO 19-2022,street,Santol Street,100
+RR,Gordon Heights,UBAS ST,,5000.0,DO 19-2022,street,Ubas Street,100
+RR,Gordon Heights,VERBENA ST,,5000.0,DO 19-2022,street,Verbena Street,100
+RR,Gordon Heights,WATERDAM ROAD,INTERIOR,5000.0,DO 19-2022,street,Waterdam Road,100
+RR,Gordon Heights,WALING-WALING ST,,5000.0,DO 19-2022,street,Waling-Waling Street,100
+RR,Gordon Heights,WALING-WALING ST,UPPER,5000.0,DO 19-2022,street,Waling-Waling Street,100
+RR,Gordon Heights,WOODHOUSE ST,,5000.0,DO 19-2022,street,Woodhouse Street,100
+RR,Gordon Heights,WOODHOUSE ST,UPPER,5000.0,DO 19-2022,street,Woodhouse Street,100
+RR,Gordon Heights,XEROPHYTE ST,,5000.0,DO 19-2022,street,Xenophyte Street,91.66666666666666
+RR,Gordon Heights,XEROPHYTE ST,UPPER,5000.0,DO 19-2022,street,Xenophyte Street,91.66666666666666
+RR,Gordon Heights,DAYANAN ST,INTERIOR,4000.0,DO 19-2022,street,Dayaman Street,90.0
+RR,Gordon Heights,DE GUZMAN ST,UPPER,4000.0,DO 19-2022,street,De Guzman Street,100
+RR,Gordon Heights,IPIL-IPIL ST,INTERIOR,4000.0,DO 19-2022,street,Ipil-Ipil Street,100
+RR,Gordon Heights,KALATSUCHI ST,INTERIOR,4000.0,DO 19-2022,street,Kalatsuchi Street,100
+RR,Gordon Heights,LATIRIS ST,INTERIOR,4000.0,DO 19-2022,street,Latiris Street,100
+RR,Gordon Heights,MERCURIO ST.,INTERIOR,4000.0,DO 19-2022,street,Mercurio Street,100
+RR,Gordon Heights,OLIVA ST,INTERIOR,4000.0,DO 19-2022,street,Oliva Street,100
+RR,Gordon Heights,PALO SANTO ST,INTERIOR,4000.0,DO 19-2022,street,Palosanto Street,96.0
+RR,Gordon Heights,RAMIREZ ST,INTERIOR,4000.0,DO 19-2022,street,Ramirez Street,100
+RR,Gordon Heights,RIMAS ST,INTERIOR,4000.0,DO 19-2022,street,Rimas Street,100
+RR,Gordon Heights,TALISAY ST,,4000.0,DO 19-2022,street,Talisay Street,100
+RR,Gordon Heights,MERCURIO ST.,UPPER,3500.0,DO 19-2022,street,Mercurio Street,100
+RR,Gordon Heights,SANTOL ST,INTERIOR,3500.0,DO 19-2022,street,Santol Street,100
+RR,Gordon Heights,TALISAY ST,INTERIOR,3500.0,DO 19-2022,street,Talisay Street,100
+RR,Gordon Heights,UBAS ST,INTERIOR,3500.0,DO 19-2022,street,Ubas Street,100
+RR,Gordon Heights,VERBENA ST,INTERIOR,3500.0,DO 19-2022,street,Verbena Street,100
+RR,Gordon Heights,WALING-WALING ST,INTERIOR,3500.0,DO 19-2022,street,Waling-Waling Street,100
+RR,Gordon Heights,WOODHOUSE ST,INTERIOR,3500.0,DO 19-2022,street,Woodhouse Street,100
+RR,Gordon Heights,XEROPHYTE ST,INTERIOR,3500.0,DO 19-2022,street,Xenophyte Street,91.66666666666666
+CR,Gordon Heights,CONTAWE ST,,13000.0,DO 19-2022,unmatched,Olongapo (40),0
+CR,Gordon Heights,HENRY ST,,13000.0,DO 19-2022,unmatched,Luzon (20),0
+CR,Gordon Heights,LONGROAD,ARRIOLA ST.-ZINNIA ST.,13000.0,DO 19-2022,unmatched,Olongapo (62),0
+CR,Gordon Heights,OTERO AVENUE EXT,,13000.0,DO 19-2022,unmatched,Olongapo (24),0
+RR,Gordon Heights,YAKAL ST,LOWER,10000.0,DO 19-2022,unmatched,Luzon (20),0
+RR,Gordon Heights,LONGROAD,ARRIOLA ST.-ZINNIA ST.,9500.0,DO 19-2022,unmatched,Olongapo (62),0
+RR,Gordon Heights,BLOCK 1 - 5,,8000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,Gordon Heights,BLOCK 5 - 12,,8000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,Gordon Heights,BLOCK 13 - 20,,8000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,Gordon Heights,BLOCK 21 - 26,,8000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,Gordon Heights,BLOCK 27,,8000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,Gordon Heights,CONTAWE ST,,7000.0,DO 19-2022,unmatched,Olongapo (40),0
+RR,Gordon Heights,HENRY ST,,7000.0,DO 19-2022,unmatched,Luzon (20),0
+RR,Gordon Heights,OTERO AVENUE EXT,,7000.0,DO 19-2022,unmatched,Olongapo (24),0
+RR,Gordon Heights,RUANO ST,,7000.0,DO 19-2022,unmatched,Luzon (40),0
+RR,Gordon Heights,RUANO ST,INTERIOR,7000.0,DO 19-2022,unmatched,Luzon (40),0
+RR,Gordon Heights,BUENO ST,,6500.0,DO 19-2022,unmatched,Luzon (40),0
+RR,Gordon Heights,NAZARENO ST,,5000.0,DO 19-2022,unmatched,Olongapo (38),0
+RR,Gordon Heights,RAGADIO ST,,5000.0,DO 19-2022,unmatched,Olongapo (40),0
+RR,Gordon Heights,REYES ST,,5000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,Gordon Heights,RIVERA ST,,5000.0,DO 19-2022,unmatched,Olongapo (14),0
+RR,Gordon Heights,SANDERS EXT,,5000.0,DO 19-2022,unmatched,Luzon (13),0
+RR,Gordon Heights,YAKAL ST,,5000.0,DO 19-2022,unmatched,Luzon (20),0
+RR,Gordon Heights,YAKAL ST,UPPER,5000.0,DO 19-2022,unmatched,Luzon (20),0
+RR,Gordon Heights,CONTAWE ST,INTERIOR,4000.0,DO 19-2022,unmatched,Olongapo (40),0
+RR,Gordon Heights,YAKAL ST,INTERIOR,4000.0,DO 19-2022,unmatched,Luzon (20),0
+RR,Gordon Heights,ZINNIA ST,,4000.0,DO 19-2022,unmatched,Luzon (36),0
+RR,Gordon Heights,REYES ST,INTERIOR,3500.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,Gordon Heights,RIVERA ST,INTERIOR,3500.0,DO 19-2022,unmatched,Olongapo (14),0
+RR,Gordon Heights,SANDERS EXT,INTERIOR,3500.0,DO 19-2022,unmatched,Luzon (13),0
+CR,Kalaklan,ALL OTHER STREETS,,12000.0,DO 19-2022,background,,0
+RR,Kalaklan,ALL OTHER STREETS,,7500.0,DO 19-2022,background,,0
+CR,Kalaklan,OLONGAPO-BUGALLON ROAD,FROM BRGY BARRETTO TO BRGY WEST BAJAC-BAJAC,23000.0,DO 19-2022,street,Olongapo-Bugallon Road,100
+CR,Kalaklan,INDIANA ST,,20000.0,DO 19-2022,street,Indiana Street,100
+CR,Kalaklan,MAINE ST,,20000.0,DO 19-2022,street,Maine Street,100
+CR,Kalaklan,OHIO ST,,20000.0,DO 19-2022,street,Ohio Street,100
+CR,Kalaklan,OREGON ST,,20000.0,DO 19-2022,street,Oregon Street,100
+CR,Kalaklan,TEXAS ST,,20000.0,DO 19-2022,street,Texas Street,100
+CR,Kalaklan,VIRGINIA ST,,20000.0,DO 19-2022,street,Virginia Street,100
+CR,Kalaklan,WASHINGTON ST,,20000.0,DO 19-2022,street,Washington Street,100
+CR,Kalaklan,OLONGAPO-BUGALLON ROAD,INTERIOR,19000.0,DO 19-2022,street,Olongapo-Bugallon Road,100
+RR,Kalaklan,WASHINGTON ST,,13500.0,DO 19-2022,street,Washington Street,100
+RR,Kalaklan,OLONGAPO-BUGALLON ROAD,INTERIOR,13000.0,DO 19-2022,street,Olongapo-Bugallon Road,100
+RR,Kalaklan,CORAL ST,,12000.0,DO 19-2022,street,Coral Street,100
+RR,Kalaklan,INDIANA ST,,10000.0,DO 19-2022,street,Indiana Street,100
+RR,Kalaklan,MAINE ST,,10000.0,DO 19-2022,street,Maine Street,100
+RR,Kalaklan,OHIO ST,,10000.0,DO 19-2022,street,Ohio Street,100
+RR,Kalaklan,OREGON ST,,10000.0,DO 19-2022,street,Oregon Street,100
+RR,Kalaklan,TEXAS ST,,10000.0,DO 19-2022,street,Texas Street,100
+RR,Kalaklan,VIRGINIA ST,,10000.0,DO 19-2022,street,Virginia Street,100
+RR,Kalaklan,VIRGINIA ST,INTERIOR,9500.0,DO 19-2022,street,Virginia Street,100
+RR,Kalaklan,CORAL ST,INTERIOR,8000.0,DO 19-2022,street,Coral Street,100
+RR,Kalaklan,OHIO ST,INTERIOR,8000.0,DO 19-2022,street,Ohio Street,100
+RR,Kalaklan,OREGON ST,INTERIOR,8000.0,DO 19-2022,street,Oregon Street,100
+CR,Kalaklan,CBMU AVE,,20000.0,DO 19-2022,unmatched,Luzon (22),0
+CR,Kalaklan,HALFMOON BEACH,,20000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (38),0
+CR,Kalaklan,KENTUCKY LANE,,20000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (39),0
+CR,Kalaklan,MABES LANE,,20000.0,DO 19-2022,unmatched,Olongapo (35),0
+RR,Kalaklan,CBMU AVE,,12000.0,DO 19-2022,unmatched,Luzon (22),0
+RR,Kalaklan,HALFMOON BEACH,,12000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (38),0
+RR,Kalaklan,KENTUCKY LANE,,10000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (39),0
+RR,Kalaklan,MABES LANE,,10000.0,DO 19-2022,unmatched,Olongapo (35),0
+RR,Kalaklan,BCI ROAD,,8000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (15),0
+RR,Kalaklan,KENTUCKY LANE,INTERIOR,8000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (39),0
+CR,Mabayuan,ALL OTHER STREETS,,12000.0,DO 19-2022,background,,0
+RR,Mabayuan,ALL OTHER STREETS,,4500.0,DO 19-2022,background,,0
+CR,Mabayuan,OTERO AVENUE,OLONGAPO BUGALLON ROAD TO BRGY GORDON HEIGHTS,14000.0,DO 19-2022,street,Otero Street,97
+RR,Mabayuan,CALIMBAS ST,,10000.0,DO 19-2022,street,Calimbas Street,100
+RR,Mabayuan,GRACE PAULINE ST,,10000.0,DO 19-2022,street,Grace Pauline Street,100
+RR,Mabayuan,LABRADOR ST,LOWER,10000.0,DO 19-2022,street,Labrador Street,100
+RR,Mabayuan,LEYVA ST,,10000.0,DO 19-2022,street,Leyva Street,100
+RR,Mabayuan,MERCURIO ST,,10000.0,DO 19-2022,street,Mercurio Street,100
+RR,Mabayuan,NAPALAN ST,,10000.0,DO 19-2022,street,Napalan Street,100
+RR,Mabayuan,NIEVES ST,,10000.0,DO 19-2022,street,Nieves Street,100
+RR,Mabayuan,OTERO AVENUE,OLONGAPO BUGALLON ROAD TO BRGY GORDON HEIGHTS,10000.0,DO 19-2022,street,Otero Street,97
+RR,Mabayuan,RODRIGUEZ ST,ROSETE ST. TO NIEVES ST.,10000.0,DO 19-2022,street,Rodriguez Street,100
+RR,Mabayuan,ROSETE ST,NAPALAN ST.-RODRIGUEZ ST.,10000.0,DO 19-2022,street,Rosete Street,100
+RR,Mabayuan,DE ARO ST,LOWER,9000.0,DO 19-2022,street,Dearo Street,94.11764705882352
+RR,Mabayuan,CALIMBAS ST,UPPER,8000.0,DO 19-2022,street,Calimbas Street,100
+RR,Mabayuan,DE ARO ST,UPPER,8000.0,DO 19-2022,street,Dearo Street,94.11764705882352
+RR,Mabayuan,LABRADOR ST,UPPER,8000.0,DO 19-2022,street,Labrador Street,100
+RR,Mabayuan,LEYVA ST,UPPER,8000.0,DO 19-2022,street,Leyva Street,100
+RR,Mabayuan,MERCURIO ST,UPPER,8000.0,DO 19-2022,street,Mercurio Street,100
+RR,Mabayuan,NAPALAN ST,INTERIOR,8000.0,DO 19-2022,street,Napalan Street,100
+RR,Mabayuan,NAPALAN ST,UPPER,8000.0,DO 19-2022,street,Napalan Street,100
+RR,Mabayuan,NIEVES ST,INTERIOR,8000.0,DO 19-2022,street,Nieves Street,100
+RR,Mabayuan,NIEVES ST,UPPER,8000.0,DO 19-2022,street,Nieves Street,100
+RR,Mabayuan,RODRIGUEZ ST,INTERIOR,8000.0,DO 19-2022,street,Rodriguez Street,100
+RR,Mabayuan,RODRIGUEZ ST,UPPER,8000.0,DO 19-2022,street,Rodriguez Street,100
+RR,Mabayuan,ROSETE ST,INTERIOR,8000.0,DO 19-2022,street,Rosete Street,100
+RR,Mabayuan,BAYABAS ST,,10000.0,DO 19-2022,unmatched,Mabayuan Elementary School (31),0
+RR,Mabayuan,SATURN LANE,,8000.0,DO 19-2022,unmatched,Luzon (38),0
+RR,New Cabalan,ALL OTHER STREETS,,2500.0,DO 19-2022,background,,0
+RR,New Cabalan,CAYETANO ST,,6000.0,DO 19-2022,street,Cayetano Street,100
+RR,New Cabalan,RIZAL ST,,6000.0,DO 19-2022,street,Rizal Street,100
+RR,New Cabalan,AGUILA ST,,5000.0,DO 19-2022,street,Aguila Street,100
+RR,New Cabalan,ORCHIDS ST,,5000.0,DO 19-2022,street,Orchid Street,97
+RR,New Cabalan,RIZAL ST,INTERIOR,5000.0,DO 19-2022,street,Rizal Street,100
+RR,New Cabalan,SANTAN ST,,5000.0,DO 19-2022,street,Santan Street,100
+RR,New Cabalan,SANTOL ST,,5000.0,DO 19-2022,street,Santol Street,100
+RR,New Cabalan,AGUILA ST,INTERIOR,2500.0,DO 19-2022,street,Aguila Street,100
+RR,New Cabalan,APOLLO ST,,2500.0,DO 19-2022,street,Apollo Street,100
+RR,New Cabalan,BAYABAS ST.,,2500.0,DO 19-2022,street,Bayabas Street,100
+RR,New Cabalan,BONIFACIO ST,,2500.0,DO 19-2022,street,Bonifacio Street,100
+RR,New Cabalan,CAIMITO ST,,2500.0,DO 19-2022,street,Caimito Street,100
+RR,New Cabalan,DIEGO SILANG ST,,2500.0,DO 19-2022,street,Diego Silang Street,100
+RR,New Cabalan,EVERLASTING ST,,2500.0,DO 19-2022,street,Everlasting Street,100
+RR,New Cabalan,GUMAMELA ST,,2500.0,DO 19-2022,street,Gumamela Street,100
+RR,New Cabalan,ILANG-ILANG ST,,2500.0,DO 19-2022,street,Ilang-Ilang Street,100
+RR,New Cabalan,JUPITER ST,,2500.0,DO 19-2022,street,Jupiter Street,100
+RR,New Cabalan,LIWANAG ST,,2500.0,DO 19-2022,street,Liwanag Street,100
+RR,New Cabalan,MABINI ST,,2500.0,DO 19-2022,street,Mabini Street,100
+RR,New Cabalan,MAGSAYSAY ST,,2500.0,DO 19-2022,street,Magsaysay Street,100
+RR,New Cabalan,MANGA ST,,2500.0,DO 19-2022,street,Manga Street,100
+RR,New Cabalan,MAPALAD ST.,,2500.0,DO 19-2022,street,Mapalad Street,100
+RR,New Cabalan,MABOLO ST,,2500.0,DO 19-2022,street,Mabolo Street,100
+RR,New Cabalan,MERCURY ST,,2500.0,DO 19-2022,street,Mercury Street,100
+RR,New Cabalan,ROSAL ST,,2500.0,DO 19-2022,street,Rosal Street,100
+RR,New Cabalan,ROSE ST,,2500.0,DO 19-2022,street,Rose Street,100
+RR,New Cabalan,SANTOL EXT ST,,2500.0,DO 19-2022,street,Santol Extension,97
+RR,New Cabalan,SATURN ST,,2500.0,DO 19-2022,street,Saturn Street,100
+RR,New Cabalan,SILAHIS ST,,2500.0,DO 19-2022,street,Silahis Street,100
+RR,New Cabalan,TAGUMPAY ST,,2500.0,DO 19-2022,street,Tagumpay Street,100
+RR,New Cabalan,TANDANG SORA ST,,2500.0,DO 19-2022,street,Tandang Sora Street.,100
+RR,New Cabalan,TUGATOG ST,,2500.0,DO 19-2022,street,Tugatog Street,100
+RR,New Cabalan,URANUS ST,,2500.0,DO 19-2022,street,Uranus Street,100
+RR,New Cabalan,VENUS ST,,2500.0,DO 19-2022,street,Venus Street,100
+RR,New Cabalan,YELLOWBELL ST,,2500.0,DO 19-2022,street,Yellowbell Street,100
+RR,New Cabalan,ZINIA ST,,2500.0,DO 19-2022,street,Zinnia Street,94.11764705882352
+RR,New Cabalan,APOLLO ST,INTERIOR,2000.0,DO 19-2022,street,Apollo Street,100
+RR,New Cabalan,JUPITER ST,INTERIOR,2000.0,DO 19-2022,street,Jupiter Street,100
+RR,New Cabalan,MANGA ST,INTERIOR,2000.0,DO 19-2022,street,Manga Street,100
+RR,New Cabalan,SANTOL EXT ST,INTERIOR,2000.0,DO 19-2022,street,Santol Extension,97
+CR,New Cabalan,OLONGAPO-GAPAN ROAD,"FROM OLD CABALAN TO BRGY. BANGAL, DINALUPIHAN, BATAAN",20000.0,DO 19-2022,unmatched,Olongapo (73),0
+RR,New Cabalan,OLONGAPO-GAPAN ROAD,"FROM OLD CABALAN TO BRGY. BANGAL, DINALUPIHAN, BATAAN",12000.0,DO 19-2022,unmatched,Olongapo (73),0
+RR,New Cabalan,LUNA ST,,6000.0,DO 19-2022,unmatched,Luzon (67),0
+RR,New Cabalan,CALIMBAS ST,,5000.0,DO 19-2022,unmatched,Olongapo (27),0
+RR,New Cabalan,LUNA ST,INTERIOR,5000.0,DO 19-2022,unmatched,Luzon (67),0
+RR,New Cabalan,MAYON ST,,5000.0,DO 19-2022,unmatched,Luzon (40),0
+RR,New Cabalan,NORTH & SOUTH BOTON,,5000.0,DO 19-2022,unmatched,Olongapo (32),0
+RR,New Cabalan,PAG-ASA ST,,5000.0,DO 19-2022,unmatched,Olongapo (27),0
+RR,New Cabalan,PUROK 6,,5000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Cabalan,SAMPAGUITA ST,,5000.0,DO 19-2022,unmatched,Olongapo (22),0
+RR,New Cabalan,TAGAR ST,,5000.0,DO 19-2022,unmatched,Olongapo (31),0
+RR,New Cabalan,FIESTA COMMUNITIES,,3500.0,DO 19-2022,unmatched,Olongapo (24),0
+RR,New Cabalan,BATO-BATO ST,,2500.0,DO 19-2022,unmatched,Olongapo (35),0
+RR,New Cabalan,BUSILAK ST,,2500.0,DO 19-2022,unmatched,Olongapo (27),0
+RR,New Cabalan,DAHL ST,,2500.0,DO 19-2022,unmatched,Luzon (22),0
+RR,New Cabalan,IRAM RESETTLEMENT AREA,,2500.0,DO 19-2022,unmatched,Olongapo (20),0
+RR,New Cabalan,JAENA ST,,2500.0,DO 19-2022,unmatched,Olongapo (31),0
+RR,New Cabalan,JASMIN ST,,2500.0,DO 19-2022,unmatched,Luzon (18),0
+RR,New Cabalan,LAWIN TAGAK ST,,2500.0,DO 19-2022,unmatched,Olongapo (42),0
+RR,New Cabalan,LIBAS ST,,2500.0,DO 19-2022,unmatched,Olongapo (33),0
+RR,New Cabalan,LOPEZ ST,,2500.0,DO 19-2022,unmatched,Olongapo (46),0
+RR,New Cabalan,MALIWAKAT,,2500.0,DO 19-2022,unmatched,Olongapo (24),0
+RR,New Cabalan,MARIWASA ST,,2500.0,DO 19-2022,unmatched,Olongapo (12),0
+RR,New Cabalan,MARTINEZ ST,,2500.0,DO 19-2022,unmatched,Luzon (15),0
+RR,New Cabalan,MAYON ST,INTERIOR,2500.0,DO 19-2022,unmatched,Luzon (40),0
+RR,New Cabalan,PAG-ASA ST,INTERIOR,2500.0,DO 19-2022,unmatched,Olongapo (27),0
+RR,New Cabalan,PINAGPALA SILAHIS ST,,2500.0,DO 19-2022,unmatched,Olongapo (25),0
+RR,New Cabalan,LIBAS ST,INTERIOR,2000.0,DO 19-2022,unmatched,Olongapo (33),0
+RR,New Ilalim,ESTEBAN ST.,W-12TH ST.-W-15TH ST.,7000.0,DO 19-2022,street,Esteban Street,100
+CR,New Ilalim,W-12TH ST.,BOUNDARY OF BRGY. NEW KALALAKE & NEW KABABAE,14000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,New Ilalim,W-13TH ST.,BOUNDARY OF BRGY. NEW KALALAKE & NEW KABABAE,14000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,New Ilalim,W-14TH ST.,BOUNDARY OF BRGY. NEW KALALAKE & NEW KABABAE,14000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,New Ilalim,W-15TH ST.,BOUNDARY OF BRGY. NEW KALALAKE & NEW KABABAE,14000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,New Ilalim,W-12TH ST.,BOUNDARY OF BRGY. NEW KALALAKE & NEW KABABAE,7000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,New Ilalim,W-13TH ST.,BOUNDARY OF BRGY. NEW KALALAKE & NEW KABABAE,7000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,New Ilalim,W-14TH ST.,BOUNDARY OF BRGY. NEW KALALAKE & NEW KABABAE,7000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,New Ilalim,W-15TH ST.,BOUNDARY OF BRGY. NEW KALALAKE & NEW KABABAE,7000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,New Ilalim,ALL STREETS,WITHIN TOWNSITE - 308,7000.0,DO 19-2022,unmatched,Luzon (25),0
+CR,New Kababae,FOSTER ST.,W-2ND ST.-W-9TH ST.,18000.0,DO 19-2022,street,Foster Street,100
+CR,New Kababae,ESTEBAN ST.,W-2ND ST.-W-9TH ST.,18000.0,DO 19-2022,street,Esteban Street,100
+RR,New Kababae,FOSTER ST.,W-2ND ST.-W-9TH ST.,10000.0,DO 19-2022,street,Foster Street,100
+RR,New Kababae,ESTEBAN ST.,W-2ND ST.-W-9TH ST.,10000.0,DO 19-2022,street,Esteban Street,100
+CR,New Kababae,W-3RD ST,W-2ND ST.-W-4TH ST.,18000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,New Kababae,W-4TH ST.,W-3RD ST.-W-5TH ST.,18000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,New Kababae,W-5TH ST.,W-4TH ST.-W-7TH ST.,18000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,New Kababae,W-7TH ST.,W-5TH ST.-W-9TH ST.,18000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,New Kababae,W-8TH ST.,W-7TH ST.-W-10TH ST.,18000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kababae,W-3RD ST,W-2ND ST.-W-4TH ST.,10000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kababae,W-4TH ST.,W-3RD ST.-W-5TH ST.,10000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kababae,W-5TH ST.,W-4TH ST.-W-7TH ST.,10000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kababae,W-7TH ST.,W-5TH ST.-W-9TH ST.,10000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kababae,W-8TH ST.,W-7TH ST.-W-10TH ST.,10000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kababae,ALL STREETS,WITHIN TOWNSITE - 308,10000.0,DO 19-2022,unmatched,Luzon (25),0
+RR,New Kababae,ALL STREETS,OUTSIDE TOWNSITE - 308,7500.0,DO 19-2022,unmatched,Luzon (25),0
+RR,New Kalalake,ALL OTHER STREETS,WITHIN TOWNSITE,13000.0,DO 19-2022,background,,0
+RR,New Kalalake,ALL OTHER STREETS,OUTSIDE TOWNSITE,13000.0,DO 19-2022,background,,0
+CR,New Kalalake,GORDON AVE.,E-12TH ST.- DRAINAGE CHANNEL,20000.0,DO 19-2022,street,Gordon Avenue,100
+CR,New Kalalake,GATBUNTON ST.,E-12TH ST.-E-14TH ST.,18000.0,DO 19-2022,street,Gatbunton Street,100
+CR,New Kalalake,JONES ST.,E-12TH ST.-E-18TH ST.,18000.0,DO 19-2022,street,Jones Street,100
+CR,New Kalalake,KESSING ST.,E-12TH-E-18TH ST.,18000.0,DO 19-2022,street,Kessing Street,100
+CR,New Kalalake,MURPHY ST.,E-12TH ST.-CREEK,18000.0,DO 19-2022,street,Murphy Street,100
+CR,New Kalalake,NORTON ST.,E-14TH ST.-E-16TH ST.,18000.0,DO 19-2022,street,Norton Street,100
+CR,New Kalalake,RODRIGUEZ ST.,E-12TH ST.-E-14TH ST.,18000.0,DO 19-2022,street,Rodriguez Street,100
+RR,New Kalalake,GORDON AVE.,E-12TH ST.- DRAINAGE CHANNEL,13000.0,DO 19-2022,street,Gordon Avenue,100
+RR,New Kalalake,GATBUNTON ST.,E-12TH ST.-E-14TH ST.,10000.0,DO 19-2022,street,Gatbunton Street,100
+RR,New Kalalake,IRVING ST.,,10000.0,DO 19-2022,street,Irving Street,100
+RR,New Kalalake,JONES ST.,E-12TH ST.-E-18TH ST.,10000.0,DO 19-2022,street,Jones Street,100
+RR,New Kalalake,KESSING ST.,E-12TH-E-18TH ST.,10000.0,DO 19-2022,street,Kessing Street,100
+RR,New Kalalake,MURPHY ST.,E-12TH ST.-CREEK,10000.0,DO 19-2022,street,Murphy Street,100
+RR,New Kalalake,NORTON ST.,E-14TH ST.-E-16TH ST.,10000.0,DO 19-2022,street,Norton Street,100
+CR,New Kalalake,E-12TH ST.,E-12TH ST.-E-14TH ST.,18000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,New Kalalake,E-14TH ST.,RIZAL AVE.- FENDLER ST.,18000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,New Kalalake,E-14TH ST.,FENDLER ST.-GORDON AVE.,18000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,New Kalalake,E-16TH ST.,E-14TH ST.-E-18TH ST.,18000.0,DO 19-2022,unmatched,Olongapo (0),0
+CR,New Kalalake,E-18TH ST.,E-16TH ST.-E-17TH ST.,18000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kalalake,E-12TH ST.,E-12TH ST.-E-14TH ST.,10000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kalalake,E-14TH ST.,RIZAL AVE.- FENDLER ST.,10000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kalalake,E-14TH ST.,FENDLER ST.-GORDON AVE.,10000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kalalake,E-16TH ST.,E-14TH ST.-E-18TH ST.,10000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,New Kalalake,E-18TH ST.,E-16TH ST.-E-17TH ST.,10000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,Old Cabalan,ALL OTHER STREETS,HIGHWAY,7000.0,DO 19-2022,background,,0
+CR,Old Cabalan,OLONGAPO-GAPAN ROAD (JASA ROAD),FROM STA. RITA BRIDGE TO BRGY. NEW CABALAN,20000.0,DO 19-2022,unmatched,Olongapo (73),0
+I,Old Cabalan,OLONGAPO-GAPAN ROAD (JASA ROAD),VICTORY LINER,20000.0,DO 19-2022,unmatched,Olongapo (73),0
+I,Old Cabalan,BENNET ROAD EXT,,20000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (36),0
+CR,Old Cabalan,BENNETT ROAD,,18000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (27),0
+RR,Old Cabalan,OLONGAPO-GAPAN ROAD (JASA ROAD),FROM STA. RITA BRIDGE TO BRGY. NEW CABALAN,13000.0,DO 19-2022,unmatched,Olongapo (73),0
+RR,Old Cabalan,OLONGAPO-GAPAN ROAD (JASA ROAD),UPPER,11000.0,DO 19-2022,unmatched,Olongapo (73),0
+RR,Old Cabalan,BENNETT ROAD,,8000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (27),0
+RR,Old Cabalan,IPIL ST.,HIGHWAY,8000.0,DO 19-2022,unmatched,Triboa Bay Villas (30),0
+RR,Old Cabalan,NATIONAL ROAD,,8000.0,DO 19-2022,unmatched,Triboa Bay Villas (50),0
+RR,Old Cabalan,APITONG ST.,,5000.0,DO 19-2022,unmatched,Olongapo (40),0
+RR,Old Cabalan,IPIL ST.,UPPER,5000.0,DO 19-2022,unmatched,Triboa Bay Villas (30),0
+RR,Old Cabalan,MULAWIN LANE,LOWER,5000.0,DO 19-2022,unmatched,Grande Island (56),0
+RR,Old Cabalan,NATIONAL ROAD,UPPER,5000.0,DO 19-2022,unmatched,Triboa Bay Villas (50),0
+RR,Old Cabalan,MULAWIN LANE,UPPER,4000.0,DO 19-2022,unmatched,Grande Island (56),0
+RR,Old Cabalan,BENNET ROAD EXT,,3500.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (36),0
+RR,Pag-asa,ALL OTHER STREETS,WITHIN TOWNSITE - 308,8000.0,DO 19-2022,background,,0
+RR,Pag-asa,ALL OTHER STREETS,OUTSIDE TOWNSITE - 308,8000.0,DO 19-2022,background,,0
+CR,Pag-asa,GORDON AVE,FROM R. MAGSAYSAY TO BRGY NEW KALALAKE (12TH ST),22000.0,DO 19-2022,street,Gordon Avenue,100
+CR,Pag-asa,E10TH ST.,E-6TH ST.-BONIFACIO ST.,18000.0,DO 19-2022,street,10th Street,93.33333333333333
+CR,Pag-asa,BONIFACIO ST.,MURPHY ST.-BONIFACIO ST. EXT.,18000.0,DO 19-2022,street,Bonifacio Street,100
+CR,Pag-asa,MURPHY ST.,E-6TH ST.-BONIFACIO ST.,18000.0,DO 19-2022,street,Murphy Street,100
+CR,Pag-asa,PERIMETER ST.,BONIFACIO ST.-E-6TH ST.,18000.0,DO 19-2022,street,Perimeter Road,97
+RR,Pag-asa,GORDON AVE,FROM R. MAGSAYSAY TO BRGY NEW KALALAKE (12TH ST),14000.0,DO 19-2022,street,Gordon Avenue,100
+RR,Pag-asa,E10TH ST.,E-6TH ST.-BONIFACIO ST.,10000.0,DO 19-2022,street,10th Street,93.33333333333333
+RR,Pag-asa,BONIFACIO ST.,MURPHY ST.-BONIFACIO ST. EXT.,10000.0,DO 19-2022,street,Bonifacio Street,100
+RR,Pag-asa,BURGOS ST,,10000.0,DO 19-2022,street,Burgos Street,100
+RR,Pag-asa,MURPHY ST.,E-6TH ST.-BONIFACIO ST.,10000.0,DO 19-2022,street,Murphy Street,100
+RR,Pag-asa,NATIVIDAD ST.,E-10TH ST.-BONIFACIO ST.,10000.0,DO 19-2022,street,Natividad Street,100
+RR,Pag-asa,NATIVIDAD ST.,INTERIOR,10000.0,DO 19-2022,street,Natividad Street,100
+RR,Pag-asa,PERIMETER ST.,BONIFACIO ST.-E-6TH ST.,10000.0,DO 19-2022,street,Perimeter Road,97
+RR,Pag-asa,PERIMETER ST.,INTERIOR,8000.0,DO 19-2022,street,Perimeter Road,97
+CR,Pag-asa,E-6TH ST.,MURPHY ST.-GORDON AVE.,18000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+CR,Pag-asa,BONIFACIO ST. EXT.,ALONG BONIFACIO ST.,18000.0,DO 19-2022,unmatched,Olongapo (38),0
+RR,Pag-asa,LOT 21,,14000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+RR,Pag-asa,12TH ST,,10000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+RR,Pag-asa,E-6TH ST.,MURPHY ST.-GORDON AVE.,10000.0,DO 19-2022,unmatched,Subic Bay Freeport Zone (0),0
+RR,Pag-asa,BONIFACIO ST. EXT.,ALONG BONIFACIO ST.,10000.0,DO 19-2022,unmatched,Olongapo (38),0
+RR,Santa Rita,ALL OTHER LOTS,,5500.0,DO 19-2022,background,,0
+RR,Santa Rita,BEGONIA ST,AMAPOLA ST.-HORSHOE DRIVE,8000.0,DO 19-2022,segment,Begonia Street,100
+RR,Santa Rita,SAMPAGUITA ST,,13000.0,DO 19-2022,street,Sampaguita Street,100
+RR,Santa Rita,FILTRATION ROAD,,12000.0,DO 19-2022,street,Filtration Road,100
+RR,Santa Rita,BALIC-BALIC ROAD,,10000.0,DO 19-2022,street,Balic-balic Road,100
+RR,Santa Rita,SALCEDO ST.,,10000.0,DO 19-2022,street,Salcedo Street,100
+RR,Santa Rita,SAN ISIDRO ST.,,10000.0,DO 19-2022,street,San Isidro Street,100
+RR,Santa Rita,SANTOLAN ST,,10000.0,DO 19-2022,street,Santolan Street,100
+RR,Santa Rita,TAURUS ST,,10000.0,DO 19-2022,street,Taurus Street,100
+RR,Santa Rita,SAMPAGUITA ST,INTERIOR,8854.0,DO 19-2022,street,Sampaguita Street,100
+RR,Santa Rita,ALEJO ST,,8000.0,DO 19-2022,street,Alejo Street,100
+RR,Santa Rita,AMAPOLA ST,,8000.0,DO 19-2022,street,Amapola Street,100
+RR,Santa Rita,ARIES ST,,8000.0,DO 19-2022,street,Aries Street,100
+RR,Santa Rita,AVOCADO ST,,8000.0,DO 19-2022,street,Avocado Street,100
+RR,Santa Rita,BALIC-BALIC ROAD,INTERIOR,8000.0,DO 19-2022,street,Balic-balic Road,100
+RR,Santa Rita,BONIFACIO ST,,8000.0,DO 19-2022,street,A. Bonifacio Street,92.3076923076923
+RR,Santa Rita,CABLING LANE,,8000.0,DO 19-2022,street,Cabling Lane,100
+RR,Santa Rita,CAMIA ST,,8000.0,DO 19-2022,street,Camia Street,100
+RR,Santa Rita,DAHLIA ST,,8000.0,DO 19-2022,street,Dahlia Street,100
+RR,Santa Rita,DAMASO ST.,,8000.0,DO 19-2022,street,Damaso Street,100
+RR,Santa Rita,DEL PILAR ST,,8000.0,DO 19-2022,street,G. Del Pilar Street,92.3076923076923
+RR,Santa Rita,FILTRATION ROAD,INTERIOR,8000.0,DO 19-2022,street,Filtration Road,100
+RR,Santa Rita,HORSESHOE DRIVE,,8000.0,DO 19-2022,street,Horseshoe Drive,100
+RR,Santa Rita,MABINI ST,,8000.0,DO 19-2022,street,Mabini Street,100
+RR,Santa Rita,MANGAHAN ROAD,,8000.0,DO 19-2022,street,Mangahan Street,97
+RR,Santa Rita,MAYUMI ST,,8000.0,DO 19-2022,street,Mayumi Street,100
+RR,Santa Rita,PISCES ST.,,8000.0,DO 19-2022,street,Pisces Street,100
+RR,Santa Rita,RIZAL ST,,8000.0,DO 19-2022,street,Rizal Avenue,97
+RR,Santa Rita,ROSA GONZALES LANE,,8000.0,DO 19-2022,street,Rosa Gonzales Lane,100
+RR,Santa Rita,ROSAL ST.,,8000.0,DO 19-2022,street,Rosal Street,100
+RR,Santa Rita,DEL PILAR ST,SALCEDO SUBD.,8000.0,DO 19-2022,street,G. Del Pilar Street,92.3076923076923
+RR,Santa Rita,GUINTO ST.,SALCEDO SUBD.,8000.0,DO 19-2022,street,Guinto Street,100
+RR,Santa Rita,JACINTO ST.,SALCEDO SUBD.,8000.0,DO 19-2022,street,E. Jacinto Street,90.9090909090909
+RR,Santa Rita,MAYUMI ST,SALCEDO SUBD.,8000.0,DO 19-2022,street,Mayumi Street,100
+RR,Santa Rita,MARIKIT ST.,SALCEDO SUBD.,8000.0,DO 19-2022,street,Marikit Street,100
+RR,Santa Rita,MABINI ST,SALCEDO SUBD.,8000.0,DO 19-2022,street,Mabini Street,100
+RR,Santa Rita,ESTEBAN ST.,SALCEDO SUBD.,8000.0,DO 19-2022,street,Esteban Street,100
+RR,Santa Rita,J.P. RIZAL ST.,SALCEDO SUBD.,8000.0,DO 19-2022,street,JP Rizal Street,95.65217391304348
+RR,Santa Rita,CLARK ST,,7000.0,DO 19-2022,street,Clark Street,100
+RR,Santa Rita,DOMINGUEZ ST,,7000.0,DO 19-2022,street,Dominguez Street,100
+RR,Santa Rita,ESTEBAN ST.,,7000.0,DO 19-2022,street,Esteban Street,100
+RR,Santa Rita,HOLY SPIRIT ROAD,,7000.0,DO 19-2022,street,Holy Spirit Drive,97
+RR,Santa Rita,SORIANO ST,,7000.0,DO 19-2022,street,Soriano Street,100
+RR,Santa Rita,TABACUHAN ROAD,,7000.0,DO 19-2022,street,Tabacuhan Road,100
+RR,Santa Rita,TULIAO ST,,7000.0,DO 19-2022,street,Tulio Street,94.11764705882352
+RR,Santa Rita,TULIO ST,,7000.0,DO 19-2022,street,Tulio Street,100
+RR,Santa Rita,TABACUHAN ROAD,INTERIOR,4000.0,DO 19-2022,street,Tabacuhan Road,100
+RR,Santa Rita,STA. RITA ROAD,,13000.0,DO 19-2022,unmatched,Olongapo (12),0
+RR,Santa Rita,TIA JUANA ST.,,10000.0,DO 19-2022,unmatched,Luzon (29),0
+RR,Santa Rita,VENUS ST,,10000.0,DO 19-2022,unmatched,Luzon (22),0
+RR,Santa Rita,1310,,8000.0,DO 19-2022,unmatched,Olongapo (0),0
+RR,Santa Rita,AQUARIUS ST,,8000.0,DO 19-2022,unmatched,Luzon (17),0
+RR,Santa Rita,AZUCENA ST,,8000.0,DO 19-2022,unmatched,Luzon (33),0
+RR,Santa Rita,BALTAZAR ST,,8000.0,DO 19-2022,unmatched,Luzon (31),0
+RR,Santa Rita,BAYANI ST,,8000.0,DO 19-2022,unmatched,Luzon (18),0
+RR,Santa Rita,CHICO ST,,8000.0,DO 19-2022,unmatched,Luzon (20),0
+RR,Santa Rita,JASMIN ST,,8000.0,DO 19-2022,unmatched,Luzon (18),0
+RR,Santa Rita,MABOLO ST,,8000.0,DO 19-2022,unmatched,Olongapo (43),0
+RR,Santa Rita,MAGANDA ST,,8000.0,DO 19-2022,unmatched,Olongapo (27),0
+RR,Santa Rita,MAHINHIN ST,,8000.0,DO 19-2022,unmatched,Luzon (15),0
+RR,Santa Rita,MARILAG ST,,8000.0,DO 19-2022,unmatched,Olongapo (27),0
+RR,Santa Rita,MERCURY ST,,8000.0,DO 19-2022,unmatched,Luzon (17),0
+RR,Santa Rita,ROSELANE ST.,,8000.0,DO 19-2022,unmatched,Olongapo (38),0
+RR,Santa Rita,SAGITTARIUS ST,,8000.0,DO 19-2022,unmatched,Olongapo (22),0
+RR,Santa Rita,CAYABYAB ST,,7000.0,DO 19-2022,unmatched,Olongapo (12),0
+RR,Santa Rita,CRISTOBAL ST,,7000.0,DO 19-2022,unmatched,Olongapo (24),0
+RR,Santa Rita,DOMINGUEZ EXT,,7000.0,DO 19-2022,unmatched,Olongapo (29),0
+RR,Santa Rita,GEMINI ST.,,7000.0,DO 19-2022,unmatched,Luzon (18),0
+RR,Santa Rita,GENERAL TRANCE ST.,,7000.0,DO 19-2022,unmatched,Luzon (21),0
+RR,Santa Rita,MAGITING ST,,7000.0,DO 19-2022,unmatched,Olongapo (25),0
+RR,Santa Rita,MAGILIW LANE,,7000.0,DO 19-2022,unmatched,Olongapo (30),0
+RR,Santa Rita,MEMORIAL PARK SUBD,,7000.0,DO 19-2022,unmatched,Olongapo (29),0
+RR,Santa Rita,ROQUE ST,,7000.0,DO 19-2022,unmatched,Luzon (20),0
+RR,Santa Rita,STA. RITA ROAD EXT,,7000.0,DO 19-2022,unmatched,Olongapo (10),0
+RR,Santa Rita,VIRGO ST,,7000.0,DO 19-2022,unmatched,Olongapo (31),0
+CR,West Bajac-bajac,ALL OTHER STREETS,,12000.0,DO 19-2022,background,,0
+RR,West Bajac-bajac,ALL OTHER STREETS,,9000.0,DO 19-2022,background,,0
+CR,West Bajac-bajac,ANONAS ST,OLONGAPO-BUGALLON ROAD- BRILL ST.,23000.0,DO 19-2022,segment,Anonas Street,100
+RR,West Bajac-bajac,ANONAS ST,OLONGAPO-BUGALLON ROAD- BRILL ST.,15000.0,DO 19-2022,segment,Anonas Street,100
+CR,West Bajac-bajac,RIZAL AVENUE,FROM ULO NG APO TO STA. RITA BRIDGE,30000.0,DO 19-2022,street,Rizal Avenue,100
+CR,West Bajac-bajac,RIZAL AVENUE,ULO APO-MAGSAYSAY RTDA,30000.0,DO 19-2022,street,Rizal Avenue,100
+CR,West Bajac-bajac,RIZAL AVENUE,MAGSAYSAY RTDA-HOSPITAL,30000.0,DO 19-2022,street,Rizal Avenue,100
+CR,West Bajac-bajac,OLONGAPO BUGALLON ROAD,FROM ULO NG APO TO BRGY KALAKLAN,23000.0,DO 19-2022,street,Olongapo-Bugallon Road,100
+CR,West Bajac-bajac,ARTHUR ST,RIZAL AVE.-BOUNDARY OF BRGY. STA RITA,23000.0,DO 19-2022,street,Arthur Street,100
+CR,West Bajac-bajac,BRILL ST,ANONAS ST.-W-20TH ST.,23000.0,DO 19-2022,street,Brill Street,100
+CR,West Bajac-bajac,CARON ST,OLONGAPO-BUGALLON ROAD- W-20TH ST.,23000.0,DO 19-2022,street,Caron Street,100
+CR,West Bajac-bajac,18TH STREET,,23000.0,DO 19-2022,street,18th Street,100
+CR,West Bajac-bajac,BRILL ST,INTERIOR,20000.0,DO 19-2022,street,Brill Street,100
+CR,West Bajac-bajac,CARON ST,INTERIOR,20000.0,DO 19-2022,street,Caron Street,100
+RR,West Bajac-bajac,RIZAL AVENUE,FROM ULO NG APO TO STA. RITA BRIDGE,20000.0,DO 19-2022,street,Rizal Avenue,100
+CR,West Bajac-bajac,BRILL ST,INNER INTERIOR,18000.0,DO 19-2022,street,Brill Street,100
+RR,West Bajac-bajac,RIZAL AVENUE,ULO APO-MAGSAYSAY RTDA,18000.0,DO 19-2022,street,Rizal Avenue,100
+RR,West Bajac-bajac,RIZAL AVENUE,MAGSAYSAY RTDA-HOSPITAL,18000.0,DO 19-2022,street,Rizal Avenue,100
+RR,West Bajac-bajac,18TH STREET,,16000.0,DO 19-2022,street,18th Street,100
+RR,West Bajac-bajac,OLONGAPO BUGALLON ROAD,FROM ULO NG APO TO BRGY KALAKLAN,15000.0,DO 19-2022,street,Olongapo-Bugallon Road,100
+RR,West Bajac-bajac,ARTHUR ST,RIZAL AVE.-BOUNDARY OF BRGY. STA RITA,15000.0,DO 19-2022,street,Arthur Street,100
+RR,West Bajac-bajac,BRILL ST,INNER INTERIOR,15000.0,DO 19-2022,street,Brill Street,100
+RR,West Bajac-bajac,CARON ST,INTERIOR,15000.0,DO 19-2022,street,Caron Street,100
+RR,West Bajac-bajac,DAVIDSON ST,CREEK-W-22ND ST.,15000.0,DO 19-2022,street,Davidson Street,100
+RR,West Bajac-bajac,ARTHUR ST,INTERIOR,12000.0,DO 19-2022,street,Arthur Street,100
+RR,West Bajac-bajac,DAVIDSON ST,INTERIOR,12000.0,DO 19-2022,street,Davidson Street,100
+CR,West Bajac-bajac,OLONGAPO - GAPAN ROAD (JASA ROAD),ULO APO-MAGSAYSAY RTDA,30000.0,DO 19-2022,unmatched,Olongapo (73),0
+CR,West Bajac-bajac,OLONGAPO - GAPAN ROAD (JASA ROAD),MAGSAYSAY RTDA-HOSPITAL,30000.0,DO 19-2022,unmatched,Olongapo (73),0
+CR,West Bajac-bajac,10TH ST,,23000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Bajac-bajac,W-19TH ST,RIZAL AVE.-BRILL ST.,23000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Bajac-bajac,W-23RD ST,,23000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Bajac-bajac,W-24TH ST,,23000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Bajac-bajac,OLONGAPO - GAPAN ROAD (JASA ROAD),ULO APO-MAGSAYSAY RTDA,20000.0,DO 19-2022,unmatched,Olongapo (73),0
+RR,West Bajac-bajac,OLONGAPO - GAPAN ROAD (JASA ROAD),MAGSAYSAY RTDA-HOSPITAL,20000.0,DO 19-2022,unmatched,Olongapo (73),0
+CR,West Bajac-bajac,W-22ND ST.,DAVIDSON ST.-ARTHUR ST.,20000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Bajac-bajac,W-23RD ST,INTERIOR,20000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Bajac-bajac,W-23RD ST,INNER INTERIOR,16000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Bajac-bajac,10TH ST,,15000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Bajac-bajac,W-19TH ST,RIZAL AVE.-BRILL ST.,15000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Bajac-bajac,W-20TH ST.,RIZAL AVE-DAVIDSON ST.,15000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Bajac-bajac,W-21TH ST,RIZAL AVE.-DAVIDSON ST.,15000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Bajac-bajac,W-22ND ST.,DAVIDSON ST.-ARTHUR ST.,15000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Bajac-bajac,W-23RD ST,INNER INTERIOR,15000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Bajac-bajac,W-23RD PLACE,DAVIDSON ST.-BRILL ST.,15000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Bajac-bajac,W-24TH ST,,15000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Bajac-bajac,W-25TH ST,,15000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Tapinac,RIZAL AVE,,35000.0,DO 19-2022,street,Rizal Avenue,100
+RR,West Tapinac,RIZAL AVE,,25000.0,DO 19-2022,street,Rizal Avenue,100
+CR,West Tapinac,2ND ST,,21000.0,DO 19-2022,street,2nd Street,100
+CR,West Tapinac,3RD ST,,21000.0,DO 19-2022,street,3rd Street,100
+CR,West Tapinac,4TH ST,,21000.0,DO 19-2022,street,4th Street,100
+CR,West Tapinac,5TH ST,,21000.0,DO 19-2022,street,5th Street,100
+CR,West Tapinac,9TH ST,,21000.0,DO 19-2022,street,9th Street,100
+CR,West Tapinac,10TH ST,,21000.0,DO 19-2022,street,10th Street,100
+CR,West Tapinac,11TH ST,,21000.0,DO 19-2022,street,11th Street,100
+CR,West Tapinac,14TH ST,,21000.0,DO 19-2022,street,14th Street,100
+CR,West Tapinac,16TH ST,,21000.0,DO 19-2022,street,16th Street,100
+CR,West Tapinac,ALTMAN ST,,21000.0,DO 19-2022,street,Altman Street,100
+CR,West Tapinac,BASA ST,,21000.0,DO 19-2022,street,Basa Street,100
+CR,West Tapinac,CORPUZ ST,,21000.0,DO 19-2022,street,Corpuz Street,100
+CR,West Tapinac,DRAPER ST,,21000.0,DO 19-2022,street,Drapper Street,94.73684210526316
+CR,West Tapinac,WEST 13TH STREET,,21000.0,DO 19-2022,street,West 13th Street,100
+CR,West Tapinac,WEST 14TH STREET,,21000.0,DO 19-2022,street,West 14th Street,100
+CR,West Tapinac,WEST 7TH STREET,,20000.0,DO 19-2022,street,West 7th Street,100
+CR,West Tapinac,WEST 8TH STREET,,20000.0,DO 19-2022,street,West 8th Street,100
+CR,West Tapinac,WEST 15TH STREET,,20000.0,DO 19-2022,street,West 15th Street,100
+RR,West Tapinac,2ND ST,,13000.0,DO 19-2022,street,2nd Street,100
+RR,West Tapinac,3RD ST,,13000.0,DO 19-2022,street,3rd Street,100
+RR,West Tapinac,4TH ST,,13000.0,DO 19-2022,street,4th Street,100
+RR,West Tapinac,5TH ST,,13000.0,DO 19-2022,street,5th Street,100
+RR,West Tapinac,9TH ST,,13000.0,DO 19-2022,street,9th Street,100
+RR,West Tapinac,10TH ST,,13000.0,DO 19-2022,street,10th Street,100
+RR,West Tapinac,11TH ST,,13000.0,DO 19-2022,street,11th Street,100
+RR,West Tapinac,14TH ST,,13000.0,DO 19-2022,street,14th Street,100
+RR,West Tapinac,16TH ST,,13000.0,DO 19-2022,street,16th Street,100
+RR,West Tapinac,ALTMAN ST,,13000.0,DO 19-2022,street,Altman Street,100
+RR,West Tapinac,BASA ST,,13000.0,DO 19-2022,street,Basa Street,100
+RR,West Tapinac,CORPUZ ST,,13000.0,DO 19-2022,street,Corpuz Street,100
+RR,West Tapinac,DRAPER ST,,13000.0,DO 19-2022,street,Drapper Street,94.73684210526316
+RR,West Tapinac,WEST 13TH STREET,,13000.0,DO 19-2022,street,West 13th Street,100
+RR,West Tapinac,WEST 14TH STREET,,13000.0,DO 19-2022,street,West 14th Street,100
+RR,West Tapinac,WEST 7TH STREET,,12000.0,DO 19-2022,street,West 7th Street,100
+RR,West Tapinac,WEST 8TH STREET,,12000.0,DO 19-2022,street,West 8th Street,100
+RR,West Tapinac,WEST 15TH STREET,,12000.0,DO 19-2022,street,West 15th Street,100
+RR,West Tapinac,2ND ST,INTERIOR,10000.0,DO 19-2022,street,2nd Street,100
+RR,West Tapinac,3RD ST,INTERIOR,10000.0,DO 19-2022,street,3rd Street,100
+RR,West Tapinac,4TH ST,INTERIOR,10000.0,DO 19-2022,street,4th Street,100
+RR,West Tapinac,5TH ST,INTERIOR,10000.0,DO 19-2022,street,5th Street,100
+RR,West Tapinac,9TH ST,INTERIOR,10000.0,DO 19-2022,street,9th Street,100
+RR,West Tapinac,14TH ST,INTERIOR,10000.0,DO 19-2022,street,14th Street,100
+RR,West Tapinac,16TH ST,INTERIOR,10000.0,DO 19-2022,street,16th Street,100
+CR,West Tapinac,7TH ST,,21000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Tapinac,8TH ST,,21000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Tapinac,12TH ST,,21000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Tapinac,13TH ST,,21000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Tapinac,15TH ST,,21000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Tapinac,WEST 9TH STREET,,21000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Tapinac,WEST 10TH STREET,,20000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Tapinac,WEST 11TH STREET,,20000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+CR,West Tapinac,WEST 16TH STREET,,20000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,7TH ST,,13000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,8TH ST,,13000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,12TH ST,,13000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,13TH ST,,13000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,15TH ST,,13000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,WEST 9TH STREET,,13000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,WEST 10TH STREET,,12000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,WEST 11TH STREET,,12000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,WEST 16TH STREET,,12000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,8TH ST,INTERIOR,10000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,13TH ST,INTERIOR,10000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0
+RR,West Tapinac,15TH ST,INTERIOR,10000.0,DO 19-2022,unmatched,Moonstone Residential Apartment (0),0

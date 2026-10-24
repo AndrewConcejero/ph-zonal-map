@@ -1,0 +1,69 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Butanguiad,ALL LOTS,,1425.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Butanguiad,ALL LOTS,,775.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Casay,ALL LOTS,,1400.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Casay,ALL LOTS,,800.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Cawayan I,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Cawayan I,ALL LOTS,ALONG BRGY. ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Cawayan I,ALL LOTS,ALONG NATIONAL ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Cawayan I,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Cawayan II,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Cawayan II,ALL LOTS,BRGY. ROAD,1150.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Cawayan II,ALL LOTS,ALONG NATIONAL ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Cawayan II,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Don Juan Vercelos,ALL LOTS,,1400.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Don Juan Vercelos,ALL LOTS,,800.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Huyon-Uyon,ALL LOTS,,1400.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Huyon-Uyon,ALL LOTS,,800.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Ibabang Tayuman,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Ibabang Tayuman,ALL LOTS,BRGY. ROAD,1150.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Ibabang Tayuman,ALL LOTS,ALONG NATIONAL ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Ibabang Tayuman,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Ilayang Tayuman,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Ilayang Tayuman,ALL LOTS,BRGY. ROAD,1150.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Ilayang Tayuman,ALL LOTS,ALONG NATIONAL ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Ilayang Tayuman,ALL LOTS,BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Inabuan,ALL LOTS,ALONG NATIONAL ROAD,1500.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Inabuan,ALL LOTS,ALONG BRGY. ROAD,1200.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Inabuan,ALL LOTS,ALONG NATIONAL ROAD,1000.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Inabuan,ALL LOTS,ALONG BRGY. ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Mabuñga,ALL LOTS,ADJOINING BRGY. STO. NINO,1400.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Mabuñga,ALL LOTS,ADJOINING BRGY. STO. NINO,800.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Nasalaan,ALL LOTS,,1400.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Nasalaan,ALL LOTS,,800.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Pagsangahan,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Pagsangahan,ALL LOTS,BARANGAY ROAD,1150.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Pagsangahan,ALL LOTS,ALONG NATIONAL ROAD,800.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Pagsangahan,ALL LOTS,BARANGAY ROAD,700.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Poblacion,ALL OTHER STREETS,,1750.0,DO 33-2019,background,,0
+RR,Poblacion,ALL OTHER STREETS,,1450.0,DO 33-2019,background,,0
+CR,Poblacion,GALICANO NER,,1750.0,DO 33-2019,street,Galicano Ner Street,97
+RR,Poblacion,GALICANO NER,,1450.0,DO 33-2019,street,Galicano Ner Street,97
+CR,Poblacion,AGUILA ST.,,1750.0,DO 33-2019,unmatched,Luzon (18),0
+CR,Poblacion,CAPT. VICTORINO NAPENAS,,1750.0,DO 33-2019,unmatched,Luzon (15),0
+CR,Poblacion,DAKILANG MITHI,,1750.0,DO 33-2019,unmatched,Luzon (21),0
+CR,Poblacion,DON VENANCIO QUEBLAR,,1750.0,DO 33-2019,unmatched,Luzon (16),0
+CR,Poblacion,EDADES ST.,,1750.0,DO 33-2019,unmatched,Luzon (0),0
+CR,Poblacion,NEMESIO JORQUIA,,1750.0,DO 33-2019,unmatched,Luzon (20),0
+CR,Poblacion,PALACIO ST.,,1750.0,DO 33-2019,unmatched,Luzon (33),0
+CR,Poblacion,SAN FRANCISCO,,1750.0,DO 33-2019,unmatched,Luzon (22),0
+CR,Poblacion,ZULUETA ST.,,1750.0,DO 33-2019,unmatched,Luzon (33),0
+CR,Poblacion,EDANO ST.,,1500.0,DO 33-2019,unmatched,Luzon (20),0
+CR,Poblacion,GUERRA ST.,,1500.0,DO 33-2019,unmatched,Luzon (18),0
+RR,Poblacion,AGUILA ST.,,1450.0,DO 33-2019,unmatched,Luzon (18),0
+RR,Poblacion,CAPT. VICTORINO NAPENAS,,1450.0,DO 33-2019,unmatched,Luzon (15),0
+RR,Poblacion,DAKILANG MITHI,,1450.0,DO 33-2019,unmatched,Luzon (21),0
+RR,Poblacion,DON VENANCIO QUEBLAR,,1450.0,DO 33-2019,unmatched,Luzon (16),0
+RR,Poblacion,EDADES ST.,,1450.0,DO 33-2019,unmatched,Luzon (0),0
+RR,Poblacion,NEMESIO JORQUIA,,1450.0,DO 33-2019,unmatched,Luzon (20),0
+RR,Poblacion,PALACIO ST.,,1450.0,DO 33-2019,unmatched,Luzon (33),0
+RR,Poblacion,SAN FRANCISCO,,1450.0,DO 33-2019,unmatched,Luzon (22),0
+RR,Poblacion,ZULUETA ST.,,1450.0,DO 33-2019,unmatched,Luzon (33),0
+RR,Poblacion,EDANO ST.,,1175.0,DO 33-2019,unmatched,Luzon (20),0
+RR,Poblacion,GUERRA ST.,,1175.0,DO 33-2019,unmatched,Luzon (18),0
+CR,Pugon,ALL LOTS,,1425.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Pugon,ALL LOTS,,775.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Santo Niño,ALL LOTS,,1400.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Santo Niño,ALL LOTS,,800.0,DO 33-2019,unmatched,Luzon (31),0
+CR,Silongin,ALL LOTS,,1400.0,DO 33-2019,unmatched,Luzon (31),0
+RR,Silongin,ALL LOTS,,800.0,DO 33-2019,unmatched,Luzon (31),0

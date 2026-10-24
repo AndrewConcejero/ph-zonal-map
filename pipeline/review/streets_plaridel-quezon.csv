@@ -1,0 +1,29 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Central,JUNE 16 STREET,,3500.0,DO 37-2022,street,June 16 Street,100
+RR,Central,JUNE 16 STREET,,1600.0,DO 37-2022,street,June 16 Street,100
+CR,Central,NATIONAL HIGHWAY,,3500.0,DO 37-2022,unmatched,Luzon (19),0
+RR,Central,NATIONAL HIGHWAY,,2000.0,DO 37-2022,unmatched,Luzon (19),0
+CR,Concepcion,ALL LOTS,ALONG NATIONAL ROAD,4250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Concepcion,ALL LOTS,ALONG NATIONAL ROAD,1600.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Concepcion,ALL LOTS,BRGY. ROAD,1400.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Duhat,ALONG RAILWAYS,,1600.0,DO 37-2022,unmatched,Luzon (33),0
+RR,Duhat,ALONG RAILWAYS,,1250.0,DO 37-2022,unmatched,Luzon (33),0
+RR,Duhat,Along Barangay Road,,900.0,DO 37-2022,unmatched,Luzon (32),0
+CR,Ilaya,ALL OTHER LOTS,BRGY. ROAD,1600.0,DO 37-2022,background,,0
+RR,Ilaya,ALL OTHER LOTS,BRGY. ROAD,1250.0,DO 37-2022,background,,0
+RR,Ilaya,ALL OTHER LOTS,ALONG RAIL ROAD,900.0,DO 37-2022,background,,0
+CR,Ilosong,ALL OTHER LOTS,ALONG RAILWAYS,1600.0,DO 37-2022,background,,0
+RR,Ilosong,ALL OTHER LOTS,ALONG RAILWAYS,1250.0,DO 37-2022,background,,0
+RR,Ilosong,ALL OTHER LOTS,Along Barangay road,900.0,DO 37-2022,background,,0
+RR,M. L. Tumagay Pob.,ALL OTHER LOTS,Interior Lots,1600.0,DO 37-2022,background,,0
+CR,M. L. Tumagay Pob.,NATIONAL ROAD,,3500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,M. L. Tumagay Pob.,NATIONAL ROAD,,2000.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Paang Bundok,BARANGAY ROAD,TOWN PROPER,4250.0,DO 37-2022,unmatched,Luzon (15),0
+RR,Paang Bundok,BARANGAY ROAD,TOWN PROPER,1600.0,DO 37-2022,unmatched,Luzon (15),0
+CR,Pampaaralan,NATIONAL ROAD,,3500.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Pampaaralan,NATIONAL ROAD,,2500.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Pampaaralan,RIZAL STREET,Along Barangay Road,2000.0,DO 37-2022,unmatched,Luzon (20),0
+RR,Pampaaralan,RIZAL STREET,Along Barangay Road,1900.0,DO 37-2022,unmatched,Luzon (20),0
+CR,Tanauan,ALL LOTS,ALONG NATIONAL ROAD,4250.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tanauan,ALL LOTS,ALONG NATIONAL ROAD,1600.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Tanauan,ALL LOTS,BRGY. ROAD,1400.0,DO 37-2022,unmatched,Luzon (31),0

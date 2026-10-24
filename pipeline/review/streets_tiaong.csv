@@ -1,0 +1,185 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Anastacia,ALL LOTS,,800.0,DO 13-2020,unmatched,Sitio Alvarez (38),0
+RR,Anastacia,ALL LOTS,,400.0,DO 13-2020,unmatched,Sitio Alvarez (38),0
+CR,Aquino,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Aquino,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+CR,Ayusan I,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Ayusan I,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+CR,Ayusan II,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+RR,Ayusan II,ALL LOTS,,400.0,DO 13-2020,unmatched,,0
+I,Barangay I,ALL OTHER STREETS/INTERIOR LOTS,,2500.0,DO 13-2020,background,,0
+CR,Barangay I,ALL OTHER STREETS/INTERIOR LOTS,,1800.0,DO 13-2020,background,,0
+RR,Barangay I,ALL OTHER STREETS/INTERIOR LOTS,,900.0,DO 13-2020,background,,0
+CR,Barangay I,DOÑA TATING ST (nat'l road),,3000.0,DO 13-2020,street,Doña Tating Street,100
+CR,Barangay I,ALABASTRO ST,,2000.0,DO 13-2020,street,Alabastro Street,100
+CR,Barangay I,CASTILLO ST,,2000.0,DO 13-2020,street,Castillo Street,100
+CR,Barangay I,ESCUDERO ST,,2000.0,DO 13-2020,street,Escudero Street,100
+CR,Barangay I,MASANGKAY ST,,2000.0,DO 13-2020,street,Masangkay Street,100
+CR,Barangay I,PUNZALAN ST,,2000.0,DO 13-2020,street,Punzalan Street,100
+CR,Barangay I,RECTO ST,,2000.0,DO 13-2020,street,Recto Street,100
+CR,Barangay I,UMALI ST,,2000.0,DO 13-2020,street,Umali Street,100
+RR,Barangay I,DOÑA TATING ST (nat'l road),,1500.0,DO 13-2020,street,Doña Tating Street,100
+RR,Barangay I,ALABASTRO ST,,1000.0,DO 13-2020,street,Alabastro Street,100
+RR,Barangay I,CASTILLO ST,,1000.0,DO 13-2020,street,Castillo Street,100
+RR,Barangay I,ESCUDERO ST,,1000.0,DO 13-2020,street,Escudero Street,100
+RR,Barangay I,MASANGKAY ST,,1000.0,DO 13-2020,street,Masangkay Street,100
+RR,Barangay I,PUNZALAN ST,,1000.0,DO 13-2020,street,Punzalan Street,100
+RR,Barangay I,RECTO ST,,1000.0,DO 13-2020,street,Recto Street,100
+RR,Barangay I,UMALI ST,,1000.0,DO 13-2020,street,Umali Street,100
+CR,Barangay I,DON ROBLES ST (nat'l road),,3000.0,DO 13-2020,unmatched,Villa Rosario (36),0
+RR,Barangay I,DON ROBLES ST (nat'l road),,1500.0,DO 13-2020,unmatched,Villa Rosario (36),0
+CR,Barangay II,ALL OTHER STREETS/INTERIOR LOTS,,1800.0,DO 13-2020,background,,0
+RR,Barangay II,ALL OTHER STREETS/INTERIOR LOTS,,900.0,DO 13-2020,background,,0
+CR,Barangay II,DONA TATING ST (nat'l road),,3000.0,DO 13-2020,street,Doña Tating Street,100
+CR,Barangay II,ESCUDERO ST,,2000.0,DO 13-2020,street,Escudero Street,100
+CR,Barangay II,HERRERA ST,,2000.0,DO 13-2020,street,Herrera Street,100
+CR,Barangay II,MASANGKAY ST,,2000.0,DO 13-2020,street,Masangkay Street,100
+CR,Barangay II,MAYO ST,,2000.0,DO 13-2020,street,Mayo Street,100
+CR,Barangay II,PASUMBAL ST,,2000.0,DO 13-2020,street,Pasumbal Street,100
+CR,Barangay II,PUNZALAN ST,,2000.0,DO 13-2020,street,Punzalan Street,100
+CR,Barangay II,QUIZON ST,,2000.0,DO 13-2020,street,G. Quizon Street,90.0
+RR,Barangay II,DONA TATING ST (nat'l road),,1500.0,DO 13-2020,street,Doña Tating Street,100
+RR,Barangay II,ESCUDERO ST,,1000.0,DO 13-2020,street,Escudero Street,100
+RR,Barangay II,HERRERA ST,,1000.0,DO 13-2020,street,Herrera Street,100
+RR,Barangay II,MASANGKAY ST,,1000.0,DO 13-2020,street,Masangkay Street,100
+RR,Barangay II,MAYO ST,,1000.0,DO 13-2020,street,Mayo Street,100
+RR,Barangay II,PASUMBAL ST,,1000.0,DO 13-2020,street,Pasumbal Street,100
+RR,Barangay II,PUNZALAN ST,,1000.0,DO 13-2020,street,Punzalan Street,100
+RR,Barangay II,QUIZON ST,,1000.0,DO 13-2020,street,G. Quizon Street,90.0
+CR,Barangay III,ALL OTHER STREETS/INTERIOR LOTS,,1800.0,DO 13-2020,background,,0
+RR,Barangay III,ALL OTHER STREETS/INTERIOR LOTS,,900.0,DO 13-2020,background,,0
+CR,Barangay III,ALABASTRO ST,,2000.0,DO 13-2020,street,Alabastro Street,100
+CR,Barangay III,CANTOS ST,,2000.0,DO 13-2020,street,P. Cantos Street,90.0
+CR,Barangay III,CASTILLO ST,,2000.0,DO 13-2020,street,Castillo Street,100
+CR,Barangay III,ESCUETA ST,,2000.0,DO 13-2020,street,Escueta Street,100
+CR,Barangay III,PAJARILLO ST,,2000.0,DO 13-2020,street,Pajarillo Avenue,97
+CR,Barangay III,RECTO-MAYO AVENUE,,2000.0,DO 13-2020,street,Recto Mayo Street,97
+CR,Barangay III,UMALI ST,,2000.0,DO 13-2020,street,Umali Street,100
+RR,Barangay III,ALABASTRO ST,,1000.0,DO 13-2020,street,Alabastro Street,100
+RR,Barangay III,CANTOS ST,,1000.0,DO 13-2020,street,P. Cantos Street,90.0
+RR,Barangay III,CASTILLO ST,,1000.0,DO 13-2020,street,Castillo Street,100
+RR,Barangay III,ESCUETA ST,,1000.0,DO 13-2020,street,Escueta Street,100
+RR,Barangay III,PAJARILLO ST,,1000.0,DO 13-2020,street,Pajarillo Avenue,97
+RR,Barangay III,RECTO-MAYO AVENUE,,1000.0,DO 13-2020,street,Recto Mayo Street,97
+RR,Barangay III,UMALI ST,,1000.0,DO 13-2020,street,Umali Street,100
+CR,Barangay III,DON ROBLES ST (nat'l road),,3000.0,DO 13-2020,unmatched,Villa Rosario (36),0
+CR,Barangay III,BEECH ST,,2000.0,DO 13-2020,unmatched,Villa Rosario (0),0
+CR,Barangay III,RIZAL ST,,2000.0,DO 13-2020,unmatched,Villa Rosario (33),0
+CR,Barangay III,V. DIA ST,,2000.0,DO 13-2020,unmatched,Villa Rosario (0),0
+RR,Barangay III,DON ROBLES ST (nat'l road),,1500.0,DO 13-2020,unmatched,Villa Rosario (36),0
+RR,Barangay III,BEECH ST,,1000.0,DO 13-2020,unmatched,Villa Rosario (0),0
+RR,Barangay III,RIZAL ST,,1000.0,DO 13-2020,unmatched,Villa Rosario (33),0
+RR,Barangay III,V. DIA ST,,1000.0,DO 13-2020,unmatched,Villa Rosario (0),0
+CR,Barangay IV,ALL OTHER STREETS/INTERIOR LOTS,,1800.0,DO 13-2020,background,,0
+RR,Barangay IV,ALL OTHER STREETS/INTERIOR LOTS,,900.0,DO 13-2020,background,,0
+CR,Barangay IV,ESCUDERO ST,,2000.0,DO 13-2020,street,Escudero Street,100
+CR,Barangay IV,ESCUETA ST,,2000.0,DO 13-2020,street,Escueta Street,100
+CR,Barangay IV,HERRERA ST,,2000.0,DO 13-2020,street,Herrera Street,100
+CR,Barangay IV,MAGDAMI ST,,2000.0,DO 13-2020,street,Magdami Street,100
+CR,Barangay IV,MAYO ST,,2000.0,DO 13-2020,street,Mayo Street,100
+CR,Barangay IV,QUIZON ST,,2000.0,DO 13-2020,street,G. Quizon Street,90.0
+CR,Barangay IV,RECTO ST,,2000.0,DO 13-2020,street,Recto Street,100
+RR,Barangay IV,ESCUDERO ST,,1000.0,DO 13-2020,street,Escudero Street,100
+RR,Barangay IV,ESCUETA ST,,1000.0,DO 13-2020,street,Escueta Street,100
+RR,Barangay IV,HERRERA ST,,1000.0,DO 13-2020,street,Herrera Street,100
+RR,Barangay IV,MAGDAMI ST,,1000.0,DO 13-2020,street,Magdami Street,100
+RR,Barangay IV,MAYO ST,,1000.0,DO 13-2020,street,Mayo Street,100
+RR,Barangay IV,QUIZON ST,,1000.0,DO 13-2020,street,G. Quizon Street,90.0
+RR,Barangay IV,RECTO ST,,1000.0,DO 13-2020,street,Recto Street,100
+CR,Barangay IV,RIZAL ST,,2000.0,DO 13-2020,unmatched,Liwayway Village (31),0
+CR,Barangay IV,V. DIA ST,,2000.0,DO 13-2020,unmatched,Liwayway Village (0),0
+RR,Barangay IV,RIZAL ST,,1000.0,DO 13-2020,unmatched,Liwayway Village (31),0
+RR,Barangay IV,V. DIA ST,,1000.0,DO 13-2020,unmatched,Liwayway Village (0),0
+CR,Behia,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Behia,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+CR,Bukal,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Bukal,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+CR,Bula,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Bula,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+CR,Bulakin,ALL LOTS,,600.0,DO 13-2020,unmatched,Hacienda Escudero (24),0
+RR,Bulakin,ALL LOTS,,300.0,DO 13-2020,unmatched,Hacienda Escudero (24),0
+CR,Cabatang,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Cabatang,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+CR,Cabay,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Cabay,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+I,Del Rosario,ALL LOTS,,700.0,DO 13-2020,unmatched,,0
+CR,Del Rosario,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Del Rosario,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+I,Lagalag,ALL LOTS,,1200.0,DO 13-2020,unmatched,Adelina Subdivision (27),0
+CR,Lagalag,ALL LOTS,,1000.0,DO 13-2020,unmatched,Adelina Subdivision (27),0
+RR,Lagalag,ALL LOTS,,500.0,DO 13-2020,unmatched,Adelina Subdivision (27),0
+CR,Lagalag,ADELINA SUBD,,1000.0,DO 13-2020,village,Adelina Subdivision,100
+CR,Lagalag,WEST GATE SUBD,,1000.0,DO 13-2020,village,Westgate Subdivision,100
+RR,Lagalag,ADELINA SUBD,,700.0,DO 13-2020,village,Adelina Subdivision,100
+RR,Lagalag,WEST GATE SUBD,,700.0,DO 13-2020,village,Westgate Subdivision,100
+CR,Lalig,CASSANDRA SUBDVISION,,1400.0,DO 13-2020,unmatched,Cassandra (62),0
+CR,Lalig,MAYO SUBDIVISION,,1400.0,DO 13-2020,unmatched,Liwayway Village (33),0
+I,Lalig,ALL LOTS,,1200.0,DO 13-2020,unmatched,Hacienda Escudero (24),0
+CR,Lalig,ALL LOTS,,1000.0,DO 13-2020,unmatched,Hacienda Escudero (24),0
+RR,Lalig,CASSANDRA SUBDVISION,,700.0,DO 13-2020,unmatched,Cassandra (62),0
+RR,Lalig,MAYO SUBDIVISION,,700.0,DO 13-2020,unmatched,Liwayway Village (33),0
+RR,Lalig,ALL LOTS,,500.0,DO 13-2020,unmatched,Hacienda Escudero (24),0
+CR,Lalig,HACIENDA ESCUDERO,,6000.0,DO 13-2020,village,Hacienda Escudero,100
+RR,Lalig,HACIENDA ESCUDERO,,4000.0,DO 13-2020,village,Hacienda Escudero,100
+CR,Lalig,MORNING BREEZE SUBD,,1400.0,DO 13-2020,village,Morning Breeze Subdivision,100
+CR,Lalig,LIWAYWAY SUBDIVISION,,1400.0,DO 13-2020,village,Liwayway Village,100
+RR,Lalig,MORNING BREEZE SUBD,,700.0,DO 13-2020,village,Morning Breeze Subdivision,100
+RR,Lalig,LIWAYWAY SUBDIVISION,,700.0,DO 13-2020,village,Liwayway Village,100
+CR,Lumingon,LAPIDSVILLE SUBDVISION,,1400.0,DO 13-2020,unmatched,Villa Rosario (46),0
+CR,Lumingon,MALABON SUBDIVISION,,1400.0,DO 13-2020,unmatched,Villa Rosario (30),0
+CR,Lumingon,ALL LOTS,,1000.0,DO 13-2020,unmatched,Villa Rosario (48),0
+RR,Lumingon,LAPIDSVILLE SUBDVISION,,700.0,DO 13-2020,unmatched,Villa Rosario (46),0
+RR,Lumingon,MALABON SUBDIVISION,,700.0,DO 13-2020,unmatched,Villa Rosario (30),0
+RR,Lumingon,ALL LOTS,,500.0,DO 13-2020,unmatched,Villa Rosario (48),0
+CR,Lumingon,VILLA ROSARIO SUBDIVISION,,1400.0,DO 13-2020,village,Villa Rosario,100
+RR,Lumingon,VILLA ROSARIO SUBDIVISION,,700.0,DO 13-2020,village,Villa Rosario,100
+CR,Lusacan,GARDENVILLE SUBDIVISON,,1600.0,DO 13-2020,unmatched,Villa Consolacion Subdivision (46),0
+I,Lusacan,ALL LOTS,,1500.0,DO 13-2020,unmatched,Villa Consolacion Subdivision (40),0
+CR,Lusacan,ALL LOTS,,1400.0,DO 13-2020,unmatched,Villa Consolacion Subdivision (40),0
+RR,Lusacan,GARDENVILLE SUBDIVISON,,800.0,DO 13-2020,unmatched,Villa Consolacion Subdivision (46),0
+RR,Lusacan,ALL LOTS,,700.0,DO 13-2020,unmatched,Villa Consolacion Subdivision (40),0
+CR,Lusacan,VILLA DEL GARCES,,1600.0,DO 13-2020,village,Villa del Garces,100
+RR,Lusacan,VILLA DEL GARCES,,800.0,DO 13-2020,village,Villa del Garces,100
+I,Paiisa,ALL LOTS,,900.0,DO 13-2020,unmatched,Adelina Subdivision (27),0
+CR,Paiisa,ALL LOTS,,800.0,DO 13-2020,unmatched,Adelina Subdivision (27),0
+RR,Paiisa,ALL LOTS,,400.0,DO 13-2020,unmatched,Adelina Subdivision (27),0
+I,Palagaran,ALL LOTS,,900.0,DO 13-2020,unmatched,Villa Hernandez (26),0
+CR,Palagaran,ALL LOTS,,800.0,DO 13-2020,unmatched,Villa Hernandez (26),0
+RR,Palagaran,ALL LOTS,,400.0,DO 13-2020,unmatched,Villa Hernandez (26),0
+CR,Quipot,CASSANDRA SUBDIVISION,,1400.0,DO 13-2020,unmatched,Villa Rosario (36),0
+CR,Quipot,BICO SUBDIVISION,,1400.0,DO 13-2020,unmatched,Villa Rosario (24),0
+I,Quipot,ALL LOTS,,1200.0,DO 13-2020,unmatched,Villa Rosario (48),0
+CR,Quipot,ALL LOTS,,1000.0,DO 13-2020,unmatched,Villa Rosario (48),0
+RR,Quipot,CASSANDRA SUBDIVISION,,700.0,DO 13-2020,unmatched,Villa Rosario (36),0
+RR,Quipot,BICO SUBDIVISION,,700.0,DO 13-2020,unmatched,Villa Rosario (24),0
+RR,Quipot,ALL LOTS,,500.0,DO 13-2020,unmatched,Villa Rosario (48),0
+CR,Quipot,VILLA ROSARIO SUBDIVISION,,1400.0,DO 13-2020,village,Villa Rosario,100
+RR,Quipot,VILLA ROSARIO SUBDIVISION,,700.0,DO 13-2020,village,Villa Rosario,100
+CR,San Agustin,HIGHLAND PARK SUBDIVISION,,1400.0,DO 13-2020,unmatched,Richland Park (85),0
+I,San Agustin,ALL LOTS,,1200.0,DO 13-2020,unmatched,Richland Park (29),0
+CR,San Agustin,ALL LOTS,,1000.0,DO 13-2020,unmatched,Richland Park (29),0
+RR,San Agustin,HIGHLAND PARK SUBDIVISION,,700.0,DO 13-2020,unmatched,Richland Park (85),0
+RR,San Agustin,ALL LOTS,,500.0,DO 13-2020,unmatched,Richland Park (29),0
+CR,San Francisco,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,San Francisco,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+I,San Isidro,ALL LOTS,,1200.0,DO 13-2020,unmatched,,0
+CR,San Isidro,ALL LOTS,,1000.0,DO 13-2020,unmatched,,0
+RR,San Isidro,ALL LOTS,,500.0,DO 13-2020,unmatched,,0
+I,San Jose,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+CR,San Jose,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,San Jose,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+I,San Juan,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+CR,San Juan,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,San Juan,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+I,San Pedro,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+CR,San Pedro,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,San Pedro,ALL LOTS,,300.0,DO 13-2020,unmatched,,0
+I,Tagbakin,ALL LOTS,,800.0,DO 13-2020,unmatched,Sitio Awas (33),0
+CR,Tagbakin,ALL LOTS,,600.0,DO 13-2020,unmatched,Sitio Awas (33),0
+RR,Tagbakin,ALL LOTS,,300.0,DO 13-2020,unmatched,Sitio Awas (33),0
+I,Talisay,ALL LOTS,,1200.0,DO 13-2020,unmatched,Sitio Alvarez (38),0
+CR,Talisay,ALL LOTS,,1000.0,DO 13-2020,unmatched,Sitio Alvarez (38),0
+RR,Talisay,ALL LOTS,,500.0,DO 13-2020,unmatched,Sitio Alvarez (38),0
+I,Tamisian,ALL LOTS,,800.0,DO 13-2020,unmatched,,0
+CR,Tamisian,ALL LOTS,,600.0,DO 13-2020,unmatched,,0
+RR,Tamisian,ALL LOTS,,300.0,DO 13-2020,unmatched,,0

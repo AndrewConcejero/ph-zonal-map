@@ -895,5 +895,1006 @@
   "placed": 96,
   "priced": 208,
   "kb": 29
+ },
+ "Angeles": {
+  "file": "angeles.geojson",
+  "bbox": [
+   120.4495,
+   15.1146,
+   120.6411,
+   15.2224
+  ],
+  "features": 196,
+  "placed": 211,
+  "priced": 486,
+  "kb": 154
+ },
+ "Apalit": {
+  "file": "apalit.geojson",
+  "bbox": [
+   120.7308,
+   14.9245,
+   120.8559,
+   14.9837
+  ],
+  "features": 16,
+  "placed": 16,
+  "priced": 90,
+  "kb": 13
+ },
+ "Arayat": {
+  "file": "arayat.geojson",
+  "bbox": [
+   120.6523,
+   15.1141,
+   120.8642,
+   15.2676
+  ],
+  "features": 4,
+  "placed": 6,
+  "priced": 212,
+  "kb": 2
+ },
+ "Bacolor": {
+  "file": "bacolor.geojson",
+  "bbox": [
+   120.5607,
+   14.9676,
+   120.6948,
+   15.1199
+  ],
+  "features": 15,
+  "placed": 15,
+  "priced": 192,
+  "kb": 11
+ },
+ "Candaba": {
+  "file": "candaba.geojson",
+  "bbox": [
+   120.7897,
+   15.0097,
+   120.9484,
+   15.2163
+  ],
+  "features": 6,
+  "placed": 7,
+  "priced": 185,
+  "kb": 4
+ },
+ "Floridablanca": {
+  "file": "floridablanca.geojson",
+  "bbox": [
+   120.4209,
+   14.8961,
+   120.5596,
+   15.0376
+  ],
+  "features": 12,
+  "placed": 14,
+  "priced": 252,
+  "kb": 7
+ },
+ "Guagua": {
+  "file": "guagua.geojson",
+  "bbox": [
+   120.5211,
+   14.9424,
+   120.6611,
+   15.0221
+  ],
+  "features": 9,
+  "placed": 9,
+  "priced": 232,
+  "kb": 5
+ },
+ "Lubao": {
+  "file": "lubao.geojson",
+  "bbox": [
+   120.4921,
+   14.8142,
+   120.616,
+   14.9846
+  ],
+  "features": 1,
+  "placed": 1,
+  "priced": 333,
+  "kb": 0
+ },
+ "Mabalacat": {
+  "file": "mabalacat.geojson",
+  "bbox": [
+   120.4471,
+   15.1704,
+   120.6287,
+   15.266
+  ],
+  "features": 28,
+  "placed": 28,
+  "priced": 187,
+  "kb": 21
+ },
+ "Macabebe": {
+  "file": "macabebe.geojson",
+  "bbox": [
+   120.6198,
+   14.7678,
+   120.7341,
+   14.9539
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 140,
+  "kb": 0
+ },
+ "Magalang": {
+  "file": "magalang.geojson",
+  "bbox": [
+   120.6131,
+   15.1846,
+   120.7383,
+   15.2786
+  ],
+  "features": 18,
+  "placed": 18,
+  "priced": 184,
+  "kb": 8
+ },
+ "Masantol": {
+  "file": "masantol.geojson",
+  "bbox": [
+   120.6508,
+   14.7735,
+   120.7301,
+   14.9008
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 61,
+  "kb": 0
+ },
+ "Mexico": {
+  "file": "mexico.geojson",
+  "bbox": [
+   120.6207,
+   15.0279,
+   120.7822,
+   15.1887
+  ],
+  "features": 33,
+  "placed": 34,
+  "priced": 535,
+  "kb": 42
+ },
+ "Minalin": {
+  "file": "minalin.geojson",
+  "bbox": [
+   120.6343,
+   14.9238,
+   120.7489,
+   15.0059
+  ],
+  "features": 1,
+  "placed": 1,
+  "priced": 18,
+  "kb": 0
+ },
+ "Porac": {
+  "file": "porac.geojson",
+  "bbox": [
+   120.3561,
+   15.016,
+   120.5935,
+   15.201
+  ],
+  "features": 8,
+  "placed": 9,
+  "priced": 131,
+  "kb": 7
+ },
+ "San Fernando": {
+  "file": "san-fernando.geojson",
+  "bbox": [
+   120.6036,
+   15.0045,
+   120.7246,
+   15.136
+  ],
+  "features": 127,
+  "placed": 140,
+  "priced": 455,
+  "kb": 128
+ },
+ "San Luis (Pampanga)": {
+  "file": "san-luis-pampanga.geojson",
+  "bbox": [
+   120.7571,
+   14.9855,
+   120.8852,
+   15.079
+  ],
+  "features": 2,
+  "placed": 2,
+  "priced": 131,
+  "kb": 1
+ },
+ "San Simon": {
+  "file": "san-simon.geojson",
+  "bbox": [
+   120.7254,
+   14.9779,
+   120.8745,
+   15.0378
+  ],
+  "features": 5,
+  "placed": 5,
+  "priced": 183,
+  "kb": 3
+ },
+ "Santa Ana": {
+  "file": "santa-ana.geojson",
+  "bbox": [
+   120.6948,
+   15.064,
+   120.7969,
+   15.1518
+  ],
+  "features": 1,
+  "placed": 1,
+  "priced": 103,
+  "kb": 1
+ },
+ "Santa Rita": {
+  "file": "santa-rita.geojson",
+  "bbox": [
+   120.5669,
+   14.9899,
+   120.6301,
+   15.0505
+  ],
+  "features": 7,
+  "placed": 9,
+  "priced": 113,
+  "kb": 3
+ },
+ "Santo Tomas (Pampanga)": {
+  "file": "santo-tomas-pampanga.geojson",
+  "bbox": [
+   120.6976,
+   14.9755,
+   120.732,
+   15.0249
+  ],
+  "features": 17,
+  "placed": 19,
+  "priced": 84,
+  "kb": 13
+ },
+ "Sasmuan": {
+  "file": "sasmuan.geojson",
+  "bbox": [
+   120.5988,
+   14.8048,
+   120.65,
+   14.9586
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 53,
+  "kb": 0
+ },
+ "Botolan": {
+  "file": "botolan.geojson",
+  "bbox": [
+   119.9919,
+   15.1004,
+   120.3732,
+   15.3632
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 76,
+  "kb": 0
+ },
+ "Cabangan": {
+  "file": "cabangan.geojson",
+  "bbox": [
+   120.0226,
+   15.0889,
+   120.2038,
+   15.236
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 56,
+  "kb": 0
+ },
+ "Candelaria (Zambales)": {
+  "file": "candelaria-zambales.geojson",
+  "bbox": [
+   119.9101,
+   15.5574,
+   120.2594,
+   15.6978
+  ],
+  "features": 9,
+  "placed": 12,
+  "priced": 80,
+  "kb": 4
+ },
+ "Castillejos": {
+  "file": "castillejos.geojson",
+  "bbox": [
+   120.1208,
+   14.8779,
+   120.3307,
+   14.9728
+  ],
+  "features": 8,
+  "placed": 8,
+  "priced": 53,
+  "kb": 4
+ },
+ "Iba": {
+  "file": "iba.geojson",
+  "bbox": [
+   119.9287,
+   15.3017,
+   120.1684,
+   15.4006
+  ],
+  "features": 17,
+  "placed": 23,
+  "priced": 95,
+  "kb": 8
+ },
+ "Masinloc": {
+  "file": "masinloc.geojson",
+  "bbox": [
+   119.9032,
+   15.4721,
+   120.2226,
+   15.5983
+  ],
+  "features": 21,
+  "placed": 26,
+  "priced": 81,
+  "kb": 9
+ },
+ "Olongapo": {
+  "file": "olongapo.geojson",
+  "bbox": [
+   120.224,
+   14.7387,
+   120.362,
+   14.9118
+  ],
+  "features": 385,
+  "placed": 520,
+  "priced": 813,
+  "kb": 225
+ },
+ "Palauig": {
+  "file": "palauig.geojson",
+  "bbox": [
+   119.8901,
+   15.3863,
+   120.1908,
+   15.5191
+  ],
+  "features": 9,
+  "placed": 12,
+  "priced": 85,
+  "kb": 4
+ },
+ "San Antonio (Zambales)": {
+  "file": "san-antonio-zambales.geojson",
+  "bbox": [
+   120.0542,
+   14.7384,
+   120.1594,
+   14.9796
+  ],
+  "features": 16,
+  "placed": 19,
+  "priced": 63,
+  "kb": 7
+ },
+ "San Felipe": {
+  "file": "san-felipe.geojson",
+  "bbox": [
+   120.0486,
+   15.0313,
+   120.2138,
+   15.125
+  ],
+  "features": 40,
+  "placed": 40,
+  "priced": 67,
+  "kb": 19
+ },
+ "San Marcelino": {
+  "file": "san-marcelino.geojson",
+  "bbox": [
+   120.1275,
+   14.932,
+   120.4278,
+   15.1015
+  ],
+  "features": 3,
+  "placed": 3,
+  "priced": 44,
+  "kb": 2
+ },
+ "San Narciso (Zambales)": {
+  "file": "san-narciso-zambales.geojson",
+  "bbox": [
+   120.0607,
+   14.9758,
+   120.181,
+   15.0431
+  ],
+  "features": 14,
+  "placed": 14,
+  "priced": 38,
+  "kb": 6
+ },
+ "Santa Cruz (Zambales)": {
+  "file": "santa-cruz-zambales.geojson",
+  "bbox": [
+   119.7858,
+   15.6783,
+   120.2151,
+   15.8742
+  ],
+  "features": 2,
+  "placed": 2,
+  "priced": 73,
+  "kb": 1
+ },
+ "Subic": {
+  "file": "subic.geojson",
+  "bbox": [
+   120.1362,
+   14.7384,
+   120.4622,
+   14.967
+  ],
+  "features": 20,
+  "placed": 20,
+  "priced": 84,
+  "kb": 12
+ },
+ "Agdangan": {
+  "file": "agdangan.geojson",
+  "bbox": [
+   121.8896,
+   13.8506,
+   121.9517,
+   13.9251
+  ],
+  "features": 20,
+  "placed": 20,
+  "priced": 80,
+  "kb": 11
+ },
+ "Alabat": {
+  "file": "alabat.geojson",
+  "bbox": [
+   121.9746,
+   14.0597,
+   122.0778,
+   14.1849
+  ],
+  "features": 36,
+  "placed": 36,
+  "priced": 145,
+  "kb": 17
+ },
+ "Atimonan": {
+  "file": "atimonan.geojson",
+  "bbox": [
+   121.7419,
+   13.8975,
+   122.0476,
+   14.0781
+  ],
+  "features": 78,
+  "placed": 95,
+  "priced": 269,
+  "kb": 40
+ },
+ "Buenavista": {
+  "file": "buenavista.geojson",
+  "bbox": [
+   122.36,
+   13.6606,
+   122.5238,
+   13.8169
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 121,
+  "kb": 0
+ },
+ "Burdeos": {
+  "file": "burdeos.geojson",
+  "bbox": [
+   121.9151,
+   14.7802,
+   122.1837,
+   15.0459
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 15,
+  "kb": 0
+ },
+ "Calauag": {
+  "file": "calauag.geojson",
+  "bbox": [
+   122.1638,
+   13.8957,
+   122.3922,
+   14.2458
+  ],
+  "features": 44,
+  "placed": 50,
+  "priced": 304,
+  "kb": 24
+ },
+ "Candelaria (Quezon)": {
+  "file": "candelaria-quezon.geojson",
+  "bbox": [
+   121.37,
+   13.8392,
+   121.4786,
+   14.0648
+  ],
+  "features": 58,
+  "placed": 58,
+  "priced": 192,
+  "kb": 30
+ },
+ "Catanauan": {
+  "file": "catanauan.geojson",
+  "bbox": [
+   122.1979,
+   13.5475,
+   122.4066,
+   13.7294
+  ],
+  "features": 62,
+  "placed": 64,
+  "priced": 199,
+  "kb": 30
+ },
+ "Dolores": {
+  "file": "dolores.geojson",
+  "bbox": [
+   121.3469,
+   13.9732,
+   121.4557,
+   14.0647
+  ],
+  "features": 41,
+  "placed": 41,
+  "priced": 71,
+  "kb": 16
+ },
+ "General Luna": {
+  "file": "general-luna.geojson",
+  "bbox": [
+   122.1538,
+   13.6306,
+   122.3009,
+   13.7492
+  ],
+  "features": 80,
+  "placed": 81,
+  "priced": 141,
+  "kb": 33
+ },
+ "General Nakar": {
+  "file": "general-nakar.geojson",
+  "bbox": [
+   121.329,
+   14.5952,
+   121.6501,
+   15.2169
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 39,
+  "kb": 0
+ },
+ "Guinayangan": {
+  "file": "guinayangan.geojson",
+  "bbox": [
+   122.3421,
+   13.7643,
+   122.521,
+   14.1081
+  ],
+  "features": 2,
+  "placed": 2,
+  "priced": 89,
+  "kb": 1
+ },
+ "Gumaca": {
+  "file": "gumaca.geojson",
+  "bbox": [
+   122.0265,
+   13.7966,
+   122.209,
+   13.954
+  ],
+  "features": 56,
+  "placed": 69,
+  "priced": 232,
+  "kb": 28
+ },
+ "Infanta": {
+  "file": "infanta.geojson",
+  "bbox": [
+   121.452,
+   14.5409,
+   121.7339,
+   14.7768
+  ],
+  "features": 32,
+  "placed": 32,
+  "priced": 124,
+  "kb": 15
+ },
+ "Jomalig": {
+  "file": "jomalig.geojson",
+  "bbox": [
+   122.3064,
+   14.6747,
+   122.4383,
+   14.7337
+  ],
+  "features": 4,
+  "placed": 4,
+  "priced": 16,
+  "kb": 4
+ },
+ "Lopez": {
+  "file": "lopez.geojson",
+  "bbox": [
+   122.1842,
+   13.7181,
+   122.3993,
+   13.9911
+  ],
+  "features": 35,
+  "placed": 43,
+  "priced": 437,
+  "kb": 20
+ },
+ "Lucban": {
+  "file": "lucban.geojson",
+  "bbox": [
+   121.4862,
+   14.0565,
+   121.6752,
+   14.1745
+  ],
+  "features": 149,
+  "placed": 151,
+  "priced": 272,
+  "kb": 77
+ },
+ "Lucena": {
+  "file": "lucena.geojson",
+  "bbox": [
+   121.5547,
+   13.8907,
+   121.6927,
+   13.9901
+  ],
+  "features": 216,
+  "placed": 216,
+  "priced": 419,
+  "kb": 129
+ },
+ "Macalelon": {
+  "file": "macalelon.geojson",
+  "bbox": [
+   122.1167,
+   13.7139,
+   122.275,
+   13.8096
+  ],
+  "features": 37,
+  "placed": 37,
+  "priced": 114,
+  "kb": 18
+ },
+ "Mauban": {
+  "file": "mauban.geojson",
+  "bbox": [
+   121.5961,
+   14.0485,
+   121.8514,
+   14.4423
+  ],
+  "features": 28,
+  "placed": 28,
+  "priced": 118,
+  "kb": 17
+ },
+ "Mulanay": {
+  "file": "mulanay.geojson",
+  "bbox": [
+   122.3663,
+   13.4103,
+   122.5551,
+   13.6517
+  ],
+  "features": 46,
+  "placed": 46,
+  "priced": 151,
+  "kb": 21
+ },
+ "Padre Burgos": {
+  "file": "padre-burgos.geojson",
+  "bbox": [
+   121.7833,
+   13.8787,
+   121.9198,
+   13.9883
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 84,
+  "kb": 0
+ },
+ "Pagbilao": {
+  "file": "pagbilao.geojson",
+  "bbox": [
+   121.6345,
+   13.8836,
+   121.8197,
+   14.0563
+  ],
+  "features": 92,
+  "placed": 92,
+  "priced": 172,
+  "kb": 56
+ },
+ "Panukulan": {
+  "file": "panukulan.geojson",
+  "bbox": [
+   121.8014,
+   14.8861,
+   121.9816,
+   15.0583
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 14,
+  "kb": 0
+ },
+ "Patnanungan": {
+  "file": "patnanungan.geojson",
+  "bbox": [
+   122.0939,
+   14.7206,
+   122.2644,
+   14.869
+  ],
+  "features": 4,
+  "placed": 4,
+  "priced": 40,
+  "kb": 2
+ },
+ "Perez": {
+  "file": "perez.geojson",
+  "bbox": [
+   121.9135,
+   14.1237,
+   122.0027,
+   14.2357
+  ],
+  "features": 16,
+  "placed": 16,
+  "priced": 128,
+  "kb": 8
+ },
+ "Pitogo": {
+  "file": "pitogo.geojson",
+  "bbox": [
+   122.0236,
+   13.7588,
+   122.1459,
+   13.8606
+  ],
+  "features": 20,
+  "placed": 20,
+  "priced": 196,
+  "kb": 10
+ },
+ "Plaridel (Quezon)": {
+  "file": "plaridel-quezon.geojson",
+  "bbox": [
+   121.985,
+   13.9154,
+   122.0401,
+   13.9773
+  ],
+  "features": 2,
+  "placed": 2,
+  "priced": 21,
+  "kb": 1
+ },
+ "Polillo": {
+  "file": "polillo.geojson",
+  "bbox": [
+   121.866,
+   14.4,
+   122.0457,
+   14.9044
+  ],
+  "features": 4,
+  "placed": 4,
+  "priced": 53,
+  "kb": 2
+ },
+ "Quezon": {
+  "file": "quezon.geojson",
+  "bbox": [
+   122.0587,
+   14.0003,
+   122.1898,
+   14.1268
+  ],
+  "features": 50,
+  "placed": 82,
+  "priced": 221,
+  "kb": 23
+ },
+ "Real": {
+  "file": "real.geojson",
+  "bbox": [
+   121.4812,
+   14.2898,
+   121.6591,
+   14.6921
+  ],
+  "features": 8,
+  "placed": 8,
+  "priced": 63,
+  "kb": 4
+ },
+ "Sampaloc": {
+  "file": "sampaloc.geojson",
+  "bbox": [
+   121.59,
+   14.1214,
+   121.6829,
+   14.2609
+  ],
+  "features": 20,
+  "placed": 20,
+  "priced": 51,
+  "kb": 9
+ },
+ "San Andres": {
+  "file": "san-andres.geojson",
+  "bbox": [
+   122.5819,
+   13.2111,
+   122.7254,
+   13.4452
+  ],
+  "features": 20,
+  "placed": 20,
+  "priced": 42,
+  "kb": 11
+ },
+ "San Antonio (Quezon)": {
+  "file": "san-antonio-quezon.geojson",
+  "bbox": [
+   121.2372,
+   13.8626,
+   121.3708,
+   13.9484
+  ],
+  "features": 0,
+  "placed": 0,
+  "priced": 49,
+  "kb": 0
+ },
+ "San Francisco": {
+  "file": "san-francisco.geojson",
+  "bbox": [
+   122.4893,
+   13.1621,
+   122.6633,
+   13.4464
+  ],
+  "features": 2,
+  "placed": 2,
+  "priced": 66,
+  "kb": 1
+ },
+ "San Narciso (Quezon)": {
+  "file": "san-narciso-quezon.geojson",
+  "bbox": [
+   122.4009,
+   13.4223,
+   122.6487,
+   13.697
+  ],
+  "features": 98,
+  "placed": 98,
+  "priced": 191,
+  "kb": 50
+ },
+ "Sariaya": {
+  "file": "sariaya.geojson",
+  "bbox": [
+   121.4264,
+   13.8171,
+   121.5833,
+   14.0611
+  ],
+  "features": 96,
+  "placed": 98,
+  "priced": 208,
+  "kb": 47
+ },
+ "Tagkawayan": {
+  "file": "tagkawayan.geojson",
+  "bbox": [
+   122.3707,
+   13.9229,
+   122.7925,
+   14.1502
+  ],
+  "features": 7,
+  "placed": 7,
+  "priced": 136,
+  "kb": 5
+ },
+ "Tayabas": {
+  "file": "tayabas.geojson",
+  "bbox": [
+   121.4787,
+   13.9462,
+   121.7545,
+   14.0994
+  ],
+  "features": 191,
+  "placed": 191,
+  "priced": 473,
+  "kb": 94
+ },
+ "Tiaong": {
+  "file": "tiaong.geojson",
+  "bbox": [
+   121.2421,
+   13.8448,
+   121.4007,
+   14.0005
+  ],
+  "features": 76,
+  "placed": 76,
+  "priced": 175,
+  "kb": 36
+ },
+ "Unisan": {
+  "file": "unisan.geojson",
+  "bbox": [
+   121.9418,
+   13.8011,
+   122.0603,
+   13.9175
+  ],
+  "features": 52,
+  "placed": 52,
+  "priced": 158,
+  "kb": 23
  }
 }

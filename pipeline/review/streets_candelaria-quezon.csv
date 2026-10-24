@@ -1,0 +1,197 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Buenavista East,ALL LOTS,,1500.0,DO 13-2020,unmatched,Sitio Awas (33),0
+I,Buenavista East,ALL LOTS,,1400.0,DO 13-2020,unmatched,Sitio Awas (33),0
+RR,Buenavista East,ALL LOTS,,725.0,DO 13-2020,unmatched,Sitio Awas (33),0
+CR,Buenavista West,ALL LOTS,,1500.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+I,Buenavista West,ALL LOTS,,1400.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+RR,Buenavista West,ALL LOTS,,725.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+CR,Bukal Norte,ALL LOTS,,1400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Bukal Norte,ALL LOTS,,675.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Bukal Sur,ALL LOTS,ALONG BYPASS ROAD,3230.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+I,Bukal Sur,PGM SUBD.,,3200.0,DO 13-2020,unmatched,PGM Residential Estate (33),0
+CR,Bukal Sur,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,3030.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+CR,Bukal Sur,PGM SUBD.,,3000.0,DO 13-2020,unmatched,PGM Residential Estate (33),0
+CR,Bukal Sur,SOUTH SPRING,,3000.0,DO 13-2020,unmatched,Lourdes Village (33),0
+CR,Bukal Sur,HIDDEN GREENLAND SUBD,,3000.0,DO 13-2020,unmatched,PGM Residential Estate (45),0
+CR,Bukal Sur,ALL LOTS,INTERIOR,1700.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+RR,Bukal Sur,ALL LOTS,ALONG BYPASS ROAD,1500.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+RR,Bukal Sur,PGM SUBD.,,1500.0,DO 13-2020,unmatched,PGM Residential Estate (33),0
+RR,Bukal Sur,SOUTH SPRING,,1500.0,DO 13-2020,unmatched,Lourdes Village (33),0
+RR,Bukal Sur,HIDDEN GREENLAND SUBD,,1500.0,DO 13-2020,unmatched,PGM Residential Estate (45),0
+RR,Bukal Sur,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,1300.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+RR,Bukal Sur,ALL LOTS,INTERIOR,825.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+CR,Bukal Sur,ALVINVILLE SUBDIVISION,,3000.0,DO 13-2020,village,Alvinville subd.,100
+CR,Bukal Sur,LOURDES SUBD.,,3000.0,DO 13-2020,village,Lourdes Village,100
+RR,Bukal Sur,ALVINVILLE SUBDIVISION,,1500.0,DO 13-2020,village,Alvinville subd.,100
+RR,Bukal Sur,LOURDES SUBD.,,1500.0,DO 13-2020,village,Lourdes Village,100
+CR,Kinatihan I,ALL LOTS,,1500.0,DO 13-2020,unmatched,Luzon (31),0
+I,Kinatihan I,ALL LOTS,,1400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Kinatihan I,ALL LOTS,,725.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Kinatihan II,ALL LOTS,,1500.0,DO 13-2020,unmatched,Luzon (31),0
+I,Kinatihan II,ALL LOTS,,1400.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Kinatihan II,ALL LOTS,,725.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Malabanban Norte,SAN PEDRO SUBD.,,3400.0,DO 13-2020,street,San Pedro Subdivision,100
+RR,Malabanban Norte,SAN PEDRO SUBD.,,1700.0,DO 13-2020,street,San Pedro Subdivision,100
+CR,Malabanban Norte,BIJO SUBDIVISION,,3400.0,DO 13-2020,unmatched,Bico (75),0
+I,Malabanban Norte,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,3200.0,DO 13-2020,unmatched,Santo Niño Subdivision (33),0
+CR,Malabanban Norte,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,3000.0,DO 13-2020,unmatched,Santo Niño Subdivision (33),0
+CR,Malabanban Norte,ALL LOTS,INTERIOR,2000.0,DO 13-2020,unmatched,Santo Niño Subdivision (33),0
+RR,Malabanban Norte,BIJO SUBDIVISION,,1700.0,DO 13-2020,unmatched,Bico (75),0
+RR,Malabanban Norte,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,1500.0,DO 13-2020,unmatched,Santo Niño Subdivision (33),0
+RR,Malabanban Norte,ALL LOTS,INTERIOR,1000.0,DO 13-2020,unmatched,Santo Niño Subdivision (33),0
+CR,Malabanban Norte,STO. NINO SUBD.,,3400.0,DO 13-2020,village,Santo Niño Subdivision,88.88888888888889
+CR,Malabanban Norte,MJ VILLE SUBD.,,3400.0,DO 13-2020,village,MJ Ville,100
+CR,Malabanban Norte,LOREMA SUBD.,,3400.0,DO 13-2020,village,Lorema Subdivision,100
+CR,Malabanban Norte,MALIWANAG SUBD.,,3400.0,DO 13-2020,village,Maliwanag,100
+CR,Malabanban Norte,DONA MARGARITA SUBD.,,3400.0,DO 13-2020,village,Doña Margarita Subdivision,100
+CR,Malabanban Norte,LEAH MONICA VILLAGE,,3400.0,DO 13-2020,village,Leah Monica Village,100
+RR,Malabanban Norte,STO. NINO SUBD.,,1700.0,DO 13-2020,village,Santo Niño Subdivision,88.88888888888889
+RR,Malabanban Norte,MJ VILLE SUBD.,,1700.0,DO 13-2020,village,MJ Ville,100
+RR,Malabanban Norte,LOREMA SUBD.,,1700.0,DO 13-2020,village,Lorema Subdivision,100
+RR,Malabanban Norte,MALIWANAG SUBD.,,1700.0,DO 13-2020,village,Maliwanag,100
+RR,Malabanban Norte,DONA MARGARITA SUBD.,,1700.0,DO 13-2020,village,Doña Margarita Subdivision,100
+RR,Malabanban Norte,LEAH MONICA VILLAGE,,1700.0,DO 13-2020,village,Leah Monica Village,100
+I,Malabanban Sur,ALL LOTS,ALONG MAHARLIKA HIGHWAY,3200.0,DO 13-2020,unmatched,Maligaya Site (38),0
+CR,Malabanban Sur,ALL LOTS,ALONG MAHARLIKA HIGHWAY,3000.0,DO 13-2020,unmatched,Maligaya Site (38),0
+CR,Malabanban Sur,ALL LOTS,ALONG BYPASS ROAD,3000.0,DO 13-2020,unmatched,Maligaya Site (38),0
+CR,Malabanban Sur,EASTER MANSIONS,,3000.0,DO 13-2020,unmatched,Eastern Spring (71),0
+CR,Malabanban Sur,MADRES TAKYA,,2800.0,DO 13-2020,unmatched,Maligaya Site (42),0
+CR,Malabanban Sur,JUAN MIGUEL VILLAGE,,2800.0,DO 13-2020,unmatched,J.M (43),0
+I,Malabanban Sur,ALL LOTS,INTERIOR,2200.0,DO 13-2020,unmatched,Maligaya Site (38),0
+CR,Malabanban Sur,ALL LOTS,INTERIOR,2000.0,DO 13-2020,unmatched,Maligaya Site (38),0
+RR,Malabanban Sur,MADRES TAKYA,,1550.0,DO 13-2020,unmatched,Maligaya Site (42),0
+RR,Malabanban Sur,ALL LOTS,ALONG MAHARLIKA HIGHWAY,1500.0,DO 13-2020,unmatched,Maligaya Site (38),0
+RR,Malabanban Sur,ALL LOTS,ALONG BYPASS ROAD,1500.0,DO 13-2020,unmatched,Maligaya Site (38),0
+RR,Malabanban Sur,EASTER MANSIONS,,1500.0,DO 13-2020,unmatched,Eastern Spring (71),0
+RR,Malabanban Sur,JUAN MIGUEL VILLAGE,,1400.0,DO 13-2020,unmatched,J.M (43),0
+RR,Malabanban Sur,ALL LOTS,INTERIOR,1000.0,DO 13-2020,unmatched,Maligaya Site (38),0
+CR,Malabanban Sur,DON ESTANISLAO VILLAGE,,2400.0,DO 13-2020,village,Don Estanislao Village,100
+RR,Malabanban Sur,DON ESTANISLAO VILLAGE,,1200.0,DO 13-2020,village,Don Estanislao Village,100
+CR,Mangilag Norte,MARYLAND SUBD.,,2400.0,DO 13-2020,unmatched,Merry Land (78),0
+I,Mangilag Norte,ALL LOTS,,2200.0,DO 13-2020,unmatched,San Antonio Village (32),0
+CR,Mangilag Norte,ALL LOTS,,2000.0,DO 13-2020,unmatched,San Antonio Village (32),0
+RR,Mangilag Norte,MARYLAND SUBD.,,1200.0,DO 13-2020,unmatched,Merry Land (78),0
+RR,Mangilag Norte,ALL LOTS,,1000.0,DO 13-2020,unmatched,San Antonio Village (32),0
+CR,Mangilag Norte,MARYLAND SUBD.,INTERIOR,700.0,DO 13-2020,unmatched,Merry Land (78),0
+RR,Mangilag Norte,MARYLAND SUBD.,INTERIOR,500.0,DO 13-2020,unmatched,Merry Land (78),0
+CR,Mangilag Sur,CRISTINE VILLAGE,,2400.0,DO 13-2020,street,Cristina Village,92.3076923076923
+RR,Mangilag Sur,CRISTINE VILLAGE,,1200.0,DO 13-2020,street,Cristina Village,92.3076923076923
+I,Mangilag Sur,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,3300.0,DO 13-2020,unmatched,San Antonio Village (32),0
+CR,Mangilag Sur,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,3000.0,DO 13-2020,unmatched,San Antonio Village (32),0
+CR,Mangilag Sur,CASANDRA VILLAGE,,2400.0,DO 13-2020,unmatched,Maliwanag (47),0
+I,Mangilag Sur,ALL LOTS,INTERIOR,2200.0,DO 13-2020,unmatched,San Antonio Village (32),0
+CR,Mangilag Sur,ALL LOTS,INTERIOR,2000.0,DO 13-2020,unmatched,San Antonio Village (32),0
+RR,Mangilag Sur,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,1250.0,DO 13-2020,unmatched,San Antonio Village (32),0
+RR,Mangilag Sur,CASANDRA VILLAGE,,1200.0,DO 13-2020,unmatched,Maliwanag (47),0
+RR,Mangilag Sur,ALL LOTS,INTERIOR,1000.0,DO 13-2020,unmatched,San Antonio Village (32),0
+CR,Mangilag Sur,SAN ANTONIO VILLAGE,,2400.0,DO 13-2020,village,San Antonio Village,100
+RR,Mangilag Sur,SAN ANTONIO VILLAGE,,1200.0,DO 13-2020,village,San Antonio Village,100
+CR,Masalukot I,ST. ANTHONY SUBD.,,2800.0,DO 13-2020,street,Saint Anthony Street,97
+RR,Masalukot I,ST. ANTHONY SUBD.,,1400.0,DO 13-2020,street,Saint Anthony Street,97
+CR,Masalukot I,VILLAGE OF ST JUDE,,3400.0,DO 13-2020,unmatched,VSJ Subdivision (29),0
+CR,Masalukot I,HIDDEN GREENLAND II,,2800.0,DO 13-2020,unmatched,School View Park (0),0
+CR,Masalukot I,VILLA SOL SUBD.,,2800.0,DO 13-2020,unmatched,School View Park (48),0
+CR,Masalukot I,VILLA MACARIA,,2800.0,DO 13-2020,unmatched,School View Park (34),0
+CR,Masalukot I,MA. CRISTINA VILLAGE,,2800.0,DO 13-2020,unmatched,Don Isidro Heights (29),0
+CR,Masalukot I,FAUSTIN FLORA VILLE,,2800.0,DO 13-2020,unmatched,School View Park (40),0
+CR,Masalukot I,PALM SPRING VILLE,,2800.0,DO 13-2020,unmatched,School View Park (48),0
+I,Masalukot I,ALL LOTS,,2200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Masalukot I,ALL LOTS,,2000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Masalukot I,VILLAGE OF ST JUDE,,1700.0,DO 13-2020,unmatched,VSJ Subdivision (29),0
+RR,Masalukot I,HIDDEN GREENLAND II,,1400.0,DO 13-2020,unmatched,School View Park (0),0
+RR,Masalukot I,VILLA SOL SUBD.,,1400.0,DO 13-2020,unmatched,School View Park (48),0
+RR,Masalukot I,VILLA MACARIA,,1400.0,DO 13-2020,unmatched,School View Park (34),0
+RR,Masalukot I,MA. CRISTINA VILLAGE,,1400.0,DO 13-2020,unmatched,Don Isidro Heights (29),0
+RR,Masalukot I,FAUSTIN FLORA VILLE,,1400.0,DO 13-2020,unmatched,School View Park (40),0
+RR,Masalukot I,PALM SPRING VILLE,,1400.0,DO 13-2020,unmatched,School View Park (48),0
+RR,Masalukot I,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Masalukot I,SCHOOL VIEW SUBD,,3400.0,DO 13-2020,village,School View Park,95
+RR,Masalukot I,SCHOOL VIEW SUBD,,1700.0,DO 13-2020,village,School View Park,95
+CR,Masalukot II,ALL LOTS,,1900.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Masalukot II,ALL LOTS,,925.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Masalukot III,ALL LOTS,,1900.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Masalukot III,ALL LOTS,,925.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Masalukot IV,ALL LOTS,,1700.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Masalukot IV,ALL LOTS,,825.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Masalukot V,ALL LOTS,,1800.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Masalukot V,ALL LOTS,,875.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Masin Norte,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,3000.0,DO 13-2020,unmatched,Maria Consuelo Compound (36),0
+I,Masin Norte,ALL LOTS,INTERIOR,2200.0,DO 13-2020,unmatched,Maria Consuelo Compound (36),0
+CR,Masin Norte,ALL LOTS,INTERIOR,2000.0,DO 13-2020,unmatched,Maria Consuelo Compound (36),0
+RR,Masin Norte,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,1500.0,DO 13-2020,unmatched,Maria Consuelo Compound (36),0
+RR,Masin Norte,ALL LOTS,INTERIOR,1000.0,DO 13-2020,unmatched,Maria Consuelo Compound (36),0
+CR,Masin Sur,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,3000.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+CR,Masin Sur,MILLIONAIRES VILLAGE,,3000.0,DO 13-2020,unmatched,Nadres Subdivision (50),0
+CR,Masin Sur,ALL LOTS,INTERIOR,2000.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+RR,Masin Sur,ALL LOTS,ALONG MAHARLIKA NAT'L. HIGHWAY,1500.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+RR,Masin Sur,MILLIONAIRES VILLAGE,,1500.0,DO 13-2020,unmatched,Nadres Subdivision (50),0
+RR,Masin Sur,ALL LOTS,INTERIOR,1000.0,DO 13-2020,unmatched,West Valley Subdivision (53),0
+CR,Mayabobo,ALL LOTS,,1400.0,DO 13-2020,unmatched,Luzon (31),0
+I,Mayabobo,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Mayabobo,ALL LOTS,,675.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Pahinga Norte,BONAVILLE SUBDIVISION,,3000.0,DO 13-2020,unmatched,Maria Consuelo Compound (35),0
+CR,Pahinga Norte,ISRAEL VILLAGE,,3000.0,DO 13-2020,unmatched,Isabel Village (83),0
+CR,Pahinga Norte,VILLA KATRINA,,2400.0,DO 13-2020,unmatched,Pinagpala Subd. (45),0
+CR,Pahinga Norte,VNH SUBDIVISION,,2400.0,DO 13-2020,unmatched,Luzon (25),0
+CR,Pahinga Norte,FRIENDSHIP SUBD.,,2400.0,DO 13-2020,unmatched,Maria Consuelo Compound (33),0
+CR,Pahinga Norte,BUNCAYO SUBD.,,2400.0,DO 13-2020,unmatched,Sitio Baloyboy (38),0
+I,Pahinga Norte,ALL LOTS,,2200.0,DO 13-2020,unmatched,Maligaya Site (38),0
+CR,Pahinga Norte,ALL LOTS,,2000.0,DO 13-2020,unmatched,Maligaya Site (38),0
+RR,Pahinga Norte,BONAVILLE SUBDIVISION,,1500.0,DO 13-2020,unmatched,Maria Consuelo Compound (35),0
+RR,Pahinga Norte,ISRAEL VILLAGE,,1500.0,DO 13-2020,unmatched,Isabel Village (83),0
+RR,Pahinga Norte,VILLA KATRINA,,1200.0,DO 13-2020,unmatched,Pinagpala Subd. (45),0
+RR,Pahinga Norte,VNH SUBDIVISION,,1200.0,DO 13-2020,unmatched,Luzon (25),0
+RR,Pahinga Norte,FRIENDSHIP SUBD.,,1200.0,DO 13-2020,unmatched,Maria Consuelo Compound (33),0
+RR,Pahinga Norte,BUNCAYO SUBD.,,1200.0,DO 13-2020,unmatched,Sitio Baloyboy (38),0
+RR,Pahinga Norte,ALL LOTS,,1000.0,DO 13-2020,unmatched,Maligaya Site (38),0
+I,Pahinga Sur,ALL LOTS,,2200.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Pahinga Sur,ALL LOTS,,2000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Pahinga Sur,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Poblacion,ALL OTHER STREETS,,4000.0,DO 13-2020,background,,0
+CR,Poblacion,ALL OTHER STREETS,INTERIOR LOTS,3000.0,DO 13-2020,background,,0
+RR,Poblacion,ALL OTHER STREETS,,2690.0,DO 13-2020,background,,0
+RR,Poblacion,ALL OTHER STREETS,INTERIOR LOTS,1500.0,DO 13-2020,background,,0
+CR,Poblacion,RIZAL ST,,32000.0,DO 13-2020,street,Rizal Street,100
+RR,Poblacion,RIZAL ST,,26000.0,DO 13-2020,street,Rizal Street,100
+CR,Poblacion,CABUÑAG ST,,24000.0,DO 13-2020,street,Cabuñag Street,100
+CR,Poblacion,ARGAO ST,,20000.0,DO 13-2020,street,Argao Street,100
+RR,Poblacion,CABUÑAG ST,,18000.0,DO 13-2020,street,Cabuñag Street,100
+RR,Poblacion,ARGAO ST,,11200.0,DO 13-2020,street,Argao Street,100
+CR,Poblacion,BUSTAMANTE ST,,10000.0,DO 13-2020,street,Bustamante Street,100
+CR,Poblacion,NADRES ST,,10000.0,DO 13-2020,street,Nadres Street,100
+CR,Poblacion,REGIDOR ST,,10000.0,DO 13-2020,street,Regidor Street,100
+CR,Poblacion,SALAZAR ST,,10000.0,DO 13-2020,street,Salazar Street,100
+CR,Poblacion,DEL VALLE ST,,9000.0,DO 13-2020,street,Del Valle Street,100
+RR,Poblacion,BUSTAMANTE ST,,7000.0,DO 13-2020,street,Bustamante Street,100
+CR,Poblacion,GONZALES ST,,7000.0,DO 13-2020,street,Gonzales Street,100
+CR,Poblacion,MARTINEZ ST,,7000.0,DO 13-2020,street,Martinez Street,100
+CR,Poblacion,ONA ST,,7000.0,DO 13-2020,street,Ona Street,100
+RR,Poblacion,DEL VALLE ST,,6200.0,DO 13-2020,street,Del Valle Street,100
+CR,Poblacion,DE GALA ST,,6000.0,DO 13-2020,street,De Gala Street,100
+RR,Poblacion,NADRES ST,,6000.0,DO 13-2020,street,Nadres Street,100
+RR,Poblacion,REGIDOR ST,,6000.0,DO 13-2020,street,Regidor Street,100
+RR,Poblacion,SALAZAR ST,,6000.0,DO 13-2020,street,Salazar Street,100
+CR,Poblacion,ALDAY ST,,5000.0,DO 13-2020,street,Alday Street,100
+CR,Poblacion,RAMOS EXT,,5000.0,DO 13-2020,street,Ramos Extension,100
+RR,Poblacion,ONA ST,,4500.0,DO 13-2020,street,Ona Street,100
+RR,Poblacion,GONZALES ST,,4000.0,DO 13-2020,street,Gonzales Street,100
+RR,Poblacion,MARTINEZ ST,,4000.0,DO 13-2020,street,Martinez Street,100
+CR,Poblacion,CEDEÑO ST,,3500.0,DO 13-2020,street,Cedeño Street,100
+RR,Poblacion,DE GALA ST,,3500.0,DO 13-2020,street,De Gala Street,100
+RR,Poblacion,ALDAY ST,,2800.0,DO 13-2020,street,Alday Street,100
+RR,Poblacion,RAMOS EXT,,2800.0,DO 13-2020,street,Ramos Extension,100
+RR,Poblacion,CEDEÑO ST,,2600.0,DO 13-2020,street,Cedeño Street,100
+CR,San Andres,ALL LOTS,,1500.0,DO 13-2020,unmatched,Luzon (31),0
+I,San Andres,ALL LOTS,,1200.0,DO 13-2020,unmatched,Luzon (31),0
+RR,San Andres,ALL LOTS,,725.0,DO 13-2020,unmatched,Luzon (31),0
+CR,San Isidro,ALL LOTS,,1400.0,DO 13-2020,unmatched,Luzon (31),0
+I,San Isidro,ALL LOTS,,1000.0,DO 13-2020,unmatched,Luzon (31),0
+RR,San Isidro,ALL LOTS,,675.0,DO 13-2020,unmatched,Luzon (31),0
+CR,Santa Catalina Norte,ALL LOTS,,1600.0,DO 13-2020,unmatched,Sitio Lansonesan (33),0
+I,Santa Catalina Norte,ALL LOTS,,1400.0,DO 13-2020,unmatched,Sitio Lansonesan (33),0
+RR,Santa Catalina Norte,ALL LOTS,,775.0,DO 13-2020,unmatched,Sitio Lansonesan (33),0
+CR,Santa Catalina Sur,CIUDAD STA. CATALINA SUBD.,,2000.0,DO 13-2020,unmatched,Bohol Residence (24),0
+CR,Santa Catalina Sur,ALL LOTS,,1700.0,DO 13-2020,unmatched,Luzon (31),0
+I,Santa Catalina Sur,ALL LOTS,,1600.0,DO 13-2020,unmatched,Luzon (31),0
+RR,Santa Catalina Sur,CIUDAD STA. CATALINA SUBD.,,1000.0,DO 13-2020,unmatched,Bohol Residence (24),0
+RR,Santa Catalina Sur,ALL LOTS,,825.0,DO 13-2020,unmatched,Luzon (31),0

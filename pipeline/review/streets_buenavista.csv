@@ -1,0 +1,122 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+CR,Bagong Silang,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bagong Silang,ALL LOTS,ALONG NATIONAL ROAD,1700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bagong Silang,,ALONG BRGY ROAD,1350.0,DO 37-2022,unmatched,Luzon (0),0
+RR,Bagong Silang,,INTERIOR LOTS,1100.0,DO 37-2022,unmatched,Luzon (0),0
+CR,Batabat Norte,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Batabat Norte,ALL LOTS,(Lopez - Buenavista Road),1650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Batabat Norte,ALL LOTS,ALONG BRGY ROAD,1350.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Batabat Norte,ALL LOTS,INTERIOR LOTS,900.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Batabat Sur,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Batabat Sur,ALL LOTS,(Lopez - Buenavista Road),1650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Batabat Sur,ALL LOTS,ALONG BRGY. ROAD,1350.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Batabat Sur,ALL LOTS,INTERIOR LOTS,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Buenavista,ALL LOTS,ALONG BRGY ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Buenavista,ALL LOTS,INTERIOR LOTS,800.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Bukal,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bukal,ALL LOTS,ALONG NATIONAL ROAD,1350.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bukal,ALL LOTS,ALONG BRGY. ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bukal,ALL LOTS,INTERIOR LOTS,725.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bulo,ALL LOTS,ALONG BRGY ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Bulo,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cabong,ALL LOTS,ALONG BRGY ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cabong,ALL LOTS,INTERIOR LOTS,650.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Cadlit,ALL LOTS,SITIO CALUMPIT & SITIO PILI,1650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cadlit,ALL LOTS,SITIO CALUMPIT & SITIO PILI,1350.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Cadlit,ALL LOTS,ALONG BRGY. ROAD,1200.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cadlit,ALL LOTS,ALONG BRGY. ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cadlit,ALL LOTS,INTERIOR LOTS,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Catulin,ALL LOTS,ALONG BRGY ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Catulin,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cawa,ALL LOTS,ALONG BRGY ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Cawa,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+CR,De La Paz,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,De La Paz,ALL LOTS,ALONG NATIONAL ROAD,1350.0,DO 37-2022,unmatched,Luzon (31),0
+RR,De La Paz,ALL LOTS,ALONG BRGY. ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,De La Paz,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Del Rosario,ALL LOTS,ALONG BRGY ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Del Rosario,ALL LOTS,INTERIOR LOTS,650.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Hagonghong,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Hagonghong,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Hagonghong,ALL LOTS,ALONG BRGY ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Hagonghong,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Ibabang Wasay,ALL LOTS,ALONG NATIONAL ROAD,2400.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Ibabang Wasay,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Ibabang Wasay,ALL LOTS,ALONG BRGY. ROAD,1400.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Ibabang Wasay,ALL LOTS,INTERIOR LOTS,900.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Ilayang Wasay,ALL LOTS,ALONG NATIONAL ROAD,2400.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Ilayang Wasay,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Ilayang Wasay,ALL LOTS,INTERIOR LOTS,900.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Lilukin,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Lilukin,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Lilukin,ALL LOTS,ALONG BRGY. ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Lilukin,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Mabini,ALL LOTS,ALONG BRGY. ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Mabini,ALL LOTS,INTERIOR LOTS,550.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Mabutag,ALL LOTS,ALONG BRGY ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Mabutag,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Magallanes,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Magallanes,ALL LOTS,(Lopez - Buenavista Road),1350.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Magallanes,ALL LOTS,ALONG BRGY. ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Magallanes,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Maligaya,ALL LOTS,ALONG NATIONAL ROAD,1650.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Maligaya,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Maligaya,ALL LOTS,ALONG BRGY.ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Maligaya,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Manlana,ALL LOTS,ALONG BRGY ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Manlana,ALL LOTS,INTERIOR LOTS,680.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Masaya,ALL LOTS,ALONG BRGY ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Masaya,ALL LOTS,INTERIOR LOTS,500.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Poblacion,MANUEL LUIS QUEZON ST.,,2100.0,DO 37-2022,unmatched,Luzon (43),0
+CR,Poblacion,DON MARIANO SAN JOSE ST.,,2100.0,DO 37-2022,unmatched,Luzon (16),0
+CR,Poblacion,DON DOMINGO REYES ST.,,1950.0,DO 37-2022,unmatched,Luzon (19),0
+CR,Poblacion,ONA ST.,,1950.0,DO 37-2022,unmatched,Luzon (50),0
+CR,Poblacion,SAN LORENZO ST.,,1950.0,DO 37-2022,unmatched,Luzon (50),0
+CR,Poblacion,DON FELICIANO ROLDAN ST.,,1950.0,DO 37-2022,unmatched,Luzon (24),0
+CR,Poblacion,DON MARIANO UY ST.,MUNICIPAL HALL,1950.0,DO 37-2022,unmatched,Luzon (21),0
+CR,Poblacion,DON REGINO SAN JUAN ST.,,1950.0,DO 37-2022,unmatched,Luzon (25),0
+CR,Poblacion,CAWA ST.,,1950.0,DO 37-2022,unmatched,Luzon (0),0
+RR,Poblacion,ST. LAURENCE SUBD. (LAWRENCE),,1900.0,DO 37-2022,unmatched,Luzon (46),0
+RR,Poblacion,MANUEL LUIS QUEZON ST.,,1700.0,DO 37-2022,unmatched,Luzon (43),0
+RR,Poblacion,DON MARIANO SAN JOSE ST.,,1700.0,DO 37-2022,unmatched,Luzon (16),0
+RR,Poblacion,DON DOMINGO REYES ST.,,1600.0,DO 37-2022,unmatched,Luzon (19),0
+RR,Poblacion,ONA ST.,,1600.0,DO 37-2022,unmatched,Luzon (50),0
+RR,Poblacion,SAN LORENZO ST.,,1600.0,DO 37-2022,unmatched,Luzon (50),0
+RR,Poblacion,DON FELICIANO ROLDAN ST.,,1600.0,DO 37-2022,unmatched,Luzon (24),0
+RR,Poblacion,DON MARIANO UY ST.,MUNICIPAL HALL,1600.0,DO 37-2022,unmatched,Luzon (21),0
+RR,Poblacion,DON REGINO SAN JUAN ST.,,1600.0,DO 37-2022,unmatched,Luzon (25),0
+RR,Poblacion,CAWA ST.,,1600.0,DO 37-2022,unmatched,Luzon (0),0
+RR,Rizal,ALL LOTS,ALONG BRGY ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Rizal,ALL LOTS,INTERIOR LOTS,550.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Sabang Pinamasagan,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Sabang Pinamasagan,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Sabang Pinamasagan,ALL LOTS,ALONG BRGY. ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Sabang Pinamasagan,ALL LOTS,INTERIOR LOTS,680.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Sabang Piris,ALL LOTS,,850.0,DO 37-2022,unmatched,Luzon (31),0
+CR,San Diego,ALL LOTS,ALONG NATIONAL ROAD,1950.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Diego,ALL LOTS,ALONG NATIONAL ROAD,1700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Diego,ALL LOTS,ALONG BRGY. ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Diego,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Isidro Ibaba,ALL LOTS,ALONG BRGY ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Isidro Ibaba,ALL LOTS,INTERIOR LOTS,525.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Isidro Ilaya,ALL LOTS,ALONG BRGY ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Isidro Ilaya,ALL LOTS,INTERIOR LOTS,550.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Pablo,ALL LOTS,ALONG BRGY ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Pablo,ALL LOTS,INTERIOR LOTS,550.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Pedro,ALL LOTS,ALONG BRGY. ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Pedro,ALL LOTS,INTERIOR LOTS,525.0,DO 37-2022,unmatched,Luzon (31),0
+CR,San Vicente,ALL LOTS,ALONG BRGY. ROAD,850.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Vicente,ALL LOTS,ALONG BRGY. ROAD,725.0,DO 37-2022,unmatched,Luzon (31),0
+RR,San Vicente,,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (0),0
+RR,Siain,ALL LOTS,ALONG BRGY. ROAD,800.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Siain,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+CR,Villa Aurora,ALL LOTS,ALONG NATIONAL ROAD,1900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Villa Aurora,ALL LOTS,ALONG NATIONAL ROAD,1400.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Villa Aurora,ALL LOTS,ALONG BRGY. ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Villa Aurora,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Villa Batabat,ALL LOTS,ALONG BRGY. ROAD,900.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Villa Batabat,ALL LOTS,INTERIOR LOTS,700.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Villa Magsaysay,ALL LOTS,ALONG BRGY. ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Villa Magsaysay,ALL LOTS,INTERIOR LOTS,525.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Villa Veronica,ALL LOTS,ALONG BRGY. ROAD,750.0,DO 37-2022,unmatched,Luzon (31),0
+RR,Villa Veronica,ALL LOTS,INTERIOR LOTS,575.0,DO 37-2022,unmatched,Luzon (31),0

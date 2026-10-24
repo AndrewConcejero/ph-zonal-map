@@ -1,0 +1,44 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+RR,Amaga,ALL LOTS,,270.0,DO 13-2020,unmatched,Patnanongan Island (23),0
+RR,Busdak,ALL LOTS,,260.0,DO 13-2020,unmatched,Katakian Grande Island (27),0
+RR,Kilogan,ALL LOTS,,330.0,DO 13-2020,unmatched,Patnanongan Island (23),0
+RR,Luod,ALL LOTS,,270.0,DO 13-2020,unmatched,Patnanongan Island (23),0
+CR,Patnanungan Norte,ALL LOTS,,500.0,DO 13-2020,unmatched,Patnanongan Island (23),0
+RR,Patnanungan Norte,ALL LOTS,,300.0,DO 13-2020,unmatched,Patnanongan Island (23),0
+CR,Patnanungan Sur,ALL OTHER STREETS,,650.0,DO 13-2020,background,,0
+I,Patnanungan Sur,ALL OTHER STREETS,,360.0,DO 13-2020,background,,0
+RR,Patnanungan Sur,ALL OTHER STREETS,,350.0,DO 13-2020,background,,0
+CR,Patnanungan Sur,J. P. RIZAL ST.,,850.0,DO 13-2020,street,J. P. Rizal Street,100
+CR,Patnanungan Sur,EVANGELISTA ST.,,700.0,DO 13-2020,street,Evangelista Street,100
+RR,Patnanungan Sur,J. P. RIZAL ST.,,525.0,DO 13-2020,street,J. P. Rizal Street,100
+RR,Patnanungan Sur,EVANGELISTA ST.,,450.0,DO 13-2020,street,Evangelista Street,100
+CR,Patnanungan Sur,AGUILAR ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (40),0
+CR,Patnanungan Sur,CALIWARA ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (23),0
+CR,Patnanungan Sur,CORALDE ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (32),0
+CR,Patnanungan Sur,DEVEZA ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (17),0
+CR,Patnanungan Sur,DIAZ ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (18),0
+CR,Patnanungan Sur,ELMA ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (18),0
+CR,Patnanungan Sur,HERALDO ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (24),0
+CR,Patnanungan Sur,LERIA ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (17),0
+CR,Patnanungan Sur,MERCADO ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (24),0
+CR,Patnanungan Sur,REFOZO ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (8),0
+CR,Patnanungan Sur,REGODON ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (24),0
+CR,Patnanungan Sur,RODRIGUEZ ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (15),0
+CR,Patnanungan Sur,ST. ISADORE ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (40),0
+CR,Patnanungan Sur,TABUENA ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (32),0
+CR,Patnanungan Sur,DEMIN ST.,,700.0,DO 13-2020,unmatched,Patnanongan Island (17),0
+RR,Patnanungan Sur,AGUILAR ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (40),0
+RR,Patnanungan Sur,CALIWARA ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (23),0
+RR,Patnanungan Sur,CORALDE ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (32),0
+RR,Patnanungan Sur,DEVEZA ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (17),0
+RR,Patnanungan Sur,DIAZ ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (18),0
+RR,Patnanungan Sur,ELMA ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (18),0
+RR,Patnanungan Sur,HERALDO ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (24),0
+RR,Patnanungan Sur,LERIA ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (17),0
+RR,Patnanungan Sur,MERCADO ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (24),0
+RR,Patnanungan Sur,REFOZO ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (8),0
+RR,Patnanungan Sur,REGODON ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (24),0
+RR,Patnanungan Sur,RODRIGUEZ ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (15),0
+RR,Patnanungan Sur,ST. ISADORE ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (40),0
+RR,Patnanungan Sur,TABUENA ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (32),0
+RR,Patnanungan Sur,DEMIN ST.,,450.0,DO 13-2020,unmatched,Patnanongan Island (17),0
