@@ -15,6 +15,7 @@ Everything downloaded is cached in cache/factors/; flood layers are reduced to p
 """
 from __future__ import annotations
 
+import http.client
 import json
 import sys
 import time
@@ -54,9 +55,22 @@ def save(data: dict) -> None:
 
 
 def get(url: str, dest: Path, timeout: int = 600) -> Path:
-    if not dest.exists():
-        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
-            dest.write_bytes(r.read())
+    """Download once into the cache; a dropped connection (LiPAD's large layers) is retried, never cached half-read."""
+    for attempt in range(4):
+        if dest.exists():
+            break
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
+                body = r.read()
+            dest.write_bytes(body)
+        except urllib.error.HTTPError as err:
+            if err.code not in (429, 500, 502, 503, 504) or attempt == 3:
+                raise
+            time.sleep(30 * (attempt + 1))
+        except (http.client.IncompleteRead, TimeoutError, urllib.error.URLError, ConnectionError):
+            if attempt == 3:
+                raise
+            time.sleep(30 * (attempt + 1))
     return dest
 
 
