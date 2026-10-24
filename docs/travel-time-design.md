@@ -128,14 +128,14 @@ Later option: a "log my commute" form on the site to grow the trip set. That nee
 
 ### 3.1 Presets first, any target second
 
-**Preset destinations (phase 1).** About 24 points:
+**Preset destinations (phase 1).** 20 points, in `pipeline/traveltime_presets.csv`:
 
 - **Business districts**: Makati CBD (Ayala), BGC, Ortigas, Alabang (Filinvest), Binondo/Manila City Hall, Eastwood, Cubao/Araneta, Quezon City Hall/Triangle, the Bay Area (MOA/Aseana). The six already in `pipeline/insights.py` (`CBDS`) are the core.
 - **Universities** (confirmed): UP Diliman, Ateneo de Manila (Loyola Heights), De La Salle University (Taft), University of Santo Tomas (España, Sampaloc).
 - **Airports**: NAIA Terminals 1 and 3.
-- **Southern and northern job centres**: Nuvali/Santa Rosa, Calamba, Malolos, and the Clark direction if it is inside the network.
+- **Regional centres**: Nuvali/Santa Rosa, Calamba, Lipa, Malolos, Clark (main gate).
 
-Each preset is one coordinate at the main gate or a central point, listed in a reviewed CSV in `pipeline/` so it can be changed without code.
+Each preset is one coordinate at the main gate or a central point, so the list can change without code.
 
 - Size: 3,936 × 24 × 3 periods × 2 bounds (low and high), as whole minutes in uint16, is about 1.1 MB raw, roughly 400–500 KB gzipped. Better still, one small file per destination (about 24 KB raw), fetched only when chosen. The same pattern as `public/data/streets/`.
 - Compute: three OSRM tables of 3,936 × 20. Seconds.

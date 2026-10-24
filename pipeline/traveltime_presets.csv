@@ -1,0 +1,21 @@
+id,name,group,lon,lat
+makati,Makati CBD (Ayala),Business district,121.0244,14.5547
+bgc,BGC,Business district,121.0509,14.5502
+ortigas,Ortigas Center,Business district,121.0614,14.5869
+alabang,Alabang (Filinvest),Business district,121.0410,14.4186
+manila,Binondo / Manila City Hall,Business district,120.9750,14.6000
+eastwood,Eastwood,Business district,121.0798,14.6091
+cubao,Cubao (Araneta City),Business district,121.0533,14.6195
+qc,Quezon City Hall,Business district,121.0497,14.6468
+bay,Bay Area (SM Mall of Asia),Business district,120.9822,14.5352
+up,UP Diliman,University,121.0656,14.6549
+ateneo,Ateneo de Manila,University,121.0782,14.6398
+dlsu,De La Salle University,University,120.9932,14.5648
+ust,University of Santo Tomas,University,120.9894,14.6096
+naia1,NAIA Terminal 1,Airport,121.0004,14.5086
+naia3,NAIA Terminal 3,Airport,121.0198,14.5203
+nuvali,Nuvali (Santa Rosa),Regional centre,121.0563,14.2405
+calamba,Calamba,Regional centre,121.1610,14.2110
+lipa,Lipa City,Regional centre,121.1631,13.9411
+malolos,Malolos,Regional centre,120.8124,14.8433
+clark,Clark (main gate),Regional centre,120.5555,15.1849
