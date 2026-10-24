@@ -3,8 +3,8 @@
 Files already in the cache are skipped, and requests are spaced out, so re-running is cheap
 and polite. Delete cache/ to force a fresh download.
 
-Angeles City is a highly urbanised city and has no entry in Pampanga's 2023 file; its barangays are fetched
-directly (HUCS) and its outline is their union.
+Highly urbanised cities (Angeles, Olongapo, Lucena) have no entry in their province's 2023 file; their barangays
+are fetched directly (HUCS) and each outline is the union of its barangays.
 
 Uses the 2023 release (PSGC Dec 2023) everywhere except Manila. In that release Manila's
 barangay files are empty GeometryCollections, so Manila comes from the 2019 release, which
@@ -31,9 +31,11 @@ PROVDISTS = {
     '405800000': 'Rizal',
     '305400000': 'Pampanga',
     '401000000': 'Batangas',
+    '307100000': 'Zambales',
+    '405600000': 'Quezon',
 }
 # highly urbanised cities left out of their province's file in the 2023 release: code -> (name, display province)
-HUCS = {'330100000': ('Angeles', 'Pampanga')}
+HUCS = {'330100000': ('Angeles', 'Pampanga'), '331400000': ('Olongapo', 'Zambales'), '431200000': ('Lucena', 'Quezon')}
 MANILA_PSGC = '1380600000'
 MANILA_SUBMUNS_2019 = [f'ph1339{n:02d}000' for n in range(1, 15)]
 

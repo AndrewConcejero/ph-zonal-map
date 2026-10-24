@@ -37,8 +37,9 @@ CACHE = ROOT / 'cache' / 'factors'
 OUT = ROOT / 'cache' / 'factors.json'
 UA = {'User-Agent': 'ph-zonal-map/0.1 (https://github.com/AndrewConcejero/ph-zonal-map)'}
 LIPAD = 'https://lipad-fmc.dream.upd.edu.ph/geoserver/wfs'
-# NCR, Cavite, Laguna, Rizal, Bulacan, Pampanga (Angeles is ph035401), Batangas (2019 codes)
-PROVINCES = ('ph13', 'ph0421', 'ph0434', 'ph0458', 'ph0314', 'ph0354', 'ph0410')
+# NCR, Cavite, Laguna, Rizal, Bulacan, Pampanga (Angeles is ph035401), Batangas, Zambales (Olongapo is ph037107),
+# Quezon (Lucena is ph045624) (2019 codes)
+PROVINCES = ('ph13', 'ph0421', 'ph0434', 'ph0458', 'ph0314', 'ph0354', 'ph0410', 'ph0371', 'ph0456')
 
 
 def barangays() -> dict[str, object]:

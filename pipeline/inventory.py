@@ -40,7 +40,7 @@ UNREADABLE = BIR / '_unreadable'
 DUPLICATES = BIR / '_duplicates'
 REVIEW = Path(__file__).resolve().parent / 'review'
 CITIES = ROOT / 'public' / 'data' / 'cities.geojson'
-IN_SCOPE_PROVINCES = {'Metro Manila', 'Cavite', 'Laguna', 'Rizal', 'Bulacan', 'Pampanga', 'Batangas'}
+IN_SCOPE_PROVINCES = {'Metro Manila', 'Cavite', 'Laguna', 'Rizal', 'Bulacan', 'Pampanga', 'Batangas', 'Zambales', 'Quezon'}
 EXCEL_SUFFIXES = {'.xls', '.xlsx', '.xlsm'}
 HEADER_ROWS = 40  # DO number, date and subject sit in the first rows of each DO sheet
 
@@ -52,6 +52,7 @@ LGU_ALIASES = {
     'genemilioaguinaldo': 'General Emilio Aguinaldo', 'baliuag': 'Baliwag', 'obandoo': 'Obando',
     'stamaria': 'Santa Maria', 'stotomas': 'Santo Tomas', 'starosa': 'Santa Rosa', 'stacruz': 'Santa Cruz', 'gentrias': 'General Trias',
     'generaleaguinaldo': 'General Emilio Aguinaldo', 'geneaguinaldo': 'General Emilio Aguinaldo', 'bulakan': 'Bulacan',
+    'gennakar': 'General Nakar', 'genluna': 'General Luna', 'starita': 'Santa Rita', 'staana': 'Santa Ana',
 }
 
 
@@ -328,6 +329,23 @@ def read_notice(rows: list[list], notes: list[str]):
     return rdo, name, region, composition, composed_of, dos
 
 
+EFF_LABEL_RE = re.compile(r'EFF\w*\s*DATES?', re.I)
+
+
+def block_dates(book: Book, sheet: str, limit: int = 2000) -> list[date]:
+    """Dates written next to the 'Effectivity Date' label of each barangay block, in sheet order."""
+    out = []
+    for r in book.rows(sheet, limit):
+        for i, v in enumerate(r):
+            label = text(v)
+            if EFF_LABEL_RE.search(label):
+                after = [label.split(':', 1)[1]] if ':' in label else []
+                dt = next((d for d in map(parse_date, after + list(r[i + 1:i + 4])) if d), None)
+                if dt:
+                    out.append(dt)
+    return out
+
+
 def read_file(path: Path, gaz: Gazetteer) -> FileInfo:
     notes: list[str] = []
     book = Book(path)
@@ -383,10 +401,18 @@ def read_file(path: Path, gaz: Gazetteer) -> FileInfo:
         for d in dos.values():
             if d.in_notice and not d.sheets:
                 notes.append(f'{d.do}: listed in NOTICE but no sheet holds it')
-            if d.sheets and not d.in_notice:
-                notes.append(f'{d.do}: sheet {d.sheets} not listed in NOTICE; no effectivity date')
-            if d.in_notice and not d.froms:
-                notes.append(f'{d.do}: NOTICE gives no effectivity date')
+            if d.sheets and not d.froms:
+                # RDO 21A's NOTICE table is empty: each block of the sheet still carries its "Effectivity Date"
+                found = Counter(x for sname in d.sheets for x in block_dates(book, sname))
+                if found:
+                    eff = found.most_common(1)[0][0]
+                    d.froms.append(eff)
+                    notes.append(f'{d.do}: no effectivity date in NOTICE; using {eff} from {found[eff]} of '
+                                 f'{sum(found.values())} block headers in {d.sheets}')
+                elif not d.in_notice:
+                    notes.append(f'{d.do}: sheet {d.sheets} not listed in NOTICE; no effectivity date')
+                else:
+                    notes.append(f'{d.do}: NOTICE gives no effectivity date')
             if len(set(d.froms)) > 1:
                 notes.append(f'{d.do}: several effectivity dates by LGU {sorted(set(map(str, d.froms)))}; using the earliest')
         newest_subject = next((s for d, _, s in subject_rdos if newest and d == newest.do), '')
