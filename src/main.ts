@@ -19,6 +19,8 @@ interface Collection<P> { type: 'FeatureCollection'; features: { type: 'Feature'
 interface Meta {
   built_at: string; current_year: number; adjusted_available: boolean; adjusted_note?: string;
   schedule_range?: [string, string]; coverage: { features: number; by_flag: Partial<Record<Quality, number>> };
+  adjusted_to?: string; bir?: { department_orders_used: number; rdos: string[] };
+  sources_as_of?: { name: string; as_of: string[]; note: string; url: string }[];
 }
 type Mode = 'typ' | 'lo' | 'hi';
 type Basis = 'raw' | 'adj';
@@ -99,7 +101,7 @@ const state = {
 let zonal: Collection<Props>;
 let cities: Collection<CityProps>;
 let meta: Meta;
-// Street- and village-level values (pipeline/streets.py), one file per Metro Manila city, loaded when zoomed in
+// Street- and village-level values (pipeline/streets.py), one file per city, loaded when zoomed in
 interface StreetProps { n: string; osm: string; v: number; v_a?: number; vmin?: number; vmin_a?: number; rows?: number;
   k: 'village' | 'segment' | 'street'; u: 'r' | 'c' | 'i'; b: string; c: string; do: string; eff?: string; vic?: string; g?: number }
 interface StreetIndex { [city: string]: { file: string; bbox: [number, number, number, number]; features: number } }
@@ -139,7 +141,7 @@ function factorColor(f: Factor): ExpressionSpecification {
     ['step', ['get', f.prop], ...steps] as unknown as ExpressionSpecification];
 }
 
-// ---- condominiums (pipeline/condos.py): one file per Metro Manila city, loaded on zoom when the toggle is on ----
+// ---- condominiums (pipeline/condos.py): one file per city, loaded on zoom when the toggle is on ----
 interface CondoProps { n: string; osm: string; v: number; v_a?: number; u: 'r' | 'c'; b: string; c: string; do: string; eff?: string; g?: number }
 let condoIndex: StreetIndex = {};
 const condoFeatures: Collection<CondoProps>['features'] = [];
@@ -334,7 +336,7 @@ const map = new maplibregl.Map({
   style: STYLES[theme()],
   bounds: NCR_BOUNDS,
   fitBoundsOptions: { padding: 12 },
-  maxBounds: [[119.6, 13.4], [122.6, 15.8]],
+  maxBounds: [[119.4, 13.0], [122.6, 16.0]],  // Batangas's southern tip (Verde Island ~13.5) to north of Angeles
   minZoom: 7.5,
   maxZoom: 17,
   attributionControl: { compact: true },
@@ -730,8 +732,8 @@ function renderLegend() {
       return `<span style="position:absolute;${align}">${short(t)}</span>`;
     }).join('')}</div>
     <div class="keys"><span><i class="sw hatch"></i>city median or estimate</span><span><i class="sw" style="background:var(--nodata)"></i>no data</span></div>
-    ${Object.keys(streetIndex).length ? `<div class="imagery">${map.getZoom() < STREET_FADE[0] ? 'Zoom in on Metro Manila or southern Cavite and Laguna for village, street and condo values' : `Villages filled, streets as lines (dashed: whole street shown)${state.mode === 'typ' ? '; barangays show their interior-lot value' : ''}`}</div>` : ''}
-    ${state.condos ? `<div class="imagery">● condominiums: BIR value per sqm of floor area${map.getZoom() < CONDO_MINZOOM ? ' (zoom in on Metro Manila, Cavite or Laguna)' : ''}</div>` : ''}
+    ${Object.keys(streetIndex).length ? `<div class="imagery">${map.getZoom() < STREET_FADE[0] ? 'Zoom in on Metro Manila, southern Cavite and Laguna, or Batangas for village, street and condo values' : `Villages filled, streets as lines (dashed: whole street shown)${state.mode === 'typ' ? '; barangays show their interior-lot value' : ''}`}</div>` : ''}
+    ${state.condos ? `<div class="imagery">● condominiums: BIR value per sqm of floor area${map.getZoom() < CONDO_MINZOOM ? ' (zoom in on Metro Manila, Cavite, Laguna or Batangas)' : ''}</div>` : ''}
     ${state.transport ? `<div class="imagery"><span style="color:${TR_COLORS.expressway}">━</span> expressway <span style="color:${TR_COLORS.rail}">━</span> rail · dashed: under construction · dotted: proposed</div>` : ''}
     ${state.satellite ? `<div class="imagery">Imagery: ${SATELLITE.name} (credit at bottom right)</div>` : ''}`;
 }
@@ -942,6 +944,24 @@ function readHash() {
 }
 
 // ---- boot ----
+// ---- footnotes: dates and sources from meta.json, so they follow every build ----
+const longDate = (d: string) => new Date(`${d.slice(0, 10)}T00:00:00Z`).toLocaleDateString('en-PH', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const span = (r: string[]) => !r.length ? '' : r[0] === r[r.length - 1] ? longDate(r[0]) : `${longDate(r[0])} to ${longDate(r[r.length - 1])}`;
+
+function renderFootnotes() {
+  $('fn-built').innerHTML = `Data built ${esc(longDate(meta.built_at))}` +
+    (meta.adjusted_to ? `; "adjusted to today" values are projected to ${esc(longDate(meta.adjusted_to))}.` : '.');
+  $('fn-schedules').innerHTML = meta.schedule_range
+    ? `BIR schedules in use took effect between ${esc(span(meta.schedule_range))}` +
+      (meta.bir ? `: ${meta.bir.department_orders_used} Department Orders from ${meta.bir.rdos.length} Revenue District Offices.` : '.') +
+      ' Each barangay shows the newest schedule that covers it; older ones are flagged on its card.'
+    : '';
+  $('fn-sources').innerHTML = (meta.sources_as_of ?? []).map(s => {
+    const when = s.as_of.length && /^\d{4}-\d{2}-\d{2}$/.test(s.as_of[0]) ? span(s.as_of) : s.as_of.join(', ');
+    return `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>${when ? `: ${esc(when)}` : ''} <span class="c">(${esc(s.note)})</span></li>`;
+  }).join('');
+}
+
 async function boot() {
   renderThemeButton();
   wireControls();
@@ -973,6 +993,8 @@ async function boot() {
   $('coverage').textContent = `Coverage: ${(f.barangay_data ?? 0).toLocaleString()} barangays with their own values, ` +
     `${(f.city_median ?? 0).toLocaleString()} on the city median, ${(f.estimated ?? 0).toLocaleString()} estimated, ` +
     `${(f.no_data ?? 0).toLocaleString()} with no data. Data built ${meta.built_at.slice(0, 10)}.`;
+
+  renderFootnotes();
 
   const initial = readHash();
   renderLegend();

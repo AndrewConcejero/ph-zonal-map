@@ -229,6 +229,48 @@ def plausibility(feats: list[dict], medians: dict[tuple[str, str], float]) -> li
     return out
 
 
+def sources_as_of(dos_used: list[tuple[str, str]], schedule_range) -> list[dict]:
+    """One line per source with the date it describes, for the page footer. Dates come from the data itself where
+    it records one (BIR effectivity dates, OSM extract timestamps), else from when the cached download was made."""
+    def osm_range(paths) -> list[str]:
+        stamps = []
+        for path in paths:
+            with open(path, encoding='utf-8') as fh:
+                m = re.search(r'"timestamp_osm_base"\s*:\s*"([^"]+)"', fh.read(600))
+            if m:
+                stamps.append(m.group(1)[:10])
+        return [min(stamps), max(stamps)] if stamps else []
+    mtimes = lambda paths: sorted(datetime.fromtimestamp(p.stat().st_mtime, timezone.utc).date().isoformat() for p in paths)
+    osm = CACHE_DIR / 'osm'
+    out = [
+        {'name': 'BIR zonal value schedules (Department Orders)', 'as_of': list(schedule_range or []),
+         'note': f'effectivity dates of the {len(dos_used)} Department Orders in use, from {len({r for r, _ in dos_used})} '
+                 'Revenue District Offices', 'url': 'https://www.bir.gov.ph'},
+        {'name': 'Barangay and city boundaries (PSA / NAMRIA, PSGC)', 'as_of': ['2023-12-31'],
+         'note': 'PSGC December 2023 release; Manila from the 2019 release',
+         'url': 'https://github.com/faeldon/philippines-json-maps'},
+        {'name': 'OpenStreetMap: streets, villages, buildings', 'as_of': osm_range(p for p in osm.glob('*.json') if not p.name.startswith('transport')),
+         'note': 'extract dates of the cached per-city downloads', 'url': 'https://www.openstreetmap.org/copyright'},
+        {'name': 'OpenStreetMap: roads and rail', 'as_of': osm_range([osm / 'transport.json'] if (osm / 'transport.json').exists() else []),
+         'note': 'extract date', 'url': 'https://www.openstreetmap.org/copyright'},
+    ]
+    stats = mtimes((CACHE_DIR / 'factors').glob('*.stats.json'))
+    out.append({'name': 'UP NOAH / DREAM flood hazard maps (100-year rain), via LiPAD', 'as_of': [stats[0], stats[-1]] if stats else [],
+                'note': 'date retrieved; the maps themselves are older and not dated per layer',
+                'url': 'https://lipad-fmc.dream.upd.edu.ph'})
+    out.append({'name': 'Copernicus GLO-30 elevation', 'as_of': [], 'note': 'static surface model',
+                'url': 'https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model'})
+    out.append({'name': 'Landsat 8/9 surface temperature (USGS)', 'as_of': ['2023-03-01', '2025-05-31'],
+                'note': 'clear dry-season (March-May) scenes in this window', 'url': 'https://planetarycomputer.microsoft.com'})
+    with open(DATA / 'vacancy_submarkets.csv', encoding='utf-8') as fh:
+        vac = [r for r in csv.DictReader(fh) if r['vacancy_pct'].strip()]
+    if vac:
+        out.append({'name': 'Vacancy by submarket (broker reports)', 'as_of': sorted({r['period'] for r in vac}),
+                    'note': '; '.join(f"{r['submarket']} {r['kind']}: {r['period']}" for r in vac),
+                    'url': vac[0]['source_url']})
+    return out
+
+
 def main() -> None:
     bgys, cities, no_geom = load_boundaries()
     medians_csv, fallback_rows = load_fallback()
@@ -446,6 +488,7 @@ def main() -> None:
         'growth': {r.rdo: {'rate': None if r.rate is None else round(r.rate, 4), 'source': r.source, 'pairs': r.pairs}
                    for r in sorted(rates.values(), key=lambda r: r.rdo)},
         'schedule_range': [effs[0], effs[-1]] if effs else None,
+        'sources_as_of': sources_as_of(dos_used, [effs[0], effs[-1]] if effs else None),
         'coverage': {'features': len(feats), 'by_flag': dict(flags),
                      'by_source': {f'{q}/{s}' if s else q: n for (q, s), n in srcs.items()},
                      'by_province': {k: dict(v) for k, v in by_prov.items()}},

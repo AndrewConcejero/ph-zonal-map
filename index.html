@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Metro Manila Zonal Map</title>
-  <meta name="description" content="BIR residential zonal values per square meter, barangay by barangay, across Metro Manila, Cavite, Laguna, Rizal and Bulacan. Free, with data quality marked on every area.">
+  <meta name="description" content="BIR residential zonal values per square meter, barangay by barangay, across Metro Manila, Cavite, Laguna, Rizal, Bulacan and Batangas, with Pampanga to follow. Free, with data quality marked on every area.">
   <meta name="theme-color" content="#f4f6f4" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#101615" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="https://ph-zonal-map.vercel.app/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="PH Zonal Map">
   <meta property="og:title" content="What the taxman thinks Metro Manila land is worth">
-  <meta property="og:description" content="BIR zonal values per sqm for 3,900 barangays in Metro Manila, Cavite, Laguna, Rizal and Bulacan. Tap any barangay for its values.">
+  <meta property="og:description" content="BIR zonal values per sqm for 4,900 barangays in Metro Manila, Cavite, Laguna, Rizal, Bulacan and Batangas. Tap any barangay for its values.">
   <meta property="og:url" content="https://ph-zonal-map.vercel.app/">
   <meta property="og:image" content="https://ph-zonal-map.vercel.app/og.png">
   <meta property="og:image:width" content="1200">
@@ -35,7 +35,7 @@
         <button class="btn icon" id="theme" type="button" aria-label="Switch colour theme" title="Switch colour theme"></button>
       </div>
       <h1>What the taxman thinks Metro Manila land is worth</h1>
-      <p class="lede">Barangay by barangay across Metro Manila, Cavite, Laguna, Rizal and Bulacan. These are BIR tax floors, not market prices, so read the map as a ranking.</p>
+      <p class="lede">Barangay by barangay across Metro Manila, Cavite, Laguna, Rizal, Bulacan and Batangas; Pampanga is outlined until its schedules are in. These are BIR tax floors, not market prices, so read the map as a ranking.</p>
     </header>
 
     <div class="controls">
@@ -119,6 +119,17 @@
         <p class="hint" id="coverage"></p>
       </section>
     </div>
+
+    <footer class="foot" id="footnotes">
+      <h2>Notes</h2>
+      <ol class="fn">
+        <li id="fn-built">Data built: loading…</li>
+        <li id="fn-schedules"></li>
+        <li><b>Zonal values are BIR tax floors, not market prices.</b> Verify the value with the BIR Revenue District Office that covers the property before any transaction.</li>
+        <li>Sources and the dates they describe:<ul class="src" id="fn-sources"></ul></li>
+        <li>Code, data and method: <a href="https://github.com/AndrewConcejero/ph-zonal-map" target="_blank" rel="noopener">github.com/AndrewConcejero/ph-zonal-map</a>. Found a wrong value or a misplaced barangay? <a href="https://github.com/AndrewConcejero/ph-zonal-map/issues" target="_blank" rel="noopener">Report it on GitHub</a>, with the barangay, city and what BIR's schedule says.</li>
+      </ol>
+    </footer>
   </div>
   <script type="module" src="/src/main.ts"></script>
 </body>
