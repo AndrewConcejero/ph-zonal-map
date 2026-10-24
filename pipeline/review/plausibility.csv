@@ -69,3 +69,91 @@ Rizal,Rodriguez,Macabud,300,350,350,6500,bir,DO 6-2023,typical is 1/19 of the ci
 Rizal,Rodriguez,Mascap,600,600,600,6500,bir,DO 6-2023,typical is 1/11 of the city median
 Rizal,Rodriguez,Puray,325,350,338,6500,bir,DO 6-2023,typical is 1/19 of the city median
 Rizal,Rodriguez,San Isidro,325,7000,350,6500,bir,DO 6-2023,max is 22x min; prime value is probably one road or development; typical is 1/19 of the city median
+Batangas,Balayan,Barangay 11,2800,7300,4900,1000,bir,DO 35-2022,typical is 4.9x the city median
+Batangas,Balayan,Barangay 12,2800,13800,5350,1000,bir,DO 35-2022,typical is 5.3x the city median
+Batangas,Balayan,Barangay 2,3000,7500,4250,1000,bir,DO 35-2022,typical is 4.2x the city median
+Batangas,Balayan,Barangay 4,700,20000,4000,1000,bir,DO 35-2022,max is 29x min; prime value is probably one road or development
+Batangas,Balayan,Barangay 5,1200,20000,5600,1000,bir,DO 35-2022,max is 17x min; prime value is probably one road or development; typical is 5.6x the city median
+Batangas,Balayan,Barangay 6,1200,22000,4800,1000,bir,DO 35-2022,max is 18x min; prime value is probably one road or development; typical is 4.8x the city median
+Batangas,Balayan,Caloocan,1700,6000,4500,1000,bir,DO 35-2022,typical is 4.5x the city median
+Batangas,Balete,Alangilan,400,9000,850,800,bir,DO 34-2022,max is 22x min; prime value is probably one road or development
+Batangas,Batangas City,Haligue Kanluran,300,700,500,2500,bir,DO 35-2022,typical is 1/5 of the city median
+Batangas,Batangas City,Haligue Silangan,300,600,450,2500,bir,DO 35-2022,typical is 1/6 of the city median
+Batangas,Batangas City,Kumba,400,500,450,2500,bir,DO 35-2022,typical is 1/6 of the city median
+Batangas,Batangas City,"Liponpon, Isla Verde",400,600,500,2500,bir,DO 35-2022,typical is 1/5 of the city median
+Batangas,Batangas City,Mahabang Dahilig,400,800,600,2500,bir,DO 35-2022,typical is 1/4 of the city median
+Batangas,Batangas City,Malalim,400,700,550,2500,bir,DO 35-2022,typical is 1/5 of the city median
+Batangas,Batangas City,Malibayo,500,600,550,2500,bir,DO 35-2022,typical is 1/5 of the city median
+Batangas,Batangas City,Maruclap,500,700,600,2500,bir,DO 35-2022,typical is 1/4 of the city median
+Batangas,Batangas City,Barangay 10,7000,33000,15000,2500,bir,DO 35-2022,typical is 6.0x the city median
+Batangas,Batangas City,Barangay 11,6000,27000,11000,2500,bir,DO 35-2022,typical is 4.4x the city median
+Batangas,Batangas City,Barangay 13,7000,33000,10500,2500,bir,DO 35-2022,typical is 4.2x the city median
+Batangas,Batangas City,Barangay 14,13000,33000,17000,2500,bir,DO 35-2022,typical is 6.8x the city median
+Batangas,Batangas City,Barangay 15,9000,33000,18000,2500,bir,DO 35-2022,typical is 7.2x the city median
+Batangas,Batangas City,Barangay 16,9000,23000,14500,2500,bir,DO 35-2022,typical is 5.8x the city median
+Batangas,Batangas City,Barangay 17,7000,21000,14500,2500,bir,DO 35-2022,typical is 5.8x the city median
+Batangas,Batangas City,Barangay 18,4500,21000,15250,2500,bir,DO 35-2022,typical is 6.1x the city median
+Batangas,Batangas City,Barangay 2,9000,19000,14500,2500,bir,DO 35-2022,typical is 5.8x the city median
+Batangas,Batangas City,Barangay 20,5000,22000,16000,2500,bir,DO 35-2022,typical is 6.4x the city median
+Batangas,Batangas City,Barangay 21,11000,23000,17500,2500,bir,DO 35-2022,typical is 7.0x the city median
+Batangas,Batangas City,Barangay 22,8000,33000,16500,2500,bir,DO 35-2022,typical is 6.6x the city median
+Batangas,Batangas City,Barangay 23,7500,26000,13000,2500,bir,DO 35-2022,typical is 5.2x the city median
+Batangas,Batangas City,Barangay 3,6000,27000,15000,2500,bir,DO 35-2022,typical is 6.0x the city median
+Batangas,Batangas City,Barangay 4,6000,21000,12500,2500,bir,DO 35-2022,typical is 5.0x the city median
+Batangas,Batangas City,Barangay 5,5500,21000,16000,2500,bir,DO 35-2022,typical is 6.4x the city median
+Batangas,Batangas City,Barangay 6,5000,17000,11000,2500,bir,DO 35-2022,typical is 4.4x the city median
+Batangas,Batangas City,Barangay 7,5000,28000,12750,2500,bir,DO 35-2022,typical is 5.1x the city median
+Batangas,Batangas City,Barangay 8,6000,20000,14500,2500,bir,DO 35-2022,typical is 5.8x the city median
+Batangas,Batangas City,Barangay 9,9000,27000,17000,2500,bir,DO 35-2022,typical is 6.8x the city median
+Batangas,Batangas City,"San Agapito, Isla Verde",300,500,400,2500,bir,DO 35-2022,typical is 1/6 of the city median
+Batangas,Batangas City,"San Agustin Kanluran, Isla Verde",400,600,500,2500,bir,DO 35-2022,typical is 1/5 of the city median
+Batangas,Batangas City,"San Agustin Silangan, Isla Verde",400,600,500,2500,bir,DO 35-2022,typical is 1/5 of the city median
+Batangas,Batangas City,San Miguel,400,700,550,2500,bir,DO 35-2022,typical is 1/5 of the city median
+Batangas,Batangas City,Santo Domingo,500,600,550,2500,bir,DO 35-2022,typical is 1/5 of the city median
+Batangas,Batangas City,Santo Niño,400,700,550,2500,bir,DO 35-2022,typical is 1/5 of the city median
+Batangas,Batangas City,Talahib Payapa,500,700,600,2500,bir,DO 35-2022,typical is 1/4 of the city median
+Batangas,Batangas City,Talumpok Kanluran,500,700,600,2500,bir,DO 35-2022,typical is 1/4 of the city median
+Batangas,Batangas City,Talumpok Silangan,500,700,600,2500,bir,DO 35-2022,typical is 1/4 of the city median
+Batangas,Bauan,Barangay I,4000,15000,8500,1775,bir,DO 35-2022,typical is 4.8x the city median
+Batangas,Bauan,Barangay II,6000,16000,10000,1775,bir,DO 35-2022,typical is 5.6x the city median
+Batangas,Bauan,Barangay III,6000,17000,10500,1775,bir,DO 35-2022,typical is 5.9x the city median
+Batangas,Bauan,Barangay IV,3500,15500,8000,1775,bir,DO 35-2022,typical is 4.5x the city median
+Batangas,Bauan,San Pablo,900,15000,1350,1775,bir,DO 35-2022,max is 17x min; prime value is probably one road or development
+Batangas,Ibaan,Poblacion,4000,11000,9000,1250,bir,DO 34-2022,typical is 7.2x the city median
+Batangas,Laurel,Dayap Itaas,5000,13500,11000,2200,bir,DO 34-2022,typical is 5.0x the city median
+Batangas,Laurel,Niyugan,5000,13500,9500,2200,bir,DO 34-2022,typical is 4.3x the city median
+Batangas,Laurel,San Gregorio,5000,15000,11000,2200,bir,DO 34-2022,typical is 5.0x the city median
+Batangas,Lemery,Lucky,8000,16000,15000,3250,bir,DO 35-2022,typical is 4.6x the city median
+Batangas,Lemery,Maguihan,8000,15000,15000,3250,bir,DO 35-2022,typical is 4.6x the city median
+Batangas,Lemery,District I,10000,25000,18000,3250,bir,DO 35-2022,typical is 5.5x the city median
+Batangas,Lemery,District II,10000,25000,17500,3250,bir,DO 35-2022,typical is 5.4x the city median
+Batangas,Lemery,District III,10000,25000,18000,3250,bir,DO 35-2022,typical is 5.5x the city median
+Batangas,Lemery,District IV,10000,25000,17500,3250,bir,DO 35-2022,typical is 5.4x the city median
+Batangas,Lipa,Bulaklakan,1000,1200,1100,4500,bir,DO 34-2022,typical is 1/4 of the city median
+Batangas,Lipa,Halang,800,1000,900,4500,bir,DO 34-2022,typical is 1/5 of the city median
+Batangas,Lipa,Poblacion Barangay 9,2500,20000,6850,4500,bir,DO 58-2018,value is from DO 58-2018 (2018) but Lipa has a 2022 schedule; its block in the newer DO did not match (renamed barangay?)
+Batangas,Lipa,Santo Toribio,900,1200,1050,4500,bir,DO 34-2022,typical is 1/4 of the city median
+Batangas,Lobo,Poblacion,1400,5000,3000,650,bir,DO 35-2022,typical is 4.6x the city median
+Batangas,Mabini,Estrella,300,500,400,2000,bir,DO 35-2022,typical is 1/5 of the city median
+Batangas,Mabini,Laurel,300,350,325,2000,bir,DO 35-2022,typical is 1/6 of the city median
+Batangas,Mabini,Nag-Iba,400,500,450,2000,bir,DO 35-2022,typical is 1/4 of the city median
+Batangas,Mabini,Pilahan,400,500,450,2000,bir,DO 35-2022,typical is 1/4 of the city median
+Batangas,Mabini,Pulong Anahao,400,500,450,2000,bir,DO 35-2022,typical is 1/4 of the city median
+Batangas,Mabini,Santo Tomas,250,350,300,2000,bir,DO 35-2022,typical is 1/7 of the city median
+Batangas,Nasugbu,Balaytigui,700,18000,3750,2500,bir,DO 35-2022,max is 26x min; prime value is probably one road or development
+Batangas,Nasugbu,Natipuan,3000,15000,12000,2500,bir,DO 35-2022,typical is 4.8x the city median
+Batangas,Rosario,Namunga,2350,10000,5125,800,bir,DO 34-2022,typical is 6.4x the city median
+Batangas,Rosario,Barangay A,4000,9000,6750,800,bir,DO 34-2022,typical is 8.4x the city median
+Batangas,Rosario,Barangay B,5000,14000,7500,800,bir,DO 34-2022,typical is 9.4x the city median
+Batangas,Rosario,Barangay C,5000,14000,9500,800,bir,DO 34-2022,typical is 11.9x the city median
+Batangas,Rosario,Barangay D,5000,14000,9500,800,bir,DO 34-2022,typical is 11.9x the city median
+Batangas,Rosario,Barangay E,3500,10250,5000,800,bir,DO 34-2022,typical is 6.2x the city median
+Batangas,Rosario,Quilib,2200,7000,3750,800,bir,DO 34-2022,typical is 4.7x the city median
+Batangas,Rosario,San Roque,1900,5500,4500,800,bir,DO 34-2022,typical is 5.6x the city median
+Batangas,San Juan,Laiya-Ibabao,1300,25000,4000,1275,bir,DO 34-2022,max is 19x min; prime value is probably one road or development
+Batangas,San Juan,Laiya-Aplaya,700,25000,1750,1275,bir,DO 34-2022,max is 36x min; prime value is probably one road or development
+Batangas,Talisay,Poblacion Barangay 6,190,3500,3500,2350,bir,DO 34-2022,max is 18x min; prime value is probably one road or development
+Batangas,Tanauan,Sulpoc,800,12000,10000,2450,bir,DO 34-2022,max is 15x min; prime value is probably one road or development; typical is 4.1x the city median
+Batangas,Tanauan,Suplang,1000,10000,10000,2450,bir,DO 34-2022,typical is 4.1x the city median
+Batangas,Taysan,Poblacion East,1200,2500,1900,400,bir,DO 34-2022,typical is 4.8x the city median
+Batangas,Taysan,Poblacion West,1200,2500,1900,400,bir,DO 34-2022,typical is 4.8x the city median

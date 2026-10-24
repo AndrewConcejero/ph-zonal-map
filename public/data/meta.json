@@ -1,9 +1,9 @@
 {
-  "built_at": "2026-10-22T03:18:49+00:00",
+  "built_at": "2026-10-24T06:25:19+00:00",
   "current_year": 2026,
   "value_basis": "BIR residential zonal value (class RR, land), PHP per sqm",
   "adjusted_available": true,
-  "adjusted_to": "2026-10-22",
+  "adjusted_to": "2026-10-24",
   "adjusted_note": "Projected from each schedule's effectivity date with its RDO's median annual growth between consecutive revisions, measured on the same streets.",
   "growth": {
     "RDO-024": {
@@ -141,6 +141,16 @@
       "source": "rdo",
       "pairs": 615
     },
+    "RDO-058": {
+      "rate": 0.1009,
+      "source": "rdo",
+      "pairs": 438
+    },
+    "RDO-059": {
+      "rate": 0.1051,
+      "source": "rdo",
+      "pairs": 786
+    },
     "RDO-25A": {
       "rate": 0.0817,
       "source": "rdo",
@@ -176,17 +186,88 @@
     "2002-12-28",
     "2024-07-04"
   ],
+  "sources_as_of": [
+    {
+      "name": "BIR zonal value schedules (Department Orders)",
+      "as_of": [
+        "2002-12-28",
+        "2024-07-04"
+      ],
+      "note": "effectivity dates of the 41 Department Orders in use, from 35 Revenue District Offices",
+      "url": "https://www.bir.gov.ph"
+    },
+    {
+      "name": "Barangay and city boundaries (PSA / NAMRIA, PSGC)",
+      "as_of": [
+        "December 2023 release"
+      ],
+      "note": "Manila from the 2019 release",
+      "url": "https://github.com/faeldon/philippines-json-maps"
+    },
+    {
+      "name": "OpenStreetMap: streets, villages, buildings",
+      "as_of": [
+        "2026-10-21",
+        "2026-10-24"
+      ],
+      "note": "extract dates of the cached per-city downloads",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    {
+      "name": "OpenStreetMap: roads and rail",
+      "as_of": [
+        "2026-10-24",
+        "2026-10-24"
+      ],
+      "note": "extract date",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    {
+      "name": "UP NOAH / DREAM flood hazard maps (100-year rain), via LiPAD",
+      "as_of": [
+        "2026-10-21",
+        "2026-10-24"
+      ],
+      "note": "date retrieved; the maps themselves are older and not dated per layer",
+      "url": "https://lipad-fmc.dream.upd.edu.ph"
+    },
+    {
+      "name": "Copernicus GLO-30 elevation",
+      "as_of": [],
+      "note": "static surface model",
+      "url": "https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model"
+    },
+    {
+      "name": "Landsat 8/9 surface temperature (USGS)",
+      "as_of": [
+        "2023-03-01",
+        "2025-05-31"
+      ],
+      "note": "clear dry-season (March-May) scenes in this window",
+      "url": "https://planetarycomputer.microsoft.com"
+    },
+    {
+      "name": "Vacancy by submarket (broker reports)",
+      "as_of": [
+        "2025-Q1"
+      ],
+      "note": "Metro Manila office: 2025-Q1",
+      "url": "https://businessmirror.com.ph/2025/05/06/colliers-sees-22-metro-office-vacancy-in-2025/"
+    }
+  ],
   "coverage": {
-    "features": 3936,
+    "features": 5544,
     "by_flag": {
-      "barangay_data": 3763,
-      "estimated": 148,
-      "city_median": 25
+      "barangay_data": 4824,
+      "estimated": 162,
+      "city_median": 25,
+      "no_data": 533
     },
     "by_source": {
-      "barangay_data/bir": 3763,
-      "estimated": 148,
-      "city_median/bir": 25
+      "barangay_data/bir": 4824,
+      "estimated": 162,
+      "city_median/bir": 25,
+      "no_data": 533
     },
     "by_province": {
       "Metro Manila": {
@@ -211,11 +292,18 @@
         "barangay_data": 173,
         "estimated": 10,
         "city_median": 1
+      },
+      "Pampanga": {
+        "no_data": 533
+      },
+      "Batangas": {
+        "barangay_data": 1061,
+        "estimated": 14
       }
     }
   },
   "bir": {
-    "department_orders_used": 38,
+    "department_orders_used": 41,
     "rdos": [
       "RDO-024",
       "RDO-026",
@@ -244,6 +332,8 @@
       "RDO-055",
       "RDO-056",
       "RDO-057",
+      "RDO-058",
+      "RDO-059",
       "RDO-25A",
       "RDO-25B",
       "RDO-53A",
@@ -251,7 +341,7 @@
       "RDO-54A",
       "RDO-54B"
     ],
-    "rows_parsed": 243413
+    "rows_parsed": 296458
   },
   "sources": [
     {

@@ -1,0 +1,611 @@
+use,barangay,bir_street,bir_vicinity,value,do,kind,osm_name,score
+RR,Altura Bata,ALL OTHER STREET,ALONG ALL OTHER STREET,1300.0,DO 34-2022,background,,0
+RR,Altura Bata,ALL OTHER STREET,INTERIOR,1200.0,DO 34-2022,background,,0
+RR,Altura Matanda,ALL OTHER STREET,ALONG ALL OTHER STREET,1300.0,DO 34-2022,background,,0
+RR,Altura Matanda,ALL OTHER STREET,INTERIOR,1200.0,DO 34-2022,background,,0
+RR,Altura-South,ALL OTHER STREET,ALONG ALL OTHER STREET,1300.0,DO 34-2022,background,,0
+RR,Altura-South,ALL OTHER STREET,INTERIOR,1200.0,DO 34-2022,background,,0
+CR,Ambulong,ALL OTHER STREET,ALONG ALL OTHER STREET,2000.0,DO 34-2022,background,,0
+I,Ambulong,ALL OTHER STREET,ALONG ALL OTHER STREET,1600.0,DO 34-2022,background,,0
+RR,Ambulong,ALL OTHER STREET,ALONG ALL OTHER STREET,1100.0,DO 34-2022,background,,0
+RR,Ambulong,ALL OTHER STREET,INTERIOR,900.0,DO 34-2022,background,,0
+CR,Ambulong,TALISAY - TANAUAN ROAD,ALONG NATIONAL ROAD,3500.0,DO 34-2022,unmatched,,0
+I,Ambulong,TALISAY - TANAUAN ROAD,ALONG NATIONAL ROAD,2800.0,DO 34-2022,unmatched,,0
+CR,Ambulong,MAUGAT ROAD,ALONG CITY ROAD,2800.0,DO 34-2022,unmatched,,0
+CR,Ambulong,TALISAY - TANAUAN ROAD,INTERIOR,2500.0,DO 34-2022,unmatched,,0
+I,Ambulong,TALISAY - TANAUAN ROAD,INTERIOR,2300.0,DO 34-2022,unmatched,,0
+I,Ambulong,MAUGAT ROAD,ALONG CITY ROAD,2300.0,DO 34-2022,unmatched,,0
+RR,Ambulong,TALISAY - TANAUAN ROAD,ALONG NATIONAL ROAD,2000.0,DO 34-2022,unmatched,,0
+RR,Ambulong,TALISAY - TANAUAN ROAD,INTERIOR,1700.0,DO 34-2022,unmatched,,0
+RR,Ambulong,MAUGAT ROAD,ALONG CITY ROAD,1700.0,DO 34-2022,unmatched,,0
+RR,Ambulong,MAUGAT ROAD,INTERIOR,1300.0,DO 34-2022,unmatched,,0
+CR,Bagbag,ALL OTHER STREET,ALONG ALL OTHER STREET,2000.0,DO 34-2022,background,,0
+CR,Bagbag,ALL OTHER STREET,INTERIOR,1800.0,DO 34-2022,background,,0
+I,Bagbag,ALL OTHER STREET,ALONG ALL OTHER STREET,1700.0,DO 34-2022,background,,0
+I,Bagbag,ALL OTHER STREET,INTERIOR,1600.0,DO 34-2022,background,,0
+RR,Bagbag,ALL OTHER STREET,ALONG ALL OTHER STREET,1200.0,DO 34-2022,background,,0
+RR,Bagbag,ALL OTHER STREET,INTERIOR,1100.0,DO 34-2022,background,,0
+CR,Bagumbayan,ALL OTHER SUBDIVISION,,4000.0,DO 34-2022,background,,0
+CR,Bagumbayan,ALL OTHER STREET,ALONG ALL OTHER STREET,3500.0,DO 34-2022,background,,0
+RR,Bagumbayan,ALL OTHER SUBDIVISION,,3500.0,DO 34-2022,background,,0
+I,Bagumbayan,ALL OTHER STREET,ALONG ALL OTHER STREET,3300.0,DO 34-2022,background,,0
+RR,Bagumbayan,ALL OTHER STREET,ALONG ALL OTHER STREET,2700.0,DO 34-2022,background,,0
+CR,Bagumbayan,ALL OTHER STREET,INTERIOR,2600.0,DO 34-2022,background,,0
+RR,Bagumbayan,ALL OTHER STREET,INTERIOR,1700.0,DO 34-2022,background,,0
+CR,Bagumbayan,ALMEDA SUBD/BAGUMBAYAN PARK,,7500.0,DO 34-2022,unmatched,Maligaya Compound (43),0
+CR,Bagumbayan,"REAVILLE SUBD (PH 1,2,3)",,7000.0,DO 34-2022,unmatched,Josefa Village (29),0
+RR,Bagumbayan,ALMEDA SUBD/BAGUMBAYAN PARK,,6000.0,DO 34-2022,unmatched,Maligaya Compound (43),0
+RR,Bagumbayan,"REAVILLE SUBD (PH 1,2,3)",,6000.0,DO 34-2022,unmatched,Josefa Village (29),0
+CR,Bagumbayan,MARYVILLE SUBD.,,5500.0,DO 34-2022,unmatched,Maligaya Compound (35),0
+CR,Bagumbayan,ANITA'S SUBD,,5500.0,DO 34-2022,unmatched,Kaisahan Village (46),0
+CR,Bagumbayan,CALABARZON,ALONG CALABARZON,5000.0,DO 34-2022,unmatched,Kaisahan Village (44),0
+RR,Bagumbayan,MARYVILLE SUBD.,,5000.0,DO 34-2022,unmatched,Maligaya Compound (35),0
+RR,Bagumbayan,ANITA'S SUBD,,5000.0,DO 34-2022,unmatched,Kaisahan Village (46),0
+I,Bagumbayan,CALABARZON,ALONG CALABARZON,4000.0,DO 34-2022,unmatched,Kaisahan Village (44),0
+CR,Bagumbayan,PROVINCIAL. ROAD,ALONG PROVINCIAL ROAD,4000.0,DO 34-2022,unmatched,Josefa Village (25),0
+I,Bagumbayan,PROVINCIAL. ROAD,ALONG PROVINCIAL ROAD,3800.0,DO 34-2022,unmatched,Josefa Village (25),0
+CR,Bagumbayan,PROVINCIAL. ROAD,INTERIOR,3500.0,DO 34-2022,unmatched,Josefa Village (25),0
+I,Bagumbayan,PROVINCIAL. ROAD,INTERIOR,3300.0,DO 34-2022,unmatched,Josefa Village (25),0
+RR,Bagumbayan,PROVINCIAL. ROAD,ALONG PROVINCIAL ROAD,3000.0,DO 34-2022,unmatched,Josefa Village (25),0
+RR,Bagumbayan,PROVINCIAL. ROAD,INTERIOR,2700.0,DO 34-2022,unmatched,Josefa Village (25),0
+CR,Bagumbayan,KAISAHAN VILL,,5000.0,DO 34-2022,village,Kaisahan Village,100
+RR,Bagumbayan,KAISAHAN VILL,,4500.0,DO 34-2022,village,Kaisahan Village,100
+CR,Balele,ALL OTHER SUBDIVISION,,4500.0,DO 34-2022,background,,0
+RR,Balele,ALL OTHER SUBDIVISION,,4000.0,DO 34-2022,background,,0
+CR,Balele,ALL OTHER STREET,ALONG ALL OTHER STREET,2000.0,DO 34-2022,background,,0
+I,Balele,ALL OTHER STREET,ALONG ALL OTHER STREET,1600.0,DO 34-2022,background,,0
+CR,Balele,ALL OTHER STREET,INTERIOR,1400.0,DO 34-2022,background,,0
+I,Balele,ALL OTHER STREET,INTERIOR,1200.0,DO 34-2022,background,,0
+RR,Balele,ALL OTHER STREET,ALONG ALL OTHER STREET,1100.0,DO 34-2022,background,,0
+RR,Balele,ALL OTHER STREET,INTERIOR,900.0,DO 34-2022,background,,0
+CR,Balele,BALELE ROAD,ALONG CITY ROAD,2800.0,DO 34-2022,street,Balele Road,100
+CR,Balele,BALELE ROAD,INTERIOR,2400.0,DO 34-2022,street,Balele Road,100
+I,Balele,BALELE ROAD,ALONG CITY ROAD,2300.0,DO 34-2022,street,Balele Road,100
+I,Balele,BALELE ROAD,INTERIOR,2100.0,DO 34-2022,street,Balele Road,100
+RR,Balele,BALELE ROAD,ALONG CITY ROAD,1800.0,DO 34-2022,street,Balele Road,100
+RR,Balele,BALELE ROAD,INTERIOR,1500.0,DO 34-2022,street,Balele Road,100
+CR,Balele,DECA HOMES,,5500.0,DO 34-2022,unmatched,,0
+RR,Balele,DECA HOMES,,4500.0,DO 34-2022,unmatched,,0
+CR,Banadero,ALL OTHER SUBDIVISION,,4500.0,DO 34-2022,background,,0
+RR,Banadero,ALL OTHER SUBDIVISION,,4000.0,DO 34-2022,background,,0
+CR,Banadero,ALL OTHER STREET,ALONG ALL OTHER STREET,2300.0,DO 34-2022,background,,0
+I,Banadero,ALL OTHER STREET,ALONG ALL OTHER STREET,2100.0,DO 34-2022,background,,0
+RR,Banadero,ALL OTHER STREET,ALONG ALL OTHER STREET,1500.0,DO 34-2022,background,,0
+RR,Banadero,ALL OTHER STREET,INTERIOR,1400.0,DO 34-2022,background,,0
+CR,Banadero,TIERRA VILLE,,5000.0,DO 34-2022,unmatched,,0
+RR,Banadero,TIERRA VILLE,,4500.0,DO 34-2022,unmatched,,0
+CR,Banadero,TALISAY - TANAUAN ROAD,ALONG NATIONAL ROAD,3600.0,DO 34-2022,unmatched,,0
+I,Banadero,TALISAY - TANAUAN ROAD,ALONG NATIONAL ROAD,3400.0,DO 34-2022,unmatched,,0
+CR,Banadero,TALISAY - TANAUAN ROAD,INTERIOR,3100.0,DO 34-2022,unmatched,,0
+RR,Banadero,TALISAY - TANAUAN ROAD,ALONG NATIONAL ROAD,2800.0,DO 34-2022,unmatched,,0
+I,Banadero,TALISAY - TANAUAN ROAD,INTERIOR,2700.0,DO 34-2022,unmatched,,0
+RR,Banadero,TALISAY - TANAUAN ROAD,INTERIOR,2000.0,DO 34-2022,unmatched,,0
+CR,Banjo East,ALL OTHER SUBDIVISIONS,,5500.0,DO 34-2022,background,,0
+RR,Banjo East,ALL OTHER SUBDIVISIONS,,4500.0,DO 34-2022,background,,0
+I,Banjo East,ALL OTHER STREETS,INTERIOR,2500.0,DO 34-2022,background,,0
+RR,Banjo East,ALL OTHER STREETS,ALONG ALL OTHER STREETS,1700.0,DO 34-2022,background,,0
+RR,Banjo East,ALL OTHER STREETS,INTERIOR,1500.0,DO 34-2022,background,,0
+CR,Banjo East,PILLARVILLE SUBD,,7000.0,DO 34-2022,unmatched,Tsarina Grand Villas (47),0
+RR,Banjo East,PILLARVILLE SUBD,,6000.0,DO 34-2022,unmatched,Tsarina Grand Villas (47),0
+CR,Banjo East,ECOVERDE HOMES,,6000.0,DO 34-2022,unmatched,Tsarina Grand Villas (15),0
+RR,Banjo East,ECOVERDE HOMES,,5500.0,DO 34-2022,unmatched,Tsarina Grand Villas (15),0
+CR,Banjo East,CALABARZON ROAD,ALONG CALABARZON ROAD,4500.0,DO 34-2022,unmatched,Tsarina Grand Villas (28),0
+I,Banjo East,CALABARZON ROAD,ALONG CALABARZON ROAD,4300.0,DO 34-2022,unmatched,Tsarina Grand Villas (28),0
+CR,Banjo East,BANJO LAUREL ST.,ALONG BARANGAY ROAD,4000.0,DO 34-2022,unmatched,Tsarina Grand Villas (39),0
+I,Banjo East,BANJO LAUREL ST.,ALONG BARANGAY ROAD,3800.0,DO 34-2022,unmatched,Tsarina Grand Villas (39),0
+RR,Banjo East,BANJO LAUREL ST.,ALONG BARANGAY ROAD,3000.0,DO 34-2022,unmatched,Tsarina Grand Villas (39),0
+I,Banjo East,BANJO LAUREL ST.,INTERIOR,3000.0,DO 34-2022,unmatched,Tsarina Grand Villas (39),0
+RR,Banjo East,BANJO LAUREL ST.,INTERIOR,2000.0,DO 34-2022,unmatched,Tsarina Grand Villas (39),0
+CR,Bilog-bilog,BARANGAY ROAD,ALONG BARANGAY ROAD,2500.0,DO 34-2022,unmatched,,0
+I,Bilog-bilog,BARANGAY ROAD,ALONG BARANGAY ROAD,2300.0,DO 34-2022,unmatched,,0
+CR,Bilog-bilog,BARANGAY ROAD,INTERIOR,2300.0,DO 34-2022,unmatched,,0
+I,Bilog-bilog,BARANGAY ROAD,INTERIOR,1900.0,DO 34-2022,unmatched,,0
+RR,Bilog-bilog,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,,0
+RR,Bilog-bilog,BARANGAY ROAD,INTERIOR,1300.0,DO 34-2022,unmatched,,0
+CR,Boot,BARANGAY ROAD,ALONG BARANGAY ROAD,1100.0,DO 34-2022,unmatched,,0
+CR,Boot,BARANGAY ROAD,INTERIOR,900.0,DO 34-2022,unmatched,,0
+RR,Boot,BARANGAY ROAD,ALONG BARANGAY ROAD,800.0,DO 34-2022,unmatched,,0
+RR,Boot,BARANGAY ROAD,INTERIOR,650.0,DO 34-2022,unmatched,,0
+CR,Cale,ALL OTHER SUBDIVISIONS,,5500.0,DO 34-2022,background,,0
+RR,Cale,ALL OTHER SUBDIVISIONS,,5000.0,DO 34-2022,background,,0
+CR,Cale,ALL OTHER STREET,ALONG ALL OTHER STREET,2600.0,DO 34-2022,background,,0
+CR,Cale,ALL OTHER STREET,INTERIOR,2300.0,DO 34-2022,background,,0
+RR,Cale,ALL OTHER STREET,ALONG ALL OTHER STREET,1500.0,DO 34-2022,background,,0
+RR,Cale,ALL OTHER STREET,INTERIOR,1300.0,DO 34-2022,background,,0
+CR,Cale,FILINVEST SUBD,,7000.0,DO 34-2022,unmatched,Futura Homes Tanauan (17),0
+CR,Cale,SANDIA HOME SUBD.,,7000.0,DO 34-2022,unmatched,Futura Homes Tanauan (30),0
+RR,Cale,FILINVEST SUBD,,6000.0,DO 34-2022,unmatched,Futura Homes Tanauan (17),0
+RR,Cale,SANDIA HOME SUBD.,,6000.0,DO 34-2022,unmatched,Futura Homes Tanauan (30),0
+CR,Cale,B. LAUREL ST.,ALONG BARANGAY ROAD,3500.0,DO 34-2022,unmatched,Futura Homes Tanauan (27),0
+CR,Cale,B. LAUREL ST.,INTERIOR,2800.0,DO 34-2022,unmatched,Futura Homes Tanauan (27),0
+RR,Cale,B. LAUREL ST.,ALONG BARANGAY ROAD,2500.0,DO 34-2022,unmatched,Futura Homes Tanauan (27),0
+RR,Cale,B. LAUREL ST.,INTERIOR,1700.0,DO 34-2022,unmatched,Futura Homes Tanauan (27),0
+CR,Darasa,ALL OTHER STREET,ALONG ALL OTHER STREET,10000.0,DO 34-2022,background,,0
+I,Darasa,ALL OTHER STREET,ALONG ALL OTHER STREET,8000.0,DO 34-2022,background,,0
+CR,Darasa,ALL OTHER STREET,INTERIOR,7000.0,DO 34-2022,background,,0
+RR,Darasa,ALL OTHER STREET,ALONG ALL OTHER STREET,6500.0,DO 34-2022,background,,0
+I,Darasa,ALL OTHER STREET,INTERIOR,6500.0,DO 34-2022,background,,0
+RR,Darasa,ALL OTHER STREET,INTERIOR,5500.0,DO 34-2022,background,,0
+CR,Darasa,ALL OTHER SUBDIVISIONS,,5000.0,DO 34-2022,background,,0
+RR,Darasa,ALL OTHER SUBDIVISIONS,,4000.0,DO 34-2022,background,,0
+CR,Darasa,CELESTE SUBD.,,7000.0,DO 34-2022,street,Celeste Street,97
+RR,Darasa,CELESTE SUBD.,,6000.0,DO 34-2022,street,Celeste Street,97
+CR,Darasa,J.P. LAUREL HIGHWAY,ALONG NATIONAL ROAD,15000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (40),0
+I,Darasa,J.P. LAUREL HIGHWAY,ALONG NATIONAL ROAD,13000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (40),0
+CR,Darasa,J.P. LAUREL HIGHWAY,INTERIOR,11500.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (40),0
+RR,Darasa,J.P. LAUREL HIGHWAY,ALONG NATIONAL ROAD,11000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (40),0
+I,Darasa,J.P. LAUREL HIGHWAY,INTERIOR,10500.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (40),0
+CR,Darasa,VILLA SOLEDAD SUBD,,10500.0,DO 34-2022,unmatched,Colbella Homes (57),0
+CR,Darasa,ST. JOSEPH SUBD.,,9000.0,DO 34-2022,unmatched,Colbella Homes (29),0
+CR,Darasa,CAMBRIDGE,,9000.0,DO 34-2022,unmatched,Amare Homes (57),0
+CR,Darasa,BLUE ISLE/GRASS,,9000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (49),0
+RR,Darasa,VILLA SOLEDAD SUBD,,8500.0,DO 34-2022,unmatched,Colbella Homes (57),0
+CR,Darasa,BAKERS HOME,,8000.0,DO 34-2022,unmatched,Primavera Homes (43),0
+RR,Darasa,ST. JOSEPH SUBD.,,7500.0,DO 34-2022,unmatched,Colbella Homes (29),0
+RR,Darasa,CAMBRIDGE,,7500.0,DO 34-2022,unmatched,Amare Homes (57),0
+RR,Darasa,BLUE ISLE/GRASS,,7500.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (49),0
+RR,Darasa,J.P. LAUREL HIGHWAY,INTERIOR,7000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (40),0
+CR,Darasa,DARASA COMPOUND,,7000.0,DO 34-2022,unmatched,San Bernardo Village (44),0
+CR,Darasa,KRISSEL SUBD.,,7000.0,DO 34-2022,unmatched,Primavera Homes (38),0
+CR,Darasa,ROMANVILLE SUBD,,7000.0,DO 34-2022,unmatched,Primavera Homes (53),0
+CR,Darasa,ST. MATHEW SUBD,,7000.0,DO 34-2022,unmatched,Amare Homes (55),0
+CR,Darasa,PILAR VILLE SUBD.,,7000.0,DO 34-2022,unmatched,Primavera Homes (50),0
+CR,Darasa,SAN SEBASTIAN VILLAGE,,7000.0,DO 34-2022,unmatched,San Bernardo Village (48),0
+CR,Darasa,REAVILLE SUBD.,,7000.0,DO 34-2022,unmatched,Primavera Homes (47),0
+RR,Darasa,BAKERS HOME,,6500.0,DO 34-2022,unmatched,Primavera Homes (43),0
+RR,Darasa,DARASA COMPOUND,,6000.0,DO 34-2022,unmatched,San Bernardo Village (44),0
+RR,Darasa,KRISSEL SUBD.,,6000.0,DO 34-2022,unmatched,Primavera Homes (38),0
+RR,Darasa,ROMANVILLE SUBD,,6000.0,DO 34-2022,unmatched,Primavera Homes (53),0
+RR,Darasa,ST. MATHEW SUBD,,6000.0,DO 34-2022,unmatched,Amare Homes (55),0
+RR,Darasa,PILAR VILLE SUBD.,,6000.0,DO 34-2022,unmatched,Primavera Homes (50),0
+RR,Darasa,SAN SEBASTIAN VILLAGE,,6000.0,DO 34-2022,unmatched,San Bernardo Village (48),0
+RR,Darasa,REAVILLE SUBD.,,6000.0,DO 34-2022,unmatched,Primavera Homes (47),0
+CR,Darasa,RAMONITA SUBD.,,6000.0,DO 34-2022,unmatched,Amare Homes (46),0
+RR,Darasa,RAMONITA SUBD.,,5000.0,DO 34-2022,unmatched,Amare Homes (46),0
+CR,Darasa,AMARE HOMES,,9500.0,DO 34-2022,village,Amare Homes,100
+CR,Darasa,CITA MARIA,,9000.0,DO 34-2022,village,Citta Maria,95.23809523809523
+CR,Darasa,PRIMAVERA HOMES,,9000.0,DO 34-2022,village,Primavera Homes,100
+CR,Darasa,SAN BERNARDO VILL.,,9000.0,DO 34-2022,village,San Bernardo Village,100
+RR,Darasa,AMARE HOMES,,8000.0,DO 34-2022,village,Amare Homes,100
+CR,Darasa,CIUDAD VICTORIA SUBD.,,8000.0,DO 34-2022,village,Ciudad Victoria Homes,100
+RR,Darasa,CITA MARIA,,7500.0,DO 34-2022,village,Citta Maria,95.23809523809523
+RR,Darasa,PRIMAVERA HOMES,,7500.0,DO 34-2022,village,Primavera Homes,100
+RR,Darasa,SAN BERNARDO VILL.,,7500.0,DO 34-2022,village,San Bernardo Village,100
+CR,Darasa,COLBELLA,,7000.0,DO 34-2022,village,Colbella Homes,100
+CR,Darasa,VICTORIA HOMES,,7000.0,DO 34-2022,village,Ciudad Victoria Homes,95
+RR,Darasa,CIUDAD VICTORIA SUBD.,,6500.0,DO 34-2022,village,Ciudad Victoria Homes,100
+RR,Darasa,COLBELLA,,6000.0,DO 34-2022,village,Colbella Homes,100
+RR,Darasa,VICTORIA HOMES,,6000.0,DO 34-2022,village,Ciudad Victoria Homes,95
+CR,Gonzales,BARANGAY ROAD,ALONG BARANGAY ROAD,2500.0,DO 34-2022,unmatched,,0
+I,Gonzales,BARANGAY ROAD,ALONG BARANGAY ROAD,2200.0,DO 34-2022,unmatched,,0
+CR,Gonzales,BARANGAY ROAD,INTERIOR,2200.0,DO 34-2022,unmatched,,0
+I,Gonzales,BARANGAY ROAD,INTERIOR,1700.0,DO 34-2022,unmatched,,0
+RR,Gonzales,BARANGAY ROAD,ALONG BARANGAY ROAD,1600.0,DO 34-2022,unmatched,,0
+RR,Gonzales,BARANGAY ROAD,INTERIOR,1500.0,DO 34-2022,unmatched,,0
+CR,Hidalgo,ALL OTHER SUBDIVISIONS,,4000.0,DO 34-2022,background,,0
+RR,Hidalgo,ALL OTHER SUBDIVISIONS,,3000.0,DO 34-2022,background,,0
+CR,Hidalgo,CALABARZON ROAD,ALONG CALABARZON ROAD,4500.0,DO 34-2022,unmatched,Kaisahan Village (44),0
+CR,Hidalgo,DONA NARCISA SUBD,,4500.0,DO 34-2022,unmatched,Kaisahan Village (40),0
+CR,Hidalgo,BARANGAY ROAD,ALONG BARANGAY ROAD,4000.0,DO 34-2022,unmatched,Kaisahan Village (38),0
+RR,Hidalgo,DONA NARCISA SUBD,,3500.0,DO 34-2022,unmatched,Kaisahan Village (40),0
+RR,Hidalgo,CALABARZON ROAD,ALONG CALABARZON ROAD,3000.0,DO 34-2022,unmatched,Kaisahan Village (44),0
+CR,Hidalgo,BARANGAY ROAD,INTERIOR,3000.0,DO 34-2022,unmatched,Kaisahan Village (38),0
+RR,Hidalgo,BARANGAY ROAD,ALONG BARANGAY ROAD,2500.0,DO 34-2022,unmatched,Kaisahan Village (38),0
+RR,Hidalgo,BARANGAY ROAD,INTERIOR,1800.0,DO 34-2022,unmatched,Kaisahan Village (38),0
+CR,Janopol Oriental,ALL OTHER SUBDIVISIONS,,4000.0,DO 34-2022,background,,0
+RR,Janopol Oriental,ALL OTHER SUBDIVISIONS,,3500.0,DO 34-2022,background,,0
+CR,Janopol Oriental,SOUTH SAVANA COURTYARD,,5000.0,DO 34-2022,unmatched,,0
+RR,Janopol Oriental,SOUTH SAVANA COURTYARD,,4000.0,DO 34-2022,unmatched,,0
+CR,Janopol Oriental,BARANGAY ROAD,ALONG BARANGAY ROAD,3500.0,DO 34-2022,unmatched,,0
+CR,Janopol Oriental,BARANGAY ROAD,INTERIOR,2500.0,DO 34-2022,unmatched,,0
+I,Janopol Oriental,BARANGAY ROAD,ALONG BARANGAY ROAD,2500.0,DO 34-2022,unmatched,,0
+I,Janopol Oriental,BARANGAY ROAD,INTERIOR,2200.0,DO 34-2022,unmatched,,0
+RR,Janopol Oriental,BARANGAY ROAD,ALONG BARANGAY ROAD,2000.0,DO 34-2022,unmatched,,0
+RR,Janopol Oriental,BARANGAY ROAD,INTERIOR,1700.0,DO 34-2022,unmatched,,0
+CR,Laurel,BARANGAY ROAD,ALONG BARANGAY ROAD,3000.0,DO 34-2022,unmatched,Southville 6 (0),0
+CR,Laurel,BARANGAY ROAD,INTERIOR,2700.0,DO 34-2022,unmatched,Southville 6 (0),0
+RR,Laurel,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,Southville 6 (0),0
+RR,Laurel,BARANGAY ROAD,INTERIOR,1200.0,DO 34-2022,unmatched,Southville 6 (0),0
+CR,Luyos,BARANGAY ROAD,ALONG BARANGAY ROAD,3000.0,DO 34-2022,unmatched,,0
+I,Luyos,BARANGAY ROAD,ALONG BARANGAY ROAD,2700.0,DO 34-2022,unmatched,,0
+CR,Luyos,BARANGAY ROAD,INTERIOR,2700.0,DO 34-2022,unmatched,,0
+I,Luyos,BARANGAY ROAD,INTERIOR,2000.0,DO 34-2022,unmatched,,0
+RR,Luyos,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,,0
+RR,Luyos,BARANGAY ROAD,INTERIOR,1200.0,DO 34-2022,unmatched,,0
+CR,Mabini,ALL OTHER SUBDIVISIONS,,3500.0,DO 34-2022,background,,0
+RR,Mabini,ALL OTHER SUBDIVISIONS,,2500.0,DO 34-2022,background,,0
+CR,Mabini,MUNTING PARAISO,,5000.0,DO 34-2022,unmatched,,0
+RR,Mabini,MUNTING PARAISO,,4500.0,DO 34-2022,unmatched,,0
+CR,Mabini,BARANGAY ROAD,ALONG BARANGAY ROAD,2000.0,DO 34-2022,unmatched,,0
+CR,Mabini,BARANGAY ROAD,INTERIOR,1800.0,DO 34-2022,unmatched,,0
+RR,Mabini,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,,0
+RR,Mabini,BARANGAY ROAD,INTERIOR,1300.0,DO 34-2022,unmatched,,0
+CR,Malaking Pulo,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,,0
+CR,Malaking Pulo,BARANGAY ROAD,INTERIOR,1300.0,DO 34-2022,unmatched,,0
+RR,Malaking Pulo,BARANGAY ROAD,ALONG BARANGAY ROAD,1200.0,DO 34-2022,unmatched,,0
+RR,Malaking Pulo,BARANGAY ROAD,INTERIOR,1100.0,DO 34-2022,unmatched,,0
+CR,Maria Paz,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,,0
+RR,Maria Paz,BARANGAY ROAD,ALONG BARANGAY ROAD,1200.0,DO 34-2022,unmatched,,0
+CR,Maria Paz,BARANGAY ROAD,INTERIOR,1200.0,DO 34-2022,unmatched,,0
+RR,Maria Paz,BARANGAY ROAD,INTERIOR,900.0,DO 34-2022,unmatched,,0
+CR,Maugat,BARANGAY ROAD,ALONG BARANGAY ROAD,2000.0,DO 34-2022,unmatched,,0
+CR,Maugat,BARANGAY ROAD,INTERIOR,1300.0,DO 34-2022,unmatched,,0
+I,Maugat,BARANGAY ROAD,ALONG BARANGAY ROAD,1200.0,DO 34-2022,unmatched,,0
+I,Maugat,BARANGAY ROAD,INTERIOR,1100.0,DO 34-2022,unmatched,,0
+RR,Maugat,BARANGAY ROAD,ALONG BARANGAY ROAD,1000.0,DO 34-2022,unmatched,,0
+RR,Maugat,BARANGAY ROAD,INTERIOR,900.0,DO 34-2022,unmatched,,0
+CR,Montaña,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,,0
+CR,Montaña,BARANGAY ROAD,INTERIOR,1300.0,DO 34-2022,unmatched,,0
+RR,Montaña,BARANGAY ROAD,ALONG BARANGAY ROAD,1000.0,DO 34-2022,unmatched,,0
+RR,Montaña,BARANGAY ROAD,INTERIOR,800.0,DO 34-2022,unmatched,,0
+CR,Natatas,CALABARZON ROAD,ALONG CALABARZON ROAD,6500.0,DO 34-2022,unmatched,Deca Homes Tanauan (45),0
+I,Natatas,CALABARZON ROAD,ALONG CALABARZON ROAD,5500.0,DO 34-2022,unmatched,Deca Homes Tanauan (45),0
+CR,Natatas,BARANGAY ROAD,ALONG BARANGAY ROAD,5000.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+I,Natatas,BARANGAY ROAD,ALONG BARANGAY ROAD,4500.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+RR,Natatas,BARANGAY ROAD,ALONG BARANGAY ROAD,3500.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+CR,Natatas,BARANGAY ROAD,INTERIOR,3500.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+I,Natatas,BARANGAY ROAD,INTERIOR,3300.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+RR,Natatas,BARANGAY ROAD,INTERIOR,2500.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+CR,Pagaspas,ALL OTHER SUBDIVISIONS,,4000.0,DO 34-2022,background,,0
+RR,Pagaspas,ALL OTHER SUBDIVISIONS,,3500.0,DO 34-2022,background,,0
+CR,Pagaspas,CALABARZON ROAD,ALONG CALABARZON ROAD,6500.0,DO 34-2022,unmatched,San Roque Village (32),0
+I,Pagaspas,CALABARZON ROAD,ALONG CALABARZON ROAD,5500.0,DO 34-2022,unmatched,San Roque Village (32),0
+CR,Pagaspas,BARANGAY ROAD,ALONG BARANGAY ROAD,5000.0,DO 34-2022,unmatched,Rancho Vista (40),0
+I,Pagaspas,PHILTOWN,,5000.0,DO 34-2022,unmatched,Hacienda del Sol (33),0
+CR,Pagaspas,PLANTACION DEL SOL,,5000.0,DO 34-2022,unmatched,Hacienda del Sol (71),0
+I,Pagaspas,BARANGAY ROAD,ALONG BARANGAY ROAD,4500.0,DO 34-2022,unmatched,Rancho Vista (40),0
+RR,Pagaspas,PLANTACION DEL SOL,,4500.0,DO 34-2022,unmatched,Hacienda del Sol (71),0
+RR,Pagaspas,BARANGAY ROAD,ALONG BARANGAY ROAD,3500.0,DO 34-2022,unmatched,Rancho Vista (40),0
+CR,Pagaspas,BARANGAY ROAD,INTERIOR,3500.0,DO 34-2022,unmatched,Rancho Vista (40),0
+I,Pagaspas,BARANGAY ROAD,INTERIOR,3300.0,DO 34-2022,unmatched,Rancho Vista (40),0
+RR,Pagaspas,BARANGAY ROAD,INTERIOR,2500.0,DO 34-2022,unmatched,Rancho Vista (40),0
+I,Pantay Bata,FIRST PHIL. INDUSTRIAL PARK (FPIP),,5000.0,DO 34-2022,unmatched,,0
+CR,Pantay Bata,BARANGAY ROAD,ALONG BARANGAY ROAD,3000.0,DO 34-2022,unmatched,,0
+CR,Pantay Bata,BARANGAY ROAD,INTERIOR,2500.0,DO 34-2022,unmatched,,0
+RR,Pantay Bata,BARANGAY ROAD,ALONG BARANGAY ROAD,2000.0,DO 34-2022,unmatched,,0
+RR,Pantay Bata,BARANGAY ROAD,INTERIOR,1500.0,DO 34-2022,unmatched,,0
+I,Pantay Matanda,FIRST PHIL. INDUSTRIAL PARK (FPIP),,5000.0,DO 34-2022,unmatched,Rancho Vista (37),0
+CR,Pantay Matanda,BARANGAY ROAD,ALONG BARANGAY ROAD,3000.0,DO 34-2022,unmatched,Rancho Vista (40),0
+CR,Pantay Matanda,BARANGAY ROAD,INTERIOR,2500.0,DO 34-2022,unmatched,Rancho Vista (40),0
+RR,Pantay Matanda,BARANGAY ROAD,ALONG BARANGAY ROAD,2000.0,DO 34-2022,unmatched,Rancho Vista (40),0
+RR,Pantay Matanda,BARANGAY ROAD,INTERIOR,1500.0,DO 34-2022,unmatched,Rancho Vista (40),0
+CR,Poblacion Barangay 1,ALL OTHER STREETS,ALONG ALL OTHER STREET,9000.0,DO 34-2022,background,,0
+I,Poblacion Barangay 1,ALL OTHER STREETS,ALONG ALL OTHER STREET,8000.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 1,ALL OTHER STREETS,INTERIOR,8000.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 1,ALL OTHER STREETS,ALONG ALL OTHER STREET,7000.0,DO 34-2022,background,,0
+I,Poblacion Barangay 1,ALL OTHER STREETS,INTERIOR,7000.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 1,ALL OTHER STREETS,INTERIOR,6000.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 1,A. MABINI AVE.,J.P. LAUREL HIGHWAY - N. GONZALES STREET,40000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+I,Poblacion Barangay 1,A. MABINI AVE.,J.P. LAUREL HIGHWAY - N. GONZALES STREET,38000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+CR,Poblacion Barangay 1,A. MABINI AVE.,N. GONZALES STREET - P. LAURENA STREET,35000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+I,Poblacion Barangay 1,A. MABINI AVE.,N. GONZALES STREET - P. LAURENA STREET,33000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+RR,Poblacion Barangay 1,A. MABINI AVE.,J.P. LAUREL HIGHWAY - N. GONZALES STREET,30000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+RR,Poblacion Barangay 1,A. MABINI AVE.,N. GONZALES STREET - P. LAURENA STREET,27000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+CR,Poblacion Barangay 1,C. GARCIA ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,C. Garcia Street,100
+CR,Poblacion Barangay 1,LAURENA ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,Laurena Street,100
+CR,Poblacion Barangay 1,N. GONZALES ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,N. Gonzales Street,100
+CR,Poblacion Barangay 1,P. DIMAYUGA ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,V. Dimayuga Street,92.3076923076923
+CR,Poblacion Barangay 1,P. GONZALES ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,P. Gonzales Street,100
+CR,Poblacion Barangay 1,P. ONETE ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,P. Oñate Street,90.0
+CR,Poblacion Barangay 1,RIVERA ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,Rivera Street,100
+I,Poblacion Barangay 1,C. GARCIA ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,C. Garcia Street,100
+I,Poblacion Barangay 1,LAURENA ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,Laurena Street,100
+I,Poblacion Barangay 1,N. GONZALES ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,N. Gonzales Street,100
+I,Poblacion Barangay 1,P. DIMAYUGA ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,V. Dimayuga Street,92.3076923076923
+I,Poblacion Barangay 1,P. GONZALES ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,P. Gonzales Street,100
+I,Poblacion Barangay 1,P. ONETE ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,P. Oñate Street,90.0
+I,Poblacion Barangay 1,RIVERA ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,Rivera Street,100
+RR,Poblacion Barangay 1,C. GARCIA ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,C. Garcia Street,100
+RR,Poblacion Barangay 1,LAURENA ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,Laurena Street,100
+RR,Poblacion Barangay 1,N. GONZALES ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,N. Gonzales Street,100
+RR,Poblacion Barangay 1,P. DIMAYUGA ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,V. Dimayuga Street,92.3076923076923
+RR,Poblacion Barangay 1,P. GONZALES ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,P. Gonzales Street,100
+RR,Poblacion Barangay 1,P. ONETE ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,P. Oñate Street,90.0
+RR,Poblacion Barangay 1,RIVERA ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,Rivera Street,100
+CR,Poblacion Barangay 1,PRES. LAUREL HIGHWAY,MABINI AVENUE - C. GARCIA STREET,40000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+I,Poblacion Barangay 1,PRES. LAUREL HIGHWAY,MABINI AVENUE - C. GARCIA STREET,38000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+CR,Poblacion Barangay 1,PRES. LAUREL HIGHWAY,C. GARCIA STREET - J. GONZALES STREET,35000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+I,Poblacion Barangay 1,PRES. LAUREL HIGHWAY,C. GARCIA STREET - J. GONZALES STREET,33000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+RR,Poblacion Barangay 1,PRES. LAUREL HIGHWAY,MABINI AVENUE - C. GARCIA STREET,30000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+RR,Poblacion Barangay 1,PRES. LAUREL HIGHWAY,C. GARCIA STREET - J. GONZALES STREET,27000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+CR,Poblacion Barangay 1,JUAN GONZALES ST.,ALONG CITY ROAD,9500.0,DO 34-2022,unmatched,Avant Garde Residences (36),0
+I,Poblacion Barangay 1,JUAN GONZALES ST.,ALONG CITY ROAD,8500.0,DO 34-2022,unmatched,Avant Garde Residences (36),0
+RR,Poblacion Barangay 1,JUAN GONZALES ST.,ALONG CITY ROAD,7500.0,DO 34-2022,unmatched,Avant Garde Residences (36),0
+CR,Poblacion Barangay 2,ALL OTHER STREETS,ALONG ALL OTHER STREETS,9000.0,DO 34-2022,background,,0
+I,Poblacion Barangay 2,ALL OTHER STREETS,ALONG ALL OTHER STREETS,8000.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 2,ALL OTHER STREETS,ALONG ALL OTHER STREETS,7000.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 2,A. MABINI AVE.,ALONG CITY ROAD,40000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+I,Poblacion Barangay 2,A. MABINI AVE.,ALONG CITY ROAD,38000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+RR,Poblacion Barangay 2,A. MABINI AVE.,ALONG CITY ROAD,30000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+CR,Poblacion Barangay 2,SIXTO CASTILLO ST.,ALONG CITY ROAD,19000.0,DO 34-2022,street,Sixto Castillo Street,100
+I,Poblacion Barangay 2,SIXTO CASTILLO ST.,ALONG CITY ROAD,18500.0,DO 34-2022,street,Sixto Castillo Street,100
+RR,Poblacion Barangay 2,SIXTO CASTILLO ST.,ALONG CITY ROAD,15000.0,DO 34-2022,street,Sixto Castillo Street,100
+CR,Poblacion Barangay 2,F. PLATON ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,F. Platon Street,100
+CR,Poblacion Barangay 2,G. COLLANTES ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,Collantes Street,92.3076923076923
+CR,Poblacion Barangay 2,N. GONZALES ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,N. Gonzales Street,100
+CR,Poblacion Barangay 2,P. CARANDANG ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,P. Carandang Street,100
+CR,Poblacion Barangay 2,P. ONATE ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,P. Oñate Street,100
+I,Poblacion Barangay 2,F. PLATON ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,F. Platon Street,100
+I,Poblacion Barangay 2,G. COLLANTES ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,Collantes Street,92.3076923076923
+I,Poblacion Barangay 2,N. GONZALES ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,N. Gonzales Street,100
+I,Poblacion Barangay 2,P. CARANDANG ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,P. Carandang Street,100
+I,Poblacion Barangay 2,P. ONATE ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,P. Oñate Street,100
+RR,Poblacion Barangay 2,F. PLATON ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,F. Platon Street,100
+RR,Poblacion Barangay 2,G. COLLANTES ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,Collantes Street,92.3076923076923
+RR,Poblacion Barangay 2,N. GONZALES ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,N. Gonzales Street,100
+RR,Poblacion Barangay 2,P. CARANDANG ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,P. Carandang Street,100
+RR,Poblacion Barangay 2,P. ONATE ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,P. Oñate Street,100
+CR,Poblacion Barangay 2,PRES. LAUREL HIGHWAY,A. MABINI AVENUE - F. PLATON STREET,40000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+I,Poblacion Barangay 2,PRES. LAUREL HIGHWAY,A. MABINI AVENUE - F. PLATON STREET,38000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+CR,Poblacion Barangay 2,PRES. LAUREL HIGHWAY,F. PLATON STREET - P. CARANDANG STREET,35000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+I,Poblacion Barangay 2,PRES. LAUREL HIGHWAY,F. PLATON STREET - P. CARANDANG STREET,33000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+RR,Poblacion Barangay 2,PRES. LAUREL HIGHWAY,A. MABINI AVENUE - F. PLATON STREET,30000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+RR,Poblacion Barangay 2,PRES. LAUREL HIGHWAY,F. PLATON STREET - P. CARANDANG STREET,27000.0,DO 34-2022,unmatched,Avant Garde Residences (45),0
+CR,Poblacion Barangay 3,ALL OTHER STREETS,ALONG ALL OTHER STREET,9000.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 3,ALL OTHER STREETS,INTERIOR,8500.0,DO 34-2022,background,,0
+I,Poblacion Barangay 3,ALL OTHER STREETS,ALONG ALL OTHER STREET,8000.0,DO 34-2022,background,,0
+I,Poblacion Barangay 3,ALL OTHER STREETS,INTERIOR,8000.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 3,ALL OTHER STREETS,ALONG ALL OTHER STREET,7000.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 3,ALL OTHER STREETS,INTERIOR,6500.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 3,ALL OTHER SUBDIVISIONS,,4500.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 3,ALL OTHER SUBDIVISIONS,,4000.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 3,G. COLLANTES ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,Collantes Street,92.3076923076923
+CR,Poblacion Barangay 3,N. GONZALES ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,N. Gonzales Street,100
+CR,Poblacion Barangay 3,P. CARANDANG ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,P. Carandang Street,100
+I,Poblacion Barangay 3,G. COLLANTES ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,Collantes Street,92.3076923076923
+I,Poblacion Barangay 3,N. GONZALES ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,N. Gonzales Street,100
+I,Poblacion Barangay 3,P. CARANDANG ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,P. Carandang Street,100
+RR,Poblacion Barangay 3,G. COLLANTES ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,Collantes Street,92.3076923076923
+RR,Poblacion Barangay 3,N. GONZALES ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,N. Gonzales Street,100
+RR,Poblacion Barangay 3,P. CARANDANG ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,P. Carandang Street,100
+CR,Poblacion Barangay 3,CELESTE SUBD,,5500.0,DO 34-2022,street,Celeste Street,97
+RR,Poblacion Barangay 3,CELESTE SUBD,,5000.0,DO 34-2022,street,Celeste Street,97
+CR,Poblacion Barangay 3,PRES. LAUREL HIGHWAY,ALONG NATIONAL ROAD,40000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (49),0
+I,Poblacion Barangay 3,PRES. LAUREL HIGHWAY,ALONG NATIONAL ROAD,38000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (49),0
+CR,Poblacion Barangay 3,MAIN CITY ROAD,AVELINO ST,35000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (32),0
+I,Poblacion Barangay 3,MAIN CITY ROAD,AVELINO ST,33000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (32),0
+RR,Poblacion Barangay 3,PRES. LAUREL HIGHWAY,ALONG NATIONAL ROAD,30000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (49),0
+RR,Poblacion Barangay 3,MAIN CITY ROAD,AVELINO ST,27000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (32),0
+CR,Poblacion Barangay 3,MT. VIEW SUBD,,11500.0,DO 34-2022,unmatched,Amare Homes (33),0
+CR,Poblacion Barangay 3,GONZIVILLA SUBD,,11000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (19),0
+CR,Poblacion Barangay 3,P. ONATE ST.,ALONG CITY ROAD,9500.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (34),0
+CR,Poblacion Barangay 3,VALENCIA ST.,ALONG CITY ROAD,9500.0,DO 34-2022,unmatched,Amare Homes (31),0
+I,Poblacion Barangay 3,P. ONATE ST.,ALONG CITY ROAD,8500.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (34),0
+I,Poblacion Barangay 3,VALENCIA ST.,ALONG CITY ROAD,8500.0,DO 34-2022,unmatched,Amare Homes (31),0
+RR,Poblacion Barangay 3,P. ONATE ST.,ALONG CITY ROAD,7500.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (34),0
+RR,Poblacion Barangay 3,VALENCIA ST.,ALONG CITY ROAD,7500.0,DO 34-2022,unmatched,Amare Homes (31),0
+RR,Poblacion Barangay 3,MT. VIEW SUBD,,7500.0,DO 34-2022,unmatched,Amare Homes (33),0
+RR,Poblacion Barangay 3,GONZIVILLA SUBD,,7000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (19),0
+CR,Poblacion Barangay 3,SAN SEBASTIAN VILLAGE,,7000.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (29),0
+RR,Poblacion Barangay 3,SAN SEBASTIAN VILLAGE,,6500.0,DO 34-2022,unmatched,Palmridge at Blue Palm Estate (29),0
+CR,Poblacion Barangay 3,KRISEL SUBD.,,5500.0,DO 34-2022,unmatched,Amare Homes (36),0
+RR,Poblacion Barangay 3,KRISEL SUBD.,,5000.0,DO 34-2022,unmatched,Amare Homes (36),0
+CR,Poblacion Barangay 4,ALL OTHER STREETS,ALONG ALL OTHER STREET,9000.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 4,ALL OTHER STREETS,INTERIOR,8500.0,DO 34-2022,background,,0
+I,Poblacion Barangay 4,ALL OTHER STREETS,ALONG ALL OTHER STREET,8000.0,DO 34-2022,background,,0
+I,Poblacion Barangay 4,ALL OTHER STREETS,INTERIOR,7500.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 4,ALL OTHER STREETS,ALONG ALL OTHER STREET,7000.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 4,ALL OTHER STREETS,INTERIOR,6500.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 4,ALL OTHER SUBDIVISIONS,,5500.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 4,ALL OTHER SUBDIVISIONS,,4500.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 4,A. MABINI AVE.,ALONG MAIN CITY ROAD,40000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+I,Poblacion Barangay 4,A. MABINI AVE.,ALONG MAIN CITY ROAD,38000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+RR,Poblacion Barangay 4,A. MABINI AVE.,ALONG MAIN CITY ROAD,30000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+CR,Poblacion Barangay 4,B. LAURENA ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,B. Laurena Street,100
+CR,Poblacion Barangay 4,D. HIDALGO ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,D. Hidalgo Street,100
+CR,Poblacion Barangay 4,J. PAGASPAS ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,J.V. Pagaspas Street,92.85714285714286
+CR,Poblacion Barangay 4,M. CARANDANG ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,M.H. Carandang Street,93.33333333333333
+CR,Poblacion Barangay 4,N. GARCIA ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,N. Garcia Street,100
+CR,Poblacion Barangay 4,V. DIMAYUGA ST.,ALONG CITY ROAD,9500.0,DO 34-2022,street,V. Dimayuga Street,100
+I,Poblacion Barangay 4,B. LAURENA ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,B. Laurena Street,100
+I,Poblacion Barangay 4,D. HIDALGO ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,D. Hidalgo Street,100
+I,Poblacion Barangay 4,J. PAGASPAS ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,J.V. Pagaspas Street,92.85714285714286
+I,Poblacion Barangay 4,M. CARANDANG ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,M.H. Carandang Street,93.33333333333333
+I,Poblacion Barangay 4,N. GARCIA ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,N. Garcia Street,100
+I,Poblacion Barangay 4,V. DIMAYUGA ST.,ALONG CITY ROAD,8500.0,DO 34-2022,street,V. Dimayuga Street,100
+RR,Poblacion Barangay 4,B. LAURENA ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,B. Laurena Street,100
+RR,Poblacion Barangay 4,D. HIDALGO ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,D. Hidalgo Street,100
+RR,Poblacion Barangay 4,J. PAGASPAS ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,J.V. Pagaspas Street,92.85714285714286
+RR,Poblacion Barangay 4,M. CARANDANG ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,M.H. Carandang Street,93.33333333333333
+RR,Poblacion Barangay 4,N. GARCIA ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,N. Garcia Street,100
+RR,Poblacion Barangay 4,V. DIMAYUGA ST.,ALONG CITY ROAD,7500.0,DO 34-2022,street,V. Dimayuga Street,100
+CR,Poblacion Barangay 4,PRES. LAUREL HIGHWAY,ALONG NATIONAL ROAD,40000.0,DO 34-2022,unmatched,Teresa Compound (32),0
+I,Poblacion Barangay 4,PRES. LAUREL HIGHWAY,ALONG NATIONAL ROAD,38000.0,DO 34-2022,unmatched,Teresa Compound (32),0
+RR,Poblacion Barangay 4,PRES. LAUREL HIGHWAY,ALONG NATIONAL ROAD,30000.0,DO 34-2022,unmatched,Teresa Compound (32),0
+CR,Poblacion Barangay 4,YATCO SUBD.,,8000.0,DO 34-2022,unmatched,San Roque Village (29),0
+RR,Poblacion Barangay 4,YATCO SUBD.,,6500.0,DO 34-2022,unmatched,San Roque Village (29),0
+CR,Poblacion Barangay 5,ALL OTHER STREETS,ALONG ALL OTHER STREET,9000.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 5,ALL OTHER STREETS,INTERIOR,8500.0,DO 34-2022,background,,0
+I,Poblacion Barangay 5,ALL OTHER STREETS,ALONG ALL OTHER STREET,8000.0,DO 34-2022,background,,0
+I,Poblacion Barangay 5,ALL OTHER STREETS,INTERIOR,7500.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 5,ALL OTHER STREETS,ALONG ALL OTHER STREET,7000.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 5,ALL OTHER STREETS,INTERIOR,6500.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 5,A. MABINI AVE.,ALONG CITY ROAD,40000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+I,Poblacion Barangay 5,A. MABINI AVE.,ALONG CITY ROAD,38000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+RR,Poblacion Barangay 5,A. MABINI AVE.,ALONG CITY ROAD,30000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+CR,Poblacion Barangay 5,A. BURGOS ST.,ALONG CITY ROAD,29000.0,DO 34-2022,street,A. Burgos Street,100
+CR,Poblacion Barangay 5,SIXTO CASTILLO ST.,ALONG CITY ROAD,29000.0,DO 34-2022,street,Sixto Castillo Street,100
+I,Poblacion Barangay 5,A. BURGOS ST.,ALONG CITY ROAD,27000.0,DO 34-2022,street,A. Burgos Street,100
+I,Poblacion Barangay 5,SIXTO CASTILLO ST.,ALONG CITY ROAD,27000.0,DO 34-2022,street,Sixto Castillo Street,100
+RR,Poblacion Barangay 5,A. BURGOS ST.,ALONG CITY ROAD,22000.0,DO 34-2022,street,A. Burgos Street,100
+RR,Poblacion Barangay 5,SIXTO CASTILLO ST.,ALONG CITY ROAD,22000.0,DO 34-2022,street,Sixto Castillo Street,100
+CR,Poblacion Barangay 5,F. PLATON ST.,ALONG CITY ROAD,15000.0,DO 34-2022,street,F. Platon Street,100
+I,Poblacion Barangay 5,F. PLATON ST.,ALONG CITY ROAD,13000.0,DO 34-2022,street,F. Platon Street,100
+CR,Poblacion Barangay 5,AVELINO ST.,ALONG CITY ROAD,10000.0,DO 34-2022,street,Avelino Street,100
+CR,Poblacion Barangay 5,J. PAGASPAS ST.,ALONG CITY ROAD,10000.0,DO 34-2022,street,J.V. Pagaspas Street,92.85714285714286
+I,Poblacion Barangay 5,AVELINO ST.,ALONG CITY ROAD,9000.0,DO 34-2022,street,Avelino Street,100
+I,Poblacion Barangay 5,J. PAGASPAS ST.,ALONG CITY ROAD,9000.0,DO 34-2022,street,J.V. Pagaspas Street,92.85714285714286
+RR,Poblacion Barangay 5,AVELINO ST.,ALONG CITY ROAD,8000.0,DO 34-2022,street,Avelino Street,100
+RR,Poblacion Barangay 5,F. PLATON ST.,ALONG CITY ROAD,8000.0,DO 34-2022,street,F. Platon Street,100
+RR,Poblacion Barangay 5,J. PAGASPAS ST.,ALONG CITY ROAD,8000.0,DO 34-2022,street,J.V. Pagaspas Street,92.85714285714286
+CR,Poblacion Barangay 5,PRES. LAUREL HIGHWAY,ALONG NATIONAL ROAD,40000.0,DO 34-2022,unmatched,,0
+I,Poblacion Barangay 5,PRES. LAUREL HIGHWAY,ALONG NATIONAL ROAD,38000.0,DO 34-2022,unmatched,,0
+RR,Poblacion Barangay 5,PRES. LAUREL HIGHWAY,ALONG NATIONAL ROAD,30000.0,DO 34-2022,unmatched,,0
+CR,Poblacion Barangay 5,KALAW ST.,ALONG CITY ROAD,10000.0,DO 34-2022,unmatched,,0
+I,Poblacion Barangay 5,KALAW ST.,ALONG CITY ROAD,9000.0,DO 34-2022,unmatched,,0
+RR,Poblacion Barangay 5,KALAW ST.,ALONG CITY ROAD,8000.0,DO 34-2022,unmatched,,0
+CR,Poblacion Barangay 6,ALL OTHER STREET,ALONG ALL OTHER STREET,9000.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 6,ALL OTHER STREET,INTERIOR,8500.0,DO 34-2022,background,,0
+I,Poblacion Barangay 6,ALL OTHER STREET,ALONG ALL OTHER STREET,8000.0,DO 34-2022,background,,0
+I,Poblacion Barangay 6,ALL OTHER STREET,INTERIOR,7500.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 6,ALL OTHER STREET,ALONG ALL OTHER STREET,7000.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 6,ALL OTHER STREET,INTERIOR,6500.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 6,ALL OTHER SUBDIVISIONS,,5500.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 6,ALL OTHER SUBDIVISIONS,,4500.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 6,A. MABINI AVE.,ALONG NATIONAL ROAD,40000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+I,Poblacion Barangay 6,A. MABINI AVE.,ALONG NATIONAL ROAD,38000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+RR,Poblacion Barangay 6,A. MABINI AVE.,ALONG NATIONAL ROAD,30000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+CR,Poblacion Barangay 6,TRAPICHE ROAD,ALONG CITY ROAD,10000.0,DO 34-2022,street,Trapiche Road,100
+I,Poblacion Barangay 6,TRAPICHE ROAD,ALONG CITY ROAD,9000.0,DO 34-2022,street,Trapiche Road,100
+RR,Poblacion Barangay 6,TRAPICHE ROAD,ALONG CITY ROAD,8000.0,DO 34-2022,street,Trapiche Road,100
+CR,Poblacion Barangay 6,TAPIA SUBD,,9500.0,DO 34-2022,unmatched,Oltap Subdivision (60),0
+RR,Poblacion Barangay 6,TAPIA SUBD,,7500.0,DO 34-2022,unmatched,Oltap Subdivision (60),0
+CR,Poblacion Barangay 6,GLORIA COMPOUND,,8000.0,DO 34-2022,village,Gloria Compound,100
+CR,Poblacion Barangay 6,OLTAP SUBD.,,8000.0,DO 34-2022,village,Oltap Subdivision,100
+CR,Poblacion Barangay 6,TERESA COMPOUND,,7000.0,DO 34-2022,village,Teresa Compound,100
+RR,Poblacion Barangay 6,GLORIA COMPOUND,,6500.0,DO 34-2022,village,Gloria Compound,100
+RR,Poblacion Barangay 6,OLTAP SUBD.,,6500.0,DO 34-2022,village,Oltap Subdivision,100
+RR,Poblacion Barangay 6,TERESA COMPOUND,,5000.0,DO 34-2022,village,Teresa Compound,100
+CR,Poblacion Barangay 7,ALL OTHER STREET,ALONG ALL OTHER STREET,9500.0,DO 34-2022,background,,0
+I,Poblacion Barangay 7,ALL OTHER STREET,ALONG ALL OTHER STREET,8500.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 7,ALL OTHER STREET,INTERIOR,8500.0,DO 34-2022,background,,0
+I,Poblacion Barangay 7,ALL OTHER STREET,INTERIOR,8000.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 7,ALL OTHER STREET,ALONG ALL OTHER STREET,7500.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 7,ALL OTHER STREET,INTERIOR,6500.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 7,ALL OTHER SUBDIVISIONS,,5500.0,DO 34-2022,background,,0
+RR,Poblacion Barangay 7,ALL OTHER SUBDIVISIONS,,4500.0,DO 34-2022,background,,0
+CR,Poblacion Barangay 7,A. MABINI AVE.,ALONG CITY ROAD,40000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+I,Poblacion Barangay 7,A. MABINI AVE.,ALONG CITY ROAD,38000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+RR,Poblacion Barangay 7,A. MABINI AVE.,ALONG CITY ROAD,30000.0,DO 34-2022,street,Mabini Avenue,90.9090909090909
+CR,Poblacion Barangay 7,BURGOS ST.,ALONG CITY ROAD,29000.0,DO 34-2022,street,A. Burgos Street,90.0
+I,Poblacion Barangay 7,BURGOS ST.,ALONG CITY ROAD,27000.0,DO 34-2022,street,A. Burgos Street,90.0
+RR,Poblacion Barangay 7,BURGOS ST.,ALONG CITY ROAD,22000.0,DO 34-2022,street,A. Burgos Street,90.0
+CR,Poblacion Barangay 7,SIXTO CASTILLO ST.,ALONG CITY ROAD,29000.0,DO 34-2022,unmatched,Maligaya Compound (27),0
+I,Poblacion Barangay 7,SIXTO CASTILLO ST.,ALONG CITY ROAD,27000.0,DO 34-2022,unmatched,Maligaya Compound (27),0
+RR,Poblacion Barangay 7,SIXTO CASTILLO ST.,ALONG CITY ROAD,22000.0,DO 34-2022,unmatched,Maligaya Compound (27),0
+CR,Poblacion Barangay 7,LAROZ SUBD.,,8000.0,DO 34-2022,unmatched,Oltap Subdivision (40),0
+CR,Poblacion Barangay 7,YATCO SUBD.,,8000.0,DO 34-2022,unmatched,Maligaya Compound (31),0
+CR,Poblacion Barangay 7,REAVILLE SUBD.,,7000.0,DO 34-2022,unmatched,Josefa Village (29),0
+RR,Poblacion Barangay 7,LAROZ SUBD.,,6500.0,DO 34-2022,unmatched,Oltap Subdivision (40),0
+RR,Poblacion Barangay 7,YATCO SUBD.,,6500.0,DO 34-2022,unmatched,Maligaya Compound (31),0
+RR,Poblacion Barangay 7,REAVILLE SUBD.,,5000.0,DO 34-2022,unmatched,Josefa Village (29),0
+CR,Poblacion Barangay 7,MALIGAYA COMPOUND,,8000.0,DO 34-2022,village,Maligaya Compound,100
+RR,Poblacion Barangay 7,MALIGAYA COMPOUND,,6500.0,DO 34-2022,village,Maligaya Compound,100
+CR,Sala,CITY ROAD,ALONG CITY ROAD,4000.0,DO 34-2022,unmatched,,0
+I,Sala,CITY ROAD,ALONG CITY ROAD,3500.0,DO 34-2022,unmatched,,0
+CR,Sala,CITY ROAD,INTERIOR,3000.0,DO 34-2022,unmatched,,0
+RR,Sala,CITY ROAD,ALONG CITY ROAD,2500.0,DO 34-2022,unmatched,,0
+I,Sala,CITY ROAD,INTERIOR,2500.0,DO 34-2022,unmatched,,0
+RR,Sala,CITY ROAD,INTERIOR,1800.0,DO 34-2022,unmatched,,0
+CR,Sambat,ALL OTHER SUBDIVISIONS,,4500.0,DO 34-2022,background,,0
+RR,Sambat,ALL OTHER SUBDIVISIONS,,4000.0,DO 34-2022,background,,0
+CR,Sambat,NATIONAL / CITY ROAD,ALONG NATIONAL / CITY ROAD,14000.0,DO 34-2022,unmatched,Maligaya Compound (38),0
+CR,Sambat,CALABARZON ROAD,ALONG CALABARZON,14000.0,DO 34-2022,unmatched,Maligaya Compound (44),0
+I,Sambat,NATIONAL / CITY ROAD,(ARTERIAL ROAD),13000.0,DO 34-2022,unmatched,Maligaya Compound (38),0
+I,Sambat,CALABARZON ROAD,ALONG CALABARZON,13000.0,DO 34-2022,unmatched,Maligaya Compound (44),0
+RR,Sambat,NATIONAL / CITY ROAD,(ARTERIAL ROAD),11000.0,DO 34-2022,unmatched,Maligaya Compound (38),0
+CR,Sambat,NATIONAL / CITY ROAD,INTERIOR,11000.0,DO 34-2022,unmatched,Maligaya Compound (38),0
+I,Sambat,NATIONAL / CITY ROAD,INTERIOR,9000.0,DO 34-2022,unmatched,Maligaya Compound (38),0
+CR,Sambat,GRAND VIEW HEIGHTS SUBD.,,7500.0,DO 34-2022,unmatched,Maligaya Compound (24),0
+RR,Sambat,NATIONAL / CITY ROAD,INTERIOR,7000.0,DO 34-2022,unmatched,Maligaya Compound (38),0
+RR,Sambat,GRAND VIEW HEIGHTS SUBD.,,6500.0,DO 34-2022,unmatched,Maligaya Compound (24),0
+CR,Sambat,JOSEFA SUBD.,,7000.0,DO 34-2022,village,Josefa Village,100
+RR,Sambat,JOSEFA SUBD.,,6000.0,DO 34-2022,village,Josefa Village,100
+CR,Sambat,OLTAP SUBD.,,5500.0,DO 34-2022,village,Oltap Subdivision,100
+RR,Sambat,OLTAP SUBD.,,5000.0,DO 34-2022,village,Oltap Subdivision,100
+CR,San Jose,BARANGAY ROAD,ALONG BARANGAY ROAD,2000.0,DO 34-2022,unmatched,,0
+CR,San Jose,BARANGAY ROAD,INTERIOR,1800.0,DO 34-2022,unmatched,,0
+I,San Jose,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,,0
+I,San Jose,BARANGAY ROAD,INTERIOR,1400.0,DO 34-2022,unmatched,,0
+RR,San Jose,BARANGAY ROAD,ALONG BARANGAY ROAD,1300.0,DO 34-2022,unmatched,,0
+RR,San Jose,BARANGAY ROAD,INTERIOR,1200.0,DO 34-2022,unmatched,,0
+CR,Santol,BARANGAY ROAD,ALONG BARANGAY ROAD,2000.0,DO 34-2022,unmatched,Southville 6 (0),0
+CR,Santol,BARANGAY ROAD,INTERIOR,1800.0,DO 34-2022,unmatched,Southville 6 (0),0
+RR,Santol,BARANGAY ROAD,ALONG BARANGAY ROAD,1300.0,DO 34-2022,unmatched,Southville 6 (0),0
+RR,Santol,BARANGAY ROAD,INTERIOR,1200.0,DO 34-2022,unmatched,Southville 6 (0),0
+CR,Santor,ALL OTHER SUBDIVISIONS,,4000.0,DO 34-2022,background,,0
+RR,Santor,ALL OTHER SUBDIVISIONS,,3500.0,DO 34-2022,background,,0
+CR,Santor,ALL OTHER STREET,ALONG ALL OTHER STREET,2800.0,DO 34-2022,background,,0
+CR,Santor,ALL OTHER STREET,INTERIOR,2300.0,DO 34-2022,background,,0
+RR,Santor,ALL OTHER STREET,ALONG ALL OTHER STREET,2200.0,DO 34-2022,background,,0
+RR,Santor,ALL OTHER STREET,INTERIOR,1800.0,DO 34-2022,background,,0
+CR,Santor,HILLSBORO RESIDENCES,,7000.0,DO 34-2022,unmatched,,0
+RR,Santor,HILLSBORO RESIDENCES,,6000.0,DO 34-2022,unmatched,,0
+CR,Santor,VILLA CORAZON,,6000.0,DO 34-2022,unmatched,,0
+CR,Santor,NATIONAL ROAD,ALONG NATIONAL ROAD,5000.0,DO 34-2022,unmatched,,0
+I,Santor,NATIONAL ROAD,ALONG NATIONAL ROAD,4500.0,DO 34-2022,unmatched,,0
+RR,Santor,NATIONAL ROAD,ALONG NATIONAL ROAD,4000.0,DO 34-2022,unmatched,,0
+RR,Santor,VILLA CORAZON,,4000.0,DO 34-2022,unmatched,,0
+CR,Santor,NATIONAL ROAD,INTERIOR,3500.0,DO 34-2022,unmatched,,0
+I,Santor,NATIONAL ROAD,INTERIOR,3500.0,DO 34-2022,unmatched,,0
+RR,Santor,NATIONAL ROAD,INTERIOR,2700.0,DO 34-2022,unmatched,,0
+CR,Sulpoc,ALL OTHER SUBDIVISIONS,,8000.0,DO 34-2022,background,,0
+RR,Sulpoc,ALL OTHER SUBDIVISIONS,,6000.0,DO 34-2022,background,,0
+CR,Sulpoc,FAIRFIELD TAGAYTAY HIGHLANDS,,11000.0,DO 34-2022,unmatched,Fairfield (50),0
+CR,Sulpoc,ZARATOGA(THE VERANDAS/THE PARKS),,11000.0,DO 34-2022,unmatched,The Verandas at Saratoga Hills (56),0
+RR,Sulpoc,FAIRFIELD TAGAYTAY HIGHLANDS,,10000.0,DO 34-2022,unmatched,Fairfield (50),0
+RR,Sulpoc,ZARATOGA(THE VERANDAS/THE PARKS),,10000.0,DO 34-2022,unmatched,The Verandas at Saratoga Hills (56),0
+CR,Sulpoc,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (34),0
+CR,Sulpoc,BARANGAY ROAD,INTERIOR,1200.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (34),0
+RR,Sulpoc,BARANGAY ROAD,ALONG BARANGAY ROAD,1000.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (34),0
+RR,Sulpoc,BARANGAY ROAD,INTERIOR,800.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (34),0
+CR,Sulpoc,PLANTATION HILLS,,13000.0,DO 34-2022,village,Plantation Hills,100
+RR,Sulpoc,PLANTATION HILLS,,12000.0,DO 34-2022,village,Plantation Hills,100
+CR,Sulpoc,NOB HILL,,11000.0,DO 34-2022,village,Nob Hill,100
+RR,Sulpoc,NOB HILL,,10000.0,DO 34-2022,village,Nob Hill,100
+CR,Suplang,ALL OTHER SUBDIVISIONS,,9000.0,DO 34-2022,background,,0
+RR,Suplang,ALL OTHER SUBDIVISIONS,,7000.0,DO 34-2022,background,,0
+CR,Suplang,FAIRFIELD TAGAYTAY HIGHLANDS,,11000.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (50),0
+CR,Suplang,NOB HILL,,11000.0,DO 34-2022,unmatched,Plantation Hills (61),0
+CR,Suplang,ZARATOGA(THE VERANDAS/THE PARKS),,11000.0,DO 34-2022,unmatched,The Verandas at Saratoga Hills (56),0
+RR,Suplang,FAIRFIELD TAGAYTAY HIGHLANDS,,10000.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (50),0
+RR,Suplang,NOB HILL,,10000.0,DO 34-2022,unmatched,Plantation Hills (61),0
+RR,Suplang,ZARATOGA(THE VERANDAS/THE PARKS),,10000.0,DO 34-2022,unmatched,The Verandas at Saratoga Hills (56),0
+CR,Suplang,BARANGAY ROAD,ALONG BARANGAY ROAD,2000.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (34),0
+CR,Suplang,BARANGAY ROAD,INTERIOR,1800.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (34),0
+I,Suplang,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (34),0
+I,Suplang,BARANGAY ROAD,INTERIOR,1300.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (34),0
+RR,Suplang,BARANGAY ROAD,ALONG BARANGAY ROAD,1200.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (34),0
+RR,Suplang,BARANGAY ROAD,INTERIOR,1000.0,DO 34-2022,unmatched,The Parks at Saratoga Hills (34),0
+CR,Suplang,PLANTATION HILLS,,11000.0,DO 34-2022,village,Plantation Hills,100
+RR,Suplang,PLANTATION HILLS,,10000.0,DO 34-2022,village,Plantation Hills,100
+CR,Talaga,ALL OTHER SUBDIVISIONS,,5500.0,DO 34-2022,background,,0
+RR,Talaga,ALL OTHER SUBDIVISIONS,,4000.0,DO 34-2022,background,,0
+CR,Talaga,ALL OTHER STREET,ALONG ALL OTHER STREET,2400.0,DO 34-2022,background,,0
+RR,Talaga,ALL OTHER STREET,ALONG ALL OTHER STREET,2000.0,DO 34-2022,background,,0
+CR,Talaga,ALL OTHER STREET,INTERIOR,2000.0,DO 34-2022,background,,0
+RR,Talaga,ALL OTHER STREET,INTERIOR,1600.0,DO 34-2022,background,,0
+CR,Talaga,MABINI HILLS,,6000.0,DO 34-2022,unmatched,,0
+RR,Talaga,MABINI HILLS,,4500.0,DO 34-2022,unmatched,,0
+CR,Talaga,NATIONAL ROAD,ALONG NATIONAL ROAD,4000.0,DO 34-2022,unmatched,,0
+I,Talaga,NATIONAL ROAD,ALONG NATIONAL ROAD,3500.0,DO 34-2022,unmatched,,0
+RR,Talaga,NATIONAL ROAD,ALONG NATIONAL ROAD,3000.0,DO 34-2022,unmatched,,0
+CR,Talaga,NATIONAL ROAD,INTERIOR,3000.0,DO 34-2022,unmatched,,0
+I,Talaga,NATIONAL ROAD,INTERIOR,2800.0,DO 34-2022,unmatched,,0
+RR,Talaga,NATIONAL ROAD,INTERIOR,2500.0,DO 34-2022,unmatched,,0
+CR,Tinurik,BARANGAY ROAD,ALONG BARANGAY ROAD,4000.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+CR,Tinurik,BARANGAY ROAD,INTERIOR,3500.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+I,Tinurik,BARANGAY ROAD,ALONG BARANGAY ROAD,3300.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+RR,Tinurik,BARANGAY ROAD,ALONG BARANGAY ROAD,3000.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+I,Tinurik,BARANGAY ROAD,INTERIOR,2800.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+RR,Tinurik,BARANGAY ROAD,INTERIOR,2500.0,DO 34-2022,unmatched,Deca Homes Tanauan (40),0
+CR,Trapiche,ALL OTHER SUBDIVISIONS,,6000.0,DO 34-2022,background,,0
+RR,Trapiche,ALL OTHER SUBDIVISIONS,,4500.0,DO 34-2022,background,,0
+CR,Trapiche,GENTLE GREEN EXEC SUBD,,8500.0,DO 34-2022,unmatched,Teresa Compound (35),0
+RR,Trapiche,GENTLE GREEN EXEC SUBD,,6500.0,DO 34-2022,unmatched,Teresa Compound (35),0
+CR,Trapiche,CALABARZON ROAD,ALONG CALABARZON ROAD,6000.0,DO 34-2022,unmatched,Oltap Subdivision (27),0
+I,Trapiche,CALABARZON ROAD,ALONG CALABARZON ROAD,5000.0,DO 34-2022,unmatched,Oltap Subdivision (27),0
+CR,Trapiche,NATIONAL ROAD,ALONG NATIONAL ROAD,4500.0,DO 34-2022,unmatched,Oltap Subdivision (31),0
+I,Trapiche,NATIONAL ROAD,ALONG NATIONAL ROAD,4300.0,DO 34-2022,unmatched,Oltap Subdivision (31),0
+CR,Trapiche,NATIONAL ROAD,INTERIOR,4200.0,DO 34-2022,unmatched,Oltap Subdivision (31),0
+RR,Trapiche,NATIONAL ROAD,ALONG NATIONAL ROAD,4000.0,DO 34-2022,unmatched,Oltap Subdivision (31),0
+I,Trapiche,NATIONAL ROAD,INTERIOR,4000.0,DO 34-2022,unmatched,Oltap Subdivision (31),0
+RR,Trapiche,NATIONAL ROAD,INTERIOR,3700.0,DO 34-2022,unmatched,Oltap Subdivision (31),0
+CR,Trapiche,TERESA COMPOUND,,8500.0,DO 34-2022,village,Teresa Compound,100
+RR,Trapiche,TERESA COMPOUND,,6500.0,DO 34-2022,village,Teresa Compound,100
+I,Ulango,FIRST PHIL. INDUSTRIAL PARK (FPIP),,5000.0,DO 34-2022,unmatched,,0
+RR,Ulango,BARANGAY ROAD,ALONG BARANGAY ROAD,3000.0,DO 34-2022,unmatched,,0
+RR,Ulango,BARANGAY ROAD,INTERIOR,2000.0,DO 34-2022,unmatched,,0
+CR,Wawa,BARANGAY ROAD,ALONG BARANGAY ROAD,2300.0,DO 34-2022,unmatched,,0
+RR,Wawa,BARANGAY ROAD,ALONG BARANGAY ROAD,1500.0,DO 34-2022,unmatched,,0
+RR,Wawa,BARANGAY ROAD,INTERIOR,1000.0,DO 34-2022,unmatched,,0

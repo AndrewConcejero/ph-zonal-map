@@ -26,6 +26,8 @@ RDO-052,0.123,rdo,30,1.0,"DO 9-2018 -> DO 49-2023 (5.6 yrs, 30 pairs)",
 RDO-055,0.0711,rdo,31,1.0,"DO 33-2002 -> DO 18-2020 (17.5 yrs, 19 pairs); DO 55-2002 -> DO 18-2020 (17.5 yrs, 12 pairs)",
 RDO-056,0.0918,rdo,91,1.0,"DO 56-2017 -> DO 59-2023 (6.0 yrs, 91 pairs)",
 RDO-057,0.3034,rdo,140,0.993,"DO 11-2015 -> DO 32-2019 (4.2 yrs, 87 pairs); DO 11-2015 -> DO 88-2019 (4.7 yrs, 37 pairs); DO 32-2019 -> DO 55-2024 (5.1 yrs, 10 pairs); DO 88-2019 -> DO 55-2024 (4.5 yrs, 5 pairs)",above 15% a year; latest transition had too few pairs; used 2 transitions
+RDO-058,0.1023,rdo,32,1.0,"DO 32-2010 -> DO 60-2018 (8.2 yrs, 30 pairs); DO 60-2018 -> DO 35-2022 (3.6 yrs, 1 pairs); DO 12-2000 -> DO 60-2018 (18.7 yrs, 1 pairs)",latest transition had too few pairs; used 2 transitions
+RDO-059,0.4024,rdo,68,1.0,"DO 60-2014 -> DO 58-2018 (4.1 yrs, 54 pairs); DO 58-2018 -> DO 34-2022 (3.6 yrs, 14 pairs)",above 15% a year; latest transition had too few pairs; used 2 transitions
 RDO-25A,0.1144,rdo,142,1.0,"DO 29-2009 -> DO 9-2020 (10.6 yrs, 142 pairs)",
 RDO-25B,0.0836,rdo,263,1.0,"DO 29-2009 -> DO 14-2018 (8.8 yrs, 263 pairs)",
 RDO-53A,0.1254,province median,0,0,,no matched pairs
