@@ -10,7 +10,7 @@ Only OSM shapes inside (or touching) the row's own barangay are considered, so c
 "Rizal St" cannot match in the wrong place.
 
 Usage: python -m pipeline.streets Muntinlupa      one city (Metro Manila; or "Lipa, Batangas")
-       python -m pipeline.streets --ncr|--south|--batangas|--all   a set of cities, plus public/data/streets/index.json
+       python -m pipeline.streets --ncr|--south|--batangas|--pampanga|--zambales|--quezon|--all   a set of cities, plus public/data/streets/index.json
 Writes public/data/streets/<city>.geojson and pipeline/review/streets_<city>.csv; a city name used in several
 provinces (Rosario, San Juan) gets the province in its file name and index key (osm.place_slug).
 """
@@ -303,6 +303,10 @@ SOUTH = [('Bacoor', 'Cavite'), ('Imus', 'Cavite'), ('Dasmariñas', 'Cavite'), ('
          ('Los Baños', 'Laguna')]
 
 
+# provinces whose every LGU with BIR values gets the street layer (Metro Manila and SOUTH are listed above)
+PROVINCE_SETS = ['Batangas', 'Pampanga', 'Zambales', 'Quezon']
+
+
 def province_cities(province: str) -> list[tuple[str, str]]:
     """Every city of a province that has barangays with BIR values (Batangas: all 34 LGUs)."""
     zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
@@ -326,7 +330,7 @@ def run_ncr(cities: list[tuple[str, str]] | None = None) -> None:
 
 
 if __name__ == '__main__':
-    sets = {'--ncr': lambda: None, '--south': lambda: SOUTH, '--batangas': lambda: province_cities('Batangas')}
+    sets = {'--ncr': lambda: None, '--south': lambda: SOUTH, **{f'--{p.lower()}': (lambda p=p: province_cities(p)) for p in PROVINCE_SETS}}
     if sys.argv[1:] == ['--all']:
         for f in sets.values():
             run_ncr(f())

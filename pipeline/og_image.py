@@ -65,7 +65,7 @@ def main() -> None:
     t = fig.text
     t(0.05, 0.86, 'BIR ZONAL VALUES · ₱ PER SQM OF LAND', fontsize=13, color=MUTED, family='monospace')
     t(0.05, 0.80, 'What the taxman\nthinks Metro Manila\nland is worth', fontsize=36, weight='bold', color=FG, va='top', linespacing=1.05)
-    t(0.05, 0.36, 'Barangay by barangay across Metro Manila,\nCavite, Laguna, Rizal, Bulacan and Batangas.\nTap any area for its values.', fontsize=16, color=MUTED, va='top', linespacing=1.4)
+    t(0.05, 0.36, 'Barangay by barangay from Zambales and Pampanga\nthrough Metro Manila to Batangas and Quezon.\nTap any area for its values.', fontsize=16, color=MUTED, va='top', linespacing=1.4)
     t(0.05, 0.08, 'ph-zonal-map.vercel.app', fontsize=15, color='#0f6b6b', weight='bold')
 
     # legend bar

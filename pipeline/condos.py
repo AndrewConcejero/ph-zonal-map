@@ -6,7 +6,7 @@ building inside or touching its barangay, by the same name rules as villages (pi
 words ("tower", "residences", "condominium") ignored. Unmatched buildings are listed, never guessed.
 
 Usage: python -m pipeline.condos   -> public/data/condos/<city>.geojson + index.json, pipeline/review/condos.csv
-Covers the same cities as the street layer: Metro Manila, southern Cavite and Laguna, Batangas.
+Covers the same cities as the street layer: Metro Manila, southern Cavite and Laguna, and streets.PROVINCE_SETS.
 """
 from __future__ import annotations
 
@@ -139,10 +139,10 @@ def run(city: str, province: str = 'Metro Manila') -> dict:
 
 
 def main() -> None:
-    from .streets import SOUTH, province_cities
+    from .streets import PROVINCE_SETS, SOUTH, province_cities
     zonal = json.loads((ROOT / 'public' / 'data' / 'zonal.geojson').read_text(encoding='utf-8'))['features']
     cities = (sorted({(f['properties']['c'], 'Metro Manila') for f in zonal if f['properties']['p'] == 'Metro Manila'})
-              + SOUTH + province_cities('Batangas'))
+              + SOUTH + [c for p in PROVINCE_SETS for c in province_cities(p)])
     index, report = {}, []
     for c, prov in cities:
         res = run(c, prov)

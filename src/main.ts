@@ -336,7 +336,7 @@ const map = new maplibregl.Map({
   style: STYLES[theme()],
   bounds: NCR_BOUNDS,
   fitBoundsOptions: { padding: 12 },
-  maxBounds: [[119.4, 13.0], [122.6, 16.0]],  // Batangas's southern tip (Verde Island ~13.5) to north of Angeles
+  maxBounds: [[119.0, 11.8], [124.8, 16.4]],  // Zambales to Quezon now; room for Bicol (to Sorsogon and Masbate)
   minZoom: 7.5,
   maxZoom: 17,
   attributionControl: { compact: true },
@@ -732,8 +732,8 @@ function renderLegend() {
       return `<span style="position:absolute;${align}">${short(t)}</span>`;
     }).join('')}</div>
     <div class="keys"><span><i class="sw hatch"></i>city median or estimate</span><span><i class="sw" style="background:var(--nodata)"></i>no data</span></div>
-    ${Object.keys(streetIndex).length ? `<div class="imagery">${map.getZoom() < STREET_FADE[0] ? 'Zoom in on Metro Manila, southern Cavite and Laguna, or Batangas for village, street and condo values' : `Villages filled, streets as lines (dashed: whole street shown)${state.mode === 'typ' ? '; barangays show their interior-lot value' : ''}`}</div>` : ''}
-    ${state.condos ? `<div class="imagery">● condominiums: BIR value per sqm of floor area${map.getZoom() < CONDO_MINZOOM ? ' (zoom in on Metro Manila, Cavite, Laguna or Batangas)' : ''}</div>` : ''}
+    ${Object.keys(streetIndex).length ? `<div class="imagery">${map.getZoom() < STREET_FADE[0] ? 'Zoom in on a city or town for village, street and condo values' : `Villages filled, streets as lines (dashed: whole street shown)${state.mode === 'typ' ? '; barangays show their interior-lot value' : ''}`}</div>` : ''}
+    ${state.condos ? `<div class="imagery">● condominiums: BIR value per sqm of floor area${map.getZoom() < CONDO_MINZOOM ? ' (zoom in on a city)' : ''}</div>` : ''}
     ${state.transport ? `<div class="imagery"><span style="color:${TR_COLORS.expressway}">━</span> expressway <span style="color:${TR_COLORS.rail}">━</span> rail · dashed: under construction · dotted: proposed</div>` : ''}
     ${state.satellite ? `<div class="imagery">Imagery: ${SATELLITE.name} (credit at bottom right)</div>` : ''}`;
 }

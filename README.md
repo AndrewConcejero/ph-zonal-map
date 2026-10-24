@@ -1,6 +1,6 @@
 # Philippine Zonal Value Map
 
-A free, public map of BIR residential zonal values (₱ per square meter of land) for Metro Manila and its outskirts: Cavite, Laguna, Rizal, Bulacan and Batangas. Pampanga (with Angeles City) is on the map as `no_data` until its BIR workbooks (RDO 21A North Pampanga, 21B South Pampanga) are added. Values are shown per barangay where the data allows. Every area carries a flag saying how good its number is.
+A free, public map of BIR residential zonal values (₱ per square meter of land) for Metro Manila and the provinces around it: Bulacan, Pampanga (with Angeles), Zambales (with Olongapo), Rizal, Cavite, Laguna, Batangas and Quezon (with Lucena). Bicol is next. Values are shown per barangay where the data allows. Every area carries a flag saying how good its number is.
 
 > **Zonal values are BIR tax floors, not market prices.** Read the map as a ranking. Check with the BIR Revenue District Office (RDO) before any transaction.
 
@@ -59,9 +59,9 @@ npm run dev  # local site at http://localhost:5173
 
 `make data` writes review files to `pipeline/review/`. If a barangay lands in `unmatched.csv`, add a row to `pipeline/aliases.csv` and run `make data` again.
 
-## Street and village values (Metro Manila, southern Cavite and Laguna, Batangas)
+## Street and village values
 
-Zoom in on any Metro Manila city, the Cavite and Laguna cities listed in `streets.SOUTH`, or any Batangas town to see BIR's street and subdivision values on the map: villages filled, streets as
+Zoom in on any Metro Manila city, the Cavite and Laguna cities listed in `streets.SOUTH`, or any town in Batangas, Pampanga, Zambales or Quezon (`streets.PROVINCE_SETS`) to see BIR's street and subdivision values on the map: villages filled, streets as
 lines (dashed where BIR's stretch could not be pinned down, so the whole street is drawn). `pipeline/streets.py`
 matches each residential row of the current schedule to OpenStreetMap shapes in its own barangay; 62% of priced
 rows place. One cached OSM request per city (`cache/osm/`); one GeoJSON per city in `public/data/streets/`,
