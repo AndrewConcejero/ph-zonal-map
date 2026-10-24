@@ -162,11 +162,15 @@ def _overpass(query: str, path: Path) -> None:
     req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({'data': query}).encode(), headers={'User-Agent': UA})
     for attempt in range(4):  # Overpass answers 429/504 when busy: back off and retry
         try:
-            with urllib.request.urlopen(req, timeout=300) as r:
+            with urllib.request.urlopen(req, timeout=400) as r:
                 body = r.read()
             break
         except urllib.error.HTTPError as e:
             if e.code not in (429, 502, 503, 504) or attempt == 3:
+                raise
+            time.sleep(30 * (attempt + 1))
+        except (TimeoutError, urllib.error.URLError):
+            if attempt == 3:
                 raise
             time.sleep(30 * (attempt + 1))
     json.loads(body)  # fail loudly rather than cache a broken response
@@ -174,6 +178,7 @@ def _overpass(query: str, path: Path) -> None:
     time.sleep(5)  # be polite between requests
 
 
+TRANSPORT_BAND = 0.5  # degrees of latitude per request
 TRANSPORT_QUERY = """[out:json][timeout:300];
 (
   way["highway"~"^(motorway|trunk)$"]({bbox});
@@ -187,10 +192,29 @@ out geom tags;"""
 
 
 def fetch_transport(bbox: tuple[float, float, float, float]) -> dict:
-    """Expressways, trunk roads, rail lines and stations, current and under construction or proposed. Cached."""
+    """Expressways, trunk roads, rail lines and stations, current and under construction or proposed. Cached.
+
+    Fetched in latitude bands of TRANSPORT_BAND degrees (one request for Pampanga-to-Batangas times out), each
+    cached as transport-<south>-<north>.json, then merged into transport.json; ways crossing a band edge come
+    back in both bands and are kept once."""
     CACHE.mkdir(parents=True, exist_ok=True)
     path = CACHE / 'transport.json'
     if not path.exists():
         w, s, e, n = bbox
-        _overpass(TRANSPORT_QUERY.format(bbox=f'{s:.4f},{w:.4f},{n:.4f},{e:.4f}'), path)
+        merged, seen, stamp = [], set(), None
+        lat = s
+        while lat < n:
+            top = min(lat + TRANSPORT_BAND, n)
+            band = CACHE / f'transport-{lat:.2f}-{top:.2f}.json'
+            if not band.exists():
+                _overpass(TRANSPORT_QUERY.format(bbox=f'{lat:.4f},{w:.4f},{top:.4f},{e:.4f}'), band)
+                print(f'  transport band {lat:.2f}-{top:.2f}', flush=True)
+            data = json.loads(band.read_text(encoding='utf-8'))
+            stamp = stamp or data.get('osm3s')
+            for el in data['elements']:
+                if (el['type'], el['id']) not in seen:
+                    seen.add((el['type'], el['id']))
+                    merged.append(el)
+            lat = top
+        path.write_text(json.dumps({'osm3s': stamp, 'elements': merged}, ensure_ascii=False), encoding='utf-8')
     return json.loads(path.read_text(encoding='utf-8'))
