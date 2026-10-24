@@ -13,3 +13,5 @@ cache/
 raw/bir/_duplicates/
 pipeline/review/parse_errors.csv.gz
 !.env.example
+# personal trip log for travel-time calibration (docs/travel-time-design.md §2.3); only the template is public
+data/trips.csv

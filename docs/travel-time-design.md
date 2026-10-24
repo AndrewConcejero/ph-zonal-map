@@ -1,6 +1,6 @@
 # Travel time view: design memo
 
-Status: proposal, nothing built. Written 2026-10-24. Terms and prices below were read from the providers' own pages on that date (sources at the end). Check them again before any money or account is involved.
+Status: design agreed, nothing built yet. Written 2026-10-24; the user's decisions from the same day are folded in (see "Decisions" at the end). Terms and prices below were read from the providers' own pages on that date (sources at the end). Check them again before any money or account is involved.
 
 ## The idea
 
@@ -89,7 +89,27 @@ Multipliers are a small table, roughly 4 classes × 3 zones × 3 periods = 36 nu
 ### 2.3 Calibration without paid APIs
 
 1. **Starting values** from published aggregates: TomTom Index city figures (above), and MMDA's EDSA speed reports (about 25 km/h average in May 2023). We use the numbers as reference statistics and do not touch TomTom's API.
-2. **Trip log (the real calibration).** The user, plus anyone they recruit, records about **40–60 real trips**: origin, destination, departure time, arrival time and route type (expressway or not). Cover each period and each zone pair, including the motivating case: Makati → Santa Rosa/Laguna versus Makati → Pasig at 18:00. A plain CSV in `data/` is enough, kept as personal trip records, without exact home addresses (snap them to the barangay).
+2. **Trip log (the real calibration).** About **40–60 real trips**, covering each period and each zone pair, including the motivating case: Makati → Santa Rosa/Laguna versus Makati → Pasig at 18:00. No trips need to be driven just for this. Use trips that have already happened:
+   - **Your own location history.** Google Maps Timeline export (now stored on the phone, exported from the app's settings) and Waze's account data download both hold your own past drives with start and end times. That is your personal data, not Google's or Waze's map content, so using it is fine.
+   - **Ride-hailing receipts** (Grab and others): pickup time, drop-off time and both addresses for every past ride.
+   - **Everyday trips going forward**, plus friends', family's and colleagues' commutes. Each person adds one line per trip.
+
+   **Why not copy ETAs from Waze or Google Maps instead.** The Waze Terms of Service (last modified 8 July 2026, "Use restrictions") license the app for personal, non-commercial use only. They forbid copying content, building a database from it, and "creating a new product or service based on the Service or its Content". The Google Maps End User Additional Terms (§2.4, last modified 27 Jan 2026) forbid using Google Maps to create or augment a mapping or navigation dataset. A calibration table copied from their ETAs, then published as this map's travel times, is that kind of derived product. A few dozen manual lookups would probably never be noticed, but they break the letter of the terms, and the map would then quietly rest on Google's data. Looking at Waze yourself to sanity-check a result is fine. Typing its numbers into the calibration file is not. Logged trips have a second advantage: they are real outcomes, including the bad days, which is exactly what the ranges need.
+
+   **Template**: [`data/trips_template.csv`](../data/trips_template.csv). One row per trip:
+
+   | Column | Example | Notes |
+   |---|---|---|
+   | `date` | 2026-10-21 | Weekdays matter most; mark holidays in `conditions` |
+   | `depart` / `arrive` | 07:05 / 08:20 | Local time, door to door |
+   | `origin` / `dest` | Ayala Alabang, Muntinlupa / Bel-Air, Makati | Barangay and city (or a well-known landmark). No house addresses; the pipeline snaps each to its barangay |
+   | `mode` | car | car, motorcycle, ride-hail, rail, bus |
+   | `route` | Skyway | Main road or expressway, if known |
+   | `conditions` | normal | normal, rain, flood, holiday, accident, event |
+   | `source` | timeline | timeline, waze_history, grab_receipt, logged |
+   | `who` | A | Initials only, so one person's habits can be checked |
+
+   Keep the filled-in file (`data/trips.csv`) **out of the public repo**, since even barangay-level commute patterns are personal. The pipeline reads it locally and publishes only the fitted multipliers and the error figures.
 3. **Fit** the 36 multipliers by least squares on log time, with sensible bounds (no multiplier above free-flow; expressway ≥ arterial in the same zone and period).
 4. **Hold out 20%** of trips. Report the median and 80th-percentile error on the page, along with the trip count.
 5. **Flag, don't smooth.** Trips the model misses by more than 40% get listed in a review file, just as unmatched barangays are today. A bad miss usually means a missing OSM road, a wrong one-way, or an unmodelled bottleneck. Fix the cause, never the trip.
@@ -100,7 +120,7 @@ Later option: a "log my commute" form on the site to grow the trip set. That nee
 
 - **Car first.** Assume tolls are paid. Show toll roads in the route explanation, and maybe toll cost later.
 - **Rail + walk** (later phase). Model the rail lines as a small graph in Python, not through OTP/r5, since there is no usable GTFS. A trip is walk (up to 1.2 km at 4.5 km/h) or short road access at peak speed, then wait (half the headway), in-vehicle time from published timetables or line speeds, transfer penalties, and the egress walk. The EDSA Carousel busway belongs in the same model because it has its own lane. **Jeepney, bus and UV Express routes are not modelled.** Say so plainly on the map, because for many commuters they are the real mode.
-- **Blocker found while writing this, needs fixing first.** `public/data/transport.geojson` has only **65 stations**, and many major ones are missing: Ayala, Buendia, Guadalupe and Taft (MRT-3), Baclaran and most of LRT-1, and most of LRT-2. `transport.py` keeps only nodes tagged `railway=station`; other stations are probably mapped as areas, or as `public_transport=station` or `railway=halt`. This already distorts the existing "distance to rail" factor. Baclaran, Parañaque shows **2.9 km** to rail although LRT-1 Baclaran station is in the barangay. San Lorenzo and Bel-Air, Makati show 1.3 km and 2.3 km. `docs/insights.md` uses that factor too. This memo leaves it unfixed (out of scope); it is listed as a follow-up.
+- **Blocker found while writing this, needs fixing first.** `public/data/transport.geojson` has only **65 stations**, and many major ones are missing: Ayala, Buendia, Guadalupe and Taft (MRT-3), Baclaran and most of LRT-1, and most of LRT-2. `transport.py` keeps only nodes tagged `railway=station`; other stations are probably mapped as areas, or as `public_transport=station` or `railway=halt`. This already distorts the existing "distance to rail" factor. Baclaran, Parañaque shows **2.9 km** to rail although LRT-1 Baclaran station is in the barangay. San Lorenzo and Bel-Air, Makati show 1.3 km and 2.3 km. `docs/insights.md` uses that factor too. The fix is underway in a separate session: wider station extraction, deduplication, a line name per station, and flags for bad opening dates. The next full build will then refresh `f_rail`. Rail + walk is confirmed in scope.
 
 ---
 
@@ -108,9 +128,16 @@ Later option: a "log my commute" form on the site to grow the trip set. That nee
 
 ### 3.1 Presets first, any target second
 
-**Preset destinations (phase 1).** About 20 hand-picked points: Makati CBD (Ayala), BGC, Ortigas, Alabang (Filinvest), Binondo/Manila City Hall, Eastwood, Cubao/Araneta, Quezon City Hall/Triangle, the Bay Area (MOA/Aseana), NAIA Terminals 1 and 3, and a few southern and northern job centres (Nuvali/Santa Rosa, Calamba, Malolos, the Clark direction if inside the network). The six business districts already in `pipeline/insights.py` (`CBDS`) are the core list.
+**Preset destinations (phase 1).** About 24 points:
 
-- Size: 3,936 × 20 × 3 periods × 2 bounds (low and high), as whole minutes in uint16, is about 0.9 MB raw, roughly 300–400 KB gzipped. Better still, one small file per destination (about 24 KB raw), fetched only when chosen. The same pattern as `public/data/streets/`.
+- **Business districts**: Makati CBD (Ayala), BGC, Ortigas, Alabang (Filinvest), Binondo/Manila City Hall, Eastwood, Cubao/Araneta, Quezon City Hall/Triangle, the Bay Area (MOA/Aseana). The six already in `pipeline/insights.py` (`CBDS`) are the core.
+- **Universities** (confirmed): UP Diliman, Ateneo de Manila (Loyola Heights), De La Salle University (Taft), University of Santo Tomas (España, Sampaloc).
+- **Airports**: NAIA Terminals 1 and 3.
+- **Southern and northern job centres**: Nuvali/Santa Rosa, Calamba, Malolos, and the Clark direction if it is inside the network.
+
+Each preset is one coordinate at the main gate or a central point, listed in a reviewed CSV in `pipeline/` so it can be changed without code.
+
+- Size: 3,936 × 24 × 3 periods × 2 bounds (low and high), as whole minutes in uint16, is about 1.1 MB raw, roughly 400–500 KB gzipped. Better still, one small file per destination (about 24 KB raw), fetched only when chosen. The same pattern as `public/data/streets/`.
 - Compute: three OSRM tables of 3,936 × 20. Seconds.
 
 **Any target (phase 3), static version: precomputed all-pairs.** Compute the full barangay × barangay table: 3,936² ≈ 15.5 million pairs per period. Write **one file per target barangay**: 3,936 origins × 3 periods as uint8 minutes, capped at 254 ("4 h+"), with 255 meaning unreachable. That is about 12 KB raw and 5–8 KB gzipped per file, about 46 MB for all of them.
@@ -138,7 +165,7 @@ Cost per query: **zero.** One cached static file fetch.
 
 - **New roads.** OSM is edited continuously and Geofabrik rebuilds about daily. A new expressway reaches the map once mappers change it from `highway=construction` to `highway=motorway`. In Metro Manila that is usually within days of an opening, but not guaranteed, so check by hand when a road opens. The pipeline should **print the diff** between builds: ways that changed from construction/proposed to open, and new motorway/trunk segments. That works the way `transport.py` already prints the future named lines. Rebuild monthly, and also on news of a major opening (NLEX–SLEX Connector sections, C-5 South Link, CALAX segments, SEMME, LRT-1 extension stations, MRT-7).
 - **Speeds.** Re-check the multipliers yearly when the TomTom Index publishes (January), and whenever the trip log grows by about 20 trips. Road openings change speeds near them (induced demand, new bottlenecks at exits), which a class × zone model can't see. That is one more reason for ranges.
-- **"What if" scenarios.** `transport.geojson` already holds construction and proposed expressways and rail. A scenario build temporarily treats chosen ones as open, at the speed of a comparable open road, and the map shows **minutes saved** per barangay. Caveats to show:
+- **"What if" scenarios (deferred by the user on 2026-10-24; kept here for later).** `transport.geojson` already holds construction and proposed expressways and rail. A scenario build temporarily treats chosen ones as open, at the speed of a comparable open road, and the map shows **minutes saved** per barangay. Caveats to show:
   - It assumes **today's congestion**. Real openings attract traffic, so savings are optimistic.
   - Proposed geometry in OSM is often rough and lacks ramps. Check that each scenario road connects to the network (no routing islands) before trusting the result.
   - Opening dates in OSM are unreliable. The current file has `opening_date` values like "11-0" for CALAX, which `transport.py` truncates to `open: "11-0"`. Duplicate names also appear ("NLEX-SLEX Connector" and "… Road"; "PNR North-South Commuter Railway" and "North-South Commuter Railway"). Show "expected" dates only where a reviewed source confirms them.
@@ -152,7 +179,7 @@ Cost per query: **zero.** One cached static file fetch.
 
 - **Ranges, not single numbers.** Card: "Makati CBD: **45–70 min** (AM peak, car)". Low end: the calibrated model on a good day, as the multiplier fit minus its residual spread. High end: a bad day, the 85th percentile of residuals, plus snapping error for custom targets. The map colours by the midpoint, and the legend says so.
 - **Assumptions always visible**: mode, period, arrive-by or depart-at, weekday, "jeepneys and buses not modelled", "tolls assumed paid".
-- **Legend**: fixed minute bands (≤15, 15–30, 30–45, 45–60, 60–90, 90–120, 120+), the same for every target so maps compare. Use a sequential palette distinct from the ₱ ramp so the two are never confused. Unreachable or out-of-network areas are grey.
+- **Legend**: fixed minute bands (≤15, 15–30, 30–45, 45–60, 60–75, 75–90, 90–120, 120–150, 150–180, **180+**), the same for every target so maps compare. Bands go well past two hours because evening trips from Bulacan or southern Laguna into the core can exceed them. Stored values run to 254 minutes; anything longer shows as "4 h+". Use a sequential palette distinct from the ₱ ramp so the two are never confused. Unreachable or out-of-network areas are grey.
 - **Combining with land value:**
   1. **₱ vs minutes chart**: x = minutes to target (midpoint, with range whiskers), y = typical adjusted ₱/sqm (log scale), one dot per barangay, hatched or faded for `city_median`/`estimated` quality just as on the map. Draw the **Pareto frontier** (no barangay is both cheaper and closer than these). That frontier answers "a cheaper place with a similar commute" directly. Hovering a dot highlights the barangay on the map.
   2. **Bivariate map** (3 × 3: value tercile × time tercile), with "cheap and close" in a distinct colour.
@@ -165,23 +192,28 @@ Cost per query: **zero.** One cached static file fetch.
 
 | Phase | Scope | Rough effort |
 |---|---|---|
-| 0 | Decisions below. Fix the station extraction (follow-up, also corrects the `f_rail` factor). | ½–1 day |
-| 1 | OSRM with free-flow speeds and first-guess multipliers. Three periods. ~20 presets. "Colour by: travel time to…" with period toggle, legend, card line, date stamp, labelled *experimental*. | 3–5 days |
-| 2 | Trip-log calibration (needs 2–4 weeks of the user logging trips), holdout error, ranges, ₱-vs-minutes chart with frontier, bivariate view. | 3–5 days of work |
+| 0 | Decisions (done). Fix the station extraction (in progress in a separate session; also corrects the `f_rail` factor). Install OSRM. | ½–1 day |
+| 1 | OSRM with free-flow speeds and first-guess multipliers. Three periods. ~24 presets, including the four universities. "Colour by: travel time to…" with period toggle, legend, card line, date stamp, labelled *experimental*. | 3–5 days |
+| 2 | Trip-log calibration from existing trips (Timeline/Waze history exports, ride-hail receipts, plus new everyday trips), holdout error, ranges, ₱-vs-minutes chart with frontier, bivariate view. | 3–5 days of work |
 | 3 | Any target through all-pairs per-barangay files (GitHub Release), click-to-pick and address search snapping. | 3–4 days |
-| 4 | What-if scenarios for under-construction expressways, with a minutes-saved map. | 2–3 days |
-| 5 | Rail + walk (and the EDSA Carousel), hand-built rail timetables. Optional crowdsourced commute form. | 5–8 days |
+| 4 | Rail + walk (and the EDSA Carousel), hand-built rail timetables, on the corrected station list. Optional crowdsourced commute form. | 5–8 days |
+| Later | What-if scenarios for under-construction expressways, with a minutes-saved map (deferred). | 2–3 days |
 | Ongoing | Monthly OSM rebuild (mostly unattended, ~1 h), yearly recalibration | — |
 
-## Decisions for the user
+## Decisions
 
-1. **Budget.** The recommended path costs US$0. Paid APIs are ruled out by their terms, not their price. Spend only if you later want a live routing server (about US$5–20/month for a VPS), which I don't recommend.
-2. **Installing the engine.** OSRM needs either Docker (the `osrm/osrm-backend` image) or a Homebrew build on the Mac. Both are global installs, so they need your OK under your rules.
-3. **Accounts.** None needed. The release-asset hosting uses the existing GitHub repo. Don't open Google, Mapbox, TomTom or HERE accounts for this.
-4. **Calibration trips.** Will you, and who else, log 40–60 commutes over a few weeks? Without them the view is an uncalibrated sketch and should say so.
-5. **Preset list and default.** Confirm the ~20 destinations, and the default period (proposed: weekday AM peak, arrive by 9:00).
-6. **What-if lines.** Show only roads under construction, or proposed ones too? Proposed lines have shakier geometry and dates.
-7. **Rail scope.** Is rail + walk worth phase 5, given that jeepneys and buses won't be modelled?
+Taken by the user on 2026-10-24:
+
+1. **Budget: US$0** for now. No paid APIs, no VPS.
+2. **Engine install approved**: Homebrew (`brew install osrm-backend`, version 26.10.0 with Apple Silicon bottles) or Docker. Homebrew is the lighter choice. Its installer needs the user's admin password, so the user runs that one step; everything after is scripted.
+3. **Accounts**: none.
+4. **Calibration** from trips that have already happened plus everyday trips, not from copied Waze or Google ETAs (§2.3). Template: `data/trips_template.csv`.
+5. **Presets**: the business districts plus UP Diliman, Ateneo, DLSU and UST (§3.1).
+6. **Ranges**: legend extends to 150–180 and 180+ (§5).
+7. **What-if lines**: not now.
+8. **Rail + walk**: yes. The station data fix runs in its own session.
+
+Still open: the default period (proposed: weekday AM peak, arrive by 9:00).
 
 ## Sources (read 2026-10-24)
 
