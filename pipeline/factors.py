@@ -150,7 +150,12 @@ def elevation(geoms: dict, data: dict) -> None:
     for lat in range(int(np.floor(s)), int(np.floor(n)) + 1):
         for lon in range(int(np.floor(w)), int(np.floor(e)) + 1):
             name = f'Copernicus_DSM_COG_10_N{lat:02d}_00_E{lon:03d}_00_DEM'
-            path = get(f'https://copernicus-dem-30m.s3.amazonaws.com/{name}/{name}.tif', CACHE / f'{name}.tif')
+            try:
+                path = get(f'https://copernicus-dem-30m.s3.amazonaws.com/{name}/{name}.tif', CACHE / f'{name}.tif')
+            except urllib.error.HTTPError as err:
+                if err.code == 404:  # all-sea tiles are not published
+                    continue
+                raise
             with rasterio.open(path) as src:
                 band = src.read(1)
                 for p, (mean, mn, cnt) in zonal_mean(geoms, src, band, band > -100, lambda x, y, z=None: (x, y)).items():

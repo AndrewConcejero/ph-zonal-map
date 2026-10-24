@@ -223,7 +223,7 @@ def fetch_transport(bbox: tuple[float, float, float, float]) -> dict:
     """Expressways, trunk roads, rail lines and stations, current and under construction or proposed. Cached.
 
     Fetched in latitude bands of TRANSPORT_BAND degrees (one request for Pampanga-to-Batangas times out), each
-    cached as transport-<south>-<north>.json, then merged into transport.json; ways crossing a band edge come
+    cached as transport-<south>-<north>-<west>-<east>.json, then merged into transport.json; ways crossing a band edge come
     back in both bands and are kept once."""
     CACHE.mkdir(parents=True, exist_ok=True)
     path = CACHE / 'transport.json'
@@ -233,7 +233,7 @@ def fetch_transport(bbox: tuple[float, float, float, float]) -> dict:
         lat = s
         while lat < n:
             top = min(lat + TRANSPORT_BAND, n)
-            band = CACHE / f'transport-{lat:.2f}-{top:.2f}.json'
+            band = CACHE / f'transport-{lat:.2f}-{top:.2f}-{w:.2f}-{e:.2f}.json'
             if not band.exists():
                 _overpass(TRANSPORT_QUERY.format(bbox=f'{lat:.4f},{w:.4f},{top:.4f},{e:.4f}'), band)
                 print(f'  transport band {lat:.2f}-{top:.2f}', flush=True)
