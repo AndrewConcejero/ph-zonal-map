@@ -191,6 +191,34 @@ TRANSPORT_QUERY = """[out:json][timeout:300];
 out geom tags;"""
 
 
+STATIONS_QUERY = """[out:json][timeout:300];
+(
+  nwr["railway"~"^(station|halt|stop)$"]({bbox});
+  nwr["public_transport"="station"]({bbox});
+  nwr["construction:railway"~"^(station|halt)$"]({bbox});
+  nwr["railway"~"^(construction|proposed)$"]["construction"~"^(station|halt)$"]({bbox});
+  nwr["railway"="proposed"]["proposed"~"^(station|halt)$"]({bbox});
+)->.s;
+.s out body center qt;
+(rel(bn.s)["public_transport"="stop_area"]; rel(bw.s)["public_transport"="stop_area"];)->.a;
+.a out body center qt;
+rel["route"~"^(train|subway|light_rail|monorail)$"]({bbox});
+out body qt;"""
+
+
+def fetch_stations(bbox: tuple[float, float, float, float]) -> dict:
+    """Rail stations, halts and stops mapped as nodes, ways or relations (ways and relations with a centre), the
+    stop areas holding them and the rail route relations, for station lines. One request, cached as
+    rail-stations.json; bus stations come back too (public_transport=station) and are filtered by the caller."""
+    CACHE.mkdir(parents=True, exist_ok=True)
+    path = CACHE / 'rail-stations.json'
+    if not path.exists():
+        w, s, e, n = bbox
+        _overpass(STATIONS_QUERY.format(bbox=f'{s:.4f},{w:.4f},{n:.4f},{e:.4f}'), path)
+        print('  fetched rail stations', flush=True)
+    return json.loads(path.read_text(encoding='utf-8'))
+
+
 def fetch_transport(bbox: tuple[float, float, float, float]) -> dict:
     """Expressways, trunk roads, rail lines and stations, current and under construction or proposed. Cached.
 
