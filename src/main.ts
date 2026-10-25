@@ -95,6 +95,8 @@ const state = {
   transport: false,
   condos: false,
   by: 'value' as By,
+  ttDest: 'makati',
+  ttPeriod: 'am' as Period,
   selected: null as string | null,
   hovered: null as string | null,
 };
@@ -109,8 +111,16 @@ let streetIndex: StreetIndex = {};
 const streetFeatures: Collection<StreetProps>['features'] = [];
 const streetLoaded = new Set<string>();
 // ---- colour by other factors (pipeline/factors.py; vacancy from data/vacancy_submarkets.csv) ----
-type By = 'value' | 'elev' | 'heat' | 'flood' | 'rail' | 'xway' | 'vaco' | 'vacc';
-interface Factor { prop: string; label: string; breaks: number[]; colors: string[]; fmt: (v: number) => string; source: string }
+type By = 'value' | 'elev' | 'heat' | 'flood' | 'rail' | 'xway' | 'vaco' | 'vacc' | 'tt';
+interface Factor {
+  prop: string; label: string; breaks: number[]; colors: string[]; fmt: (v: number) => string; source: string;
+  get?: (id: string) => number | undefined;  // value held outside the GeoJSON (in feature-state on the map)
+  card?: (v: number) => string;              // card text, when it differs from the legend's
+}
+const fval = (f: Factor, p: Props): number | undefined => {
+  const v = f.get ? f.get(p.id) : (p as unknown as Record<string, unknown>)[f.prop];
+  return typeof v === 'number' ? v : undefined;
+};
 const km = (v: number) => `${v < 10 ? v.toFixed(1) : v.toFixed(0)} km`;
 const FACTORS: Record<Exclude<By, 'value'>, Factor> = {
   elev: { prop: 'f_elev', label: 'Average elevation', breaks: [2, 5, 10, 20, 50, 150],
@@ -132,13 +142,80 @@ const FACTORS: Record<Exclude<By, 'value'>, Factor> = {
   vacc: { prop: 'f_vacc', label: 'Condo vacancy', breaks: [5, 10, 15, 20, 30],
     colors: ['#1a9850', '#91cf60', '#d9ef8b', '#fee08b', '#fc8d59', '#d73027'], fmt: v => `${v}%`,
     source: 'Broker reports by submarket (see data/vacancy_submarkets.csv)' },
+  tt: { prop: 'tt', label: 'Travel time by car', breaks: [15, 30, 45, 60, 75, 90, 120, 150, 180],
+    colors: ['#fcfdbf', '#fde3a1', '#fec98d', '#feae77', '#fb8f67', '#f1705e', '#de5363', '#b63679', '#8c2981', '#51127c'],
+    fmt: v => mins(v), source: '', get: id => travelMin.get(id), card: v => ttRange(v) },
 };
 const factor = () => state.by === 'value' ? null : FACTORS[state.by];
 
 function factorColor(f: Factor): ExpressionSpecification {
   const steps = f.colors.flatMap((c, i) => i === 0 ? [c] : [f.breaks[i - 1], c]);
-  return ['case', ['!=', ['typeof', ['get', f.prop]], 'number'], cssVar('--nodata'),
-    ['step', ['get', f.prop], ...steps] as unknown as ExpressionSpecification];
+  const v: ExpressionSpecification = f.get ? ['feature-state', f.prop] : ['get', f.prop];
+  return ['case', ['!=', ['typeof', v], 'number'], cssVar('--nodata'),
+    ['step', v, ...steps] as unknown as ExpressionSpecification];
+}
+
+// ---- travel time (pipeline/traveltime.py): minutes by car from every barangay to a preset destination ----
+interface TravelIndex {
+  built_at: string; network: string | null; calibrated: boolean; trips: number; range: [number, number];
+  periods: Record<Period, string>; presets: { id: string; name: string; group: string }[]; ids: string[];
+}
+type Period = 'am' | 'pm' | 'off';
+const PERIOD_SHORT: Record<Period, string> = { am: 'weekday morning peak', pm: 'weekday evening peak, trip home', off: 'off-peak' };
+let travelIndex: TravelIndex | null = null;
+const travelFiles = new Map<string, Record<Period, (number | null)[]>>();
+const travelMin = new Map<string, number>();
+
+function mins(v: number) {
+  if (v >= 240) return '4 h+';
+  if (v < 60) return `${Math.round(v)} min`;
+  const h = Math.floor(v / 60), m = Math.round(v % 60);
+  return m ? `${h} h ${m} min` : `${h} h`;
+}
+
+function ttRange(v: number) {
+  const [lo, hi] = travelIndex?.range ?? [1, 1];
+  if (v * lo >= 240) return '4 h+';
+  return `${mins(Math.round(v * lo / 5) * 5)} – ${mins(Math.round(v * hi / 5) * 5)}`;
+}
+
+async function loadTravel() {
+  const get = (u: string) => fetch(u, { cache: 'no-cache' }).then(r => r.json());
+  if (!travelIndex) {
+    travelIndex = await get('/data/travel/index.json').catch(() => null);
+    if (!travelIndex) { $('legend').textContent = 'Could not load travel times. Try reloading the page.'; return; }
+    const sel = $<HTMLSelectElement>('tt-dest');
+    const groups = [...new Set(travelIndex.presets.map(p => p.group))];
+    sel.innerHTML = groups.map(g => `<optgroup label="${esc(g)}">${travelIndex!.presets.filter(p => p.group === g)
+      .map(p => `<option value="${esc(p.id)}">To ${esc(p.name)}</option>`).join('')}</optgroup>`).join('');
+    if (!travelIndex.presets.some(p => p.id === state.ttDest)) state.ttDest = travelIndex.presets[0].id;
+  }
+  $<HTMLSelectElement>('tt-dest').value = state.ttDest;
+  $<HTMLSelectElement>('tt-period').value = state.ttPeriod;
+  if (!travelFiles.has(state.ttDest)) {
+    const file = await get(`/data/travel/${encodeURIComponent(state.ttDest)}.json`).catch(() => null);
+    if (!file) return;
+    travelFiles.set(state.ttDest, file);
+  }
+  const row = travelFiles.get(state.ttDest)![state.ttPeriod];
+  travelMin.clear();
+  travelIndex.ids.forEach((id, i) => { if (row[i] != null) travelMin.set(id, row[i]!); });
+  const dest = travelIndex.presets.find(p => p.id === state.ttDest)!;
+  const t = FACTORS.tt;
+  t.label = `Travel time by car to ${dest.name}, ${PERIOD_SHORT[state.ttPeriod]}`;
+  t.source = `Estimate on OpenStreetMap roads as of ${travelIndex.network ?? 'the last build'}, with a congestion model ` +
+    (travelIndex.calibrated ? `calibrated on ${travelIndex.trips} logged trips` : 'not yet calibrated against real trips') +
+    '. Colours show the middle estimate; each card gives a range. Jeepneys, buses and rail are not modelled.';
+  applyTravelState();
+}
+
+function applyTravelState() {
+  if (!map.getSource('zonal') || !travelIndex) return;
+  for (const id of byId.keys()) map.setFeatureState({ source: 'zonal', id }, { tt: travelMin.get(id) ?? null });
+}
+
+function showTravelControls() {
+  $('tt-ctl').hidden = state.by !== 'tt';
 }
 
 // ---- condominiums (pipeline/condos.py): one file per city, loaded on zoom when the toggle is on ----
@@ -485,6 +562,7 @@ function addLayers() {
     },
   });
   if (state.selected) map.setFeatureState({ source: 'zonal', id: state.selected }, { sel: true });
+  applyTravelState();  // feature-state goes with the source when the style changes
   addTransportLayers();
   addCondoLayers();
 }
@@ -698,8 +776,8 @@ function renderCard(id: string) {
       ${p.since ? row('Values set in', p.since, '') : ''}
       ${p.do ? row('Department Order', `${p.do.replace('DO ', '')}${rdo ? ` · ${rdo}` : ''}`, '') : ''}
       ${Object.values(FACTORS).map(f => {
-        const v = (raw as unknown as Record<string, unknown>)[f.prop];
-        return typeof v === 'number' ? row(f.label, f.fmt(v), '') : '';
+        const v = fval(f, raw);
+        return v != null ? row(f.label, (f.card ?? f.fmt)(v), '') : '';
       }).join('')}
     </dl>
     <p class="q">${p.nores ? `BIR's current schedule (${esc(p.nores)}) lists no residential land here, only commercial or industrial values, so older residential values are not used. ` : ''}${esc(q.text(p))}${p.since ? ` The ${p.do} schedule repeats the values of ${p.since.split(',')[0]}, so the adjustment starts from ${p.since.split(', ')[1]}.` : ''}${
@@ -745,14 +823,15 @@ function renderRank() {
   const fac = factor();
   if (fac) {
     const inView = zonal.features.filter(f => {
-      const v = (f.properties as unknown as Record<string, unknown>)[fac.prop];
       const bb = bboxes.get(f.properties.id)!;
-      return typeof v === 'number' && b.contains([(bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2]);
+      return fval(fac, f.properties) != null && b.contains([(bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2]);
     });
-    const val = (f: Feature) => (f.properties as unknown as Record<string, number>)[fac.prop];
+    const val = (f: Feature) => fval(fac, f.properties)!;
     inView.sort((a, z) => val(z) - val(a));
     const pick = state.order === 'top' ? inView.slice(0, 10) : inView.slice(-10).reverse();
-    $('rank-h').textContent = `${state.order === 'top' ? 'Highest' : 'Lowest'} ${fac.label.toLowerCase()} in view`;
+    $('rank-h').textContent = fac.get
+      ? `${state.order === 'top' ? 'Longest' : 'Shortest'} trips in view`
+      : `${state.order === 'top' ? 'Highest' : 'Lowest'} ${fac.label.toLowerCase()} in view`;
     $('rank-note').textContent = `${inView.length.toLocaleString()} barangays with data in the current map view. Source: ${fac.source}.`;
     const ol = $('rank');
     ol.innerHTML = '';
@@ -887,7 +966,18 @@ function wireControls() {
   $('sat').onclick = () => { state.satellite = !state.satellite; applySatellite(); };
   $('tr').onclick = () => { void setTransport(!state.transport); };
   $('cd').onclick = () => { void setCondos(!state.condos); };
-  $<HTMLSelectElement>('by').onchange = e => { state.by = (e.target as HTMLSelectElement).value as By; repaint(); };
+  $<HTMLSelectElement>('by').onchange = async e => {
+    state.by = (e.target as HTMLSelectElement).value as By;
+    showTravelControls();
+    if (state.by === 'tt') await loadTravel();
+    repaint();
+  };
+  $<HTMLSelectElement>('tt-dest').onchange = async e => {
+    state.ttDest = (e.target as HTMLSelectElement).value; await loadTravel(); repaint();
+  };
+  $<HTMLSelectElement>('tt-period').onchange = async e => {
+    state.ttPeriod = (e.target as HTMLSelectElement).value as Period; await loadTravel(); repaint();
+  };
   $('theme').onclick = () => {
     const next = theme() === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = next;
@@ -920,6 +1010,7 @@ function writeHash() {
   if (!state.transport) h.set('tr', '0');  // on by default: only 'off' is recorded
   if (!state.condos) h.set('cd', '0');
   if (state.by !== 'value') h.set('by', state.by);
+  if (state.by === 'tt') { h.set('to', state.ttDest); h.set('at', state.ttPeriod); }
   const s = h.toString();
   history.replaceState(null, '', s ? `#${s}` : location.pathname + location.search);
 }
@@ -935,6 +1026,10 @@ function readHash() {
   const by = h.get('by') as By | null;
   state.by = by && by in FACTORS ? by : 'value';
   $<HTMLSelectElement>('by').value = state.by;
+  state.ttDest = h.get('to') ?? state.ttDest;
+  const at = h.get('at');
+  state.ttPeriod = at === 'pm' || at === 'off' ? at : 'am';
+  showTravelControls();
   if ((h.get('tr') !== '0') !== state.transport) void setTransport(h.get('tr') !== '0');
   if ((h.get('cd') !== '0') !== state.condos) void setCondos(h.get('cd') !== '0');
   pressed('[data-use]', document.querySelector(`[data-use="${state.use}"]`)!);
@@ -997,13 +1092,15 @@ async function boot() {
   renderFootnotes();
 
   const initial = readHash();
+  if (state.by === 'tt') await loadTravel();
   renderLegend();
   if (styleReady) addLayers();
   // don't wait for 'idle': it never fires while the tab is in the background
   if (initial) select(initial, true);
   map.once('idle', () => renderRank());
-  addEventListener('hashchange', () => {
+  addEventListener('hashchange', async () => {
     const id = readHash();
+    if (state.by === 'tt') await loadTravel();
     applySatellite();
     repaint();
     if (id !== state.selected) select(id, true);

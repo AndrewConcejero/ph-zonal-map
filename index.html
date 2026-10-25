@@ -69,7 +69,16 @@
           <option value="xway">Colour: distance to expressway</option>
           <option value="vaco">Colour: office vacancy</option>
           <option value="vacc">Colour: condo vacancy</option>
+          <option value="tt">Colour: travel time (experimental)</option>
         </select></label>
+      <span id="tt-ctl" class="tt" hidden>
+        <select id="tt-dest" class="btn" aria-label="Travel time to"></select>
+        <select id="tt-period" class="btn" aria-label="Time of day">
+          <option value="am">Weekday morning peak</option>
+          <option value="pm">Weekday evening peak, trip home</option>
+          <option value="off">Off-peak</option>
+        </select>
+      </span>
       <button type="button" class="btn toggle" id="cd" aria-pressed="true" title="Condominium buildings with BIR values per sqm of floor area (tap to hide)">Condos</button>
       <button type="button" class="btn toggle" id="tr" aria-pressed="true" title="Expressways and rail, current and future (tap to hide)">Roads &amp; rail</button>
       <button type="button" class="btn toggle" id="sat" aria-pressed="false" title="Show satellite imagery under the colours">Satellite</button>
@@ -103,7 +112,7 @@
         <p><b>Zooming in</b> on Metro Manila shows BIR's values for individual villages and streets, matched to OpenStreetMap shapes. Up close, a barangay's colour becomes its interior-lot value, what BIR charges on streets it does not list.</p>
         <p><b>Solid colour</b> means the barangay has its own BIR values. <b>Hatched and faded</b> means it does not: it shows an estimate (the median of neighbouring barangays) or, where no neighbour has values, the city median. <b>Grey</b> means no data yet.</p>
         <p><b>Schedules are stale, unevenly.</b> BIR revises each Revenue District Office on its own timetable, so most schedules in force date from 2018 to 2024, and a 2018 value is not comparable with a 2024 one. <b>Adjusted to today</b> grows each value from its schedule's effectivity date at its district's own pace: the median yearly increase BIR gave the same streets between consecutive revisions. It is a projection of BIR's own trend, not a market estimate; the card shows both numbers and the rate used.</p>
-        <p><b>Colour by</b> swaps land value for another factor: share of the barangay in medium or high flood hazard (100-year rain), average elevation (a surface model, so towers add height), dry-season afternoon surface temperature (roofs and roads, not air temperature), and distance to the nearest rail station or expressway. <b>Condos</b> marks buildings with BIR's condominium value, per square metre of floor area. <b>Roads &amp; rail</b> shows expressways and rail, dashed where under construction and dotted where proposed.</p>
+        <p><b>Colour by</b> swaps land value for another factor: share of the barangay in medium or high flood hazard (100-year rain), average elevation (a surface model, so towers add height), dry-season afternoon surface temperature (roofs and roads, not air temperature), and distance to the nearest rail station or expressway. <b>Travel time</b> (experimental) estimates the drive from each barangay to a chosen business district, university, airport or regional centre at three times of day. It runs on OpenStreetMap roads with a simple congestion model that has not yet been checked against real trips, so read it as a rough guide and use the range on each card. Jeepneys, buses and rail are not included yet. <b>Condos</b> marks buildings with BIR's condominium value, per square metre of floor area. <b>Roads &amp; rail</b> shows expressways and rail, dashed where under construction and dotted where proposed.</p>
         <p class="disclaimer"><b>Before any transaction, verify the zonal value with the BIR Revenue District Office</b> that covers the property. This site can be wrong or out of date.</p>
         <h2>Sources</h2>
         <ul class="src">

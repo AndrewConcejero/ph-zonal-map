@@ -46,6 +46,7 @@ button:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline: 2
 .btn { font: 500 13px var(--f-body); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; cursor: pointer; }
 .btn.toggle { min-height: 40px; }
 select.btn { min-height: 40px; font: 500 13px var(--f-body); padding-right: 28px; }
+.tt:not([hidden]) { display: contents; }  /* travel-time menus join the controls row while that view is on */
 .btn.toggle[aria-pressed="true"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
 .legend .imagery { font-size: 10.5px; color: var(--muted); max-width: 240px; }
 .legend .imagery a { color: inherit; }
