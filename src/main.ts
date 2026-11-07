@@ -26,6 +26,43 @@ type Mode = 'typ' | 'lo' | 'hi';
 type Basis = 'raw' | 'adj';
 type BBox = [number, number, number, number];
 
+// ---- nationwide layers, one feature per city/municipality (pipeline/national.py) ----
+type View = 'value' | 'stale' | 'untitled';
+type Sched = 'bir' | 'smv';
+interface NatProps {
+  id: string; n: string; p: string; r: string;
+  // BIR schedule age: the oldest of the current schedules of the RDOs serving this LGU (s_*2: the newest, if several)
+  s_eff?: string; s_do?: string; s_rdo?: string; s_yrs?: number; s_n?: number; s_eff2?: string; s_do2?: string; s_rdo2?: string;
+  // untitled parcels (data/untitled_land.csv), from the finest area a source covers
+  u_share?: number; u_n?: number; u_tot?: number; u_lvl?: 'municipality' | 'province' | 'region'; u_area?: string;
+  u_asof?: string; u_src?: string; u_url?: string; u_conf?: string; u_proxy?: boolean;
+  // LGU Schedule of Market Values (data/lgu_smv_status.csv)
+  v_year?: string; v_ord?: string; v_status?: string; v_asof?: string; v_src?: string; v_url?: string;
+}
+interface NatMeta {
+  built_at: string; as_of: string; lgus: number; coverage: Record<string, number>; staleness_buckets: Record<string, number>;
+  rdos_in_index: number; rdos_with_dates: number; rdos_not_revised_3y: number; rdo_notes: Record<string, string>;
+  sources: { bir_index: { url: string; as_of: string }; untitled: { rows: number }; smv: { rows: number } };
+}
+// RA 12001-ready: every value points at a record saying which kind of schedule set it (pipeline/national.py)
+type ValuationSource = 'BIR_ZONAL' | 'LGU_SMV' | 'BLGF_APPROVED_SMV';
+interface ValuationRecord { valuation_source: ValuationSource; effective_date: string; source_reference: string; source_url: string }
+const SOURCE_LABEL: Record<ValuationSource, string> = {
+  BIR_ZONAL: 'BIR zonal value', LGU_SMV: 'LGU Schedule of Market Values', BLGF_APPROVED_SMV: 'BLGF-approved Schedule of Market Values',
+};
+const PH_BOUNDS: [[number, number], [number, number]] = [[116.9, 4.6], [126.6, 21.1]];
+// RA 12001 expects a general revision at least every 3 years
+const STALE = { breaks: [3, 6, 9], colors: ['#1a9850', '#fee08b', '#fc8d59', '#d73027'],
+  labels: ['revised within 3 years', '3 to 6 years', '6 to 9 years', '9 years or more'] };
+const SMV_STATUS: Record<string, [string, string]> = {
+  approved: ['#1a9850', 'RA 12001 SMV approved by BLGF'], submitted: ['#91cf60', 'submitted to BLGF'],
+  in_preparation: ['#fee08b', 'in preparation'], not_started: ['#d73027', 'not started'],
+};
+const UNTITLED = { breaks: [0.1, 0.25, 0.4, 0.55], colors: ['#f2f0f7', '#cbc9e2', '#9e9ac8', '#756bb1', '#54278f'] };
+// BLGF, "Real Property Valuation and Assessment Reform (RPVAR) as of June 2021, Package 3", slide 5
+const BLGF_2021 = { url: 'https://tmap.org.ph/assets/blgf-presentation-on-package-3-for-tmap-gmm.pdf',
+  text: 'In 2021, BLGF counted 46 of 120 Revenue District Offices (38%) and 137 of 227 LGUs (60%) that had not revised values in three years' };
+
 // ---- scale ----
 const STOPS = ['#e9f2e1', '#b5dcb4', '#63b39d', '#2d8590', '#265a8a', '#2c2f6e'];
 const DOMAIN: [number, number] = [2500, 2000000];  // adjusted commercial values reach ~1.7M
@@ -99,10 +136,20 @@ const state = {
   ttPeriod: 'am' as Period,
   selected: null as string | null,
   hovered: null as string | null,
+  view: 'value' as View,
+  sched: 'bir' as Sched,
+  natSelected: null as string | null,
+  natHovered: null as string | null,
 };
 let zonal: Collection<Props>;
 let cities: Collection<CityProps>;
 let meta: Meta;
+let national: Collection<NatProps> | null = null;
+let natMeta: NatMeta | null = null;
+let valuation: Record<string, ValuationRecord> = {};
+const natById = new Map<string, Collection<NatProps>['features'][number]>();
+const natBoxes = new Map<string, BBox>();
+const record = (rdo?: string, d?: string) => rdo && d ? valuation[`${rdo} ${d}`] : undefined;
 // Street- and village-level values (pipeline/streets.py), one file per city, loaded when zoomed in
 interface StreetProps { n: string; osm: string; v: number; v_a?: number; vmin?: number; vmin_a?: number; rows?: number;
   k: 'village' | 'segment' | 'street'; u: 'r' | 'c' | 'i'; b: string; c: string; do: string; eff?: string; vic?: string; g?: number }
@@ -257,7 +304,7 @@ function addCondoLayers() {
 async function setCondos(on: boolean) {
   state.condos = on;
   $('cd').setAttribute('aria-pressed', String(on));
-  for (const id of ['cd-dot', 'cd-label']) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', on ? 'visible' : 'none');
+  for (const id of ['cd-dot', 'cd-label']) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', on && state.view === 'value' ? 'visible' : 'none');
   if (on) await loadCondosInView();
   renderLegend();
   writeHash();
@@ -413,8 +460,8 @@ const map = new maplibregl.Map({
   style: STYLES[theme()],
   bounds: NCR_BOUNDS,
   fitBoundsOptions: { padding: 12 },
-  maxBounds: [[119.0, 11.8], [124.8, 16.4]],  // Zambales to Quezon now; room for Bicol (to Sorsogon and Masbate)
-  minZoom: 7.5,
+  maxBounds: [[110.0, 1.5], [133.0, 24.0]],  // the whole country: the staleness and untitled-land layers are national
+  minZoom: 4,
   maxZoom: 17,
   attributionControl: { compact: true },
   dragRotate: false,
@@ -512,6 +559,7 @@ function addLayers() {
       'line-width': ['interpolate', ['linear'], ['zoom'], 8, 0.5, 13, 1.6],
     },
   }, before);
+  addNationalLayers(before);
   {
     map.addSource('streets', { type: 'geojson', data: { type: 'FeatureCollection', features: streetFeatures } as never });
     map.addLayer({
@@ -565,6 +613,172 @@ function addLayers() {
   applyTravelState();  // feature-state goes with the source when the style changes
   addTransportLayers();
   addCondoLayers();
+  applyView();
+}
+
+// ---- nationwide layers ----
+function natColor(): ExpressionSpecification {
+  const nd = cssVar('--nodata');
+  if (state.view === 'stale' && state.sched === 'smv') {
+    return ['match', ['coalesce', ['get', 'v_status'], ''],
+      ...Object.entries(SMV_STATUS).flatMap(([k, [c]]) => [k, c]), nd] as unknown as ExpressionSpecification;
+  }
+  const [prop, cfg] = state.view === 'untitled' ? ['u_share', UNTITLED] as const : ['s_yrs', STALE] as const;
+  const steps = cfg.colors.flatMap((c, i) => i === 0 ? [c] : [cfg.breaks[i - 1], c]);
+  return ['case', ['!=', ['typeof', ['get', prop]], 'number'], nd,
+    ['step', ['get', prop], ...steps] as unknown as ExpressionSpecification];
+}
+
+function addNationalLayers(before?: string) {
+  if (!national || map.getSource('national')) return;
+  const dark = theme() === 'dark';
+  map.addSource('national', { type: 'geojson', data: national as never, promoteId: 'id' });
+  map.addLayer({ id: 'n-fill', type: 'fill', source: 'national', layout: { visibility: 'none' },
+    paint: { 'fill-color': natColor(), 'fill-opacity': state.satellite ? 0.55 : 0.85 } }, before);
+  map.addLayer({ id: 'n-line', type: 'line', source: 'national', layout: { visibility: 'none' },
+    paint: { 'line-color': dark ? '#0b100f' : '#ffffff', 'line-opacity': ['interpolate', ['linear'], ['zoom'], 5, 0.3, 10, 0.8],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 5, 0.2, 11, 1] } }, before);
+  map.addLayer({ id: 'n-focus', type: 'line', source: 'national', layout: { visibility: 'none' },
+    paint: { 'line-color': cssVar('--fg'),
+      'line-width': ['case', ['boolean', ['feature-state', 'sel'], false], 2.6, ['boolean', ['feature-state', 'hover'], false], 1.4, 0] } });
+  if (state.natSelected) map.setFeatureState({ source: 'national', id: state.natSelected }, { sel: true });
+}
+
+const VALUE_LAYERS = ['c-fill', 'z-fill', 'z-hatch', 'z-line', 'c-line', 'z-focus', 'z-label',
+  'st-fill', 'st-outline', 'st-casing', 'st-line', 'st-label', 'cd-dot', 'cd-label'];
+
+/** Show the layers, controls and texts of the current view (land value, data staleness, untitled land). */
+function applyView() {
+  const nat = state.view !== 'value';
+  pressed('[data-view]', document.querySelector(`[data-view="${state.view}"]`)!);
+  pressed('[data-sched]', document.querySelector(`[data-sched="${state.sched}"]`)!);
+  $('g-value').hidden = nat;
+  $('g-stale').hidden = state.view !== 'stale';
+  $('cd').hidden = nat;
+  $('basis-note').hidden = nat || meta?.adjusted_available !== false;
+  if (map.getLayer('z-fill')) {
+    for (const id of VALUE_LAYERS) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', nat ? 'none' : 'visible');
+    if (!nat) {
+      applyUseAndBasis();
+      for (const id of ['cd-dot', 'cd-label']) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', state.condos ? 'visible' : 'none');
+    }
+  }
+  if (map.getLayer('n-fill')) {
+    for (const id of ['n-fill', 'n-line', 'n-focus']) map.setLayoutProperty(id, 'visibility', nat ? 'visible' : 'none');
+    map.setPaintProperty('n-fill', 'fill-color', natColor());
+    map.setPaintProperty('n-fill', 'fill-opacity', state.satellite ? 0.55 : 0.85);
+  }
+  $('map').setAttribute('aria-label', nat
+    ? `Map of ${state.view === 'stale' ? 'how old each city and municipality\'s valuation schedule is' : 'untitled land shares'}, Philippines`
+    : 'Map of zonal values by barangay');
+}
+
+async function setView(v: View, fit = true) {
+  const was = state.view;
+  state.view = v;
+  if ((v === 'value') !== (was === 'value')) { select(null); selectNat(null); }
+  applyView();
+  if (fit && was === 'value' && v !== 'value') map.fitBounds(PH_BOUNDS, { padding: 12, duration: 0 });
+  if (fit && v === 'value' && was !== 'value') map.fitBounds(NCR_BOUNDS, { padding: 12, duration: 0 });
+  if (state.natSelected) renderNatCard(state.natSelected);
+  renderLegend();
+  renderRank();
+  renderAbout();
+  writeHash();
+}
+
+function selectNat(id: string | null, fly = false) {
+  if (state.natSelected && map.getSource('national')) map.setFeatureState({ source: 'national', id: state.natSelected }, { sel: false });
+  state.natSelected = id && natById.has(id) ? id : null;
+  if (state.natSelected) {
+    if (map.getSource('national')) map.setFeatureState({ source: 'national', id: state.natSelected }, { sel: true });
+    if (fly) flyTo(natBoxes.get(state.natSelected)!);
+    renderNatCard(state.natSelected);
+  } else if (state.view !== 'value') {
+    $('card').hidden = true;
+  }
+  writeHash();
+}
+
+const pct = (v: number) => `${(v * 100).toFixed(v < 0.1 ? 1 : 0)}%`;
+const rdoName = (r?: string) => r?.replace(/^RDO-0*/, 'RDO ') ?? '';
+const link = (url: string | undefined, text: string) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
+
+function renderNatCard(id: string) {
+  const p = natById.get(id)!.properties;
+  const card = $('card');
+  const row = (label: string, val: string | undefined) => val ? `<dt>${label}</dt><dd>${val}</dd>` : '';
+  let body: string;
+  if (state.view === 'untitled') {
+    const lvl = p.u_lvl && p.u_lvl !== 'municipality'
+      ? `This is the figure for ${esc(p.u_area ?? '')}, the smallest area the source reports that contains ${esc(p.n)}; it is not ${esc(p.n)}'s own share.`
+      : '';
+    body = p.u_share != null ? `
+      <div class="big">${pct(p.u_share)}<small> of parcels untitled${p.u_proxy ? ' (proxy)' : ''}</small></div>
+      <span class="pill warn">${esc(p.u_conf ?? '')} confidence · as of ${esc(p.u_asof ?? '')}</span>
+      <dl>
+        ${row('Untitled parcels', p.u_n?.toLocaleString())}
+        ${row('All parcels', p.u_tot?.toLocaleString())}
+        ${row('Area reported', esc(p.u_area ?? ''))}
+        ${row('Source', link(p.u_url, 'document'))}
+      </dl>
+      <p class="q">${lvl} ${esc(p.u_src ?? '')}.</p>`
+      : `<div class="big"><small>No data</small></div>
+      <p class="q">No published count of untitled parcels covers ${esc(p.n)}. Nothing is estimated; see "About this data" below for the sources that could fill it.</p>`;
+  } else if (state.sched === 'smv') {
+    body = p.v_status || p.v_year ? `
+      <dl>
+        ${row('Last SMV ordinance', esc([p.v_ord, p.v_year].filter(Boolean).join(', ')))}
+        ${row('RA 12001 SMV', esc(SMV_STATUS[p.v_status ?? '']?.[1] ?? p.v_status ?? ''))}
+        ${row('As of', esc(p.v_asof ?? ''))}
+        ${row('Source', link(p.v_url, p.v_src || 'document'))}
+      </dl>`
+      : `<div class="big"><small>No data</small></div>
+      <p class="q">No record yet of ${esc(p.n)}'s Schedule of Market Values or its RA 12001 status. BLGF does not publish a
+      machine-readable list; rows are added by hand with a source (data/lgu_smv_status.csv).</p>`;
+  } else if (p.s_eff) {
+    const rec = record(p.s_rdo, p.s_do);
+    const bucket = STALE.breaks.filter(b => (p.s_yrs ?? 0) >= b).length;
+    body = `
+      <div class="big">${p.s_yrs!.toFixed(1)}<small> years since BIR last revised ${p.s_n! > 1 ? 'part of ' : ''}its zonal values</small></div>
+      <span class="pill ${bucket === 0 ? 'good' : 'warn'}">${STALE.labels[bucket]}</span>
+      <dl>
+        ${row('Schedule effective', esc(p.s_eff))}
+        ${row('Department Order', `${esc(p.s_do!.replace('DO ', ''))} · ${esc(rdoName(p.s_rdo))}`)}
+        ${p.s_eff2 ? row('Newest part', `${esc(p.s_eff2)} · ${esc(p.s_do2!.replace('DO ', ''))} · ${esc(rdoName(p.s_rdo2))}`) : ''}
+        ${row('Valuation source', rec ? esc(SOURCE_LABEL[rec.valuation_source]) : 'BIR zonal value')}
+        ${row('Source', rec ? link(rec.source_url, 'BIR workbook') : link('https://www.bir.gov.ph/zonal-values', 'BIR zonal values'))}
+      </dl>
+      <p class="q">${p.s_n! > 1 ? `${esc(p.n)} is served by ${p.s_n} Revenue District Offices; the map colours the oldest of their current schedules. ` : ''}Counted from the effectivity date of the newest BIR Department Order that covers ${esc(p.n)}. RA 12001 expects schedules revised at least every three years.</p>`;
+  } else {
+    body = `<div class="big"><small>Unknown</small></div>
+      <p class="q">No BIR Department Order found that names ${esc(p.n)}. Listed in DATA_GAPS.md with the reason.</p>`;
+  }
+  card.innerHTML = `
+    <div class="head"><div class="nm">${esc(p.n)}</div><button class="close" type="button" aria-label="Close">×</button></div>
+    <div class="loc">${esc(p.p)} · ${esc(p.r)}</div>${body}`;
+  card.hidden = false;
+  card.querySelector<HTMLButtonElement>('.close')!.onclick = () => selectNat(null);
+}
+
+function natLegend(): string {
+  const about = '<a class="lnk" href="#about-layer">About this data ↓</a>';
+  const sw = (c: string, t: string) => `<span><i class="sw" style="background:${c}"></i>${esc(t)}</span>`;
+  if (state.view === 'untitled') {
+    const labels = UNTITLED.colors.map((_, i) => i === 0 ? `under ${pct(UNTITLED.breaks[0])}`
+      : i === UNTITLED.colors.length - 1 ? `${pct(UNTITLED.breaks[i - 1])} +` : `${pct(UNTITLED.breaks[i - 1])} – ${pct(UNTITLED.breaks[i])}`);
+    return `<div>Share of land parcels without a title</div>
+      <div class="keys" style="display:grid;gap:3px">${UNTITLED.colors.map((c, i) => sw(c, labels[i])).join('')}${sw('var(--nodata)', 'no data (nothing estimated)')}</div>
+      <div class="imagery">Only 3 areas have a published figure, from a 2004 study. ${about}</div>`;
+  }
+  if (state.sched === 'smv') {
+    return `<div>LGU Schedule of Market Values, RA 12001 status</div>
+      <div class="keys" style="display:grid;gap:3px">${Object.values(SMV_STATUS).map(([c, t]) => sw(c, t)).join('')}${sw('var(--nodata)', 'no data yet')}</div>
+      <div class="imagery">${natMeta?.sources.smv.rows ? '' : 'No LGU has a sourced row yet. '}${about}</div>`;
+  }
+  return `<div>Years since BIR last revised the zonal values</div>
+    <div class="keys" style="display:grid;gap:3px">${STALE.colors.map((c, i) => sw(c, STALE.labels[i])).join('')}${sw('var(--nodata)', 'unknown')}</div>
+    <div class="imagery">Per city or municipality, as of ${esc(natMeta?.as_of ?? '')}. ${about}</div>`;
 }
 
 // with imagery on, the colours fade so roofs and greenery show through
@@ -585,6 +799,7 @@ function applySatellite() {
     map.setPaintProperty('c-fill', 'fill-opacity', state.satellite ? 0 : 0.7);
     map.setPaintProperty('z-fill', 'fill-opacity', fillOpacity());
     if (map.getLayer('st-fill')) map.setPaintProperty('st-fill', 'fill-opacity', fadeIn(state.satellite ? 0.6 : 0.9));
+    if (map.getLayer('n-fill')) map.setPaintProperty('n-fill', 'fill-opacity', state.satellite ? 0.55 : 0.85);
   }
   renderLegend();
   writeHash();
@@ -611,7 +826,7 @@ function streetLabel(): ExpressionSpecification {
 /** Re-apply everything that depends on residential/commercial or as-scheduled/adjusted. */
 function applyUseAndBasis() {
   if (!map.getLayer('z-fill')) return;
-  const showValues = state.by === 'value' ? 'visible' : 'none';
+  const showValues = state.by === 'value' && state.view === 'value' ? 'visible' : 'none';
   for (const id of ['z-hatch', 'st-fill', 'st-outline', 'st-casing', 'st-line', 'st-label']) {
     if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', showValues);
   }
@@ -669,7 +884,30 @@ map.on('mouseleave', 'z-fill', () => {
   state.hovered = null;
   map.getCanvas().style.cursor = '';
 });
+map.on('mousemove', 'n-fill', (e) => {
+  const id = (e.features?.[0] as MapGeoJSONFeature | undefined)?.id as string | undefined;
+  if (id === state.natHovered) return;
+  if (state.natHovered) map.setFeatureState({ source: 'national', id: state.natHovered }, { hover: false });
+  state.natHovered = id ?? null;
+  if (id) map.setFeatureState({ source: 'national', id }, { hover: true });
+  map.getCanvas().style.cursor = 'pointer';
+});
+map.on('mouseleave', 'n-fill', () => {
+  if (state.natHovered) map.setFeatureState({ source: 'national', id: state.natHovered }, { hover: false });
+  state.natHovered = null;
+  map.getCanvas().style.cursor = '';
+});
 map.on('click', (e) => {
+  if (state.view !== 'value') {
+    if (state.transport && map.getLayer('tr-line')) {
+      const box: [[number, number], [number, number]] = [[e.point.x - 6, e.point.y - 6], [e.point.x + 6, e.point.y + 6]];
+      const tf = map.queryRenderedFeatures(box, { layers: ['tr-station', 'tr-line'] })[0];
+      if (tf) { renderTransportCard(tf.properties as never); return; }
+    }
+    const nf = map.getLayer('n-fill') ? map.queryRenderedFeatures(e.point, { layers: ['n-fill'] })[0] : undefined;
+    selectNat(nf ? String(nf.id) : null);
+    return;
+  }
   if (state.condos && map.getLayer('cd-dot')) {
     const box: [[number, number], [number, number]] = [[e.point.x - 6, e.point.y - 6], [e.point.x + 6, e.point.y + 6]];
     const cf = map.queryRenderedFeatures(box, { layers: ['cd-dot'] })[0];
@@ -775,6 +1013,8 @@ function renderCard(id: string) {
       ${other != null ? row(`${state.use === 'res' ? 'Commercial' : 'Residential'} typical`, fmt(other), '') : ''}
       ${p.since ? row('Values set in', p.since, '') : ''}
       ${p.do ? row('Department Order', `${p.do.replace('DO ', '')}${rdo ? ` · ${rdo}` : ''}`, '') : ''}
+      ${(() => { const r = own ? record(raw.rdo, p.do) : undefined;
+        return r ? row('Valuation source', `${esc(SOURCE_LABEL[r.valuation_source])} · ${link(r.source_url, 'BIR workbook')}`, '') : ''; })()}
       ${Object.values(FACTORS).map(f => {
         const v = fval(f, raw);
         return v != null ? row(f.label, (f.card ?? f.fmt)(v), '') : '';
@@ -788,6 +1028,10 @@ function renderCard(id: string) {
 
 // ---- legend ----
 function renderLegend() {
+  if (state.view !== 'value') {
+    $('legend').innerHTML = natLegend() + (state.transport ? `<div class="imagery"><span style="color:${TR_COLORS.expressway}">━</span> expressway <span style="color:${TR_COLORS.rail}">━</span> rail</div>` : '');
+    return;
+  }
   const f = factor();
   if (f) {
     const labels = f.colors.map((_, i) => i === 0 ? `under ${f.fmt(f.breaks[0])}` : i === f.colors.length - 1
@@ -809,7 +1053,7 @@ function renderLegend() {
       const align = i === 0 ? 'left:0' : i === TICKS.length - 1 ? 'right:0' : `left:${x}%;transform:translateX(-50%)`;
       return `<span style="position:absolute;${align}">${short(t)}</span>`;
     }).join('')}</div>
-    <div class="keys"><span><i class="sw hatch"></i>city median or estimate</span><span><i class="sw" style="background:var(--nodata)"></i>no data</span></div>
+    <div class="keys"><span><i class="sw" style="background:var(--nodata)"></i>no BIR value of its own (nothing estimated)</span> <a class="lnk" href="#about-layer">About this data ↓</a></div>
     ${Object.keys(streetIndex).length ? `<div class="imagery">${map.getZoom() < STREET_FADE[0] ? 'Zoom in on a city or town for village, street and condo values' : `Villages filled, streets as lines (dashed: whole street shown)${state.mode === 'typ' ? '; barangays show their interior-lot value' : ''}`}</div>` : ''}
     ${state.condos ? `<div class="imagery">● condominiums: BIR value per sqm of floor area${map.getZoom() < CONDO_MINZOOM ? ' (zoom in on a city)' : ''}</div>` : ''}
     ${state.transport ? `<div class="imagery"><span style="color:${TR_COLORS.expressway}">━</span> expressway <span style="color:${TR_COLORS.rail}">━</span> rail · dashed: under construction · dotted: proposed</div>` : ''}
@@ -818,6 +1062,7 @@ function renderLegend() {
 
 // ---- ranking (barangays with their own data, inside the current map view) ----
 function renderRank() {
+  if (state.view !== 'value') { renderNatRank(); return; }
   if (!zonal) return;
   const b = map.getBounds();
   const fac = factor();
@@ -855,7 +1100,7 @@ function renderRank() {
   const label = `${MODE_LABEL[state.mode].toLowerCase()}${state.use === 'res' ? '' : ` ${useWord()}`}`;
   $('rank-h').textContent = `${state.order === 'top' ? 'Highest' : 'Lowest'} ${label} values in view`;
   $('rank-note').textContent = rows.length
-    ? `Ranking ${rows.length.toLocaleString()} barangays with their own BIR values in the current map view. City-median, estimated and no-data areas are left out. Pan or zoom the map to change the list.`
+    ? `Ranking ${rows.length.toLocaleString()} barangays with their own BIR values in the current map view. Pan or zoom the map to change the list.`
     : 'No barangays with their own BIR values in the current map view. Zoom out or pan to Metro Manila.';
   const ol = $('rank');
   ol.innerHTML = '';
@@ -872,8 +1117,91 @@ function renderRank() {
   });
 }
 
+function renderNatRank() {
+  if (!national) return;
+  const b = map.getBounds();
+  const smv = state.view === 'stale' && state.sched === 'smv';
+  const prop = state.view === 'untitled' ? 'u_share' : 's_yrs';
+  const inView = smv ? [] : national.features.filter(f => {
+    const bb = natBoxes.get(f.properties.id)!;
+    return typeof f.properties[prop] === 'number' && b.contains([(bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2]);
+  }).sort((a, z) => (z.properties[prop] as number) - (a.properties[prop] as number))
+    // one row per area the source reports: a province-wide figure is one finding, not one per town
+    .filter((f, i, all) => state.view !== 'untitled' || all.findIndex(g => g.properties.u_area === f.properties.u_area) === i);
+  const top = state.order === 'top';
+  const list = top ? inView.slice(0, 10) : inView.slice(-10).reverse();
+  $('rank-h').textContent = state.view === 'untitled'
+    ? `${top ? 'Highest' : 'Lowest'} untitled shares in view`
+    : smv ? 'LGU market value schedules' : `${top ? 'Oldest' : 'Newest'} BIR schedules in view`;
+  $('rank-note').textContent = smv
+    ? 'No LGU has a sourced SMV row yet, so there is nothing to rank. See "About this data".'
+    : inView.length
+      ? `${inView.length.toLocaleString()} ${state.view === 'untitled' ? 'areas' : 'cities and municipalities'} with data in the current map view.${state.view === 'untitled' ? ' Ranked by the areas the source reports.' : ''}`
+      : 'No city or municipality with data in the current map view. Zoom out or pan.';
+  const ol = $('rank');
+  ol.innerHTML = '';
+  list.forEach((f, i) => {
+    const p = f.properties;
+    const li = document.createElement('li');
+    li.tabIndex = 0;
+    const v = state.view === 'untitled' ? pct(p.u_share!) : `${p.s_yrs!.toFixed(1)} yrs`;
+    const label = state.view === 'untitled' && p.u_lvl !== 'municipality' ? `${esc(p.u_area ?? '')} <span class="c">as of ${esc(p.u_asof ?? '')}</span>`
+      : `${esc(p.n)} <span class="c">${esc(p.p)}</span>`;
+    li.innerHTML = `<span class="n">${String(top ? i + 1 : inView.length - i).padStart(2, '0')}</span><span>${label}</span><span class="v">${v}</span>`;
+    const go = () => { selectNat(p.id, true); document.querySelector('.mapbox')!.scrollIntoView({ behavior: 'smooth', block: 'center' }); };
+    li.onclick = go;
+    li.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } };
+    ol.appendChild(li);
+  });
+}
+
+// ---- "About this data": source, as-of date, method and known gaps for the layer on screen ----
+function renderAbout() {
+  const dl = (rows: [string, string][]) => `<dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>`;
+  const gaps = '<a href="https://github.com/AndrewConcejero/ph-zonal-map/blob/main/DATA_GAPS.md" target="_blank" rel="noopener">DATA_GAPS.md</a>';
+  const nm = natMeta;
+  let title: string;
+  let html: string;
+  if (state.view === 'untitled') {
+    title = 'Untitled land';
+    html = dl([
+      ['Source', `PA-LAMP <i>Land Tenure Status Report</i>, Book 1 (September 2004), as reported in ${link('https://documents1.worldbank.org/curated/en/334961495809114943/pdf/115311-PN-P156898-PUBLIC-Policy-Notes-Land-Administration-and-Management-FINAL2.pdf', 'World Bank, Philippines Urbanization Review Policy Notes: Improving Land Administration and Management (2017), Table 3')}. Rows live in data/untitled_land.csv, each with its own source link and date.`],
+      ['As of', 'September 2004 for every figure shown. Nothing newer has been published at city, municipality or province level that we could find.'],
+      ['Method', 'Untitled parcels ÷ all parcels, as the study reports them. A city or municipality takes the figure of the smallest area that contains it (its own, else its province, else its region), and its card says which. No figure is estimated, interpolated or spread to areas the source does not cover.'],
+      ['Known gaps', `Only Metro Manila, Cebu province and Misamis Oriental have a figure; every other LGU is grey. The figures are 22 years old and the study calls them estimates, so confidence is marked low. Sources that could fill the rest (DENR Land Management Bureau, LRA, PSA, LGU assessors' tax-declaration rolls) are listed in ${gaps}.`],
+    ]);
+  } else if (state.view === 'stale') {
+    title = state.sched === 'smv' ? 'Data staleness: LGU Schedules of Market Values' : 'Data staleness: BIR zonal value schedules';
+    html = state.sched === 'smv' ? dl([
+      ['Source', 'Rows entered by hand in data/lgu_smv_status.csv, each with its own source link and date: an LGU\'s SMV ordinance, or BLGF\'s status of its RA 12001 schedule.'],
+      ['As of', `${nm?.sources.smv.rows ?? 0} rows so far.`],
+      ['Method', 'Colour by the RA 12001 status of the LGU\'s own schedule. A province\'s status is never spread to its cities and municipalities.'],
+      ['Known gaps', `Every LGU. BLGF does not publish a machine-readable status list, and its site refuses automated requests. ${link(BLGF_2021.url, 'BLGF\'s 2021 count')}: 137 of 227 LGUs had not revised their SMV in three years. Where to get the list: ${gaps}.`],
+    ]) : dl([
+      ['Source', `Every BIR zonal value workbook, one per Revenue District Office (${nm?.rdos_with_dates ?? '?'} of ${nm?.rdos_in_index ?? '?'} RDOs), from ${link(nm?.sources.bir_index.url ?? 'https://www.bir.gov.ph/zonal-values', 'BIR\'s zonal values page')}, read ${esc(nm?.sources.bir_index.as_of ?? '')}. The NOTICE sheet of each workbook lists its Department Orders, their effectivity dates and the LGUs each covers. Audit trail: data/bir_national_schedule.csv.`],
+      ['As of', `Years counted to ${esc(nm?.as_of ?? '')}.`],
+      ['Context', `${esc(BLGF_2021.text)} (${link(BLGF_2021.url, 'BLGF, 2021, slide 5')}). Today ${nm?.rdos_not_revised_3y ?? '?'} of ${nm?.rdos_with_dates ?? '?'} RDOs have a newest schedule 3 or more years old. RA 12001 moves valuation to LGU Schedules of Market Values approved by BLGF (${link('https://blgf.gov.ph/wp-content/uploads/2025/03/BLGF-MC-No.-001.2025-IRR-of-RA-No.-12001-or-the-RPVARA-Reform-Act-6-Jan-2025-Approved-3.pdf', 'implementing rules')}).`],
+      ['Method', 'For each city or municipality: the newest Department Order of each RDO that covers it, then the oldest of those (part of the city runs on that schedule). Where barangay values are mapped (Metro Manila and 8 nearby provinces) the dates come from the barangays\' own values instead. Green means revised within 3 years, which RA 12001 expects.'],
+      ['Known gaps', `${nm?.staleness_buckets.unknown ?? '?'} LGUs are grey: no BIR Department Order names them (Subic Bay Freeport has no published workbook; the new Special Geographic Area towns in BARMM, and a few renamed towns). An RDO whose newest order covers only some of its towns leaves the others on older orders, which is what the map shows. Details: ${gaps}.`],
+    ]);
+  } else {
+    title = 'Land value';
+    const f = meta?.coverage.by_flag ?? {};
+    html = dl([
+      ['Source', `BIR zonal value schedules (Department Orders), one workbook per Revenue District Office, from ${link('https://www.bir.gov.ph/zonal-values', 'bir.gov.ph')}. Each barangay's card links the workbook its value came from.`],
+      ['As of', meta?.schedule_range ? `Schedules effective ${esc(span(meta.schedule_range))}; data built ${esc(longDate(meta.built_at))}.` : ''],
+      ['Method', 'Residential (class RR), commercial (CR) or industrial (I) land rows of the newest schedule covering each barangay. Typical is the median street value; interior lot the lowest; prime the highest. "Projected to today" grows each value at its district\'s own past rate: a projection, labelled as one, never a BIR value.'],
+      ['Known gaps', `Values are mapped for Metro Manila and 8 nearby provinces only. ${(f.no_data ?? 0).toLocaleString()} of ${(meta?.coverage.features ?? 0).toLocaleString()} barangays there have no BIR value of their own and are grey; they are no longer filled from neighbours or city medians. List: ${gaps}.`],
+    ]);
+  }
+  $('about-h').textContent = `About this data: ${title}`;
+  $('about-body').innerHTML = html;
+}
+
+let natPending: string | null = null;
+
 // ---- search ----
-interface Hit { kind: 'barangay' | 'city'; id: string; label: string; sub: string; text: string; name: string }
+interface Hit { kind: 'barangay' | 'city' | 'lgu'; id: string; label: string; sub: string; text: string; name: string }
 let index: Hit[] = [];
 let hits: Hit[] = [];
 let active = -1;
@@ -881,6 +1209,7 @@ let active = -1;
 function buildIndex() {
   index = [
     ...cities.features.map(f => ({ kind: 'city' as const, id: f.properties.id, label: f.properties.n, sub: f.properties.p, name: fold(f.properties.n), text: fold(`${f.properties.n} ${f.properties.p}`) })),
+    ...(national?.features ?? []).map(f => ({ kind: 'lgu' as const, id: f.properties.id, label: f.properties.n, sub: f.properties.p, name: fold(f.properties.n.replace(/^City of /, '')), text: fold(`${f.properties.n} ${f.properties.p}`) })),
     ...zonal.features.map(f => ({ kind: 'barangay' as const, id: f.properties.id, label: f.properties.n, sub: f.properties.d ? `${f.properties.d}, ${f.properties.c}` : f.properties.c, name: fold(f.properties.n), text: fold(`${f.properties.n} ${f.properties.c} ${f.properties.d ?? ''}`) })),
   ];
 }
@@ -890,10 +1219,12 @@ function search(q: string): Hit[] {
   if (!tokens.length) return [];
   const words = (s: string) => ` ${s}`;
   const scored: [number, Hit][] = [];
+  const nat = state.view !== 'value';
   for (const h of index) {
+    if ((h.kind === 'lgu') !== nat) continue;  // national views search cities and municipalities nationwide
     const t = words(h.text);
     if (!tokens.every(tok => t.includes(` ${tok}`))) continue;
-    let s = h.kind === 'city' ? 0 : 1;
+    let s = h.kind === 'barangay' ? 1 : 0;
     if (h.name === tokens.join(' ')) s -= 2;
     else if (h.name.startsWith(tokens[0])) s -= 1;
     scored.push([s, h]);
@@ -907,7 +1238,7 @@ function renderResults() {
   if (!input.value.trim()) { ul.hidden = true; input.setAttribute('aria-expanded', 'false'); return; }
   ul.innerHTML = hits.length ? hits.map((h, i) =>
     `<li role="option" id="r${i}" aria-selected="${i === active}" data-i="${i}"><span>${esc(h.label)}</span><span class="c">${h.kind === 'city' ? 'city · ' : ''}${esc(h.sub)}</span></li>`).join('')
-    : '<li class="empty">No barangay or city by that name</li>';
+    : `<li class="empty">No ${state.view === 'value' ? 'barangay or city' : 'city or municipality'} by that name</li>`;
   ul.hidden = false;
   input.setAttribute('aria-expanded', 'true');
   input.setAttribute('aria-activedescendant', active >= 0 ? `r${active}` : '');
@@ -921,6 +1252,7 @@ function choose(h: Hit) {
   $('results').hidden = true;
   input.blur();
   if (h.kind === 'barangay') select(h.id, true);
+  else if (h.kind === 'lgu') selectNat(h.id, true);
   else {
     const c = cities.features.find(f => f.properties.id === h.id)!;
     select(null);
@@ -963,6 +1295,15 @@ function wireControls() {
   document.querySelectorAll<HTMLButtonElement>('[data-order]').forEach(b => b.onclick = () => {
     state.order = b.dataset.order as 'top' | 'bottom'; pressed('[data-order]', b); renderRank();
   });
+  document.querySelectorAll<HTMLButtonElement>('[data-view]').forEach(b => b.onclick = () => { void setView(b.dataset.view as View); });
+  document.querySelectorAll<HTMLButtonElement>('[data-sched]').forEach(b => b.onclick = () => {
+    state.sched = b.dataset.sched as Sched; applyView(); if (state.natSelected) renderNatCard(state.natSelected);
+    renderLegend(); renderRank(); renderAbout(); writeHash();
+  });
+  $('rpvara-x').onclick = () => {
+    $('rpvara').hidden = true;
+    try { localStorage.setItem('rpvara-dismissed', '1'); } catch { /* private mode */ }
+  };
   $('sat').onclick = () => { state.satellite = !state.satellite; applySatellite(); };
   $('tr').onclick = () => { void setTransport(!state.transport); };
   $('cd').onclick = () => { void setCondos(!state.condos); };
@@ -1011,6 +1352,9 @@ function writeHash() {
   if (!state.condos) h.set('cd', '0');
   if (state.by !== 'value') h.set('by', state.by);
   if (state.by === 'tt') { h.set('to', state.ttDest); h.set('at', state.ttPeriod); }
+  if (state.view !== 'value') h.set('view', state.view);
+  if (state.view === 'stale' && state.sched === 'smv') h.set('sched', 'smv');
+  if (state.natSelected && state.view !== 'value') h.set('l', state.natSelected);
   const s = h.toString();
   history.replaceState(null, '', s ? `#${s}` : location.pathname + location.search);
 }
@@ -1035,6 +1379,10 @@ function readHash() {
   pressed('[data-use]', document.querySelector(`[data-use="${state.use}"]`)!);
   $('sat').setAttribute('aria-pressed', String(state.satellite));
   if (h.get('adj') === '1' && meta.adjusted_available) { state.basis = 'adj'; pressed('[data-basis]', document.querySelector('[data-basis="adj"]')!); }
+  const view = h.get('view');
+  state.view = (view === 'stale' || view === 'untitled') && national ? view : 'value';
+  state.sched = h.get('sched') === 'smv' ? 'smv' : 'bir';
+  natPending = h.get('l');
   return h.get('b');
 }
 
@@ -1063,9 +1411,21 @@ async function boot() {
   wireSearch();
   // revalidate on every load (a cheap 304 when unchanged) so a deploy never pairs new code with cached old data
   const get = (u: string) => fetch(u, { cache: 'no-cache' }).then(r => r.json());
-  const [z, c, m, si] = await Promise.all([get('/data/zonal.geojson'), get('/data/cities.geojson'), get('/data/meta.json'),
-    get('/data/streets/index.json').catch(() => ({}))]);
+  const [z, c, m, si, nat, nm, vs] = await Promise.all([get('/data/zonal.geojson'), get('/data/cities.geojson'), get('/data/meta.json'),
+    get('/data/streets/index.json').catch(() => ({})), get('/data/national.geojson').catch(() => null),
+    get('/data/national_meta.json').catch(() => null), get('/data/valuation_sources.json').catch(() => null)]);
   streetIndex = si;
+  national = nat; natMeta = nm; valuation = vs?.records ?? {};
+  for (const f of national?.features ?? []) { natById.set(f.properties.id, f); natBoxes.set(f.properties.id, bboxOf(f.geometry)); }
+  if (!national) document.querySelectorAll<HTMLButtonElement>('[data-view="stale"], [data-view="untitled"]').forEach(b => { b.disabled = true; });
+  let dismissed = false;
+  try { dismissed = localStorage.getItem('rpvara-dismissed') === '1'; } catch { /* private mode */ }
+  $('rpvara').hidden = dismissed;
+  if (natMeta) {
+    $('rpvara-stat').innerHTML = `<b>${natMeta.rdos_not_revised_3y} of ${natMeta.rdos_with_dates}</b> BIR district schedules are 3 or more years old. ` +
+      `<a href="#" id="rpvara-go">See the staleness map</a>.`;
+    $('rpvara-go').onclick = e => { e.preventDefault(); void setView('stale'); document.querySelector('.mapbox')!.scrollIntoView({ behavior: 'smooth', block: 'center' }); };
+  }
   condoIndex = await get('/data/condos/index.json').catch(() => ({}));
   for (const k of ['vaco', 'vacc'] as const) {
     if (!(z as Collection<Props>).features.some(f => typeof (f.properties as unknown as Record<string, unknown>)[FACTORS[k].prop] === 'number')) {
@@ -1085,25 +1445,31 @@ async function boot() {
     note.hidden = false;
   }
   const f = meta.coverage.by_flag;
-  $('coverage').textContent = `Coverage: ${(f.barangay_data ?? 0).toLocaleString()} barangays with their own values, ` +
-    `${(f.city_median ?? 0).toLocaleString()} on the city median, ${(f.estimated ?? 0).toLocaleString()} estimated, ` +
-    `${(f.no_data ?? 0).toLocaleString()} with no data. Data built ${meta.built_at.slice(0, 10)}.`;
+  $('coverage').textContent = `Coverage: ${(f.barangay_data ?? 0).toLocaleString()} barangays with their own values and ` +
+    `${(f.no_data ?? 0).toLocaleString()} with none (grey; nothing estimated). Data built ${meta.built_at.slice(0, 10)}.`;
 
   renderFootnotes();
 
   const initial = readHash();
   if (state.by === 'tt') await loadTravel();
+  if (state.view !== 'value') map.fitBounds(PH_BOUNDS, { padding: 12, duration: 0 });
+  applyView();
   renderLegend();
+  renderAbout();
   if (styleReady) addLayers();
   // don't wait for 'idle': it never fires while the tab is in the background
-  if (initial) select(initial, true);
+  if (initial && state.view === 'value') select(initial, true);
+  if (natPending && state.view !== 'value') selectNat(natPending, true);
   map.once('idle', () => renderRank());
   addEventListener('hashchange', async () => {
+    const before = state.view;
     const id = readHash();
     if (state.by === 'tt') await loadTravel();
     applySatellite();
+    if (before !== state.view) { const v = state.view; state.view = before; await setView(v); }
     repaint();
-    if (id !== state.selected) select(id, true);
+    if (state.view === 'value' && id !== state.selected) select(id, true);
+    if (state.view !== 'value' && natPending !== state.natSelected) selectNat(natPending, true);
   });
   renderRank();
 }

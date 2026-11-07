@@ -35,7 +35,26 @@ header { display: grid; gap: 6px; }
 h1 { font-family: var(--f-display); font-weight: 800; font-size: clamp(24px, 4.4vw, 40px); line-height: 1.08; margin: 0; text-wrap: balance; letter-spacing: -.01em; }
 .lede { color: var(--muted); max-width: 68ch; margin: 0; }
 
-.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+/* one primary switch for the layer, then labelled groups for that layer's options */
+.seg.views { flex: 1 1 100%; display: grid; grid-template-columns: repeat(3, 1fr); }
+.seg.views button { font-weight: 600; font-size: 14px; min-height: 44px; }
+.groups { flex: 1 1 100%; display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
+.groups[hidden] { display: none; }
+.grp { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.gl { font-family: var(--f-data); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); min-width: 64px; }
+.btn[hidden] { display: none; }
+.rpvara { display: flex; gap: 10px; align-items: start; background: color-mix(in srgb, var(--accent) 9%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line)); border-radius: 10px; padding: 10px 12px; font-size: 13.5px; }
+.rpvara[hidden] { display: none; }
+.rpvara > div { flex: 1; max-width: 90ch; }
+.rpvara .close { background: none; border: 0; color: var(--muted); font-size: 22px; line-height: 1; cursor: pointer; min-width: 32px; min-height: 32px; }
+.about-layer dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 0; font-size: 13.5px; }
+.about-layer dt { color: var(--muted); }
+.about-layer dd { margin: 0; max-width: 80ch; }
+.about-layer a { overflow-wrap: anywhere; }
+.legend .lnk { font-size: 11px; }
+.card a { overflow-wrap: anywhere; }
 .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--panel); }
 .seg button { font: 500 13px var(--f-body); color: var(--fg); background: transparent; border: 0; padding: 9px 12px; cursor: pointer; min-height: 40px; }
 .seg button + button { border-left: 1px solid var(--line); }
@@ -134,10 +153,19 @@ ol.fn ul.src { margin: 4px 0 0; }
 :root[data-theme="dark"] .maplibregl-ctrl-group button .maplibregl-ctrl-icon { filter: invert(1); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .maplibregl-ctrl-group button .maplibregl-ctrl-icon { filter: invert(1); } }
 
+@media (max-width: 719px) {
+  .grp { flex: 1 1 100%; }
+  .gl { flex: 1 1 100%; min-width: 0; }
+  .seg.views button { font-size: 13px; padding: 8px 6px; }
+  .about-layer dl { grid-template-columns: 1fr; gap: 2px; }
+  .about-layer dd { margin-bottom: 8px; }
+}
 @media (min-width: 720px) {
   .search { flex: 1 1 260px; max-width: 360px; }
+  .seg.views { flex: 0 1 auto; display: inline-grid; }
   .grid2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .card { left: auto; right: 12px; top: 12px; bottom: auto; width: 310px; max-height: calc(100% - 24px); }
   .legend { top: auto; bottom: 12px; left: 12px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+@media (max-width: 719px) { .legend .keys[style*="grid"] { grid-template-columns: 1fr 1fr; } }

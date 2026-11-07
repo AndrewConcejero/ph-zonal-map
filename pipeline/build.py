@@ -22,6 +22,7 @@ from shapely.ops import unary_union
 
 from .bir_values import CityIndex, barangay_values, match_bir_names, newest_listing, write_matches
 from .gapfill import fill as gap_fill, fill_prefixed as gap_fill_prefixed
+from .integrity import drop_fills
 from .staleness import matched_pairs, project, rdo_rates, value_since, years_between
 from .fetch_boundaries import HUCS, MANILA_PSGC, MANILA_SUBMUNS_2019, PROVDISTS, manila_path, municity_path, provdist_path
 from .match import load_aliases, match_city
@@ -459,6 +460,9 @@ def main() -> None:
     com_rates = other_use['commercial'][2]
     n_com_estimated = other_use['commercial'][1]
 
+    # estimates and city medians were used above to score plausibility and growth context; none of them is published
+    fills_removed = drop_fills(feats)
+
     add_factors(feats)
 
     city_feats = [{'type': 'Feature', 'properties': {'id': c['psgc'], 'n': c['name'], 'p': c['prov']},
@@ -492,6 +496,7 @@ def main() -> None:
         'coverage': {'features': len(feats), 'by_flag': dict(flags),
                      'by_source': {f'{q}/{s}' if s else q: n for (q, s), n in srcs.items()},
                      'by_province': {k: dict(v) for k, v in by_prov.items()}},
+        'fills_removed': {f'{use}/{q}': n for (use, q), n in sorted(fills_removed.items())},
         'bir': {'department_orders_used': len(dos_used), 'rdos': sorted({r for r, _ in dos_used}),
                 'rows_parsed': len(bir_rows)},
         'sources': [
