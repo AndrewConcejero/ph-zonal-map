@@ -284,52 +284,48 @@
     "features": 7032,
     "by_flag": {
       "barangay_data": 6809,
-      "estimated": 199,
-      "city_median": 24
+      "no_data": 223
     },
     "by_source": {
       "barangay_data/bir": 6809,
-      "estimated": 199,
-      "city_median/bir": 24
+      "no_data": 223
     },
     "by_province": {
       "Metro Manila": {
         "barangay_data": 1609,
-        "estimated": 71,
-        "city_median": 23
+        "no_data": 94
       },
       "Bulacan": {
         "barangay_data": 562,
-        "estimated": 8
+        "no_data": 8
       },
       "Cavite": {
         "barangay_data": 791,
-        "estimated": 10
+        "no_data": 10
       },
       "Laguna": {
         "barangay_data": 629,
-        "estimated": 48,
-        "city_median": 1
+        "no_data": 49
       },
       "Rizal": {
         "barangay_data": 173,
-        "estimated": 11
+        "no_data": 11
       },
       "Pampanga": {
         "barangay_data": 511,
-        "estimated": 22
+        "no_data": 22
       },
       "Batangas": {
         "barangay_data": 1061,
-        "estimated": 14
+        "no_data": 14
       },
       "Zambales": {
         "barangay_data": 243,
-        "estimated": 4
+        "no_data": 4
       },
       "Quezon": {
         "barangay_data": 1230,
-        "estimated": 11
+        "no_data": 11
       }
     }
   },
@@ -400,5 +396,11 @@
       "name": "PSA/NAMRIA boundaries (PSGC Dec 2023; Manila from 2019 release) via faeldon/philippines-json-maps",
       "url": "https://github.com/faeldon/philippines-json-maps"
     }
-  ]
+  ],
+  "fills_removed": {
+    "commercial/estimated": 490,
+    "industrial/estimated": 1276,
+    "residential/city_median": 24,
+    "residential/estimated": 199
+  }
 }

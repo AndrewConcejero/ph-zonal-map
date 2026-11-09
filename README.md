@@ -1,6 +1,6 @@
 # Philippine Zonal Value Map
 
-A free, public map of BIR residential zonal values (₱ per square meter of land) for Metro Manila and the provinces around it: Bulacan, Pampanga (with Angeles), Zambales (with Olongapo), Rizal, Cavite, Laguna, Batangas and Quezon (with Lucena). Bicol is next. Values are shown per barangay where the data allows. Every area carries a flag saying how good its number is.
+A free, public map of BIR residential zonal values (₱ per square meter of land) for Metro Manila and the provinces around it: Bulacan, Pampanga (with Angeles), Zambales (with Olongapo), Rizal, Cavite, Laguna, Batangas and Quezon (with Lucena). Bicol is next. Values are shown per barangay where the data allows. Two nationwide layers show how old each city's and municipality's valuation schedule is, and where land is untitled.
 
 > **Zonal values are BIR tax floors, not market prices.** Read the map as a ranking. Check with the BIR Revenue District Office (RDO) before any transaction.
 
@@ -17,8 +17,7 @@ A free, public map of BIR residential zonal values (₱ per square meter of land
 Every map feature has one of these flags:
 
 - `barangay_data`: computed from that barangay's own schedule rows
-- `city_median`: no barangay detail, so it shows the city's median residential value (hatched on the map)
-- `estimated`: no data, so it shows the median of the neighbouring barangays it shares a border with (hatched and muted on the map)
+- `city_median`, `estimated`: computed during the build (city median, neighbour median) for plausibility checks only; removed before publishing, so these areas show as `no_data`
 - `no_data`: nothing usable (grey)
 
 ### Values per barangay
@@ -69,6 +68,36 @@ loaded only when you zoom in. A city name used in two provinces (Rosario, San Ju
 name (`rosario-batangas`). Review files: `pipeline/review/streets_<city>.csv`. Method and limits:
 [docs/pilot-muntinlupa-streets.md](docs/pilot-muntinlupa-streets.md).
 
+## Nationwide layers: data staleness and untitled land
+
+The **Data staleness** view covers all 1,642 cities and municipalities. **Untitled land** has no button yet (only 2004 figures for 3 areas) but works at `#view=untitled`. Gaps show grey;
+nothing is estimated. What is missing and what would fill it: [DATA_GAPS.md](DATA_GAPS.md).
+
+| Layer | Metric | Source | Files |
+|---|---|---|---|
+| Data staleness: BIR zonal values | Years since the newest BIR Department Order covering the LGU took effect (oldest across its RDOs). Green under 3 years (RA 12001's revision cycle), yellow 3 to 6, orange 6 to 9, red 9+ | Every RDO workbook linked from [BIR's zonal values page](https://www.bir.gov.ph/zonal-values) (NOTICE sheet: DOs, effectivity dates, LGUs) | `data/bir_rdo_index.csv` (index, refresh with `make bir-index`), `data/bir_workbooks.csv` (sha256), `data/bir_national_schedule.csv` (audit trail per LGU) |
+| Data staleness: LGU SMV | Last SMV ordinance and RA 12001 SMV status | Entered by hand, one sourced row per LGU | `data/lgu_smv_status.csv` (empty so far) |
+| Untitled land | Untitled parcels ÷ all parcels | Entered by hand from published studies, each row with URL, as-of date, confidence and a proxy flag | `data/untitled_land.csv` |
+
+`make national` (or `python -m pipeline.national`) downloads the BIR workbooks once into `cache/bir_national/` and
+the PSGC 3Q 2026 boundaries into `cache/psgc/`, then writes `public/data/national.geojson`,
+`public/data/national_meta.json` and `public/data/valuation_sources.json`. Review file:
+`pipeline/review/national_unmatched.csv`.
+
+### Valuation records (RA 12001-ready)
+
+Under RA 12001 (RPVARA, 2024), BLGF-approved LGU Schedules of Market Values replace BIR zonal values as the single
+valuation base. Each value on the map points at a record in `public/data/valuation_sources.json`, keyed
+`"<RDO> <DO>"`, with `valuation_source` (`BIR_ZONAL` | `LGU_SMV` | `BLGF_APPROVED_SMV`), `effective_date`,
+`source_reference` (e.g. "BIR Department Order No. 27-2019, Revenue District Office 29") and `source_url` (the
+workbook). SMV-based values can be added as new records without changing the map files.
+
+### Integrity rule
+
+Only a barangay's own BIR values are published. Earlier builds filled gaps with neighbour medians (`estimated`) and
+city medians (`city_median`); `pipeline/integrity.py` now removes both, in `build.py` and on its own
+(`python -m pipeline.integrity`).
+
 ## Other layers
 
 | Layer | Source | Pipeline |
@@ -111,7 +140,7 @@ The key ends up in the browser by design; the referrer restriction is what keeps
 - Only residential land rows (class `RR`) count. Condominium rows (`RC`) are priced per sqm of floor area, not land, so they are left out.
 - Each barangay uses the newest Department Order that covers it. Typical is the median of its street values, each street counted once; interior lot is the minimum, prime the maximum.
 - If the newest schedule listing a barangay has no residential land row (BIR now classes it commercial or industrial only), older residential values are not used; it is treated as having no value.
-- Where no BIR schedule matched a barangay, it is estimated as the median of the neighbouring barangays that have their own values (flagged `estimated`, hatched on the map). Only real values are used, never other estimates. With no such neighbour, it shows the city median (flagged `city_median`). A city with no values of its own (Pampanga today) is never estimated from a neighbouring city: it stays `no_data`.
+- Where no BIR schedule matched a barangay, it shows as `no_data` (grey). Neighbour and city medians are no longer published (`pipeline/integrity.py`).
 - **Adjusted to today.** For each RDO, every street that appears in two consecutive revisions of the same barangay gives one annual growth rate; the RDO's rate is their median, taken from the transition into its current schedules. An RDO with fewer than 20 such pairs uses earlier transitions, then its province's median. Each value is then grown from the date it was actually set (a schedule that only repeats an older one's values does not count as a new date). Department Order averages are never compared. Rates per RDO are in `pipeline/review/growth_by_rdo.csv`; the summary is in [docs/staleness-report.md](docs/staleness-report.md).
 
 ## License

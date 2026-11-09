@@ -1,0 +1,52 @@
+{
+  "built_at": "2026-11-07T22:43:50+00:00",
+  "as_of": "2026-11-07",
+  "lgus": 1642,
+  "coverage": {
+    "staleness": 1623,
+    "untitled": 96
+  },
+  "staleness_buckets": {
+    "3-6": 940,
+    "6-9": 304,
+    "unknown": 19,
+    "9+": 57,
+    "<3": 322
+  },
+  "rdos_in_index": 123,
+  "rdos_with_dates": 122,
+  "rdos_not_revised_3y": 97,
+  "rdo_notes": {
+    "RDO-008": "RDO No. 8 - Baguio City.xls: NOTICE names no LGU (129 names, 2 LGUs); whole RDO read as the city in its name",
+    "RDO-019": "BIR publishes no workbook for this RDO",
+    "RDO-081": "RDO No. 81 - Cebu City North.xlsx: NOTICE names no LGU (1 names, 0 LGUs); whole RDO read as the city in its name",
+    "RDO-082": "RDO No. 82 - Cebu City, South.xls: NOTICE names no LGU (1 names, 0 LGUs); whole RDO read as the city in its name",
+    "RDO-113A": "RDO NO. 113A - West Davao City.xlsx: NOTICE names no LGU (10 names, 0 LGUs); whole RDO read as the city in its name",
+    "RDO-113B": "RDO No. 113B - East Davao City.xls: NOTICE names no LGU (5 names, 1 LGUs); whole RDO read as the city in its name"
+  },
+  "sources": {
+    "bir_index": {
+      "name": "BIR zonal values index (current DO and workbook per RDO)",
+      "url": "https://www.bir.gov.ph/zonal-values",
+      "file": "data/bir_rdo_index.csv",
+      "as_of": "2026-11-07"
+    },
+    "bir_workbooks": {
+      "name": "BIR zonal value workbooks, NOTICE sheet (DOs, effectivity dates, LGUs covered)",
+      "url": "https://www.bir.gov.ph/zonal-values",
+      "file": "data/bir_workbooks.csv"
+    },
+    "boundaries": {
+      "name": "PSA / NAMRIA boundaries via OCHA COD-AB, PSGC 3Q 2026, from faeldon/philippines-json-maps (lowres)",
+      "url": "https://github.com/faeldon/philippines-json-maps"
+    },
+    "untitled": {
+      "file": "data/untitled_land.csv",
+      "rows": 3
+    },
+    "smv": {
+      "file": "data/lgu_smv_status.csv",
+      "rows": 0
+    }
+  }
+}

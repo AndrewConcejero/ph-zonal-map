@@ -112,8 +112,8 @@ def line(row: list) -> str:
 DO_RE = re.compile(r'^\s*(?:D[O0]\.?\s*(?:No\.?)?\s*)?(\d{1,3})\s*-\s*(\d{4}|\d{2})\s*$', re.I)
 DO_HEADER_RE = re.compile(r'DEPARTMENT\s+ORDER\s+N[O0]\.?\s*(\d{1,3})\s*-\s*(\d{4}|\d{2})\b', re.I)
 DO_IN_NAME_RE = re.compile(r'(\d{1,3})\s*-\s*(\d{4}|\d{2})\b')
-RDO_RE = re.compile(r'\bRDO\s*(?:N[O0]\.?|#)?\s*(\d{1,2})\s*-?\s*([A-C])?\b\s*[-–]?\s*(.*)', re.I)
-RDO_SUBJECT_RE = re.compile(r'REVENUE\s+DISTRICT\s+(?:OFFICE\s+)?(?:\(RDO\)\s*)?N[O0]\.?\s*(\d{1,2})\s*-?\s*([A-C])?\b', re.I)
+RDO_RE = re.compile(r'\bRDO\s*(?:N[O0]\.?|#)?\s*(\d{1,3})\s*-?\s*([A-C])?\b\s*[-–]?\s*(.*)', re.I)
+RDO_SUBJECT_RE = re.compile(r'REVENUE\s+DISTRICT\s+(?:OFFICE\s+)?(?:\(RDO\)\s*)?N[O0]\.?\s*(\d{1,3})\s*-?\s*([A-C])?\b', re.I)
 
 
 def year4(y: str) -> int:
