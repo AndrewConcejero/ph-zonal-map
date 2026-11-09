@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Metro Manila Zonal Map</title>
+  <title>PH Zonal Map</title>
   <meta name="description" content="BIR residential zonal values per square meter, barangay by barangay, across Metro Manila, Bulacan, Pampanga, Zambales, Rizal, Cavite, Laguna, Batangas and Quezon. Free, with data quality marked on every area.">
   <meta name="theme-color" content="#f4f6f4" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#101615" media="(prefers-color-scheme: dark)">
@@ -28,14 +28,34 @@
   </script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="topline">
-        <div class="eyebrow">BIR zonal values · residential · ₱ per sqm of land</div>
-        <button class="btn icon" id="theme" type="button" aria-label="Switch colour theme" title="Switch colour theme"></button>
+  <nav class="topnav" aria-label="Site">
+    <div class="nav-in">
+      <a class="brand" href="/" aria-label="PH Zonal Map, home">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1.5" fill="currentColor" opacity=".35"/><rect x="13" y="3" width="8" height="8" rx="1.5" fill="currentColor" opacity=".7"/><rect x="3" y="13" width="8" height="8" rx="1.5" fill="currentColor" opacity=".7"/><rect x="13" y="13" width="8" height="8" rx="1.5" fill="currentColor"/></svg>
+        <span>PH Zonal Map</span>
+      </a>
+      <div class="search" role="search">
+        <svg class="mag" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+        <label for="q" class="sr">Search barangay, city or municipality</label>
+        <input id="q" type="search" placeholder="Search barangay, city or municipality" autocomplete="off" spellcheck="false"
+               role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
+        <ul id="results" role="listbox" hidden></ul>
       </div>
-      <h1>What the taxman thinks Metro Manila land is worth</h1>
-      <p class="lede">Barangay by barangay across Metro Manila, Bulacan, Pampanga, Zambales, Rizal, Cavite, Laguna, Batangas and Quezon. These are BIR tax floors, not market prices, so read the map as a ranking. A second layer covers the whole country: how old each city's and municipality's valuation schedule is.</p>
+      <div class="nav-right">
+        <label class="switch" title="Color every city and municipality by how old its valuation schedule is">
+          <input type="checkbox" id="stale-toggle" role="switch">
+          <span class="track" aria-hidden="true"></span>
+          <span class="lbl">Data staleness</span>
+        </label>
+        <button class="btn icon" id="theme" type="button" aria-label="Switch color theme" title="Switch color theme"></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <header class="hero">
+      <h1>What the taxman thinks land is worth</h1>
+      <p class="lede">BIR zonal values per square meter for Metro Manila and 8 nearby provinces. Tax floors, not market prices.</p>
     </header>
 
     <aside class="rpvara" id="rpvara" hidden aria-label="About the new valuation law">
@@ -51,18 +71,6 @@
     </aside>
 
     <div class="controls">
-      <div class="search" role="search">
-        <label for="q" class="sr">Search barangay, city or municipality</label>
-        <input id="q" type="search" placeholder="Search barangay, city or municipality" autocomplete="off" spellcheck="false"
-               role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
-        <ul id="results" role="listbox" hidden></ul>
-      </div>
-
-      <div class="seg views" role="group" aria-label="Map layer">
-        <button type="button" data-view="value" aria-pressed="true">Land value</button>
-        <button type="button" data-view="stale" aria-pressed="false">Data staleness</button>
-      </div>
-
       <div class="groups" id="g-value">
         <div class="grp"><span class="gl">Land</span>
           <div class="seg" role="group" aria-label="Land use">
@@ -82,18 +90,18 @@
             <button type="button" data-basis="adj" aria-pressed="false" title="A projection of BIR's own trend, not a BIR value">Projected to today</button>
           </div>
         </div>
-        <div class="grp"><span class="gl">Colour by</span>
-          <select id="by" class="btn" aria-label="Colour the map by">
-            <option value="value">Land value</option>
-            <option value="flood">Flood hazard</option>
-            <option value="elev">Elevation</option>
-            <option value="heat">Surface heat</option>
-            <option value="rail">Distance to rail</option>
-            <option value="xway">Distance to expressway</option>
-            <option value="vaco">Office vacancy</option>
-            <option value="vacc">Condo vacancy</option>
-            <option value="tt">Travel time (projection)</option>
-          </select>
+        <div class="grp grp-wide"><span class="gl">Color by</span>
+          <div class="chips" role="group" aria-label="Color the map by">
+            <button type="button" data-by="value" aria-pressed="true">Land value</button>
+            <button type="button" data-by="flood" aria-pressed="false">Flood hazard</button>
+            <button type="button" data-by="elev" aria-pressed="false">Elevation</button>
+            <button type="button" data-by="heat" aria-pressed="false">Surface heat</button>
+            <button type="button" data-by="rail" aria-pressed="false">Near rail</button>
+            <button type="button" data-by="xway" aria-pressed="false">Near expressway</button>
+            <button type="button" data-by="vaco" aria-pressed="false">Office vacancy</button>
+            <button type="button" data-by="vacc" aria-pressed="false">Condo vacancy</button>
+            <button type="button" data-by="tt" aria-pressed="false" title="A model, not yet checked against real trips">Travel time</button>
+          </div>
           <span id="tt-ctl" class="tt" hidden>
             <select id="tt-dest" class="btn" aria-label="Travel time to"></select>
             <select id="tt-period" class="btn" aria-label="Time of day">
@@ -118,72 +126,94 @@
         <div class="grp"><span class="gl">Show</span>
           <button type="button" class="btn toggle" id="cd" aria-pressed="true" title="Condominium buildings with BIR values per sqm of floor area (tap to hide)">Condos</button>
           <button type="button" class="btn toggle" id="tr" aria-pressed="true" title="Expressways and rail, current and future (tap to hide)">Roads &amp; rail</button>
-          <button type="button" class="btn toggle" id="sat" aria-pressed="false" title="Show satellite imagery under the colours">Satellite</button>
+          <button type="button" class="btn toggle" id="sat" aria-pressed="false" title="Show satellite imagery under the colors">Satellite</button>
         </div>
       </div>
       <p class="hint" id="basis-note" hidden></p>
     </div>
 
     <div class="mapbox">
-      <div id="map" aria-label="Map of residential zonal values by barangay"></div>
+      <div id="map" aria-label="Map of zonal values by barangay"></div>
       <div class="legend" id="legend"></div>
       <div class="card" id="card" hidden aria-live="polite"></div>
     </div>
 
-    <section class="about-layer" id="about-layer" aria-labelledby="about-h">
-      <h2 id="about-h">About this data</h2>
-      <div id="about-body"></div>
+    <section class="rank-box">
+      <div class="rank-head">
+        <h2 id="rank-h">Barangays in view</h2>
+        <div class="seg small" role="group" aria-label="Ranking order">
+          <button type="button" data-order="top" aria-pressed="true">Highest</button>
+          <button type="button" data-order="bottom" aria-pressed="false">Lowest</button>
+        </div>
+      </div>
+      <p class="hint" id="rank-note"></p>
+      <ol class="rank" id="rank"></ol>
+      <button type="button" class="more-btn" id="rank-more" hidden>Show more</button>
     </section>
 
-    <div class="grid2">
-      <section>
-        <div class="rank-head">
-          <h2 id="rank-h">Barangays in view</h2>
-          <div class="seg small" role="group" aria-label="Ranking order">
-            <button type="button" data-order="top" aria-pressed="true">Highest</button>
-            <button type="button" data-order="bottom" aria-pressed="false">Lowest</button>
-          </div>
-        </div>
-        <p class="hint" id="rank-note"></p>
-        <ol class="rank" id="rank"></ol>
-      </section>
-
-      <section class="notes" id="about">
-        <h2>How to read this</h2>
+    <div class="drawers">
+      <details class="drawer notes" id="about">
+        <summary>How to read this</summary>
         <p><b>Zonal values are BIR tax floors, not market prices.</b> BIR uses them to compute taxes on property sales. Market prices usually run higher, sometimes by a lot. Use the map to see which places are valued above others.</p>
         <p><b>Interior lot</b> is the lowest residential land value BIR sets in the barangay, usually for "all other streets". <b>Prime</b> is the highest, usually a main road or a named subdivision. <b>Typical</b> is the median of the barangay's street values, each street counted once. Condominium values are left out: BIR prices those per square meter of floor area, not land.</p>
-        <p><b>Residential or commercial.</b> BIR sets separate values for residential land (class RR), commercial land (CR, usually higher along main roads) and industrial land (I). The toggle switches every view between them, including the villages, streets and condominiums shown when zoomed in.</p>
-        <p><b>Zooming in</b> on Metro Manila shows BIR's values for individual villages and streets, matched to OpenStreetMap shapes. Up close, a barangay's colour becomes its interior-lot value, what BIR charges on streets it does not list.</p>
-        <p><b>Coloured</b> means the barangay has its own BIR values. <b>Grey</b> means it does not: no BIR schedule row matched it, or its city is not loaded yet. The map never fills a gap with a neighbour's or a city's value.</p>
-        <p><b>Schedules are stale, unevenly.</b> BIR revises each Revenue District Office on its own timetable, so most schedules in force date from 2018 to 2024, and a 2018 value is not comparable with a 2024 one. <b>Projected to today</b> grows each value from its schedule's effectivity date at its district's own pace: the median yearly increase BIR gave the same streets between consecutive revisions. It is a projection of BIR's own trend, not a market estimate; the card shows both numbers and the rate used.</p>
-        <p><b>Colour by</b> swaps land value for another factor: share of the barangay in medium or high flood hazard (100-year rain), average elevation (a surface model, so towers add height), dry-season afternoon surface temperature (roofs and roads, not air temperature), and distance to the nearest rail station or expressway. <b>Travel time</b> (experimental) estimates the drive from each barangay to a chosen business district, university, airport or regional centre at three times of day. It runs on OpenStreetMap roads with a simple congestion model that has not yet been checked against real trips, so read it as a rough guide and use the range on each card. Jeepneys, buses and rail are not included yet. <b>Condos</b> marks buildings with BIR's condominium value, per square metre of floor area. <b>Roads &amp; rail</b> shows expressways and rail, dashed where under construction and dotted where proposed.</p>
-        <p class="disclaimer"><b>Before any transaction, verify the zonal value with the BIR Revenue District Office</b> that covers the property. This site can be wrong or out of date.</p>
-        <h2>Sources</h2>
+        <p><b>Residential, commercial or industrial.</b> BIR sets separate values for residential land (class RR), commercial land (CR, usually higher along main roads) and industrial land (I). The switch changes every view between them, including the villages, streets and condominiums shown when zoomed in.</p>
+        <p><b>Zooming in</b> shows BIR's values for individual villages and streets, matched to OpenStreetMap shapes. Up close, a barangay's color becomes its interior-lot value, what BIR charges on streets it does not list.</p>
+        <p><b>Colored</b> means the barangay has its own BIR values. <b>Gray</b> means it does not: no BIR schedule row matched it, or its city is not loaded yet. The map never fills a gap with a neighbor's or a city's value.</p>
+        <p><b>Schedules are stale, unevenly.</b> BIR revises each Revenue District Office on its own timetable, so a 2018 value is not comparable with a 2024 one. <b>Projected to today</b> grows each value from its schedule's effectivity date at its district's own pace: the median yearly increase BIR gave the same streets between consecutive revisions. It is a projection of BIR's own trend, not a market estimate; the card shows both numbers and the rate used. <b>Data staleness</b> (top right) colors the whole country by how old each schedule is.</p>
+        <p><b>Color by</b> swaps land value for another factor: share of the barangay in medium or high flood hazard (100-year rain), average elevation (a surface model, so towers add height), dry-season afternoon surface temperature (roofs and roads, not air temperature), and distance to the nearest rail station or expressway. <b>Travel time</b> estimates the drive from each barangay to a chosen business district, university, airport or regional center at three times of day. It runs on OpenStreetMap roads with a simple congestion model that has not yet been checked against real trips, so read it as a rough guide and use the range on each card. Jeepneys, buses and rail are not included yet. <b>Condos</b> marks buildings with BIR's condominium value, per square meter of floor area. <b>Roads &amp; rail</b> shows expressways and rail, dashed where under construction and dotted where proposed.</p>
+        <p class="disclaimer"><b>Before any transaction, verify the zonal value with the BIR Revenue District Office</b> that covers the property. This site can be wrong or out of date. If you spot a value that is out of date, use <b>Flag as out of date</b> on its card.</p>
+      </details>
+
+      <details class="drawer about-layer" id="about-layer">
+        <summary id="about-h">About this data</summary>
+        <div id="about-body"></div>
+      </details>
+
+      <details class="drawer" id="footnotes">
+        <summary>Notes &amp; sources</summary>
+        <ol class="fn">
+          <li id="fn-built">Data built: loading…</li>
+          <li id="fn-schedules"></li>
+          <li><b>Zonal values are BIR tax floors, not market prices.</b> Verify the value with the BIR Revenue District Office that covers the property before any transaction.</li>
+          <li>Sources and the dates they describe:<ul class="src" id="fn-sources"></ul></li>
+        </ol>
         <ul class="src">
-          <li>Zonal values: <a href="https://www.bir.gov.ph" target="_blank" rel="noopener">Bureau of Internal Revenue</a> schedules (Department Orders), one workbook per Revenue District Office. A few barangays fall back to <a href="https://ren.ph/tools/zonal-value" target="_blank" rel="noopener">REN.PH</a>'s index of the same schedules.</li>
-          <li>Boundaries: <a href="https://psa.gov.ph/classification/psgc" target="_blank" rel="noopener">PSA</a> / NAMRIA, PSGC December 2023 (Manila: 2019 release), via <a href="https://github.com/faeldon/philippines-json-maps" target="_blank" rel="noopener">faeldon/philippines-json-maps</a>.</li>
+          <li>Zonal values: <a href="https://www.bir.gov.ph/zonal-values" target="_blank" rel="noopener">Bureau of Internal Revenue</a> schedules (Department Orders), one workbook per Revenue District Office.</li>
+          <li>Boundaries: <a href="https://psa.gov.ph/classification/psgc" target="_blank" rel="noopener">PSA</a> / NAMRIA, PSGC December 2023 for barangays (Manila: 2019 release) and 3Q 2026 for cities and municipalities, via <a href="https://github.com/faeldon/philippines-json-maps" target="_blank" rel="noopener">faeldon/philippines-json-maps</a>.</li>
           <li>Flood hazard: UP NOAH / DREAM 100-year flood hazard maps via <a href="https://lipad-fmc.dream.upd.edu.ph" target="_blank" rel="noopener">LiPAD</a> (ODbL).</li>
           <li>Elevation: Copernicus GLO-30 (© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA).</li>
           <li>Surface heat: Landsat 8/9 Collection 2 surface temperature (USGS), via <a href="https://planetarycomputer.microsoft.com" target="_blank" rel="noopener">Microsoft Planetary Computer</a>.</li>
           <li>Roads, rail, villages, streets and buildings: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors (ODbL).</li>
           <li>Basemap: <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>, © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</li>
-          <li>Code and data pipeline: <a href="https://github.com/AndrewConcejero/ph-zonal-map" target="_blank" rel="noopener">github.com/AndrewConcejero/ph-zonal-map</a>.</li>
         </ul>
         <p class="hint" id="coverage"></p>
-      </section>
+      </details>
     </div>
-
-    <footer class="foot" id="footnotes">
-      <h2>Notes</h2>
-      <ol class="fn">
-        <li id="fn-built">Data built: loading…</li>
-        <li id="fn-schedules"></li>
-        <li><b>Zonal values are BIR tax floors, not market prices.</b> Verify the value with the BIR Revenue District Office that covers the property before any transaction.</li>
-        <li>Sources and the dates they describe:<ul class="src" id="fn-sources"></ul></li>
-        <li>Code, data and method: <a href="https://github.com/AndrewConcejero/ph-zonal-map" target="_blank" rel="noopener">github.com/AndrewConcejero/ph-zonal-map</a>. Found a wrong value or a misplaced barangay? <a href="https://github.com/AndrewConcejero/ph-zonal-map/issues" target="_blank" rel="noopener">Report it on GitHub</a>, with the barangay, city and what BIR's schedule says.</li>
-      </ol>
-    </footer>
   </div>
+
+  <footer class="site-foot">
+    <div class="foot-in">
+      <div class="foot-brand">
+        <b>PH Zonal Map</b>
+        <p>A free, public map of BIR zonal values, online since October 2026. Product 1 of 30 pro bono products for Philippine government.</p>
+        <p class="fine">Not affiliated with the BIR, BLGF or any government agency. Values can be wrong or out of date: verify with the BIR Revenue District Office before any transaction.</p>
+      </div>
+      <nav class="foot-links" aria-label="Footer">
+        <div>
+          <b>Project</b>
+          <a href="https://github.com/AndrewConcejero/ph-zonal-map" target="_blank" rel="noopener">Code and data (GitHub)</a>
+          <a href="https://github.com/AndrewConcejero/ph-zonal-map#readme" target="_blank" rel="noopener">Method</a>
+          <a href="https://github.com/AndrewConcejero/ph-zonal-map/blob/main/DATA_GAPS.md" target="_blank" rel="noopener">Data gaps</a>
+        </div>
+        <div>
+          <b>Help</b>
+          <a href="https://github.com/AndrewConcejero/ph-zonal-map/issues/new?labels=out-of-date&amp;title=Out-of-date%20value" target="_blank" rel="noopener">Flag an out-of-date value</a>
+          <a href="https://github.com/AndrewConcejero/ph-zonal-map/issues" target="_blank" rel="noopener">Report a problem</a>
+        </div>
+      </nav>
+      <p class="fine foot-base">© <span id="year">2026</span> Andrew Concejero · Code under the <a href="https://github.com/AndrewConcejero/ph-zonal-map/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a> · Data from the BIR, PSA/NAMRIA and OpenStreetMap contributors under their own terms · <span id="foot-built"></span></p>
+    </div>
+  </footer>
   <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
