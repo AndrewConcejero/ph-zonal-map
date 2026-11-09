@@ -650,7 +650,8 @@ const VALUE_LAYERS = ['c-fill', 'z-fill', 'z-hatch', 'z-line', 'c-line', 'z-focu
 /** Show the layers, controls and texts of the current view (land value, data staleness, untitled land). */
 function applyView() {
   const nat = state.view !== 'value';
-  pressed('[data-view]', document.querySelector(`[data-view="${state.view}"]`)!);
+  // Untitled land has no button (only 2004 figures for 3 areas); it stays reachable at #view=untitled
+  pressed('[data-view]', document.querySelector<HTMLButtonElement>(`[data-view="${state.view}"]`)!);
   pressed('[data-sched]', document.querySelector(`[data-sched="${state.sched}"]`)!);
   $('g-value').hidden = nat;
   $('g-stale').hidden = state.view !== 'stale';

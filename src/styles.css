@@ -37,7 +37,7 @@ h1 { font-family: var(--f-display); font-weight: 800; font-size: clamp(24px, 4.4
 
 .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 /* one primary switch for the layer, then labelled groups for that layer's options */
-.seg.views { flex: 1 1 100%; display: grid; grid-template-columns: repeat(3, 1fr); }
+.seg.views { flex: 1 1 100%; display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; }
 .seg.views button { font-weight: 600; font-size: 14px; min-height: 44px; }
 .groups { flex: 1 1 100%; display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
 .groups[hidden] { display: none; }

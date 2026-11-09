@@ -70,7 +70,7 @@ name (`rosario-batangas`). Review files: `pipeline/review/streets_<city>.csv`. M
 
 ## Nationwide layers: data staleness and untitled land
 
-The **Data staleness** and **Untitled land** views cover all 1,642 cities and municipalities. Gaps show grey;
+The **Data staleness** view covers all 1,642 cities and municipalities. **Untitled land** has no button yet (only 2004 figures for 3 areas) but works at `#view=untitled`. Gaps show grey;
 nothing is estimated. What is missing and what would fill it: [DATA_GAPS.md](DATA_GAPS.md).
 
 | Layer | Metric | Source | Files |
