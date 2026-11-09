@@ -100,7 +100,7 @@ const QUALITY: Record<Quality, { label: string; cls: string; text: (p: Props) =>
   city_median: { label: 'city median only', cls: 'warn', text: p => `No BIR schedule matched this barangay. This is the median of ${p.c}'s barangays, not this barangay's own value.` },
   estimated: {
     label: 'estimated', cls: 'warn',
-    text: p => `No BIR value for this barangay. These are estimates: the median of the ${p.nb} neighbouring ${p.nb === 1 ? 'barangay' : 'barangays'} with their own values (${p.nbn}).`,
+    text: p => `No BIR value for this barangay. These are estimates: the median of the ${p.nb} neighboring ${p.nb === 1 ? 'barangay' : 'barangays'} with their own values (${p.nbn}).`,
   },
   no_data: { label: 'no data', cls: '', text: p => `No zonal values loaded for ${p.c} yet.` },
 };
@@ -157,7 +157,7 @@ interface StreetIndex { [city: string]: { file: string; bbox: [number, number, n
 let streetIndex: StreetIndex = {};
 const streetFeatures: Collection<StreetProps>['features'] = [];
 const streetLoaded = new Set<string>();
-// ---- colour by other factors (pipeline/factors.py; vacancy from data/vacancy_submarkets.csv) ----
+// ---- color by other factors (pipeline/factors.py; vacancy from data/vacancy_submarkets.csv) ----
 type By = 'value' | 'elev' | 'heat' | 'flood' | 'rail' | 'xway' | 'vaco' | 'vacc' | 'tt';
 interface Factor {
   prop: string; label: string; breaks: number[]; colors: string[]; fmt: (v: number) => string; source: string;
@@ -252,7 +252,7 @@ async function loadTravel() {
   t.label = `Travel time by car to ${dest.name}, ${PERIOD_SHORT[state.ttPeriod]}`;
   t.source = `Estimate on OpenStreetMap roads as of ${travelIndex.network ?? 'the last build'}, with a congestion model ` +
     (travelIndex.calibrated ? `calibrated on ${travelIndex.trips} logged trips` : 'not yet calibrated against real trips') +
-    '. Colours show the middle estimate; each card gives a range. Jeepneys, buses and rail are not modelled.';
+    '. Colors show the middle estimate; each card gives a range. Jeepneys, buses and rail are not modeled.';
   applyTravelState();
 }
 
@@ -325,7 +325,7 @@ function renderCondoCard(p: CondoProps) {
       <dt>Schedule effective</dt><dd>${esc(p.eff || '')}</dd>
       <dt>Department Order</dt><dd>${esc(p.do.replace('DO ', ''))}</dd>
     </dl>
-    <p class="q">BIR's zonal value for units in "${esc(p.n)}", per square metre of floor area, not land. Placed on the
+    <p class="q">BIR's zonal value for units in "${esc(p.n)}", per square meter of floor area, not land. Placed on the
     OpenStreetMap building of that name; a tax floor, not a market price.</p>`;
   card.hidden = false;
   card.querySelector<HTMLButtonElement>('.close')!.onclick = () => { card.hidden = true; };
@@ -401,7 +401,7 @@ function renderTransportCard(p: { k: string; s: string; n: string; ref?: string;
 }
 
 const STREET_MINZOOM = 11.5;           // street/village layers exist from here, fully transparent...
-const STREET_FADE: [number, number] = [12.5, 14];  // ...and cross-fade with the barangay colours over this range
+const STREET_FADE: [number, number] = [12.5, 14];  // ...and cross-fade with the barangay colors over this range
 const STREET_PREFETCH = 11;           // city files load a little before they show, so nothing pops in
 const fadeIn = (full: number): ExpressionSpecification => ['interpolate', ['linear'], ['zoom'], STREET_MINZOOM, 0, STREET_FADE[0] + 0.5, full];
 const byId = new Map<string, Feature>();
@@ -525,7 +525,7 @@ function addLayers() {
   const h = hatchImage();
   map.addImage('hatch', h.image, { pixelRatio: h.pixelRatio });
 
-  // imagery sits above the basemap's geometry and below the zonal colours and the basemap's labels
+  // imagery sits above the basemap's geometry and below the zonal colors and the basemap's labels
   map.addSource('sat', { type: 'raster', tiles: SATELLITE.tiles, tileSize: 256, maxzoom: SATELLITE.maxzoom,
     attribution: SATELLITE.attribution });
   map.addLayer({ id: 'sat', type: 'raster', source: 'sat', layout: { visibility: state.satellite ? 'visible' : 'none' } }, before);
@@ -650,8 +650,8 @@ const VALUE_LAYERS = ['c-fill', 'z-fill', 'z-hatch', 'z-line', 'c-line', 'z-focu
 /** Show the layers, controls and texts of the current view (land value, data staleness, untitled land). */
 function applyView() {
   const nat = state.view !== 'value';
-  // Untitled land has no button (only 2004 figures for 3 areas); it stays reachable at #view=untitled
-  pressed('[data-view]', document.querySelector<HTMLButtonElement>(`[data-view="${state.view}"]`)!);
+  // Untitled land has no switch (only 2004 figures for 3 areas); it stays reachable at #view=untitled
+  $<HTMLInputElement>('stale-toggle').checked = state.view === 'stale';
   pressed('[data-sched]', document.querySelector(`[data-sched="${state.sched}"]`)!);
   $('g-value').hidden = nat;
   $('g-stale').hidden = state.view !== 'stale';
@@ -677,6 +677,7 @@ function applyView() {
 async function setView(v: View, fit = true) {
   const was = state.view;
   state.view = v;
+  rankLimit = RANK_STEP;
   if ((v === 'value') !== (was === 'value')) { select(null); selectNat(null); }
   applyView();
   if (fit && was === 'value' && v !== 'value') map.fitBounds(PH_BOUNDS, { padding: 12, duration: 0 });
@@ -699,6 +700,17 @@ function selectNat(id: string | null, fly = false) {
     $('card').hidden = true;
   }
   writeHash();
+}
+
+// "Flag as out of date": a prefilled GitHub issue (no backend; needs a GitHub account)
+const REPO = 'https://github.com/AndrewConcejero/ph-zonal-map';
+function flagLink(area: string, facts: [string, string | undefined][], hash: string) {
+  const body = [`**Area:** ${area}`, ...facts.filter(([, v]) => v).map(([k, v]) => `**${k}:** ${v}`),
+    `**Map link:** ${location.origin}/#${hash}`, '', '**What is out of date?**', '', '',
+    '**The current value or schedule, and where it comes from** (Department Order, ordinance, notice or link):', '', ''].join('\n');
+  const q = (k: string, v: string) => `${k}=${encodeURIComponent(v)}`;
+  const url = `${REPO}/issues/new?${[q('title', `Out of date: ${area}`), q('labels', 'out-of-date'), q('body', body)].join('&')}`;
+  return `<a class="flag" href="${esc(url)}" target="_blank" rel="noopener" title="Opens a prefilled report on GitHub">Flag as out of date</a>`;
 }
 
 const pct = (v: number) => `${(v * 100).toFixed(v < 0.1 ? 1 : 0)}%`;
@@ -750,14 +762,17 @@ function renderNatCard(id: string) {
         ${row('Valuation source', rec ? esc(SOURCE_LABEL[rec.valuation_source]) : 'BIR zonal value')}
         ${row('Source', rec ? link(rec.source_url, 'BIR workbook') : link('https://www.bir.gov.ph/zonal-values', 'BIR zonal values'))}
       </dl>
-      <p class="q">${p.s_n! > 1 ? `${esc(p.n)} is served by ${p.s_n} Revenue District Offices; the map colours the oldest of their current schedules. ` : ''}Counted from the effectivity date of the newest BIR Department Order that covers ${esc(p.n)}. RA 12001 expects schedules revised at least every three years.</p>`;
+      <p class="q">${p.s_n! > 1 ? `${esc(p.n)} is served by ${p.s_n} Revenue District Offices; the map colors the oldest of their current schedules. ` : ''}Counted from the effectivity date of the newest BIR Department Order that covers ${esc(p.n)}. RA 12001 expects schedules revised at least every three years.</p>`;
   } else {
     body = `<div class="big"><small>Unknown</small></div>
       <p class="q">No BIR Department Order found that names ${esc(p.n)}. Listed in DATA_GAPS.md with the reason.</p>`;
   }
   card.innerHTML = `
     <div class="head"><div class="nm">${esc(p.n)}</div><button class="close" type="button" aria-label="Close">×</button></div>
-    <div class="loc">${esc(p.p)} · ${esc(p.r)}</div>${body}`;
+    <div class="loc">${esc(p.p)} · ${esc(p.r)}</div>${body}
+    ${flagLink(`${p.n}, ${p.p}`, [['Layer', state.view === 'untitled' ? 'Untitled land' : state.sched === 'smv' ? 'LGU SMV status' : 'BIR schedule age'],
+      ['Schedule shown', p.s_do ? `${p.s_do}, effective ${p.s_eff} (${rdoName(p.s_rdo)})` : undefined]],
+      `view=${state.view}${state.sched === 'smv' ? '&sched=smv' : ''}&l=${p.id}`)}`;
   card.hidden = false;
   card.querySelector<HTMLButtonElement>('.close')!.onclick = () => selectNat(null);
 }
@@ -782,8 +797,8 @@ function natLegend(): string {
     <div class="imagery">Per city or municipality, as of ${esc(natMeta?.as_of ?? '')}. ${about}</div>`;
 }
 
-// with imagery on, the colours fade so roofs and greenery show through
-// and at street zoom the barangay colours fade further, so village and street values stand out
+// with imagery on, the colors fade so roofs and greenery show through
+// and at street zoom the barangay colors fade further, so village and street values stand out
 const fillOpacity = (): ExpressionSpecification => {
   if (factor()) return ['literal', state.satellite ? 0.55 : 0.85] as unknown as ExpressionSpecification;
   const q: ExpressionSpecification = ['coalesce', ['get', qKey()], 'no_data'];
@@ -1022,7 +1037,9 @@ function renderCard(id: string) {
       }).join('')}
     </dl>
     <p class="q">${p.nores ? `BIR's current schedule (${esc(p.nores)}) lists no residential land here, only commercial or industrial values, so older residential values are not used. ` : ''}${esc(q.text(p))}${p.since ? ` The ${p.do} schedule repeats the values of ${p.since.split(',')[0]}, so the adjustment starts from ${p.since.split(', ')[1]}.` : ''}${
-      p.yrs != null ? ` Adjusted values grow the schedule ${p.yrs.toFixed(0)} ${p.yrs < 1.5 ? 'year' : 'years'} at the rate BIR raised the same streets between its last two revisions${rough ? '. That is a long projection; treat it as rough' : ''}.` : ''}</p>`;
+      p.yrs != null ? ` Projected values grow the schedule ${p.yrs.toFixed(0)} ${p.yrs < 1.5 ? 'year' : 'years'} at the rate BIR raised the same streets between its last two revisions${rough ? '. That is a long projection; treat it as rough' : ''}.` : ''}</p>
+    ${flagLink(`${p.n}, ${where}`, [['Land use', useWord()], ['Value shown', v != null ? `${fmt(v)}/sqm (${MODE_LABEL[state.mode].toLowerCase()})` : 'none'],
+      ['Schedule', p.do ? `${p.do}, effective ${p.eff ?? '?'}${rdo ? ` (${rdo})` : ''}` : undefined]], `b=${id}`)}`;
   card.hidden = false;
   card.querySelector<HTMLButtonElement>('.close')!.onclick = () => select(null);
 }
@@ -1062,6 +1079,13 @@ function renderLegend() {
 }
 
 // ---- ranking (barangays with their own data, inside the current map view) ----
+const RANK_STEP = 25;
+let rankLimit = RANK_STEP;
+function rankMore(total: number) {
+  const b = $<HTMLButtonElement>('rank-more');
+  b.hidden = total <= rankLimit;
+  b.textContent = `Show ${Math.min(RANK_STEP, total - rankLimit)} more (${total.toLocaleString()} in view)`;
+}
 function renderRank() {
   if (state.view !== 'value') { renderNatRank(); return; }
   if (!zonal) return;
@@ -1074,7 +1098,8 @@ function renderRank() {
     });
     const val = (f: Feature) => fval(fac, f.properties)!;
     inView.sort((a, z) => val(z) - val(a));
-    const pick = state.order === 'top' ? inView.slice(0, 10) : inView.slice(-10).reverse();
+    const pick = state.order === 'top' ? inView.slice(0, rankLimit) : inView.slice(-rankLimit).reverse();
+    rankMore(inView.length);
     $('rank-h').textContent = fac.get
       ? `${state.order === 'top' ? 'Longest' : 'Shortest'} trips in view`
       : `${state.order === 'top' ? 'Highest' : 'Lowest'} ${fac.label.toLowerCase()} in view`;
@@ -1097,7 +1122,8 @@ function renderRank() {
     const bb = bboxes.get(p.id)!;
     return b.contains([(bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2]);
   }).sort((a, z) => (z.properties[k] as number) - (a.properties[k] as number));
-  const list = state.order === 'top' ? rows.slice(0, 10) : rows.slice(-10).reverse();
+  const list = state.order === 'top' ? rows.slice(0, rankLimit) : rows.slice(-rankLimit).reverse();
+  rankMore(rows.length);
   const label = `${MODE_LABEL[state.mode].toLowerCase()}${state.use === 'res' ? '' : ` ${useWord()}`}`;
   $('rank-h').textContent = `${state.order === 'top' ? 'Highest' : 'Lowest'} ${label} values in view`;
   $('rank-note').textContent = rows.length
@@ -1130,7 +1156,8 @@ function renderNatRank() {
     // one row per area the source reports: a province-wide figure is one finding, not one per town
     .filter((f, i, all) => state.view !== 'untitled' || all.findIndex(g => g.properties.u_area === f.properties.u_area) === i);
   const top = state.order === 'top';
-  const list = top ? inView.slice(0, 10) : inView.slice(-10).reverse();
+  const list = top ? inView.slice(0, rankLimit) : inView.slice(-rankLimit).reverse();
+  rankMore(inView.length);
   $('rank-h').textContent = state.view === 'untitled'
     ? `${top ? 'Highest' : 'Lowest'} untitled shares in view`
     : smv ? 'LGU market value schedules' : `${top ? 'Oldest' : 'Newest'} BIR schedules in view`;
@@ -1169,21 +1196,21 @@ function renderAbout() {
       ['Source', `PA-LAMP <i>Land Tenure Status Report</i>, Book 1 (September 2004), as reported in ${link('https://documents1.worldbank.org/curated/en/334961495809114943/pdf/115311-PN-P156898-PUBLIC-Policy-Notes-Land-Administration-and-Management-FINAL2.pdf', 'World Bank, Philippines Urbanization Review Policy Notes: Improving Land Administration and Management (2017), Table 3')}. Rows live in data/untitled_land.csv, each with its own source link and date.`],
       ['As of', 'September 2004 for every figure shown. Nothing newer has been published at city, municipality or province level that we could find.'],
       ['Method', 'Untitled parcels ÷ all parcels, as the study reports them. A city or municipality takes the figure of the smallest area that contains it (its own, else its province, else its region), and its card says which. No figure is estimated, interpolated or spread to areas the source does not cover.'],
-      ['Known gaps', `Only Metro Manila, Cebu province and Misamis Oriental have a figure; every other LGU is grey. The figures are 22 years old and the study calls them estimates, so confidence is marked low. Sources that could fill the rest (DENR Land Management Bureau, LRA, PSA, LGU assessors' tax-declaration rolls) are listed in ${gaps}.`],
+      ['Known gaps', `Only Metro Manila, Cebu province and Misamis Oriental have a figure; every other LGU is gray. The figures are 22 years old and the study calls them estimates, so confidence is marked low. Sources that could fill the rest (DENR Land Management Bureau, LRA, PSA, LGU assessors' tax-declaration rolls) are listed in ${gaps}.`],
     ]);
   } else if (state.view === 'stale') {
     title = state.sched === 'smv' ? 'Data staleness: LGU Schedules of Market Values' : 'Data staleness: BIR zonal value schedules';
     html = state.sched === 'smv' ? dl([
       ['Source', 'Rows entered by hand in data/lgu_smv_status.csv, each with its own source link and date: an LGU\'s SMV ordinance, or BLGF\'s status of its RA 12001 schedule.'],
       ['As of', `${nm?.sources.smv.rows ?? 0} rows so far.`],
-      ['Method', 'Colour by the RA 12001 status of the LGU\'s own schedule. A province\'s status is never spread to its cities and municipalities.'],
+      ['Method', 'Color by the RA 12001 status of the LGU\'s own schedule. A province\'s status is never spread to its cities and municipalities.'],
       ['Known gaps', `Every LGU. BLGF does not publish a machine-readable status list, and its site refuses automated requests. ${link(BLGF_2021.url, 'BLGF\'s 2021 count')}: 137 of 227 LGUs had not revised their SMV in three years. Where to get the list: ${gaps}.`],
     ]) : dl([
       ['Source', `Every BIR zonal value workbook, one per Revenue District Office (${nm?.rdos_with_dates ?? '?'} of ${nm?.rdos_in_index ?? '?'} RDOs), from ${link(nm?.sources.bir_index.url ?? 'https://www.bir.gov.ph/zonal-values', 'BIR\'s zonal values page')}, read ${esc(nm?.sources.bir_index.as_of ?? '')}. The NOTICE sheet of each workbook lists its Department Orders, their effectivity dates and the LGUs each covers. Audit trail: data/bir_national_schedule.csv.`],
       ['As of', `Years counted to ${esc(nm?.as_of ?? '')}.`],
       ['Context', `${esc(BLGF_2021.text)} (${link(BLGF_2021.url, 'BLGF, 2021, slide 5')}). Today ${nm?.rdos_not_revised_3y ?? '?'} of ${nm?.rdos_with_dates ?? '?'} RDOs have a newest schedule 3 or more years old. RA 12001 moves valuation to LGU Schedules of Market Values approved by BLGF (${link('https://blgf.gov.ph/wp-content/uploads/2025/03/BLGF-MC-No.-001.2025-IRR-of-RA-No.-12001-or-the-RPVARA-Reform-Act-6-Jan-2025-Approved-3.pdf', 'implementing rules')}).`],
       ['Method', 'For each city or municipality: the newest Department Order of each RDO that covers it, then the oldest of those (part of the city runs on that schedule). Where barangay values are mapped (Metro Manila and 8 nearby provinces) the dates come from the barangays\' own values instead. Green means revised within 3 years, which RA 12001 expects.'],
-      ['Known gaps', `${nm?.staleness_buckets.unknown ?? '?'} LGUs are grey: no BIR Department Order names them (Subic Bay Freeport has no published workbook; the new Special Geographic Area towns in BARMM, and a few renamed towns). An RDO whose newest order covers only some of its towns leaves the others on older orders, which is what the map shows. Details: ${gaps}.`],
+      ['Known gaps', `${nm?.staleness_buckets.unknown ?? '?'} LGUs are gray: no BIR Department Order names them (Subic Bay Freeport has no published workbook; the new Special Geographic Area towns in BARMM, and a few renamed towns). An RDO whose newest order covers only some of its towns leaves the others on older orders, which is what the map shows. Details: ${gaps}.`],
     ]);
   } else {
     title = 'Land value';
@@ -1191,8 +1218,8 @@ function renderAbout() {
     html = dl([
       ['Source', `BIR zonal value schedules (Department Orders), one workbook per Revenue District Office, from ${link('https://www.bir.gov.ph/zonal-values', 'bir.gov.ph')}. Each barangay's card links the workbook its value came from.`],
       ['As of', meta?.schedule_range ? `Schedules effective ${esc(span(meta.schedule_range))}; data built ${esc(longDate(meta.built_at))}.` : ''],
-      ['Method', 'Residential (class RR), commercial (CR) or industrial (I) land rows of the newest schedule covering each barangay. Typical is the median street value; interior lot the lowest; prime the highest. "Projected to today" grows each value at its district\'s own past rate: a projection, labelled as one, never a BIR value.'],
-      ['Known gaps', `Values are mapped for Metro Manila and 8 nearby provinces only. ${(f.no_data ?? 0).toLocaleString()} of ${(meta?.coverage.features ?? 0).toLocaleString()} barangays there have no BIR value of their own and are grey; they are no longer filled from neighbours or city medians. List: ${gaps}.`],
+      ['Method', 'Residential (class RR), commercial (CR) or industrial (I) land rows of the newest schedule covering each barangay. Typical is the median street value; interior lot the lowest; prime the highest. "Projected to today" grows each value at its district\'s own past rate: a projection, labeled as one, never a BIR value.'],
+      ['Known gaps', `Values are mapped for Metro Manila and 8 nearby provinces only. ${(f.no_data ?? 0).toLocaleString()} of ${(meta?.coverage.features ?? 0).toLocaleString()} barangays there have no BIR value of their own and are gray; they are no longer filled from neighbors or city medians. List: ${gaps}.`],
     ]);
   }
   $('about-h').textContent = `About this data: ${title}`;
@@ -1294,9 +1321,9 @@ function wireControls() {
     state.basis = b.dataset.basis as Basis; pressed('[data-basis]', b); repaint();
   });
   document.querySelectorAll<HTMLButtonElement>('[data-order]').forEach(b => b.onclick = () => {
-    state.order = b.dataset.order as 'top' | 'bottom'; pressed('[data-order]', b); renderRank();
+    state.order = b.dataset.order as 'top' | 'bottom'; pressed('[data-order]', b); rankLimit = RANK_STEP; renderRank();
   });
-  document.querySelectorAll<HTMLButtonElement>('[data-view]').forEach(b => b.onclick = () => { void setView(b.dataset.view as View); });
+  $<HTMLInputElement>('stale-toggle').onchange = e => { void setView((e.target as HTMLInputElement).checked ? 'stale' : 'value'); };
   document.querySelectorAll<HTMLButtonElement>('[data-sched]').forEach(b => b.onclick = () => {
     state.sched = b.dataset.sched as Sched; applyView(); if (state.natSelected) renderNatCard(state.natSelected);
     renderLegend(); renderRank(); renderAbout(); writeHash();
@@ -1305,15 +1332,27 @@ function wireControls() {
     $('rpvara').hidden = true;
     try { localStorage.setItem('rpvara-dismissed', '1'); } catch { /* private mode */ }
   };
+  $('rank-more').onclick = () => { rankLimit += RANK_STEP; renderRank(); };
+  // links to "About this data" open its drawer first
+  document.addEventListener('click', e => {
+    const a = (e.target as HTMLElement).closest<HTMLAnchorElement>('a[href="#about-layer"]');
+    if (!a) return;
+    e.preventDefault();
+    const d = $<HTMLDetailsElement>('about-layer');
+    d.open = true;
+    d.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
   $('sat').onclick = () => { state.satellite = !state.satellite; applySatellite(); };
   $('tr').onclick = () => { void setTransport(!state.transport); };
   $('cd').onclick = () => { void setCondos(!state.condos); };
-  $<HTMLSelectElement>('by').onchange = async e => {
-    state.by = (e.target as HTMLSelectElement).value as By;
+  document.querySelectorAll<HTMLButtonElement>('[data-by]').forEach(b => b.onclick = async () => {
+    state.by = b.dataset.by as By;
+    pressed('[data-by]', b);
+    rankLimit = RANK_STEP;
     showTravelControls();
     if (state.by === 'tt') await loadTravel();
     repaint();
-  };
+  });
   $<HTMLSelectElement>('tt-dest').onchange = async e => {
     state.ttDest = (e.target as HTMLSelectElement).value; await loadTravel(); repaint();
   };
@@ -1370,7 +1409,7 @@ function readHash() {
   state.use = u === 'com' || u === 'ind' ? u : 'res';
   const by = h.get('by') as By | null;
   state.by = by && by in FACTORS ? by : 'value';
-  $<HTMLSelectElement>('by').value = state.by;
+  pressed('[data-by]', document.querySelector<HTMLButtonElement>(`[data-by="${state.by}"]`)!);
   state.ttDest = h.get('to') ?? state.ttDest;
   const at = h.get('at');
   state.ttPeriod = at === 'pm' || at === 'off' ? at : 'am';
@@ -1393,6 +1432,8 @@ const longDate = (d: string) => new Date(`${d.slice(0, 10)}T00:00:00Z`).toLocale
 const span = (r: string[]) => !r.length ? '' : r[0] === r[r.length - 1] ? longDate(r[0]) : `${longDate(r[0])} to ${longDate(r[r.length - 1])}`;
 
 function renderFootnotes() {
+  $('foot-built').textContent = `Data last built ${longDate(meta.built_at)}`;
+  $('year').textContent = String(new Date().getFullYear());
   $('fn-built').innerHTML = `Data built ${esc(longDate(meta.built_at))}` +
     (meta.adjusted_to ? `; "adjusted to today" values are projected to ${esc(longDate(meta.adjusted_to))}.` : '.');
   $('fn-schedules').innerHTML = meta.schedule_range
@@ -1418,7 +1459,7 @@ async function boot() {
   streetIndex = si;
   national = nat; natMeta = nm; valuation = vs?.records ?? {};
   for (const f of national?.features ?? []) { natById.set(f.properties.id, f); natBoxes.set(f.properties.id, bboxOf(f.geometry)); }
-  if (!national) document.querySelectorAll<HTMLButtonElement>('[data-view="stale"], [data-view="untitled"]').forEach(b => { b.disabled = true; });
+  if (!national) $<HTMLInputElement>('stale-toggle').disabled = true;
   let dismissed = false;
   try { dismissed = localStorage.getItem('rpvara-dismissed') === '1'; } catch { /* private mode */ }
   $('rpvara').hidden = dismissed;
@@ -1430,7 +1471,7 @@ async function boot() {
   condoIndex = await get('/data/condos/index.json').catch(() => ({}));
   for (const k of ['vaco', 'vacc'] as const) {
     if (!(z as Collection<Props>).features.some(f => typeof (f.properties as unknown as Record<string, unknown>)[FACTORS[k].prop] === 'number')) {
-      document.querySelector(`#by option[value="${k}"]`)?.remove();
+      document.querySelector(`[data-by="${k}"]`)?.remove();
     }
   }
   zonal = z; cities = c; meta = m;
@@ -1447,7 +1488,7 @@ async function boot() {
   }
   const f = meta.coverage.by_flag;
   $('coverage').textContent = `Coverage: ${(f.barangay_data ?? 0).toLocaleString()} barangays with their own values and ` +
-    `${(f.no_data ?? 0).toLocaleString()} with none (grey; nothing estimated). Data built ${meta.built_at.slice(0, 10)}.`;
+    `${(f.no_data ?? 0).toLocaleString()} with none (gray; nothing estimated). Data built ${meta.built_at.slice(0, 10)}.`;
 
   renderFootnotes();
 
